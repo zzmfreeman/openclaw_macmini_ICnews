@@ -166,11 +166,11 @@
             <div class="summary">${escapeHtml(it.summary||'').replace(/\n/g,'<br/>')}</div>
             <div class="insights">
               <div class="label">行业洞见</div>
-              <ul>${(it.insights||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>
+              <ul>${[].concat(it.insights||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>
             </div>
             <div class="actions">
               <div class="label">建议动作（采购 / BD）</div>
-              <ul>${(it.actions||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>
+              <ul>${[].concat(it.actions||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>
             </div>
           </div>`;
       };
