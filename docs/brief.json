@@ -1,30 +1,345 @@
 {
-  "asOf": "(demo)",
-  "keywords": ["2nm/N2", "3nm", "GAA", "EUV", "PDK", "HBM", "CoWoS", "UCIe"],
-  "notes": "这是演示页面结构。后续日报会把当天内容写入 brief.json。",
+  "asOf": "2026-03-03 00:14",
+  "keywords": [
+    "2nm",
+    "Advanced Packaging",
+    "HBM",
+    "AI Chips",
+    "Broadcom",
+    "ASML",
+    "Micron",
+    "Huawei"
+  ],
   "items": [
     {
-      "region": "domestic",
-      "title": "示例：TSMC N2 产能/良率相关更新（占位）",
-      "source": "示例来源",
+      "region": "overseas",
+      "title": "Broadcom Begins Shipping First 2nm Custom AI SoC with 3.5D Packaging",
+      "source": "Digitimes / Simply Wall St",
       "published": "2026-03-02",
-      "url": "https://example.com",
-      "tags": ["N2", "yield", "capacity"],
-      "summary": "这里放长摘要（200-400字）。\n第二行。",
-      "insights": ["洞见1", "洞见2"],
-      "actions": ["采购动作1", "BD动作1"]
+      "url": "https://www.digitimes.com/news/a20260302VL212/broadcom-2nm-nvidia-processor-shipping.html",
+      "summary": "Broadcom has commenced shipping the industry's first 2nm custom compute SoC to Fujitsu. The chip leverages Broadcom's 3.5D eXtreme Dimension System in Package (XDSiP) technology, which uses Face-to-Face (F2F) integration for higher compute density and power efficiency. This marks a tangible step in the commercialization of 2nm process technology for AI workloads.",
+      "insights": [
+        "Validates 2nm process maturity for high-performance computing.",
+        "3.5D packaging is becoming a critical differentiator for custom AI silicon performance.",
+        "Fujitsu's adoption highlights Japan's continued push in supercomputing/AI infrastructure."
+      ],
+      "actions": [
+        "Monitor yield rates and volume ramp-up of 3.5D packaging lines.",
+        "Assess impact on custom silicon (ASIC) market share vs. standard GPUs."
+      ],
+      "tags": [
+        "2nm",
+        "Packaging",
+        "AI",
+        "Broadcom"
+      ]
     },
     {
       "region": "overseas",
-      "title": "Example: Siemens Questa One agentic AI update (placeholder)",
-      "source": "Example source",
+      "title": "ASML Expands Strategy 'Beyond EUV' to Advanced Packaging Tools",
+      "source": "Reuters / Global Banking & Finance",
       "published": "2026-03-02",
-      "url": "https://example.com",
-      "tags": ["verification", "agentic AI"],
-      "summary": "Longer summary goes here.",
-      "insights": ["Insight A"],
-      "actions": ["Action A"]
+      "url": "https://www.reuters.com/world/asia-pacific/asml-plots-future-chipmaking-tools-ai-beyond-euv-2026-03-02/",
+      "summary": "ASML is actively developing new equipment specifically for advanced packaging to bond and connect specialized AI chips. This strategic pivot aims to capture value beyond its lithography monopoly, addressing the bottleneck in interconnecting dies for massive AI models. High-NA EUV platforms also continue to scale.",
+      "insights": [
+        "ASML sees packaging as the next major bottleneck and revenue pool alongside lithography.",
+        "Vertical integration of litho + packaging tools could offer tighter process control for fabs.",
+        "Direct challenge to existing backend equipment suppliers."
+      ],
+      "actions": [
+        "Track ASML's roadmap for hybrid bonding or interconnect tools.",
+        "Evaluate potential partnerships with OSATs."
+      ],
+      "tags": [
+        "ASML",
+        "Packaging",
+        "Equipment"
+      ]
+    },
+    {
+      "region": "overseas",
+      "title": "Micron Inaugurates Sanand Assembly Facility; 2026 HBM Fully Allocated",
+      "source": "Digitimes / Seeking Alpha",
+      "published": "2026-03-01",
+      "url": "https://www.digitimes.com/news/a20260301VL200/micron-manufacturing-hardware-investment-chips.html",
+      "summary": "Micron officially opened its new semiconductor assembly and test facility in Sanand, Gujarat, India. The plant will process DRAM and NAND wafers. Concurrently, reports indicate Micron's entire High-Bandwidth Memory (HBM) production capacity for 2026 is already sold out, driven by intense hyperscaler demand.",
+      "insights": [
+        "India's role in the global semiconductor value chain is solidifying.",
+        "HBM shortage remains severe; pricing power stays with memory makers through 2026.",
+        "Sanand facility adds supply chain resilience outside China/Taiwan."
+      ],
+      "actions": [
+        "Secure long-term HBM supply contracts immediately if not already done.",
+        "Monitor India's infrastructure stability for high-volume chip exports."
+      ],
+      "tags": [
+        "Micron",
+        "HBM",
+        "India",
+        "Supply Chain"
+      ]
+    },
+    {
+      "region": "domestic",
+      "title": "Huawei Unveils Atlas 950 SuperPoD to Challenge Nvidia",
+      "source": "Digitimes / TrendForce",
+      "published": "2026-03-02",
+      "url": "https://www.digitimes.com/news/a20260302VL209/huawei-ascend-data-center-nvidia-mwc-2026.html",
+      "summary": "At MWC 2026, Huawei showcased its Atlas 950 SuperPoD overseas for the first time, positioning it as a direct competitor to Nvidia's data center solutions. The system is reportedly powered by Ascend 920 (or enhanced 910C) chips, with claims of mass production capability despite export controls.",
+      "insights": [
+        "Huawei is aggressively marketing its AI stack globally (non-US markets) despite sanctions.",
+        "Suggests confidence in domestic yield improvement for 7nm/5nm-class processes.",
+        "Increases bifurcation of global AI ecosystem (Nvidia vs. Ascend)."
+      ],
+      "actions": [
+        "Analyze benchmark data for Atlas 950 vs. H100/H200 if available.",
+        "Watch for adoption in SE Asia and Middle East markets."
+      ],
+      "tags": [
+        "Huawei",
+        "AI",
+        "China",
+        "Data Center"
+      ]
+    },
+    {
+      "region": "domestic",
+      "title": "SJ Semiconductor Approved for STAR Market IPO",
+      "source": "The Star",
+      "published": "2026-03-01",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/03/01/why-sj-semiconductor-matters-in-chinas-race-to-build-home-grown-ai-chips",
+      "summary": "SJ Semiconductor, a key Chinese player in advanced packaging (bumping, wafer-level packaging), has received approval to list on the Shanghai STAR Market. The IPO is seen as a critical move to fund expansion and support China's self-reliant AI chip ecosystem.",
+      "insights": [
+        "Capital injection will accelerate domestic advanced packaging capacity (CoWoS-like alternatives).",
+        "Critical link in China's strategy to circumvent front-end lithography limits via backend integration."
+      ],
+      "actions": [
+        "Monitor SJ Semi's capex plans post-IPO.",
+        "Evaluate their technology roadmap for 2.5D/3D packaging."
+      ],
+      "tags": [
+        "IPO",
+        "Packaging",
+        "China"
+      ]
+    },
+    {
+      "region": "overseas",
+      "title": "Nvidia GTC 2026 Expectations: Rubin Platform & HBM4",
+      "source": "Digitimes",
+      "published": "2026-03-02",
+      "url": "https://www.digitimes.com/news/a20260302VL202/digitimes-asia-weekly-news-roundup-nvidia-tsmc-taiwan-2026.html",
+      "summary": "Anticipation is building for Nvidia's GTC 2026, where CEO Jensen Huang is expected to unveil details of the Vera Rubin platform. The new architecture will reportedly utilize TSMC's N3P process and feature chiplet designs with HBM4 memory integration to address the 'AI bubble' concerns with tangible reasoning capabilities.",
+      "insights": [
+        "Move to N3P and HBM4 sets the new performance baseline for 2026/27.",
+        "Chiplet architecture confirms the industry-wide shift away from monolithic dies for top-tier AI.",
+        "Focus on 'reasoning' suggests software/algorithmic shifts accompanying hardware."
+      ],
+      "actions": [
+        "Prepare for HBM4 qualification cycles.",
+        "Adjust data center power/cooling roadmaps for Rubin's likely higher TDP."
+      ],
+      "tags": [
+        "Nvidia",
+        "HBM4",
+        "GTC",
+        "TSMC"
+      ]
+    },
+    {
+      "region": "overseas",
+      "title": "DRAM Prices Surge on AI-Driven Shortages",
+      "source": "IEEE Spectrum / Sina Finance",
+      "published": "2026-02-28",
+      "url": "https://spectrum.ieee.org/dram-shortage",
+      "summary": "The AI boom is causing a severe shortage in DRAM supply, driving prices up. With capacity diverted to HBM and high-density server DDR5, standard DRAM availability is tightening. IEEE Spectrum reports that the complex linkage between GPUs and memory (2,048 connections) is creating production bottlenecks.",
+      "insights": [
+        "Commodity DRAM prices will likely follow HBM's upward trend due to capacity displacement.",
+        "Hardware costs for non-AI servers and PCs will rise in 2026.",
+        "Opportunity for second-tier memory makers to fill the low-end void."
+      ],
+      "actions": [
+        "Buffer inventory for standard DDR5/LPDDR5 immediately.",
+        "Re-negotiate quarterly pricing contracts."
+      ],
+      "tags": [
+        "DRAM",
+        "Memory",
+        "Prices"
+      ]
+    },
+    {
+      "region": "domestic",
+      "title": "China's Storage Chip Prices Rise; Downstream 'Panic Stocking'",
+      "source": "Sina Finance",
+      "published": "2026-02-28",
+      "url": "https://finance.sina.com.cn/jjxw/2026-02-28/doc-inhpkpen9867394.shtml",
+      "summary": "China's National Development and Reform Commission reports sustained price increases in storage chips, driven by explosive AI server demand (up 28%) and a 'cliff-like' shortage of production capacity. Downstream manufacturers are engaging in panic stocking to secure supply.",
+      "insights": [
+        "Domestic pricing mirrors global trends but exacerbated by local supply chain anxiety.",
+        "Speculative hoarding may create artificial scarcity followed by inventory correction later.",
+        "Highlights the tight coupling between AI build-outs and general component availability."
+      ],
+      "actions": [
+        "Audit supplier inventory levels.",
+        "Avoid over-ordering at peak prices; look for long-term agreements."
+      ],
+      "tags": [
+        "Storage",
+        "China",
+        "Prices"
+      ]
+    },
+    {
+      "region": "domestic",
+      "title": "Advanced Packaging Industry Entering 'Golden Age'",
+      "source": "36Kr",
+      "published": "2026-03-02",
+      "url": "https://36kr.com/p/2398532774600325",
+      "summary": "A deep dive by 36Kr analyzes how advanced packaging (AP) has become the primary value driver for semiconductors below the 2nm node. With Moore's Law slowing, AP is essential for integration, power scaling, and 'More than Moore' functionality, attracting massive R&D from TSMC, Intel, and Samsung.",
+      "insights": [
+        "Packaging is no longer a low-margin backend service but a high-tech frontend-like process.",
+        "Value capture in the supply chain is shifting towards substrate and packaging equipment makers."
+      ],
+      "actions": [
+        "Investigate supply chain exposure to advanced substrate manufacturers.",
+        "Consider partnerships with emerging AP providers."
+      ],
+      "tags": [
+        "Packaging",
+        "Analysis",
+        "Market"
+      ]
+    },
+    {
+      "region": "overseas",
+      "title": "SK Hynix Expands HBM3/4 Production; US Facility On Track",
+      "source": "36Kr / Ad-Hoc News",
+      "published": "2026-03-01",
+      "url": "https://36kr.com/p/2630712625479936",
+      "summary": "SK Hynix is doubling down on HBM capacity, expanding its domestic lines for HBM3/4 and progressing with its $15B US advanced packaging facility (expected mass production 2025-2026). The US plant will focus on packaging Hynix memory with logic chips for AI applications.",
+      "insights": [
+        "SK Hynix aims to maintain its HBM leadership against Micron and Samsung.",
+        "US facility represents a key onshore packaging capability for American hyperscalers.",
+        "Aggressive capex indicates high confidence in sustained AI demand."
+      ],
+      "actions": [
+        "Diversify HBM sourcing where possible.",
+        "Monitor qualification timelines for the new US facility."
+      ],
+      "tags": [
+        "SK Hynix",
+        "HBM",
+        "Expansion"
+      ]
+    },
+    {
+      "region": "overseas",
+      "title": "Amazon Trainium 2 vs. GPU Cost Analysis",
+      "source": "Markaicode",
+      "published": "2026-03-01",
+      "url": "https://markaicode.com/aws-trainium2-vs-gpu-fine-tuning-cost/",
+      "summary": "A new analysis compares the real-world costs of fine-tuning LLMs on AWS Trainium 2 versus Nvidia H100/A100 GPUs. The report highlights the trade-offs in pricing and software ecosystem maturity, offering a guide for enterprises looking to optimize AI OpEx.",
+      "insights": [
+        "Custom silicon (Trainium) is becoming a viable cost-saving alternative for specific workloads.",
+        "Software friction remains the main barrier to broader non-GPU adoption."
+      ],
+      "actions": [
+        "Run pilot benchmarks on Trainium 2 for inference/fine-tuning workloads.",
+        "Evaluate TCO savings vs. engineering effort for migration."
+      ],
+      "tags": [
+        "AWS",
+        "Trainium",
+        "Cost",
+        "AI"
+      ]
+    },
+    {
+      "region": "domestic",
+      "title": "China's GLM-5 Model Trained on Huawei Ascend Chips",
+      "source": "Awesome Agents",
+      "published": "2026-03-01",
+      "url": "https://awesomeagents.ai/news/glm-5-china-frontier-model-huawei-chips/",
+      "summary": "Reports confirm that Zhipu AI's GLM-5 model was trained using a cluster of 100,000 Huawei Ascend chips. This required custom optimization techniques to manage the reliability and throughput of a non-Nvidia stack at this scale.",
+      "insights": [
+        "Proof of concept that massive-scale training is possible on domestic silicon.",
+        "Software optimization (Cann) is maturing rapidly through forced adoption.",
+        "Sets a precedent for other Chinese AI labs to migrate off CUDA."
+      ],
+      "actions": [
+        "Track GLM-5 performance benchmarks as a proxy for Ascend cluster efficiency.",
+        "Monitor open-source tools for Ascend optimization."
+      ],
+      "tags": [
+        "Huawei",
+        "LLM",
+        "Training"
+      ]
+    },
+    {
+      "region": "overseas",
+      "title": "ASML High-NA EUV Systems Process 500k Wafers",
+      "source": "CoinCentral",
+      "published": "2026-03-02",
+      "url": "https://coincentral.com/asml-stock-up-30-as-it-eyes-the-next-big-ai-chip-market/",
+      "summary": "ASML's next-gen High-NA EUV machines ($400M/unit) have successfully processed 500,000 wafers to date. This milestone confirms the readiness of High-NA for high-volume manufacturing at the 2nm node and beyond.",
+      "insights": [
+        "High-NA is no longer experimental; it's entering the HVM phase.",
+        "Cost per wafer will rise significantly, pushing fabless companies to optimize die sizes.",
+        "Reinforces the moat for Intel/TSMC/Samsung who can afford these tools."
+      ],
+      "actions": [
+        "Model impact of higher wafer costs on product pricing.",
+        "Ensure design rules align with High-NA capabilities for future nodes."
+      ],
+      "tags": [
+        "ASML",
+        "EUV",
+        "High-NA"
+      ]
+    },
+    {
+      "region": "overseas",
+      "title": "Photronics Q1: Photomasks Critical for Advanced Packaging",
+      "source": "Defense World",
+      "published": "2026-03-02",
+      "url": "https://www.defenseworld.net/2026/03/02/photronics-q1-earnings-call-highlights.html",
+      "summary": "Photronics Q1 earnings highlight the growing importance of photomasks not just for lithography, but for advanced packaging applications. As packaging complexity grows (RDL, interposers), the demand for high-precision masks in the backend is surging.",
+      "insights": [
+        "The line between frontend and backend lithography requirements is blurring.",
+        "Photomask supply for packaging could become a secondary bottleneck."
+      ],
+      "actions": [
+        "Assess photomask supply chain health.",
+        "Plan for longer mask lead times for complex packaging designs."
+      ],
+      "tags": [
+        "Photronics",
+        "Masks",
+        "Packaging"
+      ]
+    },
+    {
+      "region": "overseas",
+      "title": "Kurtz Ersa Expands Vacuum Soldering for Advanced Packaging",
+      "source": "What's New in Electronics",
+      "published": "2026-03-02",
+      "url": "https://www.wnie.online/kurtz-ersa-goes-semiconductor-expanding-competence-in-microelectronics-advanced-packaging/",
+      "summary": "Kurtz Ersa is expanding its semiconductor competence with vacuum soldering platforms designed to reduce voiding in advanced packaging solder joints. This is critical for reliability in high-power AI and automotive chips.",
+      "insights": [
+        "Void reduction is a key yield metric for chiplet integration.",
+        "European equipment makers are finding niches in the AI packaging ecosystem."
+      ],
+      "actions": [
+        "Review packaging reliability data regarding solder voids.",
+        "Explore vacuum reflow options for high-reliability products."
+      ],
+      "tags": [
+        "Equipment",
+        "Packaging",
+        "Reliability"
+      ]
     }
-  ],
-  "footer": "Semi Brief · generated by OpenClaw"
+  ]
 }
