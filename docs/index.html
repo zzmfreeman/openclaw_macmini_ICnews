@@ -19,45 +19,62 @@
     a{color:var(--accent); text-decoration:none}
     a:hover{text-decoration:underline}
     .wrap{max-width:1100px;margin:0 auto;padding:28px 18px 60px}
-    .topbar{display:flex; gap:14px; align-items:flex-end; justify-content:space-between; flex-wrap:wrap;}
-    .title{font-size:22px; font-weight:700; letter-spacing:.2px}
-    .meta{color:var(--muted); font-size:13px; display:flex; gap:10px; flex-wrap:wrap}
-    .pill{background:rgba(255,255,255,.06); border:1px solid var(--border); padding:4px 10px; border-radius:999px}
-    .grid{display:grid; grid-template-columns: 1.1fr .9fr; gap:14px; margin-top:14px}
+    .topbar{display:flex; gap:14px; align-items:flex-end; justify-content:space-between; flex-wrap:wrap; margin-bottom:20px}
+    .title{font-size:24px; font-weight:800; letter-spacing:-.5px; background:linear-gradient(to right, #fff, #a5b4fc); -webkit-background-clip:text; -webkit-text-fill-color:transparent}
+    .meta{color:var(--muted); font-size:13px; display:flex; gap:10px; flex-wrap:wrap; margin-top:6px}
+    .pill{background:rgba(255,255,255,.06); border:1px solid var(--border); padding:3px 10px; border-radius:6px; font-family:var(--mono); font-size:12px}
+    
+    /* Grid Layout Update: More balanced, headlines take full width on mobile */
+    .grid{display:grid; grid-template-columns: 2fr 1fr; gap:18px; margin-top:20px}
     @media (max-width: 900px){.grid{grid-template-columns:1fr}}
 
-    .card{background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02)); border:1px solid var(--border);
-          border-radius:14px; overflow:hidden}
-    .card h2{margin:0; padding:12px 14px; font-size:14px; letter-spacing:.4px; color:var(--muted);
-             border-bottom:1px solid var(--border); background:rgba(255,255,255,.03)}
-    .card .body{padding:12px 14px}
+    .card{background:linear-gradient(180deg, rgba(30,41,59,.4), rgba(15,23,42,.4)); border:1px solid var(--border);
+          border-radius:12px; overflow:hidden; display:flex; flex-direction:column}
+    .card h2{margin:0; padding:12px 16px; font-size:14px; font-weight:600; color:var(--muted); text-transform:uppercase; letter-spacing:1px;
+             border-bottom:1px solid var(--border); background:rgba(255,255,255,.02)}
+    .card .body{padding:14px; display:flex; flex-wrap:wrap; gap:8px; align-content:flex-start}
 
     .toc{display:flex; gap:8px; flex-wrap:wrap}
-    .toc a{background:var(--chip); border:1px solid var(--border); padding:6px 10px; border-radius:10px; color:var(--text)}
+    .toc a{background:var(--chip); border:1px solid var(--border); padding:6px 12px; border-radius:8px; color:var(--text); font-size:13px; font-weight:500}
+    
+    /* Headline List Optimized */
+    .headline-list{display:flex; flex-direction:column; gap:8px; width:100%}
+    .headline{padding:10px 12px; border-radius:8px; background:rgba(255,255,255,.03); border:1px solid transparent; transition:all .2s}
+    .headline:hover{background:rgba(255,255,255,.06); border-color:var(--border)}
+    .headline .t{font-weight:600; font-size:15px; line-height:1.4; color:#fff}
+    .headline .s{margin-top:4px; color:var(--muted); font-size:12px; display:flex; gap:8px; align-items:center}
+    
+    .badge{font-family:var(--sans); font-weight:500; font-size:11px; padding:2px 8px; border-radius:4px; border:1px solid var(--border); background:rgba(255,255,255,.08); color:var(--text)}
+    .badge.domestic{background:rgba(14,165,233,.15); color:#38bdf8; border-color:rgba(14,165,233,.3)}
+    .badge.overseas{background:rgba(139,92,246,.15); color:#c4b5fd; border-color:rgba(139,92,246,.3)}
 
-    .headline-list{display:flex; flex-direction:column; gap:10px}
-    .headline{padding:10px 12px; border-radius:12px; background:rgba(17,26,51,.8); border:1px solid var(--border)}
-    .headline .t{font-weight:700; line-height:1.25}
-    .headline .s{margin-top:6px; color:var(--muted); font-size:12px; display:flex; gap:10px; flex-wrap:wrap}
-    .badge{font-family:var(--mono); font-size:11px; padding:2px 8px; border-radius:999px; border:1px solid var(--border); background:rgba(255,255,255,.04)}
-    .badge.domestic{border-color:rgba(110,231,255,.25)}
-    .badge.overseas{border-color:rgba(167,139,250,.25)}
+    .section{margin-top:32px}
+    .section h3{margin:0 0 16px; font-size:20px; font-weight:700; color:var(--text); display:flex; align-items:center; gap:10px}
+    .section h3::before{content:''; display:block; width:4px; height:18px; background:var(--accent); border-radius:2px}
 
-    .section{margin-top:18px}
-    .section h3{margin:0 0 8px; font-size:15px; color:var(--text)}
-
-    .item{margin:10px 0; padding:14px 14px; border-radius:14px; border:1px solid var(--border); background:rgba(17,26,51,.72)}
-    .item .top{display:flex; justify-content:space-between; gap:10px; align-items:flex-start; flex-wrap:wrap}
-    .item .top .left{min-width:260px}
-    .item .num{font-family:var(--mono); color:var(--muted); font-size:12px}
-    .item .title2{margin-top:4px; font-size:16px; font-weight:800}
-    .item .src{margin-top:6px; color:var(--muted); font-size:12px; display:flex; gap:10px; flex-wrap:wrap}
-    .kv{font-family:var(--mono); font-size:11px; opacity:.95}
-    .summary{margin-top:10px; line-height:1.6; color:rgba(232,238,255,.92)}
-    .insights,.actions{margin-top:10px; padding:10px 12px; border-radius:12px; background:rgba(15,23,48,.9); border:1px solid var(--border)}
-    .label{font-size:12px; letter-spacing:.4px; color:var(--muted); margin-bottom:6px}
-    ul{margin:0; padding-left:18px}
-    li{margin:6px 0; line-height:1.55}
+    /* Item Card Optimization: Hierarchy & Contrast */
+    .item{margin-bottom:20px; padding:20px; border-radius:12px; border:1px solid var(--border); background:rgba(30,41,59,.3); transition:transform .2s}
+    .item:hover{border-color:rgba(255,255,255,.15)}
+    
+    .item .header{margin-bottom:12px}
+    .item .title2{font-size:20px; font-weight:700; line-height:1.35; color:#fff; margin-bottom:8px} /* Bigger Title */
+    .item .meta-row{display:flex; gap:12px; align-items:center; flex-wrap:wrap; font-size:12px; color:var(--muted); font-family:var(--mono)}
+    .item .meta-row a{color:var(--accent); text-decoration:none; border-bottom:1px dotted var(--accent)}
+    
+    .summary{font-size:15px; line-height:1.7; color:rgba(226,232,240,.9); margin-bottom:16px; background:rgba(0,0,0,.15); padding:12px; border-radius:8px} /* Smaller/Contrast Content */
+    
+    .blocks{display:grid; grid-template-columns:1fr 1fr; gap:12px}
+    @media (max-width: 700px){.blocks{grid-template-columns:1fr}}
+    
+    .insight-box, .action-box{padding:14px; border-radius:10px; border:1px solid rgba(255,255,255,.06); font-size:14px; line-height:1.6}
+    .insight-box{background:rgba(16, 185, 129, .06); border-color:rgba(16, 185, 129, .15)}
+    .insight-box .lbl{color:#34d399; font-weight:700; font-size:11px; text-transform:uppercase; margin-bottom:6px; letter-spacing:1px}
+    
+    .action-box{background:rgba(245, 158, 11, .06); border-color:rgba(245, 158, 11, .15)}
+    .action-box .lbl{color:#fbbf24; font-weight:700; font-size:11px; text-transform:uppercase; margin-bottom:6px; letter-spacing:1px}
+    
+    ul{margin:0; padding-left:16px}
+    li{margin-bottom:4px}
 
     .foot{margin-top:22px; color:var(--muted); font-size:12px}
     .warnbox{margin-top:10px; padding:10px 12px; border-radius:12px; background:rgba(251,191,36,.08); border:1px solid rgba(251,191,36,.22)}
@@ -149,28 +166,28 @@
       const renderItem = (it, idx)=>{
         return `
           <div class="item">
-            <div class="top">
-              <div class="left">
-                <div class="num">#${idx+1}</div>
-                <div class="title2">${escapeHtml(it.title)}</div>
-                <div class="src">
-                  <span class="kv">${escapeHtml(it.source||'')}</span>
-                  <span class="kv">${escapeHtml(it.published||'')}</span>
-                  ${it.url ? `<a class="kv" href="${escapeHtml(it.url)}" target="_blank" rel="noreferrer">原文</a>`:''}
-                </div>
-              </div>
-              <div>
-                ${(it.tags||[]).slice(0,6).map(t=>`<span class="badge">${escapeHtml(t)}</span>`).join(' ')}
+            <div class="header">
+              <div class="title2">${escapeHtml(it.title)}</div>
+              <div class="meta-row">
+                <span>#${idx+1}</span>
+                <span>${escapeHtml(it.source||'')}</span>
+                <span>${escapeHtml(it.published||'')}</span>
+                ${it.url ? `<a href="${escapeHtml(it.url)}" target="_blank" rel="noreferrer">原文链接 ↗</a>`:''}
+                ${(it.tags||[]).map(t=>`<span class="badge">${escapeHtml(t)}</span>`).join(' ')}
               </div>
             </div>
+            
             <div class="summary">${escapeHtml(it.summary||'').replace(/\n/g,'<br/>')}</div>
-            <div class="insights">
-              <div class="label">行业洞见</div>
-              <ul>${[].concat(it.insights||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>
-            </div>
-            <div class="actions">
-              <div class="label">建议动作（采购 / BD）</div>
-              <ul>${[].concat(it.actions||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>
+            
+            <div class="blocks">
+              <div class="insight-box">
+                <div class="lbl">⚡ 行业洞见</div>
+                <ul>${[].concat(it.insights||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>
+              </div>
+              <div class="action-box">
+                <div class="lbl">🎯 建议动作</div>
+                <ul>${[].concat(it.actions||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>
+              </div>
             </div>
           </div>`;
       };
