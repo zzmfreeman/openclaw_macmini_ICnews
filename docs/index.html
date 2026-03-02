@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Semi Brief</title>
+  <style>
+    :root{
+      --bg:#0b1020; --panel:#111a33; --panel2:#0f1730; --text:#e8eeff; --muted:#a9b3d6;
+      --accent:#6ee7ff; --accent2:#a78bfa; --good:#22c55e; --warn:#fbbf24; --bad:#fb7185;
+      --chip:#1f2a4d; --border:rgba(255,255,255,.08);
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+    }
+    html,body{height:100%}
+    body{margin:0;background:radial-gradient(1200px 700px at 15% 5%, rgba(110,231,255,.18), transparent 60%),
+                     radial-gradient(900px 600px at 95% 20%, rgba(167,139,250,.18), transparent 55%),
+                     var(--bg); color:var(--text); font-family:var(--sans);}
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1100px;margin:0 auto;padding:28px 18px 60px}
+    .topbar{display:flex; gap:14px; align-items:flex-end; justify-content:space-between; flex-wrap:wrap;}
+    .title{font-size:22px; font-weight:700; letter-spacing:.2px}
+    .meta{color:var(--muted); font-size:13px; display:flex; gap:10px; flex-wrap:wrap}
+    .pill{background:rgba(255,255,255,.06); border:1px solid var(--border); padding:4px 10px; border-radius:999px}
+    .grid{display:grid; grid-template-columns: 1.1fr .9fr; gap:14px; margin-top:14px}
+    @media (max-width: 900px){.grid{grid-template-columns:1fr}}
+
+    .card{background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02)); border:1px solid var(--border);
+          border-radius:14px; overflow:hidden}
+    .card h2{margin:0; padding:12px 14px; font-size:14px; letter-spacing:.4px; color:var(--muted);
+             border-bottom:1px solid var(--border); background:rgba(255,255,255,.03)}
+    .card .body{padding:12px 14px}
+
+    .toc{display:flex; gap:8px; flex-wrap:wrap}
+    .toc a{background:var(--chip); border:1px solid var(--border); padding:6px 10px; border-radius:10px; color:var(--text)}
+
+    .headline-list{display:flex; flex-direction:column; gap:10px}
+    .headline{padding:10px 12px; border-radius:12px; background:rgba(17,26,51,.8); border:1px solid var(--border)}
+    .headline .t{font-weight:700; line-height:1.25}
+    .headline .s{margin-top:6px; color:var(--muted); font-size:12px; display:flex; gap:10px; flex-wrap:wrap}
+    .badge{font-family:var(--mono); font-size:11px; padding:2px 8px; border-radius:999px; border:1px solid var(--border); background:rgba(255,255,255,.04)}
+    .badge.domestic{border-color:rgba(110,231,255,.25)}
+    .badge.overseas{border-color:rgba(167,139,250,.25)}
+
+    .section{margin-top:18px}
+    .section h3{margin:0 0 8px; font-size:15px; color:var(--text)}
+
+    .item{margin:10px 0; padding:14px 14px; border-radius:14px; border:1px solid var(--border); background:rgba(17,26,51,.72)}
+    .item .top{display:flex; justify-content:space-between; gap:10px; align-items:flex-start; flex-wrap:wrap}
+    .item .top .left{min-width:260px}
+    .item .num{font-family:var(--mono); color:var(--muted); font-size:12px}
+    .item .title2{margin-top:4px; font-size:16px; font-weight:800}
+    .item .src{margin-top:6px; color:var(--muted); font-size:12px; display:flex; gap:10px; flex-wrap:wrap}
+    .kv{font-family:var(--mono); font-size:11px; opacity:.95}
+    .summary{margin-top:10px; line-height:1.6; color:rgba(232,238,255,.92)}
+    .insights,.actions{margin-top:10px; padding:10px 12px; border-radius:12px; background:rgba(15,23,48,.9); border:1px solid var(--border)}
+    .label{font-size:12px; letter-spacing:.4px; color:var(--muted); margin-bottom:6px}
+    ul{margin:0; padding-left:18px}
+    li{margin:6px 0; line-height:1.55}
+
+    .foot{margin-top:22px; color:var(--muted); font-size:12px}
+    .warnbox{margin-top:10px; padding:10px 12px; border-radius:12px; background:rgba(251,191,36,.08); border:1px solid rgba(251,191,36,.22)}
+    .search{display:flex; gap:10px; align-items:center; flex-wrap:wrap}
+    input{background:rgba(255,255,255,.04); border:1px solid var(--border); border-radius:10px; padding:10px 12px; color:var(--text); min-width:240px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div>
+        <div class="title">Semi Brief（AI / Crypto · Foundry / IP / EDA）</div>
+        <div class="meta">
+          <span class="pill" id="asof">As of: -</span>
+          <span class="pill" id="window">Window: last 72h</span>
+          <span class="pill" id="count">Items: -</span>
+        </div>
+      </div>
+      <div class="search">
+        <input id="q" placeholder="搜索标题/摘要/洞见/关键词…"/>
+        <div class="toc">
+          <a href="#domestic">国内</a>
+          <a href="#overseas">国外</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>今日标题总览</h2>
+        <div class="body">
+          <div class="headline-list" id="headlines"></div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>本期关键词</h2>
+        <div class="body" id="keywords"></div>
+        <div class="body warnbox" id="notes" style="display:none"></div>
+      </div>
+    </div>
+
+    <div class="section" id="domestic">
+      <h3>国内（中文媒体）</h3>
+      <div id="domesticItems"></div>
+    </div>
+
+    <div class="section" id="overseas">
+      <h3>国外（英文媒体）</h3>
+      <div id="overseasItems"></div>
+    </div>
+
+    <div class="foot" id="footer"></div>
+  </div>
+
+  <script>
+    const state = { data: null, filtered: null };
+
+    const el = (id)=>document.getElementById(id);
+    const escapeHtml = (s)=>String(s||'').replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
+
+    function render(){
+      const d = state.filtered || state.data;
+      if(!d) return;
+      el('asof').textContent = `As of: ${d.asOf || '-'}`;
+      el('count').textContent = `Items: ${(d.items||[]).length}`;
+
+      // keywords
+      el('keywords').innerHTML = (d.keywords||[]).map(k=>`<span class="badge">${escapeHtml(k)}</span>`).join(' ');
+      if(d.notes){
+        el('notes').style.display='block';
+        el('notes').innerHTML = `<b>说明</b><div style="margin-top:6px;line-height:1.5">${escapeHtml(d.notes)}</div>`;
+      }
+
+      // headlines
+      el('headlines').innerHTML = (d.items||[]).map((it,idx)=>{
+        const badge = it.region==='domestic' ? 'domestic' : 'overseas';
+        const badgeText = it.region==='domestic' ? '国内' : '国外';
+        return `
+          <div class="headline">
+            <div class="t"><span class="badge ${badge}">${badgeText}</span> ${escapeHtml(it.title)}</div>
+            <div class="s">
+              <span class="kv">${escapeHtml(it.source||'')}</span>
+              <span class="kv">${escapeHtml(it.published||'')}</span>
+              ${it.url ? `<a class="kv" href="${escapeHtml(it.url)}" target="_blank" rel="noreferrer">link</a>`:''}
+            </div>
+          </div>`;
+      }).join('');
+
+      const renderItem = (it, idx)=>{
+        return `
+          <div class="item">
+            <div class="top">
+              <div class="left">
+                <div class="num">#${idx+1}</div>
+                <div class="title2">${escapeHtml(it.title)}</div>
+                <div class="src">
+                  <span class="kv">${escapeHtml(it.source||'')}</span>
+                  <span class="kv">${escapeHtml(it.published||'')}</span>
+                  ${it.url ? `<a class="kv" href="${escapeHtml(it.url)}" target="_blank" rel="noreferrer">原文</a>`:''}
+                </div>
+              </div>
+              <div>
+                ${(it.tags||[]).slice(0,6).map(t=>`<span class="badge">${escapeHtml(t)}</span>`).join(' ')}
+              </div>
+            </div>
+            <div class="summary">${escapeHtml(it.summary||'').replace(/\n/g,'<br/>')}</div>
+            <div class="insights">
+              <div class="label">行业洞见</div>
+              <ul>${(it.insights||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>
+            </div>
+            <div class="actions">
+              <div class="label">建议动作（采购 / BD）</div>
+              <ul>${(it.actions||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>
+            </div>
+          </div>`;
+      };
+
+      const domestic = (d.items||[]).filter(x=>x.region==='domestic');
+      const overseas = (d.items||[]).filter(x=>x.region==='overseas');
+      el('domesticItems').innerHTML = domestic.map(renderItem).join('');
+      el('overseasItems').innerHTML = overseas.map(renderItem).join('');
+
+      el('footer').textContent = d.footer || '';
+    }
+
+    function applyFilter(q){
+      q = (q||'').trim().toLowerCase();
+      if(!q){ state.filtered=null; render(); return; }
+      const d = state.data;
+      const items = (d.items||[]).filter(it=>{
+        const hay = [it.title,it.source,it.published,it.summary,(it.insights||[]).join(' '),(it.actions||[]).join(' '),(it.tags||[]).join(' '),(d.keywords||[]).join(' ')].join(' ').toLowerCase();
+        return hay.includes(q);
+      });
+      state.filtered = {...d, items};
+      render();
+    }
+
+    el('q').addEventListener('input', (e)=>applyFilter(e.target.value));
+
+    fetch('./brief.json', {cache:'no-store'}).then(r=>r.json()).then(j=>{state.data=j; render();}).catch(err=>{
+      el('headlines').innerHTML = `<div class="warnbox">无法加载 brief.json：${escapeHtml(err.message||String(err))}</div>`;
+    });
+  </script>
+</body>
+</html>
