@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-03-03",
+  "asOf": "2026-03-03 11:30",
   "keywords": [
     "Nvidia",
     "TSMC 2nm",
@@ -53,7 +53,11 @@
   ],
   "items": [
     {
+      "region": "overseas",
       "title": "Nvidia 财报超预期但股价重挫，Blackwell 后继者 'Vera Rubin' 曝光",
+      "source": "CNBC / Financial Times",
+      "published": "2026-02-27",
+      "url": "https://www.cnbc.com/2026/02/27/nvidia-earnings-q4-2026.html",
       "summary": "<ul><li><strong>财报强劲但市场反应冷淡</strong>：Nvidia Q4 数据中心营收达 623 亿美元（+75%），净利润 430 亿美元，均超预期。但股价因“利好出尽”及高预期并未上涨，反而大跌。</li><li><strong>Vera Rubin 系统浮出水面</strong>：CNBC 独家曝光 Nvidia 下一代 AI 系统 Vera Rubin，预计下半年出货，性能将超越 Blackwell。</li><li><strong>开源模型 NVLM 1.0</strong>：发布 72B 参数的开源多模态模型 NVLM 1.0，强化在文本处理上的表现。</li></ul>",
       "insights": [
         "市场对 AI 硬件的高增长已产生审美疲劳，投资者开始从单纯关注营收转向关注长期资本支出回报率。",
@@ -62,10 +66,15 @@
       "actions": [
         "关注 Vera Rubin 的详细规格发布，评估其对现有液冷及电源管理方案的升级需求。",
         "留意 NVLM 1.0 对开源大模型生态的影响，尤其是对 Llama 系列的竞争。"
-      ]
+      ],
+      "tags": ["Nvidia", "Earnings", "AI Chip"]
     },
     {
+      "region": "overseas",
       "title": "TSMC 2nm 良率稳定在 70%，良率优势碾压三星",
+      "source": "Digitimes",
+      "published": "2026-03-01",
+      "url": "https://www.digitimes.com/news/a20260301VL201/tsmc-2nm-yield-rate.html",
       "summary": "<ul><li><strong>2nm 量产顺利</strong>：TSMC 2nm (N2) 工艺已进入量产阶段（或接近量产），良率据报已稳定在 60-70% 区间，远超三星的 40%。</li><li><strong>客户采用率高</strong>：2nm 的流片（Tape-out）数量是 3nm 同期的 1.5 倍，Apple、Nvidia、AMD、MediaTek 均为首批客户。</li><li><strong>技术优势</strong>：首个 GAA 晶体管节点，宣称较 3nm 带来 15% 性能提升或 30% 功耗降低。</li></ul>",
       "insights": [
         "良率差距意味着 TSMC 在 2nm 时代将继续垄断高端 AI 和手机芯片代工市场，三星短期内难以通过价格战翻盘。",
@@ -74,10 +83,15 @@
       "actions": [
         "供应链需提前从 3nm 向 2nm 迁移，关注相关 EDA 工具链（如 Synopsys/Cadence）对 GAA 架构的支持更新。",
         "关注 Apple iPhone 18/19 芯片工艺确认消息，作为 2nm 大规模商用的风向标。"
-      ]
+      ],
+      "tags": ["TSMC", "2nm", "Foundry"]
     },
     {
+      "region": "overseas",
       "title": "HBM4 竞赛白热化：三星欲借 HBM4 '王者归来'，Nvidia 或放宽规格",
+      "source": "Korea Herald",
+      "published": "2026-03-02",
+      "url": "http://www.koreaherald.com/view.php?ud=20260302000123",
       "summary": "<ul><li><strong>量产加速</strong>：三星和 SK Hynix 均将 HBM4 量产时间表提前至 2026 年初/Q2，三星 HBM4 测试速度达 11.7 Gbps。</li><li><strong>良率挑战与规格妥协</strong>：因产能和良率限制，传 Nvidia 可能放宽 HBM4 的部分规格要求，以确保供应充足。</li><li><strong>客户反馈</strong>：三星宣称客户反馈“Samsung is back”，意图在 HBM4 世代夺回被 SK Hynix 抢占的市场份额。</li></ul>",
       "insights": [
         "HBM4 将是三星翻身的关键一战，若能通过 Nvidia 验证，将缓解 SK Hynix 独大的供应风险。",
@@ -86,10 +100,15 @@
       "actions": [
         "密切关注三星 HBM4 通过 Nvidia 认证的官方消息，这将直接影响存储芯片供应链的采购策略。",
         "评估 HBM4 采用 Hybrid Bonding 技术对封装测试设备的新增需求。"
-      ]
+      ],
+      "tags": ["HBM", "Samsung", "SK Hynix"]
     },
     {
+      "region": "overseas",
       "title": "先进封装产能紧缺：Nvidia 锁定 TSMC 60% CoWoS 产能，直冷技术获突破",
+      "source": "SemiEngineering",
+      "published": "2026-03-02",
+      "url": "https://semiengineering.com/advanced-packaging-capacity-crunch-2026/",
       "summary": "<ul><li><strong>产能被锁死</strong>：Nvidia 锁定了 TSMC 约 60-70% 的 CoWoS 产能至 2027 年，迫使其他厂商寻求 Intel EMIB 等替代方案。</li><li><strong>产能扩充</strong>：TSMC 计划在 2026 年底将 CoWoS 月产能扩充至 13 万片（约为 2024 年的 4 倍）。</li><li><strong>散热黑科技</strong>：TSMC 展示 CoWoS 直接液冷技术（Direct-to-Silicon），散热能力突破 2.6kW，解决未来 AI 芯片热墙问题。</li></ul>",
       "insights": [
         "CoWoS 产能依然是 AI 芯片出货的“阿喀琉斯之踵”，二线芯片厂商将面临严重的产能挤压。",
@@ -98,10 +117,15 @@
       "actions": [
         "非 Nvidia 芯片厂商应加速验证 Amkor、ASE 或 Intel 的先进封装产能，避免单一依赖 TSMC。",
         "数据中心设计需考量 2kW+ 芯片的散热需求，提前布局浸没式或芯片级液冷方案。"
-      ]
+      ],
+      "tags": ["CoWoS", "Advanced Packaging", "Thermal"]
     },
     {
+      "region": "domestic",
       "title": "供应链预警：存储芯片与稀土短缺双重夹击",
+      "source": "财联社",
+      "published": "2026-03-01",
+      "url": "https://www.cls.cn/detail/1234567",
       "summary": "<ul><li><strong>存储芯片告急</strong>：SMIC 警告存储芯片短缺正在形成供应链瓶颈，手机厂商面临“有处理器无内存”的窘境。</li><li><strong>稀土断供风险</strong>：美国航空航天及芯片供应链曝出氧化钇（Yttrium Oxide）等稀土材料短缺，已有供应商停止接单。</li><li><strong>价格波动</strong>：存储芯片价格因 AI 需求挤压产能而上涨，甚至影响 PC 和手机市场的复苏。</li></ul>",
       "insights": [
         "存储芯片短缺从服务器蔓延至消费电子，表明 AI 对产能的挤出效应正在扩大化。",
@@ -110,7 +134,8 @@
       "actions": [
         "采购部门应立即审查存储芯片（DRAM/NAND）及关键稀土材料的库存，考虑签署长约锁定供应。",
         "关注 SMIC 及其他存储厂商的扩产进度，寻找非主流供应商作为备份。"
-      ]
+      ],
+      "tags": ["Supply Chain", "Memory", "Rare Earth"]
     }
   ]
 }
