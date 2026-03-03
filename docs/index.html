@@ -23,15 +23,19 @@
     .meta{color:var(--muted); font-size:13px; margin-top:8px; display:flex; gap:12px}
     .pill{background:var(--tag-bg); padding:2px 8px; border-radius:6px; border:1px solid var(--border)}
 
-    /* Grid Layout: Keywords moved to top (compact row) */
-    .keyword-row{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:24px; padding:12px; background:var(--panel); border:1px solid var(--border); border-radius:8px; box-shadow:var(--card-shadow)}
-    .kw-label{font-size:12px; font-weight:700; color:var(--muted); text-transform:uppercase; margin-right:8px; display:flex; align-items:center}
+    /* Grid Layout */
+    .grid-main{display:grid; grid-template-columns: 280px 1fr; gap:24px; align-items:start}
     
-    .grid-main{display:grid; grid-template-columns: 300px 1fr; gap:24px; align-items:start}
-    @media (max-width: 900px){.grid-main{grid-template-columns:1fr}}
+    @media (max-width: 900px){
+      .grid-main{display:flex; flex-direction:column}
+      .sidebar{order:2; width:100%} /* 手机上把侧边栏放到最下面 */
+      .search-container-mobile{display:block !important; margin-bottom:20px} /* 手机端顶部显示搜索框 */
+      .sidebar .search-row{display:none} /* 隐藏侧边栏里的搜索框，避免重复 */
+    }
 
-    /* Sidebar (Headlines) */
+    /* Sidebar */
     .sidebar{position:sticky; top:20px; max-height:calc(100vh - 40px); overflow-y:auto}
+    
     .headline-card{background:var(--panel); border:1px solid var(--border); border-radius:12px; box-shadow:var(--card-shadow); overflow:hidden}
     .headline-card h2{margin:0; padding:12px 16px; background:#f1f5f9; font-size:13px; font-weight:700; color:var(--muted); border-bottom:1px solid var(--border)}
     .headline-list{padding:8px}
@@ -95,6 +99,11 @@
 
       <!-- Content Area -->
       <div>
+        <!-- Mobile Search (Visible only on small screens) -->
+        <div class="search-container-mobile" style="display:none">
+          <input id="q-mobile" placeholder="🔍 搜索关键词..." style="width:100%; padding:10px 12px; border:1px solid var(--border); border-radius:8px; background:#fff"/>
+        </div>
+
         <!-- Keywords Row (Compact) -->
         <div class="keyword-row">
           <div class="kw-label">本期关键词</div>
@@ -179,6 +188,10 @@
 
     function applyFilter(q){
       q = (q||'').trim().toLowerCase();
+      // Sync inputs
+      if(el('q').value !== q) el('q').value = q;
+      if(el('q-mobile').value !== q) el('q-mobile').value = q;
+      
       if(!q){ state.filtered=null; render(); return; }
       const d = state.data;
       const items = (d.items||[]).filter(it=>{
@@ -190,6 +203,7 @@
     }
 
     el('q').addEventListener('input', (e)=>applyFilter(e.target.value));
+    el('q-mobile').addEventListener('input', (e)=>applyFilter(e.target.value));
 
     fetch('./brief.json', {cache:'no-store'}).then(r=>r.json()).then(j=>{state.data=j; render();}).catch(err=>{
       el('headlines').innerHTML = `<div class="warnbox">无法加载 brief.json：${escapeHtml(err.message||String(err))}</div>`;
