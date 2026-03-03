@@ -171,6 +171,15 @@
     function render(){
       const d = state.filtered || state.data;
       if(!d) return;
+      
+      // Safety Checks for data structure based on Self-Reflection
+      if (!d.items) d.items = [];
+      d.items = d.items.filter(it => it.region === 'domestic' || it.region === 'overseas'); // Ensure valid region
+      if (d.items.length === 0) {
+        el('domesticItems').innerHTML = '<div class="warnbox">暂无符合条件的国内新闻。请检查数据源 (region 字段)。</div>';
+        el('overseasItems').innerHTML = '<div class="warnbox">暂无符合条件的国外新闻。请检查数据源 (region 字段)。</div>';
+      }
+
       el('asof').textContent = `📅 更新时间: ${d.asOf || '-'}`;
       el('count').textContent = `📊 新闻数量: ${(d.items||[]).length}`;
 
