@@ -55,9 +55,26 @@
     .badge.overseas{background:#f5f3ff; color:#7c3aed} /* Purple tint */
     .badge-tag{background:#f1f5f9; color:#475569; border:1px solid #e2e8f0}
     
-    .summary{background:#fff; padding:0; border:none; font-size:16px; color:#334155; line-height:1.7; margin-bottom:20px}
+    /* Data & Timeline Section */
+    .data-grid{display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-bottom:40px}
+    @media (max-width: 700px){.data-grid{grid-template-columns:1fr}}
     
-    .blocks{display:grid; grid-template-columns:1fr 1fr; gap:20px}
+    .data-card{background:#fff; border:1px solid #e2e8f0; border-radius:12px; padding:20px; box-shadow:0 2px 4px rgb(0 0 0 / 0.05)}
+    .data-card h3{margin:0 0 16px; font-size:16px; color:#1e293b; display:flex; align-items:center; gap:8px}
+    
+    .key-data-list{display:grid; gap:12px}
+    .key-data-item{display:flex; justify-content:space-between; align-items:center; padding-bottom:8px; border-bottom:1px dashed #e2e8f0}
+    .key-data-metric{color:#64748b; font-size:14px}
+    .key-data-value{font-weight:700; color:#2563eb; font-size:16px}
+    
+    .timeline-list{border-left:2px solid #e2e8f0; padding-left:20px; margin-left:8px}
+    .timeline-item{position:relative; margin-bottom:20px}
+    .timeline-item::before{content:''; position:absolute; left:-25px; top:6px; width:8px; height:8px; background:#fff; border:2px solid #2563eb; border-radius:50%}
+    .timeline-date{font-size:12px; color:#64748b; font-weight:700; margin-bottom:4px}
+    .timeline-event{font-size:14px; color:#334155; line-height:1.5}
+
+    .summary ul{margin:0; padding-left:18px}
+    .summary li{margin-bottom:6px; color:#334155; line-height:1.6}
     @media (max-width: 700px){.blocks{grid-template-columns:1fr}}
     
     .box{padding:20px; border-radius:8px; font-size:15px; line-height:1.6; border:none}
@@ -119,6 +136,19 @@
           <div class="kw-label">🏷️ 本期关键词</div>
           <div id="keywords" style="display:contents"></div>
         </div>
+        
+        <!-- Data & Timeline -->
+        <div class="data-grid" id="dataSection" style="display:none">
+          <div class="data-card">
+            <h3>📊 关键数据</h3>
+            <div class="key-data-list" id="keyData"></div>
+          </div>
+          <div class="data-card">
+            <h3>📅 产业时间线</h3>
+            <div class="timeline-list" id="timeline"></div>
+          </div>
+        </div>
+
         <div class="warnbox" id="notes" style="display:none;margin-bottom:20px;padding:12px;background:#fff1f2;border:1px solid #fecdd3;border-radius:8px;color:#9f1239"></div>
 
         <div class="section-title" id="domestic">🇨🇳 国内（中文媒体）</div>
@@ -146,6 +176,23 @@
 
       // keywords
       el('keywords').innerHTML = (d.keywords||[]).map(k=>`<span class="badge badge-tag">${escapeHtml(k)}</span>`).join(' ');
+      
+      // Key Data & Timeline
+      if(d.key_data && d.key_data.length){
+        el('dataSection').style.display = 'grid';
+        el('keyData').innerHTML = d.key_data.map(k=>`
+          <div class="key-data-item">
+            <span class="key-data-metric">${escapeHtml(k.metric)}</span>
+            <span class="key-data-value">${escapeHtml(k.value)}</span>
+          </div>`).join('');
+      }
+      if(d.timeline && d.timeline.length){
+        el('timeline').innerHTML = d.timeline.map(t=>`
+          <div class="timeline-item">
+            <div class="timeline-date">${escapeHtml(t.date)}</div>
+            <div class="timeline-event">${escapeHtml(t.event)}</div>
+          </div>`).join('');
+      }
       
       if(d.notes){
         el('notes').style.display='block';
