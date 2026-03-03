@@ -23,22 +23,32 @@
     .meta{color:var(--muted); font-size:13px; margin-top:8px; display:flex; gap:12px}
     .pill{background:var(--tag-bg); padding:2px 8px; border-radius:6px; border:1px solid var(--border)}
 
-    /* Grid Layout */
-    .grid-main{display:grid; grid-template-columns: 280px 1fr; gap:24px; align-items:start}
+    /* Layout Reset: Single column flow */
+    .grid-main{display:block} 
     
+    /* Sidebar is now a Top Section */
+    .sidebar{position:static; width:100%; margin-bottom:32px; max-height:none}
+    
+    .headline-card h2{padding:10px 16px; font-size:14px}
+    
+    /* Headlines as a dense grid (3 columns on PC, 1 on mobile) */
+    .headline-list{padding:12px; display:grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap:12px}
+    
+    /* Keyword row cleanup */
+    .keyword-row{margin-top:0; margin-bottom:24px}
+    
+    /* Search input full width at top */
+    .search-row{margin-bottom:16px}
+    #q{width:100%; box-sizing:border-box}
+    
+    /* Mobile tweaks */
     @media (max-width: 900px){
-      .grid-main{display:flex; flex-direction:column}
-      .sidebar{order:2; width:100%} /* 手机上把侧边栏放到最下面 */
-      .search-container-mobile{display:block !important; margin-bottom:20px} /* 手机端顶部显示搜索框 */
-      .sidebar .search-row{display:none} /* 隐藏侧边栏里的搜索框，避免重复 */
+      .grid-main{display:block}
+      .headline-list{grid-template-columns:1fr}
+      .sidebar{order:0} /* Keep headlines at top */
+      .search-container-mobile{display:none !important} /* Hide duplicate mobile search */
+      .sidebar .search-row{display:block} /* Show main search */
     }
-
-    /* Sidebar */
-    .sidebar{position:sticky; top:20px; max-height:calc(100vh - 40px); overflow-y:auto}
-    
-    .headline-card{background:var(--panel); border:1px solid var(--border); border-radius:12px; box-shadow:var(--card-shadow); overflow:hidden}
-    .headline-card h2{margin:0; padding:12px 16px; background:#f1f5f9; font-size:13px; font-weight:700; color:var(--muted); border-bottom:1px solid var(--border)}
-    .headline-list{padding:8px}
     .headline{padding:10px 12px; border-radius:6px; transition:background .15s; cursor:pointer; display:block; text-decoration:none; color:inherit}
     .headline:hover{background:#f8fafc}
     .headline .t{font-size:14px; font-weight:600; line-height:1.4; color:#334155}
