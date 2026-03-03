@@ -2,128 +2,114 @@
   "asOf": "2026-03-03",
   "keywords": [
     "Nvidia",
-    "Semiconductor Supply Chain",
-    "TSMC",
-    "2nm",
-    "3nm",
-    "GAA",
-    "AI",
-    "HBM",
-    "Advanced Packaging"
+    "TSMC 2nm",
+    "HBM4",
+    "CoWoS",
+    "Supply Chain"
   ],
   "timeline": [
     {
-      "date": "2026-03-02",
-      "event": "Nvidia 宣布向光子学厂商 Lumentum 和 Coherent 各注资 20 亿美元，总计 40 亿美元，布局光互连技术。"
+      "date": "2026-02-26",
+      "event": "Nvidia 公布财报，数据中心营收大增 75%，但股价因“利好出尽”单日重挫 2600 亿美元。"
+    },
+    {
+      "date": "2026-02-27",
+      "event": "美国航空航天及芯片供应链遭遇稀土（氧化钇）短缺，部分供应商断供。"
     },
     {
       "date": "2026-03-02",
-      "event": "Meta 据报放弃自研高端 AI 训练芯片计划，转而与 AMD 签署价值高达 1000 亿美元的算力采购协议，并租用 Google TPU。"
+      "event": "TSMC 展示 CoWoS 直接液冷技术，散热能力达 2.6kW+ TDP，为下一代 AI 芯片铺路。"
     },
     {
-      "date": "2026-03-01",
-      "event": "Broadcom 开始向 Fujitsu 交付业界首款 2nm 3.5D 封装 AI 定制处理器。"
+      "date": "2026-Q2 (预计)",
+      "event": "三星与 SK Hynix 预计完成 HBM4 认证，量产时间表提前至 2026 年初。"
     },
     {
-      "date": "2026-03-01",
-      "event": "Nvidia 正式超越 Apple 成为 TSMC 最大客户，终结了 Apple 对先进工艺产能的长期优先垄断。"
-    },
-    {
-      "date": "2026-02-28",
-      "event": "Micron 与 SK Hynix 确认 2026 年全年的 HBM 产能已被长期合同售罄。"
+      "date": "2026-Late",
+      "event": "TSMC 计划将 CoWoS 月产能扩充至 13 万片，以满足 Nvidia 等客户需求。"
     }
   ],
   "key_data": [
     {
-      "metric": "HBM 产能",
-      "value": "Micron/SK Hynix 2026 年产能已 100% 售罄"
+      "metric": "TSMC 2nm 良率",
+      "value": "已达 60-70% (对比三星 ~40%)"
     },
     {
-      "metric": "TSMC 客户排名",
-      "value": "Nvidia 超越 Apple 成为第一大客户 (2026 Q1)"
+      "metric": "Nvidia 数据中心营收",
+      "value": "同比增长 75% (达 623 亿美元)"
     },
     {
-      "metric": "Meta 算力协议",
-      "value": "与 AMD 签署约 6GW 算力订单 (潜在价值 $100B)"
+      "metric": "CoWoS 产能占比",
+      "value": "Nvidia 锁定 TSMC ~60-70% 产能"
     },
     {
-      "metric": "Nvidia 光子投资",
-      "value": "$40 亿美元 (Lumentum/Coherent 各 $2B)"
+      "metric": "HBM4 速度",
+      "value": "三星内部测试达 11.7 Gbps"
     },
     {
-      "metric": "Broadcom 2nm",
-      "value": "首款 3.5D 封装芯片开始出货"
+      "metric": "2nm Tape-outs",
+      "value": "是 3nm 同期的 1.5 倍"
     }
   ],
   "items": [
     {
-      "title": "Nvidia 斥资 40 亿美元豪赌光子学，锁定 AI 网络未来",
-      "summary": "<ul><li>Nvidia 分别向 Lumentum 和 Coherent 投资 20 亿美元，旨在通过光子技术突破 AI 数据中心的传输瓶颈。</li><li>此次投资支持 Lumentum 建立新的美国晶圆厂，符合“主权供应链”趋势。</li><li>光互连（Photonics）被视为下一代 AI 集群扩展的关键，能显著降低延迟并提高能效。</li><li>这一举动表明 Nvidia 正从单纯的芯片供应商向全面的 AI 基础设施架构师转型。</li></ul>",
+      "title": "Nvidia 财报超预期但股价重挫，Blackwell 后继者 'Vera Rubin' 曝光",
+      "summary": "<ul><li><strong>财报强劲但市场反应冷淡</strong>：Nvidia Q4 数据中心营收达 623 亿美元（+75%），净利润 430 亿美元，均超预期。但股价因“利好出尽”及高预期并未上涨，反而大跌。</li><li><strong>Vera Rubin 系统浮出水面</strong>：CNBC 独家曝光 Nvidia 下一代 AI 系统 Vera Rubin，预计下半年出货，性能将超越 Blackwell。</li><li><strong>开源模型 NVLM 1.0</strong>：发布 72B 参数的开源多模态模型 NVLM 1.0，强化在文本处理上的表现。</li></ul>",
       "insights": [
-        "铜互连在超大规模集群中面临物理极限，光子技术是必然选择。",
-        "Nvidia 通过直接注资绑定上游核心器件供应商，复刻了其在 HBM 领域的控制力。",
-        "这对 Ayar Labs 等光子初创公司既是验证也是巨大的竞争压力。"
+        "市场对 AI 硬件的高增长已产生审美疲劳，投资者开始从单纯关注营收转向关注长期资本支出回报率。",
+        "Vera Rubin 的快速迭代表明 Nvidia 意在通过缩短产品周期来维持对 AMD 和自研芯片的代际优势。"
       ],
       "actions": [
-        "关注 Lumentum (LITE) 和 Coherent (COHR) 的产能扩充进度。",
-        "评估光模块/CPO (共封装光学) 供应链的长期受益机会。",
-        "留意 Broadcom 在光通信领域的反制措施。"
+        "关注 Vera Rubin 的详细规格发布，评估其对现有液冷及电源管理方案的升级需求。",
+        "留意 NVLM 1.0 对开源大模型生态的影响，尤其是对 Llama 系列的竞争。"
       ]
     },
     {
-      "title": "Meta 战略大转弯：放弃自研高端芯，千亿重注 AMD 与 Google",
-      "summary": "<ul><li>因技术受挫，Meta 决定终止其最雄心勃勃的内部 AI 训练芯片项目。</li><li>转而与 AMD 签署了一份可能高达 1000 亿美元（约 6GW 算力）的长期采购协议。</li><li>同时，Meta 签署了租用 Google TPU 的数十亿美元协议，形成多元化算力供应。</li><li>这一转变突显了自研高端 AI 芯片的极高门槛，即使是科技巨头也难以轻易跨越。</li></ul>",
+      "title": "TSMC 2nm 良率稳定在 70%，良率优势碾压三星",
+      "summary": "<ul><li><strong>2nm 量产顺利</strong>：TSMC 2nm (N2) 工艺已进入量产阶段（或接近量产），良率据报已稳定在 60-70% 区间，远超三星的 40%。</li><li><strong>客户采用率高</strong>：2nm 的流片（Tape-out）数量是 3nm 同期的 1.5 倍，Apple、Nvidia、AMD、MediaTek 均为首批客户。</li><li><strong>技术优势</strong>：首个 GAA 晶体管节点，宣称较 3nm 带来 15% 性能提升或 30% 功耗降低。</li></ul>",
       "insights": [
-        "自研芯片并非万能药，Meta 的退缩表明通用 GPU (Nvidia/AMD) 的生态壁垒极高。",
-        "AMD 获得巨额订单是其 MI300/MI400 系列的重大胜利，打破了 Nvidia 的绝对垄断。",
-        "云厂商之间的竞合关系加剧，Google 既是 Meta 的竞争对手也是其供应商。"
+        "良率差距意味着 TSMC 在 2nm 时代将继续垄断高端 AI 和手机芯片代工市场，三星短期内难以通过价格战翻盘。",
+        "高流片率显示业界对 2nm 性能提升的迫切需求，尤其是在 AI 边缘计算设备上的应用。"
       ],
       "actions": [
-        "重新评估 AMD 在 AI 数据中心市场的份额预期。",
-        "关注 Meta 的资本支出 (Capex) 结构变化，硬件采购占比将持续高位。",
-        "分析 ASIC 设计服务商（如 Marvell, Broadcom）在科技巨头自研受挫后的机会。"
+        "供应链需提前从 3nm 向 2nm 迁移，关注相关 EDA 工具链（如 Synopsys/Cadence）对 GAA 架构的支持更新。",
+        "关注 Apple iPhone 18/19 芯片工艺确认消息，作为 2nm 大规模商用的风向标。"
       ]
     },
     {
-      "title": "Broadcom 交付首款 2nm 3.5D 定制芯片，硬刚 Nvidia",
-      "summary": "<ul><li>Broadcom 宣布开始向 Fujitsu 交付业界首款基于 2nm 工艺和 3.5D 封装的定制 AI SoC。</li><li>该芯片利用了 Broadcom 的 3.5D eXtreme Dimension System in Package (XDSiP) 平台。</li><li>目标是在 2027 年实现 100 万颗销量，主要面向超大规模 AI 集群。</li><li>这是 2nm 工艺在高性能计算领域的早期实质性落地，领先于许多通用处理器。</li></ul>",
+      "title": "HBM4 竞赛白热化：三星欲借 HBM4 '王者归来'，Nvidia 或放宽规格",
+      "summary": "<ul><li><strong>量产加速</strong>：三星和 SK Hynix 均将 HBM4 量产时间表提前至 2026 年初/Q2，三星 HBM4 测试速度达 11.7 Gbps。</li><li><strong>良率挑战与规格妥协</strong>：因产能和良率限制，传 Nvidia 可能放宽 HBM4 的部分规格要求，以确保供应充足。</li><li><strong>客户反馈</strong>：三星宣称客户反馈“Samsung is back”，意图在 HBM4 世代夺回被 SK Hynix 抢占的市场份额。</li></ul>",
       "insights": [
-        "定制芯片 (ASIC) 正在通过更先进的工艺和封装技术（3.5D）试图在能效上超越通用 GPU。",
-        "Broadcom 证明了其在先进封装领域的深厚积累，是除 TSMC CoWoS 外的重要选择。",
-        "Fujitsu 的采用表明日本在重建高性能半导体供应链方面的决心。"
+        "HBM4 将是三星翻身的关键一战，若能通过 Nvidia 验证，将缓解 SK Hynix 独大的供应风险。",
+        "Nvidia 放宽规格表明 AI 芯片出货量的优先级高于极致显存性能，供应瓶颈依然是最大制约。"
       ],
       "actions": [
-        "追踪 2nm 工艺的良率和成本，这将决定定制芯片的普及速度。",
-        "关注 Broadcom 在 OpenAI 等潜在“泰坦”级客户中的渗透率。",
-        "研究 3.5D 封装对散热解决方案（液冷）提出的新要求。"
+        "密切关注三星 HBM4 通过 Nvidia 认证的官方消息，这将直接影响存储芯片供应链的采购策略。",
+        "评估 HBM4 采用 Hybrid Bonding 技术对封装测试设备的新增需求。"
       ]
     },
     {
-      "title": "TSMC 皇权更迭：Nvidia 正式超越 Apple 成最大客户",
-      "summary": "<ul><li>2026 年第一季度数据确立了 Nvidia 取代 Apple 成为 TSMC 营收贡献最大的客户。</li><li>这标志着半导体行业驱动力从“移动互联”正式切换为“AI 计算”。</li><li>Apple 长期享有的“产能优先权”被打破，未来先进工艺节点（如 A16）的争夺将更激烈。</li><li>Nvidia 的庞大需求迫使 TSMC 加速 2nm 及后续节点的扩产计划。</li></ul>",
+      "title": "先进封装产能紧缺：Nvidia 锁定 TSMC 60% CoWoS 产能，直冷技术获突破",
+      "summary": "<ul><li><strong>产能被锁死</strong>：Nvidia 锁定了 TSMC 约 60-70% 的 CoWoS 产能至 2027 年，迫使其他厂商寻求 Intel EMIB 等替代方案。</li><li><strong>产能扩充</strong>：TSMC 计划在 2026 年底将 CoWoS 月产能扩充至 13 万片（约为 2024 年的 4 倍）。</li><li><strong>散热黑科技</strong>：TSMC 展示 CoWoS 直接液冷技术（Direct-to-Silicon），散热能力突破 2.6kW，解决未来 AI 芯片热墙问题。</li></ul>",
       "insights": [
-        "晶圆代工定价权将进一步向 TSMC 倾斜，因为两大巨头都需要争抢首发产能。",
-        "消费电子（手机）的创新周期可能因得不到最优先的工艺支持而进一步放缓。",
-        "供应链需警惕单一客户依赖风险，尽管目前 AI 需求看起来深不见底。"
+        "CoWoS 产能依然是 AI 芯片出货的“阿喀琉斯之踵”，二线芯片厂商将面临严重的产能挤压。",
+        "芯片级液冷技术的突破将重塑数据中心基础设施标准，液冷板和冷却液供应商迎来长期利好。"
       ],
       "actions": [
-        "关注 TSMC 2026 年资本支出计划的修正，是否向 HPC 进一步倾斜。",
-        "分析 Apple 在 A19/M6 芯片规划上是否会因产能分配调整而改变策略。",
-        "留意二线代工厂（Intel IFS, Samsung）是否能承接 Apple 的部分溢出订单（可能性极低但值得关注）。"
+        "非 Nvidia 芯片厂商应加速验证 Amkor、ASE 或 Intel 的先进封装产能，避免单一依赖 TSMC。",
+        "数据中心设计需考量 2kW+ 芯片的散热需求，提前布局浸没式或芯片级液冷方案。"
       ]
     },
     {
-      "title": "HBM4 战火升级：Micron 抢跑，2026 产能全线告急",
-      "summary": "<ul><li>Micron 和 SK Hynix 均宣布其 2026 年 HBM 产能已全部被长期合同订光。</li><li>Micron 已在 2026 年初开始出货 HBM4 样品，试图在技术代际上缩小与 SK Hynix 的差距。</li><li>Nvidia 的 Rubin 架构 GPU 将首发搭载 HBM4，推动了这一需求的爆发。</li><li>HBM3E 12-hi 仍是当前主力，但 HBM4 的混合键合技术将是明年的竞争焦点。</li></ul>",
+      "title": "供应链预警：存储芯片与稀土短缺双重夹击",
+      "summary": "<ul><li><strong>存储芯片告急</strong>：SMIC 警告存储芯片短缺正在形成供应链瓶颈，手机厂商面临“有处理器无内存”的窘境。</li><li><strong>稀土断供风险</strong>：美国航空航天及芯片供应链曝出氧化钇（Yttrium Oxide）等稀土材料短缺，已有供应商停止接单。</li><li><strong>价格波动</strong>：存储芯片价格因 AI 需求挤压产能而上涨，甚至影响 PC 和手机市场的复苏。</li></ul>",
       "insights": [
-        "内存墙（Memory Wall）依然是 AI 发展的最大瓶颈，HBM 也是利润最丰厚的环节。",
-        "产能售罄意味着二线 AI 芯片厂商可能面临严重的显存短缺，生存空间被压缩。",
-        "HBM4 引入的逻辑代工（Logic Die）将拉近内存厂与晶圆厂（TSMC）的合作深度。"
+        "存储芯片短缺从服务器蔓延至消费电子，表明 AI 对产能的挤出效应正在扩大化。",
+        "稀土短缺可能成为新的地缘政治筹码，供应链需重新评估关键原材料的库存安全水位。"
       ],
       "actions": [
-        "重点监控 HBM4 的良率爬坡情况，混合键合技术难度极大。",
-        "关注 Samsung 在 HBM4 上的进度，这是其翻身的最后机会。",
-        "留意 HBM 设备供应商（如 Besi, Disco）的订单持续性。"
+        "采购部门应立即审查存储芯片（DRAM/NAND）及关键稀土材料的库存，考虑签署长约锁定供应。",
+        "关注 SMIC 及其他存储厂商的扩产进度，寻找非主流供应商作为备份。"
       ]
     }
   ]
