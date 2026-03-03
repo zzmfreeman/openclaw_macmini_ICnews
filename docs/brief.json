@@ -1,11 +1,13 @@
 {
-  "asOf": "2026-03-03 11:30",
+  "asOf": "2026-03-03 12:30",
   "keywords": [
     "Nvidia",
     "TSMC 2nm",
     "HBM4",
     "CoWoS",
-    "Supply Chain"
+    "Supply Chain",
+    "Post-Quantum",
+    "India Semicon"
   ],
   "timeline": [
     {
@@ -19,6 +21,14 @@
     {
       "date": "2026-03-02",
       "event": "TSMC 展示 CoWoS 直接液冷技术，散热能力达 2.6kW+ TDP，为下一代 AI 芯片铺路。"
+    },
+    {
+      "date": "2026-03-02",
+      "event": "SEALSQ 宣布参展 Embedded World 2026，展示抗量子芯片技术。"
+    },
+    {
+      "date": "2026-03-03",
+      "event": "印度宣布在 Semicon 2.0 计划下已培训 85,000 名半导体工程师。"
     },
     {
       "date": "2026-Q2 (预计)",
@@ -47,8 +57,12 @@
       "value": "三星内部测试达 11.7 Gbps"
     },
     {
-      "metric": "2nm Tape-outs",
-      "value": "是 3nm 同期的 1.5 倍"
+      "metric": "半导体 IP 市场规模",
+      "value": "预计 2030 年达 135.4 亿美元"
+    },
+    {
+      "metric": "印度半导体人才",
+      "value": "已培训 85,000 名工程师"
     }
   ],
   "items": [
@@ -67,7 +81,11 @@
         "关注 Vera Rubin 的详细规格发布，评估其对现有液冷及电源管理方案的升级需求。",
         "留意 NVLM 1.0 对开源大模型生态的影响，尤其是对 Llama 系列的竞争。"
       ],
-      "tags": ["Nvidia", "Earnings", "AI Chip"]
+      "tags": [
+        "Nvidia",
+        "Earnings",
+        "AI Chip"
+      ]
     },
     {
       "region": "overseas",
@@ -84,7 +102,11 @@
         "供应链需提前从 3nm 向 2nm 迁移，关注相关 EDA 工具链（如 Synopsys/Cadence）对 GAA 架构的支持更新。",
         "关注 Apple iPhone 18/19 芯片工艺确认消息，作为 2nm 大规模商用的风向标。"
       ],
-      "tags": ["TSMC", "2nm", "Foundry"]
+      "tags": [
+        "TSMC",
+        "2nm",
+        "Foundry"
+      ]
     },
     {
       "region": "overseas",
@@ -101,7 +123,11 @@
         "密切关注三星 HBM4 通过 Nvidia 认证的官方消息，这将直接影响存储芯片供应链的采购策略。",
         "评估 HBM4 采用 Hybrid Bonding 技术对封装测试设备的新增需求。"
       ],
-      "tags": ["HBM", "Samsung", "SK Hynix"]
+      "tags": [
+        "HBM",
+        "Samsung",
+        "SK Hynix"
+      ]
     },
     {
       "region": "overseas",
@@ -118,7 +144,11 @@
         "非 Nvidia 芯片厂商应加速验证 Amkor、ASE 或 Intel 的先进封装产能，避免单一依赖 TSMC。",
         "数据中心设计需考量 2kW+ 芯片的散热需求，提前布局浸没式或芯片级液冷方案。"
       ],
-      "tags": ["CoWoS", "Advanced Packaging", "Thermal"]
+      "tags": [
+        "CoWoS",
+        "Advanced Packaging",
+        "Thermal"
+      ]
     },
     {
       "region": "domestic",
@@ -135,7 +165,74 @@
         "采购部门应立即审查存储芯片（DRAM/NAND）及关键稀土材料的库存，考虑签署长约锁定供应。",
         "关注 SMIC 及其他存储厂商的扩产进度，寻找非主流供应商作为备份。"
       ],
-      "tags": ["Supply Chain", "Memory", "Rare Earth"]
+      "tags": [
+        "Supply Chain",
+        "Memory",
+        "Rare Earth"
+      ]
+    },
+    {
+      "region": "overseas",
+      "title": "SEALSQ 亮相 2026 嵌入式世界大会，展示抗量子芯片与 ASIC 创新",
+      "source": "GlobeNewswire",
+      "published": "2026-03-02",
+      "url": "https://www.globenewswire.com/news-release/2026/03/02/3247380/0/en/SEALSQ-to-Showcase-at-Embedded-World-2026-Quantum-Resistant-Chips-and-Advanced-ASIC-Innovations-by-IC-Alps.html",
+      "summary": "<ul><li><strong>抗量子技术展示</strong>：SEALSQ 将在 Embedded World 2026 上展示其最新的抗量子计算（Quantum-Resistant）安全芯片，应对未来量子计算破解传统加密的威胁。</li><li><strong>ASIC 创新</strong>：与其子公司 IC'Alps 合作，展示针对特定应用场景（如医疗、工业 IoT）的高级 ASIC 设计能力。</li><li><strong>安全标准</strong>：强调其产品符合即将到来的后量子密码学（PQC）标准，为关键基础设施提供长期安全保障。</li></ul>",
+      "insights": [
+        "随着量子计算实用化进程加快，嵌入式安全芯片正加速向 'Post-Quantum' 架构转型，抗量子能力将成为高端 MCU/安全芯片的标配。",
+        "IC'Alps 的定制化 ASIC 业务增长反映了通用芯片难以满足特定垂直领域（如植入式医疗设备）对功耗和尺寸的极致要求。"
+      ],
+      "actions": [
+        "安全敏感型 IoT 设备厂商应开始评估迁移至抗量子加密芯片的路线图，以避免未来的安全合规风险。",
+        "关注 NIST 后量子加密标准的最终落地，及时更新产品安全认证策略。"
+      ],
+      "tags": [
+        "Quantum",
+        "Security",
+        "ASIC"
+      ]
+    },
+    {
+      "region": "overseas",
+      "title": "半导体 IP 市场预测：2030 年将达 135 亿美元，Arm 与 Synopsys 领跑",
+      "source": "GlobeNewswire",
+      "published": "2026-03-02",
+      "url": "https://www.globenewswire.com/news-release/2026/03/02/3247502/28124/en/Semiconductor-Intellectual-Property-Research-Report-2026-2035-A-13-54-Billion-Market-by-2030-with-Arm-Synopsys-Cadence-Design-Systems-CEVA-Imagination-Technologies-Leading.html",
+      "summary": "<ul><li><strong>市场强劲增长</strong>：最新研报预测，全球半导体 IP 市场规模将从 2026 年稳步增长，预计到 2030 年达到 135.4 亿美元。</li><li><strong>巨头主导</strong>：Arm、Synopsys、Cadence、CEVA 和 Imagination Technologies 继续主导市场，其中 Synopsys 通过收购 Intrinsic ID 进一步强化了安全 IP 布局。</li><li><strong>驱动因素</strong>：AI 加速器、汽车电子及数据中心定制芯片（Custom Silicon）的爆发是推动 IP 授权需求增长的核心动力。</li></ul>",
+      "insights": [
+        "芯片设计门槛的降低（得益于完善的 IP 生态）正在鼓励更多系统厂商（如 Google, Amazon, Tesla）自研芯片，进一步推高 IP 授权市场。",
+        "安全 IP（Security IP）正成为继计算核（CPU/NPU）之后增长最快的 IP 类别，显示出硬件安全在 AI 时代的重要性。"
+      ],
+      "actions": [
+        "芯片设计初创公司应利用成熟 IP 加速上市时间（Time-to-Market），避免在非核心逻辑上重复造轮子。",
+        "投资者应关注 IP 供应商在 Chiplet 标准（如 UCIe）上的布局，这将是未来 IP 交付的新形态。"
+      ],
+      "tags": [
+        "IP Market",
+        "Arm",
+        "Synopsys"
+      ]
+    },
+    {
+      "region": "overseas",
+      "title": "印度 Semicon 2.0 成果：四年培训 8.5 万名半导体工程师",
+      "source": "The News Mill",
+      "published": "2026-03-03",
+      "url": "https://thenewsmill.com/2026/03/india-trains-85000-semiconductor-engineers-in-four-years-under-semicon-2-0/",
+      "summary": "<ul><li><strong>人才储备激增</strong>：印度政府宣布在 'Semicon 2.0' 计划下，已成功培训 85,000 名半导体工程师，旨在解决全球芯片人才短缺问题。</li><li><strong>EDA 工具普及</strong>：Cadence、Synopsys 和 Siemens 的世界级 EDA 工具已引入印度 315 所大学，学生可直接使用工业级工具进行芯片设计实践。</li><li><strong>全球人才库</strong>：印度意图将自己打造为全球半导体人才的后花园，以吸引更多外资晶圆厂和设计中心落地。</li></ul>",
+      "insights": [
+        "印度庞大的工程人才库若能有效转化为半导体专业劳动力，将极大缓解全球（尤其是西方国家）面临的芯片人才荒。",
+        "EDA 巨头在高校的早期布局将培养出高度依赖其工具链的新一代工程师，巩固其长期市场护城河。"
+      ],
+      "actions": [
+        "跨国芯片企业可考虑在印度扩建研发中心（R&D Center），利用当地日益成熟的人才红利。",
+        "关注印度在制造端（Fab/OSAT）的实际落地情况，评估其作为 'China Plus One' 战略选项的可行性。"
+      ],
+      "tags": [
+        "India",
+        "Talent",
+        "Policy"
+      ]
     }
   ]
 }
