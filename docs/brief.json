@@ -1,64 +1,50 @@
 {
-  "asOf": "2026-03-03 12:30",
+  "asOf": "2026-03-03 16:30",
   "keywords": [
-    "Nvidia",
-    "TSMC 2nm",
-    "HBM4",
-    "CoWoS",
-    "Supply Chain",
-    "Post-Quantum",
-    "India Semicon"
+    "ASML",
+    "Nvidia Inference",
+    "Huawei Talent",
+    "SIA Security Act",
+    "Advanced Packaging"
   ],
   "timeline": [
     {
-      "date": "2026-02-26",
-      "event": "Nvidia 公布财报，数据中心营收大增 75%，但股价因“利好出尽”单日重挫 2600 亿美元。"
-    },
-    {
-      "date": "2026-02-27",
-      "event": "美国航空航天及芯片供应链遭遇稀土（氧化钇）短缺，部分供应商断供。"
+      "date": "2026-03-02",
+      "event": "ASML 宣布战略扩张，将进军先进封装设备市场以支持 AI 芯片发展。"
     },
     {
       "date": "2026-03-02",
-      "event": "TSMC 展示 CoWoS 直接液冷技术，散热能力达 2.6kW+ TDP，为下一代 AI 芯片铺路。"
+      "event": "SIA（半导体行业协会）发表声明，公开反对美国《芯片安全法案》（Chip Security Act）。"
     },
     {
       "date": "2026-03-02",
-      "event": "SEALSQ 宣布参展 Embedded World 2026，展示抗量子芯片技术。"
+      "event": "Intel 前 CEO Lip-Bu Tan 警告华为已招聘数百名顶级工程师，技术差距正在快速缩小。"
+    },
+    {
+      "date": "2026-03-02",
+      "event": "传闻 Nvidia 将于下月发布秘密研发的 AI 推理专用芯片，采用 Groq 技术。"
     },
     {
       "date": "2026-03-03",
       "event": "印度宣布在 Semicon 2.0 计划下已培训 85,000 名半导体工程师。"
-    },
-    {
-      "date": "2026-Q2 (预计)",
-      "event": "三星与 SK Hynix 预计完成 HBM4 认证，量产时间表提前至 2026 年初。"
-    },
-    {
-      "date": "2026-Late",
-      "event": "TSMC 计划将 CoWoS 月产能扩充至 13 万片，以满足 Nvidia 等客户需求。"
     }
   ],
   "key_data": [
     {
-      "metric": "TSMC 2nm 良率",
-      "value": "已达 60-70% (对比三星 ~40%)"
+      "metric": "ASML 战略展望",
+      "value": "从光刻扩展至先进封装 (10-15年规划)"
     },
     {
-      "metric": "Nvidia 数据中心营收",
-      "value": "同比增长 75% (达 623 亿美元)"
+      "metric": "华为研发团队",
+      "value": "数百名 CPU 架构师与光刻专家"
     },
     {
-      "metric": "CoWoS 产能占比",
-      "value": "Nvidia 锁定 TSMC ~60-70% 产能"
+      "metric": "Nvidia 推理芯片",
+      "value": "针对低功耗推理优化 (对抗 Cerebras)"
     },
     {
-      "metric": "HBM4 速度",
-      "value": "三星内部测试达 11.7 Gbps"
-    },
-    {
-      "metric": "半导体 IP 市场规模",
-      "value": "预计 2030 年达 135.4 亿美元"
+      "metric": "SIA 立场",
+      "value": "反对 S. 1705/H.R. 3447 法案"
     },
     {
       "metric": "印度半导体人才",
@@ -68,107 +54,86 @@
   "items": [
     {
       "region": "overseas",
-      "title": "Nvidia 财报超预期但股价重挫，Blackwell 后继者 'Vera Rubin' 曝光",
-      "source": "CNBC / Financial Times",
-      "published": "2026-02-27",
-      "url": "https://www.cnbc.com/2026/02/27/nvidia-earnings-q4-2026.html",
-      "summary": "<ul><li><strong>财报强劲但市场反应冷淡</strong>：Nvidia Q4 数据中心营收达 623 亿美元（+75%），净利润 430 亿美元，均超预期。但股价因“利好出尽”及高预期并未上涨，反而大跌。</li><li><strong>Vera Rubin 系统浮出水面</strong>：CNBC 独家曝光 Nvidia 下一代 AI 系统 Vera Rubin，预计下半年出货，性能将超越 Blackwell。</li><li><strong>开源模型 NVLM 1.0</strong>：发布 72B 参数的开源多模态模型 NVLM 1.0，强化在文本处理上的表现。</li></ul>",
+      "title": "ASML 战略转型：超越 EUV，进军 AI 芯片先进封装设备",
+      "source": "Reuters",
+      "published": "2026-03-02",
+      "url": "https://www.reuters.com/world/asia-pacific/asml-plots-future-chipmaking-tools-ai-beyond-euv-2026-03-02/",
+      "summary": "<ul><li><strong>超越光刻</strong>：ASML 首席技术官 Marco Pieters 透露，公司正计划从单一的光刻机供应商转型，开发用于“粘合和连接”多个专用芯片的先进封装设备。</li><li><strong>AI 驱动</strong>：这一战略旨在解决 AI 芯片对高带宽内存（HBM）和异构集成的巨大需求，先进封装已成为提升 AI 算力的关键瓶颈。</li><li><strong>长期规划</strong>：ASML 表示这一布局是针对未来 10-15 年的技术路线图，并将 AI 技术引入其自身的设备研发中。</li></ul>",
       "insights": [
-        "市场对 AI 硬件的高增长已产生审美疲劳，投资者开始从单纯关注营收转向关注长期资本支出回报率。",
-        "Vera Rubin 的快速迭代表明 Nvidia 意在通过缩短产品周期来维持对 AMD 和自研芯片的代际优势。"
+        "ASML 的入局将加剧先进封装设备市场（目前由 Applied Materials、Lam Research 等主导）的竞争，可能重塑设备供应链格局。",
+        "这标志着摩尔定律的延续已正式从“缩小晶体管”转向“系统级封装集成”，光刻机巨头的转型是行业风向标。"
       ],
       "actions": [
-        "关注 Vera Rubin 的详细规格发布，评估其对现有液冷及电源管理方案的升级需求。",
-        "留意 NVLM 1.0 对开源大模型生态的影响，尤其是对 Llama 系列的竞争。"
+        "封装测试厂商（OSAT）需关注 ASML 新设备的兼容性标准，评估是否需要调整未来的产线规划。",
+        "投资者应留意 ASML 在封装领域的并购动向，这可能是其快速补齐技术短板的途径。"
       ],
       "tags": [
-        "Nvidia",
-        "Earnings",
+        "ASML",
+        "Advanced Packaging",
         "AI Chip"
       ]
     },
     {
       "region": "overseas",
-      "title": "TSMC 2nm 良率稳定在 70%，良率优势碾压三星",
-      "source": "Digitimes",
-      "published": "2026-03-01",
-      "url": "https://www.digitimes.com/news/a20260301VL201/tsmc-2nm-yield-rate.html",
-      "summary": "<ul><li><strong>2nm 量产顺利</strong>：TSMC 2nm (N2) 工艺已进入量产阶段（或接近量产），良率据报已稳定在 60-70% 区间，远超三星的 40%。</li><li><strong>客户采用率高</strong>：2nm 的流片（Tape-out）数量是 3nm 同期的 1.5 倍，Apple、Nvidia、AMD、MediaTek 均为首批客户。</li><li><strong>技术优势</strong>：首个 GAA 晶体管节点，宣称较 3nm 带来 15% 性能提升或 30% 功耗降低。</li></ul>",
+      "title": "传 Nvidia 秘密研发 AI 推理芯片，意在阻击 Groq 与 Cerebras",
+      "source": "SiliconANGLE",
+      "published": "2026-03-02",
+      "url": "https://siliconangle.com/2026/03/01/report-nvidia-working-top-secret-ai-inference-chip-debut-next-month/",
+      "summary": "<ul><li><strong>秘密武器</strong>：据报道，Nvidia 正在开发一款代号绝密的 AI 推理（Inference）专用芯片，预计最早于下月亮相。</li><li><strong>技术路线</strong>：该芯片据称将整合类似 Groq 的技术（可能是通过授权或自研类似架构），专注于低延迟、低功耗的推理任务。</li><li><strong>市场背景</strong>：OpenAI 等大客户近期转向 Cerebras 等竞争对手以降低推理成本，Nvidia 此举意在通过专用硬件护城河，防止推理市场份额流失。</li></ul>",
       "insights": [
-        "良率差距意味着 TSMC 在 2nm 时代将继续垄断高端 AI 和手机芯片代工市场，三星短期内难以通过价格战翻盘。",
-        "高流片率显示业界对 2nm 性能提升的迫切需求，尤其是在 AI 边缘计算设备上的应用。"
+        "推理市场正在与训练市场分离，通用 GPU 在推理端的能效比劣势给了初创公司可乘之机，Nvidia 必须推出专用产品回击。",
+        "若消息属实，Nvidia 将形成“GPU 训练 + ASIC 推理”的双轮驱动模式，进一步挤压定制芯片（ASIC）初创公司的生存空间。"
       ],
       "actions": [
-        "供应链需提前从 3nm 向 2nm 迁移，关注相关 EDA 工具链（如 Synopsys/Cadence）对 GAA 架构的支持更新。",
-        "关注 Apple iPhone 18/19 芯片工艺确认消息，作为 2nm 大规模商用的风向标。"
+        "云服务商需暂缓大规模采购单一推理硬件，等待 Nvidia 新品发布后的性能对比评测。",
+        "关注 Groq 和 Cerebras 的融资与合作动向，Nvidia 的入局可能加速该领域的洗牌或并购。"
       ],
       "tags": [
-        "TSMC",
-        "2nm",
-        "Foundry"
+        "Nvidia",
+        "Inference",
+        "AI ASIC"
       ]
     },
     {
       "region": "overseas",
-      "title": "HBM4 竞赛白热化：三星欲借 HBM4 '王者归来'，Nvidia 或放宽规格",
-      "source": "Korea Herald",
+      "title": "Intel 前 CEO 预警：华为已吸纳数百名顶级工程师，芯片差距正在消失",
+      "source": "Times of India",
       "published": "2026-03-02",
-      "url": "http://www.koreaherald.com/view.php?ud=20260302000123",
-      "summary": "<ul><li><strong>量产加速</strong>：三星和 SK Hynix 均将 HBM4 量产时间表提前至 2026 年初/Q2，三星 HBM4 测试速度达 11.7 Gbps。</li><li><strong>良率挑战与规格妥协</strong>：因产能和良率限制，传 Nvidia 可能放宽 HBM4 的部分规格要求，以确保供应充足。</li><li><strong>客户反馈</strong>：三星宣称客户反馈“Samsung is back”，意图在 HBM4 世代夺回被 SK Hynix 抢占的市场份额。</li></ul>",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/intel-ceo-lip-bu-tan-i-was-shocked-to-find-chinas-huawei-has-hired-100s-of-engineers-who-can-/articleshow/128909038.cms",
+      "summary": "<ul><li><strong>人才回流</strong>：Intel 前 CEO Lip-Bu Tan 表示，他“震惊”地发现华为已招聘了数百名具备顶级能力的 CPU 架构师和光刻工程师。</li><li><strong>替代方案</strong>：这些工程师正在开发能够替代美国先进芯片工具和光刻机的本土解决方案，且进展速度超出西方预期。</li><li><strong>差距缩小</strong>：Tan 警告称，通过工程优化和基础设施建设，中国正在迅速缩小与西方的半导体技术差距，单纯的出口管制可能正在失效。</li></ul>",
       "insights": [
-        "HBM4 将是三星翻身的关键一战，若能通过 Nvidia 验证，将缓解 SK Hynix 独大的供应风险。",
-        "Nvidia 放宽规格表明 AI 芯片出货量的优先级高于极致显存性能，供应瓶颈依然是最大制约。"
+        "人才是半导体竞争的核心，华为的高端人才储备表明其技术突破并非偶然，而是长期人才战略的结果。",
+        "西方高管的公开预警可能促使美国政府进一步收紧人才交流限制，但也侧面印证了中国半导体自主化的实质性进展。"
       ],
       "actions": [
-        "密切关注三星 HBM4 通过 Nvidia 认证的官方消息，这将直接影响存储芯片供应链的采购策略。",
-        "评估 HBM4 采用 Hybrid Bonding 技术对封装测试设备的新增需求。"
+        "跨国芯片企业需重新评估在华研发团队的人才保留策略，面临更激烈的人才争夺战。",
+        "供应链需为中国本土供应链的崛起做好两手准备，评估国产替代方案的成熟度。"
       ],
       "tags": [
-        "HBM",
-        "Samsung",
-        "SK Hynix"
+        "Huawei",
+        "Talent",
+        "Geopolitics"
       ]
     },
     {
       "region": "overseas",
-      "title": "先进封装产能紧缺：Nvidia 锁定 TSMC 60% CoWoS 产能，直冷技术获突破",
-      "source": "SemiEngineering",
+      "title": "SIA 发表声明反对《芯片安全法案》，担忧伤及美国产业竞争力",
+      "source": "SIA",
       "published": "2026-03-02",
-      "url": "https://semiengineering.com/advanced-packaging-capacity-crunch-2026/",
-      "summary": "<ul><li><strong>产能被锁死</strong>：Nvidia 锁定了 TSMC 约 60-70% 的 CoWoS 产能至 2027 年，迫使其他厂商寻求 Intel EMIB 等替代方案。</li><li><strong>产能扩充</strong>：TSMC 计划在 2026 年底将 CoWoS 月产能扩充至 13 万片（约为 2024 年的 4 倍）。</li><li><strong>散热黑科技</strong>：TSMC 展示 CoWoS 直接液冷技术（Direct-to-Silicon），散热能力突破 2.6kW，解决未来 AI 芯片热墙问题。</li></ul>",
+      "url": "https://www.semiconductors.org/sia-statement-on-chip-security-act/",
+      "summary": "<ul><li><strong>公开反对</strong>：美国半导体行业协会（SIA）发布总裁 John Neuffer 的声明，明确反对国会推进的《芯片安全法案》（Chip Security Act, S. 1705/H.R. 3447）。</li><li><strong>合规承诺</strong>：SIA 强调成员企业已完全致力于遵守现有的出口管制规定，反对非法转移技术。</li><li><strong>潜在危害</strong>：SIA 暗示该法案可能施加不必要的过度限制，损害美国芯片企业的全球竞争力和研发投入能力。</li></ul>",
       "insights": [
-        "CoWoS 产能依然是 AI 芯片出货的“阿喀琉斯之踵”，二线芯片厂商将面临严重的产能挤压。",
-        "芯片级液冷技术的突破将重塑数据中心基础设施标准，液冷板和冷却液供应商迎来长期利好。"
+        "行业协会与立法者的公开分歧表明，美国半导体界对持续加码的监管已感到疲惫，过度监管可能正在反噬美国本土产业。",
+        "SIA 的表态可能影响法案的最终条款，为企业争取更多的合规缓冲期。"
       ],
       "actions": [
-        "非 Nvidia 芯片厂商应加速验证 Amkor、ASE 或 Intel 的先进封装产能，避免单一依赖 TSMC。",
-        "数据中心设计需考量 2kW+ 芯片的散热需求，提前布局浸没式或芯片级液冷方案。"
+        "在美国有业务的芯片企业需密切关注该法案的立法进程，评估其对供应链合规成本的潜在影响。",
+        "关注 SIA 后续的游说活动，这可能是政策风向微调的信号。"
       ],
       "tags": [
-        "CoWoS",
-        "Advanced Packaging",
-        "Thermal"
-      ]
-    },
-    {
-      "region": "domestic",
-      "title": "供应链预警：存储芯片与稀土短缺双重夹击",
-      "source": "财联社",
-      "published": "2026-03-01",
-      "url": "https://www.cls.cn/detail/1234567",
-      "summary": "<ul><li><strong>存储芯片告急</strong>：SMIC 警告存储芯片短缺正在形成供应链瓶颈，手机厂商面临“有处理器无内存”的窘境。</li><li><strong>稀土断供风险</strong>：美国航空航天及芯片供应链曝出氧化钇（Yttrium Oxide）等稀土材料短缺，已有供应商停止接单。</li><li><strong>价格波动</strong>：存储芯片价格因 AI 需求挤压产能而上涨，甚至影响 PC 和手机市场的复苏。</li></ul>",
-      "insights": [
-        "存储芯片短缺从服务器蔓延至消费电子，表明 AI 对产能的挤出效应正在扩大化。",
-        "稀土短缺可能成为新的地缘政治筹码，供应链需重新评估关键原材料的库存安全水位。"
-      ],
-      "actions": [
-        "采购部门应立即审查存储芯片（DRAM/NAND）及关键稀土材料的库存，考虑签署长约锁定供应。",
-        "关注 SMIC 及其他存储厂商的扩产进度，寻找非主流供应商作为备份。"
-      ],
-      "tags": [
-        "Supply Chain",
-        "Memory",
-        "Rare Earth"
+        "SIA",
+        "Regulation",
+        "Policy"
       ]
     },
     {
