@@ -1,10 +1,9 @@
 {
-  "asOf": "2026-03-04 13:00",
+  "asOf": "2026-03-04 13:35",
   "keywords": [
+    "Intel Leadership",
     "Broadcom",
     "Lianghui",
-    "Intel",
-    "TSMC",
     "New Quality Productive Forces"
   ],
   "timeline": [],
@@ -19,6 +18,17 @@
     }
   ],
   "items": [
+    {
+      "region": "overseas",
+      "title": "🚨 人事地震：Intel 董事长 Frank Yeary 辞职，Craig Barratt 接任",
+      "source": "Reuters / Tom's Hardware",
+      "published": "2026-03-04",
+      "url": "https://www.reuters.com/business/intel-board-chair-frank-yeary-depart-2026-03-03/",
+      "summary": "<ul><li>Intel 官方宣布，担任董事会主席长达 17 年的 Frank Yeary 将在 5 月的年度股东大会后退休并卸任。</li><li>具有深厚工程背景的现任董事 Craig Barratt 博士被选举为新的独立董事长。</li><li>这一人事巨震发生在现任 CEO Lip-Bu Tan (陈立武) 试图大规模重组和复兴这家陷入困境的芯片巨头之际。</li></ul>",
+      "insights": ["董事长的更替标志着 Intel 正在加速清除旧有的战略包袱，转向由技术主导的复兴路线。", "Craig Barratt 的工程背景将有助于 Intel Foundry 代工业务在 18A 节点上的技术执行。"],
+      "actions": ["关注 Intel 5月股东大会后是否会宣布进一步的资产剥离（如 Altera 或 Mobileye）计划。", "评估此次人事变动对 Intel 股价及市场信心的短期修复作用。"],
+      "glossary": []
+    },
     {
       "region": "overseas",
       "title": "Broadcom 财报前瞻：AI 营收预计翻倍至 82 亿美元，网络芯片需求井喷",
@@ -44,17 +54,6 @@
       "glossary": [
         {"term": "新质生产力", "desc": "New Quality Productive Forces，指以科技创新为主导，摆脱传统增长路径，具有高科技、高效能、高质量特征的先进生产力状态。"}
       ]
-    },
-    {
-      "region": "overseas",
-      "title": "Intel 制造产能告急：修复瓶颈或需数年，利好台积电",
-      "source": "Manufacturing Dive",
-      "published": "2026-03-03",
-      "url": "https://www.manufacturingdive.com/news/intel-manufacturing-capacity-issues-may-take-years-to-fix-amd-nvidia-tsmc/813634/",
-      "summary": "<ul><li>最新分析指出，Intel 的制造产能问题比预期更严峻，可能需要数年时间才能完全解决。</li><li>这一瓶颈将直接限制 Intel 18A 节点的客户导入进度，导致其在代工市场的复苏受阻。</li><li>作为对比，台积电的所有先进制程节点（3nm/2nm）已被 Nvidia、Apple 等巨头抢购一空。</li></ul>",
-      "insights": ["Intel 的产能困境意味着台积电在先进制程上的垄断地位短期内无人能撼动。", "这可能迫使美国政府进一步加码对本土制造的补贴，以防止'单一来源'风险。"],
-      "actions": ["无晶圆厂设计公司（Fabless）应继续锁定台积电产能，避免押注 Intel 18A 带来的交付风险。", "关注 Intel 是否会寻求外部代工（如利用三星产能）来缓解压力。"],
-      "glossary": []
     },
     {
       "region": "domestic",
