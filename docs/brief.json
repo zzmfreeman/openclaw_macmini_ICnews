@@ -1,58 +1,207 @@
 {
-  "timeline": "2026.03.04",
-  "key_data": {
-    "kospi_drop": "-7%",
-    "sk_hynix_drop": "-11.5%",
-    "arteris_milestone": "40亿颗"
-  },
+  "asOf": "2026-03-04 09:00",
+  "keywords": [
+    "Nvidia",
+    "HBM4",
+    "Supply Chain",
+    "Export Control",
+    "KOSPI",
+    "Advanced Packaging"
+  ],
+  "timeline": [
+    {
+      "date": "2026-03-03",
+      "event": "美国提议限制 Nvidia H200 对华出口上限为每家实体 7.5 万颗。"
+    },
+    {
+      "date": "2026-03-03",
+      "event": "韩国股市遭遇黑色星期二，KOSPI 指数暴跌 7%，SK 海力士重挫 11.5%。"
+    },
+    {
+      "date": "2026-03-03",
+      "event": "ASML 宣布进军先进封装设备市场，开发非 EUV 光刻工具。"
+    },
+    {
+      "date": "2026-03-04",
+      "event": "Arteris NoC IP 达成 40 亿颗芯片部署里程碑，主要受 AI 汽车应用驱动。"
+    },
+    {
+      "date": "2026-03-04",
+      "event": "印度半导体任务 (ISM) 确认 Micron、Tata 等四家工厂将于 2026 年实现商业量产。"
+    }
+  ],
+  "key_data": [
+    {
+      "metric": "SK 海力士单日跌幅",
+      "value": "-11.5%"
+    },
+    {
+      "metric": "H200 对华出口上限",
+      "value": "75,000 颗/户"
+    },
+    {
+      "metric": "Arteris IP 部署量",
+      "value": "40 亿颗"
+    },
+    {
+      "metric": "陶瓷封装市场 (2030)",
+      "value": "$27.8 亿 (CAGR 8.5%)"
+    },
+    {
+      "metric": "Nvidia 光子学投资",
+      "value": "$40 亿美元"
+    }
+  ],
   "items": [
     {
-      "date": "2026-03-04",
-      "title": "韩国股市遭遇“黑色星期二”：KOSPI 暴跌 7%，SK 海力士重挫 11.5%",
+      "region": "overseas",
+      "title": "韩国股市“黑色星期二”：KOSPI 暴跌 7%，SK 海力士重挫 11.5%",
       "source": "FinancialContent",
+      "published": "2026-03-03",
       "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-3-black-tuesday-in-seoul-kospi-plummets-7-as-war-fears-and-semiconductor-slump-trigger-market-meltdown",
+      "summary": "<ul><li>韩国股市 KOSPI 指数周二暴跌 7%，创下近期最大单日跌幅，市场恐慌情绪蔓延。</li><li>受中东地缘政治紧张及全球经济衰退担忧影响，避险情绪导致半导体板块遭受重创。</li><li>作为 AI 关键供应商的 SK 海力士股价暴跌 11.5%，反映出投资者对 HBM 供应链中断及需求疲软的极度担忧。</li></ul>",
+      "insights": ["SK 海力士的暴跌可能引发全球 AI 硬件股的连锁反应，需警惕短期回调风险。", "地缘政治已成为半导体供应链最大的不可控变量。"],
+      "actions": ["关注三星电子及 Micron 股价走势，评估行业系统性风险。", "供应链需排查韩国原材料供应的潜在物流中断风险。"]
+    },
+    {
       "region": "overseas",
-      "summary": "<ul><li>韩国股市 KOSPI 指数周二暴跌 7%，创下近期最大单日跌幅。</li><li>受中东地缘政治紧张局势可能引发全球经济衰退的担忧影响，半导体板块遭受重创。</li><li>作为 AI 芯片 HBM（高带宽内存）关键供应商的 SK 海力士股价暴跌 11.5%，反映出市场对供应链中断及需求疲软的恐慌。</li></ul>"
-    },
-    {
-      "date": "2026-03-04",
-      "title": "Arteris 片上网络 (NoC) 技术达成 40 亿颗芯片部署里程碑",
-      "source": "GlobeNewswire",
-      "url": "https://www.globenewswire.com/news-release/2026/03/04/3249004/0/zh-hans/Arteris-%E7%89%87%E4%B8%8A%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF%E5%9C%A8%E5%85%A8%E7%90%83%E8%8C%83%E5%9B%B4%E5%86%85%E5%AE%9E%E7%8E%B0%E4%BA%86-40-%E4%BA%BF%E9%A2%97%E8%8A%AF%E7%89%87%E5%92%8C%E8%8A%AF%E7%B2%92%E7%9A%84%E9%83%A8%E7%BD%B2%E9%87%8C%E7%A8%8B%E7%A2%91.html",
-      "region": "overseas",
-      "summary": "<ul><li>Arteris 宣布其片上网络 (NoC) 互连 IP 已在全球范围内被部署于超过 40 亿颗芯片和芯粒 (Chiplet) 中。</li><li>这一增长主要由汽车、企业计算、消费电子及工业领域的 AI 驱动应用加速推动。</li><li>该里程碑凸显了 NoC 技术在复杂 SoC 设计中作为关键连接基础设施的地位日益巩固。</li></ul>"
-    },
-    {
-      "date": "2026-03-04",
-      "title": "顺络电子：AI 服务器相关订单饱满，覆盖头部客户",
-      "source": "36Kr",
-      "url": "https://36kr.com/newsflashes/3706586256830597",
-      "region": "domestic",
-      "summary": "<ul><li>顺络电子在业绩说明会上透露，其 AI 服务器相关业务进展顺利，订单处于饱满状态。</li><li>公司利用在材料、设备及制造工艺上的优势，为 AI 服务器客户提供一站式元器件解决方案。</li><li>客户群体已覆盖国内头部服务器厂商、主要功率半导体模块厂商及顶级 ODM 厂商。</li></ul>"
-    },
-    {
-      "date": "2026-03-04",
-      "title": "英矽智能试点推出自动化 AI 业务拓展平台",
-      "source": "36Kr",
-      "url": "https://36kr.com/newsflashes/3706705940459656",
-      "region": "domestic",
-      "summary": "<ul><li>临床阶段生物科技公司英矽智能宣布推出自动化 AI 业务拓展平台 Automated Partnering System。</li><li>该平台旨在利用生成式 AI 技术，基于数据库自动处理初步尽职调查问询。</li><li>此举将原本繁琐的人工沟通流程升级为自动化闭环，有望加速生物医药领域的合作效率，展示了 AI 在垂直行业落地的又一进展。</li></ul>"
-    },
-    {
-      "date": "2026-03-04",
-      "title": "美国考虑限制 Nvidia H200 芯片对华出口数量",
+      "title": "美国拟限制 Nvidia H200 对华出口：每家企业或设 7.5 万颗上限",
       "source": "Technobezz",
+      "published": "2026-03-03",
       "url": "https://www.technobezz.com/news/us-considers-capping-nvidia-h200-chip-sales-to-chinese-firms-at-75000-each",
-      "region": "overseas",
-      "summary": "<ul><li>据报道，美国政府正在考虑对 Nvidia 向中国科技公司销售的 H200 AI 芯片实施新的数量上限。</li><li>提议的上限可能设定为每家公司 75,000 颗，旨在遏制中国企业开发大规模 AI 模型的能力。</li><li>此举若实施，将进一步收紧对华高端 AI 芯片的出口管制，迫使 Nvidia 重新评估其在中国市场的策略。</li></ul>"
+      "summary": "<ul><li>美国政府正考虑对 Nvidia 向中国科技公司销售的 H200 AI 芯片实施新的数量上限。</li><li>提议的上限可能设定为每家公司 75,000 颗，远低于此前部分中国巨头预期的 15 万颗以上。</li><li>此举旨在遏制中国企业开发大规模 AI 模型的能力，同时避免完全切断商业联系。</li></ul>",
+      "insights": ["7.5 万颗的上限对阿里、腾讯等云厂商的大模型训练集群规模构成了直接物理限制。", "这可能加速国产 AI 芯片（如华为 Ascend）在推理侧的替代进程。"],
+      "actions": ["国内 AI 企业需加速适配国产算力生态，避免单一依赖 Nvidia。", "关注美国商务部最终规则发布的具体时间表。"]
     },
     {
-      "date": "2026-03-04",
-      "title": "美媒关注 AI 产业过度依赖台湾半导体引发地缘风险担忧",
-      "source": "ScoopTW",
-      "url": "https://www.scooptw.com/sunmedia/445906/%E7%BE%8Eai%E7%94%A2%E6%A5%AD%E9%99%B7%E3%80%8C%E5%8F%B0%E7%81%A3%E4%BE%9D%E8%B3%B4%E3%80%8D%E5%9B%B0%E5%A2%83%EF%BC%9F%E5%9C%B0%E7%B7%A3%E9%A2%A8%E9%9A%AA%E6%88%90%E8%8F%AF%E5%BA%9C%E5%A4%A2%E9%AD%98/",
+      "region": "overseas",
+      "title": "ASML 战略扩张：进军先进封装设备，突破 EUV 局限",
+      "source": "TechSpot",
+      "published": "2026-03-03",
+      "url": "https://www.techspot.com/news/111543-asml-looks-beyond-euv-plans-new-tools-larger.html",
+      "summary": "<ul><li>ASML 宣布计划开发用于先进芯片封装的新一代光刻工具，不再局限于前端 EUV 制造。</li><li>新设备将支持 Intel Foveros 和 TSMC CoWoS 等技术，专注于大尺寸芯片和精确的 3D 堆叠对准。</li><li>此举标志着 ASML 从单纯的晶圆制造设备商向后端封装领域的战略延伸。</li></ul>",
+      "insights": ["先进封装已成为延续摩尔定律的关键，ASML 的入局将加剧封装设备市场的竞争。", "这对 Applied Materials 和 KLA 等传统后端设备巨头构成潜在挑战。"],
+      "actions": ["封装测试厂（OSAT）应关注 ASML 新设备的参数，评估其对提升良率的潜力。", "设备供应链需留意 ASML 在封装领域的新技术标准。"]
+    },
+    {
+      "region": "overseas",
+      "title": "Arteris NoC 技术达成 40 亿颗芯片部署里程碑",
+      "source": "GlobeNewswire",
+      "published": "2026-03-04",
+      "url": "https://www.globenewswire.com/news-release/2026/03/04/3249004/0/zh-hans/arteris-milestone.html",
+      "summary": "<ul><li>Arteris 宣布其片上网络 (NoC) 互连 IP 已在全球范围内被部署于超过 40 亿颗芯片和芯粒中。</li><li>这一增长主要由汽车智能化、企业级计算及 AI 驱动的消费电子应用加速推动。</li><li>该里程碑确立了 NoC 技术在复杂 SoC 设计中作为关键“数字神经系统”的地位。</li></ul>",
+      "insights": ["随着 Chiplet 架构的普及，NoC IP 的重要性将进一步提升，成为连接异构芯粒的标准。", "Arteris 的高市占率使其在定义互连标准方面拥有话语权。"],
+      "actions": ["SoC 架构师应优先评估 NoC 方案在多核异构设计中的带宽效率。", "关注 Arteris 在 Chiplet 互连标准（如 UCIe）上的最新布局。"]
+    },
+    {
+      "region": "overseas",
+      "title": "印度半导体计划 2026 年迎商业量产，Micron 与 Tata 领跑",
+      "source": "The Tribune",
+      "published": "2026-03-03",
+      "url": "https://www.tribuneindia.com/news/exam-mentor/india-semiconductor-mission-ism-2-0/",
+      "summary": "<ul><li>印度半导体任务 (ISM) 确认 2026 年将是里程碑式的一年，四大项目将实现商业量产。</li><li>Micron 的封装厂、Tata Electronics 的晶圆厂及 CG Power、Kaynes 的项目均从试点转向规模化生产。</li><li>这标志着印度正式加入全球半导体制造版图，意在减少对进口的依赖。</li></ul>",
+      "insights": ["印度的崛起将分流部分低端及封装产能，为全球供应链提供新的多元化选择。", "基础设施（水电）的稳定性仍是印度实现大规模量产的最大挑战。"],
+      "actions": ["跨国芯片企业可考虑将部分非核心封装业务试水印度，以利用当地补贴政策。", "供应链需评估印度物流效率对交期的影响。"]
+    },
+    {
+      "region": "overseas",
+      "title": "前台积电高管因涉嫌泄露核心技术遭调查",
+      "source": "Digitimes",
+      "published": "2026-03-03",
+      "url": "https://www.digitimes.com/news/a20260303PD218/tsmc-technology-investigation-taiwan-intel-2025.html",
+      "summary": "<ul><li>据报道，一名前台积电高管因涉嫌向竞争对手泄露核心芯片制造技术正在接受调查。</li><li>该调查涉及其在南京厂任职期间的行为，引发了对知识产权保护的担忧。</li><li>此事可能促使台积电及台湾相关部门进一步收紧对核心技术人员的管控措施。</li></ul>",
+      "insights": ["人才流动带来的 IP 泄露风险是半导体行业永恒的痛点，竞业禁止协议将更加严格。", "这可能影响台积电在海外建厂时的人员派遣策略。"],
+      "actions": ["芯片设计公司需加强 EDA 环境的数据防泄密（DLP）管控。", "HR 部门应重新审查核心技术人员的竞业限制条款。"]
+    },
+    {
+      "region": "overseas",
+      "title": "Nvidia 斥资 40 亿美元布局光互连，消除 AI 数据传输瓶颈",
+      "source": "Futurum Group",
+      "published": "2026-03-03",
+      "url": "https://futurumgroup.com/insights/nvidias-4b-optics-bet-signals-photonics-as-ais-next-bottleneck/",
+      "summary": "<ul><li>Nvidia 宣布向光子学厂商 Lumentum 和 Coherent 注资共计 40 亿美元，豪赌光互连技术。</li><li>此举旨在通过光子技术突破铜互连在下一代 AI 集群中的物理传输极限。</li><li>光互连被视为提升 AI 数据中心能效和降低延迟的唯一解。</li></ul>",
+      "insights": ["Nvidia 正试图通过垂直整合，将光通信产业链纳入其 AI 基础设施版图。", "这对硅光子（Silicon Photonics）初创公司是重大利好，但也意味着竞争加剧。"],
+      "actions": ["关注光模块厂商（如中际旭创、新易盛）在 CPO 技术路线上的跟进情况。", "数据中心规划需预留光互连基础设施的升级空间。"]
+    },
+    {
+      "region": "overseas",
+      "title": "Micron 发布全球首款 256GB SOCAMM2 模组，专为 Agentic AI 打造",
+      "source": "Wccftech",
+      "published": "2026-03-03",
+      "url": "https://wccftech.com/micron-ships-out-the-worlds-first-256gb-socamm2-modules/",
+      "summary": "<ul><li>Micron 宣布出货全球首款 256GB 容量的 SOCAMM2 内存模组。</li><li>该产品专为应对 Agentic AI（代理智能）带来的海量内存需求而设计，提供超高带宽和低延迟。</li><li>这标志着 LPCAMM2 标准在高性能计算领域的进一步普及。</li></ul>",
+      "insights": ["随着 AI Agent 变得更复杂，端侧设备的内存容量需求将成倍增长，大容量模组是刚需。", "这将推动笔记本和工作站内存架构的升级换代。"],
+      "actions": ["PC OEM 厂商应评估 SOCAMM2 在下一代 AI PC 中的导入计划。", "关注 Micron 在 DDR6 标准制定中的后续动作。"]
+    },
+    {
+      "region": "overseas",
+      "title": "2030 年全球半导体陶瓷封装市场将达 27.8 亿美元",
+      "source": "GlobeNewswire",
+      "published": "2026-03-03",
+      "url": "https://www.globenewswire.com/news-release/2026/03/03/3248066/28124/en/Semiconductor-Ceramic-Packaging-Materials-Global-Market-Forecast-Report.html",
+      "summary": "<ul><li>最新报告预测，全球半导体陶瓷封装材料市场将以 8.5% 的年复合增长率增长，到 2030 年达到 27.8 亿美元。</li><li>增长主要受电动汽车功率模块、5G 基础设施及射频器件需求驱动。</li><li>陶瓷封装因其优异的散热和可靠性，在严苛环境应用中不可替代。</li></ul>",
+      "insights": ["第三代半导体（SiC/GaN）的普及将直接带动陶瓷基板的需求。", "国内厂商在高端陶瓷粉体材料上仍有国产替代空间。"],
+      "actions": ["功率半导体厂商应锁定氧化铝/氮化铝陶瓷基板的长期供应。", "投资者可关注陶瓷材料供应链的细分龙头。"]
+    },
+    {
+      "region": "overseas",
+      "title": "Nvidia 'Rubin' 路线图曝光：CES 2026 将回应 AI 泡沫质疑",
+      "source": "Chronicle Journal",
+      "published": "2026-03-03",
+      "url": "http://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-3-3-nvidias-rubin-revelation",
+      "summary": "<ul><li>市场预期 Nvidia 将在 CES 2026 上详细披露下一代 'Rubin' 架构路线图。</li><li>新架构旨在通过技术代差和性能提升，有力回击市场关于 AI 泡沫破裂的质疑。</li><li>分析师建议关注 Rubin 对 HBM4 内存的具体规格需求及供应链准备情况。</li></ul>",
+      "insights": ["Nvidia 试图通过缩短产品迭代周期（1年1更）来维持高估值和市场垄断地位。", "Rubin 架构的推出将迫使 AMD 和 Intel 加速追赶，否则差距将进一步拉大。"],
+      "actions": ["关注 CES 2026 的官方发布会，获取第一手架构参数。", "评估 Rubin 对现有液冷散热方案的兼容性。"]
+    },
+    {
       "region": "domestic",
-      "summary": "<ul><li>《纽约时报》等美媒指出，尽管美国大力推动本土芯片制造，但 AI、云计算及国防系统仍高度依赖台湾半导体。</li><li>华盛顿担忧地缘政治风险可能切断关键供应链，这种“台湾依赖”困境成为美国政策制定者的主要隐忧。</li><li>业界分析认为，短期内完全摆脱对台积电等先进制程的依赖极具挑战性。</li></ul>"
+      "title": "顺络电子：AI 服务器订单爆满，全面覆盖头部客户",
+      "source": "36Kr",
+      "published": "2026-03-04",
+      "url": "https://36kr.com/newsflashes/3706586256830597",
+      "summary": "<ul><li>顺络电子确认其 AI 服务器相关业务订单处于饱满状态，产线高负荷运转。</li><li>公司已成功切入国内头部服务器厂商及顶级 ODM 供应链，提供定制化元器件。</li><li>这表明国产被动元器件在高端 AI 硬件领域的渗透率正在加速提升。</li></ul>",
+      "insights": ["国产 AI 服务器的放量将带动上游国产元器件厂商的业绩兑现。", "顺络电子的成功案例为其他国产被动元件厂商提供了高端化转型的范本。"],
+      "actions": ["关注顺络电子扩产项目的落地进度。", "评估其他国产电感/电容厂商切入 AI 供应链的可能性。"]
+    },
+    {
+      "region": "domestic",
+      "title": "英矽智能推出自动化平台，AI 赋能生物医药 BD",
+      "source": "36Kr",
+      "published": "2026-03-04",
+      "url": "https://36kr.com/newsflashes/3706705940459656",
+      "summary": "<ul><li>英矽智能发布 Automated Partnering System，利用 AI 自动化处理药物研发的商务拓展（BD）流程。</li><li>该平台能自动应对初步尽职调查，显著缩短生物医药合作的谈判周期。</li><li>这展示了 AI 技术从药物发现向产业链商业环节的深度渗透。</li></ul>",
+      "insights": ["AI for Science 不仅改变研发，正在重塑医药行业的商业运营模式。", "自动化尽调平台可能成为生物科技初创公司的标配工具。"],
+      "actions": ["生物医药企业 BD 部门应尝试引入此类 AI 工具提升效率。", "关注英矽智能后续是否开放该平台给第三方使用。"]
+    },
+    {
+      "region": "domestic",
+      "title": "2026：国产 AI 芯片从“推理”走向“训练”",
+      "source": "36Kr",
+      "published": "2026-03-03",
+      "url": "https://36kr.com/p/3696839539338881",
+      "summary": "<ul><li>智谱联合华为开源 GLM-Image，基于昇腾 Atlas 800T A2 全流程训练，标志着国产芯片具备 SOTA 模型训练能力。</li><li>这是首个完全依托国产算力底座实现端到端训练并登顶 Hugging Face 榜单的大模型。</li><li>2026 年被视为国产 AI 芯片跨越“不可用”到“好用”天堑的关键之年。</li></ul>",
+      "insights": ["国产算力生态已初步跑通大模型训练闭环，不再仅限于推理场景。", "这将极大增强国内大模型厂商使用国产芯片的信心。"],
+      "actions": ["国内模型厂商应加速昇腾/海光生态的适配测试。", "关注华为昇思 MindSpore 框架的更新迭代。"]
+    },
+    {
+      "region": "domestic",
+      "title": "美媒热议“台湾依赖”：地缘风险成美国 AI 产业梦魇",
+      "source": "ScoopTW",
+      "published": "2026-03-04",
+      "url": "https://www.scooptw.com/sunmedia/445906/%E7%BE%8Eai%E7%94%A2%E6%A5%AD%E9%99%B7%E3%80%8C%E5%8F%B0%E7%81%A3%E4%BE%9D%E8%B3%B4%E3%80%8D%E5%9B%B0%E5%A2%83%EF%BC%9F%E5%9C%B0%E7%B7%A3%E9%A2%A8%E9%9A%AA%E6%88%90%E8%8F%AF%E5%BA%9C%E5%A4%A2%E9%AD%98/",
+      "summary": "<ul><li>《纽约时报》等外媒指出，美国 AI 产业对台积电先进制程的过度依赖已构成国家安全隐患。</li><li>尽管《芯片法案》推动本土建厂，但短期内无法替代台湾完整的供应链生态。</li><li>“台湾依赖”正倒逼美国政策制定者加速供应链重构，或引发新一轮政策干预。</li></ul>",
+      "insights": ["供应链安全焦虑将促使美国加大对 Intel Foundry 的扶持力度。", "地缘风险溢价将被长期计入台积电的估值模型中。"],
+      "actions": ["跨国芯片设计公司需制定更为激进的“中国+1”或“台湾+1”制造策略。", "关注美国大选年对半导体供应链政策的潜在影响。"]
+    },
+    {
+      "region": "domestic",
+      "title": "CES 2026 前瞻：中国企业 AI 硬件将集体“霸榜”",
+      "source": "36Kr",
+      "published": "2026-03-04",
+      "url": "https://www.36kr.com/p/3576434740173186",
+      "summary": "<ul><li>预测显示，中国企业将在 CES 2026 上凭借 AI PC、AI 穿戴及人形机器人等产品再度占据主导地位。</li><li>创新奖名单中，中国企业的 AI 硬件产品数量创历史新高，显示出强大的产品落地能力。</li><li>这标志着中国 AI 产业正从算法内卷走向硬件应用的全面爆发。</li></ul>",
+      "insights": ["中国强大的硬件供应链与 AI 算法结合，正在形成新的出口增长点。", "AI 硬件将成为 2026 年消费电子复苏的主要引擎。"],
+      "actions": ["消费电子品牌应加速 AI 功能的产品化植入。", "关注 CES 2026 上中国 AI 硬件出海的市场反馈。"]
     }
   ]
 }
