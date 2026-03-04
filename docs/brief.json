@@ -1,12 +1,11 @@
 {
-  "asOf": "2026-03-04 10:00",
+  "asOf": "2026-03-04 12:40",
   "keywords": [
     "Nvidia",
-    "HBM4",
-    "Supply Chain",
-    "Export Control",
-    "KOSPI",
-    "Advanced Packaging"
+    "Lianghui",
+    "Intel Foundry",
+    "TSMC",
+    "New Quality Productive Forces"
   ],
   "timeline": [
     {
@@ -18,16 +17,16 @@
       "event": "韩国股市遭遇黑色星期二，KOSPI 指数暴跌 7%，SK 海力士重挫 11.5%。"
     },
     {
-      "date": "2026-03-03",
-      "event": "ASML 宣布进军先进封装设备市场，开发非 EUV 光刻工具。"
+      "date": "2026-03-04",
+      "event": "Arteris NoC IP 达成 40 亿颗芯片部署里程碑。"
     },
     {
       "date": "2026-03-04",
-      "event": "Arteris NoC IP 达成 40 亿颗芯片部署里程碑，主要受 AI 汽车应用驱动。"
+      "event": "中国两会开幕，'新质生产力'与'AI+行动'成半导体产业核心议题。"
     },
     {
       "date": "2026-03-04",
-      "event": "印度半导体任务 (ISM) 确认 Micron、Tata 等四家工厂将于 2026 年实现商业量产。"
+      "event": "Intel 曝出制造产能危机，修复或需数年时间。"
     }
   ],
   "key_data": [
@@ -44,15 +43,75 @@
       "value": "40 亿颗"
     },
     {
-      "metric": "陶瓷封装市场 (2030)",
-      "value": "$27.8 亿 (CAGR 8.5%)"
+      "metric": "AI+ 应用普及率目标",
+      "value": ">70% (2027)"
     },
     {
-      "metric": "Nvidia 光子学投资",
-      "value": "$40 亿美元"
+      "metric": "TSMC 股价跌幅",
+      "value": "-5.5%"
     }
   ],
   "items": [
+    {
+      "region": "domestic",
+      "title": "两会热点前瞻：'新质生产力'挂帅，AI 算力产业链成投资主线",
+      "source": "Sina Finance / 36Kr",
+      "published": "2026-03-04",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-03-03/doc-inhpsxzq4697004.shtml",
+      "summary": "<ul><li>2026 年全国两会拉开帷幕，'新质生产力'被列为头号关注方向。</li><li>机构梳理出 16 大热门赛道，其中 AI 算力产业链、半导体存储及低空经济占据核心位置。</li><li>政策预期将从单纯的产能扩张转向'调结构'，重点扶持国产算力底座与高端存储芯片的突破。</li></ul>",
+      "insights": ["'新质生产力'的核心就是算力与数据的结合，国产 AI 芯片厂商将迎来新一轮政策红利。", "投资逻辑从'国产替代'升级为'全球竞争力'，关注能进入海外供应链的头部企业。"],
+      "actions": ["重点关注两会期间发布的关于'人工智能+'行动的具体实施细则。", "布局 AI 算力基础设施（CPO、液冷、HBM）相关的龙头上市公司。"],
+      "glossary": [
+        {"term": "新质生产力", "desc": "New Quality Productive Forces，指以科技创新为主导，摆脱传统增长路径，具有高科技、高效能、高质量特征的先进生产力状态。"},
+        {"term": "两会", "desc": "Lianghui (Two Sessions)，指中国每年召开的全国人民代表大会和中国人民政治协商会议，是观察中国政策风向最重要的窗口。"}
+      ]
+    },
+    {
+      "region": "overseas",
+      "title": "Intel 制造产能告急：修复瓶颈或需数年，利好台积电",
+      "source": "Manufacturing Dive",
+      "published": "2026-03-03",
+      "url": "https://www.manufacturingdive.com/news/intel-manufacturing-capacity-issues-may-take-years-to-fix-amd-nvidia-tsmc/813634/",
+      "summary": "<ul><li>最新分析指出，Intel 的制造产能问题比预期更严峻，可能需要数年时间才能完全解决。</li><li>这一瓶颈将直接限制 Intel 18A 节点的客户导入进度，导致其在代工市场的复苏受阻。</li><li>作为对比，台积电的所有先进制程节点（3nm/2nm）已被 Nvidia、Apple 等巨头抢购一空。</li></ul>",
+      "insights": ["Intel 的产能困境意味着台积电在先进制程上的垄断地位短期内无人能撼动。", "这可能迫使美国政府进一步加码对本土制造的补贴，以防止'单一来源'风险。"],
+      "actions": ["无晶圆厂设计公司（Fabless）应继续锁定台积电产能，避免押注 Intel 18A 带来的交付风险。", "关注 Intel 是否会寻求外部代工（如利用三星产能）来缓解压力。"],
+      "glossary": []
+    },
+    {
+      "region": "overseas",
+      "title": "地缘政治担忧引发避险抛售，TSMC 股价大跌 5.5%",
+      "source": "Quiver Quant",
+      "published": "2026-03-03",
+      "url": "https://www.quiverquant.com/news/TSMC+shares+slide+as+risk-off+trading+hits+chip+stocks+amid+geopolitical+jitters",
+      "summary": "<ul><li>受全球地缘政治紧张局势升级影响，市场避险情绪升温，导致芯片股普遍回调。</li><li>台积电 (TSM) 股价单日下跌 5.5%，主要因为投资者担忧地缘风险可能干扰先进制程供应链。</li><li>此次下跌更多是情绪面释放，而非基本面恶化，AI 芯片订单依然供不应求。</li></ul>",
+      "insights": ["地缘政治风险溢价正在重新定价半导体资产，波动性将显著增加。", "对于长期投资者而言，非基本面因素导致的急跌可能是配置优质资产的窗口。"],
+      "actions": ["关注 VIX 恐慌指数与半导体板块的联动效应。", "评估供应链中对地缘政治敏感度较低的环节（如 EDA、IP）作为避险标的。"],
+      "glossary": []
+    },
+    {
+      "region": "domestic",
+      "title": "中国确立 2027 目标：AI+ 应用普及率超 70%",
+      "source": "China Peace / State Council",
+      "published": "2026-03-03",
+      "url": "http://www.chinapeace.gov.cn/chinapeace/c100007/2026-03/03/content_12827290.shtml",
+      "summary": "<ul><li>官方重申《关于深入实施'人工智能+'行动的意见》，提出激进的普及目标。</li><li>到 2027 年，要率先实现 AI 与制造、医疗、教育等 6 大重点领域的深度融合。</li><li>目标是让新一代智能终端和智能体的应用普及率超过 70%，推动智能经济核心产业爆发。</li></ul>",
+      "insights": ["70% 的普及率目标意味着 AI 终端（AI Phone/PC）将迎来国家级政策推广。", "这将倒逼国产 AI 芯片在端侧推理性能上快速迭代，以满足大规模应用需求。"],
+      "actions": ["端侧 AI 开发者应重点关注教育和医疗场景的政策落地机会。", "关注国产端侧 AI 芯片（如瑞芯微、全志）在智能终端中的渗透率。"],
+      "glossary": [
+        {"term": "智能体", "desc": "AI Agent，具有感知、决策和执行能力的智能系统，是'人工智能+'行动的核心载体。"}
+      ]
+    },
+    {
+      "region": "overseas",
+      "title": "GCU 联手台积电：启动半导体人才培训，缓解亚利桑那用工荒",
+      "source": "KTAR News",
+      "published": "2026-03-03",
+      "url": "https://ktar.com/arizona-education/semiconductor-gcu-tsmc/5829901/",
+      "summary": "<ul><li>Grand Canyon University (GCU) 宣布与台积电建立合作伙伴关系，推出为期 11 周的半导体技术课程。</li><li>该课程由行业资助，旨在快速培养技术工人，结业者有机会直接获得台积电亚利桑那工厂的工作机会。</li><li>此举旨在解决一直困扰台积电美国工厂建设的人才短缺问题。</li></ul>",
+      "insights": ["产教融合是解决美国制造业回流中'人才断层'的必经之路。", "这表明台积电正在从单纯的'硬件输出'转向'本地化生态建设'。"],
+      "actions": ["关注该培训模式是否会推广到台积电德国（ESMC）和日本（JASM）工厂。", "美国半导体招聘市场可能会因定向培训而略有缓解。"],
+      "glossary": []
+    },
     {
       "region": "overseas",
       "title": "韩国股市“黑色星期二”：KOSPI 暴跌 7%，SK 海力士重挫 11.5%",
@@ -74,7 +133,8 @@
       "url": "https://www.technobezz.com/news/us-considers-capping-nvidia-h200-chip-sales-to-chinese-firms-at-75000-each",
       "summary": "<ul><li>美国政府正考虑对 Nvidia 向中国科技公司销售的 H200 AI 芯片实施新的数量上限。</li><li>提议的上限可能设定为每家公司 75,000 颗，远低于此前部分中国巨头预期的 15 万颗以上。</li><li>此举旨在遏制中国企业开发大规模 AI 模型的能力，同时避免完全切断商业联系。</li></ul>",
       "insights": ["7.5 万颗的上限对阿里、腾讯等云厂商的大模型训练集群规模构成了直接物理限制。", "这可能加速国产 AI 芯片（如华为 Ascend）在推理侧的替代进程。"],
-      "actions": ["国内 AI 企业需加速适配国产算力生态，避免单一依赖 Nvidia。", "关注美国商务部最终规则发布的具体时间表。"]
+      "actions": ["国内 AI 企业需加速适配国产算力生态，避免单一依赖 Nvidia。", "关注美国商务部最终规则发布的具体时间表。"],
+      "glossary": []
     },
     {
       "region": "overseas",
@@ -137,7 +197,8 @@
       "url": "https://www.scooptw.com/sunmedia/445906/%E7%BE%8Eai%E7%94%A2%E6%A5%AD%E9%99%B7%E3%80%8C%E5%8F%B0%E7%81%A3%E4%BE%9D%E8%B3%B4%E3%80%8D%E5%9B%B0%E5%A2%83%EF%BC%9F%E5%9C%B0%E7%B7%A3%E9%A2%A8%E9%9A%AA%E6%88%90%E8%8F%AF%E5%BA%9C%E5%A4%A2%E9%AD%98/",
       "summary": "<ul><li>《纽约时报》等外媒指出，美国 AI 产业对台积电先进制程的过度依赖已构成国家安全隐患。</li><li>尽管《芯片法案》推动本土建厂，但短期内无法替代台湾完整的供应链生态。</li><li>“台湾依赖”正倒逼美国政策制定者加速供应链重构，或引发新一轮政策干预。</li></ul>",
       "insights": ["供应链安全焦虑将促使美国加大对 Intel Foundry 的扶持力度。", "地缘风险溢价将被长期计入台积电的估值模型中。"],
-      "actions": ["跨国芯片设计公司需制定更为激进的“中国+1”或“台湾+1”制造策略。", "关注美国大选年对半导体供应链政策的潜在影响。"]
+      "actions": ["跨国芯片设计公司需制定更为激进的“中国+1”或“台湾+1”制造策略。", "关注美国大选年对半导体供应链政策的潜在影响。"],
+      "glossary": []
     },
     {
       "region": "overseas",
