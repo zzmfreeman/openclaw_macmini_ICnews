@@ -84,6 +84,12 @@
     .box-action{background:#f0fdf4; border-left:3px solid #10b981; color:#166534} /* Green for Actions */
     .box-action .lbl{color:#15803d; font-weight:700; font-size:12px; text-transform:uppercase; margin-bottom:8px; letter-spacing:0.5px}
     
+    /* Glossary Section */
+    .glossary-box{margin-top:20px; padding:16px; background:#f8fafc; border:1px dashed #cbd5e1; border-radius:8px}
+    .glossary-title{font-size:12px; font-weight:700; color:#64748b; text-transform:uppercase; margin-bottom:8px; display:flex; align-items:center; gap:6px}
+    .glossary-item{font-size:13px; color:#475569; margin-bottom:6px; line-height:1.5}
+    .glossary-term{font-weight:700; color:#334155; background:#e2e8f0; padding:1px 6px; border-radius:4px; margin-right:6px; font-size:12px}
+
     .section-title{font-size:20px; font-weight:600; border-bottom:3px solid #2563eb; padding-bottom:8px; margin:40px 0 24px; color:#1e293b; display:inline-block; display:flex; align-items:center; gap:8px}
     
     ul{margin:0; padding-left:18px} 
@@ -243,7 +249,14 @@
                 <ul>${[].concat(it.actions||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>
               </div>
             </div>
-          </div>`;
+          </div>
+          
+          ${it.glossary && it.glossary.length ? `
+          <div class="glossary-box">
+            <div class="glossary-title">📚 核心词条解读</div>
+            ${it.glossary.map(g => `<div class="glossary-item"><span class="glossary-term">${escapeHtml(g.term)}</span>${escapeHtml(g.desc)}</div>`).join('')}
+          </div>` : ''}
+          `;
       };
 
       const domestic = (d.items||[]).filter(x=>x.region==='domestic');
