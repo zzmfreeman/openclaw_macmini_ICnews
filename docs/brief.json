@@ -1,44 +1,58 @@
 {
-  "timeline": "2026-03-04",
+  "timeline": "2026.03.04",
   "key_data": {
-    "valuation_shifts": "KOSPI -7%, SK Hynix -11.5%",
-    "policy_impact": "US considering 75k unit cap on Nvidia H200 for Chinese firms"
+    "kospi_drop": "-7%",
+    "sk_hynix_drop": "-11.5%",
+    "arteris_milestone": "40亿颗"
   },
   "items": [
     {
-      "region": "overseas",
-      "title": "英伟达公布 CES 2026 'Rubin' 路线图，强调 HBM4 供应链稳定性",
-      "summary": "<ul><li>英伟达发布 CES 2026 指引，确认下一代 'Rubin' 架构路线图，旨在平息 AI 泡沫质疑。</li><li>重点关注云服务商的 AI 软件投资回报率（ROI）及 HBM4 供应链的稳定性。</li><li>竞争对手难以匹配其清晰的技术演进路径，营收增长预期依然强劲。</li></ul>",
-      "url": "http://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-3-3-nvidias-rubin-revelation-ces-2026-guidance-boost-silences-ai-bubble-skeptics",
-      "fingerprint": "nvidia-rubin-ces2026-hbm4-guidance"
-    },
-    {
-      "region": "overseas",
-      "title": "美国拟限制英伟达 H200 对华出口，每家企业或设 7.5 万颗上限",
-      "summary": "<ul><li>美国政府正考虑对英伟达 H200 AI 芯片实施新的出口管制。</li><li>主要措施可能包括将每家中国客户的采购量限制在 75,000 颗以内。</li><li>此举旨在平衡 AI 开发者需求与防止中国大规模构建先进 AI 模型的能力，同时也考量了华为等本土芯片厂商的竞争因素。</li></ul>",
-      "url": "https://www.latimes.com/business/story/2026-03-03/u-s-considers-caps-on-nvidia-chips-for-china",
-      "fingerprint": "us-limit-nvidia-h200-china-75k-cap"
-    },
-    {
-      "region": "overseas",
-      "title": "ASE 扩大投资应对 AI 封装需求，或承接台积电 CoWoS 外溢订单",
-      "summary": "<ul><li>日月光（ASE）加大投资力度，以满足日益增长的 AI 先进封装需求。</li><li>分析指出，台积电先进封装产能仍有 15-20% 的缺口，ASE 将成为主要外包受益者。</li><li>预计到 2027-2028 年，随着台积电转向 3D SoIC 和 CoPoS 工艺，更多成熟的 CoWoS 订单将转移给 ASE。</li></ul>",
-      "url": "https://www.eetasia.com/ase-ramps-up-investment-as-ai-packaging-demand-accelerates/",
-      "fingerprint": "ase-investment-cowos-tsmc-outsourcing"
-    },
-    {
-      "region": "overseas",
-      "title": "英伟达斥资 40 亿美元布局光通信，光子学成 AI 下一瓶颈",
-      "summary": "<ul><li>英伟达直接投资 Coherent 和 Lumentum 的制造与研发，总额达 40 亿美元。</li><li>此举复制了其在 CoWoS 和 HBM 领域的成功策略，旨在通过预付费和多源供应来消除潜在瓶颈。</li><li>光子学（Photonics）被视为继存储和封装之后，限制 AI 扩展的下一个关键物理层瓶颈。</li></ul>",
-      "url": "https://futurumgroup.com/insights/nvidias-4b-optics-bet-signals-photonics-as-ais-next-bottleneck/",
-      "fingerprint": "nvidia-4b-optics-photonics-investment"
-    },
-    {
-      "region": "overseas",
-      "title": "韩国股市因半导体低迷暴跌，SK 海力士重挫 11.5%",
-      "summary": "<ul><li>受地缘政治担忧及半导体行业低迷影响，韩国 KOSPI 指数周二暴跌 7%。</li><li>作为 AI 关键组件 HBM 的主要供应商，SK 海力士股价大跌 11.5%。</li><li>市场担忧中东局势可能引发全球衰退，进而抑制对 AI 芯片及高带宽内存的需求。</li></ul>",
+      "date": "2026-03-04",
+      "title": "韩国股市遭遇“黑色星期二”：KOSPI 暴跌 7%，SK 海力士重挫 11.5%",
+      "source": "FinancialContent",
       "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-3-black-tuesday-in-seoul-kospi-plummets-7-as-war-fears-and-semiconductor-slump-trigger-market-meltdown",
-      "fingerprint": "kospi-crash-sk-hynix-hbm-drop"
+      "region": "overseas",
+      "summary": "<ul><li>韩国股市 KOSPI 指数周二暴跌 7%，创下近期最大单日跌幅。</li><li>受中东地缘政治紧张局势可能引发全球经济衰退的担忧影响，半导体板块遭受重创。</li><li>作为 AI 芯片 HBM（高带宽内存）关键供应商的 SK 海力士股价暴跌 11.5%，反映出市场对供应链中断及需求疲软的恐慌。</li></ul>"
+    },
+    {
+      "date": "2026-03-04",
+      "title": "Arteris 片上网络 (NoC) 技术达成 40 亿颗芯片部署里程碑",
+      "source": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/03/04/3249004/0/zh-hans/Arteris-%E7%89%87%E4%B8%8A%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF%E5%9C%A8%E5%85%A8%E7%90%83%E8%8C%83%E5%9B%B4%E5%86%85%E5%AE%9E%E7%8E%B0%E4%BA%86-40-%E4%BA%BF%E9%A2%97%E8%8A%AF%E7%89%87%E5%92%8C%E8%8A%AF%E7%B2%92%E7%9A%84%E9%83%A8%E7%BD%B2%E9%87%8C%E7%A8%8B%E7%A2%91.html",
+      "region": "overseas",
+      "summary": "<ul><li>Arteris 宣布其片上网络 (NoC) 互连 IP 已在全球范围内被部署于超过 40 亿颗芯片和芯粒 (Chiplet) 中。</li><li>这一增长主要由汽车、企业计算、消费电子及工业领域的 AI 驱动应用加速推动。</li><li>该里程碑凸显了 NoC 技术在复杂 SoC 设计中作为关键连接基础设施的地位日益巩固。</li></ul>"
+    },
+    {
+      "date": "2026-03-04",
+      "title": "顺络电子：AI 服务器相关订单饱满，覆盖头部客户",
+      "source": "36Kr",
+      "url": "https://36kr.com/newsflashes/3706586256830597",
+      "region": "domestic",
+      "summary": "<ul><li>顺络电子在业绩说明会上透露，其 AI 服务器相关业务进展顺利，订单处于饱满状态。</li><li>公司利用在材料、设备及制造工艺上的优势，为 AI 服务器客户提供一站式元器件解决方案。</li><li>客户群体已覆盖国内头部服务器厂商、主要功率半导体模块厂商及顶级 ODM 厂商。</li></ul>"
+    },
+    {
+      "date": "2026-03-04",
+      "title": "英矽智能试点推出自动化 AI 业务拓展平台",
+      "source": "36Kr",
+      "url": "https://36kr.com/newsflashes/3706705940459656",
+      "region": "domestic",
+      "summary": "<ul><li>临床阶段生物科技公司英矽智能宣布推出自动化 AI 业务拓展平台 Automated Partnering System。</li><li>该平台旨在利用生成式 AI 技术，基于数据库自动处理初步尽职调查问询。</li><li>此举将原本繁琐的人工沟通流程升级为自动化闭环，有望加速生物医药领域的合作效率，展示了 AI 在垂直行业落地的又一进展。</li></ul>"
+    },
+    {
+      "date": "2026-03-04",
+      "title": "美国考虑限制 Nvidia H200 芯片对华出口数量",
+      "source": "Technobezz",
+      "url": "https://www.technobezz.com/news/us-considers-capping-nvidia-h200-chip-sales-to-chinese-firms-at-75000-each",
+      "region": "overseas",
+      "summary": "<ul><li>据报道，美国政府正在考虑对 Nvidia 向中国科技公司销售的 H200 AI 芯片实施新的数量上限。</li><li>提议的上限可能设定为每家公司 75,000 颗，旨在遏制中国企业开发大规模 AI 模型的能力。</li><li>此举若实施，将进一步收紧对华高端 AI 芯片的出口管制，迫使 Nvidia 重新评估其在中国市场的策略。</li></ul>"
+    },
+    {
+      "date": "2026-03-04",
+      "title": "美媒关注 AI 产业过度依赖台湾半导体引发地缘风险担忧",
+      "source": "ScoopTW",
+      "url": "https://www.scooptw.com/sunmedia/445906/%E7%BE%8Eai%E7%94%A2%E6%A5%AD%E9%99%B7%E3%80%8C%E5%8F%B0%E7%81%A3%E4%BE%9D%E8%B3%B4%E3%80%8D%E5%9B%B0%E5%A2%83%EF%BC%9F%E5%9C%B0%E7%B7%A3%E9%A2%A8%E9%9A%AA%E6%88%90%E8%8F%AF%E5%BA%9C%E5%A4%A2%E9%AD%98/",
+      "region": "domestic",
+      "summary": "<ul><li>《纽约时报》等美媒指出，尽管美国大力推动本土芯片制造，但 AI、云计算及国防系统仍高度依赖台湾半导体。</li><li>华盛顿担忧地缘政治风险可能切断关键供应链，这种“台湾依赖”困境成为美国政策制定者的主要隐忧。</li><li>业界分析认为，短期内完全摆脱对台积电等先进制程的依赖极具挑战性。</li></ul>"
     }
   ]
 }
