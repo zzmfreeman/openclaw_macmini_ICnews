@@ -1,203 +1,44 @@
 {
-  "asOf": "2026-03-03 16:30",
-  "keywords": [
-    "ASML",
-    "Nvidia Inference",
-    "Huawei Talent",
-    "SIA Security Act",
-    "Advanced Packaging"
-  ],
-  "timeline": [
-    {
-      "date": "2026-03-02",
-      "event": "ASML 宣布战略扩张，将进军先进封装设备市场以支持 AI 芯片发展。"
-    },
-    {
-      "date": "2026-03-02",
-      "event": "SIA（半导体行业协会）发表声明，公开反对美国《芯片安全法案》（Chip Security Act）。"
-    },
-    {
-      "date": "2026-03-02",
-      "event": "Intel 前 CEO Lip-Bu Tan 警告华为已招聘数百名顶级工程师，技术差距正在快速缩小。"
-    },
-    {
-      "date": "2026-03-02",
-      "event": "传闻 Nvidia 将于下月发布秘密研发的 AI 推理专用芯片，采用 Groq 技术。"
-    },
-    {
-      "date": "2026-03-03",
-      "event": "印度宣布在 Semicon 2.0 计划下已培训 85,000 名半导体工程师。"
-    }
-  ],
-  "key_data": [
-    {
-      "metric": "ASML 战略展望",
-      "value": "从光刻扩展至先进封装 (10-15年规划)"
-    },
-    {
-      "metric": "华为研发团队",
-      "value": "数百名 CPU 架构师与光刻专家"
-    },
-    {
-      "metric": "Nvidia 推理芯片",
-      "value": "针对低功耗推理优化 (对抗 Cerebras)"
-    },
-    {
-      "metric": "SIA 立场",
-      "value": "反对 S. 1705/H.R. 3447 法案"
-    },
-    {
-      "metric": "印度半导体人才",
-      "value": "已培训 85,000 名工程师"
-    }
-  ],
+  "timeline": "2026-03-04",
+  "key_data": {
+    "valuation_shifts": "KOSPI -7%, SK Hynix -11.5%",
+    "policy_impact": "US considering 75k unit cap on Nvidia H200 for Chinese firms"
+  },
   "items": [
     {
       "region": "overseas",
-      "title": "ASML 战略转型：超越 EUV，进军 AI 芯片先进封装设备",
-      "source": "Reuters",
-      "published": "2026-03-02",
-      "url": "https://www.reuters.com/world/asia-pacific/asml-plots-future-chipmaking-tools-ai-beyond-euv-2026-03-02/",
-      "summary": "<ul><li><strong>超越光刻</strong>：ASML 首席技术官 Marco Pieters 透露，公司正计划从单一的光刻机供应商转型，开发用于“粘合和连接”多个专用芯片的先进封装设备。</li><li><strong>AI 驱动</strong>：这一战略旨在解决 AI 芯片对高带宽内存（HBM）和异构集成的巨大需求，先进封装已成为提升 AI 算力的关键瓶颈。</li><li><strong>长期规划</strong>：ASML 表示这一布局是针对未来 10-15 年的技术路线图，并将 AI 技术引入其自身的设备研发中。</li></ul>",
-      "insights": [
-        "ASML 的入局将加剧先进封装设备市场（目前由 Applied Materials、Lam Research 等主导）的竞争，可能重塑设备供应链格局。",
-        "这标志着摩尔定律的延续已正式从“缩小晶体管”转向“系统级封装集成”，光刻机巨头的转型是行业风向标。"
-      ],
-      "actions": [
-        "封装测试厂商（OSAT）需关注 ASML 新设备的兼容性标准，评估是否需要调整未来的产线规划。",
-        "投资者应留意 ASML 在封装领域的并购动向，这可能是其快速补齐技术短板的途径。"
-      ],
-      "tags": [
-        "ASML",
-        "Advanced Packaging",
-        "AI Chip"
-      ]
+      "title": "英伟达公布 CES 2026 'Rubin' 路线图，强调 HBM4 供应链稳定性",
+      "summary": "<ul><li>英伟达发布 CES 2026 指引，确认下一代 'Rubin' 架构路线图，旨在平息 AI 泡沫质疑。</li><li>重点关注云服务商的 AI 软件投资回报率（ROI）及 HBM4 供应链的稳定性。</li><li>竞争对手难以匹配其清晰的技术演进路径，营收增长预期依然强劲。</li></ul>",
+      "url": "http://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-3-3-nvidias-rubin-revelation-ces-2026-guidance-boost-silences-ai-bubble-skeptics",
+      "fingerprint": "nvidia-rubin-ces2026-hbm4-guidance"
     },
     {
       "region": "overseas",
-      "title": "传 Nvidia 秘密研发 AI 推理芯片，意在阻击 Groq 与 Cerebras",
-      "source": "SiliconANGLE",
-      "published": "2026-03-02",
-      "url": "https://siliconangle.com/2026/03/01/report-nvidia-working-top-secret-ai-inference-chip-debut-next-month/",
-      "summary": "<ul><li><strong>秘密武器</strong>：据报道，Nvidia 正在开发一款代号绝密的 AI 推理（Inference）专用芯片，预计最早于下月亮相。</li><li><strong>技术路线</strong>：该芯片据称将整合类似 Groq 的技术（可能是通过授权或自研类似架构），专注于低延迟、低功耗的推理任务。</li><li><strong>市场背景</strong>：OpenAI 等大客户近期转向 Cerebras 等竞争对手以降低推理成本，Nvidia 此举意在通过专用硬件护城河，防止推理市场份额流失。</li></ul>",
-      "insights": [
-        "推理市场正在与训练市场分离，通用 GPU 在推理端的能效比劣势给了初创公司可乘之机，Nvidia 必须推出专用产品回击。",
-        "若消息属实，Nvidia 将形成“GPU 训练 + ASIC 推理”的双轮驱动模式，进一步挤压定制芯片（ASIC）初创公司的生存空间。"
-      ],
-      "actions": [
-        "云服务商需暂缓大规模采购单一推理硬件，等待 Nvidia 新品发布后的性能对比评测。",
-        "关注 Groq 和 Cerebras 的融资与合作动向，Nvidia 的入局可能加速该领域的洗牌或并购。"
-      ],
-      "tags": [
-        "Nvidia",
-        "Inference",
-        "AI ASIC"
-      ]
+      "title": "美国拟限制英伟达 H200 对华出口，每家企业或设 7.5 万颗上限",
+      "summary": "<ul><li>美国政府正考虑对英伟达 H200 AI 芯片实施新的出口管制。</li><li>主要措施可能包括将每家中国客户的采购量限制在 75,000 颗以内。</li><li>此举旨在平衡 AI 开发者需求与防止中国大规模构建先进 AI 模型的能力，同时也考量了华为等本土芯片厂商的竞争因素。</li></ul>",
+      "url": "https://www.latimes.com/business/story/2026-03-03/u-s-considers-caps-on-nvidia-chips-for-china",
+      "fingerprint": "us-limit-nvidia-h200-china-75k-cap"
     },
     {
       "region": "overseas",
-      "title": "Intel 前 CEO 预警：华为已吸纳数百名顶级工程师，芯片差距正在消失",
-      "source": "Times of India",
-      "published": "2026-03-02",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/intel-ceo-lip-bu-tan-i-was-shocked-to-find-chinas-huawei-has-hired-100s-of-engineers-who-can-/articleshow/128909038.cms",
-      "summary": "<ul><li><strong>人才回流</strong>：Intel 前 CEO Lip-Bu Tan 表示，他“震惊”地发现华为已招聘了数百名具备顶级能力的 CPU 架构师和光刻工程师。</li><li><strong>替代方案</strong>：这些工程师正在开发能够替代美国先进芯片工具和光刻机的本土解决方案，且进展速度超出西方预期。</li><li><strong>差距缩小</strong>：Tan 警告称，通过工程优化和基础设施建设，中国正在迅速缩小与西方的半导体技术差距，单纯的出口管制可能正在失效。</li></ul>",
-      "insights": [
-        "人才是半导体竞争的核心，华为的高端人才储备表明其技术突破并非偶然，而是长期人才战略的结果。",
-        "西方高管的公开预警可能促使美国政府进一步收紧人才交流限制，但也侧面印证了中国半导体自主化的实质性进展。"
-      ],
-      "actions": [
-        "跨国芯片企业需重新评估在华研发团队的人才保留策略，面临更激烈的人才争夺战。",
-        "供应链需为中国本土供应链的崛起做好两手准备，评估国产替代方案的成熟度。"
-      ],
-      "tags": [
-        "Huawei",
-        "Talent",
-        "Geopolitics"
-      ]
+      "title": "ASE 扩大投资应对 AI 封装需求，或承接台积电 CoWoS 外溢订单",
+      "summary": "<ul><li>日月光（ASE）加大投资力度，以满足日益增长的 AI 先进封装需求。</li><li>分析指出，台积电先进封装产能仍有 15-20% 的缺口，ASE 将成为主要外包受益者。</li><li>预计到 2027-2028 年，随着台积电转向 3D SoIC 和 CoPoS 工艺，更多成熟的 CoWoS 订单将转移给 ASE。</li></ul>",
+      "url": "https://www.eetasia.com/ase-ramps-up-investment-as-ai-packaging-demand-accelerates/",
+      "fingerprint": "ase-investment-cowos-tsmc-outsourcing"
     },
     {
       "region": "overseas",
-      "title": "SIA 发表声明反对《芯片安全法案》，担忧伤及美国产业竞争力",
-      "source": "SIA",
-      "published": "2026-03-02",
-      "url": "https://www.semiconductors.org/sia-statement-on-chip-security-act/",
-      "summary": "<ul><li><strong>公开反对</strong>：美国半导体行业协会（SIA）发布总裁 John Neuffer 的声明，明确反对国会推进的《芯片安全法案》（Chip Security Act, S. 1705/H.R. 3447）。</li><li><strong>合规承诺</strong>：SIA 强调成员企业已完全致力于遵守现有的出口管制规定，反对非法转移技术。</li><li><strong>潜在危害</strong>：SIA 暗示该法案可能施加不必要的过度限制，损害美国芯片企业的全球竞争力和研发投入能力。</li></ul>",
-      "insights": [
-        "行业协会与立法者的公开分歧表明，美国半导体界对持续加码的监管已感到疲惫，过度监管可能正在反噬美国本土产业。",
-        "SIA 的表态可能影响法案的最终条款，为企业争取更多的合规缓冲期。"
-      ],
-      "actions": [
-        "在美国有业务的芯片企业需密切关注该法案的立法进程，评估其对供应链合规成本的潜在影响。",
-        "关注 SIA 后续的游说活动，这可能是政策风向微调的信号。"
-      ],
-      "tags": [
-        "SIA",
-        "Regulation",
-        "Policy"
-      ]
+      "title": "英伟达斥资 40 亿美元布局光通信，光子学成 AI 下一瓶颈",
+      "summary": "<ul><li>英伟达直接投资 Coherent 和 Lumentum 的制造与研发，总额达 40 亿美元。</li><li>此举复制了其在 CoWoS 和 HBM 领域的成功策略，旨在通过预付费和多源供应来消除潜在瓶颈。</li><li>光子学（Photonics）被视为继存储和封装之后，限制 AI 扩展的下一个关键物理层瓶颈。</li></ul>",
+      "url": "https://futurumgroup.com/insights/nvidias-4b-optics-bet-signals-photonics-as-ais-next-bottleneck/",
+      "fingerprint": "nvidia-4b-optics-photonics-investment"
     },
     {
       "region": "overseas",
-      "title": "SEALSQ 亮相 2026 嵌入式世界大会，展示抗量子芯片与 ASIC 创新",
-      "source": "GlobeNewswire",
-      "published": "2026-03-02",
-      "url": "https://www.globenewswire.com/news-release/2026/03/02/3247380/0/en/SEALSQ-to-Showcase-at-Embedded-World-2026-Quantum-Resistant-Chips-and-Advanced-ASIC-Innovations-by-IC-Alps.html",
-      "summary": "<ul><li><strong>抗量子技术展示</strong>：SEALSQ 将在 Embedded World 2026 上展示其最新的抗量子计算（Quantum-Resistant）安全芯片，应对未来量子计算破解传统加密的威胁。</li><li><strong>ASIC 创新</strong>：与其子公司 IC'Alps 合作，展示针对特定应用场景（如医疗、工业 IoT）的高级 ASIC 设计能力。</li><li><strong>安全标准</strong>：强调其产品符合即将到来的后量子密码学（PQC）标准，为关键基础设施提供长期安全保障。</li></ul>",
-      "insights": [
-        "随着量子计算实用化进程加快，嵌入式安全芯片正加速向 'Post-Quantum' 架构转型，抗量子能力将成为高端 MCU/安全芯片的标配。",
-        "IC'Alps 的定制化 ASIC 业务增长反映了通用芯片难以满足特定垂直领域（如植入式医疗设备）对功耗和尺寸的极致要求。"
-      ],
-      "actions": [
-        "安全敏感型 IoT 设备厂商应开始评估迁移至抗量子加密芯片的路线图，以避免未来的安全合规风险。",
-        "关注 NIST 后量子加密标准的最终落地，及时更新产品安全认证策略。"
-      ],
-      "tags": [
-        "Quantum",
-        "Security",
-        "ASIC"
-      ]
-    },
-    {
-      "region": "overseas",
-      "title": "半导体 IP 市场预测：2030 年将达 135 亿美元，Arm 与 Synopsys 领跑",
-      "source": "GlobeNewswire",
-      "published": "2026-03-02",
-      "url": "https://www.globenewswire.com/news-release/2026/03/02/3247502/28124/en/Semiconductor-Intellectual-Property-Research-Report-2026-2035-A-13-54-Billion-Market-by-2030-with-Arm-Synopsys-Cadence-Design-Systems-CEVA-Imagination-Technologies-Leading.html",
-      "summary": "<ul><li><strong>市场强劲增长</strong>：最新研报预测，全球半导体 IP 市场规模将从 2026 年稳步增长，预计到 2030 年达到 135.4 亿美元。</li><li><strong>巨头主导</strong>：Arm、Synopsys、Cadence、CEVA 和 Imagination Technologies 继续主导市场，其中 Synopsys 通过收购 Intrinsic ID 进一步强化了安全 IP 布局。</li><li><strong>驱动因素</strong>：AI 加速器、汽车电子及数据中心定制芯片（Custom Silicon）的爆发是推动 IP 授权需求增长的核心动力。</li></ul>",
-      "insights": [
-        "芯片设计门槛的降低（得益于完善的 IP 生态）正在鼓励更多系统厂商（如 Google, Amazon, Tesla）自研芯片，进一步推高 IP 授权市场。",
-        "安全 IP（Security IP）正成为继计算核（CPU/NPU）之后增长最快的 IP 类别，显示出硬件安全在 AI 时代的重要性。"
-      ],
-      "actions": [
-        "芯片设计初创公司应利用成熟 IP 加速上市时间（Time-to-Market），避免在非核心逻辑上重复造轮子。",
-        "投资者应关注 IP 供应商在 Chiplet 标准（如 UCIe）上的布局，这将是未来 IP 交付的新形态。"
-      ],
-      "tags": [
-        "IP Market",
-        "Arm",
-        "Synopsys"
-      ]
-    },
-    {
-      "region": "overseas",
-      "title": "印度 Semicon 2.0 成果：四年培训 8.5 万名半导体工程师",
-      "source": "The News Mill",
-      "published": "2026-03-03",
-      "url": "https://thenewsmill.com/2026/03/india-trains-85000-semiconductor-engineers-in-four-years-under-semicon-2-0/",
-      "summary": "<ul><li><strong>人才储备激增</strong>：印度政府宣布在 'Semicon 2.0' 计划下，已成功培训 85,000 名半导体工程师，旨在解决全球芯片人才短缺问题。</li><li><strong>EDA 工具普及</strong>：Cadence、Synopsys 和 Siemens 的世界级 EDA 工具已引入印度 315 所大学，学生可直接使用工业级工具进行芯片设计实践。</li><li><strong>全球人才库</strong>：印度意图将自己打造为全球半导体人才的后花园，以吸引更多外资晶圆厂和设计中心落地。</li></ul>",
-      "insights": [
-        "印度庞大的工程人才库若能有效转化为半导体专业劳动力，将极大缓解全球（尤其是西方国家）面临的芯片人才荒。",
-        "EDA 巨头在高校的早期布局将培养出高度依赖其工具链的新一代工程师，巩固其长期市场护城河。"
-      ],
-      "actions": [
-        "跨国芯片企业可考虑在印度扩建研发中心（R&D Center），利用当地日益成熟的人才红利。",
-        "关注印度在制造端（Fab/OSAT）的实际落地情况，评估其作为 'China Plus One' 战略选项的可行性。"
-      ],
-      "tags": [
-        "India",
-        "Talent",
-        "Policy"
-      ]
+      "title": "韩国股市因半导体低迷暴跌，SK 海力士重挫 11.5%",
+      "summary": "<ul><li>受地缘政治担忧及半导体行业低迷影响，韩国 KOSPI 指数周二暴跌 7%。</li><li>作为 AI 关键组件 HBM 的主要供应商，SK 海力士股价大跌 11.5%。</li><li>市场担忧中东局势可能引发全球衰退，进而抑制对 AI 芯片及高带宽内存的需求。</li></ul>",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-3-black-tuesday-in-seoul-kospi-plummets-7-as-war-fears-and-semiconductor-slump-trigger-market-meltdown",
+      "fingerprint": "kospi-crash-sk-hynix-hbm-drop"
     }
   ]
 }
