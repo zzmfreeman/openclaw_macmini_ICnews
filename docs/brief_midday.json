@@ -1,0 +1,84 @@
+{
+  "asOf": "2026-03-04 13:00",
+  "keywords": [
+    "Broadcom",
+    "Lianghui",
+    "Intel",
+    "TSMC",
+    "New Quality Productive Forces"
+  ],
+  "timeline": [],
+  "key_data": [
+    {
+      "metric": "Broadcom Q1 AI 营收预测",
+      "value": "$82 亿 (+100%)"
+    },
+    {
+      "metric": "AI+ 应用普及率目标",
+      "value": ">70% (2027)"
+    }
+  ],
+  "items": [
+    {
+      "region": "overseas",
+      "title": "Broadcom 财报前瞻：AI 营收预计翻倍至 82 亿美元，网络芯片需求井喷",
+      "source": "Yahoo Finance",
+      "published": "2026-03-04",
+      "url": "https://sg.finance.yahoo.com/news/top-research-reports-broadcom-t-220500326.html",
+      "summary": "<ul><li>最新研报预测，Broadcom 2026 财年第一季度的 AI 营收将同比翻倍，达到 82 亿美元。</li><li>增长主要受益于以太网交换芯片（Tomahawk/Jericho系列）及定制 AI ASIC（Google TPU/Meta MTIA）的强劲需求。</li><li>作为'卖铲人'，Broadcom 在 AI 数据中心网络连接领域的统治力正在比肩 Nvidia 在计算领域的地位。</li></ul>",
+      "insights": ["AI 集群从 InfiniBand 向以太网迁移的趋势不可逆转，Broadcom 是最大受益者。", "定制芯片（ASIC）业务的高毛利将显著优化其利润结构。"],
+      "actions": ["关注 Broadcom 即将发布的财报电话会，留意其对 1.6T 光模块的指引。", "评估 Marvell 在同类网络芯片领域的竞争态势。"],
+      "glossary": [
+        {"term": "ASIC", "desc": "Application-Specific Integrated Circuit（专用集成电路），为特定应用（如AI推理）定制的芯片，比通用GPU能效更高。"}
+      ]
+    },
+    {
+      "region": "domestic",
+      "title": "两会热点前瞻：'新质生产力'挂帅，AI 算力产业链成投资主线",
+      "source": "Sina Finance / 36Kr",
+      "published": "2026-03-04",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-03-03/doc-inhpsxzq4697004.shtml",
+      "summary": "<ul><li>2026 年全国两会拉开帷幕，'新质生产力'被列为头号关注方向。</li><li>机构梳理出 16 大热门赛道，其中 AI 算力产业链、半导体存储及低空经济占据核心位置。</li><li>政策预期将从单纯的产能扩张转向'调结构'，重点扶持国产算力底座与高端存储芯片的突破。</li></ul>",
+      "insights": ["'新质生产力'的核心就是算力与数据的结合，国产 AI 芯片厂商将迎来新一轮政策红利。", "投资逻辑从'国产替代'升级为'全球竞争力'，关注能进入海外供应链的头部企业。"],
+      "actions": ["重点关注两会期间发布的关于'人工智能+'行动的具体实施细则。", "布局 AI 算力基础设施（CPO、液冷、HBM）相关的龙头上市公司。"],
+      "glossary": [
+        {"term": "新质生产力", "desc": "New Quality Productive Forces，指以科技创新为主导，摆脱传统增长路径，具有高科技、高效能、高质量特征的先进生产力状态。"}
+      ]
+    },
+    {
+      "region": "overseas",
+      "title": "Intel 制造产能告急：修复瓶颈或需数年，利好台积电",
+      "source": "Manufacturing Dive",
+      "published": "2026-03-03",
+      "url": "https://www.manufacturingdive.com/news/intel-manufacturing-capacity-issues-may-take-years-to-fix-amd-nvidia-tsmc/813634/",
+      "summary": "<ul><li>最新分析指出，Intel 的制造产能问题比预期更严峻，可能需要数年时间才能完全解决。</li><li>这一瓶颈将直接限制 Intel 18A 节点的客户导入进度，导致其在代工市场的复苏受阻。</li><li>作为对比，台积电的所有先进制程节点（3nm/2nm）已被 Nvidia、Apple 等巨头抢购一空。</li></ul>",
+      "insights": ["Intel 的产能困境意味着台积电在先进制程上的垄断地位短期内无人能撼动。", "这可能迫使美国政府进一步加码对本土制造的补贴，以防止'单一来源'风险。"],
+      "actions": ["无晶圆厂设计公司（Fabless）应继续锁定台积电产能，避免押注 Intel 18A 带来的交付风险。", "关注 Intel 是否会寻求外部代工（如利用三星产能）来缓解压力。"],
+      "glossary": []
+    },
+    {
+      "region": "domestic",
+      "title": "中国确立 2027 目标：AI+ 应用普及率超 70%",
+      "source": "China Peace / State Council",
+      "published": "2026-03-03",
+      "url": "http://www.chinapeace.gov.cn/chinapeace/c100007/2026-03/03/content_12827290.shtml",
+      "summary": "<ul><li>官方重申《关于深入实施'人工智能+'行动的意见》，提出激进的普及目标。</li><li>到 2027 年，要率先实现 AI 与制造、医疗、教育等 6 大重点领域的深度融合。</li><li>目标是让新一代智能终端和智能体的应用普及率超过 70%，推动智能经济核心产业爆发。</li></ul>",
+      "insights": ["70% 的普及率目标意味着 AI 终端（AI Phone/PC）将迎来国家级政策推广。", "这将倒逼国产 AI 芯片在端侧推理性能上快速迭代，以满足大规模应用需求。"],
+      "actions": ["端侧 AI 开发者应重点关注教育和医疗场景的政策落地机会。", "关注国产端侧 AI 芯片（如瑞芯微、全志）在智能终端中的渗透率。"],
+      "glossary": [
+        {"term": "智能体", "desc": "AI Agent，具有感知、决策和执行能力的智能系统，是'人工智能+'行动的核心载体。"}
+      ]
+    },
+    {
+      "region": "overseas",
+      "title": "GCU 联手台积电：启动半导体人才培训，缓解亚利桑那用工荒",
+      "source": "KTAR News",
+      "published": "2026-03-03",
+      "url": "https://ktar.com/arizona-education/semiconductor-gcu-tsmc/5829901/",
+      "summary": "<ul><li>Grand Canyon University (GCU) 宣布与台积电建立合作伙伴关系，推出为期 11 周的半导体技术课程。</li><li>该课程由行业资助，旨在快速培养技术工人，结业者有机会直接获得台积电亚利桑那工厂的工作机会。</li><li>此举旨在解决一直困扰台积电美国工厂建设的人才短缺问题。</li></ul>",
+      "insights": ["产教融合是解决美国制造业回流中'人才断层'的必经之路。", "这表明台积电正在从单纯的'硬件输出'转向'本地化生态建设'。"],
+      "actions": ["关注该培训模式是否会推广到台积电德国（ESMC）和日本（JASM）工厂。", "美国半导体招聘市场可能会因定向培训而略有缓解。"],
+      "glossary": []
+    }
+  ]
+}

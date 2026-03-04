@@ -3,14 +3,15 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Semi Brief</title>
+  <title>Semi Afternoon Flash</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root{
-      --bg:#f8fafc; --panel:#ffffff; --text:#1e293b; --muted:#64748b;
-      --accent:#0ea5e9; --border:#e2e8f0;
+      --bg:#f0f9ff; /* Cooler background for afternoon */
+      --panel:#ffffff; --text:#1e293b; --muted:#64748b;
+      --accent:#7c3aed; /* Purple accent for afternoon */
       --tag-bg:#f1f5f9; --tag-text:#475569;
       --card-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
       --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
@@ -113,10 +114,9 @@
   <div class="wrap">
     <div class="topbar">
       <div>
-        <div class="title">🔭 全球半导体芯片市场 新闻简报</div>
+        <div class="title">🌆 午后半导体快讯</div>
         <div class="meta">
-          <a href="midday.html" class="pill" style="background:#fffbeb;color:#b45309;border-color:#fcd34d">☀️ 午间快讯</a>
-          <a href="afternoon.html" class="pill" style="background:#f5f3ff;color:#6d28d9;border-color:#ddd6fe">🌆 午后快讯</a>
+          <a href="index.html" class="pill">⬅️ 返回早报</a>
           <span id="asof">As of: -</span>
           <span id="window">Window: last 72h</span>
           <span id="count">Items: -</span>
@@ -283,8 +283,8 @@
 
     el('q').addEventListener('input', (e)=>applyFilter(e.target.value));
 
-    fetch('./brief.json', {cache:'no-store'}).then(r=>r.json()).then(j=>{state.data=j; render();}).catch(err=>{
-      el('headlines').innerHTML = `<div class="warnbox">无法加载 brief.json：${escapeHtml(err.message||String(err))}</div>`;
+    fetch('./brief_afternoon.json', {cache:'no-store'}).then(r=>r.json()).then(j=>{state.data=j; render();}).catch(err=>{
+      el('headlines').innerHTML = `<div class="warnbox">暂无午后快讯数据 (brief_afternoon.json)：${escapeHtml(err.message||String(err))}</div>`;
     });
   </script>
 </body>
