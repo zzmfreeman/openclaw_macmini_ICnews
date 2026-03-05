@@ -255,37 +255,31 @@
       return;
     }
 
-    const html = data.map(item => \`
-      <div class="card">
-        <div class="card-header">
-          <span class="tag">\${item.category}</span>
-        </div>
-        <h2>\${item.title}</h2>
-        <div class="meta">
-          <span>📰 \${item.source}</span>
-          \${item.url ? \`<a href="\${item.url}" target="_blank" rel="noopener noreferrer">🔗 原文链接 &rarr;</a>\` : ''}
-        </div>
-        <p class="summary">\${item.summary}</p>
-        
-        <div class="blocks">
-          \${(item.insights && item.insights.length) ? \`
-          <div class="block insight">
-            <div class="block-title">💡 行业洞见</div>
-            <ul>
-              \${item.insights.map(i => \`<li>\${i}</li>\`).join('')}
-            </ul>
-          </div>\` : ''}
-          
-          \${(item.actions && item.actions.length) ? \`
-          <div class="block action">
-            <div class="block-title">🎯 建议动作</div>
-            <ul>
-              \${item.actions.map(a => \`<li>\${a}</li>\`).join('')}
-            </ul>
-          </div>\` : ''}
-        </div>
-      </div>
-    \`).join('');
+    const html = data.map(function(item) {
+      var insightsHtml = '';
+      if (item.insights && item.insights.length) {
+        insightsHtml = '<div class="block insight"><div class="block-title">💡 行业洞见</div><ul>' + 
+          item.insights.map(function(i){ return '<li>' + i + '</li>'; }).join('') + 
+          '</ul></div>';
+      }
+
+      var actionsHtml = '';
+      if (item.actions && item.actions.length) {
+        actionsHtml = '<div class="block action"><div class="block-title">🎯 建议动作</div><ul>' + 
+          item.actions.map(function(a){ return '<li>' + a + '</li>'; }).join('') + 
+          '</ul></div>';
+      }
+
+      var linkHtml = item.url ? '<a href="' + item.url + '" target="_blank" rel="noopener noreferrer">🔗 原文链接 &rarr;</a>' : '';
+
+      return '<div class="card">' +
+        '<div class="card-header"><span class="tag">' + item.category + '</span></div>' +
+        '<h2>' + item.title + '</h2>' +
+        '<div class="meta"><span>📰 ' + item.source + '</span>' + linkHtml + '</div>' +
+        '<p class="summary">' + item.summary + '</p>' +
+        '<div class="blocks">' + insightsHtml + actionsHtml + '</div>' +
+        '</div>';
+    }).join('');
 
     container.innerHTML = html;
   }
