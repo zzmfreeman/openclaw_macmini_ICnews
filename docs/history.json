@@ -1,47 +1,32 @@
 [
-  {
-    "url": "http://markets.chroniclejournal.com/chroniclejournal/article/marketminute-2026-3-3-nvidias-rubin-revelation-ces-2026-guidance-boost-silences-ai-bubble-skeptics",
-    "fingerprint": "nvidia-rubin-ces2026-hbm4-guidance",
-    "date": "2026-03-04"
-  },
-  {
-    "url": "https://www.latimes.com/business/story/2026-03-03/u-s-considers-caps-on-nvidia-chips-for-china",
-    "fingerprint": "us-limit-nvidia-h200-china-75k-cap",
-    "date": "2026-03-04"
-  },
-  {
-    "url": "https://www.eetasia.com/ase-ramps-up-investment-as-ai-packaging-demand-accelerates/",
-    "fingerprint": "ase-investment-cowos-tsmc-outsourcing",
-    "date": "2026-03-04"
-  },
-  {
-    "url": "https://futurumgroup.com/insights/nvidias-4b-optics-bet-signals-photonics-as-ais-next-bottleneck/",
-    "fingerprint": "nvidia-4b-optics-photonics-investment",
-    "date": "2026-03-04"
-  },
-  {
-    "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-3-black-tuesday-in-seoul-kospi-plummets-7-as-war-fears-and-semiconductor-slump-trigger-market-meltdown",
-    "fingerprint": "kospi-crash-sk-hynix-hbm-drop",
-    "date": "2026-03-04"
-  },
-  {
-    "url": "https://www.globenewswire.com/news-release/2026/03/04/3249004/0/zh-hans/Arteris-%E7%89%87%E4%B8%8A%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF%E5%9C%A8%E5%85%A8%E7%90%83%E8%8C%83%E5%9B%B4%E5%86%85%E5%AE%9E%E7%8E%B0%E4%BA%86-40-%E4%BA%BF%E9%A2%97%E8%8A%AF%E7%89%87%E5%92%8C%E8%8A%AF%E7%B2%92%E7%9A%84%E9%83%A8%E7%BD%B2%E9%87%8C%E7%A8%8B%E7%A2%91.html",
-    "fingerprint": "arteris-noc-4-billion-milestone",
-    "date": "2026-03-04"
-  },
-  {
-    "url": "https://36kr.com/newsflashes/3706586256830597",
-    "fingerprint": "sunlord-electronics-ai-server-orders",
-    "date": "2026-03-04"
-  },
-  {
-    "url": "https://36kr.com/newsflashes/3706705940459656",
-    "fingerprint": "insilico-medicine-automated-partnering-system",
-    "date": "2026-03-04"
-  },
-  {
-    "url": "https://www.scooptw.com/sunmedia/445906/%E7%BE%8Eai%E7%94%A2%E6%A5%AD%E9%99%B7%E3%80%8C%E5%8F%B0%E7%81%A3%E4%BE%9D%E8%B3%B4%E3%80%8D%E5%9B%B0%E5%A2%83%EF%BC%9F%E5%9C%B0%E7%B7%A3%E9%A2%A8%E9%9A%AA%E6%88%90%E8%8F%AF%E5%BA%9C%E5%A4%A2%E9%AD%98/",
-    "fingerprint": "us-ai-industry-taiwan-dependency-risk",
-    "date": "2026-03-04"
-  }
+  "https://finance.sina.com.cn/stock/roll/2026-03-04/doc-inhpuskr0217386.shtml?cre=tianyi&mod=pchp&loc=2&r=0&rfunc=91&tj=cxvertical_pc_hp&tr=12",
+  "https://36kr.com/p/3708083119419526",
+  "https://36kr.com/p/3707047363899520",
+  "https://36kr.com/p/3705497175175299",
+  "https://www.bannedbook.org/bnews/itnews/20260304/2293302.html",
+  "https://www.36kr.com/p/3708215623954562",
+  "https://www.163.com/dy/article/KN60UQ7O05118I96.html",
+  "https://finance.sina.com.cn/stock/t/2026-03-04/doc-inhpuwsq6911568.shtml",
+  "https://finance.sina.com.cn/roll/2026-03-04/doc-inhpuskp3516881.shtml",
+  "https://36kr.com/p/3703814253195655",
+  "https://intellizence.com/insights/layoff-downsizing/major-companies-that-announced-mass-layoffs/",
+  "https://www.biospace.com/biospace-layoff-tracker",
+  "https://timesofindia.indiatimes.com/technology/tech-news/ceo-of-netflix-who-recently-lost-warner-bros-acquisition-fight-to-paramount-says-they-are-buying-a-much-larger-company-debt-that-will-force-ceo-david-ellison-to-layoff-thousands-and-cut-/articleshow/128958304.cms",
+  "https://skillsyncer.com/layoffs-tracker",
+  "https://biztoc.com/",
+  "https://en.wikipedia.org/wiki/Proposed_acquisition_of_Warner_Bros._Discovery",
+  "https://www.packagingdive.com/news/february-2026-packaging-closures-layoffs-warn/813399/",
+  "https://www.pharmexec.com/view/sanofi-appoints-belen-garijo-chief-executive-officer",
+  "https://federalnewsnetwork.com/cybersecurity/2026/03/leader-of-federal-cyber-defense-programs-resigns-from-cisa/",
+  "https://fortune.com/2026/02/27/youve-lost-ceo-succession-race-multi-million-dollar-bonus-retention-grants/",
+  "https://www.sohu.com/a/992479630_100085330",
+  "https://36kr.com/p/3705497175175299",
+  "https://m.sohu.com/a/992572799_222256?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+  "https://www.coindesk.com/tech/2026/03/04/ethereum-foundation-wants-the-network-to-be-the-trust-layer-for-ai",
+  "https://www.semafor.com/article/03/04/2026/china-expected-to-lower-economic-growth-targets",
+  "https://www.bloomberg.com/news/audio/2026-03-04/stock-movers-coinbase-ross-stores-apple-podcast",
+  "https://www.wndu.com/video/2026/03/04/wndu-vault-terry-mcfadden-tours-lou-holtzs-home/",
+  "https://www.arrosasarea.eus/2026/03/04/txotx-%C2%B7-2026-03-04/",
+  "https://www.cabinetpierrat.com/2026/03/04/et-casanova-inventa-casanova/",
+  "https://www.gazetecin.com/mukaddes-emanetler-sergisi-ne-yogun-ilgi/57512"
 ]
