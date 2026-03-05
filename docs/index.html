@@ -177,10 +177,65 @@
     const escapeHtml = (s)=>String(s||'').replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
     function render(){
-      const d = state.filtered || state.data;
+      // Adapter: Convert brief.json format to what the UI expects
+      // brief.json has: { date, items: [{rank, category, title, summary, source}], terms: [{term, explanation}] }
+      // UI expects: { asOf, items: [{title, source, published, url, tags, summary, insights, actions, region, glossary}], keywords, key_data, timeline, notes }
+      
+      let d = state.filtered;
+      if (!d && state.data) {
+        // Perform the transformation only once or on-the-fly
+        const raw = state.data;
+        
+        // Auto-classify region based on source (simple heuristic)
+        const isDomestic = (src) => {
+          const s = (src || '').toLowerCase();
+          return /36氪|新浪|搜狐|半导体|中国|国内|财新|界面|证券/.test(s) || /[\u4e00-\u9fa5]/.test(s);
+        };
+
+        const items = (raw.items || []).map(it => ({
+          title: `[${it.category}] ${it.title}`,
+          source: it.source,
+          published: raw.date,
+          url: '', // Not in source JSON
+          tags: [it.category],
+          summary: it.summary,
+          insights: [], // Not in source JSON
+          actions: [],  // Not in source JSON
+          region: isDomestic(it.source) ? 'domestic' : 'overseas',
+          glossary: [] // Will handle global terms separately or attach if relevant
+        }));
+
+        // Attach terms to the first item just to show them, or better, put them in a dedicated section?
+        // The UI has a glossary-box per item. Let's append global terms to the bottom of the list as a special item or just attach to the first one.
+        // Better strategy: The UI supports glossary per item. Let's try to match terms to items? Too complex.
+        // Let's just create a "Daily Glossary" item at the end.
+        
+        // Actually, the UI code `el('keywords')` expects a list of strings.
+        const keywords = (raw.terms || []).map(t => t.term);
+
+        d = {
+          asOf: raw.date,
+          items: items,
+          keywords: keywords,
+          key_data: [],
+          timeline: [],
+          notes: "",
+          // Pass raw terms for custom rendering if needed
+          rawTerms: raw.terms
+        };
+        
+        // Hack: Append terms explanation to the notes section or a dummy item
+        if (raw.terms && raw.terms.length) {
+             const termHtml = raw.terms.map(t => `<b>${t.term}:</b> ${t.explanation}`).join('<br/>');
+             d.notes = termHtml;
+        }
+      }
+
       if(!d) return;
       
-      // Safety Checks for data structure based on Self-Reflection
+      // ... existing render logic starts here ...
+      
+      // Safety Checks
       if (!d.items) d.items = [];
       d.items = d.items.filter(it => it.region === 'domestic' || it.region === 'overseas'); // Ensure valid region
       if (d.items.length === 0) {
