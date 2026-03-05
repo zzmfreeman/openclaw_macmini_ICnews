@@ -338,7 +338,12 @@
 
     el('q').addEventListener('input', (e)=>applyFilter(e.target.value));
 
-    fetch('./brief.json', {cache:'no-store'}).then(r=>r.json()).then(j=>{state.data=j; render();}).catch(err=>{
+    fetch('./brief.json?v=' + Date.now(), {cache:'no-store'}).then(r=>r.json()).then(j=>{
+      console.log('Data loaded:', j);
+      state.data=j; 
+      render();
+    }).catch(err=>{
+      console.error(err);
       el('headlines').innerHTML = `<div class="warnbox">无法加载 brief.json：${escapeHtml(err.message||String(err))}</div>`;
     });
   </script>
