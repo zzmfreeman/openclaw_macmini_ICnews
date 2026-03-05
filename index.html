@@ -296,6 +296,7 @@
             
             <div class="summary">${it.summary}</div>
             
+            ${(it.insights && it.insights.length) ? `
             <div class="blocks">
               <div class="box box-insight">
                 <div class="lbl">💡 行业洞见</div>
@@ -305,7 +306,7 @@
                 <div class="lbl">🎯 建议动作</div>
                 <ul>${[].concat(it.actions||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>
               </div>
-            </div>
+            </div>` : ''}
           </div>
           
           ${it.glossary && it.glossary.length ? `
