@@ -1,346 +1,237 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Semi Brief</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Global Semiconductor News Brief</title>
   <style>
-    :root{
-      --bg:#f8fafc; --panel:#ffffff; --text:#1e293b; --muted:#64748b;
-      --accent:#0ea5e9; --border:#e2e8f0;
-      --tag-bg:#f1f5f9; --tag-text:#475569;
-      --card-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-      --sans: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", sans-serif;
+    :root {
+      --primary: #2563eb;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #1e293b;
+      --border: #e2e8f0;
     }
-    body{margin:0; background:var(--bg); color:var(--text); font-family:var(--sans)}
-    
-    .wrap{max-width:1100px;margin:0 auto;padding:40px 24px 60px}
-    .topbar{margin-bottom:32px; border-bottom:1px solid var(--border); padding-bottom:24px; text-align:center}
-    .title{font-size:32px; font-weight:700; color:#1e293b; letter-spacing:-0.5px; margin-bottom:16px}
-    .meta{display:flex; justify-content:center; gap:20px; font-size:14px; opacity:0.9; color:var(--muted)}
-    .pill{background:#fff; border:1px solid #cbd5e1; padding:4px 12px; border-radius:999px; color:#475569; font-weight:500}
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 20px;
+    }
+    h1 { margin: 0; font-size: 24px; color: #111827; }
+    .date { color: #6b7280; font-size: 14px; margin-top: 8px; }
 
-    /* Grid Layout */
-    .grid-main{display:grid; grid-template-columns: 1fr; gap:32px}
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .card-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 13px;
+      color: #6b7280;
+      margin-bottom: 12px;
+    }
+    .tag {
+      background: #eff6ff;
+      color: var(--primary);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-weight: 600;
+      font-size: 12px;
+    }
+    h2 {
+      margin: 0 0 12px 0;
+      font-size: 18px;
+      line-height: 1.4;
+      color: #111827;
+    }
+    .summary {
+      color: #374151;
+      font-size: 15px;
+      margin-bottom: 16px;
+    }
+    .blocks {
+      background: #f9fafb;
+      border-radius: 6px;
+      padding: 16px;
+      border: 1px solid #f3f4f6;
+      font-size: 14px;
+    }
+    .block-title {
+      font-weight: 700;
+      font-size: 12px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      color: #4b5563;
+    }
+    .block-title.insight { color: #d97706; }
+    .block-title.action { color: #059669; margin-top: 16px; }
     
-    /* Headlines Section (Top Grid) */
-    .headline-card{background:#fff; border:1px solid #e2e8f0; border-radius:12px; box-shadow:0 4px 6px -1px rgb(0 0 0 / 0.05); padding:20px}
-    .headline-card h2{margin:0; padding:0 0 16px; margin-bottom:16px; background:none; font-size:18px; font-weight:700; color:#334155; border-bottom:2px solid #2563eb}
-    .headline-list{display:grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap:16px; padding:0}
-    .headline{background:#f8fafc; border:1px solid #e2e8f0; padding:16px; border-radius:8px; transition:transform 0.2s, box-shadow 0.2s; display:block; text-decoration:none; color:inherit}
-    .headline:hover{transform:translateY(-2px); box-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1); background:#fff}
-    .headline .t{font-size:15px; font-weight:600; color:#1e293b; line-height:1.5}
-    .headline .s{font-size:12px; color:#94a3b8; margin-top:4px}
+    ul { margin: 0; padding-left: 20px; color: #4b5563; }
+    li { margin-bottom: 4px; }
     
-    /* Keyword Row */
-    .keyword-row{margin-bottom:24px; padding:16px; background:#fff; border:1px solid #e2e8f0; border-radius:8px; display:flex; flex-wrap:wrap; gap:8px; align-items:center}
-    .kw-label{font-size:13px; font-weight:700; color:#64748b; text-transform:uppercase; margin-right:12px}
+    a.source-link {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a.source-link:hover { text-decoration: underline; }
     
-    /* Item Card Styling (Mimicking Reference) */
-    .item{background:#fff; border:none; border-left:4px solid #2563eb; border-radius:8px; padding:24px; margin-bottom:24px; box-shadow:0 2px 4px rgb(0 0 0 / 0.05); transition:transform 0.2s}
-    .item:hover{transform:translateX(4px); box-shadow:0 4px 6px rgb(0 0 0 / 0.08)}
-    
-    .item .header{margin-bottom:16px}
-    .item .title2{font-size:22px; font-weight:600; color:#1e293b; margin-bottom:10px; line-height:1.4}
-    .item .meta-row{display:flex; gap:12px; align-items:center; flex-wrap:wrap; font-size:13px; color:#64748b}
-    .item .meta-row a{color:#2563eb; text-decoration:none; font-weight:500}
-    .item .meta-row a:hover{text-decoration:underline}
-    
-    .badge{font-size:12px; padding:2px 10px; border-radius:12px; font-weight:500; border:none; display:inline-block}
-    .badge.domestic{background:#eff6ff; color:#1d4ed8} /* Blue tint */
-    .badge.overseas{background:#f5f3ff; color:#7c3aed} /* Purple tint */
-    .badge-tag{background:#f1f5f9; color:#475569; border:1px solid #e2e8f0}
-    
-    /* Data & Timeline Section */
-    .data-grid{display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-bottom:40px}
-    @media (max-width: 700px){.data-grid{grid-template-columns:1fr}}
-    
-    .data-card{background:#fff; border:1px solid #e2e8f0; border-radius:12px; padding:20px; box-shadow:0 2px 4px rgb(0 0 0 / 0.05)}
-    .data-card h3{margin:0 0 16px; font-size:16px; color:#1e293b; display:flex; align-items:center; gap:8px}
-    
-    .key-data-list{display:grid; gap:12px}
-    .key-data-item{display:flex; justify-content:space-between; align-items:center; padding-bottom:8px; border-bottom:1px dashed #e2e8f0}
-    .key-data-metric{color:#64748b; font-size:14px}
-    .key-data-value{font-weight:700; color:#2563eb; font-size:16px}
-    
-    .timeline-list{border-left:2px solid #e2e8f0; padding-left:20px; margin-left:8px}
-    .timeline-item{position:relative; margin-bottom:20px}
-    .timeline-item::before{content:''; position:absolute; left:-25px; top:6px; width:8px; height:8px; background:#fff; border:2px solid #2563eb; border-radius:50%}
-    .timeline-date{font-size:12px; color:#64748b; font-weight:700; margin-bottom:4px}
-    .timeline-event{font-size:14px; color:#334155; line-height:1.5}
-
-    .summary ul{margin:0; padding-left:18px}
-    .summary li{margin-bottom:6px; color:#334155; line-height:1.6}
-    @media (max-width: 700px){.blocks{grid-template-columns:1fr}}
-    
-    .box{padding:20px; border-radius:8px; font-size:15px; line-height:1.6; border:none}
-    .box-insight{background:#fffbeb; border-left:3px solid #f59e0b; color:#92400e} /* Yellow/Amber for Insights */
-    .box-insight .lbl{color:#b45309; font-weight:700; font-size:12px; text-transform:uppercase; margin-bottom:8px; letter-spacing:0.5px}
-    
-    .box-action{background:#f0fdf4; border-left:3px solid #10b981; color:#166534} /* Green for Actions */
-    .box-action .lbl{color:#15803d; font-weight:700; font-size:12px; text-transform:uppercase; margin-bottom:8px; letter-spacing:0.5px}
-    
-    /* Glossary Section */
-    .glossary-box{margin-top:20px; padding:16px; background:#f8fafc; border:1px dashed #cbd5e1; border-radius:8px}
-    .glossary-title{font-size:12px; font-weight:700; color:#64748b; text-transform:uppercase; margin-bottom:8px; display:flex; align-items:center; gap:6px}
-    .glossary-item{font-size:13px; color:#475569; margin-bottom:6px; line-height:1.5}
-    .glossary-term{font-weight:700; color:#334155; background:#e2e8f0; padding:1px 6px; border-radius:4px; margin-right:6px; font-size:12px}
-
-    .section-title{font-size:20px; font-weight:600; border-bottom:3px solid #2563eb; padding-bottom:8px; margin:40px 0 24px; color:#1e293b; display:inline-block; display:flex; align-items:center; gap:8px}
-    
-    ul{margin:0; padding-left:18px} 
-    li{margin-bottom:6px; padding-left:4px}
-    
-    /* Search */
-    .search-row{margin-bottom:16px}
-    #q{width:100%; padding:12px 16px; border:1px solid #cbd5e1; border-radius:8px; font-family:inherit; background:#fff; font-size:14px; box-sizing:border-box}
-    #q:focus{outline:none; border-color:#2563eb; box-shadow:0 0 0 3px rgba(37,99,235,0.1)}
-    
-    .foot{margin-top:40px; text-align:center; color:#94a3b8; font-size:12px; padding-top:20px; border-top:1px solid #e2e8f0}
-    
-    /* Mobile tweaks */
-    @media (max-width: 900px){
-      .headline-list{grid-template-columns:1fr}
-      .search-container-mobile{display:none !important}
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      font-size: 12px;
+      color: #9ca3af;
+      padding-bottom: 40px;
     }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="topbar">
-      <div>
-        <div class="title">🔭 全球半导体芯片市场 新闻简报</div>
-        <div class="meta">
-          <a href="midday.html" class="pill" style="background:#fffbeb;color:#b45309;border-color:#fcd34d">☀️ 午间快讯</a>
-          <a href="afternoon.html" class="pill" style="background:#f5f3ff;color:#6d28d9;border-color:#ddd6fe">🌆 午后快讯</a>
-          <span id="asof">As of: -</span>
-          <span id="window">Window: last 72h</span>
-          <span id="count">Items: -</span>
-        </div>
-      </div>
+
+<div class="container">
+  <header>
+    <h1>Global Semiconductor News Brief</h1>
+    <div class="date">📅 2026-03-05 | Version: v1.0 (Static HTML)</div>
+  </header>
+
+  <!-- ITEM 1 -->
+  <div class="card">
+    <div class="card-meta">
+      <span class="tag">人事变动</span>
+      <span>📰 TechCrunch</span>
+      <a href="https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/" class="source-link" target="_blank">🔗 原文链接</a>
     </div>
-
-    <div class="grid-main">
-      <!-- Search & Headlines -->
-      <div class="sidebar">
-        <div class="search-row">
-          <input id="q" placeholder="🔍 搜索标题、摘要、洞见..." />
-        </div>
-        
-        <div class="headline-card">
-          <h2>🔥 今日标题总览</h2>
-          <div class="headline-list" id="headlines"></div>
-        </div>
-      </div>
-
-      <!-- Content Area -->
-      <div>
-        <!-- Keywords Row -->
-        <div class="keyword-row">
-          <div class="kw-label">🏷️ 本期关键词</div>
-          <div id="keywords" style="display:contents"></div>
-        </div>
-        
-        <!-- Data & Timeline -->
-        <div class="data-grid" id="dataSection" style="display:none">
-          <div class="data-card">
-            <h3>📊 关键数据</h3>
-            <div class="key-data-list" id="keyData"></div>
-          </div>
-          <div class="data-card">
-            <h3>📅 产业时间线</h3>
-            <div class="timeline-list" id="timeline"></div>
-          </div>
-        </div>
-
-        <div class="warnbox" id="notes" style="display:none;margin-bottom:20px;padding:12px;background:#fff1f2;border:1px solid #fecdd3;border-radius:8px;color:#9f1239"></div>
-
-        <div class="section-title" id="domestic">🇨🇳 国内（中文媒体）</div>
-        <div id="domesticItems"></div>
-
-        <div class="section-title" id="overseas">🌍 国外（英文媒体）</div>
-        <div id="overseasItems"></div>
-      </div>
+    <h2>阿里通义千问核心负责人林俊旸离职，团队面临拆分调整</h2>
+    <div class="summary">阿里通义千问(Qwen)技术负责人林俊旸(Justin Lin)宣布离职，引发业界关注。据悉，Qwen团队近期计划拆分，从垂直整合体系转向预训练、后训练等水平分工。此消息已在X(Twitter)等社交媒体确认。</div>
+    <div class="blocks">
+      <div class="block-title insight">💡 行业洞见</div>
+      <ul>
+        <li>大模型团队从野蛮生长进入精细化分工阶段。</li>
+        <li>技术领军人物变动或预示战略方向调整。</li>
+      </ul>
+      <div class="block-title action">🎯 建议动作</div>
+      <ul>
+        <li>关注Qwen后续版本迭代速度。</li>
+        <li>评估是否对依赖该模型的业务造成影响。</li>
+      </ul>
     </div>
-
-    <div class="foot" id="footer">Generated by OpenClaw</div>
   </div>
 
-  <script>
-    const state = { data: null, filtered: null };
+  <!-- ITEM 2 -->
+  <div class="card">
+    <div class="card-meta">
+      <span class="tag">裁员重组</span>
+      <span>📰 Intellizence</span>
+      <a href="https://intellizence.com/insights/layoff-downsizing/major-companies-that-announced-mass-layoffs/" class="source-link" target="_blank">🔗 原文链接</a>
+    </div>
+    <h2>EDA巨头Synopsys宣布裁员10%，涉及约2000名员工</h2>
+    <div class="summary">芯片设计软件巨头Synopsys计划裁员约2000人（占总员工10%），以重新调整投资方向聚焦高增长领域。此消息由Intellizence等追踪机构在过去24小时内更新确认，与Ansys收购案后的整合及AI战略转型有关。</div>
+    <div class="blocks">
+      <div class="block-title insight">💡 行业洞见</div>
+      <ul>
+        <li>EDA行业正从传统工具向AI辅助设计(AI for EDA)转型。</li>
+        <li>即使是行业垄断巨头也需通过裁员来释放资金，All-in AI相关研发。</li>
+      </ul>
+      <div class="block-title action">🎯 建议动作</div>
+      <ul>
+        <li>EDA相关从业者需加速掌握AI辅助设计技能。</li>
+        <li>关注Synopsys在AI EDA工具上的新产品发布。</li>
+      </ul>
+    </div>
+  </div>
 
-    const el = (id)=>document.getElementById(id);
-    const escapeHtml = (s)=>String(s||'').replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  <!-- ITEM 3 -->
+  <div class="card">
+    <div class="card-meta">
+      <span class="tag">供应链</span>
+      <span>📰 3DNews</span>
+      <a href="https://3dnews.ru/1137702/ostanovka-poluprovodnikovih-predpriyatiy-tower-v-izraile-sozdala-predposilki-dlya-defitsita-chipov" class="source-link" target="_blank">🔗 原文链接</a>
+    </div>
+    <h2>地缘冲突波及Tower Semi，英特尔/三星等客户急寻替代产能</h2>
+    <div class="summary">受以色列地缘局势影响，晶圆代工厂Tower Semiconductor面临出货阻力。3DNews及供应链媒体指出，主要客户包括安森美、英特尔、三星等已启动转单计划，成熟制程供应链或迎变局。</div>
+    <div class="blocks">
+      <div class="block-title insight">💡 行业洞见</div>
+      <ul>
+        <li>单一产地风险凸显，地缘政治风险是供应链韧性的最大考验。</li>
+        <li>特种工艺（模拟/射频）产能可能出现短期紧缺。</li>
+      </ul>
+      <div class="block-title action">🎯 建议动作</div>
+      <ul>
+        <li>排查BOM表中Tower Semi相关物料，提前锁定现货。</li>
+        <li>寻找第二供应商（如华虹、世界先进）。</li>
+      </ul>
+    </div>
+  </div>
 
-    function render(){
-      // Adapter: Convert brief.json format to what the UI expects
-      // brief.json has: { date, items: [{rank, category, title, summary, source}], terms: [{term, explanation}] }
-      // UI expects: { asOf, items: [{title, source, published, url, tags, summary, insights, actions, region, glossary}], keywords, key_data, timeline, notes }
-      
-      let d = state.filtered;
-      if (!d && state.data) {
-        // Perform the transformation only once or on-the-fly
-        const raw = state.data;
-        
-        // Auto-classify region based on source (simple heuristic)
-        const isDomestic = (src) => {
-          const s = (src || '').toLowerCase();
-          return /36氪|新浪|搜狐|半导体|中国|国内|财新|界面|证券/.test(s) || /[\u4e00-\u9fa5]/.test(s);
-        };
+  <!-- ITEM 4 -->
+  <div class="card">
+    <div class="card-meta">
+      <span class="tag">市场动态</span>
+      <span>📰 Futunn</span>
+      <a href="https://news.futunn.com/en/post/69330418/the-wave-of-chip-price-hikes-continues-to-sweep-through" class="source-link" target="_blank">🔗 原文链接</a>
+    </div>
+    <h2>国产功率半导体厂商集体涨价，MOSFET上调10%起</h2>
+    <div class="summary">包括新洁能、江苏宏微科技在内的多家国产功率器件厂商发布涨价函，自2026年3月1日起对MOSFET等产品价格上调至少10%。Futunn及ChemNet报道指出，这受上游金属原材料及代工成本波动影响。</div>
+    <div class="blocks">
+      <div class="block-title insight">💡 行业洞见</div>
+      <ul>
+        <li>功率半导体去库存周期结束，成本驱动型涨价潮可能蔓延至全行业。</li>
+        <li>新能源汽车和光伏需求复苏支撑了涨价逻辑。</li>
+      </ul>
+      <div class="block-title action">🎯 建议动作</div>
+      <ul>
+        <li>尽快与功率器件供应商确认Q2价格策略。</li>
+        <li>评估涨价对BOM成本的影响，必要时调整终端产品定价。</li>
+      </ul>
+    </div>
+  </div>
 
-        const items = (raw.items || []).map(it => ({
-          title: `[${it.category}] ${it.title}`,
-          source: it.source,
-          published: raw.date,
-          url: '', // Not in source JSON
-          tags: [it.category],
-          summary: it.summary,
-          insights: [], // Not in source JSON
-          actions: [],  // Not in source JSON
-          region: isDomestic(it.source) ? 'domestic' : 'overseas',
-          glossary: [] // Will handle global terms separately or attach if relevant
-        }));
+  <!-- ITEM 5 -->
+  <div class="card">
+    <div class="card-meta">
+      <span class="tag">产业竞争</span>
+      <span>📰 TechSoda</span>
+      <a href="https://techsoda.substack.com/p/ip-insight-4-tsmc-vs-intel-in-silicon" class="source-link" target="_blank">🔗 原文链接</a>
+    </div>
+    <h2>硅光芯片代工战全面打响，台积电/Intel/GF竞逐AI光互连</h2>
+    <div class="summary">随着AI对光互连需求爆发，GlobalFoundries、台积电、Intel及三星等晶圆厂纷纷加码硅光子技术（SiPh）代工。TechSoda及Wiki更新显示，各大Foundry正加速布局光互连以解决AI集群IO瓶颈。</div>
+    <div class="blocks">
+      <div class="block-title insight">💡 行业洞见</div>
+      <ul>
+        <li>光互连（CPO/LPO）将成为下一代AI集群的标配。</li>
+        <li>Foundry厂的入局将加速硅光产业链成熟，降低光模块成本。</li>
+      </ul>
+      <div class="block-title action">🎯 建议动作</div>
+      <ul>
+        <li>关注头部光模块厂商的硅光芯片供应商选择。</li>
+        <li>数据中心架构师应评估硅光互连方案的技术可行性。</li>
+      </ul>
+    </div>
+  </div>
 
-        // Attach terms to the first item just to show them, or better, put them in a dedicated section?
-        // The UI has a glossary-box per item. Let's append global terms to the bottom of the list as a special item or just attach to the first one.
-        // Better strategy: The UI supports glossary per item. Let's try to match terms to items? Too complex.
-        // Let's just create a "Daily Glossary" item at the end.
-        
-        // Actually, the UI code `el('keywords')` expects a list of strings.
-        const keywords = (raw.terms || []).map(t => t.term);
+  <footer>
+    Generated by OpenClaw Agent · 2026-03-05
+  </footer>
+</div>
 
-        d = {
-          asOf: raw.date,
-          items: items,
-          keywords: keywords,
-          key_data: [],
-          timeline: [],
-          notes: "",
-          // Pass raw terms for custom rendering if needed
-          rawTerms: raw.terms
-        };
-        
-        // Hack: Append terms explanation to the notes section or a dummy item
-        if (raw.terms && raw.terms.length) {
-             const termHtml = raw.terms.map(t => `<b>${t.term}:</b> ${t.explanation}`).join('<br/>');
-             d.notes = termHtml;
-        }
-      }
-
-      if(!d) return;
-      
-      // ... existing render logic starts here ...
-      
-      // Safety Checks
-      if (!d.items) d.items = [];
-      d.items = d.items.filter(it => it.region === 'domestic' || it.region === 'overseas'); // Ensure valid region
-      if (d.items.length === 0) {
-        el('domesticItems').innerHTML = '<div class="warnbox">暂无符合条件的国内新闻。请检查数据源 (region 字段)。</div>';
-        el('overseasItems').innerHTML = '<div class="warnbox">暂无符合条件的国外新闻。请检查数据源 (region 字段)。</div>';
-      }
-
-      el('asof').textContent = `📅 更新时间: ${d.asOf || '-'}`;
-      el('count').textContent = `📊 新闻数量: ${(d.items||[]).length}`;
-
-      // keywords
-      el('keywords').innerHTML = (d.keywords||[]).map(k=>`<span class="badge badge-tag">${escapeHtml(k)}</span>`).join(' ');
-      
-      // Key Data & Timeline
-      if(d.key_data && d.key_data.length){
-        el('dataSection').style.display = 'grid';
-        el('keyData').innerHTML = d.key_data.map(k=>`
-          <div class="key-data-item">
-            <span class="key-data-metric">${escapeHtml(k.metric)}</span>
-            <span class="key-data-value">${escapeHtml(k.value)}</span>
-          </div>`).join('');
-      }
-      if(d.timeline && d.timeline.length){
-        el('timeline').innerHTML = d.timeline.map(t=>`
-          <div class="timeline-item">
-            <div class="timeline-date">${escapeHtml(t.date)}</div>
-            <div class="timeline-event">${escapeHtml(t.event)}</div>
-          </div>`).join('');
-      }
-      
-      if(d.notes){
-        el('notes').style.display='block';
-        el('notes').innerHTML = `<b>⚠️ 说明</b><div style="margin-top:6px;line-height:1.5">${escapeHtml(d.notes)}</div>`;
-      }
-
-      // headlines
-      el('headlines').innerHTML = (d.items||[]).map((it,idx)=>{
-        return `
-          <a href="#item-${idx}" class="headline">
-            <div class="t">${escapeHtml(it.title)}</div>
-            <div class="s">${escapeHtml(it.source||'')} · ${escapeHtml(it.published||'')}</div>
-          </a>`;
-      }).join('');
-
-      const renderItem = (it, idx)=>{
-        return `
-          <div class="item" id="item-${idx}">
-            <div class="header">
-              <div class="title2">${escapeHtml(it.title)}</div>
-              <div class="meta-row">
-                <span>#${idx+1}</span>
-                <span>📰 ${escapeHtml(it.source||'')}</span>
-                <span>📅 ${escapeHtml(it.published||'')}</span>
-                ${it.url ? `<a href="${escapeHtml(it.url)}" target="_blank" rel="noreferrer">🔗 原文链接</a>`:''}
-                ${(it.tags||[]).map(t=>`<span class="badge badge-tag">${escapeHtml(t)}</span>`).join(' ')}
-              </div>
-            </div>
-            
-            <div class="summary">${it.summary}</div>
-            
-            <div class="blocks">
-              <div class="box box-insight">
-                <div class="lbl">💡 行业洞见</div>
-                <ul>${[].concat(it.insights||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>
-              </div>
-              <div class="box box-action">
-                <div class="lbl">🎯 建议动作</div>
-                <ul>${[].concat(it.actions||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>
-              </div>
-            </div>
-          </div>
-          
-          ${it.glossary && it.glossary.length ? `
-          <div class="glossary-box">
-            <div class="glossary-title">📚 核心词条解读</div>
-            ${it.glossary.map(g => `<div class="glossary-item"><span class="glossary-term">${escapeHtml(g.term)}</span>${escapeHtml(g.desc)}</div>`).join('')}
-          </div>` : ''}
-          `;
-      };
-
-      const domestic = (d.items||[]).filter(x=>x.region==='domestic');
-      const overseas = (d.items||[]).filter(x=>x.region==='overseas');
-      el('domesticItems').innerHTML = domestic.map(renderItem).join('');
-      el('overseasItems').innerHTML = overseas.map(renderItem).join('');
-
-      el('footer').textContent = d.footer || 'Generated by OpenClaw · Data source: NewsAPI/Brave';
-    }
-
-    function applyFilter(q){
-      q = (q||'').trim().toLowerCase();
-      if(!q){ state.filtered=null; render(); return; }
-      const d = state.data;
-      const items = (d.items||[]).filter(it=>{
-        const hay = [it.title,it.source,it.published,it.summary,(it.insights||[]).join(' '),(it.actions||[]).join(' '),(it.tags||[]).join(' '),(d.keywords||[]).join(' ')].join(' ').toLowerCase();
-        return hay.includes(q);
-      });
-      state.filtered = {...d, items};
-      render();
-    }
-
-    el('q').addEventListener('input', (e)=>applyFilter(e.target.value));
-
-    fetch('./brief.json', {cache:'no-store'}).then(r=>r.json()).then(j=>{state.data=j; render();}).catch(err=>{
-      el('headlines').innerHTML = `<div class="warnbox">无法加载 brief.json：${escapeHtml(err.message||String(err))}</div>`;
-    });
-  </script>
 </body>
 </html>
