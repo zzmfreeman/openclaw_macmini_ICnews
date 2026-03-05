@@ -196,7 +196,7 @@
           title: `[${it.category}] ${it.title}`,
           source: it.source,
           published: raw.date,
-          url: '', // Not in source JSON
+          url: it.url || '', // Use URL from JSON if available
           tags: [it.category],
           summary: it.summary,
           insights: it.insights || (it.summary ? ["暂无具体洞见 (AI 生成中...)"] : []), 
@@ -288,8 +288,7 @@
               <div class="meta-row">
                 <span>#${idx+1}</span>
                 <span>📰 ${escapeHtml(it.source||'')}</span>
-                <span>📅 ${escapeHtml(it.published||'')}</span>
-                ${it.url ? `<a href="${escapeHtml(it.url)}" target="_blank" rel="noreferrer">🔗 原文链接</a>`:''}
+                ${it.url ? `<a href="${escapeHtml(it.url)}" target="_blank" rel="noreferrer">🔗 来源链接</a>` : ''}
                 ${(it.tags||[]).map(t=>`<span class="badge badge-tag">${escapeHtml(t)}</span>`).join(' ')}
               </div>
             </div>
