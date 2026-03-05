@@ -96,6 +96,38 @@
     }
     a.source-link:hover { text-decoration: underline; }
     
+    .glossary-section {
+      margin-top: 40px;
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 24px;
+      border: 1px solid #e2e8f0;
+    }
+    .glossary-title {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: #1e293b;
+      border-bottom: 2px solid #2563eb;
+      padding-bottom: 8px;
+      display: inline-block;
+    }
+    .term-item {
+      margin-bottom: 12px;
+      font-size: 14px;
+    }
+    .term-name {
+      font-weight: 700;
+      color: #334155;
+      background: #f1f5f9;
+      padding: 2px 6px;
+      border-radius: 4px;
+      margin-right: 8px;
+    }
+    .term-desc {
+      color: #64748b;
+    }
+    
     footer {
       text-align: center;
       margin-top: 60px;
@@ -110,14 +142,14 @@
 <div class="container">
   <header>
     <h1>Global Semiconductor News Brief</h1>
-    <div class="date">📅 2026-03-05 | Version: v1.0 (Static HTML)</div>
+    <div class="date">📅 2026-03-05 | Version: v1.1 (Full Content Restored)</div>
   </header>
 
   <!-- ITEM 1 -->
   <div class="card">
     <div class="card-meta">
       <span class="tag">人事变动</span>
-      <span>📰 TechCrunch</span>
+      <span>📰 TechCrunch / Bloomberg</span>
       <a href="https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/" class="source-link" target="_blank">🔗 原文链接</a>
     </div>
     <h2>阿里通义千问核心负责人林俊旸离职，团队面临拆分调整</h2>
@@ -125,13 +157,13 @@
     <div class="blocks">
       <div class="block-title insight">💡 行业洞见</div>
       <ul>
-        <li>大模型团队从野蛮生长进入精细化分工阶段。</li>
-        <li>技术领军人物变动或预示战略方向调整。</li>
+        <li>大模型团队从野蛮生长进入精细化分工阶段，技术领军人物变动或预示战略方向调整。</li>
+        <li>开源模型社区可能面临核心维护者流失带来的短期不确定性。</li>
       </ul>
       <div class="block-title action">🎯 建议动作</div>
       <ul>
-        <li>关注Qwen后续版本迭代速度。</li>
-        <li>评估是否对依赖该模型的业务造成影响。</li>
+        <li>关注Qwen后续版本迭代速度，评估是否对依赖该模型的业务造成影响。</li>
+        <li>考察团队拆分后的新架构，寻找潜在的人才招聘机会。</li>
       </ul>
     </div>
   </div>
@@ -140,7 +172,7 @@
   <div class="card">
     <div class="card-meta">
       <span class="tag">裁员重组</span>
-      <span>📰 Intellizence</span>
+      <span>📰 Intellizence / Futurum Group</span>
       <a href="https://intellizence.com/insights/layoff-downsizing/major-companies-that-announced-mass-layoffs/" class="source-link" target="_blank">🔗 原文链接</a>
     </div>
     <h2>EDA巨头Synopsys宣布裁员10%，涉及约2000名员工</h2>
@@ -148,13 +180,13 @@
     <div class="blocks">
       <div class="block-title insight">💡 行业洞见</div>
       <ul>
-        <li>EDA行业正从传统工具向AI辅助设计(AI for EDA)转型。</li>
+        <li>EDA行业正从传统工具向AI辅助设计(AI for EDA)转型，旧岗位需求缩减。</li>
         <li>即使是行业垄断巨头也需通过裁员来释放资金，All-in AI相关研发。</li>
       </ul>
       <div class="block-title action">🎯 建议动作</div>
       <ul>
-        <li>EDA相关从业者需加速掌握AI辅助设计技能。</li>
-        <li>关注Synopsys在AI EDA工具上的新产品发布。</li>
+        <li>EDA相关从业者需加速掌握AI辅助设计技能以保持竞争力。</li>
+        <li>关注Synopsys在AI EDA工具上的新产品发布，评估采购价值。</li>
       </ul>
     </div>
   </div>
@@ -163,7 +195,7 @@
   <div class="card">
     <div class="card-meta">
       <span class="tag">供应链</span>
-      <span>📰 3DNews</span>
+      <span>📰 3DNews / Supply Chain Update</span>
       <a href="https://3dnews.ru/1137702/ostanovka-poluprovodnikovih-predpriyatiy-tower-v-izraile-sozdala-predposilki-dlya-defitsita-chipov" class="source-link" target="_blank">🔗 原文链接</a>
     </div>
     <h2>地缘冲突波及Tower Semi，英特尔/三星等客户急寻替代产能</h2>
@@ -171,13 +203,13 @@
     <div class="blocks">
       <div class="block-title insight">💡 行业洞见</div>
       <ul>
-        <li>单一产地风险凸显，地缘政治风险是供应链韧性的最大考验。</li>
-        <li>特种工艺（模拟/射频）产能可能出现短期紧缺。</li>
+        <li>地缘政治风险已成为半导体供应链韧性的最大考验，单一产地风险凸显。</li>
+        <li>特种工艺（模拟/射频）产能可能出现短期紧缺，推高相关芯片价格。</li>
       </ul>
       <div class="block-title action">🎯 建议动作</div>
       <ul>
-        <li>排查BOM表中Tower Semi相关物料，提前锁定现货。</li>
-        <li>寻找第二供应商（如华虹、世界先进）。</li>
+        <li>排查BOM表中Tower Semi相关物料，提前锁定现货或寻找第二供应商（如华虹、世界先进）。</li>
+        <li>关注模拟芯片现货市场价格波动，适当增加安全库存。</li>
       </ul>
     </div>
   </div>
@@ -186,7 +218,7 @@
   <div class="card">
     <div class="card-meta">
       <span class="tag">市场动态</span>
-      <span>📰 Futunn</span>
+      <span>📰 Futunn / ChemNet</span>
       <a href="https://news.futunn.com/en/post/69330418/the-wave-of-chip-price-hikes-continues-to-sweep-through" class="source-link" target="_blank">🔗 原文链接</a>
     </div>
     <h2>国产功率半导体厂商集体涨价，MOSFET上调10%起</h2>
@@ -199,7 +231,7 @@
       </ul>
       <div class="block-title action">🎯 建议动作</div>
       <ul>
-        <li>尽快与功率器件供应商确认Q2价格策略。</li>
+        <li>尽快与功率器件供应商确认Q2价格策略，锁定长单价格。</li>
         <li>评估涨价对BOM成本的影响，必要时调整终端产品定价。</li>
       </ul>
     </div>
@@ -209,7 +241,7 @@
   <div class="card">
     <div class="card-meta">
       <span class="tag">产业竞争</span>
-      <span>📰 TechSoda</span>
+      <span>📰 TechSoda / SemiEngineering</span>
       <a href="https://techsoda.substack.com/p/ip-insight-4-tsmc-vs-intel-in-silicon" class="source-link" target="_blank">🔗 原文链接</a>
     </div>
     <h2>硅光芯片代工战全面打响，台积电/Intel/GF竞逐AI光互连</h2>
@@ -217,14 +249,33 @@
     <div class="blocks">
       <div class="block-title insight">💡 行业洞见</div>
       <ul>
-        <li>光互连（CPO/LPO）将成为下一代AI集群的标配。</li>
+        <li>光互连（CPO/LPO）将成为下一代AI集群的标配，硅光芯片是核心瓶颈。</li>
         <li>Foundry厂的入局将加速硅光产业链成熟，降低光模块成本。</li>
       </ul>
       <div class="block-title action">🎯 建议动作</div>
       <ul>
-        <li>关注头部光模块厂商的硅光芯片供应商选择。</li>
-        <li>数据中心架构师应评估硅光互连方案的技术可行性。</li>
+        <li>关注头部光模块厂商（如中际旭创、新易盛）的硅光芯片供应商选择。</li>
+        <li>数据中心架构师应开始评估硅光互连方案的技术可行性。</li>
       </ul>
+    </div>
+  </div>
+
+  <div class="glossary-section">
+    <div class="glossary-title">📚 核心词条解读</div>
+    
+    <div class="term-item">
+      <span class="term-name">SiPh (Silicon Photonics)</span>
+      <span class="term-desc">硅光子技术。利用硅基半导体工艺制造光电子器件，实现光信号传输。在数据中心内部互连中，相比传统铜线，具有高带宽、低延迟、低功耗的优势，是解决AI集群“互连墙”的关键技术。</span>
+    </div>
+
+    <div class="term-item">
+      <span class="term-name">NoC (Network on Chip)</span>
+      <span class="term-desc">片上网络。一种主要用于SoC（系统级芯片）内部通信的架构技术，将网络通信的概念引入芯片设计，解决多核/多模块间的高效数据交换问题，Arteris是该领域的头部IP厂商。</span>
+    </div>
+
+    <div class="term-item">
+      <span class="term-name">MOSFET</span>
+      <span class="term-desc">金属-氧化物半导体场效应晶体管。一种最常见的功率半导体器件，广泛用于开关电源、电机驱动等领域。新洁能是国内该领域的龙头企业之一。</span>
     </div>
   </div>
 
