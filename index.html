@@ -199,8 +199,8 @@
           url: '', // Not in source JSON
           tags: [it.category],
           summary: it.summary,
-          insights: it.insights || [], // Preserve if exists, else empty
-          actions: it.actions || [],  // Preserve if exists, else empty
+          insights: it.insights || (it.summary ? ["暂无具体洞见 (AI 生成中...)"] : []), 
+          actions: it.actions || (it.summary ? ["关注后续进展"] : []),
           region: isDomestic(it.source) ? 'domestic' : 'overseas',
           glossary: [] // Will handle global terms separately or attach if relevant
         }));
