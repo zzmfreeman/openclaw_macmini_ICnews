@@ -199,8 +199,8 @@
           url: '', // Not in source JSON
           tags: [it.category],
           summary: it.summary,
-          insights: [], // Not in source JSON
-          actions: [],  // Not in source JSON
+          insights: it.insights || [], // Preserve if exists, else empty
+          actions: it.actions || [],  // Preserve if exists, else empty
           region: isDomestic(it.source) ? 'domestic' : 'overseas',
           glossary: [] // Will handle global terms separately or attach if relevant
         }));
