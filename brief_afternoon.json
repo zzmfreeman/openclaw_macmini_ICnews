@@ -1,118 +1,70 @@
 {
-  "asOf": "2026-03-08 17:45 (Asia/Shanghai)",
-  "keywords": ["AI芯片出口", "中东冲突", "供应链风险", "本土化建链", "光刻设备"],
-  "notes": "本期聚焦过去72小时内可交叉验证的半导体产业快讯；优先采用主流财经/通讯社口径。",
+  "asOf": "2026-03-08 17:55 (Asia/Shanghai)",
+  "keywords": ["出口规则", "供应链", "地缘风险", "区域建厂", "政策信号"],
+  "timeline": [
+    {"date": "2026-03-04", "event": "印度推进半导体合作与本地制造能力建设。"},
+    {"date": "2026-03-05", "event": "美国讨论AI芯片出口新框架；韩国提示中东冲突可能影响关键材料。"},
+    {"date": "2026-03-07", "event": "Nexperia相关争议升温，供应链不确定性再次上行。"}
+  ],
   "key_data": [
     {"metric": "观察窗口", "value": "最近72小时"},
-    {"metric": "入选新闻", "value": "5条"},
-    {"metric": "核心变量", "value": "出口规则 + 地缘冲突 + 区域建链"}
-  ],
-  "timeline": [
-    {"date": "2026-03-04", "event": "印度推进与荷兰半导体生态协作，强调制造与技术能力引入。"},
-    {"date": "2026-03-05", "event": "美国讨论AI芯片出口新框架；韩国提示中东冲突可能扰动关键材料供应。"},
-    {"date": "2026-03-07", "event": "围绕Nexperia相关争议的供应链风险信号继续发酵。"}
+    {"metric": "入选快讯", "value": "5条"}
   ],
   "items": [
     {
       "region": "overseas",
-      "title": "美国讨论AI芯片出口新规则，审批框架或进一步收紧",
+      "title": "美国讨论AI芯片出口新监管框架",
       "source": "Reuters",
       "published": "2026-03-05",
       "url": "https://www.reuters.com/world/us-mulls-new-rules-ai-chip-exports-including-requiring-investments-by-foreign-2026-03-05/",
-      "tags": ["Export Controls", "AI Chips", "US Policy"],
-      "summary": "<p>路透报道称，美国官员正在讨论新的AI芯片出口监管框架，可能调整现有目的地分类与审批机制。对高性能AI芯片的跨境流向管理预计更集中化，行业对后续细则高度敏感。</p>",
-      "insights": [
-        "短期不确定性将抬升AI算力链估值波动。",
-        "海外客户的采购与交付节奏可能更前置或分散。"
-      ],
-      "actions": [
-        "跟踪正式法规文本而非二手解读。",
-        "关注GPU/加速器厂商的订单指引与地区结构变化。"
-      ],
-      "glossary": [
-        {"term": "Export Controls", "desc": "针对特定技术、产品或目的地设置的出口许可与限制机制。"}
-      ]
+      "summary": "<ul><li>美国官员正在讨论新的AI芯片出口规则与审批机制。</li><li>市场关注后续细则是否进一步收紧目的地与许可条件。</li></ul>",
+      "insights": ["AI算力链短期波动可能加大。", "海外客户的下单节奏或更前置。"],
+      "actions": ["优先跟踪正式规则文本。", "关注GPU/加速器厂商地区收入结构变化。"],
+      "glossary": []
     },
     {
       "region": "overseas",
-      "title": "韩国提示：中东冲突可能扰动关键芯片制造材料供应",
+      "title": "韩国提示中东冲突可能扰动芯片关键材料供应",
       "source": "Reuters",
       "published": "2026-03-05",
       "url": "https://www.reuters.com/business/retail-consumer/south-korean-chip-industry-worried-iran-crisis-affect-middle-east-data-center-2026-03-05/",
-      "tags": ["Supply Chain", "Materials", "Geopolitics"],
-      "summary": "<p>韩国方面警示，中东局势升级可能影响部分半导体制造关键材料与物流稳定性。若能源与运输持续受扰，相关成本与交期压力会向晶圆制造与封测环节传导。</p>",
-      "insights": [
-        "供应链风险从“需求侧”转向“供给侧”。",
-        "库存策略与多来源采购将成为企业防御重点。"
-      ],
-      "actions": [
-        "关注材料厂商与晶圆厂的库存周转变化。",
-        "监控运价、油价与关键航线中断信号。"
-      ],
-      "glossary": [
-        {"term": "关键材料", "desc": "指光刻胶、特种气体、硅片等制造流程中不可替代的核心投入。"}
-      ]
+      "summary": "<ul><li>韩国方面警示中东局势可能影响关键材料与物流稳定。</li><li>若冲突持续，制造成本与交期压力可能传导至产业链。</li></ul>",
+      "insights": ["供应链风险溢价重新抬升。", "库存与多来源采购将继续强化。"],
+      "actions": ["跟踪材料厂库存与交付周期。", "关注油价、运价与航线中断信号。"],
+      "glossary": []
     },
     {
       "region": "domestic",
-      "title": "中国半导体产业高层呼吁“类ASML”能力建设",
+      "title": "中国芯片产业继续强调关键设备能力建设",
       "source": "Reuters",
       "published": "2026-03-05",
       "url": "https://www.reuters.com/world/china/chinas-top-chip-bosses-urge-supportive-policies-create-chinas-asml-2026-03-05/",
-      "tags": ["China", "Lithography", "Localization"],
-      "summary": "<p>多位中国半导体产业人士呼吁在2026-2030周期内加强协同投入，推动可运行的本土光刻相关能力建设。政策与产业协同仍是核心抓手。</p>",
-      "insights": [
-        "设备国产化将继续成为中长期主线。",
-        "产业链协同效率将决定落地速度。"
-      ],
-      "actions": [
-        "关注设备、材料、零部件的联动订单信号。",
-        "跟踪地方产业基金与政策配套节奏。"
-      ],
-      "glossary": [
-        {"term": "ASML", "desc": "全球领先光刻设备企业，EUV技术是先进制程关键。"}
-      ]
+      "summary": "<ul><li>产业层面呼吁加强2026-2030阶段的协同投入。</li><li>设备与材料环节仍是中长期主线。</li></ul>",
+      "insights": ["国产设备链政策确定性仍高。", "产业协同效率决定落地速度。"],
+      "actions": ["关注设备与零部件订单联动。", "跟踪地方配套政策推进节奏。"],
+      "glossary": []
     },
     {
       "region": "overseas",
-      "title": "Nexperia相关争议再起，供应链紧张预期升温",
+      "title": "Nexperia相关争议升级，供应链紧张预期升温",
       "source": "Reuters",
       "published": "2026-03-07",
       "url": "https://www.reuters.com/business/autos-transportation/china-warns-global-chip-shortages-nexperia-dispute-escalates-again-2026-03-07/",
-      "tags": ["Nexperia", "Trade Friction", "Chip Supply"],
-      "summary": "<p>围绕Nexperia相关争议的跨境摩擦再次升级，市场对功率半导体及汽车链潜在扰动的担忧上升。地缘与监管变量正在重新定价供应安全溢价。</p>",
-      "insights": [
-        "车规与功率器件链条更易受跨境政策影响。",
-        "“安全库存+区域备份”将继续强化。"
-      ],
-      "actions": [
-        "关注汽车电子企业对交期和备货的表述。",
-        "审视高地域集中度供应商的替代路径。"
-      ],
-      "glossary": [
-        {"term": "功率半导体", "desc": "用于电能转换与控制的器件，广泛应用于汽车与工业场景。"}
-      ]
+      "summary": "<ul><li>跨境争议再起，市场对功率器件与汽车链扰动担忧增加。</li><li>地缘与监管变量继续影响供应安全预期。</li></ul>",
+      "insights": ["车规链条受政策变量影响更大。", "区域备份供应策略将延续。"],
+      "actions": ["关注汽车电子企业对交期表述。", "评估高集中度供应商替代路径。"],
+      "glossary": []
     },
     {
       "region": "overseas",
-      "title": "印度继续推进半导体合作，强化本地制造吸引力",
+      "title": "印度持续推进半导体合作与本地制造激励",
       "source": "Reuters",
       "published": "2026-03-04",
       "url": "https://www.reuters.com/world/india/india-seeks-dutch-knowhow-semiconductor-push-2026-03-04/",
-      "tags": ["India", "Semiconductor Policy", "Capacity Build"],
-      "summary": "<p>印度持续推进与荷兰产业生态合作，叠加补贴与地方激励，目标是提升本地半导体制造能力与全球供应链地位。多区域建链趋势进一步明确。</p>",
-      "insights": [
-        "全球产能布局从单中心向多中心演进。",
-        "政策稳定性将成为产能落地的关键变量。"
-      ],
-      "actions": [
-        "关注设备商与封测环节在印度的项目进展。",
-        "评估多地建厂对交付与成本的再平衡。"
-      ],
-      "glossary": [
-        {"term": "多区域建链", "desc": "通过在多个国家布局制造与供应节点，降低单点地缘风险。"}
-      ]
+      "summary": "<ul><li>印度继续引入外部技术与产业资源，推动本地制造。</li><li>全球半导体产能布局进一步走向多区域化。</li></ul>",
+      "insights": ["产能布局从单中心向多中心演进。", "政策稳定性是落地关键。"],
+      "actions": ["关注设备商与封测项目进展。", "持续评估多地建厂对成本与交付影响。"],
+      "glossary": []
     }
-  ],
-  "footer": "Generated by OpenClaw · Curated from Reuters-linked reports"
+  ]
 }

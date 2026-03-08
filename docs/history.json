@@ -28,5 +28,36 @@
   "https://www.wndu.com/video/2026/03/04/wndu-vault-terry-mcfadden-tours-lou-holtzs-home/",
   "https://www.arrosasarea.eus/2026/03/04/txotx-%C2%B7-2026-03-04/",
   "https://www.cabinetpierrat.com/2026/03/04/et-casanova-inventa-casanova/",
-  "https://www.gazetecin.com/mukaddes-emanetler-sergisi-ne-yogun-ilgi/57512"
+  "https://www.gazetecin.com/mukaddes-emanetler-sergisi-ne-yogun-ilgi/57512",
+  {
+    "timestamp": "2026-03-08T17:55:00+08:00",
+    "event": "Semi Midday/Afternoon Flash (Manual Refresh)",
+    "items": [
+      {
+        "id": "20260308-1755-01",
+        "title": "美国讨论AI芯片出口新监管框架",
+        "heat": 95
+      },
+      {
+        "id": "20260308-1755-02",
+        "title": "韩国提示中东冲突可能扰动芯片关键材料供应",
+        "heat": 90
+      },
+      {
+        "id": "20260308-1755-03",
+        "title": "中国芯片产业继续强调关键设备能力建设",
+        "heat": 88
+      },
+      {
+        "id": "20260308-1755-04",
+        "title": "Nexperia相关争议升级，供应链紧张预期升温",
+        "heat": 86
+      },
+      {
+        "id": "20260308-1755-05",
+        "title": "印度持续推进半导体合作与本地制造激励",
+        "heat": 82
+      }
+    ]
+  }
 ]
