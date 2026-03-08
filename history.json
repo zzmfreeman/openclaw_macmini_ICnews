@@ -65,34 +65,39 @@
   "https://www.reuters.com/world/china/nvidia-refocuses-tsmc-capacity-export-controls-stall-china-sales-ft-reports-2026-03-05/",
   "https://www.reuters.com/technology/nvidia-invest-2-billion-photonic-product-maker-lumentum-2026-03-02/",
   "https://www.reuters.com/technology/disrupted/",
+  "https://www.reuters.com/business/vista-equity-partners-intel-lead-investment-ai-chip-startup-samba-nova-sources-2026-02-06/",
+  "https://www.reuters.com/world/asia-pacific/malaysia-anti-graft-agency-probing-government-deal-with-chip-firm-arm-holdings-2026-03-04/",
+  "https://www.reuters.com/world/asia-pacific/memory-chipmaker-kioxia-retail-operator-pan-pacific-be-added-nikkei-index-2026-03-05/",
+  "https://www.reuters.com/world/asia-pacific/asml-plots-future-chipmaking-tools-ai-beyond-euv-2026-03-02/",
+  "https://www.reuters.com/business/aerospace-defense/rare-earth-shortages-worsen-us-aerospace-chips-despite-trade-truce-sources-say-2026-02-26/",
   {
     "timestamp": "2026-03-08T20:00:00+08:00",
     "event": "Semi Afternoon Flash (20:00)",
     "items": [
       {
         "id": "20260308-2000-01",
-        "title": "【置顶】电装拟收购罗姆，交易规模或达83亿美元",
-        "heat": 97
+        "title": "【置顶】英特尔据报参与SambaNova新一轮融资，AI芯片创业并购整合预期升温",
+        "heat": 95
       },
       {
         "id": "20260308-2000-02",
-        "title": "【置顶】英特尔董事长Yeary将离任，Barratt接任",
-        "heat": 94
+        "title": "马来西亚反贪机构调查政府与Arm合作协议，区域IP授权项目不确定性上升",
+        "heat": 91
       },
       {
         "id": "20260308-2000-03",
-        "title": "英伟达据报暂停面向中国的H200产出并转向Vera Rubin",
-        "heat": 92
+        "title": "铠侠将被纳入日经指数，存储芯片权重与被动资金流入预期抬升",
+        "heat": 88
       },
       {
         "id": "20260308-2000-04",
-        "title": "英伟达拟各投20亿美元入股Lumentum与Coherent",
-        "heat": 89
+        "title": "ASML推进EUV之外设备路线，先进封装前道化趋势强化",
+        "heat": 86
       },
       {
         "id": "20260308-2000-05",
-        "title": "ASML披露EUV光源新进展，称2030年前或提升50%产出",
-        "heat": 86
+        "title": "美国航天与芯片链稀土短缺加剧，关键材料约束再度升温",
+        "heat": 84
       }
     ]
   }

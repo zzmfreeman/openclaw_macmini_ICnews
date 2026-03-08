@@ -1,24 +1,24 @@
 {
   "asOf": "2026-03-08 20:00 (Asia/Shanghai)",
   "keywords": [
-    "并购整合",
-    "董事会变更",
-    "产能重配",
-    "光互连",
-    "设备迭代"
+    "并购资本",
+    "监管调查",
+    "设备迭代",
+    "材料约束",
+    "日本存储"
   ],
   "timeline": [
     {
-      "date": "2026-03-03",
-      "event": "英特尔宣布董事长Yeary将退休，Barratt接任。"
+      "date": "2026-03-04",
+      "event": "马来西亚反贪机构调查政府与Arm交易安排。"
     },
     {
       "date": "2026-03-05",
-      "event": "英伟达据报调整H200对华供给并重配台积电产能。"
+      "event": "铠侠将被纳入日经指数，存储权重上升。"
     },
     {
       "date": "2026-03-06",
-      "event": "电装提出收购罗姆方案，车规半导体整合预期升温。"
+      "event": "芯片与航天链稀土短缺预警继续发酵。"
     }
   ],
   "key_data": [
@@ -34,86 +34,86 @@
   "items": [
     {
       "region": "overseas",
-      "title": "【置顶】电装拟收购罗姆，交易规模或达83亿美元",
+      "title": "【置顶】英特尔据报参与SambaNova新一轮融资，AI芯片创业并购整合预期升温",
       "source": "Reuters",
-      "published": "2026-03-06",
-      "url": "https://www.reuters.com/world/asia-pacific/denso-proposes-buy-rohm-deal-that-could-reach-83-bln-nikkei-says-2026-03-06/",
-      "summary": "<ul><li>电装提出收购罗姆方案，潜在交易金额约83亿美元。</li><li>若推进，将重塑日本车规功率与模拟芯片供应格局。</li></ul>",
+      "published": "2026-02-06",
+      "url": "https://www.reuters.com/business/vista-equity-partners-intel-lead-investment-ai-chip-startup-samba-nova-sources-2026-02-06/",
+      "summary": "<ul><li>路透称Vista Equity与英特尔牵头SambaNova新一轮融资。</li><li>上游算力厂商与资本协同加深，AI芯片赛道整合预期继续抬升。</li></ul>",
       "insights": [
-        "车规半导体纵向整合加速。",
-        "上游器件议价权可能向系统厂倾斜。"
+        "平台型公司加码生态控制权。",
+        "创业公司估值逻辑向订单与量产能力收敛。"
       ],
       "actions": [
-        "跟踪董事会与监管审批节奏。",
-        "关注功率器件与SiC链条估值重定价。"
+        "跟踪后续战略合作与量产节点披露。",
+        "关注同类AI芯片公司融资与并购窗口。"
       ],
       "glossary": []
     },
     {
       "region": "overseas",
-      "title": "【置顶】英特尔董事长Yeary将离任，Barratt接任",
+      "title": "马来西亚反贪机构调查政府与Arm合作协议，区域IP授权项目不确定性上升",
       "source": "Reuters",
-      "published": "2026-03-03",
-      "url": "https://www.reuters.com/business/intel-board-chair-frank-yeary-depart-2026-03-03/",
-      "summary": "<ul><li>英特尔宣布董事长Frank Yeary将在5月股东大会后退休。</li><li>董事会治理层更替与CEO Lip-Bu Tan转型路线形成联动。</li></ul>",
+      "published": "2026-03-04",
+      "url": "https://www.reuters.com/world/asia-pacific/malaysia-anti-graft-agency-probing-government-deal-with-chip-firm-arm-holdings-2026-03-04/",
+      "summary": "<ul><li>马来西亚反贪机构对政府与Arm的合作安排启动调查。</li><li>东南亚本地芯片设计与授权推进节奏面临变量。</li></ul>",
       "insights": [
-        "治理结构调整通常先于资本与产能决策。",
-        "IDM与代工双线战略执行节奏值得跟踪。"
+        "政策与合规审查正成为区域半导体项目核心约束。",
+        "政府主导型产业计划更依赖执行透明度。"
       ],
       "actions": [
-        "关注后续董事会席位与委员会分工。",
-        "跟踪Intel Foundry相关资本开支口径。"
+        "关注官方调查进展与合同条款修订。",
+        "评估东南亚相关IP授权项目节奏变化。"
       ],
       "glossary": []
     },
     {
       "region": "overseas",
-      "title": "英伟达据报暂停面向中国的H200产出并转向Vera Rubin",
+      "title": "铠侠将被纳入日经指数，存储芯片权重与被动资金流入预期抬升",
       "source": "Reuters",
       "published": "2026-03-05",
-      "url": "https://www.reuters.com/world/china/nvidia-refocuses-tsmc-capacity-export-controls-stall-china-sales-ft-reports-2026-03-05/",
-      "summary": "<ul><li>受出口限制影响，英伟达据报下调中国向H200供给安排。</li><li>相关台积电产能转向下一代Vera Rubin平台。</li></ul>",
+      "url": "https://www.reuters.com/world/asia-pacific/memory-chipmaker-kioxia-retail-operator-pan-pacific-be-added-nikkei-index-2026-03-05/",
+      "summary": "<ul><li>路透称铠侠将纳入日经指数成分，相关指数资金或被动增配。</li><li>日本存储板块在大盘中的代表性进一步提升。</li></ul>",
       "insights": [
-        "先进制程产能将继续向高毛利新品集中。",
-        "AI服务器供应链短期结构性分化增强。"
+        "指数纳入可改善流动性与估值锚。",
+        "存储赛道在日本资本市场话语权增强。"
       ],
       "actions": [
-        "跟踪台积电先进封装与CoWoS排产变化。",
-        "关注下游云厂商新品导入时间表。"
+        "跟踪生效日附近成交量与北向资金变化。",
+        "关注日系存储链估值联动。"
       ],
       "glossary": []
     },
     {
       "region": "overseas",
-      "title": "英伟达拟各投20亿美元入股Lumentum与Coherent",
+      "title": "ASML推进EUV之外设备路线，先进封装前道化趋势强化",
       "source": "Reuters",
       "published": "2026-03-02",
-      "url": "https://www.reuters.com/technology/nvidia-invest-2-billion-photonic-product-maker-lumentum-2026-03-02/",
-      "summary": "<ul><li>英伟达宣布对两家光子器件企业分别投资20亿美元。</li><li>目标是强化数据中心互连链路以匹配更高AI算力需求。</li></ul>",
+      "url": "https://www.reuters.com/world/asia-pacific/asml-plots-future-chipmaking-tools-ai-beyond-euv-2026-03-02/",
+      "summary": "<ul><li>路透披露ASML在EUV之外推进面向AI时代的新型设备路线。</li><li>先进封装与前道设备边界继续融合，设备投资结构或重排。</li></ul>",
       "insights": [
-        "光互连在AI集群中的战略权重显著上升。",
-        "算力竞争正从GPU延伸至系统级互连。"
+        "设备厂竞争焦点从单点光刻转向系统级产线效率。",
+        "封装相关前道设备需求弹性提高。"
       ],
       "actions": [
-        "关注CPO与高速光模块供应链订单释放。",
-        "跟踪北美云厂商互连资本开支指引。"
+        "跟踪ASML后续产品发布与客户验证进度。",
+        "关注封装设备链订单先行指标。"
       ],
       "glossary": []
     },
     {
       "region": "overseas",
-      "title": "ASML披露EUV光源新进展，称2030年前或提升50%产出",
+      "title": "美国航天与芯片链稀土短缺加剧，关键材料约束再度升温",
       "source": "Reuters",
-      "published": "2026-02-23",
-      "url": "https://www.reuters.com/technology/disrupted/",
-      "summary": "<ul><li>路透披露ASML在EUV光源环节取得新进展。</li><li>若按路线落地，2030年前单机产出潜力有望提升约50%。</li></ul>",
+      "published": "2026-02-26",
+      "url": "https://www.reuters.com/business/aerospace-defense/rare-earth-shortages-worsen-us-aerospace-chips-despite-trade-truce-sources-say-2026-02-26/",
+      "summary": "<ul><li>路透称即使在阶段性缓和背景下，美国航天与芯片链稀土短缺仍在加剧。</li><li>材料端波动可能继续向器件交期与价格传导。</li></ul>",
       "insights": [
-        "设备效率改善将缓解先进节点成本压力。",
-        "晶圆厂扩产决策将更关注单位产出提升。"
+        "原材料安全已成为先进制造的底层约束。",
+        "供应链安全溢价可能长期化。"
       ],
       "actions": [
-        "跟踪EUV生态链关键部件交付能力。",
-        "评估先进制程折旧与良率模型变化。"
+        "跟踪稀土报价与关键磁材供给节奏。",
+        "评估高依赖环节的替代与库存策略。"
       ],
       "glossary": []
     }
