@@ -1,99 +1,121 @@
 {
-  "date": "2026-03-05",
-  "items": [
+  "asOf": "2026-03-08 08:00 (Asia/Shanghai)",
+  "keywords": [
+    "出口规则",
+    "供应链风险",
+    "区域建厂",
+    "政策驱动",
+    "AI芯片"
+  ],
+  "timeline": [
     {
-      "rank": 1,
-      "category": "人事变动",
-      "title": "阿里通义千问核心负责人林俊旸离职，团队面临拆分调整",
-      "summary": "阿里通义千问(Qwen)技术负责人林俊旸(Justin Lin)宣布离职，引发业界关注。据悉，Qwen团队近期计划拆分，从垂直整合体系转向预训练、后训练等水平分工。此消息已在X(Twitter)等社交媒体确认。",
-      "source": "TechCrunch / Bloomberg",
-      "url": "https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/",
-      "insights": [
-        "大模型团队从野蛮生长进入精细化分工阶段，技术领军人物变动或预示战略方向调整。",
-        "开源模型社区可能面临核心维护者流失带来的短期不确定性。"
-      ],
-      "actions": [
-        "关注Qwen后续版本迭代速度，评估是否对依赖该模型的业务造成影响。",
-        "考察团队拆分后的新架构，寻找潜在的人才招聘机会。"
-      ]
+      "date": "2026-03-05",
+      "event": "美国讨论AI芯片出口新监管框架。"
     },
     {
-      "rank": 2,
-      "category": "裁员重组",
-      "title": "EDA巨头Synopsys宣布裁员10%，涉及约2000名员工",
-      "summary": "芯片设计软件巨头Synopsys计划裁员约2000人（占总员工10%），以重新调整投资方向聚焦高增长领域。此消息由Intellizence等追踪机构在过去24小时内更新确认，与Ansys收购案后的整合及AI战略转型有关。",
-      "source": "Intellizence / Futurum Group",
-      "url": "https://intellizence.com/insights/layoff-downsizing/major-companies-that-announced-mass-layoffs/",
-      "insights": [
-        "EDA行业正从传统工具向AI辅助设计(AI for EDA)转型，旧岗位需求缩减。",
-        "即使是行业垄断巨头也需通过裁员来释放资金，All-in AI相关研发。"
-      ],
-      "actions": [
-        "EDA相关从业者需加速掌握AI辅助设计技能以保持竞争力。",
-        "关注Synopsys在AI EDA工具上的新产品发布，评估采购价值。"
-      ]
+      "date": "2026-03-05",
+      "event": "韩国提示中东冲突可能影响关键材料供给。"
     },
     {
-      "rank": 3,
-      "category": "供应链",
-      "title": "地缘冲突波及Tower Semi，英特尔/三星等客户急寻替代产能",
-      "summary": "受以色列地缘局势影响，晶圆代工厂Tower Semiconductor面临出货阻力。3DNews及供应链媒体指出，主要客户包括安森美、英特尔、三星等已启动转单计划，成熟制程供应链或迎变局。",
-      "source": "3DNews / Supply Chain Update",
-      "url": "https://3dnews.ru/1137702/ostanovka-poluprovodnikovih-predpriyatiy-tower-v-izraile-sozdala-predposilki-dlya-defitsita-chipov",
-      "insights": [
-        "地缘政治风险已成为半导体供应链韧性的最大考验，单一产地风险凸显。",
-        "特种工艺（模拟/射频）产能可能出现短期紧缺，推高相关芯片价格。"
-      ],
-      "actions": [
-        "排查BOM表中Tower Semi相关物料，提前锁定现货或寻找第二供应商（如华虹、世界先进）。",
-        "关注模拟芯片现货市场价格波动，适当增加安全库存。"
-      ]
-    },
-    {
-      "rank": 4,
-      "category": "市场动态",
-      "title": "国产功率半导体厂商集体涨价，MOSFET上调10%起",
-      "summary": "包括新洁能、江苏宏微科技在内的多家国产功率器件厂商发布涨价函，自2026年3月1日起对MOSFET等产品价格上调至少10%。Futunn及ChemNet报道指出，这受上游金属原材料及代工成本波动影响。",
-      "source": "Futunn / ChemNet",
-      "url": "https://news.futunn.com/en/post/69330418/the-wave-of-chip-price-hikes-continues-to-sweep-through",
-      "insights": [
-        "功率半导体去库存周期结束，成本驱动型涨价潮可能蔓延至全行业。",
-        "新能源汽车和光伏需求复苏支撑了涨价逻辑。"
-      ],
-      "actions": [
-        "尽快与功率器件供应商确认Q2价格策略，锁定长单价格。",
-        "评估涨价对BOM成本的影响，必要时调整终端产品定价。"
-      ]
-    },
-    {
-      "rank": 5,
-      "category": "产业竞争",
-      "title": "硅光芯片代工战全面打响，台积电/Intel/GF竞逐AI光互连",
-      "summary": "随着AI对光互连需求爆发，GlobalFoundries、台积电、Intel及三星等晶圆厂纷纷加码硅光子技术（SiPh）代工。TechSoda及Wiki更新显示，各大Foundry正加速布局光互连以解决AI集群IO瓶颈。",
-      "source": "TechSoda / SemiEngineering",
-      "url": "https://techsoda.substack.com/p/ip-insight-4-tsmc-vs-intel-in-silicon",
-      "insights": [
-        "光互连（CPO/LPO）将成为下一代AI集群的标配，硅光芯片是核心瓶颈。",
-        "Foundry厂的入局将加速硅光产业链成熟，降低光模块成本。"
-      ],
-      "actions": [
-        "关注头部光模块厂商（如中际旭创、新易盛）的硅光芯片供应商选择。",
-        "数据中心架构师应开始评估硅光互连方案的技术可行性。"
-      ]
+      "date": "2026-03-07",
+      "event": "Nexperia相关争议升温。"
     }
   ],
-  "terms": [
+  "key_data": [
     {
-      "term": "SiPh (Silicon Photonics)",
-      "explanation": "硅光子技术。利用硅基半导体工艺制造光电子器件，实现光信号传输。在数据中心内部互连中，相比传统铜线，具有高带宽、低延迟、低功耗的优势，是解决AI集群“互连墙”的关键技术。"
+      "metric": "观察窗口",
+      "value": "最近72小时"
     },
     {
-      "term": "NoC (Network on Chip)",
-      "explanation": "片上网络。一种主要用于SoC（系统级芯片）内部通信的架构技术，将网络通信的概念引入芯片设计，解决多核/多模块间的高效数据交换问题，Arteris是该领域的头部IP厂商。"
+      "metric": "入选新闻",
+      "value": "5条"
+    }
+  ],
+  "items": [
+    {
+      "region": "overseas",
+      "title": "美国讨论AI芯片出口新监管框架",
+      "source": "Reuters",
+      "published": "2026-03-05",
+      "url": "https://www.reuters.com/world/us-mulls-new-rules-ai-chip-exports-including-requiring-investments-by-foreign-2026-03-05/",
+      "summary": "<ul><li>美国官员讨论新的AI芯片出口规则与审批机制。</li><li>后续细则可能影响高端算力链跨境流向。</li></ul>",
+      "insights": [
+        "AI算力链波动加大。",
+        "客户采购节奏可能前置。"
+      ],
+      "actions": [
+        "跟踪正式规则发布。",
+        "关注地区收入结构变化。"
+      ],
+      "glossary": []
     },
     {
-      "term": "MOSFET",
-      "explanation": "金属-氧化物半导体场效应晶体管。一种最常见的功率半导体器件，广泛用于开关电源、电机驱动等领域。新洁能是国内该领域的龙头企业之一。"
+      "region": "overseas",
+      "title": "韩国提示中东冲突可能扰动芯片关键材料供应",
+      "source": "Reuters",
+      "published": "2026-03-05",
+      "url": "https://www.reuters.com/business/retail-consumer/south-korean-chip-industry-worried-iran-crisis-affect-middle-east-data-center-2026-03-05/",
+      "summary": "<ul><li>中东局势可能影响关键材料与物流稳定性。</li><li>成本与交期压力可能向制造链传导。</li></ul>",
+      "insights": [
+        "供应链风险溢价抬升。",
+        "库存与多来源采购继续强化。"
+      ],
+      "actions": [
+        "跟踪材料库存周转。",
+        "关注油价运价变化。"
+      ],
+      "glossary": []
+    },
+    {
+      "region": "domestic",
+      "title": "中国芯片产业继续强调关键设备能力建设",
+      "source": "Reuters",
+      "published": "2026-03-05",
+      "url": "https://www.reuters.com/world/china/chinas-top-chip-bosses-urge-supportive-policies-create-chinas-asml-2026-03-05/",
+      "summary": "<ul><li>产业层面呼吁加强设备与基础能力投入。</li><li>中长期仍以关键环节突破为主线。</li></ul>",
+      "insights": [
+        "设备链政策确定性仍高。",
+        "协同效率决定推进速度。"
+      ],
+      "actions": [
+        "关注设备与零部件订单。",
+        "跟踪地方配套政策。"
+      ],
+      "glossary": []
+    },
+    {
+      "region": "overseas",
+      "title": "Nexperia相关争议升级，供应链紧张预期升温",
+      "source": "Reuters",
+      "published": "2026-03-07",
+      "url": "https://www.reuters.com/business/autos-transportation/china-warns-global-chip-shortages-nexperia-dispute-escalates-again-2026-03-07/",
+      "summary": "<ul><li>跨境争议再起，市场对功率器件与车规链担忧增加。</li><li>供应安全预期继续受地缘与监管扰动。</li></ul>",
+      "insights": [
+        "车规链受政策变量影响更大。",
+        "区域备份策略延续。"
+      ],
+      "actions": [
+        "关注汽车电子企业交期表述。",
+        "评估替代供应路径。"
+      ],
+      "glossary": []
+    },
+    {
+      "region": "overseas",
+      "title": "印度持续推进半导体合作与本地制造激励",
+      "source": "Reuters",
+      "published": "2026-03-04",
+      "url": "https://www.reuters.com/world/india/india-seeks-dutch-knowhow-semiconductor-push-2026-03-04/",
+      "summary": "<ul><li>印度继续推进半导体合作和本地制造政策。</li><li>全球产能布局进一步多区域化。</li></ul>",
+      "insights": [
+        "产能布局走向多中心。",
+        "政策稳定性是落地关键。"
+      ],
+      "actions": [
+        "跟踪项目落地节奏。",
+        "评估成本与交付再平衡。"
+      ],
+      "glossary": []
     }
   ]
 }
