@@ -1,30 +1,30 @@
 {
   "asOf": "2026-03-08 20:00 (Asia/Shanghai)",
   "keywords": [
-    "并购资本",
-    "监管调查",
-    "设备迭代",
-    "材料约束",
-    "日本存储"
+    "并购整合",
+    "EUV迭代",
+    "GPU竞争",
+    "18A代工",
+    "设备效率"
   ],
   "timeline": [
     {
+      "date": "2025-12-02",
+      "event": "Marvell披露收购Celestial AI计划，AI互连并购升温。"
+    },
+    {
+      "date": "2026-02-23",
+      "event": "ASML披露EUV光源效率提升路径。"
+    },
+    {
       "date": "2026-03-04",
-      "event": "马来西亚反贪机构调查政府与Arm交易安排。"
-    },
-    {
-      "date": "2026-03-05",
-      "event": "铠侠将被纳入日经指数，存储权重上升。"
-    },
-    {
-      "date": "2026-03-06",
-      "event": "芯片与航天链稀土短缺预警继续发酵。"
+      "event": "英特尔管理层释放18A对外策略调整信号。"
     }
   ],
   "key_data": [
     {
       "metric": "观察窗口",
-      "value": "最近72小时增量"
+      "value": "增量5条（去重后）"
     },
     {
       "metric": "入选快讯",
@@ -34,86 +34,86 @@
   "items": [
     {
       "region": "overseas",
-      "title": "【置顶】英特尔据报参与SambaNova新一轮融资，AI芯片创业并购整合预期升温",
+      "title": "【置顶】Marvell将以32.5亿美元收购Celestial AI，AI互连并购进入加速期",
       "source": "Reuters",
-      "published": "2026-02-06",
-      "url": "https://www.reuters.com/business/vista-equity-partners-intel-lead-investment-ai-chip-startup-samba-nova-sources-2026-02-06/",
-      "summary": "<ul><li>路透称Vista Equity与英特尔牵头SambaNova新一轮融资。</li><li>上游算力厂商与资本协同加深，AI芯片赛道整合预期继续抬升。</li></ul>",
+      "published": "2025-12-02",
+      "url": "https://www.reuters.com/technology/chipmaker-marvell-forecasts-fourth-quarter-revenue-above-estimates-2025-12-02/",
+      "summary": "<ul><li>路透称Marvell拟以32.5亿美元收购AI光互连初创Celestial AI。</li><li>交易预计于2026年一季度完成，AI芯片与光互连一体化整合预期上行。</li></ul>",
       "insights": [
-        "平台型公司加码生态控制权。",
-        "创业公司估值逻辑向订单与量产能力收敛。"
+        "算力瓶颈正从计算芯片向互连环节转移。",
+        "头部芯片厂通过并购抢占系统级话语权。"
       ],
       "actions": [
-        "跟踪后续战略合作与量产节点披露。",
-        "关注同类AI芯片公司融资与并购窗口。"
+        "跟踪监管审批与交割节奏。",
+        "关注同赛道并购估值与订单验证。"
       ],
       "glossary": []
     },
     {
       "region": "overseas",
-      "title": "马来西亚反贪机构调查政府与Arm合作协议，区域IP授权项目不确定性上升",
-      "source": "Reuters",
-      "published": "2026-03-04",
-      "url": "https://www.reuters.com/world/asia-pacific/malaysia-anti-graft-agency-probing-government-deal-with-chip-firm-arm-holdings-2026-03-04/",
-      "summary": "<ul><li>马来西亚反贪机构对政府与Arm的合作安排启动调查。</li><li>东南亚本地芯片设计与授权推进节奏面临变量。</li></ul>",
-      "insights": [
-        "政策与合规审查正成为区域半导体项目核心约束。",
-        "政府主导型产业计划更依赖执行透明度。"
-      ],
-      "actions": [
-        "关注官方调查进展与合同条款修订。",
-        "评估东南亚相关IP授权项目节奏变化。"
-      ],
-      "glossary": []
-    },
-    {
-      "region": "overseas",
-      "title": "铠侠将被纳入日经指数，存储芯片权重与被动资金流入预期抬升",
-      "source": "Reuters",
-      "published": "2026-03-05",
-      "url": "https://www.reuters.com/world/asia-pacific/memory-chipmaker-kioxia-retail-operator-pan-pacific-be-added-nikkei-index-2026-03-05/",
-      "summary": "<ul><li>路透称铠侠将纳入日经指数成分，相关指数资金或被动增配。</li><li>日本存储板块在大盘中的代表性进一步提升。</li></ul>",
-      "insights": [
-        "指数纳入可改善流动性与估值锚。",
-        "存储赛道在日本资本市场话语权增强。"
-      ],
-      "actions": [
-        "跟踪生效日附近成交量与北向资金变化。",
-        "关注日系存储链估值联动。"
-      ],
-      "glossary": []
-    },
-    {
-      "region": "overseas",
-      "title": "ASML推进EUV之外设备路线，先进封装前道化趋势强化",
-      "source": "Reuters",
-      "published": "2026-03-02",
-      "url": "https://www.reuters.com/world/asia-pacific/asml-plots-future-chipmaking-tools-ai-beyond-euv-2026-03-02/",
-      "summary": "<ul><li>路透披露ASML在EUV之外推进面向AI时代的新型设备路线。</li><li>先进封装与前道设备边界继续融合，设备投资结构或重排。</li></ul>",
-      "insights": [
-        "设备厂竞争焦点从单点光刻转向系统级产线效率。",
-        "封装相关前道设备需求弹性提高。"
-      ],
-      "actions": [
-        "跟踪ASML后续产品发布与客户验证进度。",
-        "关注封装设备链订单先行指标。"
-      ],
-      "glossary": []
-    },
-    {
-      "region": "overseas",
-      "title": "美国航天与芯片链稀土短缺加剧，关键材料约束再度升温",
+      "title": "ASML称下一代EUV设备已具备量产条件，AI先进制程导入提速",
       "source": "Reuters",
       "published": "2026-02-26",
-      "url": "https://www.reuters.com/business/aerospace-defense/rare-earth-shortages-worsen-us-aerospace-chips-despite-trade-truce-sources-say-2026-02-26/",
-      "summary": "<ul><li>路透称即使在阶段性缓和背景下，美国航天与芯片链稀土短缺仍在加剧。</li><li>材料端波动可能继续向器件交期与价格传导。</li></ul>",
+      "url": "https://www.reuters.com/business/asml-says-next-gen-euv-tools-ready-mass-produce-chips-marking-key-shift-ai-chip-2026-02-26/",
+      "summary": "<ul><li>ASML高层称下一代EUV设备已可进入高产量制造阶段。</li><li>先进逻辑与存储客户导入节奏有望前移。</li></ul>",
       "insights": [
-        "原材料安全已成为先进制造的底层约束。",
-        "供应链安全溢价可能长期化。"
+        "先进制程扩产约束继续向设备交付能力集中。",
+        "上游材料与零部件配套重要性进一步提升。"
       ],
       "actions": [
-        "跟踪稀土报价与关键磁材供给节奏。",
-        "评估高依赖环节的替代与库存策略。"
+        "跟踪主要晶圆厂导入时间表。",
+        "关注设备链交期与产能利用率变化。"
+      ],
+      "glossary": []
+    },
+    {
+      "region": "overseas",
+      "title": "ASML披露EUV光源改进路径，2030年前芯片产出潜力上修",
+      "source": "Reuters",
+      "published": "2026-02-23",
+      "url": "https://www.reuters.com/world/china/asml-unveils-euv-light-source-advance-that-could-yield-50-more-chips-by-2030-2026-02-23/",
+      "summary": "<ul><li>路透称ASML在关键光源环节取得进展，目标到2030年前提升单位时间产出。</li><li>若按计划落地，先进产线资本效率有望改善。</li></ul>",
+      "insights": [
+        "工艺迭代之外，设备吞吐率成为新竞争点。",
+        "设备效率提升可部分对冲新厂建设周期。"
+      ],
+      "actions": [
+        "关注客户验证与量产参数披露。",
+        "评估设备效率提升对Capex节奏影响。"
+      ],
+      "glossary": []
+    },
+    {
+      "region": "overseas",
+      "title": "英特尔CEO称将推进GPU产品线，AI算力产品版图继续扩张",
+      "source": "Reuters",
+      "published": "2026-02-03",
+      "url": "https://www.reuters.com/business/intel-ceo-says-company-will-make-gpus-has-hired-lead-executive-2026-02-03/",
+      "summary": "<ul><li>英特尔CEO表示公司将推进GPU产品，并引入相关负责人。</li><li>数据中心AI算力赛道竞争强度继续抬升。</li></ul>",
+      "insights": [
+        "传统CPU厂商正加速向异构算力全面布局。",
+        "GPU路线执行力将直接影响份额修复。"
+      ],
+      "actions": [
+        "跟踪产品发布时间与客户设计导入。",
+        "关注软件生态与兼容性进展。"
+      ],
+      "glossary": []
+    },
+    {
+      "region": "overseas",
+      "title": "英特尔评估18A对外代工定位调整，先进节点商业化弹性提升",
+      "source": "Reuters",
+      "published": "2026-03-04",
+      "url": "https://www.reuters.com/technology/intel-ceo-lip-bu-tan-reconsidering-fate-chipmakers-18a-manufacturing-tech-cfo-2026-03-04/",
+      "summary": "<ul><li>英特尔管理层称正重新评估18A技术对外服务定位。</li><li>若对外开放程度提升，代工业务订单弹性将增强。</li></ul>",
+      "insights": [
+        "先进节点策略从“自用优先”向“商业化并行”转向。",
+        "代工竞争将更多取决于良率与交付确定性。"
+      ],
+      "actions": [
+        "关注管理层后续资本开支与客户签约披露。",
+        "跟踪18A量产良率与交付里程碑。"
       ],
       "glossary": []
     }
