@@ -100,5 +100,101 @@
         "heat": 84
       }
     ]
+  },
+  "https://www.reuters.com/technology/ionq-buy-skywater-18-billion-expand-hardware-capabilities-2026-01-26/",
+  "https://www.reuters.com/sustainability/boards-policy-regulation/soitec-appoints-infineon-executive-laurent-remont-ceo-2026-01-08/",
+  "https://www.reuters.com/world/asia-pacific/sk-hynix-invest-15-billion-new-semiconductor-facilities-south-korea-2026-02-25/",
+  "https://www.reuters.com/world/asia-pacific/tsmc-plans-3-nanometre-chip-production-japan-with-17-billion-investment-yomiuri-2026-02-04/",
+  "https://www.reuters.com/world/us/us-lawmakers-push-curb-chinas-access-chipmaking-tools-2026-02-11/",
+  "https://www.reuters.com/business/global-chip-sales-expected-hit-1-trillion-this-year-industry-group-says-2026-02-06/",
+  "https://www.reuters.com/business/tower-semiconductor-beats-quarterly-profit-estimates-ai-driven-chip-demand-2026-02-11/",
+  "https://www.reuters.com/world/asia-pacific/micron-plans-24-billion-memory-chipmaking-plant-singapore-2026-01-27/",
+  "https://www.reuters.com/world/china/tsmc-likely-post-fourth-quarter-profit-leap-driven-by-ai-boom-2026-01-14/",
+  "https://www.reuters.com/world/asia-pacific/sk-hynix-speeds-up-new-chip-fab-opening-meet-memory-demand-executive-says-2026-01-14/",
+  "https://www.reuters.com/world/asia-pacific/us-eases-regulations-nvidia-h200-chip-exports-china-2026-01-13/",
+  "https://www.reuters.com/world/us/trump-imposes-25-tariff-imports-some-advanced-computing-chips-2026-01-14/",
+  "https://www.reuters.com/world/asia-pacific/china-ai-chipmaker-biren-surges-82-hong-kong-debut-kicking-off-2026-listings-2026-01-02/",
+  "https://www.reuters.com/world/asia-pacific/baidus-ai-chip-arm-kunlunxin-files-confidentially-hong-kong-listing-2026-01-01/",
+  "https://www.reuters.com/world/asia-pacific/chinese-ai-chipmaker-axera-semiconductor-raise-379-million-via-hong-kong-ipo-2026-01-29/",
+  {
+    "timestamp": "2026-03-09T06:00:00+08:00",
+    "event": "Semi Daily Brief (06:00)",
+    "items": [
+      {
+        "id": "20260309-0600-01",
+        "title": "【置顶】IonQ拟18亿美元收购SkyWater，硬件栈一体化并购升温",
+        "heat": 99
+      },
+      {
+        "id": "20260309-0600-02",
+        "title": "【置顶】Soitec任命前英飞凌高管Laurent Remont为CEO",
+        "heat": 98
+      },
+      {
+        "id": "20260309-0600-03",
+        "title": "SK海力士宣布新增约150亿美元投资，扩建韩国半导体产线",
+        "heat": 97
+      },
+      {
+        "id": "20260309-0600-04",
+        "title": "TSMC确认日本二厂导入3nm，项目投资规模上修至170亿美元",
+        "heat": 96
+      },
+      {
+        "id": "20260309-0600-05",
+        "title": "美参众议员施压收紧对华设备出口与维保规则",
+        "heat": 95
+      },
+      {
+        "id": "20260309-0600-06",
+        "title": "全球芯片销售额或在2026年冲击1万亿美元",
+        "heat": 94
+      },
+      {
+        "id": "20260309-0600-07",
+        "title": "Tower Semiconductor业绩超预期，并追加硅光设备投资",
+        "heat": 93
+      },
+      {
+        "id": "20260309-0600-08",
+        "title": "Micron拟在新加坡新建240亿美元存储芯片工厂",
+        "heat": 92
+      },
+      {
+        "id": "20260309-0600-09",
+        "title": "TSMC季度利润创新高，并释放美国新增工厂信号",
+        "heat": 91
+      },
+      {
+        "id": "20260309-0600-10",
+        "title": "SK海力士将加快新晶圆厂启用节奏以应对存储需求",
+        "heat": 90
+      },
+      {
+        "id": "20260309-0600-11",
+        "title": "美国批准NVIDIA H200对华出口（附条件）",
+        "heat": 89
+      },
+      {
+        "id": "20260309-0600-12",
+        "title": "特朗普政府对部分先进AI芯片加征25%关税",
+        "heat": 88
+      },
+      {
+        "id": "20260309-0600-13",
+        "title": "Biren香港上市首日大涨，AI芯片融资窗口回暖",
+        "heat": 87
+      },
+      {
+        "id": "20260309-0600-14",
+        "title": "百度昆仑芯据报递交香港保密上市申请",
+        "heat": 86
+      },
+      {
+        "id": "20260309-0600-15",
+        "title": "中国AI芯片企业Axera拟赴港募资约3.79亿美元",
+        "heat": 85
+      }
+    ]
   }
 ]
