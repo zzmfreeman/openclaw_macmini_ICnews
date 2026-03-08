@@ -59,5 +59,41 @@
         "heat": 82
       }
     ]
+  },
+  "https://www.reuters.com/world/asia-pacific/denso-proposes-buy-rohm-deal-that-could-reach-83-bln-nikkei-says-2026-03-06/",
+  "https://www.reuters.com/business/intel-board-chair-frank-yeary-depart-2026-03-03/",
+  "https://www.reuters.com/world/china/nvidia-refocuses-tsmc-capacity-export-controls-stall-china-sales-ft-reports-2026-03-05/",
+  "https://www.reuters.com/technology/nvidia-invest-2-billion-photonic-product-maker-lumentum-2026-03-02/",
+  "https://www.reuters.com/technology/disrupted/",
+  {
+    "timestamp": "2026-03-08T20:00:00+08:00",
+    "event": "Semi Afternoon Flash (20:00)",
+    "items": [
+      {
+        "id": "20260308-2000-01",
+        "title": "【置顶】电装拟收购罗姆，交易规模或达83亿美元",
+        "heat": 97
+      },
+      {
+        "id": "20260308-2000-02",
+        "title": "【置顶】英特尔董事长Yeary将离任，Barratt接任",
+        "heat": 94
+      },
+      {
+        "id": "20260308-2000-03",
+        "title": "英伟达据报暂停面向中国的H200产出并转向Vera Rubin",
+        "heat": 92
+      },
+      {
+        "id": "20260308-2000-04",
+        "title": "英伟达拟各投20亿美元入股Lumentum与Coherent",
+        "heat": 89
+      },
+      {
+        "id": "20260308-2000-05",
+        "title": "ASML披露EUV光源新进展，称2030年前或提升50%产出",
+        "heat": 86
+      }
+    ]
   }
 ]

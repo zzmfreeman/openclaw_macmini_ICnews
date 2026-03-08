@@ -1,69 +1,120 @@
 {
-  "asOf": "2026-03-08 17:55 (Asia/Shanghai)",
-  "keywords": ["出口规则", "供应链", "地缘风险", "区域建厂", "政策信号"],
+  "asOf": "2026-03-08 20:00 (Asia/Shanghai)",
+  "keywords": [
+    "并购整合",
+    "董事会变更",
+    "产能重配",
+    "光互连",
+    "设备迭代"
+  ],
   "timeline": [
-    {"date": "2026-03-04", "event": "印度推进半导体合作与本地制造能力建设。"},
-    {"date": "2026-03-05", "event": "美国讨论AI芯片出口新框架；韩国提示中东冲突可能影响关键材料。"},
-    {"date": "2026-03-07", "event": "Nexperia相关争议升温，供应链不确定性再次上行。"}
+    {
+      "date": "2026-03-03",
+      "event": "英特尔宣布董事长Yeary将退休，Barratt接任。"
+    },
+    {
+      "date": "2026-03-05",
+      "event": "英伟达据报调整H200对华供给并重配台积电产能。"
+    },
+    {
+      "date": "2026-03-06",
+      "event": "电装提出收购罗姆方案，车规半导体整合预期升温。"
+    }
   ],
   "key_data": [
-    {"metric": "观察窗口", "value": "最近72小时"},
-    {"metric": "入选快讯", "value": "5条"}
+    {
+      "metric": "观察窗口",
+      "value": "最近72小时增量"
+    },
+    {
+      "metric": "入选快讯",
+      "value": "5条"
+    }
   ],
   "items": [
     {
       "region": "overseas",
-      "title": "美国讨论AI芯片出口新监管框架",
+      "title": "【置顶】电装拟收购罗姆，交易规模或达83亿美元",
       "source": "Reuters",
-      "published": "2026-03-05",
-      "url": "https://www.reuters.com/world/us-mulls-new-rules-ai-chip-exports-including-requiring-investments-by-foreign-2026-03-05/",
-      "summary": "<ul><li>美国官员正在讨论新的AI芯片出口规则与审批机制。</li><li>市场关注后续细则是否进一步收紧目的地与许可条件。</li></ul>",
-      "insights": ["AI算力链短期波动可能加大。", "海外客户的下单节奏或更前置。"],
-      "actions": ["优先跟踪正式规则文本。", "关注GPU/加速器厂商地区收入结构变化。"],
+      "published": "2026-03-06",
+      "url": "https://www.reuters.com/world/asia-pacific/denso-proposes-buy-rohm-deal-that-could-reach-83-bln-nikkei-says-2026-03-06/",
+      "summary": "<ul><li>电装提出收购罗姆方案，潜在交易金额约83亿美元。</li><li>若推进，将重塑日本车规功率与模拟芯片供应格局。</li></ul>",
+      "insights": [
+        "车规半导体纵向整合加速。",
+        "上游器件议价权可能向系统厂倾斜。"
+      ],
+      "actions": [
+        "跟踪董事会与监管审批节奏。",
+        "关注功率器件与SiC链条估值重定价。"
+      ],
       "glossary": []
     },
     {
       "region": "overseas",
-      "title": "韩国提示中东冲突可能扰动芯片关键材料供应",
+      "title": "【置顶】英特尔董事长Yeary将离任，Barratt接任",
       "source": "Reuters",
-      "published": "2026-03-05",
-      "url": "https://www.reuters.com/business/retail-consumer/south-korean-chip-industry-worried-iran-crisis-affect-middle-east-data-center-2026-03-05/",
-      "summary": "<ul><li>韩国方面警示中东局势可能影响关键材料与物流稳定。</li><li>若冲突持续，制造成本与交期压力可能传导至产业链。</li></ul>",
-      "insights": ["供应链风险溢价重新抬升。", "库存与多来源采购将继续强化。"],
-      "actions": ["跟踪材料厂库存与交付周期。", "关注油价、运价与航线中断信号。"],
-      "glossary": []
-    },
-    {
-      "region": "domestic",
-      "title": "中国芯片产业继续强调关键设备能力建设",
-      "source": "Reuters",
-      "published": "2026-03-05",
-      "url": "https://www.reuters.com/world/china/chinas-top-chip-bosses-urge-supportive-policies-create-chinas-asml-2026-03-05/",
-      "summary": "<ul><li>产业层面呼吁加强2026-2030阶段的协同投入。</li><li>设备与材料环节仍是中长期主线。</li></ul>",
-      "insights": ["国产设备链政策确定性仍高。", "产业协同效率决定落地速度。"],
-      "actions": ["关注设备与零部件订单联动。", "跟踪地方配套政策推进节奏。"],
+      "published": "2026-03-03",
+      "url": "https://www.reuters.com/business/intel-board-chair-frank-yeary-depart-2026-03-03/",
+      "summary": "<ul><li>英特尔宣布董事长Frank Yeary将在5月股东大会后退休。</li><li>董事会治理层更替与CEO Lip-Bu Tan转型路线形成联动。</li></ul>",
+      "insights": [
+        "治理结构调整通常先于资本与产能决策。",
+        "IDM与代工双线战略执行节奏值得跟踪。"
+      ],
+      "actions": [
+        "关注后续董事会席位与委员会分工。",
+        "跟踪Intel Foundry相关资本开支口径。"
+      ],
       "glossary": []
     },
     {
       "region": "overseas",
-      "title": "Nexperia相关争议升级，供应链紧张预期升温",
+      "title": "英伟达据报暂停面向中国的H200产出并转向Vera Rubin",
       "source": "Reuters",
-      "published": "2026-03-07",
-      "url": "https://www.reuters.com/business/autos-transportation/china-warns-global-chip-shortages-nexperia-dispute-escalates-again-2026-03-07/",
-      "summary": "<ul><li>跨境争议再起，市场对功率器件与汽车链扰动担忧增加。</li><li>地缘与监管变量继续影响供应安全预期。</li></ul>",
-      "insights": ["车规链条受政策变量影响更大。", "区域备份供应策略将延续。"],
-      "actions": ["关注汽车电子企业对交期表述。", "评估高集中度供应商替代路径。"],
+      "published": "2026-03-05",
+      "url": "https://www.reuters.com/world/china/nvidia-refocuses-tsmc-capacity-export-controls-stall-china-sales-ft-reports-2026-03-05/",
+      "summary": "<ul><li>受出口限制影响，英伟达据报下调中国向H200供给安排。</li><li>相关台积电产能转向下一代Vera Rubin平台。</li></ul>",
+      "insights": [
+        "先进制程产能将继续向高毛利新品集中。",
+        "AI服务器供应链短期结构性分化增强。"
+      ],
+      "actions": [
+        "跟踪台积电先进封装与CoWoS排产变化。",
+        "关注下游云厂商新品导入时间表。"
+      ],
       "glossary": []
     },
     {
       "region": "overseas",
-      "title": "印度持续推进半导体合作与本地制造激励",
+      "title": "英伟达拟各投20亿美元入股Lumentum与Coherent",
       "source": "Reuters",
-      "published": "2026-03-04",
-      "url": "https://www.reuters.com/world/india/india-seeks-dutch-knowhow-semiconductor-push-2026-03-04/",
-      "summary": "<ul><li>印度继续引入外部技术与产业资源，推动本地制造。</li><li>全球半导体产能布局进一步走向多区域化。</li></ul>",
-      "insights": ["产能布局从单中心向多中心演进。", "政策稳定性是落地关键。"],
-      "actions": ["关注设备商与封测项目进展。", "持续评估多地建厂对成本与交付影响。"],
+      "published": "2026-03-02",
+      "url": "https://www.reuters.com/technology/nvidia-invest-2-billion-photonic-product-maker-lumentum-2026-03-02/",
+      "summary": "<ul><li>英伟达宣布对两家光子器件企业分别投资20亿美元。</li><li>目标是强化数据中心互连链路以匹配更高AI算力需求。</li></ul>",
+      "insights": [
+        "光互连在AI集群中的战略权重显著上升。",
+        "算力竞争正从GPU延伸至系统级互连。"
+      ],
+      "actions": [
+        "关注CPO与高速光模块供应链订单释放。",
+        "跟踪北美云厂商互连资本开支指引。"
+      ],
+      "glossary": []
+    },
+    {
+      "region": "overseas",
+      "title": "ASML披露EUV光源新进展，称2030年前或提升50%产出",
+      "source": "Reuters",
+      "published": "2026-02-23",
+      "url": "https://www.reuters.com/technology/disrupted/",
+      "summary": "<ul><li>路透披露ASML在EUV光源环节取得新进展。</li><li>若按路线落地，2030年前单机产出潜力有望提升约50%。</li></ul>",
+      "insights": [
+        "设备效率改善将缓解先进节点成本压力。",
+        "晶圆厂扩产决策将更关注单位产出提升。"
+      ],
+      "actions": [
+        "跟踪EUV生态链关键部件交付能力。",
+        "评估先进制程折旧与良率模型变化。"
+      ],
       "glossary": []
     }
   ]
