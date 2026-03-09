@@ -1,296 +1,266 @@
 {
   "asOf": "2026-03-09 06:00 (Asia/Shanghai)",
   "keywords": [
-    "并购整合",
-    "高端产能",
-    "封装扩产",
-    "出口管制",
-    "IPO融资"
+    "重大人事",
+    "存储涨价",
+    "功率半导体",
+    "智算芯片",
+    "出口规则"
   ],
   "timeline": [
     {
-      "date": "2026-01-26",
-      "event": "IonQ宣布18亿美元收购SkyWater，量子+半导体制造协同提速。"
+      "date": "2026-03-09",
+      "event": "三星电子工会启动罢工投票，存储供给扰动风险上升。"
     },
     {
-      "date": "2026-02-25",
-      "event": "SK海力士宣布到2030年前新增大规模本土产线投资。"
+      "date": "2026-03-09",
+      "event": "上海35微米功率半导体超薄晶圆工艺及封测线建成。"
     },
     {
-      "date": "2026-03-05",
-      "event": "美国讨论AI芯片出口新监管框架，跨境合规不确定性上升。"
+      "date": "2026-03-08",
+      "event": "Nexperia争议升级，供应链风险预期升温。"
     }
   ],
   "key_data": [
     {
       "metric": "观察窗口",
-      "value": "近70天（增量去重）"
+      "value": "最近24小时"
     },
     {
       "metric": "入选新闻",
       "value": "15条"
     },
     {
-      "metric": "置顶类型",
-      "value": "重大并购/人事"
+      "metric": "国内/国际",
+      "value": "11/4"
     }
   ],
   "items": [
     {
-      "region": "overseas",
-      "title": "【置顶】IonQ拟18亿美元收购SkyWater，硬件栈一体化并购升温",
-      "source": "Reuters",
-      "published": "2026-01-26",
-      "url": "https://www.reuters.com/technology/ionq-buy-skywater-18-billion-expand-hardware-capabilities-2026-01-26/",
-      "summary": "<ul><li>IonQ宣布收购晶圆代工企业SkyWater，交易规模约18亿美元。</li><li>交易完成后SkyWater将作为全资子公司运营，管理层延续。</li></ul>",
+      "region": "domestic",
+      "title": "【置顶】阿里千问技术负责人林俊旸离职（集微一周芯热点）",
+      "source": "集微网",
+      "published": "2026-03-09",
+      "url": "https://www.laoyaoba.com/",
+      "summary": "<ul><li>集微‘一周芯热点’披露，阿里千问技术负责人离职，引发市场对大模型与芯片协同路线关注。</li><li>人才流动对AI芯片软硬件生态建设节奏有边际影响。</li></ul>",
       "insights": [
-        "并购从设计端向制造端延伸。",
-        "算力硬件垂直整合趋势加强。"
+        "重大人事事件优先关注其对产品路线和合作生态的连锁影响。"
       ],
       "actions": [
-        "跟踪监管审批与交割进度。",
-        "关注代工产能分配变化。"
+        "跟踪后续团队调整与相关业务节奏。"
+      ],
+      "glossary": []
+    },
+    {
+      "region": "domestic",
+      "title": "【置顶】三星电子工会启动罢工投票，半导体产线扰动风险上升",
+      "source": "集微网",
+      "published": "2026-03-09",
+      "url": "https://jiweipreview.laoyaoba.com/n/988415",
+      "summary": "<ul><li>三星电子工会于3月9日起就工业行动进行投票，若通过将推进更大范围行动。</li><li>市场担忧HBM与存储供给稳定性受到阶段性冲击。</li></ul>",
+      "insights": [
+        "劳资风险正成为存储供给端的新变量。"
+      ],
+      "actions": [
+        "关注投票结果与产线稼动率变化。"
       ],
       "glossary": []
     },
     {
       "region": "overseas",
-      "title": "【置顶】Soitec任命前英飞凌高管Laurent Remont为CEO",
+      "title": "【置顶】中国就Nexperia争议预警全球芯片供应链风险升温",
       "source": "Reuters",
-      "published": "2026-01-08",
-      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/soitec-appoints-infineon-executive-laurent-remont-ceo-2026-01-08/",
-      "summary": "<ul><li>Soitec宣布CEO人事调整，新管理层将接手去库存周期下的经营修复。</li><li>市场关注其在功率与射频材料业务的执行节奏。</li></ul>",
+      "published": "2026-03-08",
+      "url": "https://www.reuters.com/business/autos-transportation/china-warns-global-chip-shortages-nexperia-dispute-escalates-again-2026-03-07/",
+      "summary": "<ul><li>围绕Nexperia相关争议，市场对全球半导体供应链再度紧张的担忧上升。</li><li>地缘与公司治理冲突叠加，供应不确定性抬升。</li></ul>",
       "insights": [
-        "材料端企业进入经营重塑阶段。",
-        "人事变动可能带来资本开支与产品结构再平衡。"
+        "地缘事件可快速放大供需波动预期。"
       ],
       "actions": [
-        "观察新CEO上任后指引变化。",
-        "跟踪主要客户需求修复节奏。"
+        "跟踪涉事公司公开披露与政策口径。"
+      ],
+      "glossary": []
+    },
+    {
+      "region": "domestic",
+      "title": "全球首条35微米功率半导体超薄晶圆工艺及封测线在沪建成",
+      "source": "集微网",
+      "published": "2026-03-09",
+      "url": "https://www.laoyaoba.com/",
+      "summary": "<ul><li>上海松江综保区落地35微米功率半导体超薄晶圆全流程产线。</li><li>覆盖超薄工艺与封测协同，强化国产高端功率器件能力。</li></ul>",
+      "insights": [
+        "功率器件制造与封装一体化能力正在加速补齐。"
+      ],
+      "actions": [
+        "跟踪量产良率与下游车规客户导入。"
+      ],
+      "glossary": []
+    },
+    {
+      "region": "domestic",
+      "title": "两会代表建议布局超大规模智算集群，聚焦高端训练芯片短板",
+      "source": "集微网",
+      "published": "2026-03-09",
+      "url": "https://www.laoyaoba.com/",
+      "summary": "<ul><li>全国两会讨论指出，高端训练芯片仍是关键攻关方向。</li><li>智算基础设施与国产AI芯片协同建设被反复提及。</li></ul>",
+      "insights": [
+        "政策与算力基础设施共振，有望提升国产训练芯片验证速度。"
+      ],
+      "actions": [
+        "关注‘十五五’相关项目清单与资金支持口径。"
+      ],
+      "glossary": []
+    },
+    {
+      "region": "domestic",
+      "title": "AI驱动存储‘超级周期’延续，供不应求预期指向2027",
+      "source": "集微网",
+      "published": "2026-03-09",
+      "url": "https://www.laoyaoba.com/",
+      "summary": "<ul><li>机构交流显示AI需求继续抬升DRAM/NAND景气预期。</li><li>短期内供应弹性有限，价格中枢维持高位。</li></ul>",
+      "insights": [
+        "存储高景气的核心仍是AI基础设施投资强度。"
+      ],
+      "actions": [
+        "持续跟踪主要原厂扩产与报价策略。"
+      ],
+      "glossary": []
+    },
+    {
+      "region": "domestic",
+      "title": "DRAM价格两个月翻番，抢货情绪推动现货与合约联动上行",
+      "source": "集微网",
+      "published": "2026-03-09",
+      "url": "https://www.laoyaoba.com/",
+      "summary": "<ul><li>DDR4等产品价格快速抬升，产业链抢货持续。</li><li>上游产能向高端产品倾斜加剧结构性紧张。</li></ul>",
+      "insights": [
+        "价格快速上行后，需警惕下游阶段性需求透支。"
+      ],
+      "actions": [
+        "关注终端厂备货周期与订单可持续性。"
+      ],
+      "glossary": []
+    },
+    {
+      "region": "domestic",
+      "title": "三星NAND传Q2再提价，全年存储价格弹性仍强",
+      "source": "集微网",
+      "published": "2026-03-09",
+      "url": "https://www.laoyaoba.com/",
+      "summary": "<ul><li>市场消息称三星拟在Q2继续上调NAND报价。</li><li>AI服务器与终端备货共振支撑涨价逻辑。</li></ul>",
+      "insights": [
+        "龙头原厂定价策略对行业价格预期具有放大效应。"
+      ],
+      "actions": [
+        "跟踪渠道库存与主要客户议价进展。"
+      ],
+      "glossary": []
+    },
+    {
+      "region": "domestic",
+      "title": "36氪快讯：A股半导体芯片板块走弱，算力硬件同步回调",
+      "source": "36氪",
+      "published": "2026-03-09",
+      "url": "https://www.36kr.com/newsflashes",
+      "summary": "<ul><li>盘初半导体芯片、算力硬件方向出现明显调整。</li><li>市场风险偏好短线降温，板块波动加大。</li></ul>",
+      "insights": [
+        "高拥挤AI链条进入高波动阶段。"
+      ],
+      "actions": [
+        "关注成交额与北向资金流向变化。"
+      ],
+      "glossary": []
+    },
+    {
+      "region": "domestic",
+      "title": "36氪快讯：港股半导体走弱，华虹半导体等个股承压",
+      "source": "36氪",
+      "published": "2026-03-09",
+      "url": "https://www.36kr.com/newsflashes",
+      "summary": "<ul><li>恒生科技回调下，半导体板块同步走弱。</li><li>市场对全球科技股风险偏好边际收缩。</li></ul>",
+      "insights": [
+        "A/H半导体联动性在风险事件期显著增强。"
+      ],
+      "actions": [
+        "观察港股半导体估值回撤与资金承接。"
+      ],
+      "glossary": []
+    },
+    {
+      "region": "domestic",
+      "title": "36氪快讯：中信证券看好Micro LED CPO，芯片环节受益预期提升",
+      "source": "36氪",
+      "published": "2026-03-09",
+      "url": "https://www.36kr.com/newsflashes",
+      "summary": "<ul><li>研报判断Micro LED CPO有望成为中距离光互连重要方案。</li><li>产业仍处前期研发准备期，上游芯片与工艺环节先受关注。</li></ul>",
+      "insights": [
+        "CPO路线竞争将推动材料、工艺与封装协同升级。"
+      ],
+      "actions": [
+        "跟踪关键厂商技术验证与量产节点。"
       ],
       "glossary": []
     },
     {
       "region": "overseas",
-      "title": "SK海力士宣布新增约150亿美元投资，扩建韩国半导体产线",
-      "source": "Reuters",
-      "published": "2026-02-25",
-      "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-invest-15-billion-new-semiconductor-facilities-south-korea-2026-02-25/",
-      "summary": "<ul><li>SK海力士计划在韩国龙仁推进新生产线建设，投资总额约21.6万亿韩元。</li><li>项目目标直指AI时代下的中长期供给能力。</li></ul>",
+      "title": "印度持续推进半导体与电子投资，日韩企业加快本地化布局",
+      "source": "DigiTimes",
+      "published": "2026-03-09",
+      "url": "https://www.digitimes.com/news/a20260307VL200/technology-materials-manufacturing-semicon-micron.html",
+      "summary": "<ul><li>印度半导体政策持续吸引亚洲产业链项目落地。</li><li>区域制造重构背景下，南亚承接能力提升。</li></ul>",
       "insights": [
-        "存储扩产进入新一轮资本开支周期。",
-        "韩国产能集中度继续抬升。"
+        "‘中国+1’向‘多区域并行’进一步演进。"
       ],
       "actions": [
-        "跟踪设备订单释放节奏。",
-        "评估存储价格中枢影响。"
+        "关注补贴兑现、人才供给与交付效率。"
       ],
       "glossary": []
     },
     {
       "region": "overseas",
-      "title": "TSMC确认日本二厂导入3nm，项目投资规模上修至170亿美元",
-      "source": "Reuters",
-      "published": "2026-02-05",
-      "url": "https://www.reuters.com/world/asia-pacific/tsmc-plans-3-nanometre-chip-production-japan-with-17-billion-investment-yomiuri-2026-02-04/",
-      "summary": "<ul><li>TSMC拟在日本第二座工厂引入3nm工艺以匹配AI需求。</li><li>对日投资总额进一步抬升，区域先进产能布局加快。</li></ul>",
+      "title": "台媒：美国拟讨论AI芯片出口新框架，分级授权思路受关注",
+      "source": "Taipei Times",
+      "published": "2026-03-09",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/03/09/2003853477",
+      "summary": "<ul><li>报道称美国讨论以投资与安全承诺为条件的AI芯片出口安排。</li><li>若落地，全球高端算力流向或受新规则重塑。</li></ul>",
       "insights": [
-        "日本先进制程地位提升。",
-        "客户多地备援策略更加明确。"
+        "出口规则从‘禁限’向‘条件化准入’延展。"
       ],
       "actions": [
-        "关注日本本地材料/设备配套。",
-        "跟踪量产时间表与良率爬坡。"
+        "跟踪政策文本落地与豁免机制。"
+      ],
+      "glossary": []
+    },
+    {
+      "region": "domestic",
+      "title": "一周数据看点：全球半导体TOP20更新，DDR4已连涨11个月",
+      "source": "集微网",
+      "published": "2026-03-09",
+      "url": "https://www.laoyaoba.com/",
+      "summary": "<ul><li>集微周度数据显示，存储价格与头部厂商业绩弹性继续抬升。</li><li>全球半导体公司排名与区域竞争格局持续变化。</li></ul>",
+      "insights": [
+        "数据端持续验证存储景气优于多数传统子赛道。"
+      ],
+      "actions": [
+        "关注Top厂商资本开支与产品结构调整。"
       ],
       "glossary": []
     },
     {
       "region": "overseas",
-      "title": "美参众议员施压收紧对华设备出口与维保规则",
-      "source": "Reuters",
-      "published": "2026-02-11",
-      "url": "https://www.reuters.com/world/us/us-lawmakers-push-curb-chinas-access-chipmaking-tools-2026-02-11/",
-      "summary": "<ul><li>美国国会议员要求进一步限制中国获取半导体设备及后续维保服务。</li><li>并要求行政部门就盟友协同控制方案进行说明。</li></ul>",
+      "title": "韩国进口车电动化渗透提升，车规芯片与功率器件需求弹性上行",
+      "source": "集微网编译",
+      "published": "2026-03-09",
+      "url": "https://www.laoyaoba.com/",
+      "summary": "<ul><li>韩国电动车销量结构变化带动车规半导体需求预期。</li><li>动力与智能化渗透共同拉动功率与存储器件用量。</li></ul>",
       "insights": [
-        "设备后服务或成新监管抓手。",
-        "跨境运维合规成本上升。"
+        "电动化与智能化继续推升汽车半导体单车价值量。"
       ],
       "actions": [
-        "盘点受影响设备清单与服务合同。",
-        "准备多区域备件与替代方案。"
-      ],
-      "glossary": []
-    },
-    {
-      "region": "overseas",
-      "title": "全球芯片销售额或在2026年冲击1万亿美元",
-      "source": "Reuters",
-      "published": "2026-02-06",
-      "url": "https://www.reuters.com/business/global-chip-sales-expected-hit-1-trillion-this-year-industry-group-says-2026-02-06/",
-      "summary": "<ul><li>行业组织预计2026年全球半导体销售规模将触及万亿美元。</li><li>AI需求外溢至更多细分赛道，行业景气范围扩大。</li></ul>",
-      "insights": [
-        "行业上行从头部向长尾扩散。",
-        "非AI传统品类有望同步受益。"
-      ],
-      "actions": [
-        "关注细分赛道补库信号。",
-        "跟踪终端需求传导强度。"
-      ],
-      "glossary": []
-    },
-    {
-      "region": "overseas",
-      "title": "Tower Semiconductor业绩超预期，并追加硅光设备投资",
-      "source": "Reuters",
-      "published": "2026-02-11",
-      "url": "https://www.reuters.com/business/tower-semiconductor-beats-quarterly-profit-estimates-ai-driven-chip-demand-2026-02-11/",
-      "summary": "<ul><li>Tower季度利润好于预期，AI相关需求支撑业绩。</li><li>公司宣布新增2.7亿美元硅光设备投入，累计相关投资提升。</li></ul>",
-      "insights": [
-        "硅光进入更实质的产能投入阶段。",
-        "特色工艺代工受益于AI边际需求。"
-      ],
-      "actions": [
-        "跟踪硅光订单能见度。",
-        "关注相关设备厂受益链条。"
-      ],
-      "glossary": []
-    },
-    {
-      "region": "overseas",
-      "title": "Micron拟在新加坡新建240亿美元存储芯片工厂",
-      "source": "Reuters",
-      "published": "2026-01-27",
-      "url": "https://www.reuters.com/world/asia-pacific/micron-plans-24-billion-memory-chipmaking-plant-singapore-2026-01-27/",
-      "summary": "<ul><li>Micron公布新加坡新厂计划，投资规模约240亿美元。</li><li>项目将增强其在亚洲的存储制造与交付能力。</li></ul>",
-      "insights": [
-        "东南亚在存储制造中的权重提升。",
-        "存储供给弹性在中长期增加。"
-      ],
-      "actions": [
-        "关注新厂建设里程碑。",
-        "评估区域税收与供应链配套。"
-      ],
-      "glossary": []
-    },
-    {
-      "region": "overseas",
-      "title": "TSMC季度利润创新高，并释放美国新增工厂信号",
-      "source": "Reuters",
-      "published": "2026-01-15",
-      "url": "https://www.reuters.com/world/china/tsmc-likely-post-fourth-quarter-profit-leap-driven-by-ai-boom-2026-01-14/",
-      "summary": "<ul><li>TSMC受AI需求驱动盈利显著增长。</li><li>公司释放美国工厂扩建意向，海外产能布局继续推进。</li></ul>",
-      "insights": [
-        "先进制程景气度延续。",
-        "北美制造节点重要性继续提高。"
-      ],
-      "actions": [
-        "关注资本开支更新。",
-        "跟踪美国厂产能与客户导入。"
-      ],
-      "glossary": []
-    },
-    {
-      "region": "overseas",
-      "title": "SK海力士将加快新晶圆厂启用节奏以应对存储需求",
-      "source": "Reuters",
-      "published": "2026-01-14",
-      "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-speeds-up-new-chip-fab-opening-meet-memory-demand-executive-says-2026-01-14/",
-      "summary": "<ul><li>SK海力士表示将提前推进新晶圆厂投产安排。</li><li>核心目的是更快承接HBM及高性能存储需求。</li></ul>",
-      "insights": [
-        "HBM供给紧平衡状态或延续。",
-        "上游设备交付时点更关键。"
-      ],
-      "actions": [
-        "跟踪HBM客户锁单进展。",
-        "关注封装与测试协同能力。"
-      ],
-      "glossary": []
-    },
-    {
-      "region": "overseas",
-      "title": "美国批准NVIDIA H200对华出口（附条件）",
-      "source": "Reuters",
-      "published": "2026-01-14",
-      "url": "https://www.reuters.com/world/asia-pacific/us-eases-regulations-nvidia-h200-chip-exports-china-2026-01-13/",
-      "summary": "<ul><li>美国对H200对华出货给予正式放行，但附带技术与测试条件。</li><li>政策在放松与约束之间维持动态平衡。</li></ul>",
-      "insights": [
-        "高端GPU跨境流向仍受政策节奏驱动。",
-        "客户采购节奏与合规流程强绑定。"
-      ],
-      "actions": [
-        "关注后续执行细则。",
-        "评估中国市场交付与回款节奏。"
-      ],
-      "glossary": []
-    },
-    {
-      "region": "overseas",
-      "title": "特朗普政府对部分先进AI芯片加征25%关税",
-      "source": "Reuters",
-      "published": "2026-01-16",
-      "url": "https://www.reuters.com/world/us/trump-imposes-25-tariff-imports-some-advanced-computing-chips-2026-01-14/",
-      "summary": "<ul><li>美国宣布对部分先进AI芯片实施25%关税。</li><li>新税负将直接影响终端采购成本与渠道报价体系。</li></ul>",
-      "insights": [
-        "算力硬件价格波动可能扩大。",
-        "全球供需再平衡速度加快。"
-      ],
-      "actions": [
-        "重估进口成本与毛利弹性。",
-        "调整区域化采购与交付方案。"
-      ],
-      "glossary": []
-    },
-    {
-      "region": "overseas",
-      "title": "Biren香港上市首日大涨，AI芯片融资窗口回暖",
-      "source": "Reuters",
-      "published": "2026-01-02",
-      "url": "https://www.reuters.com/world/asia-pacific/china-ai-chipmaker-biren-surges-82-hong-kong-debut-kicking-off-2026-listings-2026-01-02/",
-      "summary": "<ul><li>中国AI芯片企业Biren在港股首秀大幅上涨。</li><li>市场风险偏好回升，硬科技IPO活跃度提升。</li></ul>",
-      "insights": [
-        "一级与二级市场联动增强。",
-        "国产AI芯片资本化节奏加快。"
-      ],
-      "actions": [
-        "跟踪同类标的上市进度。",
-        "关注募资用途与产能兑现。"
-      ],
-      "glossary": []
-    },
-    {
-      "region": "overseas",
-      "title": "百度昆仑芯据报递交香港保密上市申请",
-      "source": "Reuters",
-      "published": "2026-01-01",
-      "url": "https://www.reuters.com/world/asia-pacific/baidus-ai-chip-arm-kunlunxin-files-confidentially-hong-kong-listing-2026-01-01/",
-      "summary": "<ul><li>百度AI芯片子公司昆仑芯递交港股保密上市申请。</li><li>若顺利推进，将提升其研发与生态投入能力。</li></ul>",
-      "insights": [
-        "平台厂商芯片业务独立融资趋势增强。",
-        "资金将更多投向算力底层能力。"
-      ],
-      "actions": [
-        "关注招股书披露口径。",
-        "跟踪客户结构与商业化进展。"
-      ],
-      "glossary": []
-    },
-    {
-      "region": "overseas",
-      "title": "中国AI芯片企业Axera拟赴港募资约3.79亿美元",
-      "source": "Reuters",
-      "published": "2026-01-30",
-      "url": "https://www.reuters.com/world/asia-pacific/chinese-ai-chipmaker-axera-semiconductor-raise-379-million-via-hong-kong-ipo-2026-01-29/",
-      "summary": "<ul><li>Axera披露香港IPO募资目标，规模约3.79亿美元。</li><li>AI边缘侧与视觉类芯片融资持续推进。</li></ul>",
-      "insights": [
-        "边缘AI芯片赛道竞争加速。",
-        "资本市场更关注商业化兑现速度。"
-      ],
-      "actions": [
-        "跟踪基石投资者与估值区间。",
-        "关注细分场景渗透率变化。"
+        "跟踪车规芯片交付周期与库存水平。"
       ],
       "glossary": []
     }
   ],
-  "footer": "Generated by OpenClaw · Data source: Reuters/Brave"
+  "footer": "Generated by OpenClaw · Data source: 集微网/36氪/Reuters/DigiTimes/Taipei Times"
 }

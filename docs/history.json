@@ -196,5 +196,92 @@
         "heat": 85
       }
     ]
+  },
+  "https://www.laoyaoba.com/",
+  "https://jiweipreview.laoyaoba.com/n/988415",
+  "https://www.reuters.com/business/autos-transportation/china-warns-global-chip-shortages-nexperia-dispute-escalates-again-2026-03-07/",
+  "https://www.36kr.com/newsflashes",
+  "https://www.digitimes.com/news/a20260307VL200/technology-materials-manufacturing-semicon-micron.html",
+  "https://www.taipeitimes.com/News/biz/archives/2026/03/09/2003853477",
+  {
+    "timestamp": "2026-03-09T06:00:00+08:00",
+    "event": "Semi Daily Brief (06:00)",
+    "items": [
+      {
+        "id": "20260309-0600-01",
+        "title": "【置顶】阿里千问技术负责人林俊旸离职（集微一周芯热点）",
+        "heat": 99
+      },
+      {
+        "id": "20260309-0600-02",
+        "title": "【置顶】三星电子工会启动罢工投票，半导体产线扰动风险上升",
+        "heat": 98
+      },
+      {
+        "id": "20260309-0600-03",
+        "title": "【置顶】中国就Nexperia争议预警全球芯片供应链风险升温",
+        "heat": 97
+      },
+      {
+        "id": "20260309-0600-04",
+        "title": "全球首条35微米功率半导体超薄晶圆工艺及封测线在沪建成",
+        "heat": 96
+      },
+      {
+        "id": "20260309-0600-05",
+        "title": "两会代表建议布局超大规模智算集群，聚焦高端训练芯片短板",
+        "heat": 95
+      },
+      {
+        "id": "20260309-0600-06",
+        "title": "AI驱动存储‘超级周期’延续，供不应求预期指向2027",
+        "heat": 94
+      },
+      {
+        "id": "20260309-0600-07",
+        "title": "DRAM价格两个月翻番，抢货情绪推动现货与合约联动上行",
+        "heat": 93
+      },
+      {
+        "id": "20260309-0600-08",
+        "title": "三星NAND传Q2再提价，全年存储价格弹性仍强",
+        "heat": 92
+      },
+      {
+        "id": "20260309-0600-09",
+        "title": "36氪快讯：A股半导体芯片板块走弱，算力硬件同步回调",
+        "heat": 91
+      },
+      {
+        "id": "20260309-0600-10",
+        "title": "36氪快讯：港股半导体走弱，华虹半导体等个股承压",
+        "heat": 90
+      },
+      {
+        "id": "20260309-0600-11",
+        "title": "36氪快讯：中信证券看好Micro LED CPO，芯片环节受益预期提升",
+        "heat": 89
+      },
+      {
+        "id": "20260309-0600-12",
+        "title": "印度持续推进半导体与电子投资，日韩企业加快本地化布局",
+        "heat": 88
+      },
+      {
+        "id": "20260309-0600-13",
+        "title": "台媒：美国拟讨论AI芯片出口新框架，分级授权思路受关注",
+        "heat": 87
+      },
+      {
+        "id": "20260309-0600-14",
+        "title": "一周数据看点：全球半导体TOP20更新，DDR4已连涨11个月",
+        "heat": 86
+      },
+      {
+        "id": "20260309-0600-15",
+        "title": "韩国进口车电动化渗透提升，车规芯片与功率器件需求弹性上行",
+        "heat": 85
+      }
+    ]
   }
 ]
