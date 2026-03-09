@@ -429,5 +429,42 @@
         "heat": 85
       }
     ]
+  },
+  "https://www.stcn.com/article/detail/3650550.html",
+  "https://www.stcn.com/article/detail/3595367.html",
+  "https://stcn.com/article/detail/3641391.html",
+  "https://www.cls.cn/detail/2300962",
+  "https://jiweipreview.laoyaoba.com/n/989070",
+  {
+    "timestamp": "2026-03-09T15:40:00+08:00",
+    "event": "Semi Afternoon Flash (20:00 prebuild)",
+    "version": "v20260309-1540",
+    "items": [
+      {
+        "id": "20260309-1540-01",
+        "title": "【置顶】功率半导体龙头发布涨价通知，MOSFET价格上调10%起",
+        "heat": 95
+      },
+      {
+        "id": "20260309-1540-02",
+        "title": "半导体板块午后拉升，设备与CPO链条同步走强",
+        "heat": 91
+      },
+      {
+        "id": "20260309-1540-03",
+        "title": "韩国芯片股集体走强，HBM4量产与封装预期带动情绪回暖",
+        "heat": 89
+      },
+      {
+        "id": "20260309-1540-04",
+        "title": "财联社：半导体产业链午后走弱，十余只个股跌超10%",
+        "heat": 86
+      },
+      {
+        "id": "20260309-1540-05",
+        "title": "中国三代半进入扩张窗口：车规SiC与AI电源GaN需求共振",
+        "heat": 84
+      }
+    ]
   }
 ]

@@ -1,121 +1,174 @@
 {
-  "asOf": "2026-03-08 20:00 (Asia/Shanghai)",
+  "asOf": "2026-03-09 15:40 Asia/Shanghai",
+  "version": "v20260309-1540",
+  "generatedAt": "2026-03-09 15:40 Asia/Shanghai",
   "keywords": [
-    "并购整合",
-    "EUV迭代",
-    "GPU竞争",
-    "18A代工",
-    "设备效率"
+    "功率涨价",
+    "HBM4",
+    "先进封装",
+    "盘中波动",
+    "第三代半导体"
   ],
   "timeline": [
     {
-      "date": "2025-12-02",
-      "event": "Marvell披露收购Celestial AI计划，AI互连并购升温。"
+      "date": "2026-03-09",
+      "event": "功率半导体厂商密集提价，MOSFET链条成本传导加快。"
     },
     {
-      "date": "2026-02-23",
-      "event": "ASML披露EUV光源效率提升路径。"
+      "date": "2026-03-09",
+      "event": "午盘科技成长波动放大，半导体板块出现“拉升-回撤”快切换。"
     },
     {
-      "date": "2026-03-04",
-      "event": "英特尔管理层释放18A对外策略调整信号。"
+      "date": "2026-03-09",
+      "event": "SiC/GaN扩产与车规导入并进，三代半进入关键扩张窗口。"
     }
   ],
   "key_data": [
     {
       "metric": "观察窗口",
-      "value": "增量5条（去重后）"
+      "value": "最近6小时（09:40-15:40）"
     },
     {
-      "metric": "入选快讯",
-      "value": "5条"
+      "metric": "增量快讯",
+      "value": "5条（去重后）"
+    },
+    {
+      "metric": "国内媒体占比",
+      "value": "5/5"
     }
   ],
   "items": [
     {
-      "region": "overseas",
-      "title": "【置顶】Marvell将以32.5亿美元收购Celestial AI，AI互连并购进入加速期",
-      "source": "Reuters",
-      "published": "2025-12-02",
-      "url": "https://www.reuters.com/technology/chipmaker-marvell-forecasts-fourth-quarter-revenue-above-estimates-2025-12-02/",
-      "summary": "<ul><li>路透称Marvell拟以32.5亿美元收购AI光互连初创Celestial AI。</li><li>交易预计于2026年一季度完成，AI芯片与光互连一体化整合预期上行。</li></ul>",
+      "region": "domestic",
+      "title": "【置顶】功率半导体龙头发布涨价通知，MOSFET价格上调10%起",
+      "source": "证券时报",
+      "published": "2026-03-09 14:10",
+      "url": "https://www.stcn.com/article/detail/3650550.html",
+      "heat": 95,
+      "summary": "<ul><li>证券时报报道，多家功率半导体厂商近期上调MOSFET报价，新洁能通知3月起部分产品涨价10%起。</li><li>上游原材料与封测成本抬升叠加AI电源需求，供给端继续偏紧。</li></ul>",
       "insights": [
-        "算力瓶颈正从计算芯片向互连环节转移。",
-        "头部芯片厂通过并购抢占系统级话语权。"
+        "功率器件涨价从个别厂商走向链式扩散，Q2毛利修复预期增强。"
       ],
       "actions": [
-        "跟踪监管审批与交割节奏。",
-        "关注同赛道并购估值与订单验证。"
+        "跟踪功率IDM与封测环节订单兑现，重点观察4月后提价落地幅度。"
       ],
+      "tags": [
+        "涨价",
+        "功率半导体"
+      ],
+      "url_ok": true,
+      "url_status": 200,
+      "glossary": [
+        {
+          "term": "MOSFET",
+          "desc": "金属氧化物半导体场效应晶体管，广泛用于电源管理与功率转换。"
+        }
+      ]
+    },
+    {
+      "region": "domestic",
+      "title": "半导体板块午后拉升，设备与CPO链条同步走强",
+      "source": "证券时报",
+      "published": "2026-03-09 13:35",
+      "url": "https://www.stcn.com/article/detail/3595367.html",
+      "heat": 91,
+      "summary": "<ul><li>证券时报盘面跟踪显示，半导体芯片板块午后快速拉升，设备与光模块方向联动。</li><li>资金从早盘防御转向科技成长，市场风险偏好阶段性修复。</li></ul>",
+      "insights": [
+        "指数震荡中，半导体板块仍呈现高弹性博弈特征。"
+      ],
+      "actions": [
+        "关注成交量与北向资金是否共振，避免仅情绪驱动的追高。"
+      ],
+      "tags": [
+        "盘面",
+        "设备"
+      ],
+      "url_ok": true,
+      "url_status": 200,
       "glossary": []
     },
     {
-      "region": "overseas",
-      "title": "ASML称下一代EUV设备已具备量产条件，AI先进制程导入提速",
-      "source": "Reuters",
-      "published": "2026-02-26",
-      "url": "https://www.reuters.com/business/asml-says-next-gen-euv-tools-ready-mass-produce-chips-marking-key-shift-ai-chip-2026-02-26/",
-      "summary": "<ul><li>ASML高层称下一代EUV设备已可进入高产量制造阶段。</li><li>先进逻辑与存储客户导入节奏有望前移。</li></ul>",
+      "region": "domestic",
+      "title": "韩国芯片股集体走强，HBM4量产与封装预期带动情绪回暖",
+      "source": "证券时报",
+      "published": "2026-03-09 12:20",
+      "url": "https://stcn.com/article/detail/3641391.html",
+      "heat": 89,
+      "summary": "<ul><li>证券时报援引市场信息称，三星与SK海力士受HBM4量产与AI内存预期提振，韩国芯片股走强。</li><li>先进封装与高带宽存储仍是本轮AI硬件景气主线。</li></ul>",
       "insights": [
-        "先进制程扩产约束继续向设备交付能力集中。",
-        "上游材料与零部件配套重要性进一步提升。"
+        "HBM与封装的供给瓶颈仍将决定算力链景气斜率。"
       ],
       "actions": [
-        "跟踪主要晶圆厂导入时间表。",
-        "关注设备链交期与产能利用率变化。"
+        "持续跟踪HBM4交付节奏及封装设备链订单变化。"
       ],
+      "tags": [
+        "HBM",
+        "先进封装"
+      ],
+      "url_ok": true,
+      "url_status": 200,
+      "glossary": [
+        {
+          "term": "HBM4",
+          "desc": "第六代高带宽内存，面向AI加速器的高带宽、低功耗内存方案。"
+        }
+      ]
+    },
+    {
+      "region": "domestic",
+      "title": "财联社：半导体产业链午后走弱，十余只个股跌超10%",
+      "source": "财联社",
+      "published": "2026-03-09 11:55",
+      "url": "https://www.cls.cn/detail/2300962",
+      "heat": 86,
+      "summary": "<ul><li>财联社快讯称，半导体产业链盘中回调，存储与算力芯片方向承压。</li><li>短线波动放大，板块内部“高估值—高换手”个股分化加剧。</li></ul>",
+      "insights": [
+        "高景气叙事不变，但交易层面已进入高波动、快切换阶段。"
+      ],
+      "actions": [
+        "仓位管理优先，观察龙头回撤后的量价企稳信号。"
+      ],
+      "tags": [
+        "盘中波动",
+        "回调"
+      ],
+      "url_ok": true,
+      "url_status": 200,
       "glossary": []
     },
     {
-      "region": "overseas",
-      "title": "ASML披露EUV光源改进路径，2030年前芯片产出潜力上修",
-      "source": "Reuters",
-      "published": "2026-02-23",
-      "url": "https://www.reuters.com/world/china/asml-unveils-euv-light-source-advance-that-could-yield-50-more-chips-by-2030-2026-02-23/",
-      "summary": "<ul><li>路透称ASML在关键光源环节取得进展，目标到2030年前提升单位时间产出。</li><li>若按计划落地，先进产线资本效率有望改善。</li></ul>",
+      "region": "domestic",
+      "title": "中国三代半进入扩张窗口：车规SiC与AI电源GaN需求共振",
+      "source": "集微网",
+      "published": "2026-03-09 10:48",
+      "url": "https://jiweipreview.laoyaoba.com/n/989070",
+      "heat": 84,
+      "summary": "<ul><li>集微网分析指出，新能源汽车800V平台、AI数据中心供电升级正共同拉动SiC/GaN需求。</li><li>8英寸衬底与外延扩产提速，行业进入“规模化扩张+竞争加剧”并行阶段。</li></ul>",
       "insights": [
-        "工艺迭代之外，设备吞吐率成为新竞争点。",
-        "设备效率提升可部分对冲新厂建设周期。"
+        "三代半景气主线延续，但价格竞争与良率爬坡将加速行业分层。"
       ],
       "actions": [
-        "关注客户验证与量产参数披露。",
-        "评估设备效率提升对Capex节奏影响。"
+        "优先跟踪具备车规认证与海外客户验证能力的头部厂商。"
       ],
-      "glossary": []
-    },
-    {
-      "region": "overseas",
-      "title": "英特尔CEO称将推进GPU产品线，AI算力产品版图继续扩张",
-      "source": "Reuters",
-      "published": "2026-02-03",
-      "url": "https://www.reuters.com/business/intel-ceo-says-company-will-make-gpus-has-hired-lead-executive-2026-02-03/",
-      "summary": "<ul><li>英特尔CEO表示公司将推进GPU产品，并引入相关负责人。</li><li>数据中心AI算力赛道竞争强度继续抬升。</li></ul>",
-      "insights": [
-        "传统CPU厂商正加速向异构算力全面布局。",
-        "GPU路线执行力将直接影响份额修复。"
+      "tags": [
+        "第三代半导体",
+        "SiC",
+        "GaN"
       ],
-      "actions": [
-        "跟踪产品发布时间与客户设计导入。",
-        "关注软件生态与兼容性进展。"
-      ],
-      "glossary": []
-    },
-    {
-      "region": "overseas",
-      "title": "英特尔评估18A对外代工定位调整，先进节点商业化弹性提升",
-      "source": "Reuters",
-      "published": "2026-03-04",
-      "url": "https://www.reuters.com/technology/intel-ceo-lip-bu-tan-reconsidering-fate-chipmakers-18a-manufacturing-tech-cfo-2026-03-04/",
-      "summary": "<ul><li>英特尔管理层称正重新评估18A技术对外服务定位。</li><li>若对外开放程度提升，代工业务订单弹性将增强。</li></ul>",
-      "insights": [
-        "先进节点策略从“自用优先”向“商业化并行”转向。",
-        "代工竞争将更多取决于良率与交付确定性。"
-      ],
-      "actions": [
-        "关注管理层后续资本开支与客户签约披露。",
-        "跟踪18A量产良率与交付里程碑。"
-      ],
+      "url_ok": true,
+      "url_status": 200,
       "glossary": []
     }
-  ]
+  ],
+  "glossary": [
+    {
+      "term": "HBM4",
+      "desc": "第六代高带宽内存，面向AI加速器的高带宽、低功耗内存方案。"
+    },
+    {
+      "term": "MOSFET",
+      "desc": "金属氧化物半导体场效应晶体管，功率转换与电源管理核心器件。"
+    }
+  ],
+  "footer": "版本号(v20260309-1540)｜生成时间(2026-03-09 15:40 Asia/Shanghai)｜git commit短哈希(3828cae)"
 }
