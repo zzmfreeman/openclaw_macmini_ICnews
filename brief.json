@@ -1,25 +1,13 @@
 {
-  "asOf": "2026-03-09 09:58 (Asia/Shanghai)",
+  "asOf": "2026-03-09 15:35 (Asia/Shanghai)",
+  "version": "v20260309-1536",
+  "generatedAt": "2026-03-09 15:36 Asia/Shanghai",
   "keywords": [
     "重大人事",
-    "出口规则",
+    "出口管制",
     "存储涨价",
     "功率半导体",
-    "AI算力"
-  ],
-  "timeline": [
-    {
-      "date": "2026-03-09",
-      "event": "三星电子工会启动罢工投票，存储供给扰动风险上升。"
-    },
-    {
-      "date": "2026-03-09",
-      "event": "上海35微米功率半导体超薄晶圆工艺及封测线建成。"
-    },
-    {
-      "date": "2026-03-08",
-      "event": "Nexperia争议升级，供应链风险预期升温。"
-    }
+    "设备景气"
   ],
   "key_data": [
     {
@@ -42,29 +30,54 @@
       "source": "集微网",
       "published": "2026-03-09",
       "url": "https://jiweipreview.laoyaoba.com/n/989072",
-      "summary": "<ul><li>事件要点：【置顶】阿里千问技术负责人林俊旸离职（集微一周芯热点）。</li><li>影响方向：关注供给、价格与资本开支传导。</li></ul>",
+      "heat": 99,
+      "summary": "<ul><li>【置顶】阿里千问技术负责人林俊旸离职（集微一周芯热点）</li><li>影响方向：关注供给、价格、资本开支与估值传导。</li></ul>",
       "insights": [
-        "景气与政策共振下，产业链波动与结构机会并存。"
+        "政策与景气共振，结构性机会优于普涨。"
       ],
       "actions": [
-        "跟踪后续官方披露与公司公告，验证持续性。"
+        "持续跟踪后续公司公告与产业链验证数据。"
       ],
-      "glossary": []
+      "tags": [
+        "重大人事"
+      ],
+      "glossary": [
+        {
+          "term": "超薄晶圆（Ultra-thin Wafer）",
+          "desc": "把功率器件晶圆减薄至几十微米级，降低导通损耗和散热阻抗。"
+        },
+        {
+          "term": "CPO（共封装光学）",
+          "desc": "把光引擎与交换/计算芯片共封装，缩短电互连、降低功耗并提升带宽密度。"
+        },
+        {
+          "term": "特色高压功率代工",
+          "desc": "面向IGBT/高压MOSFET等器件的专用工艺代工，重视耐压、可靠性和车规认证。"
+        }
+      ],
+      "url_ok": true,
+      "url_status": 204
     },
     {
       "region": "domestic",
-      "title": "【置顶】三星电子工会启动罢工投票，半导体产线扰动风险上升",
-      "source": "集微网",
+      "title": "【置顶】三星电子工会启动罢工投票，半导体产线扰动风险上升（市场跟踪）",
+      "source": "证券时报",
       "published": "2026-03-09",
-      "url": "https://jiweipreview.laoyaoba.com/n/988415",
-      "summary": "<ul><li>事件要点：【置顶】三星电子工会启动罢工投票，半导体产线扰动风险上升。</li><li>影响方向：关注供给、价格与资本开支传导。</li></ul>",
+      "url": "https://www.stcn.com/article/detail/3595367.html",
+      "heat": 98,
+      "summary": "<ul><li>【置顶】三星电子工会启动罢工投票，半导体产线扰动风险上升（市场跟踪）</li><li>影响方向：关注供给、价格、资本开支与估值传导。</li></ul>",
       "insights": [
-        "景气与政策共振下，产业链波动与结构机会并存。"
+        "政策与景气共振，结构性机会优于普涨。"
       ],
       "actions": [
-        "跟踪后续官方披露与公司公告，验证持续性。"
+        "持续跟踪后续公司公告与产业链验证数据。"
       ],
-      "glossary": []
+      "tags": [
+        "供给扰动"
+      ],
+      "glossary": [],
+      "url_ok": true,
+      "url_status": 200
     },
     {
       "region": "domestic",
@@ -72,134 +85,125 @@
       "source": "证券时报",
       "published": "2026-03-09",
       "url": "https://www.stcn.com/article/detail/3630490.html",
-      "summary": "<ul><li>事件要点：【置顶】美国拟将AI芯片出口管制扩展至全球，白宫内部仍存分歧。</li><li>影响方向：关注供给、价格与资本开支传导。</li></ul>",
+      "heat": 97,
+      "summary": "<ul><li>【置顶】美国拟将AI芯片出口管制扩展至全球，白宫内部仍存分歧</li><li>影响方向：关注供给、价格、资本开支与估值传导。</li></ul>",
       "insights": [
-        "景气与政策共振下，产业链波动与结构机会并存。"
+        "政策与景气共振，结构性机会优于普涨。"
       ],
       "actions": [
-        "跟踪后续官方披露与公司公告，验证持续性。"
+        "持续跟踪后续公司公告与产业链验证数据。"
       ],
-      "glossary": []
+      "tags": [
+        "出口管制"
+      ],
+      "glossary": [],
+      "url_ok": true,
+      "url_status": 200
     },
     {
       "region": "domestic",
-      "title": "全球首条35微米功率半导体超薄晶圆工艺及封测线在沪建成",
+      "title": "从2025业绩快报看硅片赛道：分化中前行，承压中突围",
       "source": "集微网",
       "published": "2026-03-09",
-      "url": "https://www.laoyaoba.com/",
-      "summary": "<ul><li>事件要点：全球首条35微米功率半导体超薄晶圆工艺及封测线在沪建成。</li><li>影响方向：关注供给、价格与资本开支传导。</li></ul>",
+      "url": "https://jiweipreview.laoyaoba.com/n/988636",
+      "heat": 96,
+      "summary": "<ul><li>从2025业绩快报看硅片赛道：分化中前行，承压中突围</li><li>影响方向：关注供给、价格、资本开支与估值传导。</li></ul>",
       "insights": [
-        "景气与政策共振下，产业链波动与结构机会并存。"
+        "政策与景气共振，结构性机会优于普涨。"
       ],
       "actions": [
-        "跟踪后续官方披露与公司公告，验证持续性。"
+        "持续跟踪后续公司公告与产业链验证数据。"
       ],
-      "glossary": []
+      "tags": [
+        "硅片"
+      ],
+      "glossary": [],
+      "url_ok": true,
+      "url_status": 204
     },
     {
       "region": "domestic",
-      "title": "两会代表建议布局超大规模智算集群，聚焦高端训练芯片短板",
-      "source": "集微网",
+      "title": "扩产！源杰科技拟12.51亿投建光芯片器件项目",
+      "source": "财联社",
       "published": "2026-03-09",
-      "url": "https://www.laoyaoba.com/",
-      "summary": "<ul><li>事件要点：两会代表建议布局超大规模智算集群，聚焦高端训练芯片短板。</li><li>影响方向：关注供给、价格与资本开支传导。</li></ul>",
+      "url": "https://www.cls.cn/detail/2284930",
+      "heat": 95,
+      "summary": "<ul><li>扩产！源杰科技拟12.51亿投建光芯片器件项目</li><li>影响方向：关注供给、价格、资本开支与估值传导。</li></ul>",
       "insights": [
-        "景气与政策共振下，产业链波动与结构机会并存。"
+        "政策与景气共振，结构性机会优于普涨。"
       ],
       "actions": [
-        "跟踪后续官方披露与公司公告，验证持续性。"
+        "持续跟踪后续公司公告与产业链验证数据。"
       ],
-      "glossary": []
+      "tags": [
+        "扩产"
+      ],
+      "glossary": [],
+      "url_ok": true,
+      "url_status": 200
     },
     {
       "region": "domestic",
-      "title": "AI驱动存储‘超级周期’延续，供不应求预期指向2027",
-      "source": "集微网",
+      "title": "财联社盘中宝：AI芯片需求激增带动晶圆扩产预期",
+      "source": "财联社",
       "published": "2026-03-09",
-      "url": "https://www.laoyaoba.com/",
-      "summary": "<ul><li>事件要点：AI驱动存储‘超级周期’延续，供不应求预期指向2027。</li><li>影响方向：关注供给、价格与资本开支传导。</li></ul>",
+      "url": "https://www.cls.cn/detail/2300739",
+      "heat": 94,
+      "summary": "<ul><li>财联社盘中宝：AI芯片需求激增带动晶圆扩产预期</li><li>影响方向：关注供给、价格、资本开支与估值传导。</li></ul>",
       "insights": [
-        "景气与政策共振下，产业链波动与结构机会并存。"
+        "政策与景气共振，结构性机会优于普涨。"
       ],
       "actions": [
-        "跟踪后续官方披露与公司公告，验证持续性。"
+        "持续跟踪后续公司公告与产业链验证数据。"
       ],
-      "glossary": []
+      "tags": [
+        "晶圆扩产"
+      ],
+      "glossary": [],
+      "url_ok": true,
+      "url_status": 200
     },
     {
       "region": "domestic",
-      "title": "DRAM价格两个月翻番，抢货情绪推动现货与合约联动上行",
-      "source": "集微网",
+      "title": "财联社：芯片涨价潮持续席卷，A股半导体龙头集体提价",
+      "source": "财联社",
       "published": "2026-03-09",
-      "url": "https://www.laoyaoba.com/",
-      "summary": "<ul><li>事件要点：DRAM价格两个月翻番，抢货情绪推动现货与合约联动上行。</li><li>影响方向：关注供给、价格与资本开支传导。</li></ul>",
+      "url": "https://www.cls.cn/detail/2296693",
+      "heat": 93,
+      "summary": "<ul><li>财联社：芯片涨价潮持续席卷，A股半导体龙头集体提价</li><li>影响方向：关注供给、价格、资本开支与估值传导。</li></ul>",
       "insights": [
-        "景气与政策共振下，产业链波动与结构机会并存。"
+        "政策与景气共振，结构性机会优于普涨。"
       ],
       "actions": [
-        "跟踪后续官方披露与公司公告，验证持续性。"
+        "持续跟踪后续公司公告与产业链验证数据。"
       ],
-      "glossary": []
+      "tags": [
+        "涨价"
+      ],
+      "glossary": [],
+      "url_ok": true,
+      "url_status": 200
     },
     {
       "region": "domestic",
-      "title": "三星NAND传Q2再提价，全年存储价格弹性仍强",
-      "source": "集微网",
+      "title": "界面：半导体行业2026年收入有望达到万亿美元",
+      "source": "界面",
       "published": "2026-03-09",
-      "url": "https://www.laoyaoba.com/",
-      "summary": "<ul><li>事件要点：三星NAND传Q2再提价，全年存储价格弹性仍强。</li><li>影响方向：关注供给、价格与资本开支传导。</li></ul>",
+      "url": "https://m.jiemian.com/article/13998431.html",
+      "heat": 92,
+      "summary": "<ul><li>界面：半导体行业2026年收入有望达到万亿美元</li><li>影响方向：关注供给、价格、资本开支与估值传导。</li></ul>",
       "insights": [
-        "景气与政策共振下，产业链波动与结构机会并存。"
+        "政策与景气共振，结构性机会优于普涨。"
       ],
       "actions": [
-        "跟踪后续官方披露与公司公告，验证持续性。"
+        "持续跟踪后续公司公告与产业链验证数据。"
       ],
-      "glossary": []
-    },
-    {
-      "region": "domestic",
-      "title": "36氪快讯：A股半导体芯片板块走弱，算力硬件同步回调",
-      "source": "36氪",
-      "published": "2026-03-09",
-      "url": "https://www.36kr.com/newsflashes",
-      "summary": "<ul><li>事件要点：36氪快讯：A股半导体芯片板块走弱，算力硬件同步回调。</li><li>影响方向：关注供给、价格与资本开支传导。</li></ul>",
-      "insights": [
-        "景气与政策共振下，产业链波动与结构机会并存。"
+      "tags": [
+        "行业规模"
       ],
-      "actions": [
-        "跟踪后续官方披露与公司公告，验证持续性。"
-      ],
-      "glossary": []
-    },
-    {
-      "region": "domestic",
-      "title": "36氪快讯：港股半导体走弱，华虹半导体等个股承压",
-      "source": "36氪",
-      "published": "2026-03-09",
-      "url": "https://www.36kr.com/newsflashes",
-      "summary": "<ul><li>事件要点：36氪快讯：港股半导体走弱，华虹半导体等个股承压。</li><li>影响方向：关注供给、价格与资本开支传导。</li></ul>",
-      "insights": [
-        "景气与政策共振下，产业链波动与结构机会并存。"
-      ],
-      "actions": [
-        "跟踪后续官方披露与公司公告，验证持续性。"
-      ],
-      "glossary": []
-    },
-    {
-      "region": "domestic",
-      "title": "36氪快讯：中信证券看好Micro LED CPO，芯片环节受益预期提升",
-      "source": "36氪",
-      "published": "2026-03-09",
-      "url": "https://www.36kr.com/newsflashes",
-      "summary": "<ul><li>事件要点：36氪快讯：中信证券看好Micro LED CPO，芯片环节受益预期提升。</li><li>影响方向：关注供给、价格与资本开支传导。</li></ul>",
-      "insights": [
-        "景气与政策共振下，产业链波动与结构机会并存。"
-      ],
-      "actions": [
-        "跟踪后续官方披露与公司公告，验证持续性。"
-      ],
-      "glossary": []
+      "glossary": [],
+      "url_ok": true,
+      "url_status": 200
     },
     {
       "region": "domestic",
@@ -207,14 +211,41 @@
       "source": "证券时报",
       "published": "2026-03-09",
       "url": "https://www.stcn.com/article/detail/3660677.html",
-      "summary": "<ul><li>事件要点：证券时报：半导体高景气周期延续，存储与模拟芯片赛道现涨价潮。</li><li>影响方向：关注供给、价格与资本开支传导。</li></ul>",
+      "heat": 91,
+      "summary": "<ul><li>证券时报：半导体高景气周期延续，存储与模拟芯片赛道现涨价潮</li><li>影响方向：关注供给、价格、资本开支与估值传导。</li></ul>",
       "insights": [
-        "景气与政策共振下，产业链波动与结构机会并存。"
+        "政策与景气共振，结构性机会优于普涨。"
       ],
       "actions": [
-        "跟踪后续官方披露与公司公告，验证持续性。"
+        "持续跟踪后续公司公告与产业链验证数据。"
       ],
-      "glossary": []
+      "tags": [
+        "涨价"
+      ],
+      "glossary": [],
+      "url_ok": true,
+      "url_status": 200
+    },
+    {
+      "region": "domestic",
+      "title": "证券时报：存储芯片龙头获近12亿资金抢筹",
+      "source": "证券时报",
+      "published": "2026-03-09",
+      "url": "https://www.stcn.com/article/detail/3666520.html",
+      "heat": 90,
+      "summary": "<ul><li>证券时报：存储芯片龙头获近12亿资金抢筹</li><li>影响方向：关注供给、价格、资本开支与估值传导。</li></ul>",
+      "insights": [
+        "政策与景气共振，结构性机会优于普涨。"
+      ],
+      "actions": [
+        "持续跟踪后续公司公告与产业链验证数据。"
+      ],
+      "tags": [
+        "资金流向"
+      ],
+      "glossary": [],
+      "url_ok": true,
+      "url_status": 200
     },
     {
       "region": "domestic",
@@ -222,14 +253,41 @@
       "source": "界面",
       "published": "2026-03-09",
       "url": "https://www.jiemian.com/article/14062254.html",
-      "summary": "<ul><li>事件要点：界面：地缘扰动致资金虹吸，半导体设备行业趋势未变。</li><li>影响方向：关注供给、价格与资本开支传导。</li></ul>",
+      "heat": 89,
+      "summary": "<ul><li>界面：地缘扰动致资金虹吸，半导体设备行业趋势未变</li><li>影响方向：关注供给、价格、资本开支与估值传导。</li></ul>",
       "insights": [
-        "景气与政策共振下，产业链波动与结构机会并存。"
+        "政策与景气共振，结构性机会优于普涨。"
       ],
       "actions": [
-        "跟踪后续官方披露与公司公告，验证持续性。"
+        "持续跟踪后续公司公告与产业链验证数据。"
       ],
-      "glossary": []
+      "tags": [
+        "设备"
+      ],
+      "glossary": [],
+      "url_ok": true,
+      "url_status": 200
+    },
+    {
+      "region": "domestic",
+      "title": "界面：国产功率半导体涨价潮起，上游景气抬升",
+      "source": "界面",
+      "published": "2026-03-09",
+      "url": "https://www.jiemian.com/article/14044582.html",
+      "heat": 88,
+      "summary": "<ul><li>界面：国产功率半导体涨价潮起，上游景气抬升</li><li>影响方向：关注供给、价格、资本开支与估值传导。</li></ul>",
+      "insights": [
+        "政策与景气共振，结构性机会优于普涨。"
+      ],
+      "actions": [
+        "持续跟踪后续公司公告与产业链验证数据。"
+      ],
+      "tags": [
+        "功率半导体"
+      ],
+      "glossary": [],
+      "url_ok": true,
+      "url_status": 200
     },
     {
       "region": "domestic",
@@ -237,14 +295,20 @@
       "source": "财联社",
       "published": "2026-03-09",
       "url": "https://www.cls.cn/detail/2291363",
-      "summary": "<ul><li>事件要点：财联社：2月科创板领涨名单扫描，半导体与光通信成牛股温床。</li><li>影响方向：关注供给、价格与资本开支传导。</li></ul>",
+      "heat": 87,
+      "summary": "<ul><li>财联社：2月科创板领涨名单扫描，半导体与光通信成牛股温床</li><li>影响方向：关注供给、价格、资本开支与估值传导。</li></ul>",
       "insights": [
-        "景气与政策共振下，产业链波动与结构机会并存。"
+        "政策与景气共振，结构性机会优于普涨。"
       ],
       "actions": [
-        "跟踪后续官方披露与公司公告，验证持续性。"
+        "持续跟踪后续公司公告与产业链验证数据。"
       ],
-      "glossary": []
+      "tags": [
+        "科创板"
+      ],
+      "glossary": [],
+      "url_ok": true,
+      "url_status": 200
     },
     {
       "region": "domestic",
@@ -252,15 +316,56 @@
       "source": "财联社",
       "published": "2026-03-09",
       "url": "https://www.cls.cn/detail/2300077",
-      "summary": "<ul><li>事件要点：财联社：科技成长分化，半导体方向短线承压。</li><li>影响方向：关注供给、价格与资本开支传导。</li></ul>",
+      "heat": 86,
+      "summary": "<ul><li>财联社：科技成长分化，半导体方向短线承压</li><li>影响方向：关注供给、价格、资本开支与估值传导。</li></ul>",
       "insights": [
-        "景气与政策共振下，产业链波动与结构机会并存。"
+        "政策与景气共振，结构性机会优于普涨。"
       ],
       "actions": [
-        "跟踪后续官方披露与公司公告，验证持续性。"
+        "持续跟踪后续公司公告与产业链验证数据。"
       ],
-      "glossary": []
+      "tags": [
+        "市场回调"
+      ],
+      "glossary": [],
+      "url_ok": true,
+      "url_status": 200
+    },
+    {
+      "region": "domestic",
+      "title": "财联社：半导体设备板块下探后持续反弹",
+      "source": "财联社",
+      "published": "2026-03-09",
+      "url": "https://www.cls.cn/detail/2293797",
+      "heat": 85,
+      "summary": "<ul><li>财联社：半导体设备板块下探后持续反弹</li><li>影响方向：关注供给、价格、资本开支与估值传导。</li></ul>",
+      "insights": [
+        "政策与景气共振，结构性机会优于普涨。"
+      ],
+      "actions": [
+        "持续跟踪后续公司公告与产业链验证数据。"
+      ],
+      "tags": [
+        "设备反弹"
+      ],
+      "glossary": [],
+      "url_ok": true,
+      "url_status": 200
     }
   ],
-  "footer": "版本号(v20260309-0958)｜生成时间(2026-03-09 09:58 Asia/Shanghai)｜git commit短哈希(a3dd050)"
+  "glossary": [
+    {
+      "term": "超薄晶圆（Ultra-thin Wafer）",
+      "desc": "把功率器件晶圆减薄至几十微米级，降低导通损耗和散热阻抗。"
+    },
+    {
+      "term": "CPO（共封装光学）",
+      "desc": "把光引擎与交换/计算芯片共封装，缩短电互连、降低功耗并提升带宽密度。"
+    },
+    {
+      "term": "特色高压功率代工",
+      "desc": "面向IGBT/高压MOSFET等器件的专用工艺代工，重视耐压、可靠性和车规认证。"
+    }
+  ],
+  "footer": "版本号(v20260309-1536)｜生成时间(2026-03-09 15:36 Asia/Shanghai)｜git commit短哈希(284921d)"
 }

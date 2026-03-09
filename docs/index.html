@@ -114,7 +114,7 @@
   <div class="wrap">
     <div class="topbar">
       <div>
-        <div class="title">☀️ 早间半导体简报</div>
+        <div class="title">☀️ 早间半导体简报</div><div id="buildmeta" style="margin-top:8px;font-size:13px;color:#64748b"></div>
         <div class="meta">
           <a href="index.html" class="pill">⬅️ 返回早报</a>
           <span id="asof">As of: -</span>
@@ -189,6 +189,10 @@
       }
 
       el('asof').textContent = `📅 更新时间: ${d.asOf || '-'}`;
+      if (d.version || d.generatedAt || d.footer) {
+        const meta = d.footer || `版本号(${d.version||'-'})｜生成时间(${d.generatedAt||'-'})`;
+        const bm = el('buildmeta'); if (bm) bm.textContent = meta;
+      }
       el('count').textContent = `📊 新闻数量: ${(d.items||[]).length}`;
 
       // keywords
