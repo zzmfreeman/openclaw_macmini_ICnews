@@ -1,70 +1,116 @@
 {
-  "asOf": "2026-03-08 17:55 (Asia/Shanghai)",
-  "keywords": ["出口规则", "供应链", "地缘风险", "区域建厂", "政策信号"],
+  "asOf": "2026-03-09 09:40 (Asia/Shanghai)",
+  "keywords": [
+    "AI出口管制",
+    "半导体IPO",
+    "地方扩产",
+    "A股半导体",
+    "港股半导体"
+  ],
   "timeline": [
-    {"date": "2026-03-04", "event": "印度推进半导体合作与本地制造能力建设。"},
-    {"date": "2026-03-05", "event": "美国讨论AI芯片出口新框架；韩国提示中东冲突可能影响关键材料。"},
-    {"date": "2026-03-07", "event": "Nexperia相关争议升温，供应链不确定性再次上行。"}
+    {
+      "date": "2026-03-09",
+      "event": "美国拟推进新一版AI芯片出口管制草案，范围或扩至全球。"
+    },
+    {
+      "date": "2026-03-09",
+      "event": "中国半导体IPO与扩产项目披露继续提速。"
+    },
+    {
+      "date": "2026-03-09",
+      "event": "A/H半导体板块开盘承压，短线风险偏好走弱。"
+    }
   ],
   "key_data": [
-    {"metric": "观察窗口", "value": "最近72小时"},
-    {"metric": "入选快讯", "value": "5条"}
+    {
+      "metric": "观察窗口",
+      "value": "最近6小时"
+    },
+    {
+      "metric": "入选快讯",
+      "value": "5条"
+    },
+    {
+      "metric": "国内媒体占比",
+      "value": "5/5"
+    }
   ],
   "items": [
     {
-      "region": "overseas",
-      "title": "美国讨论AI芯片出口新监管框架",
-      "source": "Reuters",
-      "published": "2026-03-05",
-      "url": "https://www.reuters.com/world/us-mulls-new-rules-ai-chip-exports-including-requiring-investments-by-foreign-2026-03-05/",
-      "summary": "<ul><li>美国官员正在讨论新的AI芯片出口规则与审批机制。</li><li>市场关注后续细则是否进一步收紧目的地与许可条件。</li></ul>",
-      "insights": ["AI算力链短期波动可能加大。", "海外客户的下单节奏或更前置。"],
-      "actions": ["优先跟踪正式规则文本。", "关注GPU/加速器厂商地区收入结构变化。"],
-      "glossary": []
-    },
-    {
-      "region": "overseas",
-      "title": "韩国提示中东冲突可能扰动芯片关键材料供应",
-      "source": "Reuters",
-      "published": "2026-03-05",
-      "url": "https://www.reuters.com/business/retail-consumer/south-korean-chip-industry-worried-iran-crisis-affect-middle-east-data-center-2026-03-05/",
-      "summary": "<ul><li>韩国方面警示中东局势可能影响关键材料与物流稳定。</li><li>若冲突持续，制造成本与交期压力可能传导至产业链。</li></ul>",
-      "insights": ["供应链风险溢价重新抬升。", "库存与多来源采购将继续强化。"],
-      "actions": ["跟踪材料厂库存与交付周期。", "关注油价、运价与航线中断信号。"],
+      "region": "domestic",
+      "title": "【置顶】美国拟将AI芯片出口管制由约40国扩展至全球，白宫内部仍存分歧",
+      "source": "集微网",
+      "published": "2026-03-09",
+      "url": "https://jiweipreview.laoyaoba.com/n/989072",
+      "summary": "<ul><li>集微援引外媒称，美国商务部门正推进新一版AI芯片出口草案，范围拟从约40国扩展至全球。</li><li>草案强调‘投资换芯片’与许可审批，但白宫内部对限制强度仍有分歧。</li></ul>",
+      "insights": [
+        "出口规则不确定性仍是全球算力供应链的核心扰动项。"
+      ],
+      "actions": [
+        "持续跟踪正式法规文本与生效时间表。"
+      ],
       "glossary": []
     },
     {
       "region": "domestic",
-      "title": "中国芯片产业继续强调关键设备能力建设",
-      "source": "Reuters",
-      "published": "2026-03-05",
-      "url": "https://www.reuters.com/world/china/chinas-top-chip-bosses-urge-supportive-policies-create-chinas-asml-2026-03-05/",
-      "summary": "<ul><li>产业层面呼吁加强2026-2030阶段的协同投入。</li><li>设备与材料环节仍是中长期主线。</li></ul>",
-      "insights": ["国产设备链政策确定性仍高。", "产业协同效率决定落地速度。"],
-      "actions": ["关注设备与零部件订单联动。", "跟踪地方配套政策推进节奏。"],
+      "title": "中国半导体IPO进程提速：惠科过会、盛合晶微获注册批复",
+      "source": "集微网",
+      "published": "2026-03-09",
+      "url": "https://jiweipreview.laoyaoba.com/n/989072",
+      "summary": "<ul><li>集微披露，惠科股份IPO已过会，盛合晶微获证监会注册批复。</li><li>显示、先进封测等环节融资推进，产业链资本开支预期继续抬升。</li></ul>",
+      "insights": [
+        "资本市场对半导体细分环节的支持仍集中在产能与国产替代方向。"
+      ],
+      "actions": [
+        "关注后续募资用途与项目落地节奏。"
+      ],
       "glossary": []
     },
     {
-      "region": "overseas",
-      "title": "Nexperia相关争议升级，供应链紧张预期升温",
-      "source": "Reuters",
-      "published": "2026-03-07",
-      "url": "https://www.reuters.com/business/autos-transportation/china-warns-global-chip-shortages-nexperia-dispute-escalates-again-2026-03-07/",
-      "summary": "<ul><li>跨境争议再起，市场对功率器件与汽车链扰动担忧增加。</li><li>地缘与监管变量继续影响供应安全预期。</li></ul>",
-      "insights": ["车规链条受政策变量影响更大。", "区域备份供应策略将延续。"],
-      "actions": ["关注汽车电子企业对交期表述。", "评估高集中度供应商替代路径。"],
+      "region": "domestic",
+      "title": "广州公布2026年重点建设计划：多项半导体与显示项目列入清单",
+      "source": "集微网",
+      "published": "2026-03-09",
+      "url": "https://jiweipreview.laoyaoba.com/n/986775",
+      "summary": "<ul><li>广州2026年重点建设项目中，包含多项显示与半导体制造、封装相关项目。</li><li>地方层面‘项目化推进’延续，区域产业集聚效应有望增强。</li></ul>",
+      "insights": [
+        "地方重点项目清单仍是观察中期产能落地的先行指标。"
+      ],
+      "actions": [
+        "跟踪项目开工、设备进场与投产节点。"
+      ],
       "glossary": []
     },
     {
-      "region": "overseas",
-      "title": "印度持续推进半导体合作与本地制造激励",
-      "source": "Reuters",
-      "published": "2026-03-04",
-      "url": "https://www.reuters.com/world/india/india-seeks-dutch-knowhow-semiconductor-push-2026-03-04/",
-      "summary": "<ul><li>印度继续引入外部技术与产业资源，推动本地制造。</li><li>全球半导体产能布局进一步走向多区域化。</li></ul>",
-      "insights": ["产能布局从单中心向多中心演进。", "政策稳定性是落地关键。"],
-      "actions": ["关注设备商与封测项目进展。", "持续评估多地建厂对成本与交付影响。"],
+      "region": "domestic",
+      "title": "36氪快讯：A股低开后持续走弱，半导体板块盘初跌幅居前",
+      "source": "36氪",
+      "published": "2026-03-09",
+      "url": "https://www.36kr.com/newsflashes",
+      "summary": "<ul><li>36氪快讯显示，A股主要指数低开，盘中半导体与算力硬件方向承压。</li><li>市场风险偏好回落，科技成长板块短线波动加大。</li></ul>",
+      "insights": [
+        "高估值赛道在宏观与地缘扰动下更易出现同步回撤。"
+      ],
+      "actions": [
+        "关注成交额与龙头股止跌信号。"
+      ],
+      "glossary": []
+    },
+    {
+      "region": "domestic",
+      "title": "36氪快讯：恒生科技指数低开，港股半导体个股开盘承压",
+      "source": "36氪",
+      "published": "2026-03-09",
+      "url": "https://www.36kr.com/newsflashes",
+      "summary": "<ul><li>36氪快讯显示，港股科技板块开盘下行，半导体方向同步走弱。</li><li>A/H科技链条联动增强，短线资金更偏防御。</li></ul>",
+      "insights": [
+        "跨市场联动加剧时，半导体板块弹性与波动会同步放大。"
+      ],
+      "actions": [
+        "跟踪港股半导体龙头成交与资金流向。"
+      ],
       "glossary": []
     }
-  ]
+  ],
+  "footer": "Generated by OpenClaw · Data source: 集微网/36氪"
 }
