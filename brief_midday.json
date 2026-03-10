@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-03-10 13:00 Asia/Shanghai｜版本号(v20260310-1300)｜生成时间(2026-03-10 13:00 Asia/Shanghai)｜commit(PENDING)",
+  "asOf": "2026-03-10 13:00 Asia/Shanghai｜版本号(v20260310-1300)｜生成时间(2026-03-10 13:00 Asia/Shanghai)｜commit(1f703d0)",
   "version": "v20260310-1300",
   "generatedAt": "2026-03-10 13:00 Asia/Shanghai",
   "keywords": [
@@ -77,5 +77,5 @@
       "desc": "多芯粒与中介层超曝光拼接技术路径，常用于突破单次光刻面积限制。"
     }
   ],
-  "footer": "版本号(v20260310-1300)｜生成时间(2026-03-10 13:00 Asia/Shanghai)｜commit(PENDING)"
+  "footer": "版本号(v20260310-1300)｜生成时间(2026-03-10 13:00 Asia/Shanghai)｜commit(1f703d0)"
 }
