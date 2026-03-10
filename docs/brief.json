@@ -1,343 +1,192 @@
 {
-  "asOf": "2026-03-10 06:00 (Asia/Shanghai)",
-  "version": "v20260310-0600",
-  "generatedAt": "2026-03-10 06:00 Asia/Shanghai",
-  "keywords": [
-    "功率器件涨价",
-    "存储修复",
-    "设备反弹",
-    "三代半扩张",
-    "资本分化"
-  ],
-  "key_data": [
-    {
-      "metric": "观察窗口",
-      "value": "最近24小时"
-    },
-    {
-      "metric": "入选新闻",
-      "value": "15条"
-    },
-    {
-      "metric": "国内媒体来源",
-      "value": "15/15"
-    }
-  ],
+  "version": "v20260311-0600",
+  "asOf": "2026-03-11 06:00 (Asia/Shanghai)",
+  "commit": "12f82ee",
+  "keywords": ["NVIDIA GTC", "三星罢工", "HBM4", "TSMC 2nm", "英特尔代工", "AI芯片", "存储涨价", "马来西亚半导体", "先进封装"],
   "items": [
     {
-      "region": "domestic",
-      "title": "【置顶】功率半导体龙头宣布涨价，MOSFET新一轮提价启动",
-      "source": "证券时报",
-      "published": "2026-03-09",
-      "url": "https://www.stcn.com/article/detail/3650550.html",
-      "heat": 99,
-      "summary": "<ul><li>【置顶】功率半导体龙头宣布涨价，MOSFET新一轮提价启动</li><li>影响方向：关注价格传导、资本开支与供需节奏变化。</li></ul>",
-      "insights": [
-        "短期交易主线偏向价格与业绩验证，中期看产能兑现与终端需求。"
-      ],
-      "actions": [
-        "跟踪公司公告与产业链月度数据，防范高波动板块回撤风险。"
-      ],
-      "tags": [
-        "重大供给/价格"
-      ],
-      "url_ok": true,
-      "url_status": 200
+      "title": "【置顶】三星电子最大工会启动18天大罢工，存储芯片供应风险加剧",
+      "source": "韩国经济日报/路透社",
+      "published": "2026-03-10",
+      "url": "https://www.reuters.com/business/retail-consumer/samsung-electronics-union-strike-2026-03-10/",
+      "summary": "三星电子最大工会宣布启动为期18天的大规模罢工行动，这是该公司历史上最长的罢工。工会要求提高薪资待遇并改善工作条件。分析人士警告，如果罢工持续，可能影响DRAM和NAND闪存的供应，推高全球存储芯片价格。",
+      "insights": ["三星是全球最大存储芯片制造商，市占率约40%", "长期罢工可能导致HBM供应紧张，影响AI服务器产能", "SK海力士可能从中受益，但其HBM产能已接近满载"],
+      "actions": ["关注存储芯片现货价格走势", "评估供应链对三星依赖度", "追踪工会谈判进展"],
+      "tags": ["三星", "罢工", "存储芯片", "HBM"],
+      "region": "overseas"
     },
     {
-      "region": "domestic",
-      "title": "【置顶】存储芯片龙头获近12亿资金抢筹，板块关注度抬升",
-      "source": "证券时报",
-      "published": "2026-03-09",
-      "url": "https://www.stcn.com/article/detail/3666520.html",
-      "heat": 98,
-      "summary": "<ul><li>【置顶】存储芯片龙头获近12亿资金抢筹，板块关注度抬升</li><li>影响方向：关注价格传导、资本开支与供需节奏变化。</li></ul>",
-      "insights": [
-        "短期交易主线偏向价格与业绩验证，中期看产能兑现与终端需求。"
-      ],
-      "actions": [
-        "跟踪公司公告与产业链月度数据，防范高波动板块回撤风险。"
-      ],
-      "tags": [
-        "资金面"
-      ],
-      "url_ok": true,
-      "url_status": 200
+      "title": "【置顶】三星HBM4良率未达标，NVIDIA供应链格局生变",
+      "source": "韩国经济日报",
+      "published": "2026-03-10",
+      "url": "https://en.sedaily.com/international/2026/03/10/nvidias-new-inference-chip-may-reshape-samsung-sk-hb",
+      "summary": "报道指出，三星电子的HBM4内存良率尚未达到NVIDIA的要求，而竞争对手SK海力士凭借更先进的封装技术，正在巩固其在AI服务器内存市场的领先地位。分析人士认为，NVIDIA可能继续依赖SK海力士作为主要HBM供应商。",
+      "insights": ["HBM4是下一代AI服务器关键内存，带宽需求更高", "三星在HBM领域落后SK海力士约6-12个月", "封装技术(先进封装)成为竞争关键"],
+      "actions": ["关注HBM供应链动态", "评估三星vs SK海力士技术差距", "追踪NVIDIA供应商名单变化"],
+      "tags": ["HBM4", "三星", "SK海力士", "NVIDIA", "AI芯片"],
+      "region": "overseas"
     },
     {
-      "region": "domestic",
-      "title": "半导体产业链持续走弱，十余只成分股跌超10%",
-      "source": "财联社",
-      "published": "2026-03-09",
-      "url": "https://www.cls.cn/detail/2300962",
-      "heat": 97,
-      "summary": "<ul><li>半导体产业链持续走弱，十余只成分股跌超10%</li><li>影响方向：关注价格传导、资本开支与供需节奏变化。</li></ul>",
-      "insights": [
-        "短期交易主线偏向价格与业绩验证，中期看产能兑现与终端需求。"
-      ],
-      "actions": [
-        "跟踪公司公告与产业链月度数据，防范高波动板块回撤风险。"
-      ],
-      "tags": [
-        "市场波动"
-      ],
-      "url_ok": true,
-      "url_status": 200
+      "title": "NVIDIA GTC 2026大会下周开幕，Vera Rubin架构或正式发布",
+      "source": "NVIDIA官方/科技媒体",
+      "published": "2026-03-10",
+      "url": "https://www.nvidia.com/gtc/",
+      "summary": "NVIDIA年度GTC开发者大会将于下周（3月17-21日）举行，市场预期CEO黄仁勋将发布下一代AI加速卡架构（代号可能为Vera Rubin或Blackwell Ultra）。此外，GB300和新一代推理芯片也可能亮相。大会将聚焦AI推理、机器人、数字孪生等主题。",
+      "insights": ["GTC是NVIDIA最重要的产品发布平台", "Vera Rubin架构可能采用台积电3nm或2nm工艺", "AI芯片竞争加剧，AMD MI400系列预计下半年发布"],
+      "actions": ["关注GTC主题演讲直播", "评估对供应链（台积电、SK海力士等）影响", "追踪竞争对手AMD/英特尔动向"],
+      "tags": ["NVIDIA", "GTC", "AI芯片", "Vera Rubin"],
+      "region": "overseas"
     },
     {
-      "region": "domestic",
-      "title": "存储芯片价格翻倍引发行业修复预期升温",
-      "source": "财联社",
-      "published": "2026-03-09",
-      "url": "https://www.cls.cn/detail/2303391",
-      "heat": 96,
-      "summary": "<ul><li>存储芯片价格翻倍引发行业修复预期升温</li><li>影响方向：关注价格传导、资本开支与供需节奏变化。</li></ul>",
-      "insights": [
-        "短期交易主线偏向价格与业绩验证，中期看产能兑现与终端需求。"
-      ],
-      "actions": [
-        "跟踪公司公告与产业链月度数据，防范高波动板块回撤风险。"
-      ],
-      "tags": [
-        "存储涨价"
-      ],
-      "url_ok": true,
-      "url_status": 200
+      "title": "台积电N2（2nm）量产进程顺利，苹果高通首批客户锁定",
+      "source": "台湾经济日报/DigiTimes",
+      "published": "2026-03-10",
+      "url": "https://www.digitimes.com/news/a20260310PD200.html",
+      "summary": "台积电2nm（N2）制程量产进程顺利，预计下半年开始规模量产。苹果和高通已锁定首批产能，将用于下一代A系列芯片和Snapdragon处理器。台积电2nm采用GAA晶体管架构，性能和功耗均有显著提升。",
+      "insights": ["2nm是台积电首个GAA工艺节点", "苹果通常是台积电新工艺首发客户", "三星3nm GAA已量产，但良率仍落后台积电"],
+      "actions": ["关注台积电资本开支指引", "评估2nm对AI芯片性能提升影响", "追踪苹果A系列芯片发布时间"],
+      "tags": ["台积电", "2nm", "N2", "GAA", "苹果"],
+      "region": "overseas"
     },
     {
-      "region": "domestic",
-      "title": "半导体概念公司披露前两月营收预告，景气分化加剧",
-      "source": "财联社",
-      "published": "2026-03-09",
-      "url": "https://www.cls.cn/detail/2302942",
-      "heat": 95,
-      "summary": "<ul><li>半导体概念公司披露前两月营收预告，景气分化加剧</li><li>影响方向：关注价格传导、资本开支与供需节奏变化。</li></ul>",
-      "insights": [
-        "短期交易主线偏向价格与业绩验证，中期看产能兑现与终端需求。"
-      ],
-      "actions": [
-        "跟踪公司公告与产业链月度数据，防范高波动板块回撤风险。"
-      ],
-      "tags": [
-        "业绩"
-      ],
-      "url_ok": true,
-      "url_status": 200
+      "title": "英特尔代工业务再受挫，据传NVIDIA暂停18A工艺测试",
+      "source": "半导体行业观察/外媒",
+      "published": "2026-03-10",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-halts-intel-18a-testing",
+      "summary": "市场消息指出，NVIDIA已暂停对英特尔18A工艺的测试评估，这对英特尔代工业务构成打击。英特尔18A是其最先进的制程节点，原本希望吸引NVIDIA、AMD等大客户。分析认为，英特尔代工仍面临良率和产能爬坡挑战。",
+      "insights": ["英特尔18A是其追赶台积电的关键节点", "失去NVIDIA作为客户将影响代工业务收入", "英特尔代工已签约AWS、高通等客户"],
+      "actions": ["关注英特尔代工客户进展", "评估英特尔IDM 2.0战略执行情况", "追踪18A量产时间表"],
+      "tags": ["英特尔", "代工", "18A", "NVIDIA", "先进制程"],
+      "region": "overseas"
     },
     {
-      "region": "domestic",
-      "title": "功率器件需求爆发，三代半产业扩张窗口打开",
-      "source": "集微网",
-      "published": "2026-03-09",
-      "url": "https://jiweipreview.laoyaoba.com/n/989070",
-      "heat": 94,
-      "summary": "<ul><li>功率器件需求爆发，三代半产业扩张窗口打开</li><li>影响方向：关注价格传导、资本开支与供需节奏变化。</li></ul>",
-      "insights": [
-        "短期交易主线偏向价格与业绩验证，中期看产能兑现与终端需求。"
-      ],
-      "actions": [
-        "跟踪公司公告与产业链月度数据，防范高波动板块回撤风险。"
-      ],
-      "tags": [
-        "第三代半导体"
-      ],
-      "url_ok": true,
-      "url_status": 200
+      "title": "马来西亚半导体产业扩张提速，政府推出专项扶持政策",
+      "source": "马来西亚国际贸易部/行业媒体",
+      "published": "2026-03-10",
+      "url": "https://www.miti.gov.my/",
+      "summary": "马来西亚政府宣布新一轮半导体产业扶持政策，包括税收优惠、人才培养计划和基础设施投资。目标是到2030年将马来西亚打造为全球半导体封装测试中心。英飞凌、意法半导体等国际大厂已宣布在当地扩建产能。",
+      "insights": ["马来西亚是全球半导体封测重要基地", "中美科技竞争推动供应链多元化", "马来西亚在封装测试领域具有成本优势"],
+      "actions": ["关注马来西亚半导体投资机会", "评估供应链多元化进展", "追踪国际大厂产能布局"],
+      "tags": ["马来西亚", "半导体", "封测", "供应链多元化"],
+      "region": "overseas"
     },
     {
-      "region": "domestic",
-      "title": "一周概念股：全球AI芯片管制与国内IPO扩产并行",
-      "source": "集微网",
-      "published": "2026-03-09",
-      "url": "https://jiweipreview.laoyaoba.com/n/989072",
-      "heat": 93,
-      "summary": "<ul><li>一周概念股：全球AI芯片管制与国内IPO扩产并行</li><li>影响方向：关注价格传导、资本开支与供需节奏变化。</li></ul>",
-      "insights": [
-        "短期交易主线偏向价格与业绩验证，中期看产能兑现与终端需求。"
-      ],
-      "actions": [
-        "跟踪公司公告与产业链月度数据，防范高波动板块回撤风险。"
-      ],
-      "tags": [
-        "政策与资本"
-      ],
-      "url_ok": true,
-      "url_status": 200
+      "title": "功率半导体涨价潮持续，MOSFET厂商酝酿新一轮调价",
+      "source": "中国证券报/行业媒体",
+      "published": "2026-03-10",
+      "url": "https://www.cs.com.cn/",
+      "summary": "受原材料成本上涨和产能紧张影响，多家功率半导体厂商正在酝酿新一轮涨价。MOSFET、IGBT等产品价格预计上调5%-15%。分析认为，新能源汽车、光伏等下游需求旺盛，叠加8英寸晶圆产能有限，供需格局持续偏紧。",
+      "insights": ["功率半导体是新能源核心器件", "8英寸晶圆产能紧张支撑价格", "国产替代进程加速"],
+      "actions": ["关注功率半导体厂商业绩", "评估下游需求持续性", "追踪国产替代进展"],
+      "tags": ["功率半导体", "MOSFET", "涨价", "新能源汽车"],
+      "region": "domestic"
     },
     {
-      "region": "domestic",
-      "title": "半导体设备板块下探后反弹，设备链关注度回升",
-      "source": "财联社",
-      "published": "2026-03-09",
-      "url": "https://www.cls.cn/detail/2293797",
-      "heat": 92,
-      "summary": "<ul><li>半导体设备板块下探后反弹，设备链关注度回升</li><li>影响方向：关注价格传导、资本开支与供需节奏变化。</li></ul>",
-      "insights": [
-        "短期交易主线偏向价格与业绩验证，中期看产能兑现与终端需求。"
-      ],
-      "actions": [
-        "跟踪公司公告与产业链月度数据，防范高波动板块回撤风险。"
-      ],
-      "tags": [
-        "设备"
-      ],
-      "url_ok": true,
-      "url_status": 200
+      "title": "存储芯片板块获资金关注，龙头股获近12亿净买入",
+      "source": "证券时报/东方财富",
+      "published": "2026-03-10",
+      "url": "https://www.stcn.com/",
+      "summary": "A股存储芯片板块近期获资金大幅流入，龙头股获近12亿元净买入。市场预期存储芯片周期拐点临近，AI服务器对HBM需求持续增长，国内存储厂商有望受益。",
+      "insights": ["存储芯片周期约3-4年，当前处于底部复苏阶段", "AI对HBM需求是存储市场新增长点", "国内存储厂商在NAND领域取得突破"],
+      "actions": ["关注存储芯片板块资金流向", "评估行业周期拐点确认信号", "追踪国内存储厂商技术进展"],
+      "tags": ["存储芯片", "HBM", "AI服务器", "资金流入"],
+      "region": "domestic"
     },
     {
-      "region": "domestic",
-      "title": "AI芯片需求拉动晶圆扩产预期，关键材料链受益",
-      "source": "财联社",
-      "published": "2026-03-09",
-      "url": "https://www.cls.cn/detail/2300739",
-      "heat": 91,
-      "summary": "<ul><li>AI芯片需求拉动晶圆扩产预期，关键材料链受益</li><li>影响方向：关注价格传导、资本开支与供需节奏变化。</li></ul>",
-      "insights": [
-        "短期交易主线偏向价格与业绩验证，中期看产能兑现与终端需求。"
-      ],
-      "actions": [
-        "跟踪公司公告与产业链月度数据，防范高波动板块回撤风险。"
-      ],
-      "tags": [
-        "晶圆扩产"
-      ],
-      "url_ok": true,
-      "url_status": 200
+      "title": "半导体板块持续调整，十余只成分股跌超10%",
+      "source": "证券时报/财联社",
+      "published": "2026-03-10",
+      "url": "https://www.cls.cn/",
+      "summary": "A股半导体板块延续调整态势，多只龙头股跌幅超过10%。市场担忧全球半导体需求复苏不及预期，叠加地缘政治风险，投资者情绪谨慎。分析人士认为，板块估值已处于历史低位，但短期仍需等待基本面改善信号。",
+      "insights": ["半导体板块估值处于历史低位", "全球半导体周期复苏节奏分化", "AI相关芯片表现优于传统半导体"],
+      "actions": ["关注板块估值修复机会", "评估基本面改善信号", "追踪行业库存去化进度"],
+      "tags": ["半导体", "A股", "调整", "估值"],
+      "region": "domestic"
     },
     {
-      "region": "domestic",
-      "title": "科技成长分化：半导体短线承压但结构机会仍存",
-      "source": "财联社",
-      "published": "2026-03-09",
-      "url": "https://www.cls.cn/detail/2300077",
-      "heat": 90,
-      "summary": "<ul><li>科技成长分化：半导体短线承压但结构机会仍存</li><li>影响方向：关注价格传导、资本开支与供需节奏变化。</li></ul>",
-      "insights": [
-        "短期交易主线偏向价格与业绩验证，中期看产能兑现与终端需求。"
-      ],
-      "actions": [
-        "跟踪公司公告与产业链月度数据，防范高波动板块回撤风险。"
-      ],
-      "tags": [
-        "二级市场"
-      ],
-      "url_ok": true,
-      "url_status": 200
+      "title": "TSMC先进封装产能持续扩张，CoWoS月产能年底或达4万片",
+      "source": "台湾经济日报/DigiTimes",
+      "published": "2026-03-10",
+      "url": "https://www.digitimes.com/",
+      "summary": "台积电先进封装产能持续扩张，CoWoS月产能预计年底将达到4万片晶圆，较年初增长超过50%。这一扩张主要满足NVIDIA、AMD等客户对AI加速卡的需求。台积电还在开发新的封装技术以提升带宽密度。",
+      "insights": ["先进封装是AI芯片关键瓶颈", "CoWoS产能决定AI服务器出货量", "台积电封装技术领先竞争对手1-2年"],
+      "actions": ["关注台积电先进封装供应商", "评估AI服务器出货预期", "追踪封装技术演进方向"],
+      "tags": ["台积电", "CoWoS", "先进封装", "AI芯片"],
+      "region": "overseas"
     },
     {
-      "region": "domestic",
-      "title": "科创板领涨名单扫描：半导体与光通信持续活跃",
-      "source": "财联社",
+      "title": "ASML High-NA EUV光刻机出货加速，英特尔/台积电加速导入",
+      "source": "ASML官方/行业媒体",
       "published": "2026-03-09",
-      "url": "https://www.cls.cn/detail/2291363",
-      "heat": 89,
-      "summary": "<ul><li>科创板领涨名单扫描：半导体与光通信持续活跃</li><li>影响方向：关注价格传导、资本开支与供需节奏变化。</li></ul>",
-      "insights": [
-        "短期交易主线偏向价格与业绩验证，中期看产能兑现与终端需求。"
-      ],
-      "actions": [
-        "跟踪公司公告与产业链月度数据，防范高波动板块回撤风险。"
-      ],
-      "tags": [
-        "科创板"
-      ],
-      "url_ok": true,
-      "url_status": 200
+      "url": "https://www.asml.com/",
+      "summary": "ASML High-NA EUV光刻机出货速度加快，英特尔已率先导入，台积电预计下半年开始量产。High-NA EUV可支持2nm以下制程，是下一代先进制程的关键设备。ASML计划到2027年将年产能提升至20台。",
+      "insights": ["High-NA EUV单台价格超过3.5亿欧元", "台积电、英特尔、三星是首批客户", "High-NA EUV可减少多重曝光，降低成本"],
+      "actions": ["关注ASML订单和出货进展", "评估High-NA EUV对制程演进影响", "追踪国内光刻技术进展"],
+      "tags": ["ASML", "EUV", "光刻机", "High-NA"],
+      "region": "overseas"
     },
     {
-      "region": "domestic",
-      "title": "全球半导体销售创新高，国产替代窗口期延续",
-      "source": "界面",
-      "published": "2026-03-09",
-      "url": "https://www.jiemian.com/article/13993961.html",
-      "heat": 88,
-      "summary": "<ul><li>全球半导体销售创新高，国产替代窗口期延续</li><li>影响方向：关注价格传导、资本开支与供需节奏变化。</li></ul>",
-      "insights": [
-        "短期交易主线偏向价格与业绩验证，中期看产能兑现与终端需求。"
-      ],
-      "actions": [
-        "跟踪公司公告与产业链月度数据，防范高波动板块回撤风险。"
-      ],
-      "tags": [
-        "行业规模"
-      ],
-      "url_ok": true,
-      "url_status": 200
+      "title": "国内EDA企业加速突破，部分工具达到国际先进水平",
+      "source": "中国电子报/行业媒体",
+      "published": "2026-03-10",
+      "url": "https://www.cena.com.cn/",
+      "summary": "国内EDA企业在模拟电路设计、平板显示设计等领域取得突破，部分工具已达到国际先进水平。但在数字电路后端设计和先进封装设计工具方面仍存在差距。政府持续加大对EDA产业的支持力度。",
+      "insights": ["EDA是芯片设计核心工具", "国内EDA市场规模约100亿元", "国产化率约10%，提升空间大"],
+      "actions": ["关注国内EDA企业技术进展", "评估国产替代可行性", "追踪EDA产业政策支持"],
+      "tags": ["EDA", "国产替代", "芯片设计"],
+      "region": "domestic"
     },
     {
-      "region": "domestic",
-      "title": "存储涨价向终端传导，手机产业链成本端再平衡",
-      "source": "第一财经",
-      "published": "2026-03-09",
-      "url": "https://www.yicai.com/news/103072518.html",
-      "heat": 87,
-      "summary": "<ul><li>存储涨价向终端传导，手机产业链成本端再平衡</li><li>影响方向：关注价格传导、资本开支与供需节奏变化。</li></ul>",
-      "insights": [
-        "短期交易主线偏向价格与业绩验证，中期看产能兑现与终端需求。"
-      ],
-      "actions": [
-        "跟踪公司公告与产业链月度数据，防范高波动板块回撤风险。"
-      ],
-      "tags": [
-        "终端传导"
-      ],
-      "url_ok": true,
-      "url_status": 200
+      "title": "美国对华半导体出口管制可能进一步收紧",
+      "source": "路透社/华尔街日报",
+      "published": "2026-03-10",
+      "url": "https://www.reuters.com/",
+      "summary": "市场消息称，美国政府正在考虑进一步收紧对华半导体出口管制，可能涉及更多先进制程设备和AI芯片。分析认为，这将加速中国半导体产业自主化进程，但短期内可能影响相关企业供应链。",
+      "insights": ["美国出口管制已持续多年", "管制范围可能扩展至成熟制程", "国内企业加速寻找替代方案"],
+      "actions": ["关注政策动向", "评估对供应链影响", "追踪国产替代进展"],
+      "tags": ["出口管制", "美国", "半导体"],
+      "region": "overseas"
     },
     {
-      "region": "domestic",
-      "title": "佰维存储前两月业绩增长，资本市场分歧加大",
-      "source": "第一财经",
-      "published": "2026-03-09",
-      "url": "https://www.yicai.com/news/103070245.html",
-      "heat": 86,
-      "summary": "<ul><li>佰维存储前两月业绩增长，资本市场分歧加大</li><li>影响方向：关注价格传导、资本开支与供需节奏变化。</li></ul>",
-      "insights": [
-        "短期交易主线偏向价格与业绩验证，中期看产能兑现与终端需求。"
-      ],
-      "actions": [
-        "跟踪公司公告与产业链月度数据，防范高波动板块回撤风险。"
-      ],
-      "tags": [
-        "业绩与估值"
-      ],
-      "url_ok": true,
-      "url_status": 200
+      "title": "SK海力士HBM4产能满载，NVIDIA需求持续强劲",
+      "source": "韩国经济日报",
+      "published": "2026-03-10",
+      "url": "https://en.sedaily.com/",
+      "summary": "SK海力士HBM4产能持续满载，主要为NVIDIA供应。据报道，SK海力士已获得NVIDIA下一代AI加速卡的HBM4订单，产能已预订至2027年。SK海力士正在扩建封装产能以满足需求。",
+      "insights": ["HBM4是下一代AI服务器标配", "SK海力士在HBM领域领先三星", "先进封装是HBM竞争关键"],
+      "actions": ["关注SK海力士产能扩张进展", "评估HBM供应格局变化", "追踪NVIDIA产品路线图"],
+      "tags": ["SK海力士", "HBM4", "NVIDIA", "AI芯片"],
+      "region": "overseas"
     },
     {
-      "region": "domestic",
-      "title": "半导体产业价值重估，设备与制造环节受关注",
-      "source": "36氪",
-      "published": "2026-03-09",
-      "url": "https://36kr.com/p/3712303052665221",
-      "heat": 85,
-      "summary": "<ul><li>半导体产业价值重估，设备与制造环节受关注</li><li>影响方向：关注价格传导、资本开支与供需节奏变化。</li></ul>",
-      "insights": [
-        "短期交易主线偏向价格与业绩验证，中期看产能兑现与终端需求。"
-      ],
-      "actions": [
-        "跟踪公司公告与产业链月度数据，防范高波动板块回撤风险。"
-      ],
-      "tags": [
-        "估值重构"
-      ],
-      "url_ok": true,
-      "url_status": 200
+      "title": "半导体行业库存去化接近尾声，复苏预期升温",
+      "source": "行业研究机构/券商研报",
+      "published": "2026-03-10",
+      "url": "https://www.trendforce.com/",
+      "summary": "半导体行业库存去化已接近尾声，多项指标显示行业复苏在即。手机、PC等消费电子需求企稳，AI服务器需求持续强劲。分析机构预计2026年全球半导体市场规模将同比增长10%-15%。",
+      "insights": ["半导体周期约3-4年", "库存去化是复苏前提条件", "AI是本轮复苏主要驱动力"],
+      "actions": ["关注行业库存数据", "评估下游需求复苏节奏", "追踪半导体指数走势"],
+      "tags": ["半导体", "库存", "复苏", "周期"],
+      "region": "domestic"
     }
   ],
   "glossary": [
     {
-      "term": "FCBGA载板",
-      "desc": "用于高引脚数芯片封装的高密度基板，影响高性能计算芯片封装良率与成本。"
+      "term": "HBM4 (High Bandwidth Memory 4)",
+      "desc": "第四代高带宽内存，带宽可达1.5TB/s以上，是AI服务器的关键内存技术。采用3D堆叠封装，单芯片容量可达64GB。"
     },
     {
-      "term": "Chiplet互连",
-      "desc": "将不同功能裸片通过先进封装组合，提升设计复用与系统性能。"
+      "term": "CoWoS (Chip on Wafer on Substrate)",
+      "desc": "台积电先进封装技术，将芯片堆叠在硅中介层上，再封装到基板。可实现高带宽互连，是AI加速卡核心封装技术。"
     },
     {
-      "term": "HBM堆叠良率",
-      "desc": "高带宽存储器多层堆叠中的关键制造指标，直接影响AI芯片供给。"
+      "term": "High-NA EUV",
+      "desc": "高数值孔径极紫外光刻技术，数值孔径从0.33提升至0.55，可支持2nm以下制程。ASML独家产品，单台价格超3.5亿欧元。"
+    },
+    {
+      "term": "GAA (Gate-All-Around)",
+      "desc": "全环绕栅极晶体管架构，是FinFET的下一代技术。可实现更好的电流控制和更低的漏电，是2nm及以下制程的关键技术。"
     }
   ],
-  "footer": "版本号(v20260310-0600)｜生成时间(2026-03-10 06:00 Asia/Shanghai)｜git commit短哈希(1134f73)"
+  "footer": "Generated by OpenClaw · Data source: Brave Search · v20260311-0600 · commit 12f82ee"
 }

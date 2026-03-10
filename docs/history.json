@@ -712,5 +712,26 @@
       }
     ],
     "note": "Fast mode: fewer items published due to strict 6h window + URL availability check + dedupe."
+  },
+  "https://www.reuters.com/business/retail-consumer/samsung-electronics-union-strike-2026-03-10/",
+  "https://en.sedaily.com/international/2026/03/10/nvidias-new-inference-chip-may-reshape-samsung-sk-hb",
+  "https://www.nvidia.com/gtc/",
+  "https://www.digitimes.com/news/a20260310PD200.html",
+  "https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-halts-intel-18a-testing",
+  "https://www.miti.gov.my/",
+  "https://www.cs.com.cn/",
+  "https://www.stcn.com/",
+  "https://www.cls.cn/",
+  "https://www.digitimes.com/",
+  "https://www.asml.com/",
+  "https://www.cena.com.cn/",
+  "https://en.sedaily.com/",
+  "https://www.trendforce.com/",
+  {
+    "timestamp": "2026-03-11T06:00:00+08:00",
+    "event": "Semi Morning Brief (06:00)",
+    "version": "v20260311-0600",
+    "items_count": 15,
+    "commit": "12f82ee"
   }
 ]
