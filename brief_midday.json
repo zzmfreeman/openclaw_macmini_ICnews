@@ -1,116 +1,81 @@
 {
-  "asOf": "2026-03-09 15:15 (Asia/Shanghai)",
+  "asOf": "2026-03-10 13:00 Asia/Shanghai｜版本号(v20260310-1300)｜生成时间(2026-03-10 13:00 Asia/Shanghai)｜commit(PENDING)",
+  "version": "v20260310-1300",
+  "generatedAt": "2026-03-10 13:00 Asia/Shanghai",
   "keywords": [
-    "重大投资补贴",
-    "A股收盘",
-    "绿色供应链",
-    "信号链业绩分化",
-    "两会产业政策"
-  ],
-  "timeline": [
-    {
-      "date": "2026-03-09",
-      "event": "印度加码芯片封测补贴，区域后段制造竞争升温。"
-    },
-    {
-      "date": "2026-03-09",
-      "event": "A股收盘走弱，CPO与半导体相关高弹性板块回调。"
-    },
-    {
-      "date": "2026-03-09",
-      "event": "政策与绿色制造议题持续发酵，产业长期主线维持。"
-    }
+    "半导体政策",
+    "HBM",
+    "AI推理芯片",
+    "宽禁带材料",
+    "供应链节奏"
   ],
   "key_data": [
     {
+      "metric": "模式",
+      "value": "13:00快讯（目标5条）"
+    },
+    {
       "metric": "观察窗口",
-      "value": "最近6小时"
+      "value": "最近6小时（07:00-13:00）"
     },
     {
-      "metric": "入选快讯",
-      "value": "5条（增量）"
+      "metric": "实际发布",
+      "value": "2条"
     },
     {
-      "metric": "国内媒体占比",
-      "value": "5/5"
+      "metric": "不足原因",
+      "value": "NewsAPI不可用；候选源在时间窗+半导体相关+URL可达(200/3xx)+去重后可用条目不足"
     }
   ],
   "items": [
     {
-      "region": "domestic",
-      "title": "【置顶】印度政府为凯恩斯新建芯片封测工厂补贴1.8亿美元",
-      "source": "爱集微",
-      "published": "2026-03-09",
-      "url": "https://www.laoyaoba.com/",
-      "summary": "<ul><li>爱集微首页快讯显示，印度政府拟对凯恩斯新建芯片封测工厂提供约1.8亿美元补贴。</li><li>该补贴将用于提升本地封测制造能力，强化区域半导体供应链韧性。</li></ul>",
+      "region": "international",
+      "title": "中国芯片企业建议在下一个五年规划继续强化半导体与宽禁带材料布局",
+      "source": "South China Morning Post",
+      "published": "2026-03-10 11:xx",
+      "url": "https://www.scmp.com/tech/article/3345996/chinas-chip-bosses-endorse-semiconductor-push-next-5-year-plan",
+      "heat": 89,
+      "summary": "<ul><li>报道显示，产业界建议在下一阶段继续提升半导体自主能力，并点名SiC/GaN与高性能AI芯片方向。</li><li>政策连续性预期有助于设备、材料与设计服务等环节维持中期资本开支韧性。</li></ul>",
       "insights": [
-        "南亚封测补贴持续加码，全球后段产能竞争进入政策驱动阶段。"
+        "中长期主线仍是‘先进制造+关键环节补链’，短线交易之外更看执行节奏。"
       ],
       "actions": [
-        "跟踪项目落地节奏及对中国台湾/东南亚封测产能再分配影响。"
+        "跟踪后续政策文本与地方配套资金落地时间，评估对采购与协同项目的边际影响。"
       ],
-      "glossary": []
+      "tags": [
+        "政策",
+        "宽禁带半导体"
+      ]
     },
     {
-      "region": "domestic",
-      "title": "36氪：A股三大指数集体收跌，CPO概念领跌",
-      "source": "36氪",
-      "published": "2026-03-09",
-      "url": "https://www.36kr.com/newsflashes",
-      "summary": "<ul><li>36氪快讯显示，A股三大指数收跌，CPO与高弹性科技链条回调明显。</li><li>半导体与算力相关方向延续分化，短线风险偏好仍偏弱。</li></ul>",
+      "region": "international",
+      "title": "韩媒：NVIDIA或在GTC发布新推理芯片，三星与SK海力士HBM竞争预期升温",
+      "source": "Seoul Economic Daily",
+      "published": "2026-03-10 07:xx",
+      "url": "https://en.sedaily.com/international/2026/03/10/nvidias-new-inference-chip-may-reshape-samsung-sk-hbm-battle",
+      "heat": 85,
+      "summary": "<ul><li>报道关注NVIDIA新推理芯片发布预期，以及其对HBM供给侧格局的潜在影响。</li><li>若新品节奏提前，存储与先进封装需求可能继续前置到上游订单与备货环节。</li></ul>",
       "insights": [
-        "午后收盘确认短线回撤，资金对高估值科技板块容忍度下降。"
+        "AI推理侧迭代正在成为HBM需求弹性的新增驱动，存储景气与产品节奏绑定更紧。"
       ],
       "actions": [
-        "优先跟踪高换手龙头尾盘承接与北向资金净流向。"
+        "关注GTC后供应链指引变化，重点看HBM、封测与高速互连环节的订单确认。"
       ],
-      "glossary": []
-    },
-    {
-      "region": "domestic",
-      "title": "绿色厂务国际创新论坛预览：以技术赋能半导体绿色供应链转型",
-      "source": "爱集微",
-      "published": "2026-03-09",
-      "url": "https://www.laoyaoba.com/",
-      "summary": "<ul><li>爱集微发布绿色厂务论坛预览，聚焦半导体制造环节节能降碳与绿色厂务协同。</li><li>议题覆盖高耗能工艺优化与供应链低碳标准建设。</li></ul>",
-      "insights": [
-        "绿色制造正从合规项转向成本与客户准入的核心竞争力。"
-      ],
-      "actions": [
-        "关注头部晶圆厂在能耗强度、绿色电力与认证体系上的先发布局。"
-      ],
-      "glossary": []
-    },
-    {
-      "region": "domestic",
-      "title": "国产信号链厂商2025业绩分化：高景气赛道进入结构性竞争",
-      "source": "爱集微",
-      "published": "2026-03-09",
-      "url": "https://www.laoyaoba.com/",
-      "summary": "<ul><li>爱集微盘点国产信号链企业2025年业绩，部分公司实现扭亏转盈。</li><li>行业在景气回升背景下出现明显分化，产品与客户结构决定弹性上限。</li></ul>",
-      "insights": [
-        "模拟/信号链进入“量增价分化”阶段，龙头集中度有望提升。"
-      ],
-      "actions": [
-        "持续跟踪车规与工业客户占比变化及毛利率修复持续性。"
-      ],
-      "glossary": []
-    },
-    {
-      "region": "domestic",
-      "title": "【聚焦两会】政府工作报告强调打造集成电路等新兴支柱产业",
-      "source": "爱集微",
-      "published": "2026-03-09",
-      "url": "https://www.laoyaoba.com/",
-      "summary": "<ul><li>爱集微解读两会相关表述，政府工作报告继续强调集成电路等战略产业建设。</li><li>政策主线延续“补短板+强链条”，有助于稳定中长期资本开支预期。</li></ul>",
-      "insights": [
-        "产业政策连续性增强，有利于设备、材料与EDA等关键环节预期修复。"
-      ],
-      "actions": [
-        "关注后续地方配套政策与专项资金节奏，评估受益链条优先级。"
-      ],
-      "glossary": []
+      "tags": [
+        "AI芯片",
+        "HBM"
+      ]
     }
   ],
-  "footer": "版本号(v20260309-1515)｜生成时间(2026-03-09 15:15 Asia/Shanghai)｜git commit短哈希(19cb597)"
+  "glossary": [
+    {
+      "term": "HBM-PIM",
+      "desc": "在高带宽存储中叠加近存计算能力的方案，目标是降低数据搬运开销并提升AI推理能效。"
+    },
+    {
+      "term": "Chiplet Interposer Reticle Stitching",
+      "desc": "多芯粒与中介层超曝光拼接技术路径，常用于突破单次光刻面积限制。"
+    }
+  ],
+  "footer": "版本号(v20260310-1300)｜生成时间(2026-03-10 13:00 Asia/Shanghai)｜commit(PENDING)"
 }

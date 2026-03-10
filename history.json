@@ -692,5 +692,25 @@
         "heat": 85
       }
     ]
+  },
+  "https://www.scmp.com/tech/article/3345996/chinas-chip-bosses-endorse-semiconductor-push-next-5-year-plan",
+  "https://en.sedaily.com/international/2026/03/10/nvidias-new-inference-chip-may-reshape-samsung-sk-hbm-battle",
+  {
+    "timestamp": "2026-03-10T13:00:00+08:00",
+    "event": "Semi Midday Flash (13:00)",
+    "version": "v20260310-1300",
+    "items": [
+      {
+        "id": "20260310-1300-01",
+        "title": "中国芯片企业建议在下一个五年规划继续强化半导体与宽禁带材料布局",
+        "heat": 89
+      },
+      {
+        "id": "20260310-1300-02",
+        "title": "韩媒：NVIDIA或在GTC发布新推理芯片，三星与SK海力士HBM竞争预期升温",
+        "heat": 85
+      }
+    ],
+    "note": "Fast mode: fewer items published due to strict 6h window + URL availability check + dedupe."
   }
 ]
