@@ -1,81 +1,97 @@
 {
-  "asOf": "2026-03-10 13:00 Asia/Shanghai｜版本号(v20260310-1300)｜生成时间(2026-03-10 13:00 Asia/Shanghai)｜commit(7f5b6b2)",
-  "version": "v20260310-1300",
-  "generatedAt": "2026-03-10 13:00 Asia/Shanghai",
-  "keywords": [
-    "半导体政策",
-    "HBM",
-    "AI推理芯片",
-    "宽禁带材料",
-    "供应链节奏"
-  ],
-  "key_data": [
-    {
-      "metric": "模式",
-      "value": "13:00快讯（目标5条）"
-    },
-    {
-      "metric": "观察窗口",
-      "value": "最近6小时（07:00-13:00）"
-    },
-    {
-      "metric": "实际发布",
-      "value": "2条"
-    },
-    {
-      "metric": "不足原因",
-      "value": "NewsAPI不可用；候选源在时间窗+半导体相关+URL可达(200/3xx)+去重后可用条目不足"
-    }
-  ],
+  "version": "v20260311-1300",
+  "type": "midday",
+  "generatedAt": "2026-03-11T13:00:00+08:00",
+  "commit": "2a95c66",
+  "timeWindow": "6h",
+  "itemCount": 5,
   "items": [
     {
-      "region": "international",
-      "title": "中国芯片企业建议在下一个五年规划继续强化半导体与宽禁带材料布局",
-      "source": "South China Morning Post",
-      "published": "2026-03-10 11:xx",
-      "url": "https://www.scmp.com/tech/article/3345996/chinas-chip-bosses-endorse-semiconductor-push-next-5-year-plan",
-      "heat": 89,
-      "summary": "<ul><li>报道显示，产业界建议在下一阶段继续提升半导体自主能力，并点名SiC/GaN与高性能AI芯片方向。</li><li>政策连续性预期有助于设备、材料与设计服务等环节维持中期资本开支韧性。</li></ul>",
-      "insights": [
-        "中长期主线仍是‘先进制造+关键环节补链’，短线交易之外更看执行节奏。"
-      ],
-      "actions": [
-        "跟踪后续政策文本与地方配套资金落地时间，评估对采购与协同项目的边际影响。"
-      ],
+      "id": "midday-20260311-1",
+      "title": "CNBC：伊朗战争风险或导致关键芯片材料短缺，半导体需求承压",
+      "summary": "美以联合军事行动对伊朗的持续威胁可能引发关键芯片制造材料短缺，同时推高能源成本，进一步压制半导体市场需求，引发行业警惕。",
+      "url": "https://www.cnbc.com/2026/03/10/iran-war-semiconductor-memory-chip-impact.html",
+      "source": "CNBC",
+      "publishedAt": "2026-03-11T08:00:00+08:00",
       "tags": [
-        "政策",
-        "宽禁带半导体"
+        "supply-chain",
+        "geopolitics",
+        "memory",
+        "risk"
       ]
     },
     {
-      "region": "international",
-      "title": "韩媒：NVIDIA或在GTC发布新推理芯片，三星与SK海力士HBM竞争预期升温",
-      "source": "Seoul Economic Daily",
-      "published": "2026-03-10 07:xx",
-      "url": "https://en.sedaily.com/international/2026/03/10/nvidias-new-inference-chip-may-reshape-samsung-sk-hbm-battle",
-      "heat": 85,
-      "summary": "<ul><li>报道关注NVIDIA新推理芯片发布预期，以及其对HBM供给侧格局的潜在影响。</li><li>若新品节奏提前，存储与先进封装需求可能继续前置到上游订单与备货环节。</li></ul>",
-      "insights": [
-        "AI推理侧迭代正在成为HBM需求弹性的新增驱动，存储景气与产品节奏绑定更紧。"
-      ],
-      "actions": [
-        "关注GTC后供应链指引变化，重点看HBM、封测与高速互连环节的订单确认。"
-      ],
+      "id": "midday-20260311-2",
+      "title": "Applied Materials CFO：AI芯片需求极其强劲，先进制程产能持续吃紧",
+      "summary": "Applied Materials CFO在行业会议上表示AI驱动的先进逻辑、DRAM及先进封装需求处于快车道，预计增速高于整体设备市场；ICAPS及NAND则相对平淡，NAND受益于技术驱动密度提升，无需大规模新增wafer starts。",
+      "url": "https://www.dailypolitical.com/2026/03/10/applied-materials-cfo-ai-chip-demand-extremely-strong-as-leading-edge-capacity-stays-tight.html",
+      "source": "Daily Political",
+      "publishedAt": "2026-03-11T07:30:00+08:00",
       "tags": [
-        "AI芯片",
-        "HBM"
+        "equipment",
+        "AI",
+        "AMAT",
+        "advanced-packaging",
+        "DRAM"
+      ]
+    },
+    {
+      "id": "midday-20260311-3",
+      "title": "SemiWiki：全球2nm产能告急，TSMC领跑，Intel 18A/三星/Rapidus竞逐",
+      "summary": "随着AI和HPC需求爆发，2nm节点供给出现结构性短缺。TSMC凭借N2领跑量产，Intel 18A外包订单能否如期落地、三星和Rapidus能否形成有效供给补充，成为全行业关注焦点。",
+      "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/367081-global-2nm-supply-crunch-tsmc-leads-as-intel-18a-samsung-and-rapidus-race-to-compete/",
+      "source": "SemiWiki",
+      "publishedAt": "2026-03-11T06:00:00+08:00",
+      "tags": [
+        "TSMC",
+        "Intel",
+        "Samsung",
+        "2nm",
+        "foundry",
+        "capacity"
+      ]
+    },
+    {
+      "id": "midday-20260311-4",
+      "title": "内存约束与需求分化正在压制高通的AI雄心",
+      "summary": "分析指出，三星/SK Hynix将晶圆产能优先导向HBM致使手机LPDDR5供给收紧、价格上涨，进一步打压Snapdragon 8系旗舰手机市场。HBM狂热引发的供应链再平衡，正在系统性重塑移动端AI布局。",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-10-the-silicon-ceiling-why-memory-constraints-and-shifting-demand-are-cooling-qualcomms-ai-ambitions",
+      "source": "Financial Content",
+      "publishedAt": "2026-03-11T08:00:00+08:00",
+      "tags": [
+        "Qualcomm",
+        "HBM",
+        "memory",
+        "LPDDR5",
+        "Samsung",
+        "SK-Hynix"
+      ]
+    },
+    {
+      "id": "midday-20260311-5",
+      "title": "美国出口管制重塑半导体供应链，中国加速本土芯片产能建设",
+      "summary": "美国持续收紧先进半导体出口管制，促使中国加速推进本土晶圆制造能力建设，全球设备流向、设计决策和制造规划正在深刻重构，供应链脱钩趋势加剧。",
+      "url": "https://www.astutegroup.com/news/general/us-export-controls-redraw-semiconductor-supply-chains-as-china-accelerates-domestic-chip-output/",
+      "source": "Astute Group",
+      "publishedAt": "2026-03-10T20:00:00+08:00",
+      "tags": [
+        "export-control",
+        "China",
+        "supply-chain",
+        "localization"
       ]
     }
   ],
   "glossary": [
     {
-      "term": "HBM-PIM",
-      "desc": "在高带宽存储中叠加近存计算能力的方案，目标是降低数据搬运开销并提升AI推理能效。"
+      "term": "LPDDR5",
+      "def": "Low Power Double Data Rate 5，智能手机高端存储标准，目前因HBM挤占晶圆产能而供给趋紧",
+      "consensus": "medium"
     },
     {
-      "term": "Chiplet Interposer Reticle Stitching",
-      "desc": "多芯粒与中介层超曝光拼接技术路径，常用于突破单次光刻面积限制。"
+      "term": "ICAPS",
+      "def": "IoT、通信、汽车、电源、传感器等成熟制程市场（Applied Materials等设备商分类），区别于先进逻辑节点",
+      "consensus": "medium"
     }
-  ],
-  "footer": "版本号(v20260310-1300)｜生成时间(2026-03-10 13:00 Asia/Shanghai)｜commit(7f5b6b2)"
+  ]
 }
