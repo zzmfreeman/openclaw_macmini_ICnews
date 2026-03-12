@@ -1,0 +1,95 @@
+# semi-brief 配置文件
+# 修改规则只需改这里，不需要动脚本
+
+# ── 时间窗 ──────────────────────────────────────────
+time_window:
+  morning: 24    # 06:00 早报：最近 N 小时
+  midday: 6      # 13:00 午报：最近 N 小时
+  afternoon: 6   # 20:00 晚报：最近 N 小时
+
+# ── 条数 ─────────────────────────────────────────────
+count:
+  morning: 15
+  midday: 5
+  afternoon: 5
+
+# ── 国内来源最低占比 ──────────────────────────────────
+domestic_min:
+  morning: 8     # 至少 N 条
+  midday: 3
+  afternoon: 3
+
+# ── Glossary ─────────────────────────────────────────
+glossary_min:
+  morning: 3
+  midday: 2
+  afternoon: 2
+
+# ── NewsAPI 查询关键词（英文，用于 everything 接口）──
+keywords:
+  - semiconductor
+  - chip
+  - EDA
+  - wafer
+  - packaging
+  - ASIC
+  - foundry
+  - AI chip
+  - supply chain
+  - TSMC
+  - Samsung semiconductor
+  - Intel foundry
+
+# ── 国内来源域名白名单 ────────────────────────────────
+domestic_domains:
+  - cailian.net        # 财联社
+  - jiemian.com        # 界面
+  - 36kr.com           # 36氪
+  - cs.com.cn          # 证券时报
+  - stcn.com           # 证券时报网
+  - eetimes.com.cn     # 电子工程专辑
+  - eetchina.com
+  - iczhijia.com       # 芯智讯
+  - aijiwang.com       # 爱集微
+  - xinzhijie.net
+  - laoyaoba.com       # 老鱼吧
+  - semiinsights.com
+  - smm.cn             # 上海有色网
+  - cls.cn             # 财联社
+  - yicai.com          # 第一财经
+  - thepaper.cn        # 澎湃
+  - xinhuanet.com      # 新华网
+
+# ── 链接黑名单（首页/聚合页，不允许收录）────────────
+url_blacklist_patterns:
+  - "^https?://[^/]+/?$"             # 纯域名首页
+  - "/tag/"
+  - "/category/"
+  - "/search"
+  - "/topics/"
+
+# ── 高共识词（不写 glossary）────────────────────────
+glossary_skip:
+  - ASML
+  - TSMC
+  - NVIDIA
+  - AMD
+  - Intel
+  - Samsung
+  - Qualcomm
+  - Apple
+
+# ── 输出路径 ─────────────────────────────────────────
+output:
+  repo_root: "/Users/zzm/.openclaw/workspace/openclaw_macmini_ICnews"
+  morning_json: "brief.json"
+  midday_json: "brief_midday.json"
+  afternoon_json: "brief_afternoon.json"
+  history_json: "history.json"
+  docs_dir: "docs"
+
+# ── GitHub Pages 链接 ────────────────────────────────
+pages:
+  morning: "https://zzmfreeman.github.io/openclaw_macmini_ICnews/"
+  midday: "https://zzmfreeman.github.io/openclaw_macmini_ICnews/midday.html"
+  afternoon: "https://zzmfreeman.github.io/openclaw_macmini_ICnews/afternoon.html"
