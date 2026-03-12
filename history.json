@@ -728,6 +728,19 @@
         "Intel发布史上最快游戏桌面处理器Core Ultra 270K/250K Plus",
         "油价飙升冲击AI芯片股，DDR/GPU涨价推笔记本整机最高涨35%"
       ]
+    },
+    {
+      "version": "v20260312-2001",
+      "generatedAt": "2026-03-12T20:01:00+08:00",
+      "period": "evening",
+      "itemCount": 5,
+      "titles": [
+        "AMD CEO赴韩会见三星李在镕，商讨HBM供应合作",
+        "Applied Materials与Micron联手加速HBM/DRAM研发",
+        "Adeia与UMC扩大混合键合技术长期合作",
+        "Intel发布Heracles全同态加密芯片，算力超Xeon千倍",
+        "台湾Pegatron/GlobalWafers：中东冲突暂未影响运营"
+      ]
     }
   ]
 }

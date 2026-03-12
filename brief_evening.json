@@ -1,111 +1,71 @@
 {
-  "version": "v20260312-1655",
-  "generatedAt": "2026-03-12 16:55 Asia/Shanghai",
-  "commit": "",
-  "type": "afternoon",
-  "asOf": "2026-03-12 16:55 Asia/Shanghai",
-  "windowHours": 6,
-  "keywords": ["Applied Materials", "EPIC Center", "ASE封装", "Samsung Taylor", "Intel Core Ultra", "DDR涨价", "AI数据中心电力"],
+  "version": "v20260312-2001",
+  "generatedAt": "2026-03-12T20:01:00+08:00",
+  "period": "evening",
+  "dataWindow": "2026-03-11T00:00:00Z ~ 2026-03-11T12:00:00Z",
+  "note": "NewsAPI Developer tier存在约24h延迟，当日(03-12)数据暂不可用，本期使用03-11最新批次数据",
   "items": [
     {
-      "rank": 1,
-      "title": "应用材料联手美光/SK海力士开发下一代AI存储芯片",
-      "summary": "Applied Materials宣布与Micron、SK Hynix合作，在新建EPIC研发中心开发AI/HPC用下一代存储芯片，计划5年投入50亿美元。三方联合研发将加速CXL内存与HBM下一代工艺突破。",
-      "source": "Reuters / Techmeme",
-      "published": "2026-03-11",
-      "url": "https://www.techmeme.com/260311/p4",
-      "region": "overseas",
-      "tags": ["supply-chain", "memory", "AMAT"],
-      "insights": [
-        "设备商直接与客户合建R&D中心，标志产业协作模式升级，有利于缩短新工艺导入周期。",
-        "50亿美元R&D投入体量与台积电先进封装投入量级相当，显示存储AI化竞争激烈。"
-      ],
-      "actions": [
-        "关注AMAT EPIC中心后续合作伙伴名单，判断国内存储厂是否进入供应链。",
-        "追踪HBM4/CXL 2.0工艺节点时间表，评估对现有EDA工具链的影响。"
-      ]
+      "id": 1,
+      "title": "AMD CEO赴韩会见三星李在镕，商讨HBM供应合作",
+      "summary": "AMD CEO Lisa Su计划3月18日访韩，与三星会长李在镕会谈，核心议题为AI芯片用高带宽存储器(HBM)的供应保障，同期亦将会见Naver CEO。",
+      "source": "Times of India / Reuters",
+      "publishedAt": "2026-03-11T11:00:08Z",
+      "url": "https://economictimes.indiatimes.com/tech/technology/amd-ceo-to-meet-samsung-chief-in-south-korea-amid-race-for-ai-memory-chips-paper-says/articleshow/129456909.cms",
+      "priority": "high"
     },
     {
-      "rank": 2,
-      "title": "日月光南台湾AI先进封装园区破土，2028Q2竣工",
-      "summary": "ASE在高雄楠梓破土第三技术园区，专注AI先进封装及智慧物流，2026年内开工，预计2028年Q2完工，进一步巩固台湾在CoWoS/SoIC等先进封装领域的产能优势。",
-      "source": "Digitimes",
-      "published": "2026-03-11",
-      "url": "https://www.digitimes.com/news/a20260311PD226/ase-ai-logistics-packaging-testing.html",
-      "region": "overseas",
-      "tags": ["packaging", "ASE", "CoWoS"],
-      "insights": [
-        "ASE持续扩充南台湾产能，与TSMC CoWoS产线形成配套，封测成为AI供应链卡脖子环节之一。",
-        "2028年竣工意味着下一轮AI芯片（预计A200/B300系列）有望获得充足封测产能保障��"
-      ],
-      "actions": [
-        "评估封测产能紧张对当前项目流片后交期的影响，提前锁定ASE/Amkor排期。",
-        "关注国内封测厂（长电/通富）是否有同类先进封装扩产公告。"
-      ]
+      "id": 2,
+      "title": "Applied Materials与Micron联手加速HBM/DRAM研发",
+      "summary": "Applied Materials宣布与Micron合作开发下一代DRAM、HBM及NAND，聚焦AI系统能效提升，双方将整合先进R&D资源联合攻关。",
+      "source": "Madshrimps",
+      "publishedAt": "2026-03-11T11:34:52Z",
+      "url": "https://www.madshrimps.be/news/applied-materials-and-micron-partner-to-accelerate-hbm-nand-and-dram-development/",
+      "priority": "high"
     },
     {
-      "rank": 3,
-      "title": "三星Taylor晶圆厂聚焦HPC与车用芯片，客户数达121",
-      "summary": "三星德州Taylor新厂定位HPC与车用半导体，目前客户数扩展至121家，正加速产能爬坡。该厂采用4nm/3nm节点，是三星在美国本土与TSMC Arizona正面竞争的核心筹码。",
-      "source": "Digitimes",
-      "published": "2026-03-11",
-      "url": "https://www.digitimes.com/news/a20260311PD217/samsung-fab-texas-automotive-hpc-chips.html",
-      "region": "overseas",
-      "tags": ["foundry", "Samsung", "automotive"],
-      "insights": [
-        "客户数121家但良率与交期仍是外界疑虑，HPC/车用客户对良率容忍度低于消费类。",
-        "三星与TSMC在美国竞争加剧，将影响Tier-1晶圆采购的谈判筹码分布。"
-      ],
-      "actions": [
-        "追踪三星Taylor 4nm良率公开数据，判断其对TSMC N4的替代可行性。",
-        "车用客户若向Samsung Taylor迁移，评估对IP授权及设计服务合作方的连带影响。"
-      ]
+      "id": 3,
+      "title": "Adeia与UMC扩大混合键合技术长期合作",
+      "summary": "Adeia（Nasdaq: ADEA）与UMC签署扩展协议，深化在混合键合（Hybrid Bonding）封装技术领域的长期合作，涉及下一代半导体封测解决方案。",
+      "source": "GlobeNewswire",
+      "publishedAt": "2026-03-11T12:00:00Z",
+      "url": "https://www.globenewswire.com/news-release/2026/03/11/3253692/0/en/Adeia-and-UMC-Expand-Long-Term-Collaboration-in-Hybrid-Bonding-Technologies.html",
+      "priority": "medium"
     },
     {
-      "rank": 4,
-      "title": "Intel发布史上最快游戏桌面处理器Core Ultra 270K/250K Plus",
-      "summary": "Intel在Embedded World 2026推出Core Ultra 200K Plus系列，包含270K Plus与250K Plus，主打游戏性能，修正Arrow Lake初代产品游戏表现不足的问题，直接对标AMD Ryzen 9000系列。",
-      "source": "The Verge",
-      "published": "2026-03-11",
-      "url": "https://www.theverge.com/tech/892838/intel-core-ultra-270k-plus-250k-plus-fastest-gaming-cpu-ever",
-      "region": "overseas",
-      "tags": ["cpu", "Intel", "desktop"],
-      "insights": [
-        "Intel持续在桌面市场追赶AMD，中端桌面CPU市场竞争将更激烈，利好PC整机降本。",
-        "Arrow Lake Plus仍基于TSMC N3/N20混合制程，Intel Fab 18量产延迟压力仍在。"
-      ],
-      "actions": [
-        "关注Intel 18A产线爬坡进展，判断对外代工（Foundry Services）能否在2027年前形成实质竞争力。"
-      ]
+      "id": 4,
+      "title": "Intel发布Heracles全同态加密芯片，算力超Xeon千倍",
+      "summary": "Intel披露Heracles专用芯片，采用8192路SIMD架构，可直接在加密数据上运算，FHE数学运算速度较24核Xeon快1074至5547倍，有望消除整类安全攻击面。",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-03-11T11:48:33Z",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/intels-heracles-chip-computes-fully-encrypted-data-without-decrypting-it-chip-is-1-074-to-5-547-times-faster-than-a-24-core-intel-xeon-in-fhe-math-operations",
+      "priority": "medium"
     },
     {
-      "rank": 5,
-      "title": "油价飙升冲击AI芯片股，DDR/GPU涨价推笔记本整机最高涨35%",
-      "summary": "油价大涨推高数据中心电力成本，拖累AI芯片股估值；同期DDR RAM价格上涨叠加入门级Intel处理器短缺，导致笔记本整机价格最高上调35%，2026年全球PC市场出货量预计收缩8%。",
-      "source": "Business Insider / Moneycontrol",
-      "published": "2026-03-11",
-      "url": "https://www.businessinsider.com/oil-price-spike-impact-electricity-power-ai-semiconductor-chips-fab-2026-3",
-      "region": "overseas",
-      "tags": ["market", "DDR", "energy", "GPU"],
-      "insights": [
-        "能源成本上升是AI数据中心的长期结构性压力，将推动液冷/核电等低碳方案提速。",
-        "DDR涨价周期与GPU短缺叠加，对消费类IC设计厂商毛利形成双重压缩。"
-      ],
-      "actions": [
-        "评估DDR价格上涨对在售BOM成本的影响，必要时提前锁定Q3备货合同。",
-        "关注美光、SK海力士DDR5产能爬坡节点，判断价格回落时间窗口。"
-      ]
+      "id": 5,
+      "title": "台湾Pegatron/GlobalWafers：中东冲突暂未影响运营",
+      "summary": "台湾两大科技企业表示中东局势尚未扰乱其生产运营，但高管提示需持续监测供应链风险，GlobalWafers晶圆供应目前保持稳定。",
+      "source": "CNA",
+      "publishedAt": "2026-03-11T10:42:12Z",
+      "url": "https://www.channelnewsasia.com/business/taiwans-pegatron-globalwafers-see-no-immediate-risk-middle-east-war-5986666",
+      "priority": "medium"
     }
   ],
   "glossary": [
     {
-      "term": "EPIC Center",
-      "explanation": "Applied Materials建设中的超大规模半导体R&D联合实验室（Equipment and Process Innovation and Commercialization），供设备商与客户联合研发新工艺。"
+      "term": "HBM (High Bandwidth Memory)",
+      "zh": "高带宽存储器",
+      "desc": "专为AI/HPC设计的堆叠式DRAM，通过硅通孔(TSV)实现超高带宽，是GPU算力扩展的关键瓶颈之一"
     },
     {
-      "term": "HPC（High Performance Computing）",
-      "explanation": "高性能计算，指AI训练/推理、科学计算等对算力要求极高的应用场景，是当前先进制程晶圆厂的核心目标市场。"
+      "term": "Hybrid Bonding",
+      "zh": "混合键合",
+      "desc": "先进封���技术，将芯片与晶圆通过铜-铜直接键合互连，相比传统凸点封装可大幅提升互连密度和带宽"
+    },
+    {
+      "term": "FHE (Fully Homomorphic Encryption)",
+      "zh": "全同态加密",
+      "desc": "允许在不解密的条件下对密文直接进行计算的加密方案，理论上可彻底消除数据处理过程中的暴露风险，但计算开销极高"
     }
-  ],
-  "footer": "Semi-brief 晚报 v20260312-1655 · 数据源: NewsAPI · Generated by OpenClaw"
+  ]
 }
