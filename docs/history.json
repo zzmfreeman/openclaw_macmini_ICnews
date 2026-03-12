@@ -717,6 +717,156 @@
   ],
   "entries": [
     {
+      "version": "v20260313-0600",
+      "generatedAt": "2026-03-13T06:00:00+08:00",
+      "period": "morning",
+      "rank": 1,
+      "title": "Applied Materials联手Micron/SK Hynix建50亿美元AI内存研发中心",
+      "source": "Digitimes / Techmeme",
+      "publishedAt": "2026-03-11T05:20:01Z",
+      "url": "https://www.digitimes.com"
+    },
+    {
+      "version": "v20260313-0600",
+      "generatedAt": "2026-03-13T06:00:00+08:00",
+      "period": "morning",
+      "rank": 2,
+      "title": "Nvidia将CoWoP PCB合作伙伴缩减至三家",
+      "source": "Digitimes",
+      "publishedAt": "2026-03-10T23:49:34Z",
+      "url": "https://www.digitimes.com"
+    },
+    {
+      "version": "v20260313-0600",
+      "generatedAt": "2026-03-13T06:00:00+08:00",
+      "period": "morning",
+      "rank": 3,
+      "title": "分析：台湾建造无法满产的晶圆厂背后逻辑",
+      "source": "Digitimes",
+      "publishedAt": "2026-03-10T23:49:58Z",
+      "url": "https://www.digitimes.com"
+    },
+    {
+      "version": "v20260313-0600",
+      "generatedAt": "2026-03-13T06:00:00+08:00",
+      "period": "morning",
+      "rank": 4,
+      "title": "日本目标2040年芯片产值较2020年增八倍",
+      "source": "The Times of India",
+      "publishedAt": "2026-03-11T03:48:54Z",
+      "url": "https://timesofindia.indiatimes.com"
+    },
+    {
+      "version": "v20260313-0600",
+      "generatedAt": "2026-03-13T06:00:00+08:00",
+      "period": "morning",
+      "rank": 5,
+      "title": "内存股票周期终结？高管称繁荣-崩溃模式成历史",
+      "source": "CNBC",
+      "publishedAt": "2026-03-11T20:56:55Z",
+      "url": "https://www.cnbc.com"
+    },
+    {
+      "version": "v20260313-0600",
+      "generatedAt": "2026-03-13T06:00:00+08:00",
+      "period": "morning",
+      "rank": 6,
+      "title": "Synopsys推出新一代AI芯片设计软件工具",
+      "source": "The Times of India",
+      "publishedAt": "2026-03-11T17:38:30Z",
+      "url": "https://timesofindia.indiatimes.com"
+    },
+    {
+      "version": "v20260313-0600",
+      "generatedAt": "2026-03-13T06:00:00+08:00",
+      "period": "morning",
+      "rank": 7,
+      "title": "HyperLight、UMC与Wavetek宣布TFLN Chiplet晶圆代工战略合作",
+      "source": "Financial Post",
+      "publishedAt": "2026-03-11T18:10:09Z",
+      "url": "https://financialpost.com"
+    },
+    {
+      "version": "v20260313-0600",
+      "generatedAt": "2026-03-13T06:00:00+08:00",
+      "period": "morning",
+      "rank": 8,
+      "title": "Navitas半导体任命新CFO，股价涨逾22%",
+      "source": "GlobeNewswire / IBTimes",
+      "publishedAt": "2026-03-11T20:05:00Z",
+      "url": "https://www.globenewswire.com"
+    },
+    {
+      "version": "v20260313-0600",
+      "generatedAt": "2026-03-13T06:00:00+08:00",
+      "period": "morning",
+      "rank": 9,
+      "title": "三星2025年研发支出达250亿美元创历史新高",
+      "source": "Android Headlines",
+      "publishedAt": "2026-03-11T20:03:28Z",
+      "url": "https://www.androidheadlines.com"
+    },
+    {
+      "version": "v20260313-0600",
+      "generatedAt": "2026-03-13T06:00:00+08:00",
+      "period": "morning",
+      "rank": 10,
+      "title": "Intel发布Arrow Lake Refresh，更多核心以更低价格应对AMD",
+      "source": "Tom's Hardware / TechPowerUp",
+      "publishedAt": "2026-03-11T13:00:00Z",
+      "url": "https://www.tomshardware.com"
+    },
+    {
+      "version": "v20260313-0600",
+      "generatedAt": "2026-03-13T06:00:00+08:00",
+      "period": "morning",
+      "rank": 11,
+      "title": "美中芯片对抗下，开放标准设计者警告RISC-V生态受威胁",
+      "source": "NPR",
+      "publishedAt": "2026-03-11T21:02:24Z",
+      "url": "https://www.npr.org"
+    },
+    {
+      "version": "v20260313-0600",
+      "generatedAt": "2026-03-13T06:00:00+08:00",
+      "period": "morning",
+      "rank": 12,
+      "title": "Meta推出自研MTIA芯片，数周前刚完成大规模Nvidia/AMD采购",
+      "source": "CNBC",
+      "publishedAt": "2026-03-11T14:00:01Z",
+      "url": "https://www.cnbc.com"
+    },
+    {
+      "version": "v20260313-0600",
+      "generatedAt": "2026-03-13T06:00:00+08:00",
+      "period": "morning",
+      "rank": 13,
+      "title": "苹果为iPhone Fold向三星大批量采购12GB LPDDR5X内存",
+      "source": "Wccftech",
+      "publishedAt": "2026-03-11T14:17:17Z",
+      "url": "https://wccftech.com"
+    },
+    {
+      "version": "v20260313-0600",
+      "generatedAt": "2026-03-13T06:00:00+08:00",
+      "period": "morning",
+      "rank": 14,
+      "title": "边缘AI芯片市场报告：2036年规模将超800亿美元",
+      "source": "GlobeNewswire",
+      "publishedAt": "2026-03-11T09:50:00Z",
+      "url": "https://www.globenewswire.com"
+    },
+    {
+      "version": "v20260313-0600",
+      "generatedAt": "2026-03-13T06:00:00+08:00",
+      "period": "morning",
+      "rank": 15,
+      "title": "全球功率电子市场报告：GaN/SiC主导车用与新能源赛道",
+      "source": "GlobeNewswire",
+      "publishedAt": "2026-03-11T09:42:00Z",
+      "url": "https://www.globenewswire.com"
+    },
+    {
       "version": "v20260312-1655",
       "type": "afternoon",
       "generatedAt": "2026-03-12 16:55 Asia/Shanghai",
