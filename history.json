@@ -747,6 +747,217 @@
       "type": "evening",
       "generatedAt": "2026-03-13T20:02:00+08:00",
       "itemCount": 5
+    },
+    {
+      "version": "v20260314-0600",
+      "generatedAt": "2026-03-14 06:00 Asia/Shanghai",
+      "period": "morning",
+      "title": "【置顶】Tesla AI6芯片因三星2nm良率问题延期约6个月",
+      "source": "Electrek",
+      "published": "2026-03-12",
+      "url": "https://electrek.co/",
+      "tags": [
+        "制造工艺",
+        "良率",
+        "AI芯片"
+      ]
+    },
+    {
+      "version": "v20260314-0600",
+      "generatedAt": "2026-03-14 06:00 Asia/Shanghai",
+      "period": "morning",
+      "title": "【置顶】IBM与泛林集团合作推进sub-1nm逻辑，采用High-NA EUV技术",
+      "source": "Tom's Hardware UK",
+      "published": "2026-03-12",
+      "url": "https://www.tomshardware.com/",
+      "tags": [
+        "先进制程",
+        "High-NA EUV",
+        "刻蚀设备"
+      ]
+    },
+    {
+      "version": "v20260314-0600",
+      "generatedAt": "2026-03-14 06:00 Asia/Shanghai",
+      "period": "morning",
+      "title": "三星HBM4E底层Die将采用2nm制程",
+      "source": "TechPowerUp",
+      "published": "2026-03-12",
+      "url": "https://www.techpowerup.com/",
+      "tags": [
+        "HBM",
+        "内存",
+        "先进封装"
+      ]
+    },
+    {
+      "version": "v20260314-0600",
+      "generatedAt": "2026-03-14 06:00 Asia/Shanghai",
+      "period": "morning",
+      "title": "Q4 2025全球前十大晶圆代工营收环比增2.6%，三星市占承压",
+      "source": "TechPowerUp",
+      "published": "2026-03-12",
+      "url": "https://www.techpowerup.com/",
+      "tags": [
+        "晶圆代工",
+        "市场份额",
+        "TrendForce"
+      ]
+    },
+    {
+      "version": "v20260314-0600",
+      "generatedAt": "2026-03-14 06:00 Asia/Shanghai",
+      "period": "morning",
+      "title": "伊朗战争或重创全球数字经济：能源与芯片供应链双重承压",
+      "source": "OilPrice.com",
+      "published": "2026-03-12",
+      "url": "https://oilprice.com/",
+      "tags": [
+        "地缘风险",
+        "供应链",
+        "能源"
+      ]
+    },
+    {
+      "version": "v20260314-0600",
+      "generatedAt": "2026-03-14 06:00 Asia/Shanghai",
+      "period": "morning",
+      "title": "Broadcom在OFC 2026展示面向GW级AI集群的端到端基础设施方案",
+      "source": "GlobeNewswire",
+      "published": "2026-03-12",
+      "url": "https://www.globenewswire.com/news-release/2026/03/12/3255145/19933/en/Broadcom-Showcases-Industry-Leading-Solutions-for-Scaling-AI-Infrastructure-at-OFC-2026.html",
+      "tags": [
+        "AI芯片",
+        "互连",
+        "XPU"
+      ]
+    },
+    {
+      "version": "v20260314-0600",
+      "generatedAt": "2026-03-14 06:00 Asia/Shanghai",
+      "period": "morning",
+      "title": "Dell高管：AI已对内存元器件产生近乎无限的需求",
+      "source": "Nextgov",
+      "published": "2026-03-12",
+      "url": "https://www.nextgov.com/artificial-intelligence/2026/03/ai-has-created-almost-infinite-demand-memory-components-dell-execs-say/412090/",
+      "tags": [
+        "内存",
+        "HBM",
+        "供应链"
+      ]
+    },
+    {
+      "version": "v20260314-0600",
+      "generatedAt": "2026-03-14 06:00 Asia/Shanghai",
+      "period": "morning",
+      "title": "Avicena发布全球首款microLED光学互连评估套件，演示512Gbps链路",
+      "source": "Financial Post / Business Wire",
+      "published": "2026-03-12",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/avicena-launches-the-worlds-first-microled-optical-interconnect-evaluation-kit-for-ai-infrastructure-innovators",
+      "tags": [
+        "光学互连",
+        "CPO",
+        "先进封装"
+      ]
+    },
+    {
+      "version": "v20260314-0600",
+      "generatedAt": "2026-03-14 06:00 Asia/Shanghai",
+      "period": "morning",
+      "title": "ROHM推出新型SiC功率模块，开放线上销售渠道",
+      "source": "GlobeNewswire",
+      "published": "2026-03-12",
+      "url": "https://www.globenewswire.com/news-release/2026/03/12/3255178/0/en/ROHM-s-New-SiC-Power-Modules-Now-Available-for-Online-Purchase.html",
+      "tags": [
+        "SiC",
+        "功率半导体",
+        "电动车"
+      ]
+    },
+    {
+      "version": "v20260314-0600",
+      "generatedAt": "2026-03-14 06:00 Asia/Shanghai",
+      "period": "morning",
+      "title": "ASM International发布2025年年报，ALD设备需求强劲",
+      "source": "GlobeNewswire",
+      "published": "2026-03-12",
+      "url": "https://www.globenewswire.com/news-release/2026/03/12/3255145/",
+      "tags": [
+        "半导体设备",
+        "ALD",
+        "GAA"
+      ]
+    },
+    {
+      "version": "v20260314-0600",
+      "generatedAt": "2026-03-14 06:00 Asia/Shanghai",
+      "period": "morning",
+      "title": "Apple M5 MacBook Air发布，台积电3nm代工份额获进一步背书",
+      "source": "Gadget Flow",
+      "published": "2026-03-12",
+      "url": "https://thegadgetflow.com/blog/m5-macbook-air-vs-m4-macbook-air/",
+      "tags": [
+        "Apple Silicon",
+        "3nm",
+        "消费电子"
+      ]
+    },
+    {
+      "version": "v20260314-0600",
+      "generatedAt": "2026-03-14 06:00 Asia/Shanghai",
+      "period": "morning",
+      "title": "中国品牌Chuwi以Ryzen 5430U名义销售实为5500U的笔记本",
+      "source": "TechPowerUp",
+      "published": "2026-03-12",
+      "url": "https://www.techpowerup.com/347336/chinese-laptop-maker-chuwi-advertised-amd-ryzen-5-7430u-soc-but-shipped-the-older-ryzen-5-5500u",
+      "tags": [
+        "供应链合规",
+        "AMD",
+        "消费电子"
+      ]
+    },
+    {
+      "version": "v20260314-0600",
+      "generatedAt": "2026-03-14 06:00 Asia/Shanghai",
+      "period": "morning",
+      "title": "英国Filtronic获政府支持，推进国防级半导体封装技术创新",
+      "source": "UK Gov",
+      "published": "2026-03-12",
+      "url": "https://www.gov.uk/",
+      "tags": [
+        "化合物半导体",
+        "国防",
+        "封装"
+      ]
+    },
+    {
+      "version": "v20260314-0600",
+      "generatedAt": "2026-03-14 06:00 Asia/Shanghai",
+      "period": "morning",
+      "title": "MKS Instruments获SBTi批准科学减碳目标",
+      "source": "GlobeNewswire",
+      "published": "2026-03-12",
+      "url": "https://www.globenewswire.com/news-release/2026/03/12/3255154/16396/en/MKS-Inc-Announces-SBTi-Approval-of-Science-Based-Emissions-Reduction-Targets.html",
+      "tags": [
+        "半导体设备",
+        "ESG",
+        "MKS"
+      ]
+    },
+    {
+      "version": "v20260314-0600",
+      "generatedAt": "2026-03-14 06:00 Asia/Shanghai",
+      "period": "morning",
+      "title": "MIT推出电气工程与计算融合新学位，成为最热门专业之一",
+      "source": "MIT News",
+      "published": "2026-03-12",
+      "url": "https://news.mit.edu/2026/discovering-joy-future-forward-electrical-engineering-0312",
+      "tags": [
+        "人才",
+        "芯片设计教育",
+        "EE+CS"
+      ]
     }
-  ]
+  ],
+  "lastUpdated": "2026-03-14 06:00 Asia/Shanghai"
 }
