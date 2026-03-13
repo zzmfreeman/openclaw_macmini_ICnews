@@ -1,97 +1,63 @@
 {
-  "version": "v20260311-1300",
-  "type": "midday",
-  "generatedAt": "2026-03-11T13:00:00+08:00",
-  "commit": "2a95c66",
-  "timeWindow": "6h",
-  "itemCount": 5,
+  "version": "v20260313-1300",
+  "generatedAt": "2026-03-13T13:00:58+08:00",
+  "period": "midday",
+  "commit": "",
   "items": [
     {
-      "id": "midday-20260311-1",
-      "title": "CNBC：伊朗战争风险或导致关键芯片材料短缺，半导体需求承压",
-      "summary": "美以联合军事行动对伊朗的持续威胁可能引发关键芯片制造材料短缺，同时推高能源成本，进一步压制半导体市场需求，引发行业警惕。",
-      "url": "https://www.cnbc.com/2026/03/10/iran-war-semiconductor-memory-chip-impact.html",
-      "source": "CNBC",
-      "publishedAt": "2026-03-11T08:00:00+08:00",
-      "tags": [
-        "supply-chain",
-        "geopolitics",
-        "memory",
-        "risk"
-      ]
+      "id": "20260313-1300-01",
+      "rank": 1,
+      "title": "芯片股因中东海运攻击消息集体下跌",
+      "summary": "伊朗附近传出新一轮船运袭击报告，NVDA、TSMC、INTC等芯片股跌幅扩大，市场对供应链中断风险高度敏感。",
+      "source": "Asianet Newsable",
+      "publishedAt": "2026-03-12T15:00:00Z",
+      "heat": 96
     },
     {
-      "id": "midday-20260311-2",
-      "title": "Applied Materials CFO：AI芯片需求极其强劲，先进制程产能持续吃紧",
-      "summary": "Applied Materials CFO在行业会议上表示AI驱动的先进逻辑、DRAM及先进封装需求处于快车道，预计增速高于整体设备市场；ICAPS及NAND则相对平淡，NAND受益于技术驱动密度提升，无需大规模新增wafer starts。",
-      "url": "https://www.dailypolitical.com/2026/03/10/applied-materials-cfo-ai-chip-demand-extremely-strong-as-leading-edge-capacity-stays-tight.html",
-      "source": "Daily Political",
-      "publishedAt": "2026-03-11T07:30:00+08:00",
-      "tags": [
-        "equipment",
-        "AI",
-        "AMAT",
-        "advanced-packaging",
-        "DRAM"
-      ]
+      "id": "20260313-1300-02",
+      "rank": 2,
+      "title": "印度拟推110亿美元芯片制造专项基金",
+      "summary": "印度政府计划推出约1万亿卢比（约110亿美元）专项基金，补贴芯片设计、制造设备及供应链，莫迪政府加速推进半导体本土化战略。",
+      "source": "Economic Times / Times of India",
+      "publishedAt": "2026-03-12T12:00:00Z",
+      "heat": 93
     },
     {
-      "id": "midday-20260311-3",
-      "title": "SemiWiki：全球2nm产能告急，TSMC领跑，Intel 18A/三星/Rapidus竞逐",
-      "summary": "随着AI和HPC需求爆发，2nm节点供给出现结构性短缺。TSMC凭借N2领跑量产，Intel 18A外包订单能否如期落地、三星和Rapidus能否形成有效供给补充，成为全行业关注焦点。",
-      "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/367081-global-2nm-supply-crunch-tsmc-leads-as-intel-18a-samsung-and-rapidus-race-to-compete/",
-      "source": "SemiWiki",
-      "publishedAt": "2026-03-11T06:00:00+08:00",
-      "tags": [
-        "TSMC",
-        "Intel",
-        "Samsung",
-        "2nm",
-        "foundry",
-        "capacity"
-      ]
+      "id": "20260313-1300-03",
+      "rank": 3,
+      "title": "Cadence ChipStack AI平台超预期，38亿美元积压订单护航2026",
+      "summary": "Cadence设计系统凭借AI辅助芯片设计平台ChipStack大幅超越季度预期，38亿美元积压订单基本锁定全年收入，EDA赛道景气度创新高。",
+      "source": "FinancialContent / MarketMinute",
+      "publishedAt": "2026-03-12T16:00:00Z",
+      "heat": 91
     },
     {
-      "id": "midday-20260311-4",
-      "title": "内存约束与需求分化正在压制高通的AI雄心",
-      "summary": "分析指出，三星/SK Hynix将晶圆产能优先导向HBM致使手机LPDDR5供给收紧、价格上涨，进一步打压Snapdragon 8系旗舰手机市场。HBM狂热引发的供应链再平衡，正在系统性重塑移动端AI布局。",
-      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-10-the-silicon-ceiling-why-memory-constraints-and-shifting-demand-are-cooling-qualcomms-ai-ambitions",
-      "source": "Financial Content",
-      "publishedAt": "2026-03-11T08:00:00+08:00",
-      "tags": [
-        "Qualcomm",
-        "HBM",
-        "memory",
-        "LPDDR5",
-        "Samsung",
-        "SK-Hynix"
-      ]
+      "id": "20260313-1300-04",
+      "rank": 4,
+      "title": "AI需求拉动代工厂Q4营收，三星代工份额回升",
+      "summary": "TrendForce数据：2025Q4全球前十大晶圆代工厂营收受AI基础设施与新机发布双轮驱动，三星代工凭借HPC客户增加份额回升。",
+      "source": "Evertiq",
+      "publishedAt": "2026-03-12T06:00:00Z",
+      "heat": 89
     },
     {
-      "id": "midday-20260311-5",
-      "title": "美国出口管制重塑半导体供应链，中国加速本土芯片产能建设",
-      "summary": "美国持续收紧先进半导体出口管制，促使中国加速推进本土晶圆制造能力建设，全球设备流向、设计决策和制造规划正在深刻重构，供应链脱钩趋势加剧。",
-      "url": "https://www.astutegroup.com/news/general/us-export-controls-redraw-semiconductor-supply-chains-as-china-accelerates-domestic-chip-output/",
-      "source": "Astute Group",
-      "publishedAt": "2026-03-10T20:00:00+08:00",
-      "tags": [
-        "export-control",
-        "China",
-        "supply-chain",
-        "localization"
-      ]
+      "id": "20260313-1300-05",
+      "rank": 5,
+      "title": "Semco将为Tesla AI芯片提供ABF基板，经由三星德州代工",
+      "summary": "三星电机（Semco）有望成为Tesla下一代AI芯片ABF基板独家供应商，该芯片将由三星电子在德州Taylor工厂代工，供应链三方协同格局初现。",
+      "source": "Digitimes",
+      "publishedAt": "2026-03-12T02:00:00Z",
+      "heat": 87
     }
   ],
   "glossary": [
     {
-      "term": "LPDDR5",
-      "def": "Low Power Double Data Rate 5，智能手机高端存储标准，目前因HBM挤占晶圆产能而供给趋紧",
-      "consensus": "medium"
+      "term": "ABF基板",
+      "explanation": "Ajinomoto Build-up Film基板，用于高端处理器与AI芯片的高密度封装载板，为CoWoS/3D封装关键材料。"
     },
     {
-      "term": "ICAPS",
-      "def": "IoT、通信、汽车、电源、传感器等成熟制程市场（Applied Materials等设备商分类），区别于先进逻辑节点",
-      "consensus": "medium"
+      "term": "ChipStack",
+      "explanation": "Cadence推出的AI原生芯片设计平台，整合仿真、验证与RTL综合全流程，面向AI/HPC先进节点优化。"
     }
   ]
 }
