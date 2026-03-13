@@ -741,6 +741,12 @@
         "Intel发布Heracles全同态加密芯片，算力超Xeon千倍",
         "台湾Pegatron/GlobalWafers：中东冲突暂未影响运营"
       ]
+    },
+    {
+      "version": "v20260313-2002",
+      "type": "evening",
+      "generatedAt": "2026-03-13T20:02:00+08:00",
+      "itemCount": 5
     }
   ]
 }

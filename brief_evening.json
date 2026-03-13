@@ -1,71 +1,91 @@
 {
-  "version": "v20260312-2001",
-  "generatedAt": "2026-03-12T20:01:00+08:00",
-  "period": "evening",
-  "dataWindow": "2026-03-11T00:00:00Z ~ 2026-03-11T12:00:00Z",
-  "note": "NewsAPI Developer tier存在约24h延迟，当日(03-12)数据暂不可用，本期使用03-11最新批次数据",
+  "version": "v20260313-2002",
+  "type": "evening",
+  "generatedAt": "2026-03-13T20:02:00+08:00",
+  "commit": "",
   "items": [
     {
-      "id": 1,
-      "title": "AMD CEO赴韩会见三星李在镕，商讨HBM供应合作",
-      "summary": "AMD CEO Lisa Su计划3月18日访韩，与三星会长李在镕会谈，核心议题为AI芯片用高带宽存储器(HBM)的供应保障，同期亦将会见Naver CEO。",
-      "source": "Times of India / Reuters",
-      "publishedAt": "2026-03-11T11:00:08Z",
-      "url": "https://economictimes.indiatimes.com/tech/technology/amd-ceo-to-meet-samsung-chief-in-south-korea-amid-race-for-ai-memory-chips-paper-says/articleshow/129456909.cms",
-      "priority": "high"
+      "rank": 1,
+      "title_zh": "卡塔尔���气断供，芯片供应链进入两周倒计时",
+      "summary_zh": "伊朗无人机袭击卡塔尔Ras Laffan设施已9天，QatarEnergy氦气生产仍未恢复，SK海力士被迫分散氦气采购来源，影响全球约30%氦气供应。",
+      "source": "Tom's Hardware UK",
+      "published_at": "2026-03-12T10:53:13Z",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock",
+      "tags": [
+        "supply-chain",
+        "helium",
+        "SK-Hynix",
+        "critical-materials"
+      ]
     },
     {
-      "id": 2,
-      "title": "Applied Materials与Micron联手加速HBM/DRAM研发",
-      "summary": "Applied Materials宣布与Micron合作开发下一代DRAM、HBM及NAND，聚焦AI系统能效提升，双方将整合先进R&D资源联合攻关。",
-      "source": "Madshrimps",
-      "publishedAt": "2026-03-11T11:34:52Z",
-      "url": "https://www.madshrimps.be/news/applied-materials-and-micron-partner-to-accelerate-hbm-nand-and-dram-development/",
-      "priority": "high"
+      "rank": 2,
+      "title_zh": "中芯国际：存���与BCD成熟制程产能告急，价格上涨",
+      "summary_zh": "SMIC披露成熟节点存储和BCD制程订单爆满，AI需求带动整条半导体供应链收紧，成熟制程晶圆价格随之走高。",
+      "source": "Digitimes",
+      "published_at": "2026-03-12T02:17:12Z",
+      "url": "https://www.digitimes.com/news/a20260312VL201.html",
+      "tags": [
+        "SMIC",
+        "mature-node",
+        "BCD",
+        "wafer-price",
+        "supply-squeeze"
+      ]
     },
     {
-      "id": 3,
-      "title": "Adeia与UMC扩大混合键合技术长期合作",
-      "summary": "Adeia（Nasdaq: ADEA）与UMC签署扩展协议，深化在混合键合（Hybrid Bonding）封装技术领域的长期合作，涉及下一代半导体封测解决方案。",
-      "source": "GlobeNewswire",
-      "publishedAt": "2026-03-11T12:00:00Z",
-      "url": "https://www.globenewswire.com/news-release/2026/03/11/3253692/0/en/Adeia-and-UMC-Expand-Long-Term-Collaboration-in-Hybrid-Bonding-Technologies.html",
-      "priority": "medium"
+      "rank": 3,
+      "title_zh": "TrendForce：Q4'25全球前十晶圆代工营收环比+2.6%，三星份额提升",
+      "summary_zh": "AI服务器GPU与Google TPU供货持续紧张推动先进制程需求，三星先进制程良率改善使市场份额扩大，Tower Semiconductor排名上升。",
+      "source": "TechPowerUp",
+      "published_at": "2026-03-12T10:22:42Z",
+      "url": "https://www.techpowerup.com/330892/ai-demand-drives-4q25-global-top-10-foundries-revenue-up-2-6-qoq",
+      "tags": [
+        "foundry",
+        "TrendForce",
+        "market-share",
+        "Samsung",
+        "advanced-node"
+      ]
     },
     {
-      "id": 4,
-      "title": "Intel发布Heracles全同态加密芯片，算力超Xeon千倍",
-      "summary": "Intel披露Heracles专用芯片，采用8192路SIMD架构，可直接在加密数据上运算，FHE数学运算速度较24核Xeon快1074至5547倍，有望消除整类安全攻击面。",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-03-11T11:48:33Z",
-      "url": "https://www.tomshardware.com/tech-industry/cyber-security/intels-heracles-chip-computes-fully-encrypted-data-without-decrypting-it-chip-is-1-074-to-5-547-times-faster-than-a-24-core-intel-xeon-in-fhe-math-operations",
-      "priority": "medium"
+      "rank": 4,
+      "title_zh": "印度拟设110亿美元半导体专项基金",
+      "summary_zh": "印度计划设立约1万亿卢比（约110亿美元）国家半导体基金，补贴芯片设计、制造设备及建厂，目标成为全球制造枢纽。",
+      "source": "The Times of India",
+      "published_at": "2026-03-12T09:04:19Z",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/india-plans-new-11-billion-fund-to-support-local-chipmaking/",
+      "tags": [
+        "India",
+        "semiconductor-policy",
+        "government-fund",
+        "fab-investment"
+      ]
     },
     {
-      "id": 5,
-      "title": "台湾Pegatron/GlobalWafers：中东冲突暂未影响运营",
-      "summary": "台湾两大科技企业表示中东局势尚未扰乱其生产运营，但高管提示需持续监测供应链风险，GlobalWafers晶圆供应目前保持稳定。",
-      "source": "CNA",
-      "publishedAt": "2026-03-11T10:42:12Z",
-      "url": "https://www.channelnewsasia.com/business/taiwans-pegatron-globalwafers-see-no-immediate-risk-middle-east-war-5986666",
-      "priority": "medium"
+      "rank": 5,
+      "title_zh": "HyperLight联合UMC、Wavetek量产TFLN Chiplet平台",
+      "summary_zh": "三方宣布战略合作，依托UMC晶圆代工能力大规模生产薄膜铌酸锂（TFLN）光子芯粒平台，面向高速光互联与AI数据中心市场。",
+      "source": "Financial Post",
+      "published_at": "2026-03-11T18:10:09Z",
+      "url": "https://financialpost.com/pmn/press-releases-pmn/globe-newswire-releases/hyperlight-umc-and-wavetek-announce-strategic-partnership",
+      "tags": [
+        "UMC",
+        "photonics",
+        "TFLN",
+        "chiplet",
+        "advanced-packaging"
+      ]
     }
   ],
   "glossary": [
     {
-      "term": "HBM (High Bandwidth Memory)",
-      "zh": "高带宽存储器",
-      "desc": "专为AI/HPC设计的堆叠式DRAM，通过硅通孔(TSV)实现超高带宽，是GPU算力扩展的关键瓶颈之一"
+      "term": "BCD制程",
+      "definition": "Bipolar-CMOS-DMOS集成工艺，广泛用于电源管理IC、汽车电子等模拟混合信号芯片"
     },
     {
-      "term": "Hybrid Bonding",
-      "zh": "混合键合",
-      "desc": "先进封���技术，将芯片与晶圆通过铜-铜直接键合互连，相比传统凸点封装可大幅提升互连密度和带宽"
-    },
-    {
-      "term": "FHE (Fully Homomorphic Encryption)",
-      "zh": "全同态加密",
-      "desc": "允许在不解密的条件下对密文直接进行计算的加密方案，理论上可彻底消除数据处理过程中的暴露风险，但计算开销极高"
+      "term": "TFLN（薄膜铌酸锂）",
+      "definition": "新型光子芯片材料，调制速度极快、功耗低，被视为下一代光互联及AI数据中心光子集成电路的核心平台"
     }
   ]
 }
