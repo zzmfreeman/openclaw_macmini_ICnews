@@ -1,63 +1,65 @@
 {
-  "version": "v20260313-1300",
-  "generatedAt": "2026-03-13T13:00:58+08:00",
-  "period": "midday",
-  "commit": "",
+  "version": "v20260314-1300",
+  "type": "midday",
+  "generatedAt": "2026-03-14T13:00:00+08:00",
+  "commit": "pending",
+  "window": "6h",
+  "count": 5,
   "items": [
     {
-      "id": "20260313-1300-01",
       "rank": 1,
-      "title": "芯片股因中东海运攻击消息集体下跌",
-      "summary": "伊朗附近传出新一轮船运袭击报告，NVDA、TSMC、INTC等芯片股跌幅扩大，市场对供应链中断风险高度敏感。",
-      "source": "Asianet Newsable",
-      "publishedAt": "2026-03-12T15:00:00Z",
-      "heat": 96
+      "title_cn": "【并购】BESI收购兴趣浮现，先进封装需求激增",
+      "summary_cn": "BE Semiconductor(BESI)市值约140亿欧元，已委托摩根士丹利评估收购要约，先进封装技���需求为主要催化剂。",
+      "source": "Reuters / Economic Times",
+      "publishedAt": "2026-03-13T03:16:45Z",
+      "url": "https://economictimes.indiatimes.com/tech/technology/besi-attracts-takeover-interest-as-advanced-chip-packaging-demand-surges-sources-say/articleshow/129534542.cms",
+      "tag": "M&A"
     },
     {
-      "id": "20260313-1300-02",
       "rank": 2,
-      "title": "印度拟推110亿美元芯片制造专项基金",
-      "summary": "印度政府计划推出约1万亿卢比（约110亿美元）专项基金，补贴芯片设计、制造设备及供应链，莫迪政府加速推进半导体本土化战略。",
-      "source": "Economic Times / Times of India",
-      "publishedAt": "2026-03-12T12:00:00Z",
-      "heat": 93
-    },
-    {
-      "id": "20260313-1300-03",
-      "rank": 3,
-      "title": "Cadence ChipStack AI平台超预期，38亿美元积压订单护航2026",
-      "summary": "Cadence设计系统凭借AI辅助芯片设计平台ChipStack大幅超越季度预期，38亿美元积压订单基本锁定全年收入，EDA赛道景气度创新高。",
-      "source": "FinancialContent / MarketMinute",
-      "publishedAt": "2026-03-12T16:00:00Z",
-      "heat": 91
-    },
-    {
-      "id": "20260313-1300-04",
-      "rank": 4,
-      "title": "AI需求拉动代工厂Q4营收，三星代工份额回升",
-      "summary": "TrendForce数据：2025Q4全球前十大晶圆代工厂营收受AI基础设施与新机发布双轮驱动，三星代工凭借HPC客户增加份额回升。",
-      "source": "Evertiq",
-      "publishedAt": "2026-03-12T06:00:00Z",
-      "heat": 89
-    },
-    {
-      "id": "20260313-1300-05",
-      "rank": 5,
-      "title": "Semco将为Tesla AI芯片提供ABF基板，经由三星德州代工",
-      "summary": "三星电机（Semco）有望成为Tesla下一代AI芯片ABF基板独家供应商，该芯片将由三星电子在德州Taylor工厂代工，供应链三方协同格局初现。",
+      "title_cn": "中东冲突推高芯片材料价格翻倍",
+      "summary_cn": "中东局势紧张导致全球能源供应担忧，钨、钽、钼等高温金属价格已翻倍，化合物半导体供应链全面警戒。",
       "source": "Digitimes",
-      "publishedAt": "2026-03-12T02:00:00Z",
-      "heat": 87
+      "publishedAt": "2026-03-13T04:32:42Z",
+      "url": "https://www.digitimes.com/news/a20260313PD229/compound-semiconductor-chemical-materials-gallium-logistics-supply-chain.html",
+      "tag": "材料/供应链"
+    },
+    {
+      "rank": 3,
+      "title_cn": "伊朗危机威胁韩国半导体供应链",
+      "summary_cn": "中东局势升级，韩国中小出口企业受冲击，半导体行业关注原材料及物流供应链潜在风险。",
+      "source": "Digitimes",
+      "publishedAt": "2026-03-13T03:49:28Z",
+      "url": "https://www.digitimes.com/news/a20260313PD218/sme-exports-production-investment.html",
+      "tag": "地缘风险"
+    },
+    {
+      "rank": 4,
+      "title_cn": "印度拟推110亿美元芯片基金及手机出口激励",
+      "summary_cn": "印度政府据报考虑逾110亿美元半导体发展基金，同步设计智能手机出口激励计划，强化本土电子制造能力。",
+      "source": "Digitimes / Bloomberg / Reuters",
+      "publishedAt": "2026-03-13T02:22:43Z",
+      "url": "https://www.digitimes.com/news/a20260313VL202/smartphone-incentives-bloomberg-manufacturing-electronics.html",
+      "tag": "政策/补贴"
+    },
+    {
+      "rank": 5,
+      "title_cn": "京元电子2月营收32.2亿台币，同比大幅增长",
+      "summary_cn": "KYEC（京元电子）2026年2月营收约1.009亿美元，同比显著增长，半导体测试需求持续旺盛。",
+      "source": "Digitimes",
+      "publishedAt": "2026-03-13T01:51:31Z",
+      "url": "https://www.digitimes.com/news/a20260313VL204/king-yuan-revenue-testing-2026.html",
+      "tag": "封测"
     }
   ],
   "glossary": [
     {
-      "term": "ABF基板",
-      "explanation": "Ajinomoto Build-up Film基板，用于高端处理器与AI芯片的高密度封装载板，为CoWoS/3D封装关键材料。"
+      "term": "BESI",
+      "definition": "BE Semiconductor Industries，荷兰封装设备龙��，专注混合键合、倒装焊等先进封装互联设备"
     },
     {
-      "term": "ChipStack",
-      "explanation": "Cadence推出的AI原生芯片设计平台，整合仿真、验证与RTL综合全流程，面向AI/HPC先进节点优化。"
+      "term": "先进封装（Advanced Packaging）",
+      "definition": "指Chiplet、混合键合、Fan-Out等超越传统引线键合的高密度互联封装技术，是后摩尔时代性能提升核心路径"
     }
   ]
 }
