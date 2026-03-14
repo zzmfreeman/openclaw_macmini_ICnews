@@ -957,14 +957,95 @@
         "芯片设计教育",
         "EE+CS"
       ]
+    },
+    {
+      "version": "v20260314-1546",
+      "generatedAt": "2026-03-14 15:46 CST",
+      "period": "midday",
+      "title": "4Q25全球十大晶圆代工营收环比增2.6%",
+      "source": "Madshrimps.be",
+      "published": "2026-03-13",
+      "url": "https://www.madshrimps.be/news/ai-demand-drives-4q25-global-top-10-foundries-revenue-up-2-6-qoq-samsung-gains-share-and-tower-moves-up-in-rankings/",
+      "tags": [
+        "foundry",
+        "AI-chip",
+        "Samsung",
+        "TrendForce"
+      ]
+    },
+    {
+      "version": "v20260314-1546",
+      "generatedAt": "2026-03-14 15:46 CST",
+      "period": "midday",
+      "title": "海光信息营收暴增57%，AI算力驱动国产x86崛起",
+      "source": "Digitimes",
+      "published": "2026-03-13",
+      "url": "https://www.digitimes.com/news/a20260313VL210/china-genai-x86-revenue-demand.html",
+      "tags": [
+        "Hygon",
+        "x86",
+        "China-chip",
+        "AI-compute"
+      ]
+    },
+    {
+      "version": "v20260314-1546",
+      "generatedAt": "2026-03-14 15:46 CST",
+      "period": "midday",
+      "title": "中国晶圆代工厂Nexchip宣布涨价",
+      "source": "Digitimes",
+      "published": "2026-03-13",
+      "url": "https://www.digitimes.com/news/a20260313VL214/nexchip-wafer-cis-demand-market.html",
+      "tags": [
+        "Nexchip",
+        "wafer-price",
+        "CIS",
+        "mature-node"
+      ]
+    },
+    {
+      "version": "v20260314-1546",
+      "generatedAt": "2026-03-14 15:46 CST",
+      "period": "midday",
+      "title": "特斯拉AI芯片延期拖累DeepX推迟六个月",
+      "source": "Digitimes",
+      "published": "2026-03-13",
+      "url": "https://www.digitimes.com/news/a20260311VL207/tesla-deepx-samsung-ai-chip-startup.html",
+      "tags": [
+        "Tesla",
+        "DeepX",
+        "NPU",
+        "Samsung-foundry"
+      ]
+    },
+    {
+      "version": "v20260314-1546",
+      "generatedAt": "2026-03-14 15:46 CST",
+      "period": "midday",
+      "title": "字节跳动海外囤算力令华盛顿陷两难",
+      "source": "Digitimes",
+      "published": "2026-03-13",
+      "url": "https://www.digitimes.com/news/a20260313VL218/bytedance-ai-chip-technology-chips-nvidia.html",
+      "tags": [
+        "ByteDance",
+        "export-control",
+        "AI-chip",
+        "geopolitics"
+      ]
     }
   ],
-  "lastUpdated": "2026-03-14 06:00 Asia/Shanghai",
+  "lastUpdated": "2026-03-14 15:46 CST",
   "items": [
     {
       "version": "v20260314-1447",
       "period": "midday",
       "generatedAt": "2026-03-14T06:47:00Z",
+      "itemCount": 5
+    },
+    {
+      "version": "v20260314-1546",
+      "period": "midday",
+      "generatedAt": "2026-03-14 15:46 CST",
       "itemCount": 5
     }
   ]

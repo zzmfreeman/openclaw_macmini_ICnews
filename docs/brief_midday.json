@@ -1,64 +1,119 @@
 {
-  "version": "v20260314-1447",
-  "generatedAt": "2026-03-14T06:47:00Z",
-  "generatedAtLocal": "2026-03-14 14:47 CST",
+  "version": "v20260314-1546",
+  "generatedAt": "2026-03-14 15:46 CST",
   "period": "midday",
   "commit": "",
   "items": [
     {
       "id": 1,
-      "title": "特斯拉AI芯片延期拖累韩国NPU初创DeepX推迟六个月",
-      "summary": "特斯拉下一代AI处理器计划变更，连带三星代工时间线受阻，DeepX旗下AI加速器量产计划推迟约六个月。",
-      "source": "Digitimes",
-      "publishedAt": "2026-03-13T06:44:39Z",
-      "url": "https://www.digitimes.com/news/a20260311VL207/tesla-deepx-samsung-ai-chip-startup.html",
-      "tags": ["AI芯片", "代工", "三星", "初创"]
+      "title": "4Q25全球十大晶圆代工营收环比增2.6%",
+      "summary": "AI服务器GPU和谷歌TPU供应偏紧支撑先进制程需求，三星代工市占提升，Tower升至前十榜单。",
+      "source": "Madshrimps.be",
+      "published": "2026-03-13",
+      "url": "https://www.madshrimps.be/news/ai-demand-drives-4q25-global-top-10-foundries-revenue-up-2-6-qoq-samsung-gains-share-and-tower-moves-up-in-rankings/",
+      "tags": [
+        "foundry",
+        "AI-chip",
+        "Samsung",
+        "TrendForce"
+      ],
+      "insights": [
+        "三星代工份额逆势上升，先进制程竞争格局生变",
+        "AI GPU持续拉动代工产能，供应链需提前锁量"
+      ],
+      "actions": [
+        "关注三星先进制程产能排期，评估备选供应商"
+      ]
     },
     {
       "id": 2,
-      "title": "芯片材料价格翻倍，化合物半导体供应链拉响警报",
-      "summary": "中东局势推升能源与原材料成本，钨、钽、钼等高温金属价格翻倍，化合物半导体厂商面临供应链压力。",
+      "title": "海光信息营收暴增57%，AI算力驱动国产x86崛起",
+      "summary": "生成式AI需求爆发加速中国本土AI芯片替代，海光凭借x86架构算力产品实现高速增长。",
       "source": "Digitimes",
-      "publishedAt": "2026-03-13T04:32:42Z",
-      "url": "https://www.digitimes.com/news/a20260313PD229/compound-semiconductor-chemical-materials-gallium-logistics-supply-chain.html",
-      "tags": ["供应链", "化合物半导体", "原材料", "地缘政治"]
+      "published": "2026-03-13",
+      "url": "https://www.digitimes.com/news/a20260313VL210/china-genai-x86-revenue-demand.html",
+      "tags": [
+        "Hygon",
+        "x86",
+        "China-chip",
+        "AI-compute"
+      ],
+      "insights": [
+        "国产算力替代加速，海光成为英特尔/AMD替代路径之一",
+        "中国AI基础设施建设需求将持续支撑本土芯片放量"
+      ],
+      "actions": [
+        "跟踪海光上游晶圆/封装供应商动态，挖掘供应链机会"
+      ]
     },
     {
       "id": 3,
-      "title": "字节跳动海外算力布局令华盛顿陷入两难",
-      "summary": "字节跳动寻求在中国境外大量采购高端AI算力，英伟达芯片出口管制与地缘政治博弈再度升温。",
+      "title": "中国晶圆代工厂Nexchip宣布涨价",
+      "summary": "Nexchip确认对部分晶圆代工产品涨价，结合CIS业务增长与产能扩张，反映国内成熟制程供需收紧。",
       "source": "Digitimes",
-      "publishedAt": "2026-03-13T06:36:48Z",
-      "url": "https://www.digitimes.com/news/a20260313VL218/bytedance-ai-chip-technology-chips-nvidia.html",
-      "tags": ["AI算力", "出口管制", "字节跳动", "地缘政治"]
+      "published": "2026-03-13",
+      "url": "https://www.digitimes.com/news/a20260313VL214/nexchip-wafer-cis-demand-market.html",
+      "tags": [
+        "Nexchip",
+        "wafer-price",
+        "CIS",
+        "mature-node"
+      ],
+      "insights": [
+        "成熟制程晶圆价格向上拐点或已出现，采购锁价窗口收窄",
+        "CIS需求回暖叠加厂商扩产，下半年供需或重新平衡"
+      ],
+      "actions": [
+        "尽快与国内代工供应商确认Q3/Q4订单价格，规避成本上升风险"
+      ],
+      "glossary": [
+        {
+          "term": "CIS",
+          "desc": "CMOS图像传感器，广泛用于手机/汽车摄像头"
+        }
+      ]
     },
     {
       "id": 4,
-      "title": "GTC 2026预测：英伟达将面临Token吞吐量瓶颈挑战",
-      "summary": "《The Register》梳理GTC 2026看点：代理AI系统token需求激增，英伟达需回答如何在高吞吐下维持芯片优势。",
-      "source": "The Register",
-      "publishedAt": "2026-03-13T06:30:06Z",
-      "url": "https://www.theregister.com/2026/03/13/nvidia_gtc_2026_preview_tobias_mann_register/",
-      "tags": ["英伟达", "GTC", "AI推理", "GPU"]
+      "title": "特斯拉AI芯片延期拖累DeepX推迟六个月",
+      "summary": "特斯拉下一代AI处理器计划变更，三星代工时间线随之受阻，韩国NPU初创DeepX量产延迟约半年。",
+      "source": "Digitimes",
+      "published": "2026-03-13",
+      "url": "https://www.digitimes.com/news/a20260311VL207/tesla-deepx-samsung-ai-chip-startup.html",
+      "tags": [
+        "Tesla",
+        "DeepX",
+        "NPU",
+        "Samsung-foundry"
+      ],
+      "insights": [
+        "大客户需求变动可致代工厂交期连锁延误，需评估供应商弹性",
+        "初创NPU公司依赖单一代工厂的风险正在显现"
+      ],
+      "actions": [
+        "评估合作初创AI芯片公司的代工备份方案，降低延期风险"
+      ]
     },
     {
       "id": 5,
-      "title": "苹果可折叠iPhone将采用三星存储芯片",
-      "summary": "苹果首款折叠iPhone预计使用三星OLED面板与存储芯片，供应链绑定深化，预计年内发布。",
-      "source": "SamMobile",
-      "publishedAt": "2026-03-13T03:58:47Z",
-      "url": "https://www.sammobile.com/news/apple-foldable-iphone-samsung-memory-chips/",
-      "tags": ["苹果", "三星", "存储", "OLED", "折叠屏"]
-    }
-  ],
-  "glossary": [
-    {
-      "term": "NPU（Neural Processing Unit）",
-      "def": "神经网络处理器，专为AI推理加速设计的专用芯片，区别于通用GPU。"
-    },
-    {
-      "term": "化合物半导体",
-      "def": "由两种或多种元素组成的半导体材料（如GaN、GaAs、SiC），常用于功率器件、射频、光电领域，区别于单晶硅。"
+      "title": "字节跳动海外囤算力令华盛顿陷两难",
+      "summary": "字节跳动在中国境外大量采购先进AI算力，凸显中国科技企业规避出口管制的路径，让美国政策制定者棘手。",
+      "source": "Digitimes",
+      "published": "2026-03-13",
+      "url": "https://www.digitimes.com/news/a20260313VL218/bytedance-ai-chip-technology-chips-nvidia.html",
+      "tags": [
+        "ByteDance",
+        "export-control",
+        "AI-chip",
+        "geopolitics"
+      ],
+      "insights": [
+        "出口管制漏洞加剧AI芯片供应链地缘博弈，采购合规风险上升",
+        "境外算力囤积模式或推动美国进一步收紧对华芯片政策"
+      ],
+      "actions": [
+        "关注美国出口管制最新动态，评估自身采购合规性"
+      ]
     }
   ]
 }
