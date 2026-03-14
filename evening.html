@@ -241,14 +241,8 @@
             <div class="summary">${it.summary||it.summary_zh||''}</div>
             
             <div class="blocks">
-              <div class="box box-insight">
-                <div class="lbl">💡 行业洞见</div>
-                <ul>${[].concat(it.insights||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>
-              </div>
-              <div class="box box-action">
-                <div class="lbl">🎯 建议动作</div>
-                <ul>${[].concat(it.actions||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>
-              </div>
+              ${(it.insights||[]).length ? `<div class="box box-insight"><div class="lbl">💡 行业洞见</div><ul>${[].concat(it.insights).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul></div>` : ''}
+              ${(it.actions||[]).length ? `<div class="box box-action"><div class="lbl">🎯 建议动作</div><ul>${[].concat(it.actions).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul></div>` : ''}
             </div>
           </div>
           
