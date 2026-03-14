@@ -966,6 +966,81 @@
       "period": "midday",
       "generatedAt": "2026-03-14T06:47:00Z",
       "itemCount": 5
+    },
+    {
+      "date": "2026-03-14",
+      "period": "evening",
+      "version": "v20260314-2000",
+      "rank": 1,
+      "title_zh": "伊朗战事冲击芯片供应链与中东AI项目",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/13/tech-download-iran-problem-supply-chains-ai.html",
+      "tags": [
+        "Geopolitics",
+        "SupplyChain",
+        "AI",
+        "Semiconductor"
+      ]
+    },
+    {
+      "date": "2026-03-14",
+      "period": "evening",
+      "version": "v20260314-2000",
+      "rank": 2,
+      "title_zh": "Applied Materials季度股息上调15%",
+      "source": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/03/13/3255390/0/en/Applied-Materials-Raises-Quarterly-Cash-Dividend-by-15-Percent.html",
+      "tags": [
+        "AppliedMaterials",
+        "Equipment",
+        "Dividend",
+        "WFE"
+      ]
+    },
+    {
+      "date": "2026-03-14",
+      "period": "evening",
+      "version": "v20260314-2000",
+      "rank": 3,
+      "title_zh": "NVIDIA GTC前瞻：AI芯片与地缘博弈四大悬念",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/nvidia-gtc-gpu-plans-global-tensions-4-big-questions-2026-3",
+      "tags": [
+        "Nvidia",
+        "GTC",
+        "AI",
+        "GPU"
+      ]
+    },
+    {
+      "date": "2026-03-14",
+      "period": "evening",
+      "version": "v20260314-2000",
+      "rank": 4,
+      "title_zh": "HyperLight联合UMC推进TFLN光子芯片量产",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/hyperlight-and-umc-collaborate-with-jabil-to-bring-tfln-photonics-to-data-center-scale-deployment",
+      "tags": [
+        "UMC",
+        "Photonics",
+        "TFLN",
+        "DataCenter"
+      ]
+    },
+    {
+      "date": "2026-03-14",
+      "period": "evening",
+      "version": "v20260314-2000",
+      "rank": 5,
+      "title_zh": "AI驱动芯片公司组织架构重塑",
+      "source": "中国日报",
+      "url": "https://www.chinadaily.com.cn/a/202603/13/WS69b3ee41a310d6866eb3dbb1.html",
+      "tags": [
+        "AI",
+        "Organization",
+        "ChipIndustry",
+        "TalentDemand"
+      ]
     }
   ]
 }

@@ -1,91 +1,83 @@
 {
-  "version": "v20260313-2002",
+  "version": "v20260314-2000",
   "type": "evening",
-  "generatedAt": "2026-03-13T20:02:00+08:00",
+  "generatedAt": "2026-03-14T20:00:00+08:00",
   "commit": "",
+  "period": "2026-03-13T06:00:00Z ~ 2026-03-13T12:00:00Z",
   "items": [
     {
       "rank": 1,
-      "title_zh": "卡塔尔���气断供，芯片供应链进入两周倒计时",
-      "summary_zh": "伊朗无人机袭击卡塔尔Ras Laffan设施已9天，QatarEnergy氦气生产仍未恢复，SK海力士被迫分散氦气采购来源，影响全球约30%氦气供应。",
-      "source": "Tom's Hardware UK",
-      "published_at": "2026-03-12T10:53:13Z",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock",
-      "tags": [
-        "supply-chain",
-        "helium",
-        "SK-Hynix",
-        "critical-materials"
-      ]
+      "title_zh": "伊朗战事冲击芯片供应链与中东AI项目",
+      "summary_zh": "伊朗战争进入第二周，全球供应链及中东AI数据中心项目持续承压，半导体制造商面临氦气、特种气体等原材料供应不确定性。",
+      "source": "CNBC",
+      "published_at": "2026-03-13T11:52:06Z",
+      "url": "https://www.cnbc.com/2026/03/13/tech-download-iran-problem-supply-chains-ai.html",
+      "tags": ["Geopolitics", "SupplyChain", "AI", "Semiconductor"],
+      "insights": [
+        "伊朗战事已波及全球芯片供应链原材料端，氦气/特气缺口风险上升",
+        "中东AI数据中心投资节奏或延迟，间接影响GPU/HBM需求预期"
+      ],
+      "actions": "关注特种气体替代来源并评估备货安全库存"
     },
     {
       "rank": 2,
-      "title_zh": "中芯国际：存���与BCD成熟制程产能告急，价格上涨",
-      "summary_zh": "SMIC披露成熟节点存储和BCD制程订单爆满，AI需求带动整条半导体供应链收紧，成熟制程晶圆价格随之走高。",
-      "source": "Digitimes",
-      "published_at": "2026-03-12T02:17:12Z",
-      "url": "https://www.digitimes.com/news/a20260312VL201.html",
-      "tags": [
-        "SMIC",
-        "mature-node",
-        "BCD",
-        "wafer-price",
-        "supply-squeeze"
-      ]
+      "title_zh": "Applied Materials季度股息上调15%",
+      "summary_zh": "Applied Materials宣布每季度股息从$0.46提升至$0.53，涨幅15%，将于2026年6月11日支付，体现管理层对公司长期盈利的信心。",
+      "source": "GlobeNewswire",
+      "published_at": "2026-03-13T11:30:00Z",
+      "url": "https://www.globenewswire.com/news-release/2026/03/13/3255390/0/en/Applied-Materials-Raises-Quarterly-Cash-Dividend-by-15-Percent.html",
+      "tags": ["AppliedMaterials", "Equipment", "Dividend", "WFE"],
+      "insights": [
+        "设备龙头上调分红，反映晶圆制造设备（WFE）市场对2026年持续复苏的信心",
+        "上游设备商财务健康是FAB扩产周期持续的正向信号"
+      ],
+      "actions": "跟踪Applied Materials季报指引，评估WFE采购时点"
     },
     {
       "rank": 3,
-      "title_zh": "TrendForce：Q4'25全球前十晶圆代工营收环比+2.6%，三星份额提升",
-      "summary_zh": "AI服务器GPU与Google TPU供货持续紧张推动先进制程需求，三星先进制程良率改善使市场份额扩大，Tower Semiconductor排名上升。",
-      "source": "TechPowerUp",
-      "published_at": "2026-03-12T10:22:42Z",
-      "url": "https://www.techpowerup.com/330892/ai-demand-drives-4q25-global-top-10-foundries-revenue-up-2-6-qoq",
-      "tags": [
-        "foundry",
-        "TrendForce",
-        "market-share",
-        "Samsung",
-        "advanced-node"
-      ]
+      "title_zh": "NVIDIA GTC前瞻：AI芯片与地缘博弈四大悬念",
+      "summary_zh": "NVIDIA GTC峰会下周开幕，市场关注Jensen Huang将如何回应推理侧竞争、下一代GPU路线、出口限制及合作伙伴扩展等四大核心议题。",
+      "source": "Business Insider",
+      "published_at": "2026-03-13T09:00:01Z",
+      "url": "https://www.businessinsider.com/nvidia-gtc-gpu-plans-global-tensions-4-big-questions-2026-3",
+      "tags": ["Nvidia", "GTC", "AI", "GPU"],
+      "insights": [
+        "GTC是GPU路线图和合作生态最重要窗口，或影响下半年AI服务器采购决策",
+        "出口管制走向将直接影响中国市场GPU替代方案格���"
+      ],
+      "actions": "密切跟踪GTC主题演讲，关注Blackwell Ultra及Rubin架构最新进展"
     },
     {
       "rank": 4,
-      "title_zh": "印度拟设110亿美元半导体专项基金",
-      "summary_zh": "印度计划设立约1万亿卢比（约110亿美元）国家半导体基金，补贴芯片设计、制造设备及建厂，目标成为全球制造枢纽。",
-      "source": "The Times of India",
-      "published_at": "2026-03-12T09:04:19Z",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/india-plans-new-11-billion-fund-to-support-local-chipmaking/",
-      "tags": [
-        "India",
-        "semiconductor-policy",
-        "government-fund",
-        "fab-investment"
-      ]
+      "title_zh": "HyperLight联合UMC推进TFLN光子芯片量产",
+      "summary_zh": "HyperLight、UMC旗下Wavetek与Jabil合作，推动薄膜铌酸锂（TFLN）光子芯片进入数据中心规模化部署，标志着硅光子替代路径取得重要进展。",
+      "source": "Financial Post",
+      "published_at": "2026-03-13T09:10:14Z",
+      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/hyperlight-and-umc-collaborate-with-jabil-to-bring-tfln-photonics-to-data-center-scale-deployment",
+      "tags": ["UMC", "Photonics", "TFLN", "DataCenter"],
+      "glossary": [
+        {"term": "TFLN", "desc": "Thin-Film Lithium Niobate，薄膜铌酸锂，新一代光调制器材料，带宽高、功耗低"},
+        {"term": "Wavetek", "desc": "UMC全资子公司，专注硅光子及光子集成电路代工"}
+      ],
+      "insights": [
+        "UMC通过光子芯片布局差异化竞争，绕开先进制程军备赛",
+        "TFLN量产路径打通对AI数据中心互连带宽需求是关键补充"
+      ],
+      "actions": "关注UMC光子代工产能与客户拓展进展，评估供应链卡点"
     },
     {
       "rank": 5,
-      "title_zh": "HyperLight联合UMC、Wavetek量产TFLN Chiplet平台",
-      "summary_zh": "三方宣布战略合作，依托UMC晶圆代工能力大规模生产薄膜铌酸锂（TFLN）光子芯粒平台，面向高速光互联与AI数据中心市场。",
-      "source": "Financial Post",
-      "published_at": "2026-03-11T18:10:09Z",
-      "url": "https://financialpost.com/pmn/press-releases-pmn/globe-newswire-releases/hyperlight-umc-and-wavetek-announce-strategic-partnership",
-      "tags": [
-        "UMC",
-        "photonics",
-        "TFLN",
-        "chiplet",
-        "advanced-packaging"
-      ]
-    }
-  ],
-  "glossary": [
-    {
-      "term": "BCD制程",
-      "definition": "Bipolar-CMOS-DMOS集成工艺，广泛用于电源管理IC、汽车电子等模拟混合信号芯片"
-    },
-    {
-      "term": "TFLN（薄膜铌酸锂）",
-      "definition": "新型光子芯片材料，调制速度极快、功耗低，被视为下一代光互联及AI数据中心光子集成电路的核心平台"
+      "title_zh": "AI驱动芯片公司���织架构重塑",
+      "summary_zh": "中国日报报道，AI正在提升芯片企业效率、简化决策流程，并推动公司组织架构重塑，同时对高技能工程师需求显著上升。",
+      "source": "中国日报",
+      "published_at": "2026-03-13T11:17:35Z",
+      "url": "https://www.chinadaily.com.cn/a/202603/13/WS69b3ee41a310d6866eb3dbb1.html",
+      "tags": ["AI", "Organization", "ChipIndustry", "TalentDemand"],
+      "insights": [
+        "AI工具渗透芯片研发管理层，高技能工程师稀缺性将进一步凸显",
+        "企业信息化与AI化协同推进是芯片供应链公司提升竞争力的必要路径"
+      ],
+      "actions": "评估内部AI工具引入优先级，聚焦研发与采购协同流程优化"
     }
   ]
 }
