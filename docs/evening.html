@@ -219,8 +219,8 @@
       el('headlines').innerHTML = (d.items||[]).map((it,idx)=>{
         return `
           <a href="#item-${idx}" class="headline">
-            <div class="t">${escapeHtml(it.title)}</div>
-            <div class="s">${escapeHtml(it.source||'')} · ${escapeHtml(it.published||'')}</div>
+            <div class="t">${escapeHtml(it.title||it.title_zh||'')}</div>
+            <div class="s">${escapeHtml(it.source||'')} · ${escapeHtml(it.published||it.published_at||'')}</div>
           </a>`;
       }).join('');
 
@@ -228,17 +228,17 @@
         return `
           <div class="item" id="item-${idx}">
             <div class="header">
-              <div class="title2">${escapeHtml(it.title)}</div>
+              <div class="title2">${escapeHtml(it.title||it.title_zh||'')}</div>
               <div class="meta-row">
                 <span>#${idx+1}</span>
                 <span>📰 ${escapeHtml(it.source||'')}</span>
-                <span>📅 ${escapeHtml(it.published||it.publishedAt||'')}</span>
+                <span>📅 ${escapeHtml(it.published||it.published_at||it.publishedAt||'')}</span>
                 ${it.url ? `<a href="${escapeHtml(it.url)}" target="_blank" rel="noreferrer">🔗 原文链接</a>`:''}
                 ${(it.tags||[]).map(t=>`<span class="badge badge-tag">${escapeHtml(t)}</span>`).join(' ')}
               </div>
             </div>
             
-            <div class="summary">${it.summary}</div>
+            <div class="summary">${it.summary||it.summary_zh||''}</div>
             
             <div class="blocks">
               <div class="box box-insight">
