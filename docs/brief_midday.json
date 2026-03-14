@@ -1,65 +1,64 @@
 {
-  "version": "v20260314-1300",
-  "type": "midday",
-  "generatedAt": "2026-03-14T13:00:00+08:00",
-  "commit": "aa854e9",
-  "window": "6h",
-  "count": 5,
+  "version": "v20260314-1447",
+  "generatedAt": "2026-03-14T06:47:00Z",
+  "generatedAtLocal": "2026-03-14 14:47 CST",
+  "period": "midday",
+  "commit": "",
   "items": [
     {
-      "rank": 1,
-      "title_cn": "【并购】BESI收购兴趣浮现，先进封装需求激增",
-      "summary_cn": "BE Semiconductor(BESI)市值约140亿欧元，已委托摩根士丹利评估收购要约，先进封装技���需求为主要催化剂。",
-      "source": "Reuters / Economic Times",
-      "publishedAt": "2026-03-13T03:16:45Z",
-      "url": "https://economictimes.indiatimes.com/tech/technology/besi-attracts-takeover-interest-as-advanced-chip-packaging-demand-surges-sources-say/articleshow/129534542.cms",
-      "tag": "M&A"
+      "id": 1,
+      "title": "特斯拉AI芯片延期拖累韩国NPU初创DeepX推迟六个月",
+      "summary": "特斯拉下一代AI处理器计划变更，连带三星代工时间线受阻，DeepX旗下AI加速器量产计划推迟约六个月。",
+      "source": "Digitimes",
+      "publishedAt": "2026-03-13T06:44:39Z",
+      "url": "https://www.digitimes.com/news/a20260311VL207/tesla-deepx-samsung-ai-chip-startup.html",
+      "tags": ["AI芯片", "代工", "三星", "初创"]
     },
     {
-      "rank": 2,
-      "title_cn": "中东冲突推高芯片材料价格翻倍",
-      "summary_cn": "中东局势紧张导致全球能源供应担忧，钨、钽、钼等高温金属价格已翻倍，化合物半导体供应链全面警戒。",
+      "id": 2,
+      "title": "芯片材料价格翻倍，化合物半导体供应链拉响警报",
+      "summary": "中东局势推升能源与原材料成本，钨、钽、钼等高温金属价格翻倍，化合物半导体厂商面临供应链压力。",
       "source": "Digitimes",
       "publishedAt": "2026-03-13T04:32:42Z",
       "url": "https://www.digitimes.com/news/a20260313PD229/compound-semiconductor-chemical-materials-gallium-logistics-supply-chain.html",
-      "tag": "材料/供应链"
+      "tags": ["供应链", "化合物半导体", "原材料", "地缘政治"]
     },
     {
-      "rank": 3,
-      "title_cn": "伊朗危机威胁韩国半导体供应链",
-      "summary_cn": "中东局势升级，韩国中小出口企业受冲击，半导体行业关注原材料及物流供应链潜在风险。",
+      "id": 3,
+      "title": "字节跳动海外算力布局令华盛顿陷入两难",
+      "summary": "字节跳动寻求在中国境外大量采购高端AI算力，英伟达芯片出口管制与地缘政治博弈再度升温。",
       "source": "Digitimes",
-      "publishedAt": "2026-03-13T03:49:28Z",
-      "url": "https://www.digitimes.com/news/a20260313PD218/sme-exports-production-investment.html",
-      "tag": "地缘风险"
+      "publishedAt": "2026-03-13T06:36:48Z",
+      "url": "https://www.digitimes.com/news/a20260313VL218/bytedance-ai-chip-technology-chips-nvidia.html",
+      "tags": ["AI算力", "出口管制", "字节跳动", "地缘政治"]
     },
     {
-      "rank": 4,
-      "title_cn": "印度拟推110亿美元芯片基金及手机出口激励",
-      "summary_cn": "印度政府据报考虑逾110亿美元半导体发展基金，同步设计智能手机出口激励计划，强化本土电子制造能力。",
-      "source": "Digitimes / Bloomberg / Reuters",
-      "publishedAt": "2026-03-13T02:22:43Z",
-      "url": "https://www.digitimes.com/news/a20260313VL202/smartphone-incentives-bloomberg-manufacturing-electronics.html",
-      "tag": "政策/补贴"
+      "id": 4,
+      "title": "GTC 2026预测：英伟达将面临Token吞吐量瓶颈挑战",
+      "summary": "《The Register》梳理GTC 2026看点：代理AI系统token需求激增，英伟达需回答如何在高吞吐下维持芯片优势。",
+      "source": "The Register",
+      "publishedAt": "2026-03-13T06:30:06Z",
+      "url": "https://www.theregister.com/2026/03/13/nvidia_gtc_2026_preview_tobias_mann_register/",
+      "tags": ["英伟达", "GTC", "AI推理", "GPU"]
     },
     {
-      "rank": 5,
-      "title_cn": "京元电子2月营收32.2亿台币，同比大幅增长",
-      "summary_cn": "KYEC（京元电子）2026年2月营收约1.009亿美元，同比显著增长，半导体测试需求持续旺盛。",
-      "source": "Digitimes",
-      "publishedAt": "2026-03-13T01:51:31Z",
-      "url": "https://www.digitimes.com/news/a20260313VL204/king-yuan-revenue-testing-2026.html",
-      "tag": "封测"
+      "id": 5,
+      "title": "苹果可折叠iPhone将采用三星存储芯片",
+      "summary": "苹果首款折叠iPhone预计使用三星OLED面板与存储芯片，供应链绑定深化，预计年内发布。",
+      "source": "SamMobile",
+      "publishedAt": "2026-03-13T03:58:47Z",
+      "url": "https://www.sammobile.com/news/apple-foldable-iphone-samsung-memory-chips/",
+      "tags": ["苹果", "三星", "存储", "OLED", "折叠屏"]
     }
   ],
   "glossary": [
     {
-      "term": "BESI",
-      "definition": "BE Semiconductor Industries，荷兰封装设备龙��，专注混合键合、倒装焊等先进封装互联设备"
+      "term": "NPU（Neural Processing Unit）",
+      "def": "神经网络处理器，专为AI推理加速设计的专用芯片，区别于通用GPU。"
     },
     {
-      "term": "先进封装（Advanced Packaging）",
-      "definition": "指Chiplet、混合键合、Fan-Out等超越传统引线键合的高密度互联封装技术，是后摩尔时代性能提升核心路径"
+      "term": "化合物半导体",
+      "def": "由两种或多种元素组成的半导体材料（如GaN、GaAs、SiC），常用于功率器件、射频、光电领域，区别于单晶硅。"
     }
   ]
 }

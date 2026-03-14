@@ -1,81 +1,64 @@
 {
-  "asOf": "2026-03-10 13:00 Asia/Shanghai｜版本号(v20260310-1300)｜生成时间(2026-03-10 13:00 Asia/Shanghai)｜commit(7f5b6b2)",
-  "version": "v20260310-1300",
-  "generatedAt": "2026-03-10 13:00 Asia/Shanghai",
-  "keywords": [
-    "半导体政策",
-    "HBM",
-    "AI推理芯片",
-    "宽禁带材料",
-    "供应链节奏"
-  ],
-  "key_data": [
-    {
-      "metric": "模式",
-      "value": "13:00快讯（目标5条）"
-    },
-    {
-      "metric": "观察窗口",
-      "value": "最近6小时（07:00-13:00）"
-    },
-    {
-      "metric": "实际发布",
-      "value": "2条"
-    },
-    {
-      "metric": "不足原因",
-      "value": "NewsAPI不可用；候选源在时间窗+半导体相关+URL可达(200/3xx)+去重后可用条目不足"
-    }
-  ],
+  "version": "v20260314-1447",
+  "generatedAt": "2026-03-14T06:47:00Z",
+  "generatedAtLocal": "2026-03-14 14:47 CST",
+  "period": "midday",
+  "commit": "",
   "items": [
     {
-      "region": "international",
-      "title": "中国芯片企业建议在下一个五年规划继续强化半导体与宽禁带材料布局",
-      "source": "South China Morning Post",
-      "published": "2026-03-10 11:xx",
-      "url": "https://www.scmp.com/tech/article/3345996/chinas-chip-bosses-endorse-semiconductor-push-next-5-year-plan",
-      "heat": 89,
-      "summary": "<ul><li>报道显示，产业界建议在下一阶段继续提升半导体自主能力，并点名SiC/GaN与高性能AI芯片方向。</li><li>政策连续性预期有助于设备、材料与设计服务等环节维持中期资本开支韧性。</li></ul>",
-      "insights": [
-        "中长期主线仍是‘先进制造+关键环节补链’，短线交易之外更看执行节奏。"
-      ],
-      "actions": [
-        "跟踪后续政策文本与地方配套资金落地时间，评估对采购与协同项目的边际影响。"
-      ],
-      "tags": [
-        "政策",
-        "宽禁带半导体"
-      ]
+      "id": 1,
+      "title": "特斯拉AI芯片延期拖累韩国NPU初创DeepX推迟六个月",
+      "summary": "特斯拉下一代AI处理器计划变更，连带三星代工时间线受阻，DeepX旗下AI加速器量产计划推迟约六个月。",
+      "source": "Digitimes",
+      "publishedAt": "2026-03-13T06:44:39Z",
+      "url": "https://www.digitimes.com/news/a20260311VL207/tesla-deepx-samsung-ai-chip-startup.html",
+      "tags": ["AI芯片", "代工", "三星", "初创"]
     },
     {
-      "region": "international",
-      "title": "韩媒：NVIDIA或在GTC发布新推理芯片，三星与SK海力士HBM竞争预期升温",
-      "source": "Seoul Economic Daily",
-      "published": "2026-03-10 07:xx",
-      "url": "https://en.sedaily.com/international/2026/03/10/nvidias-new-inference-chip-may-reshape-samsung-sk-hbm-battle",
-      "heat": 85,
-      "summary": "<ul><li>报道关注NVIDIA新推理芯片发布预期，以及其对HBM供给侧格局的潜在影响。</li><li>若新品节奏提前，存储与先进封装需求可能继续前置到上游订单与备货环节。</li></ul>",
-      "insights": [
-        "AI推理侧迭代正在成为HBM需求弹性的新增驱动，存储景气与产品节奏绑定更紧。"
-      ],
-      "actions": [
-        "关注GTC后供应链指引变化，重点看HBM、封测与高速互连环节的订单确认。"
-      ],
-      "tags": [
-        "AI芯片",
-        "HBM"
-      ]
+      "id": 2,
+      "title": "芯片材料价格翻倍，化合物半导体供应链拉响警报",
+      "summary": "中东局势推升能源与原材料成本，钨、钽、钼等高温金属价格翻倍，化合物半导体厂商面临供应链压力。",
+      "source": "Digitimes",
+      "publishedAt": "2026-03-13T04:32:42Z",
+      "url": "https://www.digitimes.com/news/a20260313PD229/compound-semiconductor-chemical-materials-gallium-logistics-supply-chain.html",
+      "tags": ["供应链", "化合物半导体", "原材料", "地缘政治"]
+    },
+    {
+      "id": 3,
+      "title": "字节跳动海外算力布局令华盛顿陷入两难",
+      "summary": "字节跳动寻求在中国境外大量采购高端AI算力，英伟达芯片出口管制与地缘政治博弈再度升温。",
+      "source": "Digitimes",
+      "publishedAt": "2026-03-13T06:36:48Z",
+      "url": "https://www.digitimes.com/news/a20260313VL218/bytedance-ai-chip-technology-chips-nvidia.html",
+      "tags": ["AI算力", "出口管制", "字节跳动", "地缘政治"]
+    },
+    {
+      "id": 4,
+      "title": "GTC 2026预测：英伟达将面临Token吞吐量瓶颈挑战",
+      "summary": "《The Register》梳理GTC 2026看点：代理AI系统token需求激增，英伟达需回答如何在高吞吐下维持芯片优势。",
+      "source": "The Register",
+      "publishedAt": "2026-03-13T06:30:06Z",
+      "url": "https://www.theregister.com/2026/03/13/nvidia_gtc_2026_preview_tobias_mann_register/",
+      "tags": ["英伟达", "GTC", "AI推理", "GPU"]
+    },
+    {
+      "id": 5,
+      "title": "苹果可折叠iPhone将采用三星存储芯片",
+      "summary": "苹果首款折叠iPhone预计使用三星OLED面板与存储芯片，供应链绑定深化，预计年内发布。",
+      "source": "SamMobile",
+      "publishedAt": "2026-03-13T03:58:47Z",
+      "url": "https://www.sammobile.com/news/apple-foldable-iphone-samsung-memory-chips/",
+      "tags": ["苹果", "三星", "存储", "OLED", "折叠屏"]
     }
   ],
   "glossary": [
     {
-      "term": "HBM-PIM",
-      "desc": "在高带宽存储中叠加近存计算能力的方案，目标是降低数据搬运开销并提升AI推理能效。"
+      "term": "NPU（Neural Processing Unit）",
+      "def": "神经网络处理器，专为AI推理加速设计的专用芯片，区别于通用GPU。"
     },
     {
-      "term": "Chiplet Interposer Reticle Stitching",
-      "desc": "多芯粒与中介层超曝光拼接技术路径，常用于突破单次光刻面积限制。"
+      "term": "化合物半导体",
+      "def": "由两种或多种元素组成的半导体材料（如GaN、GaAs、SiC），常用于功率器件、射频、光电领域，区别于单晶硅。"
     }
-  ],
-  "footer": "版本号(v20260310-1300)｜生成时间(2026-03-10 13:00 Asia/Shanghai)｜commit(7f5b6b2)"
+  ]
 }
