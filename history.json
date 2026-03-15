@@ -1107,9 +1107,84 @@
         "self-sufficiency",
         "semiconductor-localization"
       ]
+    },
+    {
+      "version": "v20260315-2001",
+      "period": "evening",
+      "generatedAt": "2026-03-15T20:01:00+08:00",
+      "title": "芯片材料价格翻倍，镓出口禁令雪上加霜",
+      "source": "Tom's Hardware UK",
+      "published": "2026-03-14",
+      "url": "https://www.tomshardware.com/tech-industry/chip-material-prices-double-as-middle-east-conflict-compounds-chinas-gallium-export-ban",
+      "tags": [
+        "gallium",
+        "supply-chain",
+        "material-prices",
+        "export-ban"
+      ]
+    },
+    {
+      "version": "v20260315-2001",
+      "period": "evening",
+      "generatedAt": "2026-03-15T20:01:00+08:00",
+      "title": "全球晶圆代工2025年营收创历史新高1695亿美元",
+      "source": "Digitimes",
+      "published": "2026-03-14",
+      "url": "https://www.digitimes.com/news/a20260313VL216/demand-revenue-2026-2025-chips.html",
+      "tags": [
+        "foundry",
+        "revenue",
+        "AI-demand",
+        "2026-outlook"
+      ]
+    },
+    {
+      "version": "v20260315-2001",
+      "period": "evening",
+      "generatedAt": "2026-03-15T20:01:00+08:00",
+      "title": "TSMC拿下全球代工近七成市场份额",
+      "source": "The Times of India / TrendForce",
+      "published": "2026-03-14",
+      "url": "https://economictimes.indiatimes.com/tech/technology/tsmc-rides-ai-wave-to-net-nearly-70-of-global-foundry-market-in-2025/articleshow/129571503.cms",
+      "tags": [
+        "TSMC",
+        "market-share",
+        "foundry",
+        "AI"
+      ]
+    },
+    {
+      "version": "v20260315-2001",
+      "period": "evening",
+      "generatedAt": "2026-03-15T20:01:00+08:00",
+      "title": "M31 EDA成本压利润，2025营收增20%创新高",
+      "source": "Digitimes",
+      "published": "2026-03-14",
+      "url": "https://www.digitimes.com/news/a20260314000530/m31-eda-revenue-2025.html",
+      "tags": [
+        "EDA",
+        "IP",
+        "M31",
+        "cost-pressure"
+      ]
+    },
+    {
+      "version": "v20260315-2001",
+      "period": "evening",
+      "generatedAt": "2026-03-15T20:01:00+08:00",
+      "title": "南台湾科学园区2025年营收近3兆新台币",
+      "source": "Digitimes",
+      "published": "2026-03-14",
+      "url": "https://www.digitimes.com/news/a20260312PD233/southern-taiwan-science-park-revenue-2025-demand-2024.html",
+      "tags": [
+        "Taiwan",
+        "science-park",
+        "AI",
+        "advanced-node"
+      ]
     }
   ],
-  "lastUpdated": "2026-03-15 13:00 CST",
+  "lastUpdated": "2026-03-15T20:01:00+08:00",
   "items": [
     {
       "version": "v20260314-1447",

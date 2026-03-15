@@ -1,91 +1,108 @@
 {
-  "version": "v20260313-2002",
-  "type": "evening",
-  "generatedAt": "2026-03-13T20:02:00+08:00",
+  "version": "v20260315-2001",
+  "generatedAt": "2026-03-15T20:01:00+08:00",
   "commit": "",
+  "period": "evening",
   "items": [
     {
-      "rank": 1,
-      "title_zh": "卡塔尔���气断供，芯片供应链进入两周倒计时",
-      "summary_zh": "伊朗无人机袭击卡塔尔Ras Laffan设施已9天，QatarEnergy氦气生产仍未恢复，SK海力士被迫分散氦气采购来源，影响全球约30%氦气供应。",
+      "title": "芯片材料价格翻倍，镓出口禁令雪上加霜",
+      "summary": "中东冲突叠加中国镓出口限制，化合物半导体关键材料价格普遍翻倍，供应链压力骤升。",
       "source": "Tom's Hardware UK",
-      "published_at": "2026-03-12T10:53:13Z",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock",
+      "published": "2026-03-14",
+      "url": "https://www.tomshardware.com/tech-industry/chip-material-prices-double-as-middle-east-conflict-compounds-chinas-gallium-export-ban",
       "tags": [
+        "gallium",
         "supply-chain",
-        "helium",
-        "SK-Hynix",
-        "critical-materials"
+        "material-prices",
+        "export-ban"
+      ],
+      "insights": [
+        "镓价大涨将直接推升化合物半导体（GaN/GaAs）器件成本，需提前锁量备货",
+        "双重地缘风险叠加，稀缺材料的替代方案与多元化采购策略优先级提升"
+      ],
+      "actions": [
+        "立即评估镓及相关材料库存水位，与供应商协商中长期锁价协议"
       ]
     },
     {
-      "rank": 2,
-      "title_zh": "中芯国际：存���与BCD成熟制程产能告急，价格上涨",
-      "summary_zh": "SMIC披露成熟节点存储和BCD制程订单爆满，AI需求带动整条半导体供应链收紧，成熟制程晶圆价格随之走高。",
+      "title": "全球晶圆代工2025年营收创历史新高1695亿美元",
+      "summary": "AI算力需求驱动先进制程需求爆发，2025年全球代工营收达1695亿美元，但2026年内存涨价与消费电子疲软构成风险。",
       "source": "Digitimes",
-      "published_at": "2026-03-12T02:17:12Z",
-      "url": "https://www.digitimes.com/news/a20260312VL201.html",
-      "tags": [
-        "SMIC",
-        "mature-node",
-        "BCD",
-        "wafer-price",
-        "supply-squeeze"
-      ]
-    },
-    {
-      "rank": 3,
-      "title_zh": "TrendForce：Q4'25全球前十晶圆代工营收环比+2.6%，三星份额提升",
-      "summary_zh": "AI服务器GPU与Google TPU供货持续紧张推动先进制程需求，三星先进制程良率改善使市场份额扩大，Tower Semiconductor排名上升。",
-      "source": "TechPowerUp",
-      "published_at": "2026-03-12T10:22:42Z",
-      "url": "https://www.techpowerup.com/330892/ai-demand-drives-4q25-global-top-10-foundries-revenue-up-2-6-qoq",
+      "published": "2026-03-14",
+      "url": "https://www.digitimes.com/news/a20260313VL216/demand-revenue-2026-2025-chips.html",
       "tags": [
         "foundry",
-        "TrendForce",
+        "revenue",
+        "AI-demand",
+        "2026-outlook"
+      ],
+      "insights": [
+        "代工产能持续向先进节点集中，成熟制程产能过剩压力或传导至客户议价空间",
+        "2026年需关注消费电子复苏节奏与AI训练/推理对代工产能的结构性分流"
+      ],
+      "actions": [
+        "关注Q2代工产能预订动态，评估先进节点订单优先级排序"
+      ]
+    },
+    {
+      "title": "TSMC拿下全球代工近七成市场份额",
+      "summary": "TrendForce数据：TSMC 2025年代工市占率接近70%，AI芯片需求是核心驱动力。",
+      "source": "The Times of India / TrendForce",
+      "published": "2026-03-14",
+      "url": "https://economictimes.indiatimes.com/tech/technology/tsmc-rides-ai-wave-to-net-nearly-70-of-global-foundry-market-in-2025/articleshow/129571503.cms",
+      "tags": [
+        "TSMC",
         "market-share",
-        "Samsung",
+        "foundry",
+        "AI"
+      ],
+      "insights": [
+        "TSMC垄断地位持续强化，二线代工谈判筹码更有限，头部客户优先级差距扩大",
+        "高市占率意味着技术与产能依赖风险集中，供应商多元化布局紧迫性上升"
+      ],
+      "actions": [
+        "审视现有代工商分散度，评估Samsung/SMIC等备选厂商在细分工艺的可行性"
+      ]
+    },
+    {
+      "title": "M31 EDA成本压利润，2025营收增20%创新高",
+      "summary": "台湾IP供应商M31 2025年营收增20.3%至55.94亿元（美元），但EDA授权成本与汇损侵蚀利润，凸显本土EDA工具依赖风险。",
+      "source": "Digitimes",
+      "published": "2026-03-14",
+      "url": "https://www.digitimes.com/news/a20260314000530/m31-eda-revenue-2025.html",
+      "tags": [
+        "EDA",
+        "IP",
+        "M31",
+        "cost-pressure"
+      ],
+      "insights": [
+        "EDA授权费对中小IP/设计公司利润侵蚀明显，国产EDA替代窗口正在打开",
+        "IP授权业务成长强劲，但议价能力受制于上游EDA生态，需关注国产工具成熟度"
+      ],
+      "actions": [
+        "跟进国产EDA（华大九天/概伦等）对M31类IP验证流程的支持进展"
+      ]
+    },
+    {
+      "title": "南台湾科学园区2025年营收近3兆新台币",
+      "summary": "南科2025年营收达新台币2.97兆（约935亿美元），年增34%，AI与先进制程带动园区产出接近历史最高。",
+      "source": "Digitimes",
+      "published": "2026-03-14",
+      "url": "https://www.digitimes.com/news/a20260312PD233/southern-taiwan-science-park-revenue-2025-demand-2024.html",
+      "tags": [
+        "Taiwan",
+        "science-park",
+        "AI",
         "advanced-node"
+      ],
+      "insights": [
+        "南科强劲增长印证先进封装与2nm产能爬坡顺利，CoWoS等产品供应改善",
+        "台湾供应链产出集中度持续上升，地缘风险对全球半导体供应影响不可低估"
+      ],
+      "actions": [
+        "关注南科2nm产线投产节奏，评估对CoWoS等先进封装供应的影响"
       ]
-    },
-    {
-      "rank": 4,
-      "title_zh": "印度拟设110亿美元半导体专项基金",
-      "summary_zh": "印度计划设立约1万亿卢比（约110亿美元）国家半导体基金，补贴芯片设计、制造设备及建厂，目标成为全球制造枢纽。",
-      "source": "The Times of India",
-      "published_at": "2026-03-12T09:04:19Z",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/india-plans-new-11-billion-fund-to-support-local-chipmaking/",
-      "tags": [
-        "India",
-        "semiconductor-policy",
-        "government-fund",
-        "fab-investment"
-      ]
-    },
-    {
-      "rank": 5,
-      "title_zh": "HyperLight联合UMC、Wavetek量产TFLN Chiplet平台",
-      "summary_zh": "三方宣布战略合作，依托UMC晶圆代工能力大规模生产薄膜铌酸锂（TFLN）光子芯粒平台，面向高速光互联与AI数据中心市场。",
-      "source": "Financial Post",
-      "published_at": "2026-03-11T18:10:09Z",
-      "url": "https://financialpost.com/pmn/press-releases-pmn/globe-newswire-releases/hyperlight-umc-and-wavetek-announce-strategic-partnership",
-      "tags": [
-        "UMC",
-        "photonics",
-        "TFLN",
-        "chiplet",
-        "advanced-packaging"
-      ]
-    }
-  ],
-  "glossary": [
-    {
-      "term": "BCD制程",
-      "definition": "Bipolar-CMOS-DMOS集成工艺，广泛用于电源管理IC、汽车电子等模拟混合信号芯片"
-    },
-    {
-      "term": "TFLN（薄膜铌酸锂）",
-      "definition": "新型光子芯片材料，调制速度极快、功耗低，被视为下一代光互联及AI数据中心光子集成电路的核心平台"
     }
   ]
 }

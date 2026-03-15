@@ -957,9 +957,234 @@
         "芯片设计教育",
         "EE+CS"
       ]
+    },
+    {
+      "version": "v20260314-1546",
+      "generatedAt": "2026-03-14 15:46 CST",
+      "period": "midday",
+      "title": "4Q25全球十大晶圆代工营收环比增2.6%",
+      "source": "Madshrimps.be",
+      "published": "2026-03-13",
+      "url": "https://www.madshrimps.be/news/ai-demand-drives-4q25-global-top-10-foundries-revenue-up-2-6-qoq-samsung-gains-share-and-tower-moves-up-in-rankings/",
+      "tags": [
+        "foundry",
+        "AI-chip",
+        "Samsung",
+        "TrendForce"
+      ]
+    },
+    {
+      "version": "v20260314-1546",
+      "generatedAt": "2026-03-14 15:46 CST",
+      "period": "midday",
+      "title": "海光信息营收暴增57%，AI算力驱动国产x86崛起",
+      "source": "Digitimes",
+      "published": "2026-03-13",
+      "url": "https://www.digitimes.com/news/a20260313VL210/china-genai-x86-revenue-demand.html",
+      "tags": [
+        "Hygon",
+        "x86",
+        "China-chip",
+        "AI-compute"
+      ]
+    },
+    {
+      "version": "v20260314-1546",
+      "generatedAt": "2026-03-14 15:46 CST",
+      "period": "midday",
+      "title": "中国晶圆代工厂Nexchip宣布涨价",
+      "source": "Digitimes",
+      "published": "2026-03-13",
+      "url": "https://www.digitimes.com/news/a20260313VL214/nexchip-wafer-cis-demand-market.html",
+      "tags": [
+        "Nexchip",
+        "wafer-price",
+        "CIS",
+        "mature-node"
+      ]
+    },
+    {
+      "version": "v20260314-1546",
+      "generatedAt": "2026-03-14 15:46 CST",
+      "period": "midday",
+      "title": "特斯拉AI芯片延期拖累DeepX推迟六个月",
+      "source": "Digitimes",
+      "published": "2026-03-13",
+      "url": "https://www.digitimes.com/news/a20260311VL207/tesla-deepx-samsung-ai-chip-startup.html",
+      "tags": [
+        "Tesla",
+        "DeepX",
+        "NPU",
+        "Samsung-foundry"
+      ]
+    },
+    {
+      "version": "v20260314-1546",
+      "generatedAt": "2026-03-14 15:46 CST",
+      "period": "midday",
+      "title": "字节跳动海外囤算力令华盛顿陷两难",
+      "source": "Digitimes",
+      "published": "2026-03-13",
+      "url": "https://www.digitimes.com/news/a20260313VL218/bytedance-ai-chip-technology-chips-nvidia.html",
+      "tags": [
+        "ByteDance",
+        "export-control",
+        "AI-chip",
+        "geopolitics"
+      ]
+    },
+    {
+      "version": "v20260315-1300",
+      "generatedAt": "2026-03-15 13:00 CST",
+      "period": "midday",
+      "title": "卡塔尔氦气停供威胁芯片供应链",
+      "source": "Slashdot / Tom's Hardware",
+      "published": "2026-03-13",
+      "url": "https://tech.slashdot.org/story/26/03/13/190216/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock",
+      "tags": [
+        "helium-supply",
+        "supply-chain-risk",
+        "geopolitics",
+        "semiconductor-fab"
+      ]
+    },
+    {
+      "version": "v20260315-1300",
+      "generatedAt": "2026-03-15 13:00 CST",
+      "period": "midday",
+      "title": "美商务部撤回AI芯片出口新规草案",
+      "source": "Times of India / Reuters",
+      "published": "2026-03-14",
+      "url": "https://economictimes.indiatimes.com/news/international/global-trends/us-commerce-department-withdraws-planned-rule-on-ai-chip-exports-government-website-shows/articleshow/129567398.cms",
+      "tags": [
+        "export-control",
+        "AI-chip",
+        "US-policy",
+        "trade-regulation"
+      ]
+    },
+    {
+      "version": "v20260315-1300",
+      "generatedAt": "2026-03-15 13:00 CST",
+      "period": "midday",
+      "title": "AWS与Cerebras达成晶圆级芯片合作",
+      "source": "SiliconANGLE News",
+      "published": "2026-03-13",
+      "url": "https://siliconangle.com/2026/03/13/aws-will-bring-cerebras-wafer-size-wse-3-chip-cloud-platform/",
+      "tags": [
+        "Cerebras",
+        "AWS",
+        "AI-inference",
+        "wafer-scale"
+      ]
+    },
+    {
+      "version": "v20260315-1300",
+      "generatedAt": "2026-03-15 13:00 CST",
+      "period": "midday",
+      "title": "AMD发布Agent Computer新PC品类",
+      "source": "PCMag.com",
+      "published": "2026-03-13",
+      "url": "https://uk.pcmag.com/ai/163799/amd-pushes-a-new-category-of-pcs-the-agent-computer",
+      "tags": [
+        "AMD",
+        "AI-PC",
+        "edge-inference",
+        "NVIDIA-competition"
+      ]
+    },
+    {
+      "version": "v20260315-1300",
+      "generatedAt": "2026-03-15 13:00 CST",
+      "period": "midday",
+      "title": "中国发布五年科技规划瞄准AI主导权",
+      "source": "ABC News (AU)",
+      "published": "2026-03-13",
+      "url": "https://www.abc.net.au/news/2026-03-14/china-future-five-years-plan-tech-ai-dominance/106450274",
+      "tags": [
+        "China-policy",
+        "AI-strategy",
+        "self-sufficiency",
+        "semiconductor-localization"
+      ]
+    },
+    {
+      "version": "v20260315-2001",
+      "period": "evening",
+      "generatedAt": "2026-03-15T20:01:00+08:00",
+      "title": "芯片材料价格翻倍，镓出口禁令雪上加霜",
+      "source": "Tom's Hardware UK",
+      "published": "2026-03-14",
+      "url": "https://www.tomshardware.com/tech-industry/chip-material-prices-double-as-middle-east-conflict-compounds-chinas-gallium-export-ban",
+      "tags": [
+        "gallium",
+        "supply-chain",
+        "material-prices",
+        "export-ban"
+      ]
+    },
+    {
+      "version": "v20260315-2001",
+      "period": "evening",
+      "generatedAt": "2026-03-15T20:01:00+08:00",
+      "title": "全球晶圆代工2025年营收创历史新高1695亿美元",
+      "source": "Digitimes",
+      "published": "2026-03-14",
+      "url": "https://www.digitimes.com/news/a20260313VL216/demand-revenue-2026-2025-chips.html",
+      "tags": [
+        "foundry",
+        "revenue",
+        "AI-demand",
+        "2026-outlook"
+      ]
+    },
+    {
+      "version": "v20260315-2001",
+      "period": "evening",
+      "generatedAt": "2026-03-15T20:01:00+08:00",
+      "title": "TSMC拿下全球代工近七成市场份额",
+      "source": "The Times of India / TrendForce",
+      "published": "2026-03-14",
+      "url": "https://economictimes.indiatimes.com/tech/technology/tsmc-rides-ai-wave-to-net-nearly-70-of-global-foundry-market-in-2025/articleshow/129571503.cms",
+      "tags": [
+        "TSMC",
+        "market-share",
+        "foundry",
+        "AI"
+      ]
+    },
+    {
+      "version": "v20260315-2001",
+      "period": "evening",
+      "generatedAt": "2026-03-15T20:01:00+08:00",
+      "title": "M31 EDA成本压利润，2025营收增20%创新高",
+      "source": "Digitimes",
+      "published": "2026-03-14",
+      "url": "https://www.digitimes.com/news/a20260314000530/m31-eda-revenue-2025.html",
+      "tags": [
+        "EDA",
+        "IP",
+        "M31",
+        "cost-pressure"
+      ]
+    },
+    {
+      "version": "v20260315-2001",
+      "period": "evening",
+      "generatedAt": "2026-03-15T20:01:00+08:00",
+      "title": "南台湾科学园区2025年营收近3兆新台币",
+      "source": "Digitimes",
+      "published": "2026-03-14",
+      "url": "https://www.digitimes.com/news/a20260312PD233/southern-taiwan-science-park-revenue-2025-demand-2024.html",
+      "tags": [
+        "Taiwan",
+        "science-park",
+        "AI",
+        "advanced-node"
+      ]
     }
   ],
-  "lastUpdated": "2026-03-15T06:00:00+08:00",
+  "lastUpdated": "2026-03-15T20:01:00+08:00",
   "items": [
     {
       "version": "v20260314-1447",
@@ -968,85 +1193,10 @@
       "itemCount": 5
     },
     {
-      "date": "2026-03-14",
-      "period": "evening",
-      "version": "v20260314-2000",
-      "rank": 1,
-      "title_zh": "伊朗战事冲击芯片供应链与中东AI项目",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/03/13/tech-download-iran-problem-supply-chains-ai.html",
-      "tags": [
-        "Geopolitics",
-        "SupplyChain",
-        "AI",
-        "Semiconductor"
-      ]
-    },
-    {
-      "date": "2026-03-14",
-      "period": "evening",
-      "version": "v20260314-2000",
-      "rank": 2,
-      "title_zh": "Applied Materials季度股息上调15%",
-      "source": "GlobeNewswire",
-      "url": "https://www.globenewswire.com/news-release/2026/03/13/3255390/0/en/Applied-Materials-Raises-Quarterly-Cash-Dividend-by-15-Percent.html",
-      "tags": [
-        "AppliedMaterials",
-        "Equipment",
-        "Dividend",
-        "WFE"
-      ]
-    },
-    {
-      "date": "2026-03-14",
-      "period": "evening",
-      "version": "v20260314-2000",
-      "rank": 3,
-      "title_zh": "NVIDIA GTC前瞻：AI芯片与地缘博弈四大悬念",
-      "source": "Business Insider",
-      "url": "https://www.businessinsider.com/nvidia-gtc-gpu-plans-global-tensions-4-big-questions-2026-3",
-      "tags": [
-        "Nvidia",
-        "GTC",
-        "AI",
-        "GPU"
-      ]
-    },
-    {
-      "date": "2026-03-14",
-      "period": "evening",
-      "version": "v20260314-2000",
-      "rank": 4,
-      "title_zh": "HyperLight联合UMC推进TFLN光子芯片量产",
-      "source": "Financial Post",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/hyperlight-and-umc-collaborate-with-jabil-to-bring-tfln-photonics-to-data-center-scale-deployment",
-      "tags": [
-        "UMC",
-        "Photonics",
-        "TFLN",
-        "DataCenter"
-      ]
-    },
-    {
-      "date": "2026-03-14",
-      "period": "evening",
-      "version": "v20260314-2000",
-      "rank": 5,
-      "title_zh": "AI驱动芯片公司组织架构重塑",
-      "source": "中国日报",
-      "url": "https://www.chinadaily.com.cn/a/202603/13/WS69b3ee41a310d6866eb3dbb1.html",
-      "tags": [
-        "AI",
-        "Organization",
-        "ChipIndustry",
-        "TalentDemand"
-      ]
-    },
-    {
-      "version": "v20260315-0600",
-      "generatedAt": "2026-03-15T06:00:00+08:00",
-      "period": "morning",
-      "itemCount": 15
+      "version": "v20260314-1546",
+      "period": "midday",
+      "generatedAt": "2026-03-14 15:46 CST",
+      "itemCount": 5
     }
   ]
 }

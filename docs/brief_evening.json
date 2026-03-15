@@ -1,83 +1,108 @@
 {
-  "version": "v20260314-2000",
-  "type": "evening",
-  "generatedAt": "2026-03-14T20:00:00+08:00",
+  "version": "v20260315-2001",
+  "generatedAt": "2026-03-15T20:01:00+08:00",
   "commit": "",
-  "period": "2026-03-13T06:00:00Z ~ 2026-03-13T12:00:00Z",
+  "period": "evening",
   "items": [
     {
-      "rank": 1,
-      "title_zh": "伊朗战事冲击芯片供应链与中东AI项目",
-      "summary_zh": "伊朗战争进入第二周，全球供应链及中东AI数据中心项目持续承压，半导体制造商面临氦气、特种气体等原材料供应不确定性。",
-      "source": "CNBC",
-      "published_at": "2026-03-13T11:52:06Z",
-      "url": "https://www.cnbc.com/2026/03/13/tech-download-iran-problem-supply-chains-ai.html",
-      "tags": ["Geopolitics", "SupplyChain", "AI", "Semiconductor"],
-      "insights": [
-        "伊朗战事已波及全球芯片供应链原材料端，氦气/特气缺口风险上升",
-        "中东AI数据中心投资节奏或延迟，间接影响GPU/HBM需求预期"
+      "title": "芯片材料价格翻倍，镓出口禁令雪上加霜",
+      "summary": "中东冲突叠加中国镓出口限制，化合物半导体关键材料价格普遍翻倍，供应链压力骤升。",
+      "source": "Tom's Hardware UK",
+      "published": "2026-03-14",
+      "url": "https://www.tomshardware.com/tech-industry/chip-material-prices-double-as-middle-east-conflict-compounds-chinas-gallium-export-ban",
+      "tags": [
+        "gallium",
+        "supply-chain",
+        "material-prices",
+        "export-ban"
       ],
-      "actions": "关注特种气体替代来源并评估备货安全库存"
+      "insights": [
+        "镓价大涨将直接推升化合物半导体（GaN/GaAs）器件成本，需提前锁量备货",
+        "双重地缘风险叠加，稀缺材料的替代方案与多元化采购策略优先级提升"
+      ],
+      "actions": [
+        "立即评估镓及相关材料库存水位，与供应商协商中长期锁价协议"
+      ]
     },
     {
-      "rank": 2,
-      "title_zh": "Applied Materials季度股息上调15%",
-      "summary_zh": "Applied Materials宣布每季度股息从$0.46提升至$0.53，涨幅15%，将于2026年6月11日支付，体现管理层对公司长期盈利的信心。",
-      "source": "GlobeNewswire",
-      "published_at": "2026-03-13T11:30:00Z",
-      "url": "https://www.globenewswire.com/news-release/2026/03/13/3255390/0/en/Applied-Materials-Raises-Quarterly-Cash-Dividend-by-15-Percent.html",
-      "tags": ["AppliedMaterials", "Equipment", "Dividend", "WFE"],
-      "insights": [
-        "设备龙头上调分红，反映晶圆制造设备（WFE）市场对2026年持续复苏的信心",
-        "上游设备商财务健康是FAB扩产周期持续的正向信号"
+      "title": "全球晶圆代工2025年营收创历史新高1695亿美元",
+      "summary": "AI算力需求驱动先进制程需求爆发，2025年全球代工营收达1695亿美元，但2026年内存涨价与消费电子疲软构成风险。",
+      "source": "Digitimes",
+      "published": "2026-03-14",
+      "url": "https://www.digitimes.com/news/a20260313VL216/demand-revenue-2026-2025-chips.html",
+      "tags": [
+        "foundry",
+        "revenue",
+        "AI-demand",
+        "2026-outlook"
       ],
-      "actions": "跟踪Applied Materials季报指引，评估WFE采购时点"
+      "insights": [
+        "代工产能持续向先进节点集中，成熟制程产能过剩压力或传导至客户议价空间",
+        "2026年需关注消费电子复苏节奏与AI训练/推理对代工产能的结构性分流"
+      ],
+      "actions": [
+        "关注Q2代工产能预订动态，评估先进节点订单优先级排序"
+      ]
     },
     {
-      "rank": 3,
-      "title_zh": "NVIDIA GTC前瞻：AI芯片与地缘博弈四大悬念",
-      "summary_zh": "NVIDIA GTC峰会下周开幕，市场关注Jensen Huang将如何回应推理侧竞争、下一代GPU路线、出口限制及合作伙伴扩展等四大核心议题。",
-      "source": "Business Insider",
-      "published_at": "2026-03-13T09:00:01Z",
-      "url": "https://www.businessinsider.com/nvidia-gtc-gpu-plans-global-tensions-4-big-questions-2026-3",
-      "tags": ["Nvidia", "GTC", "AI", "GPU"],
-      "insights": [
-        "GTC是GPU路线图和合作生态最重要窗口，或影响下半年AI服务器采购决策",
-        "出口管制走向将直接影响中国市场GPU替代方案格���"
+      "title": "TSMC拿下全球代工近七成市场份额",
+      "summary": "TrendForce数据：TSMC 2025年代工市占率接近70%，AI芯片需求是核心驱动力。",
+      "source": "The Times of India / TrendForce",
+      "published": "2026-03-14",
+      "url": "https://economictimes.indiatimes.com/tech/technology/tsmc-rides-ai-wave-to-net-nearly-70-of-global-foundry-market-in-2025/articleshow/129571503.cms",
+      "tags": [
+        "TSMC",
+        "market-share",
+        "foundry",
+        "AI"
       ],
-      "actions": "密切跟踪GTC主题演讲，关注Blackwell Ultra及Rubin架构最新进展"
+      "insights": [
+        "TSMC垄断地位持续强化，二线代工谈判筹码更有限，头部客户优先级差距扩大",
+        "高市占率意味着技术与产能依赖风险集中，供应商多元化布局紧迫性上升"
+      ],
+      "actions": [
+        "审视现有代工商分散度，评估Samsung/SMIC等备选厂商在细分工艺的可行性"
+      ]
     },
     {
-      "rank": 4,
-      "title_zh": "HyperLight联合UMC推进TFLN光子芯片量产",
-      "summary_zh": "HyperLight、UMC旗下Wavetek与Jabil合作，推动薄膜铌酸锂（TFLN）光子芯片进入数据中心规模化部署，标志着硅光子替代路径取得重要进展。",
-      "source": "Financial Post",
-      "published_at": "2026-03-13T09:10:14Z",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/hyperlight-and-umc-collaborate-with-jabil-to-bring-tfln-photonics-to-data-center-scale-deployment",
-      "tags": ["UMC", "Photonics", "TFLN", "DataCenter"],
-      "glossary": [
-        {"term": "TFLN", "desc": "Thin-Film Lithium Niobate，薄膜铌酸锂，新一代光调制器材料，带宽高、功耗低"},
-        {"term": "Wavetek", "desc": "UMC全资子公司，专注硅光子及光子集成电路代工"}
+      "title": "M31 EDA成本压利润，2025营收增20%创新高",
+      "summary": "台湾IP供应商M31 2025年营收增20.3%至55.94亿元（美元），但EDA授权成本与汇损侵蚀利润，凸显本土EDA工具依赖风险。",
+      "source": "Digitimes",
+      "published": "2026-03-14",
+      "url": "https://www.digitimes.com/news/a20260314000530/m31-eda-revenue-2025.html",
+      "tags": [
+        "EDA",
+        "IP",
+        "M31",
+        "cost-pressure"
       ],
       "insights": [
-        "UMC通过光子芯片布局差异化竞争，绕开先进制程军备赛",
-        "TFLN量产路径打通对AI数据中心互连带宽需求是关键补充"
+        "EDA授权费对中小IP/设计公司利润侵蚀明显，国产EDA替代窗口正在打开",
+        "IP授权业务成长强劲，但议价能力受制于上游EDA生态，需关注国产工具成熟度"
       ],
-      "actions": "关注UMC光子代工产能与客户拓展进展，评估供应链卡点"
+      "actions": [
+        "跟进国产EDA（华大九天/概伦等）对M31类IP验证流程的支持进展"
+      ]
     },
     {
-      "rank": 5,
-      "title_zh": "AI驱动芯片公司���织架构重塑",
-      "summary_zh": "中国日报报道，AI正在提升芯片企业效率、简化决策流程，并推动公司组织架构重塑，同时对高技能工程师需求显著上升。",
-      "source": "中国日报",
-      "published_at": "2026-03-13T11:17:35Z",
-      "url": "https://www.chinadaily.com.cn/a/202603/13/WS69b3ee41a310d6866eb3dbb1.html",
-      "tags": ["AI", "Organization", "ChipIndustry", "TalentDemand"],
-      "insights": [
-        "AI工具渗透芯片研发管理层，高技能工程师稀缺性将进一步凸显",
-        "企业信息化与AI化协同推进是芯片供应链公司提升竞争力的必要路径"
+      "title": "南台湾科学园区2025年营收近3兆新台币",
+      "summary": "南科2025年营收达新台币2.97兆（约935亿美元），年增34%，AI与先进制程带动园区产出接近历史最高。",
+      "source": "Digitimes",
+      "published": "2026-03-14",
+      "url": "https://www.digitimes.com/news/a20260312PD233/southern-taiwan-science-park-revenue-2025-demand-2024.html",
+      "tags": [
+        "Taiwan",
+        "science-park",
+        "AI",
+        "advanced-node"
       ],
-      "actions": "评估内部AI工具引入优先级，聚焦研发与采购协同流程优化"
+      "insights": [
+        "南科强劲增长印证先进封装与2nm产能爬坡顺利，CoWoS等产品供应改善",
+        "台湾供应链产出集中度持续上升，地缘风险对全球半导体供应影响不可低估"
+      ],
+      "actions": [
+        "关注南科2nm产线投产节奏，评估对CoWoS等先进封装供应的影响"
+      ]
     }
   ]
 }
