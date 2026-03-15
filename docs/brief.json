@@ -1,313 +1,326 @@
 {
-  "version": "v20260315-0600",
-  "generatedAt": "2026-03-15T06:00:00+08:00",
-  "commit": "74f02ad",
+  "version": "v20260316-0600",
+  "generatedAt": "2026-03-16T06:00:00",
+  "commit": "",
   "period": "morning",
+  "window": "24h",
   "items": [
     {
-      "title": "卡塔尔氦气停供芯片业两周警报",
-      "summary": "伊朗无人机袭击卡塔尔氦气设施，移除全球约30%氦气供应，半导体制造面临关键气体短缺压力，预计两周内若未恢复将触发供应链连锁危机。",
-      "source": "Slashdot.org",
-      "published": "2026-03-13",
-      "url": "https://tech.slashdot.org/story/26/03/13/190216/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock",
+      "title": "台积电夺全球代工市场70%份额",
+      "summary": "台积电2025年全球晶圆代工市占率升至近70%，AI需求驱动其强劲增长，远超三星与格芯。",
+      "source": "The Times of India",
+      "published": "2026-03-14",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/tsmc-rides-ai-wave-to-net-nearly-70-of-global-foundry-market-in-2025/articleshow/119220154.cms",
       "tags": [
-        "helium",
-        "supply-chain",
-        "geopolitics",
-        "fab-materials"
+        "TSMC",
+        "foundry",
+        "market-share",
+        "AI"
       ],
       "insights": [
-        "氦气是晶圆清洗与低温冷却核心耗材，供应中断将直接冲击晶圆厂产能",
-        "封测环节部分设备（如探针台冷却）同样依赖氦气，需紧急评估库存"
+        "台积电垄断地位持续强化，次级供应商承压，备供策略需更新",
+        "AI算力需求成代工市场主要增量，先进制程产能稀缺性进一步凸显"
       ],
       "actions": [
-        "立即核查氦气库存与替代供应商"
+        "复盘客户产能配额，评估台积电依赖度风险敞口"
       ]
     },
     {
-      "title": "霍尔木兹海峡封锁冲击芯片铝/氦/LNG",
-      "summary": "美国与伊朗冲突导致霍尔木兹海峡实质封锁，铝材、氦气、液化天然气同步短缺，半导体与AI产业面临多重原材料压力，且无明确恢复时间表。",
-      "source": "Tom's Hardware UK",
-      "published": "2026-03-13",
-      "url": "https://www.tomshardware.com/tech-industry/the-ongoing-strait-of-hormuz-blockage-will-impact-the-semiconductor-and-ai-industries-with-aluminum-helium-and-lng-shortages-and-with-no-timeline-for-re-opening-supply-chains-face-significant-challenges",
+      "title": "全球代工营收创历史新高1695亿美元",
+      "summary": "2025年全球晶圆代工总营收达1695亿美元创纪录，但分析师警示2026年需求侧风险上升。",
+      "source": "Digitimes",
+      "published": "2026-03-14",
+      "url": "https://www.digitimes.com/news/a20260313PD219/2025-foundry-revenue-ai-record-high.html",
       "tags": [
-        "geopolitics",
-        "supply-chain",
-        "aluminum",
-        "LNG"
+        "foundry",
+        "revenue",
+        "2026-outlook",
+        "demand-risk"
       ],
       "insights": [
-        "铝是先进封装基板与散热器核心材料，供应收紧将推高封测成本",
-        "LNG短缺可能抬升晶圆厂电力成本，影响台湾、韩国等主要产区"
+        "代工营收峰值后需警惕库存周期切换，2026H2需求可见度降低",
+        "AI服务器客户集中度高，单一需求塌缩将显著拖累整体市场"
       ],
       "actions": [
-        "评估铝材替代来源并锁定长期协议"
+        "更新2026年下半年产能预测，关注主要客户拉货节奏变化"
       ]
     },
     {
-      "title": "CNBC：伊朗战争重创芯片供应链",
-      "summary": "CNBC专题报道指出美伊战争持续近两周，芯片供应链与中东AI基础设施项目同步承压，地缘不确定性已成为科技行业最大风险变量。",
-      "source": "CNBC",
-      "published": "2026-03-13",
-      "url": "https://www.cnbc.com/2026/03/13/tech-download-iran-problem-supply-chains-ai.html",
+      "title": "马斯克全球最大芯片厂计划下周揭晓",
+      "summary": "马斯克计划下周公布建设全球最大芯片晶圆厂方案，目标摆脱对外国代工厂依赖。",
+      "source": "Wccftech",
+      "published": "2026-03-14",
+      "url": "https://wccftech.com/elon-musks-plan-for-the-worlds-largest-chip-fab-will-be-unveiled-by-next-week/",
       "tags": [
-        "geopolitics",
-        "supply-chain",
-        "AI",
-        "risk"
+        "chip-fab",
+        "Musk",
+        "US-manufacturing",
+        "vertical-integration"
       ],
       "insights": [
-        "中东局势升级使采购周期预测难度加大，建议缩短下单间隔并增加安全库存",
-        "AI数据中心建设依赖稳定能源与材料供应，区域冲突影响已超出预期"
+        "美国本土制造意愿明显上升，长期可能重塑全球代工供应格局",
+        "若项目落地，将带动EDA/设备/材料等上游供应链需求波动"
       ],
       "actions": [
-        "���调关键物料安全库存至90天"
-      ]
-    },
-    {
-      "title": "伊朗战争如何压垮全球数字经济",
-      "summary": "OilPrice深度分析：芯片制造高度依赖特种气体、稀有金属、电力等资源，伊朗战争引发的能源危机将系统性损伤半导体产业链，波及全球数字经济。",
-      "source": "OilPrice.com",
-      "published": "2026-03-12",
-      "url": "https://oilprice.com/Energy/Energy-General/How-War-in-Iran-Could-Cripple-the-Global-Digital-Economy.html",
-      "tags": [
-        "geopolitics",
-        "energy",
-        "supply-chain",
-        "semiconductor"
-      ],
-      "insights": [
-        "特种气体依赖度高且替代周期长，地缘风险需纳入长期供应战略规划",
-        "能源成本波动将重塑各晶圆代工厂报价策略"
-      ],
-      "actions": [
-        "与晶圆厂确认是否触发价格条款"
-      ]
-    },
-    {
-      "title": "中国发布AI与芯片技术五年主导计划",
-      "summary": "中国公布新五年科技规划，重点布局人形机器人、AI操作系统、脑机接口、飞行汽车，目标2030年实现技术世界领先，芯片自主为核心支撑。",
-      "source": "ABC News (AU)",
-      "published": "2026-03-13",
-      "url": "https://www.abc.net.au/news/2026-03-14/china-future-five-years-plan-tech-ai-dominance/106450274",
-      "tags": [
-        "China",
-        "policy",
-        "AI",
-        "semiconductor"
-      ],
-      "insights": [
-        "国产替代需求将进一步强化，EDA/IP/先进封装本土化投资预计加速",
-        "政策驱动的国产芯片需求为供应链带来新增量机会"
-      ],
-      "actions": [
-        "关注国内晶圆/封测配套政策采购窗口"
-      ]
-    },
-    {
-      "title": "MIT：玻璃基板将进入AI芯片封装",
-      "summary": "韩国Absolics今年启动商业化玻璃基板生产，其低损耗高密度互连特性被认为将突破当前AI芯片封装在机械与信号完整性上的瓶颈。",
-      "source": "MIT Technology Review",
-      "published": "2026-03-13",
-      "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
-      "tags": [
-        "packaging",
-        "glass-substrate",
-        "AI-chips",
-        "advanced-packaging"
-      ],
-      "insights": [
-        "玻璃基板商业化进程加快，将对现有ABF基板供应商形成竞争压力",
-        "封测设备厂商需提前布局玻璃基板兼容工艺能力"
-      ],
-      "actions": [
-        "跟踪Absolics产能爬坡与客户导入进展"
+        "关注下周公告细节，评估对现有代工商及EDA供应商的冲击预期"
       ],
       "glossary": [
         {
-          "term": "Glass Substrate",
-          "desc": "以玻璃为核心材料的先进封装基板，具备低热膨胀系数与高布线密度优势"
+          "term": "Vertical Integration",
+          "desc": "企业向上游自建制造能力以减少外部依赖"
         }
       ]
     },
     {
-      "title": "高端封装市场2035年将达1349亿美元",
-      "summary": "SNS Insider报告显示高端半导体封装市场规模将从当前水平增长至2035年1349亿美元，CoWoS、SoIC、3D-IC等先进封装技术是主要驱动力。",
-      "source": "GlobeNewswire",
+      "title": "氦气断供致芯片供应链两周倒计时",
+      "summary": "伊朗无人机袭击卡塔尔氦气设施，切断全球约30%氦气供应，芯片制造商面临紧急备货压力。",
+      "source": "Slashdot",
       "published": "2026-03-13",
-      "url": "https://www.globenewswire.com/news-release/2026/03/13/3255281/0/en/High-End-Semiconductor-Packaging-Market-Size-to-Hit-USD-134-90-Billion-by-2035-SNS-Insider.html",
+      "url": "https://slashdot.org/story/26/03/13/2015243/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock",
       "tags": [
-        "advanced-packaging",
-        "market-research",
-        "CoWoS",
-        "3D-IC"
+        "helium",
+        "supply-chain",
+        "geopolitical-risk",
+        "materials"
       ],
       "insights": [
-        "先进封装市场高速增长，封测订单能见度持续改善，利于产能谈判",
-        "CoWoS产能仍是AI芯片交付瓶颈，客户优先级排序成关键"
+        "氦气作为芯片制造关键气体，断供直接影响MBE与检测设备正常运行",
+        "地缘政治导致的关键材料中断是供应链风险中最难对冲的类别"
       ],
       "actions": [
-        "评估先进封装合作伙伴产能扩充计划"
+        "立即核查氦气库存天数，联系备用供应商评估切换可行性"
+      ],
+      "glossary": [
+        {
+          "term": "MBE",
+          "desc": "分子束外延，芯片制造中需大量使用氦气的工艺设备"
+        }
       ]
     },
     {
-      "title": "KYEC二月营收台币32.2亿创新高",
-      "summary": "京元电子2026年2月营收约1.009亿美元，同比显著增长，反映AI驱动的芯片测试需求持续旺盛，半导体测试板块景气度高企。",
-      "source": "Digitimes",
-      "published": "2026-03-13",
-      "url": "https://www.digitimes.com/news/a20260313VL204/king-yuan-revenue-testing-2026.html",
+      "title": "芯片材料价格翻倍，镓出口禁令加剧",
+      "summary": "多家厂商确认关键芯片材料价格已翻倍，中国镓出口禁令叠加中东冲突令供应持续收紧。",
+      "source": "Tom's Hardware UK",
+      "published": "2026-03-14",
+      "url": "https://www.tomshardware.com/tech-industry/chip-material-prices-double-as-middle-east-conflict-compounds-chinas-existing-gallium-export-ban",
       "tags": [
-        "OSAT",
-        "testing",
-        "KYEC",
-        "revenue"
+        "gallium",
+        "materials",
+        "export-ban",
+        "supply-crunch"
       ],
       "insights": [
-        "测试需求先于晶圆出货反映景气，KYEC数据可作为下半年芯片需求前瞻指标",
-        "测试产能紧张时需提前锁定档期，避免交期延误"
+        "镓、锗等战略材料价格飙升直接推高GaN/SiC器件BOM成本",
+        "中国出口管制叠加地缘风险，关键材料多元化采购窗���期缩短"
       ],
       "actions": [
-        "与测试厂确认Q2-Q3档期预留"
+        "评估GaN/SiC产品线材料库存，锁定6个月以上安全库存合同"
       ]
     },
     {
-      "title": "ASE吴田玉：台湾硬件优势是全球筹码",
-      "summary": "日月光COO吴田玉表示，AI推动技术变革时代新硬件瓶颈在台湾，台湾应将封装与测试能力作为全球谈判筹码，应对美中芯片争霸。",
-      "source": "Digitimes",
-      "published": "2026-03-12",
-      "url": "https://www.digitimes.com/news/a20260312PD212/ase-ai-hardware-software-taiwan.html",
+      "title": "NVIDIA被指压价供应商争取议价筹码",
+      "summary": "据BusinessKorea报道，NVIDIA惯用提前介入供应链谈判、公开批评对手策略打压供应商报价获取定价优势。",
+      "source": "Wccftech",
+      "published": "2026-03-13",
+      "url": "https://wccftech.com/nvidia-reportedly-fires-unusual-criticism-at-suppliers-like-samsung-before-deals-all-to-gain-pricing-leverage/",
       "tags": [
-        "OSAT",
-        "ASE",
+        "NVIDIA",
+        "Samsung",
+        "supplier-relations",
+        "procurement"
+      ],
+      "insights": [
+        "头部客户的强势采购策略倒逼供应商压缩利润，中小型供应商谈判空间受限",
+        "NVIDIA市场地位的强化意味着供应商依赖度风险持续上升"
+      ],
+      "actions": [
+        "审查NVIDIA相关合同条款，评估单客户依赖度与利润保障机制"
+      ]
+    },
+    {
+      "title": "印尼主权财富基金���化半导体生态",
+      "summary": "印尼Danantara基金与高教部签署合作，加速本土半导体生态布局，推动东南亚供应链多元化。",
+      "source": "Antaranews",
+      "published": "2026-03-14",
+      "url": "https://en.antaranews.com/news/344660/danantara-higher-ed-ministry-strengthen-semiconductor-ecosystem",
+      "tags": [
+        "Indonesia",
+        "Southeast-Asia",
+        "supply-chain-diversification",
+        "government"
+      ],
+      "insights": [
+        "东南亚国家加快布局半导体，将带来封测与材料供应商的区域扩展机遇",
+        "政府主导的产业基金入场，加速本地配套供应链建设"
+      ],
+      "actions": [
+        "关注东南亚封测布局机会，评估印尼/越南作为备供基地的可行性"
+      ]
+    },
+    {
+      "title": "FedEx扩建台湾枢纽应对半导体物流激增",
+      "summary": "FedEx桃园转运中心完成扩建，专门应对AI服务器与半导体相关货运需求的快速增长。",
+      "source": "Digitimes",
+      "published": "2026-03-14",
+      "url": "https://www.digitimes.com/news/a20260314VL202/fedex-taiwan-hub-ai-semiconductor-logistics.html",
+      "tags": [
+        "logistics",
         "Taiwan",
-        "geopolitics"
+        "AI-server",
+        "supply-chain"
       ],
       "insights": [
-        "台湾封测产业战略地位上升，但也意味着地缘风险溢价将持续存在",
-        "采购策略需考虑台湾集中度风险，评估韩国/马来西亚备份产能"
+        "物流基础设施跟进AI硬件扩张，台湾作为半导体枢纽地位进一步巩固",
+        "先进封装与CoWoS出货量激增推动台湾空运物流容量持续扩大"
       ],
       "actions": [
-        "评估非台湾备选封测产能可用性"
+        "评估台湾出货物流合作商产能，提前预订旺季舱位资源"
       ]
     },
     {
-      "title": "印度110亿美元芯片基金推动本土制造",
-      "summary": "印度计划设立超1万亿卢比（约110亿美元）专项基金，覆盖芯片设计、制造设备及供应链补贴，加速半导体本土化进程。",
-      "source": "The Times of India",
-      "published": "2026-03-12",
-      "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/india-plans-new-11-billion-fund-to-support-local-chipmaking-semiconductor-mission/articleshow/129500137.cms",
+      "title": "Wah Lee上半年营收创纪录",
+      "summary": "半导体材料与设备分销商华立工业2026年上半年累计营收创历史高位，AI服务器订单与CCL基板需求双轮驱动。",
+      "source": "Digitimes",
+      "published": "2026-03-14",
+      "url": "https://www.digitimes.com/news/a20260314VL201/wah-lee-revenue-ai-server-ccl-substrate.html",
       "tags": [
-        "India",
+        "materials",
+        "substrate",
+        "CCL",
+        "AI-server"
+      ],
+      "insights": [
+        "CCL基板需求持续强劲，印制电路板材料供应商迎来新一��增量周期",
+        "AI服务器拉动上游材料分销商营收，显示整体供应链需求侧仍偏强"
+      ],
+      "actions": [
+        "跟进CCL/基板材料供应紧张情况，提前锁定核心材料采购配额"
+      ],
+      "glossary": [
+        {
+          "term": "CCL",
+          "desc": "覆铜层压板，PCB制造的核心基材"
+        }
+      ]
+    },
+    {
+      "title": "南科2025年营收近3万亿新台币",
+      "summary": "台湾南部科学工业园区2025年营收达2.97兆新台币（约935亿美元），创历史新高，AI需求为主要动能。",
+      "source": "Digitimes",
+      "published": "2026-03-14",
+      "url": "https://www.digitimes.com/news/a20260314VL200/southern-taiwan-science-park-revenue-2025.html",
+      "tags": [
+        "Taiwan",
+        "science-park",
+        "TSMC",
+        "AI"
+      ],
+      "insights": [
+        "南科聚集台积电���进制程核心产能，园区数据是台湾半导体实力的晴雨表",
+        "园区持续扩张暗示台积电及配套供应商在台投资意愿强劲"
+      ],
+      "actions": [
+        "关注南科周边供应链扩产动态，评估配套材料/设备商合作机会"
+      ]
+    },
+    {
+      "title": "中国五年计划重申科技AI领先目标",
+      "summary": "中国新版五年计划强调推动原始科研创新，将半导体与AI列为核心战略领域，加大自主可控投入。",
+      "source": "Nature",
+      "published": "2026-03-14",
+      "url": "https://www.nature.com/articles/d41586-026-00756-0",
+      "tags": [
+        "China",
         "policy",
-        "chipmaking",
-        "supply-chain-diversification"
+        "AI",
+        "self-sufficiency"
       ],
       "insights": [
-        "印度芯片制造补贴力度加大，部分封测及设计服务迁移至印度的时间窗口正在开启",
-        "国内EDA/IP供应商可关注印度市场拓展机会"
+        "中国加速半导体自���化将影响进口替代节奏，部分外资供应商面临市场萎缩压力",
+        "原始创新投入加大预示EDA与先进工艺IP的国产化进程或提速"
       ],
       "actions": [
-        "评估印度本土芯片制造合作可行性"
+        "评估中���客户订单的自主替代风险，调整中国市场中长期业务预期"
       ]
     },
     {
-      "title": "印度芯片日产能预计达8000万颗",
-      "summary": "印度半导体协会IESA预计2026年底印度芯片产能达日产7500-8000万颗，美光、塔塔电子、Kaynes等公司的封测厂相继投产。",
-      "source": "BusinessLine",
-      "published": "2026-03-12",
-      "url": "https://www.thehindubusinessline.com/info-tech/indias-semiconductor-capacity-may-reach-80-million-chips-per-day-by-2026-iesa/article70733674.ece",
+      "title": "GTC 2026前NVIDIA股价小幅承压",
+      "summary": "NVIDIA股价3月13日收于180.25美元，较前日跌1.58%，市场在GTC 2026发布会前陷入观望情绪。",
+      "source": "Ibtimes",
+      "published": "2026-03-14",
+      "url": "https://www.ibtimes.com.au/nvidia-nvda-stock-closes-18025-march-13-amid-pre-gtc-2026-anticipation-1848773",
       "tags": [
-        "India",
-        "OSAT",
-        "capacity",
-        "Micron"
+        "NVIDIA",
+        "GTC-2026",
+        "stock",
+        "AI-demand"
       ],
       "insights": [
-        "印度OSAT产能快速爬坡，可作为分散台湾集中度风险的备选路径",
-        "美光等大厂在印度的布局将带动配套供应商跟进"
+        "GTC大会前市场情绪谨慎，会议结果将直接影响AI加速器近期需求预期",
+        "NVIDIA产品路线图节奏影响台积电CoWoS/SoIC先进封装订单可见度"
       ],
       "actions": [
-        "跟踪美光/塔塔印度工厂量产节点"
+        "持续跟踪GTC 2026公告，关注Blackwell Ultra/Rubin产品路线���更新"
       ]
     },
     {
-      "title": "美伊战争冲击全球供应链与贸易",
-      "summary": "路透社分析美伊战争引发航班取消、原材料紧缺、贸易路线可靠性质疑，从食品到金融全行业受波及，芯片供应链尤其脆弱。",
-      "source": "The Times of India",
-      "published": "2026-03-12",
-      "url": "https://economictimes.indiatimes.com/news/international/business/how-us-israeli-war-on-iran-is-upending-global-business/articleshow/129511740.cms",
+      "title": "台湾审视全球不确定下的战略韧性",
+      "summary": "分析师审视台湾在中东冲突、美国政策转变等多重不确定性下，如何维系半导体供应链核心地位。",
+      "source": "Fair Observer",
+      "published": "2026-03-14",
+      "url": "https://www.fairobserver.com/region/asia_pacific/taiwan-watches-and-prepares-amid-global-uncertainty/",
       "tags": [
+        "Taiwan",
         "geopolitics",
-        "trade",
-        "supply-chain",
-        "Iran"
+        "supply-chain-risk",
+        "resilience"
       ],
       "insights": [
-        "贸易路线��断将延长跨区域物料运输周期，需重新评估交期承诺",
-        "战争持续将进一步推高运��与保险费率，采购成本上升不可避免"
+        "台湾地缘风险溢价持���存在，推动客户多元化晶圆来源的战略压力不减",
+        "美国对台政策波动是供应链不确定性的核心变量之一"
       ],
       "actions": [
-        "与物流商确认替代路线与最新运费"
+        "梳理关键产品的台湾单源依赖清单，制定备用代工方案预案"
       ]
     },
     {
-      "title": "特朗普对伊战争：最危险的双刃剑",
-      "summary": "《悉尼晨锋报》分析指出若特朗普对伊战争实为遏制中国策略，其对全球供应链与半导体产业的潜在破坏远超市场预期。",
-      "source": "The Sydney Morning Herald",
+      "title": "VGT vs SOXX：AI周期下半导体ETF之争",
+      "summary": "分析VGT（综合科技ETF）与SOXX（半导体专项ETF）的收益差异，判断AI周期下哪类配置更优。",
+      "source": "Yahoo Finance",
       "published": "2026-03-13",
-      "url": "https://www.smh.com.au/business/the-economy/trump-s-war-is-the-most-dangerous-double-edged-gamble-i-can-remember-20260310-p5o8x7.html",
+      "url": "https://finance.yahoo.com/news/broad-technology-exposure-semiconductor-industry",
       "tags": [
-        "geopolitics",
-        "US-China",
-        "trade-war",
-        "risk"
+        "SOXX",
+        "ETF",
+        "investment",
+        "AI-cycle"
       ],
       "insights": [
-        "美中博弈叠加中东冲突，出口管制与技术脱钩风险进一步上升",
-        "芯片采购需提前规划合规路径，避免被卷入新一轮制裁"
+        "SOXX集中暴露于半导体周期，AI超级周期下超额收益显著但波动率较高",
+        "供应链从业者可参考SOXX成分股权重变化理解市场对各细分赛道的预期"
       ],
       "actions": [
-        "审查现有供应商合规风险与出口管制敞口"
+        "追踪SOXX成分股权重变化，作为下游需求预判��市场信号参考"
       ]
     },
     {
-      "title": "印度股市因能源战争大跌1%",
-      "summary": "印度Sensex跌1.08%至76034点，受油价上涨与美伊战争不确定性拖累，汽车、FMCG领跌，芯片相关科技股承压。",
-      "source": "BusinessLine",
-      "published": "2026-03-12",
-      "url": "https://www.thehindubusinessline.com/markets/share-market-nifty-sensex-highlights-12th-march-2026/article70730790.ece",
+      "title": "TsangYow加速东南亚半导体设备扩张",
+      "summary": "传动系统厂商TsangYow在东南亚加快新能源车与半导体设备产能布局，深化高价值制造领域渗透。",
+      "source": "Digitimes",
+      "published": "2026-03-14",
+      "url": "https://www.digitimes.com/news/a20260314VL203/tsangyow-nev-semiconductor-equipment-sea.html",
       "tags": [
-        "market",
-        "India",
-        "energy-prices",
-        "macro"
+        "equipment",
+        "Southeast-Asia",
+        "NEV",
+        "supply-chain"
       ],
       "insights": [
-        "油价上涨推高制造成本，对利润率薄的封测代工厂影响尤为明显",
-        "宏观市场波动期间，客户可能推迟订单确认，需密切跟踪"
+        "台系设备供应商加速东南亚布局，反映区域制造升级带来的设备需求上升",
+        "半导体设备本土化是东南亚产业链构建的关键瓶颈之一"
       ],
       "actions": [
-        "监控下游客户订单动态，防范备货节奏变化"
-      ]
-    },
-    {
-      "title": "全球芯片业：战争如何压垮数字经济",
-      "summary": "综合分析：美伊战争持续带来能源、原材料、运输三重冲击，半导��产业高度全球化的特点使其成为最脆弱的战略资产之一。",
-      "source": "OilPrice.com",
-      "published": "2026-03-12",
-      "url": "https://oilprice.com/Energy/Energy-General/How-War-in-Iran-Could-Cripple-the-Global-Digital-Economy.html",
-      "tags": [
-        "geopolitics",
-        "semiconductor",
-        "supply-chain",
-        "risk-assessment"
-      ],
-      "insights": [
-        "多重风险叠加下，芯片供应链韧性建设需从单一成本导向转向风险调整后收益模型",
-        "建议将地缘风险纳入年度采购战略评估框架"
-      ],
-      "actions": [
-        "制定供应链韧性应急预案并定期演练"
+        "关注东南亚设备供应商动态��评估区域配套采购的可行性与成本"
       ]
     }
   ]
