@@ -1,118 +1,119 @@
 {
-  "version": "v20260314-1546",
-  "generatedAt": "2026-03-14 15:46 CST",
+  "version": "v20260315-1300",
+  "generatedAt": "2026-03-15 13:00 CST",
+  "commit": "",
   "period": "midday",
-  "commit": "5b26a6d",
   "items": [
     {
-      "id": 1,
-      "title": "4Q25全球十大晶圆代工营收环比增2.6%",
-      "summary": "AI服务器GPU和谷歌TPU供应偏紧支撑先进制程需求，三星代工市占提升，Tower升至前十榜单。",
-      "source": "Madshrimps.be",
+      "title": "卡塔尔氦气停供威胁芯片供应链",
+      "summary": "伊朗无人机袭击卡塔尔氦气设施，全球供应骤降30%，半导体光刻、离子注入等工艺面临断供风险，业界仅有两周缓冲时间。",
+      "source": "Slashdot / Tom's Hardware",
       "published": "2026-03-13",
-      "url": "https://www.madshrimps.be/news/ai-demand-drives-4q25-global-top-10-foundries-revenue-up-2-6-qoq-samsung-gains-share-and-tower-moves-up-in-rankings/",
+      "url": "https://tech.slashdot.org/story/26/03/13/190216/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock",
       "tags": [
-        "foundry",
-        "AI-chip",
-        "Samsung",
-        "TrendForce"
+        "helium-supply",
+        "supply-chain-risk",
+        "geopolitics",
+        "semiconductor-fab"
       ],
       "insights": [
-        "三星代工份额逆势上升，先进制程竞争格局生变",
-        "AI GPU持续拉动代工产能，供应链需提前锁量"
+        "氦气是晶圆厂冷却超导磁体、光刻机及离子注入设备的关键气体，断供可致产线停摆。",
+        "供应链应急储备策略：尽快评估现有氦气库存水位，联系备用气体供应商。"
       ],
       "actions": [
-        "关注三星先进制程产能排期，评估备选供应商"
-      ]
-    },
-    {
-      "id": 2,
-      "title": "海光信息营收暴增57%，AI算力驱动国产x86崛起",
-      "summary": "生成式AI需求爆发加速中国本土AI芯片替代，海光凭借x86架构算力产品实现高速增长。",
-      "source": "Digitimes",
-      "published": "2026-03-13",
-      "url": "https://www.digitimes.com/news/a20260313VL210/china-genai-x86-revenue-demand.html",
-      "tags": [
-        "Hygon",
-        "x86",
-        "China-chip",
-        "AI-compute"
-      ],
-      "insights": [
-        "国产算力替代加速，海光成为英特尔/AMD替代路径之一",
-        "中国AI基础设施建设需求将持续支撑本土芯片放量"
-      ],
-      "actions": [
-        "跟踪海光上游晶圆/封装供应商动态，挖掘供应链机会"
-      ]
-    },
-    {
-      "id": 3,
-      "title": "中国晶圆代工厂Nexchip宣布涨价",
-      "summary": "Nexchip确认对部分晶圆代工产品涨价，结合CIS业务增长与产能扩张，反映国内成熟制程供需收紧。",
-      "source": "Digitimes",
-      "published": "2026-03-13",
-      "url": "https://www.digitimes.com/news/a20260313VL214/nexchip-wafer-cis-demand-market.html",
-      "tags": [
-        "Nexchip",
-        "wafer-price",
-        "CIS",
-        "mature-node"
-      ],
-      "insights": [
-        "成熟制程晶圆价格向上拐点或已出现，采购锁价窗口收窄",
-        "CIS需求回暖叠加厂商扩产，下半年供需或重新平衡"
-      ],
-      "actions": [
-        "尽快与国内代工供应商确认Q3/Q4订单价格，规避成本上升风险"
+        "立即排查氦气库存，评估供应中断暴露风险"
       ],
       "glossary": [
         {
-          "term": "CIS",
-          "desc": "CMOS图像传感器，广泛用于手机/汽车摄像头"
+          "term": "氦气（Helium）",
+          "desc": "半导体制程中用于超导磁体冷却、离子注入及光刻环境控制的惰性气体，全球供应高度集中。"
         }
       ]
     },
     {
-      "id": 4,
-      "title": "特斯拉AI芯片延期拖累DeepX推迟六个月",
-      "summary": "特斯拉下一代AI处理器计划变更，三星代工时间线随之受阻，韩国NPU初创DeepX量产延迟约半年。",
-      "source": "Digitimes",
-      "published": "2026-03-13",
-      "url": "https://www.digitimes.com/news/a20260311VL207/tesla-deepx-samsung-ai-chip-startup.html",
+      "title": "美商务部撤回AI芯片出口新规草案",
+      "summary": "美国商务部已从跨部门审查流程中撤回AI芯片出口管制新草案，替代拜登2025年1月规则的计划暂被搁置，政策走向高度不确定。",
+      "source": "Times of India / Reuters",
+      "published": "2026-03-14",
+      "url": "https://economictimes.indiatimes.com/news/international/global-trends/us-commerce-department-withdraws-planned-rule-on-ai-chip-exports-government-website-shows/articleshow/129567398.cms",
       "tags": [
-        "Tesla",
-        "DeepX",
-        "NPU",
-        "Samsung-foundry"
+        "export-control",
+        "AI-chip",
+        "US-policy",
+        "trade-regulation"
       ],
       "insights": [
-        "大客户需求变动可致代工厂交期连锁延误，需评估供应商弹性",
-        "初创NPU公司依赖单一代工厂的风险正在显现"
+        "规则悬而未决意味着现行拜登框架继续生效，高端AI芯片对华限制暂不扩大，但长期不确定性上升。",
+        "供应链合规窗口期：可利用政策空窗期推进合规架构梳理，为新规落地预做准备。"
       ],
       "actions": [
-        "评估合作初创AI芯片公司的代工备份方案，降低延期风险"
+        "跟踪商务部后续动向，同步更新内部出口合规风险矩阵"
       ]
     },
     {
-      "id": 5,
-      "title": "字节跳动海外囤算力令华盛顿陷两难",
-      "summary": "字节跳动在中国境外大量采购先进AI算力，凸显中国科技企业规避出口管制的路径，让美国政策制定者棘手。",
-      "source": "Digitimes",
+      "title": "AWS与Cerebras达成晶圆级芯片合作",
+      "summary": "亚马逊AWS宣布将Cerebras WSE-3晶圆级AI推理芯片引入云平台，签署多年合作协议，为大模型推理提供极高算力密度。",
+      "source": "SiliconANGLE News",
       "published": "2026-03-13",
-      "url": "https://www.digitimes.com/news/a20260313VL218/bytedance-ai-chip-technology-chips-nvidia.html",
+      "url": "https://siliconangle.com/2026/03/13/aws-will-bring-cerebras-wafer-size-wse-3-chip-cloud-platform/",
       "tags": [
-        "ByteDance",
-        "export-control",
-        "AI-chip",
-        "geopolitics"
+        "Cerebras",
+        "AWS",
+        "AI-inference",
+        "wafer-scale"
       ],
       "insights": [
-        "出口管制漏洞加剧AI芯片供应链地缘博弈，采购合规风险上升",
-        "境外算力囤积模式或推动美国进一步收紧对华芯片政策"
+        "WSE-3采用整片晶圆封装，单芯片面积约46,225mm²，标志着超大尺寸定制算力商业化加速。",
+        "晶圆级封装路线对先进封测产能（CoW、混合键合）需求拉动效应值得关注。"
       ],
       "actions": [
-        "关注美国出口管制最新动态，评估自身采购合规性"
+        "评估晶圆级封装技术对现有封测合作伙伴产能规划的影响"
+      ],
+      "glossary": [
+        {
+          "term": "WSE-3",
+          "desc": "Cerebras第三代晶圆级AI芯片，采用整片300mm晶圆制造，集成4万亿���体管，专为大模型训练/推理设计。"
+        }
+      ]
+    },
+    {
+      "title": "AMD发布Agent Computer新PC品类",
+      "summary": "AMD推出针对本地AI推理优化的Agent Computer品类，搭载高性能AI加速单元，直接竞争NVIDIA DGX Spark，抢占边缘AI算力市场。",
+      "source": "PCMag.com",
+      "published": "2026-03-13",
+      "url": "https://uk.pcmag.com/ai/163799/amd-pushes-a-new-category-of-pcs-the-agent-computer",
+      "tags": [
+        "AMD",
+        "AI-PC",
+        "edge-inference",
+        "NVIDIA-competition"
+      ],
+      "insights": [
+        "AI PC品类分化加速，x86+NPU架构本地推理设备将推动高带宽LPDDR/HBM内存及散热模组需求增长。",
+        "AMD与NVIDIA竞争格局向边缘侧延伸，ODM/OEM供应链需同步评估备货策略。"
+      ],
+      "actions": [
+        "关注AMD AI PC芯片组采购时序，适时纳入ODM供应链跟踪清单"
+      ]
+    },
+    {
+      "title": "中国发布五年科技规划瞄准AI主导权",
+      "summary": "中国公布新一轮五年技术规划，重点涵盖飞行汽车、脑机接口与人形机器人，同步强化AI算力自主化，意图打破西方芯片封锁。",
+      "source": "ABC News (AU)",
+      "published": "2026-03-13",
+      "url": "https://www.abc.net.au/news/2026-03-14/china-future-five-years-plan-tech-ai-dominance/106450274",
+      "tags": [
+        "China-policy",
+        "AI-strategy",
+        "self-sufficiency",
+        "semiconductor-localization"
+      ],
+      "insights": [
+        "规划再次强调芯片自主可控，国产EDA、先进制程及存储替代将获政策与资本双重加持。",
+        "国内晶圆厂扩产及国产化替代进程将加速，设备/材料/IP国内需求持续上升。"
+      ],
+      "actions": [
+        "梳理国内fab客户五年规划中的国产化采购需求，提前布局供应商资质对接"
       ]
     }
   ]

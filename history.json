@@ -1032,9 +1032,84 @@
         "AI-chip",
         "geopolitics"
       ]
+    },
+    {
+      "version": "v20260315-1300",
+      "generatedAt": "2026-03-15 13:00 CST",
+      "period": "midday",
+      "title": "卡塔尔氦气停供威胁芯片供应链",
+      "source": "Slashdot / Tom's Hardware",
+      "published": "2026-03-13",
+      "url": "https://tech.slashdot.org/story/26/03/13/190216/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock",
+      "tags": [
+        "helium-supply",
+        "supply-chain-risk",
+        "geopolitics",
+        "semiconductor-fab"
+      ]
+    },
+    {
+      "version": "v20260315-1300",
+      "generatedAt": "2026-03-15 13:00 CST",
+      "period": "midday",
+      "title": "美商务部撤回AI芯片出口新规草案",
+      "source": "Times of India / Reuters",
+      "published": "2026-03-14",
+      "url": "https://economictimes.indiatimes.com/news/international/global-trends/us-commerce-department-withdraws-planned-rule-on-ai-chip-exports-government-website-shows/articleshow/129567398.cms",
+      "tags": [
+        "export-control",
+        "AI-chip",
+        "US-policy",
+        "trade-regulation"
+      ]
+    },
+    {
+      "version": "v20260315-1300",
+      "generatedAt": "2026-03-15 13:00 CST",
+      "period": "midday",
+      "title": "AWS与Cerebras达成晶圆级芯片合作",
+      "source": "SiliconANGLE News",
+      "published": "2026-03-13",
+      "url": "https://siliconangle.com/2026/03/13/aws-will-bring-cerebras-wafer-size-wse-3-chip-cloud-platform/",
+      "tags": [
+        "Cerebras",
+        "AWS",
+        "AI-inference",
+        "wafer-scale"
+      ]
+    },
+    {
+      "version": "v20260315-1300",
+      "generatedAt": "2026-03-15 13:00 CST",
+      "period": "midday",
+      "title": "AMD发布Agent Computer新PC品类",
+      "source": "PCMag.com",
+      "published": "2026-03-13",
+      "url": "https://uk.pcmag.com/ai/163799/amd-pushes-a-new-category-of-pcs-the-agent-computer",
+      "tags": [
+        "AMD",
+        "AI-PC",
+        "edge-inference",
+        "NVIDIA-competition"
+      ]
+    },
+    {
+      "version": "v20260315-1300",
+      "generatedAt": "2026-03-15 13:00 CST",
+      "period": "midday",
+      "title": "中国发布五年科技规划瞄准AI主导权",
+      "source": "ABC News (AU)",
+      "published": "2026-03-13",
+      "url": "https://www.abc.net.au/news/2026-03-14/china-future-five-years-plan-tech-ai-dominance/106450274",
+      "tags": [
+        "China-policy",
+        "AI-strategy",
+        "self-sufficiency",
+        "semiconductor-localization"
+      ]
     }
   ],
-  "lastUpdated": "2026-03-14 15:46 CST",
+  "lastUpdated": "2026-03-15 13:00 CST",
   "items": [
     {
       "version": "v20260314-1447",
