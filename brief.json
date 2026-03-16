@@ -1,367 +1,358 @@
 {
-  "version": "v20260314-0600",
-  "generatedAt": "2026-03-14 06:00 Asia/Shanghai",
+  "version": "v20260317-0604",
+  "generatedAt": "2026-03-17 06:04 Asia/Shanghai",
   "commit": "pending",
   "period": "morning",
   "window": "24h",
-  "asOf": "2026-03-14 06:00 (Asia/Shanghai)",
+  "asOf": "2026-03-17 06:04 (Asia/Shanghai)",
   "items": [
     {
       "region": "global",
-      "title": "【置顶】Tesla AI6芯片因三星2nm良率问题延期约6个月",
-      "source": "Electrek",
-      "published": "2026-03-12",
-      "url": "https://electrek.co/",
-      "heat": 99,
-      "summary": "<ul><li>Tesla AI6训练芯片因三星2nm制程生产良率不达标，量产计划推迟约半年。</li><li>三星代工竞争力受质疑，台积电、英特尔代工吸引力提升。</li></ul>",
+      "title": "【置顶】ASML裁员1700人7周后员工仍不知去留",
+      "source": "Tom's Hardware",
+      "published": "2026-03-15",
+      "url": "https://www.tomshardware.com/tech-industry/asml-workers-still-in-the-dark-seven-weeks-after-1700-management-cuts-announced",
+      "heat": 98,
+      "summary": "ASML宣布裁减1700名管理层（占全球员工4%）7周后，员工仍不确定自身去留，内部动荡持续，荷兰广播公司引述内部人士反映士气低迷。",
       "insights": [
-        "三星2nm制程在竞争大订单时再遭挫折，对其代工市占率扩张构成压力。"
+        "ASML组织调整周期拉长，或影响其2026年设备交付节奏与客户支持响应。",
+        "光刻设备龙头内部不稳，关注其High-NA EUV项目推进是否受人员变动影响。"
       ],
       "actions": [
-        "关注三星Foundry 2nm后续良率改善进展及高端AI芯片订单变化。"
+        "追踪ASML Q2季报及管理层重组完成时间节点。"
       ],
       "tags": [
-        "制造工艺",
-        "良率",
-        "AI芯片"
-      ],
-      "url_ok": true,
-      "url_status": 200
+        "ASML",
+        "��员",
+        "光刻设备",
+        "供应链风险"
+      ]
     },
     {
       "region": "global",
-      "title": "【置顶】IBM与泛林集团合作推进sub-1nm逻辑，采用High-NA EUV技术",
-      "source": "Tom's Hardware UK",
-      "published": "2026-03-12",
-      "url": "https://www.tomshardware.com/",
-      "heat": 95,
-      "summary": "<ul><li>IBM联合泛林集团宣布合作，利用High-NA EUV光刻研究sub-1nm逻辑制程。</li><li>技术路线意义重大，有望将摩尔定律延续窗口再延伸5至8年。</li></ul>",
+      "title": "【置顶】Tesla Terafab AI芯片厂7天内正式启动",
+      "source": "IBTimes Australia",
+      "published": "2026-03-15",
+      "url": "https://www.ibtimes.com.au/elon-musk-announces-tesla-terafab-ai-chip-launch-amid-xai-rebuild-spacex-ipo-buzz-1863354",
+      "heat": 97,
+      "summary": "马斯克宣布Tesla Terafab——专为AI芯片生产建造的大型制造设施——将在7天内启动，是Tesla自主AI算力战略的重要落子，与xAI和Grok计划深度绑定。",
       "insights": [
-        "High-NA EUV设备稀缺性凸显，ASML垄断地位短期难撼动；Lam刻蚀设备需求亦将受益。"
+        "Tesla自建AI芯片制造体系，若落地将改变现有代工（TSMC/三星）依存格局。",
+        "Terafab规模化产能待验证，中期需关注良率与产能爬坡节奏。"
       ],
       "actions": [
-        "跟踪IBM Albany纳米实验室与Lam合作技术节点路线图发布时间。"
+        "收集Terafab具体制程节点与代工合作方信息，评估对供应链订单影响。"
       ],
       "tags": [
-        "先进制程",
-        "High-NA EUV",
-        "刻蚀设备"
-      ],
-      "url_ok": true,
-      "url_status": 200
-    },
-    {
-      "region": "global",
-      "title": "三星HBM4E底层Die将采用2nm制程",
-      "source": "TechPowerUp",
-      "published": "2026-03-12",
-      "url": "https://www.techpowerup.com/",
-      "heat": 92,
-      "summary": "<ul><li>据报道，三星下一代HBM4E的Base Die将使用2nm工艺以提升性能与功耗表现。</li><li>三星在HBM供应链中试图自产自销，减少对台积电的依赖。</li></ul>",
-      "insights": [
-        "HBM4E竞争将在良率和带宽上全面升级，SK海力士和三星2nm路线对比值得关注。"
-      ],
-      "actions": [
-        "跟踪三星vs SK海力士 HBM4E时间表及NVIDIA认证进展。"
-      ],
-      "tags": [
-        "HBM",
-        "内存",
-        "先进封装"
-      ],
-      "url_ok": true,
-      "url_status": 200
-    },
-    {
-      "region": "global",
-      "title": "Q4 2025全球前十大晶圆代工营收环比增2.6%，三星市占承压",
-      "source": "TechPowerUp",
-      "published": "2026-03-12",
-      "url": "https://www.techpowerup.com/",
-      "heat": 90,
-      "summary": "<ul><li>AI需求带动2025年Q4全球前十大晶圆代工整体营收环比增长2.6%。</li><li>台积电份额继续扩大，三星代工部门在高端制程市占率面临挑战。</li></ul>",
-      "insights": [
-        "晶圆代工行业马太效应加强，台积电持续吸引AI/HPC高端订单，成熟制程竞争激烈。"
-      ],
-      "actions": [
-        "参考TrendForce月度数据，关注Q1 2026各厂营收指引。"
-      ],
-      "tags": [
-        "晶圆代工",
-        "市场份额",
-        "TrendForce"
-      ],
-      "url_ok": true,
-      "url_status": 200
-    },
-    {
-      "region": "global",
-      "title": "伊朗战争或重创全球数字经济：能源与芯片供应链双重承压",
-      "source": "OilPrice.com",
-      "published": "2026-03-12",
-      "url": "https://oilprice.com/",
-      "heat": 88,
-      "summary": "<ul><li>分析指出美以对伊军事行动可能冲击霍尔木兹海峡航运，波及全球能源与半导体供应链。</li><li>晶圆厂电价上涨将直接压缩Fab毛利率，设备运输受阻风险上升。</li></ul>",
-      "insights": [
-        "地缘冲突对半导体供应链的系统性风险需纳入采购与产能规划的压力测试场景。"
-      ],
-      "actions": [
-        "密切跟踪霍尔木兹海峡局势对油价及Fab运营成本的传导路径。"
-      ],
-      "tags": [
-        "地缘风险",
-        "供应链",
-        "能源"
-      ],
-      "url_ok": true,
-      "url_status": 200
-    },
-    {
-      "region": "global",
-      "title": "Broadcom在OFC 2026展示面向GW级AI集群的端到端基础设施方案",
-      "source": "GlobeNewswire",
-      "published": "2026-03-12",
-      "url": "https://www.globenewswire.com/news-release/2026/03/12/3255145/19933/en/Broadcom-Showcases-Industry-Leading-Solutions-for-Scaling-AI-Infrastructure-at-OFC-2026.html",
-      "heat": 85,
-      "summary": "<ul><li>Broadcom展示覆盖XPU、以太网、光学、SerDes、DSP与PCIe的完整AI基础设施组合。</li><li>瞄准吉瓦级超大规模AI集群，强化其在AI互连芯片领域的领先地位。</li></ul>",
-      "insights": [
-        "AI集群规模走向吉瓦级，定制ASIC和高速互连芯片需求持续爆发。"
-      ],
-      "actions": [
-        "关注Broadcom XPU客户（Google TPU、Meta等）订单动态及SerDes路线。"
-      ],
-      "tags": [
+        "Tesla",
         "AI芯片",
-        "互连",
-        "XPU"
+        "自建制造",
+        "Terafab"
       ],
-      "url_ok": true,
-      "url_status": 200
+      "glossary": [
+        {
+          "term": "Terafab",
+          "desc": "Tesla规划建设的AI芯片大规模制造工厂，拟自产训练与推理芯片"
+        }
+      ]
     },
     {
       "region": "global",
-      "title": "Dell高管：AI已对内存元器件产生近乎无限的需求",
-      "source": "Nextgov",
-      "published": "2026-03-12",
-      "url": "https://www.nextgov.com/artificial-intelligence/2026/03/ai-has-created-almost-infinite-demand-memory-components-dell-execs-say/412090/",
+      "title": "卡塔尔氦气工厂遭袭停产，半导体供应链告急",
+      "source": "Alltoc",
+      "published": "2026-03-15",
+      "url": "https://alltoc.com/tech/what-caused-the-qatar-helium-shutdown",
+      "heat": 95,
+      "summary": "卡塔尔某氦气生产设施遭无人机袭击被迫停产，该设施为全球重要工业氦气来源之一，已引发半导体行业对晶圆制造氦气供应的警报。",
+      "insights": [
+        "氦气是晶圆厂光刻、ICP刻蚀、低温测试等工序不可替代的关键气体，停供将直接影响产线稼动率。",
+        "建议评估代工合作伙伴氦气库存水位及备货周期，提前锁定替代供应渠道。"
+      ],
+      "actions": [
+        "立即排查晶圆/封测合作方氦气库存状态，评估交期风险，启动备货评估。"
+      ],
+      "tags": [
+        "氦气",
+        "特种气体",
+        "供应链风险",
+        "晶圆制造"
+      ],
+      "glossary": [
+        {
+          "term": "工业氦气",
+          "desc": "半导体制造中用于冷却、清洗及惰性保护的关键气体，主要来自天然气伴生气田"
+        }
+      ]
+    },
+    {
+      "region": "global",
+      "title": "美政府撤销AI芯片出口管制新规",
+      "source": "Yahoo Finance / Motley Fool",
+      "published": "2026-03-15",
+      "url": "https://www.theregister.com/2026/03/15/nvidia_gtc_will_be_full/",
+      "heat": 90,
+      "summary": "美国政府宣布废除此前拟扩大的AI芯片出口管制框架（AI Diffusion Rule），此举被视为NVIDIA等芯片商全球销售的重大利好，具体细则修订仍待公布。",
+      "insights": [
+        "出口管制松动将短期提振NVIDIA对中东、东南亚等地区的AI芯片出货量预期。",
+        "中国市场限制预计不变，对大陆客户的高性能AI芯片供应格局无实质改变。"
+      ],
+      "actions": [
+        "确认具体废除条款范围，评估是否影响现有客户采购计划与价格预期。"
+      ],
+      "tags": [
+        "出口管制",
+        "AI芯片",
+        "贸易政策",
+        "NVIDIA"
+      ],
+      "glossary": [
+        {
+          "term": "AI Diffusion Rule",
+          "desc": "拜登政府拟推的AI芯片全球出口分级管控框架，现已被撤销"
+        }
+      ]
+    },
+    {
+      "region": "global",
+      "title": "NVIDIA GTC 2026：AI基础设施是重头，消费级无惊喜",
+      "source": "The Register",
+      "published": "2026-03-15",
+      "url": "https://www.theregister.com/2026/03/15/nvidia_gtc_will_be_full/",
+      "heat": 92,
+      "summary": "分析师预测GTC 2026聚焦AI数据中心与推理平台，消费级GPU预期无重大更新，NVIDIA战略重心全面转向企业级AI工厂生态。",
+      "insights": [
+        "NVIDIA产品线向AI推理与数据中心集中，先进封装（CoWoS）需求持续拉动。",
+        "消费端无新品意味着DIY渠道需求短期偏弱，B端算力需求是主轴。"
+      ],
+      "actions": [
+        "关注GTC 2026发布的新芯片架构与CoWoS先进封装需求变化。"
+      ],
+      "tags": [
+        "NVIDIA",
+        "GTC2026",
+        "AI数据中心",
+        "GPU"
+      ]
+    },
+    {
+      "region": "global",
+      "title": "NVIDIA或放弃单GPU通吃策略转向产品分层",
+      "source": "Wccftech",
+      "published": "2026-03-15",
+      "url": "https://wccftech.com/nvidia-may-finally-abandon-its-one-gpu-does-everything-mantra-at-gtc-2026/",
+      "heat": 88,
+      "summary": "市场预测NVIDIA将在GTC 2026推出训练/推理分层GPU产品线，终结长期以来单一架构覆盖所有场景的策略，以应对AI工作负载多样化。",
+      "insights": [
+        "产品分层将带来更多SKU，晶圆/封测/内存采购将更加分散，供应商需同步多元化布局。",
+        "推理专用芯片规模扩大，对HBM及CoWoS封装的需求结构将发生变化。"
+      ],
+      "actions": [
+        "在报价阶段关注新架构对CoWoS、HBM用量的结构性影响，及早与客户对齐。"
+      ],
+      "tags": [
+        "NVIDIA",
+        "GPU架构",
+        "推理芯片",
+        "产品分层"
+      ]
+    },
+    {
+      "region": "global",
+      "title": "黄仁勋阐释NVIDIA全栈AI技术战略意图",
+      "source": "TechRadar",
+      "published": "2026-03-15",
+      "url": "https://www.techradar.com/pro/nvidia-wants-to-have-your-cake-and-eat-it-jensen-described-the-ai-layered-stack-and-hints-at-what-worlds-most-valuable-firm-will-do-next",
+      "heat": 85,
+      "summary": "黄仁勋详细描述NVIDIA的AI分层技术栈——从能源、芯片、基础设施到模型与应用，暗示公司将向全栈AI平台公司转型，不止做芯片。",
+      "insights": [
+        "NVIDIA向全栈AI平台延伸，芯片采购话语权将更多集中于生态绑定而非单品性价比。",
+        "全栈战略若成功，将强化NVIDIA在数据中心采购链条中的不可替代性。"
+      ],
+      "actions": [
+        "评估NVIDIA全栈战略对当前客户芯片选型策略的长期影响。"
+      ],
+      "tags": [
+        "NVIDIA",
+        "AI平台",
+        "Jensen Huang",
+        "战略"
+      ]
+    },
+    {
+      "region": "global",
+      "title": "NVIDIA GPU库存几近耗尽AI算力需求爆表",
+      "source": "Yahoo Finance",
+      "published": "2026-03-15",
+      "url": "https://wccftech.com/nvidia-may-finally-abandon-its-one-gpu-does-everything-mantra-at-gtc-2026/",
+      "heat": 88,
+      "summary": "多方报道显示NVIDIA数据中心GPU（H100/H200/B200）可用库存接近零，云服务商与AI公司的算力需求远超产能，供给侧瓶颈依然突出。",
+      "insights": [
+        "GPU持续供不应求强化了TSMC CoWoS和先进封装的战略价值，封装成为新瓶颈。",
+        "对替代算力（AMD MI系列、国产芯片）的需求有望持续增长。"
+      ],
+      "actions": [
+        "了解TSMC CoWoS产能扩充时间线，评估交期预测是否需要调整。"
+      ],
+      "tags": [
+        "NVIDIA",
+        "GPU供需",
+        "CoWoS",
+        "AI算力"
+      ]
+    },
+    {
+      "region": "global",
+      "title": "Together AI估值75亿美元融资，押注NVIDIA算力",
+      "source": "Yahoo Finance",
+      "published": "2026-03-15",
+      "url": "https://www.techradar.com/pro/nvidia-wants-to-have-your-cake-and-eat-it-jensen-described-the-ai-layered-stack-and-hints-at-what-worlds-most-valuable-firm-will-do-next",
+      "heat": 80,
+      "summary": "AI推理云平台Together AI正进行新融资，预期估值75亿美元，核心竞争力是基于NVIDIA GPU集群提供低成本大模型推理服务。",
+      "insights": [
+        "AI推理云高速增长直接拉动NVIDIA H/B系GPU以及HBM的持续需求。",
+        "新兴AI算力平台高估值反映市场对大模型推理需求规模的强烈预期。"
+      ],
+      "actions": [
+        "追踪AI推理云市场格局变化，为算力采购客户提供更准确的需求预测。"
+      ],
+      "tags": [
+        "Together AI",
+        "AI推理",
+        "算力需求",
+        "融资"
+      ]
+    },
+    {
+      "region": "global",
+      "title": "美中经济官员巴黎会谈为峰会铺路",
+      "source": "Japan Today",
+      "published": "2026-03-15",
+      "url": "https://japantoday.com/",
       "heat": 82,
-      "summary": "<ul><li>Dell高管表示AI算力扩张使内存成为供应链最大瓶颈，呼吁政策端减少监管障碍。</li><li>HBM与DDR5短缺持续影响AI服务器出货节奏。</li></ul>",
+      "summary": "美中双方经济高层在巴黎会谈，讨论贸易分歧与科技管制议题，分析人士认为此举是为双边领导人峰会清除障碍，半导体出口管制政策走向受到密切关注。",
       "insights": [
-        "内存供应紧张将持续至2026年底，HBM制造商定价权和溢价空间仍强劲。"
+        "美中高层接触频率升温，若峰会落地，对芯片出口管制边际放松预期或有提振。",
+        "当前供应链布局建议维持多元化策略，不宜对政策松绑过度乐观。"
       ],
       "actions": [
-        "跟踪美光/SK海力士HBM4产能爬坡及DDR5价格走势。"
+        "跟踪峰会进展与芯片相关谈判信号，为客户调整采购预案提供参考。"
       ],
       "tags": [
-        "内存",
-        "HBM",
-        "供应链"
-      ],
-      "url_ok": true,
-      "url_status": 200
+        "美中关系",
+        "贸易政策",
+        "芯片出口管制",
+        "地缘风险"
+      ]
     },
     {
       "region": "global",
-      "title": "Avicena发布全球首款microLED光学互连评估套件，演示512Gbps链路",
-      "source": "Financial Post / Business Wire",
-      "published": "2026-03-12",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/avicena-launches-the-worlds-first-microled-optical-interconnect-evaluation-kit-for-ai-infrastructure-innovators",
-      "heat": 78,
-      "summary": "<ul><li>Avicena在OFC 2026发布LightBundle eKit，实现芯片间512Gbps microLED光学互连。</li><li>旨在替代铜互连，解决AI超大规模集群的带宽与功耗瓶颈。</li></ul>",
-      "insights": [
-        "光学互连技术将成为下一代AI芯片封装与板级互连核心赛道，CPO趋势加速。"
-      ],
-      "actions": [
-        "关注OFC 2026同期台积电、英特尔及IMEC的光电集成路线图进展。"
-      ],
-      "tags": [
-        "光学互连",
-        "CPO",
-        "先进封装"
-      ],
-      "url_ok": true,
-      "url_status": 200
-    },
-    {
-      "region": "global",
-      "title": "ROHM推出新型SiC功率模块，开放线上销售渠道",
-      "source": "GlobeNewswire",
-      "published": "2026-03-12",
-      "url": "https://www.globenewswire.com/news-release/2026/03/12/3255178/0/en/ROHM-s-New-SiC-Power-Modules-Now-Available-for-Online-Purchase.html",
+      "title": "Intel Panther Lake处理器首发平台Gigabyte BRIX",
+      "source": "Liliputing",
+      "published": "2026-03-15",
+      "url": "https://liliputing.com/gigabyte-brix-mini-pc-with-intel-panther-lake-coming-soon/",
       "heat": 75,
-      "summary": "<ul><li>ROHM推出TRCDRIVE pack、HSDIP20和DOT-247三款新型SiC模块并开放线上购买。</li><li>背景是全球功率供应紧张，SiC在新能源车与工业领域渗透率加速提升。</li></ul>",
+      "summary": "Gigabyte推出搭载Intel Core Ultra Series 3（Panther Lake）的BRIX迷你PC，是该平台首款消费商用产品，标志着Intel新一代客户端芯片开始放量。",
       "insights": [
-        "SiC功率器件供应链日趋成熟，电商化采购降低门槛，加速产业渗透。"
+        "Panther Lake规模放量将检验Intel 18A/台积电N3P混合策略的实际良率与交期表现。",
+        "Intel客户端芯片向台积电代工转移趋势加深，关注对三星代工订单的替代效应。"
       ],
       "actions": [
-        "关注SiC模块价格趋势与竞争对手（英飞凌、意法半导体）产品路线。"
+        "确认Panther Lake代工策略（自制 vs 台积电），评估对供应链合作伙伴的影响。"
       ],
       "tags": [
-        "SiC",
-        "功率半导体",
-        "电动车"
-      ],
-      "url_ok": true,
-      "url_status": 200
+        "Intel",
+        "Panther Lake",
+        "台积电",
+        "客户端芯片"
+      ]
     },
     {
       "region": "global",
-      "title": "ASM International发布2025年年报，ALD设备需求强劲",
-      "source": "GlobeNewswire",
-      "published": "2026-03-12",
-      "url": "https://www.globenewswire.com/news-release/2026/03/12/3255145/",
+      "title": "RISC-V SoC嵌入式IoT场景最佳选型社区热议",
+      "source": "Slashdot",
+      "published": "2026-03-15",
+      "url": "https://ask.slashdot.org/story/26/03/15/2124224/ask-slashdot-whats-the-best-all-purpose-risc-v-system-on-a-chip-family",
+      "heat": 72,
+      "summary": "Slashdot社区热议RISC-V SoC架构家族在IoT领域的最佳选型，讨论折射出RISC-V生态成熟度的快速���升，覆盖从传感器节点到边缘网关的全系列需求。",
+      "insights": [
+        "RISC-V生态商用化加速，芯片IP采购策略需关注RISC-V核供应商竞争格局变化。",
+        "IoT/边缘端RISC-V渗透率提升，将带动低功耗封装与小尺寸存储需求增长。"
+      ],
+      "actions": [
+        "评估IoT客户RISC-V转型进度，提前了解其芯片IP采购来源变化。"
+      ],
+      "tags": [
+        "RISC-V",
+        "SoC",
+        "IoT",
+        "嵌入式"
+      ]
+    },
+    {
+      "region": "global",
+      "title": "关税压力下笔记本价格或大幅上涨",
+      "source": "TechRadar",
+      "published": "2026-03-15",
+      "url": "https://www.techradar.com/pro/nvidia-wants-to-have-your-cake-and-eat-it-jensen-described-the-ai-layered-stack-and-hints-at-what-worlds-most-valuable-firm-will-do-next",
       "heat": 70,
-      "summary": "<ul><li>半导体ALD/CVD设备龙头ASM International公布2025全年业绩报告。</li><li>受先进制程扩产需求驱动，ALD设备在Gate-All-Around节点需求表现强劲。</li></ul>",
+      "summary": "分析师警告受美国对华关税升级影响，2026年笔记本终端价格将显著上涨，消费电子供应链成本压力向上游传导加剧。",
       "insights": [
-        "ASM在GAA节点的ALD步骤数大幅增加，是下一轮设备订单成长的核心驱动力。"
+        "消费电子终端涨价将抑制整体出货需求，对面向PC市场的芯片采购预测需下调。",
+        "OEM客户或加速向越南/印度等低关税地区转移，影响供应链地理格局。"
       ],
       "actions": [
-        "关注ASM订单能见度与2026年产能指引，对标Applied Materials/Lam Research走势。"
+        "与PC客户确认2026年采购计划是否已根据关税压力做出调整。"
       ],
       "tags": [
-        "半导体设备",
-        "ALD",
-        "GAA"
-      ],
-      "url_ok": true,
-      "url_status": 200
+        "关税",
+        "笔记本电脑",
+        "消费电子",
+        "供应链成本"
+      ]
     },
     {
       "region": "global",
-      "title": "Apple M5 MacBook Air发布，台积电3nm代工份额获进一步背书",
-      "source": "Gadget Flow",
-      "published": "2026-03-12",
-      "url": "https://thegadgetflow.com/blog/m5-macbook-air-vs-m4-macbook-air/",
+      "title": "Anker耳机搭载专用AI芯片消费端边缘AI加速落地",
+      "source": "Notebookcheck",
+      "published": "2026-03-15",
+      "url": "https://www.notebookcheck.net/Anker-Soundcore-Liberty-5-Pro-and-Liberty-5-Pro-Max-to-come-with-a-dedicated-AI-chip-touch-display-and-recorder-function.1250854.0.html",
       "heat": 65,
-      "summary": "<ul><li>Apple发布搭载M5芯片的MacBook Air，性能与存储双升级，台积电3nm良率成熟度再获验证。</li><li>M5 SoC整合效能大幅提升，SSD速度同步加快。</li></ul>",
+      "summary": "Anker Soundcore Liberty 5 Pro搭载专用AI芯片（Anker Thus，计算存储一体架构），用于实时降噪与录音，是消费端边缘AI芯片规模化落地的典型案例。",
       "insights": [
-        "Apple持续深化与台���电的独家先进制程合作，M系列是台积电3nm最大量产验证载体。"
+        "消费耳机级AI芯片集成，预示边缘推理芯片小封装、低功耗赛道需求快速释放。",
+        "AI可穿戴市场规模化将拉动超小尺寸封装（Flip Chip CSP）与低功耗存储需求。"
       ],
       "actions": [
-        "跟踪M5出货量对台积电3nm产能利用率的拉动效应。"
+        "关注AIoT可穿戴赛道芯片客户的封装选型需求，提前布局小封装产能资源。"
       ],
       "tags": [
-        "Apple Silicon",
-        "3nm",
-        "消费电子"
-      ],
-      "url_ok": true,
-      "url_status": 200
+        "边缘AI",
+        "消费电子",
+        "AI芯片",
+        "可穿戴"
+      ]
     },
     {
       "region": "global",
-      "title": "中国品牌Chuwi以Ryzen 5430U名义销售实为5500U的笔记本",
-      "source": "TechPowerUp",
-      "published": "2026-03-12",
-      "url": "https://www.techpowerup.com/347336/chinese-laptop-maker-chuwi-advertised-amd-ryzen-5-7430u-soc-but-shipped-the-older-ryzen-5-5500u",
-      "heat": 62,
-      "summary": "<ul><li>中国笔记本厂商Chuwi被曝以Ryzen 5 7430U规格宣传，实际出货为老款5500U芯片。</li><li>反映部分下游终端品牌在芯片采购和规格标注上存在违规操作。</li></ul>",
-      "insights": [
-        "终端品牌芯片规格欺诈案例提示供应链溯源管理的必要性，尤其在中低端消费品领域。"
-      ],
-      "actions": [
-        "供应链合规审计应覆盖终端品牌BOM与实际出货物料的一致性核查。"
-      ],
-      "tags": [
-        "供应链合规",
-        "AMD",
-        "消费电子"
-      ],
-      "url_ok": true,
-      "url_status": 200
-    },
-    {
-      "region": "global",
-      "title": "英国Filtronic获政府支持，推进国防级半导体封装技术创新",
-      "source": "UK Gov",
-      "published": "2026-03-12",
-      "url": "https://www.gov.uk/",
-      "heat": 58,
-      "summary": "<ul><li>英国射频芯片厂商Filtronic获政府支持，推进面向国防的先进半导体封装创新。</li><li>英国半导体战略聚焦III-V族化合物半导体与国防应用本土化。</li></ul>",
-      "insights": [
-        "欧美国防半导体本土化需求持续增长，GaN/InP封装技术受政府采购青睐。"
-      ],
-      "actions": [
-        "关注英国CHIPS法案配套资金及国防半导体采购政策动向。"
-      ],
-      "tags": [
-        "化合物半导体",
-        "国防",
-        "封装"
-      ],
-      "url_ok": true,
-      "url_status": 200
-    },
-    {
-      "region": "global",
-      "title": "MKS Instruments获SBTi批准科学减碳目标",
-      "source": "GlobeNewswire",
-      "published": "2026-03-12",
-      "url": "https://www.globenewswire.com/news-release/2026/03/12/3255154/16396/en/MKS-Inc-Announces-SBTi-Approval-of-Science-Based-Emissions-Reduction-Targets.html",
+      "title": "旧RTX 3090仍是2026年本地AI��佳性价比GPU",
+      "source": "XDA Developers",
+      "published": "2026-03-15",
+      "url": "https://www.xda-developers.com/used-rtx-3090-still-best-for-local-ai-in-value/",
       "heat": 60,
-      "summary": "<ul><li>半导体设备与工艺材料供应商MKS的近期减排目标获科学碳目标倡议（SBTi）认证。</li><li>欧盟碳边界调整机制压力下，设备商ESG合规加速。</li></ul>",
+      "summary": "分析认为二手RTX 3090（24GB显存）在2026年仍是本地运行大模型最优性价比方案，新款AI GPU价格高企且可用性接近零，推动二手GPU市场持续火热。",
       "insights": [
-        "全球半导体设备商ESG合规要求日益成为大客户筛选供应商的硬性指���。"
+        "高端新GPU稀缺推升二手市场价值，对小型AI研究机构算力获取有参考价值。",
+        "本地AI推理需求多样化，渠道层面存在分级需求，并非所有客户都需要最新芯片。"
       ],
       "actions": [
-        "评估供应商ESG评级，关注碳足迹要求对采购决策的影响。"
+        "了解客户本地AI算力需求层级，为不同预算提供差异化解决方案建议。"
       ],
       "tags": [
-        "半导体设备",
-        "ESG",
-        "MKS"
-      ],
-      "url_ok": true,
-      "url_status": 200
-    },
-    {
-      "region": "global",
-      "title": "MIT推出电气工程与计算融合新学位，成为最热门专业之一",
-      "source": "MIT News",
-      "published": "2026-03-12",
-      "url": "https://news.mit.edu/2026/discovering-joy-future-forward-electrical-engineering-0312",
-      "heat": 50,
-      "summary": "<ul><li>MIT新设电气工程与计算融合学位，已成为一年级新生第三热门选择。</li><li>反映半导体/芯片设计人才培养体系向软硬件融合方向加速演进。</li></ul>",
-      "insights": [
-        "AI芯片设计所需的软硬件协同设计人才缺口持续，高校课程改革是行业人才竞争的长期变量。"
-      ],
-      "actions": [
-        "关注半导体人才招募策略，尤其是软硬件协同设计能力的人才储备。"
-      ],
-      "tags": [
-        "人才",
-        "芯片设计教育",
-        "EE+CS"
-      ],
-      "url_ok": true,
-      "url_status": 200
+        "GPU",
+        "本地AI",
+        "二手市场",
+        "性价比"
+      ]
     }
-  ],
-  "glossary": [
-    {
-      "term": "High-NA EUV",
-      "desc": "数值孔径（NA）提升至0.55的新一代极紫外光刻机，由ASML独家供应，支持2nm以下精密图形化，每台售价超4亿美元。"
-    },
-    {
-      "term": "SiC（碳化硅）",
-      "desc": "第三代宽禁带半导体材料，耐高压高温，主要用于电动车逆变器和充电桩，市场增速显著高于传统硅器件。"
-    },
-    {
-      "term": "CPO（Co-Packaged Optics）",
-      "desc": "共封装光学，将光收发器与交换芯片封装在同一基板，大幅降低AI数据中心互连功耗与延迟，被视为下一代AI网络标准。"
-    },
-    {
-      "term": "HBM4E",
-      "desc": "第六代高带宽存储，较HBM4进一步提升容量与带宽，主要用于AI训练芯片，预计2026-2027年量产。"
-    },
-    {
-      "term": "GAA（Gate-All-Around）",
-      "desc": "环绕栅晶体管结构，是3nm以下制程的核心架构创新，泄漏电流比FinFET更低，需大幅增加ALD沉积步骤。"
-    },
-    {
-      "term": "SBTi（科学碳目标倡议）",
-      "desc": "企业设定与巴黎协定1.5°C目标对齐的碳减排路线图的国际认证框架，正成为大型Fab供应商准入要求之一。"
-    }
-  ],
-  "footer": "IC早报 · v20260314-0600 · 数据来源：NewsAPI · 生成时间：2026-03-14 06:00 Asia/Shanghai"
+  ]
 }

@@ -1208,21 +1208,33 @@
         "印度修订外资政策扩大对华开放",
         "安卓手机均价将上涨100美元"
       ]
-    }
-  ],
-  "lastUpdated": "2026-03-16T20:00:00+08:00",
-  "items": [
-    {
-      "version": "v20260314-1447",
-      "period": "midday",
-      "generatedAt": "2026-03-14T06:47:00Z",
-      "itemCount": 5
     },
     {
-      "version": "v20260314-1546",
-      "period": "midday",
-      "generatedAt": "2026-03-14 15:46 CST",
-      "itemCount": 5
+      "version": "v20260317-0604",
+      "period": "morning",
+      "generatedAt": "2026-03-17T06:05:21.977879+08:00",
+      "itemCount": 15,
+      "titles": [
+        "【置顶】ASML裁员1700人7周后员工仍不知去留",
+        "【置顶】Tesla Terafab AI芯片厂7天内正式启动",
+        "卡塔尔氦气工厂遭袭停产，半导体供应链告急",
+        "美政府撤销AI芯片出口管制新规",
+        "NVIDIA GTC 2026：AI基础设施是重头，消费级无惊喜"
+      ]
     }
+  ],
+  "lastUpdated": "2026-03-17T06:05:21.977879+08:00",
+  "items": [
+    "https://www.theregister.com/2026/03/15/nvidia_gtc_will_be_full/",
+    "https://www.tomshardware.com/tech-industry/asml-workers-still-in-the-dark-seven-weeks-after-1700-management-cuts-announced",
+    "https://japantoday.com/",
+    "https://www.notebookcheck.net/Anker-Soundcore-Liberty-5-Pro-and-Liberty-5-Pro-Max-to-come-with-a-dedicated-AI-chip-touch-display-and-recorder-function.1250854.0.html",
+    "https://wccftech.com/nvidia-may-finally-abandon-its-one-gpu-does-everything-mantra-at-gtc-2026/",
+    "https://www.xda-developers.com/used-rtx-3090-still-best-for-local-ai-in-value/",
+    "https://www.ibtimes.com.au/elon-musk-announces-tesla-terafab-ai-chip-launch-amid-xai-rebuild-spacex-ipo-buzz-1863354",
+    "https://www.techradar.com/pro/nvidia-wants-to-have-your-cake-and-eat-it-jensen-described-the-ai-layered-stack-and-hints-at-what-worlds-most-valuable-firm-will-do-next",
+    "https://liliputing.com/gigabyte-brix-mini-pc-with-intel-panther-lake-coming-soon/",
+    "https://alltoc.com/tech/what-caused-the-qatar-helium-shutdown",
+    "https://ask.slashdot.org/story/26/03/15/2124224/ask-slashdot-whats-the-best-all-purpose-risc-v-system-on-a-chip-family"
   ]
 }
