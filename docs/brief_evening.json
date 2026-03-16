@@ -1,108 +1,76 @@
 {
-  "version": "v20260315-2001",
-  "generatedAt": "2026-03-15T20:01:00+08:00",
+  "version": "v20260316-2000",
+  "generatedAt": "2026-03-16T20:00:00+08:00",
   "commit": "",
   "period": "evening",
   "items": [
     {
-      "title": "芯片材料价格翻倍，镓出口禁令雪上加霜",
-      "summary": "中东冲突叠加中国镓出口限制，化合物半导体关键材料价格普遍翻倍，供应链压力骤升。",
+      "title": "马斯克Terafab芯片厂7天内启动",
+      "summary": "马斯克宣布其"Terafab Project"半导体自建产能项目将于7天内正式启动，以解决AI芯片代工产能瓶颈问题。",
       "source": "Tom's Hardware UK",
-      "published": "2026-03-14",
-      "url": "https://www.tomshardware.com/tech-industry/chip-material-prices-double-as-middle-east-conflict-compounds-chinas-gallium-export-ban",
-      "tags": [
-        "gallium",
-        "supply-chain",
-        "material-prices",
-        "export-ban"
-      ],
+      "published": "2026-03-15",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-says-his-terafab-project-chipmaking-venture-will-launch-in-seven-days-musks-latest-moonshot-multi-billion-project-launches-on-a-saturday",
+      "tags": ["Terafab", "AI-chip", "fab", "Musk"],
       "insights": [
-        "镓价大涨将直接推升化合物半导体（GaN/GaAs）器件成本，需提前锁量备货",
-        "双重地缘风险叠加，稀缺材料的替代方案与多元化采购策略优先级提升"
+        "自建晶圆厂门槛极高，Terafab若落地将颠覆AI芯片代工格局",
+        "现有Foundry（TSMC/Samsung）面临潜在大客户流失风险"
       ],
-      "actions": [
-        "立即评估镓及相关材料库存水位，与供应商协商中长期锁价协议"
+      "actions": ["关注Terafab融资及代工合作伙伴动态"]
+    },
+    {
+      "title": "Broadcom AI芯片营收预测超1000亿美元",
+      "summary": "华尔街对Broadcom AI芯片业务持强烈看多态度，AI芯片销售额预测突破1000亿美元大关。",
+      "source": "Yahoo Entertainment / Motley Fool",
+      "published": "2026-03-15",
+      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_bf61669b-e9a5-4e21-9c9c-715ab3e8431d",
+      "tags": ["Broadcom", "AI-chip", "ASIC", "demand"],
+      "insights": [
+        "定制ASIC（XPU）需求持续高景气，Broadcom订单可见度强",
+        "AI芯片供应链（HBM/CoWoS/先进封装）将持续受益"
+      ],
+      "actions": ["评估Broadcom定制芯片供应链合作机会"]
+    },
+    {
+      "title": "美中经济官员巴黎会谈铺路峰会",
+      "summary": "美中两国经济高官在巴黎启动新一轮贸易停战磋商，为特朗普访华习拜峰会清除障碍。",
+      "source": "Japan Today",
+      "published": "2026-03-15",
+      "url": "https://japantoday.com/category/world/us-china-economic-chiefs-to-meet-in-paris-to-clear-path-to-trump-xi-summit",
+      "tags": ["US-China", "trade", "geopolitics", "semiconductor-policy"],
+      "insights": [
+        "贸易停战若延续，芯片出口管制政策或有边际松动窗口",
+        "中美关系缓和对晶圆代工及EDA出口限制走向有指示意义"
+      ],
+      "actions": ["跟踪峰会结果，评估出口管制调整对采购策略的影响"]
+    },
+    {
+      "title": "印度修订外资政策扩大对华开放",
+      "summary": "印度修订Press Note 3，允许企业在安全审查前提下引入中国技术与制造资源，推动本土产业链升级。",
+      "source": "Livemint",
+      "published": "2026-03-15",
+      "url": "https://www.livemint.com/opinion/online-views/india-press-note-3-revision-economic-opportunities-security-china-technology-fdi-investing-11773504824023.html",
+      "tags": ["India", "FDI", "China-tech", "supply-chain"],
+      "insights": [
+        "印度半导体本土化战略寻求中国技术合作，供应链格局或重构",
+        "中国芯片设计及封测企业可借道印度拓展国际市场"
+      ],
+      "actions": ["关注印度半导体投资政策细则及本土Foundry布局"],
+      "glossary": [
+        {"term": "Press Note 3", "desc": "印度监管外国直接投资的重要政策文件，限制来自与印度接壤国家（主要针对中国）的投资"}
       ]
     },
     {
-      "title": "全球晶圆代工2025年营收创历史新高1695亿美元",
-      "summary": "AI算力需求驱动先进制程需求爆发，2025年全球代工营收达1695亿美元，但2026年内存涨价与消费电子疲软构成风险。",
-      "source": "Digitimes",
-      "published": "2026-03-14",
-      "url": "https://www.digitimes.com/news/a20260313VL216/demand-revenue-2026-2025-chips.html",
-      "tags": [
-        "foundry",
-        "revenue",
-        "AI-demand",
-        "2026-outlook"
-      ],
+      "title": "安卓手机均价将上涨100美元",
+      "summary": "芯片及供应链成本上升推动安卓旗舰机型价格整体上调约100美元，消费电子需求端承压。",
+      "source": "Android Police",
+      "published": "2026-03-15",
+      "url": "https://www.androidpolice.com/android-upgrades-cost-more-2026/",
+      "tags": ["Android", "smartphone", "BOM-cost", "demand"],
       "insights": [
-        "代工产能持续向先进节点集中，成熟制程产能过剩压力或传导至客户议价空间",
-        "2026年需关注消费电子复苏节奏与AI训练/推理对代工产能的结构性分流"
+        "元器件成本压力向终端传导，消费电子换机周期或进一步拉长",
+        "芯片供应链需关注终端需求放缓对SoC/存储出货节奏的影响"
       ],
-      "actions": [
-        "关注Q2代工产能预订动态，评估先进节点订单优先级排序"
-      ]
-    },
-    {
-      "title": "TSMC拿下全球代工近七成市场份额",
-      "summary": "TrendForce数据：TSMC 2025年代工市占率接近70%，AI芯片需求是核心驱动力。",
-      "source": "The Times of India / TrendForce",
-      "published": "2026-03-14",
-      "url": "https://economictimes.indiatimes.com/tech/technology/tsmc-rides-ai-wave-to-net-nearly-70-of-global-foundry-market-in-2025/articleshow/129571503.cms",
-      "tags": [
-        "TSMC",
-        "market-share",
-        "foundry",
-        "AI"
-      ],
-      "insights": [
-        "TSMC垄断地位持续强化，二线代工谈判筹码更有限，头部客户优先级差距扩大",
-        "高市占率意味着技术与产能依赖风险集中，供应商多元化布局紧迫性上升"
-      ],
-      "actions": [
-        "审视现有代工商分散度，评估Samsung/SMIC等备选厂商在细分工艺的可行性"
-      ]
-    },
-    {
-      "title": "M31 EDA成本压利润，2025营收增20%创新高",
-      "summary": "台湾IP供应商M31 2025年营收增20.3%至55.94亿元（美元），但EDA授权成本与汇损侵蚀利润，凸显本土EDA工具依赖风险。",
-      "source": "Digitimes",
-      "published": "2026-03-14",
-      "url": "https://www.digitimes.com/news/a20260314000530/m31-eda-revenue-2025.html",
-      "tags": [
-        "EDA",
-        "IP",
-        "M31",
-        "cost-pressure"
-      ],
-      "insights": [
-        "EDA授权费对中小IP/设计公司利润侵蚀明显，国产EDA替代窗口正在打开",
-        "IP授权业务成长强劲，但议价能力受制于上游EDA生态，需关注国产工具成熟度"
-      ],
-      "actions": [
-        "跟进国产EDA（华大九天/概伦等）对M31类IP验证流程的支持进展"
-      ]
-    },
-    {
-      "title": "南台湾科学园区2025年营收近3兆新台币",
-      "summary": "南科2025年营收达新台币2.97兆（约935亿美元），年增34%，AI与先进制程带动园区产出接近历史最高。",
-      "source": "Digitimes",
-      "published": "2026-03-14",
-      "url": "https://www.digitimes.com/news/a20260312PD233/southern-taiwan-science-park-revenue-2025-demand-2024.html",
-      "tags": [
-        "Taiwan",
-        "science-park",
-        "AI",
-        "advanced-node"
-      ],
-      "insights": [
-        "南科强劲增长印证先进封装与2nm产能爬坡顺利，CoWoS等产品供应改善",
-        "台湾供应链产出集中度持续上升，地缘风险对全球半导体供应影响不可低估"
-      ],
-      "actions": [
-        "关注南科2nm产线投产节奏，评估对CoWoS等先进封装供应的影响"
-      ]
+      "actions": ["评估消费电子价格上涨对Q3/Q4芯片备货计划的影响"]
     }
   ]
 }
