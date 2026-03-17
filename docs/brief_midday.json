@@ -1,78 +1,73 @@
 {
-  "version": "v20260316-1300",
-  "generatedAt": "2026-03-16 13:00 CST",
-  "commit": "",
+  "version": "v20260317-1300",
+  "generatedAt": "2026-03-17T13:00:59+08:00",
   "period": "midday",
+  "commit": "",
   "items": [
     {
-      "title": "NVIDIA GTC：万亿美元AI基础设施战争",
-      "summary": "GTC前瞻显示AI算力基础设施支出已超1万亿美元规模，NVIDIA核心芯片在数据中心、推理和训练侧全面渗透，供应链争夺加剧。",
-      "source": "SiliconANGLE News",
-      "published": "2026-03-15",
-      "url": "https://siliconangle.com/2026/03/14/gtc-preview-inside-ai-factory-1t-infrastructure-war-hood-ai-economy/",
-      "tags": ["NVIDIA", "AI-infrastructure", "data-center", "GTC"],
+      "title": "Samsung/Nexchip联合涨价",
+      "summary": "三星与中国晶合集成宣布上调晶圆代工价格，晶合6月起涨10%，材料成本同步上行，芯片通胀蔓延全产业。",
+      "source": "Digitimes",
+      "published": "2026-03-16",
+      "url": "https://www.digitimes.com/news/a20260316PD213/samsung-nexchip-wafer-price-increase-2026.html",
+      "tags": ["foundry-pricing", "wafer-cost", "supply-chain", "Samsung"],
       "insights": [
-        "AI算力基础设施需求已进入万亿美元级别，HBM/CoWoS等先进封装产能持续紧张。",
-        "GTC新品发布将直接影响TSMC/SK海力士等晶圆代工及存储采购计划。"
+        "8寸/12寸双线涨价压力向下游IC设计传导，采购窗口需提前锁定",
+        "材料成本上行叠加产能紧张，BOM成本重估刻不容缓"
       ],
-      "actions": "关注GTC发布内容，评估HBM及CoWoS供应链排期影响。"
+      "actions": ["立即评估现有晶圆采购合同，协商价格保护条款"]
     },
     {
-      "title": "卡塔尔氦气设施停供持续冲击芯片制造",
-      "summary": "无人机袭击卡塔尔主要氦气产出设施后，全球供应减少约三分之一，芯片制造用氦气价格上涨并面临断供风险，晶圆厂两周缓冲告急。",
-      "source": "Alltoc.com",
-      "published": "2026-03-15",
-      "url": "https://alltoc.com/tech/how-does-the-qatar-helium-shutdown-affect-chipmaking",
-      "tags": ["helium-supply", "supply-chain-risk", "semiconductor-fab", "geopolitics"],
+      "title": "美撤销全球AI芯片出口审批令",
+      "summary": "美国于3月13日撤回要求向任何国家出口AI芯片均需审批的草案规则，此前拜登政府出口管控政策出现重大逆转。",
+      "source": "Digitimes",
+      "published": "2026-03-16",
+      "url": "https://www.digitimes.com/news/a20260316VL205/usa-ai-chip-exports-policy-regulation.html",
+      "tags": ["export-control", "AI-chip", "US-policy", "trade"],
       "insights": [
-        "氦气是光刻冷却与离子注入不可替代的工艺气体，两周库存极短，晶圆厂需立即启动紧急采购。",
-        "与氦气相关的特气供应商可能面临短期涨价机会，建议梳理现有特气合同与库存水位。"
+        "出口管控松绑短期利好AI芯片全球供货，关注后续替代规则出台",
+        "供应商可重新评估此前受限的客户��出货路径"
       ],
-      "actions": "立即核查晶圆厂氦气库存与备货安排，必要时联系备选供应商。",
-      "glossary": [
-        {"term": "特气", "desc": "芯片制造用特种气体，如氦气、氨气、氟气等，为前道工艺关键耗材。"}
-      ]
+      "actions": ["跟踪替代规则草案动向，更新合规风险评估"]
     },
     {
-      "title": "印度智能手机市场因内存涨价或萎缩13%",
-      "summary": "内存价格急涨导致手机终端价格上升15–40%，印度2026年智能手机市场预计萎缩超13%，2月销售额已跌35%。",
-      "source": "The Times of India",
-      "published": "2026-03-15",
-      "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/handset-business-fading-on-spike-in-memory-prices-smartphone-market-could-shrink-more-than-13-this-year/articleshow/129580393.cms",
-      "tags": ["memory-prices", "smartphone-demand", "India-market", "DRAM"],
+      "title": "华虹量产7nm为中国第二家",
+      "summary": "华虹集团旗下华力微电子正在上海工厂准备7nm制程量产，将成为继中芯国际后中国第二家掌握该技术的晶圆厂。",
+      "source": "The Times of India (Reuters)",
+      "published": "2026-03-16",
+      "url": "https://economictimes.indiatimes.com/tech/technology/chinas-no-2-chipmaker-readies-7-nm-production-as-beijing-ramps-up-self-suffiency-drive/articleshow/129599934.cms",
+      "tags": ["China-foundry", "7nm", "Hua-Hong", "self-sufficiency"],
       "insights": [
-        "存储涨价已向终端消费市场传导，下游需求压缩将缓和部分内存采购节奏，关注Q2–Q3订单能见度变化。",
-        "印度市场萎缩或影响功能机/中低端SoC采购量，芯片设计服务侧需评估客户修改需求风险。"
+        "国内先进制程供给扩大，对依赖台积电的AI/高端SoC项目提供备选路径",
+        "本土晶圆产能竞争加剧，价格谈判筹码增加"
       ],
-      "actions": "与印度系客户确认2026年H1采购预测，识别订单下修风险。"
+      "actions": ["评估华虹7nm工艺能否纳入次代产品备选Foundry清单"]
     },
     {
-      "title": "美中经济官员巴黎会谈，科技出口为核心议题",
-      "summary": "美中高级经济官员在巴黎举行贸易谈判，为特朗普访华铺路，重点涉及稀土矿物、科技出口与芯片管制等议题，但突破预期有限。",
-      "source": "CNA",
-      "published": "2026-03-15",
-      "url": "https://www.channelnewsasia.com/world/us-china-economic-talks-donald-trump-xi-jinping-5994216",
-      "tags": ["US-China-trade", "export-control", "rare-earth", "geopolitics"],
+      "title": "Micron台湾增建第二座晶圆厂",
+      "summary": "美光宣布将在台湾铜锣新取得的前力积电地块上兴建第二座工厂，重点扩产HBM等前沿DRAM以应对AI需求。",
+      "source": "The Times of India (Reuters)",
+      "published": "2026-03-16",
+      "url": "https://economictimes.indiatimes.com/tech/technology/micron-plans-second-chip-facility-at-newly-acquired-taiwan-site/articleshow/129599371.cms",
+      "tags": ["Micron", "HBM", "DRAM", "Taiwan-fab"],
       "insights": [
-        "谈判若取得进展，可能短期缓解先进芯片出口管制压力，但结构性限制大概率延续。",
-        "稀土/镓/锗出口禁令走向是关键变量，建议持续跟踪谈判结果。"
+        "HBM产能进一步扩张，AI服务器整机BOM中存储瓶颈有望在2027年前后缓解",
+        "力积电资产转让格局确认，台湾DRAM生态重组加速"
       ],
-      "actions": "持续跟踪巴黎谈判结果，评估稀土及出口管制政策动态对采购成本影响。"
+      "actions": ["跟进Micron HBM3E/HBM4交期预测，适时调整AI项目存储备货策略"]
     },
     {
-      "title": "脑细胞数据中心："湿件"算力进入产业视野",
-      "summary": "澳洲生物科技Cortical Labs推出CL1生物计算机，以人类神经元为算力底层，数据中心级"湿件"方向首次受到产业关注。",
-      "source": "Futurism",
-      "published": "2026-03-15",
-      "url": "http://futurism.com/artificial-intelligence/new-data-centers-human-brain-cells",
-      "tags": ["biocomputing", "neuromorphic", "AI-hardware", "emerging-tech"],
+      "title": "IC设计商加速迁向12寸制程",
+      "summary": "8寸晶圆涨价预期催促IC设计公司将成熟制程产品转向12寸平台，以规避价格上行风险并获得更优性价比。",
+      "source": "Digitimes",
+      "published": "2026-03-16",
+      "url": "https://www.digitimes.com/news/a20260316PD223/price-ic-design-chips-market-12-inch.html",
+      "tags": ["IC-design", "8-inch", "12-inch", "process-migration"],
       "insights": [
-        "湿件算力目前处于极早期，短期不具供应链意义，但可作为前沿替代路线纳入技术视野追踪。"
+        "8寸产能稀缺叠加涨价推动工艺节点跃迁，12寸成熟制程NRE投入短期内或大幅增加",
+        "对采购方：8寸依赖型产品面临双重风险，需提前规划12寸转版路线图"
       ],
-      "actions": "列为前沿技术动态跟踪项，暂无直接采购或供应链行动建议。",
-      "glossary": [
-        {"term": "湿件 (Wetware)", "desc": "以活体神经元或生物细胞为基础的计算基底，区别于传统硅基硬件（Hardware）。"}
-      ]
+      "actions": ["盘点现有8寸制程产品，排列12寸迁移优先级及工程样品时间表"]
     }
   ]
 }
