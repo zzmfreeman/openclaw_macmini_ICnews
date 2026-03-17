@@ -717,6 +717,29 @@
   ],
   "entries": [
     {
+      "version": "v20260318-0602",
+      "generatedAt": "2026-03-18T06:02:42+08:00",
+      "period": "morning",
+      "itemCount": 15,
+      "titles": [
+        "Micron启动HBM4量产",
+        "Samsung发布HBM4E方案",
+        "NVIDIA Feynman引入3D堆叠",
+        "Jensen预测AI芯片收入破万亿",
+        "Vera Rubin平台扩展Groq集成",
+        "Groq 3 LPX推理加速器详解",
+        "NVIDIA Space-1轨道数据中心GPU",
+        "Supermicro发布Vera Rubin服务器系统",
+        "NVIDIA Dynamo 1.0推理OS量产",
+        "Skild AI+富士康Blackwell产线机器人",
+        "KIOXIA推出超高IOPS SSD",
+        "现代/起亚扩大NVIDIA自动驾驶合作",
+        "联想发布搭载Panther Lake新ThinkPad",
+        "罗氏部署3500+枚Blackwell GPU",
+        "Kinaxis供应链AI加速12倍"
+      ]
+    },
+    {
       "version": "v20260312-1655",
       "type": "afternoon",
       "generatedAt": "2026-03-12 16:55 Asia/Shanghai",

@@ -717,6 +717,29 @@
   ],
   "entries": [
     {
+      "version": "v20260318-0602",
+      "generatedAt": "2026-03-18T06:02:42+08:00",
+      "period": "morning",
+      "itemCount": 15,
+      "titles": [
+        "Micron启动HBM4量产",
+        "Samsung发布HBM4E方案",
+        "NVIDIA Feynman引入3D堆叠",
+        "Jensen预测AI芯片收入破万亿",
+        "Vera Rubin平台扩展Groq集成",
+        "Groq 3 LPX推理加速器详解",
+        "NVIDIA Space-1轨道数据中心GPU",
+        "Supermicro发布Vera Rubin服务器系统",
+        "NVIDIA Dynamo 1.0推理OS量产",
+        "Skild AI+富士康Blackwell产线机器人",
+        "KIOXIA推出超高IOPS SSD",
+        "现代/起亚扩大NVIDIA自动驾驶合作",
+        "联想发布搭载Panther Lake新ThinkPad",
+        "罗氏部署3500+枚Blackwell GPU",
+        "Kinaxis供应链AI加速12倍"
+      ]
+    },
+    {
       "version": "v20260312-1655",
       "type": "afternoon",
       "generatedAt": "2026-03-12 16:55 Asia/Shanghai",
@@ -1345,81 +1368,6 @@
       ],
       "_period": "midday",
       "_generatedAt": "2026-03-17T13:00:59+08:00"
-    },
-    {
-      "version": "v20260317-2000",
-      "generatedAt": "2026-03-17T12:00:54Z",
-      "period": "evening",
-      "title": "Micron完成收购PSMC台湾铜锣厂",
-      "source": "TechPowerUp",
-      "published": "2026-03-16",
-      "url": "https://www.techpowerup.com/347401/micron-completes-acquisition-of-psmcs-tongluo-p5-site-in-taiwan",
-      "tags": [
-        "Micron",
-        "PSMC",
-        "foundry",
-        "acquisition"
-      ]
-    },
-    {
-      "version": "v20260317-2000",
-      "generatedAt": "2026-03-17T12:00:54Z",
-      "period": "evening",
-      "title": "AMD或将交三星代工重要新订单",
-      "source": "SamMobile",
-      "published": "2026-03-16",
-      "url": "https://www.sammobile.com/news/amd-might-soon-trust-samsung-foundry-with-substantial-new-business/",
-      "tags": [
-        "AMD",
-        "Samsung Foundry",
-        "foundry",
-        "capacity"
-      ]
-    },
-    {
-      "version": "v20260317-2000",
-      "generatedAt": "2026-03-17T12:00:54Z",
-      "period": "evening",
-      "title": "Micron HBM需求强劲，AI拉动股价涨5%",
-      "source": "IBTimes Australia",
-      "published": "2026-03-16",
-      "url": "https://www.ibtimes.com.au/micron-technology-shares-jump-5-42613-ai-driven-hbm-demand-fuels-rally-ahead-earnings-1863502",
-      "tags": [
-        "Micron",
-        "HBM",
-        "AI",
-        "memory"
-      ]
-    },
-    {
-      "version": "v20260317-2000",
-      "generatedAt": "2026-03-17T12:00:54Z",
-      "period": "evening",
-      "title": "STMicro欧洲老厂引入百台人形机器人",
-      "source": "Tom's Hardware UK",
-      "published": "2026-03-16",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/stmicro-to-deploy-humanoid-robots-to-its-legacy-fabs-in-europe-over-100-humanoid-robots-to-be-used-for-routine-and-physically-demanding-tasks-in-fight-for-efficiency",
-      "tags": [
-        "STMicro",
-        "foundry",
-        "automation",
-        "robotics"
-      ]
-    },
-    {
-      "version": "v20260317-2000",
-      "generatedAt": "2026-03-17T12:00:54Z",
-      "period": "evening",
-      "title": "VRAM涨价迫使中国显卡厂商取消产品",
-      "source": "Tom's Hardware UK",
-      "published": "2026-03-16",
-      "url": "https://www.tomshardware.com/pc-components/gpus/chinese-gpu-vendor-zephyr-has-cancelled-its-single-fan-rtx-4070-ti-super-due-to-vram-price-hikes-memory-shortage-is-forcing-a-pivot-to-an-sff-rtx-4070-super-instead",
-      "tags": [
-        "GDDR",
-        "memory",
-        "supply-chain",
-        "GPU"
-      ]
     }
   ]
 }
