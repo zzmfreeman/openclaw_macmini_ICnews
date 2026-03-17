@@ -278,7 +278,7 @@
 
     el('q').addEventListener('input', (e)=>applyFilter(e.target.value));
 
-    fetch('./brief_evening.json?v=202603121655', {cache:'no-store'}).then(r=>r.json()).then(j=>{state.data=j; render();}).catch(err=>{
+    fetch('./brief_evening.json?t=' + Date.now(), {cache:'no-store'}).then(r=>r.json()).then(j=>{state.data=j; render();}).catch(err=>{
       el('headlines').innerHTML = `<div class="warnbox">暂无午后快讯数据 (brief_evening.json)：${escapeHtml(err.message||String(err))}</div>`;
     });
   </script>
