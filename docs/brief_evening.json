@@ -1,76 +1,78 @@
 {
-  "version": "v20260316-2000",
-  "generatedAt": "2026-03-16T20:00:00+08:00",
-  "commit": "",
+  "version": "v20260317-2000",
+  "generatedAt": "2026-03-17T12:00:54Z",
+  "generatedAtLocal": "2026-03-17 20:00:54 CST",
   "period": "evening",
+  "dataNote": "NewsAPI 免费套餐有约24小时延迟，今日实时数据不可用，使用2026-03-16最新数据生成",
+  "commit": "",
   "items": [
     {
-      "title": "马斯克Terafab芯片厂7天内启动",
-      "summary": "马斯克宣布其"Terafab Project"半导体自建产能项目将于7天内正式启动，以解决AI芯片代工产能瓶颈问题。",
-      "source": "Tom's Hardware UK",
-      "published": "2026-03-15",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-says-his-terafab-project-chipmaking-venture-will-launch-in-seven-days-musks-latest-moonshot-multi-billion-project-launches-on-a-saturday",
-      "tags": ["Terafab", "AI-chip", "fab", "Musk"],
+      "title": "Micron完成收购PSMC台湾铜锣厂",
+      "summary": "Micron宣布完成收购力晶科技（PSMC）铜锣P5厂区，进一步扩大台湾存储器产能布局。",
+      "source": "TechPowerUp",
+      "published": "2026-03-16",
+      "url": "https://www.techpowerup.com/347401/micron-completes-acquisition-of-psmcs-tongluo-p5-site-in-taiwan",
+      "tags": ["Micron", "PSMC", "foundry", "acquisition"],
       "insights": [
-        "自建晶圆厂门槛极高，Terafab若落地将颠覆AI芯片代工格局",
-        "现有Foundry（TSMC/Samsung）面临潜在大客户流失风险"
+        "存储器大厂通过收购晶圆厂扩产，台湾产能格局持续整合",
+        "PSMC产能转为Micron自用，可能影响原有代工客户供给"
       ],
-      "actions": ["关注Terafab融资及代工合作伙伴动态"]
+      "actions": ["关注PSMC��有代工客户的备货与转厂动向"]
     },
     {
-      "title": "Broadcom AI芯片营收预测超1000亿美元",
-      "summary": "华尔街对Broadcom AI芯片业务持强烈看多态度，AI芯片销售额预测突破1000亿美元大关。",
-      "source": "Yahoo Entertainment / Motley Fool",
-      "published": "2026-03-15",
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_bf61669b-e9a5-4e21-9c9c-715ab3e8431d",
-      "tags": ["Broadcom", "AI-chip", "ASIC", "demand"],
+      "title": "AMD或将交三星代工重要新订单",
+      "summary": "消息称AMD正考虑将部分芯片交三星代工，三星Foundry先进与成熟制程均获关注，有望迎来重大突破。",
+      "source": "SamMobile",
+      "published": "2026-03-16",
+      "url": "https://www.sammobile.com/news/amd-might-soon-trust-samsung-foundry-with-substantial-new-business/",
+      "tags": ["AMD", "Samsung Foundry", "foundry", "capacity"],
       "insights": [
-        "定制ASIC（XPU）需求持续高景气，Broadcom订单可见度强",
-        "AI芯片供应链（HBM/CoWoS/先进封装）将持续受益"
+        "三星代工若拿下AMD订单，将缓解近期客户流失压力",
+        "对TSMC形成竞争分流，先进制程市占率格局或微调"
       ],
-      "actions": ["评估Broadcom定制芯片供应链合作机会"]
+      "actions": ["追踪三星/台积电先进制程产能利用率变化"]
     },
     {
-      "title": "美中经济官员巴黎会谈铺路峰会",
-      "summary": "美中两国经济高官在巴黎启动新一轮贸易停战磋商，为特朗普访华习拜峰会清除障碍。",
-      "source": "Japan Today",
-      "published": "2026-03-15",
-      "url": "https://japantoday.com/category/world/us-china-economic-chiefs-to-meet-in-paris-to-clear-path-to-trump-xi-summit",
-      "tags": ["US-China", "trade", "geopolitics", "semiconductor-policy"],
+      "title": "Micron HBM需求强劲，AI拉动股价涨5%",
+      "summary": "AI对HBM（高带宽内存）的旺盛需求推动Micron股价单日涨超5%，市场对其Q2财报预期乐观。",
+      "source": "IBTimes Australia",
+      "published": "2026-03-16",
+      "url": "https://www.ibtimes.com.au/micron-technology-shares-jump-5-42613-ai-driven-hbm-demand-fuels-rally-ahead-earnings-1863502",
+      "tags": ["Micron", "HBM", "AI", "memory"],
       "insights": [
-        "贸易停战若延续，芯片出口管制政策或有边际松动窗口",
-        "中美关系缓和对晶圆代工及EDA出口限制走向有指示意义"
+        "HBM供需持续偏紧，AI推理算力扩张仍是核心驱动",
+        "存储器价格趋势向上，采购端需提前锁量"
       ],
-      "actions": ["跟踪峰会结果，评估出口管制调整对采购策略的影响"]
-    },
-    {
-      "title": "印度修订外资政策扩大对华开放",
-      "summary": "印度修订Press Note 3，允许企业在安全审查前提下引入中国技术与制造资源，推动本土产业链升级。",
-      "source": "Livemint",
-      "published": "2026-03-15",
-      "url": "https://www.livemint.com/opinion/online-views/india-press-note-3-revision-economic-opportunities-security-china-technology-fdi-investing-11773504824023.html",
-      "tags": ["India", "FDI", "China-tech", "supply-chain"],
-      "insights": [
-        "印度半导体本土化战略寻求中国技术合作，供应链格局或重构",
-        "中国芯片设计及封测企业可借道印度拓展国际市场"
-      ],
-      "actions": ["关注印度半导体投资政策细则及本土Foundry布局"],
+      "actions": ["评估HBM/DDR5长约锁价窗口，适时谈判框架协议"],
       "glossary": [
-        {"term": "Press Note 3", "desc": "印度监管外国直接投资的重要政策文件，限制来自与印度接壤国家（主要针对中国）的投资"}
+        {"term": "HBM", "desc": "高带宽内存（High Bandwidth Memory），AI训练/推理专用高性能存储器，价格显著高于标准DRAM"}
       ]
     },
     {
-      "title": "安卓手机均价将上涨100美元",
-      "summary": "芯片及供应链成本上升推动安卓旗舰机型价格整体上调约100美元，消费电子需求端承压。",
-      "source": "Android Police",
-      "published": "2026-03-15",
-      "url": "https://www.androidpolice.com/android-upgrades-cost-more-2026/",
-      "tags": ["Android", "smartphone", "BOM-cost", "demand"],
+      "title": "STMicro欧洲老厂引入百台人形机器人",
+      "summary": "为应对低成本中国芯片竞争，STMicro计划在欧洲遗留晶圆厂部署逾100台人形机器人，承担常规及体力劳动任务，提升效率。",
+      "source": "Tom's Hardware UK",
+      "published": "2026-03-16",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/stmicro-to-deploy-humanoid-robots-to-its-legacy-fabs-in-europe-over-100-humanoid-robots-to-be-used-for-routine-and-physically-demanding-tasks-in-fight-for-efficiency",
+      "tags": ["STMicro", "foundry", "automation", "robotics"],
       "insights": [
-        "元器件成本压力向终端传导，消费电子换机周期或进一步拉长",
-        "芯片供应链需关注终端需求放缓对SoC/存储出货节奏的影响"
+        "欧洲半导体厂用机器人替代人工以降本，折射中国制造成本压力外溢",
+        "自动化改造成为成熟制程老厂维持竞争力的关键路径"
       ],
-      "actions": ["评估消费电子价格上涨对Q3/Q4芯片备货计划的影响"]
+      "actions": ["关注成熟制程自动化趋势对国内晶圆代工成本结构的参考意义"]
+    },
+    {
+      "title": "VRAM涨价迫使中国显卡厂商取消产品",
+      "summary": "中国GPU厂商Zephyr因显存（VRAM）价格急涨被迫取消RTX 4070 Ti Super单风扇版，转向规格较低的4070 Super，供应链成本压力显现。",
+      "source": "Tom's Hardware UK",
+      "published": "2026-03-16",
+      "url": "https://www.tomshardware.com/pc-components/gpus/chinese-gpu-vendor-zephyr-has-cancelled-its-single-fan-rtx-4070-ti-super-due-to-vram-price-hikes-memory-shortage-is-forcing-a-pivot-to-an-sff-rtx-4070-super-instead",
+      "tags": ["GDDR", "memory", "supply-chain", "GPU"],
+      "insights": [
+        "GDDR显存短缺已影响终端产品规划，上游存储器涨价向下游传导",
+        "GPU配套存储器供应紧张，可能波及AI训练卡及消费级显卡备货"
+      ],
+      "actions": ["检视GDDR6/GDDR7库存与采购计划，防范短期涨价风险"]
     }
   ]
 }

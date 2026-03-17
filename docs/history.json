@@ -1345,6 +1345,81 @@
       ],
       "_period": "midday",
       "_generatedAt": "2026-03-17T13:00:59+08:00"
+    },
+    {
+      "version": "v20260317-2000",
+      "generatedAt": "2026-03-17T12:00:54Z",
+      "period": "evening",
+      "title": "Micron完成收购PSMC台湾铜锣厂",
+      "source": "TechPowerUp",
+      "published": "2026-03-16",
+      "url": "https://www.techpowerup.com/347401/micron-completes-acquisition-of-psmcs-tongluo-p5-site-in-taiwan",
+      "tags": [
+        "Micron",
+        "PSMC",
+        "foundry",
+        "acquisition"
+      ]
+    },
+    {
+      "version": "v20260317-2000",
+      "generatedAt": "2026-03-17T12:00:54Z",
+      "period": "evening",
+      "title": "AMD或将交三星代工重要新订单",
+      "source": "SamMobile",
+      "published": "2026-03-16",
+      "url": "https://www.sammobile.com/news/amd-might-soon-trust-samsung-foundry-with-substantial-new-business/",
+      "tags": [
+        "AMD",
+        "Samsung Foundry",
+        "foundry",
+        "capacity"
+      ]
+    },
+    {
+      "version": "v20260317-2000",
+      "generatedAt": "2026-03-17T12:00:54Z",
+      "period": "evening",
+      "title": "Micron HBM需求强劲，AI拉动股价涨5%",
+      "source": "IBTimes Australia",
+      "published": "2026-03-16",
+      "url": "https://www.ibtimes.com.au/micron-technology-shares-jump-5-42613-ai-driven-hbm-demand-fuels-rally-ahead-earnings-1863502",
+      "tags": [
+        "Micron",
+        "HBM",
+        "AI",
+        "memory"
+      ]
+    },
+    {
+      "version": "v20260317-2000",
+      "generatedAt": "2026-03-17T12:00:54Z",
+      "period": "evening",
+      "title": "STMicro欧洲老厂引入百台人形机器人",
+      "source": "Tom's Hardware UK",
+      "published": "2026-03-16",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/stmicro-to-deploy-humanoid-robots-to-its-legacy-fabs-in-europe-over-100-humanoid-robots-to-be-used-for-routine-and-physically-demanding-tasks-in-fight-for-efficiency",
+      "tags": [
+        "STMicro",
+        "foundry",
+        "automation",
+        "robotics"
+      ]
+    },
+    {
+      "version": "v20260317-2000",
+      "generatedAt": "2026-03-17T12:00:54Z",
+      "period": "evening",
+      "title": "VRAM涨价迫使中国显卡厂商取消产品",
+      "source": "Tom's Hardware UK",
+      "published": "2026-03-16",
+      "url": "https://www.tomshardware.com/pc-components/gpus/chinese-gpu-vendor-zephyr-has-cancelled-its-single-fan-rtx-4070-ti-super-due-to-vram-price-hikes-memory-shortage-is-forcing-a-pivot-to-an-sff-rtx-4070-super-instead",
+      "tags": [
+        "GDDR",
+        "memory",
+        "supply-chain",
+        "GPU"
+      ]
     }
   ]
 }
