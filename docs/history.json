@@ -1,5 +1,140 @@
 [
   {
+    "period": "morning",
+    "version": "v20260319-0600",
+    "generatedAt": "2026-03-19T06:00:42+08:00",
+    "title": "霍尔木兹危机威胁台湾晶圆供应",
+    "url": "https://www.tomshardware.com/tech-industry/global-chip-supply-chain-under-threat-as-us-iran-conflict-enters-third-week-strait-of-hormuz-blockade-is-days-away-from-crippling-taiwans-semiconductor-industry",
+    "source": "Tom's Hardware",
+    "published": "2026-03-18"
+  },
+  {
+    "period": "morning",
+    "version": "v20260319-0600",
+    "generatedAt": "2026-03-19T06:00:42+08:00",
+    "title": "NVIDIA GTC：Blackwell+Rubin订单破万亿",
+    "url": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16/",
+    "source": "Reuters",
+    "published": "2026-03-18"
+  },
+  {
+    "period": "morning",
+    "version": "v20260319-0600",
+    "generatedAt": "2026-03-19T06:00:42+08:00",
+    "title": "三星发布HBM4E加深英伟达合作",
+    "url": "https://www.digitimes.com/news/a20260317VL203/samsung-hbm4-nvidia-gtc-2026.html",
+    "source": "Digitimes",
+    "published": "2026-03-17"
+  },
+  {
+    "period": "morning",
+    "version": "v20260319-0600",
+    "generatedAt": "2026-03-19T06:00:42+08:00",
+    "title": "SK集团：存储短缺持续至2030",
+    "url": "https://www.tomshardware.com/pc-components/dram/sk-group-chairman-says-memory-chip-shortage-will-last-until-2030",
+    "source": "Tom's Hardware",
+    "published": "2026-03-18"
+  },
+  {
+    "period": "morning",
+    "version": "v20260319-0600",
+    "generatedAt": "2026-03-19T06:00:42+08:00",
+    "title": "三星与AMD签HBM4供应MOU",
+    "url": "https://news.samsung.com/global/samsung-and-amd-expand-strategic-collaboration-on-next-generation-ai-memory-solutions",
+    "source": "Samsung Newsroom",
+    "published": "2026-03-18"
+  },
+  {
+    "period": "morning",
+    "version": "v20260319-0600",
+    "generatedAt": "2026-03-19T06:00:42+08:00",
+    "title": "特斯拉Terafab 2nm芯片厂3月21日启动",
+    "url": "https://www.forbes.com/sites/jonmarkman/2026/03/17/a-25-billion-moonshot-tesla-prepares-to-launch-terafab-in-four-days/",
+    "source": "Forbes",
+    "published": "2026-03-17"
+  },
+  {
+    "period": "morning",
+    "version": "v20260319-0600",
+    "generatedAt": "2026-03-19T06:00:42+08:00",
+    "title": "中国华力推进7nm晶圆量产",
+    "url": "https://semiwiki.com/forum/threads/exclusive-china%E2%80%99s-no-2-chipmaker-readies-7-nm-production-as-beijing-ramps-up-self-sufficiency-drive.24753/",
+    "source": "SemiWiki",
+    "published": "2026-03-17"
+  },
+  {
+    "period": "morning",
+    "version": "v20260319-0600",
+    "generatedAt": "2026-03-19T06:00:42+08:00",
+    "title": "台积电技术研讨会聚焦背面供电",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-03-18/doc-inhrknay3385828.shtml",
+    "source": "新浪科技",
+    "published": "2026-03-18"
+  },
+  {
+    "period": "morning",
+    "version": "v20260319-0600",
+    "generatedAt": "2026-03-19T06:00:42+08:00",
+    "title": "西门子发布Fuse EDA AI自主代理",
+    "url": "https://www.electronicsweekly.com/news/design/eda-and-ip/siemens-digital-launches-autonomous-ai-agent-2026-03/",
+    "source": "Electronics Weekly",
+    "published": "2026-03-18"
+  },
+  {
+    "period": "morning",
+    "version": "v20260319-0600",
+    "generatedAt": "2026-03-19T06:00:42+08:00",
+    "title": "Synopsys首批Ansys融合产品发布",
+    "url": "https://www.eetimes.com/synopsys-shows-off-first-synopsys-ansys-products/",
+    "source": "EE Times",
+    "published": "2026-03-18"
+  },
+  {
+    "period": "morning",
+    "version": "v20260319-0600",
+    "generatedAt": "2026-03-19T06:00:42+08:00",
+    "title": "AMD或迁移EPYC产能至三星2nm",
+    "url": "https://www.newsbytesapp.com/news/business/amd-may-shift-chip-production-from-tsmc-to-samsung/tldr",
+    "source": "NewsBytesApp",
+    "published": "2026-03-18"
+  },
+  {
+    "period": "morning",
+    "version": "v20260319-0600",
+    "generatedAt": "2026-03-19T06:00:42+08:00",
+    "title": "中国前两月半导体出口激增72.6%",
+    "url": "https://www.huxiu.com/article/4842702.html",
+    "source": "虎嗅网",
+    "published": "2026-03-17"
+  },
+  {
+    "period": "morning",
+    "version": "v20260319-0600",
+    "generatedAt": "2026-03-19T06:00:42+08:00",
+    "title": "十五五规划明确半导体战略地位",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-03-17/doc-inhrhavu5457742.shtml",
+    "source": "新浪科技",
+    "published": "2026-03-17"
+  },
+  {
+    "period": "morning",
+    "version": "v20260319-0600",
+    "generatedAt": "2026-03-19T06:00:42+08:00",
+    "title": "存储芯片卖方市场手机厂商涨价",
+    "url": "https://finance.sina.com.cn/jjxw/2026-03-18/doc-inhrksks1584639.shtml",
+    "source": "新浪财经",
+    "published": "2026-03-18"
+  },
+  {
+    "period": "morning",
+    "version": "v20260319-0600",
+    "generatedAt": "2026-03-19T06:00:42+08:00",
+    "title": "安徽光刻设备商冲刺港交所IPO",
+    "url": "https://36kr.com/p/3725040988109190",
+    "source": "36氪",
+    "published": "2026-03-18"
+  },
+  {
     "period": "midday",
     "version": "v20260318-1300",
     "generatedAt": "2026-03-18T13:00:00+08:00",
