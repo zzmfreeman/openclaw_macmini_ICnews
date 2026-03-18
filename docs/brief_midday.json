@@ -1,73 +1,112 @@
 {
-  "version": "v20260317-1300",
-  "generatedAt": "2026-03-17T13:00:59+08:00",
+  "version": "v20260318-1300",
+  "generatedAt": "2026-03-18T13:00:00+08:00",
+  "commit": "pending",
   "period": "midday",
-  "commit": "",
   "items": [
     {
-      "title": "Samsung/Nexchip联合涨价",
-      "summary": "三星与中国晶合集成宣布上调晶圆代工价格，晶合6月起涨10%，材料成本同步上行，芯片通胀蔓延全产业。",
-      "source": "Digitimes",
-      "published": "2026-03-16",
-      "url": "https://www.digitimes.com/news/a20260316PD213/samsung-nexchip-wafer-price-increase-2026.html",
-      "tags": ["foundry-pricing", "wafer-cost", "supply-chain", "Samsung"],
+      "title": "霍尔木兹封锁威胁台积电电网",
+      "summary": "美伊冲突第三周，霍尔木兹海峡逼近封锁，中东供应台湾37%电力LNG，台积电晶圆厂连续供电面临严峻风险。",
+      "source": "Tom's Hardware",
+      "published": "2026-03-18",
+      "url": "https://www.tomshardware.com/tech-industry/global-chip-supply-chain-under-threat-as-us-iran-conflict-enters-third-week-strait-of-hormuz-blockade-is-days-away-from-crippling-taiwans-semiconductor-industry",
+      "tags": ["supply-chain-risk", "geopolitics", "TSMC", "energy"],
       "insights": [
-        "8寸/12寸双线涨价压力向下游IC设计传导，采购窗口需提前锁定",
-        "材料成本上行叠加产能紧张，BOM成本重估刻不容缓"
+        "台湾半导体厂高度依赖中东LNG，地缘冲突已直接转化为制造供应风险",
+        "能源中断可致晶圆厂停线，采购方需评估台积电产能交期的不确定性"
       ],
-      "actions": ["立即评估现有晶圆采购合同，协商价格保护条款"]
+      "actions": ["跟踪霍尔木兹局势，评估备货窗口"]
     },
     {
-      "title": "美撤销全球AI芯片出口审批令",
-      "summary": "美国于3月13日撤回要求向任何国家出口AI芯片均需审批的草案规则，此前拜登政府出口管控政策出现重大逆转。",
-      "source": "Digitimes",
-      "published": "2026-03-16",
-      "url": "https://www.digitimes.com/news/a20260316VL205/usa-ai-chip-exports-policy-regulation.html",
-      "tags": ["export-control", "AI-chip", "US-policy", "trade"],
+      "title": "SK集团：晶圆短缺将延续至2030",
+      "summary": "SK集团董事长崔泰源警告，AI驱动需求持续超越供应，全球芯片晶圆短缺局面将持续到2030年，SK正着手稳定存储价格。",
+      "source": "Reuters",
+      "published": "2026-03-17",
+      "url": "https://www.reuters.com/world/asia-pacific/south-koreas-sk-group-chairman-expects-chip-wafer-shortage-last-until-2030-eyes-2026-03-16/",
+      "tags": ["memory", "wafer-shortage", "HBM", "AI-demand"],
       "insights": [
-        "出口管控松绑短期利好AI芯片全球供货，关注后续替代规则出台",
-        "供应商可重新评估此前受限的客户��出货路径"
+        "IDC预���2026年DRAM/NAND供给增速仅16-17%，远低于历史常态",
+        "存储紧缺长期化，HBM产能重分配将进一步压缩通用存储供货"
       ],
-      "actions": ["跟踪替代规则草案动向，更新合规风险评估"]
+      "actions": ["锁定Q3-Q4存储长单，规避价格上涨风险"]
     },
     {
-      "title": "华虹量产7nm为中国第二家",
-      "summary": "华虹集团旗下华力微电子正在上海工厂准备7nm制程量产，将成为继中芯国际后中国第二家掌握该技术的晶圆厂。",
-      "source": "The Times of India (Reuters)",
-      "published": "2026-03-16",
-      "url": "https://economictimes.indiatimes.com/tech/technology/chinas-no-2-chipmaker-readies-7-nm-production-as-beijing-ramps-up-self-suffiency-drive/articleshow/129599934.cms",
-      "tags": ["China-foundry", "7nm", "Hua-Hong", "self-sufficiency"],
+      "title": "TSMC全球代工市占率近70%",
+      "summary": "TrendForce数据显示，TSMC去年全球代工市占率升至约70%，AI芯片需求旺盛是主要驱动力。",
+      "source": "Taipei Times",
+      "published": "2026-03-18",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/03/18/2003854002",
+      "tags": ["TSMC", "foundry-market-share", "AI", "advanced-node"],
       "insights": [
-        "国内先进制程供给扩大，对依赖台积电的AI/高端SoC项目提供备选路径",
-        "本土晶圆产能竞争加剧，价格谈判筹码增加"
+        "TSMC垄断地位进一步强化，非TSMC先进制程产品的供应链多元化空间收窄",
+        "客户议价能力持续减弱，交期排期需提前12-18个月规划"
       ],
-      "actions": ["评估华虹7nm工艺能否纳入次代产品备选Foundry清单"]
+      "actions": ["确认台积电先进节点订单优先级与排期"]
     },
     {
-      "title": "Micron台湾增建第二座晶圆厂",
-      "summary": "美光宣布将在台湾铜锣新取得的前力积电地块上兴建第二座工厂，重点扩产HBM等前沿DRAM以应对AI需求。",
-      "source": "The Times of India (Reuters)",
-      "published": "2026-03-16",
-      "url": "https://economictimes.indiatimes.com/tech/technology/micron-plans-second-chip-facility-at-newly-acquired-taiwan-site/articleshow/129599371.cms",
-      "tags": ["Micron", "HBM", "DRAM", "Taiwan-fab"],
+      "title": "Synopsys GTC展示AI EDA代理工作流",
+      "summary": "Synopsys在NVIDIA GTC 2026展示AgentEngineer技术，可自主编排复杂芯片设计任务，大幅提升EDA自动化水平。",
+      "source": "Morningstar / PR Newswire",
+      "published": "2026-03-17",
+      "url": "https://www.morningstar.com/news/pr-newswire/20260316sf11009/synopsys-showcases-nvidia-partnership-impact-and-ecosystem-innovation-at-gtc-2026",
+      "tags": ["EDA", "AI-agent", "Synopsys", "chip-design"],
       "insights": [
-        "HBM产能进一步扩张，AI服务器整机BOM中存储瓶颈有望在2027年前后缓解",
-        "力积电资产转让格局确认，台湾DRAM生态重组加速"
+        "AI EDA Agent化加速设计周期压缩，前端设计外包模式将面临重构",
+        "芯片公司采用AI EDA可减少人力投入，但需评估工具授权及数据安全"
       ],
-      "actions": ["跟进Micron HBM3E/HBM4交期预测，适时调整AI项目存储备货策略"]
+      "actions": ["关注Synopsys AgentEngineer授权动态，评估IP保护条款"]
     },
     {
-      "title": "IC设计商加速迁向12寸制程",
-      "summary": "8寸晶圆涨价预期催促IC设计公司将成熟制程产品转向12寸平台，以规避价格上行风险并获得更优性价比。",
-      "source": "Digitimes",
-      "published": "2026-03-16",
-      "url": "https://www.digitimes.com/news/a20260316PD223/price-ic-design-chips-market-12-inch.html",
-      "tags": ["IC-design", "8-inch", "12-inch", "process-migration"],
+      "title": "Siemens发布Fuse EDA AI代理",
+      "summary": "Siemens EDA推出Fuse EDA AI Agent，覆盖半导体、3D IC及PCB全设计工作流的自动化，加速多学科协同。",
+      "source": "Plano Today",
+      "published": "2026-03-17",
+      "url": "https://nationaltoday.com/us/tx/plano/news/2026/03/17/siemens-launches-fuse-eda-ai-agent-for-automation-across-semiconductor-3d-ic-and-pcb-system-workflows/",
+      "tags": ["EDA", "3D-IC", "PCB", "Siemens"],
       "insights": [
-        "8寸产能稀缺叠加涨价推动工艺节点跃迁，12寸成熟制程NRE投入短期内或大幅增加",
-        "对采购方：8寸依赖型产品面临双重风险，需提前规划12寸转版路线图"
+        "大厂EDA工具向AI Agent演进，小型设计服务商若不跟进将面临竞争劣势",
+        "3D IC协同设计自动化提速，先进封装供应链交期有望缩短"
       ],
-      "actions": ["盘点现有8寸制程产品，排列12寸迁移优先级及工程样品时间表"]
+      "actions": ["评估Siemens Fuse EDA与现有流程的兼容性"]
+    },
+    {
+      "title": "中国前两月半导体出��暴增72.6%",
+      "summary": "2026年1-2月中国集成电路出口额达433亿美元，同比激增72.6%，AI外围芯片、存储及成熟制程产能是主要驱动力。",
+      "source": "虎嗅",
+      "published": "2026-03-17",
+      "url": "https://www.huxiu.com/article/4842702.html",
+      "tags": ["China-semiconductor", "export", "mature-node", "supply-chain"],
+      "insights": [
+        "中国成熟制程芯片大规模输出，全球成熟节点价格竞争将进一步加剧",
+        "AI服务器外围芯片国产化提速，境外采购替代窗口可能收窄"
+      ],
+      "actions": ["盘点成熟制程器件国产替代可行性，调整备货策略"]
+    },
+    {
+      "title": "安徽光刻设备商冲刺港交所",
+      "summary": "安徽一家直写光刻设备小巨人企业申请港交所上市，年营收14亿元，市值236亿元，产品涵盖PCB及半导体直写光刻系统。",
+      "source": "36氪",
+      "published": "2026-03-18",
+      "url": "https://36kr.com/p/3725040988109190",
+      "tags": ["lithography", "equipment", "IPO", "China-fab"],
+      "insights": [
+        "国产光刻设备资本化进程加速，补强半导体制造本土配套能力",
+        "直写光刻设备适用PCB及成熟制程，可关注其交付能力与客户结构"
+      ],
+      "actions": ["关注其招股书披露的客户名单与产能交付数据"]
+    },
+    {
+      "title": "HBM4短缺或延误NVIDIA Rubin发布",
+      "summary": "报告指HBM4存储短缺可能导致NVIDIA Rubin GPU延期，并引发连锁反应波及台积电先进封装排程。",
+      "source": "Markets Daily",
+      "published": "2026-03-17",
+      "url": "https://www.themarketsdaily.com/2026/03/17/taiwan-semiconductor-manufacturing-target-of-unusually-large-options-trading-nysetsm.html",
+      "tags": ["HBM4", "NVIDIA", "advanced-packaging", "supply-risk"],
+      "insights": [
+        "HBM4产能瓶颈将上移传导至CoWoS/SoIC先进封装排期",
+        "Rubin相关项目采购方应预警潜在交期后移风险，提前沟通备用方案"
+      ],
+      "actions": ["确认HBM4供货时间表，评估Rubin项目采购节点"]
     }
   ]
 }
