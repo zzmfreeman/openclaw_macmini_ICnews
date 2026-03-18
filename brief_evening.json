@@ -1,108 +1,120 @@
 {
-  "version": "v20260315-2001",
-  "generatedAt": "2026-03-15T20:01:00+08:00",
-  "commit": "",
+  "version": "v20260318-2000",
+  "generatedAt": "2026-03-18T12:00:48Z",
+  "generatedAtLocal": "2026-03-18 20:00 CST",
+  "commit": "pending",
   "period": "evening",
+  "windowHours": 6,
   "items": [
     {
-      "title": "芯片材料价格翻倍，镓出口禁令雪上加霜",
-      "summary": "中东冲突叠加中国镓出口限制，化合物半导体关键材料价格普遍翻倍，供应链压力骤升。",
-      "source": "Tom's Hardware UK",
-      "published": "2026-03-14",
-      "url": "https://www.tomshardware.com/tech-industry/chip-material-prices-double-as-middle-east-conflict-compounds-chinas-gallium-export-ban",
-      "tags": [
-        "gallium",
-        "supply-chain",
-        "material-prices",
-        "export-ban"
-      ],
+      "title": "英伟达重启中国AI芯片生产",
+      "summary": "黄仁勋宣布英伟达重启符合出口管制要求的中国版AI芯片制造，并透露已收到来自中国客户订单，Groq系列芯片中国专属版正在开发中。",
+      "source": "Reuters",
+      "published": "2026-03-17",
+      "url": "https://www.reuters.com/business/nvidia-sales-opportunity-blackwell-rubin-chips-more-than-1-trillion-by-2027-2026-03-17/",
+      "tags": ["NVIDIA", "China", "Export-Control", "AI-Chips"],
       "insights": [
-        "镓价大涨将直接推升化合物半导体（GaN/GaAs）器件成本，需提前锁量备货",
-        "双重地缘风险叠加，稀缺材料的替代方案与多元化采购策略优先级提升"
+        "英伟达借Groq架构绕开出口管制重入中国市场，AI推理芯片国内需求窗口重开",
+        "中国AI芯片进口替代压力短期减轻，但Hopper架构已落后Blackwell两代"
       ],
-      "actions": [
-        "立即评估镓及相关材料库存水位，与供应商协商中长期锁价协议"
+      "actions": ["关注中国AI芯片采购价格变化"]
+    },
+    {
+      "title": "SK集团：晶圆短缺将持续至2030年",
+      "summary": "SK集团董事长崔泰源在NVIDIA GTC 2026上表示，AI驱动需求持续超出供给，基础晶圆供应缺口超20%，预计短缺状态延续至2030年。",
+      "source": "Reuters",
+      "published": "2026-03-16",
+      "url": "https://www.reuters.com/world/asia-pacific/south-koreas-sk-group-chairman-expects-chip-wafer-shortage-last-until-2030-eyes-2026-03-16/",
+      "tags": ["Wafer", "Memory", "Supply-Chain", "HBM"],
+      "insights": [
+        "晶圆长期短缺确认，HBM及存储产能扩张势在必行，备货窗口仍存在",
+        "供应缺口20%以上意味着封测产能亦将持续紧张至2028年以后"
+      ],
+      "actions": ["锁定关键晶圆长期采购合同"]
+    },
+    {
+      "title": "霍尔木兹海峡危机威胁芯片供应链",
+      "summary": "美伊冲突进入第三周，霍尔木兹海峡封锁威胁台湾半导体制造所依赖的能源与特种气体进口，分析预计扰动持续至2026年5月中旬。",
+      "source": "Tom's Hardware",
+      "published": "2026-03-17",
+      "url": "https://www.tomshardware.com/tech-industry/global-chip-supply-chain-under-threat-as-us-iran-conflict-enters-third-week-strait-of-hormuz-blockade-is-days-away-from-crippling-taiwans-semiconductor-industry",
+      "tags": ["Supply-Chain", "Geopolitics", "Risk", "Taiwan"],
+      "insights": [
+        "霍尔木兹封锁波及LNG与特种气体供应，先进制程fab停产风险上升",
+        "能源成本上升将推高晶圆制造成本，中短期报价压力传导至下游"
+      ],
+      "actions": ["评估关键气体材料库存安全水位"],
+      "glossary": [
+        {"term": "LNG", "desc": "液化天然气，台湾fab发电及工艺气体的重要来源"}
       ]
     },
     {
-      "title": "全球晶圆代工2025年营收创历史新高1695亿美元",
-      "summary": "AI算力需求驱动先进制程需求爆发，2025年全球代工营收达1695亿美元，但2026年内存涨价与消费电子疲软构成风险。",
-      "source": "Digitimes",
-      "published": "2026-03-14",
-      "url": "https://www.digitimes.com/news/a20260313VL216/demand-revenue-2026-2025-chips.html",
-      "tags": [
-        "foundry",
-        "revenue",
-        "AI-demand",
-        "2026-outlook"
-      ],
+      "title": "华虹进入7nm量产冲击国产供应链",
+      "summary": "华虹借助ASML旧款浸没式光刻机突破7nm节点，中国国内形成SMIC与华虹双7nm格局，进一步强化本土AI芯片供应链韧性。",
+      "source": "Reddit/r/stocks",
+      "published": "2026-03-17",
+      "url": "https://www.reddit.com/r/stocks/comments/1rw5ju4/chinas_hua_hong_advances_to_7nm_production_amid/",
+      "tags": ["HuaHong", "7nm", "China-Foundry", "Self-Sufficiency"],
       "insights": [
-        "代工产能持续向先进节点集中，成熟制程产能过剩压力或传导至客户议价空间",
-        "2026年需关注消费电子复苏节奏与AI训练/推理对代工产能的结构性分流"
+        "华虹7nm良率仍低、成本偏高，但战略意义大于经济价值，双代工格局形成",
+        "国产EDA与IP核在本土foundry需求拉动下有望加速商业化落地"
       ],
-      "actions": [
-        "关注Q2代工产能预订动态，评估先进节点订单优先级排序"
+      "actions": ["追踪华虹7nm客户导入节奏"],
+      "glossary": [
+        {"term": "浸没式光刻机", "desc": "使用液体介质提升NA值的DUV光刻装备，ASML NXT系列为主流"}
       ]
     },
     {
-      "title": "TSMC拿下全球代工近七成市场份额",
-      "summary": "TrendForce数据：TSMC 2025年代工市占率接近70%，AI芯片需求是核心驱动力。",
-      "source": "The Times of India / TrendForce",
-      "published": "2026-03-14",
-      "url": "https://economictimes.indiatimes.com/tech/technology/tsmc-rides-ai-wave-to-net-nearly-70-of-global-foundry-market-in-2025/articleshow/129571503.cms",
-      "tags": [
-        "TSMC",
-        "market-share",
-        "foundry",
-        "AI"
-      ],
+      "title": "TSMC亚利桑那3nm厂提前至2027H2量产",
+      "summary": "TSMC宣布亚利桑那第二晶圆厂3nm制程量产时间提前至2027年下半年，较此前计划2028年提早约半年，产能优先供应美国本土客户。",
+      "source": "Wikipedia",
+      "published": "2026-03-18",
+      "url": "https://en.wikipedia.org/wiki/TSMC_Arizona",
+      "tags": ["TSMC", "Arizona", "3nm", "Geopolitics"],
       "insights": [
-        "TSMC垄断地位持续强化，二线代工谈判筹码更有限，头部客户优先级差距扩大",
-        "高市占率意味着技术与产能依赖风险集中，供应商多元化布局紧迫性上升"
+        "美国本土3nm产能提前落地，有助于缓解Rubin/Blackwell等AI芯片的供应瓶颈",
+        "台湾以外先进制程产能占比提升，供应链风险分散但定价权仍在台湾"
       ],
-      "actions": [
-        "审视现有代工商分散度，评估Samsung/SMIC等备选厂商在细分工艺的可行性"
-      ]
+      "actions": ["关注美国本土fab客户资质申请进展"]
     },
     {
-      "title": "M31 EDA成本压利润，2025营收增20%创新高",
-      "summary": "台湾IP供应商M31 2025年营收增20.3%至55.94亿元（美元），但EDA授权成本与汇损侵蚀利润，凸显本土EDA工具依赖风险。",
-      "source": "Digitimes",
-      "published": "2026-03-14",
-      "url": "https://www.digitimes.com/news/a20260314000530/m31-eda-revenue-2025.html",
-      "tags": [
-        "EDA",
-        "IP",
-        "M31",
-        "cost-pressure"
-      ],
+      "title": "中国半导体出口前两月暴增72.6%",
+      "summary": "2026年前两个月中国半导体出口额同比激增72.6%达433亿美元，成熟制程出口强劲，但西方对'传统芯片'的调查压力随之升温。",
+      "source": "虎嗅",
+      "published": "2026-03-17",
+      "url": "https://www.huxiu.com/article/4842702.html",
+      "tags": ["China", "Export", "Legacy-Chips", "Trade-War"],
       "insights": [
-        "EDA授权费对中小IP/设计公司利润侵蚀明显，国产EDA替代窗口正在打开",
-        "IP授权业务成长强劲，但议价能力受制于上游EDA生态，需关注国产工具成熟度"
+        "成熟制程出口高增长背后是产能过剩压力外溢，警惕欧美'传统芯片'调查升级",
+        "光伏/面板覆辙风险：如出口受阻将加剧国内产能过剩与价格战"
       ],
-      "actions": [
-        "跟进国产EDA（华大九天/概伦等）对M31类IP验证流程的支持进展"
-      ]
+      "actions": ["密切关注美欧传统芯片调查动态"]
     },
     {
-      "title": "南台湾科学园区2025年营收近3兆新台币",
-      "summary": "南科2025年营收达新台币2.97兆（约935亿美元），年增34%，AI与先进制程带动园区产出接近历史最高。",
-      "source": "Digitimes",
-      "published": "2026-03-14",
-      "url": "https://www.digitimes.com/news/a20260312PD233/southern-taiwan-science-park-revenue-2025-demand-2024.html",
-      "tags": [
-        "Taiwan",
-        "science-park",
-        "AI",
-        "advanced-node"
-      ],
+      "title": "中国十五五规划强化EDA/IP全链布局",
+      "summary": "十五五规划明确半导体全产业链自主化目标，重点补齐光刻、量检测、EDA、IP核、特种气体等短板，构建安全高效产业体系。",
+      "source": "新浪科技",
+      "published": "2026-03-17",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-03-17/doc-inhrhavu5457742.shtml",
+      "tags": ["China-Policy", "EDA", "IP-Core", "Self-Sufficiency"],
       "insights": [
-        "南科强劲增长印证先进封装与2nm产能爬坡顺利，CoWoS等产品供应改善",
-        "台湾供应链产出集中度持续上升，地缘风险对全球半导体供应影响不可低估"
+        "国产EDA与IP核进入政策强支撑阶段，本土工具链商业化窗口显著扩大",
+        "设备材料国产化加速，涉及光刻、靶材、特种气体等领域的项目优先级提升"
       ],
-      "actions": [
-        "关注南科2nm产线投产节奏，评估对CoWoS等先进封装供应的影响"
-      ]
+      "actions": ["跟进国产EDA合规工具链在流片项目中的导入计划"]
+    },
+    {
+      "title": "韩国芯片出口连续三月破200亿美元",
+      "summary": "韩国半导体出口2月同比暴涨160.8%创单月251.6亿美元历史新高，存储芯片出口占韩国总出口比重大幅提升。",
+      "source": "36氪",
+      "published": "2026-03-18",
+      "url": "https://36kr.com/p/3726863834970499",
+      "tags": ["Korea", "Memory", "HBM", "Export"],
+      "insights": [
+        "韩国存储出口激增验证HBM与AI存储需求持续爆发，HBM4供需缺口仍大",
+        "三星/SK Hynix产能紧张对高端封测（CoWoS等）形成持续拉动"
+      ],
+      "actions": ["评估HBM相关封测产能预定优先级"]
     }
   ]
 }

@@ -1,78 +1,120 @@
 {
-  "version": "v20260317-2000",
-  "generatedAt": "2026-03-17T12:00:54Z",
-  "generatedAtLocal": "2026-03-17 20:00:54 CST",
+  "version": "v20260318-2000",
+  "generatedAt": "2026-03-18T12:00:48Z",
+  "generatedAtLocal": "2026-03-18 20:00 CST",
+  "commit": "pending",
   "period": "evening",
-  "dataNote": "NewsAPI 免费套餐有约24小时延迟，今日实时数据不可用，使用2026-03-16最新数据生成",
-  "commit": "",
+  "windowHours": 6,
   "items": [
     {
-      "title": "Micron完成收购PSMC台湾铜锣厂",
-      "summary": "Micron宣布完成收购力晶科技（PSMC）铜锣P5厂区，进一步扩大台湾存储器产能布局。",
-      "source": "TechPowerUp",
-      "published": "2026-03-16",
-      "url": "https://www.techpowerup.com/347401/micron-completes-acquisition-of-psmcs-tongluo-p5-site-in-taiwan",
-      "tags": ["Micron", "PSMC", "foundry", "acquisition"],
+      "title": "英伟达重启中国AI芯片生产",
+      "summary": "黄仁勋宣布英伟达重启符合出口管制要求的中国版AI芯片制造，并透露已收到来自中国客户订单，Groq系列芯片中国专属版正在开发中。",
+      "source": "Reuters",
+      "published": "2026-03-17",
+      "url": "https://www.reuters.com/business/nvidia-sales-opportunity-blackwell-rubin-chips-more-than-1-trillion-by-2027-2026-03-17/",
+      "tags": ["NVIDIA", "China", "Export-Control", "AI-Chips"],
       "insights": [
-        "存储器大厂通过收购晶圆厂扩产，台湾产能格局持续整合",
-        "PSMC产能转为Micron自用，可能影响原有代工客户供给"
+        "英伟达借Groq架构绕开出口管制重入中国市场，AI推理芯片国内需求窗口重开",
+        "中国AI芯片进口替代压力短期减轻，但Hopper架构已落后Blackwell两代"
       ],
-      "actions": ["关注PSMC��有代工客户的备货与转厂动向"]
+      "actions": ["关注中国AI芯片采购价格变化"]
     },
     {
-      "title": "AMD或将交三星代工重要新订单",
-      "summary": "消息称AMD正考虑将部分芯片交三星代工，三星Foundry先进与成熟制程均获关注，有望迎来重大突破。",
-      "source": "SamMobile",
+      "title": "SK集团：晶圆短缺将持续至2030年",
+      "summary": "SK集团董事长崔泰源在NVIDIA GTC 2026上表示，AI驱动需求持续超出供给，基础晶圆供应缺口超20%，预计短缺状态延续至2030年。",
+      "source": "Reuters",
       "published": "2026-03-16",
-      "url": "https://www.sammobile.com/news/amd-might-soon-trust-samsung-foundry-with-substantial-new-business/",
-      "tags": ["AMD", "Samsung Foundry", "foundry", "capacity"],
+      "url": "https://www.reuters.com/world/asia-pacific/south-koreas-sk-group-chairman-expects-chip-wafer-shortage-last-until-2030-eyes-2026-03-16/",
+      "tags": ["Wafer", "Memory", "Supply-Chain", "HBM"],
       "insights": [
-        "三星代工若拿下AMD订单，将缓解近期客户流失压力",
-        "对TSMC形成竞争分流，先进制程市占率格局或微调"
+        "晶圆长期短缺确认，HBM及存储产能扩张势在必行，备货窗口仍存在",
+        "供应缺口20%以上意味着封测产能亦将持续紧张至2028年以后"
       ],
-      "actions": ["追踪三星/台积电先进制程产能利用率变化"]
+      "actions": ["锁定关键晶圆长期采购合同"]
     },
     {
-      "title": "Micron HBM需求强劲，AI拉动股价涨5%",
-      "summary": "AI对HBM（高带宽内存）的旺盛需求推动Micron股价单日涨超5%，市场对其Q2财报预期乐观。",
-      "source": "IBTimes Australia",
-      "published": "2026-03-16",
-      "url": "https://www.ibtimes.com.au/micron-technology-shares-jump-5-42613-ai-driven-hbm-demand-fuels-rally-ahead-earnings-1863502",
-      "tags": ["Micron", "HBM", "AI", "memory"],
+      "title": "霍尔木兹海峡危机威胁芯片供应链",
+      "summary": "美伊冲突进入第三周，霍尔木兹海峡封锁威胁台湾半导体制造所依赖的能源与特种气体进口，分析预计扰动持续至2026年5月中旬。",
+      "source": "Tom's Hardware",
+      "published": "2026-03-17",
+      "url": "https://www.tomshardware.com/tech-industry/global-chip-supply-chain-under-threat-as-us-iran-conflict-enters-third-week-strait-of-hormuz-blockade-is-days-away-from-crippling-taiwans-semiconductor-industry",
+      "tags": ["Supply-Chain", "Geopolitics", "Risk", "Taiwan"],
       "insights": [
-        "HBM供需持续偏紧，AI推理算力扩张仍是核心驱动",
-        "存储器价格趋势向上，采购端需提前锁量"
+        "霍尔木兹封锁波及LNG与特种气体供应，先进制程fab停产风险上升",
+        "能源成本上升将推高晶圆制造成本，中短期报价压力传导至下游"
       ],
-      "actions": ["评估HBM/DDR5长约锁价窗口，适时谈判框架协议"],
+      "actions": ["评估关键气体材料库存安全水位"],
       "glossary": [
-        {"term": "HBM", "desc": "高带宽内存（High Bandwidth Memory），AI训练/推理专用高性能存储器，价格显著高于标准DRAM"}
+        {"term": "LNG", "desc": "液化天然气，台湾fab发电及工艺气体的重要来源"}
       ]
     },
     {
-      "title": "STMicro欧洲老厂引入百台人形机器人",
-      "summary": "为应对低成本中国芯片竞争，STMicro计划在欧洲遗留晶圆厂部署逾100台人形机器人，承担常规及体力劳动任务，提升效率。",
-      "source": "Tom's Hardware UK",
-      "published": "2026-03-16",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/stmicro-to-deploy-humanoid-robots-to-its-legacy-fabs-in-europe-over-100-humanoid-robots-to-be-used-for-routine-and-physically-demanding-tasks-in-fight-for-efficiency",
-      "tags": ["STMicro", "foundry", "automation", "robotics"],
+      "title": "华虹进入7nm量产冲击国产供应链",
+      "summary": "华虹借助ASML旧款浸没式光刻机突破7nm节点，中国国内形成SMIC与华虹双7nm格局，进一步强化本土AI芯片供应链韧性。",
+      "source": "Reddit/r/stocks",
+      "published": "2026-03-17",
+      "url": "https://www.reddit.com/r/stocks/comments/1rw5ju4/chinas_hua_hong_advances_to_7nm_production_amid/",
+      "tags": ["HuaHong", "7nm", "China-Foundry", "Self-Sufficiency"],
       "insights": [
-        "欧洲半导体厂用机器人替代人工以降本，折射中国制造成本压力外溢",
-        "自动化改造成为成熟制程老厂维持竞争力的关键路径"
+        "华虹7nm良率仍低、成本偏高，但战略意义大于经济价值，双代工格局形成",
+        "国产EDA与IP核在本土foundry需求拉动下有望加速商业化落地"
       ],
-      "actions": ["关注成熟制程自动化趋势对国内晶圆代工成本结构的参考意义"]
+      "actions": ["追踪华虹7nm客户导入节奏"],
+      "glossary": [
+        {"term": "浸没式光刻机", "desc": "使用液体介质提升NA值的DUV光刻装备，ASML NXT系列为主流"}
+      ]
     },
     {
-      "title": "VRAM涨价迫使中国显卡厂商取消产品",
-      "summary": "中国GPU厂商Zephyr因显存（VRAM）价格急涨被迫取消RTX 4070 Ti Super单风扇版，转向规格较低的4070 Super，供应链成本压力显现。",
-      "source": "Tom's Hardware UK",
-      "published": "2026-03-16",
-      "url": "https://www.tomshardware.com/pc-components/gpus/chinese-gpu-vendor-zephyr-has-cancelled-its-single-fan-rtx-4070-ti-super-due-to-vram-price-hikes-memory-shortage-is-forcing-a-pivot-to-an-sff-rtx-4070-super-instead",
-      "tags": ["GDDR", "memory", "supply-chain", "GPU"],
+      "title": "TSMC亚利桑那3nm厂提前至2027H2量产",
+      "summary": "TSMC宣布亚利桑那第二晶圆厂3nm制程量产时间提前至2027年下半年，较此前计划2028年提早约半年，产能优先供应美国本土客户。",
+      "source": "Wikipedia",
+      "published": "2026-03-18",
+      "url": "https://en.wikipedia.org/wiki/TSMC_Arizona",
+      "tags": ["TSMC", "Arizona", "3nm", "Geopolitics"],
       "insights": [
-        "GDDR显存短缺已影响终端产品规划，上游存储器涨价向下游传导",
-        "GPU配套存储器供应紧张，可能波及AI训练卡及消费级显卡备货"
+        "美国本土3nm产能提前落地，有助于缓解Rubin/Blackwell等AI芯片的供应瓶颈",
+        "台湾以外先进制程产能占比提升，供应链风险分散但定价权仍在台湾"
       ],
-      "actions": ["检视GDDR6/GDDR7库存与采购计划，防范短期涨价风险"]
+      "actions": ["关注美国本土fab客户资质申请进展"]
+    },
+    {
+      "title": "中国半导体出口前两月暴增72.6%",
+      "summary": "2026年前两个月中国半导体出口额同比激增72.6%达433亿美元，成熟制程出口强劲，但西方对'传统芯片'的调查压力随之升温。",
+      "source": "虎嗅",
+      "published": "2026-03-17",
+      "url": "https://www.huxiu.com/article/4842702.html",
+      "tags": ["China", "Export", "Legacy-Chips", "Trade-War"],
+      "insights": [
+        "成熟制程出口高增长背后是产能过剩压力外溢，警惕欧美'传统芯片'调查升级",
+        "光伏/面板覆辙风险：如出口受阻将加剧国内产能过剩与价格战"
+      ],
+      "actions": ["密切关注美欧传统芯片调查动态"]
+    },
+    {
+      "title": "中国十五五规划强化EDA/IP全链布局",
+      "summary": "十五五规划明确半导体全产业链自主化目标，重点补齐光刻、量检测、EDA、IP核、特种气体等短板，构建安全高效产业体系。",
+      "source": "新浪科技",
+      "published": "2026-03-17",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-03-17/doc-inhrhavu5457742.shtml",
+      "tags": ["China-Policy", "EDA", "IP-Core", "Self-Sufficiency"],
+      "insights": [
+        "国产EDA与IP核进入政策强支撑阶段，本土工具链商业化窗口显著扩大",
+        "设备材料国产化加速，涉及光刻、靶材、特种气体等领域的项目优先级提升"
+      ],
+      "actions": ["跟进国产EDA合规工具链在流片项目中的导入计划"]
+    },
+    {
+      "title": "韩国芯片出口连续三月破200亿美元",
+      "summary": "韩国半导体出口2月同比暴涨160.8%创单月251.6亿美元历史新高，存储芯片出口占韩国总出口比重大幅提升。",
+      "source": "36氪",
+      "published": "2026-03-18",
+      "url": "https://36kr.com/p/3726863834970499",
+      "tags": ["Korea", "Memory", "HBM", "Export"],
+      "insights": [
+        "韩国存储出口激增验证HBM与AI存储需求持续爆发，HBM4供需缺口仍大",
+        "三星/SK Hynix产能紧张对高端封测（CoWoS等）形成持续拉动"
+      ],
+      "actions": ["评估HBM相关封测产能预定优先级"]
     }
   ]
 }
