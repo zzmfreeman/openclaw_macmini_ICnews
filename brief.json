@@ -1,350 +1,207 @@
 {
-  "version": "v20260318-0602",
-  "generatedAt": "2026-03-18T06:02:42+08:00",
-  "commit": "11be16f",
+  "version": "v20260320-0600",
+  "generatedAt": "2026-03-20T06:00:36+08:00",
+  "commit": "",
   "period": "morning",
   "items": [
     {
-      "title": "Micron启动HBM4量产",
-      "summary": "Micron宣���开始量产36GB HBM4 DRAM及PCIe Gen6 SSD，专为NVIDIA Vera Rubin平台供货，内存带宽显著提升。",
-      "source": "Wccftech",
-      "published": "2026-03-16",
-      "url": "https://wccftech.com/micron-volume-production-hbm4-gen6-ssds-socamm2-nvidia-vera-rubin-platform/",
-      "tags": [
-        "HBM4",
-        "Micron",
-        "MemoryProduction",
-        "VeraRubin"
-      ],
+      "title": "三星HBM4批量出货，绑定AMD",
+      "summary": "三星与AMD签署MOU，确定为AMD Instinct MI455X AI加速器提供HBM4主供，并扩展DDR5及先进封装合作。",
+      "source": "Bloomberg / Samsung Newsroom",
+      "published": "2026-03-18",
+      "url": "https://news.samsung.com/global/samsung-and-amd-expand-strategic-collaboration-on-next-generation-ai-memory-solutions",
+      "tags": ["HBM4", "Samsung", "AMD", "AI-memory"],
       "insights": [
-        "HBM4量产启动意味着Vera Rubin平台供应链正式打通，内存供货节奏成关键变量",
-        "PCIe Gen6 SSD与HBM4同步量产，AI推理系统整体I/O瓶颈将显著缓解"
+        "三星HBM4正式量产并拿到AMD主供资质，SK海力士一家独大的局面正在被打破",
+        "MI455X供应链重组，封测/基板配套厂商应跟进三星节奏"
       ],
-      "actions": [
-        "关注Micron/SK Hynix HBM4出货节奏，提前锁定供应窗口"
+      "actions": ["跟踪MI455X封测订单动向"]
+    },
+    {
+      "title": "三星2026年研发+制造投入740亿美元",
+      "summary": "三星电子宣布2026年将在工厂扩建与研发领域合计投入约740亿美元，创历史新高。",
+      "source": "SamMobile",
+      "published": "2026-03-19",
+      "url": "https://www.sammobile.com/news/samsung-invest-usd-74-billion-2026-factories-research-development",
+      "tags": ["Samsung", "capex", "foundry", "HBM"],
+      "insights": [
+        "三星巨额资本开支将拉动半导体设备、材料需求，设备链受益明显",
+        "HBM4E已展出，技术代际竞争加速，供应商需同步升级测试能力"
       ],
+      "actions": ["评估三星封装设备采购计划对国内OSAT影响"]
+    },
+    {
+      "title": "NVIDIA H200重启对华供货",
+      "summary": "黄仁勋宣布NVIDIA正为中国客户加速制造H200 AI加速器，此为重新进入中国市场的重要信号。",
+      "source": "Taipei Times",
+      "published": "2026-03-19",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/03/19/2003854058",
+      "tags": ["NVIDIA", "H200", "China", "export-control"],
+      "insights": [
+        "H200面向中国供货意味着部分出口管制窗口开启，国内AI算力缺口或短期缓解",
+        "国内云厂商采购节奏值得关注，可能影响国产AI芯片替代进程"
+      ],
+      "actions": ["关注国内云厂商H200采购动态"]
+    },
+    {
+      "title": "NVIDIA预测2027年芯片订单超1万亿",
+      "summary": "黄仁勋GTC 2026演讲预计Blackwell和Vera Rubin两代平台到2027年合计订单将超1万亿美元。",
+      "source": "新浪财经",
+      "published": "2026-03-17",
+      "url": "https://k.sina.com.cn/article_7857201856_1d45362c001903b8p6.html",
+      "tags": ["NVIDIA", "GTC2026", "Blackwell", "Vera-Rubin"],
+      "insights": [
+        "1万亿美元的AI芯片需求预测将支撑整个先进制程供应链景气度至少持续到2027年",
+        "CoWoS/SoIC先进封装产能将持续紧张，相关供应商议价能力增强"
+      ],
+      "actions": ["锁定CoWoS封装配额，防止产能被竞争对手抢占"]
+    },
+    {
+      "title": "TSMC SoIC月产能将扩至1.5万片",
+      "summary": "供应链消息称TSMC计划2026年将SoIC先进封装月产能扩至10,000-15,000片，以满足NVIDIA、Broadcom、AMD需求。",
+      "source": "TrendForce",
+      "published": "2026-03-18",
+      "url": "https://www.trendforce.com/news/2026/03/18/news-nvidia-rubin-ultra-and-feynman-reportedly-to-boost-tsmc-soic-besi-applied-materials-tel-to-benefit/",
+      "tags": ["TSMC", "SoIC", "advanced-packaging", "capacity"],
+      "insights": [
+        "SoIC扩产受益方包括Besi、Applied Materials、TEL等设备厂，是关键采购节点",
+        "Rubin Ultra及下一代Feynman平台将进一步拉升SoIC需求至2027-2028年"
+      ],
+      "actions": ["确认Besi/TEL相关设备交期，评估产能配套节奏"]
+    },
+    {
+      "title": "Intel EMIB-T支持HBM4，马来西亚基地启动",
+      "summary": "Intel马来西亚先进封装园区2026年正式运营，EMIB-T结构升级引入TSV以兼容HBM4，挑战TSMC封装地位。",
+      "source": "TrendForce",
+      "published": "2026-03-18",
+      "url": "https://www.trendforce.com/news/2026/03/18/news-intel-ramps-up-advanced-packaging-malaysia-complex-operational-in-2026-emib-update/",
+      "tags": ["Intel", "EMIB", "HBM4", "advanced-packaging"],
+      "insights": [
+        "Intel以���来西亚+EMIB-T组合提供美国本土生产替代路线，吸引苹果/高通等地缘避险需求",
+        "封装技术竞争进入多极化，OSAT厂商需判断与Intel协同还是竞争"
+      ],
+      "actions": ["评估Intel封装路线对现有供应商关系的影响"]
+    },
+    {
+      "title": "Siemens发布Fuse EDA AI自主代理",
+      "summary": "Siemens Digital在NVIDIA GTC 2026发布Fuse EDA AI Agent，可跨EDA工具自主编排半导体设计、验证、制造全流程。",
+      "source": "Electronics Weekly",
+      "published": "2026-03-18",
+      "url": "https://www.electronicsweekly.com/news/design/eda-and-ip/siemens-digital-launches-autonomous-ai-agent-2026-03/",
+      "tags": ["EDA", "Siemens", "AI-agent", "3D-IC"],
+      "insights": [
+        "AI原生EDA工具正从辅助优化向自主设计演进，设计周期压缩预期将重塑流片节奏",
+        "3D IC设计自动化成熟度提升，有望降低chiplet设计门槛"
+      ],
+      "actions": ["评估Fuse EDA AI Agent在现有设计流程中的适用性"]
+    },
+    {
+      "title": "中国成熟制程扩产提速",
+      "summary": "华虹、中芯国际、Nexchip、士兰微等国内晶圆厂加快28nm及以上成熟制程扩产，中国半导体策略从先进制程竞争转向成熟节点强化。",
+      "source": "Digitimes",
+      "published": "2026-03-19",
+      "url": "https://www.digitimes.com/news/a20260318VL209/12-inch-china-28nm-mature-process-hua-hong-semiconductor-nexchip-silan.html",
+      "tags": ["China", "mature-node", "28nm", "capacity-expansion"],
+      "insights": [
+        "国内成熟制程大规模扩产将在车规、工控、功率器件领域形成显著替代能力",
+        "供应链买方有机会在新产能投产前锁定有利价格，但需评估良率成熟度"
+      ],
+      "actions": ["梳理现有成熟制程订单，评估国内晶��厂替代可行性"]
+    },
+    {
+      "title": "存储芯片Q1价格超预期暴涨",
+      "summary": "群智咨询数据：2026年Q1消费电子存储价格环比Q4暴涨超60%，NAND闪存涨幅突破70%，创单季历史新高。",
+      "source": "新浪财经",
+      "published": "2026-03-18",
+      "url": "https://finance.sina.com.cn/jjxw/2026-03-18/doc-inhrmpqp9238504.shtml",
+      "tags": ["NAND", "DRAM", "memory-price", "supply-chain"],
+      "insights": [
+        "NAND/DRAM大幅涨价直接冲击含存储组件的BOM成本，需重新评估采购合同条款",
+        "三星罢工风波叠加AI服务器需求旺盛，存储价格高位将延续至少至Q3"
+      ],
+      "actions": ["锁定Q2存储用量合同，规避进一步涨价风险"]
+    },
+    {
+      "title": "华虹先进制程年底初步量产",
+      "summary": "华虹集团若按计划在2026年底实现先进制程月产数千片，将与中芯国际形成国内先进制程双支撑格局。",
+      "source": "新浪财经",
+      "published": "2026-03-17",
+      "url": "https://finance.sina.com.cn/wm/2026-03-17/doc-inhrieim8045717.shtml",
+      "tags": ["HuaHong", "SMIC", "advanced-node", "China-foundry"],
+      "insights": [
+        "华虹先进制程量产后国内双雄格局形成，可增加国内晶圆厂议价空间",
+        "出口管制背景下双支撑战略降低单一依赖风险，芯片买方应保持双供应链布局"
+      ],
+      "actions": ["与华虹建立先进制程预研接洽，评估工艺适配性"]
+    },
+    {
+      "title": "十五五规划明确半导体战略布局",
+      "summary": "中国十五五规划纲要明确：做��成熟制程+提升先进制程+推进先进封装三线并行，半导体被置顶为战略产业。",
+      "source": "新浪财经",
+      "published": "2026-03-17",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-03-17/doc-inhrhavu5457742.shtml",
+      "tags": ["China-policy", "15th-FYP", "semiconductor-strategy", "advanced-packaging"],
+      "insights": [
+        "政策明确三线并行意味着国家资金和扶持政策将同时覆盖成熟制程、先进制程和先进封装",
+        "存算一体、三维集成等新架构被明确写入规划，相关技术路线获得长期确定性"
+      ],
+      "actions": ["对照十五五方向审视当前供应链布局，识别政策红利窗口"]
+    },
+    {
+      "title": "中国半导体出口前两月激增72.6%",
+      "summary": "2026年1-2月中国半导体出口额同比增长72.6%至433亿美元，成熟制程规模化优势显现。",
+      "source": "虎嗅",
+      "published": "2026-03-17",
+      "url": "https://www.huxiu.com/article/4842702.html",
+      "tags": ["China", "export", "mature-node", "supply-chain"],
+      "insights": [
+        "出口激增印证中国成熟制程已具备全球竞争力，国内晶圆厂产能利用率将持续高位",
+        "对台积电的成熟制程市场构成直接冲击，全球成熟节点价格战风险上升"
+      ],
+      "actions": ["关注成熟制程供需变化，合理安排安全库存水位"]
+    },
+    {
+      "title": "Intel以EMIB挑战TSMC封装订单",
+      "summary": "苹果、高通等大客户为降低地缘政治风险，Intel美国制造供应链吸引力增加，封装市场竞争格局正在改变。",
+      "source": "SemiWiki",
+      "published": "2026-03-19",
+      "url": "https://semiwiki.com/forum/threads/intel-challenges-tsmc-as-emib-wins-ai-chip-packaging-deals.24781/",
+      "tags": ["Intel", "TSMC", "packaging", "geopolitics"],
+      "insights": [
+        "封装端竞争格局多极化，单一依赖TSMC的风险被重新审视",
+        "AI芯片封装竞争重心正从芯片制造转移至封装和系统架构"
+      ],
+      "actions": ["评估Intel封装方案作为备选路线的技术可行性"]
+    },
+    {
+      "title": "UCIe生态加速成熟，EDA工具跟进",
+      "summary": "EDA工具已支持多芯粒平面布局及UCIe封装协同仿真，UCIe合规测试套件成熟，chiplet商业化门槛持续降低。",
+      "source": "Edge AI and Vision Alliance",
+      "published": "2026-03-19",
+      "url": "https://www.edge-ai-vision.com/2026/03/ucie-chiplets-a-practical-guide-to-modular-soc-design/",
+      "tags": ["UCIe", "chiplet", "EDA", "3D-IC"],
+      "insights": [
+        "UCIe标准与EDA工具成熟同步，chiplet设计从实验走向工程化，IP复用效率大幅提升",
+        "供应链安全验证（secure boot）成为chiplet多源采购的必要门槛"
+      ],
+      "actions": ["评估现有IP在UCIe架构下的适配成本"],
       "glossary": [
-        {
-          "term": "HBM4",
-          "desc": "第四代高带宽内存，带宽超HBM3E 50%，专为AI训练/推理设计"
-        }
+        {"term": "UCIe", "desc": "Universal Chiplet Interconnect Express，芯粒互联标准，用于异质集成"},
+        {"term": "SoIC", "desc": "System on Integrated Chips，台积电3D堆叠先进封装技术"}
       ]
     },
     {
-      "title": "Samsung发布HBM4E方案",
-      "summary": "三星在NVIDIA GTC 2026发布全面HBM4E解决方案，展示与NVIDIA深度合作路线图及下一代AI存储战略。",
-      "source": "Techpowerup.com",
-      "published": "2026-03-16",
-      "url": "https://www.techpowerup.com/347431/samsung-unveils-hbm4e-solutions-at-nvidia-gtc-2026",
-      "tags": [
-        "HBM4E",
-        "Samsung",
-        "AIMemory",
-        "GTC2026"
-      ],
+      "title": "Analog Devices泰国新厂投产",
+      "summary": "ADI在泰国开设新制造基地，结合内部产能与外部代工/封测合作伙伴，扩大全球模拟器件供应能力。",
+      "source": "Evertiq",
+      "published": "2026-03-19",
+      "url": "https://evertiq.com/design/2026-03-19-analog-devices-opens-new-thailand-facility-to-boost-capacity",
+      "tags": ["ADI", "analog", "Thailand", "manufacturing"],
       "insights": [
-        "HBM4E发布表明三星在下一代内存竞赛中保持节奏，对SK Hynix形成竞争压力",
-        "供应链需同步评估HBM4 vs HBM4E的时间窗差异，规划采购策略"
+        "模拟器件厂商向东南亚转移产能是全球供应链分散化的持续趋势",
+        "ADI产能扩充将缓解工业/汽车模拟芯片紧张，相关采购可考虑适度降低安全库存"
       ],
-      "actions": [
-        "比较Samsung/SK Hynix/Micron HBM4交期，制定备选供应方案"
-      ],
-      "glossary": [
-        {
-          "term": "HBM4E",
-          "desc": "HBM4增强版，容量更大、带宽更高，为下一代旗舰GPU配套"
-        }
-      ]
-    },
-    {
-      "title": "NVIDIA Feynman引入3D堆叠",
-      "summary": "NVIDIA披露下代GPU架构Rosa Feynman采用3D die stacking技术并配备定制HBM，计算密度大幅跃升。",
-      "source": "Wccftech",
-      "published": "2026-03-16",
-      "url": "https://wccftech.com/nvidia-feynman-gpu-gets-3d-die-stacking-custom-hbm-next-gen-rosa-cpu/",
-      "tags": [
-        "Feynman",
-        "3DDieStacking",
-        "NVIDIA",
-        "AdvancedPackaging"
-      ],
-      "insights": [
-        "3D堆叠进入NVIDIA路线图，先进封装需求将持续扩容，CoWoS/SoIC产能竞争加剧",
-        "定制HBM绑定意味着内存-GPU供应链更紧密，非主流供应商空间压缩"
-      ],
-      "actions": [
-        "跟踪TSMC CoWoS-S/L产能扩张计划，评估封装端瓶颈风险"
-      ],
-      "glossary": [
-        {
-          "term": "3D Die Stacking",
-          "desc": "将多颗芯片垂直堆叠互联，提升集成密度、降低互联延迟"
-        }
-      ]
-    },
-    {
-      "title": "Jensen预测AI芯片收入破万亿",
-      "summary": "NVIDIA CEO黄仁勋在GTC 2026预测Blackwell及Vera Rubin平台到2027年将带来至少1万亿美元订单，AI基础设施投入持续加速。",
-      "source": "TechCrunch",
-      "published": "2026-03-16",
-      "url": "https://techcrunch.com/2026/03/16/jensen-just-put-nvidias-blackwell-and-vera-rubin-sales-projections-into-the-1-trillion-stratosphere/",
-      "tags": [
-        "NVIDIA",
-        "Blackwell",
-        "VeraRubin",
-        "AIInfrastructure"
-      ],
-      "insights": [
-        "万亿美元订单预测意味着GPU/HBM/CoWoS封装未来2年需求极端旺盛",
-        "供应链各环节需提前备产能，等量产再抢产能将错失窗口"
-      ],
-      "actions": [
-        "对标NVIDIA 2027交付节奏，同步评估晶圆/封装产能可及性"
-      ]
-    },
-    {
-      "title": "Vera Rubin平台扩展Groq集成",
-      "summary": "NVIDIA发布扩展后的Vera Rubin平台，深度整合Groq推理加速器，构建完整的多智能体AI系统基础设施。",
-      "source": "ComputerWeekly.com",
-      "published": "2026-03-16",
-      "url": "https://www.computerweekly.com/news/366640398/Nvidia-expands-Vera-Rubin-platform-details-Groq-integration",
-      "tags": [
-        "VeraRubin",
-        "Groq",
-        "InferenceAccelerator",
-        "MultiAgent"
-      ],
-      "insights": [
-        "NVIDIA收购Groq后整合进Vera Rubin，推理专用芯片开始成为平台标配",
-        "供应链含义：LPU与GPU并行采购需求将出现，EDA仿真工具链需双栈支持"
-      ],
-      "actions": [
-        "评估推理加速器在AI数据中心方案中的占比趋势"
-      ],
-      "glossary": [
-        {
-          "term": "LPU",
-          "desc": "语言处理单元，Groq设计的推理专用低延迟处理器"
-        }
-      ]
-    },
-    {
-      "title": "Groq 3 LPX推理加速器详解",
-      "summary": "NVIDIA披露Groq 3 LPX为机架级推理加速器，专为Vera Rubin平台的低延迟、大上下文需求设计。",
-      "source": "Nvidia.com",
-      "published": "2026-03-16",
-      "url": "https://developer.nvidia.com/blog/inside-nvidia-groq-3-lpx-the-low-latency-inference-accelerator-for-the-nvidia-vera-rubin-platform/",
-      "tags": [
-        "Groq3LPX",
-        "InferenceSilicon",
-        "RackScale",
-        "LowLatency"
-      ],
-      "insights": [
-        "机架级推理芯片标志着AI推理从软件优化转向定制硬件加速，芯片设计服务机会增加",
-        "低延迟推理需求推动专用封装与互联方案差异化"
-      ],
-      "actions": [
-        "关注Groq LPX量产供应商与封装合作伙伴公告"
-      ]
-    },
-    {
-      "title": "NVIDIA Space-1轨道数据中心GPU",
-      "summary": "NVIDIA推出Space-1 Vera Rubin版本用于轨道数据中心，算力最高达地面版25倍，拓展AI计算部署边界。",
-      "source": "Techmeme.com",
-      "published": "2026-03-16",
-      "url": "https://www.techmeme.com/260316/p38",
-      "tags": [
-        "Space1",
-        "OrbitalDataCenter",
-        "VeraRubin",
-        "EdgeAI"
-      ],
-      "insights": [
-        "太空级GPU对封装耐辐射、温控提出极高要求，特种封装赛道将出现新机会",
-        "卫星AI计算商业化推动低地轨道芯片定制需求，长周期但高壁垒"
-      ],
-      "actions": [
-        "了解太空级半导体封装规范，评估潜在���种供应链机会"
-      ]
-    },
-    {
-      "title": "Supermicro发布Vera Rubin服务器系统",
-      "summary": "Supermicro在GTC推出搭载NVIDIA Vera Rubin NVL72及HGX Rubin NVL8的新一代数据中心系统，率先量产交付。",
-      "source": "Techpowerup.com",
-      "published": "2026-03-16",
-      "url": "https://www.techpowerup.com/347426/supermicro-reveals-dcbbs-with-new-nvidia-vera-rubin-nvl72-hgx-rubin-nvl8-and-vera-cpu-systems",
-      "tags": [
-        "Supermicro",
-        "VeraRubin",
-        "NVL72",
-        "AIServer"
-      ],
-      "insights": [
-        "服务器OEM率先量产意味着上游GPU/HBM供应链已具备规模交付能力",
-        "NVL72机架密度极高，对液冷、配电、封装良率均提出更严苛要求"
-      ],
-      "actions": [
-        "核实Supermicro NVL72交货周期，评估上游封装产能支撑情况"
-      ]
-    },
-    {
-      "title": "NVIDIA Dynamo 1.0推理OS量产",
-      "summary": "NVIDIA宣布Dynamo 1.0正式量产，作为AI工厂��源推理操作系统，与TensorRT-LLM深度整合，面向规模化推理部署。",
-      "source": "Nvidia.com",
-      "published": "2026-03-16",
-      "url": "http://nvidianews.nvidia.com/news/dynamo-1-0",
-      "tags": [
-        "Dynamo",
-        "InferenceOS",
-        "OpenSource",
-        "AIFactory"
-      ],
-      "insights": [
-        "推理OS标准化将加速AI工厂规模复制，下游EDA/IP需适配Dynamo调度接口",
-        "开源策略扩大生态但也压缩推理软件商议价空间"
-      ],
-      "actions": [
-        "评估Dynamo对EDA仿真工作流的集成需求与机会"
-      ]
-    },
-    {
-      "title": "Skild AI+富士康Blackwell产线机器人",
-      "summary": "Skild AI的机器人大脑模型将驱动富士康休斯顿工厂装配线上的机器人，基于NVIDIA Blackwell平台部署。",
-      "source": "CNA",
-      "published": "2026-03-16",
-      "url": "https://www.channelnewsasia.com/business/skild-ai-nvidia-deploy-robot-brain-blackwell-assembly-lines-5997316",
-      "tags": [
-        "Robotics",
-        "Foxconn",
-        "Blackwell",
-        "PhysicalAI"
-      ],
-      "insights": [
-        "富士康引入AI机器人量产落地，Blackwell芯片需求从数据中心延伸至制造端",
-        "机器人装配线使用物理AI芯片，半导体制造工厂自动化进入新阶段"
-      ],
-      "actions": [
-        "关注Foxconn AI机器人方案对HBM/Blackwell需求的边际增量"
-      ],
-      "glossary": [
-        {
-          "term": "Physical AI",
-          "desc": "在物理世界中感知和行动的AI，区别于纯数字推理AI"
-        }
-      ]
-    },
-    {
-      "title": "KIOXIA推出超高IOPS SSD",
-      "summary": "KIOXIA宣布开发新型超高IOPS SSD，允许GPU直接访问存储，大幅降低AI推理延迟，针对数据中心GPU加速场景优化。",
-      "source": "Techpowerup.com",
-      "published": "2026-03-16",
-      "url": "https://www.techpowerup.com/347427/kioxia-announces-new-super-high-iops-ssd-series",
-      "tags": [
-        "KIOXIA",
-        "NAND",
-        "HighIOPS",
-        "StorageAccelerator"
-      ],
-      "insights": [
-        "GPU直连存储路线成型，意味着闪存供应链与AI加速器绑定更深",
-        "高IOPS SSD需要先进NAND工艺配合，对3D NAND堆叠层数提出新要求"
-      ],
-      "actions": [
-        "跟踪KIOXIA超高IOPS SSD量产时间表及NAND工艺节点选型"
-      ],
-      "glossary": [
-        {
-          "term": "IOPS",
-          "desc": "每秒输入输出操作次数，衡量存储性能的核心指标"
-        }
-      ]
-    },
-    {
-      "title": "现代/起亚扩大NVIDIA自动驾驶合作",
-      "summary": "NVIDIA宣布与现代汽车和起亚扩大战略合作，联合开发下一代自动驾驶技术，采用最新NVIDIA Drive平台。",
-      "source": "Nvidia.com",
-      "published": "2026-03-16",
-      "url": "http://nvidianews.nvidia.com/news/hyundai-motor-kia-autonomous-driving",
-      "tags": [
-        "NVIDIA",
-        "AutonomousDriving",
-        "Hyundai",
-        "AutomotiveChip"
-      ],
-      "insights": [
-        "车规级GPU合作扩大，汽车芯片需求从娱乐向自动驾驶决策核心迁移",
-        "车规认证周期长，及早布局NVIDIA Drive平台供应链可获先发优势"
-      ],
-      "actions": [
-        "评估NVIDIA Drive平台车规芯片的供应链认证周期与备货节奏"
-      ]
-    },
-    {
-      "title": "联想发布搭载Panther Lake新ThinkPad",
-      "summary": "联想推出搭载英特尔Panther Lake处理器的14寸ThinkPad，首次支持可升级LPCAMM2内存，性能与扩展性显著提升。",
-      "source": "Notebookcheck.net",
-      "published": "2026-03-16",
-      "url": "https://www.notebookcheck.net/With-LPCAMM2-memory-Lenovo-launches-new-14-inch-ThinkPad-with-Intel-Panther-Lake.1251718.0.html",
-      "tags": [
-        "IntelPantherLake",
-        "LPCAMM2",
-        "Lenovo",
-        "MobileChip"
-      ],
-      "insights": [
-        "Panther Lake正式铺货标志着Intel移动端新制程节点量产稳定，18A节点良率信号值得关注",
-        "LPCAMM2替代SO-DIMM趋势加速，内存封装供应链格局将重塑"
-      ],
-      "actions": [
-        "确认Panther Lake代工方及18A/3nm产能分配情况"
-      ],
-      "glossary": [
-        {
-          "term": "LPCAMM2",
-          "desc": "低功耗可压缩内存模块，支持用户升级，取代传统焊接SO-DIMM"
-        }
-      ]
-    },
-    {
-      "title": "罗氏部署3500+枚Blackwell GPU",
-      "summary": "制药巨头罗氏全球部署超过3500枚NVIDIA Blackwell GPU，用于加速药物发现、诊断解决方案及制造优化。",
-      "source": "Nvidia.com",
-      "published": "2026-03-16",
-      "url": "https://blogs.nvidia.com/blog/roche-ai-factories-omniverse/",
-      "tags": [
-        "Blackwell",
-        "BioPharma",
-        "AIFactory",
-        "GPUDeployment"
-      ],
-      "insights": [
-        "医药行业大规模GPU部署，说明AI工厂需求已从科技公司渗透至传统行业，需求基数持续扩大",
-        "大规模GPU集群采购意味着配套供应链（互联、液冷、封装）同步受益"
-      ],
-      "actions": [
-        "评估制药/医疗行业GPU集群采购对供应链的边际需求贡献"
-      ]
-    },
-    {
-      "title": "Kinaxis供应链AI加速12倍",
-      "summary": "Kinaxis基于NVIDIA AI实现大型企业供应链端到端规划性能提升12倍，AI驱动供应链优化开始规模落地。",
-      "source": "Financial Post",
-      "published": "2026-03-16",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/kinaxis-advances-large-scale-supply-chain-optimization-with-nvidia-ai",
-      "tags": [
-        "SupplyChainAI",
-        "Kinaxis",
-        "NVIDIA",
-        "EnterpriseAI"
-      ],
-      "insights": [
-        "AI供应链优化落地对芯片采购节奏预测能力提出更高要求，数字化先行者获得议价优势",
-        "供应链AI采用加速，ERP/SCM系统AI化改造需求将成投资热点"
-      ],
-      "actions": [
-        "评估AI供应链工具对芯片采购预测精度的提升价值，考虑试点引入"
-      ]
+      "actions": ["重新评估ADI模拟器件的备货策略和安全库存水位"]
     }
   ]
 }
