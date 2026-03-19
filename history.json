@@ -491,5 +491,205 @@
     "_period": "midday",
     "_version": "v20260319-1300",
     "_generatedAt": "2026-03-19T13:00:32+08:00"
+  },
+  {
+    "title": "imec获ASML顶级High-NA EUV设备",
+    "summary": "imec宣布收到ASML EXE:5200 High-NA EUV光刻机，预计2026年Q4完成资质认定，用于sub-2nm制程研究。",
+    "source": "Reuters / TrendForce",
+    "published": "2026-03-18",
+    "url": "https://www.reuters.com/business/belgiums-imec-secures-rare-asml-high-na-euv-tool-drive-next-generation-chips-2026-03-18/",
+    "tags": [
+      "EUV",
+      "imec",
+      "ASML",
+      "sub-2nm"
+    ],
+    "insights": [
+      "High-NA EUV落地加速sub-2nm量产路线，供应链需提前布局相关配套材料",
+      "全球仅少数机构拥有此设备，先进制程研发格局将进一步集中"
+    ],
+    "actions": [
+      "关注sub-2nm配套材料/光刻胶供应商动态"
+    ],
+    "_version": "v20260319-2000",
+    "_period": "evening",
+    "_generatedAt": "2026-03-19T12:00:00Z"
+  },
+  {
+    "title": "Intel EMIB抢AI封装大单",
+    "summary": "Intel先进封装技术EMIB赢得多笔AI芯片封装订单，马来西亚封装基地2026年投产，被视为CoWoS替代方案。",
+    "source": "SemiWiki / TrendForce",
+    "published": "2026-03-18",
+    "url": "https://semiwiki.com/forum/threads/intel-challenges-tsmc-as-emib-wins-ai-chip-packaging-deals.24781/",
+    "tags": [
+      "Intel",
+      "EMIB",
+      "advanced-packaging",
+      "AI-chip"
+    ],
+    "insights": [
+      "CoWoS产能持续紧张，EMIB作为替代路线可能重塑AI封装格局",
+      "IC基板需求随EMIB订单增长，相关供应商有望受益"
+    ],
+    "actions": [
+      "评估EMIB封装路线对现有CoWoS订单优先级的影响"
+    ],
+    "glossary": [
+      {
+        "term": "EMIB",
+        "desc": "英特尔嵌入式多芯片互连桥，一种先进2.5D封装技术"
+      },
+      {
+        "term": "CoWoS",
+        "desc": "台积电晶圆级封装技术，目前AI芯片主流封装方案"
+      }
+    ],
+    "_version": "v20260319-2000",
+    "_period": "evening",
+    "_generatedAt": "2026-03-19T12:00:00Z"
+  },
+  {
+    "title": "AMD与三星深化HBM4及代工合作",
+    "summary": "AMD与三星签署协议扩大HBM4供应及代工合作，三星将为AMD提供内存、代工和先进封装一体化服务。",
+    "source": "Digitimes",
+    "published": "2026-03-19",
+    "url": "https://www.digitimes.com/news/a20260319PD218/samsung-amd-hbm4-ai-chip.html",
+    "tags": [
+      "AMD",
+      "Samsung",
+      "HBM4",
+      "foundry"
+    ],
+    "insights": [
+      "三星借AMD合作重塑AI内存与代工竞争力，对SK海力士HBM垄断地位形成挑战",
+      "Turnkey（一站式）服务趋势加强，大客户绑定倾向明显"
+    ],
+    "actions": [
+      "跟踪HBM4量产时间节点及三星代工良率进展"
+    ],
+    "_version": "v20260319-2000",
+    "_period": "evening",
+    "_generatedAt": "2026-03-19T12:00:00Z"
+  },
+  {
+    "title": "晶圆短缺或持续至2030年",
+    "summary": "SK Hynix董事长崔泰源在NVIDIA GTC表示，全球基础晶圆供应短缺超20%，预计短缺局面持续至2030年。",
+    "source": "Taipei Times",
+    "published": "2026-03-18",
+    "url": "https://www.taipeitimes.com/News/biz/archives/2026/03/18/2003854002",
+    "tags": [
+      "wafer-shortage",
+      "SK-Hynix",
+      "supply-chain",
+      "AI"
+    ],
+    "insights": [
+      "晶圆长期短缺信号强烈，采购需锁定长期协议以保障供应安全",
+      "新建晶圆厂产能至少4-5年后才能释放，短期需求压力持续"
+    ],
+    "actions": [
+      "尽早锁定2026-2027年晶圆长单，避免现货价格风险"
+    ],
+    "_version": "v20260319-2000",
+    "_period": "evening",
+    "_generatedAt": "2026-03-19T12:00:00Z"
+  },
+  {
+    "title": "三星借Tesla合作强化代工布局",
+    "summary": "三星电子加速存储、代工、System LSI三大业务协同，与Tesla展开代工合作，目标成为唯一全栈半导体供应商。",
+    "source": "Seoul Economic Daily",
+    "published": "2026-03-18",
+    "url": "https://en.sedaily.com/finance/2026/03/18/samsung-electronics-to-boost-semiconductor-synergy-leap",
+    "tags": [
+      "Samsung",
+      "Tesla",
+      "foundry",
+      "System-LSI"
+    ],
+    "insights": [
+      "Tesla自研芯片代工需求为三星带来战略客户，汽车芯片代工竞争加剧",
+      "三星一体化战略若成功，将对台积电形成更全面的正面竞争"
+    ],
+    "actions": [
+      "关注汽车芯片代工价格走势及三星产能分配策略"
+    ],
+    "_version": "v20260319-2000",
+    "_period": "evening",
+    "_generatedAt": "2026-03-19T12:00:00Z"
+  },
+  {
+    "title": "Tesla Terafab 20亿美元AI芯片厂启动",
+    "summary": "Tesla 200亿美元Terafab AI芯片工厂计划于3月21日举行奠基，初期以安装2nm晶圆设备为目标。",
+    "source": "Tesery",
+    "published": "2026-03-18",
+    "url": "https://www.tesery.com/blogs/news/tesla-terafab-set-for-launch-inside-the-20-billion-ai-chip-factory-reshaping-the-auto-industry",
+    "tags": [
+      "Tesla",
+      "AI-chip",
+      "fab",
+      "2nm"
+    ],
+    "insights": [
+      "特斯拉自建芯片厂意味着大客户脱离外部代工趋势加速，影响现有代工商订单",
+      "2nm设备需求激增，光刻机及配套设备交货期将进一步拉长"
+    ],
+    "actions": [
+      "评估特斯拉自建产能对AI芯片代工市场份额的中期影响"
+    ],
+    "_version": "v20260319-2000",
+    "_period": "evening",
+    "_generatedAt": "2026-03-19T12:00:00Z"
+  },
+  {
+    "title": "韩国芯片出口2月创历史新高",
+    "summary": "韩国2月芯片出口额达251.6亿美元，同比暴涨160.8%，芯片出口占韩国总出口比重超15%。",
+    "source": "36氪",
+    "published": "2026-03-18",
+    "url": "https://36kr.com/p/3726863834970499",
+    "tags": [
+      "Korea",
+      "chip-export",
+      "HBM",
+      "AI-memory"
+    ],
+    "insights": [
+      "韩国AI内存需求爆发式增长，供应链话语权进一步向HBM供应商集中",
+      "出口高增长下韩国可能加大产能投资，中长期或缓解供给紧张"
+    ],
+    "actions": [
+      "跟踪三星/SK海力士HBM产能扩张计划"
+    ],
+    "_version": "v20260319-2000",
+    "_period": "evening",
+    "_generatedAt": "2026-03-19T12:00:00Z"
+  },
+  {
+    "title": "安徽直写光刻企业冲刺港股IPO",
+    "summary": "安徽半导体直写光刻设备企业（年入14亿）拟在港交所上市，市值约236亿，产品覆盖PCB及芯片光刻领域。",
+    "source": "36氪",
+    "published": "2026-03-18",
+    "url": "https://36kr.com/p/3725040988109190",
+    "tags": [
+      "direct-write-lithography",
+      "IPO",
+      "semiconductor-equipment",
+      "China"
+    ],
+    "insights": [
+      "国产光刻设备企业进入资本市场，国产替代进程在中低端设备领域加速",
+      "PCB直写光刻需求受AI服务器PCB高增长驱动，关注配套市场机会"
+    ],
+    "actions": [
+      "研究直写光刻路线对国内PCB/封装基板采购的影响"
+    ],
+    "glossary": [
+      {
+        "term": "直写光刻",
+        "desc": "无掩模版直接将图案写入基材的光刻技术，适用于PCB及部分芯片制造"
+      }
+    ],
+    "_version": "v20260319-2000",
+    "_period": "evening",
+    "_generatedAt": "2026-03-19T12:00:00Z"
   }
 ]
