@@ -691,5 +691,193 @@
     "_version": "v20260319-2000",
     "_period": "evening",
     "_generatedAt": "2026-03-19T12:00:00Z"
+  },
+  {
+    "title": "Intel EMIB赢得AI芯片封装订单",
+    "summary": "Intel Penang厂EMIB封装技术获AI芯片客户订单，趁TSMC CoWoS产能爆满之机抢攻Nvidia等大客户。",
+    "source": "SemiWiki",
+    "published": "2026-03-19",
+    "url": "https://semiwiki.com/forum/threads/intel-challenges-tsmc-as-emib-wins-ai-chip-packaging-deals.24781/",
+    "tags": [
+      "Intel",
+      "EMIB",
+      "AI-packaging",
+      "TSMC"
+    ],
+    "insights": [
+      "CoWoS产能瓶颈为Intel先进封装提供窗口，供应链需关注替代封装选项",
+      "Penang厂成为Intel后端制程核心，马来西亚供应链价值上升"
+    ],
+    "actions": [
+      "评估EMIB替代CoWoS可行性"
+    ],
+    "period": "evening",
+    "version": "v20260319-2302"
+  },
+  {
+    "title": "imec收到全球最先进High-NA EUV",
+    "summary": "imec获全球最先进High-NA EUV光刻机，将助力合作伙���加速开发2nm以下芯片技术，分辨率与产出均大幅提升。",
+    "source": "PR Newswire",
+    "published": "2026-03-18",
+    "url": "https://www.prnewswire.com/news-releases/imec-receives-the-worlds-most-advanced-high-na-euv-system-302717767.html",
+    "tags": [
+      "High-NA-EUV",
+      "ASML",
+      "imec",
+      "sub-2nm"
+    ],
+    "insights": [
+      "High-NA EUV进入研发验证阶段，2nm以下制程商用时间表趋于明朗",
+      "imec合作伙伴可获先发工艺优势，EDA与IP需同步更新"
+    ],
+    "actions": [
+      "跟进imec合作伙伴名单及工艺PDK进展"
+    ],
+    "period": "evening",
+    "version": "v20260319-2302"
+  },
+  {
+    "title": "TSMC全球代工份额升至70%",
+    "summary": "TrendForce数据显示，TSMC 2025年全球代工市场份额接近70%，AI需求爆发是主要驱动力。",
+    "source": "Taipei Times",
+    "published": "2026-03-18",
+    "url": "https://www.taipeitimes.com/News/biz/archives/2026/03/18/2003854002",
+    "tags": [
+      "TSMC",
+      "foundry",
+      "market-share",
+      "AI"
+    ],
+    "insights": [
+      "TSMC垄断地位进一步加深，非TSMC代工路线风险溢价持续上升",
+      "供应链需提前锁定TSMC产能，或同步开发备��代工选项"
+    ],
+    "actions": [
+      "审视现有代工合同覆盖率与产能预约窗口"
+    ],
+    "period": "evening",
+    "version": "v20260319-2302"
+  },
+  {
+    "title": "SK集团：内存短缺将延续至2030年",
+    "summary": "SK集团主席预测HBM及DRAM内存芯片供应紧张将持续至2030年，AI算力扩张带动需求远超扩产速度。",
+    "source": "Taipei Times",
+    "published": "2026-03-18",
+    "url": "https://www.taipeitimes.com/News/biz/archives/2026/03/18/2003854002",
+    "tags": [
+      "memory",
+      "HBM",
+      "DRAM",
+      "SK-Hynix"
+    ],
+    "insights": [
+      "HBM长期短缺意味着AI芯��BOM成本居高不下，采购需提前锁价",
+      "存储供应链紧张将波及整体AI服务器出货节奏"
+    ],
+    "actions": [
+      "评估HBM/DRAM长期采购协议锁量空间"
+    ],
+    "glossary": [
+      {
+        "term": "HBM",
+        "desc": "High Bandwidth Memory，高带宽内存，AI GPU核心配套存储器"
+      }
+    ],
+    "period": "evening",
+    "version": "v20260319-2302"
+  },
+  {
+    "title": "Siemens发布Fuse EDA AI Agent",
+    "summary": "西门子在NVIDIA GTC 2026发布Fuse EDA AI Agent，支持跨半导体、3D IC和PCB设计验证制造工作流的自主AI编排。",
+    "source": "Electronics Weekly",
+    "published": "2026-03-18",
+    "url": "https://www.electronicsweekly.com/news/design/eda-and-ip/siemens-digital-launches-autonomous-ai-agent-2026-03/",
+    "tags": [
+      "EDA",
+      "Siemens",
+      "AI-agent",
+      "3D-IC"
+    ],
+    "insights": [
+      "EDA工具AI化提速，设计流程自动化将缩短芯片从规格到流片的周期",
+      "3D IC设计复杂度催生跨工具AI编排需求，EDA选型需关注AI能力"
+    ],
+    "actions": [
+      "了解Fuse EDA AI Agent与现有流程集成方案"
+    ],
+    "period": "evening",
+    "version": "v20260319-2302"
+  },
+  {
+    "title": "Synopsys受益GTC 2026 AI设计浪潮",
+    "summary": "NVIDIA GTC 2026宣布将AI代理与GPU加速深度整合到电子设计仿真验证流程，Synopsys被置于中心位置。",
+    "source": "Simply Wall St",
+    "published": "2026-03-19",
+    "url": "https://simplywall.st/stocks/us/software/nasdaq-snps/synopsys/news/assessing-synopsys-snps-valuation-after-nvidia-gtc-2026-ai-a",
+    "tags": [
+      "Synopsys",
+      "EDA",
+      "NVIDIA",
+      "AI-design"
+    ],
+    "insights": [
+      "头部EDA厂商与NVIDIA深度绑定，AI辅助设计生态加速收敛",
+      "EDA供应商议价能力增强，IP授权及工具费用可能上涨"
+    ],
+    "actions": [
+      "关注Synopsys新一轮合同条款变化"
+    ],
+    "period": "evening",
+    "version": "v20260319-2302"
+  },
+  {
+    "title": "Tesla Terafab 200亿AI芯片厂3月启动",
+    "summary": "Tesla将于3月21日举行Terafab AI芯片工厂奠基仪式，该厂总投资200亿美元，目标生产2nm晶圆级芯片。",
+    "source": "Tesery",
+    "published": "2026-03-17",
+    "url": "https://www.tesery.com/blogs/news/tesla-terafab-set-for-launch-inside-the-20-billion-ai-chip-factory-reshaping-the-auto-industry",
+    "tags": [
+      "Tesla",
+      "AI-fab",
+      "2nm",
+      "vertical-integration"
+    ],
+    "insights": [
+      "Tesla垂直整合AI芯片制造，将对代工市场产能分配带来长期变量",
+      "超大资本支出入场意味着AI芯片供应格局在2028年前将持续重塑"
+    ],
+    "actions": [
+      "跟踪Tesla Terafab供应商选择公告"
+    ],
+    "glossary": [
+      {
+        "term": "Terafab",
+        "desc": "Tesla规划中的自建AI芯片超级工厂，目标制造车用及AI推理芯片"
+      }
+    ],
+    "period": "evening",
+    "version": "v20260319-2302"
+  },
+  {
+    "title": "安徽直写光刻设备商冲刺港交所",
+    "summary": "安徽一家半导体直写光刻设备专精特新小巨人企业递表港交所，年营收14亿元，市值估值236亿元。",
+    "source": "36氪",
+    "published": "2026-03-17",
+    "url": "https://36kr.com/p/3725040988109190",
+    "tags": [
+      "lithography",
+      "IPO",
+      "domestic-equipment",
+      "HongKong"
+    ],
+    "insights": [
+      "国内光刻设备企业加速资本化，直写光刻进入PCB及半导体双赛道",
+      "港交所成国内半导体设备企业融资新路径，关注后续上市进展"
+    ],
+    "actions": [
+      "关注其PCB及半导体客户结构与国产替代进度"
+    ],
+    "period": "evening",
+    "version": "v20260319-2302"
   }
 ]
