@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-20T06:00:36+08:00",
+  "updatedAt": "2026-03-20T13:00:00+08:00",
   "items": [
     {
       "title": "三星HBM4批量出货，绑定AMD",
@@ -1033,6 +1033,70 @@
       "_version": "v20260319-2000",
       "_period": "evening",
       "_generatedAt": "2026-03-19T12:00:00Z"
+    },
+    {
+      "title": "AMD与三星签MoU转移代工订单",
+      "source": "LaPaaS / Digitimes",
+      "published": "2026-03-19",
+      "url": "https://voice.lapaas.com/amd-may-shift-chip-production-from-tsmc-to-samsung/",
+      "period": "midday",
+      "generatedAt": "2026-03-20T13:00:00+08:00"
+    },
+    {
+      "title": "三星2026年投资730亿美元芯片",
+      "source": "TipRanks",
+      "published": "2026-03-19",
+      "url": "https://www.tipranks.com/news/samsung-plans-73b-chip-investment-to-catch-up-in-ai-race-with-nvidia-and-sk-hynix",
+      "period": "midday",
+      "generatedAt": "2026-03-20T13:00:00+08:00"
+    },
+    {
+      "title": "三星股东会披露Tesla芯片路线图",
+      "source": "Digitimes",
+      "published": "2026-03-19",
+      "url": "https://www.digitimes.com/news/a20260319PD210/samsung-production-tesla-business-2026.html",
+      "period": "midday",
+      "generatedAt": "2026-03-20T13:00:00+08:00"
+    },
+    {
+      "title": "黄仁勋GTC台湾之夜力挺TSMC供应链",
+      "source": "Digitimes",
+      "published": "2026-03-19",
+      "url": "https://www.digitimes.com/news/a20260319PD234/taiwan-nvidia-gtc-2026-tsmc.html",
+      "period": "midday",
+      "generatedAt": "2026-03-20T13:00:00+08:00"
+    },
+    {
+      "title": "Siemens Chiplet Summit获最佳展示奖",
+      "source": "Semiwiki",
+      "published": "2026-03-19",
+      "url": "https://semiwiki.com/events/367536-siemens-wins-best-in-show-award-at-chiplet-summit-and-targets-broad-3d-ic-design-enablement/",
+      "period": "midday",
+      "generatedAt": "2026-03-20T13:00:00+08:00"
+    },
+    {
+      "title": "印度C2S计划引入EDA工具进高校",
+      "source": "ICO Optics",
+      "published": "2026-03-19",
+      "url": "https://www.ico-optics.org/india-makes-significant-progress-in-semiconductor-workforce-development-under-c2s/",
+      "period": "midday",
+      "generatedAt": "2026-03-20T13:00:00+08:00"
+    },
+    {
+      "title": "AI驱动半导体获机构密集调研",
+      "source": "新浪财经",
+      "published": "2026-03-19",
+      "url": "https://finance.sina.com.cn/wm/2026-03-19/doc-inhrnzrv8715855.shtml",
+      "period": "midday",
+      "generatedAt": "2026-03-20T13:00:00+08:00"
+    },
+    {
+      "title": "Frore芯片散热独角兽融资16亿",
+      "source": "36氪",
+      "published": "2026-03-20",
+      "url": "https://36kr.com/p/3729322066656896",
+      "period": "midday",
+      "generatedAt": "2026-03-20T13:00:00+08:00"
     }
   ]
 }
