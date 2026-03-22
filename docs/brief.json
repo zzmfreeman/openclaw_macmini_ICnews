@@ -1,0 +1,158 @@
+{
+  "version": "v20260323-0600",
+  "generatedAt": "2026-03-23T06:00:00+08:00",
+  "period": "morning",
+  "commit": "TBD",
+  "items": [
+    {
+      "title": "伊朗战争切断卡塔尔氦气供应",
+      "summary": "伊朗袭击卡塔尔天然气出口设施，导致全球氦气供应中断，威胁芯片制造供应链。",
+      "source": "Fortune",
+      "published": "2026-03-21",
+      "url": "https://fortune.com/2026/03/21/iran-war-helium-shortage-qatar-chip-supply-chains-ai-boom/",
+      "tags": ["supply-chain", "geopolitics", "helium", "disruption"],
+      "insights": ["氦气是芯片制造关键原料，半导体行业将优先获得配给", "中东局势升级可能长期影响全球科技供应链"],
+      "actions": "评估氦气依赖供应商风险"
+    },
+    {
+      "title": "SK海力士目标2030年实现自主晶圆厂",
+      "summary": "SK海力士计划2030年前开发自主半导体制造设施，应对AI驱动的需求增长和制造复杂性。",
+      "source": "DIGITIMES",
+      "published": "2026-03-21",
+      "url": "https://www.digitimes.com/news/a20260320VL204/sk-hynix-manufacturing-2030-development-production.html",
+      "tags": ["SK-Hynix", "automation", "AI-manufacturing", "smart-fab"],
+      "insights": ["自主晶圆厂是应对AI芯片需求激增的战略布局", "制造复杂度提升推动 fab 智能化转型"],
+      "actions": "关注自主制造技术供应商机会"
+    },
+    {
+      "title": "德国Elmos半导体考虑出售",
+      "summary": "德国汽车芯片制造商Elmos Semiconductor正在探索出售，创始人考虑退出，公司估值约23亿欧元。",
+      "source": "CNA",
+      "published": "2026-03-19",
+      "url": "https://www.channelnewsasia.com/business/exclusive-german-semiconductor-group-elmos-exploring-sale-sources-say-6005236",
+      "tags": ["M&A", "automotive-chip", "Europe", "Elmos"],
+      "insights": ["欧洲半导体资产整合加速，中资收购仍受限", "汽车芯片市场整合机会值得关注"],
+      "actions": "跟踪Elmos出售进展及潜在买家"
+    },
+    {
+      "title": "三星投资730亿美元加码AI芯片",
+      "summary": "三星电子计划2026年投资超110万亿韩元(约730亿美元)扩产芯片产能，试图重夺AI芯片领先地位。",
+      "source": "Yahoo Finance",
+      "published": "2026-03-19",
+      "url": "https://finance.yahoo.com/news/samsung-aims-invest-record-73-091627468.html",
+      "tags": ["Samsung", "AI-chip", "HBM", "capex"],
+      "insights": ["三星正加速追赶SK海力士在HBM领域的领先", "存储器巨头资本支出竞赛将拉动设备需求"],
+      "actions": "关注三星供应链设备商订单"
+    },
+    {
+      "title": "Tesla启动Terafab晶圆厂项目招聘",
+      "summary": "Tesla开始为名为Terafab的半导体生产设施招聘核心团队，包括晶圆厂建设经理职位。",
+      "source": "Tom's Hardware",
+      "published": "2026-03-19",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tesla-hiring-semiconductor-fabs-construction-manager-elon-musks-ambitious-terafab-project-begins",
+      "tags": ["Tesla", "Terafab", "foundry", "automotive-chip"],
+      "insights": ["特斯拉自建芯片产能将改变汽车半导体供应链格局", "垂直整合趋势下，车企自研芯片成为新常态"],
+      "actions": "关注Tesla晶圆厂选址及技术路线"
+    },
+    {
+      "title": "NVIDIA发布Groq 3 LPU芯片",
+      "summary": "NVIDIA在GTC 2026发布Groq 3语言处理单元，基于200亿美元收购Groq后的首个产品，采用三星4nm工艺。",
+      "source": "Tom's Hardware",
+      "published": "2026-03-19",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/nvidias-20-billion-groq-deal-produces-its-first-chip",
+      "tags": ["NVIDIA", "Groq", "LPU", "AI-inference"],
+      "insights": ["NVIDIA通过收购快速补齐推理芯片短板", "SRAM-based架构在特定AI场景有成本优势"],
+      "actions": "评估LPU对GPU推理市场的分流影响"
+    },
+    {
+      "title": "Analog Devices泰国工厂投产",
+      "summary": "ADI正式启动泰国先进制造工厂，增强测试能力并推动更具韧性的半导体生产布局。",
+      "source": "DIGITIMES",
+      "published": "2026-03-20",
+      "url": "https://www.digitimes.com/news/a20260320PD225/analog-devices-thailand-plant-testing-manufacturing.html",
+      "tags": ["ADI", "Thailand", "analog", "supply-chain"],
+      "insights": ["模拟芯片巨头持续 diversifying 制造基地", "东南亚成为半导体供应链新热点"],
+      "actions": "关注东南亚封测及模拟产能布局"
+    },
+    {
+      "title": "美光业绩超预期但股价下跌",
+      "summary": "美光Q2营收136.4亿美元同比增长56.6%，但更高资本支出计划引发投资者担忧，股价跌4%。",
+      "source": "24/7 Wall St",
+      "published": "2026-03-19",
+      "url": "https://247wallst.com/investing/2026/03/19/micron-slips-4-nvidias-hbm-supplier-just-posted-record-results-so-why-is-it-falling/",
+      "tags": ["Micron", "HBM", "earnings", "memory"],
+      "insights": ["HBM需求强劲但资本支出压力拖累估值", "存储器行业进入新一轮产能竞赛周期"],
+      "actions": "跟踪美光HBM3E量产进度"
+    },
+    {
+      "title": "晶圆厂设备市场2035年将达665亿美元",
+      "summary": "WFE市场规模预计从2025年368.5亿美元增长至2035年664.9亿美元，CAGR约6%。",
+      "source": "GlobeNewswire",
+      "published": "2026-03-19",
+      "url": "https://www.globenewswire.com/news-release/2026/03/19/3258822/0/en/Wafer-Fab-Equipment-WFE-Market-Size-to-Hit-USD-66-49-Billion-by-2035-SNS-Insider.html",
+      "tags": ["WFE", "market-forecast", "equipment", "CAGR"],
+      "insights": ["先进制程和AI芯片需求驱动设备市场增长", "中国成熟制程扩产是重要增量来源"],
+      "actions": "关注前道设备龙头订单趋势"
+    },
+    {
+      "title": "亚洲科技股因卡塔尔袭击下跌",
+      "summary": "伊朗袭击卡塔尔工业城及油价飙升引发投资者对芯片供应链中断的担忧，亚洲科技股周四下跌。",
+      "source": "CNBC",
+      "published": "2026-03-19",
+      "url": "https://www.cnbc.com/2026/03/19/tech-stocks-qatar-attack-semiconductor-supply-chain-lng-helium.html",
+      "tags": ["market-reaction", "geopolitics", "Asia", "supply-chain"],
+      "insights": ["地缘政治风险已成为半导体投资的核心变量", "供应链韧性评估应纳入投资决策"],
+      "actions": "审视投资组合的地缘政治敞口"
+    },
+    {
+      "title": "印度半导体企业寻求更多补贴",
+      "summary": "印度半导体行业在政府推动芯片生态发展的背景下，要求提供更多政策支持。",
+      "source": "The Times of India",
+      "published": "2026-03-19",
+      "url": "https://economictimes.indiatimes.com/tech/newsletters/tech-top-5/semicon-players-sops-plea-howard-morgan-on-ai-valuations/articleshow/129680615.cms",
+      "tags": ["India", "policy", "subsidy", "manufacturing"],
+      "insights": ["印度半导体激励政策效果待观察", "成熟制程是印度切入芯片制造的突破口"],
+      "actions": "跟踪印度晶圆厂项目落地进展"
+    },
+    {
+      "title": "华城成为韩国半导体供应链中心",
+      "summary": "韩国京畿道华城市正成为国内芯片供应链的脊柱，成为AI驱动制造的试验场。",
+      "source": "DIGITIMES",
+      "published": "2026-03-18",
+      "url": "https://www.digitimes.com/news/a20260318PD206/equipment-supply-chain-adoption-production-packaging.html",
+      "tags": ["Korea", "Hwaseong", "supply-chain", "cluster"],
+      "insights": ["韩国正打造本土化的半导体供应链集群", "设备材料本土化是地缘政治对冲策略"],
+      "actions": "关注韩国设备材料国产替代机会"
+    },
+    {
+      "title": "巴黎太空周揭示航天供应链策略",
+      "summary": "2026巴黎太空周显示航天产业正从定制小批量转向大批量标准化制造，为半导体供应链带来新机遇。",
+      "source": "DIGITIMES",
+      "published": "2026-03-20",
+      "url": "https://www.digitimes.com/news/a20260320VL210.html",
+      "tags": ["space", "New-Space", "supply-chain", "manufacturing"],
+      "insights": ["航天芯片需求增长将带动抗辐射半导体市场", "标准化制造趋势利好半导体批量供应"],
+      "actions": "关注航天级芯片供应商"
+    },
+    {
+      "title": "5G芯片市场2031年将超930亿美元",
+      "summary": "受全球5G部署和边缘AI需求推动，5G芯片组市场规模预计2031年突破930亿美元。",
+      "source": "PR Newswire",
+      "published": "2026-03-20",
+      "url": "https://www.prnewswire.co.uk/news-releases/5g-chipset-market-to-cross-usd-93-billion-by-2031-on-5g-and-edge-ai-growth-says-mordor-intelligence-302719872.html",
+      "tags": ["5G", "chipset", "market-forecast", "edge-AI"],
+      "insights": ["5G与边缘AI融合驱动基带芯片需求", "Open RAN趋势重塑5G芯片竞争格局"],
+      "actions": "关注5G基带及射频芯片供应商"
+    },
+    {
+      "title": "电池管理IC市场2035年将达138亿美元",
+      "summary": "电池管理IC市场规模预计从2025年48亿美元增长至2035年138.1亿美元，受EV和储能需求驱动。",
+      "source": "GlobeNewswire",
+      "published": "2026-03-19",
+      "url": "https://www.globenewswire.com/news-release/2026/03/19/3258736/0/en/Battery-Management-IC-Market-Size-to-Hit-USD-13-81-Billion-by-2035-Research-by-SNS-Insider.html",
+      "tags": ["PMIC", "BMS", "EV", "market-forecast"],
+      "insights": ["电动车和储能是PMIC增长双引擎", "高压BMS芯片技术壁垒高，国产替代空间大"],
+      "actions": "关注车规级BMS芯片供应商"
+    }
+  ]
+}
