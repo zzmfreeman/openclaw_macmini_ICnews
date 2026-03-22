@@ -1,86 +1,155 @@
 {
-  "version": "v20260322-1215",
-  "generatedAt": "2026-03-22T12:15:55.602847",
+  "version": "v20260322-1301",
+  "generatedAt": "2026-03-22T13:01:57.015221+08:00",
   "period": "midday",
+  "commit": "pending",
   "items": [
     {
-      "title": "Intel's new feature can improve game loading times by up to 3x — Precompiled Shader Delivery comes to Arc Xe2 and Xe3 GPUs following DirectX SDK release",
-      "url": "https://www.tomshardware.com/pc-components/gpu-drivers/intel-adds-precompiled-shader-delivery-to-arc-xe2-and-xe3-gpus-following-directx-sdk-release-new-feature-can-improve-game-loading-times-by-up-to-3x",
-      "summary": "\n                             Following in Nvidia's footsteps, Intel has now officially adopted Microsoft's Advanced Shader Delivery to make shader compilation much faster in games. Intel is calling it Precompiled Shader Distribution and it's available on a bunch of Arc GPUs right away, supported in 11 games at launch, with more likely to follow. AMD is now the only company left who hasn't officially embraced this feature. \n                                                                        ",
-      "published": "Thu, 19 Mar 2026 10:20:00 +0000",
-      "source": "Tom's Hardware",
-      "region": "overseas",
-      "lang": "en",
-      "category": "packaging",
-      "keywords_matched": [
-        "ase",
-        "intel",
-        "xe",
-        "amd",
-        "nvidia",
-        "tel"
+      "title": "TSMC (TSM) Stock: Nv...",
+      "summary": "TSMC (TSM) stock reports record February revenue o...",
+      "source": "Coincentral",
+      "published": "2026-03-22",
+      "url": "https://coincentral.com/tsmc-tsm-stock-nvidia-surpasses-apple-as-largest-customer-in-2025",
+      "tags": [
+        "semiconductor",
+        "TSMC",
+        "NVIDIA"
+      ],
+      "insights": [
+        "关注台积电产能动态",
+        "GPU供应链影响评估"
+      ],
+      "actions": [
+        "关注后续进展"
       ]
     },
     {
-      "title": "RT by @intel: Announced at #NVIDIAGTC: Intel Xeon 6 will power the host CPU in next-gen NVIDIA DGX Rubin NVL8 systems, helping orchestrate, scale and secure GPU-accelerated AI infrastructure.\n \nAs AI shifts toward real-time inference, the host CPU plays a critical role in system performance, memory access and workload orchestration. http://ms.spr.ly/6011QWAJt",
-      "url": "https://nitter.net/intelnews/status/2033625622547665189#m",
-      "summary": "<p>Announced at <a href=\"https://nitter.net/search?f=tweets&q=%23NVIDIAGTC\">#NVIDIAGTC</a>: Intel Xeon 6 will power the host CPU in next-gen NVIDIA DGX Rubin NVL8 systems, helping orchestrate, scale and secure GPU-accelerated AI infrastructure.<br>\n <br>\nAs AI shifts toward real-time inference, the host CPU plays a critical role in system performance, memory access and workload orchestration. <a href=\"http://ms.spr.ly/6011QWAJt\">ms.spr.ly/6011QWAJt</a></p>\n<img src=\"https://nitter.net/pic/card_i",
-      "published": "Mon, 16 Mar 2026 19:25:06 GMT",
-      "source": "Intel",
-      "region": "overseas",
-      "lang": "en",
-      "category": "design_companies",
-      "keywords_matched": [
-        "intel",
-        "xe",
-        "nvidia",
-        "tel"
+      "title": "Buy These 3 Semicond...",
+      "summary": "Wall Street analysts currently project Taiwan Semi...",
+      "source": "Investing.com",
+      "published": "2026-03-22",
+      "url": "https://fool.com/investing/2026/03/18/buy-these-3-semiconductor-stocks-now-and-thank-you",
+      "tags": [
+        "semiconductor",
+        "chips"
+      ],
+      "insights": [
+        "跟踪产业链变化"
+      ],
+      "actions": [
+        "关注后续进展"
       ]
     },
     {
-      "title": "AI doesn’t move without semiconductors.\n\nFrom silicon wafers to HBM and real-world applications, Samsung Semiconductor’s technology is foundational to AI.\n\nThis Big Game weekend in San Jose, we’re lighting up the city to show how #AIHappensHere.",
-      "url": "https://nitter.net/SamsungSemiUS/status/2020662282389496079#m",
-      "summary": "<p>AI doesn’t move without semiconductors.<br>\n<br>\nFrom silicon wafers to HBM and real-world applications, Samsung Semiconductor’s technology is foundational to AI.<br>\n<br>\nThis Big Game weekend in San Jose, we’re lighting up the city to show how <a href=\"https://nitter.net/search?f=tweets&q=%23AIHappensHere\">#AIHappensHere</a>.</p>\n<a href=\"https://nitter.net/SamsungSemiUS/status/2020662282389496079#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2020662140349366272",
-      "published": "Mon, 09 Feb 2026 00:53:24 GMT",
-      "source": "SamsungSemi",
-      "region": "overseas",
-      "lang": "en",
-      "category": "manufacturing",
-      "keywords_matched": [
-        "samsung semiconductor",
-        "hbm",
-        "wafer"
+      "title": "What if ASML Becomes...",
+      "summary": "Technologies like Nvidia's Rubin architecture will...",
+      "source": "Investing.com",
+      "published": "2026-03-22",
+      "url": "https://theglobeandmail.com/investing/markets/stocks/TSM/pressreleases/856662/what-if-asml-becomes-the-next-trillion-dollar-stock",
+      "tags": [
+        "semiconductor",
+        "ASML",
+        "AI"
+      ],
+      "insights": [
+        "跟踪产业链变化"
+      ],
+      "actions": [
+        "关注后续进展"
       ]
     },
     {
-      "title": "On 12/8 at 10am PT, join our webinar and live Q&A session with Computational Storage experts David McIntyre and Mayank Saxena from Samsung and Seong Kim from AMD to find out how Samsung’s SmartSSD can improve fintech applications performance and more: https://web.cvent.com/event/3ac62b6c-fcb8-493f-9160-9f511128f09e/regProcessStep1",
-      "url": "https://nitter.net/SamsungSemiUS/status/1593702922914627584#m",
-      "summary": "<p>On 12/8 at 10am PT, join our webinar and live Q&amp;A session with Computational Storage experts David McIntyre and Mayank Saxena from Samsung and Seong Kim from AMD to find out how Samsung’s SmartSSD can improve fintech applications performance and more: <a href=\"https://web.cvent.com/event/3ac62b6c-fcb8-493f-9160-9f511128f09e/regProcessStep1\">web.cvent.com/event/3ac62b6c…</a></p>\n<img src=\"https://nitter.net/pic/media%2FFh34W_JXEAIeubt.jpg\" style=\"max-width:250px;\" />",
-      "published": "Fri, 18 Nov 2022 20:29:21 GMT",
-      "source": "SamsungSemi",
-      "region": "overseas",
-      "lang": "en",
-      "category": "manufacturing",
-      "keywords_matched": [
-        "xe",
-        "amd",
-        "fc"
+      "title": "TSMC’s 60% AI Chip C...",
+      "summary": "TSMC (NYSE:TSM) expects AI chip revenue to grow at...",
+      "source": "Simplywall",
+      "published": "2026-03-22",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nyse-tsm/taiwan-semiconductor-manufacturing/news/tsmcs-60-ai-chip-cagr-reshapes-growth-drivers-and-key-risks/amp",
+      "tags": [
+        "semiconductor",
+        "TSMC",
+        "AI"
+      ],
+      "insights": [
+        "关注台积电产能动态"
+      ],
+      "actions": [
+        "关注后续进展"
       ]
     },
     {
-      "title": "When it comes to scaling AI at the edge, reliability and predictability matter. #IntelCore Series 2 is engineered for real‑time performance in demanding environments, powering robotics, industrial control, medical systems, and next‑gen automated solutions.\n\nWatch the keynote - http://ms.spr.ly/6016QYVnw",
-      "url": "https://nitter.net/intel/status/2031781185601294591#m",
-      "summary": "<p>When it comes to scaling AI at the edge, reliability and predictability matter. <a href=\"https://nitter.net/search?f=tweets&q=%23IntelCore\">#IntelCore</a> Series 2 is engineered for real‑time performance in demanding environments, powering robotics, industrial control, medical systems, and next‑gen automated solutions.<br>\n<br>\nWatch the keynote - <a href=\"http://ms.spr.ly/6016QYVnw\">ms.spr.ly/6016QYVnw</a></p>\n<img src=\"https://nitter.net/pic/media%2FHDJWN2_XEAAUIU9.jpg\" style=\"max-width:250",
-      "published": "Wed, 11 Mar 2026 17:15:57 GMT",
-      "source": "Intel",
-      "region": "overseas",
-      "lang": "en",
-      "category": "design_companies",
-      "keywords_matched": [
-        "intel",
-        "xe",
-        "tel"
+      "title": "Global Pure Foundry ...",
+      "summary": "Counterpoint Research is a global industry and mar...",
+      "source": "Counterpointresearch",
+      "published": "2026-03-22",
+      "url": "https://www.counterpointresearch.com/en/insights/global-semiconductor-foundry-market-share",
+      "tags": [
+        "semiconductor",
+        "chips"
+      ],
+      "insights": [
+        "跟踪产业链变化"
+      ],
+      "actions": [
+        "关注后续进展"
+      ]
+    },
+    {
+      "title": "TSM Stock and ASML S...",
+      "summary": "Get a clear map of the nanotech stack behind AI ch...",
+      "source": "Marketbeat",
+      "published": "2026-03-22",
+      "url": "https://www.marketbeat.com/stock-ideas/the-supply-chain-quietly-powering-the-ai-boomand-4-ways-to-play-it/",
+      "tags": [
+        "semiconductor",
+        "ASML",
+        "AI"
+      ],
+      "insights": [
+        "跟踪产业链变化"
+      ],
+      "actions": [
+        "关注后续进展"
+      ]
+    },
+    {
+      "title": "ASML Targets TSM in ...",
+      "summary": "While much of the hoopla surrounding Artificial In...",
+      "source": "Investing.com",
+      "published": "2026-03-22",
+      "url": "https://247wallst.com/investing/2026/03/02/asml-targets-tsm-in-advanced-packaging-strategic-expansion-or-unnecessary-gamble",
+      "tags": [
+        "semiconductor",
+        "ASML"
+      ],
+      "insights": [
+        "跟踪产业链变化"
+      ],
+      "actions": [
+        "关注后续进展"
+      ]
+    },
+    {
+      "title": "NVIDIA, ASML, TSMC a...",
+      "summary": "GTC—NVIDIA today announced a ... enabling semicond...",
+      "source": "Nvidianews",
+      "published": "2026-03-22",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-asml-tsmc-and-synopsys-set-foundation-for-next-generation-chip-manufacturing",
+      "tags": [
+        "semiconductor",
+        "TSMC",
+        "NVIDIA",
+        "ASML"
+      ],
+      "insights": [
+        "关注台积电产能动态",
+        "GPU供应链影响评估"
+      ],
+      "actions": [
+        "关注后续进展"
       ]
     }
   ]
 }
+
+=== SUMMARY ===
+Total items: 8 (EN: 8, CN: 0)
