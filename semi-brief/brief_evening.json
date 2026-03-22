@@ -1,0 +1,112 @@
+{
+  "version": "v20260322-2000",
+  "generatedAt": "2026-03-22T20:00:00+08:00",
+  "period": "evening",
+  "commit": "d33ac97e",
+  "items": [
+    {
+      "title": "特斯拉自建晶圆厂计划启动",
+      "summary": "Musk宣布Tesla将启动Terafab项目自建芯片厂，以缓解AI芯片供应瓶颈，摩根士丹利警告成本与周期风险极高。",
+      "source": "Seeking Alpha",
+      "published": "2026-03-21",
+      "url": "https://seekingalpha.com/news/4566934-tesla-is-building-its-own-semiconductor-facility-this-could-be-its-most-herculean-task-ever",
+      "tags": ["Tesla", "foundry", "AI", "supply-chain"],
+      "insights": [
+        "垂直整合趋势加速，客户自建产能对代工格局有长期影响",
+        "ASML设备获取是自建厂最大瓶颈"
+      ],
+      "actions": "关注Tesla设备采购动态"
+    },
+    {
+      "title": "TSMC魏哲家：机器人未来在硅脑不在炫技",
+      "summary": "TSMC董事长在年度运动会上表示，中国机器人视频虽炫但缺乏先进硅基"大脑"，强调算力才是服务机器人核心。",
+      "source": "DIGITIMES",
+      "published": "2026-03-22",
+      "url": "https://digitimes.com/news/a20260322VL200/tsmc-robotics-silicon-chairman.html",
+      "tags": ["TSMC", "robotics", "AI", "edge-computing"],
+      "insights": [
+        "边缘AI芯片需求将随机器人普及爆发",
+        "TSMC对非手机AI场景保持战略定力"
+      ],
+      "actions": "跟踪机器人芯片客户进展"
+    },
+    {
+      "title": "NVIDIA取代Apple成TSMC最大客户",
+      "summary": "NVIDIA占TSMC收入比重达19%，超越Apple的17%，AI芯片取代智能手机成为核心增长引擎，行业称此转变为"NVIDIA Flip"。",
+      "source": "Blockonomi",
+      "published": "2026-03-19",
+      "url": "https://blockonomi.com/tsmc-tsm-stock-nvidia-overtakes-apple-as-largest-customer-in-historic-shift/",
+      "tags": ["TSMC", "NVIDIA", "Apple", "market-share"],
+      "insights": [
+        "AI芯片ASP与毛利率显著高于手机芯片",
+        "客户集中度风险上升，需关注NVIDIA订单波动"
+      ],
+      "actions": "监控NVIDIA产能分配变化"
+    },
+    {
+      "title": "TSMC预计AI芯片CAGR达60%至2029年",
+      "summary": "TSMC管理层预测2024-2029年AI相关芯片收入年复合增长率将达中高50%区间，2026年资本支出520-560亿美元扩产。",
+      "source": "The Motley Fool",
+      "published": "2026-03-21",
+      "url": "https://fool.com/investing/2026/03/21/3-reasons-why-taiwan-semiconductor-is-the-ultimate",
+      "tags": ["TSMC", "AI", "CAGR", "capex"],
+      "insights": [
+        "先进制程与CoWoS产能将持续紧缺",
+        "3nm/5nm节点已完全满产，2nm推进快于预期"
+      ],
+      "actions": "提前锁定CoWoS产能配额"
+    },
+    {
+      "title": "伊朗局势威胁氦气供应，TSMC面临生产风险",
+      "summary": "霍尔木兹海峡局势紧张导致氦气供应短缺，该气体对5nm以下先进制程至关重要，TSMC与NVIDIA均受波及。",
+      "source": "Yahoo Finance",
+      "published": "2026-03-20",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stock-tsm-wilts-iranian-123611179.html",
+      "tags": ["TSMC", "NVIDIA", "geopolitics", "helium"],
+      "insights": [
+        "氦气是EUV光刻与晶圆冷却的关键材料",
+        "地缘政治风险已渗透至特种气体供应链"
+      ],
+      "actions": "评估替代氦气供应商方案"
+    },
+    {
+      "title": "NVIDIA Rubin Ultra与Feynman架构曝光",
+      "summary": "NVIDIA GTC披露Rubin Ultra将于2027年推出，Feynman架构瞄准2028年，TSMC SoIC技术将成为关键封装方案。",
+      "source": "TrendForce",
+      "published": "2026-03-18",
+      "url": "https://www.trendforce.com/news/2026/03/18/news-nvidia-rubin-ultra-and-feynman-reportedly-to-boost-tsmc-soic-besi-applied-materials-tel-to-benefit/",
+      "tags": ["NVIDIA", "TSMC", "SoIC", "packaging"],
+      "insights": [
+        "SoIC月产能计划2026年达1-1.5万片",
+        "先进封装设备商Besi/AMAT/TEL将受益"
+      ],
+      "actions": "关注SoIC产能释放节奏"
+    },
+    {
+      "title": "Intel与Micron遭分析师看空",
+      "summary": "华尔街分析师预测Intel与Micron股价可能分别下跌32%与43%，Intel代工业务难以挑战TSMC主导地位。",
+      "source": "AOL",
+      "published": "2026-03-22",
+      "url": "https://www.aol.com/articles/2-semiconductor-stocks-sell-drop-083200220.html",
+      "tags": ["Intel", "Micron", "foundry", "market-outlook"],
+      "insights": [
+        "Intel IDM 2.0战略执行仍存疑",
+        "TSMC技术领先优势持续扩大"
+      ],
+      "actions": "谨慎评估Intel代工合作"
+    },
+    {
+      "title": "ASML有望成下一个万亿美元市值公司",
+      "summary": "随着TSMC N2工艺与NVIDIA Rubin架构推进，ASML EUV设备需求持续增长，分析师讨论其万亿市值可能性。",
+      "source": "The Motley Fool",
+      "published": "2026-03-20",
+      "url": "https://www.fool.com/investing/2026/03/20/what-if-asml-trillion-dollar-stock/",
+      "tags": ["ASML", "EUV", "TSMC", "NVIDIA"],
+      "insights": [
+        "High-NA EUV将是2nm以下制程关键",
+        "设备厂商在产业链中议价能力增强"
+      ],
+      "actions": "关注ASML High-NA交付进度"
+    }
+  ]
+}
