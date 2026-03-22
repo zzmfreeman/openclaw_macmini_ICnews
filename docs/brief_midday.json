@@ -1,0 +1,86 @@
+{
+  "version": "v20260322-1215",
+  "generatedAt": "2026-03-22T12:15:55.602847",
+  "period": "midday",
+  "items": [
+    {
+      "title": "Intel's new feature can improve game loading times by up to 3x — Precompiled Shader Delivery comes to Arc Xe2 and Xe3 GPUs following DirectX SDK release",
+      "url": "https://www.tomshardware.com/pc-components/gpu-drivers/intel-adds-precompiled-shader-delivery-to-arc-xe2-and-xe3-gpus-following-directx-sdk-release-new-feature-can-improve-game-loading-times-by-up-to-3x",
+      "summary": "\n                             Following in Nvidia's footsteps, Intel has now officially adopted Microsoft's Advanced Shader Delivery to make shader compilation much faster in games. Intel is calling it Precompiled Shader Distribution and it's available on a bunch of Arc GPUs right away, supported in 11 games at launch, with more likely to follow. AMD is now the only company left who hasn't officially embraced this feature. \n                                                                        ",
+      "published": "Thu, 19 Mar 2026 10:20:00 +0000",
+      "source": "Tom's Hardware",
+      "region": "overseas",
+      "lang": "en",
+      "category": "packaging",
+      "keywords_matched": [
+        "ase",
+        "intel",
+        "xe",
+        "amd",
+        "nvidia",
+        "tel"
+      ]
+    },
+    {
+      "title": "RT by @intel: Announced at #NVIDIAGTC: Intel Xeon 6 will power the host CPU in next-gen NVIDIA DGX Rubin NVL8 systems, helping orchestrate, scale and secure GPU-accelerated AI infrastructure.\n \nAs AI shifts toward real-time inference, the host CPU plays a critical role in system performance, memory access and workload orchestration. http://ms.spr.ly/6011QWAJt",
+      "url": "https://nitter.net/intelnews/status/2033625622547665189#m",
+      "summary": "<p>Announced at <a href=\"https://nitter.net/search?f=tweets&q=%23NVIDIAGTC\">#NVIDIAGTC</a>: Intel Xeon 6 will power the host CPU in next-gen NVIDIA DGX Rubin NVL8 systems, helping orchestrate, scale and secure GPU-accelerated AI infrastructure.<br>\n <br>\nAs AI shifts toward real-time inference, the host CPU plays a critical role in system performance, memory access and workload orchestration. <a href=\"http://ms.spr.ly/6011QWAJt\">ms.spr.ly/6011QWAJt</a></p>\n<img src=\"https://nitter.net/pic/card_i",
+      "published": "Mon, 16 Mar 2026 19:25:06 GMT",
+      "source": "Intel",
+      "region": "overseas",
+      "lang": "en",
+      "category": "design_companies",
+      "keywords_matched": [
+        "intel",
+        "xe",
+        "nvidia",
+        "tel"
+      ]
+    },
+    {
+      "title": "AI doesn’t move without semiconductors.\n\nFrom silicon wafers to HBM and real-world applications, Samsung Semiconductor’s technology is foundational to AI.\n\nThis Big Game weekend in San Jose, we’re lighting up the city to show how #AIHappensHere.",
+      "url": "https://nitter.net/SamsungSemiUS/status/2020662282389496079#m",
+      "summary": "<p>AI doesn’t move without semiconductors.<br>\n<br>\nFrom silicon wafers to HBM and real-world applications, Samsung Semiconductor’s technology is foundational to AI.<br>\n<br>\nThis Big Game weekend in San Jose, we’re lighting up the city to show how <a href=\"https://nitter.net/search?f=tweets&q=%23AIHappensHere\">#AIHappensHere</a>.</p>\n<a href=\"https://nitter.net/SamsungSemiUS/status/2020662282389496079#m\">\n<br>Video<br>\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2020662140349366272",
+      "published": "Mon, 09 Feb 2026 00:53:24 GMT",
+      "source": "SamsungSemi",
+      "region": "overseas",
+      "lang": "en",
+      "category": "manufacturing",
+      "keywords_matched": [
+        "samsung semiconductor",
+        "hbm",
+        "wafer"
+      ]
+    },
+    {
+      "title": "On 12/8 at 10am PT, join our webinar and live Q&A session with Computational Storage experts David McIntyre and Mayank Saxena from Samsung and Seong Kim from AMD to find out how Samsung’s SmartSSD can improve fintech applications performance and more: https://web.cvent.com/event/3ac62b6c-fcb8-493f-9160-9f511128f09e/regProcessStep1",
+      "url": "https://nitter.net/SamsungSemiUS/status/1593702922914627584#m",
+      "summary": "<p>On 12/8 at 10am PT, join our webinar and live Q&amp;A session with Computational Storage experts David McIntyre and Mayank Saxena from Samsung and Seong Kim from AMD to find out how Samsung’s SmartSSD can improve fintech applications performance and more: <a href=\"https://web.cvent.com/event/3ac62b6c-fcb8-493f-9160-9f511128f09e/regProcessStep1\">web.cvent.com/event/3ac62b6c…</a></p>\n<img src=\"https://nitter.net/pic/media%2FFh34W_JXEAIeubt.jpg\" style=\"max-width:250px;\" />",
+      "published": "Fri, 18 Nov 2022 20:29:21 GMT",
+      "source": "SamsungSemi",
+      "region": "overseas",
+      "lang": "en",
+      "category": "manufacturing",
+      "keywords_matched": [
+        "xe",
+        "amd",
+        "fc"
+      ]
+    },
+    {
+      "title": "When it comes to scaling AI at the edge, reliability and predictability matter. #IntelCore Series 2 is engineered for real‑time performance in demanding environments, powering robotics, industrial control, medical systems, and next‑gen automated solutions.\n\nWatch the keynote - http://ms.spr.ly/6016QYVnw",
+      "url": "https://nitter.net/intel/status/2031781185601294591#m",
+      "summary": "<p>When it comes to scaling AI at the edge, reliability and predictability matter. <a href=\"https://nitter.net/search?f=tweets&q=%23IntelCore\">#IntelCore</a> Series 2 is engineered for real‑time performance in demanding environments, powering robotics, industrial control, medical systems, and next‑gen automated solutions.<br>\n<br>\nWatch the keynote - <a href=\"http://ms.spr.ly/6016QYVnw\">ms.spr.ly/6016QYVnw</a></p>\n<img src=\"https://nitter.net/pic/media%2FHDJWN2_XEAAUIU9.jpg\" style=\"max-width:250",
+      "published": "Wed, 11 Mar 2026 17:15:57 GMT",
+      "source": "Intel",
+      "region": "overseas",
+      "lang": "en",
+      "category": "design_companies",
+      "keywords_matched": [
+        "intel",
+        "xe",
+        "tel"
+      ]
+    }
+  ]
+}

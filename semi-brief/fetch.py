@@ -1,223 +1,267 @@
 #!/usr/bin/env python3
 """
-fetch.py — NewsAPI 采集 + 清洗 + 去重
-读取 config.yaml，输出候选条目列表
+semi-brief 新闻抓取模块 v2
+整合 RSS 抓取 + 关键词过滤
+支持国内外半导体新闻源
 """
 
-import os, sys, json, re, time, hashlib
-from datetime import datetime, timedelta, timezone
+import os
 from pathlib import Path
-import urllib.request, urllib.parse
+import sys
+import json
+import yaml
+import re
+from datetime import datetime, timedelta
+from typing import List, Dict, Optional, Set
+from dataclasses import dataclass, asdict
+import xml.etree.ElementTree as ET
+import urllib.request
+import ssl
 
-SCRIPT_DIR = Path(__file__).parent
-CONFIG_PATH = SCRIPT_DIR / "config.yaml"
-REPO_ROOT   = Path(__file__).parent.parent
+# 禁用 SSL 验证
+ssl_context = ssl.create_default_context()
+ssl_context.check_hostname = False
+ssl_context.verify_mode = ssl.CERT_NONE
 
-# ── 简单 YAML 解析（避免依赖 pyyaml）──────────────────
-def load_config():
-    import yaml
-    with open(CONFIG_PATH) as f:
-        return yaml.safe_load(f)
 
-def try_load_config():
-    try:
-        return load_config()
-    except ImportError:
-        # fallback: 用 exec 简单解析
-        text = CONFIG_PATH.read_text()
-        # 只提取需要的字段，其余用默认值
-        return None
+@dataclass
+class NewsItem:
+    """新闻条目"""
+    title: str
+    url: str
+    summary: str
+    published: str
+    source: str
+    region: str  # domestic / overseas
+    lang: str    # zh / en
+    category: str = ""  # design / manufacturing / packaging / industry
+    keywords_matched: List[str] = None
+    
+    def __post_init__(self):
+        if self.keywords_matched is None:
+            self.keywords_matched = []
+    
+    def to_dict(self) -> Dict:
+        return asdict(self)
 
-# ── 获取当前时段 ───────────────────────────────────────
-def get_slot():
-    now = datetime.now(timezone(timedelta(hours=8)))
-    h = now.hour
-    if h < 10:
-        return "morning"
-    elif h < 16:
-        return "midday"
-    else:
-        return "afternoon"
 
-# ── 规范化 URL（去参数/锚点用于去重）─────────────────
-def normalize_url(url):
-    u = urllib.parse.urlparse(url)
-    return f"{u.scheme}://{u.netloc}{u.path}".rstrip("/").lower()
+class KeywordManager:
+    """关键词管理器"""
+    
+    def __init__(self, yaml_path: str):
+        self.yaml_path = yaml_path
+        self.data = self._load()
+        self.all_keywords = self._build_keyword_set()
+    
+    def _load(self) -> Dict:
+        with open(self.yaml_path, 'r', encoding='utf-8') as f:
+            return yaml.safe_load(f)
+    
+    def _build_keyword_set(self) -> Set[str]:
+        """构建所有关键词的集合（小写）"""
+        keywords = set()
+        for category, info in self.data.items():
+            if category.startswith('meta'):
+                continue
+            if isinstance(info, dict) and 'keywords' in info:
+                for kw in info['keywords']:
+                    keywords.add(kw.lower())
+        return keywords
+    
+    def match(self, text: str) -> List[str]:
+        """匹配关键词，返回匹配到的关键词列表"""
+        text_lower = text.lower()
+        matched = []
+        for kw in self.all_keywords:
+            if kw in text_lower:
+                matched.append(kw)
+        return matched
+    
+    def get_category_for_keyword(self, keyword: str) -> str:
+        """获取关键词所属分类"""
+        kw_lower = keyword.lower()
+        for category, info in self.data.items():
+            if category.startswith('meta'):
+                continue
+            if isinstance(info, dict) and 'keywords' in info:
+                for k in info['keywords']:
+                    if k.lower() == kw_lower:
+                        return category
+        return ""
 
-def url_fingerprint(title, url):
-    s = normalize_url(url) + "|" + title.strip().lower()[:60]
-    return hashlib.md5(s.encode()).hexdigest()
 
-# ── 加载历史去重集合 ──────────────────────────────────
-def load_seen(cfg):
-    seen = set()
-    repo = REPO_ROOT
-    for fname in ["brief.json","brief_midday.json","brief_afternoon.json","history.json"]:
-        p = repo / fname
-        if p.exists():
-            try:
-                data = json.loads(p.read_text())
-                items = data if isinstance(data, list) else data.get("items", [])
-                for it in items:
-                    t = it.get("title","")
-                    u = it.get("url","") or it.get("link","")
-                    if t or u:
-                        seen.add(url_fingerprint(t, u))
-            except Exception:
-                pass
-    return seen
-
-# ── URL 可访问性检查（HEAD，3秒超时）─────────────────
-def check_url(url, timeout=3):
-    try:
-        req = urllib.request.Request(url, method="HEAD",
-              headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=timeout) as r:
-            return r.status < 400
-    except Exception:
+class RSSFetcher:
+    """RSS 抓取器"""
+    
+    # RSS 源配置
+    SOURCES = [
+        # 国外专业媒体
+        {"name": "SemiEngineering", "url": "https://semiengineering.com/feed/", "region": "overseas", "lang": "en", "weight": 10},
+        {"name": "EE Times", "url": "https://www.eetimes.com/rss.xml", "region": "overseas", "lang": "en", "weight": 9},
+        {"name": "AnandTech", "url": "https://www.anandtech.com/rss/", "region": "overseas", "lang": "en", "weight": 8},
+        {"name": "Tom's Hardware", "url": "https://www.tomshardware.com/feeds/all", "region": "overseas", "lang": "en", "weight": 8},
+        
+        # 公司官方 Twitter (Nitter)
+        {"name": "TSMC", "url": "https://nitter.net/tsmccorp/rss", "region": "overseas", "lang": "en", "weight": 10},
+        {"name": "SamsungSemi", "url": "https://nitter.net/SamsungSemiUS/rss", "region": "overseas", "lang": "en", "weight": 10},
+        {"name": "Intel", "url": "https://nitter.net/intel/rss", "region": "overseas", "lang": "en", "weight": 9},
+        {"name": "AMD", "url": "https://nitter.net/AMD/rss", "region": "overseas", "lang": "en", "weight": 9},
+        {"name": "NVIDIA", "url": "https://nitter.net/nvidia/rss", "region": "overseas", "lang": "en", "weight": 9},
+    ]
+    
+    def __init__(self):
+        self.ssl_context = ssl.create_default_context()
+        self.ssl_context.check_hostname = False
+        self.ssl_context.verify_mode = ssl.CERT_NONE
+    
+    def fetch(self, url: str, timeout: int = 15) -> Optional[str]:
+        """抓取 RSS 内容"""
         try:
-            req2 = urllib.request.Request(url,
-                   headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req2, timeout=timeout) as r:
-                return r.status < 400
-        except Exception:
-            return False
-
-# ── 判断是否国内来源 ─────────────────────────────────
-def is_domestic(url, domestic_domains):
-    host = urllib.parse.urlparse(url).netloc.lower()
-    return any(d in host for d in domestic_domains)
-
-# ── 判断 URL 是否黑名单 ──────────────────────────────
-def is_blacklisted(url, patterns):
-    for p in patterns:
-        if re.search(p, url):
-            return True
-    return False
-
-# ── NewsAPI 请求 ─────────────────────────────────────
-def fetch_newsapi(keywords, from_dt, api_key, page_size=100):
-    q = " OR ".join(f'"{k}"' for k in keywords[:5])
-    params = urllib.parse.urlencode({
-        "q": q,
-        "from": from_dt.strftime("%Y-%m-%dT%H:%M:%S"),
-        "sortBy": "publishedAt",
-        "language": "en",
-        "pageSize": page_size,
-        "apiKey": api_key
-    })
-    url = f"https://newsapi.org/v2/everything?{params}"
-    req = urllib.request.Request(url, headers={"User-Agent": "semi-brief/1.0"})
-    with urllib.request.urlopen(req, timeout=15) as r:
-        data = json.loads(r.read())
-    return data.get("articles", [])
-
-# ── 主采集函数 ────────────────────────────────────────
-def fetch(slot=None, cfg=None):
-    if cfg is None:
-        try:
-            import yaml
-            with open(CONFIG_PATH) as f:
-                cfg = yaml.safe_load(f)
+            req = urllib.request.Request(
+                url,
+                headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+            )
+            with urllib.request.urlopen(req, timeout=timeout, context=self.ssl_context) as resp:
+                return resp.read().decode('utf-8', errors='ignore')
         except Exception as e:
-            print(f"[ERROR] 无法加载 config.yaml: {e}", file=sys.stderr)
-            sys.exit(1)
-
-    if slot is None:
-        slot = get_slot()
-
-    api_key = os.environ.get("NEWSAPI_KEY", "")
-    if not api_key:
-        print("[ERROR] NEWSAPI_KEY 未设置", file=sys.stderr)
-        sys.exit(1)
-
-    window_h = cfg["time_window"][slot]
-    target_count = cfg["count"][slot]
-    domestic_min = cfg["domestic_min"][slot]
-    keywords = cfg["keywords"]
-    domestic_domains = cfg["domestic_domains"]
-    blacklist = cfg["url_blacklist_patterns"]
-
-    now = datetime.now(timezone(timedelta(hours=8)))
-    from_dt = now - timedelta(hours=window_h)
-
-    print(f"[fetch] slot={slot}, window={window_h}h, target={target_count}条", flush=True)
-    print(f"[fetch] 时间窗: {from_dt.strftime('%Y-%m-%d %H:%M')} ~ {now.strftime('%Y-%m-%d %H:%M')}", flush=True)
-
-    # 加载历史去重
-    seen = load_seen(cfg)
-
-    # 调用 NewsAPI
-    articles = []
-    try:
-        articles = fetch_newsapi(keywords, from_dt, api_key)
-        print(f"[fetch] NewsAPI 返回 {len(articles)} 条", flush=True)
-    except Exception as e:
-        print(f"[ERROR] NewsAPI 调用失败: {e}", file=sys.stderr)
-        sys.exit(2)
-
-    # 清洗
-    results = []
-    domestic_count = 0
-
-    for art in articles:
-        title = (art.get("title") or "").strip()
-        url   = (art.get("url") or "").strip()
-        desc  = (art.get("description") or "").strip()
-        src   = (art.get("source", {}).get("name") or "").strip()
-        pub   = art.get("publishedAt", "")
-
-        if not title or not url:
-            continue
-        if "[Removed]" in title:
-            continue
-
-        # 时间过滤
+            return None
+    
+    def parse(self, xml: str, source: Dict) -> List[NewsItem]:
+        """解析 RSS XML"""
+        items = []
         try:
-            pub_dt = datetime.fromisoformat(pub.replace("Z", "+00:00"))
-            if pub_dt > now:       # 未来日期剔除
-                continue
-            if pub_dt < from_dt.replace(tzinfo=timezone.utc) if from_dt.tzinfo is None else from_dt:
-                continue
-        except Exception:
+            root = ET.fromstring(xml)
+            if root.tag == "rss":
+                channel = root.find("channel")
+                if channel:
+                    for item in channel.findall("item"):
+                        title = item.findtext("title", "").strip()
+                        link = item.findtext("link", "").strip()
+                        desc = item.findtext("description", "")[:500]
+                        pub = item.findtext("pubDate", "")
+                        
+                        items.append(NewsItem(
+                            title=title,
+                            url=link,
+                            summary=desc,
+                            published=pub,
+                            source=source["name"],
+                            region=source["region"],
+                            lang=source["lang"]
+                        ))
+        except:
             pass
+        return items
+    
+    def fetch_all(self) -> List[NewsItem]:
+        """抓取所有源"""
+        all_items = []
+        for source in self.SOURCES:
+            xml = self.fetch(source["url"])
+            if xml:
+                items = self.parse(xml, source)
+                print(f"[RSS] {source['name']}: {len(items)}条", file=sys.stderr)
+                all_items.extend(items)
+            else:
+                print(f"[RSS] {source['name']}: 失败", file=sys.stderr)
+        return all_items
 
-        # URL 黑名单
-        if is_blacklisted(url, blacklist):
-            continue
 
+class NewsProcessor:
+    """新闻处理器"""
+    
+    def __init__(self, keyword_manager: KeywordManager):
+        self.kw_manager = keyword_manager
+    
+    def deduplicate(self, items: List[NewsItem]) -> List[NewsItem]:
+        """去重"""
+        seen = set()
+        result = []
+        for item in items:
+            if item.url and item.url not in seen:
+                seen.add(item.url)
+                result.append(item)
+        return result
+    
+    def filter_by_keywords(self, items: List[NewsItem]) -> List[NewsItem]:
+        """关键词过滤"""
+        for item in items:
+            text = f"{item.title} {item.summary}"
+            matched = self.kw_manager.match(text)
+            item.keywords_matched = matched
+            # 设置分类
+            if matched:
+                cat = self.kw_manager.get_category_for_keyword(matched[0])
+                item.category = cat
+        
+        # 只保留有匹配的
+        return [i for i in items if i.keywords_matched]
+    
+    def sort_by_weight(self, items: List[NewsItem]) -> List[NewsItem]:
+        """按权重排序（匹配关键词数量 + 来源权重）"""
+        def weight(item):
+            kw_score = len(item.keywords_matched)
+            source_score = 0
+            for src in RSSFetcher.SOURCES:
+                if src["name"] == item.source:
+                    source_score = src.get("weight", 5)
+                    break
+            return kw_score * 10 + source_score
+        
+        return sorted(items, key=weight, reverse=True)
+    
+    def process(self, items: List[NewsItem], target: int = 5) -> List[NewsItem]:
+        """完整处理流程"""
         # 去重
-        fp = url_fingerprint(title, url)
-        if fp in seen:
-            continue
-        seen.add(fp)
+        items = self.deduplicate(items)
+        # 关键词过滤
+        items = self.filter_by_keywords(items)
+        # 排序
+        items = self.sort_by_weight(items)
+        # 限制数量
+        return items[:target]
 
-        # URL 可达性检查（只检查前 target_count*3 条，节省时间）
-        if len(results) < target_count * 3:
-            if not check_url(url):
-                print(f"[skip] URL 不可达: {url[:60]}", flush=True)
-                continue
 
-        dom = is_domestic(url, domestic_domains)
-        if dom:
-            domestic_count += 1
+def main():
+    """主入口"""
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='semi-brief 新闻抓取')
+    parser.add_argument('--slot', default='midday', help='时段: morning/midday/evening')
+    parser.add_argument('--target', type=int, default=5, help='目标条数')
+    parser.add_argument('--output', help='输出JSON文件路径')
+    args = parser.parse_args()
+    
+    # 加载关键词
+    kw_path = Path(__file__).parent / "keywords.yaml"
+    kw_manager = KeywordManager(str(kw_path))
+    
+    # 抓取 RSS
+    fetcher = RSSFetcher()
+    print(f"[fetch] slot={args.slot}, target={args.target}条", file=sys.stderr)
+    raw_items = fetcher.fetch_all()
+    
+    # 处理
+    processor = NewsProcessor(kw_manager)
+    final_items = processor.process(raw_items, args.target)
+    
+    # 输出
+    result = {
+        "items": [item.to_dict() for item in final_items],
+        "slot": args.slot,
+        "count": len(final_items),
+        "generated_at": datetime.now().isoformat()
+    }
+    
+    if args.output:
+        with open(args.output, 'w', encoding='utf-8') as f:
+            json.dump(result, f, ensure_ascii=False, indent=2)
+        print(f"[fetch] 已保存到 {args.output}", file=sys.stderr)
+    else:
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+    
+    return 0 if len(final_items) > 0 else 1
 
-        results.append({
-            "title": title,
-            "url": url,
-            "description": desc,
-            "source": src,
-            "publishedAt": pub,
-            "domestic": dom
-        })
-
-        if len(results) >= target_count * 3:
-            break
-
-    print(f"[fetch] 清洗后候选: {len(results)} 条（国内来源: {domestic_count}）", flush=True)
-    return results, slot, cfg
 
 if __name__ == "__main__":
-    slot_arg = sys.argv[1] if len(sys.argv) > 1 else None
-    items, slot, cfg = fetch(slot_arg)
-    print(json.dumps(items, ensure_ascii=False, indent=2))
+    sys.exit(main())
