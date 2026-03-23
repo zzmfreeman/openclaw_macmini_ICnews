@@ -1,6 +1,182 @@
 {
   "items": [
     {
+      "title": "伊朗战争威胁芯片氦气供应",
+      "summary": "中东冲突导致卡塔尔氦气工厂停产，台湾氦气储量仅剩11天，台积电先进制程面临断���风险。",
+      "source": "The Statesman",
+      "published": "2026-03-23",
+      "url": "https://www.thestatesman.com/world/iran-war-tsmc-taiwan-chip-supply-helium-lng-11-day-clock-1503573151.html",
+      "tags": [
+        "TSMC",
+        "helium-supply",
+        "geopolitics",
+        "risk"
+      ],
+      "insights": [
+        "氦气是晶圆制程不可替代耗材，断供直接影响产线稼动率",
+        "中东局势升温需纳入供应链BCP风险评估"
+      ],
+      "actions": [
+        "评估氦气替代供应商或备货窗口"
+      ],
+      "period": "evening",
+      "version": "v20260323-2000"
+    },
+    {
+      "title": "Tesla/SpaceX宣布Terafab芯片厂",
+      "summary": "马斯克在德州奥斯汀宣布Terafab计划，目标2nm工艺、年产1000亿颗AI芯片，投资额约200-250亿美元，无明确时间表。",
+      "source": "EVXL / NextBigFuture",
+      "published": "2026-03-22",
+      "url": "https://evxl.co/2026/03/22/tesla-spacex-terafab-chip-factory-austin/",
+      "tags": [
+        "Tesla",
+        "Terafab",
+        "AI-chip",
+        "fab"
+      ],
+      "insights": [
+        "自建晶圆厂信号：大型科技公司加速芯片垂直整合趋势",
+        "2nm工艺需依赖EUV设备，意味着与台积电/三星的竞争或合作"
+      ],
+      "actions": [
+        "关注Terafab对台积电CoWoS/N2产能分配的影响"
+      ],
+      "period": "evening",
+      "version": "v20260323-2000"
+    },
+    {
+      "title": "NVIDIA深化AI推理布局整合Groq LPU",
+      "summary": "NVIDIA在GTC 2026发布会整合Groq LPU技术，推动AI进入推理/Agent运算时代，LPU由三星代工。",
+      "source": "Digitimes",
+      "published": "2026-03-23",
+      "url": "https://digitimes.com/news/a20260323PD207/nvidia-gtc-2026-asic-cost.html",
+      "tags": [
+        "NVIDIA",
+        "inference",
+        "Groq",
+        "LPU"
+      ],
+      "insights": [
+        "推理芯片需求将超训练芯片，影响晶圆厂先进封装产能分配",
+        "Groq委托三星投片，或分散台积电先进制程订单"
+      ],
+      "actions": [
+        "跟踪三星HBM+LPU封测产能是否出现瓶颈"
+      ],
+      "period": "evening",
+      "version": "v20260323-2000"
+    },
+    {
+      "title": "台积电控全球72%先进芯片市场",
+      "summary": "Motley Fool分析指出台积电掌控全球72%芯片制造市场，2026年股价仍具上涨空间。",
+      "source": "The Motley Fool",
+      "published": "2026-03-22",
+      "url": "https://fool.com/investing/2026/03/22/taiwan-semiconductor-controls-72-of-the-global-chi",
+      "tags": [
+        "TSMC",
+        "market-share",
+        "foundry",
+        "2026"
+      ],
+      "insights": [
+        "高市占率意味着单一供应商风险，加剧地缘政治溢价",
+        "客户多元化布局压力持续推升英特尔代工和三星先进节点订单"
+      ],
+      "actions": [
+        "评估备用代工方案，跟踪英特尔18A客户导入进展"
+      ],
+      "period": "evening",
+      "version": "v20260323-2000"
+    },
+    {
+      "title": "中国AI GPU受EDA与设备双重制约",
+      "summary": "摩根士丹利报告指出中国AI芯片差距未如想象大，但EDA工具与先进制造设备禁令是关键瓶颈，推动系统级设计本土化。",
+      "source": "Digitimes（简中版）",
+      "published": "2026-03-23",
+      "url": "https://gb-www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000749175_KYT2GIDY66C8J56M5UA42",
+      "tags": [
+        "China",
+        "EDA",
+        "export-control",
+        "AI-GPU"
+      ],
+      "insights": [
+        "EDA禁令已成为中国AI芯片设计最显性壁垒，国产EDA机遇巨大",
+        "系统级协同设计将成国内突破路径，SoC+chiplet整合加速"
+      ],
+      "actions": [
+        "梳理国内EDA供应��能力覆盖范围，识别设计工具缺口"
+      ],
+      "period": "evening",
+      "version": "v20260323-2000"
+    },
+    {
+      "title": "CPO共同封装光学量产遭遇瓶颈",
+      "summary": "OFC 2026展会讨论揭示CPO量产良率低、光电异质整合检测难，2026年将是现实考验年。",
+      "source": "Digitimes（简中版）",
+      "published": "2026-03-23",
+      "url": "https://gb-www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000749752_0FN6UHYH6NILN615IRGO3",
+      "tags": [
+        "CPO",
+        "packaging",
+        "photonics",
+        "AI-infrastructure"
+      ],
+      "insights": [
+        "CPO量产良率问题短期内制约AI数据中心带宽升级速度",
+        "先进封装测试环节将成供应链瓶颈，封测产能需重新评估"
+      ],
+      "actions": [
+        "调研封测厂CPO测试能力，识别战略合作切入点"
+      ],
+      "period": "evening",
+      "version": "v20260323-2000"
+    },
+    {
+      "title": "中微半导1.6亿增资MCU芯片公司",
+      "summary": "中微半导体（688380）拟增资珠海博雅，推进\"MCU+\"战略，整合晶圆厂客户资源与存储芯片市场。",
+      "source": "智通财经",
+      "published": "2026-03-22",
+      "url": "https://cn.investing.com/news/stock-market-news/article-3273717",
+      "tags": [
+        "MCU",
+        "investment",
+        "China-fab",
+        "supply-chain"
+      ],
+      "insights": [
+        "国内MCU玩家加速垂直整合��绑定晶圆厂+下游客户资源",
+        "珠海博雅的存储芯片+MCU客户群有助于中微扩大产品覆盖"
+      ],
+      "actions": [
+        "关注国内MCU供应链整合动向，评估对现有客户结构影响"
+      ],
+      "period": "evening",
+      "version": "v20260323-2000"
+    },
+    {
+      "title": "3D先进封装市场2035年将达284亿美元",
+      "summary": "MarketGenics报告：全球先进3D封装市场2025年约79亿美元，2035年将达284亿美元，AI算力与Chiplet架构是核心驱动。",
+      "source": "OpenPR / MarketGenics",
+      "published": "2026-03-23",
+      "url": "https://www.openpr.com/news/4435162/advanced-3d-packaging-market-to-reach-usd-28-4-billion-by-2035",
+      "tags": [
+        "3D-packaging",
+        "chiplet",
+        "HBM",
+        "market-forecast"
+      ],
+      "insights": [
+        "十年3.6倍增长印证先进封装已成AI时代核心工艺竞争赛道",
+        "国内封测厂布局3D封装的窗口期约2-3年，需加快CoW/SoIC能力建设"
+      ],
+      "actions": [
+        "跟踪日月光/长电/通富微电3D封装产能扩张节奏"
+      ],
+      "period": "evening",
+      "version": "v20260323-2000"
+    },
+    {
       "version": "v20260322-2000",
       "generatedAt": "2026-03-22T20:00:00+08:00",
       "period": "evening",
@@ -14,5 +190,6 @@
       "commit": "804f03a",
       "url": "https://zzmfreeman.github.io/openclaw_macmini_ICnews/"
     }
-  ]
+  ],
+  "lastUpdated": "2026-03-23T20:00:00+08:00"
 }
