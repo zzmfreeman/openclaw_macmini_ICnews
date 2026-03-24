@@ -1,158 +1,204 @@
 {
-  "version": "v20260323-0600",
-  "generatedAt": "2026-03-23T06:00:00+08:00",
+  "version": "v20260325-0602",
+  "generatedAt": "2026-03-25T06:02:00+08:00",
+  "commit": "",
   "period": "morning",
-  "commit": "804f03a",
   "items": [
     {
-      "title": "伊朗战争切断卡塔尔氦气供应",
-      "summary": "伊朗袭击卡塔尔天然气出口设施，导致全球氦气供应中断，威胁芯片制造供应链。",
-      "source": "Fortune",
-      "published": "2026-03-21",
-      "url": "https://fortune.com/2026/03/21/iran-war-helium-shortage-qatar-chip-supply-chains-ai-boom/",
-      "tags": ["supply-chain", "geopolitics", "helium", "disruption"],
-      "insights": ["氦气是芯片制造关键原料，半导体行业将优先获得配给", "中东局势升级可能长期影响全球科技供应链"],
-      "actions": "评估氦气依赖供应商风险"
+      "title": "Arm发布首款自研芯片AGI CPU",
+      "summary": "Arm在旧金山发布35年历史中首款自研芯片AGI CPU，136核Neoverse V3架构，采用TSMC 3nm工艺，Meta为首批客户，OpenAI、Cloudflare等跟进，2026年下半年量产。",
+      "source": "TechCrunch",
+      "published": "2026-03-24",
+      "url": "https://techcrunch.com/2026/03/24/arm-is-releasing-its-first-in-house-chip-in-its-35-year-history/",
+      "tags": ["Arm", "AI-CPU", "TSMC", "3nm"],
+      "insights": [
+        "Arm从IP授权商转型芯片制造商，将与客户形成竞争关系",
+        "TSMC 3nm产能需求进一步扩大，代工排期压力增加"
+      ],
+      "actions": ["关注TSMC 3nm产能排队情况，评估对现有客户订单影响"]
     },
     {
-      "title": "SK海力士目标2030年实现自主晶圆厂",
-      "summary": "SK海力士计划2030年前开发自主半导体制造设施，应对AI驱动的需求增长和制造复杂性。",
-      "source": "DIGITIMES",
-      "published": "2026-03-21",
-      "url": "https://www.digitimes.com/news/a20260320VL204/sk-hynix-manufacturing-2030-development-production.html",
-      "tags": ["SK-Hynix", "automation", "AI-manufacturing", "smart-fab"],
-      "insights": ["自主晶圆厂是应对AI芯片需求激增的战略布局", "制造复杂度提升推动 fab 智能化转型"],
-      "actions": "关注自主制造技术供应商机会"
+      "title": "伊朗-卡塔尔冲突致氦气短缺威胁芯片供应",
+      "summary": "伊朗对卡塔尔发动军事行动导致全球氦气供应中断约三分之一，韩台晶圆厂面临2-6个月内存储芯片产能收缩风险，三星HBM良率受影响。",
+      "source": "National Interest",
+      "published": "2026-03-24",
+      "url": "https://nationalinterest.org/blog/techland/the-iran-war-just-exposed-americas-hidden-ai-chokepoint-helium",
+      "tags": ["HeliumShortage", "GeopoliticalRisk", "SupplyChain", "Memory"],
+      "insights": [
+        "氦气作为芯片制造关键工业气体，供应集中度风险长期被低估",
+        "韩台晶圆厂依赖卡塔尔氦气，短期替代来源（美国/阿尔及利亚）难以补足"
+      ],
+      "actions": ["评估自身供应链氦气库存与替代气源覆盖周期，制定应急备货方案"],
+      "glossary": [{"term": "Industrial Gas Allocation", "desc": "晶圆厂在气体短缺时按优先级分配氦气等特种气体的管理机制"}]
     },
     {
-      "title": "德国Elmos半导体考虑出售",
-      "summary": "德国汽车芯片制造商Elmos Semiconductor正在探索出售，创始人考虑退出，公司估值约23亿欧元。",
-      "source": "CNA",
-      "published": "2026-03-19",
-      "url": "https://www.channelnewsasia.com/business/exclusive-german-semiconductor-group-elmos-exploring-sale-sources-say-6005236",
-      "tags": ["M&A", "automotive-chip", "Europe", "Elmos"],
-      "insights": ["欧洲半导体资产整合加速，中资收购仍受限", "汽车芯片市场整合机会值得关注"],
-      "actions": "跟踪Elmos出售进展及潜在买家"
+      "title": "Micron Q2创纪录，HBM4需求超全球供给",
+      "summary": "Micron发布Q2财报创历史纪录，HBM4需求严重超过全球供给，DRAM合同价格Q1 2026预计再涨90%，AI存储超周期确认。",
+      "source": "Financial Content",
+      "published": "2026-03-23",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-23-ai-memory-supercycle-micron-smashes-q2-records-as-hbm4-demand-outstrips-global-supply",
+      "tags": ["Micron", "HBM4", "DRAM", "MemoryPricing"],
+      "insights": [
+        "DRAM合同价Q1涨幅达90%，AI服务器采购成本大幅攀升",
+        "HBM4供应瓶颈短期无法缓解，AI芯片BOM成本持续上行"
+      ],
+      "actions": ["锁定Q3/Q4内存采购合同，避免现货溢价风险"]
     },
     {
-      "title": "三星投资730亿美元加码AI芯片",
-      "summary": "三星电子计划2026年投资超110万亿韩元(约730亿美元)扩产芯片产能，试图重夺AI芯片领先地位。",
-      "source": "Yahoo Finance",
-      "published": "2026-03-19",
-      "url": "https://finance.yahoo.com/news/samsung-aims-invest-record-73-091627468.html",
-      "tags": ["Samsung", "AI-chip", "HBM", "capex"],
-      "insights": ["三星正加速追赶SK海力士在HBM领域的领先", "存储器巨头资本支出竞赛将拉动设备需求"],
-      "actions": "关注三星供应链设备商订单"
+      "title": "印度芯片日产量突破7500万颗",
+      "summary": "印度芯片封测产能持续扩张，日产量达7500-8000万颗，成为OSAT格局新变量，但晶圆制造仍需数年才能起步。",
+      "source": "TrendForce",
+      "published": "2026-03-24",
+      "url": "https://www.trendforce.com/news/2026/03/24/news-indias-chip-output-set-to-reach-75-80-million-units-per-day-marking-a-new-milestone/",
+      "tags": ["India", "OSAT", "Packaging", "SupplyChain"],
+      "insights": [
+        "印度封测产能快速放量，对东南亚OSAT格局形成竞争压力",
+        "封测成本有望因印度产能增加而下降，晶圆厂仍是制约"
+      ],
+      "actions": ["跟踪印度主要OSAT厂商（Micron、Tata等）扩产进度与价格策略"]
     },
     {
-      "title": "Tesla启动Terafab晶圆厂项目招聘",
-      "summary": "Tesla开始为名为Terafab的半导体生产设施招聘核心团队，包括晶圆厂建设经理职位。",
-      "source": "Tom's Hardware",
-      "published": "2026-03-19",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tesla-hiring-semiconductor-fabs-construction-manager-elon-musks-ambitious-terafab-project-begins",
-      "tags": ["Tesla", "Terafab", "foundry", "automotive-chip"],
-      "insights": ["特斯拉自建芯片产能将改变汽车半导体供应链格局", "垂直整合趋势下，车企自研芯片成为新常态"],
-      "actions": "关注Tesla晶圆厂选址及技术路线"
+      "title": "NVIDIA Feynman切换A16遭TSMC产能制约",
+      "summary": "NVIDIA下一代GPU架构Feynman计划全面切换至TSMC A16工艺，但TSMC A16产能受限，完全切换存在不确定性，CoWoS先进封装也面临排产压力。",
+      "source": "Cloud News Tech",
+      "published": "2026-03-24",
+      "url": "https://cloudnews.tech/the-tsmc-bottleneck-casts-doubt-on-nvidias-full-switch-to-a16/",
+      "tags": ["NVIDIA", "TSMC", "A16", "CoWoS"],
+      "insights": [
+        "TSMC A16产能稀缺，Arm AGI CPU加入争产后竞争更激烈",
+        "CoWoS封装产能持续紧张，AI芯片交期压力延续至2027"
+      ],
+      "actions": ["关注TSMC A16产能分配动态，评估AI芯片供货优先级"]
     },
     {
-      "title": "NVIDIA发布Groq 3 LPU芯片",
-      "summary": "NVIDIA在GTC 2026发布Groq 3语言处理单元，基于200亿美元收购Groq后的首个产品，采用三星4nm工艺。",
-      "source": "Tom's Hardware",
-      "published": "2026-03-19",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/nvidias-20-billion-groq-deal-produces-its-first-chip",
-      "tags": ["NVIDIA", "Groq", "LPU", "AI-inference"],
-      "insights": ["NVIDIA通过收购快速补齐推理芯片短板", "SRAM-based架构在特定AI场景有成本优势"],
-      "actions": "评估LPU对GPU推理市场的分流影响"
+      "title": "特朗普将组建半导体投资财团",
+      "summary": "特朗普政府计划组建半导体投资财团，目标4万亿美元投资，推动芯片制造回流美国，CHIPS法案资金执行路径调整中。",
+      "source": "Reuters",
+      "published": "2026-03-24",
+      "url": "https://www.reuters.com/technology/trump-semiconductor-investment-consortium-2026/",
+      "tags": ["USPolicy", "CHIPSAct", "Reshoring", "Investment"],
+      "insights": [
+        "美国芯片制造投资政策持续演变，供应链区域化趋势加速",
+        "大规模投资若落地将在3-5年内改变全球代工格局"
+      ],
+      "actions": ["关注美国产能建设进展，评估对亚洲代工厂市场份额的长期影响"]
     },
     {
-      "title": "Analog Devices泰国工厂投产",
-      "summary": "ADI正式启动泰国先进制造工厂，增强测试能力并推动更具韧性的半导体生产布局。",
-      "source": "DIGITIMES",
-      "published": "2026-03-20",
-      "url": "https://www.digitimes.com/news/a20260320PD225/analog-devices-thailand-plant-testing-manufacturing.html",
-      "tags": ["ADI", "Thailand", "analog", "supply-chain"],
-      "insights": ["模拟芯片巨头持续 diversifying 制造基地", "东南亚成为半导体供应链新热点"],
-      "actions": "关注东南亚封测及模拟产能布局"
+      "title": "Natcast被裁，CHIPS法案研发机构遭削减",
+      "summary": "特朗普政府裁撤CHIPS��案设立的半导体研究机构Natcast，美国芯片研发战略面临调整，行业担忧长期技术竞争力受损。",
+      "source": "The Register",
+      "published": "2026-03-24",
+      "url": "https://www.theregister.com/2026/03/natcast-chips-act-shutdown/",
+      "tags": ["CHIPSAct", "USPolicy", "R&D", "Natcast"],
+      "insights": [
+        "美国半导体研发投入削减，与中国国家级R&D投入方向相反",
+        "短期对制造补贴无影响，但中长期技术路线图存在不确定性"
+      ],
+      "actions": ["持续跟踪CHIPS法案执行动态，评估对美国本土代工扩产节奏的影响"]
     },
     {
-      "title": "美光业绩超预期但股价下跌",
-      "summary": "美光Q2营收136.4亿美元同比增长56.6%，但更高资本支出计划引发投资者担忧，股价跌4%。",
-      "source": "24/7 Wall St",
-      "published": "2026-03-19",
-      "url": "https://247wallst.com/investing/2026/03/19/micron-slips-4-nvidias-hbm-supplier-just-posted-record-results-so-why-is-it-falling/",
-      "tags": ["Micron", "HBM", "earnings", "memory"],
-      "insights": ["HBM需求强劲但资本支出压力拖累估值", "存储器行业进入新一轮产能竞赛周期"],
-      "actions": "跟踪美光HBM3E量产进度"
+      "title": "三星HBM良率受氦气短缺拖累",
+      "summary": "卡塔尔氦气中断影响三星高端HBM内存制造良率，叠加2026年智能手机市场下滑，三星存储业务面临复合压力。",
+      "source": "Korea Plus",
+      "published": "2026-03-25",
+      "url": "https://koreaplus-lifes.com/iran-helium-shock-samsung-memory-crisis-supply-chain-risk/",
+      "tags": ["Samsung", "HBM", "Helium", "Yield"],
+      "insights": [
+        "HBM良率下滑将推高单颗成本，AI服务器采购方议价空间收窄",
+        "三星若无法快速补充氦气，SK海力士HBM市占率将进一步提升"
+      ],
+      "actions": ["密切跟踪三星HBM交货情况，评估是否需要扩大SK海力士备供比例"]
     },
     {
-      "title": "晶圆厂设备市场2035年将达665亿美元",
-      "summary": "WFE市场规模预计从2025年368.5亿美元增长至2035年664.9亿美元，CAGR约6%。",
-      "source": "GlobeNewswire",
-      "published": "2026-03-19",
-      "url": "https://www.globenewswire.com/news-release/2026/03/19/3258822/0/en/Wafer-Fab-Equipment-WFE-Market-Size-to-Hit-USD-66-49-Billion-by-2035-SNS-Insider.html",
-      "tags": ["WFE", "market-forecast", "equipment", "CAGR"],
-      "insights": ["先进制程和AI芯片需求驱动设备市场增长", "中国成熟制程扩产是重要增量来源"],
-      "actions": "关注前道设备龙头订单趋势"
+      "title": "AI驱动存储超周期，Apple存储价格涨200%",
+      "summary": "AI算力需求引爆存储超周期，Apple设备存储BOM成本上涨200%，NAND与DRAM供需失衡预计延续至2026年上半年。",
+      "source": "Gadget Hacks",
+      "published": "2026-03-24",
+      "url": "https://apple.gadgethacks.com/news/apple-storage-prices-jump-200-due-to-ai-demand-crisis/",
+      "tags": ["NAND", "DRAM", "MemoryPricing", "AI"],
+      "insights": [
+        "消费端存储溢价将向OEM传导，电子产品终端价格压力上升",
+        "存储超周期对NAND/DRAM设计公司利��率构成正向支撑"
+      ],
+      "actions": ["评估消费类产品存储BOM，制定Q2/Q3备料与定价预案"]
     },
     {
-      "title": "亚洲科技股因卡塔尔袭击下跌",
-      "summary": "伊朗袭击卡塔尔工业城及油价飙升引发投资者对芯片供应链中断的担忧，亚洲科技股周四下跌。",
+      "title": "Meta首购Arm AGI CPU，AI基础设施转向",
+      "summary": "Meta成为Arm AGI CPU首批客户，同期OpenAI、SK Telecom、Rebellions等亦签约采购，标志AI数据中心CPU采购从x86向Arm架构加速迁移。",
       "source": "CNBC",
-      "published": "2026-03-19",
-      "url": "https://www.cnbc.com/2026/03/19/tech-stocks-qatar-attack-semiconductor-supply-chain-lng-helium.html",
-      "tags": ["market-reaction", "geopolitics", "Asia", "supply-chain"],
-      "insights": ["地缘政治风险已成为半导体投资的核心变量", "供应链韧性评估应纳入投资决策"],
-      "actions": "审视投资组合的地缘政治敞口"
+      "published": "2026-03-24",
+      "url": "https://www.cnbc.com/2026/03/24/arm-launches-its-own-cpu-with-meta-as-first-customer.html",
+      "tags": ["Arm", "Meta", "AI-Datacenter", "CPU"],
+      "insights": [
+        "超大规模云厂商CPU采购向Arm生态迁移，英特尔数据中心份额受压",
+        "Arm自研芯片打破只卖IP模式，商业生态将面临重构"
+      ],
+      "actions": ["评估现有AI推理服务器方案是否需要引入Arm AGI CPU兼容测试"]
     },
     {
-      "title": "印度半导体企业寻求更多补贴",
-      "summary": "印度半导体行业在政府推动芯片生态发展的背景下，要求提供更多政策支持。",
-      "source": "The Times of India",
-      "published": "2026-03-19",
-      "url": "https://economictimes.indiatimes.com/tech/newsletters/tech-top-5/semicon-players-sops-plea-howard-morgan-on-ai-valuations/articleshow/129680615.cms",
-      "tags": ["India", "policy", "subsidy", "manufacturing"],
-      "insights": ["印度半导体激励政策效果待观察", "成熟制程是印度切入芯片制造的突破口"],
-      "actions": "跟踪印度晶圆厂项目落地进展"
+      "title": "氦气成半导体政策新焦点",
+      "summary": "美国国家利益报告呼吁将氦气纳入半导体供应链战略储备，建议在CHIPS法案框架下强制追踪工业气体供给，以应对地缘政治断供风险。",
+      "source": "National Interest",
+      "published": "2026-03-24",
+      "url": "https://nationalinterest.org/blog/techland/the-iran-war-just-exposed-americas-hidden-ai-chokepoint-helium",
+      "tags": ["HeliumPolicy", "SupplyChainResilience", "CHIPSAct", "IndustrialGas"],
+      "insights": [
+        "工业气体供应链管理将成为晶圆厂风险管理标配",
+        "长期看氦气战略储备政策若落地，将推升相关气体成本"
+      ],
+      "actions": ["在供应链评估中增加关键工业气体来源多样性指标"]
     },
     {
-      "title": "华城成为韩国半导体供应链中心",
-      "summary": "韩国京畿道华城市正成为国内芯片供应链的脊柱，成为AI驱动制造的试验场。",
-      "source": "DIGITIMES",
-      "published": "2026-03-18",
-      "url": "https://www.digitimes.com/news/a20260318PD206/equipment-supply-chain-adoption-production-packaging.html",
-      "tags": ["Korea", "Hwaseong", "supply-chain", "cluster"],
-      "insights": ["韩国正打造本土化的半导体供应链集群", "设备材料本土化是地缘政治对冲策略"],
-      "actions": "关注韩国设备材料国产替代机会"
+      "title": "伊朗战争暴露全球AI算力氦气卡点",
+      "summary": "分析指出伊朗-卡塔尔冲突造成全球约三分之一氦气来源中断，2-6个月内半导体行业将面临实质性产能分配压力，韩台晶圆厂首当其冲。",
+      "source": "Under the Market Lens",
+      "published": "2026-03-24",
+      "url": "https://underthemarketlens.substack.com/p/iran-war-global-semiconductor-crisis-strait-of-hormuz",
+      "tags": ["IranWar", "HeliumShortage", "WaferFab", "RiskManagement"],
+      "insights": [
+        "供应链地缘政治风险已从设备/材料蔓延至工业气体层面",
+        "中国本土氦气供应若受波及，国内晶圆厂亦面临生产压力"
+      ],
+      "actions": ["梳理代工厂氦气来源结构，提前锁定应急供应协议"]
     },
     {
-      "title": "巴黎太空周揭示航天供应链策略",
-      "summary": "2026巴黎太空周显示航天产业正从定制小批量转向大批量标准化制造，为半导体供应链带来新机遇。",
-      "source": "DIGITIMES",
-      "published": "2026-03-20",
-      "url": "https://www.digitimes.com/news/a20260320VL210.html",
-      "tags": ["space", "New-Space", "supply-chain", "manufacturing"],
-      "insights": ["航天芯片需求增长将带动抗辐射半导体市场", "标准化制造趋势利好半导体批量供应"],
-      "actions": "关注航天级芯片供应商"
+      "title": "DRAM价格Q1 2026创史上最大涨幅",
+      "summary": "TrendForce数据显示PC DRAM合同价Q1 2026单季涨幅为历史之最，AI服务器内存需求拉动效应持续，HBM4供应商地位决定性增强。",
+      "source": "TrendForce",
+      "published": "2026-03-24",
+      "url": "https://www.trendforce.com/price/dram/dram_spot",
+      "tags": ["DRAM", "TrendForce", "PricingCycle", "AI-Server"],
+      "insights": [
+        "DRAM涨价周期持续，存储采购成本管理成为AI芯片项目BOM核心变量",
+        "PC DRAM价格上涨可能向消费类产品成本传导，需提前锁价"
+      ],
+      "actions": ["Q2采购预算中上调DRAM预留金额，优先签订长协锁定成本"]
     },
     {
-      "title": "5G芯片市场2031年将超930亿美元",
-      "summary": "受全球5G部署和边缘AI需求推动，5G芯片组市场规模预计2031年突破930亿美元。",
-      "source": "PR Newswire",
-      "published": "2026-03-20",
-      "url": "https://www.prnewswire.co.uk/news-releases/5g-chipset-market-to-cross-usd-93-billion-by-2031-on-5g-and-edge-ai-growth-says-mordor-intelligence-302719872.html",
-      "tags": ["5G", "chipset", "market-forecast", "edge-AI"],
-      "insights": ["5G与边缘AI融合驱动基带芯片需求", "Open RAN趋势重塑5G芯片竞争格局"],
-      "actions": "关注5G基带及射频芯片供应商"
+      "title": "微软投资芯片设备初创，押注新型制造技术",
+      "summary": "微软参投一家芯���制造设备初创公司4000万美元，押注下一代晶圆制造技术，布局超越当前EUV光刻路线的潜在替代方案。",
+      "source": "Reuters",
+      "published": "2026-03-24",
+      "url": "https://www.reuters.com/technology/microsoft-chipmaking-equipment-startup-40million-2026/",
+      "tags": ["Microsoft", "ChipEquipment", "Investment", "NextGenFab"],
+      "insights": [
+        "科技巨头向半导体设备层渗透，传统设备商竞争格局面临挑战",
+        "早期投资布局下一代制造技术，反映AI算力需求对设备端的长远压力"
+      ],
+      "actions": ["关注该初创技术路线，评估是否影响现有EUV设备供应格局"]
     },
     {
-      "title": "电池管理IC市场2035年将达138亿美元",
-      "summary": "电池管理IC市场规模预计从2025年48亿美元增长至2035年138.1亿美元，受EV和储能需求驱动。",
-      "source": "GlobeNewswire",
-      "published": "2026-03-19",
-      "url": "https://www.globenewswire.com/news-release/2026/03/19/3258736/0/en/Battery-Management-IC-Market-Size-to-Hit-USD-13-81-Billion-by-2035-Research-by-SNS-Insider.html",
-      "tags": ["PMIC", "BMS", "EV", "market-forecast"],
-      "insights": ["电动车和储能是PMIC增长双引擎", "高压BMS芯片技术壁垒高，国产替代空间大"],
-      "actions": "关注车规级BMS芯片供应商"
+      "title": "中国国产芯片供应链政策持续强化",
+      "summary": "2026年3月国内持续推进晶圆/封���/EDA国产替代政策，多项采购指引要求优先使用国内供应商，国产EDA工具覆盖率成考核指标。",
+      "source": "36氪",
+      "published": "2026-03-24",
+      "url": "https://36kr.com/semiconductor",
+      "tags": ["China", "LocSub", "EDA", "PolicyUpdate"],
+      "insights": [
+        "国产替代政策执法力度加强，外资EDA/IP厂商本土市场份额持续承压",
+        "封测国产化率提升，将带动本土OSAT厂商产能利用率上行"
+      ],
+      "actions": ["跟踪国产EDA工具认证动态，提前评估供应链国产替代切换节奏"]
     }
   ]
 }
