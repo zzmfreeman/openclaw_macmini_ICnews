@@ -1,168 +1,112 @@
 {
-  "version": "v20260323-2000",
-  "generatedAt": "2026-03-23T20:00:00+08:00",
+  "version": "v20260324-2000",
+  "generatedAt": "2026-03-24T20:01:31+08:00",
+  "commit": "",
   "period": "evening",
-  "commit": "pending",
   "items": [
     {
-      "title": "伊朗战争威胁芯片氦气供应",
-      "summary": "中东冲突导致卡塔尔氦气工厂停产，台湾氦气储量仅剩11天，台积电先进制程面临断���风险。",
-      "source": "The Statesman",
+      "title": "英飞凌/NXP宣布全线涨价",
+      "summary": "英飞凌主流型号上涨5-15%，NXP宣布4月1日起调价，AI需求爆发+全产业链成本压力驱动此轮涨价潮。",
+      "source": "36氪",
       "published": "2026-03-23",
-      "url": "https://www.thestatesman.com/world/iran-war-tsmc-taiwan-chip-supply-helium-lng-11-day-clock-1503573151.html",
-      "tags": [
-        "TSMC",
-        "helium-supply",
-        "geopolitics",
-        "risk"
-      ],
+      "url": "https://www.36kr.com/p/3733511243202562",
+      "tags": ["Automotive", "Pricing", "Infineon", "NXP"],
       "insights": [
-        "氦气是晶圆制程不可替代耗材，断供直接影响产线稼动率",
-        "中东局势升温需纳入供应链BCP风险评估"
+        "汽车/工控芯片涨价信号已发出，采购需提前锁定Q2订单",
+        "英飞凌AI业务预期从15亿→25亿欧元，产能将向AI倾斜"
       ],
-      "actions": [
-        "评估氦气替代供应商或备货窗口"
-      ]
+      "actions": ["核查在手订单交货期与价格条款"]
     },
     {
-      "title": "Tesla/SpaceX宣布Terafab芯片厂",
-      "summary": "马斯克在德州奥斯汀宣布Terafab计划，目标2nm工艺、年产1000亿颗AI芯片，投资额约200-250亿美元，无明确时间表。",
-      "source": "EVXL / NextBigFuture",
-      "published": "2026-03-22",
-      "url": "https://evxl.co/2026/03/22/tesla-spacex-terafab-chip-factory-austin/",
-      "tags": [
-        "Tesla",
-        "Terafab",
-        "AI-chip",
-        "fab"
-      ],
+      "title": "三星工会投票罢工威胁HBM4供应",
+      "summary": "三星芯片工会通过罢工投票，HBM4供应链风险上升，或冲击NVIDIA下半年AI加速卡产能。",
+      "source": "SemiWiki",
+      "published": "2026-03-23",
+      "url": "https://semiwiki.com/forum/threads/samsung-union-votes-to-strike-risking-nvidia-hbm4-supply-disruption.24806/",
+      "tags": ["HBM4", "Samsung", "Supply-Risk", "NVIDIA"],
       "insights": [
-        "自建晶圆厂信号：大型科技公司加速芯片垂直整合趋势",
-        "2nm工艺需依赖EUV设备，意味着与台积电/三星的竞争或合作"
+        "HBM4货源集中于三星/SK海力士，罢工将加剧供给紧张",
+        "AI服务器客户应评估备份供应商切换窗口"
       ],
-      "actions": [
-        "关注Terafab对台积电CoWoS/N2产能分配的影响"
-      ]
+      "actions": ["关注三星罢工谈判进展，评估HBM替代方案"]
     },
     {
-      "title": "NVIDIA深化AI推理布局整合Groq LPU",
-      "summary": "NVIDIA在GTC 2026发布会整合Groq LPU技术，推动AI进入推理/Agent运算时代，LPU由三星代工。",
+      "title": "Micron Q2创纪录，HBM4供不应求",
+      "summary": "Micron Q2财报超预期，HBM4需求超越全球供给上限，AI存储超级周期确立。",
+      "source": "FinancialContent",
+      "published": "2026-03-23",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-23-ai-memory-supercycle-micron-smashes-q2-records-as-hbm4-demand-outstrips-global-supply",
+      "tags": ["HBM4", "Micron", "AI-Memory", "Earnings"],
+      "insights": [
+        "HBM4 12/16层堆叠工艺复杂度拉高良率门槛，供给弹性低",
+        "AI存储超级周期已至，下游算力采购成本持续上行"
+      ],
+      "actions": ["锁定HBM4长约，避免现货溢价损耗"]
+    },
+    {
+      "title": "内存涨价压缩IPC厂商利润",
+      "summary": "AI驱动存储价格上涨，工控/IPC设备商Q4 2025利润已受压，风险延续至2026年。",
       "source": "Digitimes",
       "published": "2026-03-23",
-      "url": "https://digitimes.com/news/a20260323PD207/nvidia-gtc-2026-asic-cost.html",
-      "tags": [
-        "NVIDIA",
-        "inference",
-        "Groq",
-        "LPU"
-      ],
+      "url": "https://www.digitimes.com/news/a20260323PD205/ipc-memory-chips-price-market-2026.html",
+      "tags": ["DRAM", "IPC", "Cost-Pressure", "Supply-Chain"],
       "insights": [
-        "推理芯片需求将超训练芯片，影响晶圆厂先进封装产能分配",
-        "Groq委托三星投片，或分散台积电先进制程订单"
+        "存储涨价向嵌入式/工控端传导，BOM成本需重新核算",
+        "订单延期风险上升，需与客户提前对齐价格机制"
       ],
-      "actions": [
-        "跟踪三星HBM+LPU封测产能是否出现瓶颈"
-      ]
+      "actions": ["重新评估含DRAM/LPDDR产品的BOM成本"]
     },
     {
-      "title": "台积电控全球72%先进芯片市场",
-      "summary": "Motley Fool分析指出台积电掌控全球72%芯片制造市场，2026年股价仍具上涨空间。",
-      "source": "The Motley Fool",
-      "published": "2026-03-22",
-      "url": "https://fool.com/investing/2026/03/22/taiwan-semiconductor-controls-72-of-the-global-chi",
-      "tags": [
-        "TSMC",
-        "market-share",
-        "foundry",
-        "2026"
-      ],
+      "title": "苹果存储成本大涨200%",
+      "summary": "AI需求危机推动苹果存储组件成本上涨约200%，凭借服务营收基础公司尚能消化。",
+      "source": "Gadget Hacks",
+      "published": "2026-03-24",
+      "url": "https://apple.gadgethacks.com/news/apple-storage-prices-jump-200-due-to-ai-demand-crisis/",
+      "tags": ["Apple", "NAND", "AI-Demand", "Cost"],
       "insights": [
-        "高市占率意味着单一供应商风险，加剧地缘政治溢价",
-        "客户多元化布局压力持续推升英特尔代工和三星先进节点订单"
+        "NAND/存储价格飙升200%，中小规模买家压力远超大厂",
+        "存储成本成为2026年消费电子和AI设备的关键瓶颈"
       ],
-      "actions": [
-        "评估备用代工方案，跟踪英特尔18A客户导入进展"
-      ]
+      "actions": ["排查产品存储规格，评估降本替代方案"]
     },
     {
-      "title": "中国AI GPU受EDA与设备双重制约",
-      "summary": "摩根士丹利报告指出中国AI芯片差距未如想象大，但EDA工具与先进制造设备禁令是关键瓶颈，推动系统级设计本土化。",
-      "source": "Digitimes（简中版）",
+      "title": "欧洲深科技报告：半导体仍是核心",
+      "summary": "2026欧洲深科技报告显示，半导体领域高管经验占比最高，ASML/NXP/Intel是主要人才来源。",
+      "source": "The Big Byte",
+      "published": "2026-03-24",
+      "url": "https://thebigbyte.substack.com/p/the-european-deeptech-report-2026",
+      "tags": ["Europe", "DeepTech", "Talent", "Ecosystem"],
+      "insights": [
+        "欧洲半导体人才以大厂溢出为主，创业活跃度相对不足",
+        "ASML/NXP生态对欧洲深科技投资吸引力仍强"
+      ],
+      "actions": ["关注欧洲半导体人才流动，识别潜在合作机会"]
+    },
+    {
+      "title": "AI驱动存储厂商优先供给HBM/DDR5",
+      "summary": "Q1 2026存储厂商将有限产能优先分配给HBM和DDR5，消费级DRAM供应趋紧。",
+      "source": "SemiWiki",
       "published": "2026-03-23",
-      "url": "https://gb-www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000749175_KYT2GIDY66C8J56M5UA42",
-      "tags": [
-        "China",
-        "EDA",
-        "export-control",
-        "AI-GPU"
-      ],
+      "url": "https://semiwiki.com/forum/threads/samsung-union-votes-to-strike-risking-nvidia-hbm4-supply-disruption.24806/",
+      "tags": ["DDR5", "HBM", "Capacity-Allocation", "AI-Server"],
       "insights": [
-        "EDA禁令已成为中国AI芯片设计最显性壁垒，国产EDA机遇巨大",
-        "系统级协同设计将成国内突破路径，SoC+chiplet整合加速"
+        "厂商产能向高利润AI存储倾斜，标准DRAM货期将拉长",
+        "采购策略需区分AI存储与传统存储，分别制定备货周期"
       ],
-      "actions": [
-        "梳理国内EDA供应��能力覆盖范围，识别设计工具缺口"
-      ]
+      "actions": ["区分AI/标准存储备货策略，提前排产计划"]
     },
     {
-      "title": "CPO共同封装光学量产遭遇瓶颈",
-      "summary": "OFC 2026展会讨论揭示CPO量产良率低、光电异质整合检测难，2026年将是现实考验年。",
-      "source": "Digitimes（简中版）",
-      "published": "2026-03-23",
-      "url": "https://gb-www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000749752_0FN6UHYH6NILN615IRGO3",
-      "tags": [
-        "CPO",
-        "packaging",
-        "photonics",
-        "AI-infrastructure"
-      ],
+      "title": "NXP发布CoreRide汽车域控方案",
+      "summary": "NXP推出CoreRide平台，帮助车厂快速转向48V可扩展域控架构，支持AI功能集成。",
+      "source": "AI Online",
+      "published": "2026-03-24",
+      "url": "https://ai-online.com/2026/03/nxp-coreride-puts-automakers-on-fast-path-to-48-v-scalable-zonal-architectures/",
+      "tags": ["NXP", "Automotive", "Domain-Controller", "48V"],
       "insights": [
-        "CPO量产良率问题短期内制约AI数据中心带宽升级速度",
-        "先进封装测试环节将成供应链瓶颈，封测产能需重新评估"
+        "48V域控架构加速落地，NXP借CoreRide抢占汽车电气化先机",
+        "汽车芯片需求从MCU向高算力SoC+电源管理组合切换"
       ],
-      "actions": [
-        "调研封测厂CPO测试能力，识别战略合作切入点"
-      ]
-    },
-    {
-      "title": "中微半导1.6亿增资MCU芯片公司",
-      "summary": "中微半导体（688380）拟增资珠海博雅，推进\"MCU+\"战略，整合晶圆厂客户资源与存储芯片市场。",
-      "source": "智通财经",
-      "published": "2026-03-22",
-      "url": "https://cn.investing.com/news/stock-market-news/article-3273717",
-      "tags": [
-        "MCU",
-        "investment",
-        "China-fab",
-        "supply-chain"
-      ],
-      "insights": [
-        "国内MCU玩家加速垂直整合��绑定晶圆厂+下游客户资源",
-        "珠海博雅的存储芯片+MCU客户群有助于中微扩大产品覆盖"
-      ],
-      "actions": [
-        "关注国内MCU供应链整合动向，评估对现有客户结构影响"
-      ]
-    },
-    {
-      "title": "3D先进封装市场2035年将达284亿美元",
-      "summary": "MarketGenics报告：全球先进3D封装市场2025年约79亿美元，2035年将达284亿美元，AI算力与Chiplet架构是核心驱动。",
-      "source": "OpenPR / MarketGenics",
-      "published": "2026-03-23",
-      "url": "https://www.openpr.com/news/4435162/advanced-3d-packaging-market-to-reach-usd-28-4-billion-by-2035",
-      "tags": [
-        "3D-packaging",
-        "chiplet",
-        "HBM",
-        "market-forecast"
-      ],
-      "insights": [
-        "十年3.6倍增长印证先进封装已成AI时代核心工艺竞争赛道",
-        "国内封测厂布局3D封装的窗口期约2-3年，需加快CoW/SoIC能力建设"
-      ],
-      "actions": [
-        "跟踪日月光/长电/通富微电3D封装产能扩张节奏"
-      ]
+      "actions": ["跟进车厂48V域控节奏，评估配套供应能力"]
     }
   ]
 }
