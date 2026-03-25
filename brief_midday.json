@@ -1,152 +1,112 @@
 {
-  "version": "v20260322-1303",
-  "generatedAt": "2026-03-22T13:03:01.753531+08:00",
+  "version": "v20260325-1304",
+  "generatedAt": "2026-03-25T13:04:00+08:00",
   "period": "midday",
-  "commit": "911a782",
+  "commit": "",
   "items": [
     {
-      "title": "TSMC营收创新高，NVIDIA成最大客户",
-      "summary": "台积电2月营收同比增长43.1%，NVIDIA已超越苹果成为其最大客户，AI芯片需求强劲。",
-      "source": "CoinCentral",
-      "published": "2026-03-22",
-      "url": "https://coincentral.com/tsmc-tsm-stock-nvidia-surpasses-apple-as-largest-customer-in-2025",
-      "tags": [
-        "semiconductor",
-        "TSMC",
-        "NVIDIA"
-      ],
+      "title": "SK Hynix斥80亿美元购ASML EUV设备",
+      "summary": "SK Hynix与ASML签订约11.95万亿韩元（约80亿美元）EUV设备采购协议，用于支撑HBM4及先进DRAM量产，创ASML史上最大单笔披露订单。",
+      "source": "Reuters",
+      "published": "2026-03-24",
+      "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-buy-euv-scanners-8-billion-asml-korea-2026-03-24/",
+      "tags": ["HBM4", "ASML", "EUV", "memory"],
       "insights": [
-        "NVIDIA订单占比持续提升",
-        "先进封装产能紧张"
+        "EUV扩产决定确立HBM4竞争格局，先手锁产能者将主导AI存储市场",
+        "High-NA EUV交付风险若延迟将波及HBM4规模化节点"
       ],
-      "actions": [
-        "关注Q2产能分配"
-      ]
+      "actions": ["关注ASML交付时间表及竞对SKH策略"]
     },
     {
-      "title": "ASML万亿市值潜力受关注",
-      "summary": "分析师认为ASML有望成为下一个万亿美元市值公司，受益于AI芯片制造需求爆发。",
-      "source": "The Globe and Mail",
-      "published": "2026-03-22",
-      "url": "https://theglobeandmail.com/investing/markets/stocks/TSM/pressreleases/856662/what-if-asml-becomes-the-next-trillion-dollar-stock",
-      "tags": [
-        "semiconductor",
-        "ASML",
-        "AI"
-      ],
+      "title": "TSMC亚利桑那Fab21提速扩建",
+      "summary": "TSMC亚利桑那Fab21二期3nm产线设备安装提前至2026年10月，TrendForce称美国四座Fab已全部被预订，未来台湾sub-2nm产线同步推进。",
+      "source": "TrendForce",
+      "published": "2026-03-24",
+      "url": "https://www.trendforce.com/news/2026/03/24/news-tsmc-reportedly-eyes-2h27-3nm-mass-production-at-arizona-fab-2-four-u-s-fabs-said-to-be-fully-booked/",
+      "tags": ["TSMC", "foundry", "advanced-node", "capacity"],
       "insights": [
-        "High-NA EUV订单增长"
+        "美国四座Fab满产预订反映AI需求高位持续，供给端仍是核心瓶颈",
+        "2nm节点加速布局意味着2027年前CoWoS等先��封装需求将同步爆发"
       ],
-      "actions": [
-        "跟踪设备交付周期"
-      ]
+      "actions": ["持续追踪TSMC产能预订动态以优化流片时间窗口"]
     },
     {
-      "title": "台积电AI芯片收入CAGR达60%",
-      "summary": "TSMC预计AI芯片相关收入将以60%复合增长率增长，重塑公司增长驱动力。",
-      "source": "Simply Wall St",
-      "published": "2026-03-22",
-      "url": "https://simplywall.st/stocks/us/semiconductors/nyse-tsm/taiwan-semiconductor-manufacturing/news/tsmcs-60-ai-chip-cagr-reshapes-growth-drivers-and-key-risks/amp",
-      "tags": [
-        "semiconductor",
-        "TSMC",
-        "AI"
-      ],
+      "title": "Broadcom警告TSMC产能为2026瓶颈",
+      "summary": "TrendForce援引报道称Broadcom已将TSMC产能列为2026年最大供应瓶颈，激光器及PCB同样面临供应挤压，AI ASIC需求激增是主因。",
+      "source": "TrendForce",
+      "published": "2026-03-24",
+      "url": "https://semiwiki.com/forum/threads/broadcom-reportedly-flags-tsmc-capacity-as-2026-bottleneck-with-lasers-and-pcbs-also-in-the-squeeze.24817/",
+      "tags": ["foundry", "supply-chain", "capacity", "ASIC"],
       "insights": [
-        "AI收入占比快速提升"
+        "AI ASIC产能争抢已向上游传导至激光器等配套材料，供应链长鞭效应显现",
+        "先进封装及配套料件的备货节奏需提前6-12个月锁定"
       ],
-      "actions": [
-        "评估供应链弹性"
-      ]
+      "actions": ["评估CoWoS/SoIC配套材料的长期框架协议可行性"]
     },
     {
-      "title": "全球晶圆代工市场份额报告",
-      "summary": "Counterpoint发布最新全球半导体代工市场报告，TSMC份额继续扩大。",
-      "source": "Counterpoint Research",
-      "published": "2026-03-22",
-      "url": "https://www.counterpointresearch.com/en/insights/global-semiconductor-foundry-market-share",
-      "tags": [
-        "semiconductor",
-        "foundry"
-      ],
+      "title": "NVIDIA Rubin R100将首用HBM4",
+      "summary": "NVIDIA下一代GPU架构Rubin（R100）预计2026年末推出，基于TSMC 3nm工艺，将首批搭载HBM4，带宽与算力较Blackwell提升约3倍。",
+      "source": "FinancialContent",
+      "published": "2026-03-24",
+      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-24-the-architect-of-the-intelligence-age-nvidias-high-stakes-earnings-and-the-road-to-5-trillion",
+      "tags": ["NVIDIA", "HBM4", "GPU", "roadmap"],
       "insights": [
-        "头部集中度持续提升"
+        "Rubin量产时间节点将直接拉动HBM4及TSMC 3nm产能需求，锁量时机紧迫",
+        "SK Hynix的EUV投资与Rubin上市节点深度绑定"
       ],
-      "actions": [
-        "关注二线代工动态"
-      ]
+      "actions": ["跟进Rubin HBM4供应商资质认证进展"]
     },
     {
-      "title": "AI芯片供应链投资机遇",
-      "summary": "分析指出AI芯片供应链背后的纳米技术栈投资机会，涉及TSMC、ASML等。",
-      "source": "MarketBeat",
-      "published": "2026-03-22",
-      "url": "https://www.marketbeat.com/stock-ideas/the-supply-chain-quietly-powering-the-ai-boomand-4-ways-to-play-it/",
-      "tags": [
-        "semiconductor",
-        "ASML",
-        "AI"
-      ],
+      "title": "Arm首次亲自设计AI芯片",
+      "summary": "Arm宣布将自主研发首款AI服务器芯片，交由TSMC代工生产，标志其从IP授权商向芯片设计商战略转型，直接进入数据中心市场竞争。",
+      "source": "Reuters",
+      "published": "2026-03-25",
+      "url": "https://www.reuters.com/technology/arm-plans-its-first-ai-chip-tsmc-production-2026-03-24/",
+      "tags": ["Arm", "AI-chip", "foundry", "IP"],
       "insights": [
-        "上游设备材料受益"
+        "Arm自研芯片将与Qualcomm/AWS/Ampere形成直接竞争，IP授权模式面临内部稀释风险",
+        "晶圆厂获得新高价值客户，但TSMC产能资源将进一步收紧"
       ],
-      "actions": [
-        "布局关键材料"
-      ]
+      "actions": ["评估Arm转型对IP授权客户关系的潜在影响"]
     },
     {
-      "title": "ASML进军先进封装领域",
-      "summary": "ASML瞄准台积电在先进封装领域的市场，战略布局引发业界关注。",
-      "source": "24/7 Wall St",
-      "published": "2026-03-22",
-      "url": "https://247wallst.com/investing/2026/03/02/asml-targets-tsm-in-advanced-packaging-strategic-expansion-or-unnecessary-gamble",
-      "tags": [
-        "semiconductor",
-        "ASML"
-      ],
+      "title": "Synopsys收购Ansys整合EDA版图",
+      "summary": "Synopsys完成Ansys收购整合，形成覆盖电子-多物理场仿真的完整EDA+仿真平台，美国出口管制对3nm以下EDA工具限制持续施压中国市场。",
+      "source": "FinancialContent",
+      "published": "2026-03-24",
+      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-24-the-architect-of-the-angstrom-era-a-deep-dive-into-synopsys-snps-in-2026",
+      "tags": ["EDA", "Synopsys", "Ansys", "export-control"],
       "insights": [
-        "封装设备竞争加剧"
+        "3nm以下EDA出口管制收紧，国内EDA厂商替代需求进一步上升",
+        "Synopsys+Ansys协同将加速AI辅助设计验证，缩短流片周期"
       ],
-      "actions": [
-        "评估技术路线"
-      ]
+      "actions": ["梳理国内EDA工具在sub-3nm流程中的可用性清单"]
     },
     {
-      "title": "NVIDIA与TSMC、ASML、Synopsys合作",
-      "summary": "NVIDIA宣布与TSMC、ASML、Synopsys合作，为下一代芯片制造奠定基础。",
-      "source": "NVIDIA News",
-      "published": "2026-03-22",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-asml-tsmc-and-synopsys-set-foundation-for-next-generation-chip-manufacturing",
-      "tags": [
-        "semiconductor",
-        "TSMC",
-        "NVIDIA",
-        "ASML"
-      ],
+      "title": "特朗普政策削弱美国半导体研发",
+      "summary": "纽约时报评论指出特朗普政府削减NatCast（美国半导体研究联盟）资助，进一步削弱美国在芯片领域的长期竞争力，产业界表示担忧。",
+      "source": "The New York Times",
+      "published": "2026-03-24",
+      "url": "https://www.nytimes.com/2026/03/24/opinion/semiconductor-chips-natcast-biden-research.html",
+      "tags": ["US-policy", "R&D", "CHIPS-Act", "geopolitics"],
       "insights": [
-        "生态联盟深化",
-        "计算光刻技术突破"
+        "美国研发资金削减短期内利好中国追赶窗口，中长期影响需持续观察",
+        "CHIPS Act落地执行不稳定性增加美资晶圆厂扩产的政策风险"
       ],
-      "actions": [
-        "关注技术落地时间"
-      ]
+      "actions": ["关注美国CHIPS补贴政策走向对在美流片客户的影响"]
     },
     {
-      "title": "半导体股票投资建议",
-      "summary": "华尔街分析师推荐三只半导体股票，看好台积电等长期增长潜力。",
-      "source": "Motley Fool",
-      "published": "2026-03-22",
-      "url": "https://fool.com/investing/2026/03/18/buy-these-3-semiconductor-stocks-now-and-thank-you",
-      "tags": [
-        "semiconductor",
-        "investment"
-      ],
+      "title": "半导体市场预计2026年达9750亿美元",
+      "summary": "Deloitte 2026年展望报告预测全球半导体市场年销售额将达9750亿美元，生成式AI芯片收入接近5000亿美元，约占行业总产出一半。",
+      "source": "Deloitte",
+      "published": "2026-03-24",
+      "url": "https://serrarigroup.com/wto-warns-of-an-incredible-threat-to-global-trade-now/",
+      "tags": ["market-outlook", "AI-chip", "revenue", "generative-AI"],
       "insights": [
-        "估值修复机会"
+        "AI芯片占比将超过半个行业，供应链各环节需按AI需求优先级重新排序",
+        "市场接近万亿规模意味着供应链协同效率的重要性急剧上升"
       ],
-      "actions": [
-        "跟踪市场情绪"
-      ]
+      "actions": ["参考此数据支撑客户AI芯片需求预测及预算申请"]
     }
   ]
 }
