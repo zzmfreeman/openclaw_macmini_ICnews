@@ -182,5 +182,350 @@
     "_version": "v20260324-2000",
     "_period": "evening",
     "_generatedAt": "2026-03-24T20:01:31+08:00"
+  },
+  {
+    "title": "Broadcom警告台积电产能告急",
+    "summary": "Broadcom称2026年台积电先进制程及CoWoS封装产能严重不足，AI芯片需求激增导致供应链全面紧张，激光器与PCB同步受挤压。",
+    "source": "Reuters / TrendForce",
+    "published": "2026-03-24",
+    "url": "https://www.reuters.com/world/asia-pacific/broadcom-flags-supply-constraints-says-tsmc-capacity-bottleneck-2026-03-24/",
+    "tags": [
+      "TSMC",
+      "CoWoS",
+      "SupplyChain",
+      "AI"
+    ],
+    "insights": [
+      "CoWoS产能瓶颈将持续至2026年底，封测排期窗口需前置6-9个月",
+      "客��侧需尽早锁定先进封装订单，否则面临量产延期风险"
+    ],
+    "actions": [
+      "推进CoWoS/封测预排期谈判"
+    ],
+    "_period": "morning",
+    "_version": "v20260326-0600",
+    "_generatedAt": "2026-03-26T06:00:57+08:00"
+  },
+  {
+    "title": "台积电批准440亿美元扩产",
+    "summary": "台积电董事会批准逾440亿美元资本支出，用于扩张先进制程、先进封装产能及相关不动产资产。",
+    "source": "TipRanks",
+    "published": "2026-03-25",
+    "url": "https://www.tipranks.com/news/company-announcements/tsmc-details-february-2026-insider-moves-and-approves-massive-capacity-expansion",
+    "tags": [
+      "TSMC",
+      "Capex",
+      "AdvancedPackaging",
+      "Foundry"
+    ],
+    "insights": [
+      "大规模扩产信号利好长期供应，但2nm产能释放主要在2027年后",
+      "短期仍为卖方市场，议价能力倾向台积电"
+    ],
+    "actions": [
+      "跟踪台积电N2产能释放时间表"
+    ],
+    "_period": "morning",
+    "_version": "v20260326-0600",
+    "_generatedAt": "2026-03-26T06:00:57+08:00"
+  },
+  {
+    "title": "亚洲晶圆厂2026年资本开支1360亿",
+    "summary": "据报道亚洲芯片厂商2026年合计资本开支预计达1360亿美元，同比增长25%，涵盖晶圆代工与存储双赛道。",
+    "source": "DQ India",
+    "published": "2026-03-24",
+    "url": "https://www.dqindia.com/esdm/asias-chipmakers-reportedly-eye-136bn-spend-in-2026-up-25-yoy-spanning-foundry-and-memory-11247234",
+    "tags": [
+      "Capex",
+      "Foundry",
+      "Memory",
+      "AI"
+    ],
+    "insights": [
+      "行业整体扩产节奏加快，设备/材料供应链受益",
+      "资本开支集中在台韩，国产替代窗口期尚存"
+    ],
+    "actions": [
+      "关注上游设备与材料国产化机会"
+    ],
+    "_period": "morning",
+    "_version": "v20260326-0600",
+    "_generatedAt": "2026-03-26T06:00:57+08:00"
+  },
+  {
+    "title": "SK海力士拟赴美上市融资140亿",
+    "summary": "SK海力士计划在美股上市，目标融资最高140亿美元，资金将用于扩大HBM及DRAM先进制程产能。",
+    "source": "Blocks & Files",
+    "published": "2026-03-25",
+    "url": "https://www.blocksandfiles.com/ai-ml/2026/03/25/nand-dram-fabber-sk-hynix-wants-us-stock-listing-for-chip-fab-cash/5211518",
+    "tags": [
+      "SKHynix",
+      "HBM",
+      "DRAM",
+      "IPO"
+    ],
+    "insights": [
+      "SK海力士持续押注HBM扩产，HBM供需紧张格局短期难缓解",
+      "赴美上市将提升其与AI客户的绑定深度"
+    ],
+    "actions": [
+      "密切关注HBM4供货节奏与定价动态"
+    ],
+    "_period": "morning",
+    "_version": "v20260326-0600",
+    "_generatedAt": "2026-03-26T06:00:57+08:00"
+  },
+  {
+    "title": "Micron Q2营收暴增196%",
+    "summary": "美光科技2026财年Q2营收达238亿美元，同比暴增196%，AI存储超级景气周期确认，HBM需求成核心驱动。",
+    "source": "FinancialContent",
+    "published": "2026-03-24",
+    "url": "https://www.financialcontent.com/article/marketminute-2026-3-24-the-ai-memory-supercycle-micron-shatters-records-with-196-revenue-surge-in-historic-q2-2026",
+    "tags": [
+      "Micron",
+      "HBM",
+      "DRAM",
+      "AISupercycle"
+    ],
+    "insights": [
+      "AI存储超级景气周期确认，DRAM/HBM供不应求至少延续至2027年",
+      "消费电子涨价压力将向下游持续传导"
+    ],
+    "actions": [
+      "评估存储芯片采购策略，考虑锁价协议"
+    ],
+    "_period": "morning",
+    "_version": "v20260326-0600",
+    "_generatedAt": "2026-03-26T06:00:57+08:00"
+  },
+  {
+    "title": "存储芯片景气延续，消费电子全面涨价",
+    "summary": "中信证券等机构判断存储超级景气周期处于前中段，OPPO、vivo、华硕等相继宣布涨价，内存短缺或持续至2027年。",
+    "source": "新浪财经",
+    "published": "2026-03-25",
+    "url": "https://finance.sina.com.cn/jjxw/2026-03-25/doc-inhscxkh7054370.shtml",
+    "tags": [
+      "DRAM",
+      "NAND",
+      "PriceHike",
+      "ConsumerElectronics"
+    ],
+    "insights": [
+      "存储涨价已从手机向PC、云服务蔓延，终端成本压力持续上升",
+      "供给端实质扩张仍需时日，买方应提前锁定关键物料"
+    ],
+    "actions": [
+      "评估存储BOM成本上涨对产品定价的影响"
+    ],
+    "_period": "morning",
+    "_version": "v20260326-0600",
+    "_generatedAt": "2026-03-26T06:00:57+08:00"
+  },
+  {
+    "title": "SK海力士80亿美元订购ASML EUV设备",
+    "summary": "SK海力士承诺在2027年前向ASML采购约80亿美元EUV光刻设备，用于扩大DRAM与HBM先进制程产能。",
+    "source": "All About Industries",
+    "published": "2026-03-25",
+    "url": "https://www.all-about-industries.com/sk-hynix-invests-around-8-billion-us-dollars-in-euv-facilities-from-asml-a-918c20d990a030cca09d824d27158431/",
+    "tags": [
+      "SKHynix",
+      "ASML",
+      "EUV",
+      "HBM"
+    ],
+    "insights": [
+      "大额EUV订单锁定未来产能路线图，三星需加速赶上",
+      "ASML在HBM军备竞赛中坐收渔利，设备交期将更紧张"
+    ],
+    "actions": [
+      "关注ASML EUV交付周期对整体供应链影响"
+    ],
+    "_period": "morning",
+    "_version": "v20260326-0600",
+    "_generatedAt": "2026-03-26T06:00:57+08:00"
+  },
+  {
+    "title": "三星代工业务有望迎来拐点",
+    "summary": "GTC 2026上黄仁勋点名Groq 3 LPU采用三星代工，2nm进入稳定量产，三星代��Q4或结束连续亏损。",
+    "source": "Mashdigi",
+    "published": "2026-03-24",
+    "url": "https://en.mashdigi.com/samsungs-foundry-business-poised-for-a-turnaround-jensen-huang-highlights-key-figures-at-gtc-2026-2nm-process-enters-stable-mass-production-fourth-quarter-expected-to-end-consecutive-years-of-los/",
+    "tags": [
+      "Samsung",
+      "Foundry",
+      "2nm",
+      "Groq"
+    ],
+    "insights": [
+      "三星代工2nm量产稳定化将分流部分台积电先进制程需求",
+      "对国内客户而言，三星代工或成备选方案之一"
+    ],
+    "actions": [
+      "评估三星代工SF2节点可行性作为备选"
+    ],
+    "_period": "morning",
+    "_version": "v20260326-0600",
+    "_generatedAt": "2026-03-26T06:00:57+08:00"
+  },
+  {
+    "title": "三星730亿美元半导体投资计划",
+    "summary": "三星2026年半导体投资规模达730亿美元，重点押注HBM与先进代工，目标降低行业对台积电/SK海力士的双寡头依赖。",
+    "source": "Tech Insider",
+    "published": "2026-03-25",
+    "url": "https://tech-insider.org/samsung-73-billion-semiconductor-investment-2026/",
+    "tags": [
+      "Samsung",
+      "HBM",
+      "Capex",
+      "Foundry"
+    ],
+    "insights": [
+      "三方竞争格局有望改善HBM买方议价空间",
+      "超大规模云厂商主动扶持三星以分散供应链风险"
+    ],
+    "actions": [
+      "持续跟踪三星HBM4供货时间表"
+    ],
+    "_period": "morning",
+    "_version": "v20260326-0600",
+    "_generatedAt": "2026-03-26T06:00:57+08:00"
+  },
+  {
+    "title": "Synopsys支持Arm AGI CPU全栈设计",
+    "summary": "Synopsys宣布与Arm合作，为新款Arm AGI CPU提供全栈EDA工具、接口IP及硬件辅助验证方案（3月24日）。",
+    "source": "PR Newswire",
+    "published": "2026-03-24",
+    "url": "https://www.prnewswire.com/news-releases/synopsys-supports-new-arm-agi-cpu-with-full-stack-design-solutions-302723603.html",
+    "tags": [
+      "Synopsys",
+      "Arm",
+      "EDA",
+      "IP"
+    ],
+    "insights": [
+      "EDA+IP绑定Arm生态系持续深化，设计门槛进一步提升",
+      "国内EDA厂商需在Arm生态认证上加速布局"
+    ],
+    "actions": [
+      "评估国产EDA在Arm生态的兼容性进展"
+    ],
+    "_period": "morning",
+    "_version": "v20260326-0600",
+    "_generatedAt": "2026-03-26T06:00:57+08:00"
+  },
+  {
+    "title": "TSMC A16量产时间存疑",
+    "summary": "TSMC表示A16将于2026年下半年进入量产，但NVIDIA全面切换A16的计划受台积电产能瓶颈制约，进度存在不确定性。",
+    "source": "Cloud News",
+    "published": "2026-03-24",
+    "url": "https://cloudnews.tech/the-tsmc-bottleneck-casts-doubt-on-nvidias-full-switch-to-a16/",
+    "tags": [
+      "TSMC",
+      "A16",
+      "NVIDIA",
+      "AngstromEra"
+    ],
+    "insights": [
+      "A16节点量产延迟将推迟下一代AI GPU交付周期",
+      "备货策略需考虑节点切换窗口的不确定性"
+    ],
+    "actions": [
+      "追踪TSMC A16良率与量产节点进展"
+    ],
+    "_period": "morning",
+    "_version": "v20260326-0600",
+    "_generatedAt": "2026-03-26T06:00:57+08:00"
+  },
+  {
+    "title": "DRAM合同价Q4同比涨55%，Q2再涨70%",
+    "summary": "AI数据中心对HBM需求拉动DRAM合同价Q4 2025同比上涨55%，Digitimes预测2026年Q2价格将再涨最高70%。",
+    "source": "Digitimes / PCTech Magazine",
+    "published": "2026-03-25",
+    "url": "https://pctechmag.com/2026/03/why-chip-shortages-persist-in-2026-and-4-procurement-tactics-tech-startups-can-control/",
+    "tags": [
+      "DRAM",
+      "HBM",
+      "PriceHike",
+      "AI"
+    ],
+    "insights": [
+      "存储价格仍在强劲上行通道，Q2备货窗口即将关闭",
+      "约70%先进制程产能集中台韩，地缘风险溢价需纳入成本"
+    ],
+    "actions": [
+      "加速Q2 DRAM/HBM采购计划，规避价格进一步上涨"
+    ],
+    "_period": "morning",
+    "_version": "v20260326-0600",
+    "_generatedAt": "2026-03-26T06:00:57+08:00"
+  },
+  {
+    "title": "芯片原产地流片地即产地规则明确",
+    "summary": "财联社报道，我国海关对芯片原产地认定标准未变，仍以税则改变（即流片阶段）为依据，美系大厂产能转移面临合规限制。",
+    "source": "财联社",
+    "published": "2026-03-25",
+    "url": "https://www.cls.cn/detail/2001928",
+    "tags": [
+      "TradePolicy",
+      "OriginRules",
+      "Foundry",
+      "USChina"
+    ],
+    "insights": [
+      "流片地即原产地规则将影响美国对华出口管制的落地效果",
+      "国内设计公司赴海外代工需重新评估合规风险"
+    ],
+    "actions": [
+      "梳理在台/韩流片客户的原产地合规情况"
+    ],
+    "_period": "morning",
+    "_version": "v20260326-0600",
+    "_generatedAt": "2026-03-26T06:00:57+08:00"
+  },
+  {
+    "title": "3D NAND擦除速度提升23倍新材料突破",
+    "summary": "韩国KAIST研究团队开发新型材料，解决3D NAND瓶颈，擦除速度提升最高23倍，有望推动下一代NAND制程量产。",
+    "source": "TrendForce",
+    "published": "2026-03-24",
+    "url": "https://www.trendforce.com/news/2026/03/24/news-south-korea-reportedly-tackles-3d-nand-bottleneck-with-new-material-achieving-up-to-23x-faster-erase-speed/",
+    "tags": [
+      "NAND",
+      "3DNAND",
+      "Materials",
+      "Research"
+    ],
+    "insights": [
+      "新材料若商业化将大幅提升NAND存储密度与性能",
+      "存储技术演进对SSD控制器IP设计提出更高要求"
+    ],
+    "actions": [
+      "关注KAIST成果产业化进程及IP布局"
+    ],
+    "_period": "morning",
+    "_version": "v20260326-0600",
+    "_generatedAt": "2026-03-26T06:00:57+08:00"
+  },
+  {
+    "title": "ALD前驱体厂商安德科铭科创板辅导，长鑫入股",
+    "summary": "国产ALD前驱体材料商安德科铭拟登陆科创板，在辅导前长��科技（DRAM龙头）已完成入股，战略意义显著。",
+    "source": "财联社",
+    "published": "2026-03-20",
+    "url": "https://www.cls.cn/detail/2319878",
+    "tags": [
+      "ALD",
+      "Materials",
+      "Domestic",
+      "IPO"
+    ],
+    "insights": [
+      "长鑫入股ALD材料商标志国内存储产业链垂直整合加速",
+      "前驱体国产化是先进制程材料自主的关键一环"
+    ],
+    "actions": [
+      "跟踪国产前驱体材料认证进展，评估供应链替代可能"
+    ],
+    "_period": "morning",
+    "_version": "v20260326-0600",
+    "_generatedAt": "2026-03-26T06:00:57+08:00"
   }
 ]
