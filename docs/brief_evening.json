@@ -1,7 +1,7 @@
 {
   "version": "v20260326-2000",
   "generatedAt": "2026-03-26T20:00:00+08:00",
-  "commit": "pending",
+  "commit": "0c16358",
   "period": "evening",
   "items": [
     {
@@ -10,7 +10,12 @@
       "source": "新浪财经",
       "published": "2026-03-25",
       "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-03-25/doc-inhseupu0962708.shtml",
-      "tags": ["Foundry", "MaturNode", "PricingRise", "SMIC"],
+      "tags": [
+        "Foundry",
+        "MaturNode",
+        "PricingRise",
+        "SMIC"
+      ],
       "insights": [
         "8英寸成熟制程供给收紧，采购需提前锁量以规避4月涨价窗口",
         "中国大陆晶圆厂产能利用率已超载，交期将持续延长"
@@ -23,7 +28,12 @@
       "source": "Reuters",
       "published": "2026-03-25",
       "url": "https://www.reuters.com/business/autos-transportation/ai-boom-accelerates-chinas-chip-industry-growth-demand-strains-supply-chain-2026-03-25/",
-      "tags": ["China", "AIChip", "SupplyChain", "SEMICON"],
+      "tags": [
+        "China",
+        "AIChip",
+        "SupplyChain",
+        "SEMICON"
+      ],
       "insights": [
         "AI推理芯片需求持续放量，国内算力芯片供应链面临结构性缺口",
         "上海SEMICON展会释放明确信号：中国半导体国产替代进程加速"
@@ -36,7 +46,12 @@
       "source": "SemiWiki",
       "published": "2026-03-25",
       "url": "https://semiwiki.com/forum/threads/trendforce-samsung-reportedly-to-build-a-new-wafer-fab-in-the-u-s.24831/",
-      "tags": ["Samsung", "Foundry", "USFab", "Geopolitics"],
+      "tags": [
+        "Samsung",
+        "Foundry",
+        "USFab",
+        "Geopolitics"
+      ],
       "insights": [
         "台积电产能瓶颈推动Samsung抢夺高端代工订单，代工格局面临再平衡",
         "美国本土晶圆厂扩张加速，地缘产能布局成供应链风险对冲新变量"
@@ -49,7 +64,12 @@
       "source": "朝鲜商业日报",
       "published": "2026-03-25",
       "url": "https://biz.chosun.com/en/en-it/2026/03/25/IS2EFK7SEND2DNODV65Z7ZXITI/",
-      "tags": ["Broadcom", "TSMC", "SamsungFoundry", "ASIC"],
+      "tags": [
+        "Broadcom",
+        "TSMC",
+        "SamsungFoundry",
+        "ASIC"
+      ],
       "insights": [
         "头部Fabless客户分散代工风险已成事实，三星Foundry拿单机会显著提升",
         "ASIC定制芯片需求旺盛，代工产能争夺将延续至2026年底"
@@ -62,7 +82,12 @@
       "source": "SiliconANGLE",
       "published": "2026-03-24",
       "url": "https://siliconangle.com/2026/03/24/arm-launches-136-core-agi-cpu-data-centers/",
-      "tags": ["Arm", "AGI", "CPU", "DataCenter"],
+      "tags": [
+        "Arm",
+        "AGI",
+        "CPU",
+        "DataCenter"
+      ],
       "insights": [
         "Arm从IP授权向自研芯片延伸，将颠覆数据中心CPU格局",
         "Synopsys与Arm深度绑定，验证EDA+IP一体化方案的竞争壁垒"
@@ -85,7 +110,12 @@
       "source": "Semiconductor Digest",
       "published": "2026-03-26",
       "url": "https://www.semiconductor-digest.com/semicon-china-2026-to-highlight-strategic-opportunities-in-the-era-of-ai-and-trillion-dollar-market-growth/",
-      "tags": ["EDA", "SiemensEDA", "AgenticAI", "ChipDesign"],
+      "tags": [
+        "EDA",
+        "SiemensEDA",
+        "AgenticAI",
+        "ChipDesign"
+      ],
       "insights": [
         "EDA工具AI化提速，国产EDA厂商差距将在AI赋能层面进一步拉大",
         "Agentic AI进入EDA领域是行业转折点，关注Synopsys/Cadence应对策略"
@@ -104,7 +134,12 @@
       "source": "The Motley Fool",
       "published": "2026-03-25",
       "url": "https://www.fool.com/investing/2026/03/25/qualcomm-is-down-24-in-2026-and-just-announced-a-2/",
-      "tags": ["Qualcomm", "Mobile", "Fabless", "Buyback"],
+      "tags": [
+        "Qualcomm",
+        "Mobile",
+        "Fabless",
+        "Buyback"
+      ],
       "insights": [
         "Qualcomm核心移动市场承压，手机供应链进入存量博弈周期",
         "Apple自研基带进展加速，对高通依赖度持续降低是长期风险"
@@ -117,7 +152,12 @@
       "source": "证券时报网",
       "published": "2026-03-26",
       "url": "https://www.stcn.com/article/detail/1850119.html",
-      "tags": ["EDA", "DomesticEDA", "SiemensEDA", "Localization"],
+      "tags": [
+        "EDA",
+        "DomesticEDA",
+        "SiemensEDA",
+        "Localization"
+      ],
       "insights": [
         "国产EDA已形成局部可替代能力，但数字布局布线仍是关键堵点",
         "西门子EDA不确定性将加速国内设计公司EDA国产化采购决策"
