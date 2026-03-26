@@ -746,6 +746,126 @@
         "中国AI调用���2月首超美国",
         "AI存储需求抢占传统手机产能"
       ]
+    },
+    {
+      "version": "v20260326-2000",
+      "generatedAt": "2026-03-26T20:00:00+08:00",
+      "period": "evening",
+      "title": "成熟制程晶圆代工4月涨价10%",
+      "source": "新浪财经",
+      "published": "2026-03-25",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-03-25/doc-inhseupu0962708.shtml",
+      "tags": [
+        "Foundry",
+        "MaturNode",
+        "PricingRise",
+        "SMIC"
+      ]
+    },
+    {
+      "version": "v20260326-2000",
+      "generatedAt": "2026-03-26T20:00:00+08:00",
+      "period": "evening",
+      "title": "��国芯片产业AI驱动需求超预期",
+      "source": "Reuters",
+      "published": "2026-03-25",
+      "url": "https://www.reuters.com/business/autos-transportation/ai-boom-accelerates-chinas-chip-industry-growth-demand-strains-supply-chain-2026-03-25/",
+      "tags": [
+        "China",
+        "AIChip",
+        "SupplyChain",
+        "SEMICON"
+      ]
+    },
+    {
+      "version": "v20260326-2000",
+      "generatedAt": "2026-03-26T20:00:00+08:00",
+      "period": "evening",
+      "title": "三星计划在美新建晶圆厂",
+      "source": "SemiWiki",
+      "published": "2026-03-25",
+      "url": "https://semiwiki.com/forum/threads/trendforce-samsung-reportedly-to-build-a-new-wafer-fab-in-the-u-s.24831/",
+      "tags": [
+        "Samsung",
+        "Foundry",
+        "USFab",
+        "Geopolitics"
+      ]
+    },
+    {
+      "version": "v20260326-2000",
+      "generatedAt": "2026-03-26T20:00:00+08:00",
+      "period": "evening",
+      "title": "Broadcom称台积电产能已达上限",
+      "source": "朝鲜商业日报",
+      "published": "2026-03-25",
+      "url": "https://biz.chosun.com/en/en-it/2026/03/25/IS2EFK7SEND2DNODV65Z7ZXITI/",
+      "tags": [
+        "Broadcom",
+        "TSMC",
+        "SamsungFoundry",
+        "ASIC"
+      ]
+    },
+    {
+      "version": "v20260326-2000",
+      "generatedAt": "2026-03-26T20:00:00+08:00",
+      "period": "evening",
+      "title": "Arm发布136核AGI服务器CPU",
+      "source": "SiliconANGLE",
+      "published": "2026-03-24",
+      "url": "https://siliconangle.com/2026/03/24/arm-launches-136-core-agi-cpu-data-centers/",
+      "tags": [
+        "Arm",
+        "AGI",
+        "CPU",
+        "DataCenter"
+      ]
+    },
+    {
+      "version": "v20260326-2000",
+      "generatedAt": "2026-03-26T20:00:00+08:00",
+      "period": "evening",
+      "title": "Siemens EDA推主动式AI缩短流片周期",
+      "source": "Semiconductor Digest",
+      "published": "2026-03-26",
+      "url": "https://www.semiconductor-digest.com/semicon-china-2026-to-highlight-strategic-opportunities-in-the-era-of-ai-and-trillion-dollar-market-growth/",
+      "tags": [
+        "EDA",
+        "SiemensEDA",
+        "AgenticAI",
+        "ChipDesign"
+      ]
+    },
+    {
+      "version": "v20260326-2000",
+      "generatedAt": "2026-03-26T20:00:00+08:00",
+      "period": "evening",
+      "title": "Qualcomm年初至今股价下跌24%",
+      "source": "The Motley Fool",
+      "published": "2026-03-25",
+      "url": "https://www.fool.com/investing/2026/03/25/qualcomm-is-down-24-in-2026-and-just-announced-a-2/",
+      "tags": [
+        "Qualcomm",
+        "Mobile",
+        "Fabless",
+        "Buyback"
+      ]
+    },
+    {
+      "version": "v20260326-2000",
+      "generatedAt": "2026-03-26T20:00:00+08:00",
+      "period": "evening",
+      "title": "国产EDA进展超预期，西门子服务存在不确定性",
+      "source": "证券时报网",
+      "published": "2026-03-26",
+      "url": "https://www.stcn.com/article/detail/1850119.html",
+      "tags": [
+        "EDA",
+        "DomesticEDA",
+        "SiemensEDA",
+        "Localization"
+      ]
     }
   ]
 }
