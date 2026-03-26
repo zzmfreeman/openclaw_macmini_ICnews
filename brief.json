@@ -1,203 +1,206 @@
 {
-  "version": "v20260326-0600",
-  "generatedAt": "2026-03-26T06:00:57+08:00",
-  "commit": "",
+  "version": "v20260327-0602",
+  "generatedAt": "2026-03-27T06:02:00+08:00",
   "period": "morning",
+  "commit": "pending",
+  "count": 15,
   "items": [
     {
-      "title": "Broadcom警告台积电产能告急",
-      "summary": "Broadcom称2026年台积电先进制程及CoWoS封装产能严重不足，AI芯片需求激增导致供应链全面紧张，激光器与PCB同步受挤压。",
-      "source": "Reuters / TrendForce",
-      "published": "2026-03-24",
-      "url": "https://www.reuters.com/world/asia-pacific/broadcom-flags-supply-constraints-says-tsmc-capacity-bottleneck-2026-03-24/",
-      "tags": ["TSMC", "CoWoS", "SupplyChain", "AI"],
+      "title": "中芯国际2025年报净利增36%",
+      "summary": "中芯国际2025年营收673亿元增16%，净利润50.41亿元增36%，蝉联全球纯晶圆代工第二，2026年资本开支维持高位持续扩产。",
+      "source": "新浪财经",
+      "published": "2026-03-26",
+      "url": "https://finance.sina.com.cn/jjxw/2026-03-26/doc-inhsiqks2686393.shtml",
+      "tags": ["SMIC", "Foundry", "Earnings", "Capex"],
       "insights": [
-        "CoWoS产能瓶颈将持续至2026年底，封测排期窗口需前置6-9个月",
-        "客��侧需尽早锁定先进封装订单，否则面临量产延期风险"
+        "中芯国际业绩稳步提升，产能扩张有支撑，���本土客户的承接能力持续增强",
+        "2026年资本开支对标2025年约81亿美元，国产设备订单将持续受益"
       ],
-      "actions": ["推进CoWoS/封测预排期谈判"]
+      "actions": ["跟踪中芯国际产能爬坡节奏，评估现有或潜在流片窗口"]
     },
     {
-      "title": "台积电批准440亿美元扩产",
-      "summary": "台积电董事会批准逾440亿美元资本支出，用于扩张先进制程、先进封装产能及相关不动产资产。",
-      "source": "TipRanks",
+      "title": "长鑫存储收入翻倍挑战HBM三巨头",
+      "summary": "Bloomberg报道长鑫存储CXMT 2025年收入翻超一倍至80亿美元，年内IPO在即，正积极布局HBM产品直接挑战SK Hynix、三星和美光在AI存储市场的地位。",
+      "source": "Bloomberg",
+      "published": "2026-03-26",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-26/cxmt-potentially-challenges-sk-hynix-samsung-micron-in-hbm-supply-for-ai",
+      "tags": ["CXMT", "HBM", "DomesticMemory", "IPO"],
+      "insights": [
+        "长鑫进入HBM赛道意味着国产AI存储供应链闭环有望加速，对采购多元化具有战略意义",
+        "CXMT IPO若成功将带来大规模扩产资金，HBM价格长期将面临下行压力"
+      ],
+      "actions": ["关注CXMT HBM产品认证时间表，评估潜在国产替代采购窗口"],
+      "glossary": [{"term": "CXMT", "desc": "长鑫存储，中国最大的DRAM独立存储厂商，正向HBM市场扩张"}]
+    },
+    {
+      "title": "SK Hynix秘密申报美国上市",
+      "summary": "SK Hynix秘密向美国SEC提交上市申请，2026年内完成ADR发行，目标融资70至140亿美元，资金将全部投��HBM扩产与先进封装设施建设，HBM专属新厂预计2026年底投产。",
+      "source": "CNBC",
       "published": "2026-03-25",
-      "url": "https://www.tipranks.com/news/company-announcements/tsmc-details-february-2026-insider-moves-and-approves-massive-capacity-expansion",
-      "tags": ["TSMC", "Capex", "AdvancedPackaging", "Foundry"],
+      "url": "https://www.cnbc.com/2026/03/25/sk-hynix-confidential-us-listing-adr-ai-memory.html",
+      "tags": ["SKHynix", "HBM", "IPO", "AdvancedPackaging"],
       "insights": [
-        "大规模扩产信号利好长期供应，但2nm产能释放主要在2027年后",
-        "短期仍为卖方市场，议价能力倾向台积电"
+        "SK Hynix美股融资将大幅强化HBM产能护城河，竞争对手追赶窗口进一步收窄",
+        "HBM专属新厂年底投产后产能可能翻倍，2027年HBM供需格局或发生转折"
       ],
-      "actions": ["跟踪台积电N2产能释放时间表"]
+      "actions": ["重新评估HBM长约锁定策略，2026H2前窗口可能是议价最后机会"]
     },
     {
-      "title": "亚洲晶圆厂2026年资本开支1360亿",
-      "summary": "据报道亚洲芯片厂商2026年合计资本开支预计达1360亿美元，同比增长25%，涵盖晶圆代工与存储双赛道。",
-      "source": "DQ India",
-      "published": "2026-03-24",
-      "url": "https://www.dqindia.com/esdm/asias-chipmakers-reportedly-eye-136bn-spend-in-2026-up-25-yoy-spanning-foundry-and-memory-11247234",
-      "tags": ["Capex", "Foundry", "Memory", "AI"],
+      "title": "Broadcom警告TSMC产能已达极限",
+      "summary": "Broadcom高管公开警告TSMC产能已触及上限，AI芯片供应链全面受限，短缺从晶圆蔓延至激光器件和PCB，新产能最早2027年才能缓解紧张局面。",
+      "source": "SemiMedia",
+      "published": "2026-03-26",
+      "url": "https://www.semimedia.cc/20828.html",
+      "tags": ["Broadcom", "TSMC", "CapacityBottleneck", "SupplyChain"],
       "insights": [
-        "行业整体扩产节奏加快，设备/材料供应链受益",
-        "资本开支集中在台韩，国产替代窗口期尚存"
+        "TSMC产能瓶颈从芯片向PCB/光器件传导，AI供应链系统性短缺风险上升",
+        "2027年前先进制程产能稀缺格局不变，代工长约锁定窗口愈发关键"
       ],
-      "actions": ["关注上游设备与材料国产化机会"]
+      "actions": ["排查在手项目中TSMC先进节点依赖度，提前评估备供路径"]
     },
     {
-      "title": "SK海力士拟赴美上市融资140亿",
-      "summary": "SK海力士计划在美股上市，目标融资最高140亿美元，资金将用于扩大HBM及DRAM先进制程产能。",
-      "source": "Blocks & Files",
+      "title": "TSMC新4厂建前已全面预订满",
+      "summary": "TSMC在台湾新建的第4座晶圆厂尚未开工便已被订单填满，支持2nm/A16制程，2026年前两个月收入同比增近30%，7nm以下占晶圆收入77%，全年指引收入增长约30%。",
+      "source": "ICO Optics",
       "published": "2026-03-25",
-      "url": "https://www.blocksandfiles.com/ai-ml/2026/03/25/nand-dram-fabber-sk-hynix-wants-us-stock-listing-for-chip-fab-cash/5211518",
-      "tags": ["SKHynix", "HBM", "DRAM", "IPO"],
+      "url": "https://www.ico-optics.org/tsmcs-new-fab-4-fully-booked-before-construction-begins/",
+      "tags": ["TSMC", "Fab4", "2nm", "AI-Demand"],
       "insights": [
-        "SK海力士持续押注HBM扩产，HBM供需紧张格局短期难缓解",
-        "赴美上市将提升其与AI客户的绑定深度"
+        "TSMC产能已成稀缺资产，提前布局产能预订是获取供应优先权的唯一路径",
+        "新厂2nm/A16制程定位高端AI芯片，进一步压缩中小客户产能获取空间"
       ],
-      "actions": ["密切关注HBM4供货节奏与定价动态"]
+      "actions": ["评估与TSMC现有合作关系，确认产能预订优先级是否需要升级"]
     },
     {
-      "title": "Micron Q2营收暴增196%",
-      "summary": "美光科技2026财年Q2营收达238亿美元，同比暴增196%，AI存储超级景气周期确认，HBM需求成核心驱动。",
-      "source": "FinancialContent",
-      "published": "2026-03-24",
-      "url": "https://www.financialcontent.com/article/marketminute-2026-3-24-the-ai-memory-supercycle-micron-shatters-records-with-196-revenue-surge-in-historic-q2-2026",
-      "tags": ["Micron", "HBM", "DRAM", "AISupercycle"],
+      "title": "三星73亿美元加码AI芯片竞争",
+      "summary": "三星2026年半导体投资规模增22%至730亿美元，三大目标：扩大HBM4产能夺回份额、追赶TSMC先进制程良率、新布局GaN代工业务，HBM4自2026年2月已开始量产爬坡。",
+      "source": "Evertiq",
+      "published": "2026-03-25",
+      "url": "https://evertiq.com/news/2026-03-25-samsung-unleashes-73-billion-blitz-in-ai-chips-race",
+      "tags": ["Samsung", "HBM4", "GaN", "CapexBlitz"],
       "insights": [
-        "AI存储超级景气周期确认，DRAM/HBM供不应求至少延续至2027年",
-        "消费电子涨价压力将向下游持续传导"
+        "三星同步押注HBM4+先进代工+化合物半导体，投资分散也带来执行风险",
+        "GaN代工进入早期阶段，对氮化镓功率器件设计公司是潜在代工新选项"
       ],
-      "actions": ["评估存储芯片采购策略，考虑锁价协议"]
+      "actions": ["评估三星GaN代工计划与自身功率器件供应策略的匹配性"]
     },
     {
-      "title": "存储芯片景气延续，消费电子全面涨价",
-      "summary": "中信证券等机构判断存储超级景气周期处于前中段，OPPO、vivo、华硕等相继宣布涨价，内存短缺或持续至2027年。",
+      "title": "三星SK Hynix追加中国工厂投资",
+      "summary": "三星和SK Hynix双双增加在华工厂资本开支，以扩大存储芯片产量、提升盈利能力，在美国出口管制限制先进产品的背景下，中国工厂仍是两家公司的重要成熟制程产能基地。",
+      "source": "Digitimes",
+      "published": "2026-03-26",
+      "url": "https://www.digitimes.com/news/a20260326PD230/samsung-sk-hynix-china-demand-production-2025.html",
+      "tags": ["Samsung", "SKHynix", "ChinaFab", "MemoryExpansion"],
+      "insights": [
+        "韩厂持续扩张中国工厂产能，国内存储市场供给来源仍以外资为主，短期压力有限",
+        "若出口管制进一步收紧，韩厂中国工厂价值将重新评估，建议关注政策动向"
+      ],
+      "actions": ["跟踪美国对韩厂中国工厂设备出口限制动态，评估潜在影响"]
+    },
+    {
+      "title": "半导体涨价潮持续，中国厂商抢份额",
+      "summary": "全球半导体涨价浪潮下，中国本土晶圆厂产线超负荷运转，中芯国际2026年资本开支对标81亿美元，国产设备国产化率从17年13%升至24年20%，国内厂商加速抢占市场份额。",
       "source": "新浪财经",
       "published": "2026-03-25",
-      "url": "https://finance.sina.com.cn/jjxw/2026-03-25/doc-inhscxkh7054370.shtml",
-      "tags": ["DRAM", "NAND", "PriceHike", "ConsumerElectronics"],
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-03-25/doc-inhseupu0962708.shtml",
+      "tags": ["SMIC", "DomesticEquipment", "PricingRise", "Localization"],
       "insights": [
-        "存储涨价已从手机向PC、云服务蔓延，终端成本压力持续上升",
-        "供给端实质扩张仍需时日，买方应提前锁定关键物料"
+        "国产设备在刻蚀/清洗/CMP等关键环节持续突破，新产线国产比例有望超25%",
+        "涨价潮下国内晶圆厂扩产意愿强烈，国产设备厂商订单外溢明显"
       ],
-      "actions": ["评估存储BOM成本上涨对产品定价的影响"]
+      "actions": ["评估国产设备厂商供货能力，是否需要纳入供应链评估候选"]
     },
     {
-      "title": "SK海力士80亿美元订购ASML EUV设备",
-      "summary": "SK海力士承诺在2027年前向ASML采购约80亿美元EUV光刻设备，用于扩大DRAM与HBM先进制程产能。",
-      "source": "All About Industries",
+      "title": "Micron HBM4超级周期2026达峰",
+      "summary": "Micron 2026年HBM4量产爬坡加速，AI存储超级周期进入高峰，HBM4需求持续超过全球供给，AI推理/训练需求拉动下HBM4 ASP维持高位，ASML/Applied Materials订单大幅增加。",
+      "source": "FinancialContent",
+      "published": "2026-03-26",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-26-micron-crushes-expectations-in-2026-memory-supercycle-peak-as-hbm4-demand-hits-fever-pitch",
+      "tags": ["Micron", "HBM4", "MemorySupercycle", "AMAT"],
+      "insights": [
+        "Micron HBM4起量将稀释SK Hynix垄断溢价，但整体HBM4仍供不应求",
+        "HBM4超级周期带动上游设备（ASML/AMAT）大幅扩单，设备交期将同步拉长"
+      ],
+      "actions": ["核查HBM4供应商组合，评估增加Micron配额的采购可行性"]
+    },
+    {
+      "title": "Arm AGI CPU股价涨16%，2031年目标150亿",
+      "summary": "Arm AGI CPU正式发布后股价涨逾16%，CEO Rene Haas确认2031年芯片业务收入目标150亿美元，公司总收入将达250亿美元，Meta为首批合作伙伴与联合开发商，AWS/Google/NVIDIA等50余家公司支持。",
+      "source": "CNBC",
       "published": "2026-03-25",
-      "url": "https://www.all-about-industries.com/sk-hynix-invests-around-8-billion-us-dollars-in-euv-facilities-from-asml-a-918c20d990a030cca09d824d27158431/",
-      "tags": ["SKHynix", "ASML", "EUV", "HBM"],
+      "url": "https://www.cnbc.com/amp/2026/03/25/arm-stock-chip-revenue-agi-cpu.html",
+      "tags": ["Arm", "AGI-CPU", "DataCenter", "IPtoSilicon"],
       "insights": [
-        "大额EUV订单锁定未来产能路线图，三星需加速赶上",
-        "ASML在HBM军备竞赛中坐收渔利，设备交期将更紧张"
+        "Arm从IP授权商转型芯片供应商，将与原有授权客户（高通/苹果/英伟达）形成竞争",
+        "每GW数据中心节省100亿美元CapEx的声称，将加速云厂商Arm架构采购论证"
       ],
-      "actions": ["关注ASML EUV交付周期对整体供应链影响"]
+      "actions": ["评估AI推理服务器中引入Arm AGI CPU的技术可行性与供应商关系影响"]
     },
     {
-      "title": "三星代工业务有望迎来拐点",
-      "summary": "GTC 2026上黄仁勋点名Groq 3 LPU采用三星代工，2nm进入稳定量产，三星代��Q4或结束连续亏损。",
-      "source": "Mashdigi",
-      "published": "2026-03-24",
-      "url": "https://en.mashdigi.com/samsungs-foundry-business-poised-for-a-turnaround-jensen-huang-highlights-key-figures-at-gtc-2026-2nm-process-enters-stable-mass-production-fourth-quarter-expected-to-end-consecutive-years-of-los/",
-      "tags": ["Samsung", "Foundry", "2nm", "Groq"],
+      "title": "Synopsys+三星联合推多芯片设计",
+      "summary": "Synopsys与三星深化合作，联合验证2.5D插层设计整合SoC、DRAM与HBM4 PHY，加速Chiplet多芯片创新，支持2nm及以上制程，为下一代AI加速器复杂互联提供完整EDA支持。",
+      "source": "Edge AI and Vision Alliance",
+      "published": "2026-03-26",
+      "url": "https://www.edge-ai-vision.com/2026/03/accelerating-multi-die-innovation-how-synopsys-and-samsung-are-shaping-chip-design/",
+      "tags": ["Synopsys", "Samsung", "Chiplet", "HBM4-PHY"],
       "insights": [
-        "三星代工2nm量产稳定化将分流部分台积电先进制程需求",
-        "对国内客户而言，三星代工或成备选方案之一"
+        "Synopsys+三星联合方案将Chiplet设计门槛从工艺迁移到IP层，缩短SoC开发周期",
+        "HBM4 PHY的EDA工具认证是Chiplet设计流片前提，EDA选型应提前考量"
       ],
-      "actions": ["评估三星代工SF2节点可行性作为备选"]
+      "actions": ["梳理在研Chiplet/多芯片项目的EDA工具链与三星工艺兼容性"]
     },
     {
-      "title": "三星730亿美元半导体投资计划",
-      "summary": "三星2026年半导体投资规模达730亿美元，重点押注HBM与先进代工，目标降低行业对台积电/SK海力士的双寡头依赖。",
-      "source": "Tech Insider",
+      "title": "Cadence EDA需求因AI芯片设计激增",
+      "summary": "AI驱动芯片设计复杂度急剧上升，Chiplet架构与2nm制程使PPA优化难度倍增，Cadence AI集成EDA工具需求大幅增长，公司正快速扩充AI辅助的功耗/信号完整性分析产品线。",
+      "source": "Ad Hoc News",
       "published": "2026-03-25",
-      "url": "https://tech-insider.org/samsung-73-billion-semiconductor-investment-2026/",
-      "tags": ["Samsung", "HBM", "Capex", "Foundry"],
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cadence-design-systems-stock-faces-ai-driven-design-demand-surge-amid-chip/68979553",
+      "tags": ["Cadence", "EDA", "Chiplet", "AI-PPA"],
       "insights": [
-        "三方竞争格局有望改善HBM买方议价空间",
-        "超大规模云厂商主动扶持三星以分散供应链风险"
+        "AI辅助EDA工具成为复杂制程设计必配，工具链升级成本应纳入��片预算",
+        "Cadence与Synopsys共同受益AI芯片设计周期缩短趋势，EDA议价空间收窄"
       ],
-      "actions": ["持续跟踪三星HBM4供货时间表"]
+      "actions": ["核查在研项目EDA工具授权是否覆盖Chiplet/2nm设计需求"]
     },
     {
-      "title": "Synopsys支持Arm AGI CPU全栈设计",
-      "summary": "Synopsys宣布与Arm合作，为新款Arm AGI CPU提供全栈EDA工具、接口IP及硬件辅助验证方案（3月24日）。",
-      "source": "PR Newswire",
-      "published": "2026-03-24",
-      "url": "https://www.prnewswire.com/news-releases/synopsys-supports-new-arm-agi-cpu-with-full-stack-design-solutions-302723603.html",
-      "tags": ["Synopsys", "Arm", "EDA", "IP"],
+      "title": "Cerebras超大晶圆AI芯片挑战NVIDIA",
+      "summary": "估值300亿元的Cerebras Systems采用比盘子更大的超大晶圆级AI芯片（WSE），从系统架构、内存、I/O到编译器全栈颠覆NVIDIA思路，已入驻AWS，瞄准AI推理加速数百亿美元市场。",
+      "source": "36氪",
+      "published": "2026-03-26",
+      "url": "https://36kr.com/p/2839556744924039",
+      "tags": ["Cerebras", "WSE", "AI-Inference", "TSMC"],
       "insights": [
-        "EDA+IP绑定Arm生态系持续深化，设计门槛进一步提升",
-        "国内EDA厂商需在Arm生态认证上加速布局"
+        "Cerebras晶圆级芯片代工依赖TSMC超大尺寸规格，对代工产能是特殊需求",
+        "AI推理芯片生态多元化加速，NVIDIA垄断格局出现实质性裂缝"
       ],
-      "actions": ["评估国产EDA在Arm生态的兼容性进展"]
+      "actions": ["关注Cerebras产能规模化进展，评估其作为AI推理算力备选供应商的可行性"],
+      "glossary": [{"term": "WSE", "desc": "Wafer Scale Engine，晶圆级引擎，将整片晶圆作为单一芯片使用的极端大芯片方案"}]
     },
     {
-      "title": "TSMC A16量产时间存疑",
-      "summary": "TSMC表示A16将于2026年下半年进入量产，但NVIDIA全面切换A16的计划受台积电产能瓶颈制约，进度存在不确定性。",
-      "source": "Cloud News",
-      "published": "2026-03-24",
-      "url": "https://cloudnews.tech/the-tsmc-bottleneck-casts-doubt-on-nvidias-full-switch-to-a16/",
-      "tags": ["TSMC", "A16", "NVIDIA", "AngstromEra"],
-      "insights": [
-        "A16节点量产延迟将推迟下一代AI GPU交付周期",
-        "备货策略需考虑节点切换窗口的不确定性"
-      ],
-      "actions": ["追踪TSMC A16良率与量产节点进展"]
-    },
-    {
-      "title": "DRAM合同价Q4同比涨55%，Q2再涨70%",
-      "summary": "AI数据中心对HBM需求拉动DRAM合同价Q4 2025同比上涨55%，Digitimes预测2026年Q2价格将再涨最高70%。",
-      "source": "Digitimes / PCTech Magazine",
+      "title": "国产半导体设备ETF单日涨超3%",
+      "summary": "半导体设备ETF万家(159327)早盘涨超3%，受国产替代+需求扩容双重驱动；中微公司、北方华创、拓荆科技等权重股强势，机构看好国产晶圆厂7nm及以下先进制程扩产+Chiplet封测需求拉动。",
+      "source": "新浪财经",
       "published": "2026-03-25",
-      "url": "https://pctechmag.com/2026/03/why-chip-shortages-persist-in-2026-and-4-procurement-tactics-tech-startups-can-control/",
-      "tags": ["DRAM", "HBM", "PriceHike", "AI"],
+      "url": "https://finance.sina.com.cn/jjxw/2026-03-25/doc-inhseixy1039525.shtml",
+      "tags": ["DomesticEquipment", "Localization", "Chiplet", "InvestmentSignal"],
       "insights": [
-        "存储价格仍在强劲上行通道，Q2备货窗口即将关闭",
-        "约70%先进制程产能集中台韩，地缘风险溢价需纳入成本"
+        "国产设备资金持续流入，反映机构对国产扩产节奏的强烈预期，值得跟踪",
+        "先进封装（Chiplet/HBM）拉动封测设备需求外溢，国产厂商导入窗口扩大"
       ],
-      "actions": ["加速Q2 DRAM/HBM采购计划，规避价格进一步上涨"]
+      "actions": ["跟踪中微/北方华创等核心设备厂交货周期，评估扩产计划与设备供应匹配度"]
     },
     {
-      "title": "芯片原产地流片地即产地规则明确",
-      "summary": "财联社报道，我国海关对芯片原产地认定标准未变，仍以税则改变（即流片阶段）为依据，美系大厂产能转移面临合规限制。",
-      "source": "财联社",
-      "published": "2026-03-25",
-      "url": "https://www.cls.cn/detail/2001928",
-      "tags": ["TradePolicy", "OriginRules", "Foundry", "USChina"],
+      "title": "Google TurboQuant内存压缩冲击存储股",
+      "summary": "Google研发的TurboQuant量化压缩技术号称可将VRAM需求降低6倍，消息引发三星/SK Hynix/Micron股价大跌，但分析人士指该技术仍处研究阶段，主要优化推理VRAM而非训练HBM，对HBM超周期影响有限。",
+      "source": "TradingKey",
+      "published": "2026-03-26",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261722379-samsung-hk-hynix-memory-hbm-dram-google-turboquant-semi-conductor-tradingkey",
+      "tags": ["Google", "TurboQuant", "HBM", "MemoryCompression"],
       "insights": [
-        "流片地即原产地规则将影响美国对华出口管制的落地效果",
-        "国内设计公司赴海外代工需重新评估合规风险"
+        "存储压缩算法若成熟落地，将从需求端颠覆HBM超周期预测，需持续跟踪",
+        "短期看对HBM训练需求冲击有限，但推理场景长期内存优化趋势值得关注"
       ],
-      "actions": ["梳理在台/韩流片客户的原产地合规情况"]
-    },
-    {
-      "title": "3D NAND擦除速度提升23倍新材料突破",
-      "summary": "韩国KAIST研究团队开发新型材料，解决3D NAND瓶颈，擦除速度提升最高23倍，有望推动下一代NAND制程量产。",
-      "source": "TrendForce",
-      "published": "2026-03-24",
-      "url": "https://www.trendforce.com/news/2026/03/24/news-south-korea-reportedly-tackles-3d-nand-bottleneck-with-new-material-achieving-up-to-23x-faster-erase-speed/",
-      "tags": ["NAND", "3DNAND", "Materials", "Research"],
-      "insights": [
-        "新材料若商业化将大幅提升NAND存储密度与性能",
-        "存储技术演进对SSD控制器IP设计提出更高要求"
-      ],
-      "actions": ["关注KAIST成果产业化进程及IP布局"]
-    },
-    {
-      "title": "ALD前驱体厂商安德科铭科创板辅导，长鑫入股",
-      "summary": "国产ALD前驱体材料商安德科铭拟登陆科创板，在辅导前长��科技（DRAM龙头）已完成入股，战略意义显著。",
-      "source": "财联社",
-      "published": "2026-03-20",
-      "url": "https://www.cls.cn/detail/2319878",
-      "tags": ["ALD", "Materials", "Domestic", "IPO"],
-      "insights": [
-        "长鑫入股ALD材料商标志国内存储产业链垂直整合加速",
-        "前驱体国产化是先进制程材料自主的关键一环"
-      ],
-      "actions": ["跟踪国产前驱体材料认证进展，评估供应链替代可能"]
+      "actions": ["关注TurboQuant技术成熟度更新，适时调整长期HBM备货策略预判"]
     }
   ]
 }

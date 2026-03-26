@@ -866,6 +866,252 @@
         "SiemensEDA",
         "Localization"
       ]
+    },
+    {
+      "title": "中芯国际2025年报净利增36%",
+      "summary": "中芯国际2025年营收673亿元增16%，净利润50.41亿元增36%，蝉联全球纯晶圆代工第二，2026年资本开支维持高位持���扩产。",
+      "source": "新浪财经",
+      "published": "2026-03-26",
+      "url": "https://finance.sina.com.cn/jjxw/2026-03-26/doc-inhsiqks2686393.shtml",
+      "tags": [
+        "SMIC",
+        "Foundry",
+        "Earnings",
+        "Capex"
+      ],
+      "_version": "v20260327-0602",
+      "_period": "morning",
+      "_generatedAt": "2026-03-27T06:02:00+08:00"
+    },
+    {
+      "title": "长鑫存储收入翻倍挑战HBM三巨头",
+      "summary": "Bloomberg报道CXMT 2025年收入翻超一倍至80亿美元，年内IPO在即，积极布局HBM产品直接挑战SK Hynix、三星和美光在AI存储市场���地位。",
+      "source": "Bloomberg",
+      "published": "2026-03-26",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-26/cxmt-potentially-challenges-sk-hynix-samsung-micron-in-hbm-supply-for-ai",
+      "tags": [
+        "CXMT",
+        "HBM",
+        "DomesticMemory",
+        "IPO"
+      ],
+      "_version": "v20260327-0602",
+      "_period": "morning",
+      "_generatedAt": "2026-03-27T06:02:00+08:00"
+    },
+    {
+      "title": "SK Hynix秘密申报美国上市",
+      "summary": "SK Hynix秘密向美国SEC提交上市申请，2026年内完成ADR发行，目标融资70至140亿美元，资金全部投向HBM扩产与先进封装设施，HBM专属新厂预计年底投产。",
+      "source": "CNBC",
+      "published": "2026-03-25",
+      "url": "https://www.cnbc.com/2026/03/25/sk-hynix-confidential-us-listing-adr-ai-memory.html",
+      "tags": [
+        "SKHynix",
+        "HBM",
+        "IPO",
+        "AdvancedPackaging"
+      ],
+      "_version": "v20260327-0602",
+      "_period": "morning",
+      "_generatedAt": "2026-03-27T06:02:00+08:00"
+    },
+    {
+      "title": "Broadcom警告TSMC产能已达极限",
+      "summary": "Broadcom高管公开警告TSMC产能已触及上限，AI芯片供应链全面受限，短缺从晶圆蔓延至激光器件和PCB，新产能最早2027年才能缓解紧张局面。",
+      "source": "SemiMedia",
+      "published": "2026-03-26",
+      "url": "https://www.semimedia.cc/20828.html",
+      "tags": [
+        "Broadcom",
+        "TSMC",
+        "CapacityBottleneck",
+        "SupplyChain"
+      ],
+      "_version": "v20260327-0602",
+      "_period": "morning",
+      "_generatedAt": "2026-03-27T06:02:00+08:00"
+    },
+    {
+      "title": "TSMC新4厂建前已全面预订满",
+      "summary": "TSMC在台湾新建第4座晶圆厂尚未开工便已被订单填满，支持2nm/A16制程，2026年前两个月收入同比增近30%，全年指引增长约30%。",
+      "source": "ICO Optics",
+      "published": "2026-03-25",
+      "url": "https://www.ico-optics.org/tsmcs-new-fab-4-fully-booked-before-construction-begins/",
+      "tags": [
+        "TSMC",
+        "Fab4",
+        "2nm",
+        "AI-Demand"
+      ],
+      "_version": "v20260327-0602",
+      "_period": "morning",
+      "_generatedAt": "2026-03-27T06:02:00+08:00"
+    },
+    {
+      "title": "三星73亿美元加码AI芯片竞争",
+      "summary": "三星2026年半导体投资增22%至730亿美元，扩大HBM4产能、追赶TSMC良率、新布局GaN代工，HBM4自2026年2���已开始量产爬坡。",
+      "source": "Evertiq",
+      "published": "2026-03-25",
+      "url": "https://evertiq.com/news/2026-03-25-samsung-unleashes-73-billion-blitz-in-ai-chips-race",
+      "tags": [
+        "Samsung",
+        "HBM4",
+        "GaN",
+        "CapexBlitz"
+      ],
+      "_version": "v20260327-0602",
+      "_period": "morning",
+      "_generatedAt": "2026-03-27T06:02:00+08:00"
+    },
+    {
+      "title": "三星SK Hynix追加中国工厂投资",
+      "summary": "三星和SK Hynix双双增加在华工厂资本开支扩大存储芯片产量，在美国出口管制限制先进产品的背景下，中国工厂仍是重要成熟制程产能基地。",
+      "source": "Digitimes",
+      "published": "2026-03-26",
+      "url": "https://www.digitimes.com/news/a20260326PD230/samsung-sk-hynix-china-demand-production-2025.html",
+      "tags": [
+        "Samsung",
+        "SKHynix",
+        "ChinaFab",
+        "MemoryExpansion"
+      ],
+      "_version": "v20260327-0602",
+      "_period": "morning",
+      "_generatedAt": "2026-03-27T06:02:00+08:00"
+    },
+    {
+      "title": "半导体涨价潮持续，中国厂商抢份额",
+      "summary": "全球涨价浪潮下中国本土晶圆厂产线超负荷运转，中芯资本开支维持81亿美元高位，国产设备国产化率从2017年13%升至2024年20%，国��厂商加速抢占市场份额。",
+      "source": "新浪财经",
+      "published": "2026-03-25",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-03-25/doc-inhseupu0962708.shtml",
+      "tags": [
+        "SMIC",
+        "DomesticEquipment",
+        "PricingRise",
+        "Localization"
+      ],
+      "_version": "v20260327-0602",
+      "_period": "morning",
+      "_generatedAt": "2026-03-27T06:02:00+08:00"
+    },
+    {
+      "title": "Micron HBM4超级周期2026达峰",
+      "summary": "Micron 2026年HBM4量产爬坡加速，AI存储超级周期高峰期，HBM4需求持续超全球供给，ASML/Applied Materials设备订单大幅增加。",
+      "source": "FinancialContent",
+      "published": "2026-03-26",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-26-micron-crushes-expectations-in-2026-memory-supercycle-peak-as-hbm4-demand-hits-fever-pitch",
+      "tags": [
+        "Micron",
+        "HBM4",
+        "MemorySupercycle",
+        "AMAT"
+      ],
+      "_version": "v20260327-0602",
+      "_period": "morning",
+      "_generatedAt": "2026-03-27T06:02:00+08:00"
+    },
+    {
+      "title": "Arm AGI CPU股价涨16%，2031年目标150亿",
+      "summary": "Arm AGI CPU发布后股价涨逾16%，CEO确认2031年芯片业务收入目标150亿美元，公司总收入250亿美元，Meta为首批合作伙伴，50余家公司支持。",
+      "source": "CNBC",
+      "published": "2026-03-25",
+      "url": "https://www.cnbc.com/amp/2026/03/25/arm-stock-chip-revenue-agi-cpu.html",
+      "tags": [
+        "Arm",
+        "AGI-CPU",
+        "DataCenter",
+        "IPtoSilicon"
+      ],
+      "_version": "v20260327-0602",
+      "_period": "morning",
+      "_generatedAt": "2026-03-27T06:02:00+08:00"
+    },
+    {
+      "title": "Synopsys+三星联合推多芯片设计",
+      "summary": "Synopsys与三星联合验证2.5D插层设计整合SoC、DRAM与HBM4 PHY，加速Chiplet多芯片创新，支持2nm制程，为下一代AI加速器提供完整EDA支持。",
+      "source": "Edge AI and Vision Alliance",
+      "published": "2026-03-26",
+      "url": "https://www.edge-ai-vision.com/2026/03/accelerating-multi-die-innovation-how-synopsys-and-samsung-are-shaping-chip-design/",
+      "tags": [
+        "Synopsys",
+        "Samsung",
+        "Chiplet",
+        "HBM4-PHY"
+      ],
+      "_version": "v20260327-0602",
+      "_period": "morning",
+      "_generatedAt": "2026-03-27T06:02:00+08:00"
+    },
+    {
+      "title": "Cadence EDA需求因AI芯片设计激增",
+      "summary": "AI驱动芯片设计复杂度上升，Chiplet架构与2nm制程使PPA优化难度倍增，Cadence AI集成EDA工具需求大幅增长，正扩充AI辅助功耗/信号完整性分析产品线。",
+      "source": "Ad Hoc News",
+      "published": "2026-03-25",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/cadence-design-systems-stock-faces-ai-driven-design-demand-surge-amid-chip/68979553",
+      "tags": [
+        "Cadence",
+        "EDA",
+        "Chiplet",
+        "AI-PPA"
+      ],
+      "_version": "v20260327-0602",
+      "_period": "morning",
+      "_generatedAt": "2026-03-27T06:02:00+08:00"
+    },
+    {
+      "title": "Cerebras超大晶圆AI芯片挑战NVIDIA",
+      "summary": "Cerebras Systems采用晶圆级AI芯片（WSE）全栈颠覆NVIDIA思路，已入驻AWS，瞄准AI推理加速数百亿美元市场，估值300亿元人民币。",
+      "source": "36氪",
+      "published": "2026-03-26",
+      "url": "https://36kr.com/p/2839556744924039",
+      "tags": [
+        "Cerebras",
+        "WSE",
+        "AI-Inference",
+        "TSMC"
+      ],
+      "_version": "v20260327-0602",
+      "_period": "morning",
+      "_generatedAt": "2026-03-27T06:02:00+08:00"
+    },
+    {
+      "title": "国产半导体设备ETF单日涨超3%",
+      "summary": "半导体设备ETF万家早盘涨超3%，受国产替代+需求扩容双驱动，中微公司/北方华创/拓荆科技等强势，先进封装需求外溢带动国产设备厂商导入窗口扩大。",
+      "source": "新浪财经",
+      "published": "2026-03-25",
+      "url": "https://finance.sina.com.cn/jjxw/2026-03-25/doc-inhseixy1039525.shtml",
+      "tags": [
+        "DomesticEquipment",
+        "Localization",
+        "Chiplet",
+        "InvestmentSignal"
+      ],
+      "_version": "v20260327-0602",
+      "_period": "morning",
+      "_generatedAt": "2026-03-27T06:02:00+08:00"
+    },
+    {
+      "title": "Google TurboQuant内存压缩冲击存储股",
+      "summary": "Google TurboQuant量化压缩技术号称降低VRAM需求6倍，消息冲击三星/SK Hynix/Micron股价，但分析指仅影响推理VRAM而非训练HBM，对超周期影��有限。",
+      "source": "TradingKey",
+      "published": "2026-03-26",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261722379-samsung-hk-hynix-memory-hbm-dram-google-turboquant-semi-conductor-tradingkey",
+      "tags": [
+        "Google",
+        "TurboQuant",
+        "HBM",
+        "MemoryCompression"
+      ],
+      "_version": "v20260327-0602",
+      "_period": "morning",
+      "_generatedAt": "2026-03-27T06:02:00+08:00"
+    },
+    {
+      "version": "v20260327-0602",
+      "period": "morning",
+      "generatedAt": "2026-03-27T06:02:00+08:00",
+      "count": 15
     }
   ]
 }
