@@ -1,112 +1,113 @@
 {
-  "version": "v20260325-1304",
-  "generatedAt": "2026-03-25T13:04:00+08:00",
+  "version": "v20260326-1301",
+  "generatedAt": "2026-03-26T13:01:00+08:00",
+  "commit": "pending",
   "period": "midday",
-  "commit": "",
+  "window": "2026-03-26T07:00:00+08:00 ~ 2026-03-26T13:00:00+08:00",
   "items": [
     {
-      "title": "SK Hynix斥80亿美元购ASML EUV设备",
-      "summary": "SK Hynix与ASML签订约11.95万亿韩元（约80亿美元）EUV设备采购协议，用于支撑HBM4及先进DRAM量产，创ASML史上最大单笔披露订单。",
-      "source": "Reuters",
-      "published": "2026-03-24",
-      "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-buy-euv-scanners-8-billion-asml-korea-2026-03-24/",
-      "tags": ["HBM4", "ASML", "EUV", "memory"],
+      "title": "Arm首发自研AGI CPU芯片",
+      "summary": "Arm发布首款自研数据中心处理器AGI CPU，基于TSMC 3nm，136核，Meta为首发客户，股价涨逾16%，目标年营收150亿美元。",
+      "source": "CNBC / TrendForce",
+      "published": "2026-03-25",
+      "url": "https://www.trendforce.com/news/2026/03/25/news-arm-unveils-first-agi-cpu-on-tsmc-3nm-meta-among-customers-promising-up-to-2x-performance-vs-x86/",
+      "tags": ["Arm", "IP", "DataCenter", "TSMC"],
       "insights": [
-        "EUV扩产决定确立HBM4竞争格局，先手锁产能者将主导AI存储市场",
-        "High-NA EUV交付风险若延迟将波及HBM4规模化节点"
+        "Arm从IP授权商转型为芯片供应商，直接冲击Qualcomm/Ampere等Neoverse生态客户",
+        "TSMC 3nm产能进一步收紧，对同节点竞争客户产生排挤效应"
       ],
-      "actions": ["关注ASML交付时间表及竞对SKH策略"]
+      "actions": ["评估现有Arm IP授权协议条款变化风险"]
     },
     {
-      "title": "TSMC亚利桑那Fab21提速扩建",
-      "summary": "TSMC亚利桑那Fab21二期3nm产线设备安装提前至2026年10月，TrendForce称美国四座Fab已全部被预订，未来台湾sub-2nm产线同步推进。",
-      "source": "TrendForce",
-      "published": "2026-03-24",
-      "url": "https://www.trendforce.com/news/2026/03/24/news-tsmc-reportedly-eyes-2h27-3nm-mass-production-at-arizona-fab-2-four-u-s-fabs-said-to-be-fully-booked/",
-      "tags": ["TSMC", "foundry", "advanced-node", "capacity"],
+      "title": "TSMC董事会批440亿美元扩产",
+      "summary": "TSMC董事会批准逾440亿美元资本支出用于先进制程、先进封装及相关不动产，亚利桑那Fab4已提前售罄至2027年底。",
+      "source": "TipRanks / ico-optics",
+      "published": "2026-03-25",
+      "url": "https://www.tipranks.com/news/company-announcements/tsmc-details-february-2026-insider-moves-and-approves-massive-capacity-expansion",
+      "tags": ["TSMC", "Foundry", "CapEx", "Arizona"],
       "insights": [
-        "美国四座Fab满产预订反映AI需求高位持续，供给端仍是核心瓶颈",
-        "2nm节点加速布局意味着2027年前CoWoS等先��封装需求将同步爆发"
+        "2026前两月营收同比+30%，先进节点占晶圆收入77%，AI超级周期验证",
+        "美国客户愿付25-30%溢价换取供应安全，采购谈判筹码减弱"
       ],
-      "actions": ["持续追踪TSMC产能预订动态以优化流片时间窗口"]
+      "actions": ["尽早锁定2027年以后TSMC先进节点产能配额"]
     },
     {
-      "title": "Broadcom警告TSMC产能为2026瓶颈",
-      "summary": "TrendForce援引报道称Broadcom已将TSMC产能列为2026年最大供应瓶颈，激光器及PCB同样面临供应挤压，AI ASIC需求激增是主因。",
-      "source": "TrendForce",
-      "published": "2026-03-24",
-      "url": "https://semiwiki.com/forum/threads/broadcom-reportedly-flags-tsmc-capacity-as-2026-bottleneck-with-lasers-and-pcbs-also-in-the-squeeze.24817/",
-      "tags": ["foundry", "supply-chain", "capacity", "ASIC"],
+      "title": "Broadcom示警TSMC产能告急",
+      "summary": "Broadcom公开表示TSMC产能已触及上限，AI基建订单消耗速度超预期，正评估将部分ASIC/网络芯片订单转移至Samsung Foundry。",
+      "source": "朝鲜Biz / IndexBox",
+      "published": "2026-03-25",
+      "url": "https://www.indexbox.io/blog/broadcom-reports-tsmc-supply-chain-constraints-affecting-ai-chip-production-in-2026/",
+      "tags": ["Broadcom", "Foundry", "ASIC", "SupplyChain"],
       "insights": [
-        "AI ASIC产能争抢已向上游传导至激光器等配套材料，供应链长鞭效应显现",
-        "先进封装及配套料件的备货节奏需提前6-12个月锁定"
+        "AI算力芯片正占据TSMC优先分配，非AI客户面临排期延后风险",
+        "Samsung Foundry有望借TSMC满产获得高端客户回流机会"
       ],
-      "actions": ["评估CoWoS/SoIC配套材料的长期框架协议可行性"]
+      "actions": ["跟踪Samsung Foundry 3nm良率进展，评估备份方案可行性"]
     },
     {
-      "title": "NVIDIA Rubin R100将首用HBM4",
-      "summary": "NVIDIA下一代GPU架构Rubin（R100）预计2026年末推出，基于TSMC 3nm工艺，将首批搭载HBM4，带宽与算力较Blackwell提升约3倍。",
-      "source": "FinancialContent",
-      "published": "2026-03-24",
-      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-24-the-architect-of-the-intelligence-age-nvidias-high-stakes-earnings-and-the-road-to-5-trillion",
-      "tags": ["NVIDIA", "HBM4", "GPU", "roadmap"],
+      "title": "SEMICON China 2026上海开幕",
+      "summary": "SEMICON China 2026于3月25日在上海新国际博览中心开幕，1500家展商，覆盖芯片设计、制造、封测、设备材料全产业链，中微等龙头集中发布新品。",
+      "source": "新浪财经",
+      "published": "2026-03-25",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-03-25/doc-inhsffcq0906957.shtml",
+      "tags": ["SEMICON", "China", "Equipment", "Fab"],
       "insights": [
-        "Rubin量产时间节点将直接拉动HBM4及TSMC 3nm产能需求，锁量时机紧迫",
-        "SK Hynix的EUV投资与Rubin上市节点深度绑定"
+        "中微推出新一代ICP刻蚀设备及MicroLED MOCVD，国产设备替代提速",
+        "国内半导体设备ETF联动上涨，反映资本市场对国产化进度的乐观预期"
       ],
-      "actions": ["跟进Rubin HBM4供应商资质认证进展"]
+      "actions": ["关注展会期间国产刻蚀/薄膜设备新品规格，更新供应商评估清单"]
     },
     {
-      "title": "Arm首次亲自设计AI芯片",
-      "summary": "Arm宣布将自主研发首款AI服务器芯片，交由TSMC代工生产，标志其从IP授权商向芯片设计商战略转型，直接进入数据中心市场竞争。",
+      "title": "中国成熟制程产能将占全球42%",
+      "summary": "路透社引SEMI数据：中国22-40nm成熟制程产能占全球比例将从2026年37%升至2028年42%，AI需求推动各厂加速扩产，供应链复杂度上升。",
       "source": "Reuters",
       "published": "2026-03-25",
-      "url": "https://www.reuters.com/technology/arm-plans-its-first-ai-chip-tsmc-production-2026-03-24/",
-      "tags": ["Arm", "AI-chip", "foundry", "IP"],
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-boom-accelerates-chinas-chip-industry-growth-as-demand-strains-supply-chain/articleshow/129803121.cms",
+      "tags": ["China", "MatureNode", "Foundry", "Capacity"],
       "insights": [
-        "Arm自研芯片将与Qualcomm/AWS/Ampere形成直接竞争，IP授权模式面临内部稀释风险",
-        "晶圆厂获得新高价值客户，但TSMC产能资源将进一步收紧"
+        "成熟制程扩产加剧全球供过于求风险，MCU/功率器件价格压力将持续",
+        "AI带动国内晶圆厂本土化采购提速，设备/材料国产替代进入快车道"
       ],
-      "actions": ["评估Arm转型对IP授权客户关系的潜在影响"]
+      "actions": ["重新评估22-28nm成熟制程供应商的长期价格谈判策略"]
     },
     {
-      "title": "Synopsys收购Ansys整合EDA版图",
-      "summary": "Synopsys完成Ansys收购整合，形成覆盖电子-多物理场仿真的完整EDA+仿真平台，美国出口管制对3nm以下EDA工具限制持续施压中国市场。",
-      "source": "FinancialContent",
-      "published": "2026-03-24",
-      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-24-the-architect-of-the-angstrom-era-a-deep-dive-into-synopsys-snps-in-2026",
-      "tags": ["EDA", "Synopsys", "Ansys", "export-control"],
+      "title": "Qualcomm与三星深化共同设计",
+      "summary": "高通高管表示与三星已形成'One Team'协同，从CPU/GPU/AI到显示/摄像联合开发周期长达3年，合作从移动延伸至机器人领域。",
+      "source": "Korea Herald / Cyprus Shipping News",
+      "published": "2026-03-25",
+      "url": "https://cyprusshippingnews.com/2026/03/26/cooperation-between-samsung-and-qualcomm-extends-from-mobile-to-robotics/",
+      "tags": ["Qualcomm", "Samsung", "Foundry", "CoDesign"],
       "insights": [
-        "3nm以下EDA出口管制收紧，国内EDA厂商替代需求进一步上升",
-        "Synopsys+Ansys协同将加速AI辅助设计验证，缩短流片周期"
+        "Qualcomm将三星Foundry从代工方升级为联合研发伙伴，绑定深度降低转换可能性",
+        "机器人芯片需求崛起，SoC设计公司需提前规划算力+功效平衡的工艺节点选择"
       ],
-      "actions": ["梳理国内EDA工具在sub-3nm流程中的可用性清单"]
+      "actions": ["关注Qualcomm下一代Snapdragon X Elite在三星代工节点上的良率数据"]
     },
     {
-      "title": "特朗普政策削弱美国半导体研发",
-      "summary": "纽约时报评论指出特朗普政府削减NatCast（美国半导体研究联盟）资助，进一步削弱美国在芯片领域的长期竞争力，产业界表示担忧。",
-      "source": "The New York Times",
-      "published": "2026-03-24",
-      "url": "https://www.nytimes.com/2026/03/24/opinion/semiconductor-chips-natcast-biden-research.html",
-      "tags": ["US-policy", "R&D", "CHIPS-Act", "geopolitics"],
+      "title": "中国AI调用���2月首超美国",
+      "summary": "36氪报道，2026年2月中国AI模型调用量首次超过美国，四款国产大模型跻身全球前五，国产AI算力需求进入指数级增长阶段。",
+      "source": "36氪",
+      "published": "2026-03-25",
+      "url": "https://36kr.com/p/3700980530851712",
+      "tags": ["AIChip", "China", "Compute", "Demand"],
       "insights": [
-        "美国研发资金削减短期内利好中国追赶窗口，中长期影响需持续观察",
-        "CHIPS Act落地执行不稳定性增加美资晶圆厂扩产的政策风险"
+        "国内算力芯片需求爆发，华为昇腾/寒武纪等国产替代品优先级显��提升",
+        "AI推理算力需求将拉动先进封装（CoWoS/HBM）国产化配套需求"
       ],
-      "actions": ["关注美国CHIPS补贴政策走向对在美流片客户的影响"]
+      "actions": ["梳理国内AI算力芯片主要采购路径及认证周期，为客户提供备选供应链方案"]
     },
     {
-      "title": "半导体市场预计2026年达9750亿美元",
-      "summary": "Deloitte 2026年展望报告预测全球半导体市场年销售额将达9750亿美元，生成式AI芯片收入接近5000亿美元，约占行业总产出一半。",
-      "source": "Deloitte",
+      "title": "AI存储需求抢占传统手机产能",
+      "summary": "三星、SK海力士、美光纷纷将产能转向AI芯片（HBM），传统手机存储供应减少，市场出现缺口，旧手机内存颗粒二手价格暴涨。",
+      "source": "新唐人",
       "published": "2026-03-24",
-      "url": "https://serrarigroup.com/wto-warns-of-an-incredible-threat-to-global-trade-now/",
-      "tags": ["market-outlook", "AI-chip", "revenue", "generative-AI"],
+      "url": "https://www.ntdtv.com/b5/2026/03/24/a104079444.html",
+      "tags": ["Memory", "HBM", "Storage", "SupplyShift"],
       "insights": [
-        "AI芯片占比将超过半个行业，供应链各环节需按AI需求优先级重新排序",
-        "市场接近万亿规模意味着供应链协同效率的重要性急剧上升"
+        "HBM4产能2026年已全部售罄（Samsung），消费级存储供应趋紧将影响手机/PC产品交期",
+        "存储厂产能结构性转移是长期趋势，采购应提前锁定传统DRAM/NAND合同量"
       ],
-      "actions": ["参考此数据支撑客户AI芯片需求预测及预算申请"]
+      "actions": ["与存储供应商确认H2 2026常规DRAM/NAND交期及备货策略"]
     }
   ]
 }
