@@ -1,6 +1,96 @@
 {
   "items": [
     {
+      "url": "https://www.ico-optics.org/normal-computing-secures-50m-from-samsung-to-reduce-ai-costs/",
+      "title": "Normal Computing获三星5000万美元融资",
+      "published": "2026-03-27",
+      "addedAt": "2026-03-28T06:02:00+08:00"
+    },
+    {
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-26-arm-holdings-surges-16-as-agi-cpu-roadmap-reshapes-the-ai-landscape",
+      "title": "Arm股价涨16%，目标2031年营收250亿",
+      "published": "2026-03-26",
+      "addedAt": "2026-03-28T06:02:00+08:00"
+    },
+    {
+      "url": "https://j2sourcing.com/blog/helium-crisis-semiconductor-manufacturing-electronic-components-2026/",
+      "title": "氦气危机加剧CoWoS封装短缺",
+      "published": "2026-03-27",
+      "addedAt": "2026-03-28T06:02:00+08:00"
+    },
+    {
+      "url": "https://www.digitimes.com/news/a20260326VL208/amd-demand-2026-semicon-china-growth.html",
+      "title": "AMD警告AI效率提升反推更大需求",
+      "published": "2026-03-26",
+      "addedAt": "2026-03-28T06:02:00+08:00"
+    },
+    {
+      "url": "https://semiwiki.com/forum/threads/ai-boom-accelerates-chinas-chip-industry-growth-as-demand-strains-supply-chain.24838/",
+      "title": "中国成熟制程产能2028年达42%",
+      "published": "2026-03-27",
+      "addedAt": "2026-03-28T06:02:00+08:00"
+    },
+    {
+      "url": "https://semiwiki.com/eda/synopsys/367868-synopsys-advances-hardware-assisted-verification-for-the-ai-era/",
+      "title": "Synopsys推AI时代硬件辅助验证",
+      "published": "2026-03-26",
+      "addedAt": "2026-03-28T06:02:00+08:00"
+    },
+    {
+      "url": "https://lcdproduct.com/semicon-china-2026-ai-efficiency-fuels-demand-growth-under-jevons-paradox-amd-warns/",
+      "title": "Siemens EDA推AI驱动设计工具",
+      "published": "2026-03-26",
+      "addedAt": "2026-03-28T06:02:00+08:00"
+    },
+    {
+      "url": "https://finance.sina.com.cn/roll/2026-03-26/doc-inhshtew0338717.shtml",
+      "title": "AI需求攻陷CPU市场，涨价15%",
+      "published": "2026-03-26",
+      "addedAt": "2026-03-28T06:02:00+08:00"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5280786304731781.html",
+      "title": "中芯国际华虹加速生产先进半导体",
+      "published": "2026-03-27",
+      "addedAt": "2026-03-28T06:02:00+08:00"
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5281001346435112.html",
+      "title": "中微/长川等国产设备SEMICON亮相",
+      "published": "2026-03-27",
+      "addedAt": "2026-03-28T06:02:00+08:00"
+    },
+    {
+      "url": "https://www.hotchip.com.cn/xjfzca/",
+      "title": "先进封装成AI芯片核心瓶颈",
+      "published": "2026-03-27",
+      "addedAt": "2026-03-28T06:02:00+08:00"
+    },
+    {
+      "url": "https://www.36kr.com/p/3739559184039940",
+      "title": "SEMICON China 2026北方华创发布混合键合设备",
+      "published": "2026-03-27",
+      "addedAt": "2026-03-28T06:02:00+08:00"
+    },
+    {
+      "url": "https://www.prismnews.com/news/elon-musks-terafab-chip-megafactory-plan-faces-investor-and",
+      "title": "台积电2nm产能已售罄至2026底",
+      "published": "2026-03-27",
+      "addedAt": "2026-03-28T06:02:00+08:00"
+    },
+    {
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musks-terafab-semiconductor-project-could-cost-usd5-trillion-bernstein-claims-herculean-effort-would-cost-more-than-70-percent-of-the-total-yearly-us-government-budget",
+      "title": "马斯克宣布Terafab芯片超级工厂",
+      "published": "2026-03-27",
+      "addedAt": "2026-03-28T06:02:00+08:00"
+    },
+    {
+      "url": "https://newsroom.arm.com/news/arm-agi-cpu-launch",
+      "title": "Arm发布首款自研服务器CPU",
+      "published": "2026-03-24",
+      "addedAt": "2026-03-28T06:02:00+08:00"
+    },
+    {
       "title": "英飞凌/NXP宣布全线涨价",
       "summary": "英飞凌主流型号上涨5-15%，NXP宣布4月1日起调价，AI需求爆发+全产业链成本压力驱动此轮涨价潮。",
       "source": "36氪",
@@ -1443,5 +1533,6 @@
       "_period": "evening",
       "_generatedAt": "2026-03-27T20:00:00+08:00"
     }
-  ]
+  ],
+  "lastUpdated": "2026-03-28T06:02:00+08:00"
 }
