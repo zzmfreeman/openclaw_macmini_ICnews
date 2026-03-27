@@ -1,168 +1,204 @@
 {
-  "version": "v20260326-2000",
-  "generatedAt": "2026-03-26T20:00:00+08:00",
-  "commit": "0c16358",
+  "version": "v20260327-2000",
+  "generatedAt": "2026-03-27T20:00:00+08:00",
+  "commit": "",
   "period": "evening",
   "items": [
     {
-      "title": "成熟制程晶圆代工4月涨价10%",
-      "summary": "联电、世界先进、力积电等主要晶圆厂最快将于4月起调升报价，涨幅最高达10%以上，成熟制程供需错配加剧。",
-      "source": "新浪财经",
-      "published": "2026-03-25",
-      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-03-25/doc-inhseupu0962708.shtml",
-      "tags": [
-        "Foundry",
-        "MaturNode",
-        "PricingRise",
-        "SMIC"
-      ],
-      "insights": [
-        "8英寸成熟制程供给收紧，采购需提前锁量以规避4月涨价窗口",
-        "中国大陆晶圆厂产能利用率已超载，交期将持续延长"
-      ],
-      "actions": "立即评估Q2成熟制程晶圆备货策略"
-    },
-    {
-      "title": "��国芯片产业AI驱动需求超预期",
-      "summary": "Reuters报道SEMICON China 2026现场，多家供应商表示中国芯片产业增长速度超预期，AI需求令供应链持续承压。",
-      "source": "Reuters",
-      "published": "2026-03-25",
-      "url": "https://www.reuters.com/business/autos-transportation/ai-boom-accelerates-chinas-chip-industry-growth-demand-strains-supply-chain-2026-03-25/",
-      "tags": [
-        "China",
-        "AIChip",
-        "SupplyChain",
-        "SEMICON"
-      ],
-      "insights": [
-        "AI推理芯片需求持续放量，国内算力芯片供应链面临结构性缺口",
-        "上海SEMICON展会释放明确信号：中国半导体国产替代进程加速"
-      ],
-      "actions": "关注SEMICON China 2026展会重��技术动态"
-    },
-    {
-      "title": "三星计划在美新建晶圆厂",
-      "summary": "TrendForce报告指出，因台积电先进制程产能吃紧，三星正考虑在美国新建晶圆厂以承接溢出订单。",
-      "source": "SemiWiki",
-      "published": "2026-03-25",
-      "url": "https://semiwiki.com/forum/threads/trendforce-samsung-reportedly-to-build-a-new-wafer-fab-in-the-u-s.24831/",
+      "title": "三星2nm Exynos 2800流片，1.4nm延期",
+      "summary": "三星计划2026年完成2nm Exynos 2800流片，自研CPU/GPU替代高通/AMD依赖，但1.4nm制程因良率问题推迟量产至2028年后。",
+      "source": "TrendForce",
+      "published": "2026-03-27",
+      "url": "https://www.trendforce.com/news/2026/03/27/news-samsung-reportedly-eyes-2026-tape-out-for-2nm-exynos-2800-1-4nm-shift-delayed/",
       "tags": [
         "Samsung",
-        "Foundry",
-        "USFab",
-        "Geopolitics"
+        "2nm",
+        "Exynos",
+        "Foundry"
       ],
       "insights": [
-        "台积电产能瓶颈推动Samsung抢夺高端代工订单，代工格局面临再平衡",
-        "美国本土晶圆厂扩张加速，地缘产能布局成供应链风险对冲新变量"
+        "三星2nm良率瓶颈持续，客户外流TSMC趋势未止",
+        "Exynos 2800自研CPU/GPU降低对高通授权依赖，IP采购格局生变"
       ],
-      "actions": "评估三星代工作为备选晶圆厂的可行性"
+      "actions": [
+        "跟踪三星GAA 2nm产能爬坡进度，评估备选代工方案"
+      ],
+      "_version": "v20260327-2000",
+      "_period": "evening",
+      "_generatedAt": "2026-03-27T20:00:00+08:00"
     },
     {
-      "title": "Broadcom称台积电产能已达上限",
-      "summary": "Broadcom正式表示台积电先进制程产能已达上限，正积极布局三星代工以满足ASIC芯片生���需求。",
-      "source": "朝鲜商业日报",
-      "published": "2026-03-25",
-      "url": "https://biz.chosun.com/en/en-it/2026/03/25/IS2EFK7SEND2DNODV65Z7ZXITI/",
+      "title": "SK Hynix目标750亿净现金，HBM4下半年放量",
+      "summary": "SK Hynix宣布设$750亿净现金目标支撑AI扩产，HBM3E今年维持主力，HBM4将于下半年逐步放量，HBM4E样品年内出货。",
+      "source": "Korea Market Journal",
+      "published": "2026-03-27",
+      "url": "https://www.kmjournal.net/news/articleView.html?idxno=9744",
+      "tags": [
+        "HBM4",
+        "SKHynix",
+        "AI-Memory",
+        "Capex"
+      ],
+      "insights": [
+        "HBM4下半年放量节点确认，供给侧2H26边际有所缓解",
+        "AI存储采购商可预期H2价格谈判空间略微扩大"
+      ],
+      "actions": [
+        "跟踪SK Hynix HBM4 H2放量时间表，及时调整长约策略"
+      ],
+      "_version": "v20260327-2000",
+      "_period": "evening",
+      "_generatedAt": "2026-03-27T20:00:00+08:00"
+    },
+    {
+      "title": "氦气危机叠加CoWoS封满，AI封装双重承压",
+      "summary": "全球氦气供应危机冲击晶圆制造，叠加TSMC CoWoS产能已售罄至2026年中，AI加速卡先进封装面临双重约束。",
+      "source": "J2 Sourcing",
+      "published": "2026-03-27",
+      "url": "https://j2sourcing.com/blog/helium-crisis-semiconductor-manufacturing-electronic-components-2026/",
+      "tags": [
+        "CoWoS",
+        "AdvancedPackaging",
+        "SupplyRisk",
+        "HeliumCrisis"
+      ],
+      "insights": [
+        "CoWoS+氦气双瓶颈下，AI服务器交付周期有进一步拉长风险",
+        "Nvidia Blackwell下游客户应评估Q3/Q4交付风险敞口"
+      ],
+      "actions": [
+        "与TSMC/封测伙伴核查CoWoS排期，预留缓冲周期"
+      ],
+      "glossary": [
+        {
+          "term": "CoWoS",
+          "desc": "台积电晶圆级封装技术，用于AI芯片高密度互连"
+        }
+      ],
+      "_version": "v20260327-2000",
+      "_period": "evening",
+      "_generatedAt": "2026-03-27T20:00:00+08:00"
+    },
+    {
+      "title": "Intel无力撼动TSMC，TSMC 2nm良率达65%",
+      "summary": "TSMC 2nm产能已被AI需求预订至2026年底，两条首批产线满载；Intel Foundry挑战收效甚微，TSMC代工主导地位稳固。",
+      "source": "Ad Hoc News",
+      "published": "2026-03-27",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/intel-s-challenge-fails-to-dent-tsmc-s-foundry-dominance/69001871",
+      "tags": [
+        "TSMC",
+        "2nm",
+        "IntelFoundry",
+        "FoundryWar"
+      ],
+      "insights": [
+        "TSMC 2nm良率65%+满产，议价权极强，后续扩产节奏决定价格走势",
+        "Intel Foundry短期难抢高端AI订单，差异化在成熟制程和封装"
+      ],
+      "actions": [
+        "关注TSMC 2nm产能分配公告，及早排入候补名单"
+      ],
+      "_version": "v20260327-2000",
+      "_period": "evening",
+      "_generatedAt": "2026-03-27T20:00:00+08:00"
+    },
+    {
+      "title": "中芯国际2025月产能破百万片，巩固代工第二",
+      "summary": "中芯国际2025年折合8英寸月产能突破100万片，产能利用率93.5%；对于2026年，公司预计销售收入增幅将高于可比同业平均。",
+      "source": "世界新闻网",
+      "published": "2026-03-26",
+      "url": "https://www.worldjournal.com/wj/story/121477/9405972",
+      "tags": [
+        "SMIC",
+        "Foundry",
+        "MaturNode",
+        "China"
+      ],
+      "insights": [
+        "中芯产能利用率93.5%+晶圆涨价5-20%，成熟制程成本中枢上移",
+        "国内Fabless客户需提前锁单，避免Q3订单窗口收窄"
+      ],
+      "actions": [
+        "核查中芯Q2/Q3产能窗口，提前沟通优先级排产"
+      ],
+      "_version": "v20260327-2000",
+      "_period": "evening",
+      "_generatedAt": "2026-03-27T20:00:00+08:00"
+    },
+    {
+      "title": "Broadcom：定制AI芯片是下一个万亿机遇",
+      "summary": "Motley Fool分析指Broadcom凭借AI ASIC设计能力（谷歌TPU等）与TSMC制造组合，在超大规模AI算力市场占据结构性优势，XPUC需求加速。",
+      "source": "Motley Fool",
+      "published": "2026-03-26",
+      "url": "https://www.fool.com/investing/2026/03/26/forget-gpus-custom-ai-chips-are-the-next-trillion/",
       "tags": [
         "Broadcom",
-        "TSMC",
-        "SamsungFoundry",
-        "ASIC"
+        "CustomASIC",
+        "XPUC",
+        "AI-Chip"
       ],
       "insights": [
-        "头部Fabless客户分散代工风险已成事实，三星Foundry拿单机会显著提升",
-        "ASIC定制芯片需求旺盛，代工产能争夺将延续至2026年底"
+        "ASIC替代GPU趋势加速，芯片设计服务商承接XPUC流片机会增多",
+        "国内AI ASIC Fabless可对标Broadcom路径，差异化攻垂直场景"
       ],
-      "actions": "跟踪台积电/三星先进制程产能窗口，为ASIC项目提前规划流片档期"
+      "actions": [
+        "评估自有或客户ASIC设计需求，布局先进封装+流片通道"
+      ],
+      "glossary": [
+        {
+          "term": "XPUC",
+          "desc": "专用于AI推理/训练的定制加速处理器，区别于通用GPU"
+        }
+      ],
+      "_version": "v20260327-2000",
+      "_period": "evening",
+      "_generatedAt": "2026-03-27T20:00:00+08:00"
     },
     {
-      "title": "Arm发布136核AGI服务器CPU",
-      "summary": "Arm推出面向数据中心的136核AGI CPU，基于Neoverse CSS V3架构，Synopsys提供全栈EDA与IP支持，目标市场规模500亿美元。",
-      "source": "SiliconANGLE",
-      "published": "2026-03-24",
-      "url": "https://siliconangle.com/2026/03/24/arm-launches-136-core-agi-cpu-data-centers/",
+      "title": "华工科技AI光模块营收大涨，海外扩张提速",
+      "summary": "华工科技2025年营收143.55亿元，AI光模块和海外业务成核心增长引擎，吸引嘉实、摩根士丹利等126家机构调研。",
+      "source": "新浪财经",
+      "published": "2026-03-27",
+      "url": "https://finance.sina.com.cn/stock/aigc/jgdy/2026-03-27/doc-inhskrwe2248949.shtml",
       "tags": [
+        "OpticalModule",
+        "AIInfra",
+        "China",
+        "HuagongTech"
+      ],
+      "insights": [
+        "AI光模块需求随数据中心算力扩张持续放量，国内厂商竞争格局改善",
+        "机构密集调研信号提示，AI算力配套光互连赛道获资本集中关注"
+      ],
+      "actions": [
+        "关注华工科技AI光模块产品线及供应链配套机会"
+      ],
+      "_version": "v20260327-2000",
+      "_period": "evening",
+      "_generatedAt": "2026-03-27T20:00:00+08:00"
+    },
+    {
+      "title": "Synopsys全栈EDA助力Arm AGI CPU 3nm量产",
+      "summary": "Arm使用Synopsys全栈设计工具组合，在TSMC 3nm节点完成136核AGI CPU设计验证，标志EDA全栈能力在先进节点量产中的关键角色。",
+      "source": "Futurum Group",
+      "published": "2026-03-26",
+      "url": "https://futurumgroup.com/insights/arms-15-billion-cpu-opportunity-hinges-on-agentic-data-center-design/",
+      "tags": [
+        "Synopsys",
+        "EDA",
         "Arm",
-        "AGI",
-        "CPU",
-        "DataCenter"
+        "3nm"
       ],
       "insights": [
-        "Arm从IP授权向自研芯片延伸，将颠覆数据中心CPU格局",
-        "Synopsys与Arm深度绑定，验证EDA+IP一体化方案的竞争壁垒"
+        "EDA全栈整合在先进节点成必选项，Synopsys/Cadence议价能力进一步增强",
+        "国内EDA生态需加速先进节点工具覆盖，3nm以下差距仍大"
       ],
-      "actions": "关注Arm AGI CPU生态对现有Arm IP授权客户的影响",
-      "glossary": [
-        {
-          "term": "AGI CPU",
-          "desc": "专为AI通用智能推理优化设计的高核心数服务器处理器"
-        },
-        {
-          "term": "Neoverse CSS",
-          "desc": "Arm面向云服务器的计算子系统参考设计平台"
-        }
-      ]
-    },
-    {
-      "title": "Siemens EDA推主动式AI缩短流片周期",
-      "summary": "SEMICON China 2026开幕主旨演讲中，Siemens EDA表示传统EDA已不够用，未来芯片设计工具必须基于AI Agentic架构，目标将设计周期缩短50%。",
-      "source": "Semiconductor Digest",
-      "published": "2026-03-26",
-      "url": "https://www.semiconductor-digest.com/semicon-china-2026-to-highlight-strategic-opportunities-in-the-era-of-ai-and-trillion-dollar-market-growth/",
-      "tags": [
-        "EDA",
-        "SiemensEDA",
-        "AgenticAI",
-        "ChipDesign"
+      "actions": [
+        "评估EDA工具链升级需求，提前对接Synopsys/Cadence 3nm PDK"
       ],
-      "insights": [
-        "EDA工具AI化提速，国产EDA厂商差距将在AI赋能层面进一步拉大",
-        "Agentic AI进入EDA领域是行业转折点，关注Synopsys/Cadence应对策略"
-      ],
-      "actions": "评估现有EDA合约中AI设计工具升级条款",
-      "glossary": [
-        {
-          "term": "Agentic AI",
-          "desc": "具备自主规划和执行能力的AI Agent，能在EDA流程中自动迭代优化"
-        }
-      ]
-    },
-    {
-      "title": "Qualcomm年初至今股价下跌24%",
-      "summary": "受存储短缺影响手机芯片销售、Apple潜在供应链切换预期压制，Qualcomm年内跌幅达24%，宣布200亿美元回购计划以提振信心。",
-      "source": "The Motley Fool",
-      "published": "2026-03-25",
-      "url": "https://www.fool.com/investing/2026/03/25/qualcomm-is-down-24-in-2026-and-just-announced-a-2/",
-      "tags": [
-        "Qualcomm",
-        "Mobile",
-        "Fabless",
-        "Buyback"
-      ],
-      "insights": [
-        "Qualcomm核心移动市场承压，手机供应链进入存量博弈周期",
-        "Apple自研基带进展加速，对高通依赖度持续降低是长期风险"
-      ],
-      "actions": "关注Qualcomm汽车/AI边缘芯片业务拓展进展作为对冲逻辑"
-    },
-    {
-      "title": "国产EDA进展超预期，西门子服务存在不确定性",
-      "summary": "券商研报指出国产EDA（概伦电子、广立微等）进展超预期，已覆盖模拟/存储/射频全流程，西门子EDA服务状态存在不确定性推动国产替代加速。",
-      "source": "证券时报网",
-      "published": "2026-03-26",
-      "url": "https://www.stcn.com/article/detail/1850119.html",
-      "tags": [
-        "EDA",
-        "DomesticEDA",
-        "SiemensEDA",
-        "Localization"
-      ],
-      "insights": [
-        "国产EDA已形成局部可替代能力，但数字布局布线仍是关键堵点",
-        "西门子EDA不确定性将加速国内设计公司EDA国产化采购决策"
-      ],
-      "actions": "排查现有流程对西门子EDA的依赖环节，提前做国产备胎规划"
+      "_version": "v20260327-2000",
+      "_period": "evening",
+      "_generatedAt": "2026-03-27T20:00:00+08:00"
     }
   ]
 }
