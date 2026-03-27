@@ -1112,6 +1112,100 @@
       "period": "morning",
       "generatedAt": "2026-03-27T06:02:00+08:00",
       "count": 15
+    },
+    {
+      "title": "Intel/AMD宣布CPU涨价10-15%",
+      "summary": "Intel和AMD双双通知客户3-4月起CPU涨价10-15%，服务器及部分消费级产品涵盖在内，AI推理负载推升服务器CPU供不应求，两家股价单日涨超7%。",
+      "source": "Nikkei Asia / GuruFocus",
+      "published": "2026-03-26",
+      "url": "https://www.gurufocus.com/news/8746841/amd-amd-and-intel-plan-cpu-price-hike-amid-rising-demand",
+      "tags": ["Intel", "AMD", "CPU-Pricing", "Supply-Shortage"],
+      "_version": "v20260327-1300",
+      "_period": "midday",
+      "_generatedAt": "2026-03-27T13:00:00+08:00"
+    },
+    {
+      "title": "中国公布RISC-V重大成果",
+      "summary": "中科院在2026中关村论坛宣布，"香山"开源RISC-V处理器创国际记录，"如意"OS率先支持RVA23标准，中国已建成完整RISC-V生态。",
+      "source": "新华社/人民日报",
+      "published": "2026-03-27",
+      "url": "https://english.news.cn/20260327/3b8302ac28f64dedbfa3defe514f6e7e/c.html",
+      "tags": ["RISC-V", "CAS", "OpenSource-Chip", "China-Ecosystem"],
+      "_version": "v20260327-1300",
+      "_period": "midday",
+      "_generatedAt": "2026-03-27T13:00:00+08:00"
+    },
+    {
+      "title": "中荷就Nexperia问题展开外交谈判",
+      "summary": "中国商务部与荷兰外贸部长就安世中国控制权剥离及SAP断供问题展开谈判，北京警告将加剧芯片供应链紧张。",
+      "source": "Reuters",
+      "published": "2026-03-26",
+      "url": "https://www.reuters.com/world/asia-pacific/chinese-dutch-ministers-discuss-nexperia-trade-chinese-commerce-ministry-says-2026-03-26/",
+      "tags": ["Nexperia", "China-Netherlands", "Geopolitics", "Supply-Chain-Risk"],
+      "_version": "v20260327-1300",
+      "_period": "midday",
+      "_generatedAt": "2026-03-27T13:00:00+08:00"
+    },
+    {
+      "title": "Arm转型芯片销售商冲击IP授权生态",
+      "summary": "Arm首批AGI CPU量产排2026H2，CEO确认进入硅片销售市场，打破36年纯IP授权商定位，与Qualcomm/NVIDIA形成"友商竞争"格局。",
+      "source": "Network World / Stratechery",
+      "published": "2026-03-26",
+      "url": "https://www.networkworld.com/article/4150759/arm-shifts-course-moves-into-silicon-business.html",
+      "tags": ["Arm", "AGI-CPU", "IP-Licensing", "Business-Model-Shift"],
+      "_version": "v20260327-1300",
+      "_period": "midday",
+      "_generatedAt": "2026-03-27T13:00:00+08:00"
+    },
+    {
+      "title": "SEMICON China 2026：AMD警告AI瓶颈是电力",
+      "summary": "AMD高管提示AI市场目标1.7万亿美元，终极约束不是硅片而是电力，算力扩张速度已超过供电基础设施建设节奏。",
+      "source": "Digitimes",
+      "published": "2026-03-27",
+      "url": "https://www.digitimes.com/news/a20260326VL208/amd-demand-2026-semicon-china-growth.html",
+      "tags": ["AMD", "AI-Power", "SEMICON-China", "Infrastructure"],
+      "_version": "v20260327-1300",
+      "_period": "midday",
+      "_generatedAt": "2026-03-27T13:00:00+08:00"
+    },
+    {
+      "title": "中国成熟制程产能2026占全球37%",
+      "summary": "SEMI China披露中国22-40nm成熟节点产能2026年占全球37%，2028年升至42%，AI需求驱动本土晶圆厂持续扩产。",
+      "source": "Silicon UK / Digitimes",
+      "published": "2026-03-26",
+      "url": "https://www.silicon.co.uk/cloud/datacenter/china-chip-growth-629253",
+      "tags": ["China-Foundry", "Mature-Node", "Capacity-Share", "SEMI-China"],
+      "_version": "v20260327-1300",
+      "_period": "midday",
+      "_generatedAt": "2026-03-27T13:00:00+08:00"
+    },
+    {
+      "title": "KLA股价承压，AI检测需求阶段分化",
+      "summary": "KLA Corp股价下跌1.44%，TSMC/三星资本开支指引趋于保守，AI需求持续但HBM/GAA方向检测需求强劲，成熟节点检测疲软。",
+      "source": "Ad Hoc News",
+      "published": "2026-03-26",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/kla-corporation-stock-dips-1-44-percent-on-nasdaq-amid-semiconductor/68993806",
+      "tags": ["KLA", "Process-Control", "HBM", "GAA"],
+      "_version": "v20260327-1300",
+      "_period": "midday",
+      "_generatedAt": "2026-03-27T13:00:00+08:00"
+    },
+    {
+      "title": "安世中国断供SAP后自主量产12寸晶圆",
+      "summary": "路透社报道安世中国被SAP断供后，已用自研12寸晶圆独立量产功率器件，不再依赖荷兰，国内功率芯片供应链实现关键自立。",
+      "source": "路透社",
+      "published": "2026-03-27",
+      "url": "https://www.theregister.com/2026/03/27/china_ai_regulation/",
+      "tags": ["Nexperia-China", "Power-IC", "12-inch-Wafer", "Supply-Independence"],
+      "_version": "v20260327-1300",
+      "_period": "midday",
+      "_generatedAt": "2026-03-27T13:00:00+08:00"
+    },
+    {
+      "version": "v20260327-1300",
+      "period": "midday",
+      "generatedAt": "2026-03-27T13:00:00+08:00",
+      "count": 8
     }
   ]
 }
