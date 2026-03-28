@@ -1,204 +1,153 @@
 {
-  "version": "v20260327-2000",
-  "generatedAt": "2026-03-27T20:00:00+08:00",
-  "commit": "",
+  "version": "v20260328-2000",
+  "generatedAt": "2026-03-28T20:00:00+08:00",
+  "commit": "pending",
   "period": "evening",
+  "window": "6h",
   "items": [
     {
-      "title": "三星2nm Exynos 2800流片，1.4nm延期",
-      "summary": "三星计划2026年完成2nm Exynos 2800流片，自研CPU/GPU替代高通/AMD依赖，但1.4nm制程因良率问题推迟量产至2028年后。",
-      "source": "TrendForce",
-      "published": "2026-03-27",
-      "url": "https://www.trendforce.com/news/2026/03/27/news-samsung-reportedly-eyes-2026-tape-out-for-2nm-exynos-2800-1-4nm-shift-delayed/",
+      "title": "Google TurboQuant冲击HBM存储股",
+      "summary": "Google发布TurboQuant向量压缩算法，可将LLM推理内存需求降低6倍、性能提升8倍，引发三星/SK海力士股价两日连跌，但分析师认为类似DeepSeek恐慌，实际HBM需求不受直接影响。",
+      "source": "TradingKey中文",
+      "published": "2026-03-28",
+      "url": "https://www.tradingkey.com/zh-hans/analysis/stocks/us-stock/261725898-us-semiconductor-google-urboquant-ai-storage-stocks-tradingkey",
       "tags": [
-        "Samsung",
-        "2nm",
-        "Exynos",
-        "Foundry"
+        "HBM",
+        "AI-inference",
+        "memory-stocks",
+        "Google"
       ],
       "insights": [
-        "三星2nm良率瓶颈持续，客户外流TSMC趋势未止",
-        "Exynos 2800自研CPU/GPU降低对高通授权依赖，IP采购格局生变"
+        "TurboQuant主要压缩DRAM KV cache，对HBM需求影响有限，无需过度悲观",
+        "算法压缩引发的Jevons悖论效应或使长期AI内存总需求反弹"
       ],
-      "actions": [
-        "跟踪三星GAA 2nm产能爬坡进度，评估备选代工方案"
-      ],
-      "_version": "v20260327-2000",
-      "_period": "evening",
-      "_generatedAt": "2026-03-27T20:00:00+08:00"
+      "actions": "持续跟踪HBM季度出货数据，勿因短期利空仓促调整订单"
     },
     {
-      "title": "SK Hynix目标750亿净现金，HBM4下半年放量",
-      "summary": "SK Hynix宣布设$750亿净现金目标支撑AI扩产，HBM3E今年维持主力，HBM4将于下半年逐步放量，HBM4E样品年内出货。",
-      "source": "Korea Market Journal",
+      "title": "SK海力士拟赴美IPO融资140亿美元",
+      "summary": "SK海力士秘密向SEC提交F-1表格，目标2026年下半年在美上市融资100-140亿美元，同期以79亿美元向ASML订购最大单笔EUV光刻机，全力扩产HBM应对AI需求。",
+      "source": "TechCrunch",
       "published": "2026-03-27",
-      "url": "https://www.kmjournal.net/news/articleView.html?idxno=9744",
+      "url": "https://techcrunch.com/2026/03/27/memory-chip-giant-sk-hynix-191128085.html",
       "tags": [
-        "HBM4",
-        "SKHynix",
-        "AI-Memory",
-        "Capex"
+        "SK-Hynix",
+        "IPO",
+        "HBM",
+        "ASML"
       ],
       "insights": [
-        "HBM4下半年放量节点确认，供给侧2H26边际有所缓解",
-        "AI存储采购商可预期H2价格谈判空间略微扩大"
+        "79亿美元EUV订单为ASML史上最大单笔，预示2027年后HBM供给将大幅扩充",
+        "美股上市将提升SK海力士估值，与三星差距或缩小，影响HBM定价权格局"
       ],
-      "actions": [
-        "跟踪SK Hynix HBM4 H2放量时间表，及时调整长约策略"
-      ],
-      "_version": "v20260327-2000",
-      "_period": "evening",
-      "_generatedAt": "2026-03-27T20:00:00+08:00"
+      "actions": "关注SK海力士F-1路演时间表，评估HBM长协价格走势"
     },
     {
-      "title": "氦气危机叠加CoWoS封满，AI封装双重承压",
-      "summary": "全球氦气供应危机冲击晶圆制造，叠加TSMC CoWoS产能已售罄至2026年中，AI加速卡先进封装面临双重约束。",
-      "source": "J2 Sourcing",
+      "title": "中科院发布RISC-V香山/如意系统",
+      "summary": "3月26日中关村论坛，中科院正式发布RISC-V「香山」开源高性能处理器（SPEC CPU2006 16.5分/GHz创国际纪录）与「如意」原生操作系统，并启动下一代芯片联合研发。",
+      "source": "新浪财经",
+      "published": "2026-03-28",
+      "url": "https://finance.sina.com.cn/jjxw/2026-03-28/doc-inhsnqph1650168.shtml",
+      "tags": [
+        "RISC-V",
+        "open-source-chip",
+        "China",
+        "IP"
+      ],
+      "insights": [
+        "香山成国际唯一开源高性能RISC-V处理器，填补国内高端开源IP空白",
+        "配套「如意」OS推进RISC-V生态软硬件协同，国产化路径更完整"
+      ],
+      "actions": "关注香山处理器IP授权进展，评估国产替代EDA/IP链接机会"
+    },
+    {
+      "title": "Arm首发AGI CPU自研芯片上市",
+      "summary": "Arm发布首款自研量产芯片AGI CPU，136核数据中心处理器，采用台积电3nm工艺，由Synopsys全栈EDA支持，标志Arm从纯IP授权商向终端硅产品转型。",
+      "source": "EE Times",
       "published": "2026-03-27",
-      "url": "https://j2sourcing.com/blog/helium-crisis-semiconductor-manufacturing-electronic-components-2026/",
+      "url": "https://www.eetimes.com/arm-launches-first-silicon-cpu-targets-data-center-agentic-ai-workloads/",
+      "tags": [
+        "Arm",
+        "AGI-CPU",
+        "TSMC-3nm",
+        "EDA"
+      ],
+      "insights": [
+        "Arm自研芯片直接与客户竞争，IP授权商身份微妙，生态合作关系面临张力",
+        "Synopsys全栈EDA支持验证了其在先进制程CPU设计中的核心地位"
+      ],
+      "actions": "评估Arm转型对现有授权客户（Qualcomm/Nvidia）设计策略的长期影响"
+    },
+    {
+      "title": "台积电CoWoS产能缺口超30%",
+      "summary": "2026年初台积电CoWoS先进封装产能缺口超30%，日月光等封测巨头宣布全线涨价30%，多家AI芯片厂商将封装列为顶级AI芯片最大瓶颈。",
+      "source": "华芯邦",
+      "published": "2026-03-27",
+      "url": "https://www.hotchip.com.cn/xjfzca/",
       "tags": [
         "CoWoS",
-        "AdvancedPackaging",
-        "SupplyRisk",
-        "HeliumCrisis"
+        "advanced-packaging",
+        "OSAT",
+        "supply-constraint"
       ],
       "insights": [
-        "CoWoS+氦气双瓶颈下，AI服务器交付周期有进一步拉长风险",
-        "Nvidia Blackwell下游客户应评估Q3/Q4交付风险敞口"
+        "封测涨价30%将直接推高AI芯片BOM成本，下游云厂商采购预算压力加剧",
+        "国产先进封装厂商（通富/长电/华天）窗口期明显，有望切入AI芯片封测份额"
       ],
-      "actions": [
-        "与TSMC/封测伙伴核查CoWoS排期，预留缓冲周期"
-      ],
-      "glossary": [
-        {
-          "term": "CoWoS",
-          "desc": "台积电晶圆级封装技术，用于AI芯片高密度互连"
-        }
-      ],
-      "_version": "v20260327-2000",
-      "_period": "evening",
-      "_generatedAt": "2026-03-27T20:00:00+08:00"
+      "actions": "锁定CoWoS产能配额，同步评估国内替代封装方案可行性"
     },
     {
-      "title": "Intel无力撼动TSMC，TSMC 2nm良率达65%",
-      "summary": "TSMC 2nm产能已被AI需求预订至2026年底，两条首批产线满载；Intel Foundry挑战收效甚微，TSMC代工主导地位稳固。",
-      "source": "Ad Hoc News",
+      "title": "全球晶圆代工2026年增长24.8%",
+      "summary": "TrendForce预测2026年全球晶圆代工营收增长24.8%至2188亿美元，台积电增速约32%；中国大陆代工厂产能份额预计2031年达30%，Rapidus/Intel追赶进展落后。",
+      "source": "Evertiq",
       "published": "2026-03-27",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/intel-s-challenge-fails-to-dent-tsmc-s-foundry-dominance/69001871",
+      "url": "https://evertiq.com/news/2026-03-27-foundry-set-to-grow-248-but-not-all-of-the-market-is-keeping-pace",
       "tags": [
-        "TSMC",
-        "2nm",
-        "IntelFoundry",
-        "FoundryWar"
+        "foundry",
+        "TrendForce",
+        "market-forecast",
+        "TSMC"
       ],
       "insights": [
-        "TSMC 2nm良率65%+满产，议价权极强，后续扩产节奏决定价格走势",
-        "Intel Foundry短期难抢高端AI订单，差异化在成熟制程和封装"
+        "台积电2nm产能2026年全部预售，Apple独占逾半，其余客户面临排产压力",
+        "大陆代工份额2031年达30%主要依托成熟制程扩产，先进制程差距仍大"
       ],
-      "actions": [
-        "关注TSMC 2nm产能分配公告，及早排入候补名单"
-      ],
-      "_version": "v20260327-2000",
-      "_period": "evening",
-      "_generatedAt": "2026-03-27T20:00:00+08:00"
+      "actions": "提前布局台积电N2/N3产能配额申请，关注成熟制程备用厂商资质"
     },
     {
-      "title": "中芯国际2025月产能破百万片，巩固代工第二",
-      "summary": "中芯国际2025年折合8英寸月产能突破100万片，产能利用率93.5%；对于2026年，公司预计销售收入增幅将高于可比同业平均。",
-      "source": "世界新闻网",
-      "published": "2026-03-26",
-      "url": "https://www.worldjournal.com/wj/story/121477/9405972",
+      "title": "TurboQuant对三星/海力士影响解读",
+      "summary": "首尔经济日报分析，Google TurboQuant压缩推理内存6倍的技术恐慌类似DeepSeek冲击，专家认为AI应用规模扩张将通过Jevons悖论效应抵消压缩带来的存储需求下降。",
+      "source": "Seoul Economic Daily",
+      "published": "2026-03-28",
+      "url": "https://en.sedaily.com/finance/2026/03/28/tokens-kv-cache-turboquant-decoding-ai-jargon-and-its",
       "tags": [
-        "SMIC",
-        "Foundry",
-        "MaturNode",
-        "China"
+        "TurboQuant",
+        "Samsung",
+        "SK-Hynix",
+        "DRAM"
       ],
       "insights": [
-        "中芯产能利用率93.5%+晶圆涨价5-20%，成熟制程成本中枢上移",
-        "国内Fabless客户需提前锁单，避免Q3订单窗口收窄"
+        "KV cache压缩主要影响单实例DRAM用量，不影响多模型/多任务并发HBM需求",
+        "市场恐慌时期或是AI存储相关供应链谈判筹码窗口"
       ],
-      "actions": [
-        "核查中芯Q2/Q3产能窗口，提前沟通优先级排产"
-      ],
-      "_version": "v20260327-2000",
-      "_period": "evening",
-      "_generatedAt": "2026-03-27T20:00:00+08:00"
+      "actions": "区分HBM与DRAM订单策略，短期不必调整HBM采购计划"
     },
     {
-      "title": "Broadcom：定制AI芯片是下一个万亿机遇",
-      "summary": "Motley Fool分析指Broadcom凭借AI ASIC设计能力（谷歌TPU等）与TSMC制造组合，在超大规模AI算力市场占据结构性优势，XPUC需求加速。",
-      "source": "Motley Fool",
-      "published": "2026-03-26",
-      "url": "https://www.fool.com/investing/2026/03/26/forget-gpus-custom-ai-chips-are-the-next-trillion/",
-      "tags": [
-        "Broadcom",
-        "CustomASIC",
-        "XPUC",
-        "AI-Chip"
-      ],
-      "insights": [
-        "ASIC替代GPU趋势加速，芯片设计服务商承接XPUC流片机会增多",
-        "国内AI ASIC Fabless可对标Broadcom路径，差异化攻垂直场景"
-      ],
-      "actions": [
-        "评估自有或客户ASIC设计需求，布局先进封装+流片通道"
-      ],
-      "glossary": [
-        {
-          "term": "XPUC",
-          "desc": "专用于AI推理/训练的定制加速处理器，区别于通用GPU"
-        }
-      ],
-      "_version": "v20260327-2000",
-      "_period": "evening",
-      "_generatedAt": "2026-03-27T20:00:00+08:00"
-    },
-    {
-      "title": "华工科技AI光模块营收大涨，海外扩张提速",
-      "summary": "华工科技2025年营收143.55亿元，AI光模块和海外业务成核心增长引擎，吸引嘉实、摩根士丹利等126家机构调研。",
-      "source": "新浪财经",
+      "title": "中国RISC-V芯片自主研发新里程",
+      "summary": "南华早报报道，中国本周发布两款基于RISC-V开源架构的高性能芯片，标志其在摆脱外国半导体技术依赖上取得重要节点，中国已构建从技术创新到产业落地的全链条RISC-V生态。",
+      "source": "南华早报",
       "published": "2026-03-27",
-      "url": "https://finance.sina.com.cn/stock/aigc/jgdy/2026-03-27/doc-inhskrwe2248949.shtml",
+      "url": "https://www.scmp.com/tech/big-tech/article/3348168/chinas-tech-self-sufficiency-drive-reaches-new-milestone-powerful-risc-v-chips",
       "tags": [
-        "OpticalModule",
-        "AIInfra",
+        "RISC-V",
         "China",
-        "HuagongTech"
+        "self-sufficiency",
+        "open-source"
       ],
       "insights": [
-        "AI光模块需求随数据中心算力扩张持续放量，国内厂商竞争格局改善",
-        "机构密集调研信号提示，AI算力配套光互连赛道获资本集中关注"
+        "国产RISC-V高端IP商业化进程加速，国内EDA/设计服务公司配套机会扩大",
+        "全链条生态建设（芯片+OS+工具链）是国产替代从「可用」到「好用」的关键"
       ],
-      "actions": [
-        "关注华工科技AI光模块产品线及供应链配套机会"
-      ],
-      "_version": "v20260327-2000",
-      "_period": "evening",
-      "_generatedAt": "2026-03-27T20:00:00+08:00"
-    },
-    {
-      "title": "Synopsys全栈EDA助力Arm AGI CPU 3nm量产",
-      "summary": "Arm使用Synopsys全栈设计工具组合，在TSMC 3nm节点完成136核AGI CPU设计验证，标志EDA全栈能力在先进节点量产中的关键角色。",
-      "source": "Futurum Group",
-      "published": "2026-03-26",
-      "url": "https://futurumgroup.com/insights/arms-15-billion-cpu-opportunity-hinges-on-agentic-data-center-design/",
-      "tags": [
-        "Synopsys",
-        "EDA",
-        "Arm",
-        "3nm"
-      ],
-      "insights": [
-        "EDA全栈整合在先进节点成必选项，Synopsys/Cadence议价能力进一步增强",
-        "国内EDA生态需加速先进节点工具覆盖，3nm以下差距仍大"
-      ],
-      "actions": [
-        "评估EDA工具链升级需求，提前对接Synopsys/Cadence 3nm PDK"
-      ],
-      "_version": "v20260327-2000",
-      "_period": "evening",
-      "_generatedAt": "2026-03-27T20:00:00+08:00"
+      "actions": "追踪香山处理器SoC落地项目，重点关注国产替代EDA工具链进展"
     }
   ]
 }
