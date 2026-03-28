@@ -1,210 +1,340 @@
 {
-  "version": "v20260328-0602",
-  "generatedAt": "2026-03-28T06:02:00+08:00",
-  "commit": "pending",
+  "version": "v20260329-0606",
+  "generatedAt": "2026-03-29T06:06:13.520678+08:00",
   "period": "morning",
+  "windowHours": 24,
+  "itemCount": 15,
   "items": [
     {
-      "title": "Arm发布首款自研服务器CPU",
-      "summary": "Arm于3月24日宣布推出AGI CPU，这是公司35年历史中首款自研生产级硅芯片，搭载136核Neoverse V3，采用台积电3nm制程，Meta等客户已承诺量产，下半年出货。",
-      "source": "Arm Newsroom",
-      "published": "2026-03-24",
-      "url": "https://newsroom.arm.com/news/arm-agi-cpu-launch",
-      "tags": ["Arm", "AGI-CPU", "DataCenter", "Fabless"],
-      "insights": [
-        "Arm从IP授权转向自产芯片，将直接与高通/英特尔争夺数据中心份额",
-        "采用台积电3nm制程量产，对台积电先进节点需求确定性进一步增强"
-      ],
-      "actions": "关注Arm生态合作伙伴及台积电3nm产能分配动态"
-    },
-    {
-      "title": "马斯克宣布Terafab芯片超级工厂",
-      "summary": "马斯克3月21日在德州奥斯汀宣布Terafab计划，Tesla/SpaceX/xAI联合出资250亿美元建设全球最大AI芯片工厂，含设计/制造/封装全流程，造价估算高达5万亿美元引发业界质疑。",
-      "source": "Tom's Hardware",
+      "title": "GF起诉Tower半导体，涉11项制造专利",
+      "summary": "GlobalFoundries对以色列Tower Semiconductor提起多项专利诉讼，指控其侵犯11项芯片制造工艺专利，同时向ITC申请进口禁令及赔偿。",
+      "source": "TrendForce",
       "published": "2026-03-27",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musks-terafab-semiconductor-project-could-cost-usd5-trillion-bernstein-claims-herculean-effort-would-cost-more-than-70-percent-of-the-total-yearly-us-government-budget",
-      "tags": ["Terafab", "Foundry", "AI-Chip", "Tesla"],
-      "insights": [
-        "Terafab若落地将是继台积电之后最大规模的Fab投资，对供应链格局影响深远",
-        "短期内可能向台积电/三星寻求代工合作，存在大订单机会"
+      "url": "https://www.trendforce.com/news/2026/03/27/news-globalfoundries-sues-tower-semiconductor-over-11-patents-seeks-profit-damages-and-import-ban/",
+      "tags": [
+        "GlobalFoundries",
+        "Tower",
+        "专利诉讼",
+        "代工"
       ],
-      "actions": "跟踪Terafab合作工厂选择及设备采购进展"
+      "insights": [
+        "成熟制程代工专利战升温，客户选型需评估供应商诉讼风险",
+        "ITC禁令若成立将影响依赖Tower工艺的芯片进入美国市场"
+      ],
+      "actions": [
+        "排查与Tower合作的供应商专利风险敞口"
+      ],
+      "category": "Fab"
     },
     {
-      "title": "台积电2nm产能已售罄至2026底",
-      "summary": "台积电2nm先进节点产能受AI需求驱动已全部售罄，两座工厂产能100%承接，英特尔代工挑战未能撼动其市场主导地位，台积电2026年资本开支计划达520-560亿美元。",
-      "source": "TradingView/Zacks",
+      "title": "TSMC 2026年资本开支达520-560亿美元",
+      "summary": "TSMC宣布激进资本支出计划，押注先进节点与全球新厂以承接AI算力需求，2nm产能已售罄至2026年底。",
+      "source": "TradingView",
       "published": "2026-03-27",
-      "url": "https://www.prismnews.com/news/elon-musks-terafab-chip-megafactory-plan-faces-investor-and",
-      "tags": ["TSMC", "2nm", "CapEx", "Foundry"],
-      "insights": [
-        "台积电产能锁满意味着新客户窗口关闭，芯片设计公司需提前锁产能",
-        "大规模资本开支预示2027-2028年先进节点供给将显著扩张"
+      "url": "https://www.tradingview.com/news/zacks:5b2a732e5094b:0-will-tsm-s-aggressive-capex-plan-strengthen-its-foundry-dominance/",
+      "tags": [
+        "TSMC",
+        "Foundry",
+        "CapEx",
+        "2nm"
       ],
-      "actions": "评估与台积电合作客户2026年产能保障情况"
+      "insights": [
+        "2nm产能售罄，先进节点流片议价权在台积电",
+        "高资本开支意味着设备商订单能见度良好"
+      ],
+      "actions": [
+        "尽早锁定台积电先进节点流片排期"
+      ],
+      "category": "Fab"
     },
     {
-      "title": "SEMICON China 2026北方华创发布混合键合设备",
-      "summary": "北方华创在SEMICON China 2026发布多款新品，包括HPD30混合键合设备（国内率先完成D2W工艺验证）、NMC612H刻蚀设备和Ausip T830 TSV电镀设备，覆盖先进封装核心工序。",
+      "title": "中电科首台TGV/RDL先进封装检测设备问世",
+      "summary": "中电科风华成功研发国内首台可同步实现大尺寸玻璃基板TGV与RDL工艺检测的Venus 6系列设备，填补国产先进封装检测空白。",
+      "source": "搜狐/科技日报",
+      "published": "2026-03-27",
+      "url": "https://www.sohu.com/a/1002109209_162758",
+      "tags": [
+        "先进封装",
+        "TGV",
+        "RDL",
+        "国产设备"
+      ],
+      "glossary": [
+        {
+          "term": "TGV",
+          "desc": "玻璃通孔，Glass Through-Via，先进封装关键互连技术"
+        },
+        {
+          "term": "RDL",
+          "desc": "再分布层，Redistribution Layer，封装中重新布线层"
+        }
+      ],
+      "insights": [
+        "TGV+RDL量检测国产化落地，玻璃基板封装供应链进口替代加速",
+        "国内先进封装检测能力提升将缓解产线对进口设备依赖"
+      ],
+      "actions": [
+        "关注玻璃基板封装设备国产化进展及配套产业链"
+      ],
+      "category": "Fab"
+    },
+    {
+      "title": "SEMI：AI推动半导体2030年达1.8万亿美元",
+      "summary": "SEMICON China 2026上SEMI称AI算力驱动半导体进入结构性增长，中国产能与设备在成熟制程中份额持续提升，预计2030年达1.8万亿美元。",
+      "source": "Brandsit/SEMI",
+      "published": "2026-03-27",
+      "url": "https://brandsit.pl/en/china-chip-market-2026-ai-drives-record-growth/",
+      "tags": [
+        "SEMI",
+        "市场预测",
+        "AI",
+        "中国产能"
+      ],
+      "insights": [
+        "AI基础设施成半导体增长主引擎，结构性需求好于周期性反弹",
+        "中国成熟制程扩产在全球供应链分工中角色日益重要"
+      ],
+      "actions": [
+        "结合2030规模目标，重新评估供应链中长期布局优先级"
+      ],
+      "category": "Fab"
+    },
+    {
+      "title": "台湾半导体出口创近30年最高排名",
+      "summary": "台湾2025年商品出口排名升至近三十年最高，AI驱动半导体与科技产品出口大幅拉动，制造业核心地位稳固。",
+      "source": "Taipei Times",
+      "published": "2026-03-29",
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/03/29/2003854644",
+      "tags": [
+        "台湾",
+        "半导体出口",
+        "AI",
+        "制造"
+      ],
+      "insights": [
+        "台湾AI半导体出口持续领跑，供应链对台湾依赖度仍高",
+        "下游采购需关注台湾政策动态及出口管制风险"
+      ],
+      "actions": [
+        "跟踪台湾半导体出口结构变化与政策趋势"
+      ],
+      "category": "Fab"
+    },
+    {
+      "title": "三星HBM4E首展，16Gbps/pin带宽4TB/s",
+      "summary": "三星在NVIDIA GTC 2026首次公开展示新一代HBM4E，提供16Gbps/pin与4.0TB/s带宽，深化与NVIDIA战略合作。",
+      "source": "Samsung Newsroom",
+      "published": "2026-03-27",
+      "url": "https://news.samsung.com/pe/samsung-presento-hbm4e-destacando-soluciones-integrales-de-ia-su-asociacion-con-nvidia-y-su-vision-en-nvidia-gtc-2026",
+      "tags": [
+        "Samsung",
+        "HBM4E",
+        "NVIDIA",
+        "带宽"
+      ],
+      "insights": [
+        "HBM4E带宽4.0TB/s刷新纪录，AI训练高端内存供应链竞争加剧",
+        "三星与NVIDIA深度绑定，SK Hynix需加速HBM4E量产以维持份额"
+      ],
+      "actions": [
+        "关注HBM4E量产节点及SK Hynix竞品进展"
+      ],
+      "category": "设计公司"
+    },
+    {
+      "title": "三星与AMD签署HBM4供应战略协议",
+      "summary": "三星与AMD签署HBM4内存供应MoU，含服务器DDR5及潜在代工合作，推动AI加速器系统级深度整合。",
+      "source": "Intelligent Living",
+      "published": "2026-03-27",
+      "url": "https://www.intelligentliving.co/samsung-amd-hbm4-mou-ai/",
+      "tags": [
+        "Samsung",
+        "AMD",
+        "HBM4",
+        "AI加速器"
+      ],
+      "insights": [
+        "AMD绑定三星HBM4，AI加速器供应链出现新竞争轴",
+        "HBM4系统级整合趋势将推动芯片与存储封装一体化"
+      ],
+      "actions": [
+        "关注AMD AI加速器路线图及HBM4量产时间节点"
+      ],
+      "category": "设计公司"
+    },
+    {
+      "title": "平头哥镇岳510 SSD主控出货超50万片",
+      "summary": "阿里平头哥在2026 CFMS闪存峰会宣布，镇岳510 SSD主控累计出货超50万片，阿里云核心业务规模部署，多家存储厂已搭载。",
+      "source": "网易科技",
+      "published": "2026-03-27",
+      "url": "https://www.163.com/tech/article/KP1VB4G000098IEO.html",
+      "tags": [
+        "平头哥",
+        "SSD主控",
+        "存储芯片",
+        "国产设计"
+      ],
+      "insights": [
+        "国产SSD主控规模化出货，云厂商芯片供应链自主化加速",
+        "镇岳510验证国产控制器在企业级场景可用性，拓宽存储厂替换窗口"
+      ],
+      "actions": [
+        "跟踪镇岳系列下一代主控发布及存储合作伙伴拓展情况"
+      ],
+      "category": "设计公司"
+    },
+    {
+      "title": "谷歌TurboQuant引AI存储股连跌，HBM影响有限",
+      "summary": "谷歌KV Cache压缩算法TurboQuant可将AI推理内存需求降低6倍，引发三星/SK海力士/A股存储股大跌，摩根士丹利指出HBM训练侧影响有限。",
+      "source": "新浪财经/CNBC",
+      "published": "2026-03-27",
+      "url": "https://finance.sina.com.cn/jjxw/2026-03-27/doc-inhskwcy5462141.shtml",
+      "tags": [
+        "TurboQuant",
+        "HBM",
+        "KV Cache",
+        "存储芯片"
+      ],
+      "insights": [
+        "TurboQuant仅压缩推理KV Cache，训练侧HBM需求不受影响",
+        "Jevons悖论效应：AI效率提升将扩大算力部署规模，长期内存需求反可能增加"
+      ],
+      "actions": [
+        "区分训练/推理内存差异，评估客户HBM与DRAM采购预算实际影响"
+      ],
+      "category": "设计公司"
+    },
+    {
+      "title": "英伟达向光互连供应商注资40亿美元锁产能",
+      "summary": "英伟达向Lumentum与Coherent各注资20亿美元，锁定CPO光互连产能，为下一代吉瓦级AI工厂铺设光互连底座。",
       "source": "36氪",
       "published": "2026-03-27",
-      "url": "https://www.36kr.com/p/3739559184039940",
-      "tags": ["北方华创", "HybridBonding", "AdvancedPackaging", "设备国产化"],
-      "insights": [
-        "混合键合设备国产化完成工艺验证，HBM及Chiplet封装供应链自主化加速",
-        "国产设备交货周期2个月远短于海外6个月+，供应链安全优势显现"
+      "url": "https://36kr.com/p/3739469288665606",
+      "tags": [
+        "NVIDIA",
+        "CPO",
+        "光互连",
+        "AI供应链"
       ],
-      "actions": "考察北方华创HPD30在国内封测厂导入进度"
+      "insights": [
+        "英伟达深度绑定光互连供应链，CPO成下一代AI芯片关键互连接口",
+        "国内光模块/CPO企业有望承接AI服务器互连需求溢出"
+      ],
+      "actions": [
+        "关注CPO/光互连在下一代AI服务器的采购节奏与国产替代机会"
+      ],
+      "category": "设计公司"
     },
     {
-      "title": "先进封装成AI芯片核心瓶颈",
-      "summary": "台积电CoWoS产能缺口超30%，日月光等宣布封装服务全线涨价30%，封装环节价值占比从10%升至30%-50%，CoWoS订单已排至2027年，国产封测厂产线长期满负荷。",
-      "source": "华芯邦",
+      "title": "CNBC：存储股领涨后因TurboQuant骤然逆转",
+      "summary": "CNBC分析称存储芯片股是2026年上半年半导体最大赢家，TurboQuant发布引发动能逆转，分析师建议关注DRAM基本面：Q1合约价预涨55-60%。",
+      "source": "CNBC",
       "published": "2026-03-27",
-      "url": "https://www.hotchip.com.cn/xjfzca/",
-      "tags": ["CoWoS", "AdvancedPackaging", "OSAT", "Chiplet"],
-      "insights": [
-        "封装成本占AI芯片总成本30-50%，已超部分产品的晶圆制造价值占比",
-        "国内长电科技/通富微电等封测龙头迎来结构性需求红利"
+      "url": "https://www.cnbc.com/2026/03/27/memory-chip-stocks-were-big-winners-in-2026-until-lately-what-to-do-now.html",
+      "tags": [
+        "DRAM",
+        "存储芯片",
+        "TurboQuant",
+        "半导体股"
       ],
-      "actions": "评估国内先进封装合作资源，关注CoWoS等效方案",
+      "insights": [
+        "Q1 DRAM合约价预涨55-60%，供需基本面依然紧张",
+        "情绪性下跌可能为供应链采购锁价提供窗口"
+      ],
+      "actions": [
+        "参考TrendForce Q1 DRAM合约价数据，研判采购锁价时机"
+      ],
+      "category": "设计公司"
+    },
+    {
+      "title": "MLCC迎结构性拐点，AI服务器与AI PC双驱动",
+      "summary": "36氪分析MLCC市场迎来增量与存量双爆发：AI服务器拉动高端MLCC，AI PC新增每台约100颗MLCC，村田等供应商考虑Q4涨价。",
+      "source": "36氪",
+      "published": "2026-03-28",
+      "url": "https://36kr.com/p/2734813859719682",
+      "tags": [
+        "MLCC",
+        "AI服务器",
+        "AI PC",
+        "被动元件"
+      ],
       "glossary": [
-        {"term": "CoWoS", "desc": "台积电晶圆级先进封装技术，用于AI加速芯片的高带宽互连封装"},
-        {"term": "Chiplet", "desc": "将多颗芯粒（Die）通过先进封装集成在同一封装体内的异构集成架构"}
-      ]
+        {
+          "term": "MLCC",
+          "desc": "多层陶瓷电容，Multi-Layer Ceramic Capacitor，芯片旁路/去耦关键无源器件"
+        }
+      ],
+      "insights": [
+        "AI服务器和AI PC双轮驱动MLCC需求，村田等供应商议价能力增强",
+        "无源元件是芯片交付全链条的隐性瓶颈，需提前锁量"
+      ],
+      "actions": [
+        "评估AI服务器/PC项目中MLCC用量及供货风险，提前与村田/国巨洽谈备货"
+      ],
+      "category": "设计公司"
     },
     {
-      "title": "中微/长川等国产设备SEMICON亮相",
-      "summary": "SEMICON China 2026吸引超1500家展商，中微公司发布4款新品含新一代ICP刻蚀机，长川科技发布高密度SoC测试机D9016-P16，近40家科创板半导体企业集体展示全产业链覆盖能力。",
-      "source": "新浪财经",
+      "title": "Kandou AI完成2.25亿美元融资，Synopsys/Cadence战投",
+      "summary": "瑞士芯片互连公司Kandou AI完成2.25亿美元A轮，战略投资方含Synopsys、Cadence、软银，专攻芯片间铜互连技术破解AI内存墙。",
+      "source": "The Next Web",
+      "published": "2026-03-28",
+      "url": "https://thenextweb.com/news/kandou-ai-225m-copper-interconnect-ai-infrastructure",
+      "tags": [
+        "KandouAI",
+        "Synopsys",
+        "Cadence",
+        "互连IP"
+      ],
+      "insights": [
+        "EDA双巨头同时战投互连IP初创，布局从工具扩展至硬件生态",
+        "AI内存墙成新兴IP赛道，芯片间高速互连将成设计关键约束"
+      ],
+      "actions": [
+        "评估Kandou互连IP对AI芯片架构的影响，关注国内类似赛道标的"
+      ],
+      "category": "EDA/IP"
+    },
+    {
+      "title": "中科院发布两款高性能RISC-V芯片",
+      "summary": "中科院在2026中关村论坛发布两款高性能RISC-V芯片，为开源芯片商业化应用开辟路径，国内RISC-V产业化提速。",
+      "source": "人民日报/新华社",
       "published": "2026-03-27",
-      "url": "https://www.sina.cn/news/detail/5281001346435112.html",
-      "tags": ["SEMICON", "国产设备", "中微公司", "长川科技"],
-      "insights": [
-        "国产设备从单点突破走向网状覆盖，刻蚀/沉积/测试各环节均有量产级新品",
-        "科创板半导体已覆盖全产业链，协同能力显著增强"
+      "url": "https://en.people.cn/n3/2026/0327/c90000-20440634.html",
+      "tags": [
+        "RISC-V",
+        "中科院",
+        "开源芯片",
+        "国产化"
       ],
-      "actions": "跟踪中微ICP新品在主流晶圆厂的导入进展"
+      "insights": [
+        "RISC-V国内商业化加速，EDA工具链对开源ISA适配成关键竞争要素",
+        "国产IP替代Arm路线在政策驱动下持续向前推进"
+      ],
+      "actions": [
+        "追踪国内RISC-V EDA生态成熟度及量产客户导入节奏"
+      ],
+      "category": "EDA/IP"
     },
     {
-      "title": "中芯国际华虹加速生产先进半导体",
-      "summary": "据日经亚洲，中芯国际、华虹及多家华为关联企业在政府支持下加速生产更先进制程芯片，支撑国内AI开发者需求，中芯国际市值达7800亿元，订单持续满载。",
-      "source": "新浪新闻",
+      "title": "欧洲半导体初创Q1融资超3.8亿欧元，硬件VC回归",
+      "summary": "PitchBook：欧洲半导体初创2026 Q1融资超3.8亿欧元，Kandou AI 2.25亿美元为最大单笔，VC从软件转向半导体硬件。",
+      "source": "PitchBook",
       "published": "2026-03-27",
-      "url": "https://www.sina.cn/news/detail/5280786304731781.html",
-      "tags": ["SMIC", "华虹", "先进制程", "国产化"],
-      "insights": [
-        "中国本土晶圆代工产能快速提升，对成熟制程国产替代加速形成供给基础",
-        "中芯国际扩产叠加芯片涨价，毛利率改善预期强烈"
+      "url": "https://pitchbook.com/news/articles/european-semiconductor-startups-cash-in-as-vcs-turn-to-hardware",
+      "tags": [
+        "融资",
+        "欧洲半导体",
+        "硬件创投",
+        "互连IP"
       ],
-      "actions": "关注中芯国际2026年资本开支及先进节点良率进展"
-    },
-    {
-      "title": "AI需求攻陷CPU市场，涨价15%",
-      "summary": "英特尔和AMD 3月再次上调CPU价格10-15%，服务器CPU交货期从1-2周延至8-12周，产能向AI服务器倾斜导致PC端供货明显减少，Q2 PC厂商拿货量将低于Q1。",
-      "source": "新浪财经",
-      "published": "2026-03-26",
-      "url": "https://finance.sina.com.cn/roll/2026-03-26/doc-inhshtew0338717.shtml",
-      "tags": ["CPU", "供应短缺", "Intel", "AMD"],
       "insights": [
-        "AI算力对通用CPU产能的虹吸效应蔓延，服务器CPU缺货将持续至下半年",
-        "Arm架构替代加速，华硕Arm系AI PC已占30%，对x86格局构成压力"
+        "硬件芯片IP融资加速，互连/封装IP成新热点赛道",
+        "VC回归半导体硬件标志AI时代上游基础设施价值重估"
       ],
-      "actions": "评估服务器CPU采购计划，提前锁定Q3交货周期"
-    },
-    {
-      "title": "Siemens EDA推AI驱动设计工具",
-      "summary": "西门子EDA在SEMICON China 2026发表主题演讲，称传统EDA已不够用，未来芯片设计工具必须AI驱动，目标通过Agentic AI将设计周期缩短一半。",
-      "source": "Digitimes",
-      "published": "2026-03-26",
-      "url": "https://lcdproduct.com/semicon-china-2026-ai-efficiency-fuels-demand-growth-under-jevons-paradox-amd-warns/",
-      "tags": ["EDA", "Siemens", "AI-EDA", "ChipDesign"],
-      "insights": [
-        "AI-EDA工具将大幅压缩前端验证时间，设计周期缩短对IP采购节奏产生影响",
-        "国产EDA企业（如概伦电子）在AI融合方向需加快布局应对国际竞争"
+      "actions": [
+        "跟踪芯片IP/互连技术投资趋势，评估新型赛道供应商合作机会"
       ],
-      "actions": "评估现有EDA工具链AI化升级路径及国产替代可行性"
-    },
-    {
-      "title": "Synopsys推AI时代硬件辅助验证",
-      "summary": "Synopsys于3月26日发布面向AI芯片验证的硬件辅助验证（HAV）新方案，支持3D IC、Chiplet及FPGA原型验证，专注解决超大规模AI SoC的仿真验证瓶颈。",
-      "source": "SemiWiki",
-      "published": "2026-03-26",
-      "url": "https://semiwiki.com/eda/synopsys/367868-synopsys-advances-hardware-assisted-verification-for-the-ai-era/",
-      "tags": ["Synopsys", "EDA", "Verification", "3D-IC"],
-      "insights": [
-        "超大规模AI SoC验证成新瓶颈，硬件辅助验证市场需求快速增长",
-        "Chiplet架构推广倒逼验证工具升级，EDA采购预算将向验证类工具倾斜"
-      ],
-      "actions": "评估Synopsys HAV工具在Chiplet项目中的适用性"
-    },
-    {
-      "title": "中国成熟制程产能2028年达42%",
-      "summary": "SEMI数据显示，中国22-40nm成熟制程产能将从2026年的37%提升至2028年的42%，AI需求驱动半导体市场2030年达1.8万亿美元，中国主导产能扩张和设备国产化。",
-      "source": "SemiWiki",
-      "published": "2026-03-27",
-      "url": "https://semiwiki.com/forum/threads/ai-boom-accelerates-chinas-chip-industry-growth-as-demand-strains-supply-chain.24838/",
-      "tags": ["SEMI", "中国产能", "成熟制程", "市场规模"],
-      "insights": [
-        "中国成熟制程全球占比持续提升，对汽车/工业/消费电子类芯片采购有议价优势",
-        "2030年1.8万亿美元市场规模预测，AI算力和端侧芯片需求是主要驱动力"
-      ],
-      "actions": "关注SEMI发布的产能预测，优化成熟节点代工厂合作资源池"
-    },
-    {
-      "title": "AMD警告AI效率提升反推更大需求",
-      "summary": "AMD高管在SEMICON China 2026警示：AI市场虽扩张至1.7万亿美元，但最终约束可能不是硅算力而是电力。AI效率提升符合杰文斯悖论，效率越高需求越大。",
-      "source": "Digitimes",
-      "published": "2026-03-26",
-      "url": "https://www.digitimes.com/news/a20260326VL208/amd-demand-2026-semicon-china-growth.html",
-      "tags": ["AMD", "AI需求", "Jevons悖论", "算力"],
-      "insights": [
-        "电力供给将成AI算力扩张的新瓶颈，影响数据中心选址和芯片功耗规格",
-        "AI效率提升不减需求反而扩大需求，对算力芯片长期增长具有支撑作用"
-      ],
-      "actions": "在项目规划中纳入能耗约束因素，关注低功耗制程方向"
-    },
-    {
-      "title": "氦气危机加剧CoWoS封装短缺",
-      "summary": "全球氦气供应危机叠加既有CoWoS产能瓶颈，TSMC Blackwell GPU封装产能已全售罄至2026年中，先进封装检测设备厂商KLA因此受益，多年成长趋势确立。",
-      "source": "J2 Sourcing",
-      "published": "2026-03-27",
-      "url": "https://j2sourcing.com/blog/helium-crisis-semiconductor-manufacturing-electronic-components-2026/",
-      "tags": ["Helium", "CoWoS", "供应链风险", "KLA"],
-      "insights": [
-        "氦气短缺是晶圆制造/检测的隐性风险，供应链需提前储备或寻替代方案",
-        "封装检测环节随先进封装扩产获长期需求，检测设备国产化进程值得跟踪"
-      ],
-      "actions": "排查主要晶圆代工伙伴的氦气供应风险及应急预案",
-      "glossary": [
-        {"term": "KLA", "desc": "全球领先的半导体检测设备厂商，主营晶圆缺陷检测和计量仪器"}
-      ]
-    },
-    {
-      "title": "Arm股价涨16%，目标2031年营收250亿",
-      "summary": "Arm宣布AGI CPU后股价单日涨16%，公司明确2031年总营收目标250亿美元，自研硅芯片占比超60%，将面临库存风险和供应链管理新挑战。",
-      "source": "Financial Content",
-      "published": "2026-03-26",
-      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-26-arm-holdings-surges-16-as-agi-cpu-roadmap-reshapes-the-ai-landscape",
-      "tags": ["Arm", "IPRevenue", "硅芯片", "DataCenter"],
-      "insights": [
-        "Arm进入量产硅芯片领域将重塑IP授权生意模式，对中国Arm生态授权谈判有影响",
-        "Arm自研CPU直接入市，可能与高通等IP授权客户形成竞争关系"
-      ],
-      "actions": "评估与Arm的IP授权合作条款，关注AGI CPU对现有生态的冲击"
-    },
-    {
-      "title": "Normal Computing获三星5000万美元融资",
-      "summary": "AI硬件初创公司Normal Computing获三星战略投资5000万美元，旨在通过随机热力学计算芯片降低AI训练成本，采用与晶圆厂/Fabless协作模式推进流片。",
-      "source": "ICO Optics",
-      "published": "2026-03-27",
-      "url": "https://www.ico-optics.org/normal-computing-secures-50m-from-samsung-to-reduce-ai-costs/",
-      "tags": ["Normal Computing", "Samsung", "AI芯片", "流片"],
-      "insights": [
-        "三星战略投资AI芯片初创，意在通过新架构探索扩大先进制程代工订单来源",
-        "新型AI计算芯片架构持续涌现，IP/设计服务商需跟踪新兴客户需求"
-      ],
-      "actions": "关注Samsung Foundry在AI新架构芯片代工领域的战略布局"
+      "category": "EDA/IP"
     }
   ]
 }
