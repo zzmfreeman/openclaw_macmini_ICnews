@@ -1,118 +1,115 @@
 {
-  "version": "v20260328-1301",
-  "generatedAt": "2026-03-28T13:01:00+08:00",
+  "version": "v20260328-1431",
+  "generatedAt": "2026-03-28T14:31:00+08:00",
   "period": "midday",
-  "timeWindow": "2026-03-28T07:00:00+08:00 ~ 2026-03-28T13:00:00+08:00",
+  "commit": "",
   "items": [
     {
-      "title": "SMIC向伊朗军方输送芯片设备",
-      "summary": "路透社独家：美国高级官员透露，中芯国际约一年前向伊朗军方提供了芯片制造设备，美方已就此向SMIC施压并考虑新制裁。",
+      "title": "Supermicro联创被捕走私$25亿NVIDIA芯片",
+      "summary": "SuperMicro联合创始人Wally Liaw于3月19日被捕，涉嫌通过伪造服务器与空壳公司向中国走私价值约25亿美元的Nvidia AI芯片，中国军方关联大学已被查出使用违禁芯片，美国众议院随即推进Chip Security Act。",
       "source": "Reuters",
       "published": "2026-03-27",
-      "url": "https://www.reuters.com/world/asia-pacific/chinas-top-chipmaker-has-supplied-chipmaking-tech-iran-military-us-officials-say-2026-03-27/",
-      "tags": ["SMIC", "export-control", "geopolitics", "sanctions"],
+      "url": "https://www.reuters.com/world/china/chinese-universities-with-military-links-bought-super-micro-servers-with-2026-03-27/",
+      "tags": ["export-control", "Supermicro", "NVIDIA", "China-sanctions"],
       "insights": [
-        "若制裁升级，SMIC客户需评估备货与供应链转移风险",
-        "此事件或加速美方对中国成熟制程进一步管制"
+        "出口管制漏洞被利用，可能引发更严格的芯片追踪立法与供应链合规审查",
+        "中国军方关联机构获取限制芯片，或加速对中国采购AI算力的管控升级"
       ],
-      "actions": ["关注SMIC客户备货动态与替代晶圆厂选择"]
+      "actions": "评估现有合规程序，排查可能的出口管制风险"
     },
     {
-      "title": "Arm首发AGI CPU进军算力芯片",
-      "summary": "Arm史上首次从IP授权方转型为芯片产品公司，推出AGI CPU采用TSMC 3nm，Meta与OpenAI为首批客户，目标2031年AGI相关年营收达150亿美元。",
-      "source": "Arm Newsroom",
-      "published": "2026-03-28",
-      "url": "https://newsroom.arm.com/news/arm-agi-cpu-launch",
-      "tags": ["Arm", "AGI-CPU", "TSMC", "fabless"],
+      "title": "SK Hynix赴美IPO最高募140亿美元",
+      "summary": "SK Hynix秘密提交Form F-1，计划2026年下半年在美上市，融资规模预计100-140亿美元，旨在缩小与美国科技巨头估值差距并扩充HBM及AI内存产能。",
+      "source": "TechCrunch",
+      "published": "2026-03-27",
+      "url": "https://techcrunch.com/2026/03/27/memory-chip-giant-sk-hynix-could-help-end-rammageddon-with-blockbuster-us-ipo/",
+      "tags": ["SK-Hynix", "HBM", "IPO", "AI-memory"],
       "insights": [
-        "Arm从IP公司转型为产品公司，将直接与客户竞争，影响现有授权生态",
-        "采用TSMC 3nm将加剧先进制程产能紧张局面"
+        "HBM供应链资本化加速，有助于缓解AI服务器内存短缺压力",
+        "大规模融资将支撑未来2-3年先进封装与EUV扩产，影响代工合作格局"
       ],
-      "actions": ["评估Arm新商业模式对自身IP授权费谈判的影响"],
+      "actions": "关注SK Hynix HBM4供货节奏及对TSMC CoWoS产能的影响"
+    },
+    {
+      "title": "Google TurboQuant压缩6倍内存存储股暴跌",
+      "summary": "Google于3月25日发布TurboQuant量化算法，可将LLM KV Cache内存需求降低6倍、推理速度提升近8倍，导致三星跌4.7%、SK Hynix跌6.2%、Micron跌7%，分析师认为长期内存需求仍将增长。",
+      "source": "Korea Times",
+      "published": "2026-03-27",
+      "url": "https://www.koreatimes.co.kr/business/tech-science/20260327/googles-turboquant-unlikely-to-weaken-memory-demand-analysts",
+      "tags": ["HBM", "AI-memory", "quantization", "memory-demand"],
+      "insights": [
+        "软件效率突破短期冲击内存股，类DeepSeek效应，但Jevons悖论可能维持实际需求",
+        "采购决策需评估AI内存用量预测的不确定性，避免过度锁定长期HBM合同"
+      ],
+      "actions": "暂缓大宗HBM长约谈判，待TurboQuant商业化验证后再定"
+    },
+    {
+      "title": "TSMC 2026年AI芯片需求驱动强劲增长",
+      "summary": "分析机构发布报告指出TSMC 2026年开局强劲，AI芯片需求持续推动营收上修，2nm量产计划正按期推进，大陆代工厂商市场份额预计到2031年达30%。",
+      "source": "IndexBox",
+      "published": "2026-03-28",
+      "url": "https://www.indexbox.io/blog/tsmcs-strong-2026-start-ai-demand-drives-growth-and-revised-forecast/",
+      "tags": ["TSMC", "foundry", "2nm", "AI-chip"],
+      "insights": [
+        "TSMC 2nm产能爬坡将是AI芯片供应链的核心节点，流片窗口竞争加剧",
+        "中国大陆代工厂份额持续扩张，成熟制程价格压力或传导至设计公司定价"
+      ],
+      "actions": "确认2nm流片排期，评估备用产能方案"
+    },
+    {
+      "title": "美国Chip Security Act要求AI芯片出口追踪",
+      "summary": "美众议院外交委员会推进《芯片安全法》，要求美国出口的先进AI芯片内置位置验证机制，背景为Supermicro走私案与特朗普政府1月批准向中国出口H200芯片。",
+      "source": "The Cyber Express",
+      "published": "2026-03-28",
+      "url": "https://thecyberexpress.com/advanced-ai-chip-chip-security-act/",
+      "tags": ["export-control", "AI-chip", "regulation", "US-China"],
+      "insights": [
+        "若法案通过，AI芯片嵌入地理锁定机制将增加OEM/ODM合规成本",
+        "国内算力芯片自研路线战略价值进一步凸显"
+      ],
+      "actions": "跟踪法案进展，评估对现有GPU采购渠道的合规影响",
       "glossary": [
-        {"term": "AGI CPU", "desc": "专为代理式AI推理与数据中心算力设计的CPU产品"}
+        {"term": "Chip Security Act", "desc": "美国拟立法要求先进AI芯片内置位置验证，防止非法出口"}
       ]
     },
     {
-      "title": "Synopsys全栈EDA支持Arm AGI CPU",
-      "summary": "Synopsys宣布与Arm合作开发AGI CPU，提供涵盖EDA工具、接口IP及硬件辅助验证的全栈设计支持，强化在AI芯片设计流程中的生态地位。",
-      "source": "EEJournal",
-      "published": "2026-03-28",
-      "url": "https://www.eejournal.com/industry_news/synopsys-supports-new-arm-agi-cpu-with-full-stack-design-solutions/",
-      "tags": ["Synopsys", "EDA", "Arm", "chip-design"],
-      "insights": [
-        "EDA厂商深度绑定AI算力芯片开发，设计服务溢价空间提升",
-        "接口IP与HAV需求随先进节点设计复杂度同步增长"
-      ],
-      "actions": ["跟进Synopsys接口IP报价与周期，提前锁定关键设计资源"]
-    },
-    {
-      "title": "TSMC 3nm产能Q1末严重受限",
-      "summary": "多家IC设计公司透露，受云端AI算力需求激增影响，TSMC 3nm已成Q1末最紧缺制程节点，TSMC已上调5/4nm及以下价格，进一步提价风险存在。",
-      "source": "Evertiq",
+      "title": "SK Hynix签署大额ASML EUV订单锁产能",
+      "summary": "SK Hynix向ASML下达大规模EUV光刻机订单，旨在锁定未来几年HBM及先进DRAM生产产能，被视为内存行业转为AI供应链关键瓶颈节点的战略信号。",
+      "source": "Cloud News",
       "published": "2026-03-27",
-      "url": "https://evertiq.com/news/2026-03-27-foundry-set-to-grow-248-but-not-all-of-the-market-is-keeping-pace",
-      "tags": ["TSMC", "foundry", "capacity", "advanced-node"],
+      "url": "https://cloudnews.tech/sk-hynix-secures-its-ai-future-with-a-huge-euv-order-from-asml/",
+      "tags": ["SK-Hynix", "ASML", "EUV", "HBM"],
       "insights": [
-        "3nm/5nm产能持续吃紧，Tape-out排期需提前6-9个月布局",
-        "成熟制程与先进制程价格分化加剧，中游设计成本结构需重估"
+        "EUV设备订单竞争加剧，ASML产能成为先进存储扩产的核心制约",
+        "HBM供应链向上延伸至设备层，早期锁产能策略愈加重要"
       ],
-      "actions": ["与TSMC AE确认Q3/Q4 3nm产能窗口，评估备选方案"]
+      "actions": "关注ASML EUV交货周期，评估对竞争对手扩产节奏的影响"
     },
     {
-      "title": "SMIC发布2026新增长行动计划",
-      "summary": "中芯国际宣布2026年增长行动计划，目标增速超行业均值，聚焦AI芯片需求与国产替代，定位中国最大本土代工基础设施支柱。",
-      "source": "SCMP",
+      "title": "阿里玄铁C950高性能RISC-V核心发布",
+      "summary": "阿里巴巴发布玄铁C950，符合RVA23规范的64位RISC-V处理器核，面向边缘AI计算，为中国RISC-V生态补充高端设计资产，与中科院香山系列形成互补。",
+      "source": "CNX Software",
+      "published": "2026-03-25",
+      "url": "https://www.cnx-software.com/2026/03/25/alibaba-xuantie-c950-a-powerful-rva2364-bit-risc-v-core-for-edge-ai-computing/",
+      "tags": ["RISC-V", "Alibaba", "IP-core", "edge-AI"],
+      "insights": [
+        "国内RISC-V IP生态加速成熟，对国外架构授权依赖进一步降低",
+        "边缘AI芯片设计公司可借助开源RISC-V IP降低授权成本，加速流片"
+      ],
+      "actions": "评估采用RISC-V IP方案对现有项目IP授权成本的替代可能性"
+    },
+    {
+      "title": "台湾冻结电价为芯片制造成本护航",
+      "summary": "台湾宣布暂不上调电力价格以对冲中东战事引发的能源涨价压力，为台积电等晶圆厂提供成本稳定缓冲，维持芯片制造竞争力。",
+      "source": "Bloomberg",
       "published": "2026-03-27",
-      "url": "https://www.scmp.com/tech/big-tech/article/3348044/chinas-top-chip-foundry-smic-unveils-action-plan-seizing-new-growth-opportunities",
-      "tags": ["SMIC", "foundry", "China", "capacity-expansion"],
+      "url": "https://www.bloomberg.com/news/articles/2026-03-27/chip-hub-taiwan-keeps-power-prices-unchanged-despite-iran-war",
+      "tags": ["TSMC", "Taiwan", "manufacturing-cost", "energy"],
       "insights": [
-        "SMIC积极扩产成熟制程，有望成为国内AI芯片的重要备选代工方",
-        "政策红利叠加AI需求，国内代工厂景气度持续上升"
+        "台湾政策护盘短期有效，但中东局势若持续，晶圆代工成本压力仍将累积",
+        "地缘能源风险成为代工选址与价格谈判的新变量"
       ],
-      "actions": ["评估SMIC成熟制程产能作为战略备份选项"]
-    },
-    {
-      "title": "中科院发布两款高性能RISC-V芯片",
-      "summary": "中国科学院在2026中关村论坛宣布RISC-V重大成果，推出两款高性能开源架构芯片，标志中国芯片自主化进入开源生态商业化新阶段。",
-      "source": "SCMP",
-      "published": "2026-03-28",
-      "url": "https://www.scmp.com/tech/big-tech/article/3348168/chinas-tech-self-sufficiency-drive-reaches-new-milestone-powerful-risc-v-chips",
-      "tags": ["RISC-V", "China", "open-source", "chip-design"],
-      "insights": [
-        "国产RISC-V进入算力级别，有望部分替代Arm在国内数据中心的IP需求",
-        "对EDA与IP采购策略有潜在影响，建议关注国产EDA工具适配进展"
-      ],
-      "actions": ["调研中科院RISC-V芯片技术规格，评估其与现有IP采购策略的关系"]
-    },
-    {
-      "title": "中微SEMICON 2026推四款刻蚀新品",
-      "summary": "中微公司在SEMICON China 2026发布4款新品，包括5nm及以下ICP刻蚀设备Primo Angnova、高选择性刻蚀机及Micro LED MOCVD设备，并展示并购众硅科技后CMP能力。",
-      "source": "36氪",
-      "published": "2026-03-27",
-      "url": "https://www.36kr.com/p/3739559184039940",
-      "tags": ["equipment", "etch", "China", "advanced-node"],
-      "insights": [
-        "中微5nm以下刻蚀设备量产推进，国产设备替代高端制程关键工艺渐成现实",
-        "中微+众硅CMP的组合布局，提升国内晶圆制造自主化程度"
-      ],
-      "actions": ["跟踪Primo Angnova客户验证进展，评估其对设备采购替代路径的影响"]
-    },
-    {
-      "title": "三星Exynos 2800定于2026年2nm流片",
-      "summary": "TrendForce援引消息称三星计划2026年以2nm节点为Exynos 2800 Tape-out，但1.4nm量产进度推迟，转而聚焦DTCO协同优化。",
-      "source": "TrendForce",
-      "published": "2026-03-27",
-      "url": "https://www.trendforce.com/news/2026/03/27/news-samsung-reportedly-eyes-2026-tape-out-for-2nm-exynos-2800-1-4nm-shift-delayed/",
-      "tags": ["Samsung", "foundry", "2nm", "advanced-node"],
-      "insights": [
-        "三星2nm良率改善仍是关键变量，成功率影响其与TSMC竞争先进制程格局",
-        "1.4nm延迟意味着台积电短期内先进制程垄断地位将延续"
-      ],
-      "actions": ["关注三星2nm Exynos 2800流片结果，评估多晶圆厂策略可行性"],
-      "glossary": [
-        {"term": "DTCO", "desc": "设计与工艺协同优化，在先进节点协同推进芯片设计与制造工艺改进"}
-      ]
+      "actions": "在与台积电季度价格谈判中将能源政策变化列为跟踪指标"
     }
   ]
 }
