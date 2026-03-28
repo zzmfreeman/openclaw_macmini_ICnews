@@ -1,115 +1,118 @@
 {
-  "version": "v20260327-1300",
-  "generatedAt": "2026-03-27T13:00:00+08:00",
+  "version": "v20260328-1301",
+  "generatedAt": "2026-03-28T13:01:00+08:00",
   "period": "midday",
-  "itemCount": 8,
+  "timeWindow": "2026-03-28T07:00:00+08:00 ~ 2026-03-28T13:00:00+08:00",
   "items": [
     {
-      "title": "Intel/AMD宣布CPU涨价10-15%",
-      "summary": "Intel和AMD双双通知客户3-4月起CPU涨价10-15%，服务器及部分消费级产品涵盖在内，Nikkei Asia报道AI推理负载推升服务器CPU供不应求，两家股价单日涨超7%。",
-      "source": "Nikkei Asia / GuruFocus",
-      "published": "2026-03-26",
-      "url": "https://www.gurufocus.com/news/8746841/amd-amd-and-intel-plan-cpu-price-hike-amid-rising-demand",
-      "tags": ["Intel", "AMD", "CPU-Pricing", "Supply-Shortage"],
-      "insights": [
-        "服务器CPU供给持续偏紧，服务器BOM成本将再次承压，需提前评估Q2采购预算",
-        "AI代理工作负载对CPU算力依赖超预期，不限于GPU端"
-      ],
-      "actions": ["服务器CPU采购合同需在4月前完成价格锁定"]
-    },
-    {
-      "title": "中国公布RISC-V重大成果",
-      "summary": "中科院在2026中关村论坛宣布，"香山"开源高性能RISC-V处理器创国际记录，"如意"RISC-V原生操作系统率先支持RVA23高性能国际标准，中国已建成完整RISC-V生态。",
-      "source": "新华社/人民日报",
-      "published": "2026-03-27",
-      "url": "https://english.news.cn/20260327/3b8302ac28f64dedbfa3defe514f6e7e/c.html",
-      "tags": ["RISC-V", "CAS", "OpenSource-Chip", "China-Ecosystem"],
-      "insights": [
-        "国内RISC-V生态成熟度提速，EDA/IP采购对Arm授权依赖将逐步降低",
-        "香山处理器达国际记录为国产高性能芯片设计能力提供官方背书"
-      ],
-      "actions": ["评估在研项目是否有引入RISC-V架构替代Arm授权的可行窗口"]
-    },
-    {
-      "title": "中荷就Nexperia问题展开外交谈判",
-      "summary": "中国商务部与荷兰外贸部长举行会谈，聚焦荷兰强制剥离安世中国控制权及SAP断供问题，北京警告此举将加剧芯片供应链紧张，中荷关系因半导体问题进入关键节点。",
+      "title": "SMIC向伊朗军方输送芯片设备",
+      "summary": "路透社独家：美国高级官员透露，中芯国际约一年前向伊朗军方提供了芯片制造设备，美方已就此向SMIC施压并考虑新制裁。",
       "source": "Reuters",
-      "published": "2026-03-26",
-      "url": "https://www.reuters.com/world/asia-pacific/chinese-dutch-ministers-discuss-nexperia-trade-chinese-commerce-ministry-says-2026-03-26/",
-      "tags": ["Nexperia", "China-Netherlands", "Geopolitics", "Supply-Chain-Risk"],
+      "published": "2026-03-27",
+      "url": "https://www.reuters.com/world/asia-pacific/chinas-top-chipmaker-has-supplied-chipmaking-tech-iran-military-us-officials-say-2026-03-27/",
+      "tags": ["SMIC", "export-control", "geopolitics", "sanctions"],
       "insights": [
-        "Nexperia断供事件将功率器件（MOSFET/BJT）供应链地缘政治风险推至新高度",
-        "ERP/SAP被用作断供工具，IT基础设施依赖性已成供应链新风险维度"
+        "若制裁升级，SMIC客户需评估备货与供应链转移风险",
+        "此事件或加速美方对中国成熟制程进一步管制"
       ],
-      "actions": ["评估功率器件备供方案，排查Nexperia/安世在供应商清单中的比重"],
+      "actions": ["关注SMIC客户备货动态与替代晶圆厂选择"]
+    },
+    {
+      "title": "Arm首发AGI CPU进军算力芯片",
+      "summary": "Arm史上首次从IP授权方转型为芯片产品公司，推出AGI CPU采用TSMC 3nm，Meta与OpenAI为首批客户，目标2031年AGI相关年营收达150亿美元。",
+      "source": "Arm Newsroom",
+      "published": "2026-03-28",
+      "url": "https://newsroom.arm.com/news/arm-agi-cpu-launch",
+      "tags": ["Arm", "AGI-CPU", "TSMC", "fabless"],
+      "insights": [
+        "Arm从IP公司转型为产品公司，将直接与客户竞争，影响现有授权生态",
+        "采用TSMC 3nm将加剧先进制程产能紧张局面"
+      ],
+      "actions": ["评估Arm新商业模式对自身IP授权费谈判的影响"],
       "glossary": [
-        {"term": "Nexperia", "desc": "原恩智浦标准产品部门，现由中国闻泰科技控股，荷兰已于2025年10月强制剥离其控制权"}
+        {"term": "AGI CPU", "desc": "专为代理式AI推理与数据中心算力设计的CPU产品"}
       ]
     },
     {
-      "title": "Arm转型芯片销售商冲击IP授权生态",
-      "summary": "Arm宣布自研AGI CPU首批量产排产2026H2，与Meta等50余家伙伴签约，CEO确认持续IP授权同时进入硅片销售市场，此举打破36年纯IP授权商定位，与Qualcomm/NVIDIA产生"友商竞争"关系。",
-      "source": "Network World / Stratechery",
-      "published": "2026-03-26",
-      "url": "https://www.networkworld.com/article/4150759/arm-shifts-course-moves-into-silicon-business.html",
-      "tags": ["Arm", "AGI-CPU", "IP-Licensing", "Business-Model-Shift"],
+      "title": "Synopsys全栈EDA支持Arm AGI CPU",
+      "summary": "Synopsys宣布与Arm合作开发AGI CPU，提供涵盖EDA工具、接口IP及硬件辅助验证的全栈设计支持，强化在AI芯片设计流程中的生态地位。",
+      "source": "EEJournal",
+      "published": "2026-03-28",
+      "url": "https://www.eejournal.com/industry_news/synopsys-supports-new-arm-agi-cpu-with-full-stack-design-solutions/",
+      "tags": ["Synopsys", "EDA", "Arm", "chip-design"],
       "insights": [
-        "Arm进入芯片赛道将改变IP授权谈判格局，客户与供应商角色混叠带来合作不确定性",
-        "RISC-V加速替代担忧叠加Arm商业策略转变，IP授权成本议价空间重估"
+        "EDA厂商深度绑定AI算力芯片开发，设计服务溢价空间提升",
+        "接口IP与HAV需求随先进节点设计复杂度同步增长"
       ],
-      "actions": ["跟踪现有Arm IP授权合同续签节奏，评估RISC-V替代成本"]
+      "actions": ["跟进Synopsys接口IP报价与周期，提前锁定关键设计资源"]
     },
     {
-      "title": "SEMICON China 2026：AMD警告AI瓶颈是电力",
-      "summary": "SEMICON China 2026上AMD高管提示：AI市场规模目标1.7万亿美元，但终极约束不是硅片能力——而是电力供给。算力扩张速度已超过供电基础设施建设节奏。",
-      "source": "Digitimes",
+      "title": "TSMC 3nm产能Q1末严重受限",
+      "summary": "多家IC设计公司透露，受云端AI算力需求激增影响，TSMC 3nm已成Q1末最紧缺制程节点，TSMC已上调5/4nm及以下价格，进一步提价风险存在。",
+      "source": "Evertiq",
       "published": "2026-03-27",
-      "url": "https://www.digitimes.com/news/a20260326VL208/amd-demand-2026-semicon-china-growth.html",
-      "tags": ["AMD", "AI-Power", "SEMICON-China", "Infrastructure"],
+      "url": "https://evertiq.com/news/2026-03-27-foundry-set-to-grow-248-but-not-all-of-the-market-is-keeping-pace",
+      "tags": ["TSMC", "foundry", "capacity", "advanced-node"],
       "insights": [
-        "数据中心电力约束将成芯片需求长期天花板，高能效AI芯片（GPU/ASIC）溢价逻辑更强",
-        "光伏/核电配套数据中心投资将带动专用功率芯片（GaN/SiC）需求"
+        "3nm/5nm产能持续吃紧，Tape-out排期需提前6-9个月布局",
+        "成熟制程与先进制程价格分化加剧，中游设计成本结构需重估"
       ],
-      "actions": ["关注AI数据中心功率器件选型动态，评估GaN/SiC供应商布局"]
+      "actions": ["与TSMC AE确认Q3/Q4 3nm产能窗口，评估备选方案"]
     },
     {
-      "title": "中国成熟制程产能2026占全球37%",
-      "summary": "SEMI China主席在SEMICON China 2026披露，中国22-40nm成熟节点产能2026年占全球37%，2028年将升至42%。AI芯片驱动中国本土晶圆厂持续扩产，国内配套需求加速增长。",
-      "source": "Silicon UK / Digitimes",
-      "published": "2026-03-26",
-      "url": "https://www.silicon.co.uk/cloud/datacenter/china-chip-growth-629253",
-      "tags": ["China-Foundry", "Mature-Node", "Capacity-Share", "SEMI-China"],
-      "insights": [
-        "中国成熟制程产能占比持续扩大，对全球成熟节点代工定价形成结构性压力",
-        "国内Fab扩产带动本土设备/材料替代窗口持续扩大，采购策略可适当偏向国产"
-      ],
-      "actions": ["参考SEMI China数据更新成熟制程供应商选型策略"]
-    },
-    {
-      "title": "KLA股价承压，AI检测需求阶段分化",
-      "summary": "KLA Corp股价下跌1.44%，客户TSMC/三星资本开支指引趋于保守，AI需求持续但HBM与GAA制程超复杂度推动良率工具需求分层，KLA在HBM/GAA方向仍具不可替代性，但短期传统节点需求疲软。",
-      "source": "Ad Hoc News",
-      "published": "2026-03-26",
-      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/kla-corporation-stock-dips-1-44-percent-on-nasdaq-amid-semiconductor/68993806",
-      "tags": ["KLA", "Process-Control", "HBM", "GAA"],
-      "insights": [
-        "良率控制设备投资向HBM/GAA集中，成熟节点检测设备需求可能出现价格松动期",
-        "晶圆厂资本开支保守化意味着2026年设备交期可能改善，采购谈判窗口打开"
-      ],
-      "actions": ["跟踪晶圆厂2026年设备采购节奏，评估设备交期及价格变化趋势"]
-    },
-    {
-      "title": "安世中国断供SAP后自主量产12寸晶圆",
-      "summary": "路透社报道安世半导体中国部分在被SAP系统断供后，已开始使用未知渠道自研的12寸晶圆独立量产功率器件，不再依赖荷兰，标志中国重要功率芯片供应链实现关键自立。",
-      "source": "路透社/Bilibili报道",
+      "title": "SMIC发布2026新增长行动计划",
+      "summary": "中芯国际宣布2026年增长行动计划，目标增速超行业均值，聚焦AI芯片需求与国产替代，定位中国最大本土代工基础设施支柱。",
+      "source": "SCMP",
       "published": "2026-03-27",
-      "url": "https://www.theregister.com/2026/03/27/china_ai_regulation/",
-      "tags": ["Nexperia-China", "Power-IC", "12-inch-Wafer", "Supply-Independence"],
+      "url": "https://www.scmp.com/tech/big-tech/article/3348044/chinas-top-chip-foundry-smic-unveils-action-plan-seizing-new-growth-opportunities",
+      "tags": ["SMIC", "foundry", "China", "capacity-expansion"],
       "insights": [
-        "安世中国自主量产成功将稳定国内功率器件供应，短期缓解断供危机对下游影响",
-        "功率器件供应链国产化路径再添实证，后续可关注产能规模与品质认证进展"
+        "SMIC积极扩产成熟制程，有望成为国内AI芯片的重要备选代工方",
+        "政策红利叠加AI需求，国内代工厂景气度持续上升"
       ],
-      "actions": ["更新功率器件供应商风险评估，安世中国独立产能纳入备供考量"]
+      "actions": ["评估SMIC成熟制程产能作为战略备份选项"]
+    },
+    {
+      "title": "中科院发布两款高性能RISC-V芯片",
+      "summary": "中国科学院在2026中关村论坛宣布RISC-V重大成果，推出两款高性能开源架构芯片，标志中国芯片自主化进入开源生态商业化新阶段。",
+      "source": "SCMP",
+      "published": "2026-03-28",
+      "url": "https://www.scmp.com/tech/big-tech/article/3348168/chinas-tech-self-sufficiency-drive-reaches-new-milestone-powerful-risc-v-chips",
+      "tags": ["RISC-V", "China", "open-source", "chip-design"],
+      "insights": [
+        "国产RISC-V进入算力级别，有望部分替代Arm在国内数据中心的IP需求",
+        "对EDA与IP采购策略有潜在影响，建议关注国产EDA工具适配进展"
+      ],
+      "actions": ["调研中科院RISC-V芯片技术规格，评估其与现有IP采购策略的关系"]
+    },
+    {
+      "title": "中微SEMICON 2026推四款刻蚀新品",
+      "summary": "中微公司在SEMICON China 2026发布4款新品，包括5nm及以下ICP刻蚀设备Primo Angnova、高选择性刻蚀机及Micro LED MOCVD设备，并展示并购众硅科技后CMP能力。",
+      "source": "36氪",
+      "published": "2026-03-27",
+      "url": "https://www.36kr.com/p/3739559184039940",
+      "tags": ["equipment", "etch", "China", "advanced-node"],
+      "insights": [
+        "中微5nm以下刻蚀设备量产推进，国产设备替代高端制程关键工艺渐成现实",
+        "中微+众硅CMP的组合布局，提升国内晶圆制造自主化程度"
+      ],
+      "actions": ["跟踪Primo Angnova客户验证进展，评估其对设备采购替代路径的影响"]
+    },
+    {
+      "title": "三星Exynos 2800定于2026年2nm流片",
+      "summary": "TrendForce援引消息称三星计划2026年以2nm节点为Exynos 2800 Tape-out，但1.4nm量产进度推迟，转而聚焦DTCO协同优化。",
+      "source": "TrendForce",
+      "published": "2026-03-27",
+      "url": "https://www.trendforce.com/news/2026/03/27/news-samsung-reportedly-eyes-2026-tape-out-for-2nm-exynos-2800-1-4nm-shift-delayed/",
+      "tags": ["Samsung", "foundry", "2nm", "advanced-node"],
+      "insights": [
+        "三星2nm良率改善仍是关键变量，成功率影响其与TSMC竞争先进制程格局",
+        "1.4nm延迟意味着台积电短期内先进制程垄断地位将延续"
+      ],
+      "actions": ["关注三星2nm Exynos 2800流片结果，评估多晶圆厂策略可行性"],
+      "glossary": [
+        {"term": "DTCO", "desc": "设计与工艺协同优化，在先进节点协同推进芯片设计与制造工艺改进"}
+      ]
     }
   ]
 }

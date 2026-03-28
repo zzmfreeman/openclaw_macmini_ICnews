@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "url": "https://www.reuters.com/world/asia-pacific/chinas-top-chipmaker-has-supplied-chipmaking-tech-iran-military-us-officials-say-2026-03-27/",
+      "title": "SMIC向伊朗军方输送芯片设备",
+      "published": "2026-03-27",
+      "addedAt": "2026-03-28T13:01:00+08:00"
+    },
+    {
+      "url": "https://newsroom.arm.com/news/arm-agi-cpu-launch",
+      "title": "Arm首发AGI CPU进军算力芯片",
+      "published": "2026-03-28",
+      "addedAt": "2026-03-28T13:01:00+08:00"
+    },
+    {
+      "url": "https://www.eejournal.com/industry_news/synopsys-supports-new-arm-agi-cpu-with-full-stack-design-solutions/",
+      "title": "Synopsys全栈EDA支持Arm AGI CPU",
+      "published": "2026-03-28",
+      "addedAt": "2026-03-28T13:01:00+08:00"
+    },
+    {
+      "url": "https://evertiq.com/news/2026-03-27-foundry-set-to-grow-248-but-not-all-of-the-market-is-keeping-pace",
+      "title": "TSMC 3nm产能Q1末严重受限",
+      "published": "2026-03-27",
+      "addedAt": "2026-03-28T13:01:00+08:00"
+    },
+    {
+      "url": "https://www.scmp.com/tech/big-tech/article/3348044/chinas-top-chip-foundry-smic-unveils-action-plan-seizing-new-growth-opportunities",
+      "title": "SMIC发布2026新增长行动计划",
+      "published": "2026-03-27",
+      "addedAt": "2026-03-28T13:01:00+08:00"
+    },
+    {
+      "url": "https://www.scmp.com/tech/big-tech/article/3348168/chinas-tech-self-sufficiency-drive-reaches-new-milestone-powerful-risc-v-chips",
+      "title": "中科院发布两款高性能RISC-V芯片",
+      "published": "2026-03-28",
+      "addedAt": "2026-03-28T13:01:00+08:00"
+    },
+    {
+      "url": "https://www.36kr.com/p/3739559184039940",
+      "title": "中微SEMICON 2026推四款刻蚀新品",
+      "published": "2026-03-27",
+      "addedAt": "2026-03-28T13:01:00+08:00"
+    },
+    {
+      "url": "https://www.trendforce.com/news/2026/03/27/news-samsung-reportedly-eyes-2026-tape-out-for-2nm-exynos-2800-1-4nm-shift-delayed/",
+      "title": "三星Exynos 2800定于2026年2nm流片",
+      "published": "2026-03-27",
+      "addedAt": "2026-03-28T13:01:00+08:00"
+    },
+    {
       "url": "https://www.ico-optics.org/normal-computing-secures-50m-from-samsung-to-reduce-ai-costs/",
       "title": "Normal Computing获三星5000万美元融资",
       "published": "2026-03-27",
