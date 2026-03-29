@@ -1,0 +1,203 @@
+import json
+import re
+from datetime import datetime, timezone
+
+# Load history
+with open('history.json') as f:
+    hist_data = json.load(f)
+hist_items = hist_data.get('items', [])
+hist_urls = set(i.get('url','') for i in hist_items)
+
+def normalize_title(t):
+    return re.sub(r'[\s\W]', '', t).lower()
+
+hist_titles_norm = set(normalize_title(i.get('title','')) for i in hist_items)
+
+def is_dup(url, title):
+    if url in hist_urls:
+        return True
+    nt = normalize_title(title)
+    for ht in hist_titles_norm:
+        if ht and nt and len(nt) > 5 and len(ht) > 5:
+            if nt in ht or ht in nt:
+                return True
+    return False
+
+# New candidate items
+candidates = [
+    {
+        "url": "https://www.tekedia.com/u-s-accuses-chinas-smic-of-supplying-chipmaking-tools-to-irans-military-amid-ongoing-war/",
+        "title": "美指控中芯向伊朗军方输送芯片设备",
+        "summary": "特朗普政府官员披露中芯向伊朗军工复合体提供光刻设备并附带技术培训，美方拟升级对华半导体制裁",
+        "source": "Tekedia",
+        "published": "2026-03-28",
+        "tags": ["SMIC", "sanctions", "geopolitics", "foundry"],
+        "insights": ["中芯制裁升级预期将迫使国产代工寻求更多非美设备替代方案", "伊朗技术转让暗示中国Fab输出意愿值得供应链合规重点关注"],
+        "actions": "评估SMIC相关采购合规风险",
+        "category": "Fab/制造"
+    },
+    {
+        "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-amd/advanced-micro-devices/news/how-investors-may-respond-to-amd-amd-cpu-price-hikes-amid-ai",
+        "title": "AMD/Intel宣布CPU涨价10-15%",
+        "summary": "AI数据中心需求驱动AMD与Intel通知客户CPU平均涨价10%到15%，交货周期延长至6个月",
+        "source": "Simply Wall St",
+        "published": "2026-03-29",
+        "tags": ["AMD", "Intel", "CPU", "AI-demand"],
+        "insights": ["服务器CPU供货紧张将推高数据中心建设成本，AI推理算力采购需前置锁量", "CPU涨价周期或传导至MCU/嵌入式赛道，整车/工业客户面临BOM重组压力"],
+        "actions": "重点客户提前锁定Q3 CPU配额",
+        "category": "设计公司"
+    },
+    {
+        "url": "https://www.onenewspage.com/n/Internet/1ztelp6gro/Kandou-AI-raises-225-million-to-bet-that.htm",
+        "title": "Kandou AI完成2.25亿美元A轮融资",
+        "summary": "瑞士芯片互联初创Kandou AI完成2.25亿美元A轮，由Synopsys/Cadence/软银战略投资，专注铜互连解决AI带宽瓶颈",
+        "source": "One News Page",
+        "published": "2026-03-29",
+        "tags": ["Kandou-AI", "interconnect", "Synopsys", "funding"],
+        "insights": ["EDA巨头战略投资芯片互联IP表明片间通信成下一个卡脖子环节", "铜互连路线与光互连形成竞争格局，IP授权策略值得追踪"],
+        "actions": "追踪Kandou IP授权模式与国内互联方案对比",
+        "category": "EDA/IP",
+        "glossary": [{"term": "内存墙(Memory Wall)", "desc": "芯片算力增速远超片间带宽导致的性能瓶颈"}]
+    },
+    {
+        "url": "https://www.tomshardware.com/tech-industry/chinese-universities-performing-military-research-acquired-super-micro-servers-with-sanctioned-nvidia-ai-chips-public-documents-reveal-purchases-were-completed-in-2025-and-2026-despite-us-export-controls",
+        "title": "中国军校绕道购买Nvidia管制AI芯片",
+        "summary": "招标文件显示哈工大等军方背景高校于2025-2026年成功采购含英伟达A100的超微服务器，出口管制执行漏洞引发关注",
+        "source": "Tom's Hardware",
+        "published": "2026-03-28",
+        "tags": ["Nvidia", "export-controls", "China", "AI-chips"],
+        "insights": ["出口管制执法力度将直接影响中国AI推理算力天花板，代工厂客户合规压力同步上升", "第三方渠道绕行仍是管制短板，后续或触发追加实体清单"],
+        "actions": "关注后续BIS实体清单变动对供应链影响",
+        "category": "Fab/制造"
+    },
+    {
+        "url": "https://kfgo.com/2026/03/27/sony-to-hike-playstation-5-prices-again-as-memory-chip-costs-surge/",
+        "title": "存储芯片涨价推动PS5全球提价100美元",
+        "summary": "索尼宣布4月2日起PS5全球涨价100美元，AI算力爆发挤压消费级DRAM供给为直接诱因，年内二度调价",
+        "source": "Reuters/KFGO",
+        "published": "2026-03-27",
+        "tags": ["memory", "DRAM", "supply-chain", "Sony"],
+        "insights": ["AI训练需求持续挤压消费级DRAM供给，终端电子BOM成本压力将延续至Q3", "存储芯片价格信号对HBM/LPDDR采购有前瞻价值"],
+        "actions": "评估存储器Q3采购合同对冲方案",
+        "category": "Fab/制造"
+    },
+    {
+        "url": "https://www.36kr.com/p/3742039524999430",
+        "title": "太空算力芯片产业链初步成型",
+        "summary": "追觅芯际穿越宣布200万颗算力卫星规划，商用AI芯片直接上星替代传统航天特制芯片路线渐清晰",
+        "source": "36氪",
+        "published": "2026-03-28",
+        "tags": ["space-computing", "AI-chip", "China", "SoC"],
+        "insights": ["商用SoC进入航天领域将倒逼传统宇航级芯片供应商降本，国产设计公司机遇窗口打开", "太空散热与抗辐照需求催生新型封装方案，先进封装赛道迎来太空场景增量"],
+        "actions": "跟进航天抗辐照芯片与先进封装需求变化",
+        "category": "设计公司"
+    },
+    {
+        "url": "https://www.bastillepost.com/global/article/5727603-businesses-see-tangible-benefits-since-launch-of-special-customs-operation-in-south-chinas-hainan-ftp",
+        "title": "智源FlagOS 2.0支持最多国产AI芯片",
+        "summary": "北京智源研究院发布FlagOS 2.0，成全球支持芯片种类最多的AI系统软件栈，面向多种国产AI芯片开源",
+        "source": "Bastille Post",
+        "published": "2026-03-28",
+        "tags": ["FlagOS", "AI-software", "China-chip", "open-source"],
+        "insights": ["统一软件栈降低国产AI芯片生态碎片化，有助推动IP商业化与EDA工具链适配", "对EDA/IP供应商而言，国产芯片设计流量集聚是本土化机遇"],
+        "actions": "评估FlagOS适配性对国产AI芯片客户项目的影响",
+        "category": "EDA/IP"
+    },
+    {
+        "url": "https://www.ico-optics.org/nxp-semiconductors-raises-guidance-analysts-set-261-target/",
+        "title": "NXP Q1指引超预期同比增11%",
+        "summary": "NXP半导体Q1 2026营收指引31.5亿美元，同比增11%，车规芯片需求复苏叠加AI渗透推动业绩超预期",
+        "source": "ICO Optics",
+        "published": "2026-03-29",
+        "tags": ["NXP", "automotive-chip", "guidance", "Q1-2026"],
+        "insights": ["车规芯片回暖信号对下游汽车电子供应链具有领先指示意义", "MCU/功率器件采购节奏或随车企量产周期加速而提前"],
+        "actions": "结合NXP指引重新评估车规客户Q2排产需求",
+        "category": "设计公司"
+    },
+]
+
+# De-dup against history
+filtered = []
+seen_titles = set()
+for c in candidates:
+    url = c['url']
+    title = c['title']
+    nt = normalize_title(title)
+    if url in hist_urls:
+        print(f"SKIP (url dup): {title}")
+        continue
+    if nt in seen_titles:
+        print(f"SKIP (batch dup): {title}")
+        continue
+    dup = False
+    for ht in hist_titles_norm:
+        if ht and nt and len(nt) > 5 and len(ht) > 5:
+            if nt in ht or ht in nt:
+                dup = True
+                print(f"SKIP (title sim): {title}")
+                break
+    if dup:
+        continue
+    filtered.append(c)
+    seen_titles.add(nt)
+
+print(f"\nFiltered count: {len(filtered)}")
+for c in filtered:
+    print(f"  [{c['category']}] {c['title']}")
+
+# Generate brief_evening.json
+now_utc = datetime.now(timezone.utc)
+now_sh_str = "2026-03-29T20:00:00+08:00"
+
+version = "v20260329-2000"
+items_out = []
+for c in filtered[:8]:
+    item = {
+        "title": c["title"],
+        "summary": c["summary"],
+        "source": c["source"],
+        "published": c["published"],
+        "url": c["url"],
+        "tags": c["tags"],
+        "insights": c["insights"],
+        "actions": c["actions"],
+    }
+    if "glossary" in c:
+        item["glossary"] = c["glossary"]
+    items_out.append(item)
+
+brief = {
+    "version": version,
+    "generatedAt": now_sh_str,
+    "period": "evening",
+    "items": items_out
+}
+
+with open('brief_evening.json', 'w', encoding='utf-8') as f:
+    json.dump(brief, f, ensure_ascii=False, indent=2)
+
+# Mirror to docs/
+import os
+os.makedirs('docs', exist_ok=True)
+with open('docs/brief_evening.json', 'w', encoding='utf-8') as f:
+    json.dump(brief, f, ensure_ascii=False, indent=2)
+
+print("\nWrote brief_evening.json and docs/brief_evening.json")
+
+# Update history.json - append new items, keep latest 500
+new_hist_items = []
+for c in filtered:
+    new_hist_items.append({
+        "url": c["url"],
+        "title": c["title"],
+        "published": c["published"],
+        "period": "evening",
+        "version": version
+    })
+
+all_items = hist_items + new_hist_items
+all_items = all_items[-500:]
+hist_data['items'] = all_items
+with open('history.json', 'w', encoding='utf-8') as f:
+    json.dump(hist_data, f, ensure_ascii=False, indent=2)
+print(f"Updated history.json: {len(all_items)} items total")
