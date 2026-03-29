@@ -1,340 +1,203 @@
 {
-  "version": "v20260329-0606",
-  "generatedAt": "2026-03-29T06:06:13.520678+08:00",
+  "version": "v20260330-0601",
+  "generatedAt": "2026-03-30T06:01:00+08:00",
   "period": "morning",
-  "windowHours": 24,
-  "itemCount": 15,
+  "commit": "",
   "items": [
     {
-      "title": "GF起诉Tower半导体，涉11项制造专利",
-      "summary": "GlobalFoundries对以色列Tower Semiconductor提起多项专利诉讼，指控其侵犯11项芯片制造工艺专利，同时向ITC申请进口禁令及赔偿。",
-      "source": "TrendForce",
-      "published": "2026-03-27",
-      "url": "https://www.trendforce.com/news/2026/03/27/news-globalfoundries-sues-tower-semiconductor-over-11-patents-seeks-profit-damages-and-import-ban/",
-      "tags": [
-        "GlobalFoundries",
-        "Tower",
-        "专利诉讼",
-        "代工"
-      ],
-      "insights": [
-        "成熟制程代工专利战升温，客户选型需评估供应商诉讼风险",
-        "ITC禁令若成立将影响依赖Tower工艺的芯片进入美国市场"
-      ],
-      "actions": [
-        "排查与Tower合作的供应商专利风险敞口"
-      ],
-      "category": "Fab"
-    },
-    {
-      "title": "TSMC 2026年资本开支达520-560亿美元",
-      "summary": "TSMC宣布激进资本支出计划，押注先进节点与全球新厂以承接AI算力需求，2nm产能已售罄至2026年底。",
-      "source": "TradingView",
-      "published": "2026-03-27",
-      "url": "https://www.tradingview.com/news/zacks:5b2a732e5094b:0-will-tsm-s-aggressive-capex-plan-strengthen-its-foundry-dominance/",
-      "tags": [
-        "TSMC",
-        "Foundry",
-        "CapEx",
-        "2nm"
-      ],
-      "insights": [
-        "2nm产能售罄，先进节点流片议价权在台积电",
-        "高资本开支意味着设备商订单能见度良好"
-      ],
-      "actions": [
-        "尽早锁定台积电先进节点流片排期"
-      ],
-      "category": "Fab"
-    },
-    {
-      "title": "中电科首台TGV/RDL先进封装检测设备问世",
-      "summary": "中电科风华成功研发国内首台可同步实现大尺寸玻璃基板TGV与RDL工艺检测的Venus 6系列设备，填补国产先进封装检测空白。",
-      "source": "搜狐/科技日报",
-      "published": "2026-03-27",
-      "url": "https://www.sohu.com/a/1002109209_162758",
-      "tags": [
-        "先进封装",
-        "TGV",
-        "RDL",
-        "国产设备"
-      ],
-      "glossary": [
-        {
-          "term": "TGV",
-          "desc": "玻璃通孔，Glass Through-Via，先进封装关键互连技术"
-        },
-        {
-          "term": "RDL",
-          "desc": "再分布层，Redistribution Layer，封装中重新布线层"
-        }
-      ],
-      "insights": [
-        "TGV+RDL量检测国产化落地，玻璃基板封装供应链进口替代加速",
-        "国内先进封装检测能力提升将缓解产线对进口设备依赖"
-      ],
-      "actions": [
-        "关注玻璃基板封装设备国产化进展及配套产业链"
-      ],
-      "category": "Fab"
-    },
-    {
-      "title": "SEMI：AI推动半导体2030年达1.8万亿美元",
-      "summary": "SEMICON China 2026上SEMI称AI算力驱动半导体进入结构性增长，中国产能与设备在成熟制程中份额持续提升，预计2030年达1.8万亿美元。",
-      "source": "Brandsit/SEMI",
-      "published": "2026-03-27",
-      "url": "https://brandsit.pl/en/china-chip-market-2026-ai-drives-record-growth/",
-      "tags": [
-        "SEMI",
-        "市场预测",
-        "AI",
-        "中国产能"
-      ],
-      "insights": [
-        "AI基础设施成半导体增长主引擎，结构性需求好于周期性反弹",
-        "中国成熟制程扩产在全球供应链分工中角色日益重要"
-      ],
-      "actions": [
-        "结合2030规模目标，重新评估供应链中长期布局优先级"
-      ],
-      "category": "Fab"
-    },
-    {
-      "title": "台湾半导体出口创近30年最高排名",
-      "summary": "台湾2025年商品出口排名升至近三十年最高，AI驱动半导体与科技产品出口大幅拉动，制造业核心地位稳固。",
-      "source": "Taipei Times",
+      "title": "Google TurboQuant引爆存储股暴跌",
+      "summary": "Google发布TurboQuant算法，将AI推理KV缓存压缩至原来1/6且无精度损失，三星跌4.7%、SK海力士跌6.2%，但分析师认为长期将扩大AI需求。",
+      "source": "The Elec",
       "published": "2026-03-29",
-      "url": "https://www.taipeitimes.com/News/front/archives/2026/03/29/2003854644",
-      "tags": [
-        "台湾",
-        "半导体出口",
-        "AI",
-        "制造"
-      ],
+      "url": "https://www.thelec.net/news/articleView.html?idxno=6164",
+      "tags": ["HBM", "Memory", "AI-Inference", "Google"],
       "insights": [
-        "台湾AI半导体出口持续领跑，供应链对台湾依赖度仍高",
-        "下游采购需关注台湾政策动态及出口管制风险"
+        "TurboQuant压缩NAND/KV缓存，短期冲击存储股但不影响HBM核心需求",
+        "效率提升将降低AI部署门槛，长期利好整体算力需求"
       ],
-      "actions": [
-        "跟踪台湾半导体出口结构变化与政策趋势"
-      ],
-      "category": "Fab"
+      "actions": ["评估自有AI部署内存优化空间，关注HBM长期采购策略"]
     },
     {
-      "title": "三星HBM4E首展，16Gbps/pin带宽4TB/s",
-      "summary": "三星在NVIDIA GTC 2026首次公开展示新一代HBM4E，提供16Gbps/pin与4.0TB/s带宽，深化与NVIDIA战略合作。",
-      "source": "Samsung Newsroom",
-      "published": "2026-03-27",
-      "url": "https://news.samsung.com/pe/samsung-presento-hbm4e-destacando-soluciones-integrales-de-ia-su-asociacion-con-nvidia-y-su-vision-en-nvidia-gtc-2026",
-      "tags": [
-        "Samsung",
-        "HBM4E",
-        "NVIDIA",
-        "带宽"
-      ],
+      "title": "TSMC 2nm产能售罄三星补位",
+      "summary": "TSMC 2nm产能已预订至2028年，三星代工成功接获特斯拉、NVIDIA订单，乘TSMC产能不足之机扩大市占。",
+      "source": "Chosun",
+      "published": "2026-03-30",
+      "url": "https://www.chosun.com/english/industry-en/2026/03/30/3FDTIFVVFJEMXD4XSUFFASEGME/",
+      "tags": ["TSMC", "Samsung-Foundry", "2nm", "AI-Demand"],
       "insights": [
-        "HBM4E带宽4.0TB/s刷新纪录，AI训练高端内存供应链竞争加剧",
-        "三星与NVIDIA深度绑定，SK Hynix需加速HBM4E量产以维持份额"
+        "TSMC 72%市占下2nm全满，三星代工获重要突破口",
+        "先进制程产能紧缺将持续至2027年，提前锁产能至关重要"
       ],
-      "actions": [
-        "关注HBM4E量产节点及SK Hynix竞品进展"
-      ],
-      "category": "设计公司"
+      "actions": ["跟踪客户代工Tier-1切换动态，评估三星代工可行性"]
     },
     {
-      "title": "三星与AMD签署HBM4供应战略协议",
-      "summary": "三星与AMD签署HBM4内存供应MoU，含服务器DDR5及潜在代工合作，推动AI加速器系统级深度整合。",
-      "source": "Intelligent Living",
-      "published": "2026-03-27",
-      "url": "https://www.intelligentliving.co/samsung-amd-hbm4-mou-ai/",
-      "tags": [
-        "Samsung",
-        "AMD",
-        "HBM4",
-        "AI加速器"
-      ],
+      "title": "中芯涉伊朗军方或遭新制裁",
+      "summary": "美国政府官员指中芯国际向伊朗军工供应芯片制造设备及技术培训，美方正评估升级对华半导体制裁措施。",
+      "source": "VOR News",
+      "published": "2026-03-29",
+      "url": "https://www.vornews.com/china/chinas-leading-chipmaker-faces-sanctions-for-supplying-semiconductors-to-irans-military/",
+      "tags": ["SMIC", "Sanctions", "Export-Control", "China"],
       "insights": [
-        "AMD绑定三星HBM4，AI加速器供应链出现新竞争轴",
-        "HBM4系统级整合趋势将推动芯片与存储封装一体化"
+        "中芯制裁升级将进一步限制先进设备进口，推升国产替代紧迫性",
+        "关注美国对华芯片出口管制新动向，评估供应链合规风险"
       ],
-      "actions": [
-        "关注AMD AI加速器路线图及HBM4量产时间节点"
-      ],
-      "category": "设计公司"
+      "actions": ["复查供应链合规条款，识别中芯相关设备采购风险"]
     },
     {
-      "title": "平头哥镇岳510 SSD主控出货超50万片",
-      "summary": "阿里平头哥在2026 CFMS闪存峰会宣布，镇岳510 SSD主控累计出货超50万片，阿里云核心业务规模部署，多家存储厂已搭载。",
-      "source": "网易科技",
-      "published": "2026-03-27",
-      "url": "https://www.163.com/tech/article/KP1VB4G000098IEO.html",
-      "tags": [
-        "平头哥",
-        "SSD主控",
-        "存储芯片",
-        "国产设计"
-      ],
+      "title": "Terafab挑战TSMC分析师泼冷水",
+      "summary": "马斯克Terafab垂直整合晶圆厂计划遭分析师质疑，预计晶圆成本比TSMC高30-50%，规模经济与技术积累差距巨大。",
+      "source": "Investing.com",
+      "published": "2026-03-29",
+      "url": "https://www.investing.com/news/economy-news/musks-terafab-plans-seen-having-limited-impact-on-tsmc-4586516",
+      "tags": ["Terafab", "TSMC", "Foundry", "Musk"],
       "insights": [
-        "国产SSD主控规模化出货，云厂商芯片供应链自主化加速",
-        "镇岳510验证国产控制器在企业级场景可用性，拓宽存储厂替换窗口"
+        "即使Terafab满产，晶圆成本劣势使其短期内无法与TSMC竞争",
+        "垂直整合模式若成功将重塑AI芯片供应格局，中长期需持续关注"
       ],
-      "actions": [
-        "跟踪镇岳系列下一代主控发布及存储合作伙伴拓展情况"
-      ],
-      "category": "设计公司"
+      "actions": ["观察Terafab融资与合作公告，判断实质进展"]
     },
     {
-      "title": "谷歌TurboQuant引AI存储股连跌，HBM影响有限",
-      "summary": "谷歌KV Cache压缩算法TurboQuant可将AI推理内存需求降低6倍，引发三星/SK海力士/A股存储股大跌，摩根士丹利指出HBM训练侧影响有限。",
-      "source": "新浪财经/CNBC",
-      "published": "2026-03-27",
-      "url": "https://finance.sina.com.cn/jjxw/2026-03-27/doc-inhskwcy5462141.shtml",
-      "tags": [
-        "TurboQuant",
-        "HBM",
-        "KV Cache",
-        "存储芯片"
-      ],
+      "title": "三星/SK海力士加码在华存储投资",
+      "summary": "两家韩国巨头加大中国晶圆厂投资以应对AI内存短缺，尽管面临美国出口管制压力，中国仍是关键生产基地。",
+      "source": "South China Morning Post",
+      "published": "2026-03-29",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3348159/south-korean-chip-giants-step-china-investments-combat-global-ai-memory-shortage",
+      "tags": ["Samsung", "SK-Hynix", "China", "Memory-Investment"],
       "insights": [
-        "TurboQuant仅压缩推理KV Cache，训练侧HBM需求不受影响",
-        "Jevons悖论效应：AI效率提升将扩大算力部署规模，长期内存需求反可能增加"
+        "韩国企业在华扩产与美国管制之间的博弈将持续升级",
+        "AI内存产能缺口驱动跨地域多元化布局"
       ],
-      "actions": [
-        "区分训练/推理内存差异，评估客户HBM与DRAM采购预算实际影响"
-      ],
-      "category": "设计公司"
+      "actions": ["跟踪三星/SK海力士在华扩产审批进展"]
     },
     {
-      "title": "英伟达向光互连供应商注资40亿美元锁产能",
-      "summary": "英伟达向Lumentum与Coherent各注资20亿美元，锁定CPO光互连产能，为下一代吉瓦级AI工厂铺设光互连底座。",
-      "source": "36氪",
-      "published": "2026-03-27",
-      "url": "https://36kr.com/p/3739469288665606",
-      "tags": [
-        "NVIDIA",
-        "CPO",
-        "光互连",
-        "AI供应链"
-      ],
-      "insights": [
-        "英伟达深度绑定光互连供应链，CPO成下一代AI芯片关键互连接口",
-        "国内光模块/CPO企业有望承接AI服务器互连需求溢出"
-      ],
-      "actions": [
-        "关注CPO/光互连在下一代AI服务器的采购节奏与国产替代机会"
-      ],
-      "category": "设计公司"
-    },
-    {
-      "title": "CNBC：存储股领涨后因TurboQuant骤然逆转",
-      "summary": "CNBC分析称存储芯片股是2026年上半年半导体最大赢家，TurboQuant发布引发动能逆转，分析师建议关注DRAM基本面：Q1合约价预涨55-60%。",
-      "source": "CNBC",
-      "published": "2026-03-27",
-      "url": "https://www.cnbc.com/2026/03/27/memory-chip-stocks-were-big-winners-in-2026-until-lately-what-to-do-now.html",
-      "tags": [
-        "DRAM",
-        "存储芯片",
-        "TurboQuant",
-        "半导体股"
-      ],
-      "insights": [
-        "Q1 DRAM合约价预涨55-60%，供需基本面依然紧张",
-        "情绪性下跌可能为供应链采购锁价提供窗口"
-      ],
-      "actions": [
-        "参考TrendForce Q1 DRAM合约价数据，研判采购锁价时机"
-      ],
-      "category": "设计公司"
-    },
-    {
-      "title": "MLCC迎结构性拐点，AI服务器与AI PC双驱动",
-      "summary": "36氪分析MLCC市场迎来增量与存量双爆发：AI服务器拉动高端MLCC，AI PC新增每台约100颗MLCC，村田等供应商考虑Q4涨价。",
-      "source": "36氪",
+      "title": "车规存储芯片供应满足率不足50%",
+      "summary": "AI产业虹吸效应导致车规级DRAM供应满足率不足50%，三大存储巨头优先扩充HBM/DDR5产能，DDR4车规需求持续承压。",
+      "source": "新浪财经",
       "published": "2026-03-28",
-      "url": "https://36kr.com/p/2734813859719682",
-      "tags": [
-        "MLCC",
-        "AI服务器",
-        "AI PC",
-        "被动元件"
-      ],
-      "glossary": [
-        {
-          "term": "MLCC",
-          "desc": "多层陶瓷电容，Multi-Layer Ceramic Capacitor，芯片旁路/去耦关键无源器件"
-        }
-      ],
+      "url": "https://finance.sina.com.cn/wm/2026-03-28/doc-inhspwhu5714359.shtml",
+      "tags": ["Automotive", "DRAM", "Supply-Shortage", "HBM"],
       "insights": [
-        "AI服务器和AI PC双轮驱动MLCC需求，村田等供应商议价能力增强",
-        "无源元件是芯片交付全链条的隐性瓶颈，需提前锁量"
+        "车规芯片供应满足率<50%，整车交付延迟风险上升，建议提前备货",
+        "三星/海力士/美光优先扩充HBM产能，DDR4结构性短缺或延续至2028年"
       ],
-      "actions": [
-        "评估AI服务器/PC项目中MLCC用量及供货风险，提前与村田/国巨洽谈备货"
-      ],
-      "category": "设计公司"
+      "actions": ["立即评估车规存储在手库存，锁定Q2-Q3长单保供"]
     },
     {
-      "title": "Kandou AI完成2.25亿美元融资，Synopsys/Cadence战投",
-      "summary": "瑞士芯片互连公司Kandou AI完成2.25亿美元A轮，战略投资方含Synopsys、Cadence、软银，专攻芯片间铜互连技术破解AI内存墙。",
-      "source": "The Next Web",
+      "title": "SEMICON China 2026：AI芯片支出近8000亿美元",
+      "summary": "IBS数据显示2026年全球AI及数据中心资本支出达6000亿美元，预计2030年半导体市场规模将达1.8万亿美元，IBS同时提示2028年存在产能过剩风险。",
+      "source": "Digitimes",
+      "published": "2026-03-27",
+      "url": "https://lcdproduct.com/semicon-china-2026-ai-spending-nears-us800-billion-ibs-flags-2028-chip-cycle-risk/",
+      "tags": ["AI-Capex", "Semiconductor-Market", "2028-Risk", "SEMICON"],
+      "insights": [
+        "2026-2027年AI资本开支爆发期，但2028年或面临产能周期下行",
+        "芯片供应链布局需兼顾短期交付与中期产能过剩对冲"
+      ],
+      "actions": ["将2028年产能周期风险纳入中长期采购合同谈判"]
+    },
+    {
+      "title": "HBM超级大厂锁定未来18个月产能",
+      "summary": "超大规模云厂商已锁定三星/SK海力士HBM未来18个月产能，其他企业与消费端被迫争夺DDR5零头，内存市场结构性分裂加速。",
+      "source": "World Today News",
+      "published": "2026-03-30",
+      "url": "https://www.world-today-news.com/ai-memory-shortage-rising-it-costs-cio-strategies-for-2026-2027/",
+      "tags": ["HBM", "Memory-Allocation", "Hyperscaler", "Supply-Chain"],
+      "insights": [
+        "HBM与标准DRAM产能已完全割裂，非云厂商客户议价能力极弱",
+        "企业级采购须与云厂商分层谈判，避免被挤出优先队列"
+      ],
+      "actions": ["接洽HBM备选供应商，建立双轨供应保障机制"]
+    },
+    {
+      "title": "印度半导体计划截至3月批准10个项目",
+      "summary": "印度截至2026年3月已批准10个半导体项目含2座Fab和8座ATMP/OSAT封测厂，地缘政治重组加速多元化供应链布局。",
+      "source": "India Briefing",
+      "published": "2026-03-29",
+      "url": "https://www.india-briefing.com/news/setting-up-a-semiconductor-fabrication-plant-in-india-what-foreign-investors-should-know-22009.html/",
+      "tags": ["India", "Fab", "OSAT", "Supply-Diversification"],
+      "insights": [
+        "印度ATMP/OSAT快于Fab布局，近期可提供封测产能替代",
+        "供应链去中心化趋势下，印度成潜在备选封测节点"
+      ],
+      "actions": ["评估印度OSAT合作可能，纳入供应链多元化规划"]
+    },
+    {
+      "title": "中东战事暴露AI投资供应链脆弱性",
+      "summary": "韩国三星/SK海力士占全球HBM约80%产能，台湾制造90%先进芯片，中东冲突将霍尔木兹海峡风险转化为半导体供应链系统性威胁。",
+      "source": "Indian Express",
+      "published": "2026-03-30",
+      "url": "https://indianexpress.com/article/opinion/columns/west-asia-war-ai-boom-strait-of-hormuz-data-centres-iran-israel-10607590/",
+      "tags": ["Geopolitics", "HBM", "Supply-Chain-Risk", "Korea-Taiwan"],
+      "insights": [
+        "HBM产能高度集中于韩国，地缘风险不可忽视",
+        "AI芯片供应链地缘风险溢价将逐步反映于长期合同价格中"
+      ],
+      "actions": ["评估地缘风险对现有供应链合同的潜在影响"]
+    },
+    {
+      "title": "CPU价格或步内存后尘上涨",
+      "summary": "先进制程Fab产能持续紧缺，分析师预警CPU价格上涨压力，但预计2026年下半年随先进节点产能释放供需将逐步缓和。",
+      "source": "TradingKey",
+      "published": "2026-03-29",
+      "url": "https://www.tradingkey.com/analysis/economic/more/261730403-cpu-intel-amd-ai-chips-pricing-datacenter-arm-supply-semiconductor-tradingkey",
+      "tags": ["CPU", "Pricing", "Advanced-Node", "Intel-AMD"],
+      "insights": [
+        "CPU短缺是产能挤压的次级效应，2026H2随台积电N3/N2扩产有望缓解",
+        "数据中心采购商应及时锁定CPU长单规避涨价"
+      ],
+      "actions": ["关注台积电N2产能释放时间表，提前规划CPU采购节点"]
+    },
+    {
+      "title": "Cadence EDA核心业务2025年增长13%",
+      "summary": "Cadence核心EDA业务2025年营收增长13%，并集成Flexcompute光子仿真GPU加速工具，加速AI数据中心光子设计工作流。",
+      "source": "ZoomInfo/Cadence",
       "published": "2026-03-28",
-      "url": "https://thenextweb.com/news/kandou-ai-225m-copper-interconnect-ai-infrastructure",
-      "tags": [
-        "KandouAI",
-        "Synopsys",
-        "Cadence",
-        "互连IP"
-      ],
+      "url": "https://www.zoominfo.com/p/Amandeep-Singh/12827389965",
+      "tags": ["Cadence", "EDA", "Photonics", "AI-Design"],
       "insights": [
-        "EDA双巨头同时战投互连IP初创，布局从工具扩展至硬件生态",
-        "AI内存墙成新兴IP赛道，芯片间高速互连将成设计关键约束"
+        "EDA工具向光子学/AI协同设计延伸，复合验证需求快速增长",
+        "国内EDA用户应关注Cadence光子工具本土化替代窗口"
       ],
-      "actions": [
-        "评估Kandou互连IP对AI芯片架构的影响，关注国内类似赛道标的"
-      ],
-      "category": "EDA/IP"
+      "actions": ["评估光子IC设计工具链需求，提前接触国内替代方案"]
     },
     {
-      "title": "中科院发布两款高性能RISC-V芯片",
-      "summary": "中科院在2026中关村论坛发布两款高性能RISC-V芯片，为开源芯片商业化应用开辟路径，国内RISC-V产业化提速。",
-      "source": "人民日报/新华社",
-      "published": "2026-03-27",
-      "url": "https://en.people.cn/n3/2026/0327/c90000-20440634.html",
-      "tags": [
-        "RISC-V",
-        "中科院",
-        "开源芯片",
-        "国产化"
-      ],
+      "title": "Synopsys股权变动反映EDA市场信心",
+      "summary": "机构投资者小幅减持Synopsys，但EDA+IP综合布局仍被视为AI芯片设计必需基础设施，长期基本面无变化。",
+      "source": "The Markets Daily",
+      "published": "2026-03-28",
+      "url": "https://www.themarketsdaily.com/2026/03/28/wealth-enhancement-advisory-services-llc-decreases-stake-in-synopsys-inc-snps.html",
+      "tags": ["Synopsys", "EDA", "IP", "Institutional"],
       "insights": [
-        "RISC-V国内商业化加速，EDA工具链对开源ISA适配成关键竞争要素",
-        "国产IP替代Arm路线在政策驱动下持续向前推进"
+        "Synopsys EDA+IP双引擎在AI芯片设计周期需求持续旺盛",
+        "EDA工具许可证费用将随芯片设计复杂度上升持续增长"
       ],
-      "actions": [
-        "追踪国内RISC-V EDA生态成熟度及量产客户导入节奏"
-      ],
-      "category": "EDA/IP"
+      "actions": ["审视现有EDA授权合同到期时间，提前续签规避涨价"]
     },
     {
-      "title": "欧洲半导体初创Q1融资超3.8亿欧元，硬件VC回归",
-      "summary": "PitchBook：欧洲半导体初创2026 Q1融资超3.8亿欧元，Kandou AI 2.25亿美元为最大单笔，VC从软件转向半导体硬件。",
-      "source": "PitchBook",
-      "published": "2026-03-27",
-      "url": "https://pitchbook.com/news/articles/european-semiconductor-startups-cash-in-as-vcs-turn-to-hardware",
-      "tags": [
-        "融资",
-        "欧洲半导体",
-        "硬件创投",
-        "互连IP"
-      ],
+      "title": "美对华芯片关税延至2027年",
+      "summary": "据报道美国将对华芯片关税征收时间推迟至2027年，短期内缓解中国半导体企业部分出口压力。",
+      "source": "TRT World",
+      "published": "2026-03-29",
+      "url": "https://www.trtworld.com/article/b16946bb381d",
+      "tags": ["Tariff", "Trade-Policy", "China", "Export-Control"],
       "insights": [
-        "硬件芯片IP融资加速，互连/封装IP成新热点赛道",
-        "VC回归半导体硬件标志AI时代上游基础设施价值重估"
+        "关税延期为中国芯片企业提供2年缓冲，但结构性管制持续",
+        "供应链合规压力不减，中长期布局仍需加速国产替代"
       ],
-      "actions": [
-        "跟踪芯片IP/互连技术投资趋势，评估新型赛道供应商合作机会"
+      "actions": ["跟踪关税政策落地细节，更新供应链风险评估时间表"]
+    },
+    {
+      "title": "L&T半导体：地缘重组利好印度芯片布局",
+      "summary": "印度L&T半导体CEO表示地缘政治重组正推动企业寻求制造多元化，印度需构建完整的Fab+设计+材料生态才能真正成为半导体中心。",
+      "source": "Outlook Business",
+      "published": "2026-03-29",
+      "url": "https://www.outlookbusiness.com/corporate/geopolitical-shifts-are-working-in-indias-favour-in-tech-industry-lt-semicon-chief",
+      "tags": ["India", "Geopolitics", "Semiconductor-Hub", "Ecosystem"],
+      "insights": [
+        "印度芯片生态仍处早期，封测产能先于Fab成熟，短期合作价值有限",
+        "2-3年内印度ATMP节点可纳入备选供应链规划"
       ],
-      "category": "EDA/IP"
+      "actions": ["追踪印度半导体政策激励细则，评估潜在合作节点"]
     }
   ]
 }

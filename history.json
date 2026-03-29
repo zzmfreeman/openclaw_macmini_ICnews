@@ -1,6 +1,96 @@
 {
   "items": [
     {
+      "url": "https://www.thelec.net/news/articleView.html?idxno=6164",
+      "title": "Google TurboQuant引爆存储股暴跌",
+      "published": "2026-03-29",
+      "addedAt": "2026-03-30T06:01:00+08:00"
+    },
+    {
+      "url": "https://www.chosun.com/english/industry-en/2026/03/30/3FDTIFVVFJEMXD4XSUFFASEGME/",
+      "title": "TSMC 2nm产能售罄三星补位",
+      "published": "2026-03-30",
+      "addedAt": "2026-03-30T06:01:00+08:00"
+    },
+    {
+      "url": "https://www.vornews.com/china/chinas-leading-chipmaker-faces-sanctions-for-supplying-semiconductors-to-irans-military/",
+      "title": "中芯涉伊朗军方或遭新制裁",
+      "published": "2026-03-29",
+      "addedAt": "2026-03-30T06:01:00+08:00"
+    },
+    {
+      "url": "https://www.investing.com/news/economy-news/musks-terafab-plans-seen-having-limited-impact-on-tsmc-4586516",
+      "title": "Terafab挑战TSMC分析师泼冷水",
+      "published": "2026-03-29",
+      "addedAt": "2026-03-30T06:01:00+08:00"
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3348159/south-korean-chip-giants-step-china-investments-combat-global-ai-memory-shortage",
+      "title": "三星/SK海力士加码在华存储投资",
+      "published": "2026-03-29",
+      "addedAt": "2026-03-30T06:01:00+08:00"
+    },
+    {
+      "url": "https://finance.sina.com.cn/wm/2026-03-28/doc-inhspwhu5714359.shtml",
+      "title": "车规存储芯片供应满足率不足50%",
+      "published": "2026-03-28",
+      "addedAt": "2026-03-30T06:01:00+08:00"
+    },
+    {
+      "url": "https://lcdproduct.com/semicon-china-2026-ai-spending-nears-us800-billion-ibs-flags-2028-chip-cycle-risk/",
+      "title": "SEMICON China 2026 AI芯片支出近8000亿美元",
+      "published": "2026-03-27",
+      "addedAt": "2026-03-30T06:01:00+08:00"
+    },
+    {
+      "url": "https://www.world-today-news.com/ai-memory-shortage-rising-it-costs-cio-strategies-for-2026-2027/",
+      "title": "HBM超级大厂锁定未来18个月产能",
+      "published": "2026-03-30",
+      "addedAt": "2026-03-30T06:01:00+08:00"
+    },
+    {
+      "url": "https://www.india-briefing.com/news/setting-up-a-semiconductor-fabrication-plant-in-india-what-foreign-investors-should-know-22009.html/",
+      "title": "印度半导体计划截至3月批准10个项目",
+      "published": "2026-03-29",
+      "addedAt": "2026-03-30T06:01:00+08:00"
+    },
+    {
+      "url": "https://indianexpress.com/article/opinion/columns/west-asia-war-ai-boom-strait-of-hormuz-data-centres-iran-israel-10607590/",
+      "title": "中东战事暴露AI投资供应链脆弱性",
+      "published": "2026-03-30",
+      "addedAt": "2026-03-30T06:01:00+08:00"
+    },
+    {
+      "url": "https://www.tradingkey.com/analysis/economic/more/261730403-cpu-intel-amd-ai-chips-pricing-datacenter-arm-supply-semiconductor-tradingkey",
+      "title": "CPU价格或步内存后尘上涨",
+      "published": "2026-03-29",
+      "addedAt": "2026-03-30T06:01:00+08:00"
+    },
+    {
+      "url": "https://www.zoominfo.com/p/Amandeep-Singh/12827389965",
+      "title": "Cadence EDA核心业务2025年增长13%",
+      "published": "2026-03-28",
+      "addedAt": "2026-03-30T06:01:00+08:00"
+    },
+    {
+      "url": "https://www.themarketsdaily.com/2026/03/28/wealth-enhancement-advisory-services-llc-decreases-stake-in-synopsys-inc-snps.html",
+      "title": "Synopsys股权变动反映EDA市场信心",
+      "published": "2026-03-28",
+      "addedAt": "2026-03-30T06:01:00+08:00"
+    },
+    {
+      "url": "https://www.trtworld.com/article/b16946bb381d",
+      "title": "美对华芯片关税延至2027年",
+      "published": "2026-03-29",
+      "addedAt": "2026-03-30T06:01:00+08:00"
+    },
+    {
+      "url": "https://www.outlookbusiness.com/corporate/geopolitical-shifts-are-working-in-indias-favour-in-tech-industry-lt-semicon-chief",
+      "title": "L&T半导体地缘重组利好印度芯片布局",
+      "published": "2026-03-29",
+      "addedAt": "2026-03-30T06:01:00+08:00"
+    },
+    {
       "url": "https://www.reuters.com/world/asia-pacific/chinas-top-chipmaker-has-supplied-chipmaking-tech-iran-military-us-officials-say-2026-03-27/",
       "title": "SMIC向伊朗军方输送芯片设备",
       "published": "2026-03-27",
