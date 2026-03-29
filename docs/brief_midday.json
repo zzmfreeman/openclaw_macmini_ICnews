@@ -1,115 +1,168 @@
 {
-  "version": "v20260328-1431",
-  "generatedAt": "2026-03-28T14:31:00+08:00",
-  "period": "midday",
+  "version": "v20260329-1303",
+  "generatedAt": "2026-03-29 13:03:23",
   "commit": "",
+  "period": "midday",
   "items": [
     {
-      "title": "Supermicro联创被捕走私$25亿NVIDIA芯片",
-      "summary": "SuperMicro联合创始人Wally Liaw于3月19日被捕，涉嫌通过伪造服务器与空壳公司向中国走私价值约25亿美元的Nvidia AI芯片，中国军方关联大学已被查出使用违禁芯片，美国众议院随即推进Chip Security Act。",
-      "source": "Reuters",
-      "published": "2026-03-27",
-      "url": "https://www.reuters.com/world/china/chinese-universities-with-military-links-bought-super-micro-servers-with-2026-03-27/",
-      "tags": ["export-control", "Supermicro", "NVIDIA", "China-sanctions"],
-      "insights": [
-        "出口管制漏洞被利用，可能引发更严格的芯片追踪立法与供应链合规审查",
-        "中国军方关联机构获取限制芯片，或加速对中国采购AI算力的管控升级"
+      "title": "蓝芯算力融资数亿攻RISC-V服务器",
+      "summary": "字节前高管创办蓝芯算力，以RISC-V架构研发AI推理芯片，获联想/腾讯云/中国移动逾20万片订单，融资数亿元。",
+      "source": "36氪",
+      "published": "2026-03-29",
+      "url": "https://www.36kr.com/p/3742526226333700",
+      "tags": [
+        "RISC-V",
+        "AI-chip",
+        "fabless",
+        "fundraising"
       ],
-      "actions": "评估现有合规程序，排查可能的出口管制风险"
-    },
-    {
-      "title": "SK Hynix赴美IPO最高募140亿美元",
-      "summary": "SK Hynix秘密提交Form F-1，计划2026年下半年在美上市，融资规模预计100-140亿美元，旨在缩小与美国科技巨头估值差距并扩充HBM及AI内存产能。",
-      "source": "TechCrunch",
-      "published": "2026-03-27",
-      "url": "https://techcrunch.com/2026/03/27/memory-chip-giant-sk-hynix-could-help-end-rammageddon-with-blockbuster-us-ipo/",
-      "tags": ["SK-Hynix", "HBM", "IPO", "AI-memory"],
       "insights": [
-        "HBM供应链资本化加速，有助于缓解AI服务器内存短缺压力",
-        "大规模融资将支撑未来2-3年先进封装与EUV扩产，影响代工合作格局"
+        "RISC-V算力芯片实现商业化突破，国产架构替代进程提速",
+        "云厂商订单驱动，新兴Fabless公司商业验证加快"
       ],
-      "actions": "关注SK Hynix HBM4供货节奏及对TSMC CoWoS产能的影响"
-    },
-    {
-      "title": "Google TurboQuant压缩6倍内存存储股暴跌",
-      "summary": "Google于3月25日发布TurboQuant量化算法，可将LLM KV Cache内存需求降低6倍、推理速度提升近8倍，导致三星跌4.7%、SK Hynix跌6.2%、Micron跌7%，分析师认为长期内存需求仍将增长。",
-      "source": "Korea Times",
-      "published": "2026-03-27",
-      "url": "https://www.koreatimes.co.kr/business/tech-science/20260327/googles-turboquant-unlikely-to-weaken-memory-demand-analysts",
-      "tags": ["HBM", "AI-memory", "quantization", "memory-demand"],
-      "insights": [
-        "软件效率突破短期冲击内存股，类DeepSeek效应，但Jevons悖论可能维持实际需求",
-        "采购决策需评估AI内存用量预测的不确定性，避免过度锁定长期HBM合同"
-      ],
-      "actions": "暂缓大宗HBM长约谈判，待TurboQuant商业化验证后再定"
-    },
-    {
-      "title": "TSMC 2026年AI芯片需求驱动强劲增长",
-      "summary": "分析机构发布报告指出TSMC 2026年开局强劲，AI芯片需求持续推动营收上修，2nm量产计划正按期推进，大陆代工厂商市场份额预计到2031年达30%。",
-      "source": "IndexBox",
-      "published": "2026-03-28",
-      "url": "https://www.indexbox.io/blog/tsmcs-strong-2026-start-ai-demand-drives-growth-and-revised-forecast/",
-      "tags": ["TSMC", "foundry", "2nm", "AI-chip"],
-      "insights": [
-        "TSMC 2nm产能爬坡将是AI芯片供应链的核心节点，流片窗口竞争加剧",
-        "中国大陆代工厂份额持续扩张，成熟制程价格压力或传导至设计公司定价"
-      ],
-      "actions": "确认2nm流片排期，评估备用产能方案"
-    },
-    {
-      "title": "美国Chip Security Act要求AI芯片出口追踪",
-      "summary": "美众议院外交委员会推进《芯片安全法》，要求美国出口的先进AI芯片内置位置验证机制，背景为Supermicro走私案与特朗普政府1月批准向中国出口H200芯片。",
-      "source": "The Cyber Express",
-      "published": "2026-03-28",
-      "url": "https://thecyberexpress.com/advanced-ai-chip-chip-security-act/",
-      "tags": ["export-control", "AI-chip", "regulation", "US-China"],
-      "insights": [
-        "若法案通过，AI芯片嵌入地理锁定机制将增加OEM/ODM合规成本",
-        "国内算力芯片自研路线战略价值进一步凸显"
-      ],
-      "actions": "跟踪法案进展，评估对现有GPU采购渠道的合规影响",
-      "glossary": [
-        {"term": "Chip Security Act", "desc": "美国拟立法要求先进AI芯片内置位置验证，防止非法出口"}
+      "actions": [
+        "关注RISC-V代工流片时间节点"
       ]
     },
     {
-      "title": "SK Hynix签署大额ASML EUV订单锁产能",
-      "summary": "SK Hynix向ASML下达大规模EUV光刻机订单，旨在锁定未来几年HBM及先进DRAM生产产能，被视为内存行业转为AI供应链关键瓶颈节点的战略信号。",
-      "source": "Cloud News",
-      "published": "2026-03-27",
-      "url": "https://cloudnews.tech/sk-hynix-secures-its-ai-future-with-a-huge-euv-order-from-asml/",
-      "tags": ["SK-Hynix", "ASML", "EUV", "HBM"],
-      "insights": [
-        "EUV设备订单竞争加剧，ASML产能成为先进存储扩产的核心制约",
-        "HBM供应链向上延伸至设备层，早期锁产能策略愈加重要"
+      "title": "尼康光刻机百年最惨亏损850亿日元",
+      "summary": "尼康预计2025财年亏损850亿日元创百年最差，光刻机半年仅出货9台且均为成熟制程，先进制程市场份额归零。",
+      "source": "36氪",
+      "published": "2026-03-29",
+      "url": "https://www.36kr.com/p/3743366398771207",
+      "tags": [
+        "lithography",
+        "Nikon",
+        "equipment",
+        "advanced-process"
       ],
-      "actions": "关注ASML EUV交货周期，评估对竞争对手扩产节奏的影响"
+      "insights": [
+        "光刻设备市场ASML垄断加剧，二线厂商生存空间骤减",
+        "先进制程设备供应链进一步集中，对Fab采购影响深远"
+      ],
+      "actions": [
+        "评估先进制程设备供应链单一风险"
+      ]
     },
     {
-      "title": "阿里玄铁C950高性能RISC-V核心发布",
-      "summary": "阿里巴巴发布玄铁C950，符合RVA23规范的64位RISC-V处理器核，面向边缘AI计算，为中国RISC-V生态补充高端设计资产，与中科院香山系列形成互补。",
-      "source": "CNX Software",
-      "published": "2026-03-25",
-      "url": "https://www.cnx-software.com/2026/03/25/alibaba-xuantie-c950-a-powerful-rva2364-bit-risc-v-core-for-edge-ai-computing/",
-      "tags": ["RISC-V", "Alibaba", "IP-core", "edge-AI"],
-      "insights": [
-        "国内RISC-V IP生态加速成熟，对国外架构授权依赖进一步降低",
-        "边缘AI芯片设计公司可借助开源RISC-V IP降低授权成本，加速流片"
+      "title": "数据中心成本结构：GPU占45%电费仅5%",
+      "summary": "沐曦披露1GW数据中心TCO分析：总成本550亿美元中GPU占45%，HBM和CoWoS封装是核心瓶颈，电价优势在算力竞争中权重极低。",
+      "source": "36氪",
+      "published": "2026-03-29",
+      "url": "https://www.36kr.com/p/3743467139170568",
+      "tags": [
+        "GPU",
+        "HBM",
+        "CoWoS",
+        "data-center"
       ],
-      "actions": "评估采用RISC-V IP方案对现有项目IP授权成本的替代可能性"
+      "insights": [
+        "先进封装CoWoS与HBM仍是AI芯片供应链最大卡点",
+        "电价非算力核心竞争力，先进制程+封装才是决定性变量"
+      ],
+      "actions": [
+        "跟踪台积电CoWoS扩产进度及HBM报价"
+      ]
     },
     {
-      "title": "台湾冻结电价为芯片制造成本护航",
-      "summary": "台湾宣布暂不上调电力价格以对冲中东战事引发的能源涨价压力，为台积电等晶圆厂提供成本稳定缓冲，维持芯片制造竞争力。",
-      "source": "Bloomberg",
-      "published": "2026-03-27",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-27/chip-hub-taiwan-keeps-power-prices-unchanged-despite-iran-war",
-      "tags": ["TSMC", "Taiwan", "manufacturing-cost", "energy"],
-      "insights": [
-        "台湾政策护盘短期有效，但中东局势若持续，晶圆代工成本压力仍将累积",
-        "地缘能源风险成为代工选址与价格谈判的新变量"
+      "title": "天成半导体研制14英寸碳化硅单晶",
+      "summary": "天成半导体依托自研设备成功制备14英寸SiC单晶，有效厚度30mm，继12英寸突破后再次扩大衬底尺寸。",
+      "source": "财联社",
+      "published": "2026-03-29",
+      "url": "https://api3.cls.cn/share/article/2328045?os=web&sv=8.4.6&app=CailianpressWeb",
+      "tags": [
+        "SiC",
+        "power-device",
+        "wafer",
+        "domestic"
       ],
-      "actions": "在与台积电季度价格谈判中将能源政策变化列为跟踪指标"
+      "insights": [
+        "国产SiC衬底尺寸持续突破，功率器件供应链自主化提速",
+        "14英寸SiC量产仍需时间，关注良率与成本验证节点"
+      ],
+      "actions": [
+        "跟进天成半导体量产时间表及下游车规采购意向"
+      ]
+    },
+    {
+      "title": "中颖电子推进车规芯片今年新品上市",
+      "summary": "中颖电子表示有序推进车规芯片研发，重视功能安全与可靠性验证，新产品预计2026年推出。",
+      "source": "财联社",
+      "published": "2026-03-29",
+      "url": "https://api3.cls.cn/share/article/2328022?os=web&sv=8.4.6&app=CailianpressWeb",
+      "tags": [
+        "automotive-chip",
+        "MCU",
+        "design-company",
+        "domestic"
+      ],
+      "insights": [
+        "国内MCU厂商加速车规认证，2026年成为国产替代重要验证年",
+        "车规功能安全认证周期长，关注认证进展与OEM导入计划"
+      ],
+      "actions": [
+        "跟踪中颖车规芯片AEC-Q100认证与主机厂导入进度"
+      ]
+    },
+    {
+      "title": "TSMC独家代工Arm AGI CPU下半年量产",
+      "summary": "Arm首款自研AI数据中心处理器AGI CPU采用TSMC 3nm量产，Synopsys提供全套EDA+IP工具链，下半年开始批量出货。",
+      "source": "Stocks Today",
+      "published": "2026-03-28",
+      "url": "https://stockstoday.com/tsmc-secures-exclusive-manufacturing-pact-for-arms-ai-chip-venture/",
+      "tags": [
+        "TSMC",
+        "Arm",
+        "AI-chip",
+        "3nm"
+      ],
+      "insights": [
+        "TSMC 3nm获Arm独家量产合同，先进制程产能竞争持续白热化",
+        "Synopsys在高端AI芯片EDA+IP一体化中标志性落地"
+      ],
+      "actions": [
+        "评估TSMC 3nm产能分配对其他客户排期的影响"
+      ]
+    },
+    {
+      "title": "消费电子全链路涨价冲击下半年发布会",
+      "summary": "AI热潮推动电子零部件全面涨价，内存、被动元器件、封装材料均受波及，消费电子厂商下半年新品发布面临成本压力。",
+      "source": "36氪",
+      "published": "2026-03-28",
+      "url": "https://www.36kr.com/p/3741970161025024",
+      "tags": [
+        "supply-chain",
+        "memory",
+        "component-price",
+        "consumer-electronics"
+      ],
+      "insights": [
+        "AI算力需求挤压消费电子零部件供应，涨价传导至终端产品",
+        "封测与存储价格联动上涨，关注对中低端SoC订单的替代效应"
+      ],
+      "actions": [
+        "更新器件采购成本预测，提前锁定关键物料"
+      ]
+    },
+    {
+      "title": "Arm与Meta/OpenAI合作推进AGI CPU商业化",
+      "summary": "Arm AGI CPU引入Meta、OpenAI等云客户及联想/超微ODM合作，商业化路径清晰，下半年首批交付后2027年进入规模出货。",
+      "source": "Digital Today",
+      "published": "2026-03-28",
+      "url": "https://www.digitaltoday.co.kr/en/view/43648/arm-unveils-in-house-ai-chip-agi-cpu-meta-openai-join",
+      "tags": [
+        "Arm",
+        "AI-chip",
+        "cloud",
+        "fabless"
+      ],
+      "insights": [
+        "超大云厂商采购Arm自研芯片，IP授权模式向芯片销售模式转型加速",
+        "国内云厂商可能跟进评估Arm AGI CPU，关注对X86/RISC-V的替代博弈"
+      ],
+      "actions": [
+        "评估Arm AGI CPU对现有服务器芯片供应商格局的冲击"
+      ]
     }
   ]
 }
