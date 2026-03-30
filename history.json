@@ -1983,6 +1983,156 @@
     {
       "url": "https://www.tipranks.com/news/this-chip-stock-is-the-only-trillion-dollar-winner-in-the-2026-tech-slump",
       "title": "TSMC股价2026年逆势上涨12.8%"
+    },
+    {
+      "title": "TSMC 2nm产能至2028年售罄",
+      "summary": "TSMC 2nm先进制程订单已排至2028年，AI芯片需求激增致产能全满，三星代工成为唯一可替代的2nm备选方案。",
+      "source": "Korea Herald",
+      "published": "2026-03-30",
+      "url": "https://www.koreaherald.com/article/10705747",
+      "tags": [
+        "TSMC",
+        "Samsung",
+        "2nm",
+        "foundry"
+      ],
+      "insights": [
+        "TSMC 2nm满载意味着2026年下单已需排队至2028年，供应瓶颈将持续2年以上",
+        "三星代工市占虽仅7%，但在先进节点将成不可忽视的备选供应商"
+      ],
+      "actions": "评估三星代工备选可行性"
+    },
+    {
+      "title": "中国13位芯片高管制定半导体自给计划",
+      "summary": "长江存储董事长陈南翔等13位中国芯片产业高管联合制定计划，目标2030年实现80%半导体自给率及全国产设备7nm产线。",
+      "source": "Electronics Weekly",
+      "published": "2026-03-30",
+      "url": "https://www.electronicsweekly.com/news/business/china-makes-new-plan-for-semiconductor-self-sufficiency-2026-03/",
+      "tags": [
+        "China",
+        "self-sufficiency",
+        "YMTC",
+        "localization"
+      ],
+      "insights": [
+        "中国2024年半导体自给率约33%，2030年目标80%，目标大幅提速",
+        "全国产设备7nm产线目标释放重大设备国产化采购信号"
+      ],
+      "actions": "关注国产设备厂商订单动向"
+    },
+    {
+      "title": "中国半导体设备商获大规模融资",
+      "summary": "AI与HPC驱动下，中国半导体设备商集中融资：iSABers获5亿元战略轮（AMEC领投），TBSTest ATE完成12亿元pre-IPO轮。",
+      "source": "TrendForce",
+      "published": "2026-03-30",
+      "url": "https://www.trendforce.com/news/2026/03/30/news-chinese-semiconductor-equipment-manufacturers-draw-in-new-investment/",
+      "tags": [
+        "China",
+        "semiconductor equipment",
+        "ATE",
+        "advanced packaging"
+      ],
+      "insights": [
+        "高端键合设备（iSABers）与ATE（TBSTest）同期获大额融资，Chiplet先进封装供应链补链加速",
+        "国家产业基金持续参投，国产设备替代进入资本密集阶段"
+      ],
+      "actions": "跟踪国产ATE及键合设备进入主流产线进展",
+      "glossary": [
+        {
+          "term": "ATE",
+          "desc": "自动测试设备，用于芯片量产前的功能/性能测试"
+        }
+      ]
+    },
+    {
+      "title": "Arm跨界自研AGI CPU颠覆IP授权模式",
+      "summary": "Arm正式推出首款自研AGI CPU平台，从IP授权商转型为芯片产品公司，目标直接进入AI数据中心市场竞争。",
+      "source": "DIGITIMES",
+      "published": "2026-03-30",
+      "url": "https://www.digitimes.com/news/a20260330PD207/arm-cpu-licensing-business-meta.html",
+      "tags": [
+        "Arm",
+        "AGI",
+        "CPU",
+        "EDA/IP"
+      ],
+      "insights": [
+        "Arm从授权商变竞争者，对依赖Arm IP的Qualcomm、MediaTek等设计公司构成潜在竞争威胁",
+        "自研CPU产品化路径意味着未来IP授权谈判筹码将发生根本变化"
+      ],
+      "actions": "重新评估IP授权成本与自研CPU竞争关系"
+    },
+    {
+      "title": "三星2028年量产硅光子平台挑战TSMC",
+      "summary": "三星在OFC 2026上宣布2028年量产硅光子技术，提供AI芯片+先进封装+HBM的一体化平台，全面对标TSMC生态。",
+      "source": "DIGITIMES",
+      "published": "2026-03-30",
+      "url": "https://www.digitimes.com/news/a20260330PD228/silicon-photonics-samsung-tsmc-2028.html",
+      "tags": [
+        "Samsung",
+        "silicon photonics",
+        "HBM",
+        "advanced packaging"
+      ],
+      "insights": [
+        "硅光子集成是下一代数据中心互联关键技术，三星2028量产时间表对竞争格局影响深远",
+        "AI芯片+HBM+先进封装+光互联一体化，代工厂价值链正在重构"
+      ],
+      "actions": "关注三星硅光子平台对封测供应链重组影响"
+    },
+    {
+      "title": "中科院发布香山RISC-V处理器及如意OS",
+      "summary": "中科院在2026中关村论坛发布香山开源RISC-V处理器及配套如意原生OS，推动中国芯片与操作系统协同自主研发。",
+      "source": "DIGITIMES",
+      "published": "2026-03-30",
+      "url": "https://www.digitimes.com/news/a20260330VL206/risc-v-development-ip-processor.html",
+      "tags": [
+        "RISC-V",
+        "China",
+        "open-source",
+        "chip design"
+      ],
+      "insights": [
+        "香山RISC-V+如意OS是中国脱离Arm/x86架构依赖的最新里程碑",
+        "开源处理器生态成熟度决定国内设计公司能否实现低成本IP替换"
+      ],
+      "actions": "评估国产RISC-V平台的流片成熟度与生态配套"
+    },
+    {
+      "title": "Foundry 2.0市场规模2026年将超3600亿美元",
+      "summary": "AI驱动下全球代工2.0市场规模预计2026年突破3600亿美元，TSMC主导先进节点，成熟制程因功率器件需求复苏。",
+      "source": "TelecomLead",
+      "published": "2026-03-30",
+      "url": "https://telecomlead.com/semiconductor/foundry-2-0-market-to-surpass-360-bn-in-2026-as-ai-drives-semiconductor-growth-125305",
+      "tags": [
+        "foundry",
+        "AI",
+        "market",
+        "advanced nodes"
+      ],
+      "insights": [
+        "Foundry 2.0包含传统晶圆制造+先进封装+系统级整合，市场边界扩大意味着更多供应链机会",
+        "成熟制程价格压力因AI基础设施带来的功率器件需求而趋于缓解"
+      ],
+      "actions": "关注成熟制程产能利用率回升时机"
+    },
+    {
+      "title": "36氪：大模型权重直接刻进芯片的探索",
+      "summary": "初创公司Taalas将LLM权重硬编码于芯片金属层（台积电6nm），推理速度超英伟达H200约70倍，但不可编程限制其适用场景。",
+      "source": "36氪",
+      "published": "2026-03-30",
+      "url": "https://www.36kr.com/p/3699962531540867",
+      "tags": [
+        "ASIC",
+        "inference",
+        "chip design",
+        "AI chip"
+      ],
+      "insights": [
+        "专用AI推理芯片赛道（Taalas/Groq/Etched）技术路线分化，ASIC定制化适合高频稳定推理场景",
+        "模型权重硬编码方案对供应链意味着极短流片周期+高频迭代，需要灵活代工合作模式"
+      ],
+      "actions": "关注专用AI推理芯片对标准GPU订单的替代效应"
     }
   ],
   "lastUpdated": "2026-03-28T14:31:00+08:00"

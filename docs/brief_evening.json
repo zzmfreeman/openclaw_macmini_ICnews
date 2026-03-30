@@ -1,157 +1,158 @@
 {
-  "version": "v20260329-2000",
-  "generatedAt": "2026-03-29T20:00:00+08:00",
+  "version": "v20260330-2003",
+  "generatedAt": "2026-03-30T20:03:34.971118+08:00",
   "period": "evening",
+  "commit": "pending",
   "items": [
     {
-      "title": "美指控中芯向伊朗军方输送芯片设备",
-      "summary": "特朗普政府官员披露中芯向伊朗军工复合体提供光刻设备并附带技术培训，美方拟升级对华半导体制裁",
-      "source": "Tekedia",
-      "published": "2026-03-28",
-      "url": "https://www.tekedia.com/u-s-accuses-chinas-smic-of-supplying-chipmaking-tools-to-irans-military-amid-ongoing-war/",
+      "title": "TSMC 2nm产能至2028年售罄",
+      "summary": "TSMC 2nm先进制程订单已排至2028年，AI芯片需求激增致产能全满，三星代工成为唯一可替代的2nm备选方案。",
+      "source": "Korea Herald",
+      "published": "2026-03-30",
+      "url": "https://www.koreaherald.com/article/10705747",
       "tags": [
-        "SMIC",
-        "sanctions",
-        "geopolitics",
+        "TSMC",
+        "Samsung",
+        "2nm",
         "foundry"
       ],
       "insights": [
-        "中芯制裁升级预期将迫使国产代工寻求更多非美设备替代方案",
-        "伊朗技术转让暗示中国Fab输出意愿值得供应链合规重点关注"
+        "TSMC 2nm满载意味着2026年下单已需排队至2028年，供应瓶颈将持续2年以上",
+        "三星代工市占虽仅7%，但在先进节点将成不可忽视的备选供应商"
       ],
-      "actions": "评估SMIC相关采购合规风险"
+      "actions": "评估三星代工备选可行性"
     },
     {
-      "title": "AMD/Intel宣布CPU涨价10-15%",
-      "summary": "AI数据中心需求驱动AMD与Intel通知客户CPU平均涨价10%到15%，交货周期延长至6个月",
-      "source": "Simply Wall St",
-      "published": "2026-03-29",
-      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-amd/advanced-micro-devices/news/how-investors-may-respond-to-amd-amd-cpu-price-hikes-amid-ai",
+      "title": "中国13位芯片高管制定半导体自给计划",
+      "summary": "长江存储董事长陈南翔等13位中国芯片产业高管联合制定计划，目标2030年实现80%半导体自给率及全国产设备7nm产线。",
+      "source": "Electronics Weekly",
+      "published": "2026-03-30",
+      "url": "https://www.electronicsweekly.com/news/business/china-makes-new-plan-for-semiconductor-self-sufficiency-2026-03/",
       "tags": [
-        "AMD",
-        "Intel",
-        "CPU",
-        "AI-demand"
+        "China",
+        "self-sufficiency",
+        "YMTC",
+        "localization"
       ],
       "insights": [
-        "服务器CPU供货紧张将推高数据中心建设成本，AI推理算力采购需前置锁量",
-        "CPU涨价周期或传导至MCU/嵌入式赛道，整车/工业客户面临BOM重组压力"
+        "中国2024年半导体自给率约33%，2030年目标80%，目标大幅提速",
+        "全国产设备7nm产线目标释放重大设备国产化采购信号"
       ],
-      "actions": "重点客户提前锁定Q3 CPU配额"
+      "actions": "关注国产设备厂商订单动向"
     },
     {
-      "title": "Kandou AI完成2.25亿美元A轮融资",
-      "summary": "瑞士芯片互联初创Kandou AI完成2.25亿美元A轮，由Synopsys/Cadence/软银战略投资，专注铜互连解决AI带宽瓶颈",
-      "source": "One News Page",
-      "published": "2026-03-29",
-      "url": "https://www.onenewspage.com/n/Internet/1ztelp6gro/Kandou-AI-raises-225-million-to-bet-that.htm",
+      "title": "中国半导体设备商获大规模融资",
+      "summary": "AI与HPC驱动下，中国半导体设备商集中融资：iSABers获5亿元战略轮（AMEC领投），TBSTest ATE完成12亿元pre-IPO轮。",
+      "source": "TrendForce",
+      "published": "2026-03-30",
+      "url": "https://www.trendforce.com/news/2026/03/30/news-chinese-semiconductor-equipment-manufacturers-draw-in-new-investment/",
       "tags": [
-        "Kandou-AI",
-        "interconnect",
-        "Synopsys",
-        "funding"
+        "China",
+        "semiconductor equipment",
+        "ATE",
+        "advanced packaging"
       ],
       "insights": [
-        "EDA巨头战略投资芯片互联IP表明片间通信成下一个卡脖子环节",
-        "铜互连路线与光互连形成竞争格局，IP授权策略值得追踪"
+        "高端键合设备（iSABers）与ATE（TBSTest）同期获大额融资，Chiplet先进封装供应链补链加速",
+        "国家产业基金持续参投，国产设备替代进入资本密集阶段"
       ],
-      "actions": "追踪Kandou IP授权模式与国内互联方案对比",
+      "actions": "跟踪国产ATE及键合设备进入主流产线进展",
       "glossary": [
         {
-          "term": "内存墙(Memory Wall)",
-          "desc": "芯片算力增速远超片间带宽导致的性能瓶颈"
+          "term": "ATE",
+          "desc": "自动测试设备，用于芯片量产前的功能/性能测试"
         }
       ]
     },
     {
-      "title": "中国军校绕道购买Nvidia管制AI芯片",
-      "summary": "招标文件显示哈工大等军方背景高校于2025-2026年成功采购含英伟达A100的超微服务器，出口管制执行漏洞引发关注",
-      "source": "Tom's Hardware",
-      "published": "2026-03-28",
-      "url": "https://www.tomshardware.com/tech-industry/chinese-universities-performing-military-research-acquired-super-micro-servers-with-sanctioned-nvidia-ai-chips-public-documents-reveal-purchases-were-completed-in-2025-and-2026-despite-us-export-controls",
+      "title": "Arm跨界自研AGI CPU颠覆IP授权模式",
+      "summary": "Arm正式推出首款自研AGI CPU平台，从IP授权商转型为芯片产品公司，目标直接进入AI数据中心市场竞争。",
+      "source": "DIGITIMES",
+      "published": "2026-03-30",
+      "url": "https://www.digitimes.com/news/a20260330PD207/arm-cpu-licensing-business-meta.html",
       "tags": [
-        "Nvidia",
-        "export-controls",
+        "Arm",
+        "AGI",
+        "CPU",
+        "EDA/IP"
+      ],
+      "insights": [
+        "Arm从授权商变竞争者，对依赖Arm IP的Qualcomm、MediaTek等设计公司构成潜在竞争威胁",
+        "自研CPU产品化路径意味着未来IP授权谈判筹码将发生根本变化"
+      ],
+      "actions": "重新评估IP授权成本与自研CPU竞争关系"
+    },
+    {
+      "title": "三星2028年量产硅光子平台挑战TSMC",
+      "summary": "三星在OFC 2026上宣布2028年量产硅光子技术，提供AI芯片+先进封装+HBM的一体化平台，全面对标TSMC生态。",
+      "source": "DIGITIMES",
+      "published": "2026-03-30",
+      "url": "https://www.digitimes.com/news/a20260330PD228/silicon-photonics-samsung-tsmc-2028.html",
+      "tags": [
+        "Samsung",
+        "silicon photonics",
+        "HBM",
+        "advanced packaging"
+      ],
+      "insights": [
+        "硅光子集成是下一代数据中心互联关键技术，三星2028量产时间表对竞争格局影响深远",
+        "AI芯片+HBM+先进封装+光互联一体化，代工厂价值链正在重构"
+      ],
+      "actions": "关注三星硅光子平台对封测供应链重组影响"
+    },
+    {
+      "title": "中科院发布香山RISC-V处理器及如意OS",
+      "summary": "中科院在2026中关村论坛发布香山开源RISC-V处理器及配套如意原生OS，推动中国芯片与操作系统协同自主研发。",
+      "source": "DIGITIMES",
+      "published": "2026-03-30",
+      "url": "https://www.digitimes.com/news/a20260330VL206/risc-v-development-ip-processor.html",
+      "tags": [
+        "RISC-V",
         "China",
-        "AI-chips"
+        "open-source",
+        "chip design"
       ],
       "insights": [
-        "出口管制执法力度将直接影响中国AI推理算力天花板，代工厂客户合规压力同步上升",
-        "第三方渠道绕行仍是管制短板，后续或触发追加实体清单"
+        "香山RISC-V+如意OS是中国脱离Arm/x86架构依赖的最新里程碑",
+        "开源处理器生态成熟度决定国内设计公司能否实现低成本IP替换"
       ],
-      "actions": "关注后续BIS实体清单变动对供应链影响"
+      "actions": "评估国产RISC-V平台的流片成熟度与生态配套"
     },
     {
-      "title": "存储芯片涨价推动PS5全球提价100美元",
-      "summary": "索尼宣布4月2日起PS5全球涨价100美元，AI算力爆发挤压消费级DRAM供给为直接诱因，年内二度调价",
-      "source": "Reuters/KFGO",
-      "published": "2026-03-27",
-      "url": "https://kfgo.com/2026/03/27/sony-to-hike-playstation-5-prices-again-as-memory-chip-costs-surge/",
+      "title": "Foundry 2.0市场规模2026年将超3600亿美元",
+      "summary": "AI驱动下全球代工2.0市场规模预计2026年突破3600亿美元，TSMC主导先进节点，成熟制程因功率器件需求复苏。",
+      "source": "TelecomLead",
+      "published": "2026-03-30",
+      "url": "https://telecomlead.com/semiconductor/foundry-2-0-market-to-surpass-360-bn-in-2026-as-ai-drives-semiconductor-growth-125305",
       "tags": [
-        "memory",
-        "DRAM",
-        "supply-chain",
-        "Sony"
+        "foundry",
+        "AI",
+        "market",
+        "advanced nodes"
       ],
       "insights": [
-        "AI训练需求持续挤压消费级DRAM供给，终端电子BOM成本压力将延续至Q3",
-        "存储芯片价格信号对HBM/LPDDR采购有前瞻价值"
+        "Foundry 2.0包含传统晶圆制造+先进封装+系统级整合，市场边界扩大意味着更多供应链机会",
+        "成熟制程价格压力因AI基础设施带来的功率器件需求而趋于缓解"
       ],
-      "actions": "评估存储器Q3采购合同对冲方案"
+      "actions": "关注成熟制程产能利用率回升时机"
     },
     {
-      "title": "太空算力芯片产业链初步成型",
-      "summary": "追觅芯际穿越宣布200万颗算力卫星规划，商用AI芯片直接上星替代传统航天特制芯片路线渐清晰",
+      "title": "36氪：大模型权重直接刻进芯片的探索",
+      "summary": "初创公司Taalas将LLM权重硬编码于芯片金属层（台积电6nm），推理速度超英伟达H200约70倍，但不可编程限制其适用场景。",
       "source": "36氪",
-      "published": "2026-03-28",
-      "url": "https://www.36kr.com/p/3742039524999430",
+      "published": "2026-03-30",
+      "url": "https://www.36kr.com/p/3699962531540867",
       "tags": [
-        "space-computing",
-        "AI-chip",
-        "China",
-        "SoC"
+        "ASIC",
+        "inference",
+        "chip design",
+        "AI chip"
       ],
       "insights": [
-        "商用SoC进入航天领域将倒逼传统宇航级芯片供应商降本，国产设计公司机遇窗口打开",
-        "太空散热与抗辐照需求催生新型封装方案，先进封装赛道迎来太空场景增量"
+        "专用AI推理芯片赛道（Taalas/Groq/Etched）技术路线分化，ASIC定制化适合高频稳定推理场景",
+        "模型权重硬编码方案对供应链意味着极短流片周期+高频迭代，需要灵活代工合作模式"
       ],
-      "actions": "跟进航天抗辐照芯片与先进封装需求变化"
-    },
-    {
-      "title": "智源FlagOS 2.0支持最多国产AI芯片",
-      "summary": "北京智源研究院发布FlagOS 2.0，成全球支持芯片种类最多的AI系统软件栈，面向多种国产AI芯片开源",
-      "source": "Bastille Post",
-      "published": "2026-03-28",
-      "url": "https://www.bastillepost.com/global/article/5727603-businesses-see-tangible-benefits-since-launch-of-special-customs-operation-in-south-chinas-hainan-ftp",
-      "tags": [
-        "FlagOS",
-        "AI-software",
-        "China-chip",
-        "open-source"
-      ],
-      "insights": [
-        "统一软件栈降低国产AI芯片生态碎片化，有助推动IP商业化与EDA工具链适配",
-        "对EDA/IP供应商而言，国产芯片设计流量集聚是本土化机遇"
-      ],
-      "actions": "评估FlagOS适配性对国产AI芯片客户项目的影响"
-    },
-    {
-      "title": "NXP Q1指引超预期同比增11%",
-      "summary": "NXP半导体Q1 2026营收指引31.5亿美元，同比增11%，车规芯片需求复苏叠加AI渗透推动业绩超预期",
-      "source": "ICO Optics",
-      "published": "2026-03-29",
-      "url": "https://www.ico-optics.org/nxp-semiconductors-raises-guidance-analysts-set-261-target/",
-      "tags": [
-        "NXP",
-        "automotive-chip",
-        "guidance",
-        "Q1-2026"
-      ],
-      "insights": [
-        "车规芯片回暖信号对下游汽车电子供应链具有领先指示意义",
-        "MCU/功率器件采购节奏或随车企量产周期加速而提前"
-      ],
-      "actions": "结合NXP指引重新评估车规客户Q2排产需求"
+      "actions": "关注专用AI推理芯片对标准GPU订单的替代效应"
     }
   ]
 }
