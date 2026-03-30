@@ -1,203 +1,207 @@
 {
-  "version": "v20260330-0601",
-  "generatedAt": "2026-03-30T06:01:00+08:00",
+  "version": "v20260331-0602",
+  "generatedAt": "2026-03-31T06:02:00+08:00",
+  "commit": "pending",
   "period": "morning",
-  "commit": "",
+  "window": "24h",
   "items": [
     {
-      "title": "Google TurboQuant引爆存储股暴跌",
-      "summary": "Google发布TurboQuant算法，将AI推理KV缓存压缩至原来1/6且无精度损失，三星跌4.7%、SK海力士跌6.2%，但分析师认为长期将扩大AI需求。",
-      "source": "The Elec",
-      "published": "2026-03-29",
-      "url": "https://www.thelec.net/news/articleView.html?idxno=6164",
-      "tags": ["HBM", "Memory", "AI-Inference", "Google"],
-      "insights": [
-        "TurboQuant压缩NAND/KV缓存，短期冲击存储股但不影响HBM核心需求",
-        "效率提升将降低AI部署门槛，长期利好整体算力需求"
-      ],
-      "actions": ["评估自有AI部署内存优化空间，关注HBM长期采购策略"]
-    },
-    {
-      "title": "TSMC 2nm产能售罄三星补位",
-      "summary": "TSMC 2nm产能已预订至2028年，三星代工成功接获特斯拉、NVIDIA订单，乘TSMC产能不足之机扩大市占。",
-      "source": "Chosun",
+      "title": "日本三巨头功率半导体整合签MOU",
+      "summary": "东芝、罗姆、三菱电机正式签署MOU，就功率半导体业务整合启动谈判，目标打造全球第二大功率芯片集团以对抗英飞凌。",
+      "source": "Power Semiconductors Weekly",
       "published": "2026-03-30",
-      "url": "https://www.chosun.com/english/industry-en/2026/03/30/3FDTIFVVFJEMXD4XSUFFASEGME/",
-      "tags": ["TSMC", "Samsung-Foundry", "2nm", "AI-Demand"],
+      "url": "https://www.powersemiconductorsweekly.com/2026/03/27/toshiba-rohm-and-mitsubishi-electric-explore-power-semiconductor-business-integration/",
+      "tags": ["PowerSemiconductor", "M&A", "Japan", "SiC"],
       "insights": [
-        "TSMC 72%市占下2nm全满，三星代工获重要突破口",
-        "先进制程产能紧缺将持续至2027年，提前锁产能至关重要"
+        "功率半导体格局重塑，整合后将挑战英飞凌在EV市场的主导地位",
+        "SiC/GaN供应商结构性变化，设计公司需提前评估备供方案"
       ],
-      "actions": ["跟踪客户代工Tier-1切换动态，评估三星代工可行性"]
+      "actions": "关注东芝/罗姆功率器件备供策略调整"
     },
     {
-      "title": "中芯涉伊朗军方或遭新制裁",
-      "summary": "美国政府官员指中芯国际向伊朗军工供应芯片制造设备及技术培训，美方正评估升级对华半导体制裁措施。",
-      "source": "VOR News",
-      "published": "2026-03-29",
-      "url": "https://www.vornews.com/china/chinas-leading-chipmaker-faces-sanctions-for-supplying-semiconductors-to-irans-military/",
-      "tags": ["SMIC", "Sanctions", "Export-Control", "China"],
+      "title": "SMIC 2026行动计划超行业增速",
+      "summary": "中芯国际发布2026行动计划，目标实现超行业平均增速，资本支出规模与2025年持平，在晶圆代工涨价潮中强化成熟制程竞争力。",
+      "source": "TrendForce",
+      "published": "2026-03-30",
+      "url": "https://www.trendforce.com/news/2026/03/30/news-smic-2026-action-plan-points-to-above-industry-growth-capex-held-in-line-with-2025/",
+      "tags": ["SMIC", "Foundry", "China", "CapEx"],
       "insights": [
-        "中芯制裁升级将进一步限制先进设备进口，推升国产替代紧迫性",
-        "关注美国对华芯片出口管制新动向，评估供应链合规风险"
+        "SMIC资本开支持平意味着产能扩张节奏稳健，成熟制程涨价窗口持续",
+        "国内代工备供节奏可参考SMIC扩产路线图安排流片排期"
       ],
-      "actions": ["复查供应链合规条款，识别中芯相关设备采购风险"]
+      "actions": "确认H2流片订单排期，评估SMIC产能可用性"
     },
     {
-      "title": "Terafab挑战TSMC分析师泼冷水",
-      "summary": "马斯克Terafab垂直整合晶圆厂计划遭分析师质疑，预计晶圆成本比TSMC高30-50%，规模经济与技术积累差距巨大。",
-      "source": "Investing.com",
-      "published": "2026-03-29",
-      "url": "https://www.investing.com/news/economy-news/musks-terafab-plans-seen-having-limited-impact-on-tsmc-4586516",
-      "tags": ["Terafab", "TSMC", "Foundry", "Musk"],
+      "title": "三星Dream Chip硅光子2028量产路线图",
+      "summary": "三星代工部门公布Dream Chip（硅光子）路线图，计划2027年完成平台安全验证，2028年与AI芯片融合量产，直接对标TSMC硅光子方案。",
+      "source": "SamMobile",
+      "published": "2026-03-31",
+      "url": "https://www.sammobile.com/news/samsungs-next-big-groundbreaking-chip-to-enter-mass-production-by-2028/",
+      "tags": ["Samsung", "SiliconPhotonics", "Foundry", "AI"],
       "insights": [
-        "即使Terafab满产，晶圆成本劣势使其短期内无法与TSMC竞争",
-        "垂直整合模式若成功将重塑AI芯片供应格局，中长期需持续关注"
+        "硅光子成为代工厂下一代差异化战场，2028年前仍以CoWoS为主流封装方案",
+        "AI算力芯片互联架构选择需提前考虑光互连路线锁定"
       ],
-      "actions": ["观察Terafab融资与合作公告，判断实质进展"]
+      "actions": "跟踪三星硅光子PDK开放时间节点"
     },
     {
-      "title": "三星/SK海力士加码在华存储投资",
-      "summary": "两家韩国巨头加大中国晶圆厂投资以应对AI内存短缺，尽管面临美国出口管制压力，中国仍是关键生产基地。",
-      "source": "South China Morning Post",
-      "published": "2026-03-29",
-      "url": "https://www.scmp.com/tech/tech-trends/article/3348159/south-korean-chip-giants-step-china-investments-combat-global-ai-memory-shortage",
-      "tags": ["Samsung", "SK-Hynix", "China", "Memory-Investment"],
-      "insights": [
-        "韩国企业在华扩产与美国管制之间的博弈将持续升级",
-        "AI内存产能缺口驱动跨地域多元化布局"
-      ],
-      "actions": ["跟踪三星/SK海力士在华扩产审批进展"]
-    },
-    {
-      "title": "车规存储芯片供应满足率不足50%",
-      "summary": "AI产业虹吸效应导致车规级DRAM供应满足率不足50%，三大存储巨头优先扩充HBM/DDR5产能，DDR4车规需求持续承压。",
-      "source": "新浪财经",
-      "published": "2026-03-28",
-      "url": "https://finance.sina.com.cn/wm/2026-03-28/doc-inhspwhu5714359.shtml",
-      "tags": ["Automotive", "DRAM", "Supply-Shortage", "HBM"],
-      "insights": [
-        "车规芯片供应满足率<50%，整车交付延迟风险上升，建议提前备货",
-        "三星/海力士/美光优先扩充HBM产能，DDR4结构性短缺或延续至2028年"
-      ],
-      "actions": ["立即评估车规存储在手库存，锁定Q2-Q3长单保供"]
-    },
-    {
-      "title": "SEMICON China 2026：AI芯片支出近8000亿美元",
-      "summary": "IBS数据显示2026年全球AI及数据中心资本支出达6000亿美元，预计2030年半导体市场规模将达1.8万亿美元，IBS同时提示2028年存在产能过剩风险。",
+      "title": "中国芯片设备供应链AI驱动规模扩张",
+      "summary": "Digitimes Research指出AI边缘与云端需求加速中国本土半导体设备及供应链扩张，晶圆代工成为关键卡位环节，国产设备商加速出海布局。",
       "source": "Digitimes",
+      "published": "2026-03-30",
+      "url": "https://www.digitimes.com/news/a20260330PD230/demand-semicon-china-2026-equipment-shanghai.html",
+      "tags": ["China", "Equipment", "AI", "Foundry"],
+      "insights": [
+        "国产设备出海窗口打开，东南亚/中东晶圆厂建设是新增长点",
+        "AI需求驱动设备采购节奏加快，供应链交期风险上升"
+      ],
+      "actions": "评估关键制程设备国内外交期差异，提前备货"
+    },
+    {
+      "title": "三星HBM5底层芯片采用2nm工艺确认",
+      "summary": "三星确认HBM5底层逻辑die将采用2nm工艺（1c DRAM）制造，计划于2026-2027年进入量产，与AI算力需求形成强绑定。",
+      "source": "SEMI大半导体产业网",
+      "published": "2026-03-19",
+      "url": "https://www.semi.org.cn/",
+      "tags": ["HBM", "Samsung", "2nm", "Memory"],
+      "insights": [
+        "HBM5底层芯片用2nm意味着内存与逻辑制程深度融合，成本显著提升",
+        "AI芯片设计需提前规划HBM5接口兼容性，评估供应时间窗"
+      ],
+      "actions": "跟踪三星HBM5量产节点，预判2027年内存供应格局"
+    },
+    {
+      "title": "Arm AGI CPU冲击TSMC合作伙伴GUC收益",
+      "summary": "Arm首款自研物理芯片AGI CPU量产后，TSMC旗下设计服务子公司GUC面临直接竞争冲击，Arm垂直整合趋势加速IP授权模式重构。",
+      "source": "Digitimes",
+      "published": "2026-03-26",
+      "url": "https://www.digitimes.com/news/a20260326VL204/arm-guc-cpu-agi-revenue.html",
+      "tags": ["Arm", "AGI", "Design", "TSMC"],
+      "insights": [
+        "IP供应商转型芯片设计商将重塑fabless生态，需重新评估IP采购策略",
+        "Arm直接竞争对设计服务公司造成压力，可能影响代工厂设计服务选择"
+      ],
+      "actions": "重新评估项目IP采购方案，关注Arm授权条款变化"
+    },
+    {
+      "title": "阿里巴巴发布Agent专用AI CPU真武810E",
+      "summary": "阿里T-Head芯片部门发布真武810E，专为AI Agent应用优化，采用自研架构，面向云端AI推理场景，标志国内大厂AI芯片自研加速。",
+      "source": "CNBC",
+      "published": "2026-03-24",
+      "url": "https://www.cnbc.com/2026/03/24/alibaba-ai-chip-cpu-agents.html",
+      "tags": ["Alibaba", "AIChip", "Fabless", "China"],
+      "insights": [
+        "国内互联网大厂AI芯片自研潮加速，减少对海外芯片依赖的战略意图明显",
+        "Agent推理需求催生专用AI CPU赛道，差异化于通用GPU架构"
+      ],
+      "actions": "关注真武810E量产代工厂与制程节点选择"
+    },
+    {
+      "title": "长鑫DRAM三厂2026年全部达产",
+      "summary": "长鑫科技合肥及北京三座12英寸晶圆厂计划2026年全部达产，产品覆盖DDR5/LPDDR5X，2025年营收预计550-580亿元，有望2026年实现盈亏平衡。",
+      "source": "第一财经",
+      "published": "2026-03-25",
+      "url": "https://www.yicai.com/news/102989986.html",
+      "tags": ["CXMT", "DRAM", "China", "Memory"],
+      "insights": [
+        "国产DRAM进入规模量产阶段，供应链国内替代可行性窗口开启",
+        "长鑫达产将增加全球DRAM供给约5-8%，对内存价格形成一定压力"
+      ],
+      "actions": "评估DDR5/LPDDR5X国产化替代时间表，与长鑫建立战略联系"
+    },
+    {
+      "title": "芯和半导体SEMICON发布系统级EDA平台",
+      "summary": "国产EDA企业芯和半导体在SEMICON China 2026发布品牌升级，以"AI时代系统设计领航员"定位推出系统级EDA平台，覆盖芯片到系统全流程。",
+      "source": "证券时报",
+      "published": "2026-03-24",
+      "url": "https://www.stcn.com/article/detail/3699273.html",
+      "tags": ["EDA", "China", "AIDesign", "SystemDesign"],
+      "insights": [
+        "国产EDA向系统级突破是关键，Chiplet异构集成驱动全流程协同验证需求",
+        "国内EDA工具覆盖率提升，可评估部分设计流程的国产工具替代可行性"
+      ],
+      "actions": "评估芯和半导体EDA工具与现有设计流程的兼容性"
+    },
+    {
+      "title": "Siemens EDA推Agentic AI工具减半设计周期",
+      "summary": "Siemens EDA在SEMICON China 2026发表主题演讲，宣称Agentic AI驱动的新一代EDA工具可将芯片设计周期缩短一半，传统EDA模式面临颠覆。",
+      "source": "Digitimes",
+      "published": "2026-03-26",
+      "url": "https://www.digitimes.com/news/a20260326VL206/siemens-eda-design-semicon-china-2026-ic.html",
+      "tags": ["Siemens", "EDA", "AgenticAI", "DesignAutomation"],
+      "insights": [
+        "AI驱动EDA将重塑芯片设计效率，传统大型团队优势被缩小",
+        "设计周期压缩直接影响流片排期计划，供应链节奏需同步调整"
+      ],
+      "actions": "跟踪Siemens Agentic EDA商用进度，评估导入收益"
+    },
+    {
+      "title": "国内EDA市场2026-2032细分机遇报告出炉",
+      "summary": "新浪财经报告显示，国内封测龙头长电/通富/华天对2.5D/3D IC封装EDA需求持续增长，国产EDA在模拟芯片领域国产化率已超30%，数字EDA仍不足15%。",
+      "source": "新浪财经",
+      "published": "2026-03-29",
+      "url": "https://finance.sina.com.cn/roll/2026-03-29/doc-inhssfps4704187.shtml",
+      "tags": ["EDA", "China", "AdvancedPackaging", "Localization"],
+      "insights": [
+        "封装EDA国产化优先级高于数字芯片EDA，是近期可落地替代方向",
+        "先进封装EDA缺口大，国产厂商有弯道超车机会"
+      ],
+      "actions": "梳理项目中封装EDA工具使用现状，识别可国产化替代节点"
+    },
+    {
+      "title": "RISC-V年出货达25亿核进军汽车市场",
+      "summary": "RISC-V International公布Embedded World 2026数据：全球RISC-V年出货量已接近25亿核，汽车市场成为下一主战场，Siemens EDA等生态伙伴入局。",
+      "source": "RISC-V International",
+      "published": "2026-03-01",
+      "url": "https://riscv.org/blog/embedded-world-2026/",
+      "tags": ["RISCV", "Automotive", "IP", "OpenSource"],
+      "insights": [
+        "RISC-V汽车级生态加速成熟，SoC设计可将其纳入MCU/控制器候选架构",
+        "开源ISA规避Arm授权风险，有助于降低国内芯片设计IP成本"
+      ],
+      "actions": "评估下一代汽车SoC项目中RISC-V IP替代Arm Cortex-M的可行性",
+      "glossary": [
+        {"term": "RISC-V", "desc": "开源指令集架构，无需授权费，正快速渗透IoT、汽车、服务器市场"}
+      ]
+    },
+    {
+      "title": "SEMICON China 2026碳化硅12英寸成主线",
+      "summary": "SEMICON China 2026现场观察：12英寸碳化硅晶圆成为第三代半导体核心趋势，多家企业推进量产，已成为EV、AI数据中心功率器件的关键材料升级路径。",
+      "source": "新浪财经",
       "published": "2026-03-27",
-      "url": "https://lcdproduct.com/semicon-china-2026-ai-spending-nears-us800-billion-ibs-flags-2028-chip-cycle-risk/",
-      "tags": ["AI-Capex", "Semiconductor-Market", "2028-Risk", "SEMICON"],
+      "url": "https://finance.sina.com.cn/wm/2026-03-27/doc-inhsmhtw2100453.shtml",
+      "tags": ["SiC", "ThirdGenSemiconductor", "EV", "Advanced"],
       "insights": [
-        "2026-2027年AI资本开支爆发期，但2028年或面临产能周期下行",
-        "芯片供应链布局需兼顾短期交付与中期产能过剩对冲"
+        "12英寸SiC量产将大幅降低器件成本，加速EV和数据中心采用",
+        "碳化硅供应链国产化进展超预期，可提前评估国产SiC器件替代可行性"
       ],
-      "actions": ["将2028年产能周期风险纳入中长期采购合同谈判"]
+      "actions": "跟踪国内12英寸SiC晶圆量产进度，规划EV项目器件备供方案"
     },
     {
-      "title": "HBM超级大厂锁定未来18个月产能",
-      "summary": "超大规模云厂商已锁定三星/SK海力士HBM未来18个月产能，其他企业与消费端被迫争夺DDR5零头，内存市场结构性分裂加速。",
-      "source": "World Today News",
-      "published": "2026-03-30",
-      "url": "https://www.world-today-news.com/ai-memory-shortage-rising-it-costs-cio-strategies-for-2026-2027/",
-      "tags": ["HBM", "Memory-Allocation", "Hyperscaler", "Supply-Chain"],
+      "title": "AI需求驱动中国芯片增测封产业增长",
+      "summary": "路透社报道，AI应用加速推动中国半导体测试、封装及高速互连需求全面提升，AI芯片复杂度倒逼先进封装工艺快速迭代升级。",
+      "source": "Reuters",
+      "published": "2026-03-25",
+      "url": "https://www.reuters.com/business/autos-transportation/ai-boom-accelerates-chinas-chip-industry-growth-demand-strains-supply-chain-2026-03-25/",
+      "tags": ["China", "Packaging", "Testing", "AI"],
       "insights": [
-        "HBM与标准DRAM产能已完全割裂，非云厂商客户议价能力极弱",
-        "企业级采购须与云厂商分层谈判，避免被挤出优先队列"
+        "AI芯片对先进封装工艺要求快速提升，CoWoS/SoIC等技术成为供应链瓶颈",
+        "封测交期拉长，AI芯片项目需提前12-18个月锁定封测产能"
       ],
-      "actions": ["接洽HBM备选供应商，建立双轨供应保障机制"]
+      "actions": "提前锁定AI芯片项目先进封装产能，防范交期延误风险"
     },
     {
-      "title": "印度半导体计划截至3月批准10个项目",
-      "summary": "印度截至2026年3月已批准10个半导体项目含2座Fab和8座ATMP/OSAT封测厂，地缘政治重组加速多元化供应链布局。",
-      "source": "India Briefing",
-      "published": "2026-03-29",
-      "url": "https://www.india-briefing.com/news/setting-up-a-semiconductor-fabrication-plant-in-india-what-foreign-investors-should-know-22009.html/",
-      "tags": ["India", "Fab", "OSAT", "Supply-Diversification"],
+      "title": "Qualcomm收购Ventana加速RISC-V数据中心布局",
+      "summary": "高通完成收购RISC-V设计商Ventana Micro，股价触动Arm股价大跌，标志高通正式构建脱离Arm授权的数据中心CPU生态路线。",
+      "source": "TechRadar",
+      "published": "2025-12-22",
+      "url": "https://www.techradar.com/pro/arm-sheds-billions-in-market-capitalization-after-qualcomm-hints-at-risc-v-adoption-with-ventara-micro-acquisition",
+      "tags": ["Qualcomm", "RISCV", "Fabless", "DataCenter"],
       "insights": [
-        "印度ATMP/OSAT快于Fab布局，近期可提供封测产能替代",
-        "供应链去中心化趋势下，印度成潜在备选封测节点"
+        "主流fabless公司减少Arm依赖，RISC-V在服务器CPU市场将获得更多生态支撑",
+        "IP授权格局正在重构，芯片设计选型需重新评估IP来源风险"
       ],
-      "actions": ["评估印度OSAT合作可能，纳入供应链多元化规划"]
-    },
-    {
-      "title": "中东战事暴露AI投资供应链脆弱性",
-      "summary": "韩国三星/SK海力士占全球HBM约80%产能，台湾制造90%先进芯片，中东冲突将霍尔木兹海峡风险转化为半导体供应链系统性威胁。",
-      "source": "Indian Express",
-      "published": "2026-03-30",
-      "url": "https://indianexpress.com/article/opinion/columns/west-asia-war-ai-boom-strait-of-hormuz-data-centres-iran-israel-10607590/",
-      "tags": ["Geopolitics", "HBM", "Supply-Chain-Risk", "Korea-Taiwan"],
-      "insights": [
-        "HBM产能高度集中于韩国，地缘风险不可忽视",
-        "AI芯片供应链地缘风险溢价将逐步反映于长期合同价格中"
-      ],
-      "actions": ["评估地缘风险对现有供应链合同的潜在影响"]
-    },
-    {
-      "title": "CPU价格或步内存后尘上涨",
-      "summary": "先进制程Fab产能持续紧缺，分析师预警CPU价格上涨压力，但预计2026年下半年随先进节点产能释放供需将逐步缓和。",
-      "source": "TradingKey",
-      "published": "2026-03-29",
-      "url": "https://www.tradingkey.com/analysis/economic/more/261730403-cpu-intel-amd-ai-chips-pricing-datacenter-arm-supply-semiconductor-tradingkey",
-      "tags": ["CPU", "Pricing", "Advanced-Node", "Intel-AMD"],
-      "insights": [
-        "CPU短缺是产能挤压的次级效应，2026H2随台积电N3/N2扩产有望缓解",
-        "数据中心采购商应及时锁定CPU长单规避涨价"
-      ],
-      "actions": ["关注台积电N2产能释放时间表，提前规划CPU采购节点"]
-    },
-    {
-      "title": "Cadence EDA核心业务2025年增长13%",
-      "summary": "Cadence核心EDA业务2025年营收增长13%，并集成Flexcompute光子仿真GPU加速工具，加速AI数据中心光子设计工作流。",
-      "source": "ZoomInfo/Cadence",
-      "published": "2026-03-28",
-      "url": "https://www.zoominfo.com/p/Amandeep-Singh/12827389965",
-      "tags": ["Cadence", "EDA", "Photonics", "AI-Design"],
-      "insights": [
-        "EDA工具向光子学/AI协同设计延伸，复合验证需求快速增长",
-        "国内EDA用户应关注Cadence光子工具本土化替代窗口"
-      ],
-      "actions": ["评估光子IC设计工具链需求，提前接触国内替代方案"]
-    },
-    {
-      "title": "Synopsys股权变动反映EDA市场信心",
-      "summary": "机构投资者小幅减持Synopsys，但EDA+IP综合布局仍被视为AI芯片设计必需基础设施，长期基本面无变化。",
-      "source": "The Markets Daily",
-      "published": "2026-03-28",
-      "url": "https://www.themarketsdaily.com/2026/03/28/wealth-enhancement-advisory-services-llc-decreases-stake-in-synopsys-inc-snps.html",
-      "tags": ["Synopsys", "EDA", "IP", "Institutional"],
-      "insights": [
-        "Synopsys EDA+IP双引擎在AI芯片设计周期需求持续旺盛",
-        "EDA工具许可证费用将随芯片设计复杂度上升持续增长"
-      ],
-      "actions": ["审视现有EDA授权合同到期时间，提前续签规避涨价"]
-    },
-    {
-      "title": "美对华芯片关税延至2027年",
-      "summary": "据报道美国将对华芯片关税征收时间推迟至2027年，短期内缓解中国半导体企业部分出口压力。",
-      "source": "TRT World",
-      "published": "2026-03-29",
-      "url": "https://www.trtworld.com/article/b16946bb381d",
-      "tags": ["Tariff", "Trade-Policy", "China", "Export-Control"],
-      "insights": [
-        "关税延期为中国芯片企业提供2年缓冲，但结构性管制持续",
-        "供应链合规压力不减，中长期布局仍需加速国产替代"
-      ],
-      "actions": ["跟踪关税政策落地细节，更新供应链风险评估时间表"]
-    },
-    {
-      "title": "L&T半导体：地缘重组利好印度芯片布局",
-      "summary": "印度L&T半导体CEO表示地缘政治重组正推动企业寻求制造多元化，印度需构建完整的Fab+设计+材料生态才能真正成为半导体中心。",
-      "source": "Outlook Business",
-      "published": "2026-03-29",
-      "url": "https://www.outlookbusiness.com/corporate/geopolitical-shifts-are-working-in-indias-favour-in-tech-industry-lt-semicon-chief",
-      "tags": ["India", "Geopolitics", "Semiconductor-Hub", "Ecosystem"],
-      "insights": [
-        "印度芯片生态仍处早期，封测产能先于Fab成熟，短期合作价值有限",
-        "2-3年内印度ATMP节点可纳入备选供应链规划"
-      ],
-      "actions": ["追踪印度半导体政策激励细则，评估潜在合作节点"]
+      "actions": "关注高通RISC-V服务器CPU量产进度，评估数据中心芯片IP策略"
     }
   ]
 }

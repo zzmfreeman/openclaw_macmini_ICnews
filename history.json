@@ -1,6 +1,90 @@
 {
   "items": [
     {
+      "url": "https://www.powersemiconductorsweekly.com/2026/03/27/toshiba-rohm-and-mitsubishi-electric-explore-power-semiconductor-business-integration/",
+      "title": "日本三巨头功率半导体整合签MOU",
+      "published": "2026-03-30",
+      "addedAt": "2026-03-31T06:02:00+08:00"
+    },
+    {
+      "url": "https://www.trendforce.com/news/2026/03/30/news-smic-2026-action-plan-points-to-above-industry-growth-capex-held-in-line-with-2025/",
+      "title": "SMIC 2026行动计划超行业增速资本开支持平",
+      "published": "2026-03-30",
+      "addedAt": "2026-03-31T06:02:00+08:00"
+    },
+    {
+      "url": "https://www.sammobile.com/news/samsungs-next-big-groundbreaking-chip-to-enter-mass-production-by-2028/",
+      "title": "三星Dream Chip硅光子2028量产路线图",
+      "published": "2026-03-31",
+      "addedAt": "2026-03-31T06:02:00+08:00"
+    },
+    {
+      "url": "https://www.digitimes.com/news/a20260330PD230/demand-semicon-china-2026-equipment-shanghai.html",
+      "title": "中国芯片设备供应链AI驱动规模扩张",
+      "published": "2026-03-30",
+      "addedAt": "2026-03-31T06:02:00+08:00"
+    },
+    {
+      "url": "https://www.semi.org.cn/hbm5-samsung-2nm",
+      "title": "三星HBM5底层芯片采用2nm工艺确认",
+      "published": "2026-03-19",
+      "addedAt": "2026-03-31T06:02:00+08:00"
+    },
+    {
+      "url": "https://www.digitimes.com/news/a20260326VL204/arm-guc-cpu-agi-revenue.html",
+      "title": "Arm自研AGI CPU冲击TSMC合作伙伴GUC收益",
+      "published": "2026-03-26",
+      "addedAt": "2026-03-31T06:02:00+08:00"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/03/24/alibaba-ai-chip-cpu-agents.html",
+      "title": "阿里巴巴发布Agent专用AI CPU真武810E",
+      "published": "2026-03-24",
+      "addedAt": "2026-03-31T06:02:00+08:00"
+    },
+    {
+      "url": "https://www.yicai.com/news/102989986.html",
+      "title": "长鑫DRAM三厂2026年全部达产",
+      "published": "2026-03-25",
+      "addedAt": "2026-03-31T06:02:00+08:00"
+    },
+    {
+      "url": "https://www.stcn.com/article/detail/3699273.html",
+      "title": "芯和半导体SEMICON发布系统级EDA平台",
+      "published": "2026-03-24",
+      "addedAt": "2026-03-31T06:02:00+08:00"
+    },
+    {
+      "url": "https://www.digitimes.com/news/a20260326VL206/siemens-eda-design-semicon-china-2026-ic.html",
+      "title": "Siemens EDA推Agentic AI工具减半芯片设计周期",
+      "published": "2026-03-26",
+      "addedAt": "2026-03-31T06:02:00+08:00"
+    },
+    {
+      "url": "https://finance.sina.com.cn/roll/2026-03-29/doc-inhssfps4704187.shtml",
+      "title": "国内EDA市场2026-2032细分机遇报告",
+      "published": "2026-03-29",
+      "addedAt": "2026-03-31T06:02:00+08:00"
+    },
+    {
+      "url": "https://riscv.org/blog/embedded-world-2026/",
+      "title": "RISC-V年出货25亿核进军汽车市场",
+      "published": "2026-03-01",
+      "addedAt": "2026-03-31T06:02:00+08:00"
+    },
+    {
+      "url": "https://finance.sina.com.cn/wm/2026-03-27/doc-inhsmhtw2100453.shtml",
+      "title": "SEMICON China 2026碳化硅12英寸成主线",
+      "published": "2026-03-27",
+      "addedAt": "2026-03-31T06:02:00+08:00"
+    },
+    {
+      "url": "https://www.techradar.com/pro/arm-sheds-billions-in-market-capitalization-after-qualcomm-hints-at-risc-v-adoption-with-ventara-micro-acquisition",
+      "title": "Qualcomm收购Ventana加速RISC-V数据中心布局",
+      "published": "2025-12-22",
+      "addedAt": "2026-03-31T06:02:00+08:00"
+    },
+    {
       "url": "https://www.thelec.net/news/articleView.html?idxno=6164",
       "title": "Google TurboQuant引爆存储股暴跌",
       "published": "2026-03-29",
@@ -2135,5 +2219,5 @@
       "actions": "关注专用AI推理芯片对标准GPU订单的替代效应"
     }
   ],
-  "lastUpdated": "2026-03-28T14:31:00+08:00"
+  "lastUpdated": "2026-03-31T06:02:00+08:00"
 }
