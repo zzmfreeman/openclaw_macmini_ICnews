@@ -1,168 +1,158 @@
 {
-  "version": "v20260329-1303",
-  "generatedAt": "2026-03-29 13:03:23",
-  "commit": "da51dd8",
+  "version": "v20260330-1302",
+  "generatedAt": "2026-03-30T13:02:23+08:00",
   "period": "midday",
+  "commit": "",
   "items": [
     {
-      "title": "蓝芯算力融资数亿攻RISC-V服务器",
-      "summary": "字节前高管创办蓝芯算力，以RISC-V架构研发AI推理芯片，获联想/腾讯云/中国移动逾20万片订单，融资数亿元。",
-      "source": "36氪",
-      "published": "2026-03-29",
-      "url": "https://www.36kr.com/p/3742526226333700",
+      "title": "三菱罗姆东芝拟合并功率半导体业务",
+      "summary": "三菱电机、罗姆与东芝半导体签署MOU，拟整合功率器件业务，合并后或成全球第二大功率芯片集团，涵盖SiC MOSFET、驱动IC、MCU等。",
+      "source": "ICO Optics",
+      "published": "2026-03-30",
+      "url": "https://www.ico-optics.org/mitsubishi-rohm-toshiba-merge-power-semiconductor-businesses/",
       "tags": [
-        "RISC-V",
-        "AI-chip",
-        "fabless",
-        "fundraising"
-      ],
-      "insights": [
-        "RISC-V算力芯片实现商业化突破，国产架构替代进程提速",
-        "云厂商订单驱动，新兴Fabless公司商业验证加快"
-      ],
-      "actions": [
-        "关注RISC-V代工流片时间节点"
-      ]
-    },
-    {
-      "title": "尼康光刻机百年最惨亏损850亿日元",
-      "summary": "尼康预计2025财年亏损850亿日元创百年最差，光刻机半年仅出货9台且均为成熟制程，先进制程市场份额归零。",
-      "source": "36氪",
-      "published": "2026-03-29",
-      "url": "https://www.36kr.com/p/3743366398771207",
-      "tags": [
-        "lithography",
-        "Nikon",
-        "equipment",
-        "advanced-process"
-      ],
-      "insights": [
-        "光刻设备市场ASML垄断加剧，二线厂商生存空间骤减",
-        "先进制程设备供应链进一步集中，对Fab采购影响深远"
-      ],
-      "actions": [
-        "评估先进制程设备供应链单一风险"
-      ]
-    },
-    {
-      "title": "数据中心成本结构：GPU占45%电费仅5%",
-      "summary": "沐曦披露1GW数据中心TCO分析：总成本550亿美元中GPU占45%，HBM和CoWoS封装是核心瓶颈，电价优势在算力竞争中权重极低。",
-      "source": "36氪",
-      "published": "2026-03-29",
-      "url": "https://www.36kr.com/p/3743467139170568",
-      "tags": [
-        "GPU",
-        "HBM",
-        "CoWoS",
-        "data-center"
-      ],
-      "insights": [
-        "先进封装CoWoS与HBM仍是AI芯片供应链最大卡点",
-        "电价非算力核心竞争力，先进制程+封装才是决定性变量"
-      ],
-      "actions": [
-        "跟踪台积电CoWoS扩产进度及HBM报价"
-      ]
-    },
-    {
-      "title": "天成半导体研制14英寸碳化硅单晶",
-      "summary": "天成半导体依托自研设备成功制备14英寸SiC单晶，有效厚度30mm，继12英寸突破后再次扩大衬底尺寸。",
-      "source": "财联社",
-      "published": "2026-03-29",
-      "url": "https://api3.cls.cn/share/article/2328045?os=web&sv=8.4.6&app=CailianpressWeb",
-      "tags": [
+        "PowerSemiconductor",
         "SiC",
-        "power-device",
-        "wafer",
-        "domestic"
+        "Japan",
+        "M&A"
       ],
       "insights": [
-        "国产SiC衬底尺寸持续突破，功率器件供应链自主化提速",
-        "14英寸SiC量产仍需时间，关注良率与成本验证节点"
+        "日本三大功率器件厂整合重塑SiC/GaN竞争格局",
+        "车规级功率器件供应链集中度将显著提升"
       ],
-      "actions": [
-        "跟进天成半导体量产时间表及下游车规采购意向"
-      ]
+      "actions": "关注SiC/GaN替代供应商备份方案"
     },
     {
-      "title": "中颖电子推进车规芯片今年新品上市",
-      "summary": "中颖电子表示有序推进车规芯片研发，重视功能安全与可靠性验证，新产品预计2026年推出。",
-      "source": "财联社",
-      "published": "2026-03-29",
-      "url": "https://api3.cls.cn/share/article/2328022?os=web&sv=8.4.6&app=CailianpressWeb",
-      "tags": [
-        "automotive-chip",
-        "MCU",
-        "design-company",
-        "domestic"
-      ],
-      "insights": [
-        "国内MCU厂商加速车规认证，2026年成为国产替代重要验证年",
-        "车规功能安全认证周期长，关注认证进展与OEM导入计划"
-      ],
-      "actions": [
-        "跟踪中颖车规芯片AEC-Q100认证与主机厂导入进度"
-      ]
-    },
-    {
-      "title": "TSMC独家代工Arm AGI CPU下半年量产",
-      "summary": "Arm首款自研AI数据中心处理器AGI CPU采用TSMC 3nm量产，Synopsys提供全套EDA+IP工具链，下半年开始批量出货。",
-      "source": "Stocks Today",
-      "published": "2026-03-28",
-      "url": "https://stockstoday.com/tsmc-secures-exclusive-manufacturing-pact-for-arms-ai-chip-venture/",
+      "title": "TSMC 2nm产能全满三星承接溢出订单",
+      "summary": "TSMC 2nm工艺已售罄至2028年，三星代工凭借Tesla、NVIDIA等客户订单成为重要替代选项，TSMC当前市场份额约72%。",
+      "source": "SemiWiki",
+      "published": "2026-03-30",
+      "url": "https://semiwiki.com/forum/threads/tsmcs-2-nanometer-sold-out-samsung-foundry-gains.24850/",
       "tags": [
         "TSMC",
-        "Arm",
-        "AI-chip",
-        "3nm"
+        "Samsung",
+        "Foundry",
+        "AdvancedNode"
       ],
       "insights": [
-        "TSMC 3nm获Arm独家量产合同，先进制程产能竞争持续白热化",
-        "Synopsys在高端AI芯片EDA+IP一体化中标志性落地"
+        "先进制程产能持续紧张，流片窗口排期需提前规划",
+        "三星代工实力提升，可作为2nm备选Fab"
       ],
-      "actions": [
-        "评估TSMC 3nm产能分配对其他客户排期的影响"
+      "actions": "提前锁定先进节点流片档期"
+    },
+    {
+      "title": "Kandou AI完成2.25亿美元A轮融资",
+      "summary": "瑞士芯片互连公司Kandou AI获2.25亿美元A轮，由Maverick Silicon领投，Synopsys、Cadence、SoftBank等战略参与，主攻铜互连SerDes与AI算力互联瓶颈。",
+      "source": "Pulse2 / The Next Web",
+      "published": "2026-03-30",
+      "url": "https://pulse2.com/kandou-ai-225-million-raised-for-ai-connectivity-and-memory-bottleneck-solutions/",
+      "tags": [
+        "ChipIP",
+        "AIChip",
+        "SerDes",
+        "Interconnect"
+      ],
+      "insights": [
+        "Synopsys/Cadence战略投资揭示AI互联IP赛道热度",
+        "AI算力瓶颈正向芯片间互联环节延伸"
+      ],
+      "actions": "评估SerDes/互联IP供应商布局",
+      "glossary": [
+        {
+          "term": "SerDes",
+          "desc": "串行-解串器，高速芯片间数据收发接口"
+        }
       ]
     },
     {
-      "title": "消费电子全链路涨价冲击下半年发布会",
-      "summary": "AI热潮推动电子零部件全面涨价，内存、被动元器件、封装材料均受波及，消费电子厂商下半年新品发布面临成本压力。",
-      "source": "36氪",
-      "published": "2026-03-28",
-      "url": "https://www.36kr.com/p/3741970161025024",
+      "title": "中国对美半导体出口管制展开贸易调查",
+      "summary": "中国启动两项针对美国半导体出口管制的贸易调查，导致onsemi、NXP、Entegris、Broadcom等半导体股下跌，供应链合规风险上升。",
+      "source": "ICO Optics",
+      "published": "2026-03-29",
+      "url": "https://www.ico-optics.org/why-onsemi-allegro-entegris-broadcom-and-nxp-stocks-drop/",
       "tags": [
-        "supply-chain",
-        "memory",
-        "component-price",
-        "consumer-electronics"
+        "ExportControl",
+        "SupplyChain",
+        "USChina",
+        "Geopolitics"
       ],
       "insights": [
-        "AI算力需求挤压消费电子零部件供应，涨价传导至终端产品",
-        "封测与存储价格联动上涨，关注对中低端SoC订单的替代效应"
+        "中美科技贸易摩擦加剧，跨境IP/设备采购合规压力增大",
+        "多元化供应商策略已成应对贸易风险的必要手段"
       ],
-      "actions": [
-        "更新器件采购成本预测，提前锁定关键物料"
-      ]
+      "actions": "梳理关键供应商出口管制合规状态"
     },
     {
-      "title": "Arm与Meta/OpenAI合作推进AGI CPU商业化",
-      "summary": "Arm AGI CPU引入Meta、OpenAI等云客户及联想/超微ODM合作，商业化路径清晰，下半年首批交付后2027年进入规模出货。",
-      "source": "Digital Today",
-      "published": "2026-03-28",
-      "url": "https://www.digitaltoday.co.kr/en/view/43648/arm-unveils-in-house-ai-chip-agi-cpu-meta-openai-join",
+      "title": "中国模拟芯片厂商跟涨价格浪潮",
+      "summary": "纳芯微、圣邦微等中国模拟芯片厂商宣布涨价，与TI、ADI、NXP等国际大厂同步，分析人士认为可趁机扩大成熟制程市占率。",
+      "source": "南华早报",
+      "published": "2026-03-30",
+      "url": "https://www.scmp.com/tech/big-tech/article/3348284/chinese-analogue-chipmakers-join-wave-global-price-rises-mature-node-firms-eye-gains",
       "tags": [
-        "Arm",
-        "AI-chip",
-        "cloud",
-        "fabless"
+        "AnalogIC",
+        "MatureNode",
+        "China",
+        "Pricing"
       ],
       "insights": [
-        "超大云厂商采购Arm自研芯片，IP授权模式向芯片销售模式转型加速",
-        "国内云厂商可能跟进评估Arm AGI CPU，关注对X86/RISC-V的替代博弈"
+        "成熟制程涨价潮为国内模拟厂商提供市占扩张窗口",
+        "采购方应关注价格调整节点，提前锁量备货"
       ],
-      "actions": [
-        "评估Arm AGI CPU对现有服务器芯片供应商格局的冲击"
-      ]
+      "actions": "对比国内外模拟芯片价格变动，评估备货窗口"
+    },
+    {
+      "title": "Apple与TSMC美国芯片合作引发估值争议",
+      "summary": "Apple与TSMC深化美国本土制造合作，进一步绑定供应链，但也引发投资者对TSMC高估值和地缘政治风险的担忧。",
+      "source": "ICO Optics",
+      "published": "2026-03-30",
+      "url": "https://www.ico-optics.org/apple-and-tsmc-us-chip-deal-sparks-valuation-risk-concerns/",
+      "tags": [
+        "TSMC",
+        "Apple",
+        "USFab",
+        "Geopolitics"
+      ],
+      "insights": [
+        "苹果TSMC美国fab布局加速，本土化供应链战略深化",
+        "流片客户应关注TSMC美国产能定价策略"
+      ],
+      "actions": "评估未来流片成本变化趋势"
+    },
+    {
+      "title": "TSMC股价2026年逆势上涨12.8%",
+      "summary": "在Nvidia、Apple等科技股整体承压背景下，TSMC年初至今上涨12.8%，AI芯片强劲需求与扩张计划支撑其独立行情。",
+      "source": "TipRanks",
+      "published": "2026-03-30",
+      "url": "https://www.tipranks.com/news/this-chip-stock-is-the-only-trillion-dollar-winner-in-the-2026-tech-slump",
+      "tags": [
+        "TSMC",
+        "AIChip",
+        "Foundry",
+        "MarketTrend"
+      ],
+      "insights": [
+        "TSMC资本市场表现印证AI算力需求韧性",
+        "代工龙头定价权持续强化，晶圆成本上行可能持续"
+      ],
+      "actions": "关注代工价格趋势，纳入项目BOM成本预测"
+    },
+    {
+      "title": "三星SK海力士加码中国晶圆厂投资",
+      "summary": "三星与SK海力士加大对中国晶圆厂的投资力度，应对AI存储需求激增下的全球HBM及存储芯片供应紧张局面。",
+      "source": "南华早报",
+      "published": "2026-03-29",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3348159/south-korean-chip-giants-step-china-investments-combat-global-ai-memory-shortage",
+      "tags": [
+        "HBM",
+        "Memory",
+        "Samsung",
+        "China"
+      ],
+      "insights": [
+        "韩系存储厂中国产能扩张缓解HBM短缺，但受美国出口管制约束",
+        "存储价格走势将影响AI芯片系统集成成本"
+      ],
+      "actions": "持续追踪HBM供应动态及价格趋势"
     }
   ]
 }
