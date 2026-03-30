@@ -11,7 +11,12 @@
       "source": "Power Semiconductors Weekly",
       "published": "2026-03-30",
       "url": "https://www.powersemiconductorsweekly.com/2026/03/27/toshiba-rohm-and-mitsubishi-electric-explore-power-semiconductor-business-integration/",
-      "tags": ["PowerSemiconductor", "M&A", "Japan", "SiC"],
+      "tags": [
+        "PowerSemiconductor",
+        "M&A",
+        "Japan",
+        "SiC"
+      ],
       "insights": [
         "功率半导体格局重塑，整合后将挑战英飞凌在EV市场的主导地位",
         "SiC/GaN供应商结构性变化，设计公司需提前评估备供方案"
@@ -24,7 +29,12 @@
       "source": "TrendForce",
       "published": "2026-03-30",
       "url": "https://www.trendforce.com/news/2026/03/30/news-smic-2026-action-plan-points-to-above-industry-growth-capex-held-in-line-with-2025/",
-      "tags": ["SMIC", "Foundry", "China", "CapEx"],
+      "tags": [
+        "SMIC",
+        "Foundry",
+        "China",
+        "CapEx"
+      ],
       "insights": [
         "SMIC资本开支持平意味着产能扩张节奏稳健，成熟制程涨价窗口持续",
         "国内代工备供节奏可参考SMIC扩产路线图安排流片排期"
@@ -37,7 +47,12 @@
       "source": "SamMobile",
       "published": "2026-03-31",
       "url": "https://www.sammobile.com/news/samsungs-next-big-groundbreaking-chip-to-enter-mass-production-by-2028/",
-      "tags": ["Samsung", "SiliconPhotonics", "Foundry", "AI"],
+      "tags": [
+        "Samsung",
+        "SiliconPhotonics",
+        "Foundry",
+        "AI"
+      ],
       "insights": [
         "硅光子成为代工厂下一代差异化战场，2028年前仍以CoWoS为主流封装方案",
         "AI算力芯片互联架构选择需提前考虑光互连路线锁定"
@@ -50,7 +65,12 @@
       "source": "Digitimes",
       "published": "2026-03-30",
       "url": "https://www.digitimes.com/news/a20260330PD230/demand-semicon-china-2026-equipment-shanghai.html",
-      "tags": ["China", "Equipment", "AI", "Foundry"],
+      "tags": [
+        "China",
+        "Equipment",
+        "AI",
+        "Foundry"
+      ],
       "insights": [
         "国产设备出海窗口打开，东南亚/中东晶圆厂建设是新增长点",
         "AI需求驱动设备采购节奏加快，供应链交期风险上升"
@@ -63,7 +83,12 @@
       "source": "SEMI大半导体产业网",
       "published": "2026-03-19",
       "url": "https://www.semi.org.cn/",
-      "tags": ["HBM", "Samsung", "2nm", "Memory"],
+      "tags": [
+        "HBM",
+        "Samsung",
+        "2nm",
+        "Memory"
+      ],
       "insights": [
         "HBM5底层芯片用2nm意味着内存与逻辑制程深度融合，成本显著提升",
         "AI芯片设计需提前规划HBM5接口兼容性，评估供应时间窗"
@@ -76,7 +101,12 @@
       "source": "Digitimes",
       "published": "2026-03-26",
       "url": "https://www.digitimes.com/news/a20260326VL204/arm-guc-cpu-agi-revenue.html",
-      "tags": ["Arm", "AGI", "Design", "TSMC"],
+      "tags": [
+        "Arm",
+        "AGI",
+        "Design",
+        "TSMC"
+      ],
       "insights": [
         "IP供应商转型芯片设计商将重塑fabless生态，需重新评估IP采购策略",
         "Arm直接竞争对设计服务公司造成压力，可能影响代工厂设计服务选择"
@@ -89,7 +119,12 @@
       "source": "CNBC",
       "published": "2026-03-24",
       "url": "https://www.cnbc.com/2026/03/24/alibaba-ai-chip-cpu-agents.html",
-      "tags": ["Alibaba", "AIChip", "Fabless", "China"],
+      "tags": [
+        "Alibaba",
+        "AIChip",
+        "Fabless",
+        "China"
+      ],
       "insights": [
         "国内互联网大厂AI芯片自研潮加速，减少对海外芯片依赖的战略意图明显",
         "Agent推理需求催生专用AI CPU赛道，差异化于通用GPU架构"
@@ -102,7 +137,12 @@
       "source": "第一财经",
       "published": "2026-03-25",
       "url": "https://www.yicai.com/news/102989986.html",
-      "tags": ["CXMT", "DRAM", "China", "Memory"],
+      "tags": [
+        "CXMT",
+        "DRAM",
+        "China",
+        "Memory"
+      ],
       "insights": [
         "国产DRAM进入规模量产阶段，供应链国内替代可行性窗口开启",
         "长鑫达产将增加全球DRAM供给约5-8%，对内存价格形成一定压力"
@@ -111,11 +151,16 @@
     },
     {
       "title": "芯和半导体SEMICON发布系统级EDA平台",
-      "summary": "国产EDA企业芯和半导体在SEMICON China 2026发布品牌升级，以"AI时代系统设计领航员"定位推出系统级EDA平台，覆盖芯片到系统全流程。",
+      "summary": "国产EDA企业芯和半导体在SEMICON China 2026发布品牌升级，以「AI时代系统设计领航员」定位推出系统级EDA平台，覆盖芯片到系统全流程。",
       "source": "证券时报",
       "published": "2026-03-24",
       "url": "https://www.stcn.com/article/detail/3699273.html",
-      "tags": ["EDA", "China", "AIDesign", "SystemDesign"],
+      "tags": [
+        "EDA",
+        "China",
+        "AIDesign",
+        "SystemDesign"
+      ],
       "insights": [
         "国产EDA向系统级突破是关键，Chiplet异构集成驱动全流程协同验证需求",
         "国内EDA工具覆盖率提升，可评估部分设计流程的国产工具替代可行性"
@@ -128,7 +173,12 @@
       "source": "Digitimes",
       "published": "2026-03-26",
       "url": "https://www.digitimes.com/news/a20260326VL206/siemens-eda-design-semicon-china-2026-ic.html",
-      "tags": ["Siemens", "EDA", "AgenticAI", "DesignAutomation"],
+      "tags": [
+        "Siemens",
+        "EDA",
+        "AgenticAI",
+        "DesignAutomation"
+      ],
       "insights": [
         "AI驱动EDA将重塑芯片设计效率，传统大型团队优势被缩小",
         "设计周期压缩直接影响流片排期计划，供应链节奏需同步调整"
@@ -141,7 +191,12 @@
       "source": "新浪财经",
       "published": "2026-03-29",
       "url": "https://finance.sina.com.cn/roll/2026-03-29/doc-inhssfps4704187.shtml",
-      "tags": ["EDA", "China", "AdvancedPackaging", "Localization"],
+      "tags": [
+        "EDA",
+        "China",
+        "AdvancedPackaging",
+        "Localization"
+      ],
       "insights": [
         "封装EDA国产化优先级高于数字芯片EDA，是近期可落地替代方向",
         "先进封装EDA缺口大，国产厂商有弯道超车机会"
@@ -154,14 +209,22 @@
       "source": "RISC-V International",
       "published": "2026-03-01",
       "url": "https://riscv.org/blog/embedded-world-2026/",
-      "tags": ["RISCV", "Automotive", "IP", "OpenSource"],
+      "tags": [
+        "RISCV",
+        "Automotive",
+        "IP",
+        "OpenSource"
+      ],
       "insights": [
         "RISC-V汽车级生态加速成熟，SoC设计可将其纳入MCU/控制器候选架构",
         "开源ISA规避Arm授权风险，有助于降低国内芯片设计IP成本"
       ],
       "actions": "评估下一代汽车SoC项目中RISC-V IP替代Arm Cortex-M的可行性",
       "glossary": [
-        {"term": "RISC-V", "desc": "开源指令集架构，无需授权费，正快速渗透IoT、汽车、服务器市场"}
+        {
+          "term": "RISC-V",
+          "desc": "开源指令集架构，无需授权费，正快速渗透IoT、汽车、服务器市场"
+        }
       ]
     },
     {
@@ -170,7 +233,12 @@
       "source": "新浪财经",
       "published": "2026-03-27",
       "url": "https://finance.sina.com.cn/wm/2026-03-27/doc-inhsmhtw2100453.shtml",
-      "tags": ["SiC", "ThirdGenSemiconductor", "EV", "Advanced"],
+      "tags": [
+        "SiC",
+        "ThirdGenSemiconductor",
+        "EV",
+        "Advanced"
+      ],
       "insights": [
         "12英寸SiC量产将大幅降低器件成本，加速EV和数据中心采用",
         "碳化硅供应链国产化进展超预期，可提前评估国产SiC器件替代可行性"
@@ -183,7 +251,12 @@
       "source": "Reuters",
       "published": "2026-03-25",
       "url": "https://www.reuters.com/business/autos-transportation/ai-boom-accelerates-chinas-chip-industry-growth-demand-strains-supply-chain-2026-03-25/",
-      "tags": ["China", "Packaging", "Testing", "AI"],
+      "tags": [
+        "China",
+        "Packaging",
+        "Testing",
+        "AI"
+      ],
       "insights": [
         "AI芯片对先进封装工艺要求快速提升，CoWoS/SoIC等技术成为供应链瓶颈",
         "封测交期拉长，AI芯片项目需提前12-18个月锁定封测产能"
@@ -196,7 +269,12 @@
       "source": "TechRadar",
       "published": "2025-12-22",
       "url": "https://www.techradar.com/pro/arm-sheds-billions-in-market-capitalization-after-qualcomm-hints-at-risc-v-adoption-with-ventara-micro-acquisition",
-      "tags": ["Qualcomm", "RISCV", "Fabless", "DataCenter"],
+      "tags": [
+        "Qualcomm",
+        "RISCV",
+        "Fabless",
+        "DataCenter"
+      ],
       "insights": [
         "主流fabless公司减少Arm依赖，RISC-V在服务器CPU市场将获得更多生态支撑",
         "IP授权格局正在重构，芯片设计选型需重新评估IP来源风险"
