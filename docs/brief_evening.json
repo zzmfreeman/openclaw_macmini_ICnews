@@ -1,158 +1,208 @@
 {
-  "version": "v20260330-2003",
-  "generatedAt": "2026-03-30T20:03:34.971118+08:00",
+  "version": "v20260331-2003",
+  "generatedAt": "2026-03-31T20:03:13+08:00",
+  "commit": "",
   "period": "evening",
-  "commit": "pending",
+  "glossary_list": [
+    {
+      "term": "Fork-sheet",
+      "desc": "一种下一代晶体管结构，将nFET和pFET「叉入」同一个鳍片内，比GAA全环绕栅极更节省面积；三星计划在1nm节点采用该技术以进一步缩小芯片尺寸。",
+      "category": "材料"
+    },
+    {
+      "term": "QLC NAND",
+      "desc": "每个存储单元存储4比特的闪存技术（Quad-Level Cell），容量密度高、成本低，但写入耐久性低于TLC/MLC；适合读密集型AI推理存储场景。",
+      "category": "存储"
+    },
+    {
+      "term": "TCAD",
+      "desc": "工艺与器件计算机辅助设计（Technology Computer-Aided Design），通过仿真预测半导体器件的制造工艺与电学特性，可大幅减少实物流片次数；AI驱动的TCAD正在加速碳化硅等新材料器件开发。",
+      "category": "设备"
+    },
+    {
+      "term": "Foveros Direct",
+      "desc": "Intel的3D混合键合封装技术，直接将晶粒面对面堆叠而无需凸块，互联节距可达到微米级，用于数据中心级芯片的高带宽立体集成。",
+      "category": "封装"
+    },
+    {
+      "term": "DLI（Design Linked Incentive）",
+      "desc": "印度政府推出的芯片设计联动激励计划，对国内IC设计公司提供研发补贴与市场化奖励，目标是培育本土fabless生态系统。",
+      "category": "商业"
+    },
+    {
+      "term": "NRE（Non-Recurring Engineering）",
+      "desc": "新产品研发一次性费用，涵盖流片掩膜版费用、设计服务费等。先进制程NRE动辄数千万美元，是中小芯片设计公司选择成熟制程的核心制约因素。",
+      "category": "商业"
+    }
+  ],
   "items": [
     {
-      "title": "TSMC 2nm产能至2028年售罄",
-      "summary": "TSMC 2nm先进制程订单已排至2028年，AI芯片需求激增致产能全满，三星代工成为唯一可替代的2nm备选方案。",
-      "source": "Korea Herald",
-      "published": "2026-03-30",
-      "url": "https://www.koreaherald.com/article/10705747",
+      "title": "三星2nm良率突破60%拟2030年量产1nm",
+      "summary": "三星晶圆代工2nm良率已达60%（由比特币矿机客户Canaan/MicroBT验证），并宣布2030年基于Fork-sheet技术量产1nm工艺，有望在Nvidia/Tesla订单上与台积电正面竞争。",
+      "source": "SamMobile / Technetbook",
+      "published": "2026-03-31",
+      "url": "https://www.sammobile.com/news/samsung-may-have-improved-2nm-chip-yields-significantly/",
       "tags": [
-        "TSMC",
         "Samsung",
+        "Foundry",
         "2nm",
-        "foundry"
+        "yield"
       ],
       "insights": [
-        "TSMC 2nm满载意味着2026年下单已需排队至2028年，供应瓶颈将持续2年以上",
-        "三星代工市占虽仅7%，但在先进节点将成不可忽视的备选供应商"
+        "三星2nm良率60%已具备承接外部订单的技术门槛，台积电产能满载为其打开窗口",
+        "Fork-sheet 1nm路线图完整，2027年Tesla AI芯片量产是三星Foundry商业化的关键节点"
       ],
-      "actions": "评估三星代工备选可行性"
+      "actions": [
+        "跟进三星2nm外部客户转移名单"
+      ],
+      "glossary": []
     },
     {
-      "title": "中国13位芯片高管制定半导体自给计划",
-      "summary": "长江存储董事长陈南翔等13位中国芯片产业高管联合制定计划，目标2030年实现80%半导体自给率及全国产设备7nm产线。",
-      "source": "Electronics Weekly",
-      "published": "2026-03-30",
-      "url": "https://www.electronicsweekly.com/news/business/china-makes-new-plan-for-semiconductor-self-sufficiency-2026-03/",
-      "tags": [
-        "China",
-        "self-sufficiency",
-        "YMTC",
-        "localization"
-      ],
-      "insights": [
-        "中国2024年半导体自给率约33%，2030年目标80%，目标大幅提速",
-        "全国产设备7nm产线目标释放重大设备国产化采购信号"
-      ],
-      "actions": "关注国产设备厂商订单动向"
-    },
-    {
-      "title": "中国半导体设备商获大规模融资",
-      "summary": "AI与HPC驱动下，中国半导体设备商集中融资：iSABers获5亿元战略轮（AMEC领投），TBSTest ATE完成12亿元pre-IPO轮。",
-      "source": "TrendForce",
-      "published": "2026-03-30",
-      "url": "https://www.trendforce.com/news/2026/03/30/news-chinese-semiconductor-equipment-manufacturers-draw-in-new-investment/",
-      "tags": [
-        "China",
-        "semiconductor equipment",
-        "ATE",
-        "advanced packaging"
-      ],
-      "insights": [
-        "高端键合设备（iSABers）与ATE（TBSTest）同期获大额融资，Chiplet先进封装供应链补链加速",
-        "国家产业基金持续参投，国产设备替代进入资本密集阶段"
-      ],
-      "actions": "跟踪国产ATE及键合设备进入主流产线进展",
-      "glossary": [
-        {
-          "term": "ATE",
-          "desc": "自动测试设备，用于芯片量产前的功能/性能测试"
-        }
-      ]
-    },
-    {
-      "title": "Arm跨界自研AGI CPU颠覆IP授权模式",
-      "summary": "Arm正式推出首款自研AGI CPU平台，从IP授权商转型为芯片产品公司，目标直接进入AI数据中心市场竞争。",
-      "source": "DIGITIMES",
-      "published": "2026-03-30",
-      "url": "https://www.digitimes.com/news/a20260330PD207/arm-cpu-licensing-business-meta.html",
-      "tags": [
-        "Arm",
-        "AGI",
-        "CPU",
-        "EDA/IP"
-      ],
-      "insights": [
-        "Arm从授权商变竞争者，对依赖Arm IP的Qualcomm、MediaTek等设计公司构成潜在竞争威胁",
-        "自研CPU产品化路径意味着未来IP授权谈判筹码将发生根本变化"
-      ],
-      "actions": "重新评估IP授权成本与自研CPU竞争关系"
-    },
-    {
-      "title": "三星2028年量产硅光子平台挑战TSMC",
-      "summary": "三星在OFC 2026上宣布2028年量产硅光子技术，提供AI芯片+先进封装+HBM的一体化平台，全面对标TSMC生态。",
-      "source": "DIGITIMES",
-      "published": "2026-03-30",
-      "url": "https://www.digitimes.com/news/a20260330PD228/silicon-photonics-samsung-tsmc-2028.html",
+      "title": "三星BM9K1 PCIe5发布首用RISC-V主控",
+      "summary": "三星在中国闪存市场峰会发布BM9K1 PCIe 5.0 QLC SSD，控制器首次采用RISC-V架构替代ARM，读速11.4GB/s，能效提升23%，2027年量产，最高2TB。",
+      "source": "Tweaktown / Heise",
+      "published": "2026-03-31",
+      "url": "https://www.tweaktown.com/news/110739/a-new-samsung-pcie-5-0-qlc-ssd-is-in-the-works-with-a-custom-risc-v-controller/index.html",
       "tags": [
         "Samsung",
-        "silicon photonics",
-        "HBM",
-        "advanced packaging"
-      ],
-      "insights": [
-        "硅光子集成是下一代数据中心互联关键技术，三星2028量产时间表对竞争格局影响深远",
-        "AI芯片+HBM+先进封装+光互联一体化，代工厂价值链正在重构"
-      ],
-      "actions": "关注三星硅光子平台对封测供应链重组影响"
-    },
-    {
-      "title": "中科院发布香山RISC-V处理器及如意OS",
-      "summary": "中科院在2026中关村论坛发布香山开源RISC-V处理器及配套如意原生OS，推动中国芯片与操作系统协同自主研发。",
-      "source": "DIGITIMES",
-      "published": "2026-03-30",
-      "url": "https://www.digitimes.com/news/a20260330VL206/risc-v-development-ip-processor.html",
-      "tags": [
         "RISC-V",
-        "China",
-        "open-source",
-        "chip design"
+        "SSD",
+        "PCIe5"
       ],
       "insights": [
-        "香山RISC-V+如意OS是中国脱离Arm/x86架构依赖的最新里程碑",
-        "开源处理器生态成熟度决定国内设计公司能否实现低成本IP替换"
+        "存储控制器转向RISC-V是IP授权去ARM化的重要信号，对Arm IP授权营收构成潜在压力",
+        "QLC+PCIe5组合面向AI推理存储市场，成本敏感型数据中心场景的替代方向值得关注"
       ],
-      "actions": "评估国产RISC-V平台的流片成熟度与生态配套"
+      "actions": [
+        "评估RISC-V控制器生态对AI服务器存储选型的影响"
+      ],
+      "glossary": []
     },
     {
-      "title": "Foundry 2.0市场规模2026年将超3600亿美元",
-      "summary": "AI驱动下全球代工2.0市场规模预计2026年突破3600亿美元，TSMC主导先进节点，成熟制程因功率器件需求复苏。",
-      "source": "TelecomLead",
-      "published": "2026-03-30",
-      "url": "https://telecomlead.com/semiconductor/foundry-2-0-market-to-surpass-360-bn-in-2026-as-ai-drives-semiconductor-growth-125305",
+      "title": "Intel 18A制程首款商用PC今日上市",
+      "summary": "Intel首批基于18A制程的Core Ultra 3商用PC于3月31日正式上市，搭载vPro平台，是18A对外部市场的首次实质性验证；CEO Lip-Bu Tan将Foundry外部订单拓展视为扭亏核心。",
+      "source": "ts2.tech / Cool3c",
+      "published": "2026-03-31",
+      "url": "https://ts2.tech/en/intel-corporations-18a-bet-faces-first-market-test-as-business-pcs-arrive-tuesday/",
       "tags": [
-        "foundry",
-        "AI",
-        "market",
-        "advanced nodes"
+        "Intel",
+        "18A",
+        "Foundry",
+        "PC"
       ],
       "insights": [
-        "Foundry 2.0包含传统晶圆制造+先进封装+系统级整合，市场边界扩大意味着更多供应链机会",
-        "成熟制程价格压力因AI基础设施带来的功率器件需求而趋于缓解"
+        "18A商用化是Intel Foundry扭亏的关键节点，Q2能否获得外部客户承诺将决定市场信心走向",
+        "Foveros Direct 3D封装随18A进入数据中心，先进封装在Intel路线图上权重持续提升"
       ],
-      "actions": "关注成熟制程产能利用率回升时机"
+      "actions": [
+        "跟踪Intel 18A外部Foundry客户公告进展"
+      ],
+      "glossary": []
     },
     {
-      "title": "36氪：大模型权重直接刻进芯片的探索",
-      "summary": "初创公司Taalas将LLM权重硬编码于芯片金属层（台积电6nm），推理速度超英伟达H200约70倍，但不可编程限制其适用场景。",
+      "title": "DRAM紧缺挤压手机芯片 高通股价触低",
+      "summary": "全球DRAM产能被AI HBM需求持续占用，普通DRAM供应紧张导致高通Q1手机业务收入仅同比增3%，股价年内已跌至52周低点附近；亚太区PC出货量也因内存短缺面临压力。",
+      "source": "ad-hoc-news / Windows Central",
+      "published": "2026-03-31",
+      "url": "https://www.windowscentral.com/hardware/ai-hunger-for-dram-asia-pacific-shipments-slump-in-2026",
+      "tags": [
+        "DRAM",
+        "Qualcomm",
+        "memory",
+        "AI"
+      ],
+      "insights": [
+        "HBM产能侵蚀普通DRAM供给的结构性矛盾在2026年集中爆发，手机/PC供应链首当其冲",
+        "内存短缺将推高消费电子BOM成本，采购方需提前锁定LPDDR5/DDR5中长期供货协议"
+      ],
+      "actions": [
+        "与存储供应商协商H2 2026 LPDDR5/DDR5备货方案"
+      ],
+      "glossary": []
+    },
+    {
+      "title": "长鑫存储IPO估值1500亿赴港上市",
+      "summary": "36氪披露，由兆易创新创始人朱一明主导的合肥长鑫存储正筹备IPO，估值约1500亿元人民币，主攻DRAM国产替代，此前已完成多轮政府与产业资本投资。",
       "source": "36氪",
-      "published": "2026-03-30",
-      "url": "https://www.36kr.com/p/3699962531540867",
+      "published": "2026-03-31",
+      "url": "https://www.36kr.com/p/3372547663647750",
       "tags": [
-        "ASIC",
-        "inference",
-        "chip design",
-        "AI chip"
+        "长鑫存储",
+        "DRAM",
+        "IPO",
+        "国产替代"
       ],
       "insights": [
-        "专用AI推理芯片赛道（Taalas/Groq/Etched）技术路线分化，ASIC定制化适合高频稳定推理场景",
-        "模型权重硬编码方案对供应链意味着极短流片周期+高频迭代，需要灵活代工合作模式"
+        "长鑫存储IPO将是国内DRAM产业迈向资本市场的里程碑，可能带动整条国产存储产业链估值重估",
+        "DRAM供应紧缺背景下，国内LPDDR5/DDR5自研进展直接影响手机/服务器本土化采购比例"
       ],
-      "actions": "关注专用AI推理芯片对标准GPU订单的替代效应"
+      "actions": [
+        "跟进长鑫LPDDR6样品送样进度与客户认证节点"
+      ],
+      "glossary": []
+    },
+    {
+      "title": "MediaTek CEO出席COMPUTEX 2026谈AI",
+      "summary": "联发科副董事长暨CEO蔡明介确认将在COMPUTEX 2026发表AI芯片主题演讲，外界预计将发布旗舰天玑/Dimensity AI SoC路线图及端侧大模型芯片策略。",
+      "source": "Morningstar/PR Newswire",
+      "published": "2026-03-31",
+      "url": "https://www.morningstar.com/news/pr-newswire/20260330hk22040/mediatek-vice-chairman-and-ceo-dr-rick-tsai-to-headline-computex-2026-with-a-keynote-on-the-future-of-ai",
+      "tags": [
+        "MediaTek",
+        "AI",
+        "SoC",
+        "COMPUTEX"
+      ],
+      "insights": [
+        "联发科COMPUTEX主题演讲通常预示新旗舰SoC发布节奏，可据此推演台积电2nm/3nm订单分配",
+        "端侧AI芯片战略升级将加速高端手机SoC向更先进制程迁移，对EDA/IP供应链有拉动效应"
+      ],
+      "actions": [
+        "关注COMPUTEX 2026联发科发布内容，评估制程升级对台积电订单影响"
+      ],
+      "glossary": []
+    },
+    {
+      "title": "Silvaco联手APEC加速碳化硅器件开发",
+      "summary": "EDA工具商Silvaco宣布与美国功率电子中心APEC建立战略合作，将AI驱动TCAD仿真与碳化硅（SiC）器件设计结合，提升功率芯片从设计到流片的迭代速度。",
+      "source": "GlobeNewswire",
+      "published": "2026-03-30",
+      "url": "https://www.globenewswire.com/news-release/2026/03/30/3264649/0/en/Silvaco-Announces-Strategic-Partnership-with-APEC-to-Advance-Silicon-Carbide-Power-Device-Development.html",
+      "tags": [
+        "Silvaco",
+        "EDA",
+        "SiC",
+        "TCAD"
+      ],
+      "insights": [
+        "AI辅助TCAD将SiC器件仿真周期从数周压缩至天级，有望降低国内功率芯片设计公司NRE成本",
+        "EDA厂商切入碳化硅细分赛道表明工具链正向第三代半导体延伸，国内本土EDA需跟进"
+      ],
+      "actions": [
+        "评估AI TCAD工具在国内SiC设计公司的适用性与采购可行性"
+      ],
+      "glossary": []
+    },
+    {
+      "title": "印度芯片梦提速：中国工程师占全球IC设计20%",
+      "summary": "印度经济时报指出，印度工程师占全球IC设计人力资源约20%（逾12.5万人），班加罗尔/海德拉巴已成为英特尔、高通、AMD重要设计中心，叠加政府DLI激励计划，印度本土fabless生态加速形成。",
+      "source": "Economic Times India",
+      "published": "2026-03-31",
+      "url": "https://economictimes.indiatimes.com/small-biz/security-tech/technology/indias-semiconductor-dream-the-stars-may-finally-be-aligning/articleshow/129916690.cms",
+      "tags": [
+        "India",
+        "fabless",
+        "chip design",
+        "geopolitics"
+      ],
+      "insights": [
+        "印度IC设计人才密度与政策激励形成合力，中长期有望成为中国以外最重要的全球代工客户群体",
+        "地缘重组加速下，采购团队需评估印度设计公司作为新兴客户/协作方的潜在机会"
+      ],
+      "actions": [
+        "梳理主要印度fabless公司名单及其代工合作伙伴布局"
+      ],
+      "glossary": []
     }
   ]
 }
