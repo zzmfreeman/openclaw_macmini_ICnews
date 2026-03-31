@@ -1,207 +1,255 @@
 {
-  "version": "v20260331-0602",
-  "generatedAt": "2026-03-31T06:02:00+08:00",
-  "commit": "pending",
+  "version": "v20260401-0602",
+  "generatedAt": "2026-04-01T06:02:00+08:00",
+  "commit": "",
   "period": "morning",
-  "window": "24h",
+  "glossary_list": [
+    {
+      "term": "CoWoS",
+      "desc": "Chip on Wafer on Substrate，台积电的先进2.5D封装技术，将逻辑芯片与HBM封装在同一基板上，是AI加速器（如H100/H200）的核心封装方案，产能是当前最主要瓶颈之一。",
+      "category": "封装"
+    },
+    {
+      "term": "HBM4",
+      "desc": "高带宽内存第四代标准，三星与SK海力士于2026年2月开始量产，相比HBM3性能提升约70%，主要供应AI训练/推理芯片（如NVIDIA Blackwell Ultra系列）。",
+      "category": "存储"
+    },
+    {
+      "term": "NAND Flash",
+      "desc": "非易失性闪存，用于固态硬盘（SSD）和手机存储，2026年因AI训练数据存储需求爆增及产能向HBM转移导致严重短缺。",
+      "category": "存储"
+    },
+    {
+      "term": "OSAT",
+      "desc": "Outsourced Semiconductor Assembly and Test，外包封测厂，负责芯片封装与测试，全球主要玩家包括日月光、通富微电等；印度正积极建设本土OSAT产能。",
+      "category": "商业"
+    },
+    {
+      "term": "1-gamma DRAM",
+      "desc": "Micron自研第三代先进DRAM制程节点（继1-alpha、1-beta之后），采用EUV光刻，在功耗和带宽方面优于竞争对手，是其HBM市场份额快速提升的核心技术。",
+      "category": "存储"
+    },
+    {
+      "term": "18A制程",
+      "desc": "Intel最先进逻辑制程节点（约1.8nm级别），采用GAA全环绕栅极+背面供电（BSPDN），2026年正式商用量产，是Intel代工转型的关键押注。",
+      "category": "材料"
+    },
+    {
+      "term": "Foundry 2.0",
+      "desc": "TechInsights/Omdia提出的概念，将晶圆代工（纯晶圆制造）扩展至涵盖先进封装、OSAT、基板等全价值链，2025年市场规模达3200亿美元。",
+      "category": "商业"
+    }
+  ],
   "items": [
     {
-      "title": "日本三巨头功率半导体整合签MOU",
-      "summary": "东芝、罗姆、三菱电机正式签署MOU，就功率半导体业务整合启动谈判，目标打造全球第二大功率芯片集团以对抗英飞凌。",
-      "source": "Power Semiconductors Weekly",
-      "published": "2026-03-30",
-      "url": "https://www.powersemiconductorsweekly.com/2026/03/27/toshiba-rohm-and-mitsubishi-electric-explore-power-semiconductor-business-integration/",
-      "tags": ["PowerSemiconductor", "M&A", "Japan", "SiC"],
+      "title": "台积电日本二厂获批部署3nm",
+      "summary": "台湾经济部批准台积电在日本熊本第二座晶圆厂（JASM2）导入3nm制程，标志台积电先进工艺海外扩张重大进展。",
+      "source": "台北时报",
+      "published": "2026-04-01",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/04/01/2003854797",
+      "tags": ["TSMC", "Foundry", "Japan", "3nm"],
       "insights": [
-        "功率半导体格局重塑，整合后将挑战英飞凌在EV市场的主导地位",
-        "SiC/GaN供应商结构性变化，设计公司需提前评估备供方案"
+        "日本3nm产能落地将缓解部分AI芯片供应压力，但量产至少需2-3年。",
+        "先进工艺海外落地获批，或加速其他客户在日采购的谈判进程。"
       ],
-      "actions": "关注东芝/罗姆功率器件备供策略调整"
+      "actions": ["跟踪JASM2客户确认进展"],
+      "glossary": []
     },
     {
-      "title": "SMIC 2026行动计划超行业增速",
-      "summary": "中芯国际发布2026行动计划，目标实现超行业平均增速，资本支出规模与2025年持平，在晶圆代工涨价潮中强化成熟制程竞争力。",
+      "title": "台积电CoWoS封装2026年超营收10%",
+      "summary": "台积电先进封装业务2025年占营收约8%，2026年预计突破10%，管理层预期封装增速将超主营晶圆业务，CoWoS成关键差异化竞争力。",
+      "source": "TradingView",
+      "published": "2026-03-31",
+      "url": "https://www.tradingview.com/news/zacks:91d463af9094b:0-will-tsm-s-advanced-packaging-push-unlock-a-new-growth-phase/",
+      "tags": ["TSMC", "CoWoS", "advanced-packaging", "revenue"],
+      "insights": [
+        "封装收入占比超10%意味着台积电从纯代工向系统集成平台演进。",
+        "CoWoS产能成为AI客户选台积电的核心锁定因素，溢价空间持续扩大。"
+      ],
+      "actions": ["评估CoWoS产能瓶颈对AI芯片交期影响"],
+      "glossary": []
+    },
+    {
+      "title": "Foundry 2.0全球2025年营收3200亿美元",
+      "summary": "全球代工产业链（含封装/OSAT）2025年创3200亿美元历史纪录，AI需求驱动增速达15%，2026年预计突破3600亿美元。",
+      "source": "Digitimes",
+      "published": "2026-03-31",
+      "url": "https://www.digitimes.com/news/a20260331VL208/semiconductor-foundry-fab-revenue-growth-market-2025.html",
+      "tags": ["Foundry", "OSAT", "market-size", "AI"],
+      "insights": [
+        "AI算力投资拉动晶圆+封装全链条增长，供应链各环节受益程度不均衡。",
+        "非台积电纯代工厂仅增长8%，头部集中效应加剧。"
+      ],
+      "actions": ["对标自身业务与行业增速差距"],
+      "glossary": []
+    },
+    {
+      "title": "Intel 18A首款商用PC上市，代工亏损持续",
+      "summary": "Intel 18A制程首款商用产品开始上市，但代工部门Q4 2025亏损达25亿美元，Q1 2026 EPS指引为零，外部客户争取进展缓慢。",
+      "source": "247 Wall St.",
+      "published": "2026-03-30",
+      "url": "https://247wallst.com/investing/2026/03/30/amd-vs-intel-which-stock-will-lead-in-2026/",
+      "tags": ["Intel", "Foundry", "18A", "loss"],
+      "insights": [
+        "18A若无法吸引重量级外部客户，Intel代工转型论据将大幅削弱。",
+        "Intel代工亏损持续，对其提供NRE/定制服务的谈判议价能力有负面影响。"
+      ],
+      "actions": ["密切关注18A外部客户签约进展"],
+      "glossary": []
+    },
+    {
+      "title": "富士通委托Rapidus开发1.4nm AI芯片",
+      "summary": "富士通宣布与Rapidus合作，计划开发基于1.4nm制程的自研NPU，将成为日本国内首批全流程本土设计+制造的AI芯片项目之一。",
+      "source": "Tom's Hardware",
+      "published": "2026-04-01",
+      "url": "https://www.tomshardware.com/tech-industry/fujitsu-plans-dedicated-1-4nm-ai-chip-manufactured-entirely-in-japan-by-rapidus",
+      "tags": ["Rapidus", "Fujitsu", "1.4nm", "AI-chip"],
+      "insights": [
+        "日本「设计+制造」本土闭环战略加速落地，为国内半导体生态提供参照样本。",
+        "Rapidus获锚定客户是其融资和量产时间表可信度的关键支撑。"
+      ],
+      "actions": ["评估日本1.4nm路线对全球代工格局的潜在冲击"],
+      "glossary": []
+    },
+    {
+      "title": "三星/SK海力士加码在华存储产能",
+      "summary": "韩国两大存储巨头增加在华投资以应对AI内存短缺，三星西安厂升级产线，SK海力士扩大在华NAND产能布局，应对全球AI训练存储需求爆增。",
+      "source": "韩联社/Korea Times",
+      "published": "2026-03-30",
+      "url": "https://www.koreatimes.co.kr/business/companies/20260330/korean-chip-giants-step-up-china-investments-to-combat-ai-memory-shortage",
+      "tags": ["Samsung", "SK-Hynix", "NAND", "China"],
+      "insights": [
+        "韩企在华扩产在出口管制背景下具有高度政策风险，需关注后续监管动向。",
+        "AI存储缺口为长江存储提供弥补技术差距的时间窗口。"
+      ],
+      "actions": ["跟踪三星西安厂升级进度及相关出口管制影响"],
+      "glossary": []
+    },
+    {
+      "title": "HBM4量产开启，三星计划扩产50%",
+      "summary": "三星与SK海力士已于2026年2月开始量产HBM4，三星同步宣布年内将HBM总产能扩大50%，以抢占AI加速器内存市场份额。",
+      "source": "TechBehemoths",
+      "published": "2026-03-30",
+      "url": "https://techbehemoths.com/blog/ram-crisis-shortage-affects-businesses",
+      "tags": ["HBM4", "Samsung", "SK-Hynix", "AI-memory"],
+      "insights": [
+        "HBM4量产正式开启，NVIDIA/AMD下一代AI芯片内存瓶颈有望在2026年底逐步缓解。",
+        "三星扩产50%若落实，将直接影响HBM报价走势及采购节奏。"
+      ],
+      "actions": ["锁定HBM4分配渠道，评估Q3/Q4交期"],
+      "glossary": []
+    },
+    {
+      "title": "NAND Flash短缺加剧，AI存储需求撑价",
+      "summary": "2026年NAND Flash持续短缺，AI训练数据存储需求激增而产能转向HBM，SanDisk等企业受益；企业SSD供应紧张状态预计延续至2027年。",
+      "source": "FinancialContent",
+      "published": "2026-03-31",
+      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-31-deep-dive-sandisk-sndk-and-the-2026-nand-flash-shortage",
+      "tags": ["NAND", "storage", "shortage", "AI"],
+      "insights": [
+        "NAND短缺将向下传导至服务器OEM，存储模组采购应尽早锁量。",
+        "厂商开始要求预付款或缩短账期，对中小型买家流动性形成压力。"
+      ],
+      "actions": ["评估NAND库存水位，提前锁定Q3供应"],
+      "glossary": []
+    },
+    {
+      "title": "三星西安厂升级至236层NAND量产",
+      "summary": "三星将位于中国西安的唯一海外存储工厂升级至236层3D NAND技术，约占三星NAND总产能40%，系三星应对AI存储需求的重要产能策略。",
+      "source": "Digitimes",
+      "published": "2026-03-30",
+      "url": "https://www.digitimes.com/news/a20260330VL211/samsung-236-layer-nand-plant-production.html",
+      "tags": ["Samsung", "NAND", "China", "3D-NAND"],
+      "insights": [
+        "236层升级提升单位面积产出，但高层数良率控制仍是挑战。",
+        "西安厂占三星NAND 40%产能，地缘政策变化将直接影响全球NAND供给。"
+      ],
+      "actions": ["监控西安厂政策合规风险及产能爬坡进度"],
+      "glossary": []
+    },
+    {
+      "title": "长鑫科技科创板IPO中止",
+      "summary": "上交所3月31日显示长鑫科技科创板IPO状态变更为「中止」，原因为财务资料已过有效期，预计补充更新后继续推进上市。",
+      "source": "雪球",
+      "published": "2026-03-31",
+      "url": "https://xueqiu.com/S/A06978",
+      "tags": ["长鑫存储", "IPO", "DRAM", "国内"],
+      "insights": [
+        "IPO中止为程序性中断，并非否决，长鑫存储上市进程仍在推进。",
+        "上市前窗口期对长鑫供应协议谈判节奏影响有限，客户可维持正常合作。"
+      ],
+      "actions": ["关注长鑫更新财报后的IPO恢复时间节点"],
+      "glossary": []
+    },
+    {
+      "title": "Micron以1-gamma工艺抢占HBM市场25%",
+      "summary": "Micron凭借自研1-gamma DRAM节点在功耗与带宽上取得优势，2026年HBM市场份额预计达25%，较两年前的5%大幅提升。",
+      "source": "FinancialContent",
+      "published": "2026-03-30",
+      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-30-the-ai-memory-supercycle-a-deep-dive-into-micron-technology-mu-and-the-hbm4-revolution",
+      "tags": ["Micron", "HBM", "DRAM", "AI-memory"],
+      "insights": [
+        "Micron快速追赶意味着HBM供应将逐步多元化，有利于AI客户分散采购风险。",
+        "1-gamma制程优势已反映在产品功耗规格上，是服务器厂商的重要评估维度。"
+      ],
+      "actions": ["将Micron列为HBM备选供应来源，推动样品评估"],
+      "glossary": []
+    },
+    {
+      "title": "Arm自研AGI CPU颠覆IP授权模式",
+      "summary": "Arm宣布首款自研AGI CPU将于2026年下半年开始量产，通过直接销售芯片替代传统IP授权费模式，预计该产品线将贡献15亿美元以上营收。",
+      "source": "Reuters/IT Pro",
+      "published": "2026-03-31",
+      "url": "https://www.itpro.com/hardware/arms-new-cpu-represents-a-major-shift-for-the-ai-data-center-market-what-does-it-mean-for-uk-tech",
+      "tags": ["Arm", "AGI", "CPU", "IP"],
+      "insights": [
+        "Arm从「IP收费者」转型为「芯片竞争者」，将与高通、NVIDIA正面竞争，IP授权谈判格局将改变。",
+        "自研芯片策略若成功，可能倒逼EDA/IP生态重新评估授权条款。"
+      ],
+      "actions": ["关注Arm自研芯片对高通/NVIDIA定制芯片市场的抢单效应"],
+      "glossary": []
+    },
+    {
+      "title": "中国推进RISC-V开源芯片生态：香山核+如意OS",
+      "summary": "中科院在2026中关村论坛发布香山开源RISC-V处理器（达全球顶级开源核性能）及配套如意原生操作系统，推动国内开源芯片软硬协同生态。",
+      "source": "中国科学院",
+      "published": "2026-03-30",
+      "url": "https://english.cas.cn/newsroom/cas-in-media/202603/t20260330_1154281.shtml",
+      "tags": ["RISC-V", "中国", "开源", "EDA"],
+      "insights": [
+        "软硬协同开源生态成形，有望降低国内设计公司在EDA/IP层的对外依赖。",
+        "香山RISC-V核若获商业化推广，将分流部分Arm授权客户。"
+      ],
+      "actions": ["评估基于香山RISC-V核的设计可行性与IP授权替代成本"],
+      "glossary": []
+    },
+    {
+      "title": "Rapidus锁定与台积电六个月差距目标",
+      "summary": "Rapidus CTO表示目标在1nm节点将与台积电技术差距缩短至六个月内，同步启动1.4nm制程研发，2nm客户测试片计划年底前启动。",
       "source": "TrendForce",
       "published": "2026-03-30",
-      "url": "https://www.trendforce.com/news/2026/03/30/news-smic-2026-action-plan-points-to-above-industry-growth-capex-held-in-line-with-2025/",
-      "tags": ["SMIC", "Foundry", "China", "CapEx"],
+      "url": "https://www.trendforce.com/news/2026/03/30/news-rapidus-accelerates-1nm-push-reportedly-targets-six-month-gap-with-tsmc/",
+      "tags": ["Rapidus", "1nm", "Japan", "Foundry"],
       "insights": [
-        "SMIC资本开支持平意味着产能扩张节奏稳健，成熟制程涨价窗口持续",
-        "国内代工备供节奏可参考SMIC扩产路线图安排流片排期"
+        "Rapidus从「追赶者」定位跃升为「半年差距竞争者」，意味着日本产能正式进入高端代工博弈。",
+        "对寻求台积电以外备选的AI/HPC客户，Rapidus 2027年量产窗口值得纳入备选规划。"
       ],
-      "actions": "确认H2流片订单排期，评估SMIC产能可用性"
+      "actions": ["跟踪Rapidus 2nm测试片客户名单及时间节点"],
+      "glossary": []
     },
     {
-      "title": "三星Dream Chip硅光子2028量产路线图",
-      "summary": "三星代工部门公布Dream Chip（硅光子）路线图，计划2027年完成平台安全验证，2028年与AI芯片融合量产，直接对标TSMC硅光子方案。",
-      "source": "SamMobile",
+      "title": "36氪：DDR4涨幅过大，内存紧缺延至2027年",
+      "summary": "资深贸易商分析指出DDR4现货价已近「天花板」，但AI算力对DRAM的结构性需求将维持内存整体紧张格局至2027年，价格短期回调有限。",
+      "source": "36氪",
       "published": "2026-03-31",
-      "url": "https://www.sammobile.com/news/samsungs-next-big-groundbreaking-chip-to-enter-mass-production-by-2028/",
-      "tags": ["Samsung", "SiliconPhotonics", "Foundry", "AI"],
+      "url": "https://36kr.com/information/web_news/",
+      "tags": ["DRAM", "内存", "价格", "供需"],
       "insights": [
-        "硅光子成为代工厂下一代差异化战场，2028年前仍以CoWoS为主流封装方案",
-        "AI算力芯片互联架构选择需提前考虑光互连路线锁定"
+        "DRAM价格天花板临近，但Q2-Q3供应仍紧，对消费类产品成本传导压力需提前测算。",
+        "TrendForce预测Q1 DRAM涨幅达90%-95%，需重新评估年度采购预算。"
       ],
-      "actions": "跟踪三星硅光子PDK开放时间节点"
-    },
-    {
-      "title": "中国芯片设备供应链AI驱动规模扩张",
-      "summary": "Digitimes Research指出AI边缘与云端需求加速中国本土半导体设备及供应链扩张，晶圆代工成为关键卡位环节，国产设备商加速出海布局。",
-      "source": "Digitimes",
-      "published": "2026-03-30",
-      "url": "https://www.digitimes.com/news/a20260330PD230/demand-semicon-china-2026-equipment-shanghai.html",
-      "tags": ["China", "Equipment", "AI", "Foundry"],
-      "insights": [
-        "国产设备出海窗口打开，东南亚/中东晶圆厂建设是新增长点",
-        "AI需求驱动设备采购节奏加快，供应链交期风险上升"
-      ],
-      "actions": "评估关键制程设备国内外交期差异，提前备货"
-    },
-    {
-      "title": "三星HBM5底层芯片采用2nm工艺确认",
-      "summary": "三星确认HBM5底层逻辑die将采用2nm工艺（1c DRAM）制造，计划于2026-2027年进入量产，与AI算力需求形成强绑定。",
-      "source": "SEMI大半导体产业网",
-      "published": "2026-03-19",
-      "url": "https://www.semi.org.cn/",
-      "tags": ["HBM", "Samsung", "2nm", "Memory"],
-      "insights": [
-        "HBM5底层芯片用2nm意味着内存与逻辑制程深度融合，成本显著提升",
-        "AI芯片设计需提前规划HBM5接口兼容性，评估供应时间窗"
-      ],
-      "actions": "跟踪三星HBM5量产节点，预判2027年内存供应格局"
-    },
-    {
-      "title": "Arm AGI CPU冲击TSMC合作伙伴GUC收益",
-      "summary": "Arm首款自研物理芯片AGI CPU量产后，TSMC旗下设计服务子公司GUC面临直接竞争冲击，Arm垂直整合趋势加速IP授权模式重构。",
-      "source": "Digitimes",
-      "published": "2026-03-26",
-      "url": "https://www.digitimes.com/news/a20260326VL204/arm-guc-cpu-agi-revenue.html",
-      "tags": ["Arm", "AGI", "Design", "TSMC"],
-      "insights": [
-        "IP供应商转型芯片设计商将重塑fabless生态，需重新评估IP采购策略",
-        "Arm直接竞争对设计服务公司造成压力，可能影响代工厂设计服务选择"
-      ],
-      "actions": "重新评估项目IP采购方案，关注Arm授权条款变化"
-    },
-    {
-      "title": "阿里巴巴发布Agent专用AI CPU真武810E",
-      "summary": "阿里T-Head芯片部门发布真武810E，专为AI Agent应用优化，采用自研架构，面向云端AI推理场景，标志国内大厂AI芯片自研加速。",
-      "source": "CNBC",
-      "published": "2026-03-24",
-      "url": "https://www.cnbc.com/2026/03/24/alibaba-ai-chip-cpu-agents.html",
-      "tags": ["Alibaba", "AIChip", "Fabless", "China"],
-      "insights": [
-        "国内互联网大厂AI芯片自研潮加速，减少对海外芯片依赖的战略意图明显",
-        "Agent推理需求催生专用AI CPU赛道，差异化于通用GPU架构"
-      ],
-      "actions": "关注真武810E量产代工厂与制程节点选择"
-    },
-    {
-      "title": "长鑫DRAM三厂2026年全部达产",
-      "summary": "长鑫科技合肥及北京三座12英寸晶圆厂计划2026年全部达产，产品覆盖DDR5/LPDDR5X，2025年营收预计550-580亿元，有望2026年实现盈亏平衡。",
-      "source": "第一财经",
-      "published": "2026-03-25",
-      "url": "https://www.yicai.com/news/102989986.html",
-      "tags": ["CXMT", "DRAM", "China", "Memory"],
-      "insights": [
-        "国产DRAM进入规模量产阶段，供应链国内替代可行性窗口开启",
-        "长鑫达产将增加全球DRAM供给约5-8%，对内存价格形成一定压力"
-      ],
-      "actions": "评估DDR5/LPDDR5X国产化替代时间表，与长鑫建立战略联系"
-    },
-    {
-      "title": "芯和半导体SEMICON发布系统级EDA平台",
-      "summary": "国产EDA企业芯和半导体在SEMICON China 2026发布品牌升级，以"AI时代系统设计领航员"定位推出系统级EDA平台，覆盖芯片到系统全流程。",
-      "source": "证券时报",
-      "published": "2026-03-24",
-      "url": "https://www.stcn.com/article/detail/3699273.html",
-      "tags": ["EDA", "China", "AIDesign", "SystemDesign"],
-      "insights": [
-        "国产EDA向系统级突破是关键，Chiplet异构集成驱动全流程协同验证需求",
-        "国内EDA工具覆盖率提升，可评估部分设计流程的国产工具替代可行性"
-      ],
-      "actions": "评估芯和半导体EDA工具与现有设计流程的兼容性"
-    },
-    {
-      "title": "Siemens EDA推Agentic AI工具减半设计周期",
-      "summary": "Siemens EDA在SEMICON China 2026发表主题演讲，宣称Agentic AI驱动的新一代EDA工具可将芯片设计周期缩短一半，传统EDA模式面临颠覆。",
-      "source": "Digitimes",
-      "published": "2026-03-26",
-      "url": "https://www.digitimes.com/news/a20260326VL206/siemens-eda-design-semicon-china-2026-ic.html",
-      "tags": ["Siemens", "EDA", "AgenticAI", "DesignAutomation"],
-      "insights": [
-        "AI驱动EDA将重塑芯片设计效率，传统大型团队优势被缩小",
-        "设计周期压缩直接影响流片排期计划，供应链节奏需同步调整"
-      ],
-      "actions": "跟踪Siemens Agentic EDA商用进度，评估导入收益"
-    },
-    {
-      "title": "国内EDA市场2026-2032细分机遇报告出炉",
-      "summary": "新浪财经报告显示，国内封测龙头长电/通富/华天对2.5D/3D IC封装EDA需求持续增长，国产EDA在模拟芯片领域国产化率已超30%，数字EDA仍不足15%。",
-      "source": "新浪财经",
-      "published": "2026-03-29",
-      "url": "https://finance.sina.com.cn/roll/2026-03-29/doc-inhssfps4704187.shtml",
-      "tags": ["EDA", "China", "AdvancedPackaging", "Localization"],
-      "insights": [
-        "封装EDA国产化优先级高于数字芯片EDA，是近期可落地替代方向",
-        "先进封装EDA缺口大，国产厂商有弯道超车机会"
-      ],
-      "actions": "梳理项目中封装EDA工具使用现状，识别可国产化替代节点"
-    },
-    {
-      "title": "RISC-V年出货达25亿核进军汽车市场",
-      "summary": "RISC-V International公布Embedded World 2026数据：全球RISC-V年出货量已接近25亿核，汽车市场成为下一主战场，Siemens EDA等生态伙伴入局。",
-      "source": "RISC-V International",
-      "published": "2026-03-01",
-      "url": "https://riscv.org/blog/embedded-world-2026/",
-      "tags": ["RISCV", "Automotive", "IP", "OpenSource"],
-      "insights": [
-        "RISC-V汽车级生态加速成熟，SoC设计可将其纳入MCU/控制器候选架构",
-        "开源ISA规避Arm授权风险，有助于降低国内芯片设计IP成本"
-      ],
-      "actions": "评估下一代汽车SoC项目中RISC-V IP替代Arm Cortex-M的可行性",
-      "glossary": [
-        {"term": "RISC-V", "desc": "开源指令集架构，无需授权费，正快速渗透IoT、汽车、服务器市场"}
-      ]
-    },
-    {
-      "title": "SEMICON China 2026碳化硅12英寸成主线",
-      "summary": "SEMICON China 2026现场观察：12英寸碳化硅晶圆成为第三代半导体核心趋势，多家企业推进量产，已成为EV、AI数据中心功率器件的关键材料升级路径。",
-      "source": "新浪财经",
-      "published": "2026-03-27",
-      "url": "https://finance.sina.com.cn/wm/2026-03-27/doc-inhsmhtw2100453.shtml",
-      "tags": ["SiC", "ThirdGenSemiconductor", "EV", "Advanced"],
-      "insights": [
-        "12英寸SiC量产将大幅降低器件成本，加速EV和数据中心采用",
-        "碳化硅供应链国产化进展超预期，可提前评估国产SiC器件替代可行性"
-      ],
-      "actions": "跟踪国内12英寸SiC晶圆量产进度，规划EV项目器件备供方案"
-    },
-    {
-      "title": "AI需求驱动中国芯片增测封产业增长",
-      "summary": "路透社报道，AI应用加速推动中国半导体测试、封装及高速互连需求全面提升，AI芯片复杂度倒逼先进封装工艺快速迭代升级。",
-      "source": "Reuters",
-      "published": "2026-03-25",
-      "url": "https://www.reuters.com/business/autos-transportation/ai-boom-accelerates-chinas-chip-industry-growth-demand-strains-supply-chain-2026-03-25/",
-      "tags": ["China", "Packaging", "Testing", "AI"],
-      "insights": [
-        "AI芯片对先进封装工艺要求快速提升，CoWoS/SoIC等技术成为供应链瓶颈",
-        "封测交期拉长，AI芯片项目需提前12-18个月锁定封测产能"
-      ],
-      "actions": "提前锁定AI芯片项目先进封装产能，防范交期延误风险"
-    },
-    {
-      "title": "Qualcomm收购Ventana加速RISC-V数据中心布局",
-      "summary": "高通完成收购RISC-V设计商Ventana Micro，股价触动Arm股价大跌，标志高通正式构建脱离Arm授权的数据中心CPU生态路线。",
-      "source": "TechRadar",
-      "published": "2025-12-22",
-      "url": "https://www.techradar.com/pro/arm-sheds-billions-in-market-capitalization-after-qualcomm-hints-at-risc-v-adoption-with-ventara-micro-acquisition",
-      "tags": ["Qualcomm", "RISCV", "Fabless", "DataCenter"],
-      "insights": [
-        "主流fabless公司减少Arm依赖，RISC-V在服务器CPU市场将获得更多生态支撑",
-        "IP授权格局正在重构，芯片设计选型需重新评估IP来源风险"
-      ],
-      "actions": "关注高通RISC-V服务器CPU量产进度，评估数据中心芯片IP策略"
+      "actions": ["重新评估DRAM年度采购预算与锁价策略"],
+      "glossary": []
     }
   ]
 }
