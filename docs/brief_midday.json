@@ -1,158 +1,147 @@
 {
-  "version": "v20260330-1302",
-  "generatedAt": "2026-03-30T13:02:23+08:00",
+  "version": "v20260331-1302",
+  "generatedAt": "2026-03-31T13:02:00+08:00",
   "period": "midday",
   "commit": "",
+  "glossary_list": [
+    {
+      "term": "Foundry 2.0",
+      "desc": "广义晶圆代工生态系统，涵盖晶圆制造（Foundry）、先进封装（OSAT）、光掩模等全链条环节，IDC定义用于追踪整个半导体制造价值链的市场规模。",
+      "category": "商业"
+    },
+    {
+      "term": "LPDDR6",
+      "desc": "Low Power Double Data Rate 6，下一代移动端低功耗内存规格，速率达12.8Gbps（相比LPDDR5X约提升40%），主要用于旗舰手机与AI边缘设备，高通Snapdragon 8 Elite Gen 6首发支持。",
+      "category": "存储"
+    },
+    {
+      "term": "OSAT",
+      "desc": "Outsourced Semiconductor Assembly and Test，外包封测服务商，负责晶圆切割、封装与测试环节，是先进封装（CoWoS、Chiplet等）供应链的关键节点。",
+      "category": "封装"
+    },
+    {
+      "term": "CoWoS",
+      "desc": "Chip-on-Wafer-on-Substrate，台积电核心2.5D先进封装技术，通过硅转接板（Interposer）将HBM与AI加速芯片集成于同一基板，是H100/B200/GB200等AI GPU的主要封装方式。",
+      "category": "封装"
+    },
+    {
+      "term": "RISC-V",
+      "desc": "开源精简指令集架构（ISA），可免费使用、修改，是x86（Intel/AMD）和Arm专有架构的开源替代方案，中科院香山处理器为全球最高性能开源RISC-V核心。",
+      "category": "设备"
+    }
+  ],
   "items": [
     {
-      "title": "三菱罗姆东芝拟合并功率半导体业务",
-      "summary": "三菱电机、罗姆与东芝半导体签署MOU，拟整合功率器件业务，合并后或成全球第二大功率芯片集团，涵盖SiC MOSFET、驱动IC、MCU等。",
-      "source": "ICO Optics",
+      "title": "Foundry 2.0市场2026年超3600亿美元",
+      "summary": "IDC最新报告预测，含晶圆代工、OSAT、光掩模的广义Foundry 2.0市场2026年将突破3600亿美元，同比增长17%，AI驱动先进封装需求为核心引擎，2026-2030年CAGR达11%。",
+      "source": "TelecomLead/IDC",
+      "published": "2026-03-31",
+      "url": "https://telecomlead.com/semiconductor/foundry-2-0-market-to-surpass-360-bn-in-2026-as-ai-drives-semiconductor-growth-125305",
+      "tags": ["Foundry", "OSAT", "AdvancedPackaging", "AI"],
+      "insights": [
+        "OSAT封测市场同步增15%，先进封装产能约80% YoY扩张",
+        "供应链布局重点转向Foundry全链条整合能力"
+      ],
+      "actions": ["关注OSAT合作伙伴先进封装产能锁定进展"],
+      "glossary": []
+    },
+    {
+      "title": "CoWoS先进封装2026年产能扩80%",
+      "summary": "因TSMC CoWoS容量持续紧张，AI客户积极向OSAT厂商寻求长期合约，CoWoS-S/L/R产能预计2026年较2025年扩张约80%，OSAT厂加速扩线响应。",
+      "source": "Communications Today",
+      "published": "2026-03-31",
+      "url": "https://www.communicationstoday.co.in/ai-surge-drives-foundry-2-0-market-to-320b-up-16-yoy/",
+      "tags": ["CoWoS", "TSMC", "AdvancedPackaging", "AI"],
+      "insights": [
+        "TSMC CoWoS产能瓶颈推动OSAT承接先进封装外溢需求",
+        "AI算力需求结构性拉动封测产能，2026全年扩张确定性强"
+      ],
+      "actions": ["跟踪日月光、安靠等OSAT厂CoWoS产线交付时间表"],
+      "glossary": []
+    },
+    {
+      "title": "GF起诉Tower侵11项工艺专利",
+      "summary": "GlobalFoundries（GF）在美国ITC及德州西区联邦法院对Tower Semiconductor提起诉讼，指控其侵犯11项工艺制造专利，并申请进口禁令，涉及移动、汽车、工业等高性能制程技术。",
+      "source": "Electronics Weekly",
       "published": "2026-03-30",
-      "url": "https://www.ico-optics.org/mitsubishi-rohm-toshiba-merge-power-semiconductor-businesses/",
-      "tags": [
-        "PowerSemiconductor",
-        "SiC",
-        "Japan",
-        "M&A"
-      ],
+      "url": "https://www.electronicsweekly.com/news/business/globalfoundries-sues-tower-semi-for-process-technology-psgent-ingringement-2026-03/",
+      "tags": ["GlobalFoundries", "TowerSemiconductor", "Patent", "Foundry"],
       "insights": [
-        "日本三大功率器件厂整合重塑SiC/GaN竞争格局",
-        "车规级功率器件供应链集中度将显著提升"
+        "代工厂IP保护诉讼升温，工艺专利成竞争护城河",
+        "进口禁令申请若成功将影响Tower在美客户供货链"
       ],
-      "actions": "关注SiC/GaN替代供应商备份方案"
+      "actions": ["评估采用Tower工艺客户的交期与备货风险"],
+      "glossary": []
     },
     {
-      "title": "TSMC 2nm产能全满三星承接溢出订单",
-      "summary": "TSMC 2nm工艺已售罄至2028年，三星代工凭借Tesla、NVIDIA等客户订单成为重要替代选项，TSMC当前市场份额约72%。",
-      "source": "SemiWiki",
+      "title": "印度Kaynes OSAT厂今日开幕",
+      "summary": "印度总理莫迪今日为Kaynes Semicon在古吉拉特邦萨纳德的OSAT（封测）设施揭幕，总投资33亿卢比，每日产能达6000万颗芯片，是印度半导体使命计划下首批落地项目。",
+      "source": "CNBC TV18",
+      "published": "2026-03-31",
+      "url": "https://www.cnbctv18.com/economy/pm-modi-to-inaugurate-rs-3300-crore-kaynes-semicon-osat-unit-in-sanand-on-march-31-ws-l-19877747.htm",
+      "tags": ["India", "OSAT", "Semiconductor", "Geopolitics"],
+      "insights": [
+        "印度OSAT产能落地，供应链多元化提速",
+        "对国内封测厂而言竞争格局边际影响有限但需持续关注"
+      ],
+      "actions": ["跟踪印度封测产能爬坡速率与良率表现"],
+      "glossary": []
+    },
+    {
+      "title": "Snapdragon 8 Elite Gen 6首支持LPDDR6",
+      "summary": "高通骁龙8 Elite Gen 6（次世代旗舰SoC）将率先支持LPDDR6内存规格，内存带宽显著提升，配合12.8Gbps高速内存，推动旗舰手机AI端侧算力新台阶。",
+      "source": "Selular.ID",
       "published": "2026-03-30",
-      "url": "https://semiwiki.com/forum/threads/tsmcs-2-nanometer-sold-out-samsung-foundry-gains.24850/",
-      "tags": [
-        "TSMC",
-        "Samsung",
-        "Foundry",
-        "AdvancedNode"
-      ],
+      "url": "https://selular.id/2026/03/snapdragon-8-elite-gen-6-dukung-ram-lpddr6/",
+      "tags": ["Qualcomm", "Snapdragon", "LPDDR6", "MobileSoC"],
       "insights": [
-        "先进制程产能持续紧张，流片窗口排期需提前规划",
-        "三星代工实力提升，可作为2nm备选Fab"
+        "旗舰SoC厂商率先适配LPDDR6将推动存储厂量产节奏提前",
+        "LPDDR6导入期间，支持双规格（LPDDR5X+LPDDR6）的SoC设计方案具备差异化优势"
       ],
-      "actions": "提前锁定先进节点流片档期"
+      "actions": ["关注三星/SK海力士LPDDR6量产时间节点与供应格局"],
+      "glossary": []
     },
     {
-      "title": "Kandou AI完成2.25亿美元A轮融资",
-      "summary": "瑞士芯片互连公司Kandou AI获2.25亿美元A轮，由Maverick Silicon领投，Synopsys、Cadence、SoftBank等战略参与，主攻铜互连SerDes与AI算力互联瓶颈。",
-      "source": "Pulse2 / The Next Web",
+      "title": "长鑫LPDDR6样品送样争旗舰首发",
+      "summary": "长鑫存储（CXMT）已悄然完成LPDDR6内存样品送样，速率12.8Gbps、容量16Gb，正式加入全球旗舰手机首发LPDDR6的争夺行列，有望实现国产存储首次参与旗舰机首发。",
+      "source": "科技观察官（B站）",
       "published": "2026-03-30",
-      "url": "https://pulse2.com/kandou-ai-225-million-raised-for-ai-connectivity-and-memory-bottleneck-solutions/",
-      "tags": [
-        "ChipIP",
-        "AIChip",
-        "SerDes",
-        "Interconnect"
-      ],
+      "url": "https://www.bilibili.com/video/BV1XcXYBLEoi/",
+      "tags": ["CXMT", "LPDDR6", "DomesticStorage", "Memory"],
       "insights": [
-        "Synopsys/Cadence战略投资揭示AI互联IP赛道热度",
-        "AI算力瓶颈正向芯片间互联环节延伸"
+        "长鑫LPDDR6若成功首发将是国产存储的里程碑突破",
+        "送样进度反映中国存储与全球主流规格的差距大幅收窄"
       ],
-      "actions": "评估SerDes/互联IP供应商布局",
-      "glossary": [
-        {
-          "term": "SerDes",
-          "desc": "串行-解串器，高速芯片间数据收发接口"
-        }
-      ]
+      "actions": ["跟踪长鑫LPDDR6送样认证进展，评估供应链可替代性"],
+      "glossary": []
     },
     {
-      "title": "中国对美半导体出口管制展开贸易调查",
-      "summary": "中国启动两项针对美国半导体出口管制的贸易调查，导致onsemi、NXP、Entegris、Broadcom等半导体股下跌，供应链合规风险上升。",
-      "source": "ICO Optics",
-      "published": "2026-03-29",
-      "url": "https://www.ico-optics.org/why-onsemi-allegro-entegris-broadcom-and-nxp-stocks-drop/",
-      "tags": [
-        "ExportControl",
-        "SupplyChain",
-        "USChina",
-        "Geopolitics"
-      ],
-      "insights": [
-        "中美科技贸易摩擦加剧，跨境IP/设备采购合规压力增大",
-        "多元化供应商策略已成应对贸易风险的必要手段"
-      ],
-      "actions": "梳理关键供应商出口管制合规状态"
-    },
-    {
-      "title": "中国模拟芯片厂商跟涨价格浪潮",
-      "summary": "纳芯微、圣邦微等中国模拟芯片厂商宣布涨价，与TI、ADI、NXP等国际大厂同步，分析人士认为可趁机扩大成熟制程市占率。",
-      "source": "南华早报",
+      "title": "中科院香山成全球最强开源RISC-V核",
+      "summary": "中科院在2026年中关村年会发布香山开源RISC-V处理器，SPEC CPU2006基准达16.5分/GHz，成全球最高性能开源RISC-V核心；同步发布openRuyi原生OS与RuyiSDK，构建完整RISC-V生态。",
+      "source": "中国科学院",
       "published": "2026-03-30",
-      "url": "https://www.scmp.com/tech/big-tech/article/3348284/chinese-analogue-chipmakers-join-wave-global-price-rises-mature-node-firms-eye-gains",
-      "tags": [
-        "AnalogIC",
-        "MatureNode",
-        "China",
-        "Pricing"
-      ],
+      "url": "https://english.cas.cn/newsroom/cas-in-media/202603/t20260330_1154281.shtml",
+      "tags": ["RISC-V", "CAS", "OpenSource", "EDA"],
       "insights": [
-        "成熟制程涨价潮为国内模拟厂商提供市占扩张窗口",
-        "采购方应关注价格调整节点，提前锁量备货"
+        "中国RISC-V生态完整度持续提升，对国内EDA/IP工具链形成正向拉动",
+        "香山处理器已进入AI、云计算、工业控制等量产场景"
       ],
-      "actions": "对比国内外模拟芯片价格变动，评估备货窗口"
+      "actions": ["评估基于香山RISC-V的芯片设计可行性与生态成熟度"],
+      "glossary": []
     },
     {
-      "title": "Apple与TSMC美国芯片合作引发估值争议",
-      "summary": "Apple与TSMC深化美国本土制造合作，进一步绑定供应链，但也引发投资者对TSMC高估值和地缘政治风险的担忧。",
-      "source": "ICO Optics",
-      "published": "2026-03-30",
-      "url": "https://www.ico-optics.org/apple-and-tsmc-us-chip-deal-sparks-valuation-risk-concerns/",
-      "tags": [
-        "TSMC",
-        "Apple",
-        "USFab",
-        "Geopolitics"
-      ],
+      "title": "工信部：2028年物联网芯片产业超3.5万亿",
+      "summary": "工信部等九部门联合印发《推动物联网产业创新发展行动方案（2026—2028年）》，明确到2028年物联网终端连接数力争达百亿级，核心产业规模突破3.5万亿元，MCU/SoC国产化需求将显著扩大。",
+      "source": "财联社",
+      "published": "2026-03-31",
+      "url": "https://api3.cls.cn/share/article/2330163?os=web&sv=8.4.6&app=CailianpressWeb",
+      "tags": ["IoT", "MCU", "Policy", "China"],
       "insights": [
-        "苹果TSMC美国fab布局加速，本土化供应链战略深化",
-        "流片客户应关注TSMC美国产能定价策略"
+        "政策驱动物联网端侧MCU/SoC国产化加速，国内芯片厂订单能见度提升",
+        "百亿级连接数对低功耗通信芯片（NB-IoT/BLE）产生结构性需求"
       ],
-      "actions": "评估未来流片成本变化趋势"
-    },
-    {
-      "title": "TSMC股价2026年逆势上涨12.8%",
-      "summary": "在Nvidia、Apple等科技股整体承压背景下，TSMC年初至今上涨12.8%，AI芯片强劲需求与扩张计划支撑其独立行情。",
-      "source": "TipRanks",
-      "published": "2026-03-30",
-      "url": "https://www.tipranks.com/news/this-chip-stock-is-the-only-trillion-dollar-winner-in-the-2026-tech-slump",
-      "tags": [
-        "TSMC",
-        "AIChip",
-        "Foundry",
-        "MarketTrend"
-      ],
-      "insights": [
-        "TSMC资本市场表现印证AI算力需求韧性",
-        "代工龙头定价权持续强化，晶圆成本上行可能持续"
-      ],
-      "actions": "关注代工价格趋势，纳入项目BOM成本预测"
-    },
-    {
-      "title": "三星SK海力士加码中国晶圆厂投资",
-      "summary": "三星与SK海力士加大对中国晶圆厂的投资力度，应对AI存储需求激增下的全球HBM及存储芯片供应紧张局面。",
-      "source": "南华早报",
-      "published": "2026-03-29",
-      "url": "https://www.scmp.com/tech/tech-trends/article/3348159/south-korean-chip-giants-step-china-investments-combat-global-ai-memory-shortage",
-      "tags": [
-        "HBM",
-        "Memory",
-        "Samsung",
-        "China"
-      ],
-      "insights": [
-        "韩系存储厂中国产能扩张缓解HBM短缺，但受美国出口管制约束",
-        "存储价格走势将影响AI芯片系统集成成本"
-      ],
-      "actions": "持续追踪HBM供应动态及价格趋势"
+      "actions": ["排摸物联网MCU/SoC国内供应商产能与设计服务配套能力"],
+      "glossary": []
     }
   ]
 }
