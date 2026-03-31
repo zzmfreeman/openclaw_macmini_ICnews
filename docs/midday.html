@@ -244,6 +244,38 @@
       }
       el('headlines').innerHTML = headlineHtml;
 
+      const renderItem = (it, idx)=>{
+        return `
+          <div class="item" id="item-${idx}">
+            <div class="header">
+              <div class="title2">${escapeHtml(it.title)}</div>
+              <div class="meta-row">
+                <span>#${idx+1}</span>
+                <span>📰 ${escapeHtml(it.source||'')}</span>
+                <span>📅 ${escapeHtml(it.published||'')}</span>
+                ${it.url ? `<a href="${escapeHtml(it.url)}" target="_blank" rel="noreferrer">🔗 原文链接</a>`:''}
+                ${(it.tags||[]).map(t=>`<span class="badge badge-tag">${escapeHtml(t)}</span>`).join(' ')}
+              </div>
+            </div>
+            <div class="summary">${it.summary}</div>
+            <div class="blocks">
+              <div class="box box-insight">
+                <div class="lbl">💡 行业洞见</div>
+                <ul>${[].concat(it.insights||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>
+              </div>
+              <div class="box box-action">
+                <div class="lbl">🎯 建议动作</div>
+                <ul>${[].concat(it.actions||[]).map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>
+              </div>
+            </div>
+          </div>
+          ${it.glossary && it.glossary.length ? `
+          <div class="glossary-box">
+            <div class="glossary-title">📚 核心词条解读</div>
+            ${it.glossary.map(g => `<div class="glossary-item"><span class="glossary-term">${escapeHtml(g.term)}</span>${escapeHtml(g.desc)}</div>`).join('')}
+          </div>` : ''}`;
+      };
+
       // 正文：国内在前，国际在后，id 与总览锚点严格对应
       el('domesticItems').innerHTML = domestic.length
         ? domestic.map((it,i) => renderItem(it, i)).join('')
