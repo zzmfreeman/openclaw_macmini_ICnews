@@ -2709,5 +2709,35 @@
     "added_at": "2026-04-02T20:09:51+08:00",
     "period": "morning",
     "version": "v20260402-0001"
+  },
+  {
+    "url": "https://example.com/smic-28nm",
+    "title": "中芯国际宣布28nm产能提升计划",
+    "published": "2026-04-02T10:30:00+08:00",
+    "addedAt": "2026-04-03T06:04:38.535945+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/tsmc-cowos-2026",
+    "title": "台积电CoWoS产能预计2026年翻倍",
+    "published": "2026-04-02T08:15:00+08:00",
+    "addedAt": "2026-04-03T06:04:38.535945+08:00"
+  },
+  {
+    "url": "https://example.com/eda-5nm",
+    "title": "华大九天发布新一代EDA工具",
+    "published": "2026-04-02T14:20:00+08:00",
+    "addedAt": "2026-04-03T06:04:38.535945+08:00"
+  },
+  {
+    "url": "https://wccftech.com/samsung-us-fab",
+    "title": "三星计划在美建第三座晶圆厂",
+    "published": "2026-04-02T16:45:00+08:00",
+    "addedAt": "2026-04-03T06:04:38.535945+08:00"
+  },
+  {
+    "url": "https://example.com/封装合作",
+    "title": "长电科技与通富微电合作开发先进封装",
+    "published": "2026-04-02T11:10:00+08:00",
+    "addedAt": "2026-04-03T06:04:38.535945+08:00"
   }
 ]

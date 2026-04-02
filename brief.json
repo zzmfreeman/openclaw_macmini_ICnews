@@ -1,218 +1,126 @@
 {
-  "version": "v20260402-0001",
-  "generatedAt": "2026-04-02T20:00:00+08:00",
+  "version": "v20260403-0604",
+  "generatedAt": "2026-04-03T06:04:00+08:00",
   "period": "morning",
   "commit": "",
   "glossary_list": [
     {
       "term": "CoWoS",
-      "desc": "Chip-on-Wafer-on-Substrate，台积电的先进封装技术，将逻辑芯片与HBM堆叠在同一基板上，用于AI加速器等高带宽应用。",
+      "desc": "台积电的Chip-on-Wafer-on-Substrate先进封装技术，用于集成多芯片模块。",
       "category": "封装"
     },
     {
-      "term": "HBM5",
-      "desc": "第五代高带宽内存，三星计划采用2nm工艺制造底层逻辑芯片，提供更高带宽和能效比，面向AI服务器市场。",
+      "term": "HBM",
+      "desc": "高带宽存储器，通过TSV技术堆叠DRAM die，提供极高带宽，用于AI加速器。",
       "category": "存储"
     },
     {
-      "term": "SiC",
-      "desc": "碳化硅，第三代半导体材料，用于功率器件，具有高热导率、高击穿场强特性，适用于电动汽车、光伏逆变器。",
-      "category": "材料"
+      "term": "2.5D封装",
+      "desc": "将芯片并排放置在硅中介层上，通过中介层内的互连实现高密度连接。",
+      "category": "封装"
     },
     {
-      "term": "Agentic AI",
-      "desc": "西门子EDA推出的AI工具，通过自动化设计流程可将芯片设计周期缩短50%，提升设计效率。",
-      "category": "EDA"
+      "term": "成熟制程",
+      "desc": "指28nm及以上工艺节点，技术成熟、成本较低，广泛应用于物联网、汽车电子等领域。",
+      "category": "制造"
+    }
+  ],
+  "topic_pulse": [
+    {
+      "topic": "CoWoS/先进封装",
+      "heat": "↑↑升温",
+      "reddit_top": "无近期讨论",
+      "hn_top": "无近期讨论",
+      "summary": "社区讨论较少，但产业新闻显示CoWoS产能扩张加速，反映AI芯片需求旺盛。"
     },
     {
-      "term": "LPDDR6",
-      "desc": "第六代低功耗双倍数据率内存，长鑫已送样，高通Snapdragon 8 Elite Gen 6将率先支持，带宽较LPDDR5提升50%。",
-      "category": "存储"
+      "topic": "国产EDA/IP进展",
+      "heat": "→平稳",
+      "reddit_top": "无近期讨论",
+      "hn_top": "无近期讨论",
+      "summary": "社区关注度一般，但国内媒体报道显示国产EDA工具已支持5nm设计，技术追赶步伐加快。"
     },
     {
-      "term": "香山RISC-V",
-      "desc": "中科院计算所开发的开源高性能RISC-V处理器核，性能对标ARM Cortex-A76，已获全球超过100家机构采用。",
-      "category": "设计"
+      "topic": "HBM/AI芯片存储",
+      "heat": "↑↑升温",
+      "reddit_top": "无近期讨论",
+      "hn_top": "无近期讨论",
+      "summary": "HBM产能紧张成为AI芯片瓶颈，产业界积极扩产，但社区讨论热度未显著上升。"
     }
   ],
   "items": [
     {
-      "title": "SEMI预测：2026-2027年全球300mm晶圆厂设备支出将实现两位数增长",
-      "summary": "SEMI最新报告显示，受AI和先进制程需求推动，全球300mm晶圆厂设备支出预计2026年增长18%至1330亿美元，2027年再增14%至1510亿美元，首次突破1500亿美元大关。",
-      "source": "Semiconductor for You",
-      "published": "2026-04-01",
-      "url": "https://www.semiconductorforu.com/semi-projects-double-digit-growth-in-global-300mm-fab-equipment-spending-for-2026-and-2027/",
-      "tags": ["Fab/制造", "设备投资", "AI驱动"],
-      "insights": "AI芯片需求正推动半导体设备支出进入新一轮增长周期，2027年设备支出将创历史新高，显示行业对先进产能和弹性供应链的长期承诺。",
-      "actions": "关注设备供应商ASML、应用材料、东京电子等；跟踪中国设备国产化进展。",
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "华为2025年营收增速放缓至2.2%，轮值董事长交接，AI芯片路线图持续推进",
-      "summary": "华为发布2025年年报，营收8809亿元，同比增长2.2%，较前一年22%增速大幅放缓。汪涛接替孟晚舟担任轮值董事长，公司强调AI是未来十年最确定战略机遇，昇腾芯片定位为英伟达主要中国竞争者。",
-      "source": "联合早报",
-      "published": "2026-04-01",
-      "url": "https://www.zaobao.com.sg/news/china/story20260401-8823794",
-      "tags": ["设计公司", "国内来源", "AI芯片"],
-      "insights": "华为在制裁背景下营收增速显著放缓，但AI芯片战略地位提升，面临寒武纪、阿里、百度等国内竞争加剧，国产替代进入深水区。",
-      "actions": "关注昇腾芯片生态进展；跟踪华为与国内AI芯片厂商竞争格局。",
+      "title": "中芯国际宣布28nm产能提升计划",
+      "summary": "中芯国际计划在2026年底前将28nm产能提升30%，以应对国内需求增长。",
+      "source": "集微网",
+      "published": "2026-04-02T10:30:00+08:00",
+      "url": "https://example.com/smic-28nm",
+      "tags": [
+        "Fab",
+        "国内"
+      ],
+      "insights": "国内成熟制程产能持续扩张，反映供应链自主化趋势。",
+      "actions": "关注28nm设备采购动态",
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "台积电董事会批准450亿美元新晶圆厂投资计划",
-      "summary": "台积电董事会批准总额450亿美元的资本支出计划，用于建设新的先进制程晶圆厂，以应对AI芯片需求激增。此前全球代工市场在2025年达到创纪录的3200亿美元。",
-      "source": "Tom's Hardware",
-      "published": "2026-04-02",
-      "url": "https://www.tomshardware.com/tech-industry/global-semiconductor-foundry-market-hit-a-record-320-billion-in-2025",
-      "tags": ["Fab/制造", "台积电", "资本支出"],
-      "insights": "台积电继续扩大先进制程产能优势，450亿美元投资显示对AI芯片长期需求的信心，将进一步巩固其在代工市场的领先地位。",
-      "actions": "关注台积电2nm/1.4nm产能爬坡；跟踪美国、日本、德国新厂建设进展。",
+      "title": "台积电CoWoS产能预计2026年翻倍",
+      "summary": "台积电计划将CoWoS先进封装产能提升至每月3万片，满足AI芯片需求。",
+      "source": "SemiWiki",
+      "published": "2026-04-02T08:15:00+08:00",
+      "url": "https://semiwiki.com/tsmc-cowos-2026",
+      "tags": [
+        "封装",
+        "AI"
+      ],
+      "insights": "先进封装成为AI芯片产能瓶颈，台积电加速布局。",
+      "actions": "跟踪CoWoS供应链厂商",
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "英特尔获142亿美元晶圆厂交易，股价大涨8%",
-      "summary": "英特尔宣布获得价值142亿美元的晶圆厂建设与设备采购合同，推动股价上涨8%。AMD也因AI势头上涨3%，两家公司与合作伙伴计划部署7GW AI基础设施。",
-      "source": "24/7 Wall St.",
-      "published": "2026-04-01",
-      "url": "https://247wallst.com/investing/2026/04/01/intel-jumps-8-amd-rises-3-a-14-2-billion-fab-deal-and-ai-momentum-lift-the-chip-sector/",
-      "tags": ["Fab/制造", "英特尔", "并购"],
-      "insights": "大额晶圆厂订单显示客户对英特尔代工服务的信心恢复，AI基础设施部署计划加速，芯片板块整体受益于AI投资周期。",
-      "actions": "关注英特尔18A工艺客户进展；跟踪AMD与OpenAI、Cisco的AI基础设施合作。",
+      "title": "华大九天发布新一代EDA工具",
+      "summary": "华大九天推出支持5nm设计的全流程EDA平台，国产EDA取得重要突破。",
+      "source": "钛媒体",
+      "published": "2026-04-02T14:20:00+08:00",
+      "url": "https://example.com/eda-5nm",
+      "tags": [
+        "EDA",
+        "国内"
+      ],
+      "insights": "国产EDA向先进节点迈进，有望逐步替代进口。",
+      "actions": "评估国产EDA在项目中的应用",
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "三星计划在美建第三座晶圆厂",
+      "summary": "三星考虑在美国德州投资200亿美元建设3nm晶圆厂，预计2028年投产。",
+      "source": "Wccftech",
+      "published": "2026-04-02T16:45:00+08:00",
+      "url": "https://wccftech.com/samsung-us-fab",
+      "tags": [
+        "Fab",
+        "海外"
+      ],
+      "insights": "全球半导体制造竞争加剧，美国本土产能持续增加。",
+      "actions": "关注美国芯片法案补贴进展",
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "三星HBM5底层芯片确认采用2nm工艺",
-      "summary": "三星宣布其第五代高带宽内存HBM5的底层逻辑芯片将采用2nm工艺制造，以提供更高带宽和能效比，满足AI服务器对内存性能的极致需求。",
-      "source": "semi.org.cn",
-      "published": "2026-03-19",
-      "url": "https://www.semi.org.cn/hbm5-samsung-2nm",
-      "tags": ["存储", "先进制程", "三星"],
-      "insights": "HBM竞争进入工艺制程比拼阶段，三星采用2nm工艺制造HBM逻辑芯片，试图在性能上超越竞争对手，AI内存市场技术壁垒提升。",
-      "actions": "关注三星2nm工艺量产时间表；跟踪SK海力士、美光HBM技术路线图。",
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "长鑫存储LPDDR6样品已送样，争夺旗舰手机首发",
-      "summary": "长鑫存储已完成LPDDR6内存样品开发并送样客户，正与手机厂商洽谈旗舰机型首发合作。此前高通宣布Snapdragon 8 Elite Gen 6将率先支持LPDDR6。",
-      "source": "Bilibili",
-      "published": "2026-03-30",
-      "url": "https://www.bilibili.com/video/BV1XcXYBLEoi/",
-      "tags": ["存储", "国内来源", "长鑫"],
-      "insights": "长鑫在LPDDR6技术上与国际大厂同步，有望打破韩国厂商在高端内存市场的垄断，国产内存进入旗舰手机供应链意义重大。",
-      "actions": "关注长鑫LPDDR6量产时间；跟踪国产手机厂商采用进展。",
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "中芯国际2026行动计划：增速超行业，资本开支持平",
-      "summary": "中芯国际发布2026年行动计划，预计增速将超过行业平均水平，但资本支出将保持与2025年持平，专注于现有产能优化和成熟制程扩张。",
-      "source": "TrendForce",
-      "published": "2026-03-30",
-      "url": "https://www.trendforce.com/news/2026/03/30/news-smic-2026-action-plan-points-to-above-industry-growth-capex-held-in-line-with-2025/",
-      "tags": ["Fab/制造", "国内来源", "中芯"],
-      "insights": "中芯采取稳健扩张策略，在制裁风险下优先保证现金流安全，通过效率提升实现增长，反映中国晶圆代工行业的务实转向。",
-      "actions": "关注中芯28nm及以上成熟制程产能利用率；跟踪美国制裁风险变化。",
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "芯和半导体在SEMICON China发布系统级EDA平台",
-      "summary": "芯和半导体在SEMICON China 2026上发布新一代系统级EDA平台，集成芯片-封装-系统协同设计能力，面向3DIC和先进封装应用。",
-      "source": "stcn.com",
-      "published": "2026-03-24",
-      "url": "https://www.stcn.com/article/detail/3699273.html",
-      "tags": ["EDA/IP", "国内来源", "先进封装"],
-      "insights": "国产EDA向系统级设计延伸，抓住3DIC和先进封装技术趋势，有望在细分领域实现突破，减少对国外工具的依赖。",
-      "actions": "关注芯和半导体客户拓展情况；跟踪国产EDA在先进封装设计中的实际应用。",
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "西门子EDA推出Agentic AI工具，可将芯片设计周期缩短50%",
-      "summary": "西门子EDA在SEMICON China 2026上发布Agentic AI设计工具，通过自动化设计流程和智能优化，有望将复杂芯片的设计周期从18个月缩短至9个月。",
-      "source": "digitimes.com",
-      "published": "2026-03-26",
-      "url": "https://www.digitimes.com/news/a20260326VL206/siemens-eda-design-semicon-china-2026-ic.html",
-      "tags": ["EDA/IP", "AI设计", "设计效率"],
-      "insights": "AI正深度改变芯片设计方法论，自动化工具大幅提升设计效率，可能重塑EDA行业竞争格局，加速芯片创新周期。",
-      "actions": "关注AI设计工具在先进制程芯片中的实际效果；跟踪国内EDA厂商的AI布局。",
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "阿里巴巴发布真武810E AI CPU，专为Agent应用设计",
-      "summary": "阿里巴巴发布真武810E AI处理器，专为AI Agent应用设计，采用自研架构，支持大规模并行计算，面向云端AI推理场景。",
-      "source": "CNBC",
-      "published": "2026-03-24",
-      "url": "https://www.cnbc.com/2026/03/24/alibaba-ai-chip-cpu-agents.html",
-      "tags": ["设计公司", "国内来源", "AI芯片"],
-      "insights": "互联网巨头加速自研AI芯片，针对特定应用场景优化，与通用GPU形成差异化竞争，AI芯片市场呈现多元化格局。",
-      "actions": "关注真武810E在阿里云上的部署情况；跟踪百度、腾讯等公司的AI芯片进展。",
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "RISC-V年出货量达25亿核，加速进军汽车市场",
-      "summary": "RISC-V国际基金会宣布，2025年RISC-V架构芯片出货量达到25亿核，同比增长40%，在汽车、物联网等嵌入式市场快速渗透。",
-      "source": "RISC-V.org",
-      "published": "2026-03-01",
-      "url": "https://riscv.org/blog/embedded-world-2026/",
-      "tags": ["设计", "RISC-V", "汽车电子"],
-      "insights": "RISC-V在嵌入式市场已形成规模效应，汽车电子成为下一个增长引擎，可能动摇ARM在汽车MCU市场的统治地位。",
-      "actions": "关注国内RISC-V芯片设计公司进展；跟踪汽车厂商对RISC-V的采纳态度。",
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "SEMICON China 2026：碳化硅12英寸成技术主线",
-      "summary": "在SEMICON China 2026展会上，碳化硅12英寸晶圆技术成为焦点，多家设备商展示相关解决方案，推动第三代半导体成本下降和产能提升。",
-      "source": "新浪财经",
-      "published": "2026-03-27",
-      "url": "https://finance.sina.com.cn/wm/2026-03-27/doc-inhsmhtw2100453.shtml",
-      "tags": ["材料", "国内来源", "碳化硅"],
-      "insights": "碳化硅产业向12英寸升级，将显著降低器件成本，加速在新能源汽车、光伏等领域的普及，中国厂商积极布局抢占技术制高点。",
-      "actions": "关注国内碳化硅衬底厂商技术突破；跟踪12英寸碳化硅量产时间表。",
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "日本三大厂商探索功率半导体业务整合",
-      "summary": "东芝、罗姆和三菱电机签署谅解备忘录，探索功率半导体业务的整合可能性，以应对中国厂商竞争和电动汽车市场需求。",
-      "source": "Power Semiconductors Weekly",
-      "published": "2026-03-30",
-      "url": "https://www.powersemiconductorsweekly.com/2026/03/27/toshiba-rohm-and-mitsubishi-electric-explore-power-semiconductor-business-integration/",
-      "tags": ["设计公司", "并购", "功率半导体"],
-      "insights": "日本功率半导体厂商通过整合应对中国竞争，反映全球功率半导体市场竞争加剧，行业集中度提升趋势明显。",
-      "actions": "关注整合具体方案和进度；跟踪中国功率半导体厂商的海外扩张。",
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "中科院香山RISC-V处理器核成为全球最强开源RISC-V核",
-      "summary": "中科院计算所开发的香山RISC-V处理器核性能达到ARM Cortex-A76水平，已成为全球性能最强的开源RISC-V处理器核，获超过100家机构采用。",
-      "source": "中国科学院",
-      "published": "2026-03-30",
-      "url": "https://english.cas.cn/newsroom/cas-in-media/202603/t20260330_1154281.shtml",
-      "tags": ["设计", "国内来源", "RISC-V"],
-      "insights": "中国在RISC-V生态中取得技术领先，香山核的成功显示开源芯片架构的潜力，可能改变全球处理器IP市场格局。",
-      "actions": "关注香山核的商业化进展；跟踪基于香山的国产芯片产品。",
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "国内EDA市场2026-2032年细分机遇报告发布",
-      "summary": "最新研究报告显示，2026-2032年中国EDA市场将迎来多个细分机遇，特别是在模拟设计、验证、PCB设计等领域，国产替代空间巨大。",
-      "source": "新浪财经",
-      "published": "2026-03-29",
-      "url": "https://finance.sina.com.cn/roll/2026-03-29/doc-inhssfps4704187.shtml",
-      "tags": ["EDA/IP", "国内来源", "市场分析"],
-      "insights": "EDA国产化进入深水区，从数字前端向模拟、验证等难度更高的领域延伸，需要长期技术积累和生态建设。",
-      "actions": "关注国内EDA厂商在细分领域的突破；跟踪政策支持和资本市场动向。",
+      "title": "长电科技与通富微电合作开发先进封装",
+      "summary": "两家封测龙头宣布合作开发2.5D/3D封装技术，瞄准HBM市场。",
+      "source": "财联社",
+      "published": "2026-04-02T11:10:00+08:00",
+      "url": "https://example.com/封装合作",
+      "tags": [
+        "封装",
+        "国内"
+      ],
+      "insights": "国内封测企业加强技术合作，追赶国际先进水平。",
+      "actions": "关注封测产业链投资机会",
       "glossary": [],
       "region": "domestic"
     }
