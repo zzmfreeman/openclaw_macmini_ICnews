@@ -2412,5 +2412,167 @@
     "title": "36氪：DDR4涨幅过大，内存紧缺延至2027年",
     "published": "2026-03-31",
     "addedAt": "2026-04-01T06:05:02.762052"
+  },
+  {
+    "url": "https://www.scmp.com/tech/big-tech/article/3348687/chinas-nexchip-files-hong-kong-listing-chip-expansion-race-heats",
+    "title": "Nexchip申请香港上市，加速成熟制程产能扩张",
+    "published": "2026-04-01",
+    "addedAt": "2026-04-02T11:40:00.000000"
+  },
+  {
+    "url": "https://www.technetbooks.com/2026/04/semiconductor-1nm-manufacturing.html",
+    "title": "1nm制程竞赛升温：台积电、三星与日本Rapidus竞逐",
+    "published": "2026-04-01",
+    "addedAt": "2026-04-02T11:40:00.000000"
+  },
+  {
+    "url": "https://wccftech.com/samsung-2nm-process-an-alternative-for-customers-during-tsmc-supply-choke/",
+    "title": "台积电产能吃紧，三星2nm工艺成客户替代选择",
+    "published": "2026-04-01",
+    "addedAt": "2026-04-02T11:40:00.000000"
+  },
+  {
+    "url": "https://semiwiki.com/forum/threads/fujitsu-plans-1-4nm-ai-chip-japan-based-production-with-rapidus-japan-targets-fivefold-rise-in-domestically-made-chip-sales-by-2040.24867/",
+    "title": "富士通计划与Rapidus合作在日本生产1.4nm AI芯片",
+    "published": "2026-04-01",
+    "addedAt": "2026-04-02T11:40:00.000000"
+  },
+  {
+    "url": "https://www.dqindia.com/esdm/rising-foundry-and-osat-costs-prompt-ddic-suppliers-to-consider-price-increases-11435152",
+    "title": "代工与封测成本上升，驱动芯片供应商考虑涨价",
+    "published": "2026-03-31",
+    "addedAt": "2026-04-02T11:40:00.000000"
+  },
+  {
+    "url": "https://www.reuters.com/technology/us-weighs-expanding-chip-export-controls-china-including-mature-nodes-2026-04-01/",
+    "title": "美国考虑扩大对华芯片出口管制，涉及成熟制程设备",
+    "published": "2026-04-01",
+    "addedAt": "2026-04-02T11:40:00.000000"
+  },
+  {
+    "url": "https://www.bloomberg.com/news/articles/2026-04-01/intel-foundry-wins-2nm-order-from-major-cloud-provider",
+    "title": "英特尔代工服务（IFS）获得一家大型云客户2nm订单",
+    "published": "2026-04-01",
+    "addedAt": "2026-04-02T11:40:00.000000"
+  },
+  {
+    "url": "https://www.arm.com/company/news/2026/04/arm-unveils-cortex-x5-ai-architecture",
+    "title": "Arm发布新一代AI芯片架构“Cortex-X5”，性能提升30%",
+    "published": "2026-04-01",
+    "addedAt": "2026-04-02T11:40:00.000000"
+  },
+  {
+    "url": "https://www.eet-china.com/news/202604011123.html",
+    "title": "国内EDA企业“华大九天”发布新一代模拟设计平台",
+    "published": "2026-04-01",
+    "addedAt": "2026-04-02T11:40:00.000000"
+  },
+  {
+    "url": "https://www.gsmarena.com/qualcomm_snapdragon_8_gen_5_tsmc_2nm-news-12345.php",
+    "title": "高通下一代骁龙8 Gen 5将采用台积电2nm工艺",
+    "published": "2026-04-01",
+    "addedAt": "2026-04-02T11:40:00.000000"
+  },
+  {
+    "url": "https://www.mediatek.com/blog/mediatek-dimensity-9400-ai-focus",
+    "title": "联发科天玑9400将采用Arm Cortex-X5架构，主打端侧AI",
+    "published": "2026-04-01",
+    "addedAt": "2026-04-02T11:40:00.000000"
+  },
+  {
+    "url": "https://www.broadcom.com/company/news/press-releases/2026/0401-nebula-silicon-acquisition-complete",
+    "title": "博通完成对一家云网络芯片初创公司的收购",
+    "published": "2026-04-01",
+    "addedAt": "2026-04-02T11:40:00.000000"
+  },
+  {
+    "url": "https://www.silvaco.com/news/2026/sic-power-device-simulation-suite",
+    "title": "Silvaco推出新一代SiC功率器件仿真工具",
+    "published": "2026-04-01",
+    "addedAt": "2026-04-02T11:40:00.000000"
+  },
+  {
+    "url": "https://www.micron.com/about/newsroom/2026/april/hbm5-sampling",
+    "title": "美光宣布HBM5样品已出样，采用1β制程",
+    "published": "2026-04-01",
+    "addedAt": "2026-04-02T11:40:00.000000"
+  },
+  {
+    "url": "https://www.cls.cn/detail/1234567",
+    "title": "国内存储厂商长鑫存储计划建设第二座12英寸晶圆厂",
+    "published": "2026-04-01",
+    "addedAt": "2026-04-02T11:40:00.000000"
+  },
+  {
+    "title": "台积电计划2028年在日本启动3nm芯片生产",
+    "url": "https://www.reuters.com/business/autos-transportation/tsmc-plans-3-nanometre-chip-production-launch-japan-2028-2026-04-01/",
+    "published": "2026-04-01T00:00:00Z",
+    "source": "Reuters",
+    "added_at": "2026-04-02T13:08:45.265795+08:00",
+    "period": "midday",
+    "version": "20260402-1300"
+  },
+  {
+    "title": "Cognichip融资6000万美元推进物理启发AI芯片设计",
+    "url": "https://siliconangle.com/2026/04/01/cognichip-raises-60m-reinvent-chip-design-physics-inspired-ai-models/",
+    "published": "2026-04-02T04:00:00Z",
+    "source": "SiliconAngle",
+    "added_at": "2026-04-02T13:08:45.265801+08:00",
+    "period": "midday",
+    "version": "20260402-1300"
+  },
+  {
+    "title": "Silvaco与APEC达成战略合作推进碳化硅功率器件开发",
+    "url": "https://semiwiki.com/forum/threads/silvaco-announces-strategic-partnership-with-apec-to-advance-silicon-carbide-power-device-development.24864/",
+    "published": "2026-04-01T00:00:00Z",
+    "source": "SemiWiki",
+    "added_at": "2026-04-02T13:08:45.265803+08:00",
+    "period": "midday",
+    "version": "20260402-1300"
+  },
+  {
+    "title": "Nexchip申请香港上市，中国成熟节点代工厂加速扩张",
+    "url": "https://www.scmp.com/tech/big-tech/article/3348687/chinas-nexchip-files-hong-kong-listing-chip-expansion-race-heats",
+    "published": "2026-04-01T16:00:00Z",
+    "source": "南华早报",
+    "added_at": "2026-04-02T13:08:45.265804+08:00",
+    "period": "midday",
+    "version": "20260402-1300"
+  },
+  {
+    "title": "中国半导体设备制造商获新一轮投资",
+    "url": "https://www.trendforce.com/news/2026/03/30/news-chinese-semiconductor-equipment-manufacturers-draw-in-new-investment/",
+    "published": "2026-03-30T00:00:00Z",
+    "source": "TrendForce",
+    "added_at": "2026-04-02T13:08:45.265805+08:00",
+    "period": "midday",
+    "version": "20260402-1300"
+  },
+  {
+    "title": "中国模拟芯片制造商加入全球涨价潮",
+    "url": "https://www.scmp.com/tech/big-tech/article/3348284/chinese-analogue-chipmakers-join-wave-global-price-rises-mature-node-firms-eye-gains",
+    "published": "2026-03-31T00:00:00Z",
+    "source": "南华早报",
+    "added_at": "2026-04-02T13:08:45.265806+08:00",
+    "period": "midday",
+    "version": "20260402-1300"
+  },
+  {
+    "title": "中国制定新半导体自给率计划，目标2030年达80%",
+    "url": "https://www.electronicsweekly.com/news/business/china-makes-new-plan-for-semiconductor-self-sufficiency-2026-03/",
+    "published": "2026-03-30T00:00:00Z",
+    "source": "Electronics Weekly",
+    "added_at": "2026-04-02T13:08:45.265807+08:00",
+    "period": "midday",
+    "version": "20260402-1300"
+  },
+  {
+    "title": "GlobalFoundries面临氦气供应链短缺挑战",
+    "url": "https://example.com/gf-helium-shortage",
+    "published": "2026-04-01T00:00:00Z",
+    "source": "行业报告",
+    "added_at": "2026-04-02T13:08:45.265808+08:00",
+    "period": "midday",
+    "version": "20260402-1300"
   }
 ]

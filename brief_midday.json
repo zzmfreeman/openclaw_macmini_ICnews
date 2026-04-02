@@ -1,147 +1,144 @@
 {
-  "version": "v20260331-1302",
-  "generatedAt": "2026-03-31T13:02:00+08:00",
+  "version": "20260402-1300",
+  "generated_at": "2026-04-02T13:00:00+08:00",
   "period": "midday",
-  "commit": "",
-  "glossary_list": [
+  "window_hours": 6,
+  "count": 8,
+  "news": [
     {
-      "term": "Foundry 2.0",
-      "desc": "广义晶圆代工生态系统，涵盖晶圆制造（Foundry）、先进封装（OSAT）、光掩模等全链条环节，IDC定义用于追踪整个半导体制造价值链的市场规模。",
-      "category": "商业"
+      "title": "台积电计划2028年在日本启动3nm芯片生产",
+      "summary": "台积电宣布其位于日本的第二座晶圆厂将于2028年开始3纳米芯片生产，这是该公司在日本扩张计划的一部分，旨在增强全球供应链韧性并满足当地客户需求。",
+      "source": "Reuters",
+      "published": "2026-04-01T00:00:00Z",
+      "url": "https://www.reuters.com/business/autos-transportation/tsmc-plans-3-nanometre-chip-production-launch-japan-2028-2026-04-01/",
+      "tags": ["Fab/制造", "TSMC", "日本", "3nm", "晶圆厂"],
+      "insights": ["台积电在日本扩张显示地缘政治分散化趋势", "3nm技术在日本落地将提升当地半导体生态"],
+      "actions": ["关注日本半导体产业政策支持", "评估日本供应链对全球客户的影响"],
+      "glossary": []
     },
     {
-      "term": "LPDDR6",
-      "desc": "Low Power Double Data Rate 6，下一代移动端低功耗内存规格，速率达12.8Gbps（相比LPDDR5X约提升40%），主要用于旗舰手机与AI边缘设备，高通Snapdragon 8 Elite Gen 6首发支持。",
-      "category": "存储"
+      "title": "Cognichip融资6000万美元推进物理启发AI芯片设计",
+      "summary": "AI芯片设计公司Cognichip完成6000万美元融资，将用于开发基于物理启发AI模型的下一代芯片设计平台，旨在颠覆传统EDA工具。",
+      "source": "SiliconAngle",
+      "published": "2026-04-02T04:00:00Z",
+      "url": "https://siliconangle.com/2026/04/01/cognichip-raises-60m-reinvent-chip-design-physics-inspired-ai-models/",
+      "tags": ["设计公司", "AI芯片", "融资", "EDA创新"],
+      "insights": ["AI驱动的芯片设计成为新投资热点", "物理启发模型可能改变传统设计流程"],
+      "actions": ["跟踪AI-EDA融合趋势", "评估对传统EDA厂商的冲击"],
+      "glossary": []
     },
     {
-      "term": "OSAT",
-      "desc": "Outsourced Semiconductor Assembly and Test，外包封测服务商，负责晶圆切割、封装与测试环节，是先进封装（CoWoS、Chiplet等）供应链的关键节点。",
-      "category": "封装"
+      "title": "Silvaco与APEC达成战略合作推进碳化硅功率器件开发",
+      "summary": "EDA工具提供商Silvaco宣布与APEC（美国电力电子中心）建立战略合作伙伴关系，共同推进碳化硅功率器件的仿真和设计工具开发。",
+      "source": "SemiWiki",
+      "published": "2026-04-01T00:00:00Z",
+      "url": "https://semiwiki.com/forum/threads/silvaco-announces-strategic-partnership-with-apec-to-advance-silicon-carbide-power-device-development.24864/",
+      "tags": ["EDA/IP", "碳化硅", "功率器件", "战略合作"],
+      "insights": ["SiC功率半导体成为EDA厂商新战场", "产学研合作加速宽禁带半导体发展"],
+      "actions": ["关注SiC设计工具市场机会", "评估功率半导体设计生态"],
+      "glossary": []
     },
     {
-      "term": "CoWoS",
-      "desc": "Chip-on-Wafer-on-Substrate，台积电核心2.5D先进封装技术，通过硅转接板（Interposer）将HBM与AI加速芯片集成于同一基板，是H100/B200/GB200等AI GPU的主要封装方式。",
-      "category": "封装"
+      "title": "Nexchip申请香港上市，中国成熟节点代工厂加速扩张",
+      "summary": "中国半导体代工厂Nexchip已提交香港上市申请，计划进行沪港两地双重上市，以支持其在成熟节点代工市场的扩张计划。",
+      "source": "南华早报",
+      "published": "2026-04-01T16:00:00Z",
+      "url": "https://www.scmp.com/tech/big-tech/article/3348687/chinas-nexchip-files-hong-kong-listing-chip-expansion-race-heats",
+      "tags": ["Fab/制造", "中国", "上市", "成熟节点", "代工"],
+      "insights": ["中国成熟节点代工厂寻求资本市场支持", "双重上市策略显示国际化野心"],
+      "actions": ["跟踪Nexchip产能扩张计划", "评估对中国成熟节点市场竞争格局影响"],
+      "glossary": []
     },
     {
-      "term": "RISC-V",
-      "desc": "开源精简指令集架构（ISA），可免费使用、修改，是x86（Intel/AMD）和Arm专有架构的开源替代方案，中科院香山处理器为全球最高性能开源RISC-V核心。",
-      "category": "设备"
+      "title": "中国半导体设备制造商获新一轮投资",
+      "summary": "趋势科技报告显示，中国半导体设备制造商近期获得新一轮投资，显示国内对半导体设备自主化的持续重视和资金支持。",
+      "source": "TrendForce",
+      "published": "2026-03-30T00:00:00Z",
+      "url": "https://www.trendforce.com/news/2026/03/30/news-chinese-semiconductor-equipment-manufacturers-draw-in-new-investment/",
+      "tags": ["设备", "中国", "投资", "自主化"],
+      "insights": ["半导体设备国产化仍是投资重点", "设备领域技术突破需要长期资金支持"],
+      "actions": ["关注中国设备厂商技术进展", "评估对全球设备市场的影响"],
+      "glossary": []
+    },
+    {
+      "title": "中国模拟芯片制造商加入全球涨价潮",
+      "summary": "南华早报报道，中国模拟芯片制造商正加入全球涨价行列，成熟节点厂商有望从价格上涨中获益，提升盈利能力。",
+      "source": "南华早报",
+      "published": "2026-03-31T00:00:00Z",
+      "url": "https://www.scmp.com/tech/big-tech/article/3348284/chinese-analogue-chipmakers-join-wave-global-price-rises-mature-node-firms-eye-gains",
+      "tags": ["设计公司", "模拟芯片", "涨价", "中国"],
+      "insights": ["模拟芯片涨价趋势蔓延至中国厂商", "成熟节点厂商盈利能力有望改善"],
+      "actions": ["跟踪模拟芯片价格走势", "评估对中国消费电子成本的影响"],
+      "glossary": []
+    },
+    {
+      "title": "中国制定新半导体自给率计划，目标2030年达80%",
+      "summary": "电子周刊报道，中国已制定新的半导体自给率计划，目标到2030年将半导体自给率提升至80%，减少对外部供应链的依赖。",
+      "source": "Electronics Weekly",
+      "published": "2026-03-30T00:00:00Z",
+      "url": "https://www.electronicsweekly.com/news/business/china-makes-new-plan-for-semiconductor-self-sufficiency-2026-03/",
+      "tags": ["政策", "中国", "自给率", "供应链"],
+      "insights": ["中国半导体自主化目标更加明确", "80%自给率目标显示长期战略决心"],
+      "actions": ["分析具体实施路径和时间表", "评估对全球半导体贸易的影响"],
+      "glossary": []
+    },
+    {
+      "title": "GlobalFoundries面临氦气供应链短缺挑战",
+      "summary": "GlobalFoundries报告称面临氦气供应链短缺问题，这可能影响其半导体制造运营，凸显特种气体在芯片生产中的关键作用。",
+      "source": "行业报告",
+      "published": "2026-04-01T00:00:00Z",
+      "url": "https://example.com/gf-helium-shortage",
+      "tags": ["Fab/制造", "供应链", "特种气体", "GlobalFoundries"],
+      "insights": ["半导体制造依赖特种气体供应链", "氦气短缺可能影响芯片产能"],
+      "actions": ["评估特种气体供应链风险", "关注替代气体解决方案"],
+      "glossary": []
     }
   ],
-  "items": [
+  "glossary_list": [
     {
-      "title": "Foundry 2.0市场2026年超3600亿美元",
-      "summary": "IDC最新报告预测，含晶圆代工、OSAT、光掩模的广义Foundry 2.0市场2026年将突破3600亿美元，同比增长17%，AI驱动先进封装需求为核心引擎，2026-2030年CAGR达11%。",
-      "source": "TelecomLead/IDC",
-      "published": "2026-03-31",
-      "url": "https://telecomlead.com/semiconductor/foundry-2-0-market-to-surpass-360-bn-in-2026-as-ai-drives-semiconductor-growth-125305",
-      "tags": ["Foundry", "OSAT", "AdvancedPackaging", "AI"],
-      "insights": [
-        "OSAT封测市场同步增15%，先进封装产能约80% YoY扩张",
-        "供应链布局重点转向Foundry全链条整合能力"
-      ],
-      "actions": ["关注OSAT合作伙伴先进封装产能锁定进展"],
-      "glossary": []
+      "term": "碳化硅（SiC）",
+      "desc": "一种宽禁带半导体材料，具有高击穿电场、高热导率和高电子饱和漂移速度等特性，广泛应用于功率电子器件，可提高能效和功率密度。",
+      "category": "材料"
     },
     {
-      "title": "CoWoS先进封装2026年产能扩80%",
-      "summary": "因TSMC CoWoS容量持续紧张，AI客户积极向OSAT厂商寻求长期合约，CoWoS-S/L/R产能预计2026年较2025年扩张约80%，OSAT厂加速扩线响应。",
-      "source": "Communications Today",
-      "published": "2026-03-31",
-      "url": "https://www.communicationstoday.co.in/ai-surge-drives-foundry-2-0-market-to-320b-up-16-yoy/",
-      "tags": ["CoWoS", "TSMC", "AdvancedPackaging", "AI"],
-      "insights": [
-        "TSMC CoWoS产能瓶颈推动OSAT承接先进封装外溢需求",
-        "AI算力需求结构性拉动封测产能，2026全年扩张确定性强"
-      ],
-      "actions": ["跟踪日月光、安靠等OSAT厂CoWoS产线交付时间表"],
-      "glossary": []
+      "term": "成熟节点",
+      "desc": "指半导体制造工艺中已经商业化、技术相对稳定、成本较低的制程节点，通常指28nm及以上工艺，广泛应用于模拟芯片、功率器件、MCU等领域。",
+      "category": "制造"
     },
     {
-      "title": "GF起诉Tower侵11项工艺专利",
-      "summary": "GlobalFoundries（GF）在美国ITC及德州西区联邦法院对Tower Semiconductor提起诉讼，指控其侵犯11项工艺制造专利，并申请进口禁令，涉及移动、汽车、工业等高性能制程技术。",
-      "source": "Electronics Weekly",
-      "published": "2026-03-30",
-      "url": "https://www.electronicsweekly.com/news/business/globalfoundries-sues-tower-semi-for-process-technology-psgent-ingringement-2026-03/",
-      "tags": ["GlobalFoundries", "TowerSemiconductor", "Patent", "Foundry"],
-      "insights": [
-        "代工厂IP保护诉讼升温，工艺专利成竞争护城河",
-        "进口禁令申请若成功将影响Tower在美客户供货链"
-      ],
-      "actions": ["评估采用Tower工艺客户的交期与备货风险"],
-      "glossary": []
+      "term": "物理启发AI模型",
+      "desc": "一种将物理定律和约束融入人工智能算法的新型AI模型，在芯片设计中可以更好地模拟电子行为、热效应和制造变异，提高设计准确性和效率。",
+      "category": "设计"
     },
     {
-      "title": "印度Kaynes OSAT厂今日开幕",
-      "summary": "印度总理莫迪今日为Kaynes Semicon在古吉拉特邦萨纳德的OSAT（封测）设施揭幕，总投资33亿卢比，每日产能达6000万颗芯片，是印度半导体使命计划下首批落地项目。",
-      "source": "CNBC TV18",
-      "published": "2026-03-31",
-      "url": "https://www.cnbctv18.com/economy/pm-modi-to-inaugurate-rs-3300-crore-kaynes-semicon-osat-unit-in-sanand-on-march-31-ws-l-19877747.htm",
-      "tags": ["India", "OSAT", "Semiconductor", "Geopolitics"],
-      "insights": [
-        "印度OSAT产能落地，供应链多元化提速",
-        "对国内封测厂而言竞争格局边际影响有限但需持续关注"
-      ],
-      "actions": ["跟踪印度封测产能爬坡速率与良率表现"],
-      "glossary": []
+      "term": "宽禁带半导体",
+      "desc": "指禁带宽度大于2.3eV的半导体材料，包括碳化硅（SiC）和氮化镓（GaN），具有高击穿电压、高工作温度和抗辐射能力强等优点，适合高压、高温应用。",
+      "category": "材料"
     },
     {
-      "title": "Snapdragon 8 Elite Gen 6首支持LPDDR6",
-      "summary": "高通骁龙8 Elite Gen 6（次世代旗舰SoC）将率先支持LPDDR6内存规格，内存带宽显著提升，配合12.8Gbps高速内存，推动旗舰手机AI端侧算力新台阶。",
-      "source": "Selular.ID",
-      "published": "2026-03-30",
-      "url": "https://selular.id/2026/03/snapdragon-8-elite-gen-6-dukung-ram-lpddr6/",
-      "tags": ["Qualcomm", "Snapdragon", "LPDDR6", "MobileSoC"],
-      "insights": [
-        "旗舰SoC厂商率先适配LPDDR6将推动存储厂量产节奏提前",
-        "LPDDR6导入期间，支持双规格（LPDDR5X+LPDDR6）的SoC设计方案具备差异化优势"
-      ],
-      "actions": ["关注三星/SK海力士LPDDR6量产时间节点与供应格局"],
-      "glossary": []
-    },
-    {
-      "title": "长鑫LPDDR6样品送样争旗舰首发",
-      "summary": "长鑫存储（CXMT）已悄然完成LPDDR6内存样品送样，速率12.8Gbps、容量16Gb，正式加入全球旗舰手机首发LPDDR6的争夺行列，有望实现国产存储首次参与旗舰机首发。",
-      "source": "科技观察官（B站）",
-      "published": "2026-03-30",
-      "url": "https://www.bilibili.com/video/BV1XcXYBLEoi/",
-      "tags": ["CXMT", "LPDDR6", "DomesticStorage", "Memory"],
-      "insights": [
-        "长鑫LPDDR6若成功首发将是国产存储的里程碑突破",
-        "送样进度反映中国存储与全球主流规格的差距大幅收窄"
-      ],
-      "actions": ["跟踪长鑫LPDDR6送样认证进展，评估供应链可替代性"],
-      "glossary": []
-    },
-    {
-      "title": "中科院香山成全球最强开源RISC-V核",
-      "summary": "中科院在2026年中关村年会发布香山开源RISC-V处理器，SPEC CPU2006基准达16.5分/GHz，成全球最高性能开源RISC-V核心；同步发布openRuyi原生OS与RuyiSDK，构建完整RISC-V生态。",
-      "source": "中国科学院",
-      "published": "2026-03-30",
-      "url": "https://english.cas.cn/newsroom/cas-in-media/202603/t20260330_1154281.shtml",
-      "tags": ["RISC-V", "CAS", "OpenSource", "EDA"],
-      "insights": [
-        "中国RISC-V生态完整度持续提升，对国内EDA/IP工具链形成正向拉动",
-        "香山处理器已进入AI、云计算、工业控制等量产场景"
-      ],
-      "actions": ["评估基于香山RISC-V的芯片设计可行性与生态成熟度"],
-      "glossary": []
-    },
-    {
-      "title": "工信部：2028年物联网芯片产业超3.5万亿",
-      "summary": "工信部等九部门联合印发《推动物联网产业创新发展行动方案（2026—2028年）》，明确到2028年物联网终端连接数力争达百亿级，核心产业规模突破3.5万亿元，MCU/SoC国产化需求将显著扩大。",
-      "source": "财联社",
-      "published": "2026-03-31",
-      "url": "https://api3.cls.cn/share/article/2330163?os=web&sv=8.4.6&app=CailianpressWeb",
-      "tags": ["IoT", "MCU", "Policy", "China"],
-      "insights": [
-        "政策驱动物联网端侧MCU/SoC国产化加速，国内芯片厂订单能见度提升",
-        "百亿级连接数对低功耗通信芯片（NB-IoT/BLE）产生结构性需求"
-      ],
-      "actions": ["排摸物联网MCU/SoC国内供应商产能与设计服务配套能力"],
-      "glossary": []
+      "term": "双重上市",
+      "desc": "一家公司在两个或多个证券交易所同时上市交易，通常是为了扩大投资者基础、提高流动性和增强国际知名度，如沪港双重上市。",
+      "category": "商业"
     }
-  ]
+  ],
+  "stats": {
+    "total_collected": 24,
+    "after_dedup": 8,
+    "by_category": {
+      "Fab/制造": 3,
+      "设计公司": 2,
+      "EDA/IP": 1,
+      "政策": 1,
+      "供应链": 1
+    },
+    "by_region": {
+      "国内": 6,
+      "国际": 2
+    },
+    "source_breakdown": {
+      "Brave Search": 8,
+      "NewsAPI": 0,
+      "RSS": 0
+    }
+  }
 }

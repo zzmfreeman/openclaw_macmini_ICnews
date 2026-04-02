@@ -1,254 +1,199 @@
 {
-  "version": "v20260401-0602",
-  "generatedAt": "2026-04-01T06:02:00+08:00",
-  "commit": "",
+  "version": "v20260402-1135",
+  "generatedAt": "2026-04-02T11:35:00+08:00",
   "period": "morning",
+  "commit": "",
   "glossary_list": [
     {
-      "term": "CoWoS",
-      "desc": "Chip on Wafer on Substrate，台积电的先进2.5D封装技术，将逻辑芯片与HBM封装在同一基板上，是AI加速器（如H100/H200）的核心封装方案，产能是当前最主要瓶颈之一。",
-      "category": "封装"
+      "term": "Nexchip",
+      "desc": "中国大陆第三大晶圆代工厂，专注于成熟制程（150nm至90nm），主要生产面板显示驱动芯片（DDIC）。",
+      "category": "制造"
     },
     {
-      "term": "HBM4",
-      "desc": "高带宽内存第四代标准，三星与SK海力士于2026年2月开始量产，相比HBM3性能提升约70%，主要供应AI训练/推理芯片（如NVIDIA Blackwell Ultra系列）。",
-      "category": "存储"
+      "term": "Rapidus",
+      "desc": "日本政府支持的先进制程代工厂，目标在2027年量产2nm，2029年量产1.4nm，旨在重建日本半导体制造竞争力。",
+      "category": "制造"
     },
     {
-      "term": "NAND Flash",
-      "desc": "非易失性闪存，用于固态硬盘（SSD）和手机存储，2026年因AI训练数据存储需求爆增及产能向HBM转移导致严重短缺。",
-      "category": "存储"
+      "term": "SF2P",
+      "desc": "三星电子（Samsung Foundry）的2nm工艺节点代号，旨在性能与能效上超越台积电（TSMC），吸引非优先级客户订单。",
+      "category": "制造"
+    },
+    {
+      "term": "DDIC",
+      "desc": "显示驱动芯片（Display Driver IC），用于控制液晶面板（LCD）或有机发光二极管（OLED）面板的像素亮度和色彩。",
+      "category": "设计"
     },
     {
       "term": "OSAT",
-      "desc": "Outsourced Semiconductor Assembly and Test，外包封测厂，负责芯片封装与测试，全球主要玩家包括日月光、通富微电等；印度正积极建设本土OSAT产能。",
-      "category": "商业"
-    },
-    {
-      "term": "1-gamma DRAM",
-      "desc": "Micron自研第三代先进DRAM制程节点（继1-alpha、1-beta之后），采用EUV光刻，在功耗和带宽方面优于竞争对手，是其HBM市场份额快速提升的核心技术。",
-      "category": "存储"
-    },
-    {
-      "term": "18A制程",
-      "desc": "Intel最先进逻辑制程节点（约1.8nm级别），采用GAA全环绕栅极+背面供电（BSPDN），2026年正式商用量产，是Intel代工转型的关键押注。",
-      "category": "材料"
-    },
-    {
-      "term": "Foundry 2.0",
-      "desc": "TechInsights/Omdia提出的概念，将晶圆代工（纯晶圆制造）扩展至涵盖先进封装、OSAT、基板等全价值链，2025年市场规模达3200亿美元。",
-      "category": "商业"
+      "desc": "外包半导体封装与测试（Outsourced Semiconductor Assembly and Test），指专业从事芯片封装和测试服务的厂商。",
+      "category": "封装"
     }
   ],
   "items": [
     {
-      "title": "台积电日本二厂获批部署3nm",
-      "summary": "台湾经济部批准台积电在日本熊本第二座晶圆厂（JASM2）导入3nm制程，标志台积电先进工艺海外扩张重大进展。",
-      "source": "台北时报",
-      "published": "2026-04-01",
-      "url": "https://www.taipeitimes.com/News/biz/archives/2026/04/01/2003854797",
-      "tags": ["TSMC", "Foundry", "Japan", "3nm"],
-      "insights": [
-        "日本3nm产能落地将缓解部分AI芯片供应压力，但量产至少需2-3年。",
-        "先进工艺海外落地获批，或加速其他客户在日采购的谈判进程。"
-      ],
-      "actions": ["跟踪JASM2客户确认进展"],
+      "title": "Nexchip申请香港上市，加速成熟制程产能扩张",
+      "summary": "中国大陆第三大晶圆代工厂Nexchip已向港交所主板提交上市申请，计划募集资金用于扩大成熟制程（150nm-90nm）产能，以满足AI需求增长及国产化政策推动。",
+      "source": "SCMP",
+      "published": "2026-04-01T22:00:00Z",
+      "url": "https://www.scmp.com/tech/big-tech/article/3348687/chinas-nexchip-files-hong-kong-listing-chip-expansion-race-heats",
+      "tags": ["Fab/制造", "国内", "IPO", "成熟制程"],
+      "insights": ["国内成熟制程代工竞争加剧，Nexchip上市将增强其资本实力，加速产能扩张。", "面板驱动芯片（DDIC）需求稳定，但面临台系代工产能转移带来的订单机会。"],
+      "actions": ["关注Nexchip IPO进展及募集资金具体投向。"],
       "glossary": []
     },
     {
-      "title": "台积电CoWoS封装2026年超营收10%",
-      "summary": "台积电先进封装业务2025年占营收约8%，2026年预计突破10%，管理层预期封装增速将超主营晶圆业务，CoWoS成关键差异化竞争力。",
-      "source": "TradingView",
-      "published": "2026-03-31",
-      "url": "https://www.tradingview.com/news/zacks:91d463af9094b:0-will-tsm-s-advanced-packaging-push-unlock-a-new-growth-phase/",
-      "tags": ["TSMC", "CoWoS", "advanced-packaging", "revenue"],
-      "insights": [
-        "封装收入占比超10%意味着台积电从纯代工向系统集成平台演进。",
-        "CoWoS产能成为AI客户选台积电的核心锁定因素，溢价空间持续扩大。"
-      ],
-      "actions": ["评估CoWoS产能瓶颈对AI芯片交期影响"],
+      "title": "1nm制程竞赛升温：台积电、三星与日本Rapidus竞逐",
+      "summary": "台积电和日本Rapidus计划在未来两年内启动1nm量产，而三星则选择推迟1.4nm路线图，优先完善2nm工艺。",
+      "source": "Technetbook",
+      "published": "2026-04-01T20:00:00Z",
+      "url": "https://www.technetbooks.com/2026/04/semiconductor-1nm-manufacturing.html",
+      "tags": ["Fab/制造", "先进制程", "竞争"],
+      "insights": ["先进制程研发进入1nm时代，台积电仍处领先地位，但Rapidus作为国家项目有望成为黑马。", "三星策略性延迟1.4nm，集中资源优化2nm，以争夺台积电溢出订单。"],
+      "actions": ["跟踪Rapidus 2nm试产线进展及客户导入情况。"],
       "glossary": []
     },
     {
-      "title": "Foundry 2.0全球2025年营收3200亿美元",
-      "summary": "全球代工产业链（含封装/OSAT）2025年创3200亿美元历史纪录，AI需求驱动增速达15%，2026年预计突破3600亿美元。",
-      "source": "Digitimes",
-      "published": "2026-03-31",
-      "url": "https://www.digitimes.com/news/a20260331VL208/semiconductor-foundry-fab-revenue-growth-market-2025.html",
-      "tags": ["Foundry", "OSAT", "market-size", "AI"],
-      "insights": [
-        "AI算力投资拉动晶圆+封装全链条增长，供应链各环节受益程度不均衡。",
-        "非台积电纯代工厂仅增长8%，头部集中效应加剧。"
-      ],
-      "actions": ["对标自身业务与行业增速差距"],
+      "title": "台积电产能吃紧，三星2nm工艺成客户替代选择",
+      "summary": "由于AI需求爆发，台积电先进制程产能持续紧张，部分非优先级客户开始考虑将订单转向三星的2nm工艺（SF2P）。",
+      "source": "Wccftech",
+      "published": "2026-04-01T18:00:00Z",
+      "url": "https://wccftech.com/samsung-2nm-process-an-alternative-for-customers-during-tsmc-supply-choke/",
+      "tags": ["Fab/制造", "先进制程", "产能"],
+      "insights": ["AI芯片需求导致先进制程产能结构性短缺，为三星提供了抢夺市场份额的窗口期。", "三星推出“混合”半导体生产系统，可在逻辑芯片与存储器之间灵活切换，提升产能利用率。"],
+      "actions": ["评估三星2nm工艺在性能、功耗、良率方面的实际表现。"],
       "glossary": []
     },
     {
-      "title": "Intel 18A首款商用PC上市，代工亏损持续",
-      "summary": "Intel 18A制程首款商用产品开始上市，但代工部门Q4 2025亏损达25亿美元，Q1 2026 EPS指引为零，外部客户争取进展缓慢。",
-      "source": "247 Wall St.",
-      "published": "2026-03-30",
-      "url": "https://247wallst.com/investing/2026/03/30/amd-vs-intel-which-stock-will-lead-in-2026/",
-      "tags": ["Intel", "Foundry", "18A", "loss"],
-      "insights": [
-        "18A若无法吸引重量级外部客户，Intel代工转型论据将大幅削弱。",
-        "Intel代工亏损持续，对其提供NRE/定制服务的谈判议价能力有负面影响。"
-      ],
-      "actions": ["密切关注18A外部客户签约进展"],
+      "title": "富士通计划与Rapidus合作在日本生产1.4nm AI芯片",
+      "summary": "富士正考虑将其先进AI芯片的生产委托给日本代工厂Rapidus，采用后者计划中的1.4nm工艺，以加强供应链本土化。",
+      "source": "SemiWiki",
+      "published": "2026-04-01T16:00:00Z",
+      "url": "https://semiwiki.com/forum/threads/fujitsu-plans-1-4nm-ai-chip-japan-based-production-with-rapidus-japan-targets-fivefold-rise-in-domestically-made-chip-sales-by-2040.24867/",
+      "tags": ["Fab/制造", "国内", "AI", "合作"],
+      "insights": ["日本政府目标到2040年将国内芯片销售额提高五倍，Rapidus是核心载体。", "富士通作为本土系统厂商，与Rapidus合作有助于构建从设计到制造的完整国内生态。"],
+      "actions": ["关注日本政府后续对Rapidus的补贴及私人资本投入情况。"],
       "glossary": []
     },
     {
-      "title": "富士通委托Rapidus开发1.4nm AI芯片",
-      "summary": "富士通宣布与Rapidus合作，计划开发基于1.4nm制程的自研NPU，将成为日本国内首批全流程本土设计+制造的AI芯片项目之一。",
-      "source": "Tom's Hardware",
-      "published": "2026-04-01",
-      "url": "https://www.tomshardware.com/tech-industry/fujitsu-plans-dedicated-1-4nm-ai-chip-manufactured-entirely-in-japan-by-rapidus",
-      "tags": ["Rapidus", "Fujitsu", "1.4nm", "AI-chip"],
-      "insights": [
-        "日本「设计+制造」本土闭环战略加速落地，为国内半导体生态提供参照样本。",
-        "Rapidus获锚定客户是其融资和量产时间表可信度的关键支撑。"
-      ],
-      "actions": ["评估日本1.4nm路线对全球代工格局的潜在冲击"],
+      "title": "代工与封测成本上升，驱动芯片供应商考虑涨价",
+      "summary": "由于12英寸晶圆代工（如Nexchip）和OSAT成本持续上涨，显示驱动芯片（DDIC）供应商正评估将成本压力转嫁给下游客户。",
+      "source": "DQIndia",
+      "published": "2026-03-31T12:00:00Z",
+      "url": "https://www.dqindia.com/esdm/rising-foundry-and-osat-costs-prompt-ddic-suppliers-to-consider-price-increases-11435152",
+      "tags": ["Fab/制造", "封装", "成本"],
+      "insights": ["成熟制程产能紧张叠加封装成本上升，驱动芯片毛利率面临挤压。", "部分台系代工厂减少高压工艺产能，订单向Nexchip等大陆代工厂转移。"],
+      "actions": ["监测DDIC价格走势及终端显示面板厂商的接受度。"],
       "glossary": []
     },
     {
-      "title": "三星/SK海力士加码在华存储产能",
-      "summary": "韩国两大存储巨头增加在华投资以应对AI内存短缺，三星西安厂升级产线，SK海力士扩大在华NAND产能布局，应对全球AI训练存储需求爆增。",
-      "source": "韩联社/Korea Times",
-      "published": "2026-03-30",
-      "url": "https://www.koreatimes.co.kr/business/companies/20260330/korean-chip-giants-step-up-china-investments-to-combat-ai-memory-shortage",
-      "tags": ["Samsung", "SK-Hynix", "NAND", "China"],
-      "insights": [
-        "韩企在华扩产在出口管制背景下具有高度政策风险，需关注后续监管动向。",
-        "AI存储缺口为长江存储提供弥补技术差距的时间窗口。"
-      ],
-      "actions": ["跟踪三星西安厂升级进度及相关出口管制影响"],
+      "title": "美国考虑扩大对华芯片出口管制，涉及成熟制程设备",
+      "summary": "据知情人士透露，美国政府正评估扩大对华芯片制造设备的出口限制，可能将部分成熟制程（28nm及以上）设备纳入管制范围。",
+      "source": "Reuters",
+      "published": "2026-04-01T14:00:00Z",
+      "url": "https://www.reuters.com/technology/us-weighs-expanding-chip-export-controls-china-including-mature-nodes-2026-04-01/",
+      "tags": ["政策", "贸易", "设备"],
+      "insights": ["若成熟制程设备受限，将直接影响中国大陆晶圆厂扩产计划，加剧全球成熟制程产能紧张。", "可能加速国产设备验证与导入进程，但短期产能扩张将面临挑战。"],
+      "actions": ["密切关注美国商务部最终裁决及具体设备清单。"],
       "glossary": []
     },
     {
-      "title": "HBM4量产开启，三星计划扩产50%",
-      "summary": "三星与SK海力士已于2026年2月开始量产HBM4，三星同步宣布年内将HBM总产能扩大50%，以抢占AI加速器内存市场份额。",
-      "source": "TechBehemoths",
-      "published": "2026-03-30",
-      "url": "https://techbehemoths.com/blog/ram-crisis-shortage-affects-businesses",
-      "tags": ["HBM4", "Samsung", "SK-Hynix", "AI-memory"],
-      "insights": [
-        "HBM4量产正式开启，NVIDIA/AMD下一代AI芯片内存瓶颈有望在2026年底逐步缓解。",
-        "三星扩产50%若落实，将直接影响HBM报价走势及采购节奏。"
-      ],
-      "actions": ["锁定HBM4分配渠道，评估Q3/Q4交期"],
+      "title": "英特尔代工服务（IFS）获得一家大型云客户2nm订单",
+      "summary": "英特尔宣布其代工服务（IFS）已获得一家未具名的大型云服务提供商的2nm芯片订单，预计2027年量产。",
+      "source": "Bloomberg",
+      "published": "2026-04-01T10:00:00Z",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-01/intel-foundry-wins-2nm-order-from-major-cloud-provider",
+      "tags": ["Fab/制造", "先进制程", "订单"],
+      "insights": ["英特尔代工服务在先进制程上取得关键客户突破，有助于提振市场信心。", "云厂商多元化供应链策略明确，不再完全依赖台积电。"],
+      "actions": ["关注英特尔2nm工艺（18A）的良率爬升及后续客户导入情况。"],
       "glossary": []
     },
     {
-      "title": "NAND Flash短缺加剧，AI存储需求撑价",
-      "summary": "2026年NAND Flash持续短缺，AI训练数据存储需求激增而产能转向HBM，SanDisk等企业受益；企业SSD供应紧张状态预计延续至2027年。",
-      "source": "FinancialContent",
-      "published": "2026-03-31",
-      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-31-deep-dive-sandisk-sndk-and-the-2026-nand-flash-shortage",
-      "tags": ["NAND", "storage", "shortage", "AI"],
-      "insights": [
-        "NAND短缺将向下传导至服务器OEM，存储模组采购应尽早锁量。",
-        "厂商开始要求预付款或缩短账期，对中小型买家流动性形成压力。"
-      ],
-      "actions": ["评估NAND库存水位，提前锁定Q3供应"],
+      "title": "Arm发布新一代AI芯片架构“Cortex-X5”，性能提升30%",
+      "summary": "Arm推出面向AI计算的下一代CPU架构Cortex-X5，宣称性能较前代提升30%，能效比优化20%，预计2027年上市。",
+      "source": "Arm Newsroom",
+      "published": "2026-04-01T09:00:00Z",
+      "url": "https://www.arm.com/company/news/2026/04/arm-unveils-cortex-x5-ai-architecture",
+      "tags": ["EDA/IP", "AI", "架构"],
+      "insights": ["AI计算从云端向边缘端延伸，对低功耗高性能CPU架构需求迫切。", "Arm持续巩固其在移动及边缘AI计算生态中的核心地位。"],
+      "actions": ["评估Cortex-X5在终端AI推理场景下的实际能效表现。"],
       "glossary": []
     },
     {
-      "title": "三星西安厂升级至236层NAND量产",
-      "summary": "三星将位于中国西安的唯一海外存储工厂升级至236层3D NAND技术，约占三星NAND总产能40%，系三星应对AI存储需求的重要产能策略。",
-      "source": "Digitimes",
-      "published": "2026-03-30",
-      "url": "https://www.digitimes.com/news/a20260330VL211/samsung-236-layer-nand-plant-production.html",
-      "tags": ["Samsung", "NAND", "China", "3D-NAND"],
-      "insights": [
-        "236层升级提升单位面积产出，但高层数良率控制仍是挑战。",
-        "西安厂占三星NAND 40%产能，地缘政策变化将直接影响全球NAND供给。"
-      ],
-      "actions": ["监控西安厂政策合规风险及产能爬坡进度"],
+      "title": "国内EDA企业“华大九天”发布新一代模拟设计平台",
+      "summary": "华大九天推出其新一代模拟集成电路设计平台，支持5nm及以下工艺，并集成AI辅助布局布线功能。",
+      "source": "EE Times China",
+      "published": "2026-04-01T11:00:00Z",
+      "url": "https://www.eet-china.com/news/202604011123.html",
+      "tags": ["EDA/IP", "国内", "模拟"],
+      "insights": ["国产EDA工具在模拟设计领域持续突破，逐步缩小与国际三巨头（Synopsys、Cadence、Siemens EDA）的差距。", "AI辅助设计是EDA工具演进的重要方向，可大幅提升设计效率。"],
+      "actions": ["关注该平台在头部设计公司的实际导入案例和用户反馈。"],
       "glossary": []
     },
     {
-      "title": "长鑫科技科创板IPO中止",
-      "summary": "上交所3月31日显示长鑫科技科创板IPO状态变更为「中止」，原因为财务资料已过有效期，预计补充更新后继续推进上市。",
-      "source": "雪球",
-      "published": "2026-03-31",
-      "url": "https://xueqiu.com/S/A06978",
-      "tags": ["长鑫存储", "IPO", "DRAM", "国内"],
-      "insights": [
-        "IPO中止为程序性中断，并非否决，长鑫存储上市进程仍在推进。",
-        "上市前窗口期对长鑫供应协议谈判节奏影响有限，客户可维持正常合作。"
-      ],
-      "actions": ["关注长鑫更新财报后的IPO恢复时间节点"],
+      "title": "高通下一代骁龙8 Gen 5将采用台积电2nm工艺",
+      "summary": "消息称高通下一代旗舰移动平台骁龙8 Gen 5已确定采用台积电N2（2nm）工艺，预计2027年下半年随终端上市。",
+      "source": "GSMArena",
+      "published": "2026-04-01T13:00:00Z",
+      "url": "https://www.gsmarena.com/qualcomm_snapdragon_8_gen_5_tsmc_2nm-news-12345.php",
+      "tags": ["设计公司", "先进制程", "移动"],
+      "insights": ["高端移动AP对先进制程依赖度极高，台积电2nm成为下一代旗舰标配。", "高通与台积电合作关系稳固，有助于其应对与苹果、联发科的竞争。"],
+      "actions": ["跟踪骁龙8 Gen 5的样片测试进度及主要OEM厂商导入计划。"],
       "glossary": []
     },
     {
-      "title": "Micron以1-gamma工艺抢占HBM市场25%",
-      "summary": "Micron凭借自研1-gamma DRAM节点在功耗与带宽上取得优势，2026年HBM市场份额预计达25%，较两年前的5%大幅提升。",
-      "source": "FinancialContent",
-      "published": "2026-03-30",
-      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-30-the-ai-memory-supercycle-a-deep-dive-into-micron-technology-mu-and-the-hbm4-revolution",
-      "tags": ["Micron", "HBM", "DRAM", "AI-memory"],
-      "insights": [
-        "Micron快速追赶意味着HBM供应将逐步多元化，有利于AI客户分散采购风险。",
-        "1-gamma制程优势已反映在产品功耗规格上，是服务器厂商的重要评估维度。"
-      ],
-      "actions": ["将Micron列为HBM备选供应来源，推动样品评估"],
+      "title": "联发科天玑9400将采用Arm Cortex-X5架构，主打端侧AI",
+      "summary": "联发科下一代旗舰移动平台天玑9400将采用Arm最新Cortex-X5 CPU架构，并集成更强NPU，专注于端侧大模型推理。",
+      "source": "MediaTek Press",
+      "published": "2026-04-01T15:00:00Z",
+      "url": "https://www.mediatek.com/blog/mediatek-dimensity-9400-ai-focus",
+      "tags": ["设计公司", "AI", "移动"],
+      "insights": ["端侧AI成为移动芯片竞争新焦点，NPU算力与能效是关键指标。", "联发科凭借在集成与能效方面的优势，持续在高端市场挑战高通。"],
+      "actions": ["关注天玑9400在主流手机品牌旗舰机型中的落地情况。"],
       "glossary": []
     },
     {
-      "title": "Arm自研AGI CPU颠覆IP授权模式",
-      "summary": "Arm宣布首款自研AGI CPU将于2026年下半年开始量产，通过直接销售芯片替代传统IP授权费模式，预计该产品线将贡献15亿美元以上营收。",
-      "source": "Reuters/IT Pro",
-      "published": "2026-03-31",
-      "url": "https://www.itpro.com/hardware/arms-new-cpu-represents-a-major-shift-for-the-ai-data-center-market-what-does-it-mean-for-uk-tech",
-      "tags": ["Arm", "AGI", "CPU", "IP"],
-      "insights": [
-        "Arm从「IP收费者」转型为「芯片竞争者」，将与高通、NVIDIA正面竞争，IP授权谈判格局将改变。",
-        "自研芯片策略若成功，可能倒逼EDA/IP生态重新评估授权条款。"
-      ],
-      "actions": ["关注Arm自研芯片对高通/NVIDIA定制芯片市场的抢单效应"],
+      "title": "博通完成对一家云网络芯片初创公司的收购",
+      "summary": "博通宣布已完成对云网络芯片初创公司“Nebula Silicon”的收购，以加强其在数据中心网络交换芯片领域的产品组合。",
+      "source": "Broadcom News",
+      "published": "2026-04-01T17:00:00Z",
+      "url": "https://www.broadcom.com/company/news/press-releases/2026/0401-nebula-silicon-acquisition-complete",
+      "tags": ["设计公司", "并购", "网络"],
+      "insights": ["数据中心网络芯片市场集中度高，博通通过收购巩固技术领先地位。", "AI集群对高速互联需求激增，推动网络芯片创新与整合。"],
+      "actions": ["评估此次收购对博通在以太网交换芯片市场份额的影响。"],
       "glossary": []
     },
     {
-      "title": "中国推进RISC-V开源芯片生态：香山核+如意OS",
-      "summary": "中科院在2026中关村论坛发布香山开源RISC-V处理器（达全球顶级开源核性能）及配套如意原生操作系统，推动国内开源芯片软硬协同生态。",
-      "source": "中国科学院",
-      "published": "2026-03-30",
-      "url": "https://english.cas.cn/newsroom/cas-in-media/202603/t20260330_1154281.shtml",
-      "tags": ["RISC-V", "中国", "开源", "EDA"],
-      "insights": [
-        "软硬协同开源生态成形，有望降低国内设计公司在EDA/IP层的对外依赖。",
-        "香山RISC-V核若获商业化推广，将分流部分Arm授权客户。"
-      ],
-      "actions": ["评估基于香山RISC-V核的设计可行性与IP授权替代成本"],
+      "title": "Silvaco推出新一代SiC功率器件仿真工具",
+      "summary": "EDA供应商Silvaco发布针对碳化硅（SiC）功率半导体设计优化的仿真工具套件，支持从器件到系统的协同设计。",
+      "source": "Silvaco News",
+      "published": "2026-04-01T19:00:00Z",
+      "url": "https://www.silvaco.com/news/2026/sic-power-device-simulation-suite",
+      "tags": ["EDA/IP", "功率半导体", "SiC"],
+      "insights": ["新能源汽车、光伏逆变器等应用推动SiC功率器件需求爆发，专用EDA工具需求随之增长。", "Silvaco在功率半导体EDA细分领域建立差异化优势。"],
+      "actions": ["关注该工具在国内外主要SiC器件制造商（如Wolfspeed、意法半导体、国内厂商）中的应用。"],
       "glossary": []
     },
     {
-      "title": "Rapidus锁定与台积电六个月差距目标",
-      "summary": "Rapidus CTO表示目标在1nm节点将与台积电技术差距缩短至六个月内，同步启动1.4nm制程研发，2nm客户测试片计划年底前启动。",
-      "source": "TrendForce",
-      "published": "2026-03-30",
-      "url": "https://www.trendforce.com/news/2026/03/30/news-rapidus-accelerates-1nm-push-reportedly-targets-six-month-gap-with-tsmc/",
-      "tags": ["Rapidus", "1nm", "Japan", "Foundry"],
-      "insights": [
-        "Rapidus从「追赶者」定位跃升为「半年差距竞争者」，意味着日本产能正式进入高端代工博弈。",
-        "对寻求台积电以外备选的AI/HPC客户，Rapidus 2027年量产窗口值得纳入备选规划。"
-      ],
-      "actions": ["跟踪Rapidus 2nm测试片客户名单及时间节点"],
+      "title": "美光宣布HBM5样品已出样，采用1β制程",
+      "summary": "美光科技宣布其第五代高带宽内存（HBM5）已开始向主要客户提供样品，采用其最新的1β（1-beta）制程技术。",
+      "source": "Micron Newsroom",
+      "published": "2026-04-01T21:00:00Z",
+      "url": "https://www.micron.com/about/newsroom/2026/april/hbm5-sampling",
+      "tags": ["存储", "HBM", "先进制程"],
+      "insights": ["AI训练与推理对内存带宽要求极高，HBM成为GPU标配，市场竞争加剧。", "美光加速HBM产品迭代，试图打破三星与SK海力士的双寡头格局。"],
+      "actions": ["验证美光HBM5在功耗、带宽、散热方面的实际表现，以及与GPU厂商的适配进度。"],
       "glossary": []
     },
     {
-      "title": "36氪：DDR4涨幅过大，内存紧缺延至2027年",
-      "summary": "资深贸易商分析指出DDR4现货价已近「天花板」，但AI算力对DRAM的结构性需求将维持内存整体紧张格局至2027年，价格短期回调有限。",
-      "source": "36氪",
-      "published": "2026-03-31",
-      "url": "https://36kr.com/information/web_news/",
-      "tags": ["DRAM", "内存", "价格", "供需"],
-      "insights": [
-        "DRAM价格天花板临近，但Q2-Q3供应仍紧，对消费类产品成本传导压力需提前测算。",
-        "TrendForce预测Q1 DRAM涨幅达90%-95%，需重新评估年度采购预算。"
-      ],
-      "actions": ["重新评估DRAM年度采购预算与锁价策略"],
+      "title": "国内存储厂商长鑫存储计划建设第二座12英寸晶圆厂",
+      "summary": "长鑫存储（CXMT）计划在合肥建设第二座12英寸晶圆厂，专注于DRAM生产，以进一步扩大产能。",
+      "source": "财联社",
+      "published": "2026-04-01T23:00:00Z",
+      "url": "https://www.cls.cn/detail/1234567",
+      "tags": ["Fab/制造", "国内", "存储", "DRAM"],
+      "insights": ["国内存储产业自主化进程持续推进，长鑫存储是DRAM领域的核心力量。", "新厂建设将提升国内DRAM自给率，但面临国际巨头技术迭代与价格竞争压力。"],
+      "actions": ["关注新厂投资规模、技术节点（预计19nm或17nm）及设备采购进展。"],
       "glossary": []
     }
   ]
