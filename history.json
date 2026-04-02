@@ -2574,5 +2574,140 @@
     "added_at": "2026-04-02T13:08:45.265808+08:00",
     "period": "midday",
     "version": "20260402-1300"
+  },
+  {
+    "title": "SEMI预测：2026-2027年全球300mm晶圆厂设备支出将实现两位数增长",
+    "url": "https://www.semiconductorforu.com/semi-projects-double-digit-growth-in-global-300mm-fab-equipment-spending-for-2026-and-2027/",
+    "published": "2026-04-01",
+    "source": "Semiconductor for You",
+    "added_at": "2026-04-02T20:09:51+08:00",
+    "period": "morning",
+    "version": "v20260402-0001"
+  },
+  {
+    "title": "华为2025年营收增速放缓至2.2%，轮值董事长交接，AI芯片路线图持续推进",
+    "url": "https://www.zaobao.com.sg/news/china/story20260401-8823794",
+    "published": "2026-04-01",
+    "source": "联合早报",
+    "added_at": "2026-04-02T20:09:51+08:00",
+    "period": "morning",
+    "version": "v20260402-0001"
+  },
+  {
+    "title": "台积电董事会批准450亿美元新晶圆厂投资计划",
+    "url": "https://www.tomshardware.com/tech-industry/global-semiconductor-foundry-market-hit-a-record-320-billion-in-2025",
+    "published": "2026-04-02",
+    "source": "Tom's Hardware",
+    "added_at": "2026-04-02T20:09:51+08:00",
+    "period": "morning",
+    "version": "v20260402-0001"
+  },
+  {
+    "title": "英特尔获142亿美元晶圆厂交易，股价大涨8%",
+    "url": "https://247wallst.com/investing/2026/04/01/intel-jumps-8-amd-rises-3-a-14-2-billion-fab-deal-and-ai-momentum-lift-the-chip-sector/",
+    "published": "2026-04-01",
+    "source": "24/7 Wall St.",
+    "added_at": "2026-04-02T20:09:51+08:00",
+    "period": "morning",
+    "version": "v20260402-0001"
+  },
+  {
+    "title": "三星HBM5底层芯片确认采用2nm工艺",
+    "url": "https://www.semi.org.cn/hbm5-samsung-2nm",
+    "published": "2026-03-19",
+    "source": "semi.org.cn",
+    "added_at": "2026-04-02T20:09:51+08:00",
+    "period": "morning",
+    "version": "v20260402-0001"
+  },
+  {
+    "title": "长鑫存储LPDDR6样品已送样，争夺旗舰手机首发",
+    "url": "https://www.bilibili.com/video/BV1XcXYBLEoi/",
+    "published": "2026-03-30",
+    "source": "Bilibili",
+    "added_at": "2026-04-02T20:09:51+08:00",
+    "period": "morning",
+    "version": "v20260402-0001"
+  },
+  {
+    "title": "中芯国际2026行动计划：增速超行业，资本开支持平",
+    "url": "https://www.trendforce.com/news/2026/03/30/news-smic-2026-action-plan-points-to-above-industry-growth-capex-held-in-line-with-2025/",
+    "published": "2026-03-30",
+    "source": "TrendForce",
+    "added_at": "2026-04-02T20:09:51+08:00",
+    "period": "morning",
+    "version": "v20260402-0001"
+  },
+  {
+    "title": "芯和半导体在SEMICON China发布系统级EDA平台",
+    "url": "https://www.stcn.com/article/detail/3699273.html",
+    "published": "2026-03-24",
+    "source": "stcn.com",
+    "added_at": "2026-04-02T20:09:51+08:00",
+    "period": "morning",
+    "version": "v20260402-0001"
+  },
+  {
+    "title": "西门子EDA推出Agentic AI工具，可将芯片设计周期缩短50%",
+    "url": "https://www.digitimes.com/news/a20260326VL206/siemens-eda-design-semicon-china-2026-ic.html",
+    "published": "2026-03-26",
+    "source": "digitimes.com",
+    "added_at": "2026-04-02T20:09:51+08:00",
+    "period": "morning",
+    "version": "v20260402-0001"
+  },
+  {
+    "title": "阿里巴巴发布真武810E AI CPU，专为Agent应用设计",
+    "url": "https://www.cnbc.com/2026/03/24/alibaba-ai-chip-cpu-agents.html",
+    "published": "2026-03-24",
+    "source": "CNBC",
+    "added_at": "2026-04-02T20:09:51+08:00",
+    "period": "morning",
+    "version": "v20260402-0001"
+  },
+  {
+    "title": "RISC-V年出货量达25亿核，加速进军汽车市场",
+    "url": "https://riscv.org/blog/embedded-world-2026/",
+    "published": "2026-03-01",
+    "source": "RISC-V.org",
+    "added_at": "2026-04-02T20:09:51+08:00",
+    "period": "morning",
+    "version": "v20260402-0001"
+  },
+  {
+    "title": "SEMICON China 2026：碳化硅12英寸成技术主线",
+    "url": "https://finance.sina.com.cn/wm/2026-03-27/doc-inhsmhtw2100453.shtml",
+    "published": "2026-03-27",
+    "source": "新浪财经",
+    "added_at": "2026-04-02T20:09:51+08:00",
+    "period": "morning",
+    "version": "v20260402-0001"
+  },
+  {
+    "title": "日本三大厂商探索功率半导体业务整合",
+    "url": "https://www.powersemiconductorsweekly.com/2026/03/27/toshiba-rohm-and-mitsubishi-electric-explore-power-semiconductor-business-integration/",
+    "published": "2026-03-30",
+    "source": "Power Semiconductors Weekly",
+    "added_at": "2026-04-02T20:09:51+08:00",
+    "period": "morning",
+    "version": "v20260402-0001"
+  },
+  {
+    "title": "中科院香山RISC-V处理器核成为全球最强开源RISC-V核",
+    "url": "https://english.cas.cn/newsroom/cas-in-media/202603/t20260330_1154281.shtml",
+    "published": "2026-03-30",
+    "source": "中国科学院",
+    "added_at": "2026-04-02T20:09:51+08:00",
+    "period": "morning",
+    "version": "v20260402-0001"
+  },
+  {
+    "title": "国内EDA市场2026-2032年细分机遇报告发布",
+    "url": "https://finance.sina.com.cn/roll/2026-03-29/doc-inhssfps4704187.shtml",
+    "published": "2026-03-29",
+    "source": "新浪财经",
+    "added_at": "2026-04-02T20:09:51+08:00",
+    "period": "morning",
+    "version": "v20260402-0001"
   }
 ]
