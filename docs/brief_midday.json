@@ -1,144 +1,183 @@
 {
-  "version": "20260402-1300",
-  "generated_at": "2026-04-02T13:00:00+08:00",
+  "version": "v20260403-1054",
+  "generatedAt": "2026-04-03T10:54:00+08:00",
   "period": "midday",
-  "window_hours": 6,
-  "count": 8,
-  "news": [
-    {
-      "title": "台积电计划2028年在日本启动3nm芯片生产",
-      "summary": "台积电宣布其位于日本的第二座晶圆厂将于2028年开始3纳米芯片生产，这是该公司在日本扩张计划的一部分，旨在增强全球供应链韧性并满足当地客户需求。",
-      "source": "Reuters",
-      "published": "2026-04-01T00:00:00Z",
-      "url": "https://www.reuters.com/business/autos-transportation/tsmc-plans-3-nanometre-chip-production-launch-japan-2028-2026-04-01/",
-      "tags": ["Fab/制造", "TSMC", "日本", "3nm", "晶圆厂"],
-      "insights": ["台积电在日本扩张显示地缘政治分散化趋势", "3nm技术在日本落地将提升当地半导体生态"],
-      "actions": ["关注日本半导体产业政策支持", "评估日本供应链对全球客户的影响"],
-      "glossary": []
-    },
-    {
-      "title": "Cognichip融资6000万美元推进物理启发AI芯片设计",
-      "summary": "AI芯片设计公司Cognichip完成6000万美元融资，将用于开发基于物理启发AI模型的下一代芯片设计平台，旨在颠覆传统EDA工具。",
-      "source": "SiliconAngle",
-      "published": "2026-04-02T04:00:00Z",
-      "url": "https://siliconangle.com/2026/04/01/cognichip-raises-60m-reinvent-chip-design-physics-inspired-ai-models/",
-      "tags": ["设计公司", "AI芯片", "融资", "EDA创新"],
-      "insights": ["AI驱动的芯片设计成为新投资热点", "物理启发模型可能改变传统设计流程"],
-      "actions": ["跟踪AI-EDA融合趋势", "评估对传统EDA厂商的冲击"],
-      "glossary": []
-    },
-    {
-      "title": "Silvaco与APEC达成战略合作推进碳化硅功率器件开发",
-      "summary": "EDA工具提供商Silvaco宣布与APEC（美国电力电子中心）建立战略合作伙伴关系，共同推进碳化硅功率器件的仿真和设计工具开发。",
-      "source": "SemiWiki",
-      "published": "2026-04-01T00:00:00Z",
-      "url": "https://semiwiki.com/forum/threads/silvaco-announces-strategic-partnership-with-apec-to-advance-silicon-carbide-power-device-development.24864/",
-      "tags": ["EDA/IP", "碳化硅", "功率器件", "战略合作"],
-      "insights": ["SiC功率半导体成为EDA厂商新战场", "产学研合作加速宽禁带半导体发展"],
-      "actions": ["关注SiC设计工具市场机会", "评估功率半导体设计生态"],
-      "glossary": []
-    },
-    {
-      "title": "Nexchip申请香港上市，中国成熟节点代工厂加速扩张",
-      "summary": "中国半导体代工厂Nexchip已提交香港上市申请，计划进行沪港两地双重上市，以支持其在成熟节点代工市场的扩张计划。",
-      "source": "南华早报",
-      "published": "2026-04-01T16:00:00Z",
-      "url": "https://www.scmp.com/tech/big-tech/article/3348687/chinas-nexchip-files-hong-kong-listing-chip-expansion-race-heats",
-      "tags": ["Fab/制造", "中国", "上市", "成熟节点", "代工"],
-      "insights": ["中国成熟节点代工厂寻求资本市场支持", "双重上市策略显示国际化野心"],
-      "actions": ["跟踪Nexchip产能扩张计划", "评估对中国成熟节点市场竞争格局影响"],
-      "glossary": []
-    },
-    {
-      "title": "中国半导体设备制造商获新一轮投资",
-      "summary": "趋势科技报告显示，中国半导体设备制造商近期获得新一轮投资，显示国内对半导体设备自主化的持续重视和资金支持。",
-      "source": "TrendForce",
-      "published": "2026-03-30T00:00:00Z",
-      "url": "https://www.trendforce.com/news/2026/03/30/news-chinese-semiconductor-equipment-manufacturers-draw-in-new-investment/",
-      "tags": ["设备", "中国", "投资", "自主化"],
-      "insights": ["半导体设备国产化仍是投资重点", "设备领域技术突破需要长期资金支持"],
-      "actions": ["关注中国设备厂商技术进展", "评估对全球设备市场的影响"],
-      "glossary": []
-    },
-    {
-      "title": "中国模拟芯片制造商加入全球涨价潮",
-      "summary": "南华早报报道，中国模拟芯片制造商正加入全球涨价行列，成熟节点厂商有望从价格上涨中获益，提升盈利能力。",
-      "source": "南华早报",
-      "published": "2026-03-31T00:00:00Z",
-      "url": "https://www.scmp.com/tech/big-tech/article/3348284/chinese-analogue-chipmakers-join-wave-global-price-rises-mature-node-firms-eye-gains",
-      "tags": ["设计公司", "模拟芯片", "涨价", "中国"],
-      "insights": ["模拟芯片涨价趋势蔓延至中国厂商", "成熟节点厂商盈利能力有望改善"],
-      "actions": ["跟踪模拟芯片价格走势", "评估对中国消费电子成本的影响"],
-      "glossary": []
-    },
-    {
-      "title": "中国制定新半导体自给率计划，目标2030年达80%",
-      "summary": "电子周刊报道，中国已制定新的半导体自给率计划，目标到2030年将半导体自给率提升至80%，减少对外部供应链的依赖。",
-      "source": "Electronics Weekly",
-      "published": "2026-03-30T00:00:00Z",
-      "url": "https://www.electronicsweekly.com/news/business/china-makes-new-plan-for-semiconductor-self-sufficiency-2026-03/",
-      "tags": ["政策", "中国", "自给率", "供应链"],
-      "insights": ["中国半导体自主化目标更加明确", "80%自给率目标显示长期战略决心"],
-      "actions": ["分析具体实施路径和时间表", "评估对全球半导体贸易的影响"],
-      "glossary": []
-    },
-    {
-      "title": "GlobalFoundries面临氦气供应链短缺挑战",
-      "summary": "GlobalFoundries报告称面临氦气供应链短缺问题，这可能影响其半导体制造运营，凸显特种气体在芯片生产中的关键作用。",
-      "source": "行业报告",
-      "published": "2026-04-01T00:00:00Z",
-      "url": "https://example.com/gf-helium-shortage",
-      "tags": ["Fab/制造", "供应链", "特种气体", "GlobalFoundries"],
-      "insights": ["半导体制造依赖特种气体供应链", "氦气短缺可能影响芯片产能"],
-      "actions": ["评估特种气体供应链风险", "关注替代气体解决方案"],
-      "glossary": []
-    }
-  ],
+  "commit": "",
   "glossary_list": [
     {
-      "term": "碳化硅（SiC）",
-      "desc": "一种宽禁带半导体材料，具有高击穿电场、高热导率和高电子饱和漂移速度等特性，广泛应用于功率电子器件，可提高能效和功率密度。",
-      "category": "材料"
-    },
-    {
-      "term": "成熟节点",
-      "desc": "指半导体制造工艺中已经商业化、技术相对稳定、成本较低的制程节点，通常指28nm及以上工艺，广泛应用于模拟芯片、功率器件、MCU等领域。",
-      "category": "制造"
-    },
-    {
-      "term": "物理启发AI模型",
-      "desc": "一种将物理定律和约束融入人工智能算法的新型AI模型，在芯片设计中可以更好地模拟电子行为、热效应和制造变异，提高设计准确性和效率。",
+      "term": "ASIC",
+      "desc": "专用集成电路，针对特定应用场景设计的芯片，相比通用芯片在能效和性能上有优势。",
       "category": "设计"
     },
     {
-      "term": "宽禁带半导体",
-      "desc": "指禁带宽度大于2.3eV的半导体材料，包括碳化硅（SiC）和氮化镓（GaN），具有高击穿电压、高工作温度和抗辐射能力强等优点，适合高压、高温应用。",
-      "category": "材料"
+      "term": "CapEx",
+      "desc": "资本支出，企业用于购买、升级或维护固定资产（如厂房、设备）的投资。",
+      "category": "商业"
     },
     {
-      "term": "双重上市",
-      "desc": "一家公司在两个或多个证券交易所同时上市交易，通常是为了扩大投资者基础、提高流动性和增强国际知名度，如沪港双重上市。",
-      "category": "商业"
+      "term": "CoWoS",
+      "desc": "台积电的先进封装技术，将多个芯片（如CPU、HBM）集成在一个封装内，提升互连密度和性能。",
+      "category": "封装"
+    },
+    {
+      "term": "HBM",
+      "desc": "高带宽内存，通过3D堆叠和TSV技术实现高带宽，主要用于AI加速卡和高端GPU。",
+      "category": "存储"
+    },
+    {
+      "term": "NOR Flash",
+      "desc": "一种非易失性存储器，读取速度快，常用于存储启动代码和嵌入式系统。",
+      "category": "存储"
     }
   ],
-  "stats": {
-    "total_collected": 24,
-    "after_dedup": 8,
-    "by_category": {
-      "Fab/制造": 3,
-      "设计公司": 2,
-      "EDA/IP": 1,
-      "政策": 1,
-      "供应链": 1
+  "topic_pulse": [
+    {
+      "topic": "CoWoS/先进封装",
+      "heat": "→平稳",
+      "reddit_top": "TSMC's CoWoS capacity expansion plans for 2026 - r/hardware (score: 42)",
+      "hn_top": "null",
+      "summary": "社区关注台积电CoWoS产能扩张计划，讨论AI芯片需求对先进封装的影响。普遍认为CoWoS是AI芯片性能提升的关键，但产能瓶颈可能持续到2027年。"
     },
-    "by_region": {
-      "国内": 6,
-      "国际": 2
+    {
+      "topic": "国产EDA/IP进展",
+      "heat": "↑↑升温",
+      "reddit_top": "China's domestic EDA tools gaining traction in local fabs - r/Semiconductors (score: 28)",
+      "hn_top": "null",
+      "summary": "国内EDA工具在华虹、中芯国际等代工厂获得验证，社区讨论国产替代进度和技术差距。情绪偏向谨慎乐观，认为需要5-10年才能达到国际领先水平。"
     },
-    "source_breakdown": {
-      "Brave Search": 8,
-      "NewsAPI": 0,
-      "RSS": 0
+    {
+      "topic": "HBM/AI芯片存储",
+      "heat": "↑↑升温",
+      "reddit_top": "HBM4 specifications leaked: 1.2TB/s bandwidth target - r/hardware (score: 67)",
+      "hn_top": "null",
+      "summary": "HBM4规格泄露引发热议，社区讨论AI芯片存储带宽需求。普遍认为HBM技术迭代速度加快，三星、SK海力士和美光竞争激烈。"
     }
-  }
+  ],
+  "items": [
+    {
+      "title": "CapEx Up for Foundry, Memory",
+      "summary": "Semiconductor Intelligence estimates total semiconductor industry capital spending (CapEx) was $166 billion in 2025, up 7% from 2024. We estimate 2026 CapEx will be $200 billion, up 20% from 2025.",
+      "source": "SemiWiki",
+      "published": "2026-04-01T13:00:21Z",
+      "url": "https://semiwiki.com/semiwiki.com/semiconductor-services/368018-capex-up-for-foundry-memory/",
+      "tags": [
+        "foundry",
+        "memory",
+        "capex",
+        "investment"
+      ],
+      "insights": "2026年半导体资本支出预计增长20%，主要受AI芯片和先进制程驱动。代工和存储是投资重点。",
+      "actions": [
+        "关注台积电、三星、英特尔资本开支公告",
+        "跟踪存储芯片价格走势"
+      ],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "Alchip’s Leadership in ASIC Innovation: Advancing Toward 2nm Semiconductor Technology",
+      "summary": "Alchip Technologies has recently reported significant progress in the development of advanced 2nm ASICs, positioning itself as a leader in next-generation semiconductor design for AI and HPC.",
+      "source": "SemiWiki",
+      "published": "2026-04-01T17:00:48Z",
+      "url": "https://semiwiki.com/semiconductor-services/alchip/367489-alchips-leadership-in-asic-innovation-advancing-toward-2nm-semiconductor-technology/",
+      "tags": [
+        "asic",
+        "2nm",
+        "ai",
+        "hpc",
+        "design"
+      ],
+      "insights": "Alchip在2nm ASIC设计取得进展，显示AI/HPC芯片向更先进制程迁移。",
+      "actions": [
+        "关注AI芯片设计公司技术路线图",
+        "评估2nm设计服务供应商"
+      ],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "涉及中芯国际、华虹半导体、长鑫存储、长江存储等 - 与非网",
+      "summary": "美国商务部考虑扩大半导体制裁禁令，禁止美国公司向中国公司出售先进的芯片制造设备。这些规定将扩大对美国公司向中国领先芯片制造商半导体制造国际公司出售此类设备的现有禁令。",
+      "source": "与非网",
+      "published": "",
+      "url": "https://www.eefocus.com/component/518388",
+      "tags": [
+        "sanctions",
+        "china",
+        "equipment",
+        "smc",
+        "hua hong"
+      ],
+      "insights": "美国可能扩大对华芯片设备出口限制，影响中芯国际、华虹等代工厂的先进制程扩张。",
+      "actions": [
+        "关注美国商务部正式公告",
+        "评估国产设备替代进度"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "半导体行业2026年展望：AI、汽车、工业驱动增长，国产化进程加速",
+      "summary": "在制造端，中芯国际、华虹公司等晶圆代工厂维持高产能利用率与合理资本开支，销售额稳居全球纯晶圆代工企业第二、第五名；在设备端，中微公司、拓荆科技、盛美上海等企业实现技术对标国际巨头。",
+      "source": "四川在线",
+      "published": "",
+      "url": "https://cbgc.scol.com.cn/news/7425799",
+      "tags": [
+        "outlook",
+        "china",
+        "localization",
+        "equipment",
+        "foundry"
+      ],
+      "insights": "2026年半导体行业增长由AI、汽车、工业驱动，国产化进程在制造和设备端加速。",
+      "actions": [
+        "跟踪国内半导体设备公司订单",
+        "关注国产替代政策支持"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "AI存储架构迎巨变!黄仁勋CES重磅发声,叠加缺货涨价通知,半导体...",
+      "summary": "东芯股份是国内存储芯片设计龙头，核心产品包括NAND Flash、NOR Flash、DRAM芯片，是国内少数具备全品类存储芯片设计能力的企业。",
+      "source": "百度百家号",
+      "published": "",
+      "url": "https://baijiahao.baidu.com/s?id=1853651805677953984&wfr=spider&for=pc",
+      "tags": [
+        "ai",
+        "memory",
+        "storage",
+        "dram",
+        "nand"
+      ],
+      "insights": "AI存储架构变革推动存储芯片需求，国内存储设计公司受益。",
+      "actions": [
+        "关注存储芯片价格走势",
+        "评估国内存储设计公司技术进展"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "全产业链“协同战力” 凸显 近40家科创板公司集体亮相上海半导体展",
+      "summary": "在制造端，中芯国际、华虹公司等晶圆代工厂维持高产能利用率与合理资本开支，销售额稳居全球纯晶圆代工企业第二、第五位。在设备端，中微公司、拓荆科技、盛美上海、中科飞测等企业分别在刻蚀、薄膜沉积、清洗、量检测等领域实现技术对标。",
+      "source": "百度百家号",
+      "published": "",
+      "url": "https://baijiahao.baidu.com/s?id=1860739307511519128&wfr=spider&for=pc",
+      "tags": [
+        "exhibition",
+        "china",
+        "equipment",
+        "foundry",
+        "collaboration"
+      ],
+      "insights": "国内半导体全产业链协同能力提升，设备公司在关键领域实现技术突破。",
+      "actions": [
+        "关注科创板半导体公司业绩",
+        "跟踪设备国产化率提升"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    }
+  ]
 }

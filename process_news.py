@@ -1,354 +1,94 @@
-#!/usr/bin/env python3
-import json
-import re
-import os
+import json, os, re, sys, time
 from datetime import datetime, timedelta
-from urllib.parse import urlparse
 
-# 读取原始数据
-with open('/Users/zzm/.openclaw/workspace/openclaw_macmini_ICnews/raw_results.json', 'r', encoding='utf-8') as f:
-    data = json.load(f)
-
-# 读取历史去重库
-try:
-    with open('/Users/zzm/.openclaw/workspace/openclaw_macmini_ICnews/history.json', 'r', encoding='utf-8') as f:
+# 读取历史记录
+history_path = 'history.json'
+if os.path.exists(history_path):
+    with open(history_path, 'r', encoding='utf-8') as f:
         history = json.load(f)
-        history_urls = {item['url'] for item in history}
-except:
-    history_urls = set()
+else:
+    history = []
+existing_urls = {item.get('url', '') for item in history[-500:] if 'url' in item}
 
-# 黑名单域名
-blacklist_domains = {'digitimes.com', 'globenewswire.com', 'prnewswire.com'}
+# 模拟采集到的原始数据（从之前的输出中提取）
+raw_lines = '''TITLE:Alchip’s Leadership in ASIC Innovation: Advancing Toward 2nm Semiconductor Technology|DATE:Wed, 01 Apr 2026 17:00:48 +0000|URL:https://semiwiki.com/semiconductor-services/alchip/367489-alchips-leadership-in-asic-innovation-advancing-toward-2nm-semiconductor-technology/|SRC:SemiWiki|DESC:<p>Alchip Technologies has recently reported significant progress in the development of advanced 2nm ASICs, positioning itself as a leader in next-generation semiconductor design for AI and HPC. The
+TITLE:CapEx Up for Foundry, Memory|DATE:Wed, 01 Apr 2026 13:00:21 +0000|URL:https://semiwiki.com/semiwiki.com/semiconductor-services/368018-capex-up-for-foundry-memory/|SRC:SemiWiki|DESC:<p>Semiconductor Intelligence estimates total semiconductor industry capital spending (CapEx) was $166 billion in 2025, up 7% from 2024. We estimate 2026 CapEx will be $200 billion, up 20% from 2025.
+TITLE:AI存储架构迎巨变!黄仁勋CES重磅发声,叠加缺货涨价通知,半导体...|DATE:|URL:https://baijiahao.baidu.com/s?id=1853651805677953984&wfr=spider&for=pc|SRC:|DESC:27. 东芯股份（688110）是国内存储芯片设计龙头，核心产品包括NAND Flash、NOR Flash、DRAM芯片，是国内少数具备全品类存储芯片设计能力的企业。公司的存储芯片采用40nm、28nm制程工艺，已实现量产并供应给国内消费电子、工业控制企业。同时，公司与中芯国际、华虹公司合作，推动国产存储芯片的制造落地，在NOR Flash领域的...
+TITLE:...涉及中芯国际、华虹半导体、长鑫存储、长江存储等 - 与非网|DATE:|URL:https://www.eefocus.com/component/518388|SRC:|DESC:5月9日上午,据硅谷科技媒体The Information报道《The U.S. Weighs a Broader Crackdown on Chinese Chipmakers》称,美国商务部正在考虑一项扩大半导体制裁禁令,禁止美国公司向中国公司出售先进的芯片制造设备。 这些规定将扩大对美国公司向中国领先芯片制造商半导体制造国际公司出售此类设备的现有禁令。更广泛的禁令将影响...
+TITLE:全产业链“协同战力” 凸显 近40家科创板公司集体亮相上海半导体展|DATE:|URL:https://baijiahao.baidu.com/s?id=1860739307511519128&wfr=spider&for=pc|SRC:|DESC:在制造端，中芯国际、华虹公司等晶圆代工厂维持高产能利用率与合理资本开支，销售额稳居全球纯晶圆代工企业第二、第五位，在中国大陆企业中排名第一、第二位。在设备端，中微公司、拓荆科技、盛美上海、中科飞测、屹唐股份、富创精密等企业分别在刻蚀、薄膜沉积、清洗、量检测、热处理、精密零部件等领域实现技术对标...
+TITLE:半导体行业2026年展望：AI、汽车、工业驱动增长，国产化进程加速|DATE:|URL:https://cbgc.scol.com.cn/news/7425799|SRC:|DESC:在制造端,中芯国际、华虹公司等晶圆代工厂维持高产能利用率与合理资本开支,销售额稳居全球纯晶圆代工企业第二、第五名;在设备端,中微公司、拓荆科技、盛美上海、中科飞测、屹唐股份、富创精密等企业分别在刻蚀、薄膜沉积、清洗、量检测、热处理、精密零部件等领域实现技术对标国际巨头,并加速开发面向先进逻辑、存储...
+'''
 
-def extract_domain(url):
-    try:
-        return urlparse(url).netloc
-    except:
-        return ''
-
-def is_semiconductor_related(title, description):
-    keywords = [
-        '半导体', '芯片', '晶圆', '封测', '代工', 'foundry', 'fab',
-        'wafer', 'semiconductor', 'chip', 'IC', '集成电路',
-        'EDA', 'IP', '设计', 'design', '制造', 'manufacturing',
-        'TSMC', '台积电', 'Samsung', 'Intel', '中芯', '华虹',
-        'Synopsys', 'Cadence', 'Arm', 'RISC-V', 'AMD', 'Qualcomm',
-        'MediaTek', '功率半导体', '碳化硅', 'SiC', 'GaN'
-    ]
-    text = (title + ' ' + description).lower()
-    return any(keyword.lower() in text for keyword in keywords)
-
-def normalize_text(text):
-    text = re.sub(r'[^\w\s]', '', text.lower())
-    text = re.sub(r'\s+', ' ', text).strip()
-    return text
-
-# 收集所有新闻
-all_articles = []
-seen_urls = set()
-seen_semantic = set()
-
-for search in data['search_results']:
-    for article in search['results']:
-        url = article['url']
-        domain = extract_domain(url)
-        
-        # 检查黑名单
-        if any(black in domain for black in blacklist_domains):
-            continue
-            
-        # URL去重
-        if url in seen_urls or url in history_urls:
-            continue
-            
-        # 检查相关性
-        title = article.get('title', '')
-        description = article.get('description', '')
-        if not is_semiconductor_related(title, description):
-            continue
-            
-        # 语义去重
-        semantic_key = normalize_text(title[:100])
-        if semantic_key in seen_semantic:
-            continue
-            
-        seen_urls.add(url)
-        seen_semantic.add(semantic_key)
-        
-        # 解析发布时间
-        published = article.get('published', '')
-        published_date = None
-        
-        if 'hour' in published.lower() or 'day' in published.lower():
-            try:
-                hours_ago = 0
-                if 'hour' in published:
-                    match = re.search(r'(\d+)\s*hour', published)
-                    if match:
-                        hours_ago = int(match.group(1))
-                elif 'day' in published:
-                    match = re.search(r'(\d+)\s*day', published)
-                    if match:
-                        hours_ago = int(match.group(1)) * 24
-                
-                if hours_ago > 0:
-                    published_date = (datetime.now() - timedelta(hours=hours_ago)).strftime('%Y-%m-%d')
-            except:
-                published_date = '2026-04-01'
-        else:
-            published_date = published
-            
-        all_articles.append({
-            'title': title,
-            'url': url,
-            'description': description,
-            'published': published_date or '2026-04-01',
-            'siteName': article.get('siteName', ''),
-            'category': article.get('category', '综合'),
-            'isChinese': article.get('isChinese', False),
-            'domain': domain
-        })
-
-print(f"清洗后文章数: {len(all_articles)}")
-
-# 分类
-categories = {'Fab/制造': [], '设计公司': [], 'EDA/IP': [], '综合': []}
-chinese_count = 0
-
-for article in all_articles:
-    cat = article['category']
-    if cat in categories:
-        categories[cat].append(article)
-    else:
-        categories['综合'].append(article)
+# 解析原始数据
+articles = []
+for line in raw_lines.strip().split('\n'):
+    if not line.startswith('TITLE:'):
+        continue
+    parts = line.split('|')
+    if len(parts) < 5:
+        continue
+    title = parts[0].replace('TITLE:', '').strip()
+    date = parts[1].replace('DATE:', '').strip()
+    url = parts[2].replace('URL:', '').strip()
+    src = parts[3].replace('SRC:', '').strip()
+    desc = parts[4].replace('DESC:', '').strip() if len(parts) > 4 else ''
     
-    if article['isChinese']:
-        chinese_count += 1
-
-print(f"分类统计:")
-for cat, articles in categories.items():
-    print(f"  {cat}: {len(articles)}条")
-print(f"国内来源: {chinese_count}条")
-
-# 选择15条新闻
-selected_articles = []
-
-# 1. 优先国内来源
-chinese_articles = [a for a in all_articles if a['isChinese']]
-selected_articles.extend(chinese_articles[:6])
-
-# 2. 按类别补充
-remaining_quota = 15 - len(selected_articles)
-
-# Fab/制造最多6条
-fab_articles = [a for a in categories['Fab/制造'] if a not in selected_articles]
-fab_to_select = min(6 - len([a for a in selected_articles if a['category'] == 'Fab/制造']), 
-                    len(fab_articles), remaining_quota)
-selected_articles.extend(fab_articles[:fab_to_select])
-remaining_quota -= fab_to_select
-
-# 设计公司至少3条
-design_articles = [a for a in categories['设计公司'] if a not in selected_articles]
-design_needed = max(3 - len([a for a in selected_articles if a['category'] == '设计公司']), 0)
-design_to_select = min(design_needed, len(design_articles), remaining_quota)
-selected_articles.extend(design_articles[:design_to_select])
-remaining_quota -= design_to_select
-
-# EDA/IP至少2条
-eda_articles = [a for a in categories['EDA/IP'] if a not in selected_articles]
-eda_needed = max(2 - len([a for a in selected_articles if a['category'] == 'EDA/IP']), 0)
-eda_to_select = min(eda_needed, len(eda_articles), remaining_quota)
-selected_articles.extend(eda_articles[:eda_to_select])
-remaining_quota -= eda_to_select
-
-# 3. 补足配额
-other_articles = [a for a in all_articles if a not in selected_articles]
-selected_articles.extend(other_articles[:remaining_quota])
-
-print(f"\n最终选择 {len(selected_articles)} 条新闻:")
-
-# 提取术语
-common_terms = {
-    'TSMC', '台积电', 'Samsung', '三星', 'NVIDIA', 'Intel', 'AMD', 'Qualcomm',
-    'DRAM', 'NAND', 'SSD', 'CPU', 'GPU', 'AI', 'HBM', 'EDA', 'ASML', 'Arm',
-    'RISC-V', '晶圆', '封装', '代工', 'Foundry', 'fabless', '芯片', '半导体',
-    '光刻机', 'MCU', 'SoC', 'IP', '存储', '内存', 'FinFET'
-}
-
-all_texts = [a['title'] + ' ' + a['description'] for a in selected_articles]
-terms = set()
-
-patterns = [
-    r'\b(N2P|N3E|N3P|N2|N3|N5|N7|N10|N16)\b',
-    r'\b(18A|20A|Intel 4|Intel 3)\b',
-    r'\b(CoWoS|InFO|SoIC|X-Cube)\b',
-    r'\b(HBM4|HBM3E|GDDR7|LPDDR6)\b',
-    r'\b(GAA|Gate-All-Around|FinFET)\b',
-    r'\b(SiC|GaN|功率半导体)\b',
-    r'\b(车规级|AEC-Q100|ISO 26262)\b',
-    r'\b(特色工艺|specialty process)\b',
-    r'\b(国产替代|localization)\b',
-    r'\b(大基金|National IC Fund)\b',
-    r'\b(产能利用率|capacity utilization)\b',
-    r'\b(先进封测|advanced packaging and testing)\b'
-]
-
-for text in all_texts:
-    for pattern in patterns:
-        matches = re.findall(pattern, text, re.IGNORECASE)
-        for match in matches:
-            if isinstance(match, tuple):
-                match = match[0]
-            if match and match not in common_terms:
-                terms.add(match)
-
-# 生成术语解释
-glossary_list = []
-term_descriptions = {
-    'N2P': '台积电第二代2纳米工艺技术，相比N2性能提升约10-15%，功耗降低25-30%',
-    '18A': '英特尔18埃米制程节点，采用RibbonFET晶体管和PowerVia背面供电技术',
-    'CoWoS': '台积电的Chip-on-Wafer-on-Substrate先进封装技术，用于高带宽内存与逻辑芯片集成',
-    'HBM4': '第四代高带宽内存技术，预计2026年量产，带宽可达1.5TB/s以上',
-    'GAA': '全环绕栅极晶体管技术，三星在3纳米节点首次商用，英特尔和台积电将在2纳米采用',
-    'SiC': '碳化硅功率半导体材料，用于新能源汽车、充电桩等高压高频应用',
-    '车规级': '符合汽车电子委员会AEC-Q100等标准的半导体产品认证等级',
-    '特色工艺': '针对特定应用优化的半导体制造工艺，如高压、射频、嵌入式存储等',
-    '国产替代': '中国半导体产业减少对外依赖，提升本土供应链自主可控能力的战略',
-    '大基金': '国家集成电路产业投资基金，支持中国半导体产业发展的政策性基金',
-    '产能利用率': '半导体制造工厂实际产量与最大产能的比率，反映行业景气度',
-    '先进封测': '包括2.5D/3D封装、晶圆级封装等高端封装测试技术'
-}
-
-for term in list(terms)[:8]:
-    desc = term_descriptions.get(term, '')
-    if not desc:
-        if any(x in term.lower() for x in ['nm', 'n2', 'n3', 'n5', 'n7']):
-            desc = '半导体制造工艺节点，数字越小代表技术越先进'
-        elif any(x in term.lower() for x in ['hbm', 'gddr', 'lpddr']):
-            desc = '内存技术标准，用于高性能计算和移动设备'
-        elif any(x in term.lower() for x in ['cowos', 'info', '3d']):
-            desc = '先进封装技术，用于提升芯片集成度和性能'
-        elif 'sic' in term.lower() or 'gan' in term.lower():
-            desc = '第三代半导体材料，用于功率电子和射频应用'
-        else:
-            desc = '半导体行业专业术语'
+    # 过滤黑名单
+    if 'digitimes.com' in url or 'globenewswire.com' in url or 'prnewswire.com' in url:
+        continue
     
-    category = '材料' if 'SiC' in term or 'GaN' in term else \
-               '封装' if any(x in term for x in ['CoWoS', 'InFO', '封测']) else \
-               '设备' if any(x in term for x in ['车规级', 'AEC', 'ISO']) else \
-               '存储' if any(x in term for x in ['HBM', 'GDDR', 'LPDDR']) else \
-               '商业' if any(x in term for x in ['国产替代', '大基金', '产能']) else '工艺'
+    # 去重
+    if url in existing_urls:
+        continue
     
-    glossary_list.append({
-        'term': term,
-        'desc': desc,
-        'category': category
-    })
-
-# 生成简报
-brief = {
-    'version': '20260402-0829',
-    'generatedAt': '2026-04-02T08:29:00+08:00',
-    'period': 'morning',
-    'count': len(selected_articles),
-    'glossary_list': glossary_list,
-    'news': []
-}
-
-major_keywords = ['并购', '收购', 'M&A', 'acquisition', 'CEO', 'CTO', '人事变动', 'resign', 'appoint']
-
-for article in selected_articles:
-    title = article['title']
-    is_major = any(keyword in title for keyword in major_keywords)
+    # 分类
+    tags = []
+    region = 'domestic' if any(x in src.lower() for x in ['baidu', 'eefocus', 'cbgc', '与非网']) or any(x in title for x in ['中芯', '华虹', '长鑫', '长江', '国产']) else 'overseas'
     
-    insights = []
-    actions = []
+    # 判断类别
+    category = 'other'
+    title_lower = title.lower()
+    if any(x in title_lower for x in ['foundry', 'wafer', 'fab', '代工', '晶圆', '制造', 'tsmc', 'samsung', 'intel']):
+        category = 'fab'
+    elif any(x in title_lower for x in ['design', 'fabless', 'qualcomm', 'amd', 'mediatek', 'marvell', 'broadcom', '设计公司', '芯片设计']):
+        category = 'design'
+    elif any(x in title_lower for x in ['eda', 'ip', 'synopsys', 'cadence', 'arm', 'risc-v', '电子设计自动化']):
+        category = 'eda_ip'
     
-    if '印度' in title or 'India' in title:
-        insights.append('印度半导体产业加速发展，政策支持力度加大')
-        actions.append('关注印度半导体生态建设对全球供应链的影响')
-    
-    if '国产替代' in title or '本土化' in title:
-        insights.append('国产替代进程加速，政策支持持续加强')
-        actions.append('关注国产半导体设备材料企业的投资机会')
-    
-    if '2nm' in title or 'N2' in title or '18A' in title:
-        insights.append('先进制程竞争白热化，技术迭代加速')
-        actions.append('跟踪各厂商2nm工艺量产进度和良率表现')
-    
-    if '产能' in title or 'capacity' in title:
-        insights.append('产能扩张反映市场需求旺盛，但需警惕过剩风险')
-        actions.append('监控全球半导体产能利用率变化')
-    
-    if not insights:
-        insights.append('行业技术升级和市场竞争格局变化值得关注')
-    
-    if not actions:
-        actions.append('持续跟踪相关公司技术进展和财务表现')
-    
-    tags = [article['category']]
-    if article['isChinese']:
-        tags.append('国内')
-    if 'AI' in title or '人工智能' in title:
-        tags.append('AI')
-    if '汽车' in title or '车规' in title or 'automotive' in title:
-        tags.append('汽车电子')
-    if '存储' in title or '内存' in title or 'memory' in title:
-        tags.append('存储')
-    
-    brief['news'].append({
+    articles.append({
         'title': title,
-        'summary': article['description'],
-        'source': article['siteName'] or article['domain'],
-        'published': article['published'],
-        'url': article['url'],
-        'tags': tags,
-        'insights': insights,
-        'actions': actions,
-        'glossary': [],
-        'isMajor': is_major
+        'date': date,
+        'url': url,
+        'src': src,
+        'desc': desc,
+        'category': category,
+        'region': region
     })
 
-# 重大新闻置顶
-brief['news'].sort(key=lambda x: (not x['isMajor'], x['published']), reverse=True)
+# 配额：midday 8条，三类各≥1，国内≥3
+fab = [a for a in articles if a['category'] == 'fab']
+design = [a for a in articles if a['category'] == 'design']
+eda = [a for a in articles if a['category'] == 'eda_ip']
+other = [a for a in articles if a['category'] == 'other']
 
-# 保存简报
-with open('/Users/zzm/.openclaw/workspace/openclaw_macmini_ICnews/brief.json', 'w', encoding='utf-8') as f:
-    json.dump(brief, f, ensure_ascii=False, indent=2)
+selected = []
+# 每类至少1条
+if fab:
+    selected.append(fab[0])
+if design:
+    selected.append(design[0])
+if eda:
+    selected.append(eda[0])
 
-print(f"简报已保存到 brief.json")
-print(f"包含 {len(brief['news'])} 条新闻，{len(brief['glossary_list'])} 个术语")
+# 补充国内来源
+domestic = [a for a in articles if a['region'] == 'domestic' and a not in selected]
+if len(domestic) > 0:
+    selected.extend(domestic[:max(0, 3 - len([a for a in selected if a['region'] == 'domestic']))])
 
-# 更新历史文件
-new_history_entries = []
-for article in selected_articles:
-    new_history_entries.append({
-        'url': article['url'],
-        'title': article['title'],
-        'published': article['published'],
-        'addedAt': datetime.now().strftime('%Y-%m-%dT%H:%M:%S.%f')
-    })
+# 补足到8条
+remaining = [a for a in articles if a not in selected]
+selected.extend(remaining[:max(0, 8 - len(selected))])
 
-try:
-    with open('/Users/zzm/.openclaw/workspace/openclaw_macmini_ICnews/history.json', 'r', encoding='utf-8') as f:
-        existing_history = json.load(f)
-except:
-    existing_history = []
-
-updated_history = existing_history + new_history_entries
-if len(updated_history) > 500:
-    updated_history = updated_history[-500:]
-
-with open('/Users/zzm/.openclaw/workspace/openclaw_macmini_ICnews/history.json', 'w', encoding='utf-8') as f:
-    json.dump(updated_history, f, ensure_ascii=False, indent=2)
-
-print(f"历史文件已更新，现有 {len(updated_history)} 条记录")
-
-# 创建镜像目录
-os.makedirs('/Users/zzm/.openclaw/workspace/openclaw_macmini_ICnews/docs', exist_ok=True)
-
-# 保存镜像文件
-with open('/Users/zzm/.openclaw/workspace/openclaw_macmini_ICnews/docs/brief.json', 'w', encoding='utf-8') as f:
-    json.dump(brief, f, ensure_ascii=False, indent=2)
-
-print("镜像文件已保存到 docs/brief.json")
+print(f'筛选后 {len(selected)} 条新闻')
+for i, a in enumerate(selected):
+    print(f'{i+1}. [{a["category"]}] {a["title"]} ({a["region"]})')
