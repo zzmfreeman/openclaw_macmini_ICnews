@@ -1,128 +1,219 @@
 {
-  "version": "v20260403-0604",
-  "generatedAt": "2026-04-03T06:04:00+08:00",
+  "version": "v20260404-0600",
+  "generatedAt": "2026-04-04T06:00:00+08:00",
   "period": "morning",
   "commit": "",
   "glossary_list": [
     {
-      "term": "CoWoS",
-      "desc": "台积电的Chip-on-Wafer-on-Substrate先进封装技术，用于集成多芯片模块。",
-      "category": "封装"
-    },
-    {
-      "term": "HBM",
-      "desc": "高带宽存储器，通过TSV技术堆叠DRAM die，提供极高带宽，用于AI加速器。",
+      "term": "HBM4",
+      "desc": "第四代高带宽内存，专为AI加速器设计，带宽可达1.6TB/s以上，预计2026年量产",
       "category": "存储"
     },
     {
-      "term": "2.5D封装",
-      "desc": "将芯片并排放置在硅中介层上，通过中介层内的互连实现高密度连接。",
+      "term": "CoWoS",
+      "desc": "台积电的先进封装技术，将多个芯片（如CPU、HBM）集成在硅中介层上，提升互连密度与性能",
       "category": "封装"
     },
     {
-      "term": "成熟制程",
-      "desc": "指28nm及以上工艺节点，技术成熟、成本较低，广泛应用于物联网、汽车电子等领域。",
-      "category": "制造"
+      "term": "OSAT",
+      "desc": "外包半导体封装测试厂商，如日月光、安靠、长电科技，提供芯片封装、测试、组装服务",
+      "category": "封装"
+    },
+    {
+      "term": "Empyrean Aether",
+      "desc": "华大九天推出的5nm EDA平台，支持国产先进工艺设计，对标Synopsys/Cadence",
+      "category": "EDA"
+    },
+    {
+      "term": "硅光芯片",
+      "desc": "将光电子器件集成在硅衬底上，用于高速光通信、数据中心互连，是下一代芯片技术方向",
+      "category": "材料"
     }
   ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
-      "heat": "↑↑升温",
-      "reddit_top": "无近期讨论",
-      "hn_top": "无近期讨论",
-      "summary": "社区讨论较少，但产业新闻显示CoWoS产能扩张加速，反映AI芯片需求旺盛。"
-    },
-    {
-      "topic": "国产EDA/IP进展",
       "heat": "→平稳",
-      "reddit_top": "无近期讨论",
-      "hn_top": "无近期讨论",
-      "summary": "社区关注度一般，但国内媒体报道显示国产EDA工具已支持5nm设计，技术追赶步伐加快。"
+      "reddit_top": "Helium crisis puts US in control of semiconductor supply chain | r/helium | score: 10",
+      "hn_top": "null",
+      "summary": "社区讨论集中在氦气供应对半导体供应链的影响，CoWoS相关讨论较少。情绪偏向担忧供应链安全，但对封装技术本身关注度一般。"
     },
     {
-      "topic": "HBM/AI芯片存储",
+      "topic": "HBM/AI存储",
       "heat": "↑↑升温",
-      "reddit_top": "无近期讨论",
-      "hn_top": "无近期讨论",
-      "summary": "HBM产能紧张成为AI芯片瓶颈，产业界积极扩产，但社区讨论热度未显著上升。"
+      "reddit_top": "SK Hynix spent 12.3 trillion won in Q4 alone as rivals advance in HBM4 for NVIDIA's AI chips | r/KoreaNewsfeed | score: 未显示",
+      "hn_top": "null",
+      "summary": "HBM4竞争激烈，SK海力士大幅增加资本支出以保持领先。社区关注三星、美光在HBM4上的追赶，以及AI芯片对HBM需求的持续拉动。情绪积极，认为存储是AI芯片关键瓶颈。"
+    },
+    {
+      "topic": "中国Fab/先进制程",
+      "heat": "↑↑升温",
+      "reddit_top": "China’s top chip foundry SMIC unveils action plan for seizing new growth opportunities | r/technology | score: 8",
+      "hn_top": "null",
+      "summary": "中芯国际发布增长行动计划，社区关注中国在成熟制程的扩张以及先进制程的突破可能。情绪分化：一部分认为中国fab正在稳步进步，另一部分担忧地缘政治限制。"
+    },
+    {
+      "topic": "国产EDA/IP",
+      "heat": "→平稳",
+      "reddit_top": "未找到相关热帖",
+      "hn_top": "null",
+      "summary": "社区讨论较少，可能因为国产EDA/IP仍处追赶阶段，公众关注度有限。近期华大九天5nm平台发布可能在未来几周引发更多讨论。"
+    },
+    {
+      "topic": "封测OSAT",
+      "heat": "→平稳",
+      "reddit_top": "未找到相关热帖",
+      "hn_top": "India's Full-Stack Semiconductor Push: Ambitious Vision or Practical Reality? | r/Semiconductors | score: 19",
+      "summary": "OSAT话题在Reddit热度一般，但印度半导体全栈计划引发讨论，涉及封测环节的自主化。情绪偏向质疑印度能否实现目标，但对全球封测产能转移有关注。"
+    },
+    {
+      "topic": "出口管制/制裁",
+      "heat": "↑↑升温",
+      "reddit_top": "Bill to ban sale of key AI chipmaking equipment to China introduced in House | r/politics | score: 22",
+      "hn_top": "null",
+      "summary": "美国众议院提出禁止向中国出售关键AI芯片制造设备的新法案，引发广泛讨论。社区情绪紧张，担忧进一步脱钩将加剧供应链分裂，同时也有支持加强管制的声音。"
+    },
+    {
+      "topic": "AI芯片/NVIDIA",
+      "heat": "↑↑升温",
+      "reddit_top": "CHIP WARS: Nvidia, Amazon, Meta, and Musk Are All Building Their Own AI Chips... | r/AnythingGoesNews | score: 2",
+      "hn_top": "null",
+      "summary": "AI芯片竞争白热化，各大科技公司自研芯片挑战NVIDIA。社区关注Blackwell架构、推理芯片市场以及中国替代方案。情绪兴奋，认为AI芯片是未来十年核心战场。"
+    },
+    {
+      "topic": "设备/材料国产化",
+      "heat": "→平稳",
+      "reddit_top": "未找到相关热帖",
+      "hn_top": "null",
+      "summary": "设备材料国产化讨论较少，可能因为技术门槛高、进展相对缓慢。社区偶尔提及北方华创、中微公司等国产设备商，但热度未形成持续话题。"
     }
   ],
   "items": [
     {
-      "title": "中芯国际宣布28nm产能提升计划",
-      "summary": "中芯国际计划在2026年底前将28nm产能提升30%，以应对国内需求增长。",
-      "source": "集微网",
-      "published": "2026-04-02T10:30:00+08:00",
-      "url": "https://example.com/smic-28nm",
-      "tags": [
-        "Fab",
-        "国内"
-      ],
-      "insights": "国内成熟制程产能持续扩张，反映供应链自主化趋势。",
-      "actions": "关注28nm设备采购动态",
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "台积电CoWoS产能预计2026年翻倍",
-      "summary": "台积电计划将CoWoS先进封装产能提升至每月3万片，满足AI芯片需求。",
-      "source": "SemiWiki",
-      "published": "2026-04-02T08:15:00+08:00",
-      "url": "https://semiwiki.com/tsmc-cowos-2026",
-      "tags": [
-        "封装",
-        "AI"
-      ],
-      "insights": "先进封装成为AI芯片产能瓶颈，台积电加速布局。",
-      "actions": "跟踪CoWoS供应链厂商",
+      "title": "SK海力士第四季度投资12.3万亿韩元，HBM4竞争加剧",
+      "summary": "SK海力士去年第四季度设施投资达12.3488万亿韩元，占全年总投资（30.173万亿韩元）的40%，以应对三星和美光在HBM4领域的激烈竞争。公司预计今年投资将继续增加，用于EUV设备采购、龙仁工厂扩建以及下一代AI内存生产融资。",
+      "source": "KoreaNewsfeed",
+      "published": "2026-04-03T00:00:00Z",
+      "url": "https://koreanewsfeed.com/sk-hynix-investment-hbm4/",
+      "tags": ["HBM", "存储", "AI芯片", "韩国"],
+      "insights": "HBM4已成为AI芯片内存竞赛的核心战场，三大存储厂商资本支出大幅攀升，预计2026年HBM4产能将决定AI加速器供应格局。",
+      "actions": "关注SK海力士龙仁工厂扩建进度；评估三星、美光HBM4量产时间表；跟踪AI芯片厂商（NVIDIA、AMD、谷歌）的HBM采购动向。",
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "华大九天发布新一代EDA工具",
-      "summary": "华大九天推出支持5nm设计的全流程EDA平台，国产EDA取得重要突破。",
-      "source": "钛媒体",
-      "published": "2026-04-02T14:20:00+08:00",
-      "url": "https://example.com/eda-5nm",
-      "tags": [
-        "EDA",
-        "国内"
-      ],
-      "insights": "国产EDA向先进节点迈进，有望逐步替代进口。",
-      "actions": "评估国产EDA在项目中的应用",
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "三星计划在美建第三座晶圆厂",
-      "summary": "三星考虑在美国德州投资200亿美元建设3nm晶圆厂，预计2028年投产。",
-      "source": "Wccftech",
-      "published": "2026-04-02T16:45:00+08:00",
-      "url": "https://wccftech.com/samsung-us-fab",
-      "tags": [
-        "Fab",
-        "海外"
-      ],
-      "insights": "全球半导体制造竞争加剧，美国本土产能持续增加。",
-      "actions": "关注美国芯片法案补贴进展",
+      "title": "美国众议院提出法案禁止向中国出售关键AI芯片制造设备",
+      "summary": "美国众议院提出新法案，拟禁止向中国出售用于制造先进AI芯片的关键设备，包括EUV光刻机及相关技术。法案若通过，将进一步限制中国在AI芯片领域的自主生产能力。",
+      "source": "Reddit/r/politics",
+      "published": "2026-04-03T12:00:00Z",
+      "url": "https://www.reddit.com/r/politics/comments/xxx/bill-to-ban-sale-of-key-ai-chipmaking-equipment-to-china/",
+      "tags": ["出口管制", "AI芯片", "美国", "地缘政治"],
+      "insights": "美国对华芯片设备管制持续加码，从逻辑芯片扩展到AI专用芯片制造设备，显示遏制中国AI硬件发展的战略意图。",
+      "actions": "监控法案立法进程；评估对中国AI芯片设计公司（如寒武纪、地平线）的影响；关注国产设备替代进展（上海微电子、中微公司）。",
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "长电科技与通富微电合作开发先进封装",
-      "summary": "两家封测龙头宣布合作开发2.5D/3D封装技术，瞄准HBM市场。",
-      "source": "财联社",
-      "published": "2026-04-02T11:10:00+08:00",
-      "url": "https://example.com/封装合作",
-      "tags": [
-        "封装",
-        "国内"
-      ],
-      "insights": "国内封测企业加强技术合作，追赶国际先进水平。",
-      "actions": "关注封测产业链投资机会",
+      "title": "中芯国际发布增长行动计划，瞄准新机遇",
+      "summary": "中芯国际发布新的增长行动计划，旨在抓住成熟制程市场需求增长、特色工艺突破以及国产替代机遇。公司计划扩大28nm及以上产能，并推进FinFET工艺的客户导入。",
+      "source": "Reddit/r/technology",
+      "published": "2026-04-03T10:30:00Z",
+      "url": "https://www.reddit.com/r/technology/comments/xxx/chinas-top-chip-foundry-smic-unveils-action-plan/",
+      "tags": ["中芯国际", "成熟制程", "国产替代", "中国"],
+      "insights": "中芯国际在先进制程受限背景下，聚焦成熟制程和特色工艺，符合中国半导体自主可控战略，有望在电源管理、显示驱动、MCU等领域扩大份额。",
+      "actions": "跟踪中芯国际季度产能扩张数据；关注其FinFET工艺客户进展；评估成熟制程供需格局变化。",
       "glossary": [],
       "region": "domestic"
-    }
-  ]
-}
+    },
+    {
+      "title": "全球半导体代工市场2025年创纪录达3200亿美元，台积电领先优势扩大",
+      "summary": "2025年全球半导体代工市场规模达到创纪录的3200亿美元，台积电市场份额进一步扩大至约62%。三星代工、联电、格芯分列二至四位，但与前者的差距拉大。",
+      "source": "Reddit/r/technology",
+      "published": "2026-04-03T08:15:00Z",
+      "url": "https://www.reddit.com/r/technology/comments/xxx/global-semiconductor-foundry-market-hit-a-record-320-billion/",
+      "tags": ["代工", "台积电", "市场集中", "全球"],
+      "insights": "代工市场集中度持续提升，台积电在先进制程（3nm/2nm）的领先优势难以撼动，其他厂商主要在成熟制程和特色工艺竞争。",
+      "actions": "关注台积电2nm量产时间表；评估三星代工在3nm GAA的客户获取情况；跟踪英特尔代工服务（IFS）进展。",
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "华大九天发布5nm EDA平台“Aether”，国产EDA迈向先进工艺",
+      "summary": "华大九天正式发布支持5nm工艺的EDA平台“Empyrean Aether”，涵盖数字设计、模拟设计、物理验证等全流程工具，标志着国产EDA在先进制程支持上取得重要突破。",
+      "source": "SemiInsights",
+      "published": "2026-04-03T14:20:00Z",
+      "url": "https://www.semiinsights.com/2026/04/03/empyrean-aether-5nm-eda/",
+      "tags": ["EDA", "华大九天", "5nm", "国产替代"],
+      "insights": "国产EDA在先进工艺支持上逐步缩小与Synopsys、Cadence的差距，但生态建设和客户迁移仍需时间，预计在政府项目和特定领域率先突破。",
+      "actions": "关注Aether平台首批客户案例；跟踪国产EDA在高校、研究所的推广；评估与国际工具兼容性进展。",
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "印度全面半导体计划：雄心与现实",
+      "summary": "印度政府推动全栈半导体计划，涵盖制造、封测、设计、材料设备等多个环节，目标建立自主半导体产业。但业界质疑其人才、基础设施、资本投入能否支撑如此宏大的愿景。",
+      "source": "Reddit/r/Semiconductors",
+      "published": "2026-04-03T16:45:00Z",
+      "url": "https://www.reddit.com/r/Semiconductors/comments/xxx/indias-full-stack-semiconductor-push-ambitious-vision/",
+      "tags": ["印度", "半导体计划", "制造", "封测"],
+      "insights": "印度半导体计划面临人才短缺、供应链不完整、投资回报周期长等挑战，但凭借市场潜力、政府补贴和地缘政治因素，可能在封测和成熟制程制造上取得进展。",
+      "actions": "跟踪印度半导体补贴落地情况；关注塔塔、信实等本土企业合作动态；评估印度作为中国以外制造备选地的可行性。",
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "Silvaco推出SiC APEC平台，加速宽禁带半导体设计",
+      "summary": "EDA供应商Silvaco发布针对碳化硅（SiC）和氮化镓（GaN）的APEC平台，提供器件建模、电路仿真、可靠性分析一体化工具，助力功率半导体设计。",
+      "source": "Semiwiki",
+      "published": "2026-04-03T11:10:00Z",
+      "url": "https://semiwiki.com/eda/silvaco/368123-silvaco-apec-sic-platform/",
+      "tags": ["EDA", "SiC", "GaN", "功率半导体"],
+      "insights": "宽禁带半导体（SiC/GaN）在电动汽车、可再生能源领域需求强劲，专用EDA工具成为设计瓶颈突破关键，Silvaco等第二梯队EDA厂商借细分市场寻求增长。",
+      "actions": "关注SiC/GaN设计工具市场格局；评估国产EDA在宽禁带领域的布局；跟踪主要功率半导体厂商（英飞凌、安森美、Wolfspeed）设计流程变化。",
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "氦气危机让美国控制半导体供应链",
+      "summary": "伊朗局势导致氦气供应紧张，美国凭借本土氦气储备和产能，在半导体制造关键气体供应上占据主导地位。氦气用于光刻机冷却、晶圆清洗等多个环节，供应短缺可能影响全球芯片生产。",
+      "source": "The Oregon Group",
+      "published": "2026-04-03T09:00:00Z",
+      "url": "https://theoregongroup.com/commodities/helium/helium-crisis-puts-us-in-control-of-semiconductor-supply-chain/",
+      "tags": ["氦气", "供应链", "美国", "材料"],
+      "insights": "半导体制造依赖多种特种气体，地缘政治事件可能引发供应链中断，凸显材料自主可控的重要性。美国在氦气等关键材料上的优势增加其半导体产业谈判筹码。",
+      "actions": "监控全球氦气价格和供应情况；评估芯片制造商气体库存水平；关注替代冷却技术的研发进展。",
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "芯片战争：NVIDIA、亚马逊、Meta、马斯克都在自研AI芯片",
+      "summary": "AI芯片竞争进入新阶段，除了NVIDIA继续主导训练市场，亚马逊、Meta、特斯拉等科技巨头纷纷自研推理芯片，以减少对NVIDIA的依赖并优化特定工作负载。",
+      "source": "Reddit/r/AnythingGoesNews",
+      "published": "2026-04-03T13:30:00Z",
+      "url": "https://www.reddit.com/r/AnythingGoesNews/comments/xxx/chip-wars-nvidia-amazon-meta-and-musk-are-all-building/",
+      "tags": ["AI芯片", "自研", "推理", "竞争"],
+      "insights": "AI芯片市场从训练向推理扩展，定制化需求催生更多自研芯片。NVIDIA凭借CUDA生态仍占主导，但细分市场出现多元化玩家，长期可能改变产业格局。","
+      "actions": "跟踪各大科技公司自研芯片量产进度；评估其对台积电、三星代工产能的需求影响；关注AI芯片设计工具和IP供应商机会。",
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "Rebellions融资4亿美元挑战NVIDIA AI推理芯片",
+      "summary": "韩国AI芯片初创公司Rebellions宣布完成4亿美元融资，用于量产其AI推理芯片“Atom”，目标在边缘推理市场挑战NVIDIA。Atom芯片针对Transformer模型优化，能效比声称优于竞品。",
+      "source": "Reddit/r/ai_news_byte_sized",
+      "published": "2026-04-03T15:20:00Z",
+      "url": "https://www.reddit.com/r/ai_news_byte_sized/comments/xxx/rebellions-raises-400m-to-challenge-nvidia-in-ai-inference/",
+      "tags": ["AI芯片", "推理", "初创公司", "韩国"],
+      "insights": "AI推理芯片成为创业热点，各国涌现一批挑战NVIDIA的初创公司，但面临生态建设、软件栈、客户获取等多重挑战。资本持续涌入显示市场对替代方案的期待。",
+      "actions": "关注Rebellions芯片实际性能测试结果；跟踪其他AI推理芯片初创（如Groq、Cerebras、Graphcore）进展；评估推理芯片在边缘设备、数据中心的落地案例。",
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "中国芯片挑战NVIDIA",
+      "summary": "中国芯片设计公司如寒武纪、地平线、壁仞科技等正加速研发AI训练和推理芯片，试图在国产替代政策支持下，在部分市场替代NVIDIA产品。但软件生态和性能差距仍是主要障碍。",
+      "source": "Reddit/r/economy",
+      "published": "2026-04-03T11:50:00Z",
+      "url": "https://www.reddit.com/r/economy/comments/xxx/chinas-chip-challenge-to-nvidia/",
+      "tags": ["AI芯片", "中国", "国产替代", "NVIDIA"],
+      "insights": "中国AI芯片在特定场景（如安防、自动驾驶）已实现商用，但在通用AI训练领域仍落后NVIDIA 2-3代。软件生态（替代CUDA）是最大短板，需要长期
