@@ -222,7 +222,8 @@
 
       el('asof').textContent = `📅 更新时间: ${d.asOf || '-'}`;
       if (d.version || d.generatedAt || d.footer) {
-        const meta = d.footer || `版本号(${d.version||'-'})｜生成时间(${d.generatedAt||'-'})`;
+        const pubAt = d.publishedAt ? `页面更新: ${d.publishedAt}` : (d.generatedAt ? `生成时间: ${d.generatedAt}` : '');
+        const meta = d.footer || `${d.version||'-'}  ${pubAt}`;
         const bm = el('buildmeta'); if (bm) bm.textContent = meta;
       }
       el('count').textContent = `📊 新闻数量: ${(d.items||[]).length}`;
