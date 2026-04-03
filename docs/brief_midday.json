@@ -5,221 +5,178 @@
   "commit": "",
   "glossary_list": [
     {
-      "term": "ASIC",
-      "desc": "专用集成电路，针对特定应用场景设计的芯片，相比通用芯片在能效和性能上有优势。",
-      "category": "设计"
-    },
-    {
-      "term": "CapEx",
-      "desc": "资本支出，企业用于购买、升级或维护固定资产（如厂房、设备）的投资。",
-      "category": "商业"
-    },
-    {
-      "term": "CoWoS",
-      "desc": "台积电的先进封装技术，将多个芯片（如CPU、HBM）集成在一个封装内，提升互连密度和性能。",
+      "term": "CoWoS-L",
+      "desc": "台积电先进封装技术的一种，使用硅中介层连接多个芯片，适用于高性能计算芯片。",
       "category": "封装"
     },
     {
-      "term": "HBM",
-      "desc": "高带宽内存，通过3D堆叠和TSV技术实现高带宽，主要用于AI加速卡和高端GPU。",
-      "category": "存储"
+      "term": "异质异构集成",
+      "desc": "将不同工艺节点、不同材料、不同功能的芯片通过先进封装技术集成在一起，突破摩尔定律限制。",
+      "category": "封装"
     },
     {
-      "term": "NOR Flash",
-      "desc": "一种非易失性存储器，读取速度快，常用于存储启动代码和嵌入式系统。",
-      "category": "存储"
+      "term": "4nm工艺",
+      "desc": "台积电等晶圆代工厂的先进制程节点，主要用于高性能移动处理器、AI芯片等。",
+      "category": "制造"
+    },
+    {
+      "term": "无晶圆IC设计",
+      "desc": "Fabless模式，公司只负责芯片设计，制造交由晶圆代工厂完成。",
+      "category": "商业"
+    },
+    {
+      "term": "先进封装",
+      "desc": "包括2.5D/3D封装、硅通孔、扇出型封装等技术，用于提升芯片性能、降低功耗、缩小尺寸。",
+      "category": "封装"
+    },
+    {
+      "term": "量子计算芯片",
+      "desc": "基于量子比特的处理器，需要超低温、低噪声环境，制造工艺与传统半导体不同。",
+      "category": "设备"
     }
   ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
-      "heat": "→平稳",
-      "reddit_top": "TSMC's CoWoS capacity expansion plans for 2026 - r/hardware (score: 42)",
+      "heat": "↑↑升温",
+      "reddit_top": "NVIDIA Rubin Ultra 遭遇 CoWoS-L 封装良率问题，可能推迟量产（r/Amd_Intel_Nvidia，score 142）",
       "hn_top": "null",
-      "summary": "社区关注台积电CoWoS产能扩张计划，讨论AI芯片需求对先进封装的影响。普遍认为CoWoS是AI芯片性能提升的关键，但产能瓶颈可能持续到2027年。"
+      "summary": "社区关注NVIDIA下一代GPU的CoWoS-L封装良率问题，讨论先进封装产能瓶颈对AI芯片供应的影响。情绪偏向担忧，认为封装产能可能成为限制AI芯片增长的关键因素。"
     },
     {
       "topic": "国产EDA/IP进展",
-      "heat": "↑↑升温",
-      "reddit_top": "China's domestic EDA tools gaining traction in local fabs - r/Semiconductors (score: 28)",
+      "heat": "→平稳",
+      "reddit_top": "null",
       "hn_top": "null",
-      "summary": "国内EDA工具在华虹、中芯国际等代工厂获得验证，社区讨论国产替代进度和技术差距。情绪偏向谨慎乐观，认为需要5-10年才能达到国际领先水平。"
+      "summary": "近期社区讨论较少，国产EDA/IP进展未成为热点话题。但SEMICON展会显示国内EDA工具在特定领域有所突破，整体关注度平稳。"
     },
     {
       "topic": "HBM/AI芯片存储",
-      "heat": "↑↑升温",
-      "reddit_top": "HBM4 specifications leaked: 1.2TB/s bandwidth target - r/hardware (score: 67)",
+      "heat": "→平稳",
+      "reddit_top": "null",
       "hn_top": "null",
-      "summary": "HBM4规格泄露引发热议，社区讨论AI芯片存储带宽需求。普遍认为HBM技术迭代速度加快，三星、SK海力士和美光竞争激烈。"
+      "summary": "HBM话题近期讨论热度一般，社区关注点更多集中在AI芯片整体性能而非存储子系统。HBM产能扩张进展顺利，未出现明显瓶颈讨论。"
     }
   ],
   "items": [
     {
-      "title": "芯能融合，绿动未来：华润微电子的功率半导体布局与解决方案",
-      "summary": "华润微电子在功率半导体领域持续布局，提供从设计到封测的全套解决方案，重点聚焦新能源汽车、工业控制等应用场景。",
-      "source": "国际电子商情",
-      "published": "2026-04-03",
-      "url": "https://www.esmchina.com/news/123456",
-      "tags": [
-        "power",
-        "semiconductor",
-        "china",
-        "automotive",
-        "industrial"
-      ],
-      "insights": "功率半导体在新能源和工业领域需求增长，国内厂商加速布局。",
-      "actions": [
-        "关注功率半导体市场供需",
-        "跟踪国内功率器件技术进展"
-      ],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "2026-2030年全球芯片制造行业竞争格局与投资前景分析研究报告",
-      "summary": "研究报告显示，全球芯片制造行业将在2026-2030年保持高速增长，AI芯片和先进制程是主要驱动力，中国市场份额持续提升。",
-      "source": "研精毕智市场调研网",
-      "published": "2026-04-03",
-      "url": "https://marketresearch.com/report/123456",
-      "tags": [
-        "market",
-        "research",
-        "forecast",
-        "competition",
-        "investment"
-      ],
-      "insights": "芯片制造行业未来五年增长确定，AI和先进制程是核心驱动力。",
-      "actions": [
-        "关注行业龙头资本开支计划",
-        "评估新兴市场机会"
-      ],
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "两个月连投两家！淄博新恒汇入股荣芯半导体",
-      "summary": "淄博新恒汇在两个月内连续投资两家半导体企业，显示地方资本对半导体产业的持续关注和投入。",
-      "source": "齐鲁网",
-      "published": "2026-04-03",
-      "url": "https://news.iqilu.com/shandong/123456",
-      "tags": [
-        "investment",
-        "china",
-        "local",
-        "funding",
-        "startup"
-      ],
-      "insights": "地方资本加速进入半导体领域，支持产业链发展。",
-      "actions": [
-        "跟踪地方半导体产业基金动态",
-        "关注区域半导体产业集群"
-      ],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "国内首个8英寸异质异构三维集成平台在园区开放",
-      "summary": "国内首个8英寸异质异构三维集成平台正式开放，为先进封装和系统级集成提供研发和中试服务。",
+      "title": "消息称高通、联发科合计减产约1500~2000万颗4nm移动处理器",
+      "summary": "台媒《工商时报》称联发科已开始下调在晶圆代工厂的4nm工艺晶圆投片量；《电子时报》消息，高通也加入了减产行列，合计减产1500~2000万颗。",
       "source": "新浪财经",
-      "published": "2026-04-03",
-      "url": "https://finance.sina.com.cn/tech/123456",
+      "published": "2026-04-02",
+      "url": "https://finance.sina.cn/tech/2026-04-02/detail-inhtazrx7792971.d.html",
       "tags": [
-        "3d",
-        "integration",
-        "packaging",
-        "platform",
-        "china"
+        "Fab/制造",
+        "设计公司"
       ],
-      "insights": "国内先进封装能力提升，支持系统级芯片发展。",
-      "actions": [
-        "关注先进封装技术进展",
-        "评估3D集成应用场景"
-      ],
+      "insights": "移动处理器需求疲软，高通、联发科减产可能影响台积电4nm产能利用率。",
+      "actions": "关注台积电4nm产能调整及手机芯片库存变化。",
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "2030年芯片自给率80%！中微、拓荆等集中发新品，美方不愿看到的局面",
-      "summary": "国内半导体设备厂商集中发布新品，推动芯片自给率目标，中微公司、拓荆科技等在关键设备领域取得突破。",
-      "source": "百度新闻",
+      "title": "SEMICON China 2026展会：AI算力、存储与先进制程全面发力，芯片自给率目标2030年80%",
+      "summary": "2026年SEMICON China展会落幕，中芯国际维持高产能利用率，中微公司、拓荆科技等设备企业加速国产替代，目标2030年芯片自给率达80%。",
+      "source": "36氪",
       "published": "2026-04-03",
-      "url": "https://www.baidu.com/news/123456",
+      "url": "https://m.36kr.com/p/3749398587064834",
       "tags": [
-        "equipment",
-        "localization",
-        "self-sufficiency",
-        "china",
-        "breakthrough"
+        "Fab/制造",
+        "行业综合"
       ],
-      "insights": "半导体设备国产化加速，支持芯片自给率目标实现。",
-      "actions": [
-        "跟踪设备国产化率提升",
-        "关注关键设备技术突破"
-      ],
+      "insights": "SEMICON China 2026显示国内半导体产业链加速国产替代，设备、材料环节进展显著。",
+      "actions": "关注国产设备厂商订单及国产化率提升节奏。",
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "Alchip's Leadership in ASIC Innovation: Advancing Toward 2nm Semiconductor Technology",
-      "summary": "Alchip Technologies has recently reported significant progress in the development of advanced 2nm ASICs, positioning itself as a leader in next-generation semiconductor design for AI and HPC.",
-      "source": "SemiWiki",
-      "published": "2026-04-01T17:00:48Z",
-      "url": "https://semiwiki.com/semiconductor-services/alchip/367489-alchips-leadership-in-asic-innovation-advancing-toward-2nm-semiconductor-technology/",
+      "title": "TrendForce：2025年全球十大IC设计厂商榜单出炉，英伟达稳居第一",
+      "summary": "TrendForce公布2025年全球前十大无晶圆IC设计厂商，英伟达稳居第一，AI相关芯片设计业者成长显著，豪威集团首次进入前十。",
+      "source": "芯智讯",
+      "published": "2026-04-03",
+      "url": "https://www.icsmart.cn/103475/",
       "tags": [
-        "asic",
-        "2nm",
-        "ai",
-        "hpc",
-        "design"
+        "设计公司",
+        "行业分析"
       ],
-      "insights": "Alchip在2nm ASIC设计取得进展，显示AI/HPC芯片向更先进制程迁移。",
-      "actions": [
-        "关注AI芯片设计公司技术路线图",
-        "评估2nm设计服务供应商"
-      ],
+      "insights": "AI芯片设计公司持续增长，英伟达领先优势扩大，豪威集团首次进入前十显示国内设计公司崛起。",
+      "actions": "关注AI芯片设计公司市场份额变化及国内设计公司成长性。",
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "CapEx Up for Foundry, Memory",
-      "summary": "Semiconductor Intelligence estimates total semiconductor industry capital spending (CapEx) was $166 billion in 2025, up 7% from 2024. We estimate 2026 CapEx will be $200 billion, up 20% from 2025.",
-      "source": "SemiWiki",
-      "published": "2026-04-01T13:00:21Z",
-      "url": "https://semiwiki.com/semiwiki.com/semiconductor-services/368018-capex-up-for-foundry-memory/",
+      "title": "2026先进封测大会在沪开幕，先进封装国内竞争格局加速形成",
+      "summary": "2026中国半导体先进封测大会在上海开幕，多家国内先进封装企业发布新成果，国内先进封装产业生态持续完善。",
+      "source": "芯师爷",
+      "published": "2026-04-03",
+      "url": "https://www.gsi24.com/a/2911.html",
       "tags": [
-        "foundry",
-        "memory",
-        "capex",
-        "investment"
+        "封测/先进封装"
       ],
-      "insights": "2026年半导体资本支出预计增长20%，主要受AI芯片和先进制程驱动。代工和存储是投资重点。",
-      "actions": [
-        "关注台积电、三星、英特尔资本开支公告",
-        "跟踪存储芯片价格走势"
+      "insights": "先进封装赛道持续升温，国内企业加速布局，3D集成、异质异构成为突破摩尔定律的关键路径。",
+      "actions": "关注先进封装设备、材料及代工服务提供商。",
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "国内首个8英寸异质异构三维集成平台开放，汉骅半导体布局3D集成代工",
+      "summary": "汉骅半导体宣布开放国内首个与8英寸CMOS工艺兼容的异质异构集成平台，可进行代工与联合开发，打破摩尔极限，提供异质异构三维集成服务。",
+      "source": "新浪财经",
+      "published": "2026-04-02",
+      "url": "https://finance.sina.com.cn/stock/roll/2026-04-02/doc-inhteptm8969680.shtml",
+      "tags": [
+        "Fab/制造",
+        "先进封装"
       ],
+      "insights": "国内首个8英寸异质异构集成平台开放，为3D集成提供代工服务，有望加速国内先进封装生态成熟。",
+      "actions": "关注异质异构集成技术进展及国内代工服务需求。",
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "SkyWater Technology召开股东会审议IonQ收购方案，量子+半导体代工整合推进",
+      "summary": "SkyWater Technology向SEC提交DEFM14A文件，召开股东大会审议IonQ的现金加股票收购方案，量子计算与半导体代工整合成新方向。",
+      "source": "The Globe and Mail",
+      "published": "2026-04-02",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/1105314/skywater-sets-shareholder-vote-on-ionq-cash-and-stock-takeover/",
+      "tags": [
+        "Fab/制造",
+        "并购"
+      ],
+      "insights": "量子计算与半导体代工整合成为新方向，SkyWater与IonQ合并可能推动量子芯片制造能力提升。",
+      "actions": "关注量子计算硬件与半导体代工融合趋势。",
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "AI存储架构迎巨变！黄仁勋CES重磅发声，叠加缺货涨价通知，半导体...",
-      "summary": "东芯股份是国内存储芯片设计龙头，核心产品包括NAND Flash、NOR Flash、DRAM芯片，是国内少数具备全品类存储芯片设计能力的企业。",
-      "source": "百度百家号",
-      "published": "",
-      "url": "https://baijiahao.baidu.com/s?id=1853651805677953984&wfr=spider&for=pc",
+      "title": "Sub-5nm EDA设计保守问题凸显：过度保守导致性能浪费，工具厂商寻求解法",
+      "summary": "Sub-5nm设计因建模不确定性导致过度保守，浪费性能余量。EDA工具需在先进节点帮助芯片设计公司重获利润空间。",
+      "source": "SemiWiki",
+      "published": "2026-04-02",
+      "url": "https://semiwiki.com/eda/clockedge/368009-webinar-how-to-reclaim-margin-in-advanced-nodes/",
       "tags": [
-        "ai",
-        "memory",
-        "storage",
-        "dram",
-        "nand"
+        "EDA/IP",
+        "先进制程"
       ],
-      "insights": "AI存储架构变革推动存储芯片需求，国内存储设计公司受益。",
-      "actions": [
-        "关注存储芯片价格走势",
-        "评估国内存储设计公司技术进展"
-      ],
+      "insights": "Sub-5nm设计过度保守问题凸显，EDA工具需在先进节点帮助设计公司重获性能余量，提升设计效率。",
+      "actions": "关注EDA工具在先进节点优化及设计方法学创新。",
       "glossary": [],
-      "region": "domestic"
+      "region": "overseas"
+    },
+    {
+      "title": "NVIDIA Rubin Ultra遭遇CoWoS-L封装良率问题，先进封装产能瓶颈再成焦点",
+      "summary": "据报道NVIDIA Rubin Ultra GPU遭遇台积电CoWoS-L先进封装良率问题，可能影响2026年下半年出货计划，社区热议先进封装产能瓶颈。",
+      "source": "WCCFTech",
+      "published": "2026-04-02",
+      "url": "https://www.wccftech.com/nvidia-rubin-ultra-cowos-l-packaging-issues/",
+      "tags": [
+        "先进封装",
+        "设计公司"
+      ],
+      "insights": "先进封装赛道持续升温，国内企业加速布局，3D集成、异质异构成为突破摩尔定律的关键路径。",
+      "actions": "关注先进封装设备、材料及代工服务提供商。",
+      "glossary": [],
+      "region": "overseas"
     }
   ]
 }
