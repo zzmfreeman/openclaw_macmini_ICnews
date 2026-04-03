@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Semi Midday Flash</title>
+  <title>半导体简报 · ICnews</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -123,7 +123,7 @@
   <div class="wrap">
     <div class="topbar">
       <div>
-        <div class="title">☀️ 早间半导体简报</div><div id="buildmeta" style="margin-top:8px;font-size:13px;color:#64748b"></div>
+        <div class="title" id="page-title">📡 半导体简报</div><div id="buildmeta" style="margin-top:8px;font-size:13px;color:#64748b"></div>
         <div class="meta">
           <a href="index.html" class="pill">⬅️ 返回早报</a>
           <span id="asof">As of: -</span>
@@ -349,6 +349,19 @@
       return 'brief.json';
     }
 
+    function updatePageTitle(file) {
+      const titles = {
+        'brief.json':         { icon: '☀️', label: '早间半导体简报', bg: '#fefce8' },
+        'brief_midday.json':  { icon: '🌤', label: '午间半导体简报', bg: '#fffbeb' },
+        'brief_evening.json': { icon: '🌙', label: '晚间半导体简报', bg: '#f0f9ff' }
+      };
+      const t = titles[file] || titles['brief.json'];
+      const titleEl = document.getElementById('page-title');
+      if (titleEl) titleEl.textContent = t.icon + ' ' + t.label;
+      document.title = t.label + ' · ICnews';
+      document.body.style.setProperty('--bg', t.bg);
+    }
+
     function loadBrief(file) {
       fetch('./' + file + '?t=' + Date.now(), {cache:'no-store'})
         .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
@@ -380,7 +393,9 @@
         });
     }
 
-    loadBrief(getBriefFile());
+    var currentFile = getBriefFile();
+    updatePageTitle(currentFile);
+    loadBrief(currentFile);
   </script>
 </body>
 </html>
