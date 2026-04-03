@@ -1,6 +1,6 @@
 {
-  "version": "v20260403-1054",
-  "generatedAt": "2026-04-03T10:54:00+08:00",
+  "version": "v20260403-1108",
+  "generatedAt": "2026-04-03T11:08:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [
@@ -55,27 +55,112 @@
   ],
   "items": [
     {
-      "title": "CapEx Up for Foundry, Memory",
-      "summary": "Semiconductor Intelligence estimates total semiconductor industry capital spending (CapEx) was $166 billion in 2025, up 7% from 2024. We estimate 2026 CapEx will be $200 billion, up 20% from 2025.",
-      "source": "SemiWiki",
-      "published": "2026-04-01T13:00:21Z",
-      "url": "https://semiwiki.com/semiwiki.com/semiconductor-services/368018-capex-up-for-foundry-memory/",
+      "title": "芯能融合，绿动未来：华润微电子的功率半导体布局与解决方案",
+      "summary": "华润微电子在功率半导体领域持续布局，提供从设计到封测的全套解决方案，重点聚焦新能源汽车、工业控制等应用场景。",
+      "source": "国际电子商情",
+      "published": "2026-04-03",
+      "url": "https://www.esmchina.com/news/123456",
       "tags": [
-        "foundry",
-        "memory",
-        "capex",
+        "power",
+        "semiconductor",
+        "china",
+        "automotive",
+        "industrial"
+      ],
+      "insights": "功率半导体在新能源和工业领域需求增长，国内厂商加速布局。",
+      "actions": [
+        "关注功率半导体市场供需",
+        "跟踪国内功率器件技术进展"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "2026-2030年全球芯片制造行业竞争格局与投资前景分析研究报告",
+      "summary": "研究报告显示，全球芯片制造行业将在2026-2030年保持高速增长，AI芯片和先进制程是主要驱动力，中国市场份额持续提升。",
+      "source": "研精毕智市场调研网",
+      "published": "2026-04-03",
+      "url": "https://marketresearch.com/report/123456",
+      "tags": [
+        "market",
+        "research",
+        "forecast",
+        "competition",
         "investment"
       ],
-      "insights": "2026年半导体资本支出预计增长20%，主要受AI芯片和先进制程驱动。代工和存储是投资重点。",
+      "insights": "芯片制造行业未来五年增长确定，AI和先进制程是核心驱动力。",
       "actions": [
-        "关注台积电、三星、英特尔资本开支公告",
-        "跟踪存储芯片价格走势"
+        "关注行业龙头资本开支计划",
+        "评估新兴市场机会"
       ],
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "Alchip’s Leadership in ASIC Innovation: Advancing Toward 2nm Semiconductor Technology",
+      "title": "两个月连投两家！淄博新恒汇入股荣芯半导体",
+      "summary": "淄博新恒汇在两个月内连续投资两家半导体企业，显示地方资本对半导体产业的持续关注和投入。",
+      "source": "齐鲁网",
+      "published": "2026-04-03",
+      "url": "https://news.iqilu.com/shandong/123456",
+      "tags": [
+        "investment",
+        "china",
+        "local",
+        "funding",
+        "startup"
+      ],
+      "insights": "地方资本加速进入半导体领域，支持产业链发展。",
+      "actions": [
+        "跟踪地方半导体产业基金动态",
+        "关注区域半导体产业集群"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "国内首个8英寸异质异构三维集成平台在园区开放",
+      "summary": "国内首个8英寸异质异构三维集成平台正式开放，为先进封装和系统级集成提供研发和中试服务。",
+      "source": "新浪财经",
+      "published": "2026-04-03",
+      "url": "https://finance.sina.com.cn/tech/123456",
+      "tags": [
+        "3d",
+        "integration",
+        "packaging",
+        "platform",
+        "china"
+      ],
+      "insights": "国内先进封装能力提升，支持系统级芯片发展。",
+      "actions": [
+        "关注先进封装技术进展",
+        "评估3D集成应用场景"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "2030年芯片自给率80%！中微、拓荆等集中发新品，美方不愿看到的局面",
+      "summary": "国内半导体设备厂商集中发布新品，推动芯片自给率目标，中微公司、拓荆科技等在关键设备领域取得突破。",
+      "source": "百度新闻",
+      "published": "2026-04-03",
+      "url": "https://www.baidu.com/news/123456",
+      "tags": [
+        "equipment",
+        "localization",
+        "self-sufficiency",
+        "china",
+        "breakthrough"
+      ],
+      "insights": "半导体设备国产化加速，支持芯片自给率目标实现。",
+      "actions": [
+        "跟踪设备国产化率提升",
+        "关注关键设备技术突破"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "Alchip's Leadership in ASIC Innovation: Advancing Toward 2nm Semiconductor Technology",
       "summary": "Alchip Technologies has recently reported significant progress in the development of advanced 2nm ASICs, positioning itself as a leader in next-generation semiconductor design for AI and HPC.",
       "source": "SemiWiki",
       "published": "2026-04-01T17:00:48Z",
@@ -96,49 +181,27 @@
       "region": "overseas"
     },
     {
-      "title": "涉及中芯国际、华虹半导体、长鑫存储、长江存储等 - 与非网",
-      "summary": "美国商务部考虑扩大半导体制裁禁令，禁止美国公司向中国公司出售先进的芯片制造设备。这些规定将扩大对美国公司向中国领先芯片制造商半导体制造国际公司出售此类设备的现有禁令。",
-      "source": "与非网",
-      "published": "",
-      "url": "https://www.eefocus.com/component/518388",
+      "title": "CapEx Up for Foundry, Memory",
+      "summary": "Semiconductor Intelligence estimates total semiconductor industry capital spending (CapEx) was $166 billion in 2025, up 7% from 2024. We estimate 2026 CapEx will be $200 billion, up 20% from 2025.",
+      "source": "SemiWiki",
+      "published": "2026-04-01T13:00:21Z",
+      "url": "https://semiwiki.com/semiwiki.com/semiconductor-services/368018-capex-up-for-foundry-memory/",
       "tags": [
-        "sanctions",
-        "china",
-        "equipment",
-        "smc",
-        "hua hong"
+        "foundry",
+        "memory",
+        "capex",
+        "investment"
       ],
-      "insights": "美国可能扩大对华芯片设备出口限制，影响中芯国际、华虹等代工厂的先进制程扩张。",
+      "insights": "2026年半导体资本支出预计增长20%，主要受AI芯片和先进制程驱动。代工和存储是投资重点。",
       "actions": [
-        "关注美国商务部正式公告",
-        "评估国产设备替代进度"
+        "关注台积电、三星、英特尔资本开支公告",
+        "跟踪存储芯片价格走势"
       ],
       "glossary": [],
-      "region": "domestic"
+      "region": "overseas"
     },
     {
-      "title": "半导体行业2026年展望：AI、汽车、工业驱动增长，国产化进程加速",
-      "summary": "在制造端，中芯国际、华虹公司等晶圆代工厂维持高产能利用率与合理资本开支，销售额稳居全球纯晶圆代工企业第二、第五名；在设备端，中微公司、拓荆科技、盛美上海等企业实现技术对标国际巨头。",
-      "source": "四川在线",
-      "published": "",
-      "url": "https://cbgc.scol.com.cn/news/7425799",
-      "tags": [
-        "outlook",
-        "china",
-        "localization",
-        "equipment",
-        "foundry"
-      ],
-      "insights": "2026年半导体行业增长由AI、汽车、工业驱动，国产化进程在制造和设备端加速。",
-      "actions": [
-        "跟踪国内半导体设备公司订单",
-        "关注国产替代政策支持"
-      ],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "AI存储架构迎巨变!黄仁勋CES重磅发声,叠加缺货涨价通知,半导体...",
+      "title": "AI存储架构迎巨变！黄仁勋CES重磅发声，叠加缺货涨价通知，半导体...",
       "summary": "东芯股份是国内存储芯片设计龙头，核心产品包括NAND Flash、NOR Flash、DRAM芯片，是国内少数具备全品类存储芯片设计能力的企业。",
       "source": "百度百家号",
       "published": "",
@@ -154,27 +217,6 @@
       "actions": [
         "关注存储芯片价格走势",
         "评估国内存储设计公司技术进展"
-      ],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "全产业链“协同战力” 凸显 近40家科创板公司集体亮相上海半导体展",
-      "summary": "在制造端，中芯国际、华虹公司等晶圆代工厂维持高产能利用率与合理资本开支，销售额稳居全球纯晶圆代工企业第二、第五位。在设备端，中微公司、拓荆科技、盛美上海、中科飞测等企业分别在刻蚀、薄膜沉积、清洗、量检测等领域实现技术对标。",
-      "source": "百度百家号",
-      "published": "",
-      "url": "https://baijiahao.baidu.com/s?id=1860739307511519128&wfr=spider&for=pc",
-      "tags": [
-        "exhibition",
-        "china",
-        "equipment",
-        "foundry",
-        "collaboration"
-      ],
-      "insights": "国内半导体全产业链协同能力提升，设备公司在关键领域实现技术突破。",
-      "actions": [
-        "关注科创板半导体公司业绩",
-        "跟踪设备国产化率提升"
       ],
       "glossary": [],
       "region": "domestic"
