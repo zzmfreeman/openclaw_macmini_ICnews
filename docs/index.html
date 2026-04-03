@@ -338,9 +338,49 @@
 
     el('q').addEventListener('input', (e)=>applyFilter(e.target.value));
 
-    fetch('./brief.json?t=' + Date.now(), {cache:'no-store'}).then(r=>r.json()).then(j=>{state.data=j; render();}).catch(err=>{
-      el('headlines').innerHTML = `<div class="warnbox">暂无早间简报数据 (brief.json)：${escapeHtml(err.message||String(err))}</div>`;
-    });
+    // 根据当前时间自动选择最新时段简报
+    function getBriefFile() {
+      const now = new Date();
+      const shanghaiStr = now.toLocaleString('en-US', {timeZone: 'Asia/Shanghai'});
+      const shanghaiDate = new Date(shanghaiStr);
+      const h = shanghaiDate.getHours();
+      if (h >= 20) return 'brief_evening.json';
+      if (h >= 13) return 'brief_midday.json';
+      return 'brief.json';
+    }
+
+    function loadBrief(file) {
+      fetch('./' + file + '?t=' + Date.now(), {cache:'no-store'})
+        .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .then(j => {
+          const items = j.items || [];
+          const isEmpty = items.length === 0;
+          const isFake = items.some(function(it) {
+            return (it.source || '').includes('示例') ||
+              (it.title || '').includes('示例') ||
+              (it.url || '').includes('example.com');
+          });
+          if (isEmpty || isFake) {
+            const warn = isEmpty ? '本时段简报暂无数据。' : '⚠️ 本时段简报包含示例数据，实际采集失败。';
+            el('headlines').innerHTML = '<div class="warnbox">' + warn + '</div>';
+            if (items.length > 0) { state.data = j; render(); }
+            return;
+          }
+          state.data = j;
+          render();
+        })
+        .catch(function(err) {
+          var fallbacks = {'brief_evening.json':'brief_midday.json','brief_midday.json':'brief.json','brief.json':null};
+          var next = fallbacks[file];
+          if (next) {
+            loadBrief(next);
+          } else {
+            el('headlines').innerHTML = '<div class="warnbox">暂无简报数据：' + escapeHtml(err.message||String(err)) + '</div>';
+          }
+        });
+    }
+
+    loadBrief(getBriefFile());
   </script>
 </body>
 </html>
