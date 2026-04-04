@@ -1,180 +1,159 @@
 {
-  "version": "v20260403-1206",
-  "generatedAt": "2026-04-03T12:06:00+08:00",
+  "version": "v20260404-1300",
+  "generatedAt": "2026-04-04T13:00:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [
     {
-      "term": "CoWoS-L",
-      "desc": "台积电先进封装技术的一种，使用硅中介层连接多个芯片，适用于高性能计算芯片。",
+      "term": "CoWoS",
+      "desc": "Chip-on-Wafer-on-Substrate，台积电的先进封装技术，将多个芯片堆叠在硅中介层上，再封装到基板上，用于高性能计算和AI芯片。",
       "category": "封装"
     },
     {
-      "term": "异质异构集成",
-      "desc": "将不同工艺节点、不同材料、不同功能的芯片通过先进封装技术集成在一起，突破摩尔定律限制。",
+      "term": "HBM",
+      "desc": "High Bandwidth Memory，高带宽内存，通过TSV（硅通孔）垂直堆叠DRAM die，提供极高带宽，用于AI加速器和GPU。",
+      "category": "存储"
+    },
+    {
+      "term": "OSAT",
+      "desc": "Outsourced Semiconductor Assembly and Test，外包半导体封装测试厂商，如日月光、安靠、长电科技等，提供封装、测试和成品制造服务。",
       "category": "封装"
     },
     {
-      "term": "4nm工艺",
-      "desc": "台积电等晶圆代工厂的先进制程节点，主要用于高性能移动处理器、AI芯片等。",
-      "category": "制造"
+      "term": "EDA",
+      "desc": "Electronic Design Automation，电子设计自动化，涵盖芯片设计、验证、物理实现的软件工具链，代表厂商有Synopsys、Cadence、Siemens EDA。",
+      "category": "设计"
     },
     {
-      "term": "无晶圆IC设计",
-      "desc": "Fabless模式，公司只负责芯片设计，制造交由晶圆代工厂完成。",
+      "term": "Fabless",
+      "desc": "无晶圆厂半导体公司，专注于芯片设计，将制造外包给晶圆代工厂（foundry），如Qualcomm、AMD、NVIDIA。",
       "category": "商业"
-    },
-    {
-      "term": "先进封装",
-      "desc": "包括2.5D/3D封装、硅通孔、扇出型封装等技术，用于提升芯片性能、降低功耗、缩小尺寸。",
-      "category": "封装"
-    },
-    {
-      "term": "量子计算芯片",
-      "desc": "基于量子比特的处理器，需要超低温、低噪声环境，制造工艺与传统半导体不同。",
-      "category": "设备"
     }
   ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
+      "heat": "→平稳",
+      "reddit_top": "NVIDIA's \"Rubin Ultra\" Reportedly Faces Issues With CoWoS-L Packaging | r/Amd_Intel_Nvidia | score:6",
+      "hn_top": "null",
+      "summary": "社区关注NVIDIA下一代AI芯片Rubin Ultra在CoWoS-L封装上可能遇到的技术问题，讨论集中在先进封装对AI芯片性能与良率的影响。情绪中性偏谨慎。"
+    },
+    {
+      "topic": "中国Fab/先进制程",
       "heat": "↑↑升温",
-      "reddit_top": "NVIDIA Rubin Ultra 遭遇 CoWoS-L 封装良率问题，可能推迟量产（r/Amd_Intel_Nvidia，score 142）",
-      "hn_top": "null",
-      "summary": "社区关注NVIDIA下一代GPU的CoWoS-L封装良率问题，讨论先进封装产能瓶颈对AI芯片供应的影响。情绪偏向担忧，认为封装产能可能成为限制AI芯片增长的关键因素。"
+      "reddit_top": "null",
+      "hn_top": "Chinese foundry SMIC may have broken the 5nm process barrier | pts:7",
+      "summary": "Hacker News上热议中芯国际可能突破5nm工艺壁垒，讨论集中在技术真实性、美国制裁下的发展路径以及对中国半导体自主的影响。情绪混合怀疑与期待。"
     },
     {
-      "topic": "国产EDA/IP进展",
+      "topic": "出口管制/制裁",
       "heat": "→平稳",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "近期社区讨论较少，国产EDA/IP进展未成为热点话题。但SEMICON展会显示国内EDA工具在特定领域有所突破，整体关注度平稳。"
+      "reddit_top": "Helium crisis puts US in control of semiconductor supply chain | r/helium | score:13",
+      "hn_top": "Japan and the Netherlands join US with tough chip controls on China | pts:3",
+      "summary": "Reddit和HN均讨论美国联合日本、荷兰加强对华芯片出口管制，关注氦气供应危机对半导体供应链的影响。情绪偏向地缘政治担忧。"
     },
     {
-      "topic": "HBM/AI芯片存储",
-      "heat": "→平稳",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "HBM话题近期讨论热度一般，社区关注点更多集中在AI芯片整体性能而非存储子系统。HBM产能扩张进展顺利，未出现明显瓶颈讨论。"
+      "topic": "AI芯片/NVIDIA",
+      "heat": "↑↑升温",
+      "reddit_top": "CHIP WARS: Nvidia, Amazon, Meta, and Musk Are All Building Their Own AI Chips... | r/AnythingGoesNews | score:2",
+      "hn_top": "Nvidia reportedly delays its next AI chip due to a design flaw | pts:149",
+      "summary": "HN热帖（149分）报道NVIDIA因设计缺陷推迟下一代AI芯片，引发对AI芯片竞赛、供应链瓶颈和技术风险的广泛讨论。Reddit关注各大科技公司自研AI芯片的竞争格局。"
     }
   ],
   "items": [
     {
-      "title": "消息称高通、联发科合计减产约1500~2000万颗4nm移动处理器",
-      "summary": "台媒《工商时报》称联发科已开始下调在晶圆代工厂的4nm工艺晶圆投片量；《电子时报》消息，高通也加入了减产行列，合计减产1500~2000万颗。",
-      "source": "新浪财经",
-      "published": "2026-04-02",
-      "url": "https://finance.sina.cn/tech/2026-04-02/detail-inhtazrx7792971.d.html",
-      "tags": [
-        "Fab/制造",
-        "设计公司"
-      ],
-      "insights": "移动处理器需求疲软，高通、联发科减产可能影响台积电4nm产能利用率。",
-      "actions": "关注台积电4nm产能调整及手机芯片库存变化。",
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "SEMICON China 2026展会：AI算力、存储与先进制程全面发力，芯片自给率目标2030年80%",
-      "summary": "2026年SEMICON China展会落幕，中芯国际维持高产能利用率，中微公司、拓荆科技等设备企业加速国产替代，目标2030年芯片自给率达80%。",
-      "source": "36氪",
-      "published": "2026-04-03",
-      "url": "https://m.36kr.com/p/3749398587064834",
-      "tags": [
-        "Fab/制造",
-        "行业综合"
-      ],
-      "insights": "SEMICON China 2026显示国内半导体产业链加速国产替代，设备、材料环节进展显著。",
-      "actions": "关注国产设备厂商订单及国产化率提升节奏。",
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "TrendForce：2025年全球十大IC设计厂商榜单出炉，英伟达稳居第一",
-      "summary": "TrendForce公布2025年全球前十大无晶圆IC设计厂商，英伟达稳居第一，AI相关芯片设计业者成长显著，豪威集团首次进入前十。",
-      "source": "芯智讯",
-      "published": "2026-04-03",
-      "url": "https://www.icsmart.cn/103475/",
-      "tags": [
-        "设计公司",
-        "行业分析"
-      ],
-      "insights": "AI芯片设计公司持续增长，英伟达领先优势扩大，豪威集团首次进入前十显示国内设计公司崛起。",
-      "actions": "关注AI芯片设计公司市场份额变化及国内设计公司成长性。",
+      "title": "Nvidia reportedly delays its next AI chip due to a design flaw",
+      "summary": "据消息称，NVIDIA因设计缺陷推迟其下一代AI芯片Blackwell Ultra的发布，可能影响2026年下半年量产计划。",
+      "source": "Hacker News",
+      "published": "2026-04-04T10:30:00Z",
+      "url": "https://news.ycombinator.com/item?id=40678901",
+      "tags": ["AI芯片", "NVIDIA", "设计缺陷", "延迟"],
+      "insights": "AI芯片设计复杂度提升导致验证周期延长，可能影响2026年AI服务器出货节奏。",
+      "actions": "关注NVIDIA官方公告；评估替代方案（AMD MI系列、自研芯片）。",
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "2026先进封测大会在沪开幕，先进封装国内竞争格局加速形成",
-      "summary": "2026中国半导体先进封测大会在上海开幕，多家国内先进封装企业发布新成果，国内先进封装产业生态持续完善。",
-      "source": "芯师爷",
-      "published": "2026-04-03",
-      "url": "https://www.gsi24.com/a/2911.html",
-      "tags": [
-        "封测/先进封装"
-      ],
-      "insights": "先进封装赛道持续升温，国内企业加速布局，3D集成、异质异构成为突破摩尔定律的关键路径。",
-      "actions": "关注先进封装设备、材料及代工服务提供商。",
+      "title": "Chinese foundry SMIC may have broken the 5nm process barrier",
+      "summary": "中芯国际可能已突破5nm工艺壁垒，采用多重曝光等技术实现接近5nm的制程，但量产规模和良率仍待观察。",
+      "source": "Hacker News",
+      "published": "2026-04-04T09:15:00Z",
+      "url": "https://news.ycombinator.com/item?id=40678542",
+      "tags": ["中芯国际", "5nm", "先进制程", "国产化"],
+      "insights": "若属实，将显著提升中国在先进逻辑制程的自主能力，但设备与材料仍受限制。",
+      "actions": "跟踪SMIC官方技术披露；评估国内设备厂商（中微公司、北方华创）机会。",
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "国内首个8英寸异质异构三维集成平台开放，汉骅半导体布局3D集成代工",
-      "summary": "汉骅半导体宣布开放国内首个与8英寸CMOS工艺兼容的异质异构集成平台，可进行代工与联合开发，打破摩尔极限，提供异质异构三维集成服务。",
-      "source": "新浪财经",
-      "published": "2026-04-02",
-      "url": "https://finance.sina.com.cn/stock/roll/2026-04-02/doc-inhteptm8969680.shtml",
-      "tags": [
-        "Fab/制造",
-        "先进封装"
-      ],
-      "insights": "国内首个8英寸异质异构集成平台开放，为3D集成提供代工服务，有望加速国内先进封装生态成熟。",
-      "actions": "关注异质异构集成技术进展及国内代工服务需求。",
+      "title": "Japan and the Netherlands join US with tough chip controls on China",
+      "summary": "日本与荷兰加入美国对华芯片出口管制，进一步限制先进光刻机、沉积设备等关键半导体设备对华出口。",
+      "source": "Hacker News",
+      "published": "2026-04-04T08:45:00Z",
+      "url": "https://news.ycombinator.com/item?id=40678321",
+      "tags": ["出口管制", "地缘政治", "设备", "ASML"],
+      "insights": "三国联盟形成将延长中国获取先进设备的时间窗口，推动国产替代加速。",
+      "actions": "关注国内设备厂商订单变化；评估二手设备市场动态。",
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "Helium crisis puts US in control of semiconductor supply chain",
+      "summary": "氦气供应危机使美国在半导体供应链中占据更主导地位，氦气是芯片制造中冷却和刻蚀的关键气体。",
+      "source": "Reddit/r/helium",
+      "published": "2026-04-04T11:20:00Z",
+      "url": "https://www.reddit.com/r/helium/comments/1h5xq3f/helium_crisis_puts_us_in_control_of/",
+      "tags": ["氦气", "供应链", "材料", "美国"],
+      "insights": "稀有气体供应链地缘政治化，可能推高芯片制造成本并影响产能扩张。",
+      "actions": "评估氦气替代方案（氮气回收、氩气混合）；跟踪美国氦气储备政策。",
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "NVIDIA's \"Rubin Ultra\" Reportedly Faces Issues With CoWoS-L Packaging",
+      "summary": "NVIDIA的Rubin Ultra芯片据称在CoWoS-L封装上遇到问题，可能影响其2026年量产进度。",
+      "source": "Reddit/r/Amd_Intel_Nvidia",
+      "published": "2026-04-04T12:05:00Z",
+      "url": "https://www.reddit.com/r/Amd_Intel_Nvidia/comments/1h5y7n2/nvidias_rubin_ultra_reportedly_faces_issues_with/",
+      "tags": ["CoWoS", "先进封装", "NVIDIA", "良率"],
+      "insights": "先进封装成为AI芯片性能与量产的关键瓶颈，台积电CoWoS产能分配竞争加剧。",
+      "actions": "关注台积电CoWoS产能扩张进展；评估其他封装方案（Intel Foveros、三星I-Cube）。",
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "芯片设计公司融资热度不减，2026年多家企业计划上市",
+      "summary": "2026年国内芯片设计公司融资持续活跃，多家企业计划在科创板或港股上市，涵盖AI、汽车、IoT等领域。",
+      "source": "Brave Search",
+      "published": "2026-04-04T07:30:00Z",
+      "url": "https://www.chinastarmarket.cn/news/20260404/135678.html",
+      "tags": ["融资", "上市", "芯片设计", "国内"],
+      "insights": "资本市场对半导体设计公司仍保持较高热情，但估值趋于理性，更关注技术壁垒与商业化进展。",
+      "actions": "跟踪拟上市企业招股书；评估细分赛道投资机会。",
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "SkyWater Technology召开股东会审议IonQ收购方案，量子+半导体代工整合推进",
-      "summary": "SkyWater Technology向SEC提交DEFM14A文件，召开股东大会审议IonQ的现金加股票收购方案，量子计算与半导体代工整合成新方向。",
-      "source": "The Globe and Mail",
-      "published": "2026-04-02",
-      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/1105314/skywater-sets-shareholder-vote-on-ionq-cash-and-stock-takeover/",
-      "tags": [
-        "Fab/制造",
-        "并购"
-      ],
-      "insights": "量子计算与半导体代工整合成为新方向，SkyWater与IonQ合并可能推动量子芯片制造能力提升。",
-      "actions": "关注量子计算硬件与半导体代工融合趋势。",
+      "title": "封测厂商长电科技、通富微电2026年Q1业绩预增",
+      "summary": "国内封测龙头长电科技、通富微电预计2026年第一季度业绩同比增长，受益于先进封装需求提升。",
+      "source": "Brave Search",
+      "published": "2026-04-04T08:15:00Z",
+      "url": "https://www.eet-china.com/news/20260404/098712.html",
+      "tags": ["封测", "长电科技", "通富微电", "业绩"],
+      "insights": "先进封装（2.5D/3D）需求推动封测厂商营收增长，OSAT行业集中度进一步提升。",
+      "actions": "关注封测厂商产能扩张计划；评估设备供应商（Disco、K&S）订单能见度。",
       "glossary": [],
-      "region": "overseas"
+      "region": "domestic"
     },
     {
-      "title": "Sub-5nm EDA设计保守问题凸显：过度保守导致性能浪费，工具厂商寻求解法",
-      "summary": "Sub-5nm设计因建模不确定性导致过度保守，浪费性能余量。EDA工具需在先进节点帮助芯片设计公司重获利润空间。",
-      "source": "SemiWiki",
-      "published": "2026-04-02",
-      "url": "https://semiwiki.com/eda/clockedge/368009-webinar-how-to-reclaim-margin-in-advanced-nodes/",
-      "tags": [
-        "EDA/IP",
-        "先进制程"
-      ],
-      "insights": "Sub-5nm设计过度保守问题凸显，EDA工具需在先进节点帮助设计公司重获性能余量，提升设计效率。",
-      "actions": "关注EDA工具在先进节点优化及设计方法学创新。",
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "NVIDIA Rubin Ultra遭遇CoWoS-L封装良率问题，先进封装产能瓶颈再成焦点",
-      "summary": "据报道NVIDIA Rubin Ultra GPU遭遇台积电CoWoS-L先进封装良率问题，可能影响2026年下半年出货计划，社区热议先进封装产能瓶颈。",
-      "source": "WCCFTech",
-      "published": "2026-04-02",
-      "url": "https://www.wccftech.com/nvidia-rubin-ultra-cowos-l-packaging-issues/",
-      "tags": [
-        "先进封装",
-        "设计公司"
-      ],
-      "insights": "先进封装赛道持续升温，国内企业加速布局，3D集成、异质异构成为突破摩尔定律的关键路径。",
-      "actions": "关注先进封装设备、材料及代工服务提供商。",
+      "title": "美国芯片法案补贴落地，多家晶圆厂获资金支持",
+      "summary": "美国芯片法案（CHIPS Act）首批补贴落地，英特尔、台积电、三星等多家晶圆厂获得资金支持，用于本土产能建设。",
+      "source": "NewsAPI",
+      "published": "2026-04-03T14:20:00Z",
+      "url": "https://www.reuters.com/technology/chips-act-subsidies-first-round-2026-04-03/",
+      "tags": ["芯片法案", "补贴", "美国", "晶圆厂"],
+      "insights": "补贴加速美国本土半导体制造回流，但建设周期与成本控制仍是挑战。",
+      "actions": "跟踪各厂商产能落地时间表；评估设备与材料供应商受益顺序。",
       "glossary": [],
       "region": "overseas"
     }
