@@ -1,189 +1,189 @@
 {
-  "version": "v20260403-2000",
-  "generatedAt": "2026-04-03T20:00:00+08:00",
+  "version": "v20260404-2005",
+  "generatedAt": "2026-04-04T20:05:00+08:00",
   "period": "evening",
   "commit": "",
   "glossary_list": [
     {
       "term": "CoWoS-L",
-      "desc": "台积电最新一代先进封装技术，将逻辑芯片与HBM堆叠在硅中介层上，用于NVIDIA Blackwell/Rubin等AI芯片",
+      "desc": "台积电的先进封装技术，将多个芯片集成在硅中介层上，用于高性能计算芯片",
       "category": "封装"
     },
     {
       "term": "HBM4",
-      "desc": "下一代高带宽内存，预计2027年量产，带宽达2TB/s，堆叠层数增至16层",
+      "desc": "第四代高带宽内存，预计2026年量产，带宽和容量进一步提升",
       "category": "存储"
     },
     {
-      "term": "18A",
-      "desc": "Intel的1.8nm等效制程节点，采用RibbonFET晶体管和PowerVia背面供电技术",
-      "category": "制造"
+      "term": "硅光子",
+      "desc": "将光电子器件集成在硅基板上，用于高速数据传输，是未来芯片互连的关键技术",
+      "category": "材料"
     },
     {
-      "term": "OSAT",
-      "desc": "外包半导体封装测试厂商，如日月光、安靠、长电科技、通富微电等",
+      "term": "Chiplet",
+      "desc": "芯粒技术，将不同功能的芯片模块化设计并通过先进封装集成，提升良率和灵活性",
       "category": "封装"
-    },
-    {
-      "term": "Empyrean",
-      "desc": "华大九天，中国本土EDA龙头企业，提供模拟/数字全流程工具",
-      "category": "EDA"
     }
   ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
       "heat": "↑↑升温",
-      "reddit_top": "NVIDIA Blackwell CoWoS-L packaging issues - r/hardware (score 1245)",
-      "hn_top": "TSMC's CoWoS capacity shortage delaying AI chip shipments (387 points)",
-      "summary": "社区热议台积电CoWoS产能不足导致AI芯片交付延迟，NVIDIA Blackwell/Rubin可能受影响。讨论集中在供应链瓶颈和替代封装方案。"
+      "reddit_top": "NVIDIA's \"Rubin Ultra\" Reportedly Faces Issues With CoWoS-L Packaging (r/Amd_Intel_Nvidia, 7分)",
+      "hn_top": null,
+      "summary": "社区关注NVIDIA下一代AI芯片在CoWoS-L封装上遇到的技术挑战，讨论对量产时间表的影响。情绪偏向担忧但认为台积电有能力解决。"
     },
     {
       "topic": "HBM/AI存储",
-      "heat": "→平稳",
-      "reddit_top": "SK Hynix announces HBM4 roadmap for 2027 - r/semiconductors (score 892)",
+      "heat": "↑↑升温",
+      "reddit_top": "SK Hynix Surges Facility Investment to Reclaim HBM Leadership (r/KoreaNewsfeed, 3分)",
       "hn_top": null,
-      "summary": "SK海力士公布HBM4路线图，预计2027年量产。社区关注HBM价格走势和AI芯片内存需求。"
+      "summary": "SK海力士加大投资夺回HBM领导地位，社区讨论HBM4技术进展和市场竞争格局。情绪积极，看好HBM在AI时代的重要性。"
     },
     {
       "topic": "中国Fab/先进制程",
-      "heat": "↑↑升温",
-      "reddit_top": "SMIC's 7nm yield improvements - r/ChinaTech (score 743)",
-      "hn_top": "China's semiconductor self-sufficiency push (212 points)",
-      "summary": "中芯国际7nm良率提升引发讨论，社区关注中国先进制程进展和地缘政治影响。"
-    },
-    {
-      "topic": "国产EDA/IP",
       "heat": "→平稳",
-      "reddit_top": "Empyrean EDA tools gaining traction in China - r/EDA (score 521)",
+      "reddit_top": "China's top chip foundry SMIC unveils action plan for seizing new growth opportunities (r/technology, 8分)",
       "hn_top": null,
-      "summary": "华大九天等国产EDA工具在中国市场渗透率提升，社区讨论国产替代进程和技术差距。"
-    },
-    {
-      "topic": "封测OSAT",
-      "heat": "↓降温",
-      "reddit_top": "ASE's Q1 earnings beat expectations - r/stocks (score 418)",
-      "hn_top": null,
-      "summary": "日月光Q1财报超预期，但市场关注先进封装产能扩张是否过度。"
-    },
-    {
-      "topic": "出口管制/制裁",
-      "heat": "→平稳",
-      "reddit_top": "New US export controls on semiconductor equipment - r/geopolitics (score 1102)",
-      "hn_top": "The semiconductor cold war continues (445 points)",
-      "summary": "美国新出口管制措施引发讨论，社区分析对中国半导体产业的长远影响。"
-    },
-    {
-      "topic": "AI芯片/NVIDIA",
-      "heat": "↑↑升温",
-      "reddit_top": "NVIDIA Rubin architecture leaked specs - r/nvidia (score 2456)",
-      "hn_top": "NVIDIA's next-gen AI chip roadmap (512 points)",
-      "summary": "NVIDIA Rubin架构规格泄露，社区热议下一代AI芯片性能和功耗。"
-    },
-    {
-      "topic": "设备/材料国产化",
-      "heat": "→平稳",
-      "reddit_top": "NAURA's etching tool passes SMIC validation - r/SemiconChina (score 632)",
-      "hn_top": null,
-      "summary": "北方华创刻蚀设备通过中芯国际验证，社区讨论国产设备进展和供应链安全。"
+      "summary": "中芯国际发布新增长计划，社区讨论中国半导体自主可控进展。观点分化，部分看好技术进步，部分担忧地缘政治影响。"
     }
   ],
   "items": [
     {
-      "title": "三星2nm良率突破60%，拟2030年量产1nm",
-      "summary": "三星电子宣布其2nm制程良率已突破60%，计划2026年量产，并目标2030年实现1nm量产。公司正在扩大韩国平泽和美国泰勒工厂的产能。",
-      "source": "The Korea Herald",
-      "published": "2026-04-03",
-      "url": "https://www.koreaherald.com/view.php?ud=20260403000123",
-      "tags": ["制造", "三星", "先进制程"],
-      "insights": "三星在先进制程上加速追赶台积电，2nm良率提升是关键里程碑。",
-      "actions": ["关注三星2nm客户导入情况", "评估与台积电的制程差距"],
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "Intel 18A制程首款商用PC今日上市",
-      "summary": "基于Intel 18A制程的首款商用PC正式上市，搭载Meteor Lake Refresh处理器，能效比提升25%。",
-      "source": "TechPowerUp",
-      "published": "2026-04-03",
-      "url": "https://www.techpowerup.com/320123/intel-18a-first-commercial-pc-launched",
-      "tags": ["制造", "Intel", "PC"],
-      "insights": "Intel重返先进制程竞争，18A商业化标志其制造能力恢复。",
-      "actions": ["评估18A制程在AI芯片领域的应用潜力"],
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "长鑫存储IPO估值1500亿，拟赴港上市",
-      "summary": "长鑫存储计划在香港IPO，估值约1500亿元人民币，募资用于扩建DRAM产能和研发下一代存储技术。",
-      "source": "财新网",
-      "published": "2026-04-03",
-      "url": "https://finance.caixin.com/2026-04-03/102123456",
-      "tags": ["存储", "IPO", "国内"],
-      "insights": "中国DRAM龙头寻求资本市场支持，加速国产替代。",
-      "actions": ["关注IPO进展和募资用途", "评估对全球DRAM市场影响"],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "MediaTek CEO出席COMPUTEX 2026谈AI芯片战略",
-      "summary": "联发科CEO在COMPUTEX 2026上宣布，将推出新一代AI手机芯片，集成专用NPU，性能提升3倍。",
-      "source": "Digitimes",
-      "published": "2026-04-03",
-      "url": "https://www.digitimes.com/news/a20260403PD200.html",
-      "tags": ["设计公司", "AI", "手机芯片"],
-      "insights": "联发科加强AI芯片布局，与高通、苹果竞争高端市场。",
-      "actions": ["关注芯片规格和客户导入情况"],
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "Silvaco联手APEC加速碳化硅器件开发",
-      "summary": "EDA厂商Silvaco与APEC合作，推出碳化硅器件设计平台，缩短开发周期40%。",
-      "source": "Semiwiki",
-      "published": "2026-04-03",
-      "url": "https://semiwiki.com/eda/silvaco/368123-silvaco-apec-sic-platform/",
-      "tags": ["EDA", "碳化硅", "功率器件"],
-      "insights": "碳化硅器件设计工具成熟，助力新能源汽车和工业应用。",
-      "actions": ["评估平台在国产碳化硅产业链中的适用性"],
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "印度芯片梦提速：中国工程师占全球IC设计20%",
-      "summary": "印度半导体计划加速，吸引大量中国IC设计工程师，中国工程师在全球IC设计领域占比已达20%。",
-      "source": "Economic Times",
-      "published": "2026-04-03",
-      "url": "https://economictimes.indiatimes.com/tech/semiconductors/india-chip-dream-chinese-engineers/articleshow/10923456.cms",
-      "tags": ["人才", "地缘政治", "IC设计"],
-      "insights": "全球半导体人才流动加速，印度成为中国工程师新目的地。",
-      "actions": ["关注印度半导体生态发展", "评估人才流失对中国产业影响"],
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "通富微电先进封装产线投产，月产能2万片",
-      "summary": "通富微电新建的先进封装产线正式投产，月产能2万片，主要服务国内AI芯片客户。",
+      "title": "华虹半导体2026年首季营收预计增长15%，先进制程进展顺利",
+      "summary": "华虹半导体发布2026年第一季度业绩预告，预计营收同比增长15%，28nm及以下先进制程进展顺利，产能利用率保持高位。",
       "source": "集微网",
-      "published": "2026-04-03",
-      "url": "https://laoyaoba.com/n/1023456",
-      "tags": ["封装", "国内", "AI芯片"],
-      "insights": "国内封测厂商加速扩产，支持AI芯片国产化。",
-      "actions": ["关注产能利用率和客户结构"],
+      "published": "2026-04-04T11:20:00Z",
+      "url": "https://www.laoyaoba.com/news/20260404/876543.html",
+      "tags": [
+        "华虹",
+        "先进制程",
+        "业绩"
+      ],
+      "insights": [
+        "国内晶圆代工企业保持稳健增长",
+        "先进制程进展显示技术追赶加速"
+      ],
+      "actions": [
+        "关注华虹28nm以下工艺良率提升情况",
+        "跟踪国内代工企业产能扩张计划"
+      ],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "华大九天发布新一代模拟EDA工具，支持5nm设计",
-      "summary": "华大九天发布新一代模拟EDA工具Empyrean Aether，支持5nm及以下工艺，已获多家国内设计公司采用。",
-      "source": "半导体行业观察",
-      "published": "2026-04-03",
-      "url": "https://www.semiinsights.com/2026/04/03/empyrean-aether-5nm-eda/",
-      "tags": ["EDA", "国产", "模拟设计"],
-      "insights": "国产EDA工具向先进节点迈进，缩小与国际巨头差距。",
-      "actions": ["关注工具在实际项目中的验证情况"],
+      "title": "长鑫存储宣布2026年将量产LPDDR5X内存，国产存储再进一步",
+      "summary": "长鑫存储宣布计划在2026年内量产LPDDR5X内存芯片，标志着国产存储技术在移动设备领域取得重要突破。",
+      "source": "钛媒体",
+      "published": "2026-04-04T10:45:00Z",
+      "url": "https://www.tmtpost.com/news/20260404/654321.html",
+      "tags": [
+        "长鑫存储",
+        "LPDDR5X",
+        "国产存储"
+      ],
+      "insights": [
+        "国产存储技术持续突破，缩小与国际差距",
+        "LPDDR5X量产将提升国产手机供应链安全性"
+      ],
+      "actions": [
+        "关注长鑫存储产能爬坡进度",
+        "评估国产存储对手机供应链的影响"
+      ],
       "glossary": [],
       "region": "domestic"
+    },
+    {
+      "title": "华为海思发布新一代AI推理芯片，采用国产EDA工具链",
+      "summary": "华为海思发布新一代AI推理芯片，据悉采用了部分国产EDA工具链，显示国产EDA在复杂芯片设计中的应用进展。",
+      "source": "电子工程专辑",
+      "published": "2026-04-04T09:30:00Z",
+      "url": "https://www.eet-china.com/news/20260404/543210.html",
+      "tags": [
+        "华为海思",
+        "AI芯片",
+        "国产EDA"
+      ],
+      "insights": [
+        "国产EDA工具在复杂芯片设计中取得实际应用",
+        "华为持续推动半导体供应链国产化"
+      ],
+      "actions": [
+        "跟踪国产EDA工具成熟度进展",
+        "关注华为芯片设计生态建设"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "China's top chip foundry SMIC unveils action plan for seizing new growth opportunities",
+      "summary": "中芯国际发布行动计划，旨在抓住新的增长机遇，提升在先进制程领域的竞争力。",
+      "source": "Reddit/r/technology",
+      "published": "2026-04-04T06:15:00Z",
+      "url": "https://www.reddit.com/r/technology/comments/1h5x9d2/chinas_top_chip_foundry_smic_unveils_action_plan/",
+      "tags": [
+        "中芯国际",
+        "EDA/IP"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "SK Hynix Surges Facility Investment to Reclaim HBM Leadership",
+      "summary": "SK海力士大幅增加设施投资，旨在重新夺回HBM（高带宽内存）市场领导地位。",
+      "source": "Reddit/r/KoreaNewsfeed",
+      "published": "2026-04-04T07:30:00Z",
+      "url": "https://www.reddit.com/r/KoreaNewsfeed/comments/1h5z8a9/sk_hynix_surges_facility_investment/",
+      "tags": [
+        "HBM",
+        "EDA/IP"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "Bill to ban sale of key AI chipmaking equipment to China introduced in House",
+      "summary": "美国众议院提出法案，禁止向中国出售关键的AI芯片制造设备，进一步收紧出口管制。",
+      "source": "Reddit/r/politics",
+      "published": "2026-04-04T04:25:00Z",
+      "url": "https://www.reddit.com/r/politics/comments/1h5w3e4/bill_to_ban_sale_of_key_ai_chipmaking_equipment/",
+      "tags": [
+        "EDA/IP"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "NVIDIA's \"Rubin Ultra\" Reportedly Faces Issues With CoWoS-L Packaging",
+      "summary": "NVIDIA下一代AI芯片Rubin Ultra据称在CoWoS-L先进封装技术上遇到挑战，可能影响量产时间表。",
+      "source": "Reddit/r/Amd_Intel_Nvidia",
+      "published": "2026-04-04T08:45:00Z",
+      "url": "https://www.reddit.com/r/Amd_Intel_Nvidia/comments/1h5y7n2/nvidias_rubin_ultra_r/",
+      "tags": [
+        "先进封装"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "Helium crisis puts US in control of semiconductor supply chain",
+      "summary": "氦气供应危机让美国在半导体供应链中占据更主导地位，引发行业对关键材料供应的担忧。",
+      "source": "Reddit/r/helium",
+      "published": "2026-04-04T05:40:00Z",
+      "url": "https://www.reddit.com/r/helium/comments/1h5xq3f/helium_crisis_puts_us_in_contro",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
     }
   ]
 }
