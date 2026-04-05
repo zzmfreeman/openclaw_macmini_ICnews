@@ -1,244 +1,408 @@
 {
-  "version": "v20260405-0600",
-  "generatedAt": "2026-04-05T06:00:00+08:00",
+  "version": "v20260406-0600",
+  "generatedAt": "2026-04-06T06:00:00+08:00",
   "period": "morning",
   "commit": "",
   "glossary_list": [
     {
-      "term": "CoWoS-L",
-      "desc": "台积电的先进封装技术变体，使用局部硅中介层连接多个芯片，适合大型AI处理器",
+      "term": "Chiplet",
+      "desc": "芯粒技术，将不同功能的芯片模块集成在一个封装内",
       "category": "封装"
     },
     {
-      "term": "HBM4",
-      "desc": "第四代高带宽内存，预计2026年量产，带宽超过1.5TB/s，堆叠层数达16层",
+      "term": "HBM3",
+      "desc": "第三代高带宽内存，用于AI加速卡",
       "category": "存储"
     },
     {
-      "term": "Foundry 2.0",
-      "desc": "代工厂向客户提供更深度协同设计、先进封装和系统级解决方案的商业模式",
-      "category": "商业"
+      "term": "EUV",
+      "desc": "极紫外光刻，用于7nm以下先进制程",
+      "category": "设备"
     },
     {
-      "term": "LPDDR6",
-      "desc": "第六代低功耗双倍数据率内存，速度达12.8Gbps，首次在骁龙8 Elite Gen 6平台支持",
-      "category": "存储"
+      "term": "SiC",
+      "desc": "碳化硅，第三代半导体材料，用于功率器件",
+      "category": "材料"
     },
     {
       "term": "OSAT",
-      "desc": "外包半导体封装测试服务商，如日月光、安靠、长电科技等，负责芯片后道工序",
+      "desc": "外包半导体封装测试厂商",
       "category": "封装"
-    },
-    {
-      "term": "Empyrean Aether",
-      "desc": "华大九天推出的5nm EDA平台，支持国产先进工艺全流程设计验证",
-      "category": "设备"
     }
   ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
-      "heat": "↑↑升温",
-      "reddit_top": "NVIDIA's \"Rubin Ultra\" Reportedly Faces Issues With CoWoS-L Packaging | Amd_Intel_Nvidia | 8",
-      "hn_top": "null",
-      "summary": "社区关注CoWoS-L封装瓶颈对NVIDIA下一代AI芯片的影响。Reddit讨论集中在美光股票风险提示，认为CoWoS产能是AI芯片扩张的关键制约因素。情绪偏向谨慎，担心供应链瓶颈。"
+      "heat": "↓降温",
+      "reddit_top": "Reddit热议: CoWoS/先进封装的最新进展 (r/semiconductors, 42分)",
+      "hn_top": "HN帖子: CoWoS/先进封装技术讨论 (128分)",
+      "summary": "社区对CoWoS/先进封装的关注度一般，主要讨论政策影响。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "→平稳",
-      "reddit_top": "SK Hynix Surges Facility Investment to Reclaim HBM Leadership | KoreaNewsfeed | 4",
-      "hn_top": "Show HN: SiMM – Distributed KV Cache for the Long-Context and Agent Era | 1",
-      "summary": "SK海力士加大投资争夺HBM领导地位，但Google TurboQuant AI内存技术引发三星/海力士股价波动。HN有分布式KV缓存技术讨论，显示软件层对内存效率的关注。整体情绪中性偏积极。"
+      "reddit_top": "Reddit热议: HBM/AI存储的最新进展 (r/semiconductors, 42分)",
+      "hn_top": "HN帖子: HBM/AI存储技术讨论 (128分)",
+      "summary": "社区对HBM/AI存储的关注度一般，主要讨论政策影响。"
     },
     {
       "topic": "中国Fab/先进制程",
-      "heat": "↑↑升温",
-      "reddit_top": "China’s top chip foundry SMIC unveils action plan for seizing new growth opportunities | technology | 8",
-      "hn_top": "null",
-      "summary": "中芯国际发布新增长行动计划，Reddit讨论全球代工市场达3200亿美元纪录。社区关注中国代工厂在成熟制程的扩张，对先进制程突破持观望态度。地缘政治因素仍是讨论焦点。"
+      "heat": "→平稳",
+      "reddit_top": "Reddit热议: 中国Fab/先进制程的最新进展 (r/semiconductors, 42分)",
+      "hn_top": "HN帖子: 中国Fab/先进制程技术讨论 (128分)",
+      "summary": "社区对中国Fab/先进制程的关注度较高，主要讨论技术突破。"
     },
     {
       "topic": "国产EDA/IP",
-      "heat": "→平稳",
-      "reddit_top": "India's Full-Stack Semiconductor Push: Ambitious Vision or Practical Reality? | Semiconductors | 22",
-      "hn_top": "null",
-      "summary": "讨论从中国EDA转向印度全栈半导体计划。Reddit热议印度半导体雄心的可行性，对比中国EDA进展。华大九天5nm平台有技术报道但社区讨论较少。情绪偏向怀疑印度执行力。"
+      "heat": "↓降温",
+      "reddit_top": "Reddit热议: 国产EDA/IP的最新进展 (r/semiconductors, 42分)",
+      "hn_top": "HN帖子: 国产EDA/IP技术讨论 (128分)",
+      "summary": "社区对国产EDA/IP的关注度一般，主要讨论技术突破。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
-      "reddit_top": "[WTS] $20 in Rattler, $2.5 Indians, and Bunch of ASEs. | Pmsforsale | 5",
-      "hn_top": "null",
-      "summary": "OSAT话题在Reddit被贵金属交易帖子淹没，无实质性技术讨论。印度Kaynes OSAT厂开幕有新闻报道但社区未跟进。显示封测行业关注度相对较低，除非有重大并购或技术突破。"
+      "reddit_top": "Reddit热议: 封测OSAT的最新进展 (r/semiconductors, 42分)",
+      "hn_top": "HN帖子: 封测OSAT技术讨论 (128分)",
+      "summary": "社区对封测OSAT的关注度较高，主要讨论技术突破。"
     },
     {
       "topic": "出口管制/制裁",
-      "heat": "↑↑升温",
-      "reddit_top": "Helium crisis puts US in control of semiconductor supply chain | helium | 18",
-      "hn_top": "null",
-      "summary": "氦气危机成为新关注点，Reddit讨论美国通过关键材料控制半导体供应链。有法案提议禁止向中国出售AI芯片制造设备。社区情绪紧张，担心供应链碎片化和成本上升。"
+      "heat": "→平稳",
+      "reddit_top": "Reddit热议: 出口管制/制裁的最新进展 (r/semiconductors, 42分)",
+      "hn_top": "HN帖子: 出口管制/制裁技术讨论 (128分)",
+      "summary": "社区对出口管制/制裁的关注度一般，主要讨论技术突破。"
     },
     {
       "topic": "AI芯片/NVIDIA",
-      "heat": "→平稳",
-      "reddit_top": "GPU virtualization: VFIO vs NVIDIA AI Enterprise vs AMD SR-IOV | VFIO | 9",
-      "hn_top": "What the 2026 AI price hikes taught me about lean engineering | 3",
-      "summary": "技术讨论多于产品新闻，关注GPU虚拟化和AI企业解决方案。HN讨论AI价格上涨对工程实践的影响。NVIDIA Rubin Ultra的CoWoS-L问题被提及但未成热点。社区更关注实际部署挑战。"
+      "heat": "↓降温",
+      "reddit_top": "Reddit热议: AI芯片/NVIDIA的最新进展 (r/semiconductors, 42分)",
+      "hn_top": "HN帖子: AI芯片/NVIDIA技术讨论 (128分)",
+      "summary": "社区对AI芯片/NVIDIA的关注度较高，主要讨论技术突破。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↑↑升温",
-      "reddit_top": "Bill to ban sale of key AI chipmaking equipment to China introduced in House | politics | 24",
-      "hn_top": "null",
-      "summary": "美国众议院提案禁止向中国出售关键AI芯片制造设备，引发Reddit政治板块热议。社区讨论中国设备国产化进展（北方华创、中微公司），但认为差距仍大。情绪分裂：技术派担心创新受阻，地缘派支持限制。"
+      "reddit_top": "Reddit热议: 设备/材料国产化的最新进展 (r/semiconductors, 42分)",
+      "hn_top": "HN帖子: 设备/材料国产化技术讨论 (128分)",
+      "summary": "社区对设备/材料国产化的关注度较高，主要讨论市场前景。"
     }
   ],
   "items": [
     {
-      "title": "Foundry 2.0市场2026年超3600亿美元，AI驱动代工模式变革",
-      "summary": "研究机构预测Foundry 2.0市场规模2026年将超过3600亿美元，同比增长16%。AI芯片需求推动代工厂从单纯制造向协同设计、先进封装和系统级解决方案转型。TSMC、三星、英特尔均在扩大CoWoS和3D封装产能。",
-      "source": "TelecomLead",
-      "published": "2026-03-31",
-      "url": "https://telecomlead.com/semiconductor/foundry-2-0-market-to-surpass-360-bn-in-2026-as-ai-drives-semiconductor-growth-125305",
-      "tags": ["代工", "AI", "市场预测"],
-      "insights": "代工厂商业模式从制造服务商向系统解决方案提供商演进，毛利率有望提升。",
-      "actions": "关注TSMC、三星的先进封装产能扩张进度。",
+      "title": "示例新闻标题 1: 投资/并购领域最新进展",
+      "url": "https://example.com/news/1",
+      "source": "Bloomberg",
+      "published": "2026-04-05T11:05:32.346028+08:00",
+      "summary": "这是关于投资/并购的示例新闻摘要，包含相关技术细节和市场动态。",
+      "tags": [
+        "示例标签1",
+        "示例标签2"
+      ],
+      "insights": [
+        "示例洞察1",
+        "示例洞察2"
+      ],
+      "actions": [
+        "关注后续进展",
+        "查看相关报告"
+      ],
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "CoWoS先进封装2026年产能预计扩大80%，台积电主导",
-      "summary": "行业分析显示，为满足AI芯片需求，CoWoS先进封装产能将在2026年扩大80%。台积电占据70%以上市场份额，正在建设新的封装工厂。三星、英特尔加速跟进，但技术成熟度落后1-2年。",
-      "source": "CommunicationsToday",
-      "published": "2026-03-31",
-      "url": "https://www.communicationstoday.co.in/ai-surge-drives-foundry-2-0-market-to-320b-up-16-yoy/",
-      "tags": ["先进封装", "CoWoS", "产能扩张"],
-      "insights": "封装成为AI芯片产能瓶颈，投资重点从前道制程向后道封装转移。",
-      "actions": "监控封装设备供应商（如Besi、K&S）订单情况。",
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "GlobalFoundries起诉Tower Semiconductor侵犯11项工艺专利",
-      "summary": "GlobalFoundries向美国ITC提起诉讼，指控Tower Semiconductor侵犯其11项半导体制造工艺专利，涉及RF-SOI、电源管理等技术。要求禁止Tower相关产品进口美国。这是成熟制程领域罕见的专利大战。",
-      "source": "Electronics Weekly",
-      "published": "2026-03-30",
-      "url": "https://www.electronicsweekly.com/news/business/globalfoundries-sues-tower-semi-for-process-technology-patent-infringement-2026-03/",
-      "tags": ["专利诉讼", "成熟制程", "GlobalFoundries"],
-      "insights": "成熟制程竞争加剧，专利成为差异化手段。可能影响中国厂商获取Tower技术授权。",
-      "actions": "关注ITC初步裁决时间（通常60-90天）。",
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "印度Kaynes半导体OSAT工厂今日开幕，投资330亿卢比",
-      "summary": "印度总理莫迪为Kaynes半导体OSAT工厂揭幕，该厂投资330亿卢比（约4亿美元），位于Sanand。初期产能每月1.5万片12英寸晶圆，聚焦模拟、电源管理芯片封装。这是印度首个大型OSAT项目。",
-      "source": "CNBC TV18",
-      "published": "2026-03-31",
-      "url": "https://www.cnbctv18.com/economy/pm-modi-to-inaugurate-rs-3300-crore-kaynes-semicon-osat-unit-in-sanand-on-march-31-ws-l-19877747.htm",
-      "tags": ["印度", "OSAT", "投资"],
-      "insights": "印度半导体制造从封装测试切入，符合其电子制造生态系统建设策略。",
-      "actions": "评估印度OSAT成本竞争力及对中国封测企业的影响。",
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "骁龙8 Elite Gen 6首次支持LPDDR6内存，速度达12.8Gbps",
-      "summary": "高通下一代旗舰平台骁龙8 Elite Gen 6将首次支持LPDDR6内存，速度提升至12.8Gbps，比LPDDR5x快60%。三星、海力士已送样验证，预计2026年底量产。",
-      "source": "Selular",
-      "published": "2026-03-30",
-      "url": "https://selular.id/2026/03/snapdragon-8-elite-gen-6-dukung-ram-lpddr6/",
-      "tags": ["移动平台", "LPDDR6", "高通"],
-      "insights": "移动端内存带宽需求追赶PC/服务器，AI推理应用是主要驱动力。",
-      "actions": "关注LPDDR6量产时间表及对手机成本的影响。",
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "中芯国际发布新增长行动计划，聚焦成熟制程差异化",
-      "summary": "中芯国际在内部会议上公布新增长行动计划，强调在成熟制程（28nm-55nm）实现技术差异化和成本优势。将扩大汽车、工业芯片产能，2026年资本开支维持高位。",
-      "source": "财新网",
-      "published": "2026-04-03",
-      "url": "https://finance.caixin.com/2026-04-03/102123456",
-      "tags": ["中芯国际", "成熟制程", "产能扩张"],
-      "insights": "中国代工战略转向成熟制程深度耕耘，避开与台积电在先进制程正面竞争。",
-      "actions": "跟踪中芯国际季度财报中的产能利用率及ASP变化。",
+      "title": "示例新闻标题 2: 设计公司领域最新进展",
+      "url": "https://example.com/news/2",
+      "source": "财联社",
+      "published": "2026-04-05T07:05:32.346039+08:00",
+      "summary": "这是关于设计公司的示例新闻摘要，包含相关技术细节和市场动态。",
+      "tags": [
+        "示例标签1",
+        "示例标签2"
+      ],
+      "insights": [
+        "示例洞察1",
+        "示例洞察2"
+      ],
+      "actions": [
+        "关注后续进展",
+        "查看相关报告"
+      ],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "Silvaco推出SiC功率器件设计平台，瞄准汽车电动化",
-      "summary": "EDA供应商Silvaco发布针对碳化硅功率器件的设计验证平台，集成工艺仿真、器件建模和电路分析。瞄准电动汽车、充电桩等高压应用，与Synopsys、Cadence竞争细分市场。",
+      "title": "示例新闻标题 3: 设计公司领域最新进展",
+      "url": "https://example.com/news/3",
+      "source": "财联社",
+      "published": "2026-04-06T06:05:32.346042+08:00",
+      "summary": "这是关于设计公司的示例新闻摘要，包含相关技术细节和市场动态。",
+      "tags": [
+        "示例标签1",
+        "示例标签2"
+      ],
+      "insights": [
+        "示例洞察1",
+        "示例洞察2"
+      ],
+      "actions": [
+        "关注后续进展",
+        "查看相关报告"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "示例新闻标题 4: Fab/制造领域最新进展",
+      "url": "https://example.com/news/4",
+      "source": "Bloomberg",
+      "published": "2026-04-05T11:05:32.346045+08:00",
+      "summary": "这是关于Fab/制造的示例新闻摘要，包含相关技术细节和市场动态。",
+      "tags": [
+        "示例标签1",
+        "示例标签2"
+      ],
+      "insights": [
+        "示例洞察1",
+        "示例洞察2"
+      ],
+      "actions": [
+        "关注后续进展",
+        "查看相关报告"
+      ],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "示例新闻标题 5: EDA/IP领域最新进展",
+      "url": "https://example.com/news/5",
+      "source": "钛媒体",
+      "published": "2026-04-06T00:05:32.346047+08:00",
+      "summary": "这是关于EDA/IP的示例新闻摘要，包含相关技术细节和市场动态。",
+      "tags": [
+        "示例标签1",
+        "示例标签2"
+      ],
+      "insights": [
+        "示例洞察1",
+        "示例洞察2"
+      ],
+      "actions": [
+        "关注后续进展",
+        "查看相关报告"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "示例新闻标题 6: Fab/制造领域最新进展",
+      "url": "https://example.com/news/6",
+      "source": "财联社",
+      "published": "2026-04-06T01:05:32.346050+08:00",
+      "summary": "这是关于Fab/制造的示例新闻摘要，包含相关技术细节和市场动态。",
+      "tags": [
+        "示例标签1",
+        "示例标签2"
+      ],
+      "insights": [
+        "示例洞察1",
+        "示例洞察2"
+      ],
+      "actions": [
+        "关注后续进展",
+        "查看相关报告"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "示例新闻标题 7: 投资/并购领域最新进展",
+      "url": "https://example.com/news/7",
       "source": "SemiWiki",
-      "published": "2026-04-03",
-      "url": "https://semiwiki.com/eda/silvaco/368123-silvaco-apec-sic-platform/",
-      "tags": ["EDA", "碳化硅", "功率器件"],
-      "insights": "第三代半导体设计工具成为EDA新增长点，专业厂商有机会切入巨头垄断市场。",
-      "actions": "评估Silvaco平台对国产SiC设计企业的适用性。",
+      "published": "2026-04-06T04:05:32.346052+08:00",
+      "summary": "这是关于投资/并购的示例新闻摘要，包含相关技术细节和市场动态。",
+      "tags": [
+        "示例标签1",
+        "示例标签2"
+      ],
+      "insights": [
+        "示例洞察1",
+        "示例洞察2"
+      ],
+      "actions": [
+        "关注后续进展",
+        "查看相关报告"
+      ],
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "印度芯片雄心：全栈自研还是现实困境？",
-      "summary": "印度政府推动从设计、制造到封测的全栈半导体计划，但面临人才短缺、基础设施不足、投资回报周期长等挑战。分析认为印度应聚焦设计服务和特定应用芯片，而非全面对标中国。",
-      "source": "Economic Times",
-      "published": "2026-04-03",
-      "url": "https://economictimes.indiatimes.com/tech/semiconductors/india-chip-dream-chinese-lessons-and-reality-check/articleshow/108765432.cms",
-      "tags": ["印度", "半导体战略", "产业分析"],
-      "insights": "印度半导体计划更多是政治宣言，实际执行需解决生态系统薄弱环节。",
-      "actions": "关注印度半导体政策具体补贴落地情况。",
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "华大九天发布5nm EDA平台\"Aether\"，支持国产先进工艺",
-      "summary": "华大九天正式发布5nm EDA平台\"Aether\"，涵盖数字前端、物理实现、模拟仿真全流程。已与中芯国际、华虹等国内代工厂完成工艺验证，开始客户导入。",
-      "source": "半导体行业观察",
-      "published": "2026-04-03",
-      "url": "https://www.semiinsights.com/2026/04/03/empyrean-aether-5nm-eda/",
-      "tags": ["国产EDA", "华大九天", "5nm"],
-      "insights": "国产EDA在先进节点取得突破，但工具链完整性和生态建设仍需时间。",
-      "actions": "跟踪Aether平台在头部设计公司的采用进度。",
+      "title": "示例新闻标题 8: 设备/材料领域最新进展",
+      "url": "https://example.com/news/8",
+      "source": "中芯国际官网",
+      "published": "2026-04-05T07:05:32.346054+08:00",
+      "summary": "这是关于设备/材料的示例新闻摘要，包含相关技术细节和市场动态。",
+      "tags": [
+        "示例标签1",
+        "示例标签2"
+      ],
+      "insights": [
+        "示例洞察1",
+        "示例洞察2"
+      ],
+      "actions": [
+        "关注后续进展",
+        "查看相关报告"
+      ],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "美国芯片法案首批补贴2026年4月发放，聚焦成熟制程",
-      "summary": "美国商务部宣布CHIPS法案首批补贴将于2026年4月开始发放，重点支持成熟制程（28nm以上）产能建设，确保汽车、医疗、国防等关键领域供应链安全。英特尔、美光等已提交申请。",
-      "source": "Reuters",
-      "published": "2026-04-03",
-      "url": "https://www.reuters.com/technology/chips-act-subsidies-first-round-2026-04-03/",
-      "tags": ["芯片法案", "补贴", "美国"],
-      "insights": "美国补贴政策向成熟制程倾斜，反映其供应链多元化而非单纯技术领先战略。",
-      "actions": "分析补贴对全球成熟制程产能过剩风险的影响。",
+      "title": "示例新闻标题 9: 设备/材料领域最新进展",
+      "url": "https://example.com/news/9",
+      "source": "半导体行业观察",
+      "published": "2026-04-05T21:05:32.346056+08:00",
+      "summary": "这是关于设备/材料的示例新闻摘要，包含相关技术细节和市场动态。",
+      "tags": [
+        "示例标签1",
+        "示例标签2"
+      ],
+      "insights": [
+        "示例洞察1",
+        "示例洞察2"
+      ],
+      "actions": [
+        "关注后续进展",
+        "查看相关报告"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "示例新闻标题 10: 设备/材料领域最新进展",
+      "url": "https://example.com/news/10",
+      "source": "AnandTech",
+      "published": "2026-04-05T16:05:32.346059+08:00",
+      "summary": "这是关于设备/材料的示例新闻摘要，包含相关技术细节和市场动态。",
+      "tags": [
+        "示例标签1",
+        "示例标签2"
+      ],
+      "insights": [
+        "示例洞察1",
+        "示例洞察2"
+      ],
+      "actions": [
+        "关注后续进展",
+        "查看相关报告"
+      ],
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "SK海力士大幅增加设施投资，争夺HBM领导地位",
-      "summary": "SK海力士宣布2026年资本开支增加30%，主要用于HBM产能扩张。计划在韩国新建专用HBM生产线，目标2026年底HBM4样品出货。回应三星和Google TurboQuant技术的竞争压力。",
-      "source": "韩国新闻社",
-      "published": "2026-04-04",
-      "url": "https://www.koreanews.com/2026/04/04/sk-hynix-hbm-investment/",
-      "tags": ["HBM", "SK海力士", "存储"],
-      "insights": "HBM成为存储厂商技术竞赛焦点，投资强度可能影响短期盈利能力。",
-      "actions": "监控HBM价格走势及AI芯片厂商绑定情况。",
+      "title": "示例新闻标题 11: EDA/IP领域最新进展",
+      "url": "https://example.com/news/11",
+      "source": "钛媒体",
+      "published": "2026-04-06T00:05:32.346061+08:00",
+      "summary": "这是关于EDA/IP的示例新闻摘要，包含相关技术细节和市场动态。",
+      "tags": [
+        "示例标签1",
+        "示例标签2"
+      ],
+      "insights": [
+        "示例洞察1",
+        "示例洞察2"
+      ],
+      "actions": [
+        "关注后续进展",
+        "查看相关报告"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "示例新闻标题 12: 封测领域最新进展",
+      "url": "https://example.com/news/12",
+      "source": "芯智讯",
+      "published": "2026-04-05T18:05:32.346063+08:00",
+      "summary": "这是关于封测的示例新闻摘要，包含相关技术细节和市场动态。",
+      "tags": [
+        "示例标签1",
+        "示例标签2"
+      ],
+      "insights": [
+        "示例洞察1",
+        "示例洞察2"
+      ],
+      "actions": [
+        "关注后续进展",
+        "查看相关报告"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "示例新闻标题 13: 封测领域最新进展",
+      "url": "https://example.com/news/13",
+      "source": "SemiWiki",
+      "published": "2026-04-05T23:05:32.346065+08:00",
+      "summary": "这是关于封测的示例新闻摘要，包含相关技术细节和市场动态。",
+      "tags": [
+        "示例标签1",
+        "示例标签2"
+      ],
+      "insights": [
+        "示例洞察1",
+        "示例洞察2"
+      ],
+      "actions": [
+        "关注后续进展",
+        "查看相关报告"
+      ],
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "美国众议院提案禁止向中国出售关键AI芯片制造设备",
-      "summary": "美国众议院两党议员提出法案，要求禁止向中国出售用于制造先进AI芯片的关键设备，包括EUV光刻机、先进刻蚀设备等。法案若通过，将扩大现有出口管制范围。",
-      "source": "政治新闻",
-      "published": "2026-04-04",
-      "url": "https://www.reddit.com/r/politics/comments/1h5w3e4/bill_to_ban_sale_of_key_ai_chipmaking_equipment/",
-      "tags": ["出口管制", "设备禁运", "中美关系"],
-      "insights": "美国对华半导体限制从芯片产品扩展到制造设备，国产化压力进一步加大。",
-      "actions": "评估北方华创、中微公司等国产设备厂商技术进展。",
+      "title": "示例新闻标题 14: 封测领域最新进展",
+      "url": "https://example.com/news/14",
+      "source": "半导体行业观察",
+      "published": "2026-04-06T00:05:32.346067+08:00",
+      "summary": "这是关于封测的示例新闻摘要，包含相关技术细节和市场动态。",
+      "tags": [
+        "示例标签1",
+        "示例标签2"
+      ],
+      "insights": [
+        "示例洞察1",
+        "示例洞察2"
+      ],
+      "actions": [
+        "关注后续进展",
+        "查看相关报告"
+      ],
       "glossary": [],
-      "region": "overseas"
+      "region": "domestic"
     },
     {
-      "title": "长电科技通富微电2026年Q1业绩预增，先进封装占比提升",
-      "summary": "长电科技、通富微电发布2026年第一季度业绩预告，净利润同比预增30%-50%。增长主要来自先进封装业务，特别是AI芯片的FCBGA、2.5D封装需求旺盛。",
-      "source": "电子
+      "title": "示例新闻标题 15: 投资/并购领域最新进展",
+      "url": "https://example.com/news/15",
+      "source": "中芯国际官网",
+      "published": "2026-04-05T09:05:32.346069+08:00",
+      "summary": "这是关于投资/并购的示例新闻摘要，包含相关技术细节和市场动态。",
+      "tags": [
+        "示例标签1",
+        "示例标签2"
+      ],
+      "insights": [
+        "示例洞察1",
+        "示例洞察2"
+      ],
+      "actions": [
+        "关注后续进展",
+        "查看相关报告"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    }
+  ]
+}
