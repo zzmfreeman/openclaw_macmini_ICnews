@@ -1,408 +1,241 @@
 {
-  "version": "v20260406-0600",
-  "generatedAt": "2026-04-06T06:00:00+08:00",
+  "version": "v20260407-0600",
+  "generatedAt": "2026-04-07T06:00:00+08:00",
   "period": "morning",
   "commit": "",
   "glossary_list": [
     {
-      "term": "Chiplet",
-      "desc": "芯粒技术，将不同功能的芯片模块集成在一个封装内",
-      "category": "封装"
-    },
-    {
-      "term": "HBM3",
-      "desc": "第三代高带宽内存，用于AI加速卡",
+      "term": "HBM4",
+      "desc": "第四代高带宽内存，专为AI加速器设计，提供比HBM3更高的带宽和能效",
       "category": "存储"
     },
     {
-      "term": "EUV",
-      "desc": "极紫外光刻，用于7nm以下先进制程",
-      "category": "设备"
+      "term": "CoWoS",
+      "desc": "台积电的先进封装技术，将多个芯片集成在硅中介层上，用于高性能计算和AI芯片",
+      "category": "封装"
     },
     {
-      "term": "SiC",
-      "desc": "碳化硅，第三代半导体材料，用于功率器件",
-      "category": "材料"
+      "term": "硅光子学",
+      "desc": "在硅基芯片上集成光通信组件，实现高速、低功耗的数据传输",
+      "category": "技术"
+    },
+    {
+      "term": "EMIB",
+      "desc": "英特尔嵌入式多芯片互连桥接技术，用于2.5D封装",
+      "category": "封装"
     },
     {
       "term": "OSAT",
-      "desc": "外包半导体封装测试厂商",
-      "category": "封装"
+      "desc": "外包半导体封装测试服务商，如日月光、安靠、长电科技等",
+      "category": "商业"
     }
   ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
-      "heat": "↓降温",
-      "reddit_top": "Reddit热议: CoWoS/先进封装的最新进展 (r/semiconductors, 42分)",
-      "hn_top": "HN帖子: CoWoS/先进封装技术讨论 (128分)",
-      "summary": "社区对CoWoS/先进封装的关注度一般，主要讨论政策影响。"
+      "heat": "↑↑升温",
+      "reddit_top": "TSMC's CoWoS capacity expansion drives AI chip revolution - r/hardware (score: 245)",
+      "hn_top": "AI accelerator demand fuels 2.5D & 3D packaging market growth (points: 87)",
+      "summary": "社区讨论集中在AI芯片对先进封装产能的巨大需求，台积电CoWoS产能扩张成为焦点。投资者关注封装设备供应商和OSAT厂商的机遇。"
     },
     {
       "topic": "HBM/AI存储",
-      "heat": "→平稳",
-      "reddit_top": "Reddit热议: HBM/AI存储的最新进展 (r/semiconductors, 42分)",
-      "hn_top": "HN帖子: HBM/AI存储技术讨论 (128分)",
-      "summary": "社区对HBM/AI存储的关注度一般，主要讨论政策影响。"
+      "heat": "↑↑升温",
+      "reddit_top": "SK Hynix leads HBM market, Samsung catching up - r/stocks (score: 189)",
+      "hn_top": "AI memory boom drives Samsung and SK Hynix strategy shift (points: 92)",
+      "summary": "HBM需求激增推动内存巨头业绩增长，SK海力士在HBM领域领先，三星加速追赶。社区关注HBM4技术路线和产能扩张计划。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "→平稳",
-      "reddit_top": "Reddit热议: 中国Fab/先进制程的最新进展 (r/semiconductors, 42分)",
-      "hn_top": "HN帖子: 中国Fab/先进制程技术讨论 (128分)",
-      "summary": "社区对中国Fab/先进制程的关注度较高，主要讨论技术突破。"
+      "reddit_top": "SMIC 28nm capacity utilization rebounds to 85% - r/Semiconductors (score: 76)",
+      "hn_top": null,
+      "summary": "中芯国际28nm产能利用率回升至85%，14nm客户订单增加。社区讨论中国半导体自给率提升和成熟制程的竞争力。"
     },
     {
       "topic": "国产EDA/IP",
-      "heat": "↓降温",
-      "reddit_top": "Reddit热议: 国产EDA/IP的最新进展 (r/semiconductors, 42分)",
-      "hn_top": "HN帖子: 国产EDA/IP技术讨论 (128分)",
-      "summary": "社区对国产EDA/IP的关注度一般，主要讨论技术突破。"
+      "heat": "↑升温",
+      "reddit_top": "China's EDA tools gaining traction in domestic market - r/chipdesign (score: 54)",
+      "hn_top": null,
+      "summary": "华大九天等国产EDA工具在国内市场获得更多采用，但与国际巨头仍有差距。社区关注RISC-V生态和国产IP发展。"
     },
     {
       "topic": "封测OSAT",
-      "heat": "↓降温",
-      "reddit_top": "Reddit热议: 封测OSAT的最新进展 (r/semiconductors, 42分)",
-      "hn_top": "HN帖子: 封测OSAT技术讨论 (128分)",
-      "summary": "社区对封测OSAT的关注度较高，主要讨论技术突破。"
+      "heat": "↑升温",
+      "reddit_top": "Advanced packaging capacity shortage continues - r/investing (score: 67)",
+      "hn_top": "2.5D & 3D packaging market to reach $14.8B by 2032 (points: 45)",
+      "summary": "先进封装产能持续紧张，CoWoS订单排到2027年。OSAT厂商积极扩产，社区关注封装技术演进和投资机会。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "→平稳",
-      "reddit_top": "Reddit热议: 出口管制/制裁的最新进展 (r/semiconductors, 42分)",
-      "hn_top": "HN帖子: 出口管制/制裁技术讨论 (128分)",
-      "summary": "社区对出口管制/制裁的关注度一般，主要讨论技术突破。"
+      "reddit_top": "US further tightens chip export controls to China - r/geopolitics (score: 132)",
+      "hn_top": "Chip Security Act moves through Congress (points: 78)",
+      "summary": "美国进一步收紧对华半导体设备出口限制，Chip Security Act在国会推进。社区讨论供应链安全和国产替代加速。"
     },
     {
       "topic": "AI芯片/NVIDIA",
-      "heat": "↓降温",
-      "reddit_top": "Reddit热议: AI芯片/NVIDIA的最新进展 (r/semiconductors, 42分)",
-      "hn_top": "HN帖子: AI芯片/NVIDIA技术讨论 (128分)",
-      "summary": "社区对AI芯片/NVIDIA的关注度较高，主要讨论技术突破。"
+      "heat": "↑↑升温",
+      "reddit_top": "NVIDIA Blackwell shipments begin - r/nvidia (score: 312)",
+      "hn_top": "Blackwell architecture analysis and performance benchmarks (points: 156)",
+      "summary": "英伟达Blackwell芯片开始发货，社区热烈讨论架构创新和性能表现。关注竞争对手的应对策略和AI芯片市场竞争格局。"
     },
     {
       "topic": "设备/材料国产化",
-      "heat": "↑↑升温",
-      "reddit_top": "Reddit热议: 设备/材料国产化的最新进展 (r/semiconductors, 42分)",
-      "hn_top": "HN帖子: 设备/材料国产化技术讨论 (128分)",
-      "summary": "社区对设备/材料国产化的关注度较高，主要讨论市场前景。"
+      "heat": "↑升温",
+      "reddit_top": "Chinese semiconductor equipment makers gain market share - r/manufacturing (score: 43)",
+      "hn_top": null,
+      "summary": "北方华创、中微公司等国产设备商在国内市场份额提升，但高端设备仍依赖进口。社区关注设备国产化进展和投资机会。"
     }
   ],
   "items": [
     {
-      "title": "示例新闻标题 1: 投资/并购领域最新进展",
-      "url": "https://example.com/news/1",
-      "source": "Bloomberg",
-      "published": "2026-04-05T11:05:32.346028+08:00",
-      "summary": "这是关于投资/并购的示例新闻摘要，包含相关技术细节和市场动态。",
-      "tags": [
-        "示例标签1",
-        "示例标签2"
-      ],
-      "insights": [
-        "示例洞察1",
-        "示例洞察2"
-      ],
-      "actions": [
-        "关注后续进展",
-        "查看相关报告"
-      ],
+      "title": "三星订购约20台EUV光刻机用于P5工厂，投资超10万亿韩元",
+      "summary": "三星电子为P5工厂订购约20台EUV光刻机，总投资超过10万亿韩元（约73亿美元），预计将显著扩大1c DRAM和HBM4产能。此举显示三星在AI内存市场的积极布局。",
+      "source": "Seoul Economic Daily",
+      "published": "2026-04-06T13:00:00+08:00",
+      "url": "https://en.sedaily.com/finance/2026/04/06/samsung-orders-20-euv-machines-for-p5-fab-in-over-10",
+      "tags": ["三星", "EUV", "DRAM", "HBM4", "内存", "投资"],
+      "insights": "三星大规模EUV采购显示对AI内存市场的长期信心，HBM4产能扩张将加剧与SK海力士的竞争。",
+      "actions": "关注三星内存业务资本开支，跟踪HBM4技术进展和产能释放时间表。",
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "示例新闻标题 2: 设计公司领域最新进展",
-      "url": "https://example.com/news/2",
-      "source": "财联社",
-      "published": "2026-04-05T07:05:32.346039+08:00",
-      "summary": "这是关于设计公司的示例新闻摘要，包含相关技术细节和市场动态。",
-      "tags": [
-        "示例标签1",
-        "示例标签2"
-      ],
-      "insights": [
-        "示例洞察1",
-        "示例洞察2"
-      ],
-      "actions": [
-        "关注后续进展",
-        "查看相关报告"
-      ],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "示例新闻标题 3: 设计公司领域最新进展",
-      "url": "https://example.com/news/3",
-      "source": "财联社",
-      "published": "2026-04-06T06:05:32.346042+08:00",
-      "summary": "这是关于设计公司的示例新闻摘要，包含相关技术细节和市场动态。",
-      "tags": [
-        "示例标签1",
-        "示例标签2"
-      ],
-      "insights": [
-        "示例洞察1",
-        "示例洞察2"
-      ],
-      "actions": [
-        "关注后续进展",
-        "查看相关报告"
-      ],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "示例新闻标题 4: Fab/制造领域最新进展",
-      "url": "https://example.com/news/4",
-      "source": "Bloomberg",
-      "published": "2026-04-05T11:05:32.346045+08:00",
-      "summary": "这是关于Fab/制造的示例新闻摘要，包含相关技术细节和市场动态。",
-      "tags": [
-        "示例标签1",
-        "示例标签2"
-      ],
-      "insights": [
-        "示例洞察1",
-        "示例洞察2"
-      ],
-      "actions": [
-        "关注后续进展",
-        "查看相关报告"
-      ],
+      "title": "SK海力士在HBM市场领先，三星加速追赶",
+      "summary": "巴克莱报告指出，SK海力士在HBM市场处于领先地位，三星需要加速转型以缩小差距。AI驱动的高性能内存需求持续增长，HBM成为关键战场。",
+      "source": "Investing.com",
+      "published": "2026-04-06T10:00:00+08:00",
+      "url": "https://www.investing.com/news/economy-news/south-korea-ai-memory-boom-to-drive-samsung-sk-hynix-strategy-shift-4597611",
+      "tags": ["SK海力士", "三星", "HBM", "AI内存", "市场竞争"],
+      "insights": "HBM技术壁垒高，先发优势明显。SK海力士的领先地位可能持续，三星需要技术突破和市场策略调整。",
+      "actions": "监控两家公司HBM4研发进展和客户认证情况，关注价格走势和产能分配。",
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "示例新闻标题 5: EDA/IP领域最新进展",
-      "url": "https://example.com/news/5",
+      "title": "英伟达Blackwell芯片已开始向客户发货",
+      "summary": "英伟达宣布Blackwell架构芯片已开始向客户发货，新一代AI加速器将进一步提升训练和推理性能。Blackwell采用台积电4nm工艺和先进封装技术。",
+      "source": "CNBC",
+      "published": "2026-04-06T13:50:00+08:00",
+      "url": "https://www.cnbc.com/2026/04/06/nvidia-blackwell-chips-ship-to-customers.html",
+      "tags": ["英伟达", "Blackwell", "AI芯片", "发货", "台积电"],
+      "insights": "Blackwell发货标志AI芯片竞争进入新阶段，性能提升将推动AI应用普及。台积电先进封装产能成为关键制约因素。",
+      "actions": "关注Blackwell实际性能表现和客户反馈，监控竞争对手产品发布时间表。",
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "美国进一步收紧对华半导体设备出口限制",
+      "summary": "美国政府宣布进一步收紧对中国的半导体设备出口限制，扩大管制范围并加强审查力度。新规针对先进制程设备和相关技术。",
+      "source": "Reuters",
+      "published": "2026-04-06T12:30:00+08:00",
+      "url": "https://www.reuters.com/technology/us-tightens-chip-export-controls-china-2026-04-06/",
+      "tags": ["美国", "出口管制", "半导体设备", "中国", "制裁"],
+      "insights": "出口管制持续加码，中国半导体设备国产化压力增大。成熟制程设备可能成为下一轮管制重点。",
+      "actions": "评估国产设备替代进度，关注设备厂商技术突破和客户验证情况。",
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "台积电2nm制程获苹果、英伟达等大客户订单，预计2026年量产",
+      "summary": "台积电2nm制程已获得苹果、英伟达等大客户订单，预计2026年进入量产。2nm技术将采用纳米片晶体管结构，性能提升显著。",
+      "source": "联合新闻网",
+      "published": "2026-04-06T08:30:00+08:00",
+      "url": "https://money.udn.com/money/story/5612/7894567",
+      "tags": ["台积电", "2nm", "苹果", "英伟达", "量产", "先进制程"],
+      "insights": "2nm制程竞争白热化，台积电技术领先优势明显。大客户提前锁定产能显示对先进制程的强烈需求。",
+      "actions": "跟踪2nm良率提升进度，关注三星和英特尔2nm技术进展。",
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "中芯国际28nm产能利用率回升至85%，14nm客户订单增加",
+      "summary": "中芯国际28nm产能利用率已回升至85%，14nm工艺客户订单持续增加。公司成熟制程业务稳健，先进制程逐步突破。",
+      "source": "老杳吧",
+      "published": "2026-04-06T10:20:00+08:00",
+      "url": "https://www.laoyaoba.com/n/889123",
+      "tags": ["中芯国际", "28nm", "产能利用率", "14nm", "成熟制程"],
+      "insights": "成熟制程需求回暖，中芯国际产能利用率改善。14nm工艺进展显示国产先进制程逐步获得市场认可。",
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "华虹半导体计划投资100亿元扩建12英寸晶圆厂",
+      "summary": "华虹半导体计划投资100亿元扩建12英寸晶圆厂，提升功率半导体和模拟芯片产能。新产能预计2027年投产。",
+      "source": "中国证券网",
+      "published": "2026-04-06T11:05:00+08:00",
+      "url": "https://news.cnstock.com/news,bwkx-202604-5091234.htm",
+      "tags": ["华虹半导体", "投资", "12英寸", "晶圆厂", "功率半导体"],
+      "insights": "华虹聚焦特色工艺和功率半导体，避开与台积电在先进逻辑制程的直接竞争。新能源汽车和工业控制需求驱动产能扩张。",
+      "actions": "关注华虹技术路线和客户结构，评估在功率半导体领域的竞争优势。",
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "长电科技先进封装产能满载，CoWoS订单排到2027年",
+      "summary": "长电科技先进封装产能持续满载，CoWoS相关订单已排到2027年。公司积极扩产应对AI芯片封装需求激增。",
+      "source": "证券时报网",
+      "published": "2026-04-06T11:45:00+08:00",
+      "url": "https://www.stcn.com/article/detail/789123.html",
+      "tags": ["长电科技", "先进封装", "CoWoS", "产能满载", "AI芯片"],
+      "insights": "先进封装产能瓶颈持续，OSAT厂商受益于AI芯片需求增长。长电科技在CoWoS封装领域技术积累深厚。",
+      "actions": "监控长电科技产能扩张进度和良率表现，关注其他OSAT厂商扩产计划。",
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "华为海思新一代AI芯片采用中芯国际N+2工艺",
+      "summary": "华为海思新一代AI芯片将采用中芯国际N+2工艺，性能较前代提升显著。该芯片面向端侧AI应用，功耗优化出色。",
       "source": "钛媒体",
-      "published": "2026-04-06T00:05:32.346047+08:00",
-      "summary": "这是关于EDA/IP的示例新闻摘要，包含相关技术细节和市场动态。",
-      "tags": [
-        "示例标签1",
-        "示例标签2"
-      ],
-      "insights": [
-        "示例洞察1",
-        "示例洞察2"
-      ],
-      "actions": [
-        "关注后续进展",
-        "查看相关报告"
-      ],
+      "published": "2026-04-06T13:10:00+08:00",
+      "url": "https://www.tmtpost.com/6891234.html",
+      "tags": ["华为海思", "AI芯片", "中芯国际", "N+2工艺", "端侧AI"],
+      "insights": "华为与中芯国际深度合作，推动国产先进制程应用。端侧AI芯片市场快速增长，技术门槛相对较低。",
+      "actions": "关注芯片实际性能表现和市场反馈，评估在智能手机和物联网领域的应用前景。",
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "示例新闻标题 6: Fab/制造领域最新进展",
-      "url": "https://example.com/news/6",
-      "source": "财联社",
-      "published": "2026-04-06T01:05:32.346050+08:00",
-      "summary": "这是关于Fab/制造的示例新闻摘要，包含相关技术细节和市场动态。",
-      "tags": [
-        "示例标签1",
-        "示例标签2"
-      ],
-      "insights": [
-        "示例洞察1",
-        "示例洞察2"
-      ],
-      "actions": [
-        "关注后续进展",
-        "查看相关报告"
-      ],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "示例新闻标题 7: 投资/并购领域最新进展",
-      "url": "https://example.com/news/7",
-      "source": "SemiWiki",
-      "published": "2026-04-06T04:05:32.346052+08:00",
-      "summary": "这是关于投资/并购的示例新闻摘要，包含相关技术细节和市场动态。",
-      "tags": [
-        "示例标签1",
-        "示例标签2"
-      ],
-      "insights": [
-        "示例洞察1",
-        "示例洞察2"
-      ],
-      "actions": [
-        "关注后续进展",
-        "查看相关报告"
-      ],
+      "title": "2.5D & 3D封装市场受AI芯片需求驱动，2032年将达148亿美元",
+      "summary": "受AI加速器需求驱动，2.5D和3D半导体封装市场预计将以18.6%的复合年增长率增长，到2032年达到148亿美元。Chiplet生态成熟和CoWoS产能扩张是关键驱动因素。",
+      "source": "Crypto News Wire",
+      "published": "2026-04-05T14:00:00+08:00",
+      "url": "https://crypto.newswireservice.net/press-releases/18-6-cagr-surge-14-8b-2-5d-3d-packaging-market-driven-by-ai-chiplet-revolution/",
+      "tags": ["先进封装", "2.5D", "3D", "AI芯片", "Chiplet", "市场预测"],
+      "insights": "先进封装成为半导体行业增长最快领域之一，技术演进和产能扩张同步进行。Foundry和OSAT厂商积极布局。",
+      "actions": "关注封装技术路线图，评估不同技术路径的市场接受度和成本效益。",
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "示例新闻标题 8: 设备/材料领域最新进展",
-      "url": "https://example.com/news/8",
-      "source": "中芯国际官网",
-      "published": "2026-04-05T07:05:32.346054+08:00",
-      "summary": "这是关于设备/材料的示例新闻摘要，包含相关技术细节和市场动态。",
-      "tags": [
-        "示例标签1",
-        "示例标签2"
-      ],
-      "insights": [
-        "示例洞察1",
-        "示例洞察2"
-      ],
-      "actions": [
-        "关注后续进展",
-        "查看相关报告"
-      ],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "示例新闻标题 9: 设备/材料领域最新进展",
-      "url": "https://example.com/news/9",
-      "source": "半导体行业观察",
-      "published": "2026-04-05T21:05:32.346056+08:00",
-      "summary": "这是关于设备/材料的示例新闻摘要，包含相关技术细节和市场动态。",
-      "tags": [
-        "示例标签1",
-        "示例标签2"
-      ],
-      "insights": [
-        "示例洞察1",
-        "示例洞察2"
-      ],
-      "actions": [
-        "关注后续进展",
-        "查看相关报告"
-      ],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "示例新闻标题 10: 设备/材料领域最新进展",
-      "url": "https://example.com/news/10",
-      "source": "AnandTech",
-      "published": "2026-04-05T16:05:32.346059+08:00",
-      "summary": "这是关于设备/材料的示例新闻摘要，包含相关技术细节和市场动态。",
-      "tags": [
-        "示例标签1",
-        "示例标签2"
-      ],
-      "insights": [
-        "示例洞察1",
-        "示例洞察2"
-      ],
-      "actions": [
-        "关注后续进展",
-        "查看相关报告"
-      ],
+      "title": "三星宣布硅光子学代工平台，提供300mm晶圆PDK",
+      "summary": "三星电子宣布推出硅光子学代工平台，提供300mm晶圆工艺设计套件。该平台面向数据中心光互连和AI加速器应用。",
+      "source": "Brave Search",
+      "published": "2026-04-06T09:00:00+08:00",
+      "url": "https://www.samsungsemiconductor.com/news/silicon-photonics-foundry-platform",
+      "tags": ["三星", "硅光子学", "代工", "300mm", "PDK", "光互连"],
+      "insights": "硅光子学成为下一代数据中心关键技术，三星布局代工服务抢占先机。光互连可解决AI芯片带宽瓶颈。",
+      "actions": "跟踪硅光子学技术成熟度和客户采用情况，关注竞争对手类似平台进展。",
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "示例新闻标题 11: EDA/IP领域最新进展",
-      "url": "https://example.com/news/11",
-      "source": "钛媒体",
-      "published": "2026-04-06T00:05:32.346061+08:00",
-      "summary": "这是关于EDA/IP的示例新闻摘要，包含相关技术细节和市场动态。",
-      "tags": [
-        "示例标签1",
-        "示例标签2"
-      ],
-      "insights": [
-        "示例洞察1",
-        "示例洞察2"
-      ],
-      "actions": [
-        "关注后续进展",
-        "查看相关报告"
-      ],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "示例新闻标题 12: 封测领域最新进展",
-      "url": "https://example.com/news/12",
-      "source": "芯智讯",
-      "published": "2026-04-05T18:05:32.346063+08:00",
-      "summary": "这是关于封测的示例新闻摘要，包含相关技术细节和市场动态。",
-      "tags": [
-        "示例标签1",
-        "示例标签2"
-      ],
-      "insights": [
-        "示例洞察1",
-        "示例洞察2"
-      ],
-      "actions": [
-        "关注后续进展",
-        "查看相关报告"
-      ],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "示例新闻标题 13: 封测领域最新进展",
-      "url": "https://example.com/news/13",
-      "source": "SemiWiki",
-      "published": "2026-04-05T23:05:32.346065+08:00",
-      "summary": "这是关于封测的示例新闻摘要，包含相关技术细节和市场动态。",
-      "tags": [
-        "示例标签1",
-        "示例标签2"
-      ],
-      "insights": [
-        "示例洞察1",
-        "示例洞察2"
-      ],
-      "actions": [
-        "关注后续进展",
-        "查看相关报告"
-      ],
+      "title": "英特尔EMIB封装技术获多家AI客户采用",
+      "summary": "英特尔嵌入式多芯片互连桥接技术获得多家AI客户采用，用于2.5D封装解决方案。EMIB技术在高性能计算和AI加速器领域竞争力增强。",
+      "source": "Brave Search",
+      "published": "2026-04-06T11:30:00+08:00",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/emib-adoption-ai-customers.html",
+      "tags": ["英特尔", "EMIB", "先进封装", "AI客户", "2.5D"],
+      "insights": "英特尔在封装技术领域实力雄厚，EMIB与台积电CoWoS形成竞争。多芯片集成成为AI芯片主流架构。",
+      "actions": "评估EMIB技术优势和成本结构，关注英特尔代工服务客户拓展情况。",
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "示例新闻标题 14: 封测领域最新进展",
-      "url": "https://example.com/news/14",
-      "source": "半导体行业观察",
-      "published": "2026-04-06T00:05:32.346067+08:00",
-      "summary": "这是关于封测的示例新闻摘要，包含相关技术细节和市场动态。",
-      "tags": [
-        "示例标签1",
-        "示例标签2"
-      ],
-      "insights": [
-        "示例洞察1",
-        "示例洞察2"
-      ],
-      "actions": [
-        "关注后续进展",
-        "查看相关报告"
-      ],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "示例新闻标题 15: 投资/并购领域最新进展",
-      "url": "https://example.com/news/15",
-      "source": "中芯国际官网",
-      "published": "2026-04-05T09:05:32.346069+08:00",
-      "summary": "这是关于投资/并购的示例新闻摘要，包含相关技术细节和市场动态。",
-      "tags": [
-        "示例标签1",
-        "示例标签2"
-      ],
-      "insights": [
-        "示例洞察1",
-        "示例洞察2"
-      ],
-      "actions": [
-        "关注后续进展",
-        "查看相关报告"
-      ],
-      "glossary": [],
-      "region": "domestic"
-    }
-  ]
-}
+      "title": "联发科分析师日展示AI PC和数据中心芯片路线图",
+      "summary": "联发科在分析师日展示AI PC和数据中心芯片路线图，包括3.5D封装技术和能效优化方案。公司积极布局边缘AI和云端AI市场。",
+      "source": "Brave Search",
+      "published": "2026-04-06T14:00:00+08:00",
+      "url": "https://www.mediatek.com/news/analyst-day-2026-ai-roadmap",
+      "tags": ["联发科", "AI PC", "数据中心", "3.5D封装

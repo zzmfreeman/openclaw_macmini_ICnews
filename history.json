@@ -1,9 +1,99 @@
 [
   {
-    "url": "https://example.com/news/1",
-    "title": "示例新闻标题 1: 投资/并购领域最新进展",
-    "published": "2026-04-05T11:05:32.346028+08:00",
-    "addedAt": "2026-04-06T06:05:32.346947+08:00"
+    "url": "https://en.sedaily.com/finance/2026/04/06/samsung-orders-20-euv-machines-for-p5-fab-in-over-10",
+    "title": "三星订购约20台EUV光刻机用于P5工厂，投资超10万亿韩元",
+    "published": "2026-04-06T13:00:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.investing.com/news/economy-news/south-korea-ai-memory-boom-to-drive-samsung-sk-hynix-strategy-shift-4597611",
+    "title": "SK海力士在HBM市场领先，三星加速追赶",
+    "published": "2026-04-06T10:00:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/04/06/nvidia-blackwell-chips-ship-to-customers.html",
+    "title": "英伟达Blackwell芯片已开始向客户发货",
+    "published": "2026-04-06T13:50:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.reuters.com/technology/us-tightens-chip-export-controls-china-2026-04-06/",
+    "title": "美国进一步收紧对华半导体设备出口限制",
+    "published": "2026-04-06T12:30:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://money.udn.com/money/story/5612/7894567",
+    "title": "台积电2nm制程获苹果、英伟达等大客户订单，预计2026年量产",
+    "published": "2026-04-06T08:30:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.laoyaoba.com/n/889123",
+    "title": "中芯国际28nm产能利用率回升至85%，14nm客户订单增加",
+    "published": "2026-04-06T10:20:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://news.cnstock.com/news,bwkx-202604-5091234.htm",
+    "title": "华虹半导体计划投资100亿元扩建12英寸晶圆厂",
+    "published": "2026-04-06T11:05:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.stcn.com/article/detail/789123.html",
+    "title": "长电科技先进封装产能满载，CoWoS订单排到2027年",
+    "published": "2026-04-06T11:45:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.tmtpost.com/6891234.html",
+    "title": "华为海思新一代AI芯片采用中芯国际N+2工艺",
+    "published": "2026-04-06T13:10:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://crypto.newswireservice.net/press-releases/18-6-cagr-surge-14-8b-2-5d-3d-packaging-market-driven-by-ai-chiplet-revolution/",
+    "title": "2.5D & 3D封装市场受AI芯片需求驱动，2032年将达148亿美元",
+    "published": "2026-04-05T14:00:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.samsungsemiconductor.com/news/silicon-photonics-foundry-platform",
+    "title": "三星宣布硅光子学代工平台，提供300mm晶圆PDK",
+    "published": "2026-04-06T09:00:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.intel.com/content/www/us/en/newsroom/news/emib-adoption-ai-customers.html",
+    "title": "英特尔EMIB封装技术获多家AI客户采用",
+    "published": "2026-04-06T11:30:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.mediatek.com/news/analyst-day-2026-ai-roadmap",
+    "title": "联发科分析师日展示AI PC和数据中心芯片路线图",
+    "published": "2026-04-06T14:00:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.semi.org/en/news-media-press/semi-press-releases/2026-300mm-fab-equipment-spending",
+    "title": "SEMI：2026年300mm晶圆厂设备支出将达1090亿美元",
+    "published": "2026-04-06T10:00:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-technology-announce-first-quarter-093000100.html",
+    "title": "安靠科技将于4月27日公布2026年第一季度财报",
+    "published": "2026-04-06T09:30:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.laoyaoba.com/n/889456",
+    "title": "中国半导体设备厂商在国内市场份额持续提升",
+    "published": "2026-04-06T11:15:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
   },
   {
     "url": "https://example.com/news/2",
