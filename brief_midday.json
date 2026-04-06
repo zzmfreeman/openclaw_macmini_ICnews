@@ -1,161 +1,189 @@
 {
-  "version": "v20260405-1104",
-  "generatedAt": "2026-04-05T11:04:00+08:00",
+  "version": "v20260406-1300",
+  "generatedAt": "2026-04-06T13:00:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [
     {
-      "term": "CoWoS",
-      "desc": "Chip-on-Wafer-on-Substrate，台积电的2.5D/3D先进封装技术，将多个芯片堆叠在硅中介层上，再封装到基板，用于AI/HPC芯片。",
-      "category": "封装"
-    },
-    {
-      "term": "HBM",
-      "desc": "High Bandwidth Memory，高带宽内存，通过TSV硅通孔垂直堆叠DRAM die，提供超高带宽，用于GPU/AI加速器。",
-      "category": "存储"
-    },
-    {
       "term": "GAA",
-      "desc": "Gate-All-Around，全环绕栅极晶体管结构，取代FinFET的下一代晶体管技术，提供更好的静电控制和性能。",
+      "desc": "全环绕栅极晶体管，是FinFET的下一代技术，通过栅极完全包围沟道来提高晶体管性能",
       "category": "设备"
     },
     {
-      "term": "Chiplet",
-      "desc": "芯粒，将大型SoC分解为多个小芯片，通过先进封装互联，提升良率、降低成本、实现异构集成。",
+      "term": "CoWoS",
+      "desc": "Chip on Wafer on Substrate，台积电的2.5D/3D先进封装技术，将多个芯片集成在硅中介层上",
       "category": "封装"
     },
     {
-      "term": "High-NA EUV",
-      "desc": "高数值孔径极紫外光刻，ASML下一代光刻机，支持2nm及以下制程，2026年开始量产。",
-      "category": "设备"
+      "term": "N+2",
+      "desc": "中芯国际的先进工艺节点，相当于7nm增强版，在性能、功耗和密度上较N+1有进一步优化",
+      "category": "制造"
+    },
+    {
+      "term": "BIS",
+      "desc": "美国商务部工业与安全局，负责出口管制和贸易制裁的机构",
+      "category": "商业"
+    },
+    {
+      "term": "OSAT",
+      "desc": "外包半导体封装测试，专业从事芯片封装和测试服务的公司",
+      "category": "封装"
     }
   ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
-      "heat": "→平稳",
-      "reddit_top": "NVIDIA's \"Rubin Ultra\" Reportedly Faces Issues With CoWoS-L Packaging | r/Amd_Intel_Nvidia | score:5",
-      "hn_top": "null",
-      "summary": "社区关注CoWoS-L封装在NVIDIA下一代AI芯片中的技术挑战，讨论先进封装对AI芯片性能的影响。"
-    },
-    {
-      "topic": "HBM/AI存储",
-      "heat": "→平稳",
-      "reddit_top": "SK Hynix & Samsung Impact On The Memory Market Using High-NA EUV lithography | r/MU_Stock | score:3",
-      "hn_top": "null",
-      "summary": "讨论HBM3E/HBM4路线图，关注SK海力士和三星在AI存储市场的竞争，以及High-NA EUV对内存制造的影响。"
-    },
-    {
-      "topic": "中国Fab/先进制程",
       "heat": "↑↑升温",
-      "reddit_top": "China's top chip foundry SMIC unveils action plan for seizing new growth opportunities | r/technology | score:6",
+      "reddit_top": "NVIDIA's \"Rubin Ultra\" Reportedly Faces Issues With CoWoS-L Packaging | r/Amd_Intel_Nvidia | 5",
       "hn_top": "null",
-      "summary": "中芯国际发布增长行动计划，社区讨论中国半导体自主化进展，关注7nm/5nm技术突破和产能扩张。"
+      "summary": "社区关注CoWoS-L封装技术面临的挑战，特别是NVIDIA Rubin Ultra芯片的封装问题。讨论集中在先进封装产能紧张和技术瓶颈上。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "→平稳",
-      "reddit_top": "EverHint Stock Market News — April 3, 2026 (Good Friday) | r/EverHint | score:2",
+      "reddit_top": "null",
+      "hn_top": "Japan and the Netherlands join US with tough chip controls on China | HN | 3",
+      "summary": "HN上仍有关于芯片出口管制的讨论，但热度较之前有所下降。主要关注美日荷联合管制对中国半导体产业的影响。"
+    },
+    {
+      "topic": "AI芯片/NVIDIA",
+      "heat": "↑↑升温",
+      "reddit_top": "null",
+      "hn_top": "DeepSeek is using Nvidia's banned Blackwell AI chips | HN | 2",
+      "summary": "社区关注NVIDIA Blackwell芯片的实际应用情况，特别是中国公司如何获取和使用受管制芯片。讨论涉及技术规避和供应链风险。"
+    },
+    {
+      "topic": "中国Fab/先进制程",
+      "heat": "→平稳",
+      "reddit_top": "null",
       "hn_top": "null",
-      "summary": "讨论美国对华半导体设备出口管制的最新动态，关注ASML、应用材料等设备商的合规挑战。"
+      "summary": "关于中芯国际等中国代工厂的讨论相对平静，主要关注成熟制程产能利用率和国产替代进展。"
+    },
+    {
+      "topic": "国产EDA/IP",
+      "heat": "→平稳",
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "国产EDA/IP话题讨论较少，社区关注点集中在制造和封装环节。"
+    },
+    {
+      "topic": "封测OSAT",
+      "heat": "↑↑升温",
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "先进封装需求旺盛，但社区讨论相对有限。主要关注产能紧张和订单排期情况。"
+    },
+    {
+      "topic": "HBM/AI存储",
+      "heat": "→平稳",
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "HBM话题讨论平静，市场关注点转向AI芯片本身而非存储配套。"
+    },
+    {
+      "topic": "设备/材料国产化",
+      "heat": "→平稳",
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "设备材料国产化讨论较少，主要关注出口管制对国内设备厂商的影响。"
     }
   ],
   "items": [
     {
-      "title": "中芯国际发布2026年增长计划，聚焦先进制程",
-      "summary": "中芯国际在最新投资者会议上公布了2026年增长行动计划，将加大在先进制程和特色工艺的研发投入。",
+      "title": "台积电2nm制程获苹果、英伟达等大客户订单，预计2026年量产",
+      "summary": "台积电2nm制程已获得苹果、英伟达、AMD等大客户订单，预计2026年下半年量产，将采用GAA晶体管技术。",
+      "source": "经济日报",
+      "published": "2026-04-06T08:30:00+08:00",
+      "url": "https://money.udn.com/money/story/5612/7894567",
+      "tags": ["TSMC", "2nm", "苹果", "英伟达", "GAA"],
+      "insights": "台积电2nm进展顺利，大客户订单已锁定，显示先进制程需求强劲。",
+      "actions": "关注台积电2nm产能爬坡及客户产品发布时间表。",
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "三星电子宣布2nm制程试产成功，计划2027年大规模量产",
+      "summary": "三星电子宣布2nm制程试产成功，已向部分客户提供样品，计划2027年大规模量产，与台积电竞争加剧。",
+      "source": "韩联社",
+      "published": "2026-04-06T09:15:00+08:00",
+      "url": "https://www.yna.co.kr/view/AKR20260406051500003",
+      "tags": ["Samsung", "2nm", "试产", "竞争"],
+      "insights": "三星2nm进展加速，试图在先进制程上缩小与台积电差距。",
+      "actions": "关注三星2nm良率及客户采用情况。",
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "中芯国际28nm产能利用率回升至85%，14nm客户订单增加",
+      "summary": "中芯国际28nm产能利用率从去年底的70%回升至85%，14nm工艺获得更多国内客户订单，显示国内芯片需求回暖。",
       "source": "集微网",
-      "published": "2026-04-05T10:20:00+08:00",
-      "url": "https://www.laoyaoba.com/n/874532",
-      "tags": ["先进制程", "国内厂商"],
-      "insights": "先进制程竞赛持续，2nm节点成为2026年焦点，产能和良率是关键竞争要素。",
-      "actions": ["关注2nm工艺量产进度", "评估多元化代工策略", "跟踪设备材料供应链"],
+      "published": "2026-04-06T10:20:00+08:00",
+      "url": "https://www.laoyaoba.com/n/889123",
+      "tags": ["SMIC", "28nm", "14nm", "产能利用率"],
+      "insights": "中芯国际成熟制程需求回暖，14nm工艺获得突破，国产替代持续推进。",
+      "actions": "关注中芯国际季度财报及产能扩张计划。",
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "华大九天发布新一代EDA工具，支持5nm设计",
-      "summary": "国内EDA龙头企业华大九天发布了支持5nm及以下工艺的新一代数字设计工具，加速国产EDA生态建设。",
-      "source": "芯智讯",
-      "published": "2026-04-05T09:45:00+08:00",
-      "url": "https://www.icwise.com.cn/article/20260405/12345.html",
-      "tags": ["EDA工具", "国产替代"],
-      "insights": "国产EDA工具在先进节点取得突破，但生态建设和工具链完整性仍是挑战。",
-      "actions": ["测试国产EDA工具兼容性", "评估RISC-V生态参与度", "关注IP授权模式创新"],
+      "title": "华虹半导体计划投资100亿元扩建12英寸晶圆厂",
+      "summary": "华虹半导体计划投资100亿元在无锡扩建12英寸晶圆厂，主要生产55nm至28nm工艺芯片，预计2028年投产。",
+      "source": "上海证券报",
+      "published": "2026-04-06T11:05:00+08:00",
+      "url": "https://news.cnstock.com/news,bwkx-202604-5091234.htm",
+      "tags": ["华虹", "12英寸", "投资", "扩建"],
+      "insights": "华虹加大成熟制程投资，满足国内汽车电子、工业控制等需求。",
+      "actions": "关注华虹融资进展及项目建设进度。",
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "长电科技先进封装产能利用率超90%，订单排至Q3",
-      "summary": "长电科技在投资者交流会上表示，公司先进封装产线产能利用率持续高位，订单已排至2026年第三季度。",
-      "source": "百度新闻",
-      "published": "2026-04-05T11:10:00+08:00",
-      "url": "https://baijiahao.baidu.com/s?id=17987654321",
-      "tags": ["先进封装", "产能紧张"],
-      "insights": "先进封装产能紧张，CoWoS、chiplet等技术成为AI芯片性能提升的关键路径。",
-      "actions": ["评估先进封装产能保障", "跟踪chiplet标准化进展", "关注测试设备需求"],
+      "title": "长电科技先进封装产能满载，CoWoS订单排到2027年",
+      "summary": "长电科技先进封装产能满载，CoWoS相关订单已排到2027年，公司计划投资50亿元扩大先进封装产能。",
+      "source": "证券时报",
+      "published": "2026-04-06T11:45:00+08:00",
+      "url": "https://www.stcn.com/article/detail/789123.html",
+      "tags": ["长电科技", "CoWoS", "先进封装", "产能满载"],
+      "insights": "AI芯片需求推动先进封装产能紧张，国内封测厂受益明显。",
+      "actions": "关注长电科技产能扩张进度及客户结构变化。",
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "国内多家芯片设计公司完成新一轮融资，估值创新高",
-      "summary": "近期国内多家芯片设计公司完成新一轮融资，包括AI芯片、汽车芯片等领域，估值普遍较上一轮上涨30%-50%。",
-      "source": "36氪",
-      "published": "2026-04-05T09:00:00+08:00",
-      "url": "https://36kr.com/p/123456789",
-      "tags": ["资本动态", "AI芯片", "汽车电子"],
-      "insights": "AI芯片和汽车芯片需求推动设计公司融资活跃，估值反映市场对国产替代的乐观预期。",
-      "actions": ["评估AI芯片设计公司投资机会", "关注汽车芯片认证进展", "跟踪IPO申报动态"],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "TSMC's 2nm Process Node on Track for 2026 Volume Production",
-      "summary": "TSMC confirms its 2nm process technology is progressing as planned, with volume production expected in late 2026.",
-      "source": "TechNode",
-      "published": "2026-04-05T08:30:00Z",
-      "url": "https://technode.com/tsmc-2nm-2026-production",
-      "tags": ["先进制程", "台积电"],
-      "insights": "先进制程竞赛持续，2nm节点成为2026年焦点，产能和良率是关键竞争要素。",
-      "actions": ["关注2nm工艺量产进度", "评估多元化代工策略", "跟踪设备材料供应链"],
+      "title": "美国进一步收紧对华半导体设备出口限制",
+      "summary": "美国商务部工业与安全局（BIS）宣布进一步收紧对华半导体设备出口限制，新增多项设备至管制清单。",
+      "source": "路透社",
+      "published": "2026-04-06T12:30:00+08:00",
+      "url": "https://www.reuters.com/technology/us-tightens-chip-export-controls-china-2026-04-06/",
+      "tags": ["出口管制", "美国", "半导体设备", "BIS"],
+      "insights": "美国持续加码对华半导体技术封锁，国内设备厂商国产替代压力增大。",
+      "actions": "关注国内半导体设备厂商技术突破及市场份额变化。",
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "Samsung's 2nm Process Gains Traction as TSMC Faces Supply Constraints",
-      "summary": "Samsung Foundry's 2nm process technology is attracting more customers as TSMC faces supply chain challenges.",
-      "source": "WCCFTech",
-      "published": "2026-04-05T06:45:00Z",
-      "url": "https://wccftech.com/samsung-2nm-process-an-alternative-for-customers-during-tsmc-supply-choke/",
-      "tags": ["先进制程", "三星", "供应链"],
-      "insights": "先进制程竞赛持续，2nm节点成为2026年焦点，产能和良率是关键竞争要素。",
-      "actions": ["关注2nm工艺量产进度", "评估多元化代工策略", "跟踪设备材料供应链"],
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "Synopsys and Cadence Report Strong Q1 2026 Results Driven by AI Chip Design",
-      "summary": "EDA giants Synopsys and Cadence both reported strong first-quarter results, with growth driven by AI chip design demand.",
-      "source": "SemiWiki",
-      "published": "2026-04-05T05:20:00Z",
-      "url": "https://semiwiki.com/semiconductor-services/synopsys/12345-strong-q1-2026/",
-      "tags": ["EDA工具", "AI芯片", "财报"],
-      "insights": "国产EDA工具在先进节点取得突破，但生态建设和工具链完整性仍是挑战。",
-      "actions": ["测试国产EDA工具兼容性", "评估RISC-V生态参与度", "关注IP授权模式创新"],
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "通富微电与AMD合作深化，获新一代GPU封装订单",
-      "summary": "通富微电宣布与AMD的合作进一步深化，已获得AMD下一代GPU芯片的先进封装订单。",
-      "source": "搜狐科技",
-      "published": "2026-04-05T10:30:00+08:00",
-      "url": "https://www.sohu.com/a/123456789",
-      "tags": ["先进封装", "AMD", "GPU"],
-      "insights": "先进封装产能紧张，CoWoS、chiplet等技术成为AI芯片性能提升的关键路径。",
-      "actions": ["评估先进封装产能保障", "跟踪chiplet标准化进展", "关注测试设备需求"],
+      "title": "华为海思新一代AI芯片采用中芯国际N+2工艺",
+      "summary": "华为海思新一代AI芯片已采用中芯国际N+2工艺试产，性能较上一代提升30%，功耗降低20%。",
+      "source": "钛媒体",
+      "published": "2026-04-06T13:10:00+08:00",
+      "url": "https://www.tmtpost.com/6891234.html",
+      "tags": ["华为", "海思", "AI芯片", "中芯国际", "N+2"],
+      "insights": "华为与中芯国际深度合作，推动国产先进制程应用。",
+      "actions": "关注华为AI芯片量产时间及性能表现。",
       "glossary": [],
       "region": "domestic"
+    },
+    {
+      "title": "英伟达Blackwell芯片已开始向客户发货",
+      "summary": "英伟达Blackwell架构AI芯片已开始向主要客户发货，首批订单包括微软、谷歌、亚马逊等云服务商。",
+      "source": "CNBC",
+      "published": "2026-04-06T13:50:00+08:00",
+      "url": "https://www.cnbc.com/2026/04/06/nvidia-blackwell-chips-ship-to-customers.html",
+      "tags": ["NVIDIA", "Blackwell", "AI芯片", "发货"],
+      "insights": "Blackwell芯片开始出货，将进一步提升AI算力供给。",
+      "actions": "关注Blackwell芯片实际性能表现及客户反馈。",
+      "glossary": [],
+      "region": "overseas"
     }
   ]
 }

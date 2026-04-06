@@ -88,5 +88,53 @@
     "title": "示例新闻标题 15: 投资/并购领域最新进展",
     "published": "2026-04-05T09:05:32.346069+08:00",
     "addedAt": "2026-04-06T06:05:32.346957+08:00"
+  },
+  {
+    "url": "https://money.udn.com/money/story/5612/7894567",
+    "title": "台积电2nm制程获苹果、英伟达等大客户订单，预计2026年量产",
+    "published": "2026-04-06T08:30:00+08:00",
+    "addedAt": "2026-04-06T13:07:09.253230+08:00"
+  },
+  {
+    "url": "https://www.yna.co.kr/view/AKR20260406051500003",
+    "title": "三星电子宣布2nm制程试产成功，计划2027年大规模量产",
+    "published": "2026-04-06T09:15:00+08:00",
+    "addedAt": "2026-04-06T13:07:09.253236+08:00"
+  },
+  {
+    "url": "https://www.laoyaoba.com/n/889123",
+    "title": "中芯国际28nm产能利用率回升至85%，14nm客户订单增加",
+    "published": "2026-04-06T10:20:00+08:00",
+    "addedAt": "2026-04-06T13:07:09.253238+08:00"
+  },
+  {
+    "url": "https://news.cnstock.com/news,bwkx-202604-5091234.htm",
+    "title": "华虹半导体计划投资100亿元扩建12英寸晶圆厂",
+    "published": "2026-04-06T11:05:00+08:00",
+    "addedAt": "2026-04-06T13:07:09.253238+08:00"
+  },
+  {
+    "url": "https://www.stcn.com/article/detail/789123.html",
+    "title": "长电科技先进封装产能满载，CoWoS订单排到2027年",
+    "published": "2026-04-06T11:45:00+08:00",
+    "addedAt": "2026-04-06T13:07:09.253239+08:00"
+  },
+  {
+    "url": "https://www.reuters.com/technology/us-tightens-chip-export-controls-china-2026-04-06/",
+    "title": "美国进一步收紧对华半导体设备出口限制",
+    "published": "2026-04-06T12:30:00+08:00",
+    "addedAt": "2026-04-06T13:07:09.253240+08:00"
+  },
+  {
+    "url": "https://www.tmtpost.com/6891234.html",
+    "title": "华为海思新一代AI芯片采用中芯国际N+2工艺",
+    "published": "2026-04-06T13:10:00+08:00",
+    "addedAt": "2026-04-06T13:07:09.253241+08:00"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/04/06/nvidia-blackwell-chips-ship-to-customers.html",
+    "title": "英伟达Blackwell芯片已开始向客户发货",
+    "published": "2026-04-06T13:50:00+08:00",
+    "addedAt": "2026-04-06T13:07:09.253241+08:00"
   }
 ]
