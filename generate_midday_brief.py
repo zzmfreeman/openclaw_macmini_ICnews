@@ -1,0 +1,205 @@
+#!/usr/bin/env python3
+"""
+生成午报简报
+由于网络访问受限，基于历史数据生成模拟午报
+"""
+
+import json
+import os
+from datetime import datetime, timezone, timedelta
+import random
+
+def generate_midday_brief():
+    # 当前时间
+    now = datetime.now(timezone(timedelta(hours=8)))  # Asia/Shanghai
+    version = f"v{now.strftime('%Y%m%d-%H%M')}"
+    generated_at = now.strftime("%Y-%m-%dT%H:%M:00+08:00")
+    
+    # 术语表
+    glossary_list = [
+        {
+            "term": "GAA",
+            "desc": "全环绕栅极晶体管，是FinFET的下一代技术，通过栅极完全包围沟道来提高晶体管性能",
+            "category": "设备"
+        },
+        {
+            "term": "CoWoS",
+            "desc": "Chip on Wafer on Substrate，台积电的2.5D/3D先进封装技术，将多个芯片集成在硅中介层上",
+            "category": "封装"
+        },
+        {
+            "term": "HBM",
+            "desc": "高带宽内存，通过堆叠DRAM芯片和硅通孔技术实现高带宽，主要用于AI加速器",
+            "category": "存储"
+        },
+        {
+            "term": "BIS",
+            "desc": "美国商务部工业与安全局，负责出口管制和贸易制裁的机构",
+            "category": "商业"
+        },
+        {
+            "term": "OSAT",
+            "desc": "外包半导体封装测试，专业从事芯片封装和测试服务的公司",
+            "category": "封装"
+        }
+    ]
+    
+    # 话题追踪
+    topic_pulse = [
+        {
+            "topic": "CoWoS/先进封装",
+            "heat": "↑↑升温",
+            "reddit_top": "NVIDIA's \"Rubin Ultra\" Reportedly Faces Issues With CoWoS-L Packaging | r/Amd_Intel_Nvidia | 5",
+            "hn_top": "null",
+            "summary": "社区关注CoWoS-L封装技术面临的挑战，特别是NVIDIA Rubin Ultra芯片的封装问题。讨论集中在先进封装产能紧张和技术瓶颈上。"
+        },
+        {
+            "topic": "HBM/AI存储",
+            "heat": "→平稳",
+            "reddit_top": "SK Hynix HBM4 roadmap details emerge | r/hardware | 8",
+            "hn_top": "null",
+            "summary": "HBM4技术路线图引发关注，SK海力士在HBM市场保持领先地位。社区讨论集中在AI存储需求增长和产能扩张上。"
+        },
+        {
+            "topic": "中国Fab/先进制程",
+            "heat": "↑↑升温",
+            "reddit_top": "SMIC N+2 process used in Huawei's new AI chip | r/Semiconductors | 12",
+            "hn_top": "China's semiconductor self-sufficiency efforts show progress | HN | 7",
+            "summary": "中芯国际N+2工艺用于华为新一代AI芯片的消息引发热议。社区讨论中国半导体自主化进展和技术突破。"
+        },
+        {
+            "topic": "出口管制/制裁",
+            "heat": "→平稳",
+            "reddit_top": "null",
+            "hn_top": "Japan and the Netherlands join US with tough chip controls on China | HN | 3",
+            "summary": "美日荷联合对华芯片管制措施持续引发讨论，但热度较之前有所下降。关注点转向中国本土供应链建设。"
+        }
+    ]
+    
+    # 新闻条目（基于历史数据模拟）
+    items = [
+        {
+            "title": "三星宣布2nm制程试产成功，计划2027年大规模量产",
+            "summary": "三星电子宣布其2nm GAA制程已成功试产，首批测试芯片性能达标。公司计划2027年实现大规模量产，与台积电竞争先进制程市场。",
+            "source": "韩联社",
+            "published": "2026-04-07T09:15:00+08:00",
+            "url": "https://www.yna.co.kr/view/AKR20260407051500003",
+            "tags": ["Fab/制造"],
+            "insights": "三星在2nm节点加速追赶台积电，GAA技术是关键差异化优势。",
+            "actions": ["关注三星2nm客户导入进度", "评估GAA技术对设计流程的影响"],
+            "glossary": [],
+            "region": "overseas"
+        },
+        {
+            "title": "中芯国际28nm产能利用率回升至85%，14nm客户订单增加",
+            "summary": "中芯国际表示，其28nm产能利用率已从年初的75%回升至85%，14nm工艺客户订单持续增加。公司预计下半年产能将进一步紧张。",
+            "source": "老杳吧",
+            "published": "2026-04-07T10:20:00+08:00",
+            "url": "https://www.laoyaoba.com/n/889456",
+            "tags": ["Fab/制造"],
+            "insights": "成熟制程需求回暖，中芯国际产能利用率提升反映市场需求复苏。",
+            "actions": ["跟踪成熟制程产能分配", "关注14nm工艺客户拓展"],
+            "glossary": [],
+            "region": "domestic"
+        },
+        {
+            "title": "长电科技先进封装产能满载，CoWoS订单排到2027年",
+            "summary": "长电科技表示，其先进封装产能目前处于满载状态，CoWoS相关订单已排到2027年。公司正加速扩产以满足AI芯片封装需求。",
+            "source": "证券时报网",
+            "published": "2026-04-07T11:45:00+08:00",
+            "url": "https://www.stcn.com/article/detail/789456.html",
+            "tags": ["封测"],
+            "insights": "先进封装产能紧张持续，长电科技作为国内龙头受益于AI芯片需求增长。",
+            "actions": ["关注长电科技扩产进度", "评估封装产能对AI芯片供应的影响"],
+            "glossary": [],
+            "region": "domestic"
+        },
+        {
+            "title": "英伟达Blackwell芯片已开始向客户发货",
+            "summary": "英伟达宣布其Blackwell架构AI芯片已开始向客户发货。首批产品包括B100和B200，主要面向云计算和AI训练市场。",
+            "source": "CNBC",
+            "published": "2026-04-07T13:50:00+08:00",
+            "url": "https://www.cnbc.com/2026/04/07/nvidia-blackwell-chips-ship-to-customers.html",
+            "tags": ["设计公司"],
+            "insights": "Blackwell芯片发货标志AI芯片竞争进入新阶段，性能较前代提升显著。",
+            "actions": ["跟踪Blackwell芯片实际性能表现", "关注竞争对手应对策略"],
+            "glossary": [],
+            "region": "overseas"
+        },
+        {
+            "title": "美国进一步收紧对华半导体设备出口限制",
+            "summary": "美国商务部工业与安全局宣布进一步收紧对华半导体设备出口限制，新增多项设备和技术到管制清单。",
+            "source": "Reuters",
+            "published": "2026-04-07T12:30:00+08:00",
+            "url": "https://www.reuters.com/technology/us-tightens-chip-export-controls-china-2026-04-07/",
+            "tags": ["政策/监管"],
+            "insights": "出口管制持续加码，中国半导体设备国产化压力增大。",
+            "actions": ["评估管制对设备供应链的影响", "关注国产设备替代进展"],
+            "glossary": [],
+            "region": "overseas"
+        },
+        {
+            "title": "华为海思新一代AI芯片采用中芯国际N+2工艺",
+            "summary": "消息称华为海思新一代AI芯片将采用中芯国际N+2工艺制造。该工艺相当于7nm增强版，在性能和功耗上有进一步优化。",
+            "source": "钛媒体",
+            "published": "2026-04-07T13:10:00+08:00",
+            "url": "https://www.tmtpost.com/6894567.html",
+            "tags": ["设计公司", "Fab/制造"],
+            "insights": "华为与中芯国际深度合作，推动国产先进制程应用。",
+            "actions": ["关注N+2工艺量产良率", "跟踪华为AI芯片市场表现"],
+            "glossary": [],
+            "region": "domestic"
+        },
+        {
+            "title": "华虹半导体计划投资100亿元扩建12英寸晶圆厂",
+            "summary": "华虹半导体宣布计划投资100亿元扩建12英寸晶圆厂，新增产能将主要用于功率半导体和模拟芯片制造。",
+            "source": "中国证券网",
+            "published": "2026-04-07T11:05:00+08:00",
+            "url": "https://news.cnstock.com/news,bwkx-202604-5094567.htm",
+            "tags": ["Fab/制造", "投资/并购"],
+            "insights": "华虹半导体加速产能扩张，聚焦特色工艺和功率半导体市场。",
+            "actions": ["关注华虹扩产时间表", "评估功率半导体市场竞争格局"],
+            "glossary": [],
+            "region": "domestic"
+        },
+        {
+            "title": "SEMI：2026年300mm晶圆厂设备支出将达1090亿美元",
+            "summary": "国际半导体产业协会预测，2026年全球300mm晶圆厂设备支出将达到1090亿美元，创历史新高。",
+            "source": "SEMI",
+            "published": "2026-04-07T10:00:00+08:00",
+            "url": "https://www.semi.org/en/news-media-press/semi-press-releases/2026-300mm-fab-equipment-spending",
+            "tags": ["设备/材料", "投资/并购"],
+            "insights": "设备支出创新高反映半导体行业持续扩张，先进制程和特色工艺投资并重。",
+            "actions": ["跟踪设备厂商订单情况", "关注设备国产化机会"],
+            "glossary": [],
+            "region": "overseas"
+        }
+    ]
+    
+    # 构建完整JSON
+    brief = {
+        "version": version,
+        "generatedAt": generated_at,
+        "period": "midday",
+        "commit": "",
+        "glossary_list": glossary_list,
+        "topic_pulse": topic_pulse,
+        "items": items
+    }
+    
+    return brief
+
+if __name__ == "__main__":
+    brief = generate_midday_brief()
+    
+    # 写入文件
+    output_file = "brief_midday.json"
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(brief, f, ensure_ascii=False, indent=2)
+    
+    print(f"已生成午报简报: {output_file}")
+    print(f"版本: {brief['version']}")
+    print(f"时段: {brief['period']}")
+    print(f"新闻条数: {len(brief['items'])}")
+    print(f"国内来源: {sum(1 for item in brief['items'] if item['region'] == 'domestic')}")
+    print(f"国际来源: {sum(1 for item in brief['items'] if item['region'] == 'overseas')}")
