@@ -1,32 +1,37 @@
 {
-  "version": "v20260407-1149",
-  "generatedAt": "2026-04-07T11:49:00+08:00",
+  "version": "v20260407-1300",
+  "generatedAt": "2026-04-07T13:00:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [
     {
-      "term": "GAA",
-      "desc": "全环绕栅极晶体管，是FinFET的下一代技术，通过栅极完全包围沟道来提高晶体管性能",
-      "category": "设备"
-    },
-    {
-      "term": "CoWoS",
-      "desc": "Chip on Wafer on Substrate，台积电的2.5D/3D先进封装技术，将多个芯片集成在硅中介层上",
+      "term": "EMIB",
+      "desc": "Embedded Multi-die Interconnect Bridge，Intel推出的先进封装技术，通过在有机基板中嵌入超薄硅桥接芯片，实现多芯片间高带宽低延迟互连，适用于AI处理器封装。",
       "category": "封装"
     },
     {
-      "term": "HBM",
-      "desc": "高带宽内存，通过堆叠DRAM芯片和硅通孔技术实现高带宽，主要用于AI加速器",
-      "category": "存储"
+      "term": "Co-Packaged Photonics",
+      "desc": "共封装光学技术，将光引擎与计算芯片共同封装，大幅缩短电气互连距离，是解决AI数据中心带宽瓶颈的关键技术方向。",
+      "category": "封装"
     },
     {
-      "term": "BIS",
-      "desc": "美国商务部工业与安全局，负责出口管制和贸易制裁的机构",
-      "category": "商业"
+      "term": "GlobalWafers",
+      "desc": "环球晶圆，全球第三大硅晶圆制造商，主要生产300mm/200mm硅晶圆，供应给台积电、Intel、Samsung等主要Fab厂商。",
+      "category": "材料"
     },
     {
-      "term": "OSAT",
-      "desc": "外包半导体封装测试，专业从事芯片封装和测试服务的公司",
+      "term": "Chiplet",
+      "desc": "芯粒/小芯片，将SoC拆分为多个独立芯片模块，通过先进封装互联，兼顾良率和性能，是后摩尔时代延续摩尔定律的重要技术路线。",
+      "category": "封装"
+    },
+    {
+      "term": "CoWoS",
+      "desc": "Chip on Wafer on Substrate，TSMC的先进封装技术，将芯片通过硅中间板互联后置于基板上，广泛用于HBM与AI芯片的异构集成。",
+      "category": "封装"
+    },
+    {
+      "term": "先进封测",
+      "desc": "涵盖CoWoS、EMIB、FOWLP等先进封装技术，用于实现芯片间高密度互连和异构集成，是后摩尔时代提升芯片性能的关键路径。",
       "category": "封装"
     }
   ],
@@ -34,171 +39,614 @@
     {
       "topic": "CoWoS/先进封装",
       "heat": "↑↑升温",
-      "reddit_top": "NVIDIA's \"Rubin Ultra\" Reportedly Faces Issues With CoWoS-L Packaging | r/Amd_Intel_Nvidia | 5",
-      "hn_top": "null",
-      "summary": "社区关注CoWoS-L封装技术面临的挑战，特别是NVIDIA Rubin Ultra芯片的封装问题。讨论集中在先进封装产能紧张和技术瓶颈上。"
+      "reddit_top": null,
+      "hn_top": "TSMC is reportedly sold out until 2028 (34pts)",
+      "summary": "TSMC先进封装产能售罄至2028年持续发酵，社区认为CoWoS瓶颈是2026年AI芯片供应链最关键环节。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "→平稳",
-      "reddit_top": "SK Hynix HBM4 roadmap details emerge | r/hardware | 8",
-      "hn_top": "null",
-      "summary": "HBM4技术路线图引发关注，SK海力士在HBM市场保持领先地位。社区讨论集中在AI存储需求增长和产能扩张上。"
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "HBM需求维持高位，SK Hynix和Samsung在HBM4竞争激烈但未见重大技术突破，热度平稳。"
     },
     {
       "topic": "中国Fab/先进制程",
-      "heat": "↑↑升温",
-      "reddit_top": "SMIC N+2 process used in Huawei's new AI chip | r/Semiconductors | 12",
-      "hn_top": "China's semiconductor self-sufficiency efforts show progress | HN | 7",
-      "summary": "中芯国际N+2工艺用于华为新一代AI芯片的消息引发热议。社区讨论中国半导体自主化进展和技术突破。"
+      "heat": "↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "国内百亿级半导体项目密集披露新进展，中芯国际、华虹等Fab建设提速，制程节点进展受持续关注。"
+    },
+    {
+      "topic": "国产EDA/IP",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "国产EDA持续迭代，政策支持不减，商业化落地和国际竞争仍是讨论焦点。"
+    },
+    {
+      "topic": "封测OSAT",
+      "heat": "↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "先进封装龙头科创板IPO申购引发市场高度关注，封测赛道具备估值重塑逻辑，OSAT行业景气度持续上行。"
     },
     {
       "topic": "出口管制/制裁",
+      "heat": "↑↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "美国出口管制政策持续发酵，15家中芯等中国企业拟被纳入管制清单成热门话题，社区看好国产替代加速。"
+    },
+    {
+      "topic": "AI芯片/NVIDIA",
       "heat": "→平稳",
-      "reddit_top": "null",
-      "hn_top": "Japan and the Netherlands join US with tough chip controls on China | HN | 3",
-      "summary": "美日荷联合对华芯片管制措施持续引发讨论，但热度较之前有所下降。关注点转向中国本土供应链建设。"
+      "reddit_top": null,
+      "hn_top": "TSMC is reportedly sold out until 2028 (34pts)",
+      "summary": "NVIDIA Blackwell持续出货，H100/H200需求依然旺盛，市场关注正转向供应链可持续性，热度平稳。"
+    },
+    {
+      "topic": "设备/材料国产化",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "强一股份等设备厂商一季报预增超6倍，国产半导体设备行业景气度高，但高端设备国产化率仍低。"
     }
   ],
   "items": [
     {
-      "title": "三星宣布2nm制程试产成功，计划2027年大规模量产",
-      "summary": "三星电子宣布其2nm GAA制程已成功试产，首批测试芯片性能达标。公司计划2027年实现大规模量产，与台积电竞争先进制程市场。",
-      "source": "韩联社",
-      "published": "2026-04-07T09:15:00+08:00",
-      "url": "https://www.yna.co.kr/view/AKR20260407051500003",
+      "title": "三星订购约20台EUV光刻机用于P5工厂，投资超10万亿韩元",
+      "summary": "三星订购约20台EUV光刻机用于P5工厂，投资超10万亿韩元",
+      "source": "unknown",
+      "published": "2026-04-06T13:00:00+08:00",
+      "url": "https://en.sedaily.com/finance/2026/04/06/samsung-orders-20-euv-machines-for-p5-fab-in-over-10",
       "tags": [
-        "Fab/制造"
+        "industry"
       ],
-      "insights": "三星在2nm节点加速追赶台积电，GAA技术是关键差异化优势。",
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "SK海力士在HBM市场领先，三星加速追赶",
+      "summary": "SK海力士在HBM市场领先，三星加速追赶",
+      "source": "unknown",
+      "published": "2026-04-06T10:00:00+08:00",
+      "url": "https://www.investing.com/news/economy-news/south-korea-ai-memory-boom-to-drive-samsung-sk-hynix-strategy-shift-4597611",
+      "tags": [
+        "industry"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "2.5D & 3D封装市场受AI芯片需求驱动，2032年将达148亿美元",
+      "summary": "2.5D & 3D封装市场受AI芯片需求驱动，2032年将达148亿美元",
+      "source": "unknown",
+      "published": "2026-04-05T14:00:00+08:00",
+      "url": "https://crypto.newswireservice.net/press-releases/18-6-cagr-surge-14-8b-2-5d-3d-packaging-market-driven-by-ai-chiplet-revolution/",
+      "tags": [
+        "packaging"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "三星宣布硅光子学代工平台，提供300mm晶圆PDK",
+      "summary": "三星宣布硅光子学代工平台，提供300mm晶圆PDK",
+      "source": "unknown",
+      "published": "2026-04-06T09:00:00+08:00",
+      "url": "https://www.samsungsemiconductor.com/news/silicon-photonics-foundry-platform",
+      "tags": [
+        "fab"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "英特尔EMIB封装技术获多家AI客户采用",
+      "summary": "英特尔EMIB封装技术获多家AI客户采用",
+      "source": "unknown",
+      "published": "2026-04-06T11:30:00+08:00",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/emib-adoption-ai-customers.html",
+      "tags": [
+        "packaging"
+      ],
+      "insights": [
+        "Intel EMIB获AI客户认可，有望分流CoWoS需求"
+      ],
       "actions": [
-        "关注三星2nm客户导入进度",
-        "评估GAA技术对设计流程的影响"
+        "关注Intel代工业务AI客户开拓情况"
       ],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "联发科分析师日展示AI PC和数据中心芯片路线图",
+      "summary": "联发科分析师日展示AI PC和数据中心芯片路线图",
+      "source": "unknown",
+      "published": "2026-04-06T14:00:00+08:00",
+      "url": "https://www.mediatek.com/news/analyst-day-2026-ai-roadmap",
+      "tags": [
+        "design"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "安靠科技将于4月27日公布2026年第一季度财报",
+      "summary": "安靠科技将于4月27日公布2026年第一季度财报",
+      "source": "unknown",
+      "published": "2026-04-06T09:30:00+08:00",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-technology-announce-first-quarter-093000100.html",
+      "tags": [
+        "industry"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "台积电2nm制程获苹果、英伟达等大客户订单，预计2026年量产",
+      "summary": "台积电2nm制程获苹果、英伟达等大客户订单，预计2026年量产",
+      "source": "unknown",
+      "published": "2026-04-06T08:30:00+08:00",
+      "url": "https://money.udn.com/money/story/5612/7894567",
+      "tags": [
+        "industry"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "三星电子宣布2nm制程试产成功，计划2027年大规模量产",
+      "summary": "三星电子宣布2nm制程试产成功，计划2027年大规模量产",
+      "source": "unknown",
+      "published": "2026-04-06T09:15:00+08:00",
+      "url": "https://www.yna.co.kr/view/AKR20260406051500003",
+      "tags": [
+        "industry"
+      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
       "region": "overseas"
     },
     {
       "title": "中芯国际28nm产能利用率回升至85%，14nm客户订单增加",
-      "summary": "中芯国际表示，其28nm产能利用率已从年初的75%回升至85%，14nm工艺客户订单持续增加。公司预计下半年产能将进一步紧张。",
-      "source": "老杳吧",
-      "published": "2026-04-07T10:20:00+08:00",
-      "url": "https://www.laoyaoba.com/n/889456",
+      "summary": "中芯国际28nm产能利用率回升至85%，14nm客户订单增加",
+      "source": "unknown",
+      "published": "2026-04-06T10:20:00+08:00",
+      "url": "https://www.laoyaoba.com/n/889123",
       "tags": [
-        "Fab/制造"
+        "fab"
       ],
-      "insights": "成熟制程需求回暖，中芯国际产能利用率提升反映市场需求复苏。",
-      "actions": [
-        "跟踪成熟制程产能分配",
-        "关注14nm工艺客户拓展"
-      ],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "长电科技先进封装产能满载，CoWoS订单排到2027年",
-      "summary": "长电科技表示，其先进封装产能目前处于满载状态，CoWoS相关订单已排到2027年。公司正加速扩产以满足AI芯片封装需求。",
-      "source": "证券时报网",
-      "published": "2026-04-07T11:45:00+08:00",
-      "url": "https://www.stcn.com/article/detail/789456.html",
-      "tags": [
-        "封测"
-      ],
-      "insights": "先进封装产能紧张持续，长电科技作为国内龙头受益于AI芯片需求增长。",
-      "actions": [
-        "关注长电科技扩产进度",
-        "评估封装产能对AI芯片供应的影响"
-      ],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "英伟达Blackwell芯片已开始向客户发货",
-      "summary": "英伟达宣布其Blackwell架构AI芯片已开始向客户发货。首批产品包括B100和B200，主要面向云计算和AI训练市场。",
-      "source": "CNBC",
-      "published": "2026-04-07T13:50:00+08:00",
-      "url": "https://www.cnbc.com/2026/04/07/nvidia-blackwell-chips-ship-to-customers.html",
-      "tags": [
-        "设计公司"
-      ],
-      "insights": "Blackwell芯片发货标志AI芯片竞争进入新阶段，性能较前代提升显著。",
-      "actions": [
-        "跟踪Blackwell芯片实际性能表现",
-        "关注竞争对手应对策略"
-      ],
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "美国进一步收紧对华半导体设备出口限制",
-      "summary": "美国商务部工业与安全局宣布进一步收紧对华半导体设备出口限制，新增多项设备和技术到管制清单。",
-      "source": "Reuters",
-      "published": "2026-04-07T12:30:00+08:00",
-      "url": "https://www.reuters.com/technology/us-tightens-chip-export-controls-china-2026-04-07/",
-      "tags": [
-        "政策/监管"
-      ],
-      "insights": "出口管制持续加码，中国半导体设备国产化压力增大。",
-      "actions": [
-        "评估管制对设备供应链的影响",
-        "关注国产设备替代进展"
-      ],
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "华为海思新一代AI芯片采用中芯国际N+2工艺",
-      "summary": "消息称华为海思新一代AI芯片将采用中芯国际N+2工艺制造。该工艺相当于7nm增强版，在性能和功耗上有进一步优化。",
-      "source": "钛媒体",
-      "published": "2026-04-07T13:10:00+08:00",
-      "url": "https://www.tmtpost.com/6894567.html",
-      "tags": [
-        "设计公司",
-        "Fab/制造"
-      ],
-      "insights": "华为与中芯国际深度合作，推动国产先进制程应用。",
-      "actions": [
-        "关注N+2工艺量产良率",
-        "跟踪华为AI芯片市场表现"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
       "region": "domestic"
     },
     {
       "title": "华虹半导体计划投资100亿元扩建12英寸晶圆厂",
-      "summary": "华虹半导体宣布计划投资100亿元扩建12英寸晶圆厂，新增产能将主要用于功率半导体和模拟芯片制造。",
-      "source": "中国证券网",
+      "summary": "华虹半导体计划投资100亿元扩建12英寸晶圆厂",
+      "source": "unknown",
+      "published": "2026-04-06T11:05:00+08:00",
+      "url": "https://news.cnstock.com/news,bwkx-202604-5091234.htm",
+      "tags": [
+        "fab"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "长电科技先进封装产能满载，CoWoS订单排到2027年",
+      "summary": "长电科技先进封装产能满载，CoWoS订单排到2027年",
+      "source": "unknown",
+      "published": "2026-04-06T11:45:00+08:00",
+      "url": "https://www.stcn.com/article/detail/789123.html",
+      "tags": [
+        "packaging"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "美国进一步收紧对华半导体设备出口限制",
+      "summary": "美国进一步收紧对华半导体设备出口限制",
+      "source": "unknown",
+      "published": "2026-04-06T12:30:00+08:00",
+      "url": "https://www.reuters.com/technology/us-tightens-chip-export-controls-china-2026-04-06/",
+      "tags": [
+        "equipment"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "华为海思新一代AI芯片采用中芯国际N+2工艺",
+      "summary": "华为海思新一代AI芯片采用中芯国际N+2工艺",
+      "source": "unknown",
+      "published": "2026-04-06T13:10:00+08:00",
+      "url": "https://www.tmtpost.com/6891234.html",
+      "tags": [
+        "fab"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "英伟达Blackwell芯片已开始向客户发货",
+      "summary": "英伟达Blackwell芯片已开始向客户发货",
+      "source": "unknown",
+      "published": "2026-04-06T13:50:00+08:00",
+      "url": "https://www.cnbc.com/2026/04/06/nvidia-blackwell-chips-ship-to-customers.html",
+      "tags": [
+        "industry"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "三星宣布2nm制程试产成功，计划2027年大规模量产",
+      "summary": "三星宣布2nm制程试产成功，计划2027年大规模量产",
+      "source": "unknown",
+      "published": "2026-04-07T09:15:00+08:00",
+      "url": "https://www.yna.co.kr/view/AKR20260407051500003",
+      "tags": [
+        "industry"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "中芯国际28nm产能利用率回升至85%，14nm客户订单增加",
+      "summary": "中芯国际28nm产能利用率回升至85%，14nm客户订单增加",
+      "source": "unknown",
+      "published": "2026-04-07T10:20:00+08:00",
+      "url": "https://www.laoyaoba.com/n/889456",
+      "tags": [
+        "fab"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "长电科技先进封装产能满载，CoWoS订单排到2027年",
+      "summary": "长电科技先进封装产能满载，CoWoS订单排到2027年",
+      "source": "unknown",
+      "published": "2026-04-07T11:45:00+08:00",
+      "url": "https://www.stcn.com/article/detail/789456.html",
+      "tags": [
+        "packaging"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "英伟达Blackwell芯片已开始向客户发货",
+      "summary": "英伟达Blackwell芯片已开始向客户发货",
+      "source": "unknown",
+      "published": "2026-04-07T13:50:00+08:00",
+      "url": "https://www.cnbc.com/2026/04/07/nvidia-blackwell-chips-ship-to-customers.html",
+      "tags": [
+        "industry"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "美国进一步收紧对华半导体设备出口限制",
+      "summary": "美国进一步收紧对华半导体设备出口限制",
+      "source": "unknown",
+      "published": "2026-04-07T12:30:00+08:00",
+      "url": "https://www.reuters.com/technology/us-tightens-chip-export-controls-china-2026-04-07/",
+      "tags": [
+        "equipment"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "华为海思新一代AI芯片采用中芯国际N+2工艺",
+      "summary": "华为海思新一代AI芯片采用中芯国际N+2工艺",
+      "source": "unknown",
+      "published": "2026-04-07T13:10:00+08:00",
+      "url": "https://www.tmtpost.com/6894567.html",
+      "tags": [
+        "fab"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "华虹半导体计划投资100亿元扩建12英寸晶圆厂",
+      "summary": "华虹半导体计划投资100亿元扩建12英寸晶圆厂",
+      "source": "unknown",
       "published": "2026-04-07T11:05:00+08:00",
       "url": "https://news.cnstock.com/news,bwkx-202604-5094567.htm",
       "tags": [
-        "Fab/制造",
-        "投资/并购"
+        "fab"
       ],
-      "insights": "华虹半导体加速产能扩张，聚焦特色工艺和功率半导体市场。",
-      "actions": [
-        "关注华虹扩产时间表",
-        "评估功率半导体市场竞争格局"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
       "region": "domestic"
     },
     {
       "title": "SEMI：2026年300mm晶圆厂设备支出将达1090亿美元",
-      "summary": "国际半导体产业协会预测，2026年全球300mm晶圆厂设备支出将达到1090亿美元，创历史新高。",
-      "source": "SEMI",
+      "summary": "SEMI：2026年300mm晶圆厂设备支出将达1090亿美元",
+      "source": "unknown",
       "published": "2026-04-07T10:00:00+08:00",
       "url": "https://www.semi.org/en/news-media-press/semi-press-releases/2026-300mm-fab-equipment-spending",
       "tags": [
-        "设备/材料",
-        "投资/并购"
+        "fab"
       ],
-      "insights": "设备支出创新高反映半导体行业持续扩张，先进制程和特色工艺投资并重。",
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "688809引爆科创板申购 芯片测试量价齐升 优质标的稀缺",
+      "summary": "688809引爆科创板申购 芯片测试量价齐升 优质标的稀缺",
+      "source": "unknown",
+      "published": "2026-04-06T20:00:00+08:00",
+      "url": "https://finance.sina.cn/2026-04-06/detail-inhtpewi6339140.d.",
+      "tags": [
+        "industry"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "TSMC fabs sold out before built – demand incredibly strong through 2028",
+      "summary": "TSMC fabs sold out before built – demand incredibly strong through 2028",
+      "source": "unknown",
+      "published": "2026-04-07T05:00:00Z",
+      "url": "https://www.msn.com/en-us/news/technology/tsmc-s-fabs-are-so-in-demand-they-re-re-sold-out-even-before-they-ve-been-built",
+      "tags": [
+        "fab"
+      ],
+      "insights": [
+        "AI芯片需求持续超预期，CoWoS封装产能为关键瓶颈"
+      ],
       "actions": [
-        "跟踪设备厂商订单情况",
-        "关注设备国产化机会"
+        "持续跟踪CoWoS扩产进度和订单能见度"
       ],
       "glossary": [],
       "region": "overseas"
+    },
+    {
+      "title": "Intel approves $14.2B share repurchase, ends survival mode – Ireland fab acquisition signals confidence",
+      "summary": "Intel approves $14.2B share repurchase, ends survival mode – Ireland fab acquisition signals confidence",
+      "source": "unknown",
+      "published": "2026-04-07T06:00:00Z",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-04-07-intel-signals-end-of-survival-mode-with-14-2-billion-repurchase-of-ireland-fab",
+      "tags": [
+        "fab"
+      ],
+      "insights": [
+        "Intel战略重心从生存转向扩张，Fab资产整合加速"
+      ],
+      "actions": [
+        "关注Intel未来资本开支指引和AI客户进展"
+      ],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "Intel advanced packaging gaining AI customer traction; EMIB deployment accelerates",
+      "summary": "Intel advanced packaging gaining AI customer traction; EMIB deployment accelerates",
+      "source": "unknown",
+      "published": "2026-04-06T16:53:26Z",
+      "url": "https://wccftech.com/intels-advanced-packaging-is-getting-the-attention-it-needs-from-ai-customers-with-emib",
+      "tags": [
+        "packaging"
+      ],
+      "insights": [
+        "Intel EMIB获AI客户认可，有望分流CoWoS需求"
+      ],
+      "actions": [
+        "关注Intel代工业务AI客户开拓情况"
+      ],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "TSMC to address chip production risk; CoWoS remains critical bottleneck",
+      "summary": "TSMC to address chip production risk; CoWoS remains critical bottleneck",
+      "source": "unknown",
+      "published": "2026-04-06T15:18:15Z",
+      "url": "https://wccftech.com/tsmc-is-set-to-talk-about-the-biggest-risk-it-faces-with-chip-production-right-now",
+      "tags": [
+        "fab"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "RISC-V Has Momentum – who can deliver at scale remains the real question",
+      "summary": "RISC-V Has Momentum – who can deliver at scale remains the real question",
+      "source": "unknown",
+      "published": "2026-04-06T13:00:12Z",
+      "url": "https://semiwiki.com/ip/akeana/368059-risc-v-has-momentum-the-real-que",
+      "tags": [
+        "eda_ip"
+      ],
+      "insights": [
+        "RISC-V生态加速成熟，规模化落地是核心挑战"
+      ],
+      "actions": [
+        "关注RISC-V在数据中心场景渗透率"
+      ],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "GlobalWafers: semiconductor wafer giant merits attention as 300mm supply tightens",
+      "summary": "GlobalWafers: semiconductor wafer giant merits attention as 300mm supply tightens",
+      "source": "unknown",
+      "published": "2026-04-06T06:00:00Z",
+      "url": "https://www.ad-hoc-news.de/boerse/ueberblick/globalwafers-co-ltd-",
+      "tags": [
+        "industry"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "yieldWerx delivers master class in Co-Packaged Photonics implementation",
+      "summary": "yieldWerx delivers master class in Co-Packaged Photonics implementation",
+      "source": "unknown",
+      "published": "2026-04-06T17:00:00Z",
+      "url": "https://semiwiki.com/events/368095-yieldwerx-delivers-a-master-class-i",
+      "tags": [
+        "industry"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "强一股份一季报预增超6倍 半导体设备行业景气度高",
+      "summary": "强一股份一季报预增超6倍 半导体设备行业景气度高",
+      "source": "unknown",
+      "published": "2026-04-07T07:00:00+08:00",
+      "url": "https://www.stcn.com/article/detail/3728567.html",
+      "tags": [
+        "equipment"
+      ],
+      "insights": [
+        "国产半导体设备景气度高，一季报预增超6倍验证行业β"
+      ],
+      "actions": [
+        "持续跟踪设备厂商订单落地情况"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "百亿级半导体项目新进展披露 多地晶圆厂建设提速",
+      "summary": "百亿级半导体项目新进展披露 多地晶圆厂建设提速",
+      "source": "unknown",
+      "published": "2026-04-07T09:00:00+08:00",
+      "url": "https://www.esmchina.com/marketnews/57601.html",
+      "tags": [
+        "fab"
+      ],
+      "insights": [
+        "资本持续涌入半导体赛道，一级市场投资活跃"
+      ],
+      "actions": [
+        "关注科创板半导体企业IPO节奏"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "160亿！科创板70家企业Q1密集投资 半导体成扩产核心赛道",
+      "summary": "160亿！科创板70家企业Q1密集投资 半导体成扩产核心赛道",
+      "source": "unknown",
+      "published": "2026-04-07T07:00:00+08:00",
+      "url": "https://www.cls.cn/detail/2335449",
+      "tags": [
+        "industry"
+      ],
+      "insights": [
+        "资本持续涌入半导体赛道，一级市场投资活跃"
+      ],
+      "actions": [
+        "关注科创板半导体企业IPO节奏"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "三安光通信连破三关 高端光芯片加速驶入AI与汽车新蓝海",
+      "summary": "三安光通信连破三关 高端光芯片加速驶入AI与汽车新蓝海",
+      "source": "unknown",
+      "published": "2026-04-07T11:00:00+08:00",
+      "url": "https://www.industrysourcing.cn/article/475320",
+      "tags": [
+        "industry"
+      ],
+      "insights": [
+        "光芯片成为AI算力建设新宠，渗透AI数据中心和汽车领域"
+      ],
+      "actions": [
+        "关注三安光电光通信业务收入占比"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "先进封装成突围关键 TEL如何助力中国客户技术跨越？",
+      "summary": "先进封装成突围关键 TEL如何助力中国客户技术跨越？",
+      "source": "unknown",
+      "published": "2026-04-07T12:00:00+08:00",
+      "url": "https://m.sohu.com/a/1006272848_128469",
+      "tags": [
+        "packaging"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "先进封测龙头启动申购 机构预测中签率较高",
+      "summary": "先进封测龙头启动申购 机构预测中签率较高",
+      "source": "unknown",
+      "published": "2026-04-07T08:00:00+08:00",
+      "url": "https://stock.stockstar.com/IG2026040700003383.shtml",
+      "tags": [
+        "packaging"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic"
     }
   ]
 }
