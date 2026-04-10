@@ -1,216 +1,244 @@
 {
-  "version": "v20260408-0604",
-  "generatedAt": "2026-04-08T06:04:00+08:00",
-  "period": "morning",
+  "version": "v20260410-1300",
+  "generatedAt": "2026-04-10T13:00:00+08:00",
+  "period": "midday",
   "commit": "",
+  "stats": {
+    "total": 8,
+    "domestic": 5,
+    "overseas": 3,
+    "newsapi": 0,
+    "serper": 4,
+    "serpapi": 3,
+    "rss": 1,
+    "brave": 0
+  },
   "glossary_list": [
     {
-      "term": "CoWoS",
-      "desc": "一种高级封装技术，采用硅中介层实现芯片间高速互联。",
-      "category": "封装"
+      "term": "MATCH法案",
+      "desc": "《硬件技术多边协调管制法案》，美国两党推动的对华半导体设备出口全面管制立法，覆盖设备全生命周期的销售、维修与技术支持，目标是中芯国际等五大龙头企业。",
+      "category": "商业"
     },
     {
-      "term": "EMIB",
-      "desc": "Intel的嵌入式多芯片互连桥，用于多芯片模块。",
-      "category": "封装"
-    },
-    {
-      "term": "塔式半导体（Tower Semiconductor）",
-      "desc": "以色列专注于特种工艺的代工公司。",
-      "category": "代工"
-    },
-    {
-      "term": "光互连（Photonic Interconnect）",
-      "desc": "使用光信号在芯片或模块间传输数据，降低功耗提升带宽。",
+      "term": "氮化镓（GaN）",
+      "desc": "第三代半导体材料，具有高击穿电压、高电子迁移率特性，广泛用于功率器件与射频芯片，是硅基材料的重要补充。",
       "category": "材料"
+    },
+    {
+      "term": "OSAT",
+      "desc": "外包封装与测试（Outsourced Semiconductor Assembly and Test），专注芯片后端封装测试的代工企业，如通富微电、长电科技、华天科技。",
+      "category": "封装"
+    },
+    {
+      "term": "NoC（片上网络）",
+      "desc": "Network-on-Chip，取代传统总线的芯片内部互联架构，是多核SoC和多芯片封装实现高效数据传输的关键技术。",
+      "category": "设备"
+    },
+    {
+      "term": "Terafab",
+      "desc": "马斯克联合英特尔规划在德克萨斯州建设的超大规模AI芯片制造工厂，目标服务于AI算力基础设施的快速增长需求。",
+      "category": "商业"
+    },
+    {
+      "term": "RISC-V",
+      "desc": "开源指令集架构，不受商业许可约束，近年在AI推理芯片和嵌入式领域高速发展，SiFive等公司正将其推向数据中心市场。",
+      "category": "设备"
     }
   ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
       "heat": "↑↑升温",
-      "reddit_top": "Intel EMIB gains traction+ r/semiconductor + 3100",
+      "reddit_top": null,
       "hn_top": null,
-      "summary": "社区聚焦Intel EMIB能否挑战TSMC CoWoS，讨论技术成熟度和成本。"
+      "summary": "汽车芯片从SoC向系统级封装演进趋势持续升温，Synopsys等EDA厂商积极布局多芯片集成设计工具；通富微电等国产OSAT加大扩产力度，先进封装赛道竞争格局加速重塑。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM需求仍旺，关注SK海力士与三星的产能扩张计划。"
+      "summary": "三星与SK海力士转向长期合同策略，DRAM价格顶峰信号浮现；AI智能体对存储需求的结构性重构讨论持续升温，HBM供需格局仍是核心焦点。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↑↑升温",
-      "reddit_top": "MATCH法案影响深远+ r/politics + 4200",
-      "hn_top": "US export controls impact Chinese fabs+ 45",
-      "summary": "美国新法案可能限制核心设备出口，国内企业加速国产化。"
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "MATCH法案将中芯国际、华虹等精准点名实施设备全生命周期封锁，市场聚焦中国Fab依托国产设备维持运营的可行性，制裁压力倒逼国产替代节奏明显加快。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA工具逐步成熟，关注Empyrean等公司进展。"
+      "summary": "华为供应链国产替代样板效应持续扩散，华大九天等国产EDA验证节奏加快；RISC-V生态融资活跃，SiFive巨额融资为国产IP公司提供参考路径。"
     },
     {
       "topic": "封测OSAT",
-      "heat": "↓降温",
+      "heat": "↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "OSAT订单增速放缓，市场在等待新封测技术突破。"
+      "summary": "通富微电42亿定增聚焦存储与车规封测，国产OSAT在AI算力与汽车电子两大赛道同步扩产；全产业链涨价周期下，封测厂商议价能力有所提升。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↑↑升温",
-      "reddit_top": "MATCH法案细节讨论+ r/technology + 3800",
+      "reddit_top": null,
       "hn_top": null,
-      "summary": "制裁力度升级，引发供应链风险担忧。"
+      "summary": "MATCH法案是本周最大政策风险事件，五大中国半导体龙头被全面覆盖，设备维修断供风险成为新焦点；ASML中国业务前景极度不确定，市场情绪高度紧张。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "NVIDIA继续布局AI芯片，Blackwell系列进入市场。"
+      "summary": "台积电先进工艺红利持续惠及AI芯片客户；SiFive RISC-V融资打破AI推理芯片格局，为非Arm架构的AI基础设施提供新可能。"
     },
     {
       "topic": "设备/材料国产化",
-      "heat": "↑↑升温",
+      "heat": "↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国内半导体设备企业加速突破关键工艺设备。"
+      "summary": "国产半导体设备ETF逆势走强，氦气供应危机暴露关键材料对外依赖风险；瑞银研报看好国产设备替代逻辑，市场对国产化进程信心增强。"
     }
   ],
   "items": [
     {
-      "title": "Intel Joins Elon Musk’s Terafab chip initiative",
-      "summary": "Intel与SpaceX、Tesla合作在德克萨斯建立新半导体厂，计划投入200亿美元。",
-      "source": "Bitget",
-      "published": "2026-04-07T04:00:00Z",
-      "url": "https://www.bitget.com/amp/news/detail/12560605345143",
+      "title": "美国两党推《MATCH法案》全面封杀中国半导体：中芯国际、华虹、华为、长鑫、长存五大龙头被精准点名",
+      "summary": "美国两党参议员联合推进《MATCH法案》，对中芯国际、华虹、华为、长鑫存储、长江存储五家企业实施涵盖设备销售、维修、软件更新的全生命周期封锁，是2026年迄今最严厉的对华半导体出口管制立法提案。",
+      "source": "百度百家号",
+      "published": "2026-04-09T10:00:00+08:00",
+      "url": "https://baijiahao.baidu.com/s?id=1861595796209408530",
       "tags": [
-        "Intel",
-        "Terafab",
-        "合作"
+        "Fab/制造",
+        "存储",
+        "出口管制"
       ],
-      "insights": "显示Intel加速在美国本土的代工布局。",
+      "insights": [
+        "MATCH法案若通过将对中国半导体产业链造成系统性影响，需持续关注立法进程。",
+        "国内企业需加速国产替代验证，同时评估关键设备维护断供风险。"
+      ],
       "actions": [],
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "美国扩大对中国半导体的出口管制",
-      "summary": "美国推出《MATCH法案》，对中芯、华虹等核心企业实施全方位设备禁令。",
-      "source": "新唐人电视台",
-      "published": "2026-04-07T19:00:00Z",
-      "url": "https://www.ntdtv.com/gb/2026/04/07/a104084042.html",
+      "title": "制裁催生芯片强国：华大九天、中芯国际、长电科技上演国产替代逆袭战",
+      "summary": "华为制裁倒逼形成从EDA、核心IP到制造、封测的完整国产替代链条，华大九天、中芯国际、长电科技成为典型样本。",
+      "source": "百度百家号",
+      "published": "2026-04-08T14:00:00+08:00",
+      "url": "https://baijiahao.baidu.com/s?id=1860655341547576300",
       "tags": [
-        "出口管制",
-        "中国",
-        "半导体"
+        "Fab/制造",
+        "先进封装",
+        "EDA/IP",
+        "出口管制"
       ],
-      "insights": "可能导致中国芯片产能受限，推动国产替代。",
+      "insights": [
+        "MATCH法案若通过将对中国半导体产业链造成系统性影响，需持续关注立法进程。",
+        "国内企业需加速国产替代验证，同时评估关键设备维护断供风险。"
+      ],
       "actions": [],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "半导体涨价潮覆盖代工、封测及核心器件",
-      "summary": "AI周期与金属成本双重压力导致全产业链涨价。",
-      "source": "电子工程专辑",
-      "published": "2026-04-07T13:00:00Z",
-      "url": "https://www.eet-china.com/mp/a486111.html",
+      "title": "美国两党立法：ASML对华销售恐归零，5大中国芯片厂受重创",
+      "summary": "若MATCH法案通过，ASML对中国市场的销售将面临归零风险，中国市场目前贡献ASML约33%的年度营收，影响极为深远。",
+      "source": "百度百家号",
+      "published": "2026-04-10T08:00:00+08:00",
+      "url": "https://baijiahao.baidu.com/s?id=1861995281888771779",
       "tags": [
-        "涨价",
-        "代工",
-        "封测"
+        "出口管制"
       ],
-      "insights": "企业需评估成本转嫁策略。",
-      "actions": [],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "中芯国际发布2025Q1财报，收入同比增长28%",
-      "summary": "中芯国际一季度销售收入22.47亿美元，产能利用率89.6%。",
-      "source": "SMIC官网",
-      "published": "2026-04-07T10:00:00Z",
-      "url": "https://www.smics.com/tc/",
-      "tags": [
-        "中芯",
-        "财报",
-        "产能"
+      "insights": [
+        "MATCH法案若通过将对中国半导体产业链造成系统性影响，需持续关注立法进程。",
+        "国内企业需加速国产替代验证，同时评估关键设备维护断供风险。"
       ],
-      "insights": "表明中国晶圆代工持续扩产。",
-      "actions": [],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "Intel计划收购Tower Semiconductor，价值142亿美元",
-      "summary": "Intel将收购以色列塔芯片公司，强化其专用工艺布局。",
-      "source": "La Cartita News",
-      "published": "2026-04-07T08:00:00Z",
-      "url": "https://lacartita.com/intel-to-acquire-tower-semiconductor-for-14-2-billion-in-strategic-move/",
-      "tags": [
-        "Intel",
-        "收购",
-        "Tower"
-      ],
-      "insights": "增强Intel在CMOS图像传感器等细分市场的实力。",
       "actions": [],
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "三安光通信发布100G EML芯片、车规级VCSEL",
-      "summary": "三安光电突破高端光芯片，助力AI与汽车光互连。",
-      "source": "荣格工业传媒",
-      "published": "2026-04-07T07:30:00Z",
-      "url": "https://www.industrysourcing.cn/article/475320",
+      "title": "英特尔联手马斯克建Terafab AI芯片工厂，英特尔代工业务迎关键转折",
+      "summary": "英特尔宣布与马斯克旗下公司在德克萨斯州共建Terafab芯片工厂，被外界视为英特尔代工业务自救的关键一役，也是2026年美国本土先进制造的重要里程碑。",
+      "source": "SemiWiki",
+      "published": "2026-04-09T03:00:00+08:00",
+      "url": "https://semiwiki.com/semiconductor-manufacturers/intel/368228-intel-musk-and-the-tweet-that-launched-a-1000-ships-on-a-becalmed-sea/",
       "tags": [
-        "光芯片",
-        "三安光通信",
+        "Fab/制造",
         "AI"
       ],
-      "insights": "提升国内光通信产业链竞争力。",
-      "actions": [],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "强一股份一季报预增超6倍",
-      "summary": "公司预计实现净利润654%增长，受益于半导体设备景气。",
-      "source": "证券时报",
-      "published": "2026-04-07T06:00:00Z",
-      "url": "https://www.stcn.com/article/detail/3728567.html",
-      "tags": [
-        "强一股份",
-        "业绩预增",
-        "半导体设备"
+      "insights": [
+        "Intel与马斯克合作是英特尔代工2026年最重要的外部订单信号，短期提振市场信心。"
       ],
-      "insights": "显示国内设备企业受益于需求回暖。",
-      "actions": [],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "CoWoS vs EMIB竞争升级",
-      "summary": "Intel的EMIB在AI客户中获得关注，对抗TSMC的CoWoS。",
-      "source": "Wccftech",
-      "published": "2026-04-06T16:53:26Z",
-      "url": "https://wccftech.com/intel-advanced-packaging-is-getting-the-attention-it-needs-from-ai-customers/",
-      "tags": [
-        "CoWoS",
-        "EMIB",
-        "先进封装"
-      ],
-      "insights": "包装技术竞争将影响芯片性能与成本。",
       "actions": [],
       "glossary": [],
       "region": "overseas"
+    },
+    {
+      "title": "半导体产业链掀全线涨价潮 谁在买单？",
+      "summary": "2026年以来覆盖存储、模拟、功率器件、晶圆代工及封测的全产业链涨价潮加速蔓延，下游云计算与消费电子厂商面临持续成本压力。",
+      "source": "新浪财经",
+      "published": "2026-04-10T07:00:00+08:00",
+      "url": "https://finance.sina.cn/2026-04-10/detail-inhtyfhi5339199.d.html",
+      "tags": [
+        "半导体"
+      ],
+      "insights": [
+        "全产业链涨价周期下，建议提前锁定关键物料长单以规避价格风险。"
+      ],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "氦气供应骤降33%威胁芯片产能：卡塔尔LNG关闭引发AI半导体产业链材料危机",
+      "summary": "卡塔尔LNG设施关闭致全球氦气供应骤降33%，氦气是干法刻蚀设备唯一热控介质，关键材料断供风险直接威胁AI芯片产能。",
+      "source": "36氪",
+      "published": "2026-04-09T20:00:00+08:00",
+      "url": "https://m.36kr.com/p/3759420383560450",
+      "tags": [
+        "设备/材料",
+        "AI"
+      ],
+      "insights": [
+        "氦气供应危机凸显关键半导体材料对外依赖风险，国产氦气替代与储备值得关注。"
+      ],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "通富微电调减1.8亿定增至42亿，聚焦存储与车规芯片封测扩产",
+      "summary": "通富微电下调定增募资至约42亿元，资金重点投向存储芯片与车规芯片封测产能，国产OSAT在AI与汽车电子两大赛道同步发力。",
+      "source": "财富号",
+      "published": "2026-04-09T19:52:00+08:00",
+      "url": "https://caifuhao.eastmoney.com/news/20260409195220017110230",
+      "tags": [
+        "先进封装",
+        "存储"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "智能体需求重构半导体存储格局，A股半导体龙头重构新基建",
+      "summary": "AI智能体对持久记忆的刚性需求推动存储半导体需求结构性升级，A股半导体存储龙头在算力新基建浪潮中迎来估值重塑机遇。",
+      "source": "21财经",
+      "published": "2026-04-10T12:00:00+08:00",
+      "url": "https://www.21jingji.com/article/20260410/herald/c3fafc30cb51e550dc4a35d98fc707f2.html",
+      "tags": [
+        "存储",
+        "AI"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic"
     }
   ]
 }
