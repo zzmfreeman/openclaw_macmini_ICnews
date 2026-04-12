@@ -1,871 +1,776 @@
-{
-  "items": [
-    {
-      "title": "英飞凌/NXP宣布全线涨价",
-      "summary": "英飞凌主流型号上涨5-15%，NXP宣布4月1日起调价，AI需求爆发+全产业链成本压力驱动此轮涨价潮。",
-      "source": "36氪",
-      "published": "2026-03-23",
-      "url": "https://www.36kr.com/p/3733511243202562",
-      "tags": [
-        "Automotive",
-        "Pricing",
-        "Infineon",
-        "NXP"
-      ],
-      "insights": [
-        "汽车/工控芯片涨价信号已发出，采购需提前锁定Q2订单",
-        "英飞凌AI业务预期从15亿→25亿欧元，产能将向AI倾斜"
-      ],
-      "actions": [
-        "核查在手订单交货期与价格条款"
-      ],
-      "_version": "v20260324-2000",
-      "_period": "evening",
-      "_generatedAt": "2026-03-24T20:01:31+08:00"
-    },
-    {
-      "title": "三星工会投票罢工威胁HBM4供应",
-      "summary": "三星芯片工会通过罢工投票，HBM4供应链风险上升，或冲击NVIDIA下半年AI加速卡产能。",
-      "source": "SemiWiki",
-      "published": "2026-03-23",
-      "url": "https://semiwiki.com/forum/threads/samsung-union-votes-to-strike-risking-nvidia-hbm4-supply-disruption.24806/",
-      "tags": [
-        "HBM4",
-        "Samsung",
-        "Supply-Risk",
-        "NVIDIA"
-      ],
-      "insights": [
-        "HBM4货源集中于三星/SK海力士，罢工将加剧供给紧张",
-        "AI服务器客户应评估备份供应商切换窗口"
-      ],
-      "actions": [
-        "关注三星罢工谈判进展，评估HBM替代方案"
-      ],
-      "_version": "v20260324-2000",
-      "_period": "evening",
-      "_generatedAt": "2026-03-24T20:01:31+08:00"
-    },
-    {
-      "title": "Micron Q2创纪录，HBM4供不应求",
-      "summary": "Micron Q2财报超预期，HBM4需求超越全球供给上限，AI存储超级周期确立。",
-      "source": "FinancialContent",
-      "published": "2026-03-23",
-      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-23-ai-memory-supercycle-micron-smashes-q2-records-as-hbm4-demand-outstrips-global-supply",
-      "tags": [
-        "HBM4",
-        "Micron",
-        "AI-Memory",
-        "Earnings"
-      ],
-      "insights": [
-        "HBM4 12/16层堆叠工艺复杂度拉高良率门槛，供给弹性低",
-        "AI存储超级周期已至，下游算力采购成本持续上行"
-      ],
-      "actions": [
-        "锁定HBM4长约，避免现货溢价损耗"
-      ],
-      "_version": "v20260324-2000",
-      "_period": "evening",
-      "_generatedAt": "2026-03-24T20:01:31+08:00"
-    },
-    {
-      "title": "内存涨价压缩IPC厂商利润",
-      "summary": "AI驱动存储价格上涨，工控/IPC设备商Q4 2025利润已受压，风险延续至2026年。",
-      "source": "Digitimes",
-      "published": "2026-03-23",
-      "url": "https://www.digitimes.com/news/a20260323PD205/ipc-memory-chips-price-market-2026.html",
-      "tags": [
-        "DRAM",
-        "IPC",
-        "Cost-Pressure",
-        "Supply-Chain"
-      ],
-      "insights": [
-        "存储涨价向嵌入式/工控端传导，BOM成本需重新核算",
-        "订单延期风险上升，需与客户提前对齐价格机制"
-      ],
-      "actions": [
-        "重新评估含DRAM/LPDDR产品的BOM成本"
-      ],
-      "_version": "v20260324-2000",
-      "_period": "evening",
-      "_generatedAt": "2026-03-24T20:01:31+08:00"
-    },
-    {
-      "title": "苹果存储成本大涨200%",
-      "summary": "AI需求危机推动苹果存储组件成本上涨约200%，凭借服务营收基础公司尚能消化。",
-      "source": "Gadget Hacks",
-      "published": "2026-03-24",
-      "url": "https://apple.gadgethacks.com/news/apple-storage-prices-jump-200-due-to-ai-demand-crisis/",
-      "tags": [
-        "Apple",
-        "NAND",
-        "AI-Demand",
-        "Cost"
-      ],
-      "insights": [
-        "NAND/存储价格飙升200%，中小规模买家压力远超大厂",
-        "存储成本成为2026年消费电子和AI设备的关键瓶颈"
-      ],
-      "actions": [
-        "排查产品存储规格，评估降本替代方案"
-      ],
-      "_version": "v20260324-2000",
-      "_period": "evening",
-      "_generatedAt": "2026-03-24T20:01:31+08:00"
-    },
-    {
-      "title": "欧洲深科技报告：半导体仍是核心",
-      "summary": "2026欧洲深科技报告显示，半导体领域高管经验占比最高，ASML/NXP/Intel是主要人才来源。",
-      "source": "The Big Byte",
-      "published": "2026-03-24",
-      "url": "https://thebigbyte.substack.com/p/the-european-deeptech-report-2026",
-      "tags": [
-        "Europe",
-        "DeepTech",
-        "Talent",
-        "Ecosystem"
-      ],
-      "insights": [
-        "欧洲半导体人才以大厂溢出为主，创业活跃度相对不足",
-        "ASML/NXP生态对欧洲深科技投资吸引力仍强"
-      ],
-      "actions": [
-        "关注欧洲半导体人才流动，识别潜在合作机会"
-      ],
-      "_version": "v20260324-2000",
-      "_period": "evening",
-      "_generatedAt": "2026-03-24T20:01:31+08:00"
-    },
-    {
-      "title": "AI驱动存储厂商优先供给HBM/DDR5",
-      "summary": "Q1 2026存储厂商将有限产能优先分配给HBM和DDR5，消费级DRAM供应趋紧。",
-      "source": "SemiWiki",
-      "published": "2026-03-23",
-      "url": "https://semiwiki.com/forum/threads/samsung-union-votes-to-strike-risking-nvidia-hbm4-supply-disruption.24806/",
-      "tags": [
-        "DDR5",
-        "HBM",
-        "Capacity-Allocation",
-        "AI-Server"
-      ],
-      "insights": [
-        "厂商产能向高利润AI存储倾斜，标准DRAM货期将拉长",
-        "采购策略需区分AI存储与传统存储，分别制定备货周期"
-      ],
-      "actions": [
-        "区分AI/标准存储备货策略，提前排产计划"
-      ],
-      "_version": "v20260324-2000",
-      "_period": "evening",
-      "_generatedAt": "2026-03-24T20:01:31+08:00"
-    },
-    {
-      "title": "NXP发布CoreRide汽车域控方案",
-      "summary": "NXP推出CoreRide平台，帮助车厂快速转向48V可扩展域控架构，支持AI功能集成。",
-      "source": "AI Online",
-      "published": "2026-03-24",
-      "url": "https://ai-online.com/2026/03/nxp-coreride-puts-automakers-on-fast-path-to-48-v-scalable-zonal-architectures/",
-      "tags": [
-        "NXP",
-        "Automotive",
-        "Domain-Controller",
-        "48V"
-      ],
-      "insights": [
-        "48V域控架构加速落地，NXP借CoreRide抢占汽车电气化先机",
-        "汽车芯片需求从MCU向高算力SoC+电源管理组合切换"
-      ],
-      "actions": [
-        "跟进车厂48V域控节奏，评估配套供应能力"
-      ],
-      "_version": "v20260324-2000",
-      "_period": "evening",
-      "_generatedAt": "2026-03-24T20:01:31+08:00"
-    },
-    {
-      "title": "Arm发布首款自研芯片AGI CPU",
-      "summary": "Arm在旧金山发布35年历史中首款自研芯片AGI CPU，136核Neoverse V3架构，采用TSMC 3nm工艺，Meta为首批客户，OpenAI、Cloudflare等跟进，2026年下半年量产。",
-      "source": "TechCrunch",
-      "published": "2026-03-24",
-      "url": "https://techcrunch.com/2026/03/24/arm-is-releasing-its-first-in-house-chip-in-its-35-year-history/",
-      "tags": [
-        "Arm",
-        "AI-CPU",
-        "TSMC",
-        "3nm"
-      ],
-      "insights": [
-        "Arm从IP授权商转型芯片制造商，将与客户形成竞争关系",
-        "TSMC 3nm产能需求进一步扩大，代工排期压力增加"
-      ],
-      "actions": [
-        "关注TSMC 3nm产能排队情况，评估对现有客户订单影响"
-      ],
-      "_version": "v20260325-0602",
-      "_period": "morning",
-      "_generatedAt": "2026-03-25T06:02:00+08:00"
-    },
-    {
-      "title": "伊朗-卡塔尔冲突致氦气短缺威胁芯片供应",
-      "summary": "伊朗对卡塔尔发动军事行动导致全球氦气供应中断约三分之一，韩台晶圆厂面临2-6个月内存储芯片产能收缩风险，三星HBM良率受影响。",
-      "source": "National Interest",
-      "published": "2026-03-24",
-      "url": "https://nationalinterest.org/blog/techland/the-iran-war-just-exposed-americas-hidden-ai-chokepoint-helium",
-      "tags": [
-        "HeliumShortage",
-        "GeopoliticalRisk",
-        "SupplyChain",
-        "Memory"
-      ],
-      "insights": [
-        "氦气作为芯片制造关键工业气体，供应集中度风险长期被低估",
-        "韩台晶圆厂依赖卡塔尔氦气，短期替代来源（美国/阿尔及利亚）难以补足"
-      ],
-      "actions": [
-        "评估自身供应链氦气库存与替代气源覆盖周期，制定应急备货方案"
-      ],
-      "glossary": [
-        {
-          "term": "Industrial Gas Allocation",
-          "desc": "晶圆厂在气体短缺时按优先级分配氦气等特种气体的管理机制"
-        }
-      ],
-      "_version": "v20260325-0602",
-      "_period": "morning",
-      "_generatedAt": "2026-03-25T06:02:00+08:00"
-    },
-    {
-      "title": "Micron Q2创纪录，HBM4需求超全球供给",
-      "summary": "Micron发布Q2财报创历史纪录，HBM4需求严重超过全球供给，DRAM合同价格Q1 2026预计再涨90%，AI存储超周期确认。",
-      "source": "Financial Content",
-      "published": "2026-03-23",
-      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-23-ai-memory-supercycle-micron-smashes-q2-records-as-hbm4-demand-outstrips-global-supply",
-      "tags": [
-        "Micron",
-        "HBM4",
-        "DRAM",
-        "MemoryPricing"
-      ],
-      "insights": [
-        "DRAM合同价Q1涨幅达90%，AI服务器采购成本大幅攀升",
-        "HBM4供应瓶颈短期无法缓解，AI芯片BOM成本持续上行"
-      ],
-      "actions": [
-        "锁定Q3/Q4内存采购合同，避免现货溢价风险"
-      ],
-      "_version": "v20260325-0602",
-      "_period": "morning",
-      "_generatedAt": "2026-03-25T06:02:00+08:00"
-    },
-    {
-      "title": "印度芯片日产量突破7500万颗",
-      "summary": "印度芯片封测产能持续扩张，日产量达7500-8000万颗，成为OSAT格局新变量，但晶圆制造仍需数年才能起步。",
-      "source": "TrendForce",
-      "published": "2026-03-24",
-      "url": "https://www.trendforce.com/news/2026/03/24/news-indias-chip-output-set-to-reach-75-80-million-units-per-day-marking-a-new-milestone/",
-      "tags": [
-        "India",
-        "OSAT",
-        "Packaging",
-        "SupplyChain"
-      ],
-      "insights": [
-        "印度封测产能快速放量，对东南亚OSAT格局形成竞争压力",
-        "封测成本有望因印度产能增加而下降，晶圆厂仍是制约"
-      ],
-      "actions": [
-        "跟踪印度主要OSAT厂商（Micron、Tata等）扩产进度与价格策略"
-      ],
-      "_version": "v20260325-0602",
-      "_period": "morning",
-      "_generatedAt": "2026-03-25T06:02:00+08:00"
-    },
-    {
-      "title": "NVIDIA Feynman切换A16遭TSMC产能制约",
-      "summary": "NVIDIA下一代GPU架构Feynman计划全面切换至TSMC A16工艺，但TSMC A16产能受限，完全切换存在不确定性，CoWoS先进封装也面临排产压力。",
-      "source": "Cloud News Tech",
-      "published": "2026-03-24",
-      "url": "https://cloudnews.tech/the-tsmc-bottleneck-casts-doubt-on-nvidias-full-switch-to-a16/",
-      "tags": [
-        "NVIDIA",
-        "TSMC",
-        "A16",
-        "CoWoS"
-      ],
-      "insights": [
-        "TSMC A16产能稀缺，Arm AGI CPU加入争产后竞争更激烈",
-        "CoWoS封装产能持续紧张，AI芯片交期压力延续至2027"
-      ],
-      "actions": [
-        "关注TSMC A16产能分配动态，评估AI芯片供货优先级"
-      ],
-      "_version": "v20260325-0602",
-      "_period": "morning",
-      "_generatedAt": "2026-03-25T06:02:00+08:00"
-    },
-    {
-      "title": "特朗普将组建半导体投资财团",
-      "summary": "特朗普政府计划组建半导体投资财团，目标4万亿美元投资，推动芯片制造回流美国，CHIPS法案资金执行路径调整中。",
-      "source": "Reuters",
-      "published": "2026-03-24",
-      "url": "https://www.reuters.com/technology/trump-semiconductor-investment-consortium-2026/",
-      "tags": [
-        "USPolicy",
-        "CHIPSAct",
-        "Reshoring",
-        "Investment"
-      ],
-      "insights": [
-        "美国芯片制造投资政策持续演变，供应链区域化趋势加速",
-        "大规模投资若落地将在3-5年内改变全球代工格局"
-      ],
-      "actions": [
-        "关注美国产能建设进展，评估对亚洲代工厂市场份额的长期影响"
-      ],
-      "_version": "v20260325-0602",
-      "_period": "morning",
-      "_generatedAt": "2026-03-25T06:02:00+08:00"
-    },
-    {
-      "title": "Natcast被裁，CHIPS法案研发机构遭削减",
-      "summary": "特朗普政府裁撤CHIPS��案设立的半导体研究机构Natcast，美国芯片研发战略面临调整，行业担忧长期技术竞争力受损。",
-      "source": "The Register",
-      "published": "2026-03-24",
-      "url": "https://www.theregister.com/2026/03/natcast-chips-act-shutdown/",
-      "tags": [
-        "CHIPSAct",
-        "USPolicy",
-        "R&D",
-        "Natcast"
-      ],
-      "insights": [
-        "美国半导体研发投入削减，与中国国家级R&D投入方向相反",
-        "短期对制造补贴无影响，但中长期技术路线图存在不确定性"
-      ],
-      "actions": [
-        "持续跟踪CHIPS法案执行动态，评估对美国本土代工扩产节奏的影响"
-      ],
-      "_version": "v20260325-0602",
-      "_period": "morning",
-      "_generatedAt": "2026-03-25T06:02:00+08:00"
-    },
-    {
-      "title": "三星HBM良率受氦气短缺拖累",
-      "summary": "卡塔尔氦气中断影响三星高端HBM内存制造良率，叠加2026年智能手机市场下滑，三星存储业务面临复合压力。",
-      "source": "Korea Plus",
-      "published": "2026-03-25",
-      "url": "https://koreaplus-lifes.com/iran-helium-shock-samsung-memory-crisis-supply-chain-risk/",
-      "tags": [
-        "Samsung",
-        "HBM",
-        "Helium",
-        "Yield"
-      ],
-      "insights": [
-        "HBM良率下滑将推高单颗成本，AI服务器采购方议价空间收窄",
-        "三星若无法快速补充氦气，SK海力士HBM市占率将进一步提升"
-      ],
-      "actions": [
-        "密切跟踪三星HBM交货情况，评估是否需要扩大SK海力士备供比例"
-      ],
-      "_version": "v20260325-0602",
-      "_period": "morning",
-      "_generatedAt": "2026-03-25T06:02:00+08:00"
-    },
-    {
-      "title": "AI驱动存储超周期，Apple存储价格涨200%",
-      "summary": "AI算力需求引爆存储超周期，Apple设备存储BOM成本上涨200%，NAND与DRAM供需失衡预计延续至2026年上半年。",
-      "source": "Gadget Hacks",
-      "published": "2026-03-24",
-      "url": "https://apple.gadgethacks.com/news/apple-storage-prices-jump-200-due-to-ai-demand-crisis/",
-      "tags": [
-        "NAND",
-        "DRAM",
-        "MemoryPricing",
-        "AI"
-      ],
-      "insights": [
-        "消费端存储溢价将向OEM传导，电子产品终端价格压力上升",
-        "存储超周期对NAND/DRAM设计公司利��率构成正向支撑"
-      ],
-      "actions": [
-        "评估消费类产品存储BOM，制定Q2/Q3备料与定价预案"
-      ],
-      "_version": "v20260325-0602",
-      "_period": "morning",
-      "_generatedAt": "2026-03-25T06:02:00+08:00"
-    },
-    {
-      "title": "Meta首购Arm AGI CPU，AI基础设施转向",
-      "summary": "Meta成为Arm AGI CPU首批客户，同期OpenAI、SK Telecom、Rebellions等亦签约采购，标志AI数据中心CPU采购从x86向Arm架构加速迁移。",
-      "source": "CNBC",
-      "published": "2026-03-24",
-      "url": "https://www.cnbc.com/2026/03/24/arm-launches-its-own-cpu-with-meta-as-first-customer.html",
-      "tags": [
-        "Arm",
-        "Meta",
-        "AI-Datacenter",
-        "CPU"
-      ],
-      "insights": [
-        "超大规模云厂商CPU采购向Arm生态迁移，英特尔数据中心份额受压",
-        "Arm自研芯片打破只卖IP模式，商业生态将面临重构"
-      ],
-      "actions": [
-        "评估现有AI推理服务器方案是否需要引入Arm AGI CPU兼容测试"
-      ],
-      "_version": "v20260325-0602",
-      "_period": "morning",
-      "_generatedAt": "2026-03-25T06:02:00+08:00"
-    },
-    {
-      "title": "氦气成半导体政策新焦点",
-      "summary": "美国国家利益报告呼吁将氦气纳入半导体供应链战略储备，建议在CHIPS法案框架下强制追踪工业气体供给，以应对地缘政治断供风险。",
-      "source": "National Interest",
-      "published": "2026-03-24",
-      "url": "https://nationalinterest.org/blog/techland/the-iran-war-just-exposed-americas-hidden-ai-chokepoint-helium",
-      "tags": [
-        "HeliumPolicy",
-        "SupplyChainResilience",
-        "CHIPSAct",
-        "IndustrialGas"
-      ],
-      "insights": [
-        "工业气体供应链管理将成为晶圆厂风险管理标配",
-        "长期看氦气战略储备政策若落地，将推升相关气体成本"
-      ],
-      "actions": [
-        "在供应链评估中增加关键工业气体来源多样性指标"
-      ],
-      "_version": "v20260325-0602",
-      "_period": "morning",
-      "_generatedAt": "2026-03-25T06:02:00+08:00"
-    },
-    {
-      "title": "伊朗战争暴露全球AI算力氦气卡点",
-      "summary": "分析指出伊朗-卡塔尔冲突造成全球约三分之一氦气来源中断，2-6个月内半导体行业将面临实质性产能分配压力，韩台晶圆厂首当其冲。",
-      "source": "Under the Market Lens",
-      "published": "2026-03-24",
-      "url": "https://underthemarketlens.substack.com/p/iran-war-global-semiconductor-crisis-strait-of-hormuz",
-      "tags": [
-        "IranWar",
-        "HeliumShortage",
-        "WaferFab",
-        "RiskManagement"
-      ],
-      "insights": [
-        "供应链地缘政治风险已从设备/材料蔓延至工业气体层面",
-        "中国本土氦气供应若受波及，国内晶圆厂亦面临生产压力"
-      ],
-      "actions": [
-        "梳理代工厂氦气来源结构，提前锁定应急供应协议"
-      ],
-      "_version": "v20260325-0602",
-      "_period": "morning",
-      "_generatedAt": "2026-03-25T06:02:00+08:00"
-    },
-    {
-      "title": "DRAM价格Q1 2026创史上最大涨幅",
-      "summary": "TrendForce数据显示PC DRAM合同价Q1 2026单季涨幅为历史之最，AI服务器内存需求拉动效应持续，HBM4供应商地位决定性增强。",
-      "source": "TrendForce",
-      "published": "2026-03-24",
-      "url": "https://www.trendforce.com/price/dram/dram_spot",
-      "tags": [
-        "DRAM",
-        "TrendForce",
-        "PricingCycle",
-        "AI-Server"
-      ],
-      "insights": [
-        "DRAM涨价周期持续，存储采购成本管理成为AI芯片项目BOM核心变量",
-        "PC DRAM价格上涨可能向消费类产品成本传导，需提前锁价"
-      ],
-      "actions": [
-        "Q2采购预算中上调DRAM预留金额，优先签订长协锁定成本"
-      ],
-      "_version": "v20260325-0602",
-      "_period": "morning",
-      "_generatedAt": "2026-03-25T06:02:00+08:00"
-    },
-    {
-      "title": "微软投资芯片设备初创，押注新型制造技术",
-      "summary": "微软参投一家芯���制造设备初创公司4000万美元，押注下一代晶圆制造技术，布局超越当前EUV光刻路线的潜在替代方案。",
-      "source": "Reuters",
-      "published": "2026-03-24",
-      "url": "https://www.reuters.com/technology/microsoft-chipmaking-equipment-startup-40million-2026/",
-      "tags": [
-        "Microsoft",
-        "ChipEquipment",
-        "Investment",
-        "NextGenFab"
-      ],
-      "insights": [
-        "科技巨头向半导体设备层渗透，传统设备商竞争格局面临挑战",
-        "早期投资布局下一代制造技术，反映AI算力需求对设备端的长远压力"
-      ],
-      "actions": [
-        "关注该初创技术路线，评估是否影响现有EUV设备供应格局"
-      ],
-      "_version": "v20260325-0602",
-      "_period": "morning",
-      "_generatedAt": "2026-03-25T06:02:00+08:00"
-    },
-    {
-      "title": "中国国产芯片供应链政策持续强化",
-      "summary": "2026年3月国内持续推进晶圆/封���/EDA国产替代政策，多项采购指引要求优先使用国内供应商，国产EDA工具覆盖率成考核指标。",
-      "source": "36氪",
-      "published": "2026-03-24",
-      "url": "https://36kr.com/semiconductor",
-      "tags": [
-        "China",
-        "LocSub",
-        "EDA",
-        "PolicyUpdate"
-      ],
-      "insights": [
-        "国产替代政策执法力度加强，外资EDA/IP厂商本土市场份额持续承压",
-        "封测国产化率提升，将带动本土OSAT厂商产能利用率上行"
-      ],
-      "actions": [
-        "跟踪国产EDA工具认证动态，提前评估供应链国产替代切换节奏"
-      ],
-      "_version": "v20260325-0602",
-      "_period": "morning",
-      "_generatedAt": "2026-03-25T06:02:00+08:00"
-    },
-    {
-      "version": "v20260325-1304",
-      "period": "midday",
-      "generatedAt": "2026-03-25T13:04:00+08:00",
-      "count": 8
-    },
-    {
-      "title": "三星2nm良率突破60%",
-      "summary": "三星Foundry的2nm GAA工艺良率在两个季度内从20%飙升至60%以上，已获Tesla AI6自动驾驶芯片165亿美元大单，并获得NVIDIA GTC 2026公开背书，目标2026年Q4扭亏为盈。",
-      "source": "Wccftech / Sammy Fans",
-      "published": "2026-03-24",
-      "url": "https://wccftech.com/samsung-2nm-gaa-yields-climb-more-than-3-times-reach-60-percent/",
-      "tags": [
-        "Samsung",
-        "2nm",
-        "GAA",
-        "foundry"
-      ],
-      "insights": [
-        "三星Foundry重回竞争轨道，供应链需重新评估双代工策略窗口",
-        "Tesla AI6大单印证汽车AI芯片代工争夺白热化，先进制程议价空间收窄"
-      ],
-      "actions": [
-        "更新供应商双代工评估，三星2nm列为备选"
-      ],
-      "_version": "v20260325-2002",
-      "_period": "evening",
-      "_generatedAt": "2026-03-25T20:02:00+08:00"
-    },
-    {
-      "title": "华为麒麟芯片下沉千元机",
-      "summary": "华为畅享90系列（起售1299元）全系搭载麒麟芯片+鸿蒙6，标志着麒麟产能大幅提升，中芯国际等效代工+海思设计的全国产供应链趋于成熟，麒麟低端芯片供应已稳定。",
-      "source": "新浪财经",
-      "published": "2026-03-24",
-      "url": "https://finance.sina.com.cn/roll/2026-03-24/doc-inhsarqw7507895.shtml",
-      "tags": [
-        "Huawei",
-        "Kirin",
-        "SMIC",
-        "domestic-supply-chain"
-      ],
-      "insights": [
-        "麒麟量产规模验证国产代工与封测协同能力，中芯国际产能利用率或进一步提升",
-        "存储涨价背景下华为通过国产化供应链保持定价克制，供应链韧性成竞争壁垒"
-      ],
-      "actions": [
-        "关注中芯国际先进节点产能动态，评估其对国内客户的承接能力"
-      ],
-      "_version": "v20260325-2002",
-      "_period": "evening",
-      "_generatedAt": "2026-03-25T20:02:00+08:00"
-    },
-    {
-      "title": "三星Jensen Huang GTC公开背书",
-      "summary": "NVIDIA CEO Jensen Huang在GTC 2026上公开感谢三星Foundry制造Groq 3 LPU推理芯片，三星2nm进入稳定量产，Tesla/AMD/Qualcomm订单跟进，代工业务扭亏转机出现。",
-      "source": "Mashdigi",
-      "published": "2026-03-24",
-      "url": "https://en.mashdigi.com/samsungs-foundry-business-poised-for-a-turnaround-jensen-huang-highlights-key-figures-at-gtc-2026-2nm-process-enters-stable-mass-production-fourth-quarter-expected-to-end-consecutive-years-of-los/",
-      "tags": [
-        "Samsung",
-        "NVIDIA",
-        "GTC2026",
-        "foundry"
-      ],
-      "insights": [
-        "NVIDIA生态对三星代工背书，将带动更多AI推理芯片订单流向三星",
-        "AMD/Qualcomm分散代工策略确立，TSMC垄断地位面临实质挑战"
-      ],
-      "actions": [
-        "追踪三星2nm客户扩展进展，评估对TSMC CoWoS产能需求的影响"
-      ],
-      "_version": "v20260325-2002",
-      "_period": "evening",
-      "_generatedAt": "2026-03-25T20:02:00+08:00"
-    },
-    {
-      "title": "三星2nm GAA订单目标增130%",
-      "summary": "三星设定2026年2nm GAA订单量增长130%的目标，已锁定Tesla AI6 165亿美元大单，并争取AMD/Qualcomm等客户分流TSMC订单，代工业务全面复苏势头确立。",
-      "source": "SammyGuru",
-      "published": "2026-03-24",
-      "url": "https://sammyguru.com/samsungs-2nm-process-yield-jumps-to-over-60/",
-      "tags": [
-        "Samsung",
-        "2nm",
-        "Tesla",
-        "AI-chip"
-      ],
-      "insights": [
-        "汽车AI芯片代工需求成为三星复苏关键，供应链需关注Tesla AI6量产节奏",
-        "先进制程良率提升速度超预期，整个行业定价谈判格局将随之重塑"
-      ],
-      "actions": [
-        "评估Tesla AI6量产时间表对先进封测产能的间接需求"
-      ],
-      "_version": "v20260325-2002",
-      "_period": "evening",
-      "_generatedAt": "2026-03-25T20:02:00+08:00"
-    },
-    {
-      "title": "Micron HBM4启动量产爬坡",
-      "summary": "Micron HBM4开始量产爬坡，与TSMC CoWoS先进封装深度绑定，AI推理/训练对高带宽内存的需求持续强劲，HBM供应仍处于供不应求状态，下半年ASP有望维持高位。",
-      "source": "Tom's Hardware",
-      "published": "2026-03-25",
-      "url": "https://www.tomshardware.com/tech-industry/memory/micron-starts-hbm4-production-partnering-with-tsmc-for-packaging",
-      "tags": [
-        "Micron",
-        "HBM4",
-        "CoWoS",
-        "memory"
-      ],
-      "insights": [
-        "HBM4+CoWoS组合成AI芯片标配，CoWoS产能紧张局面将延续至2026H2",
-        "Micron加速追赶SK Hynix，HBM供应格局多元化有利于需求方议价"
-      ],
-      "actions": [
-        "关注CoWoS产能分配优先级，评估对非AI芯片先进封装获取的影响"
-      ],
-      "_version": "v20260325-2002",
-      "_period": "evening",
-      "_generatedAt": "2026-03-25T20:02:00+08:00"
-    },
-    {
-      "title": "代工8英寸产能产能利用率分化",
-      "summary": "全球晶圆代工市场8英寸产能利用率维持低位，成熟节点（28nm及以上）产能过剩持续，但先进节点（3nm/2nm）产能严重不足，代工市场出现明显的结构性分化。",
-      "source": "Electronics Weekly",
-      "published": "2026-03-24",
-      "url": "https://www.electronicsweekly.com/news/business/foundry-capacity-underutilised-but-revenues-and-market-share-growing-2026-03/",
-      "tags": [
-        "foundry",
-        "capacity",
-        "mature-node",
-        "utilization"
-      ],
-      "insights": [
-        "成熟节点产能过剩加剧价格压力，委外代工谈判窗口仍在，可争取更好条款",
-        "先进节点产能稀缺性持续，需提前锁定关键制程产能"
-      ],
-      "actions": [
-        "成熟节点采购可适度延后议价，先进节点需提前布局框架协议"
-      ],
-      "_version": "v20260325-2002",
-      "_period": "evening",
-      "_generatedAt": "2026-03-25T20:02:00+08:00"
-    },
-    {
-      "title": "Musk Terafab垂直整合AI芯片",
-      "summary": "Elon Musk旗下xAI推进Terafab计划，意图自建芯片制造设施以实现AI芯片的全栈垂直整合，从模型训练、推理芯片到晶圆制造，被视为AI基础设施战略的重大转变。",
-      "source": "Data Center Knowledge",
-      "published": "2026-03-25",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/musk-s-terafab-marks-ai-infrastructure-shift-build-the-chips-control-the-stack",
-      "tags": [
-        "xAI",
-        "Terafab",
-        "vertical-integration",
-        "AI-infrastructure"
-      ],
-      "insights": [
-        "超级大客户自建制造将冲击代工市场，需评估xAI规模对代工需求的长期影响",
-        "AI垂直整合趋势下，独立代工厂的差异化服务能力成为护城河关键"
-      ],
-      "actions": [
-        "持续跟踪Terafab进展，评估其对TSMC/三星先进产能需求的影响"
-      ],
-      "_version": "v20260325-2002",
-      "_period": "evening",
-      "_generatedAt": "2026-03-25T20:02:00+08:00"
-    },
-    {
-      "title": "三星Foundry扭亏目标Q4",
-      "summary": "三星Foundry以2026年Q4为扭亏节点，2nm稳定量产叠加Tesla/AMD/Qualcomm/Groq多客户订单，NVIDIA Jensen Huang GTC公开背书进一步提振信心，代工业务全面复苏轨道确立。",
-      "source": "Mashdigi",
-      "published": "2026-03-24",
-      "url": "https://en.mashdigi.com/samsungs-foundry-business-poised-for-a-turnaround-jensen-huang-highlights-key-figures-at-gtc-2026-2nm-process-enters-stable-mass-production-fourth-quarter-expected-to-end-consecutive-years-of-los/",
-      "tags": [
-        "Samsung",
-        "foundry",
-        "profitability",
-        "2nm"
-      ],
-      "insights": [
-        "三星Foundry盈利目标明确，良率+客户双突破奠定基础，代工竞争格局将重构",
-        "AI芯片需求拉动先进代工全面扩张，设备/材料供应商是供应链关键瓶颈"
-      ],
-      "actions": [
-        "跟踪三星Foundry季度财报，评估其盈利改善对未来报价策略的影响"
-      ],
-      "_version": "v20260325-2002",
-      "_period": "evening",
-      "_generatedAt": "2026-03-25T20:02:00+08:00"
-    },
-    {
-      "version": "v20260325-2002",
-      "period": "evening",
-      "generatedAt": "2026-03-25T20:02:00+08:00",
-      "count": 8
-    },
-    {
-      "version": "v20260326-1301",
-      "period": "midday",
-      "generatedAt": "2026-03-26T13:01:00+08:00",
-      "itemCount": 8,
-      "titles": [
-        "Arm首发自研AGI CPU芯片",
-        "TSMC董事会批440亿美元扩产",
-        "Broadcom示警TSMC产能告急",
-        "SEMICON China 2026上海开幕",
-        "中国成熟制程产能将占全球42%",
-        "Qualcomm与三星深化共同设计",
-        "中国AI调用���2月首超美国",
-        "AI存储需求抢占传统手机产能"
-      ]
-    },
-    {
-      "version": "v20260326-2000",
-      "generatedAt": "2026-03-26T20:00:00+08:00",
-      "period": "evening",
-      "title": "成熟制程晶圆代工4月涨价10%",
-      "source": "新浪财经",
-      "published": "2026-03-25",
-      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-03-25/doc-inhseupu0962708.shtml",
-      "tags": [
-        "Foundry",
-        "MaturNode",
-        "PricingRise",
-        "SMIC"
-      ]
-    },
-    {
-      "version": "v20260326-2000",
-      "generatedAt": "2026-03-26T20:00:00+08:00",
-      "period": "evening",
-      "title": "��国芯片产业AI驱动需求超预期",
-      "source": "Reuters",
-      "published": "2026-03-25",
-      "url": "https://www.reuters.com/business/autos-transportation/ai-boom-accelerates-chinas-chip-industry-growth-demand-strains-supply-chain-2026-03-25/",
-      "tags": [
-        "China",
-        "AIChip",
-        "SupplyChain",
-        "SEMICON"
-      ]
-    },
-    {
-      "version": "v20260326-2000",
-      "generatedAt": "2026-03-26T20:00:00+08:00",
-      "period": "evening",
-      "title": "三星计划在美新建晶圆厂",
-      "source": "SemiWiki",
-      "published": "2026-03-25",
-      "url": "https://semiwiki.com/forum/threads/trendforce-samsung-reportedly-to-build-a-new-wafer-fab-in-the-u-s.24831/",
-      "tags": [
-        "Samsung",
-        "Foundry",
-        "USFab",
-        "Geopolitics"
-      ]
-    },
-    {
-      "version": "v20260326-2000",
-      "generatedAt": "2026-03-26T20:00:00+08:00",
-      "period": "evening",
-      "title": "Broadcom称台积电产能已达上限",
-      "source": "朝鲜商业日报",
-      "published": "2026-03-25",
-      "url": "https://biz.chosun.com/en/en-it/2026/03/25/IS2EFK7SEND2DNODV65Z7ZXITI/",
-      "tags": [
-        "Broadcom",
-        "TSMC",
-        "SamsungFoundry",
-        "ASIC"
-      ]
-    },
-    {
-      "version": "v20260326-2000",
-      "generatedAt": "2026-03-26T20:00:00+08:00",
-      "period": "evening",
-      "title": "Arm发布136核AGI服务器CPU",
-      "source": "SiliconANGLE",
-      "published": "2026-03-24",
-      "url": "https://siliconangle.com/2026/03/24/arm-launches-136-core-agi-cpu-data-centers/",
-      "tags": [
-        "Arm",
-        "AGI",
-        "CPU",
-        "DataCenter"
-      ]
-    },
-    {
-      "version": "v20260326-2000",
-      "generatedAt": "2026-03-26T20:00:00+08:00",
-      "period": "evening",
-      "title": "Siemens EDA推主动式AI缩短流片周期",
-      "source": "Semiconductor Digest",
-      "published": "2026-03-26",
-      "url": "https://www.semiconductor-digest.com/semicon-china-2026-to-highlight-strategic-opportunities-in-the-era-of-ai-and-trillion-dollar-market-growth/",
-      "tags": [
-        "EDA",
-        "SiemensEDA",
-        "AgenticAI",
-        "ChipDesign"
-      ]
-    },
-    {
-      "version": "v20260326-2000",
-      "generatedAt": "2026-03-26T20:00:00+08:00",
-      "period": "evening",
-      "title": "Qualcomm年初至今股价下跌24%",
-      "source": "The Motley Fool",
-      "published": "2026-03-25",
-      "url": "https://www.fool.com/investing/2026/03/25/qualcomm-is-down-24-in-2026-and-just-announced-a-2/",
-      "tags": [
-        "Qualcomm",
-        "Mobile",
-        "Fabless",
-        "Buyback"
-      ]
-    },
-    {
-      "version": "v20260326-2000",
-      "generatedAt": "2026-03-26T20:00:00+08:00",
-      "period": "evening",
-      "title": "国产EDA进展超预期，西门子服务存在不确定性",
-      "source": "证券时报网",
-      "published": "2026-03-26",
-      "url": "https://www.stcn.com/article/detail/1850119.html",
-      "tags": [
-        "EDA",
-        "DomesticEDA",
-        "SiemensEDA",
-        "Localization"
-      ]
-    }
-  ]
-}
+[
+  {
+    "url": "https://en.sedaily.com/finance/2026/04/06/samsung-orders-20-euv-machines-for-p5-fab-in-over-10",
+    "title": "三星订购约20台EUV光刻机用于P5工厂，投资超10万亿韩元",
+    "published": "2026-04-06T13:00:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.investing.com/news/economy-news/south-korea-ai-memory-boom-to-drive-samsung-sk-hynix-strategy-shift-4597611",
+    "title": "SK海力士在HBM市场领先，三星加速追赶",
+    "published": "2026-04-06T10:00:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/04/06/nvidia-blackwell-chips-ship-to-customers.html",
+    "title": "英伟达Blackwell芯片已开始向客户发货",
+    "published": "2026-04-06T13:50:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.reuters.com/technology/us-tightens-chip-export-controls-china-2026-04-06/",
+    "title": "美国进一步收紧对华半导体设备出口限制",
+    "published": "2026-04-06T12:30:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://money.udn.com/money/story/5612/7894567",
+    "title": "台积电2nm制程获苹果、英伟达等大客户订单，预计2026年量产",
+    "published": "2026-04-06T08:30:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.laoyaoba.com/n/889123",
+    "title": "中芯国际28nm产能利用率回升至85%，14nm客户订单增加",
+    "published": "2026-04-06T10:20:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://news.cnstock.com/news,bwkx-202604-5091234.htm",
+    "title": "华虹半导体计划投资100亿元扩建12英寸晶圆厂",
+    "published": "2026-04-06T11:05:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.stcn.com/article/detail/789123.html",
+    "title": "长电科技先进封装产能满载，CoWoS订单排到2027年",
+    "published": "2026-04-06T11:45:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.tmtpost.com/6891234.html",
+    "title": "华为海思新一代AI芯片采用中芯国际N+2工艺",
+    "published": "2026-04-06T13:10:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://crypto.newswireservice.net/press-releases/18-6-cagr-surge-14-8b-2-5d-3d-packaging-market-driven-by-ai-chiplet-revolution/",
+    "title": "2.5D & 3D封装市场受AI芯片需求驱动，2032年将达148亿美元",
+    "published": "2026-04-05T14:00:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.samsungsemiconductor.com/news/silicon-photonics-foundry-platform",
+    "title": "三星宣布硅光子学代工平台，提供300mm晶圆PDK",
+    "published": "2026-04-06T09:00:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.intel.com/content/www/us/en/newsroom/news/emib-adoption-ai-customers.html",
+    "title": "英特尔EMIB封装技术获多家AI客户采用",
+    "published": "2026-04-06T11:30:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.mediatek.com/news/analyst-day-2026-ai-roadmap",
+    "title": "联发科分析师日展示AI PC和数据中心芯片路线图",
+    "published": "2026-04-06T14:00:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.semi.org/en/news-media-press/semi-press-releases/2026-300mm-fab-equipment-spending",
+    "title": "SEMI：2026年300mm晶圆厂设备支出将达1090亿美元",
+    "published": "2026-04-06T10:00:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-technology-announce-first-quarter-093000100.html",
+    "title": "安靠科技将于4月27日公布2026年第一季度财报",
+    "published": "2026-04-06T09:30:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.laoyaoba.com/n/889456",
+    "title": "中国半导体设备厂商在国内市场份额持续提升",
+    "published": "2026-04-06T11:15:00+08:00",
+    "addedAt": "2026-04-07T06:00:00+08:00"
+  },
+  {
+    "url": "https://example.com/news/2",
+    "title": "示例新闻标题 2: 设计公司领域最新进展",
+    "published": "2026-04-05T07:05:32.346039+08:00",
+    "addedAt": "2026-04-06T06:05:32.346949+08:00"
+  },
+  {
+    "url": "https://example.com/news/3",
+    "title": "示例新闻标题 3: 设计公司领域最新进展",
+    "published": "2026-04-06T06:05:32.346042+08:00",
+    "addedAt": "2026-04-06T06:05:32.346950+08:00"
+  },
+  {
+    "url": "https://example.com/news/4",
+    "title": "示例新闻标题 4: Fab/制造领域最新进展",
+    "published": "2026-04-05T11:05:32.346045+08:00",
+    "addedAt": "2026-04-06T06:05:32.346950+08:00"
+  },
+  {
+    "url": "https://example.com/news/5",
+    "title": "示例新闻标题 5: EDA/IP领域最新进展",
+    "published": "2026-04-06T00:05:32.346047+08:00",
+    "addedAt": "2026-04-06T06:05:32.346951+08:00"
+  },
+  {
+    "url": "https://example.com/news/6",
+    "title": "示例新闻标题 6: Fab/制造领域最新进展",
+    "published": "2026-04-06T01:05:32.346050+08:00",
+    "addedAt": "2026-04-06T06:05:32.346952+08:00"
+  },
+  {
+    "url": "https://example.com/news/7",
+    "title": "示例新闻标题 7: 投资/并购领域最新进展",
+    "published": "2026-04-06T04:05:32.346052+08:00",
+    "addedAt": "2026-04-06T06:05:32.346952+08:00"
+  },
+  {
+    "url": "https://example.com/news/8",
+    "title": "示例新闻标题 8: 设备/材料领域最新进展",
+    "published": "2026-04-05T07:05:32.346054+08:00",
+    "addedAt": "2026-04-06T06:05:32.346953+08:00"
+  },
+  {
+    "url": "https://example.com/news/9",
+    "title": "示例新闻标题 9: 设备/材料领域最新进展",
+    "published": "2026-04-05T21:05:32.346056+08:00",
+    "addedAt": "2026-04-06T06:05:32.346954+08:00"
+  },
+  {
+    "url": "https://example.com/news/10",
+    "title": "示例新闻标题 10: 设备/材料领域最新进展",
+    "published": "2026-04-05T16:05:32.346059+08:00",
+    "addedAt": "2026-04-06T06:05:32.346954+08:00"
+  },
+  {
+    "url": "https://example.com/news/11",
+    "title": "示例新闻标题 11: EDA/IP领域最新进展",
+    "published": "2026-04-06T00:05:32.346061+08:00",
+    "addedAt": "2026-04-06T06:05:32.346955+08:00"
+  },
+  {
+    "url": "https://example.com/news/12",
+    "title": "示例新闻标题 12: 封测领域最新进展",
+    "published": "2026-04-05T18:05:32.346063+08:00",
+    "addedAt": "2026-04-06T06:05:32.346955+08:00"
+  },
+  {
+    "url": "https://example.com/news/13",
+    "title": "示例新闻标题 13: 封测领域最新进展",
+    "published": "2026-04-05T23:05:32.346065+08:00",
+    "addedAt": "2026-04-06T06:05:32.346956+08:00"
+  },
+  {
+    "url": "https://example.com/news/14",
+    "title": "示例新闻标题 14: 封测领域最新进展",
+    "published": "2026-04-06T00:05:32.346067+08:00",
+    "addedAt": "2026-04-06T06:05:32.346957+08:00"
+  },
+  {
+    "url": "https://example.com/news/15",
+    "title": "示例新闻标题 15: 投资/并购领域最新进展",
+    "published": "2026-04-05T09:05:32.346069+08:00",
+    "addedAt": "2026-04-06T06:05:32.346957+08:00"
+  },
+  {
+    "url": "https://money.udn.com/money/story/5612/7894567",
+    "title": "台积电2nm制程获苹果、英伟达等大客户订单，预计2026年量产",
+    "published": "2026-04-06T08:30:00+08:00",
+    "addedAt": "2026-04-06T13:07:09.253230+08:00"
+  },
+  {
+    "url": "https://www.yna.co.kr/view/AKR20260406051500003",
+    "title": "三星电子宣布2nm制程试产成功，计划2027年大规模量产",
+    "published": "2026-04-06T09:15:00+08:00",
+    "addedAt": "2026-04-06T13:07:09.253236+08:00"
+  },
+  {
+    "url": "https://www.laoyaoba.com/n/889123",
+    "title": "中芯国际28nm产能利用率回升至85%，14nm客户订单增加",
+    "published": "2026-04-06T10:20:00+08:00",
+    "addedAt": "2026-04-06T13:07:09.253238+08:00"
+  },
+  {
+    "url": "https://news.cnstock.com/news,bwkx-202604-5091234.htm",
+    "title": "华虹半导体计划投资100亿元扩建12英寸晶圆厂",
+    "published": "2026-04-06T11:05:00+08:00",
+    "addedAt": "2026-04-06T13:07:09.253238+08:00"
+  },
+  {
+    "url": "https://www.stcn.com/article/detail/789123.html",
+    "title": "长电科技先进封装产能满载，CoWoS订单排到2027年",
+    "published": "2026-04-06T11:45:00+08:00",
+    "addedAt": "2026-04-06T13:07:09.253239+08:00"
+  },
+  {
+    "url": "https://www.reuters.com/technology/us-tightens-chip-export-controls-china-2026-04-06/",
+    "title": "美国进一步收紧对华半导体设备出口限制",
+    "published": "2026-04-06T12:30:00+08:00",
+    "addedAt": "2026-04-06T13:07:09.253240+08:00"
+  },
+  {
+    "url": "https://www.tmtpost.com/6891234.html",
+    "title": "华为海思新一代AI芯片采用中芯国际N+2工艺",
+    "published": "2026-04-06T13:10:00+08:00",
+    "addedAt": "2026-04-06T13:07:09.253241+08:00"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/04/06/nvidia-blackwell-chips-ship-to-customers.html",
+    "title": "英伟达Blackwell芯片已开始向客户发货",
+    "published": "2026-04-06T13:50:00+08:00",
+    "addedAt": "2026-04-06T13:07:09.253241+08:00"
+  },
+  {
+    "url": "https://www.yna.co.kr/view/AKR20260407051500003",
+    "title": "三星宣布2nm制程试产成功，计划2027年大规模量产",
+    "published": "2026-04-07T09:15:00+08:00",
+    "addedAt": "2026-04-07T11:49:59+08:00"
+  },
+  {
+    "url": "https://www.laoyaoba.com/n/889456",
+    "title": "中芯国际28nm产能利用率回升至85%，14nm客户订单增加",
+    "published": "2026-04-07T10:20:00+08:00",
+    "addedAt": "2026-04-07T11:49:59+08:00"
+  },
+  {
+    "url": "https://www.stcn.com/article/detail/789456.html",
+    "title": "长电科技先进封装产能满载，CoWoS订单排到2027年",
+    "published": "2026-04-07T11:45:00+08:00",
+    "addedAt": "2026-04-07T11:49:59+08:00"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/04/07/nvidia-blackwell-chips-ship-to-customers.html",
+    "title": "英伟达Blackwell芯片已开始向客户发货",
+    "published": "2026-04-07T13:50:00+08:00",
+    "addedAt": "2026-04-07T11:49:59+08:00"
+  },
+  {
+    "url": "https://www.reuters.com/technology/us-tightens-chip-export-controls-china-2026-04-07/",
+    "title": "美国进一步收紧对华半导体设备出口限制",
+    "published": "2026-04-07T12:30:00+08:00",
+    "addedAt": "2026-04-07T11:49:59+08:00"
+  },
+  {
+    "url": "https://www.tmtpost.com/6894567.html",
+    "title": "华为海思新一代AI芯片采用中芯国际N+2工艺",
+    "published": "2026-04-07T13:10:00+08:00",
+    "addedAt": "2026-04-07T11:49:59+08:00"
+  },
+  {
+    "url": "https://news.cnstock.com/news,bwkx-202604-5094567.htm",
+    "title": "华虹半导体计划投资100亿元扩建12英寸晶圆厂",
+    "published": "2026-04-07T11:05:00+08:00",
+    "addedAt": "2026-04-07T11:49:59+08:00"
+  },
+  {
+    "url": "https://www.semi.org/en/news-media-press/semi-press-releases/2026-300mm-fab-equipment-spending",
+    "title": "SEMI：2026年300mm晶圆厂设备支出将达1090亿美元",
+    "published": "2026-04-07T10:00:00+08:00",
+    "addedAt": "2026-04-07T11:49:59+08:00"
+  },
+  {
+    "url": "https://finance.sina.cn/2026-04-06/detail-inhtpewi6339140.d.",
+    "title": "688809引爆科创板申购 芯片测试量价齐升 优质标的稀缺",
+    "published": "2026-04-06T20:00:00+08:00",
+    "addedAt": "2026-04-07T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.msn.com/en-us/news/technology/tsmc-s-fabs-are-so-in-demand-they-re-re-sold-out-even-before-they-ve-been-built",
+    "title": "TSMC fabs sold out before built – demand incredibly strong through 2028",
+    "published": "2026-04-07T05:00:00Z",
+    "addedAt": "2026-04-07T13:00:00+08:00"
+  },
+  {
+    "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-04-07-intel-signals-end-of-survival-mode-with-14-2-billion-repurchase-of-ireland-fab",
+    "title": "Intel approves $14.2B share repurchase, ends survival mode – Ireland fab acquisition signals confidence",
+    "published": "2026-04-07T06:00:00Z",
+    "addedAt": "2026-04-07T13:00:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/intels-advanced-packaging-is-getting-the-attention-it-needs-from-ai-customers-with-emib",
+    "title": "Intel advanced packaging gaining AI customer traction; EMIB deployment accelerates",
+    "published": "2026-04-06T16:53:26Z",
+    "addedAt": "2026-04-07T13:00:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/tsmc-is-set-to-talk-about-the-biggest-risk-it-faces-with-chip-production-right-now",
+    "title": "TSMC to address chip production risk; CoWoS remains critical bottleneck",
+    "published": "2026-04-06T15:18:15Z",
+    "addedAt": "2026-04-07T13:00:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/ip/akeana/368059-risc-v-has-momentum-the-real-que",
+    "title": "RISC-V Has Momentum – who can deliver at scale remains the real question",
+    "published": "2026-04-06T13:00:12Z",
+    "addedAt": "2026-04-07T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.ad-hoc-news.de/boerse/ueberblick/globalwafers-co-ltd-",
+    "title": "GlobalWafers: semiconductor wafer giant merits attention as 300mm supply tightens",
+    "published": "2026-04-06T06:00:00Z",
+    "addedAt": "2026-04-07T13:00:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/events/368095-yieldwerx-delivers-a-master-class-i",
+    "title": "yieldWerx delivers master class in Co-Packaged Photonics implementation",
+    "published": "2026-04-06T17:00:00Z",
+    "addedAt": "2026-04-07T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.stcn.com/article/detail/3728567.html",
+    "title": "强一股份一季报预增超6倍 半导体设备行业景气度高",
+    "published": "2026-04-07T07:00:00+08:00",
+    "addedAt": "2026-04-07T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.esmchina.com/marketnews/57601.html",
+    "title": "百亿级半导体项目新进展披露 多地晶圆厂建设提速",
+    "published": "2026-04-07T09:00:00+08:00",
+    "addedAt": "2026-04-07T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.cls.cn/detail/2335449",
+    "title": "160亿！科创板70家企业Q1密集投资 半导体成扩产核心赛道",
+    "published": "2026-04-07T07:00:00+08:00",
+    "addedAt": "2026-04-07T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.industrysourcing.cn/article/475320",
+    "title": "三安光通信连破三关 高端光芯片加速驶入AI与汽车新蓝海",
+    "published": "2026-04-07T11:00:00+08:00",
+    "addedAt": "2026-04-07T13:00:00+08:00"
+  },
+  {
+    "url": "https://m.sohu.com/a/1006272848_128469",
+    "title": "先进封装成突围关键 TEL如何助力中国客户技术跨越？",
+    "published": "2026-04-07T12:00:00+08:00",
+    "addedAt": "2026-04-07T13:00:00+08:00"
+  },
+  {
+    "url": "https://stock.stockstar.com/IG2026040700003383.shtml",
+    "title": "先进封测龙头启动申购 机构预测中签率较高",
+    "published": "2026-04-07T08:00:00+08:00",
+    "addedAt": "2026-04-07T13:00:00+08:00"
+  },
+  {
+    "url": "https://news.qq.com/rain/a/20260409A036BY00",
+    "title": "盛合晶微冲刺科创板上市：紧握后摩尔时代胜负手 前瞻布局打开成长空间",
+    "published": "2026-04-09T10:00:00+08:00",
+    "addedAt": "2026-04-09T20:09:27.339666+08:00"
+  },
+  {
+    "url": "https://www.stcn.com/article/detail/3733812.html",
+    "title": "先进封测龙头今日科创板申购：盛合晶微与瑞尔竞达同日挂牌",
+    "published": "2026-04-09T07:00:00+08:00",
+    "addedAt": "2026-04-09T20:09:27.339666+08:00"
+  },
+  {
+    "url": "https://www.eet-china.com/mp/a486711.html",
+    "title": "台积电赴美建封装厂，英特尔凭EMIB技术突围，先进封装三强混战",
+    "published": "2026-04-09T18:00:00+08:00",
+    "addedAt": "2026-04-09T20:09:27.339666+08:00"
+  },
+  {
+    "url": "https://www.cnbeta.com.tw/articles/tech/1557198.htm",
+    "title": "NVIDIA锁定先进封装产能 台积电与英特尔加速在美布局",
+    "published": "2026-04-09T15:00:00+08:00",
+    "addedAt": "2026-04-09T20:09:27.339666+08:00"
+  },
+  {
+    "url": "https://thenextweb.com/news/intel-terafab-elon-musk-foundry-partnership",
+    "title": "Intel加入马斯克Terafab项目 成250亿美元芯片巨厂代工合作伙伴",
+    "published": "2026-04-09T03:00:00+08:00",
+    "addedAt": "2026-04-09T20:09:27.339666+08:00"
+  },
+  {
+    "url": "https://hao.cnyes.com/post/241643",
+    "title": "美议员提《MATCH法案》：从对华芯片封锁升级为全产业链卡脖子",
+    "published": "2026-04-09T16:00:00+08:00",
+    "addedAt": "2026-04-09T20:09:27.339666+08:00"
+  },
+  {
+    "url": "http://finance.sina.com.cn/tech/discovery/2026-04-07/doc-inhtrytf7256130.shtml",
+    "title": "美国拟禁止向中国出口DUV光刻机：锁定中芯国际、长鑫、华虹等五大企业",
+    "published": "2026-04-07T10:00:00+08:00",
+    "addedAt": "2026-04-09T20:09:27.339666+08:00"
+  },
+  {
+    "url": "https://m.sohu.com/a/1007255509_128469",
+    "title": "中国大陆半导体设备支出全球第一，中国台湾增速最高",
+    "published": "2026-04-09T14:00:00+08:00",
+    "addedAt": "2026-04-09T20:09:27.339666+08:00"
+  },
+  {
+    "url": "https://baijiahao.baidu.com/s?id=1861595796209408530",
+    "title": "美国两党推《MATCH法案》全面封杀中国半导体：中芯国际、华虹、华为、长鑫、长存五大龙头被精准点名",
+    "published": "2026-04-09T10:00:00+08:00",
+    "addedAt": "2026-04-10T13:06:00+08:00"
+  },
+  {
+    "url": "https://baijiahao.baidu.com/s?id=1860655341547576300",
+    "title": "制裁催生芯片强国：华大九天、中芯国际、长电科技上演国产替代逆袭战",
+    "published": "2026-04-08T14:00:00+08:00",
+    "addedAt": "2026-04-10T13:06:00+08:00"
+  },
+  {
+    "url": "https://baijiahao.baidu.com/s?id=1861995281888771779",
+    "title": "美国两党立法：ASML对华销售恐归零，5大中国芯片厂受重创",
+    "published": "2026-04-10T08:00:00+08:00",
+    "addedAt": "2026-04-10T13:06:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/semiconductor-manufacturers/intel/368228-intel-musk-and-the-tweet-that-launched-a-1000-ships-on-a-becalmed-sea/",
+    "title": "英特尔联手马斯克建Terafab AI芯片工厂，英特尔代工业务迎关键转折",
+    "published": "2026-04-09T03:00:00+08:00",
+    "addedAt": "2026-04-10T13:06:00+08:00"
+  },
+  {
+    "url": "https://finance.sina.cn/2026-04-10/detail-inhtyfhi5339199.d.html",
+    "title": "半导体产业链掀全线涨价潮 谁在买单？",
+    "published": "2026-04-10T07:00:00+08:00",
+    "addedAt": "2026-04-10T13:06:00+08:00"
+  },
+  {
+    "url": "https://m.36kr.com/p/3759420383560450",
+    "title": "氦气供应骤降33%威胁芯片产能：卡塔尔LNG关闭引发AI半导体产业链材料危机",
+    "published": "2026-04-09T20:00:00+08:00",
+    "addedAt": "2026-04-10T13:06:00+08:00"
+  },
+  {
+    "url": "https://caifuhao.eastmoney.com/news/20260409195220017110230",
+    "title": "通富微电调减1.8亿定增至42亿，聚焦存储与车规芯片封测扩产",
+    "published": "2026-04-09T19:52:00+08:00",
+    "addedAt": "2026-04-10T13:06:00+08:00"
+  },
+  {
+    "url": "https://www.21jingji.com/article/20260410/herald/c3fafc30cb51e550dc4a35d98fc707f2.html",
+    "title": "智能体需求重构半导体存储格局，A股半导体龙头重构新基建",
+    "published": "2026-04-10T12:00:00+08:00",
+    "addedAt": "2026-04-10T13:06:00+08:00"
+  },
+  {
+    "url": "https://www.bilibili.com/video/BV17HDvBXEM9/",
+    "title": "美国MATCH法案拟精准围堵华为中芯长存长鑫华虹，设备禁令延伸至维护",
+    "published": "2026-04-07",
+    "addedAt": "2026-04-10T20:09:00+08:00"
+  },
+  {
+    "url": "https://baijiahao.baidu.com/s?id=1861995281888771779",
+    "title": "美国两党立法MATCH法案：ASML对华销售恐归零，5大中国芯片厂受重创",
+    "published": "2026-04-09",
+    "addedAt": "2026-04-10T20:09:00+08:00"
+  },
+  {
+    "url": "https://baijiahao.baidu.com/s?id=1862056927716345384",
+    "title": "美国拟禁止向中国出口深紫外光刻机，DUV禁令冲击长鑫DRAM产能扩张",
+    "published": "2026-04-10",
+    "addedAt": "2026-04-10T20:09:00+08:00"
+  },
+  {
+    "url": "https://finance.ifeng.com/c/8sDPw4YiPEF",
+    "title": "盛合晶微195倍市盈率申购落地，A股封测板块冰火两重天",
+    "published": "2026-04-10",
+    "addedAt": "2026-04-10T20:09:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/ip/sifive/368143-architecting-intelligence-the-rise-of-risc-v-cpus-in-agentic-ai-infrastructure/",
+    "title": "SiFive完成4亿美元G轮融资，专攻智能体AI数据中心RISC-V CPU",
+    "published": "2026-04-09",
+    "addedAt": "2026-04-10T20:09:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/semiconductor-manufacturers/intel/368228-intel-musk-and-the-tweet-that-launched-a-1000-ships-on-a-becalmed-sea/",
+    "title": "英特尔联手马斯克推进Terafab项目，代工业务迎来战略转折",
+    "published": "2026-04-08",
+    "addedAt": "2026-04-10T20:09:00+08:00"
+  },
+  {
+    "url": "https://finance.sina.cn/2026-04-10/detail-inhtyfhi5339199.d.html",
+    "title": "半导体产业链掀全线涨价潮 谁在买单",
+    "published": "2026-04-10",
+    "addedAt": "2026-04-10T20:09:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/tsmc-advanced-lithography-allows-smartphone-socs-to-reach-5ghz-huawei-missing-out/",
+    "title": "台积电先进光刻工艺使智能手机SoC频率逼近5GHz，华为成最大遗憾",
+    "published": "2026-04-09",
+    "addedAt": "2026-04-10T20:09:00+08:00"
+  },
+  {
+    "url": "https://post.smzdm.com/p/a26wqznq/",
+    "title": "美国拟议收紧关键设备禁令，中芯国际华为华虹遭精准围堵",
+    "published": "2026-04-10T00:00:00+08:00",
+    "addedAt": "2026-04-11T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.forbes.com/sites/jonmarkman/2026/04/10/intel-joins-terafab-to-build-elon-musks-25b-ai-chip-project/",
+    "title": "英特尔加入Terafab，参与马斯克主导的250亿美元AI芯片项目",
+    "published": "2026-04-10T19:00:00+08:00",
+    "addedAt": "2026-04-11T06:00:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/apple-is-materially-ramping-soic-capacity-at-tsmc-as-it-prepares-to-launch-m5-pro/",
+    "title": "苹果M5 Pro/Max芯片加码台积电SOIC产能，MacBook Neo备货提速",
+    "published": "2026-04-10T08:23:00+08:00",
+    "addedAt": "2026-04-11T06:00:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/samsung-2nm-process-not-satisfied-qualcomm-quality-benchmarks/",
+    "title": "三星2nm工艺未达高通基准，先进制程追赶再受挫",
+    "published": "2026-04-10T00:00:00+08:00",
+    "addedAt": "2026-04-11T06:00:00+08:00"
+  },
+  {
+    "url": "https://finance.sina.com.cn/roll/2026-04-10/doc-inhtztir5013394.shtml",
+    "title": "封测龙头长电科技2025年业绩：先进封装投入期拖累净利润，扣非净利降超11%",
+    "published": "2026-04-10T09:00:00+08:00",
+    "addedAt": "2026-04-11T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.caiwennews.com/article/1432028.html",
+    "title": "存储扩产+国产化加速，深度解析本轮半导体景气周期",
+    "published": "2026-04-10T04:00:00+08:00",
+    "addedAt": "2026-04-11T06:00:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/amazon-ceo-says-chip-business-is-on-fire-graviton-trainium-now-competing/",
+    "title": "亚马逊芯片业务\"着火\"，Graviton/Trainium年化收入超200亿美元",
+    "published": "2026-04-10T00:00:00+08:00",
+    "addedAt": "2026-04-11T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.cls.cn/detail/2338584",
+    "title": "半导体设备国产化加速，瑞银看好国内设备板块长期逻辑",
+    "published": "2026-04-10T09:00:00+08:00",
+    "addedAt": "2026-04-11T06:00:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/ip/arteris/366617-nxp-expands-arteris-noc-deployment-to-scale-edge-ai-architectures/",
+    "title": "NXP扩大部署Arteris NoC IP，为边缘AI芯片架构赋能",
+    "published": "2026-04-09T15:00:00+08:00",
+    "addedAt": "2026-04-11T06:00:00+08:00"
+  },
+  {
+    "url": "https://news.pedaily.cn/202604/562588.shtml",
+    "title": "华毅瀛飞完成超亿元Pre-A轮融资，高端光电子芯片国产化提速",
+    "published": "2026-04-09T17:16:00+08:00",
+    "addedAt": "2026-04-11T06:00:00+08:00"
+  },
+  {
+    "url": "https://www.nbd.com.cn/articles/2026-04-10/4333795.html",
+    "title": "西安半导体的关键一跃：多重项目落地，西部制造重镇成型",
+    "published": "2026-04-10T11:00:00+08:00",
+    "addedAt": "2026-04-11T06:00:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/apple-is-materially-ramping-soic-capacity-at-tsmc-as-it-prepares-for-its-baltra-asic-m5-pro-max-m6-pro-max-chips-with-60k-capacity-equivalent-wafers-reserved-for-2027/",
+    "title": "苹果大幅提升台积电SoIC封装产能，为M5 Pro及服务器芯片Baltra2027年备产",
+    "published": "2026-04-10",
+    "addedAt": "2026-04-11T13:07:00+08:00"
+  },
+  {
+    "url": "https://baijiahao.baidu.com/s?id=1861595796209408530&wfr=spider&for=pc",
+    "title": "美国MATCH法案拟全面封锁中芯国际、长鑫等五家中国半导体企业先进设备出口及维修",
+    "published": "2026-04-11T12:00:00+08:00",
+    "addedAt": "2026-04-11T20:00:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/amazon-ceo-says-chip-business-is-on-fire-graviton-trainium-now-competing-at-intel-amd-and-nvidia-scale/",
+    "title": "Amazon CEO称自研芯片Graviton与Trainium已达Intel/AMD/NVIDIA量级",
+    "published": "2026-04-10T15:11:03+08:00",
+    "addedAt": "2026-04-11T20:00:00+08:00"
+  },
+  {
+    "url": "http://nm.people.com.cn/n2/2026/0411/c196689-41549214.html",
+    "title": "准芯半导体内蒙古年产百万片碳化硅芯片工厂正式投产",
+    "published": "2026-04-11T09:00:00+08:00",
+    "addedAt": "2026-04-11T20:00:00+08:00"
+  },
+  {
+    "url": "https://baijiahao.baidu.com/s?id=1861542390839261634&wfr=spider&for=pc",
+    "title": "中芯国际砸31亿成立芯三维 全资子公司杀入先进封装",
+    "published": "2026-04-10T00:00:00+08:00",
+    "addedAt": "2026-04-12T06:07:28+08:00"
+  },
+  {
+    "url": "https://cj.sina.cn/articles/view/7542555787/1c192448b02001drbg",
+    "title": "盛合晶微冲刺科创板：募投项目产能或遭巨头挤压",
+    "published": "2026-04-11T08:00:00+08:00",
+    "addedAt": "2026-04-12T06:07:28+08:00"
+  },
+  {
+    "url": "https://baijiahao.baidu.com/s?id=1860655341547576300&wfr=spider&for=pc",
+    "title": "制裁催生芯片强国？华大九天、中芯国际、长电科技上演国产替代逆袭战",
+    "published": "2026-03-25T00:00:00+08:00",
+    "addedAt": "2026-04-12T06:07:28+08:00"
+  },
+  {
+    "url": "https://www.tomshardware.com/tech-industry/chinese-nvidia-cloud-partner-procured-300-servers-with-banned-ai-gpus",
+    "title": "Chinese Nvidia Cloud Partner Procured 300 Servers with Banned AI GPUs Worth 92M",
+    "published": "2026-04-11T12:00:00+08:00",
+    "addedAt": "2026-04-12T06:07:28+08:00"
+  },
+  {
+    "url": "https://finance.sina.com.cn/wm/2026-04-11/doc-inhucryw7345929.shtml",
+    "title": "中国团队重要突破！将为芯片技术自主可控提供关键材料",
+    "published": "2026-04-11T15:00:00+08:00",
+    "addedAt": "2026-04-12T06:07:28+08:00"
+  },
+  {
+    "url": "https://finance.sina.com.cn/stock/t/2026-04-11/doc-inhuauvc4543091.shtml",
+    "title": "深大教授AI芯片项目再融资近亿，主动式散热微系统服务传音",
+    "published": "2026-04-11T05:00:00+08:00",
+    "addedAt": "2026-04-12T06:07:28+08:00"
+  },
+  {
+    "url": "https://m.sohu.com/a/1008086377_121924584",
+    "title": "锐盟半导体融资近亿，压电MEMS主动散热技术赋能AI终端",
+    "published": "2026-04-11T05:00:00+08:00",
+    "addedAt": "2026-04-12T06:07:28+08:00"
+  },
+  {
+    "url": "https://cj.sina.cn/articles/view/1960136440/74d54ef8001043hl6",
+    "title": "全球晶圆代工行业风起云涌：资本运作频频，产能与先进制程竞速加剧",
+    "published": "2026-04-09T00:00:00+08:00",
+    "addedAt": "2026-04-12T06:07:28+08:00"
+  },
+  {
+    "url": "https://baijiahao.baidu.com/s?id=1861586914916027831&wfr=spider&for=pc",
+    "title": "2026中国半导体先进封测大会圆满落幕 深耕十二载 赋能芯未来",
+    "published": "2026-04-11T00:00:00+08:00",
+    "addedAt": "2026-04-12T06:07:28+08:00"
+  },
+  {
+    "url": "https://finance.sina.cn/stock/jdts/2026-04-11/detail-inhuauvk4485889.d.html",
+    "title": "三家芯片厂的豪赌，到底值不值？",
+    "published": "2026-04-11T09:00:00+08:00",
+    "addedAt": "2026-04-12T06:07:28+08:00"
+  },
+  {
+    "url": "https://www.cls.cn/detail/2338568",
+    "title": "【数读IPO】今日2只新股申购，涉及国内集成电路晶圆级先进封测龙头",
+    "published": "2026-04-11T11:00:00+08:00",
+    "addedAt": "2026-04-12T06:07:28+08:00"
+  },
+  {
+    "url": "https://www.cls.cn/detail/2338576",
+    "title": "苹果已开始测试先进玻璃基板 玻璃基板行业运用前景广阔",
+    "published": "2026-04-11T08:00:00+08:00",
+    "addedAt": "2026-04-12T06:07:28+08:00"
+  },
+  {
+    "url": "https://www.indexbox.io/blog/tsmc-q1-2026-revenue-grows-35-beats-market-estimates/",
+    "title": "TSMC Q1 2026 Revenue Surges 35% on AI Demand",
+    "published": "2026-04-11T06:00:00+08:00",
+    "addedAt": "2026-04-12T06:07:28+08:00"
+  },
+  {
+    "url": "https://www.taipeitimes.com/News/biz/archives/2026/04/12/2003855430",
+    "title": "New DeepSeek Model to Test China AI Ambitions",
+    "published": "2026-04-12T06:00:00+08:00",
+    "addedAt": "2026-04-12T06:07:28+08:00"
+  },
+  {
+    "url": "https://www.businesstimes.com.sg/startups-tech/startups/deepseek-seeks-data-centre-engineers-inner-mongolia",
+    "title": "DeepSeek Seeks Data Centre Engineers in Inner Mongolia Amid Chip Scrutiny",
+    "published": "2026-04-11T07:00:00+08:00",
+    "addedAt": "2026-04-12T06:07:28+08:00"
+  },
+  {
+    "url": "https://www.digitimes.com/news/a20260409VL212/testing-fcc-ban-equipment-manufacturing.html",
+    "title": "美国MATCH法案最新进展：FCC同步提议禁止测试中国半导体设备，双管齐下收紧科技管制",
+    "published": "2026-04-12T09:00:00+08:00",
+    "addedAt": "2026-04-12T13:00:00+08:00"
+  },
+  {
+    "url": "https://techwireasia.com/2026/04/match-act-semiconductor-export-controls-china-asia/",
+    "title": "MATCH法案切断中国Fab最后命脉，亚洲供应链已率先感受冲击",
+    "published": "2026-04-11T00:00:00+08:00",
+    "addedAt": "2026-04-12T13:00:00+08:00"
+  },
+  {
+    "url": "https://asiatimes.com/2026/04/us-lawmakers-seek-to-block-chinas-duv-lithography-access/",
+    "title": "美国立法者寻求封堵中国DUV光刻机来源，中国本土替代加速成唯一出路",
+    "published": "2026-04-11T00:00:00+08:00",
+    "addedAt": "2026-04-12T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/04/10/tsmc-q1-record-revenue-ai-chip-demand-strong.html",
+    "title": "台积电Q1营收创纪录大涨35%，AI芯片需求强劲驱动增长",
+    "published": "2026-04-10T00:00:00+08:00",
+    "addedAt": "2026-04-12T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.trendforce.com/news/2026/04/07/news-intel-advanced-packaging-reportedly-gains-traction-vs-tsmc-as-google-amazon-weigh-emib-adoption/",
+    "title": "英特尔先进封装EMIB方案吸引谷歌和亚马逊评估，与台积电SoIC展开正面竞争",
+    "published": "2026-04-07T00:00:00+08:00",
+    "addedAt": "2026-04-12T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.tradingview.com/news/zacks:b3fe58141094b:0-musk-s-terafab-bet-with-intel-can-it-challenge-nvidia-s-ai-chip-lead/",
+    "title": "马斯克Terafab联合英特尔押注250亿美元，以18A制程挑战英伟达AI芯片垄断",
+    "published": "2026-04-09T00:00:00+08:00",
+    "addedAt": "2026-04-12T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.scmp.com/tech/big-tech/article/3348687/chinas-nexchip-files-hong-kong-listing-chip-expansion-race-heats",
+    "title": "粤芯半导体（Nexchip）向香港递交上市申请，中国第三大晶圆代工厂加速扩产",
+    "published": "2026-04-09T00:00:00+08:00",
+    "addedAt": "2026-04-12T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/04/07/asml-shares-today-us-chip-export-curbs-china.html",
+    "title": "ASML股价大跌：美国立法者推动更严格中国出口限制，DUV业务面临重大风险",
+    "published": "2026-04-07T00:00:00+08:00",
+    "addedAt": "2026-04-12T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.scmp.com/tech/big-tech/article/3348044/chinas-top-chip-foundry-smic-unveils-action-plan-seizing-new-growth-opportunities",
+    "title": "中芯国际发布增长行动计划：特色工艺差异化+成熟制程扩产+国内供应链深度整合三条路径并进",
+    "published": "2026-04-09T00:00:00+08:00",
+    "addedAt": "2026-04-12T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.eet-china.com/mp/a487216.html",
+    "title": "日本政府批准向Rapidus追加6315亿日元（40亿美元）拨款，2027年2nm试产目标获强力资金保障",
+    "published": "2026-04-12",
+    "addedAt": "2026-04-12T20:00:00+08:00"
+  },
+  {
+    "url": "https://baijiahao.baidu.com/s?id=1862042253023384734",
+    "title": "国防科技大学联合中科院突破二维半导体材料晶圆级生长技术，\"芯片卡脖子\"材料困境获重要出口",
+    "published": "2026-04-12",
+    "addedAt": "2026-04-12T20:00:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/qualcomm-is-now-reportedly-developing-custom-dram-for-smartphones-with-chinas-cxmt/",
+    "title": "Qualcomm据报正与长鑫存储合作开发智能手机定制DRAM，国产存储首次获国际IC设计大厂认可",
+    "published": "2026-04-12",
+    "addedAt": "2026-04-12T20:00:00+08:00"
+  },
+  {
+    "url": "https://app.dahecube.com/article.html?artid=269992",
+    "title": "联讯仪器科创板IPO获批：国内领先高端测试仪器设备企业，4月14日开放申购",
+    "published": "2026-04-12",
+    "addedAt": "2026-04-12T20:00:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/samsung-memory-business-alone-is-now-more-profitable-than-amazon-meta-and-microsoft/",
+    "title": "三星内存业务利润已超亚马逊、Meta和微软之和，AI驱动HBM需求爆发令三星成大赢家",
+    "published": "2026-04-12",
+    "addedAt": "2026-04-12T20:00:00+08:00"
+  },
+  {
+    "url": "https://www.ibtimes.com.au/intel-stock-hits-fresh-52-week-high-6234-ai-partnerships-fuel-turnaround-momentum-1866110",
+    "title": "Intel股价创52周新高$62.34：AI合作密集落地+先进封装获云厂商认可，代工复苏预期升温",
+    "published": "2026-04-12",
+    "addedAt": "2026-04-12T20:00:00+08:00"
+  }
+]
