@@ -682,5 +682,59 @@
     "title": "DeepSeek Seeks Data Centre Engineers in Inner Mongolia Amid Chip Scrutiny",
     "published": "2026-04-11T07:00:00+08:00",
     "addedAt": "2026-04-12T06:07:28+08:00"
+  },
+  {
+    "url": "https://www.digitimes.com/news/a20260409VL212/testing-fcc-ban-equipment-manufacturing.html",
+    "title": "美国MATCH法案最新进展：FCC同步提议禁止测试中国半导体设备，双管齐下收紧科技管制",
+    "published": "2026-04-12T09:00:00+08:00",
+    "addedAt": "2026-04-12T13:00:00+08:00"
+  },
+  {
+    "url": "https://techwireasia.com/2026/04/match-act-semiconductor-export-controls-china-asia/",
+    "title": "MATCH法案切断中国Fab最后命脉，亚洲供应链已率先感受冲击",
+    "published": "2026-04-11T00:00:00+08:00",
+    "addedAt": "2026-04-12T13:00:00+08:00"
+  },
+  {
+    "url": "https://asiatimes.com/2026/04/us-lawmakers-seek-to-block-chinas-duv-lithography-access/",
+    "title": "美国立法者寻求封堵中国DUV光刻机来源，中国本土替代加速成唯一出路",
+    "published": "2026-04-11T00:00:00+08:00",
+    "addedAt": "2026-04-12T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/04/10/tsmc-q1-record-revenue-ai-chip-demand-strong.html",
+    "title": "台积电Q1营收创纪录大涨35%，AI芯片需求强劲驱动增长",
+    "published": "2026-04-10T00:00:00+08:00",
+    "addedAt": "2026-04-12T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.trendforce.com/news/2026/04/07/news-intel-advanced-packaging-reportedly-gains-traction-vs-tsmc-as-google-amazon-weigh-emib-adoption/",
+    "title": "英特尔先进封装EMIB方案吸引谷歌和亚马逊评估，与台积电SoIC展开正面竞争",
+    "published": "2026-04-07T00:00:00+08:00",
+    "addedAt": "2026-04-12T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.tradingview.com/news/zacks:b3fe58141094b:0-musk-s-terafab-bet-with-intel-can-it-challenge-nvidia-s-ai-chip-lead/",
+    "title": "马斯克Terafab联合英特尔押注250亿美元，以18A制程挑战英伟达AI芯片垄断",
+    "published": "2026-04-09T00:00:00+08:00",
+    "addedAt": "2026-04-12T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.scmp.com/tech/big-tech/article/3348687/chinas-nexchip-files-hong-kong-listing-chip-expansion-race-heats",
+    "title": "粤芯半导体（Nexchip）向香港递交上市申请，中国第三大晶圆代工厂加速扩产",
+    "published": "2026-04-09T00:00:00+08:00",
+    "addedAt": "2026-04-12T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/04/07/asml-shares-today-us-chip-export-curbs-china.html",
+    "title": "ASML股价大跌：美国立法者推动更严格中国出口限制，DUV业务面临重大风险",
+    "published": "2026-04-07T00:00:00+08:00",
+    "addedAt": "2026-04-12T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.scmp.com/tech/big-tech/article/3348044/chinas-top-chip-foundry-smic-unveils-action-plan-seizing-new-growth-opportunities",
+    "title": "中芯国际发布增长行动计划：特色工艺差异化+成熟制程扩产+国内供应链深度整合三条路径并进",
+    "published": "2026-04-09T00:00:00+08:00",
+    "addedAt": "2026-04-12T13:00:00+08:00"
   }
 ]

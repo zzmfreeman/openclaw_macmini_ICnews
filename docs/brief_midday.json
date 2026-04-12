@@ -1,234 +1,257 @@
 {
-  "version": "v20260411-1300",
-  "generatedAt": "2026-04-11T13:00:00+08:00",
+  "version": "v20260412-1300",
+  "generatedAt": "2026-04-12T13:00:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [
     {
       "term": "MATCH法案",
-      "desc": "美国国会提出的半导体出口管制新法案，将中国核心晶圆制造企业列为受管制设施，禁止设备出口并延伸至现有设备全生命周期管控",
+      "desc": "美国2026年4月提出，对中芯国际等五家中国核心半导体企业实施近乎全面设备禁令，涵盖DUV光刻机出口及现有设备维修服务",
       "category": "商业"
-    },
-    {
-      "term": "SoIC",
-      "desc": "台积电System-on-Integrated-Chips技术，芯片堆叠集成先进封装路线，用于苹果M系列芯片及AI服务器芯片",
-      "category": "封装"
     },
     {
       "term": "DUV光刻机",
-      "desc": "深紫外光刻机，使用248nm或193nm波长，用于成熟制程晶圆制造，是中芯国际等中国晶圆厂现有产能核心设备",
+      "desc": "深紫外光刻机，使用193nm或248nm光源实现7-28nm制程，是目前中国大陆晶圆厂主要依赖的光刻设备",
       "category": "设备"
     },
     {
+      "term": "EMIB",
+      "desc": "英特尔的嵌入式多芯片互联桥接封装技术，通过硅桥将多个芯片高密度互联，是CoWoS/SoIC的竞争替代方案",
+      "category": "封装"
+    },
+    {
       "term": "Terafab",
-      "desc": "马斯克主导的250亿美元AI芯片代工项目，英特尔已签约参与代工建设",
+      "desc": "马斯克主导的美国大规模芯片制造项目，联合英特尔建设新一代AI芯片生产能力，总投资约250亿美元",
       "category": "商业"
     },
     {
-      "term": "Trainium",
-      "desc": "亚马逊自研AI训练专用芯片，面向大规模AI模型训练，与Graviton计算芯片共同构成AWS自研芯片生态",
-      "category": "存储"
+      "term": "18A制程",
+      "desc": "英特尔下一代制程节点（相当于1.8纳米级别），是英特尔Foundry对外承接先进代工服务的核心工艺",
+      "category": "设备"
+    },
+    {
+      "term": "粤芯/Nexchip",
+      "desc": "中国第三大晶圆代工厂，专注28nm及以上成熟制程，近期向香港联交所提交IPO申请以扩大产能",
+      "category": "商业"
     }
   ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
       "heat": "升温",
-      "reddit_top": "N/A（API额度耗尽）",
-      "hn_top": null,
-      "summary": "苹果大幅提升台积电SoIC产能、长电科技年报先进封装承压、盛合晶微高估值IPO，先进封装赛道热度持续攀升，市场聚焦CoWoS/SoIC产能爬坡节奏与AI封装需求。"
+      "reddit_top": null,
+      "hn_top": "Apple M5 Pro/Max and TSMC SOIC-MH 2.5D chiplet packaging | pts:10",
+      "summary": "台积电Q1营收大涨35%，先进封装需求为核心驱动；英特尔EMIB吸引谷歌亚马逊评估，CoWoS产能紧缺背景下替代方案竞争加剧，情绪偏向关注供应多元化。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "升温",
-      "reddit_top": "N/A（API额度耗尽）",
+      "reddit_top": null,
       "hn_top": null,
-      "summary": "戴尔预测全球内存需求激增625倍、A股存储概念股集体大涨，智能体AI对长期记忆需求爆发，HBM及高带宽存储供应紧张预期强烈升温。"
+      "summary": "AI训练需求持续旺盛推动存储价格上涨，三星存储业务盈利超越主要科技巨头；高通+CXMT定制DRAM合作传闻持续发酵，社区情绪看涨存储周期。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "升温",
-      "reddit_top": "N/A",
-      "hn_top": "Blacklisted China chipmaker SMIC becomes the second-largest foundry (19 pts)",
-      "summary": "中芯国际晋升全球第二大晶圆代工厂引发HN社区持续讨论，MATCH法案与DUV禁令叠加制裁压力，社区观点分化，一方认为中国Fab突破已成事实，另一方担忧维修禁令可能压制产能。"
+      "reddit_top": null,
+      "hn_top": "中芯国际无EUV实现5nm量产 | pts:27",
+      "summary": "MATCH法案和FCC禁令双重压力下，中芯国际发布增长行动计划，粤芯赴港IPO加速扩产；国产光刻机替代成为唯一出路，社区情绪在制裁冲击和国产自强之间持续分化。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "平稳",
-      "reddit_top": "N/A",
-      "hn_top": null,
-      "summary": "合见工软发布智能体EDA平台UDA 2.0，安谋科技发布新款VPU IP，国产EDA/IP进展稳步推进，国内业内关注度持续但海外社区热度较低。"
+      "reddit_top": null,
+      "hn_top": "美国取消对华芯片设计工具出口禁令（40天后撤回）| pts:20",
+      "summary": "华大九天等国产EDA在去A化供应链中持续被提及，但与国际主流流程互通性仍是痛点；Arm在RISC-V冲击下IP授权市场地位受到挑战，情绪中性。"
     },
     {
       "topic": "封测OSAT",
-      "heat": "升温",
-      "reddit_top": "N/A",
+      "heat": "平稳",
+      "reddit_top": null,
       "hn_top": null,
-      "summary": "盛合晶微IPO高达195倍市盈率申购、长电科技年报先进封装战略坚守，以及长三角先进封装大会召集，OSAT赛道在AI算力驱动下升温明显，行业集中度与技术门槛持续提升。"
+      "summary": "天水华天封测产业崛起，西部低成本封测基地竞争力凸显；英特尔EMIB和台积电SoIC的先进封装竞争是行业主要关注焦点，传统OSAT热度平稳。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "升温",
-      "reddit_top": "N/A",
-      "hn_top": "How the U.S. - Chinese Technology War Is Changing the World (1 pts)",
-      "summary": "MATCH法案+DUV禁令+全生命周期管控三重制裁升级叠加，本午报周期内相关新闻最为密集，管制范围从新设备扩展至现有设备维护的政策转向是本期最重要议题。"
+      "reddit_top": null,
+      "hn_top": "美国芯片出口管制正在发挥作用 | pts:18",
+      "summary": "MATCH法案+FCC测试禁令双管齐下是本期最大焦点，ASML股价大跌反映市场定价对华业务中断风险；亚洲供应链企业率先感受冲击并提前备货，情绪高度紧张。"
     },
     {
       "topic": "AI芯片/NVIDIA",
-      "heat": "平稳",
-      "reddit_top": "N/A",
-      "hn_top": "Nvidia CEO Jensen Huang announces new AI chips: We need bigger GPUs (393 pts)",
-      "summary": "黄仁勋宣言持续发酵，亚马逊Trainium与英特尔Terafab形成对NVIDIA的竞争生态，HN社区对NVIDIA垄断地位与竞争格局演变展开热烈讨论。"
+      "heat": "升温",
+      "reddit_top": null,
+      "hn_top": "Blackwell: NVIDIA GPU架构详解 | pts:112",
+      "summary": "马斯克Terafab+英特尔250亿美元押注、亚马逊Trainium宣布同台竞争，AI芯片市场多极化加速；台积电Q1强劲业绩验证AI芯片投资周期持续，情绪偏向关注NVIDIA竞争替代方案。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "升温",
-      "reddit_top": "N/A",
-      "hn_top": null,
-      "summary": "MATCH法案+DUV禁令双重压力下国产设备替代紧迫性显著上升，鼎龙股份CMP材料、北方华创/中微等设备龙头被聚焦为核心受益标的，国产化进程加速预期强烈。"
+      "reddit_top": null,
+      "hn_top": "中芯国际测试首款国产浸没式DUV光刻机 | pts:3",
+      "summary": "MATCH法案催化国内设备板块本周大涨10%以上，FCC测试禁令进一步收窄国产设备国际认证路径；国产光刻机替代紧迫性大幅提升，北方华创、中微公司等设备商替代逻辑持续强化。"
     }
   ],
   "items": [
     {
-      "title": "美国MATCH法案拟精准围堵中芯国际华虹长江存储长鑫华为，设备禁令延伸至全生命周期维护",
-      "summary": "美国国会提出MATCH法案，将中芯国际、华虹、长江存储、长鑫存储、华为5家企业列为受管制设施，全面禁止先进晶圆制造设备出口，且将禁令延伸至现有设备维修、校准及软件更新，从根本上封锁中国半导体制造业。",
-      "source": "百度百家号",
-      "published": "2026-04-07",
-      "url": "https://baijiahao.baidu.com/s?id=1861595796209408530",
+      "title": "美国MATCH法案最新进展：FCC同步提议禁止测试中国半导体设备，双管齐下收紧科技管制",
+      "summary": "Digitimes最新报道，美国在推进MATCH法案管控中国晶圆制造设备出口的同时，FCC也在提议禁止测试和认证中国半导体相关设备，双管齐下全面收紧对华科技管制范围。",
+      "source": "Digitimes",
+      "published": "2026-04-12T09:00:00+08:00",
+      "url": "https://www.digitimes.com/news/a20260409VL212/testing-fcc-ban-equipment-manufacturing.html",
       "tags": [
+        "MATCH法案",
+        "FCC",
         "出口管制",
-        "制裁",
-        "中国Fab",
-        "MATCH法案"
+        "半导体设备"
       ],
-      "insights": "若法案通过，全球设备商对华销售将受到全链条管控，中国本土设备替代压力骤增。",
-      "actions": "关注北方华创、中微、拓荆、盛美等国产设备龙头订单动向及晶圆厂备货策略。",
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "英特尔加入马斯克Terafab项目，参与建设250亿美元AI芯片代工厂",
-      "summary": "英特尔正式与Terafab签约，参与建设马斯克主导的250亿美元AI芯片工厂，标志着英特尔Foundry战略迈出关键一步。分析人士认为，此举有助于英特尔重建外部代工客户信心，但101倍远期市盈率领先于基本面。",
-      "source": "Forbes",
-      "published": "2026-04-10",
-      "url": "https://www.forbes.com/sites/jonmarkman/2026/04/10/intel-joins-terafab-to-build-elon-musks-25b-ai-chip-project/",
-      "tags": [
-        "Foundry",
-        "Intel",
-        "AI芯片",
-        "代工"
+      "insights": "FCC测试禁令与MATCH法案组合，将对中国设备进入美国市场形成双重壁垒，同时压缩国内设备企业的全球认证路径。",
+      "actions": [
+        "关注FCC提议的具体设备范围",
+        "评估国内设备企业国际认证合规风险"
       ],
-      "insights": "Terafab合作是英特尔Foundry战略能否翻身的关键信号，但稳定量产仍是关键考验。",
-      "actions": "关注英特尔18A/2nm制程进展及Terafab项目时间线。",
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "盛合晶微195倍市盈率科创板申购落地，A股封测板块分化加剧",
-      "summary": "国内晶圆级先进封装龙头盛合晶微以19.68元/股启动科创板申购，拟募资48亿元投向2.5D和3DIC先进封装产能建设，195倍市盈率引发市场关注，A股封测板块出现冰火两重天走势。",
-      "source": "凤凰网",
-      "published": "2026-04-10",
-      "url": "https://finance.ifeng.com/c/8sDPw4YiPEF",
+      "title": "MATCH法案切断中国Fab最后命脉，亚洲供应链已率先感受冲击",
+      "summary": "TechWireAsia分析MATCH法案将切断中国晶圆厂对DUV光刻机的最后依赖，华虹中芯国际现有设备维护也将受阻；亚洲半导体供应链企业已开始重新评估对华业务敞口，部分企业提前备货。",
+      "source": "TechWireAsia",
+      "published": "2026-04-11T00:00:00+08:00",
+      "url": "https://techwireasia.com/2026/04/match-act-semiconductor-export-controls-china-asia/",
       "tags": [
-        "封测",
-        "先进封装",
-        "科创板",
-        "IPO",
-        "国内"
-      ],
-      "insights": "盛合晶微聚焦2.5D/3DIC高端封装赛道与AI算力需求高度绑定，但高估值需关注业绩兑现速度。",
-      "actions": "关注申购结果与机构认购情况，以及2.5D封装产能扩张节奏。",
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "半导体产业链全线涨价潮加速蔓延，从存储到封测再到下游终端全面覆盖",
-      "summary": "2026年以来，半导体涨价潮覆盖全产业链：上游存储芯片、模拟芯片、功率器件价格上扬，中游晶圆代工和封测涨价持续传导，最终蔓延至云计算、数据中心及消费电子终端产品，供需紧张格局持续。",
-      "source": "新浪财经",
-      "published": "2026-04-10",
-      "url": "https://finance.sina.cn/2026-04-10/detail-inhtyfhi5339199.d.html",
-      "tags": [
-        "芯片涨价",
-        "供应链",
-        "晶圆代工",
-        "封测"
-      ],
-      "insights": "涨价潮反映AI算力需求拉动上游持续紧张，封测环节承压与顺价能力决定各厂商利润率走向。",
-      "actions": "关注晶圆代工涨价传导时间表及长电科技、通富微电Q2预期。",
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "长电科技2025年报：营收389亿增8%，扣非净利降11%，先进封装战略布局承压",
-      "summary": "长电科技2025年全年营收388.71亿元同比增长8.09%，归母净利润15.65亿元同比下降2.75%，扣非净利润下降11.51%。高端先进封装大规模投资拖累短期盈利，公司押注CoWoS等AI封装赛道的长期战略逻辑仍受市场支持。",
-      "source": "新浪财经",
-      "published": "2026-04-10",
-      "url": "https://finance.sina.com.cn/roll/2026-04-10/doc-inhtztir5013394.shtml",
-      "tags": [
-        "封测",
-        "长电科技",
-        "年报",
-        "先进封装",
-        "国内"
-      ],
-      "insights": "先进封装投入期盈利承压是短期阵痛，CoWoS/SoIC产能爬坡量价齐升是2026年核心看点。",
-      "actions": "关注长电Q1 2026业绩预告及CoWoS产能利用率披露。",
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "苹果大幅提升台积电SoIC封装产能，为M5 Pro及服务器芯片Baltra2027年备产",
-      "summary": "摩根士丹利研报显示，苹果正大幅提升台积电SoIC先进封装产能，为下一代M5 Pro/Max及服务器芯片Baltra做准备，2027年预留约6万片等效晶圆产能，进一步强化台积电先进封装头部地位。",
-      "source": "WCCFTech",
-      "published": "2026-04-10",
-      "url": "https://wccftech.com/apple-is-materially-ramping-soic-capacity-at-tsmc-as-it-prepares-for-its-baltra-asic-m5-pro-max-m6-pro-max-chips-with-60k-capacity-equivalent-wafers-reserved-for-2027/",
-      "tags": [
-        "先进封装",
-        "SoIC",
-        "TSMC",
-        "苹果",
-        "AI服务器"
-      ],
-      "insights": "苹果SoIC订单规模是台积电先进封装产能扩张的核心驱动，带动CoWoS/SoIC技术路线快速成熟。",
-      "actions": "关注台积电2026Q1法说会先进封装业务收入占比及2027年产能规划更新。",
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "美国拟进一步禁止中国深紫外光刻机出口，中芯国际长江存储现有设备维修受限",
-      "summary": "最新制裁动向显示，美国拟将禁令扩展至DUV光刻机，并禁止中芯国际、长江存储等企业对现有设备进行维修和软件更新，这意味着已购设备的正常运营也将受到威胁，打击面远超此前预期。",
-      "source": "百度百家号",
-      "published": "2026-04-11",
-      "url": "https://baijiahao.baidu.com/s?id=1862056927716345384",
-      "tags": [
-        "出口管制",
-        "光刻机",
+        "MATCH法案",
         "DUV",
-        "中国Fab",
-        "制裁"
+        "亚洲供应链",
+        "ASML"
       ],
-      "insights": "DUV设备维修禁令若落地，将直接冲击成熟制程晶圆产能，国产光刻机研发进度将成为产业底线。",
-      "actions": "关注上海微电子DUV国产化进展及中芯国际应对备件库存策略。",
+      "insights": "供应链企业提前备货DUV设备将短期拉升ASML订单，但也加大ASML对华收入中断的长期风险。",
+      "actions": [
+        "关注ASML对华备货订单变化"
+      ],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "中芯国际发布增长行动计划：特色工艺差异化+成熟制程扩产+国内供应链深度整合三条路径并进",
+      "summary": "中芯国际发布最新增长行动计划，面对先进制程追赶和美国持续制裁的双重压力，计划通过特色工艺差异化、成熟制程规模扩产和国内供应链深度整合三条路径实现持续增长。2025全年营收同比增长16.2%至93.27亿美元创历史新高。",
+      "source": "South China Morning Post",
+      "published": "2026-04-09T00:00:00+08:00",
+      "url": "https://www.scmp.com/tech/big-tech/article/3348044/chinas-top-chip-foundry-smic-unveils-action-plan-seizing-new-growth-opportunities",
+      "tags": [
+        "中芯国际",
+        "SMIC",
+        "增长计划",
+        "特色工艺",
+        "国产替代"
+      ],
+      "insights": "中芯国际2025年营收93亿美元+16%增速，特色工艺差异化是在EUV管控下的核心生存策略，供应链国产化深度整合是应对MATCH法案的战略对冲。",
+      "actions": [
+        "跟踪中芯国际2026年成熟制程扩产量产节点"
+      ],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "亚马逊CEO宣布Graviton/Trainium自研芯片业务火爆，已可与Intel/AMD/NVIDIA正面竞争",
-      "summary": "亚马逊CEO安迪·贾西表示，自研芯片Graviton和Trainium规模已可与Intel、AMD、NVIDIA正面竞争，自研算力战略大获成功。这标志着超大规模云厂商自研芯片路线进入成熟期，对传统芯片厂商构成长期竞争压力。",
-      "source": "WCCFTech",
-      "published": "2026-04-10",
-      "url": "https://wccftech.com/amazon-ceo-says-chip-business-is-on-fire-graviton-trainium-now-competing/",
+      "title": "美国立法者寻求封堵中国DUV光刻机来源，中国本土替代加速成唯一出路",
+      "summary": "Asia Times报道，美国国会正通过MATCH法案寻求阻断中国获取DUV光刻机的所有渠道，包括现有设备的维修和升级支持。分析指出这将迫使中国更快推进上海微电子等本土光刻机的量产，国产替代已成唯一出路。",
+      "source": "Asia Times",
+      "published": "2026-04-11T00:00:00+08:00",
+      "url": "https://asiatimes.com/2026/04/us-lawmakers-seek-to-block-chinas-duv-lithography-access/",
       "tags": [
-        "设计公司",
-        "自研芯片",
-        "AI训练",
-        "云计算",
-        "Foundry"
+        "DUV",
+        "MATCH法案",
+        "SMEE",
+        "国产光刻机",
+        "中国制造"
       ],
-      "insights": "云厂商自研芯片规模化将持续压缩传统芯片厂商市场份额，代工厂需深化云厂商客户关系。",
-      "actions": "关注亚马逊Trainium3规格发布及其台积电代工订单规模。",
+      "insights": "DUV禁令将倒逼上海微电子加速量产，也为国内光刻机产业提供了前所未有的政策和市场推动力。",
+      "actions": [
+        "关注上海微电子DUV光刻机量产节点",
+        "评估国内Fab对国产光刻机的导入节奏"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "台积电Q1营收创纪录大涨35%，AI芯片需求强劲驱动增长",
+      "summary": "台积电一季度营收同比大涨35%创历史新高，AI芯片需求持续强劲是主要驱动力。台积电维持全年强劲增长展望，先进制程产能仍供不应求，CoWoS先进封装需求尤为突出。",
+      "source": "CNBC",
+      "published": "2026-04-10T00:00:00+08:00",
+      "url": "https://www.cnbc.com/2026/04/10/tsmc-q1-record-revenue-ai-chip-demand-strong.html",
+      "tags": [
+        "台积电",
+        "Q1财报",
+        "AI芯片",
+        "先进制程"
+      ],
+      "insights": "台积电35%营收增速超预期，验证AI芯片投资周期持续性，也为下游设计公司和封测厂提供积极信号。",
+      "actions": [
+        "关注台积电2nm产能爬坡时间表"
+      ],
       "glossary": [],
       "region": "overseas"
+    },
+    {
+      "title": "英特尔先进封装EMIB方案吸引谷歌和亚马逊评估，与台积电SoIC展开正面竞争",
+      "summary": "TrendForce报道，英特尔Foundry的EMIB先进封装技术正获得谷歌和亚马逊等云厂商积极评估，有望成为台积电CoWoS/SoIC产能紧缺背景下的替代方案。",
+      "source": "TrendForce",
+      "published": "2026-04-07T00:00:00+08:00",
+      "url": "https://www.trendforce.com/news/2026/04/07/news-intel-advanced-packaging-reportedly-gains-traction-vs-tsmc-as-google-amazon-weigh-emib-adoption/",
+      "tags": [
+        "英特尔",
+        "EMIB",
+        "先进封装",
+        "谷歌",
+        "亚马逊"
+      ],
+      "insights": "英特尔EMIB若成功切入云厂商先进封装需求，将是英特尔Foundry转型的重要里程碑。",
+      "actions": [
+        "跟踪谷歌/亚马逊EMIB评估进度"
+      ],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "马斯克Terafab联合英特尔押注250亿美元，以18A制程挑战英伟达AI芯片垄断",
+      "summary": "马斯克主导的Terafab芯片项目与英特尔正式合作，总投资250亿美元，利用英特尔18A制程为Tesla、SpaceX和xAI提供自研AI芯片，直接挑战英伟达在AI训练和推理市场的主导地位。",
+      "source": "BusinessWorld/Zacks",
+      "published": "2026-04-09T00:00:00+08:00",
+      "url": "https://www.tradingview.com/news/zacks:b3fe58141094b:0-musk-s-terafab-bet-with-intel-can-it-challenge-nvidia-s-ai-chip-lead/",
+      "tags": [
+        "马斯克",
+        "Terafab",
+        "英特尔",
+        "18A制程",
+        "AI芯片"
+      ],
+      "insights": "Terafab+英特尔组合若成功量产，是英特尔Foundry重要客户案例，AI芯片生态垂直整合玩家持续增加。",
+      "actions": [
+        "关注英特尔18A制程良率进展"
+      ],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "粤芯半导体（Nexchip）向香港递交上市申请，中国第三大晶圆代工厂加速扩产",
+      "summary": "中国第三大晶圆代工厂粤芯半导体已向香港联交所递交IPO申请，计划通过资本市场融资扩大产能，加入中芯国际、华虹之后的国内Fab扩张竞赛。",
+      "source": "South China Morning Post",
+      "published": "2026-04-09T00:00:00+08:00",
+      "url": "https://www.scmp.com/tech/big-tech/article/3348687/chinas-nexchip-files-hong-kong-listing-chip-expansion-race-heats",
+      "tags": [
+        "粤芯",
+        "Nexchip",
+        "IPO",
+        "香港上市",
+        "晶圆代工"
+      ],
+      "insights": "粤芯赴港IPO标志国内二线Fab通过资本市场加速扩张，但28nm以上成熟制程产能过剩风险值得关注。",
+      "actions": [
+        "关注粤芯IPO募资规模和产能扩张方向"
+      ],
+      "glossary": [],
+      "region": "domestic"
     }
   ]
 }
