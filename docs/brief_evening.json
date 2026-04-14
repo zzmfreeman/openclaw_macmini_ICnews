@@ -1,205 +1,255 @@
 {
-  "version": "v20260413-2004",
-  "generatedAt": "2026-04-13T20:04:00+08:00",
+  "version": "v20260414-2008",
+  "generatedAt": "2026-04-14T20:08:00+08:00",
   "period": "evening",
   "commit": "",
   "glossary_list": [
     {
-      "term": "CoWoS",
-      "desc": "Chip-on-Wafer-on-Substrate，台积电先进封装技术，将芯片堆叠在硅中介层上再封装至基板",
-      "category": "封装"
+      "term": "MATCH法案",
+      "desc": "2026年4月实施的美国对华半导体出口管制法案，首次点名五家中国企业并锁定28nm及以下设备",
+      "category": "商业"
     },
     {
-      "term": "HBM3E",
-      "desc": "第5代高带宽存储器，单堆栈带宽达1.2TB/s，用于AI加速器",
-      "category": "存储"
+      "term": "二维半导体",
+      "desc": "以石墨烯、MoS2等二维材料为沟道的晶体管技术，有望突破硅基摩尔定律物理极限",
+      "category": "材料"
     },
     {
-      "term": "EUV",
-      "desc": "极紫外光刻技术，13.5nm波长，用于7nm及以下先进制程",
-      "category": "设备"
+      "term": "CMP抛光垫",
+      "desc": "化学机械抛光关键耗材，鼎龙股份为国内唯一掌握全流程技术并量产的企业",
+      "category": "材料"
     },
     {
-      "term": "OSAT",
-      "desc": "外包封装测试服务，如日月光/长电/安靠",
-      "category": "封装"
+      "term": "Rapidus",
+      "desc": "日本政府扶持的先进半导体制造企业，目标量产2nm并拓展先进封装",
+      "category": "商业"
     },
     {
-      "term": "2nm GAA",
-      "desc": "环绕栅极晶体管，三星/台积电2nm节点采用的晶体管架构",
+      "term": "联讯仪器",
+      "desc": "国内高端测试仪器企业，覆盖光通信和半导体测试全产业链核心环节",
       "category": "设备"
     }
   ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
-      "heat": "→平稳",
+      "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "台积电CoWoS产能持续扩张，chiplet架构成为行业主流方向"
+      "summary": "先进封装持续火热，A股封测板块龙头四连板，Rapidus启用封装试产线，CoWoS产能紧缺推动OSAT景气上行。"
     },
     {
       "topic": "HBM/AI存储",
-      "heat": "→平稳",
+      "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "SK海力士HBM3E量产领先，三星加速追赶，美光加入竞争"
+      "summary": "存储芯片价格持续上涨，AI算力需求拉动HBM供需紧张，香农芯创等概念股大涨，自主可控紧迫性提升。"
     },
     {
       "topic": "中国Fab/先进制程",
-      "heat": "→平稳",
+      "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中芯国际产能利用率回升，关注成熟制程扩产动态"
+      "summary": "MATCH法案锁定28nm红线，中芯国际等五企遭精准围堵，国产DUV光刻机替代需求迫在眉睫。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "华大九天等国产EDA持续突破，但全流程替代仍需时间"
+      "summary": "Vinci Labs等AI-EDA初创公司活跃，传统三巨头也在布局AI设计工具，行业处于变革前期。"
     },
     {
       "topic": "封测OSAT",
-      "heat": "→平稳",
+      "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "先进封装需求驱动OSAT扩产，日月光/长电积极布局"
+      "summary": "先进封装催化密集，长电/通富/华天封测营收占比超90%，2024年全球排名长电第三、通富第四。"
     },
     {
       "topic": "出口管制/制裁",
-      "heat": "→平稳",
+      "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "美国对华芯片管制持续收紧，设备出口限制范围扩大"
+      "summary": "MATCH法案4月正式实施，制裁从实体清单升级到技术节点锁定，浸没式DUV光刻机等关键设备被纳入管制。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "Blackwell架构芯片大规模出货，AI训练需求持续旺盛"
+      "summary": "AI芯片需求持续旺盛但本周无重大新事件，关注NVIDIA下一代架构和出口管制对华AI芯片限制动向。"
     },
     {
       "topic": "设备/材料国产化",
-      "heat": "→平稳",
+      "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "北方华创/中微等国产设备在成熟制程领域持续替代"
+      "summary": "半导体设备板块三重逻辑走强，中科飞测涨6.46%，鼎龙股份CMP材料营收增37%，国产设备进入放量验证期。"
     }
   ],
   "items": [
     {
-      "title": "重大突破!中国团队攻克“芯片卡脖子”关键材料,西方封锁已失效",
-      "summary": "太振奋人心！我国科学团队攻克芯片卡脖子关键材料，这意味着西方在这一领域的封锁将基本失效！2026年4月，国防科技大学与中国科学院金属研究所联合团队在国际顶级期刊《国家科学评论》上公布了一项震撼业界的突破——他们成功实现了新型高性能二维...",
-      "source": "SerpAPI",
-      "published": "",
-      "url": "https://baijiahao.baidu.com/s?id=1862042253023384734&wfr=spider&for=pc",
+      "title": "美《MATCH法案》封杀升级！中芯国际等五企\"命门\"遭锁死，国产化破局路在何方",
+      "summary": "2026年4月正式实施的MATCH法案首次点名中芯国际、华虹集团、长江存储、长鑫存储、华为五家核心企业及子公司，并将浸没式DUV光刻机等28nm及以下关键设备纳入管制，制裁力度空前。",
+      "source": "SerpAPI/百度",
+      "published": "2026-04-14",
+      "url": "https://baijiahao.baidu.com/s?id=1862372992880553459&wfr=spider&for=pc",
       "tags": [
-        "Fab/制造"
+        "制裁",
+        "出口管制",
+        "中芯国际",
+        "华虹",
+        "MATCH法案"
       ],
-      "insights": [],
-      "actions": [],
+      "insights": "制裁从实体清单升级到技术节点锁定，28nm成为新红线，国产DUV光刻机替代需求迫在眉睫",
+      "actions": [
+        "关注国产DUV光刻机进展（上海微电子）",
+        "评估中芯国际产能替代方案"
+      ],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "科技制裁:美国锁死28nm,直击国产芯片扩产痛点",
-      "summary": "中芯国际、华虹、长鑫、长江存储，还有华为，都被列入了重点监控名单。法案要求ASML、东京电子这些企业，在150天内完全停止向中国企业供货，连售后维护也不允许。目标很明确：让你现有的设备能转，但别想更新换代，更别想扩大生产。光刻机是最让...",
-      "source": "SerpAPI",
-      "published": "",
-      "url": "https://baijiahao.baidu.com/s?id=1862246730474898294&wfr=spider&for=pc",
+      "title": "二维半导体新跨越！国产芯片\"换道超车\"，17家核心龙头要腾飞",
+      "summary": "国防科大与中科院金属所研究团队在二维半导体材料方面取得关键突破，成果发表于《国家科学评论》，业内认为可能是国产芯片换道超车的重要机会。",
+      "source": "SerpAPI/百度",
+      "published": "2026-04-14",
+      "url": "https://baijiahao.baidu.com/s?id=1862293513188102372&wfr=spider&for=pc",
       "tags": [
-        "出口管制"
+        "二维半导体",
+        "国产替代",
+        "材料突破",
+        "换道超车"
       ],
-      "insights": [],
-      "actions": [],
+      "insights": "二维半导体是从材料端绕过硅基摩尔定律瓶颈的路径，但距量产仍有较长距离",
+      "actions": [
+        "跟踪二维半导体产业化进展",
+        "关注17家核心龙头名单"
+      ],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "通富微电拟定增42.2亿提升封测产能 持续科技创新研发费连续五年超10亿",
-      "summary": "长江商报消息作为全球半导体封测领域的领先企业，通富微电（002156.SZ）营收规模及市场占有率全球排名第四、国内排名第二。如今，公司计划扩大产能。 4月10日，通富微电...",
-      "source": "新浪财经",
-      "published": "10小时前",
-      "url": "https://finance.sina.com.cn/roll/2026-04-13/doc-inhuihzn4885441.shtml",
+      "title": "存储又大涨了，自主可控告急！半导体国产替代核心标的整理",
+      "summary": "存储芯片价格持续上涨，自主可控紧迫性提升。鼎龙股份等国内CMP材料龙头2025年半导体营收同比增长37%，国产替代标的梳理更新。",
+      "source": "SerpAPI/百度",
+      "published": "2026-04-14",
+      "url": "https://baijiahao.baidu.com/s?id=1862063239554550859&wfr=spider&for=pc",
       "tags": [
-        "封装/封测"
+        "存储",
+        "国产替代",
+        "CMP材料",
+        "鼎龙股份"
       ],
-      "insights": [],
-      "actions": [],
+      "insights": "存储涨价+制裁升级双轮驱动国产替代加速，材料端（CMP抛光垫、光刻胶）是突破重点",
+      "actions": [
+        "关注鼎龙股份CMP抛光垫量产进度",
+        "跟踪长江存储/长鑫存储扩产节奏"
+      ],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "超100家电子元器件半导体原厂涨价声明及通知！",
-      "summary": "我是芯片超人花姐，入行20年，有50W+芯片行业粉丝。有很多不方便公开发公众号的，关于芯片买卖、关于资源链接等，我会分享在朋友圈。扫码加我本人微信 普冉通用MCU相关产品...",
-      "source": "电子工程专辑",
-      "published": "5小时前",
-      "url": "https://www.eet-china.com/mp/a487402.html",
+      "title": "先进封装利好密集催化！龙头强势四连板，封测营收占比超90%的A股公司名单",
+      "summary": "先进封装受AI芯片需求密集催化，封测板块龙头连续涨停。长电科技、通富微电、华天科技、甬矽电子封测营收占比超九成。",
+      "source": "Brave/财联社",
+      "published": "2026-04-14",
+      "url": "https://www.cls.cn/detail/1491371",
       "tags": [
-        "Fab/制造"
+        "先进封装",
+        "封测",
+        "长电科技",
+        "通富微电",
+        "华天科技"
       ],
-      "insights": [],
-      "actions": [],
+      "insights": "先进封装是后摩尔时代核心增量，CoWoS产能紧缺推动OSAT景气度上行",
+      "actions": [
+        "关注长电科技先进封装产能释放",
+        "跟踪CoWoS订单向OSAT外溢趋势"
+      ],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "供应链重组背景下台湾芯片制造业对外直接投资研究",
-      "summary": "本文探讨供应链重组背景下台湾芯片制造业的对外直接投资活动。通过分析台湾芯片制造企业海外投资的区位选择、投资动机、进入模式、技术节点选择，本研究归纳了近年台湾...",
-      "source": "中国评论",
-      "published": "4小时前",
-      "url": "https://bj.crntt.com/doc/136_4730_107186244_1_0413155452.html",
+      "title": "三重驱动半导体设备板块持续走强，半导体设备ETF华夏涨2.61%",
+      "summary": "4月14日半导体设备板块持续拉升，中科飞测涨6.46%、拓荆科技跟涨。国产替代、AI扩产、政策扶持三重逻辑驱动设备板块走强。",
+      "source": "Serper/中金在线",
+      "published": "2026-04-14",
+      "url": "http://sc.stock.cnfol.com/gushiyaowen/20260414/32142121.shtml",
       "tags": [
-        "Fab/制造"
+        "半导体设备",
+        "国产替代",
+        "中科飞测",
+        "拓荆科技"
       ],
-      "insights": [],
-      "actions": [],
+      "insights": "设备国产化率仍低（<20%），但制裁倒逼+大基金注资使国产设备进入放量验证期",
+      "actions": [
+        "关注北方华创/中微公司订单",
+        "跟踪刻蚀/CVD/量测设备验证进展"
+      ],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "年产738亿块！天水，比麻辣烫更燃的是芯片",
-      "summary": "来源：正解局. 甘肃天水，偏安西北一隅的四线小城。 提到这里，绝大多数人的第一印象，是火遍大江南北的天水麻辣烫。 但你绝对无法想象，天水，还是芯片封测领域的“隐形冠军”...",
-      "source": "新浪财经",
-      "published": "8小时前",
-      "url": "https://cj.sina.cn/articles/view/5953466483/162dab07301901pr04?froms=ggmp&vt=4",
+      "title": "联讯仪器(688808.SH)开启申购，覆盖光通信全产业链核心测试环节",
+      "summary": "4月14日联讯仪器科创板申购，发行价81.88元/股，市盈率63.64倍。公司为国内极少数覆盖光通信全产业链核心测试环节的企业，主营电子测量和半导体测试设备。",
+      "source": "Serper/证券之星",
+      "published": "2026-04-14",
+      "url": "https://stock.stockstar.com/IG2026041400004609.shtml",
       "tags": [
-        "Fab/制造"
+        "IPO",
+        "半导体测试",
+        "联讯仪器",
+        "光通信"
       ],
-      "insights": [],
-      "actions": [],
+      "insights": "半导体测试设备国产化是ATE赛道重要突破口，联讯仪器定位高端测试填补空白",
+      "actions": [
+        "关注联讯仪器上市后估值表现",
+        "对比华峰测控/长川科技产品线差异"
+      ],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "我国半导体材料研发获突重要破！科创芯片设计ETF天弘(589070)换手率超30%，成交额近2亿元同标的第一",
-      "summary": "截至2026年4月10日收盘，科创芯片设计ETF天弘(589070)换手30.01%，成交1.91亿元，位居同标的第一，市场交投活跃。跟踪的上证科创板芯片设计主题指数(950162)...",
-      "source": "FX168",
-      "published": "11小时前",
-      "url": "https://news.fx168news.com/cooperate/2604/7433614_wap.shtml",
+      "title": "Rapidus封装试产线正式启用，AI芯片生产效率提升10倍新技术建立中",
+      "summary": "日本Rapidus宣布半导体封装制程试产线正式启用，将建立一项使AI芯片生产效率提高10倍以上的新技术。日本半导体复兴战略进入封装赛道。",
+      "source": "SerpAPI/财联社",
+      "published": "2026-04-13",
+      "url": "https://www.cls.cn/subject/1279",
       "tags": [
-        "设计公司"
+        "Rapidus",
+        "先进封装",
+        "日本半导体",
+        "AI芯片"
       ],
-      "insights": [],
-      "actions": [],
+      "insights": "Rapidus从2nm代工扩展到先进封装，日本政府全力扶持下封装赛道竞争格局变化",
+      "actions": [
+        "跟踪Rapidus封装技术路线",
+        "评估对日月光/长电竞争格局影响"
+      ],
       "glossary": [],
-      "region": "domestic"
+      "region": "overseas"
     },
     {
-      "title": "求是缘半导体周要闻－莫大康(2026.4.13)",
-      "summary": "01人工智能火爆究竟在芯片制造中已经到什么水平光刻（最关键）台积电、三星用AI 优化光刻掩模原来算几周，现在几天搞定3nm 、 2nm 良率大幅提高，没有AI 做不了先进...",
-      "source": "电子工程专辑",
-      "published": "9小时前",
-      "url": "https://www.eet-china.com/mp/a487336.html",
+      "title": "Vinci Labs CEO访谈：前沿EDA/AI芯片设计自动化新范式",
+      "summary": "SemiWiki发布Vinci Labs创始人兼CEO Hardik Kabaria访谈，探讨AI驱动的芯片设计自动化前沿方向，Vinci定位为frontier lab构建新一代EDA工具链。",
+      "source": "RSS/SemiWiki",
+      "published": "2026-04-14",
+      "url": "https://semiwiki.com/ceo-interviews/368322-ceo-interview-with-dr-hardik-kabaria-of-vinci/",
       "tags": [
-        "Fab/制造"
+        "EDA",
+        "AI设计自动化",
+        "Vinci Labs",
+        "芯片设计"
       ],
-      "insights": [],
-      "actions": [],
+      "insights": "AI+EDA是行业确定性趋势，Vinci等初创公司试图从生成式设计切入颠覆传统三巨头格局",
+      "actions": [
+        "关注AI-EDA工具商业化进展",
+        "评估Synopsys/Cadence的AI设计产品应对"
+      ],
       "glossary": [],
-      "region": "domestic"
+      "region": "overseas"
     }
   ]
 }
