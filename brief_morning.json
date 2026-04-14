@@ -123,7 +123,8 @@
         "评估Intel 18A制程进展对代工格局影响"
       ],
       "glossary": [],
-      "region": "overseas"
+      "region": "overseas",
+      "category": "Fab/制造"
     },
     {
       "title": "国产晶圆代工双雄现并购分野:中芯国际停牌收购子公司,华虹半导体复牌吸并“兄弟”资产",
@@ -144,7 +145,8 @@
         "关注华虹合并后产能利用率变化"
       ],
       "glossary": [],
-      "region": "domestic"
+      "region": "domestic",
+      "category": "Fab/制造"
     },
     {
       "title": "CSPT：一场搞定半导体封装全产业链合作！",
@@ -165,7 +167,8 @@
         "关注国内OSAT在CoWoS类似技术上的进展"
       ],
       "glossary": [],
-      "region": "domestic"
+      "region": "domestic",
+      "category": "EDA/IP"
     },
     {
       "title": "美国又不信中国能破局,中国芯片遭新制裁,科技博弈再升温",
@@ -186,7 +189,8 @@
         "评估供应链断供风险等级"
       ],
       "glossary": [],
-      "region": "domestic"
+      "region": "domestic",
+      "category": "EDA/IP"
     },
     {
       "title": "NVIDIA's \"Rubin Ultra\" Reportedly Faces Issues With CoWoS-L Packaging",
@@ -207,7 +211,8 @@
         "评估HBM4e供应链准备情况"
       ],
       "glossary": [],
-      "region": "overseas"
+      "region": "overseas",
+      "category": "设计公司"
     },
     {
       "title": "Samsung Foundry Gains Momentum Amid TSMC Capacity Strain",
@@ -228,7 +233,8 @@
         "评估客户从TSMC转单三星的可能性"
       ],
       "glossary": [],
-      "region": "overseas"
+      "region": "overseas",
+      "category": "Fab/制造"
     },
     {
       "title": "TSMC's 2028 Capacity Full, Samsung Foundry Emerges as Alternative",
@@ -249,7 +255,8 @@
         "关注TSMC海外建厂进展"
       ],
       "glossary": [],
-      "region": "overseas"
+      "region": "overseas",
+      "category": "Fab/制造"
     },
     {
       "title": "芯片制造商Cerebras洽谈新一轮融资 拟募资10亿美元 投后估值达220亿美元_新浪财经_新浪网",
@@ -270,7 +277,8 @@
         "评估晶圆级架构对传统GPU方案的影响"
       ],
       "glossary": [],
-      "region": "domestic"
+      "region": "domestic",
+      "category": "设计公司"
     },
     {
       "title": "百度AI芯片公司冲刺IPO：出货量国产第二 – 量子位",
@@ -291,7 +299,8 @@
         "关注其芯片产品在数据中心的部署规模"
       ],
       "glossary": [],
-      "region": "domestic"
+      "region": "domestic",
+      "category": "设计公司"
     },
     {
       "title": "Tesla won’t really build its own chip fab — Intel is going to do it",
@@ -312,7 +321,8 @@
         "评估IFS对TSMC客户构成的竞争威胁"
       ],
       "glossary": [],
-      "region": "overseas"
+      "region": "overseas",
+      "category": "设计公司"
     },
     {
       "title": "Qualcomm announces AI chips to compete with AMD and Nvidia — stock soars 11%",
@@ -333,7 +343,8 @@
         "评估端侧AI对存储和封装的需求变化"
       ],
       "glossary": [],
-      "region": "overseas"
+      "region": "overseas",
+      "category": "设计公司"
     },
     {
       "title": "两大国产晶圆厂齐发信号：满产！",
@@ -354,7 +365,8 @@
         "追踪汽车芯片国产化替代进度"
       ],
       "glossary": [],
-      "region": "domestic"
+      "region": "domestic",
+      "category": "Fab/制造"
     },
     {
       "title": "GlobalFoundries Challenges Silicon Giants with Acquisition of Synopsys’ ARC and RISC-V IP",
@@ -375,7 +387,8 @@
         "关注Synopsys ARC处理器IP的授权模式"
       ],
       "glossary": [],
-      "region": "overseas"
+      "region": "overseas",
+      "category": "EDA/IP"
     },
     {
       "title": "Synopsys Takes on RISC-V Configurability with ARC-V Processor IP Family",
@@ -396,7 +409,8 @@
         "关注国内RISC-V芯片设计进展"
       ],
       "glossary": [],
-      "region": "overseas"
+      "region": "overseas",
+      "category": "EDA/IP"
     },
     {
       "title": "原子级厚度芯片材料获革命性突破!国产半导体换道超车,一个万亿新...",
@@ -417,7 +431,8 @@
         "关注国际上二维半导体材料的竞争态势"
       ],
       "glossary": [],
-      "region": "domestic"
+      "region": "domestic",
+      "category": "EDA/IP"
     }
   ]
 }
