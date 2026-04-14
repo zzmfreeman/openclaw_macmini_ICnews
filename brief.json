@@ -1,42 +1,47 @@
 {
-  "version": "v20260414-0608",
-  "generatedAt": "2026-04-14T06:08:00+08:00",
+  "version": "v20260414-0901",
+  "generatedAt": "2026-04-14T09:01:00+08:00",
   "period": "morning",
   "commit": "",
   "glossary_list": [
     {
-      "term": "CoWoS",
-      "desc": "Chip-on-Wafer-on-Substrate，台积电先进封装技术，将芯片堆叠在硅中介层上再封装至基板",
+      "term": "High-NA EUV",
+      "desc": "高数值孔径极紫外光刻，NA=0.55，支持2nm以下制程",
+      "category": "设备"
+    },
+    {
+      "term": "CoWoS-L",
+      "desc": "台积电芯片-on晶圆-on基板大尺寸封装，支持超大规模AI芯片",
       "category": "封装"
     },
     {
-      "term": "Rapidus",
-      "desc": "日本政府支持的先进逻辑晶圆代工企业，目标2nm制程，挑战台积电和三星",
-      "category": "商业"
+      "term": "GAA",
+      "desc": "环绕栅极架构，2nm节点的关键晶体管结构，三星率先量产",
+      "category": "设备"
     },
     {
-      "term": "MATCH法案",
-      "desc": "美国国会提出的《硬件技术多边协调管制法案》，对中国5家核心半导体企业实施全面设备出口禁令",
+      "term": "HBM4e",
+      "desc": "第4代增强型高带宽内存，带宽超2TB/s，NVIDIA Rubin Ultra搭载",
+      "category": "存储"
+    },
+    {
+      "term": "18A",
+      "desc": "Intel 18埃(1.8nm)制程节点，采用RibbonFET和PowerVia技术",
+      "category": "设备"
+    },
+    {
+      "term": "RISC-V",
+      "desc": "开放指令集架构，在嵌入式和IoT领域挑战ARM垄断地位",
       "category": "商业"
     },
     {
       "term": "OSAT",
-      "desc": "外包半导体封装测试，独立封测服务商模式，代表企业有日月光、长电科技、安靠",
+      "desc": "外包半导体封装测试，ASE/Amkor/长电科技为全球前三",
       "category": "封装"
     },
     {
-      "term": "SiC",
-      "desc": "碳化硅，第三代半导体材料，耐高温高压，广泛应用于新能源汽车和光伏",
-      "category": "材料"
-    },
-    {
-      "term": "NoC",
-      "desc": "Network-on-Chip，片上网络，SoC内部互联架构，决定AI芯片性能和可扩展性",
-      "category": "设备"
-    },
-    {
-      "term": "WSi2N4",
-      "desc": "新型二维半导体材料，作为P型沟道材料在CMOS集成电路中有广阔应用前景",
+      "term": "TMD",
+      "desc": "过渡金属二硫化物，二维半导体材料，后摩尔时代候选材料",
       "category": "材料"
     }
   ],
@@ -45,316 +50,374 @@
       "topic": "CoWoS/先进封装",
       "heat": "↑↑升温",
       "reddit_top": null,
-      "hn_top": "TSMC CoWoS Production at Full Capacity as Demand Skyrockets | pts=2",
-      "summary": "台积电CoWoS产能持续满载，正在大规模扩产以解决AI产业最大瓶颈。Wccftech报道台积电正通过台湾和美国的大规模投资推动先进封装产能扩张。"
+      "hn_top": null,
+      "summary": "CoWoS产能持续紧张，NVIDIA Rubin Ultra发布进一步推高需求。社区讨论TSMC扩产进度和先进封装良率。"
     },
     {
       "topic": "HBM/AI存储",
-      "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": "He Who Can Pay Top Dollar for HBM Memory Controls AI Training | pts=3",
-      "summary": "HBM供应仍紧张，SK海力士和三星主导市场。社区讨论焦点转向HBM定价权与AI训练成本的关系。"
-    },
-    {
-      "topic": "中国Fab/先进制程",
-      "heat": "↑↑升温",
-      "reddit_top": null,
-      "hn_top": "China's SMIC Is Shipping 7nm Foundry ASICs | pts=49",
-      "summary": "SMIC 7nm ASIC出货引发热议（HN 49分），MATCH法案将中芯国际等5家中国企业列入全面管制清单，国内半导体材料研发获突破。"
-    },
-    {
-      "topic": "国产EDA/IP",
       "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "华大九天作为国产EDA龙头在28nm及以上成熟制程实现规模化应用，制裁压力下国产EDA生态快速崛起。SemiWiki讨论RISC-V在AI基础设施中的崛起。"
+      "summary": "HBM4e随Rubin Ultra发布成为焦点，SK海力士HBM3E良率提升，Samsung积极追赶HBM4进度。"
+    },
+    {
+      "topic": "中国Fab/先进制程",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "中芯华虹满产信号释放，成熟制程回暖。社区关注国产先进制程实际能力和制裁影响。"
+    },
+    {
+      "topic": "国产EDA/IP",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "出口管制压力下国产EDA持续替代，Synopsys推出RISC-V工具链引发关注。社区讨论国产EDA工具链成熟度。"
     },
     {
       "topic": "封测OSAT",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "通富微电拟定增42.2亿提升封测产能，研发费连续五年超10亿。AI热潮推动先进封装及测试需求增加。"
+      "summary": "先进封装需求推动OSAT升级，国内CSPT等厂商布局2.5D/3D封装。社区讨论传统封测向先进封装转型。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↑↑升温",
       "reddit_top": null,
-      "hn_top": "Huawei's New Smartphone and the Future of Semiconductor Export Controls | pts=6",
-      "summary": "MATCH法案拟对华为、中芯国际等5家企业实施全面设备出口禁令，延伸至设备全生命周期交易、使用与维护，150天通牒期要求ASML等完全停止供货。"
+      "hn_top": null,
+      "summary": "美国可能扩大成熟制程设备和EDA出口限制，社区热议制裁实际效果和中国突破路径。"
     },
     {
       "topic": "AI芯片/NVIDIA",
-      "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": "Blackwell: Nvidia's GPU | pts=112",
-      "summary": "Blackwell架构仍是HN最热话题（112分），台积电被投资者视为AI基础设施支出的最清晰标的。"
-    },
-    {
-      "topic": "设备/材料国产化",
       "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI热潮推动半导体设备市场增长，多家设备上市公司2025年收入上扬。新型二维半导体材料WSi2N4研发获突破，铜川芯片封装项目预计5月试产。"
+      "summary": "GTC 2026发布Rubin Ultra引发广泛讨论，AI芯片军备竞赛加速。社区关注算力需求和能效比。"
+    },
+    {
+      "topic": "设备/材料国产化",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "NAURA和AMEC在刻蚀和沉积设备持续突破，但EUV光刻仍是空白。社区关注High-NA EUV地缘影响。"
     }
   ],
   "items": [
     {
-      "title": "美国MATCH法案拟对中芯国际等5家中国企业实施全面设备出口禁令",
-      "summary": "美国国会提出《MATCH法案》，对华为、中芯国际、华虹、长鑫存储、长江存储实施近乎全面的先进晶圆制造设备出口禁令，管制延伸至设备全生命周期的交易、使用与维护，要求ASML等企业在150天内完全停止供货。",
-      "source": "百度/Serper",
-      "published": "2026-04-13",
-      "url": "https://www.bilibili.com/video/BV17HDvBXEM9/",
+      "title": "[News] ASML’s High-NA EUV for 2027-28: Which Giants Are Betting Big—Intel, Samsung, SK hynix or TSMC?",
+      "summary": "ASML首台High-NA EUV光刻机TWINSCAN EXE:5000已交付Intel，标志着半导体制造进入新纪元。该设备数值孔径0.55，较前代0.33大幅提升，可支持2nm及以下制程。Intel率先采用，TSMC和Samsung也在评估中。",
+      "source": "Serper",
+      "published": "Feb 16, 2026",
+      "url": "https://www.trendforce.com/news/2026/02/16/news-asmls-high-na-euv-for-2027-28-which-giants-are-betting-big-intel-samsung-sk-hynix-or-tsmc/",
+      "tags": [
+        "ASML",
+        "EUV",
+        "High-NA",
+        "Intel",
+        "光刻机"
+      ],
+      "insights": "High-NA EUV是2nm以下制程的必要设备，Intel率先布局可能缩小与TSMC的先进制程差距",
+      "actions": [
+        "关注ASML后续交付时间表",
+        "评估Intel 18A制程进展对代工格局影响"
+      ],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "国产晶圆代工双雄现并购分野:中芯国际停牌收购子公司,华虹半导体复牌吸并“兄弟”资产",
+      "summary": "中芯国际与华虹半导体在行业下行周期中走出截然不同的并购路径：中芯聚焦先进制程扩产，华虹则通过合并整合特色工艺产能。两者策略分化反映国产晶圆代工的路线之争。",
+      "source": "Serper",
+      "published": "2025年9月1日",
+      "url": "https://www.ifnews.com/news.html?aid=759619",
+      "tags": [
+        "中芯国际",
+        "华虹",
+        "并购",
+        "晶圆代工",
+        "国产替代"
+      ],
+      "insights": "国产代工双雄的战略分化将重塑国内晶圆制造格局，中芯主攻先进制程、华虹深耕特色工艺",
+      "actions": [
+        "追踪中芯先进制程量产进度",
+        "关注华虹合并后产能利用率变化"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "CSPT：一场搞定半导体封装全产业链合作！",
+      "summary": "中国半导体封装测试公司CSPT推出先进封装解决方案，瞄准AI芯片对高性能封装的需求增长，在2.5D/3D封装领域与ASE等国际大厂展开竞争。",
+      "source": "Serper",
+      "published": "3 天前",
+      "url": "https://www.eet-china.com/info/74816.html",
+      "tags": [
+        "CSPT",
+        "先进封装",
+        "2.5D封装",
+        "3D封装",
+        "AI芯片"
+      ],
+      "insights": "国产封装企业正从传统封测向先进封装升级，缩短与ASE/Amkor的技术差距",
+      "actions": [
+        "评估CSPT先进封装产能和技术能力",
+        "关注国内OSAT在CoWoS类似技术上的进展"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "美国又不信中国能破局,中国芯片遭新制裁,科技博弈再升温",
+      "summary": "美国持续收紧对华半导体出口管制，但中国在成熟制程和特定设备领域持续突破。最新限制可能扩展到成熟制程设备和EDA工具，引发行业对供应链脱钩的担忧。",
+      "source": "SerpAPI",
+      "published": "",
+      "url": "https://baijiahao.baidu.com/s?id=1862375549458519474&wfr=spider&for=pc",
       "tags": [
         "出口管制",
         "制裁",
-        "中芯国际",
-        "华虹",
-        "MATCH法案"
+        "美国",
+        "EDA",
+        "供应链"
       ],
-      "insights": "法案若通过将严重冲击中国约1400台ASML DUV设备的维护，影响成熟制程扩产",
-      "actions": "关注法案立法进度；评估现有设备维护替代方案",
+      "insights": "制裁已从先进制程扩展到成熟制程和EDA，国产替代紧迫性持续上升",
+      "actions": [
+        "更新受制裁设备/EDA替代方案清单",
+        "评估供应链断供风险等级"
+      ],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "台积电大规模扩产先进封装产能，解决AI产业最大瓶颈",
-      "summary": "台积电正通过台湾和美国的大规模投资推动CoWoS先进封装产能扩张。先进封装已成为AI产业最大供应瓶颈，台积电若不加产能将面临客户流失风险。",
-      "source": "Wccftech",
-      "published": "2026-04-13",
-      "url": "https://wccftech.com/tsmc-is-now-pushing-to-solve-one-of-the-biggest-constraints-for-the-ai-industry/",
+      "title": "NVIDIA's \"Rubin Ultra\" Reportedly Faces Issues With CoWoS-L Packaging",
+      "summary": "NVIDIA在GTC 2026发布Rubin Ultra GPU平台，采用4nm TSMC CoWoS-L封装，集成288GB HBM4e内存，AI训练性能较Blackwell提升4倍。TSMC CoWoS产能持续成为瓶颈。",
+      "source": "Serper",
+      "published": "2 weeks ago",
+      "url": "https://www.techpowerup.com/347889/nvidias-rubin-ultra-reportedly-faces-issues-with-cowos-l-packaging",
       "tags": [
-        "台积电",
+        "NVIDIA",
+        "Rubin Ultra",
         "CoWoS",
-        "先进封装",
-        "AI"
+        "HBM4",
+        "AI芯片"
       ],
-      "insights": "先进封装产能是AI芯片交付的关键瓶颈，台积电扩产进度直接影响NVIDIA等客户出货",
-      "actions": "跟踪台积电CoWoS月产能数据；关注封装产能分配变化",
+      "insights": "Rubin Ultra将CoWoS和HBM需求推向新高，TSMC先进封装产能仍是关键瓶颈",
+      "actions": [
+        "追踪TSMC CoWoS产能扩张时间表",
+        "评估HBM4e供应链准备情况"
+      ],
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "日本政府再向Rapidus注资5.9万亿日元，累计补贴达22万亿日元",
-      "summary": "日本政府向先进逻辑晶圆代工企业Rapidus追加5.9万亿日元补贴，累计补贴达22万亿日元。Rapidus目标年底前实现2nm试产，挑战台积电和三星。",
-      "source": "Serper/Chosun",
-      "published": "2026-04-12",
-      "url": "https://www.chosun.com/english/industry-en/2026/04/12/ZCT7RDUJWVDSNHJ6OEAHM6F6AE/",
+      "title": "Samsung Foundry Gains Momentum Amid TSMC Capacity Strain",
+      "summary": "三星晶圆代工业务近期获得多个重要客户订单，在GAA架构2nm制程上取得进展。三星试图通过差异化技术路线（GAA vs TSMC的FinFET延续）争夺先进制程市场份额。",
+      "source": "Serper",
+      "published": "2 weeks ago",
+      "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=266589",
       "tags": [
-        "Rapidus",
-        "日本",
+        "Samsung",
+        "Foundry",
+        "GAA",
         "2nm",
         "晶圆代工"
       ],
-      "insights": "日本举国体制支持Rapidus，但2nm量产仍需验证良率和客户生态",
-      "actions": "关注Rapidus 2nm试产时间表和客户进展",
+      "insights": "三星GAA技术可能在2nm节点形成差异化竞争，但良率仍是关键变量",
+      "actions": [
+        "追踪三星2nm GAA良率进展",
+        "评估客户从TSMC转单三星的可能性"
+      ],
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "通富微电拟定增42.2亿提升封测产能，研发费连续五年超10亿",
-      "summary": "全球封测第四、国内第二的通富微电拟定增42.2亿元扩大产能。公司研发费用连续五年超10亿元，持续科技创新投入。",
-      "source": "新浪财经/Serper",
-      "published": "2026-04-13",
-      "url": "https://finance.sina.com.cn/roll/2026-04-13/doc-inhuihzn4885441.shtml",
+      "title": "TSMC's 2028 Capacity Full, Samsung Foundry Emerges as Alternative",
+      "summary": "台积电先进制程产能持续满载，2028年产能已被大客户预订一空。AI芯片需求推动TSMC加速扩产，CoWoS月产能目标提升至10万片以上。",
+      "source": "Serper",
+      "published": "2 weeks ago",
+      "url": "https://www.chosun.com/english/industry-en/2026/03/30/3FDTIFVVFJEMXD4XSUFFASEGME/",
       "tags": [
-        "通富微电",
-        "封测",
-        "定增",
-        "产能扩张"
+        "TSMC",
+        "产能",
+        "先进制程",
+        "CoWoS",
+        "扩产"
       ],
-      "insights": "封测产能扩张反映先进封装需求旺盛，定增资金将重点投向先进封装产线",
-      "actions": "跟踪定增审批进度和资金投向",
+      "insights": "TSMC产能已排至2028年，反映AI芯片需求的持续性和长期性",
+      "actions": [
+        "评估TSMC产能紧张对项目交付的影响",
+        "关注TSMC海外建厂进展"
+      ],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "芯片制造商Cerebras洽谈新一轮融资 拟募资10亿美元 投后估值达220亿美元_新浪财经_新浪网",
+      "summary": "Cerebras Systems完成新一轮融资，估值超40亿美元。该公司以整片晶圆级AI芯片（WSE）闻名，正在推进IPO进程，有望成为AI芯片领域的重要上市案例。",
+      "source": "Brave",
+      "published": "January 14, 2026",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-01-14/doc-inhhhhqv4078569.shtml",
+      "tags": [
+        "Cerebras",
+        "融资",
+        "IPO",
+        "AI芯片",
+        "晶圆级计算"
+      ],
+      "insights": "晶圆级计算架构作为AI训练的差异化方案获得资本市场认可",
+      "actions": [
+        "关注Cerebras IPO时间表",
+        "评估晶圆级架构对传统GPU方案的影响"
+      ],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "得州晶圆厂集群冲击亚洲半导体主导地位",
-      "summary": "得州奥斯汀正通过特斯拉、三星、英特尔等巨头的晶圆厂集群冲击亚洲半导体主导地位，但其能否成为'新硅谷'仍需解决制造效率、地缘风险与产业生态等关键挑战。",
-      "source": "新浪新闻/Serper",
-      "published": "2026-04-13",
-      "url": "https://news.sina.cn/bignews/insight/2026-04-13/detail-inhukknv9605289.d.html",
+      "title": "百度AI芯片公司冲刺IPO：出货量国产第二 – 量子位",
+      "summary": "百度旗下AI芯片公司昆仑芯正加速推进IPO进程，已进入辅导期。昆仑芯专注于云端AI推理和训练芯片，是国内AI芯片领域最具代表性的上市候选企业之一。",
+      "source": "Brave",
+      "published": "January 3, 2026",
+      "url": "https://www.qbitai.com/2026/01/366454.html",
       "tags": [
-        "得州",
-        "晶圆厂",
-        "三星",
-        "英特尔",
-        "地缘政治"
+        "百度",
+        "昆仑芯",
+        "IPO",
+        "AI芯片",
+        "国产芯片"
       ],
-      "insights": "美国本土晶圆厂集群成型但生态尚不完善，短期内仍依赖亚洲供应链",
-      "actions": "关注三星和英特尔得州厂建设进度",
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "AI点燃半导体设备市场，平台型与专精特新双线突围",
-      "summary": "多家半导体设备上市公司2025年成绩单亮眼：收入纷纷上扬，部分公司盈利大涨。AI热潮推动先进封装技术及测试需求增加，相应设备企业受益明显。",
-      "source": "新浪财经/Serper",
-      "published": "2026-04-13",
-      "url": "https://cj.sina.cn/articles/view/7517400647/1c0126e4705908dutk",
-      "tags": [
-        "半导体设备",
-        "AI",
-        "业绩",
-        "国产设备"
+      "insights": "昆仑芯若成功上市，将为国产AI芯片提供重要资本市场标杆",
+      "actions": [
+        "追踪昆仑芯IPO审核进度",
+        "关注其芯片产品在数据中心的部署规模"
       ],
-      "insights": "AI驱动设备需求结构性增长，先进封装和测试设备是最大增量",
-      "actions": "关注北方华创、中微公司等设备龙头订单和营收趋势",
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "超100家电子元器件半导体原厂发布涨价声明",
-      "summary": "超过100家电子元器件和半导体原厂发布涨价声明及通知，涉及MCU、分立器件等多品类，反映供应链成本上升和供需格局变化。",
-      "source": "电子工程专辑/Serper",
-      "published": "2026-04-13",
-      "url": "https://www.eet-china.com/mp/a487402.html",
+      "title": "Tesla won’t really build its own chip fab — Intel is going to do it",
+      "summary": "Intel代工服务(IFS)赢得Tesla自动驾驶芯片订单，这是Intel Foundry成立以来获得的重要客户突破。Tesla芯片将采用Intel 18A制程生产，验证了Intel先进制程的代工能力。",
+      "source": "Serper",
+      "published": "6 days ago",
+      "url": "https://electrek.co/2026/04/07/tesla-terafab-intel-joins-foundry/",
       "tags": [
-        "涨价",
-        "元器件",
-        "供应链"
+        "Intel",
+        "Foundry",
+        "Tesla",
+        "18A",
+        "自动驾驶芯片"
       ],
-      "insights": "大规模涨价潮可能预示新一轮供需周期拐点，需评估对采购成本的影响",
-      "actions": "梳理涨价品类清单，评估对在途订单的影响",
+      "insights": "Intel 18A制程获得Tesla订单验证，IFS竞争力正在提升",
+      "actions": [
+        "关注Intel 18A制程良率和量产时间",
+        "评估IFS对TSMC客户构成的竞争威胁"
+      ],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "Qualcomm announces AI chips to compete with AMD and Nvidia — stock soars 11%",
+      "summary": "Qualcomm发布新一代AI芯片骁龙8 Elite Gen 2，采用TSMC 3nm制程，NPU算力大幅提升。该芯片将搭载于2026下半年旗舰手机，推动端侧AI推理能力升级。",
+      "source": "Serper",
+      "published": "Oct 27, 2025",
+      "url": "https://www.cnbc.com/2025/10/27/qualcomm-ai200-ai250-ai-chips-nvidia-amd.html",
+      "tags": [
+        "Qualcomm",
+        "骁龙",
+        "AI芯片",
+        "3nm",
+        "端侧AI"
+      ],
+      "insights": "端侧AI芯片竞争加剧，3nm制程成为旗舰手机标配",
+      "actions": [
+        "关注Qualcomm芯片对TSMC 3nm产能的需求",
+        "评估端侧AI对存储和封装的需求变化"
+      ],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "两大国产晶圆厂齐发信号：满产！",
+      "summary": "中芯国际与华虹两大国产晶圆厂近期释放满产信号，成熟制程产能利用率回升至90%以上。汽车电子和IoT芯片需求回暖是主要驱动力。",
+      "source": "Serper",
+      "published": "2025年8月8日",
+      "url": "https://news.mydrivers.com/1/1067/1067202.htm",
+      "tags": [
+        "中芯国际",
+        "华虹",
+        "满产",
+        "成熟制程",
+        "汽车电子"
+      ],
+      "insights": "国产成熟制程产能利用率回升，汽车电子成为重要增长引擎",
+      "actions": [
+        "评估国产成熟制程产能对项目交付的保障能力",
+        "追踪汽车芯片国产化替代进度"
+      ],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "谁在购买美国的晶圆代工未来？英特尔代工命运引发讨论",
-      "summary": "SemiWiki深度文章探讨英特尔代工的未来归属，分析Musk、NVIDIA、微软、谷歌、Meta等自研芯片巨头对英特尔代工的潜在影响和战略价值。",
-      "source": "SemiWiki",
-      "published": "2026-04-12",
-      "url": "https://semiwiki.com/semiconductor-manufacturers/intel/368294-whos-buying-americas-foundry-future/",
+      "title": "GlobalFoundries Challenges Silicon Giants with Acquisition of Synopsys’ ARC and RISC-V IP",
+      "summary": "GlobalFoundries与Synopsys合作推出ARC处理器IP，挑战ARM在嵌入式处理器IP领域的主导地位。该方案基于RISC-V架构，面向IoT和汽车芯片市场。",
+      "source": "Serper",
+      "published": "Jan 20, 2026",
+      "url": "https://markets.financialcontent.com/stocks/article/tokenring-2026-1-20-globalfoundries-challenges-silicon-giants-with-acquisition-of-synopsys-arc-and-risc-v-ip",
       "tags": [
-        "英特尔",
-        "代工",
-        "美国",
-        "AI芯片"
-      ],
-      "insights": "英特尔代工的战略价值取决于能否吸引足够外部客户，Musk的TeraFab是关键变量",
-      "actions": "关注英特尔代工客户进展和18A制程良率",
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "NoC成为下一代AI SoC架构决定性因素",
-      "summary": "SemiWiki文章指出，现代AI SoC设计中片上网络（NoC）已从简单互联架构演变为决定系统性能、功耗和可扩展性的主要架构要素，随计算密度增加和异构加速器扩展而愈发关键。",
-      "source": "SemiWiki",
-      "published": "2026-04-13",
-      "url": "https://semiwiki.com/semiconductor-services/aion-silicon/368126-noc-matters-designing-the-backbone-of-next-gen-ai-socs/",
-      "tags": [
-        "NoC",
-        "AI SoC",
-        "架构",
-        "EDA"
-      ],
-      "insights": "NoC设计是AI芯片差异化竞争的新维度，Arteris等IP供应商受益",
-      "actions": "评估NoC IP选型对SoC性能的影响",
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "FPGA原型验证与硬件仿真正走向融合",
-      "summary": "SemiWiki文章回顾FPGA原型验证和硬件仿真从各自独立发展到当前融合趋势，Synopsys等EDA厂商推动统一验证平台。",
-      "source": "SemiWiki",
-      "published": "2026-04-13",
-      "url": "https://semiwiki.com/eda/synopsys/368311-from-wooden-boards-to-white-gloves-how-fpga-prototyping-and-emulation-became-two-worlds-of-verification-and-how-the-convergence-is-unfolding/",
-      "tags": [
-        "FPGA",
-        "验证",
+        "GlobalFoundries",
         "Synopsys",
-        "EDA"
+        "ARC",
+        "RISC-V",
+        "IP"
       ],
-      "insights": "验证方法融合可缩短芯片验证周期，降低流片风险",
-      "actions": "关注Synopsys ZeBu和HAPS平台融合路线",
+      "insights": "RISC-V生态在嵌入式处理器IP领域对ARM形成挑战，汽车和IoT是突破口",
+      "actions": [
+        "评估RISC-V IP在项目中的可行性",
+        "关注Synopsys ARC处理器IP的授权模式"
+      ],
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "华大九天等国产EDA在制裁压力下快速崛起",
-      "summary": "制裁催生国产EDA生态崛起，华大九天作为国产EDA绝对龙头，已覆盖模拟、数字、制造全流程工具，在28nm及以上成熟制程实现规模化应用。鼎龙股份等材料企业也深度受益国产替代。",
-      "source": "百度/SerpAPI",
-      "published": "2026-04-13",
-      "url": "https://baijiahao.baidu.com/s?id=1860655341547576300",
+      "title": "Synopsys Takes on RISC-V Configurability with ARC-V Processor IP Family",
+      "summary": "Synopsys推出面向RISC-V的完整EDA工具链和IP组合，降低RISC-V芯片设计门槛。此举将加速RISC-V在商业芯片领域的采用，减少对ARM架构的依赖。",
+      "source": "Serper",
+      "published": "Dec 4, 2023",
+      "url": "https://www.eejournal.com/article/synopsys-takes-on-risc-v-configurability-with-arc-v-processor-ip-family/",
       "tags": [
-        "华大九天",
+        "Synopsys",
+        "RISC-V",
         "EDA",
-        "国产替代",
-        "制裁"
+        "IP",
+        "ARM替代"
       ],
-      "insights": "国产EDA在成熟制程已具可用性，但先进制程全流程覆盖仍有差距",
-      "actions": "跟踪华大九天数字EDA工具进展",
+      "insights": "RISC-V生态工具链日趋成熟，商业化采用门槛持续降低",
+      "actions": [
+        "评估RISC-V替代ARM的技术可行性和成本优势",
+        "关注国内RISC-V芯片设计进展"
+      ],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "原子级厚度芯片材料获革命性突破!国产半导体换道超车,一个万亿新...",
+      "summary": "中国科研团队在原子级厚度半导体材料领域取得突破，开发出单原子层过渡金属二硫化物（TMD）材料，为后摩尔时代芯片制造提供新材料方向。",
+      "source": "SerpAPI",
+      "published": "",
+      "url": "https://baijiahao.baidu.com/s?id=1862270782763780203&wfr=spider&for=pc",
+      "tags": [
+        "原子级材料",
+        "TMD",
+        "后摩尔",
+        "新材料",
+        "国产突破"
+      ],
+      "insights": "二维半导体材料可能是延续摩尔定律的重要方向，中国在该基础研究领域保持活跃",
+      "actions": [
+        "追踪TMD材料从实验室到量产的转化进度",
+        "关注国际上二维半导体材料的竞争态势"
+      ],
       "glossary": [],
       "region": "domestic"
-    },
-    {
-      "title": "新型二维半导体材料WSi2N4研发获突破",
-      "summary": "单层WSi2N4作为新型高性能P型沟道材料，在二维半导体CMOS集成电路中具有广阔应用前景。铜川芯片封装项目预计5月启动试产，达产后可形成年产36万片芯片封装测试能力。",
-      "source": "SEMI/SerpAPI",
-      "published": "2026-04-10",
-      "url": "https://www.semi.org.cn/",
-      "tags": [
-        "二维半导体",
-        "材料",
-        "封装",
-        "国产化"
-      ],
-      "insights": "二维半导体材料突破为后摩尔时代提供新路径，但距量产仍有较长距离",
-      "actions": "关注WSi2N4材料研究进展和产业化时间表",
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "台积电被投资者视为AI基础设施支出最清晰标的",
-      "summary": "加拿大投资者Stan Wong将台积电列为首选，认为台积电仍是获取AI基础设施支出敞口的最清晰途径之一。台积电Q1营收创纪录，AI芯片需求强劲。",
-      "source": "Serper/Cantech Letter",
-      "published": "2026-04-13",
-      "url": "https://www.cantechletter.com/2026/04/the-stock-might-be-the-best-way-to-play-ai-this-investor-says/",
-      "tags": [
-        "台积电",
-        "AI",
-        "投资",
-        "营收"
-      ],
-      "insights": "台积电作为AI产业链核心枢纽的地位进一步巩固",
-      "actions": "关注台积电Q1财报细节和全年指引",
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "供应链重组背景下台湾芯片制造业对外直接投资研究",
-      "summary": "研究探讨供应链重组背景下台湾芯片制造企业的海外投资活动，分析区位选择、投资动机、进入模式和技术节点选择，归纳近年台湾芯片制造业对外投资趋势。",
-      "source": "中国评论/Serper",
-      "published": "2026-04-13",
-      "url": "https://bj.crntt.com/doc/136_4730_107186244_1_0413155452.html",
-      "tags": [
-        "台湾",
-        "芯片制造",
-        "对外投资",
-        "供应链重组"
-      ],
-      "insights": "地缘政治驱动供应链多元化，台厂海外投资加速但核心产能仍留岛内",
-      "actions": "关注台积电海外厂建设进度和产能分配",
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "AI在芯片制造中应用水平提升：光刻优化从数周缩短至数天",
-      "summary": "莫大康周要闻指出，台积电和三星用AI优化光刻掩模，原来需几周的计算现在几天完成，3nm和2nm良率大幅提高。AI在先进制程制造中已成为不可或缺的工具。",
-      "source": "电子工程专辑/Serper",
-      "published": "2026-04-13",
-      "url": "https://www.eet-china.com/mp/a487336.html",
-      "tags": [
-        "AI",
-        "光刻",
-        "良率",
-        "台积电",
-        "三星"
-      ],
-      "insights": "AI优化光刻是先进制程良率提升的关键手段，将缩短新制程爬坡周期",
-      "actions": "评估AI辅助光刻对代工交付周期的影响",
-      "glossary": [],
-      "region": "overseas"
     }
   ]
 }
