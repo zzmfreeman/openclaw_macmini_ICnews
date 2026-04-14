@@ -1,33 +1,38 @@
 {
-  "version": "v20260413-1300",
-  "generatedAt": "2026-04-13T13:00:00+08:00",
+  "version": "v20260414-1308",
+  "generatedAt": "2026-04-14T13:08:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [
     {
-      "term": "MATCH法案",
-      "desc": "《硬件技术多边协调管制法案》，美国国会拟议对中国半导体企业实施全面设备出口管制",
-      "category": "商业"
-    },
-    {
-      "term": "Rapidus",
-      "desc": "日本国营先进芯片企业，目标量产2nm制程，获日本政府万亿日元级资助",
-      "category": "制造"
-    },
-    {
-      "term": "二维半导体",
-      "desc": "以MoS2等为代表的超薄半导体材料，有望突破硅基摩尔定律极限",
-      "category": "材料"
-    },
-    {
-      "term": "OSAT",
-      "desc": "外包半导体封装测试，代表企业包括日月光、长电科技、安靠等",
+      "term": "CoPoS",
+      "desc": "Chip-on-Panel-on-Substrate，面板级先进封装技术，台积电下一代封装路线，可大幅提升面积利用率",
       "category": "封装"
     },
     {
-      "term": "晶圆级生长",
-      "desc": "在整片晶圆上直接生长半导体材料，是产业化的关键门槛",
+      "term": "DUV",
+      "desc": "深紫外光刻，波长193nm，用于28nm及以上成熟制程；ASML是该设备唯一供应商",
+      "category": "设备"
+    },
+    {
+      "term": "18A",
+      "desc": "Intel下一代先进制程节点，对标台积电2nm，采用RibbonFET晶体管和PowerVia背面供电",
       "category": "制造"
+    },
+    {
+      "term": "ZP8",
+      "desc": "中安半导体新一代无图形晶圆颗粒检测设备，精度达10.5nm，打破KLA等国际厂商垄断",
+      "category": "设备"
+    },
+    {
+      "term": "MATCH法案",
+      "desc": "美国国会拟议的半导体管制法案，拟禁止DUV设备出口中国，锁死28nm及以上制程扩产",
+      "category": "商业"
+    },
+    {
+      "term": "Terafab",
+      "desc": "马斯克xAI规划的AI超级计算工厂，选择Intel作为代工合作伙伴，规模达百万级GPU集群",
+      "category": "商业"
     }
   ],
   "topic_pulse": [
@@ -36,192 +41,228 @@
       "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "先进封装持续高热度，台积电CoWoS产能扩张和OSAT跟进是近期焦点，社区关注封装产能瓶颈何时缓解。"
+      "summary": "台积电从CoWoS向CoPoS面板级封装演进，法说会前瞻披露全面布局路线。国内封测龙头长电科技先进封装订单驱动业绩大增，先进封装是当前产业链最热赛道。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "SK海力士HBM3E持续供不应求，三星追赶进度受关注，存储需求结构因AI推理而改变。"
+      "summary": "HBM供需紧张持续，产品价格上行，A股HBM板块大涨。SK海力士和Samsung产能扩张节奏决定全球供给弹性，国内HBM产业链受益国产替代逻辑。"
     },
     {
       "topic": "中国Fab/先进制程",
-      "heat": "↑↑升温",
+      "heat": "→平稳",
       "reddit_top": null,
-      "hn_top": null,
-      "summary": "MATCH法案和28nm设备禁令引发高度关注，中芯国际产能利用率回升与制裁升级形成拉锯。"
+      "hn_top": "China's largest chipmaker testing first homegrown immersion (pts:3)",
+      "summary": "中芯国际等国内Fab面临MATCH法案DUV禁运威胁，成熟制程扩产路径可能受阻。HN有中芯国际测试国产浸没式光刻机的讨论，社区关注度一般。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "华大九天等国产EDA稳步替代，但全流程覆盖仍有差距，Arm策略变化为RISC-V IP带来机遇。"
+      "summary": "本周无重大国产EDA/IP突破性新闻。华大九天等企业持续在制裁压力下推进国产替代，但社区讨论热度平稳。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测景气度上行，长电科技Q1净利增超50%，先进封装产能满载。"
+      "summary": "长电科技一季报净利增超50%领跑，华天科技转亏，先进封装订单成为业绩分化核心变量。日月光、Amkor等海外OSAT同样受益AI封装需求。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "MATCH法案将管控延伸至设备全生命周期，中国约1400台ASML设备维护风险受关注。"
+      "summary": "美国MATCH法案拟禁止ASML DUV设备输中，制裁力度进一步升级。若通过将锁死中芯国际等企业28nm及以上扩产路径，国产光刻设备替代需求极为紧迫。"
     },
     {
       "topic": "AI芯片/NVIDIA",
-      "heat": "↑↑升温",
+      "heat": "→平稳",
       "reddit_top": null,
-      "hn_top": null,
-      "summary": "Blackwell芯片持续发货，Cerebras融资10亿美元，AI芯片赛道资本和需求双旺。"
+      "hn_top": "Nvidia Unveils New AI Chips and Partnerships at GTC 2025 (pts:3)",
+      "summary": "NVIDIA GTC 2025后续影响持续发酵，Blackwell架构芯片出货节奏受关注。马斯克Terafab选择Intel代工而非NVIDIA GPU，引发AI算力基础设施路线讨论。"
     },
     {
       "topic": "设备/材料国产化",
-      "heat": "↑↑升温",
+      "heat": "↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "二维半导体材料晶圆级突破是重大进展，国产光刻胶和CMP材料渗透率提升。"
+      "summary": "中安半导体ZP8颗粒检测设备突破10.5nm精度，打破KLA垄断，是国产量测设备重要里程碑。MATCH法案若通过将进一步催化国产设备替代需求。"
     }
   ],
   "items": [
     {
-      "title": "美国MATCH法案精准围堵中国五大半导体龙头，设备出口禁令延伸至全生命周期",
-      "summary": "美国国会提出《MATCH法案》，将中芯国际、华虹、长鑫存储、长江存储、华为列为受管制设施，管控从设备出口延伸至交易、使用与维护全生命周期，要求ASML等企业在150天内停止供货及售后。",
-      "source": "百度搜索",
-      "published": "2026-04-07T10:00:00+08:00",
-      "url": "https://baijiahao.baidu.com/s?id=1861692254565414263",
+      "title": "三星2nm良率仅55%，高通骁龙8系旗舰芯片转投台积电",
+      "summary": "三星电子2nm工艺良率被曝仅约55%，远低于台积电同代水平，无法稳定交付大型代工订单。高通已决定将下一代骁龙8系旗舰芯片代工转向台积电，三星错失关键订单，1nm时代能否逆袭存疑。",
+      "source": "新浪财经",
+      "published": "2026-04-13T18:00:00+08:00",
+      "url": "https://finance.sina.com.cn/tech/discovery/2026-04-13/doc-inhukkns5451755.shtml",
+      "tags": [
+        "Foundry",
+        "三星",
+        "台积电",
+        "2nm",
+        "良率",
+        "高通"
+      ],
+      "insights": "三星代工业务持续承压，2nm良率差距是结构性问题而非短期波动；台积电在先进制程代工的垄断地位进一步巩固",
+      "actions": [
+        "关注台积电法说会2nm/1nm产能规划",
+        "评估三星代工业务战略调整可能性"
+      ],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "台积电从CoWoS迈向CoPoS：面板级先进封装布局加速",
+      "summary": "台积电在法说会前瞻中披露先进封装全面布局路线，从CoWoS向面板级CoPoS演进，同时COUPE和SoIC技术进度曝光。面板级封装可大幅提升芯片面积利用率和产能效率。",
+      "source": "EET China",
+      "published": "2026-04-14T09:00:00+08:00",
+      "url": "https://www.eet-china.com/mp/a487507.html",
+      "tags": [
+        "CoWoS",
+        "CoPoS",
+        "先进封装",
+        "台积电",
+        "SoIC"
+      ],
+      "insights": "面板级封装是先进封装下一代关键技术，台积电先发优势明显；CoPoS量产时间节点将影响AI芯片供应链格局",
+      "actions": [
+        "跟踪CoPoS量产时间表",
+        "评估面板级封装对OSAT竞争格局影响"
+      ],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "美拟禁止ASML DUV设备输中，MATCH法案封杀升级",
+      "summary": "美国国会拟通过MATCH法案，禁止DUV光刻设备外销中国，华为、中芯国际等五家中企关键设备供应将受重创。若通过，将锁死28nm及以上制程扩产路径。",
+      "source": "自由时报",
+      "published": "2026-04-14T08:00:00+08:00",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/5402223",
       "tags": [
         "出口管制",
+        "ASML",
+        "DUV",
+        "MATCH法案",
         "中芯国际",
-        "华虹",
-        "MATCH法案"
+        "制裁"
       ],
-      "insights": "法案若通过将严重影响中国晶圆厂设备维护和产能扩张，国产替代紧迫性进一步提升",
-      "actions": "关注法案后续表决进展；评估现有设备维护风险",
+      "insights": "DUV禁运若落地将严重冲击中芯国际等成熟制程扩产计划；国产光刻设备替代需求进一步紧迫化",
+      "actions": [
+        "评估DUV禁运对国内Fab扩产时间表影响",
+        "关注上海微电子28nm DUV进展"
+      ],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "日本追加拨款6315亿日元支持Rapidus，硬扛台积电先进制程",
-      "summary": "日本政府批准向Rapidus追加拨款6315亿日元（约40亿美元），用于2nm先进芯片研发，截至2026财年累计投入已超万亿日元。",
-      "source": "电子工程专辑",
-      "published": "2026-04-12T15:00:00+08:00",
-      "url": "https://www.eet-china.com/mp/a487216.html",
+      "title": "10.5nm精度！中安ZP8无图形晶圆颗粒检测打破国外技术垄断",
+      "summary": "中安半导体发布新一代颗粒检测设备ZP8，实现10.5nm极限精度，打破国际厂商长期垄断。同时发布面向3D集成与衬底制造的两套系统化解决方案。",
+      "source": "搜狐",
+      "published": "2026-04-14T12:00:00+08:00",
+      "url": "https://m.sohu.com/a/1009269894_121207965",
       "tags": [
-        "Rapidus",
-        "日本半导体",
-        "2nm",
-        "先进制程"
+        "量测检测",
+        "国产设备",
+        "中安半导体",
+        "晶圆检测",
+        "3D集成"
       ],
-      "insights": "日本举国押注Rapidus，与台积电熊本厂形成双线布局，全球先进制程竞争格局进一步碎片化",
-      "actions": "跟踪Rapidus试产进度；评估对台积电日本业务影响",
+      "insights": "国产量测设备在极限精度上取得突破，是半导体设备国产化的重要里程碑；3D集成方案发布表明国产设备商正从单品向系统方案转型",
+      "actions": [
+        "跟踪ZP8客户导入进度",
+        "关注中安半导体IPO进展"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "AI算力引爆HBM需求，板块大涨，行业供需紧张推动价格上涨",
+      "summary": "HBM板块早盘大涨3.24%，香农芯创涨超7%，壹石通、中科飞测涨超6%。外围存储芯片概念股大涨，HBM供需紧张格局持续，产品价格上行趋势明确。",
+      "source": "金融界",
+      "published": "2026-04-14T10:57:00+08:00",
+      "url": "https://stock.jrj.com.cn/2026/04/14105756732255.shtml",
+      "tags": [
+        "HBM",
+        "AI算力",
+        "存储",
+        "供需紧张",
+        "涨价"
+      ],
+      "insights": "HBM涨价周期与AI训练/推理需求高度耦合；国内HBM产业链（香农芯创等）受益于国产替代逻辑和行业景气双轮驱动",
+      "actions": [
+        "关注SK海力士/Samsung HBM产能扩张节奏",
+        "评估国内HBM封测环节机会"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "Intel Nova Lake桌面CPU规格曝光：6-52核心，Core Ultra Series 4",
+      "summary": "Intel下一代Nova Lake桌面处理器Die和SKU详细信息曝光，核心数覆盖6到52核，延续大小核混合架构。Intel在先进封装和CPU产品线持续加码。",
+      "source": "WCCFtech",
+      "published": "2026-04-14T06:00:00+08:00",
+      "url": "https://wccftech.com/intel-nova-lake-core-ultra-series-4-desktop-cpu-die-skus-detailed/",
+      "tags": [
+        "Intel",
+        "Nova Lake",
+        "CPU",
+        "桌面处理器",
+        "先进封装"
+      ],
+      "insights": "Nova Lake是Intel 18A工艺的关键产品验证节点；52核规格显示Intel在数据中心和高端桌面市场发力",
+      "actions": [
+        "跟踪Intel 18A工艺良率进展",
+        "评估Nova Lake对AMD下一代Turin竞争态势"
+      ],
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "硅晶圆大厂踩下刹车键，AI打破需求增则必扩产铁律",
-      "summary": "AI芯片需求飙升但硅晶圆大厂未跟随扩产，AI芯片面积小、用量少但价值高，导致晶圆消耗增速远低于芯片需求增速，上游材料厂面临结构性调整。",
-      "source": "36氪",
-      "published": "2026-04-13T11:00:00+08:00",
-      "url": "https://m.36kr.com/p/3761855046287876",
-      "tags": [
-        "硅晶圆",
-        "AI芯片",
-        "产能",
-        "材料"
-      ],
-      "insights": "AI芯片小面积高价值特性正在重塑晶圆需求结构，300mm硅片需求增速放缓但单价提升",
-      "actions": "重新评估硅片供应商产能规划；关注12英寸晶圆供需拐点",
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "中国团队攻克二维半导体材料晶圆级生长，突破芯片卡脖子关键材料",
-      "summary": "国防科技大学与中科院金属所联合团队在《国家科学评论》发表成果，实现新型高性能二维半导体材料的晶圆级生长和可控掺杂，西方在该领域的封锁基本失效。",
-      "source": "百度搜索",
-      "published": "2026-04-13T09:00:00+08:00",
-      "url": "https://baijiahao.baidu.com/s?id=1862042253023384734",
-      "tags": [
-        "二维半导体",
-        "材料突破",
-        "国产替代",
-        "晶圆级"
-      ],
-      "insights": "二维半导体材料是后摩尔时代关键方向，晶圆级生长突破为国产芯片提供新路径",
-      "actions": "跟踪该技术产业化进度；评估对现有硅基工艺的补充替代潜力",
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "半导体行业景气上行，封测环节布局加速",
-      "summary": "中国银河月度报告指出半导体行业景气持续上行，晶圆代工产能利用率回升，封测环节加速布局先进封装，长电科技等OSAT厂商受益明显。",
-      "source": "证券之星",
-      "published": "2026-04-12T21:00:00+08:00",
-      "url": "https://stock.stockstar.com/JC2026041200009703.shtml",
+      "title": "封测三巨头一季报：长电净利增超50%，华天转亏，竞逐先进封装",
+      "summary": "长电科技一季度净利润同比增长超50%，华天科技转为亏损，通富微电承压。三巨头在先进封装领域竞争加剧，长电凭借CoWoS相关订单优势明显。",
+      "source": "TF财经",
+      "published": "2026-04-13T20:00:00+08:00",
+      "url": "https://www.tfcaijing.com/article/page/43364c3555466675474f727361384b4137714a7a45513d3d",
       "tags": [
         "封测",
-        "景气度",
+        "长电科技",
+        "华天科技",
+        "通富微电",
         "先进封装",
-        "OSAT"
+        "一季报"
       ],
-      "insights": "行业景气上行加先进封装需求爆发双重驱动，封测环节进入量价齐升周期",
-      "actions": "关注长电通富华天产能扩张进展；跟踪CoWoS等先进封装订单",
+      "insights": "先进封装订单是封测厂业绩分化的核心变量；长电科技在2.5D/3D封装先发优势转化为利润增长",
+      "actions": [
+        "关注长电科技先进封装产能扩张计划",
+        "评估华天科技扭亏路径"
+      ],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "韩国芯片供应商深陷降价泥潭，巨头与小厂冰火两重天",
-      "summary": "2026年初韩国半导体产业出现分化：三星、SK海力士等AI受益巨头利润飙升，而中小芯片供应商被迫连年降价，存储和成熟制程市场竞争加剧。",
-      "source": "36氪",
-      "published": "2026-04-13T11:00:00+08:00",
-      "url": "https://m.36kr.com/p/3761874222547716",
+      "title": "马斯克选择英特尔合作Terafab：AI超算代工新范式",
+      "summary": "马斯克xAI选择英特尔作为Terafab超算项目代工合作伙伴，而非台积电或三星。分析认为这与Intel 18A工艺的产能可用性及Intel先进封装能力有关。",
+      "source": "新浪财经",
+      "published": "2026-04-13T16:00:00+08:00",
+      "url": "https://finance.sina.cn/stock/jdts/2026-04-13/detail-inhuipif9816341.d.html",
       "tags": [
-        "韩国半导体",
-        "降价",
-        "存储",
-        "成熟制程"
-      ],
-      "insights": "AI需求集中化导致产业利润极度分化，成熟制程和存储领域价格战持续",
-      "actions": "评估韩国中小供应商降价对国内采购成本的影响",
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "Arm硅战略改变生态激励，平台商变竞争对手引发RISC-V机遇",
-      "summary": "SemiWiki分析指出Arm自研芯片策略改变了IP授权生态激励，当平台商成为客户竞争对手时，RISC-V等开源架构获得更大采用动力，Andes Technology等RISC-V IP厂商受益。",
-      "source": "SemiWiki",
-      "published": "2026-04-13T03:00:00+08:00",
-      "url": "https://semiwiki.com/ip/andes-technology/368084-when-a-platform-provider-becomes-a-competitor-why-arms-silicon-strategy-changes-the-incentives/",
-      "tags": [
-        "Arm",
-        "RISC-V",
-        "IP",
-        "生态"
-      ],
-      "insights": "Arm自研芯片动摇了IP中立性，RISC-V在移动和汽车领域渗透加速",
-      "actions": "关注国内RISC-V IP厂商进展；评估Arm策略变化对客户选择的影响",
-      "glossary": [],
-      "region": "overseas"
-    },
-    {
-      "title": "谁在收购英特尔的代工未来？Musk、NVIDIA等潜在买家浮出水面",
-      "summary": "SemiWiki深度分析英特尔代工业务出售可能性，微软、谷歌、Meta、Oracle等自研硅客户均依赖外部代工，Musk和Jensen Huang被视为潜在战略买家。",
-      "source": "SemiWiki",
-      "published": "2026-04-13T05:00:00+08:00",
-      "url": "https://semiwiki.com/semiconductor-manufacturers/intel/368294-whos-buying-americas-foundry-future/",
-      "tags": [
-        "英特尔",
+        "Intel",
+        "Terafab",
+        "xAI",
         "代工",
-        "收购",
-        "AI基础设施"
+        "AI超算",
+        "先进封装"
       ],
-      "insights": "英特尔代工若被科技巨头收购将重塑美国半导体制造格局，但整合风险极高",
-      "actions": "跟踪英特尔代工业务剥离进展；评估对台积电美国产能影响",
+      "insights": "Intel代工业务获得重要客户背书，但量产交付能力是关键考验；Terafab选择Intel而非TSMC，可能反映台积电产能已极度紧张",
+      "actions": [
+        "跟踪Intel 18A为Terafab的量产交付进度",
+        "评估Intel代工业务客户拓展趋势"
+      ],
       "glossary": [],
       "region": "overseas"
     }
