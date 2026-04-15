@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Semi Midday Flash</title>
+  <title>半导体简报</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -114,7 +114,7 @@
   <div class="wrap">
     <div class="topbar">
       <div>
-        <div class="title">☀️ 早间半导体简报</div><div id="buildmeta" style="margin-top:8px;font-size:13px;color:#64748b"></div>
+        <div class="title" id="pageTitle">半导体简报</div><div id="buildmeta" style="margin-top:8px;font-size:13px;color:#64748b"></div>
         <div class="meta">
           <a href="index.html" class="pill">⬅️ 返回早报</a>
           <span id="asof">As of: -</span>
@@ -179,6 +179,16 @@
     function render(){
       const d = state.filtered || state.data;
       if(!d) return;
+      
+      // Dynamic title based on period
+      const periodMap = {
+        'morning': '☀️ 早间半导体简报',
+        'midday': '🌤️ 午间半导体简报',
+        'evening': '🌙 晚间半导体简报'
+      };
+      const periodIcon = periodMap[d.period] || '📡 半导体简报';
+      el('pageTitle').textContent = periodIcon;
+      document.title = periodIcon.replace(/[☀️🌤️🌙📡]/, '').trim();
       
       if (!d.items) d.items = [];
 
