@@ -1,33 +1,33 @@
 {
-  "version": "v20260416-1300",
-  "generatedAt": "2026-04-16T13:00:00+08:00",
-  "period": "midday",
+  "version": "v20260416-2000",
+  "generatedAt": "2026-04-16T20:05:14+08:00",
+  "period": "evening",
   "commit": "",
   "glossary_list": [
     {
-      "term": "盛合晶微",
-      "desc": "AI算力芯片设计公司，专注于高性能计算芯片",
-      "category": "设计"
-    },
-    {
       "term": "CoPoS",
-      "desc": "台积电先进封装技术，CoWoS的演进版本，更高密度集成",
+      "desc": "Chip on Panel Substrate，台积电新型先进封装技术，将芯片直接贴装在面板级基板上，大幅提升封装密度与成本效率",
       "category": "封装"
     },
     {
-      "term": "概伦电子",
-      "desc": "国产EDA公司，器件建模和电路仿真工具供应商",
-      "category": "EDA"
+      "term": "MATCH法案",
+      "desc": "美国《硬件技术多边协调管制法案》，拟将15家中国半导体企业列入管制清单，实施全面出口限制",
+      "category": "商业"
     },
     {
-      "term": "联讯仪器",
-      "desc": "国产半导体测试设备公司，专注晶圆级测试方案",
+      "term": "Terafab",
+      "desc": "马斯克计划建设的大型晶圆厂项目，旨在为xAI和特斯拉等业务自研芯片提供制造能力",
       "category": "设备"
     },
     {
-      "term": "韬盛科技",
-      "desc": "EDA/半导体设计工具公司，冲刺科创板上市",
-      "category": "EDA"
+      "term": "Chiplet芯粒",
+      "desc": "将大芯片拆分为多个小芯粒再集成的设计架构，降低制造成本、提升良率与灵活性",
+      "category": "封装"
+    },
+    {
+      "term": "光芯片",
+      "desc": "利用光信号代替电信号进行数据传输和计算的芯片，具备低功耗、高带宽优势，曦智科技为国内代表企业",
+      "category": "设计"
     }
   ],
   "topic_pulse": [
@@ -36,203 +36,210 @@
       "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "台积电CoPoS试点产线消息引爆封装赛道讨论，玻璃基板产业化加速，先进封装成为AI算力核心底座。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "佰维存储业绩暴涨印证存储超级周期，三星HBM4逻辑芯片涨价40-50%，AI存储需求持续推升。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "中芯国际Q1营收同比增长28.4%，产能利用率89.6%，基本面稳健但先进制程进展仍受关注。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "本周未见重大EDA/IP突破消息，行业整体平稳。"
     },
     {
       "topic": "封测OSAT",
-      "heat": "→平稳",
+      "heat": "↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "奥芯明全栈式方案定义先进封装新范式，封测环节在AI算力需求下持续升级。"
     },
     {
       "topic": "出口管制/制裁",
-      "heat": "→平稳",
+      "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "MATCH法案拟将中芯国际、华虹、长鑫等15家中国半导体企业纳入管制清单，制裁压力再度升级。"
     },
     {
       "topic": "AI芯片/NVIDIA",
-      "heat": "↑↑升温",
-      "reddit_top": null,
-      "hn_top": "Nvidia market share in China falls to less than 60% (3pts)",
-      "summary": ""
-    },
-    {
-      "topic": "设备/材料国产化",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "马斯克高调布局自研芯片与晶圆厂，台积电业绩超预期但未见NVIDIA重大新动态。"
+    },
+    {
+      "topic": "设备/材料国产化",
+      "heat": "↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "马斯克团队接洽AMAT/TEL/Lam等设备巨头抢购产能，全球设备供应紧张加剧国产替代紧迫性。"
     }
   ],
   "items": [
     {
-      "title": "瑞和数智战略投资盛合晶微，布局AI算力核心赛道_公司新闻_财经",
-      "summary": "2026年4月15日，瑞和数智（03680.HK）发布公告，通过投资某基金参与了对国内先进封测龙头——盛合晶微半导体有限公司（以下简称“盛合晶微”）的投资，持有其重要股权.",
-      "source": "Serper",
-      "published": "5小时前",
-      "url": "https://wap.stockstar.com/detail/IG2026041600007857",
+      "title": "美国MATCH法案拟将15家中国半导体企业纳入管制清单，含中芯国际、华虹等",
+      "summary": "美国两党议员提出MATCH法案，将中芯国际、华虹、华为、长鑫存储、长江存储等15家半导体企业列为受管制设施，实施全面出口限制。",
+      "source": "SerpAPI",
+      "published": "2026-04-03",
+      "url": "https://m.qcc.com/postnews/8e0689fb21e2f3845c150d92b3752962.html",
       "tags": [
-        "投资/并购"
+        "出口管制",
+        "政策"
       ],
-      "insights": [],
-      "actions": [],
+      "insights": [
+        "待深入分析"
+      ],
+      "actions": [
+        "关注后续发展"
+      ],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "起底存储芯片“闪电并购”：业绩狂飙背后，客户、供应链、研发疑点重重",
-      "summary": "前言：从传统生态园林工程赛道，跨界切入半导体存储高科技领域，诚邦股份的这场转型，自落地之初便引发市场广泛关注。公司连续多年业绩亏损、负债规模高企、应收账款坏账...",
+      "title": "玻璃基板产业化加速：台积电搭建CoPoS封装试点产线",
+      "summary": "台积电发布超预期业绩，董事长魏哲家透露正在搭建CoPoS封装试点产线，AI算力需求持续推动封装技术迭代。",
       "source": "Serper",
-      "published": "18小时前",
-      "url": "https://m.10jqka.com.cn/20260415/c676014390.shtml",
-      "tags": [
-        "设计公司",
-        "投资/并购",
-        "存储"
-      ],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "日联科技拟购上海菲莱控制权，标的曾曲线上市未果",
-      "summary": "来源：北京商报）. 前次被纳尔股份收购折戟仅三个月，上海菲莱测试技术有限公司（以下简称“上海菲莱”）迅速觅得了新买家。4月14日晚间，A股百亿龙头企业日联科技（688531）披露...",
-      "source": "Serper",
-      "published": "16小时前",
-      "url": "https://finance.sina.com.cn/jjxw/2026-04-15/doc-inhuqwsw3356329.shtml",
-      "tags": [
-        "投资/并购"
-      ],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "半导体IP第一股，狂揽60亿订单！",
-      "summary": "设想一个场景。 现在你是一名芯片设计工程师，要设计一款应用于可穿戴设备上的产品，初步确定好芯片的规格、能耗、功能和架构设计后。 下一步该怎么做呢？",
-      "source": "Serper",
-      "published": "18小时前",
-      "url": "https://caifuhao.eastmoney.com/news/20260415190511663917450",
-      "tags": [
-        "设计公司",
-        "EDA/IP"
-      ],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "联讯仪器申购：国产测试设备龙头的“硬科技”突围与估值博弈",
-      "summary": "在全球电子测量仪器市场规模预计2029年达183.8亿美元的背景下，这家以光通信测试为核心、半导体测试为增长极的企业，能否凭借技术壁垒和客户优势，在估值与风险的天平上...",
-      "source": "Serper",
-      "published": "13小时前",
-      "url": "https://m.sohu.com/a/1010074504_121361416?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+      "published": "2026-04-16",
+      "url": "https://www.cls.cn/detail/2346234",
       "tags": [
         "Fab/制造",
-        "投资/并购"
+        "先进封装"
       ],
-      "insights": [],
-      "actions": [],
+      "insights": [
+        "待深入分析"
+      ],
+      "actions": [
+        "关注后续发展"
+      ],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "韬盛科技冲刺科创板，同行索赔或成“拦路虎”？",
-      "summary": "发力探针卡业务。 《投资者网》张伟日前，上海韬盛电子科技股份有限公司（下称“韬盛科.",
+      "title": "马斯克准备高价「光速」抢购半导体设备，启动Terafab晶圆厂大计",
+      "summary": "彭博报道，马斯克团队已接洽应用材料、东京威力科创、科林研发等芯片设备供应商，准备大胆投入建设Terafab晶圆厂。",
       "source": "Serper",
-      "published": "3小时前",
-      "url": "https://mp.ofweek.com/ee/a356714852637",
+      "published": "2026-04-16",
+      "url": "https://www.worldjournal.com/wj/story/121208/9445616",
       "tags": [
-        "EDA/IP",
-        "投资/并购"
+        "Fab/制造",
+        "设备/材料"
       ],
-      "insights": [],
-      "actions": [],
+      "insights": [
+        "待深入分析"
+      ],
+      "actions": [
+        "关注后续发展"
+      ],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "[年报]概伦电子(688206):2025年年度报告摘要",
-      "summary": "[年报]概伦电子(688206):2025年年度报告摘要.",
+      "title": "佰维存储迎「超级周期」，AI多场景布局带动业绩暴涨",
+      "summary": "AI浪潮席卷半导体行业，存储市场迎来新一轮爆发，佰维存储多场景布局业绩大涨。",
       "source": "Serper",
-      "published": "4小时前",
-      "url": "https://www.cfi.net.cn/p20260416000137.html",
+      "published": "2026-04-16",
+      "url": "https://www.jiemian.com/article/14259852.html",
       "tags": [
-        "EDA/IP"
-      ],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "纳芯微(688052):光大证券股份有限公司关于苏州纳芯微电子股份有限公司2025年度持续督导跟踪报告",
-      "summary": "纳芯微(688052):光大证券股份有限公司关于苏州纳芯微电子股份有限公司2025年度持续督导跟踪报告.",
-      "source": "Serper",
-      "published": "45分钟前",
-      "url": "https://www.cfi.net.cn/p20260416001329.html",
-      "tags": [
+        "存储",
         "设计公司"
       ],
-      "insights": [],
-      "actions": [],
+      "insights": [
+        "待深入分析"
+      ],
+      "actions": [
+        "关注后续发展"
+      ],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "VFabTech Launches to Expand Semiconductor Capacity for AI and Manufacturing - San Francisco Today",
-      "summary": "VFabTech, a new semiconductor engineering and consulting company, has launched to help semiconductor manufacturers expand their manufacturing capacity to meet growing demand driven by AI, robotics, an",
-      "source": "Brave",
-      "published": "4 days ago",
-      "url": "https://nationaltoday.com/us/ca/san-francisco/news/2026/04/11/vfabtech-launches-to-help-expand-semiconductor-capacity/",
+      "title": "本土创新+全球引领，奥芯明全栈式方案定义先进封装新范式",
+      "summary": "半导体产业从制程微缩向系统级集成深度转型，先进封装成为承载AI算力、高速互联、智能驾驶的核心底座。",
+      "source": "Serper",
+      "published": "2026-04-16",
+      "url": "https://www.51cto.com/article/840885.html",
       "tags": [
-        "产业动态"
+        "Fab/制造",
+        "先进封装"
       ],
-      "insights": [],
-      "actions": [],
+      "insights": [
+        "待深入分析"
+      ],
+      "actions": [
+        "关注后续发展"
+      ],
       "glossary": [],
-      "region": "overseas"
+      "region": "domestic"
     },
     {
-      "title": "TeraFab建设进展：特斯拉-SpaceX-xAI芯片设施首度曝光",
-      "summary": "Tesla与SpaceX及xAI联合建设的TeraFab芯片制造设施正在推进，这是马斯克垂直整合战略的重要一步，将部分自研芯片生产纳入内部体系。",
-      "source": "Brave/Tom's Hardware",
+      "title": "北极雄芯完成超亿元融资，探索基于芯粒的专用计算",
+      "summary": "北极雄芯通过Chiplet架构将下游场景芯片需求中的通用和专用部分解耦，豪创芯、讯飞创投、中芯熙诚等参与投资。",
+      "source": "Brave",
       "published": "2026-04-16",
-      "url": "https://tomshardware.com/tech-industry/semiconductors/analyzing-elon-musks-terafab-a-step-towards-tesla-and-spacs-partial-vertical-integration",
+      "url": "https://www.36kr.com/p/2396399940853122",
       "tags": [
-        "Fab/制造"
+        "Fab/制造",
+        "先进封装"
       ],
-      "insights": [],
-      "actions": [],
+      "insights": [
+        "待深入分析"
+      ],
+      "actions": [
+        "关注后续发展"
+      ],
       "glossary": [],
-      "region": "overseas"
+      "region": "domestic"
+    },
+    {
+      "title": "「AI光芯片第一股」曦智科技冲刺上市，投资人已豪赚40倍",
+      "summary": "曦智科技A轮获中科创星3680万元投资，对应上市前2.83%股份，光芯片赛道引来资本热捧。",
+      "source": "Brave",
+      "published": "2026-04-16",
+      "url": "https://www.36kr.com/p/3767856931553801",
+      "tags": [
+        "EDA/IP",
+        "设计公司"
+      ],
+      "insights": [
+        "待深入分析"
+      ],
+      "actions": [
+        "关注后续发展"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "国产DRAM第一股！长鑫存储冲刺科创板，估值1500亿元",
+      "summary": "长鑫科技2024年完成108亿元增资后估值约1500亿元，预计登陆科创板后市值有望向3000亿元迈进，成为半导体板块重要标杆。",
+      "source": "Brave",
+      "published": "2026-04-16",
+      "url": "https://www.esmchina.com/news/13796.html",
+      "tags": [
+        "存储",
+        "设计公司"
+      ],
+      "insights": [
+        "待深入分析"
+      ],
+      "actions": [
+        "关注后续发展"
+      ],
+      "glossary": [],
+      "region": "domestic"
     }
   ]
 }
