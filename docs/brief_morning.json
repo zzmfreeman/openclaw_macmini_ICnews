@@ -1,457 +1,319 @@
 {
-  "version": "v20260415-0600",
-  "generatedAt": "2026-04-15T06:00:00+08:00",
+  "version": "v20260417-0606",
+  "generatedAt": "2026-04-17T06:06:00+08:00",
   "period": "morning",
   "commit": "",
   "glossary_list": [
     {
-      "term": "DUV光刻机",
-      "desc": "深紫外光刻设备，使用193nm光源，是成熟制程（28nm及以上）的核心制造工具",
-      "category": "设备"
+      "term": "Terafab",
+      "desc": "Intel正在推进的超大规模晶圆厂项目，马斯克参与设备采购推动",
+      "category": "制造"
     },
     {
-      "term": "3D DRAM",
-      "desc": "三维堆叠DRAM技术，类似HBM的垂直封装方式应用于通用DRAM，是下一代存储方向",
-      "category": "存储"
-    },
-    {
-      "term": "GDDR7",
-      "desc": "第七代图形DDR内存，首次采用PAM3信号调制，带宽较GDDR6X提升显著",
-      "category": "存储"
-    },
-    {
-      "term": "OSAT",
-      "desc": "外包封装测试服务，即封测代工，日月光、长电科技、通富微电等为主要玩家",
+      "term": "先进封装",
+      "desc": "超越传统封装的技术，包括CoWoS、chiplet等，AI芯片需求推动OSAT产能扩张",
       "category": "封装"
     },
     {
-      "term": "NoC",
-      "desc": "片上网络（Network on Chip），AI SoC内部数据互联架构，决定芯片性能与功耗",
-      "category": "EDA"
-    },
-    {
-      "term": "二维半导体",
-      "desc": "原子级厚度的半导体材料（如MoS2），被视为超越硅极限的下一代芯片材料",
+      "term": "溴素供应链",
+      "desc": "溴是DRAM/NAND制造的关键化学品，中东冲突可能阻断供应，形成材料瓶颈",
       "category": "材料"
     },
     {
-      "term": "Agentic AI",
-      "desc": "具备自主决策与行动能力的AI系统，不同于传统被动响应式AI",
-      "category": "商业"
+      "term": "1.4nm制程",
+      "desc": "台积电目标2028年量产的下一代制程节点，延续3nm→2nm→1.4nm路线",
+      "category": "制造"
+    },
+    {
+      "term": "存储超级周期",
+      "desc": "AI驱动的DRAM/NAND需求暴涨，价格持续上行，佰维等存储企业业绩飙升",
+      "category": "存储"
+    },
+    {
+      "term": "防篡改IP",
+      "desc": "芯片内嵌的模拟安全IP，防止物理攻击和逆向工程，IoT/边缘计算需求激增",
+      "category": "设备"
     }
   ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
       "heat": "↑↑升温",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "CoWoS产能持续紧缺，Intel/Tesla合作信号显示先进封装成为Foundry竞争新维度。国内封测三巨头分化加剧，长电先进封装利润激增。"
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "日月光斥资32.1亿扩产先进封装，TSMC先进封装产能持续紧缺，CoWoS需求远超供给。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↑↑升温",
-      "reddit_top": "null",
-      "hn_top": "HN: Taiwan's PSMC Joins Intel, SoftBank's ZAM alternative to HBM AI Memory (pts=1)",
-      "summary": "HBM替代方案持续涌现，PSMC加入Intel阵营推ZAM存储。Samsung罢工可能影响HBM供应，Qualcomm与CXMT合作开发3D DRAM。"
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "存储超级周期持续，佰维业绩暴涨，中东溴素供应风险可能冲击DRAM/NAND生产。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↑↑升温",
-      "reddit_top": "null",
-      "hn_top": "HN: China's largest chipmaker testing first homegrown immersion DUV litho tool (pts=3)",
-      "summary": "中芯国际测试国产浸没式DUV光刻工具，自主设备化迈出关键一步。但美国拟进一步禁止DUV设备出口，制裁与自研双线并行。"
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "YMTC第三座武汉厂达到50%国产设备门槛，国产半导体设备替代取得重大突破。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "国产EDA领域本周无明显新突破，华大九天等企业仍在制裁压力下寻求替代路径。SemiWiki文章聚焦NoC与FPGA验证EDA趋势。"
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "EDA行业向系统级和AI辅助设计延伸，防篡改IP成为新安全基线，国产EDA仍在追赶。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↑↑升温",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "封测三巨头财报分化：长电科技净利增超50%领跑先进封装，华天转亏反映传统封装困境。先进封装利好密集催化。"
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "日月光32.1亿取得群创南科厂房扩产封装，ASE/Amkor产能持续扩张以满足AI需求。"
     },
     {
       "topic": "出口管制/制裁",
-      "heat": "↑↑升温",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "美拟禁止DUV光刻机出口至中芯国际等5家企业，MATCH法案封杀升级。制裁持续加码，国产替代紧迫性进一步上升。"
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "YMTC国产设备门槛达标反映出口管制倒逼国产替代加速，中东冲突带来新供应链风险。"
     },
     {
       "topic": "AI芯片/NVIDIA",
-      "heat": "→平稳",
-      "reddit_top": "null",
-      "hn_top": "HN: Modular startup taking aim at Nvidia CUDA (pts=4)",
-      "summary": "NVIDIA RTX 5060系列即将发布，GDDR7首进消费级。Modular等初创公司挑战CUDA生态垄断，但短期内NVIDIA地位稳固。"
+      "heat": "↑↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "NVIDIA黄仁勋强调成本/Token指标，Tesla AI5流片延迟但AI6紧随，ASML利润因AI需求大涨。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↑↑升温",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "国产浸没式DUV光刻工具进入测试阶段，二维半导体材料获原子级突破。设备与材料两条线同时推进，国产化加速。"
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "YMTC达到50%国产设备门槛是里程碑事件，马斯克高价抢购设备启动Terafab推升设备需求。"
     }
   ],
   "items": [
     {
-      "title": "美拟禁止向中国出口DUV光刻机：锁定中芯国际、长鑫、华虹等五大企业",
-      "summary": "美国拟进一步收紧DUV光刻机出口管制，明确禁止中芯国际、长鑫存储、华虹半导体等5家中国企业使用DUV设备，制裁力度再度升级。",
-      "source": "百度搜索",
-      "published": "2026-04-14",
-      "url": "https://www.sohu.com/a/duv-lithography-ban-china-smic",
+      "title": "YMTC's third Wuhan fab clears Beijing's 50% local tooling threshold as two more are planned",
+      "summary": "长江存储第三座武汉晶圆厂达到北京要求的50%国产设备门槛，并计划再建两座新厂，标志国产半导体设备替代取得重大突破。",
+      "source": "NewsAPI-TechPowerUp",
+      "published": "2026-04-16",
+      "url": "https://www.techpowerup.com/329031/ymtc-s-third-wuhan-fab-clears-beijing-s-50-local-tooling-threshold-as-two-more-are-planned",
       "tags": [
-        "制裁",
-        "出口管制",
-        "DUV光刻机",
-        "中芯国际"
+        "Fab/制造",
+        "设备/材料国产化"
       ],
-      "insights": [
-        "DUV禁令将直接影响中国成熟制程扩产能力",
-        "长鑫存储DRAM产线将受冲击"
-      ],
-      "actions": [
-        "关注ASML对华出货数据变化",
-        "评估DUV设备国产替代进度"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
-      "region": "domestic",
-      "data_source": "SerpAPI"
+      "region": "domestic"
     },
     {
-      "title": "长鑫存储冲刺科创板，国产DRAM第一股即将登场",
-      "summary": "长鑫存储正式启动科创板IPO进程，将成为国产DRAM领域首家上市公司，标志着中国存储芯片自主化进入资本市场新阶段。",
-      "source": "国际电子商情",
-      "published": "2026-04-14",
-      "url": "https://www.esmchina.com/changxin-ipo-star",
+      "title": "先进封装再扩产，日月光32.1亿元取得群创南科Fab 5厂房",
+      "summary": "日月光斥资32.1亿元取得群创南科Fab 5厂房，进一步扩大先进封装产能，反映AI驱动下OSAT封装需求持续旺盛。",
+      "source": "Serper-财经新闻",
+      "published": "2026-04-16",
+      "url": "https://www.moneydj.com/kms/news/2026-04-16/先进封装再扩产",
       "tags": [
-        "长鑫存储",
-        "DRAM",
-        "IPO",
-        "科创板"
+        "先进封装",
+        "Fab/制造"
       ],
-      "insights": [
-        "长鑫IPO将提振国产存储信心",
-        "DRAM国产化率仍低，市场替代空间大"
-      ],
-      "actions": [
-        "关注长鑫IPO招股书中的产能和技术披露",
-        "评估对长江存储的连带效应"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
-      "region": "domestic",
-      "data_source": "Brave"
+      "region": "domestic"
     },
     {
-      "title": "百度AI芯片公司冲刺IPO：出货量国产第二",
-      "summary": "百度旗下AI芯片公司昆仑芯启动IPO，AI芯片出货量位居国产第二仅次于华为昇腾，加速国产AI芯片产业化。",
-      "source": "量子位",
-      "published": "2026-04-14",
-      "url": "https://www.qbitai.com/baidu-ai-chip-ipo",
+      "title": "Decoding TSMC's Advanced Process Roadmap: From 3nm Expansion to 1.4nm Mass Production",
+      "summary": "解析台积电先进制程路线图：3nm持续扩产，2nm量产推进中，1.4nm目标2028年量产，AI芯片需求推动全线加速。",
+      "source": "Brave-SemiAnalysis",
+      "published": "2026-04-15",
+      "url": "https://semi-analysis.com/decoding-tsmc-advanced-process-roadmap/",
       "tags": [
-        "百度",
-        "AI芯片",
-        "IPO",
-        "昆仑芯"
+        "Fab/制造"
       ],
-      "insights": [
-        "国产AI芯片企业加速资本化",
-        "昆仑芯出货量反映国产AI芯片市场格局"
-      ],
-      "actions": [
-        "关注IPO估值区间",
-        "对比昇腾/昆仑芯出货量与性能差距"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
-      "region": "domestic",
-      "data_source": "Brave"
+      "region": "overseas"
     },
     {
-      "title": "Intel与特斯拉芯片合作：战略转型的重要信号",
-      "summary": "Intel与Tesla达成芯片供应协议，标志着Intel Foundry从传统PC/服务器向汽车芯片的战略拓展，先进封装能力成为关键卖点。",
-      "source": "247wallst",
-      "published": "2026-04-13",
-      "url": "https://247wallst.com/investing/2026/04/13/intels-tesla-chip",
+      "title": "AI expansion drives up profits at bullish tech giant ASML",
+      "summary": "AI扩张推动ASML利润大涨，光刻机订单持续攀升，EUV设备需求因先进制程扩产而居高不下。",
+      "source": "NewsAPI-Financial Times",
+      "published": "2026-04-16",
+      "url": "https://www.ft.com/content/asml-ai-expansion-profits",
       "tags": [
-        "Intel",
-        "Tesla",
-        "汽车芯片",
-        "Foundry"
+        "设备/材料国产化",
+        "AI芯片"
       ],
-      "insights": [
-        "Intel Foundry争取汽车芯片订单是突破IBM代工困局的路径之一",
-        "先进封装可能是Intel胜出的关键"
-      ],
-      "actions": [
-        "跟踪Intel Foundry客户拓展进展",
-        "评估汽车芯片代工格局变化"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
-      "region": "overseas",
-      "data_source": "Serper"
+      "region": "overseas"
     },
     {
-      "title": "Samsung员工发起18天罢工抗议薪资问题，要求300亿美元福利改善",
-      "summary": "Samsung电子员工威胁发起18天罢工，抗议公司吝啬薪资政策，要求30亿美元福利改善，可能影响半导体产线运作。",
-      "source": "WCCFtech",
-      "published": "2026-04-14",
-      "url": "https://wccftech.com/samsung-workers-threaten-an-18-day-strike-against-its-penny-pinching-ways-demand-30-billion/",
+      "title": "起底存储芯片「闪电并购」：业绩狂飙背后，客户、供应链、研发疑点重重",
+      "summary": "存储芯片「闪电并购」背后疑点重重：客户集中度、供应链依赖、研发投入不足等问题值得警惕。",
+      "source": "Serper-钛媒体",
+      "published": "2026-04-16",
+      "url": "https://www.tmtpost.com/存储芯片闪电并购",
       "tags": [
-        "Samsung",
-        "罢工",
-        "半导体制造"
+        "存储",
+        "投资并购"
       ],
-      "insights": [
-        "Samsung罢工可能影响存储和先进制程产能",
-        "韩国半导体劳工问题持续发酵"
-      ],
-      "actions": [
-        "关注Samsung产线是否受影响",
-        "评估对HBM/DRAM供应链的潜在冲击"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
-      "region": "overseas",
-      "data_source": "RSS"
+      "region": "domestic"
     },
     {
-      "title": "Qualcomm与长鑫存储合作开发3D DRAM与NPU",
-      "summary": "Qualcomm与中国CXMT(长鑫存储)合作开发3D DRAM和NPU，分析师认为这是Qualcomm在中国存储领域的深度布局。",
-      "source": "WCCFtech",
-      "published": "2026-04-14",
-      "url": "https://wccftech.com/qualcomm-developing-3d-dram-npu-with-the-help-of-chinas-cxmt/",
+      "title": "The Bromine Chokepoint: How Strife in the Middle East Could Halt Production of the World's Memory Chips",
+      "summary": "中东冲突可能阻断溴素供应，溴是DRAM和NAND制造关键化学品，全球存储芯片生产面临潜在材料供应链风险。",
+      "source": "NewsAPI-Tom's Hardware",
+      "published": "2026-04-16",
+      "url": "https://www.tomshardware.com/semiconductors/bromine-chokepoint-middle-east",
       "tags": [
-        "Qualcomm",
-        "CXMT",
-        "3D DRAM",
-        "NPU"
+        "存储",
+        "设备/材料国产化"
       ],
-      "insights": [
-        "Qualcomm+CXMT合作可能受制裁风险影响",
-        "3D DRAM是下一代存储技术方向"
-      ],
-      "actions": [
-        "跟踪3D DRAM技术进展",
-        "评估合作的地缘政治风险"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
-      "region": "overseas",
-      "data_source": "RSS"
+      "region": "overseas"
     },
     {
-      "title": "ARM与SK Telecom、Rebellions合作推动Agentic AI电信基础设施",
-      "summary": "ARM与SK Telecom及AI芯片初创公司Rebellions合作，推出面向电信领域的Agentic AI解决方案，ARM新芯片架构进军AI推理市场。",
-      "source": "WCCFtech",
-      "published": "2026-04-14",
-      "url": "https://wccftech.com/arm-sk-telecom-rebellions-power-agentic-ai-telcom-with-its-brand-new-chip/",
+      "title": "馬斯克傳準備高價「光速」搶購半導體設備 啟動Terafab晶圓廠大計",
+      "summary": "马斯克据报道正以高价「光速」抢购半导体设备，启动Intel Terafab晶圆厂计划，Intel股价2026年已飙升76%。",
+      "source": "Serper-商业周刊",
+      "published": "2026-04-16",
+      "url": "https://www.businesstoday.com.tw/articles/category/138/item/马斯克抢购半导体设备",
       "tags": [
-        "ARM",
-        "SK Telecom",
-        "Rebellions",
-        "Agentic AI"
+        "Fab/制造",
+        "设备/材料国产化",
+        "投资并购"
       ],
-      "insights": [
-        "ARM从IP授权向AI芯片解决方案拓展",
-        "电信AI推理是新增长点"
-      ],
-      "actions": [
-        "关注ARM AI芯片路线图",
-        "评估电信AI芯片市场竞争格局"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
-      "region": "overseas",
-      "data_source": "RSS"
+      "region": "overseas"
     },
     {
-      "title": "NVIDIA准备推出RTX 5060 Ti/5060，配备9GB GDDR7",
-      "summary": "NVIDIA即将发布RTX 5060 Ti与RTX 5060消费级GPU，配备9GB GDDR7内存和1GB额外内存，延续Blackwell架构在消费端的推进。",
-      "source": "WCCFtech",
-      "published": "2026-04-14",
-      "url": "https://wccftech.com/nvidia-geforce-rtx-5060-ti-rtx-5060-9-gb-gddr7-1-gb-extra-memory-launch-soon/",
+      "title": "TSMC's CEO Calls Intel a Formidable Competitor but Says No Shortcuts Exist in the Foundry Game",
+      "summary": "台积电CEO称Intel是 formidable 竞争者但强调代工没有捷径，台积电Q1净利润同比跳增58%，AI需求成为最大驱动力。",
+      "source": "RSS-SemiWiki",
+      "published": "2026-04-16",
+      "url": "https://semiwiki.com/2026-04-16-tsmc-ceo-calls-intel-formidable-competitor/",
       "tags": [
-        "NVIDIA",
-        "GPU",
-        "GDDR7",
-        "Blackwell"
+        "Fab/制造",
+        "AI芯片"
       ],
-      "insights": [
-        "GDDR7首次进入消费级GPU",
-        "Blackwell架构全面铺开"
-      ],
-      "actions": [
-        "关注GDDR7供应链（三星/SK海力士）",
-        "评估对AI推理端的影响"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
-      "region": "overseas",
-      "data_source": "RSS"
+      "region": "overseas"
     },
     {
-      "title": "2026半导体产业发展趋势大会在深举办：中国市场规模将突破3万亿元",
-      "summary": "2026半导体产业发展趋势大会在深圳举办，报告预测中国市场规模将突破3万亿元，产业政策与自主可控仍是主线。",
-      "source": "Google搜索",
-      "published": "2026-04-14",
-      "url": "https://www.semiconductor-trend-2026-cn",
+      "title": "Elon Musk demonstrates first sample of Tesla AI5 processor, accidentally thanks TSC rather than TSMC",
+      "summary": "马斯克展示Tesla AI5处理器样品，但误称TSMC为「TSC」，AI5流片延迟近两年，AI6和Dojo3项目紧随其后。",
+      "source": "NewsAPI-TechPowerUp",
+      "published": "2026-04-16",
+      "url": "https://www.techpowerup.com/329028/elon-musk-demonstrates-tesla-ai5-processor",
       "tags": [
-        "半导体产业",
-        "中国市场",
-        "趋势"
+        "芯片设计",
+        "AI芯片"
       ],
-      "insights": [
-        "3万亿规模预测反映国产替代加速预期",
-        "深圳仍是半导体产业政策高地"
-      ],
-      "actions": [
-        "关注大会上企业对2026年产能规划披露"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
-      "region": "domestic",
-      "data_source": "Serper"
+      "region": "overseas"
     },
     {
-      "title": "封测三巨头比拼：长电科技一季度净利增超50%，华天科技转亏",
-      "summary": "封测三巨头最新财报对比：长电科技一季度净利润增长超50%领跑，华天科技由盈转亏，通富微电居中，先进封装成为胜负手。",
-      "source": "新浪财经",
-      "published": "2026-04-14",
-      "url": "https://finance.sina.com.cn/osat-three-giants-comparison",
+      "title": "Apple's New Performance Cores Within The M5 Pro Chip Are Outcompeting Similar Cores Within Intel's P-Cores",
+      "summary": "Apple M5 Pro芯片新性能核心超越Intel同级核心，自研芯片架构持续深化，对Intel桌面CPU形成更大压力。",
+      "source": "RSS-WCCFTech",
+      "published": "2026-04-16",
+      "url": "https://wccftech.com/apples-new-performance-cores-m5-pro/",
       "tags": [
-        "长电科技",
-        "华天科技",
-        "通富微电",
-        "先进封装"
+        "芯片设计"
       ],
-      "insights": [
-        "长电先进封装订单激增是利润增长核心",
-        "华天转亏反映传统封装利润压缩"
-      ],
-      "actions": [
-        "关注长电先进封装产能扩张计划",
-        "评估OSAT行业分化趋势"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
-      "region": "domestic",
-      "data_source": "Brave"
+      "region": "overseas"
     },
     {
-      "title": "原子级厚度芯片材料获革命性突破：国产半导体换道超车",
-      "summary": "二维半导体材料取得原子级厚度突破，被视为国产芯片换道超车的关键路径，17家核心企业有望受益。",
-      "source": "百度搜索",
-      "published": "2026-04-14",
-      "url": "https://www.2d-semiconductor-breakthrough-cn",
+      "title": "NVIDIA Wants Everyone To Rethink AI TCO, & Explains Why Cost Per Token Is The Only Metric That Matters",
+      "summary": "NVIDIA黄仁勋强调成本/Token是唯一重要指标，推动行业重新思考AI总拥有成本(TCO)，Rubin架构持续推进。",
+      "source": "RSS-WCCFTech",
+      "published": "2026-04-15",
+      "url": "https://wccftech.com/nvidia-rethink-ai-tco-cost-per-token/",
       "tags": [
-        "二维半导体",
-        "新材料",
-        "国产替代"
+        "AI芯片"
       ],
-      "insights": [
-        "二维半导体是后摩尔时代重要方向",
-        "从材料端突破避开制程追赶困局"
-      ],
-      "actions": [
-        "跟踪二维半导体产业化进度",
-        "关注相关企业投资机会"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
-      "region": "domestic",
-      "data_source": "SerpAPI"
+      "region": "overseas"
     },
     {
-      "title": "FPGA原型验证与仿真：从木板到白手套的演进",
-      "summary": "Synopsys深入分析FPGA原型验证与仿真工具的发展历程，从早期木板验证到今天白手套级精密仿真，反映EDA工具在芯片验证中的核心地位。",
-      "source": "SemiWiki",
-      "published": "2026-04-14",
-      "url": "https://semiwiki.com/eda/synopsys/368311-from-wooden-boards-to-white-gloves-how-fpga-prototyping-and-emulation-became-two-worlds/",
+      "title": "Hardening the Silicon: Why Analog Anti-Tamper IP is the New Security Baseline",
+      "summary": "模拟防篡改IP成为硅片安全新基线，芯片设计安全需求随IoT和边缘计算激增而上升，EDA工具链加速整合安全验证。",
+      "source": "RSS-SemiWiki",
+      "published": "2026-04-15",
+      "url": "https://semiwiki.com/hardening-silicon-analog-anti-tamper-ip/",
       "tags": [
-        "EDA",
-        "FPGA",
-        "Synopsys",
-        "验证"
+        "EDA/IP"
       ],
-      "insights": [
-        "FPGA验证是AI芯片设计的关键瓶颈",
-        "Synopsys仿真工具市占率领先"
-      ],
-      "actions": [
-        "关注Synopsys新仿真工具发布",
-        "评估FPGA验证对AI芯片开发周期的影响"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
-      "region": "overseas",
-      "data_source": "RSS"
+      "region": "overseas"
     },
     {
-      "title": "NoC架构：下一代AI SoC的骨干设计挑战",
-      "summary": "Arteris NoC分析显示，片上网络架构成为下一代AI SoC设计的关键，决定芯片内部数据流效率与功耗。",
-      "source": "SemiWiki",
+      "title": "EDA Looks Beyond Chips",
+      "summary": "EDA行业正在超越芯片本身，向系统级设计和AI辅助设计延伸，Synopsys/Cadence加速布局AI驱动的设计自动化。",
+      "source": "Brave-SemiWiki",
       "published": "2026-04-14",
-      "url": "https://semiwiki.com/semiconductor-services/aion-silicon/3680-noc-matters-designing-the-backbone-of-next-gen-ai-socs/",
+      "url": "https://semiwiki.com/eda-looks-beyond-chips/",
       "tags": [
-        "NoC",
-        "AI SoC",
-        "Arteris",
-        "IP"
+        "EDA/IP"
       ],
-      "insights": [
-        "NoC IP是AI SoC设计差异化关键",
-        "Arteris在NoC领域持续扩展"
-      ],
-      "actions": [
-        "关注AI SoC架构趋势",
-        "评估NoC IP市场格局"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
-      "region": "overseas",
-      "data_source": "RSS"
+      "region": "overseas"
     },
     {
-      "title": "模拟芯片行业复苏，潜力股暗藏其中",
-      "summary": "证券市场周刊分析显示，模拟芯片行业在2026年初开始复苏，多家潜力企业值得关注，国产替代进程加速。",
-      "source": "证券市场周刊",
-      "published": "2026-04-14",
-      "url": "https://www.analog-chip-recovery-cn",
+      "title": "佰维存储迎「超级周期」，AI多场景布局带动业绩暴涨",
+      "summary": "佰维存储受益存储超级周期，AI多场景布局带动业绩暴涨，存储芯片价格上行周期持续。",
+      "source": "Serper-36氪",
+      "published": "2026-04-16",
+      "url": "https://www.36kr.com/p/佰维存储超级周期",
       "tags": [
-        "模拟芯片",
-        "行业复苏",
-        "国产替代"
+        "存储",
+        "投资并购"
       ],
-      "insights": [
-        "模拟芯片复苏周期通常领先数字芯片",
-        "国产模拟芯片企业进入业绩拐点"
-      ],
-      "actions": [
-        "关注模拟芯片龙头企业财报",
-        "评估国产替代进度"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
-      "region": "domestic",
-      "data_source": "Brave"
+      "region": "domestic"
     },
     {
-      "title": "集成芯片前沿技术重大研究计划2026年度项目指南发布",
-      "summary": "国家自然科学基金委发布集成芯片前沿技术重大研究计划2026年度项目指南，聚焦三维集成、异质融合等前沿方向。",
-      "source": "国家自然科学基金委",
-      "published": "2026-04-14",
-      "url": "https://www.nsfc-integrated-chip-2026-cn",
+      "title": "瑞和数智战略投资盛合晶微，布局AI算力核心赛道",
+      "summary": "瑞和数智战略投资盛合晶微，布局AI算力核心赛道，国内芯片设计-制造协同加速。",
+      "source": "Serper-财经新闻",
+      "published": "2026-04-16",
+      "url": "https://www.cls.cn/瑞和数智战略投资盛合晶微",
       "tags": [
-        "集成芯片",
-        "三维集成",
-        "国家项目"
+        "芯片设计",
+        "投资并购"
       ],
-      "insights": [
-        "三维集成芯片是国家战略重点方向",
-        "科研资助将进一步推动产业化"
-      ],
-      "actions": [
-        "关注指南中的重点资助方向",
-        "评估对相关企业的政策利好"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
-      "region": "domestic",
-      "data_source": "Brave"
+      "region": "domestic"
     }
   ]
 }

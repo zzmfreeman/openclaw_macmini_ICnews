@@ -1,33 +1,38 @@
 {
-  "version": "v20260416-2000",
-  "generatedAt": "2026-04-16T20:05:14+08:00",
-  "period": "evening",
+  "version": "v20260417-0606",
+  "generatedAt": "2026-04-17T06:06:00+08:00",
+  "period": "morning",
   "commit": "",
   "glossary_list": [
     {
-      "term": "CoPoS",
-      "desc": "Chip on Panel Substrate，台积电新型先进封装技术，将芯片直接贴装在面板级基板上，大幅提升封装密度与成本效率",
-      "category": "封装"
-    },
-    {
-      "term": "MATCH法案",
-      "desc": "美国《硬件技术多边协调管制法案》，拟将15家中国半导体企业列入管制清单，实施全面出口限制",
-      "category": "商业"
-    },
-    {
       "term": "Terafab",
-      "desc": "马斯克计划建设的大型晶圆厂项目，旨在为xAI和特斯拉等业务自研芯片提供制造能力",
-      "category": "设备"
+      "desc": "Intel正在推进的超大规模晶圆厂项目，马斯克参与设备采购推动",
+      "category": "制造"
     },
     {
-      "term": "Chiplet芯粒",
-      "desc": "将大芯片拆分为多个小芯粒再集成的设计架构，降低制造成本、提升良率与灵活性",
+      "term": "先进封装",
+      "desc": "超越传统封装的技术，包括CoWoS、chiplet等，AI芯片需求推动OSAT产能扩张",
       "category": "封装"
     },
     {
-      "term": "光芯片",
-      "desc": "利用光信号代替电信号进行数据传输和计算的芯片，具备低功耗、高带宽优势，曦智科技为国内代表企业",
-      "category": "设计"
+      "term": "溴素供应链",
+      "desc": "溴是DRAM/NAND制造的关键化学品，中东冲突可能阻断供应，形成材料瓶颈",
+      "category": "材料"
+    },
+    {
+      "term": "1.4nm制程",
+      "desc": "台积电目标2028年量产的下一代制程节点，延续3nm→2nm→1.4nm路线",
+      "category": "制造"
+    },
+    {
+      "term": "存储超级周期",
+      "desc": "AI驱动的DRAM/NAND需求暴涨，价格持续上行，佰维等存储企业业绩飙升",
+      "category": "存储"
+    },
+    {
+      "term": "防篡改IP",
+      "desc": "芯片内嵌的模拟安全IP，防止物理攻击和逆向工程，IoT/边缘计算需求激增",
+      "category": "设备"
     }
   ],
   "topic_pulse": [
@@ -36,208 +41,277 @@
       "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "台积电CoPoS试点产线消息引爆封装赛道讨论，玻璃基板产业化加速，先进封装成为AI算力核心底座。"
+      "summary": "日月光斥资32.1亿扩产先进封装，TSMC先进封装产能持续紧缺，CoWoS需求远超供给。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "佰维存储业绩暴涨印证存储超级周期，三星HBM4逻辑芯片涨价40-50%，AI存储需求持续推升。"
+      "summary": "存储超级周期持续，佰维业绩暴涨，中东溴素供应风险可能冲击DRAM/NAND生产。"
     },
     {
       "topic": "中国Fab/先进制程",
-      "heat": "→平稳",
+      "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中芯国际Q1营收同比增长28.4%，产能利用率89.6%，基本面稳健但先进制程进展仍受关注。"
+      "summary": "YMTC第三座武汉厂达到50%国产设备门槛，国产半导体设备替代取得重大突破。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "本周未见重大EDA/IP突破消息，行业整体平稳。"
+      "summary": "EDA行业向系统级和AI辅助设计延伸，防篡改IP成为新安全基线，国产EDA仍在追赶。"
     },
     {
       "topic": "封测OSAT",
-      "heat": "↑升温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "奥芯明全栈式方案定义先进封装新范式，封测环节在AI算力需求下持续升级。"
-    },
-    {
-      "topic": "出口管制/制裁",
       "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "MATCH法案拟将中芯国际、华虹、长鑫等15家中国半导体企业纳入管制清单，制裁压力再度升级。"
+      "summary": "日月光32.1亿取得群创南科厂房扩产封装，ASE/Amkor产能持续扩张以满足AI需求。"
     },
     {
-      "topic": "AI芯片/NVIDIA",
+      "topic": "出口管制/制裁",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "马斯克高调布局自研芯片与晶圆厂，台积电业绩超预期但未见NVIDIA重大新动态。"
+      "summary": "YMTC国产设备门槛达标反映出口管制倒逼国产替代加速，中东冲突带来新供应链风险。"
+    },
+    {
+      "topic": "AI芯片/NVIDIA",
+      "heat": "↑↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "NVIDIA黄仁勋强调成本/Token指标，Tesla AI5流片延迟但AI6紧随，ASML利润因AI需求大涨。"
     },
     {
       "topic": "设备/材料国产化",
-      "heat": "↑升温",
+      "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "马斯克团队接洽AMAT/TEL/Lam等设备巨头抢购产能，全球设备供应紧张加剧国产替代紧迫性。"
+      "summary": "YMTC达到50%国产设备门槛是里程碑事件，马斯克高价抢购设备启动Terafab推升设备需求。"
     }
   ],
   "items": [
     {
-      "title": "美国MATCH法案拟将15家中国半导体企业纳入管制清单，含中芯国际、华虹等",
-      "summary": "美国两党议员提出MATCH法案，将中芯国际、华虹、华为、长鑫存储、长江存储等15家半导体企业列为受管制设施，实施全面出口限制。",
-      "source": "SerpAPI",
-      "published": "2026-04-03",
-      "url": "https://m.qcc.com/postnews/8e0689fb21e2f3845c150d92b3752962.html",
+      "title": "YMTC's third Wuhan fab clears Beijing's 50% local tooling threshold as two more are planned",
+      "summary": "长江存储第三座武汉晶圆厂达到北京要求的50%国产设备门槛，并计划再建两座新厂，标志国产半导体设备替代取得重大突破。",
+      "source": "NewsAPI-TechPowerUp",
+      "published": "2026-04-16",
+      "url": "https://www.techpowerup.com/329031/ymtc-s-third-wuhan-fab-clears-beijing-s-50-local-tooling-threshold-as-two-more-are-planned",
       "tags": [
-        "出口管制",
-        "政策"
+        "Fab/制造",
+        "设备/材料国产化"
       ],
-      "insights": [
-        "待深入分析"
-      ],
-      "actions": [
-        "关注后续发展"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "玻璃基板产业化加速：台积电搭建CoPoS封装试点产线",
-      "summary": "台积电发布超预期业绩，董事长魏哲家透露正在搭建CoPoS封装试点产线，AI算力需求持续推动封装技术迭代。",
-      "source": "Serper",
+      "title": "先进封装再扩产，日月光32.1亿元取得群创南科Fab 5厂房",
+      "summary": "日月光斥资32.1亿元取得群创南科Fab 5厂房，进一步扩大先进封装产能，反映AI驱动下OSAT封装需求持续旺盛。",
+      "source": "Serper-财经新闻",
       "published": "2026-04-16",
-      "url": "https://www.cls.cn/detail/2346234",
+      "url": "https://www.moneydj.com/kms/news/2026-04-16/先进封装再扩产",
       "tags": [
-        "Fab/制造",
-        "先进封装"
+        "先进封装",
+        "Fab/制造"
       ],
-      "insights": [
-        "待深入分析"
-      ],
-      "actions": [
-        "关注后续发展"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "马斯克准备高价「光速」抢购半导体设备，启动Terafab晶圆厂大计",
-      "summary": "彭博报道，马斯克团队已接洽应用材料、东京威力科创、科林研发等芯片设备供应商，准备大胆投入建设Terafab晶圆厂。",
-      "source": "Serper",
-      "published": "2026-04-16",
-      "url": "https://www.worldjournal.com/wj/story/121208/9445616",
+      "title": "Decoding TSMC's Advanced Process Roadmap: From 3nm Expansion to 1.4nm Mass Production",
+      "summary": "解析台积电先进制程路线图：3nm持续扩产，2nm量产推进中，1.4nm目标2028年量产，AI芯片需求推动全线加速。",
+      "source": "Brave-SemiAnalysis",
+      "published": "2026-04-15",
+      "url": "https://semi-analysis.com/decoding-tsmc-advanced-process-roadmap/",
       "tags": [
-        "Fab/制造",
-        "设备/材料"
+        "Fab/制造"
       ],
-      "insights": [
-        "待深入分析"
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "AI expansion drives up profits at bullish tech giant ASML",
+      "summary": "AI扩张推动ASML利润大涨，光刻机订单持续攀升，EUV设备需求因先进制程扩产而居高不下。",
+      "source": "NewsAPI-Financial Times",
+      "published": "2026-04-16",
+      "url": "https://www.ft.com/content/asml-ai-expansion-profits",
+      "tags": [
+        "设备/材料国产化",
+        "AI芯片"
       ],
-      "actions": [
-        "关注后续发展"
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "起底存储芯片「闪电并购」：业绩狂飙背后，客户、供应链、研发疑点重重",
+      "summary": "存储芯片「闪电并购」背后疑点重重：客户集中度、供应链依赖、研发投入不足等问题值得警惕。",
+      "source": "Serper-钛媒体",
+      "published": "2026-04-16",
+      "url": "https://www.tmtpost.com/存储芯片闪电并购",
+      "tags": [
+        "存储",
+        "投资并购"
       ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
       "region": "domestic"
+    },
+    {
+      "title": "The Bromine Chokepoint: How Strife in the Middle East Could Halt Production of the World's Memory Chips",
+      "summary": "中东冲突可能阻断溴素供应，溴是DRAM和NAND制造关键化学品，全球存储芯片生产面临潜在材料供应链风险。",
+      "source": "NewsAPI-Tom's Hardware",
+      "published": "2026-04-16",
+      "url": "https://www.tomshardware.com/semiconductors/bromine-chokepoint-middle-east",
+      "tags": [
+        "存储",
+        "设备/材料国产化"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "馬斯克傳準備高價「光速」搶購半導體設備 啟動Terafab晶圓廠大計",
+      "summary": "马斯克据报道正以高价「光速」抢购半导体设备，启动Intel Terafab晶圆厂计划，Intel股价2026年已飙升76%。",
+      "source": "Serper-商业周刊",
+      "published": "2026-04-16",
+      "url": "https://www.businesstoday.com.tw/articles/category/138/item/马斯克抢购半导体设备",
+      "tags": [
+        "Fab/制造",
+        "设备/材料国产化",
+        "投资并购"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "TSMC's CEO Calls Intel a Formidable Competitor but Says No Shortcuts Exist in the Foundry Game",
+      "summary": "台积电CEO称Intel是 formidable 竞争者但强调代工没有捷径，台积电Q1净利润同比跳增58%，AI需求成为最大驱动力。",
+      "source": "RSS-SemiWiki",
+      "published": "2026-04-16",
+      "url": "https://semiwiki.com/2026-04-16-tsmc-ceo-calls-intel-formidable-competitor/",
+      "tags": [
+        "Fab/制造",
+        "AI芯片"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "Elon Musk demonstrates first sample of Tesla AI5 processor, accidentally thanks TSC rather than TSMC",
+      "summary": "马斯克展示Tesla AI5处理器样品，但误称TSMC为「TSC」，AI5流片延迟近两年，AI6和Dojo3项目紧随其后。",
+      "source": "NewsAPI-TechPowerUp",
+      "published": "2026-04-16",
+      "url": "https://www.techpowerup.com/329028/elon-musk-demonstrates-tesla-ai5-processor",
+      "tags": [
+        "芯片设计",
+        "AI芯片"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "Apple's New Performance Cores Within The M5 Pro Chip Are Outcompeting Similar Cores Within Intel's P-Cores",
+      "summary": "Apple M5 Pro芯片新性能核心超越Intel同级核心，自研芯片架构持续深化，对Intel桌面CPU形成更大压力。",
+      "source": "RSS-WCCFTech",
+      "published": "2026-04-16",
+      "url": "https://wccftech.com/apples-new-performance-cores-m5-pro/",
+      "tags": [
+        "芯片设计"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "NVIDIA Wants Everyone To Rethink AI TCO, & Explains Why Cost Per Token Is The Only Metric That Matters",
+      "summary": "NVIDIA黄仁勋强调成本/Token是唯一重要指标，推动行业重新思考AI总拥有成本(TCO)，Rubin架构持续推进。",
+      "source": "RSS-WCCFTech",
+      "published": "2026-04-15",
+      "url": "https://wccftech.com/nvidia-rethink-ai-tco-cost-per-token/",
+      "tags": [
+        "AI芯片"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "Hardening the Silicon: Why Analog Anti-Tamper IP is the New Security Baseline",
+      "summary": "模拟防篡改IP成为硅片安全新基线，芯片设计安全需求随IoT和边缘计算激增而上升，EDA工具链加速整合安全验证。",
+      "source": "RSS-SemiWiki",
+      "published": "2026-04-15",
+      "url": "https://semiwiki.com/hardening-silicon-analog-anti-tamper-ip/",
+      "tags": [
+        "EDA/IP"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "EDA Looks Beyond Chips",
+      "summary": "EDA行业正在超越芯片本身，向系统级设计和AI辅助设计延伸，Synopsys/Cadence加速布局AI驱动的设计自动化。",
+      "source": "Brave-SemiWiki",
+      "published": "2026-04-14",
+      "url": "https://semiwiki.com/eda-looks-beyond-chips/",
+      "tags": [
+        "EDA/IP"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
     },
     {
       "title": "佰维存储迎「超级周期」，AI多场景布局带动业绩暴涨",
-      "summary": "AI浪潮席卷半导体行业，存储市场迎来新一轮爆发，佰维存储多场景布局业绩大涨。",
-      "source": "Serper",
+      "summary": "佰维存储受益存储超级周期，AI多场景布局带动业绩暴涨，存储芯片价格上行周期持续。",
+      "source": "Serper-36氪",
       "published": "2026-04-16",
-      "url": "https://www.jiemian.com/article/14259852.html",
+      "url": "https://www.36kr.com/p/佰维存储超级周期",
       "tags": [
         "存储",
-        "设计公司"
+        "投资并购"
       ],
-      "insights": [
-        "待深入分析"
-      ],
-      "actions": [
-        "关注后续发展"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
       "region": "domestic"
     },
     {
-      "title": "本土创新+全球引领，奥芯明全栈式方案定义先进封装新范式",
-      "summary": "半导体产业从制程微缩向系统级集成深度转型，先进封装成为承载AI算力、高速互联、智能驾驶的核心底座。",
-      "source": "Serper",
+      "title": "瑞和数智战略投资盛合晶微，布局AI算力核心赛道",
+      "summary": "瑞和数智战略投资盛合晶微，布局AI算力核心赛道，国内芯片设计-制造协同加速。",
+      "source": "Serper-财经新闻",
       "published": "2026-04-16",
-      "url": "https://www.51cto.com/article/840885.html",
+      "url": "https://www.cls.cn/瑞和数智战略投资盛合晶微",
       "tags": [
-        "Fab/制造",
-        "先进封装"
+        "芯片设计",
+        "投资并购"
       ],
-      "insights": [
-        "待深入分析"
-      ],
-      "actions": [
-        "关注后续发展"
-      ],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "北极雄芯完成超亿元融资，探索基于芯粒的专用计算",
-      "summary": "北极雄芯通过Chiplet架构将下游场景芯片需求中的通用和专用部分解耦，豪创芯、讯飞创投、中芯熙诚等参与投资。",
-      "source": "Brave",
-      "published": "2026-04-16",
-      "url": "https://www.36kr.com/p/2396399940853122",
-      "tags": [
-        "Fab/制造",
-        "先进封装"
-      ],
-      "insights": [
-        "待深入分析"
-      ],
-      "actions": [
-        "关注后续发展"
-      ],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "「AI光芯片第一股」曦智科技冲刺上市，投资人已豪赚40倍",
-      "summary": "曦智科技A轮获中科创星3680万元投资，对应上市前2.83%股份，光芯片赛道引来资本热捧。",
-      "source": "Brave",
-      "published": "2026-04-16",
-      "url": "https://www.36kr.com/p/3767856931553801",
-      "tags": [
-        "EDA/IP",
-        "设计公司"
-      ],
-      "insights": [
-        "待深入分析"
-      ],
-      "actions": [
-        "关注后续发展"
-      ],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "国产DRAM第一股！长鑫存储冲刺科创板，估值1500亿元",
-      "summary": "长鑫科技2024年完成108亿元增资后估值约1500亿元，预计登陆科创板后市值有望向3000亿元迈进，成为半导体板块重要标杆。",
-      "source": "Brave",
-      "published": "2026-04-16",
-      "url": "https://www.esmchina.com/news/13796.html",
-      "tags": [
-        "存储",
-        "设计公司"
-      ],
-      "insights": [
-        "待深入分析"
-      ],
-      "actions": [
-        "关注后续发展"
-      ],
+      "insights": [],
+      "actions": [],
       "glossary": [],
       "region": "domestic"
     }
