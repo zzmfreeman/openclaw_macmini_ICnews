@@ -210,8 +210,27 @@ class NewsProcessor:
         
         return sorted(items, key=weight, reverse=True)
     
+    def validate_urls(self, items: List[NewsItem]) -> List[NewsItem]:
+        """URL 可达性校验：过滤已失效的链接"""
+        valid, invalid = [], []
+        for item in items:
+            ok, final_url, reason = validate_url(item.url, timeout=8)
+            if ok:
+                # 如果有重定向，更新 URL
+                if final_url and final_url != item.url:
+                    item.url = final_url
+                valid.append(item)
+            else:
+                invalid.append((item.title[:50], reason))
+        for title, reason in invalid:
+            print(f"  ❌ [URL失效] {title} → {reason}", file=sys.stderr)
+        print(f"[fetch] URL校验: {len(valid)}/{len(items)} 有效", file=sys.stderr)
+        return valid
+
     def process(self, items: List[NewsItem], target: int = 5) -> List[NewsItem]:
         """完整处理流程"""
+        # URL 校验（新增，放最前优先过滤无效项）
+        items = self.validate_urls(items)
         # 去重
         items = self.deduplicate(items)
         # 关键词过滤
@@ -265,3 +284,68 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+
+
+# -------------------------------------------------------------------
+# URL 可达性校验（新增）
+# -------------------------------------------------------------------
+BLACKLIST_REDIR = {
+    "moneydj.com/404",   # 跳转目标为404占位页
+    "businesstoday.com.tw/",  # 台媒新闻删除后跳转首页
+}
+BLOCKED_DOMAINS = {
+    "semi-analysis.com",
+    "ft.com",  # paywall
+    "tmtpost.com",  # 大量中文站URL编码问题
+}
+
+def validate_url(url: str, timeout: int = 8) -> tuple:
+    """
+    校验 URL 是否可访问且内容有效。
+    返回 (is_valid: bool, final_url: str, reason: str)
+    - is_valid=True  → 内容页存在，可保留
+    - is_valid=False → 已失效，需过滤
+    """
+    try:
+        parsed = urllib.parse.urlparse(url)
+        # 1. URL 编码：处理中文路径
+        path_enc = urllib.parse.quote(parsed.path, safe='/:@!$&\'()*+,;=%')
+        full_url = urllib.parse.urlunparse((parsed.scheme, parsed.netloc, path_enc, '', parsed.query, ''))
+
+        req = urllib.request.Request(
+            full_url,
+            headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"},
+            method="GET"
+        )
+        with urllib.request.urlopen(req, timeout=timeout, context=ssl_context) as resp:
+            final_url = resp.url
+            final_parsed = urllib.parse.urlparse(final_url)
+            final_domain = final_parsed.netloc.lower().replace('www.', '')
+            orig_domain = parsed.netloc.lower().replace('www.', '')
+
+            # 2. SSL/TLS 协议层屏蔽
+            if final_domain in BLOCKED_DOMAINS:
+                return False, final_url, f"blocked_domain:{final_domain}"
+
+            # 3. 重定向到陌生域名
+            if final_domain != orig_domain and final_domain not in orig_domain:
+                return False, final_url, f"cross_domain:{orig_domain}→{final_domain}"
+
+            # 4. 重定向到已知的占位页/首页（内容已删除）
+            redir_lower = final_url.lower()
+            for blk in BLACKLIST_REDIR:
+                if blk in redir_lower:
+                    return False, final_url, f"dead_page:{blk}"
+
+            # 5. 状态码非 200
+            if resp.status != 200:
+                return False, final_url, f"http_{resp.status}"
+
+            return True, final_url, None
+
+    except urllib.error.HTTPError as e:
+        return False, None, f"http_error_{e.code}"
+    except urllib.error.HTTPError:  # Python 3.9 compat - HTTPErr is base class
+        return False, None, "http_error"
+    except Exception as e:
+        return False, None, f"exception_{type(e).__name__}"

@@ -1,236 +1,122 @@
 {
-  "version": "v20260416-1300",
-  "generatedAt": "2026-04-16T13:00:00+08:00",
+  "version": "v20260417-1300",
+  "generatedAt": "2026-04-17T13:00:00+08:00",
   "period": "midday",
-  "commit": "ab1e266",
+  "commit": "",
   "glossary_list": [
-    {
-      "term": "盛合晶微",
-      "desc": "AI算力芯片设计公司，专注于高性能计算芯片",
-      "category": "设计"
-    },
-    {
-      "term": "CoPoS",
-      "desc": "台积电先进封装技术，CoWoS的演进版本，更高密度集成",
-      "category": "封装"
-    },
-    {
-      "term": "概伦电子",
-      "desc": "国产EDA公司，器件建模和电路仿真工具供应商",
-      "category": "EDA"
-    },
-    {
-      "term": "联讯仪器",
-      "desc": "国产半导体测试设备公司，专注晶圆级测试方案",
-      "category": "设备"
-    },
-    {
-      "term": "韬盛科技",
-      "desc": "EDA/半导体设计工具公司，冲刺科创板上市",
-      "category": "EDA"
-    }
+    {"term": "TeraFab", "desc": "特斯拉提出的大型晶圆厂计划，目标产能达万兆级别，马斯克意图构建自有芯片制造能力", "category": "商业"},
+    {"term": "MATCH法案", "desc": "美国《硬件技术多边协调管制法案》，针对15家中国半导体企业实施全面出口管制", "category": "商业"},
+    {"term": "50%国产设备率", "desc": "北京对先进晶圆厂的非正式要求，新建产线须使用至少50%国产半导体设备", "category": "设备"},
+    {"term": "Prexa SDP", "desc": "东京电子推出的单芯片测试设备，专为chiplet和AI芯片的高精度分离后检测设计", "category": "设备"},
+    {"term": "源杰科技", "desc": "陕西半导体公司，从晶体生长到晶圆工艺到芯片设计生产全链条布局，A股新股王", "category": "商业"},
+    {"term": "闻世芯", "desc": "闻泰科技全资成立的新半导体公司，注册资本5000万元，聚焦功率半导体", "category": "商业"},
+    {"term": "光互连", "desc": "利用光信号而非电信号进行芯片间数据传输的技术，NVIDIA大力投资布局下一代AI集群互联", "category": "封装"},
+    {"term": "AI5", "desc": "特斯拉自研的下一代AI处理器，已完成流片，声称性能较前代提升40倍", "category": "商业"}
   ],
   "topic_pulse": [
-    {
-      "topic": "CoWoS/先进封装",
-      "heat": "↑↑升温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": ""
-    },
-    {
-      "topic": "HBM/AI存储",
-      "heat": "↑↑升温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": ""
-    },
-    {
-      "topic": "中国Fab/先进制程",
-      "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": ""
-    },
-    {
-      "topic": "国产EDA/IP",
-      "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": ""
-    },
-    {
-      "topic": "封测OSAT",
-      "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": ""
-    },
-    {
-      "topic": "出口管制/制裁",
-      "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": ""
-    },
-    {
-      "topic": "AI芯片/NVIDIA",
-      "heat": "↑↑升温",
-      "reddit_top": null,
-      "hn_top": "Nvidia market share in China falls to less than 60% (3pts)",
-      "summary": ""
-    },
-    {
-      "topic": "设备/材料国产化",
-      "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": ""
-    }
+    {"topic": "CoWoS/先进封装", "heat": "↑↑升温", "reddit_top": null, "hn_top": null, "summary": "TSMC先进封装产能持续满载，NVIDIA向Lumentum/Coherent各投20亿美元强化光互连，奥芯明推出全栈式先进封装方案，封装赛道竞争加速。"},
+    {"topic": "HBM/AI存储", "heat": "↑升温", "reddit_top": null, "hn_top": null, "summary": "YMTC第三座武汉厂投产，NAND产能扩张加速；DRAM短缺迫使手机芯片降级，存储供需格局正在被AI需求重塑。"},
+    {"topic": "中国Fab/先进制程", "heat": "↑升温", "reddit_top": null, "hn_top": null, "summary": "YMTC新厂达标50%国产设备率，中芯国际等15家企业面临MATCH法案管制威胁，国产替代进程在政策推动与外部制裁双重压力下加速。"},
+    {"topic": "国产EDA/IP", "heat": "→平稳", "reddit_top": null, "hn_top": null, "summary": "SEMICON China 2026展示国产设备对标国际进展，但EDA/IP领域暂无重大突破新闻，整体平稳推进。"},
+    {"topic": "封测OSAT", "heat": "↑升温", "reddit_top": null, "hn_top": null, "summary": "TEL推出单芯片测试设备Prexa SDP应对chiplet检测需求，闻泰科技成立闻世芯布局功率半导体，封装测试环节持续升温。"},
+    {"topic": "出口管制/制裁", "heat": "↑↑升温", "reddit_top": null, "hn_top": null, "summary": "美国MATCH法案将15家中国半导体企业列入全面管制清单，管制范围和深度前所未有，国产替代紧迫性急剧提升。"},
+    {"topic": "AI芯片/NVIDIA", "heat": "↑↑升温", "reddit_top": null, "hn_top": null, "summary": "TSMC Q1利润跳增58%印证AI芯片需求爆发，CoreWeave与Jane Street签70亿美元AI芯片合同，NVIDIA投资光互连供应链，AI芯片赛道持续升温。"},
+    {"topic": "设备/材料国产化", "heat": "↑升温", "reddit_top": null, "hn_top": null, "summary": "YMTC新厂50%国产设备率达标是里程碑信号，但MATCH法案管制升级对设备供应链构成新威胁，国产化进程需加速。"}
   ],
   "items": [
     {
-      "title": "瑞和数智战略投资盛合晶微，布局AI算力核心赛道_公司新闻_财经",
-      "summary": "2026年4月15日，瑞和数智（03680.HK）发布公告，通过投资某基金参与了对国内先进封测龙头——盛合晶微半导体有限公司（以下简称“盛合晶微”）的投资，持有其重要股权.",
-      "source": "Serper",
-      "published": "5小时前",
-      "url": "https://wap.stockstar.com/detail/IG2026041600007857",
-      "tags": [
-        "投资/并购"
-      ],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "起底存储芯片“闪电并购”：业绩狂飙背后，客户、供应链、研发疑点重重",
-      "summary": "前言：从传统生态园林工程赛道，跨界切入半导体存储高科技领域，诚邦股份的这场转型，自落地之初便引发市场广泛关注。公司连续多年业绩亏损、负债规模高企、应收账款坏账...",
-      "source": "Serper",
-      "published": "18小时前",
-      "url": "https://m.10jqka.com.cn/20260415/c676014390.shtml",
-      "tags": [
-        "设计公司",
-        "投资/并购",
-        "存储"
-      ],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "日联科技拟购上海菲莱控制权，标的曾曲线上市未果",
-      "summary": "来源：北京商报）. 前次被纳尔股份收购折戟仅三个月，上海菲莱测试技术有限公司（以下简称“上海菲莱”）迅速觅得了新买家。4月14日晚间，A股百亿龙头企业日联科技（688531）披露...",
-      "source": "Serper",
-      "published": "16小时前",
-      "url": "https://finance.sina.com.cn/jjxw/2026-04-15/doc-inhuqwsw3356329.shtml",
-      "tags": [
-        "投资/并购"
-      ],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "半导体IP第一股，狂揽60亿订单！",
-      "summary": "设想一个场景。 现在你是一名芯片设计工程师，要设计一款应用于可穿戴设备上的产品，初步确定好芯片的规格、能耗、功能和架构设计后。 下一步该怎么做呢？",
-      "source": "Serper",
-      "published": "18小时前",
-      "url": "https://caifuhao.eastmoney.com/news/20260415190511663917450",
-      "tags": [
-        "设计公司",
-        "EDA/IP"
-      ],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "联讯仪器申购：国产测试设备龙头的“硬科技”突围与估值博弈",
-      "summary": "在全球电子测量仪器市场规模预计2029年达183.8亿美元的背景下，这家以光通信测试为核心、半导体测试为增长极的企业，能否凭借技术壁垒和客户优势，在估值与风险的天平上...",
-      "source": "Serper",
-      "published": "13小时前",
-      "url": "https://m.sohu.com/a/1010074504_121361416?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
-      "tags": [
-        "Fab/制造",
-        "投资/并购"
-      ],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "韬盛科技冲刺科创板，同行索赔或成“拦路虎”？",
-      "summary": "发力探针卡业务。 《投资者网》张伟日前，上海韬盛电子科技股份有限公司（下称“韬盛科.",
-      "source": "Serper",
-      "published": "3小时前",
-      "url": "https://mp.ofweek.com/ee/a356714852637",
-      "tags": [
-        "EDA/IP",
-        "投资/并购"
-      ],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "[年报]概伦电子(688206):2025年年度报告摘要",
-      "summary": "[年报]概伦电子(688206):2025年年度报告摘要.",
-      "source": "Serper",
-      "published": "4小时前",
-      "url": "https://www.cfi.net.cn/p20260416000137.html",
-      "tags": [
-        "EDA/IP"
-      ],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "纳芯微(688052):光大证券股份有限公司关于苏州纳芯微电子股份有限公司2025年度持续督导跟踪报告",
-      "summary": "纳芯微(688052):光大证券股份有限公司关于苏州纳芯微电子股份有限公司2025年度持续督导跟踪报告.",
-      "source": "Serper",
-      "published": "45分钟前",
-      "url": "https://www.cfi.net.cn/p20260416001329.html",
-      "tags": [
-        "设计公司"
-      ],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "VFabTech Launches to Expand Semiconductor Capacity for AI and Manufacturing - San Francisco Today",
-      "summary": "VFabTech, a new semiconductor engineering and consulting company, has launched to help semiconductor manufacturers expand their manufacturing capacity to meet growing demand driven by AI, robotics, an",
-      "source": "Brave",
-      "published": "4 days ago",
-      "url": "https://nationaltoday.com/us/ca/san-francisco/news/2026/04/11/vfabtech-launches-to-help-expand-semiconductor-capacity/",
-      "tags": [
-        "产业动态"
-      ],
-      "insights": [],
-      "actions": [],
+      "title": "TSMC一季度净利润同比跳增58%，AI需求成最大驱动力",
+      "summary": "台积电2026年Q1财报核心指标全面超市场预期，净利润同比增58%，AI芯片需求成为收入增长最大驱动力，先进制程产能持续满载。公司同时暗示2nm产能已开始排期，手机客户可能面临芯片降级供应。",
+      "source": "TradingKey via Serper",
+      "published": "2026-04-16",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261789154-tsmc-q1-net-profit",
+      "tags": ["TSMC", "财报", "AI", "先进制程", "2nm"],
+      "insights": ["台积电AI驱动的收入增长正在重塑代工格局，先进制程产能满载意味着新客户排队周期可能延长", "2nm节点排期暗示2026下半年将进入量产准备，对依赖先进制程的设计公司意味着成本和排期双重挑战"],
+      "actions": ["评估现有项目在TSMC先进制程的排期风险，提前锁定H2产能窗口", "关注2nm量产节奏对当前5nm/3nm项目迁移计划的影响"],
       "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "TeraFab建设进展：特斯拉-SpaceX-xAI芯片设施首度曝光",
-      "summary": "Tesla与SpaceX及xAI联合建设的TeraFab芯片制造设施正在推进，这是马斯克垂直整合战略的重要一步，将部分自研芯片生产纳入内部体系。",
-      "source": "Brave/Tom's Hardware",
+      "title": "NVIDIA分别向Lumentum和Coherent各投资20亿美元，强化AI光互连供应链",
+      "summary": "NVIDIA宣布对光通信芯片公司Lumentum和Coherent各投资20亿美元，旨在强化数据中心光互连技术供应链，确保AI处理器高速互联所需的关键组件供应稳定。",
+      "source": "MSN via Serper",
       "published": "2026-04-16",
-      "url": "https://tomshardware.com/tech-industry/semiconductors/analyzing-elon-musks-terafab-a-step-towards-tesla-and-spacs-partial-vertical-integration",
-      "tags": [
-        "Fab/制造"
-      ],
-      "insights": [],
-      "actions": [],
+      "url": "https://www.msn.com/en-in/money/topstories/nvidia-to-invest-2-billion-each-in-lumentum-and-coherent-to-bolster-ai-processors",
+      "tags": ["NVIDIA", "光互连", "Lumentum", "Coherent", "投资", "AI供应链"],
+      "insights": ["NVIDIA从芯片设计延伸到上游光通信组件投资，标志着AI供应链垂直整合进入新阶段", "20亿美元级投资暗示光互连在下一代AI集群中的战略地位已超越传统电气互连"],
+      "actions": ["关注Lumentum/Coherent产能扩张节奏，评估光通信组件国产替代窗口", "梳理自身项目中光互连需求，预判成本和供应变化"],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "YMTC第三座武汉晶圆厂达到50%国产设备门槛，两座新厂规划中",
+      "summary": "长江存储第三座武汉晶圆厂即将于今年底投产，成为首座符合北京50%国产设备率要求的先进存储工厂。公司同时规划两座新厂，将专注于3D NAND生产，发挥晶圆键合技术优势。",
+      "source": "Tom's Hardware via NewsAPI",
+      "published": "2026-04-15",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/ymtcs-third-wuhan-fab-clears-beijings-50-local-tooling-threshold-as-two-more-are-planned",
+      "tags": ["YMTC", "长江存储", "NAND", "国产设备", "武汉"],
+      "insights": ["50%国产设备门槛达标意味着中国存储芯片制造正式进入政策驱动的国产化正循环", "两座新厂规划暗示YMTC正在加速NAND产能扩张，可能改变全球NAND供需格局"],
+      "actions": ["评估YMTC产能扩张对NAND采购成本和供应稳定性的影响", "关注国产设备在存储产线的实际良率表现，判断替代可行性"],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "特斯拉AI5芯片完成流片，马斯克在台湾大举招聘半导体人才",
+      "summary": "特斯拉AI5处理器完成流片，马斯克宣布AI6和Dojo3项目推进中。同时，特斯拉在新竹密集发布半导体相关岗位招聘，覆盖制程技术到设备导入，意图构建自有芯片制造能力。",
+      "source": "Tom's Hardware via NewsAPI",
+      "published": "2026-04-15",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-demonstrates-first-sample-of-tesla-ai5-processor",
+      "tags": ["特斯拉", "AI5", "流片", "马斯克", "台湾人才", "TeraFab"],
+      "insights": ["特斯拉从自研芯片延伸到自建产能，垂直整合路径与苹果类似但规模更大", "在台湾抢人才意味着特斯拉可能短期依赖台积电代工，长期则试图建立自有产线"],
+      "actions": ["关注特斯拉芯片需求对TSMC产能分配的影响，评估是否挤压其他客户排期", "追踪台湾半导体人才流向变化，预判对现有合作方团队稳定性的影响"],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "源杰科技股价超越茅台成A股新股王，三年涨幅13倍",
+      "summary": "源杰科技4月17日盘中股价突破1410元，超越贵州茅台成为A股新股王。公司从半导体晶体生长到晶圆工艺、芯片研发设计生产全链条布局，创始人身家已达85亿元，3年累计涨幅13倍。",
+      "source": "经济日报 via Serper",
+      "published": "2026-04-17",
+      "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202604/t20260417_2911730.shtml",
+      "tags": ["源杰科技", "A股", "股王", "半导体芯片", "晶圆"],
+      "insights": ["半导体企业取代白酒成为A股股王，折射资本市场对芯片产业的价值重估已进入新阶段", "全链条布局的商业模式正在获得市场认可，但高估值背后产能兑现风险不容忽视"],
+      "actions": ["关注源杰科技业务结构，评估其供应链能力是否可替代现有供应商", "警惕高估值背后的产能兑现风险，短期股价不代表长期竞争力"],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "美国MATCH法案拟将15家中国半导体企业纳入全面管制清单",
+      "summary": "美国两党议员提出《硬件技术多边协调管制法案》（MATCH法案），将中芯国际、华虹、华为、长鑫存储、长江存储等15家中国半导体企业列为受管制设施，实施全面出口限制，涵盖设备、材料和技术。",
+      "source": "什么值得买 via SerpAPI",
+      "published": "2026-04-03",
+      "url": "https://post.smzdm.com/p/a26wqznq/",
+      "tags": ["出口管制", "MATCH法案", "中芯国际", "华虹", "长鑫", "YMTC", "制裁"],
+      "insights": ["MATCH法案从单点制裁升级为系统性全面管制，意味着国产替代不再是选项而是刚需", "15家企业清单覆盖代工+存储+设计全链，管制深度前所未有"],
+      "actions": ["紧急评估供应链中被管制企业的替代方案，建立备选供应商清单", "关注法案立法进程，预判生效时间窗口并制定过渡策略"],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "Intel Foundry引入三星30年老兵Shawn Han，补强客户服务短板",
+      "summary": "Intel Foundry正式引入三星晶圆代工部门资深人士Shawn Han（30年芯片制造经验），意图补强代工业务客户服务能力缺口。这是Intel持续从竞争对手挖角构建代工团队的最新举措。",
+      "source": "WCCFTech via RSS",
+      "published": "2026-04-17",
+      "url": "https://wccftech.com/intel-foundry-lands-a-samsung-veteran-with-30-years-of-chip-experience",
+      "tags": ["Intel", "Foundry", "三星", "人才", "代工"],
+      "insights": ["Intel持续挖角三星代工人才，暗示其代工服务体系建设仍处于人才驱动阶段", "Shawn Han的客户服务背景意味着Intel正在优先解决客户关系而非纯技术问题"],
+      "actions": ["评估Intel Foundry客户服务能力改善对代工选择的潜在影响", "关注三星人才流失对其代工业务稳定性的冲击"],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "东京电子推出单芯片测试设备Prexa SDP，瞄准AI与HPC需求",
+      "summary": "全球半导体设备巨头东京电子宣布推出单芯片测试设备Prexa SDP，专为从晶圆分离后的芯片进行高精度检测而设计，以应对AI和高性能计算（HPC）需求的快速增长。",
+      "source": "亚洲日报 via Serper",
+      "published": "2026-04-17",
+      "url": "https://www.ajudaily.com/view/20260417103970872",
+      "tags": ["东京电子", "TEL", "Prexa SDP", "测试设备", "AI", "HPC"],
+      "insights": ["单芯片级测试设备的推出意味着先进封装后独立芯片检测需求正在从晶圆级检测中分离出来", "TEL布局测试设备新品类，反映chiplet架构对检测环节提出了新的精度和效率要求"],
+      "actions": ["评估Prexa SDP对现有测试流程的影响，判断是否需要升级检测设备配置", "关注chiplet封装测试的标准化进展，预判设备投资节奏"],
       "glossary": [],
       "region": "overseas"
     }
