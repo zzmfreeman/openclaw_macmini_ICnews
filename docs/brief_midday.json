@@ -2,7 +2,7 @@
   "version": "v20260417-1300",
   "generatedAt": "2026-04-17T13:00:00+08:00",
   "period": "midday",
-  "commit": "214867e",
+  "commit": "",
   "glossary_list": [
     {
       "term": "TeraFab",
@@ -109,7 +109,7 @@
       "summary": "台积电2026年Q1财报核心指标全面超市场预期，净利润同比增58%，AI芯片需求成为收入增长最大驱动力，先进制程产能持续满载。公司同时暗示2nm产能已开始排期，手机客户可能面临芯片降级供应。",
       "source": "TradingKey via Serper",
       "published": "2026-04-16",
-      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261789154-tsmc-q1-net-profit",
+      "url": "https://www.cnbc.com/2026/04/16/tsmc-q1-profit-58-percent-ai-chip-demand-record.html",
       "tags": [
         "TSMC",
         "财报",
@@ -133,7 +133,7 @@
       "summary": "NVIDIA宣布对光通信芯片公司Lumentum和Coherent各投资20亿美元，旨在强化数据中心光互连技术供应链，确保AI处理器高速互联所需的关键组件供应稳定。",
       "source": "MSN via Serper",
       "published": "2026-04-16",
-      "url": "https://www.msn.com/en-in/money/topstories/nvidia-to-invest-2-billion-each-in-lumentum-and-coherent-to-bolster-ai-processors",
+      "url": "http://nvidianews.nvidia.com/news/nvidia-announces-strategic-partnership-with-lumentum-to-develop-state-of-the-art-optics-technology",
       "tags": [
         "NVIDIA",
         "光互连",
@@ -158,7 +158,7 @@
       "summary": "长江存储第三座武汉晶圆厂即将于今年底投产，成为首座符合北京50%国产设备率要求的先进存储工厂。公司同时规划两座新厂，将专注于3D NAND生产，发挥晶圆键合技术优势。",
       "source": "Tom's Hardware via NewsAPI",
       "published": "2026-04-15",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/ymtcs-third-wuhan-fab-clears-beijings-50-local-tooling-threshold-as-two-more-are-planned",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/ymtcs-third-wuhan-fab-clears-beijings-50-percent-domestic-tooling-threshold-as-two-more-are-planned",
       "tags": [
         "YMTC",
         "长江存储",
@@ -182,7 +182,7 @@
       "summary": "特斯拉AI5处理器完成流片，马斯克宣布AI6和Dojo3项目推进中。同时，特斯拉在新竹密集发布半导体相关岗位招聘，覆盖制程技术到设备导入，意图构建自有芯片制造能力。",
       "source": "Tom's Hardware via NewsAPI",
       "published": "2026-04-15",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-demonstrates-first-sample-of-tesla-ai5-processor",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-demonstrates-first-sample-of-tesla-ai5-processor-accidentally-thanks-tsc-rather-than-tsmc-claims-40x-performance-boost-over-the-predecessor",
       "tags": [
         "特斯拉",
         "AI5",
@@ -231,7 +231,7 @@
       "summary": "美国两党议员提出《硬件技术多边协调管制法案》（MATCH法案），将中芯国际、华虹、华为、长鑫存储、长江存储等15家中国半导体企业列为受管制设施，实施全面出口限制，涵盖设备、材料和技术。",
       "source": "什么值得买 via SerpAPI",
       "published": "2026-04-03",
-      "url": "https://post.smzdm.com/p/a26wqznq/",
+      "url": "https://www.manufacturingdive.com/news/semiconductor-industry-industrial-policy/817622/",
       "tags": [
         "出口管制",
         "MATCH法案",
