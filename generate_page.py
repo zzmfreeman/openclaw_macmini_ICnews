@@ -232,6 +232,9 @@ def generate_brief_page(brief_json_path, base_dir=None):
     }
     for key, val in replacements.items():
         html_content = html_content.replace(key, val)
+
+    # Fix double braces for GitHub Pages/Jekyll compatibility
+    html_content = html_content.replace("{{", "{").replace("}}", "}")
     
     # Write JSON and HTML to docs/
     json_path = os.path.join(docs_dir, json_name)
@@ -284,15 +287,19 @@ def generate_index_page(base_dir=None):
           </div>
         </a>'''
     
-    # Also show the "current" brief link
-    current_link = '''
-        <a href="brief.html" class="brief-card current">
+    # Also show the "current" brief link — point to the latest dated HTML
+    latest = briefs[0] if briefs else None
+    if latest:
+        current_link = f'''
+        <a href="{latest['html']}" class="brief-card current">
           <div class="brief-icon">📡</div>
           <div class="brief-info">
-            <div class="brief-title">最新简报（实时更新）</div>
-            <div class="brief-period">当前时段</div>
+            <div class="brief-title">最新简报（{latest['date']} {latest['label']}）</div>
+            <div class="brief-period">{latest['period']}</div>
           </div>
         </a>'''
+    else:
+        current_link = ''
     
     index_html = '''<!doctype html>
 <html lang="zh-CN">
