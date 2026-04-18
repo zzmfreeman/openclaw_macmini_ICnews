@@ -1,38 +1,48 @@
 {
-  "version": "v20260418-2000",
-  "generatedAt": "2026-04-18T20:00:00+08:00",
-  "period": "evening",
+  "version": "v20260419-0609",
+  "generatedAt": "2026-04-19T06:09:00+08:00",
+  "period": "morning",
   "commit": "",
   "glossary_list": [
     {
-      "term": "联电(UMC)",
-      "desc": "全球第三大晶圆代工厂，主力28nm及以上成熟制程",
-      "category": "代工"
-    },
-    {
-      "term": "科创债",
-      "desc": "支持科技创新企业融资的专项债券，利率优惠、审核简化",
-      "category": "商业"
-    },
-    {
-      "term": "CoWoS",
-      "desc": "Chip on Wafer on Substrate，台积电先进封装技术，用于AI芯片",
-      "category": "封装"
-    },
-    {
-      "term": "SEMICON China",
-      "desc": "中国国际半导体设备与材料展览会，年度产业盛会",
-      "category": "商业"
-    },
-    {
       "term": "OSAT",
-      "desc": "Outsourced Semiconductor Assembly and Test，独立封测服务商",
+      "desc": "外包半导体封装测试（Outsourced Semiconductor Assembly and Test），即封测代工",
       "category": "封装"
     },
     {
-      "term": "自建晶圆厂(DIY Fab)",
-      "desc": "非传统半导体企业自行建设芯片制造产线的趋势，如特斯拉Terafab",
-      "category": "代工"
+      "term": "WSE",
+      "desc": "晶圆级引擎（Wafer-Scale Engine），Cerebras的整片晶圆单芯片架构",
+      "category": "封装"
+    },
+    {
+      "term": "LPU",
+      "desc": "语言处理单元（Language Processing Unit），Groq的AI推理专用加速架构",
+      "category": "商业"
+    },
+    {
+      "term": "CIM",
+      "desc": "计算机集成制造（Computer-Integrated Manufacturing），Fab信息化核心平台",
+      "category": "设备"
+    },
+    {
+      "term": "MES",
+      "desc": "制造执行系统（Manufacturing Execution System），Fab运营管理软件",
+      "category": "设备"
+    },
+    {
+      "term": "Chiplet互联IP",
+      "desc": "用于Chiplet架构中芯粒间高速数据传输的接口协议与IP核",
+      "category": "封装"
+    },
+    {
+      "term": "氮化镓",
+      "desc": "第三代半导体材料，适合高功率/高频应用",
+      "category": "材料"
+    },
+    {
+      "term": "CHIPS Act",
+      "desc": "美国《芯片与科学法案》，为半导体制造提供补贴与税收优惠",
+      "category": "商业"
     }
   ],
   "topic_pulse": [
@@ -41,274 +51,423 @@
       "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "台积电CoWoS产能持续紧缺，联电等成熟制程代工也加入涨价潮，先进封装成为供应链瓶颈焦点"
+      "summary": "ST中迪转型封测、Cerebras晶圆级芯片IPO、NVIDIA收购Groq等事件共同推动先进封装话题热度上升。CoWoS产能仍是产业焦点。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "→平稳",
-      "reddit_top": null,
+      "reddit_top": "SK Hynix HBM4进展 (r/Netlist_, 51pts)",
       "hn_top": null,
-      "summary": "存储超级周期与AI算力需求共振，HBM供需格局延续紧张态势"
+      "summary": "SK Hynix HBM4进展引发Reddit讨论，但整体热度平稳。存储超级周期预期持续但暂无重大突破。"
     },
     {
       "topic": "中国Fab/先进制程",
-      "heat": "↑升温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "国产替代加速成为三重共振之一，国内晶圆代工产能扩张与制程突破持续推进"
+      "heat": "↑↑升温",
+      "reddit_top": "China 2D Semiconductor 1000x Speed Boost (r/InterstellarKinetics, 109pts)",
+      "hn_top": "China 3.6x more subsidies than US (1pts)",
+      "summary": "中芯国际年报发布、中国补贴力度远超美国等话题热度升温。社区关注中国Fab产能效率与补贴依赖问题。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "SEMICON China 2026聚焦国产EDA工具与IP进展，但替代深度仍待突破"
+      "summary": "朋熙CIM获10亿融资反映EDA/CIM国产化赛道获得资本支持，但技术突破与市场份额进展仍需观察。"
     },
     {
       "topic": "封测OSAT",
-      "heat": "→平稳",
+      "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "先进封装需求推动OSAT扩产，但联电等代工厂自建封装能力带来竞争压力"
+      "summary": "ST中迪转型封测、广西天微资产赠与等事件带动封测话题升温。A股壳资源涌入封测赛道值得关注。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "→平稳",
-      "reddit_top": null,
+      "reddit_top": "Russia helium export controls (r/CriticalMineralStocks, 32pts)",
       "hn_top": null,
-      "summary": "美国对15家中国半导体企业管制清单传闻持续，但暂无新政策落地"
+      "summary": "出口管制话题平稳，近期无重大新制裁政策出台。俄罗斯氦气出口管制间接影响半导体材料供应。"
     },
     {
       "topic": "AI芯片/NVIDIA",
-      "heat": "↑升温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "芯片公司股价超越茅台反映AI算力投资热度持续攀升，Blackwell架构需求旺盛"
+      "heat": "↑↑升温",
+      "reddit_top": "NVIDIA: AI cuts chip design 80 person-months to overnight (r/pcmasterrace, 833pts)",
+      "hn_top": "Nvidia market share in China <60% (3pts)",
+      "summary": "NVIDIA收购Groq+黄仁勋200亿美金投资引爆话题。Reddit热议AI缩短芯片设计周期，HN讨论NVIDIA中国市场份额下滑。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产半导体设备与材料在SEMICON China展示进展，但高端领域仍依赖进口"
+      "summary": "设备国产化话题平稳，SEMI 300mm设备支出增长预测反映全球设备需求持续但国产替代进展缓慢。"
     }
   ],
   "items": [
     {
-      "title": "联电加入芯片涨价潮，2026年下半年起涨价，客户\"无处可去\"",
-      "summary": "联电(UMC)宣布2026年下半年起上调晶圆代工价格，成为继台积电之后又一家涨价的主流代工厂。成熟制程客户因产能稀缺且替代选择有限，面临成本上升压力。",
-      "source": "Serper → 华尔街见闻",
-      "published": "2026-04-17",
-      "url": "https://wallstreetcn.com/articles/3770281",
-      "tags": [
-        "代工涨价",
-        "联电",
-        "成熟制程",
-        "产能紧缺"
-      ],
-      "insights": [
-        "成熟制程代工涨价潮蔓延，28nm及以上工艺供给刚性不足成为结构性问题",
-        "联电涨价反映成熟制程产能供需已从平衡转为卖方市场",
-        "客户\"无处可去\"暗示代工转换成本高、备选产能匮乏"
-      ],
-      "actions": [
-        "立即评估现有代工合同价格条款，预判下半年成本涨幅",
-        "梳理成熟制程备选代工厂（华虹、世界先进等），制定双源策略",
-        "关注联电涨价幅度与节奏，协调采购团队提前锁定产能"
-      ],
-      "glossary": [
-        "联电(UMC)",
-        "成熟制程"
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "芯片代工再迎涨价潮！下半年价格正式上调",
-      "summary": "多家晶圆代工厂宣布2026年下半年上调价格，包括台积电、联电等主流代工企业。涨价范围覆盖先进制程与成熟制程，产业链成本压力向上游传导。",
-      "source": "Serper → C114通信网",
+      "title": "ST中迪无偿获赠超2亿元半导体封测资产，彻底转身封测赛道",
+      "summary": "濒临退市边缘的ST中迪(000609)公告，拟从实控人关联方无偿受让广西天微70%股权（估值超2.2亿元）。广西天微主营半导体芯片封装测试，2025年营收3.23亿元。此举使ST中迪从地产彻底转型半导体封测。",
+      "source": "Serper",
       "published": "2026-04-18",
-      "url": "https://www.c114.net.cn/industry/76895.html",
+      "url": "https://m.10jqka.com.cn/20260418/c676096254.shtml",
       "tags": [
-        "代工涨价",
-        "晶圆代工",
-        "产能紧缺",
-        "成本传导"
+        "封测",
+        "并购",
+        "A股",
+        "国内"
       ],
       "insights": [
-        "代工涨价潮已成产业共识，先进与成熟制程同步上调意味着供需紧张已全局化",
-        "涨价幅度可能在5-15%区间，具体取决于工艺节点与客户议价能力",
-        "产业链成本传导将影响IC设计公司毛利率，需重新评估项目成本模型"
+        "ST中迪通过资产赠与急速转型封测，反映A股壳资源向半导体赛道集中的趋势",
+        "广西天微3.23亿营收规模在封测领域属中小型，与日月光/长电差距明显"
       ],
       "actions": [
-        "汇总所有代工合作伙伴的涨价通知，制作成本影响矩阵",
-        "与设计团队沟通NRE与量产价格调整对项目利润的影响",
-        "考虑是否提前下单锁定当前价格窗口"
+        "关注A股封测板块资产重组动向，评估中小型OSAT供应商的产能与服务质量",
+        "警惕壳公司转型半导体的实质业务能力，避免采购端踩坑"
       ],
       "glossary": [
-        "晶圆代工",
-        "成熟制程"
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "ST中迪拟无偿获赠半导体公司70%股权，价值超2.2亿元",
-      "summary": "ST中迪（000609）公告拟无偿获赠一家半导体公司70%股权，估值超2.2亿元。此举为ST公司转型半导体行业的典型案例，反映资本市场对芯片资产的追捧。",
-      "source": "Serper → 新浪财经",
-      "published": "2026-04-18",
-      "url": "https://finance.sina.cn/tech/2026-04-18/detail-inhuxiqe0184964.d.html",
-      "tags": [
-        "并购重组",
-        "ST公司转型",
-        "半导体资产",
-        "资本市场"
-      ],
-      "insights": [
-        "ST公司通过无偿获赠方式切入半导体赛道，反映壳资源与半导体资产的嫁接模式",
-        "半导体资产估值溢价明显，2.2亿元体量的公司70%股权无偿赠与意味着背后有更深利益安排",
-        "此类交易需关注后续经营整合风险，ST转型未必能带来实质业务能力"
-      ],
-      "actions": [
-        "关注该半导体公司具体业务方向与技术实力，评估资产质量",
-        "警惕ST壳公司借半导体概念炒作，区分真转型与资本游戏",
-        "跟踪后续公告中关于业务整合与业绩承诺的细节"
-      ],
-      "glossary": [
-        "科创债"
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "特斯拉在台招募半导体人才，布局自建晶圆厂Terafab",
-      "summary": "特斯拉正在台湾地区招募芯片工程师，为马斯克规划的Terafab半导体项目布局人才。但薪资水平被指\"状况外\"，对台湾资深半导体人才的吸引力存疑。",
-      "source": "Serper → 世界日报/温哥华华人网",
-      "published": "2026-04-18",
-      "url": "https://www.worldjournal.com/wj/story/121347/9449368",
-      "tags": [
-        "特斯拉",
-        "自建晶圆厂",
-        "Terafab",
-        "人才竞争"
-      ],
-      "insights": [
-        "特斯拉自建晶圆厂标志着非传统半导体企业入局芯片制造的趋势加速",
-        "台湾薪资竞争力不足可能成为特斯拉招才的瓶颈，台积电等大厂待遇远超",
-        "马斯克Terafab若落地将对传统代工格局产生深远冲击"
-      ],
-      "actions": [
-        "关注特斯拉Terafab项目选址与建设进展，评估对代工市场的影响",
-        "分析自建晶圆厂趋势对代工客户结构的长远影响",
-        "评估特斯拉芯片需求是否可能分流现有代工产能"
-      ],
-      "glossary": [
-        "自建晶圆厂(DIY Fab)"
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "存储超级周期+AI算力爆发+国产替代加速，2026年中国半导体迎来\"三重共振\"",
-      "summary": "2026年中国半导体产业面临存储超级周期、AI算力需求爆发与国产替代加速三大利好共振。三股力量叠加推动产业景气度显著回升，半导体板块成为市场焦点。",
-      "source": "Serper → 搜狐",
-      "published": "2026-04-18",
-      "url": "https://m.sohu.com/a/1011364916_166680",
-      "tags": [
-        "存储周期",
-        "AI算力",
-        "国产替代",
-        "产业景气",
-        "三重共振"
-      ],
-      "insights": [
-        "三重共振格局下，存储芯片与AI相关芯片是最大受益板块",
-        "国产替代加速不仅是政策驱动，更是产能与技术突破的实质进展",
-        "三重共振可能持续2-3年，但需警惕过度乐观后的周期性回调"
-      ],
-      "actions": [
-        "重点评估存储芯片供应商（长鑫等）的产能爬坡与交付能力",
-        "梳理国产替代进展中哪些环节已达到可替代水平，制定切换时间表",
-        "关注三重共振下的库存策略，避免过度囤货或错失窗口"
-      ],
-      "glossary": [
-        "CoWoS",
         "OSAT"
       ],
       "region": "domestic"
     },
     {
-      "title": "芯片公司股价超越茅台，成新\"股王\"",
-      "summary": "中国芯片设计公司股价超越茅台，成为A股新\"股王\"。反映资本市场对半导体产业的高度认可与AI算力投资热潮的推动。",
-      "source": "Serper → 搜狐",
-      "published": "2026-04-17",
-      "url": "https://m.sohu.com/a/1011038807_121948416",
+      "title": "Cerebras Systems再度冲刺IPO，史上最大AI芯片独角兽刚拿下千亿大单",
+      "summary": "美国AI芯片独角兽Cerebras Systems披露IPO申请文件，再度向上市发起冲刺。Cerebras以晶圆级芯片（Wafer-Scale Engine）著称，单芯片面积远超传统GPU，近期签下G42集团数十亿美元大单。",
+      "source": "Serper",
+      "published": "2026-04-18",
+      "url": "https://zhidx.com/p/550397.html",
       "tags": [
-        "芯片设计",
-        "资本市场",
-        "AI投资",
-        "股王"
+        "AI芯片",
+        "IPO",
+        "设计公司",
+        "海外"
       ],
       "insights": [
-        "芯片股王现象反映市场对AI算力赛道的估值溢价已超越传统消费龙头",
-        "高估值背后需要审视业绩支撑，警惕概念炒作与实际盈利的脱节",
-        "设计公司估值飙升可能加速行业并购整合节奏"
+        "晶圆级计算架构从概念走向商业化，Cerebras上市标志非GPU架构的AI芯片获得资本市场认可",
+        "G42大单验证中东AI基础设施投资的持续性"
       ],
       "actions": [
-        "评估当前芯片设计公司估值是否合理，为潜在投资或合作决策提供参考",
-        "关注高估值设计公司的并购动向，可能成为供应商或客户变动信号",
-        "区分AI概念驱动与基本面支撑的公司，优先合作有实质产出的企业"
-      ],
-      "glossary": [],
-      "region": "domestic"
-    },
-    {
-      "title": "SEMICON China 2026直击：万亿美金\"芯\"时代，AI算力与存储成焦点",
-      "summary": "SEMICON China 2026展会聚焦AI算力、存储芯片与国产设备材料三大主题。万亿美金市场规模预期推动产业投资加速，国产EDA/IP也有新进展展示。",
-      "source": "SerpAPI → 四川在线",
-      "published": "2026-04",
-      "url": "https://cbgc.scol.com.cn/news/7425799",
-      "tags": [
-        "SEMICON",
-        "AI算力",
-        "存储",
-        "国产设备",
-        "EDA"
-      ],
-      "insights": [
-        "SEMICON China是观察国产半导体设备材料进展的最佳窗口",
-        "万亿美金市场预期推动国内外设备厂商加大在华投入",
-        "国产EDA/IP在展会上有进展展示，但与三大国际巨头的差距仍然明显"
-      ],
-      "actions": [
-        "关注SEMICON China发布的国产设备材料新品清单，评估替代可能性",
-        "梳理展会中值得跟进的EDA/IP国产供应商，安排后续技术评估",
-        "跟踪展会期间发布的产业合作与投资签约信息"
+        "关注Cerebras晶圆级芯片供应链（与TSMC合作），评估是否影响先进制程产能分配",
+        "跟踪非GPU架构AI芯片进展，作为采购策略的差异化选项"
       ],
       "glossary": [
-        "SEMICON China"
+        "WSE"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "源杰科技3年涨13倍超越茅台成A股新股王，拟12.5亿扩产",
+      "summary": "源杰科技盘中股价一度报1415元/股，超越贵州茅台跃居A股第一。年初至今股价已涨超120%，公司净利润激增超32倍，拟投入12.5亿元扩产。源杰科技主营光通信芯片/激光器芯片。",
+      "source": "Serper",
+      "published": "2026-04-17",
+      "url": "https://finance.sina.cn/2026-04-17/detail-inhuupte2307688.d.html",
+      "tags": [
+        "设计公司",
+        "光芯片",
+        "A股",
+        "国内"
+      ],
+      "insights": [
+        "光通信/激光器芯片赛道爆发，源杰科技股价反映市场对光芯片国产替代的高度预期",
+        "12.5亿扩产计划将对上游晶圆和封测产能提出新需求"
+      ],
+      "actions": [
+        "评估源杰科技扩产对晶圆产能需求的影响，提前锁定代工资源",
+        "关注光芯片赛道其他设计公司的融资与扩产动向"
+      ],
+      "glossary": [
+        "光芯片"
       ],
       "region": "domestic"
     },
     {
-      "title": "英特尔概念股盘点：台股与美股谁更受益",
-      "summary": "随着英特尔战略调整与代工业务推进，市场盘点英特尔概念股分布。台股供应链与美股直接投资各有优势，反映英特尔转型对全球半导体供应链的连锁影响。",
-      "source": "Serper → EBC金融",
+      "title": "黄仁勋200亿美金接盘Groq：AI推理芯片格局重塑",
+      "summary": "NVIDIA CEO黄仁勋据悉以约200亿美元估值收购/投资AI推理芯片公司Groq。Groq主打LPU推理加速架构，已累计融资18亿美元。此举意味着NVIDIA正从训练芯片向推理芯片领域纵向扩张。",
+      "source": "Brave",
       "published": "2026-04-18",
-      "url": "https://www.ebc.com/zh-cn/jinrong/293278.html",
+      "url": "https://36kr.com/p/3612074260841728",
       "tags": [
-        "英特尔",
-        "概念股",
-        "供应链",
-        "代工转型"
+        "AI芯片",
+        "并购",
+        "NVIDIA",
+        "海外"
       ],
       "insights": [
-        "英特尔代工转型正在重塑全球半导体供应链格局，台系供应商受益明显",
-        "英特尔从芯片设计商转向代工服务商的角色变化，为OSAT和设备供应商带来新机遇",
-        "台股英特尔概念股弹性更大，但美股标的更直接"
+        "NVIDIA收购Groq标志着推理芯片赛道正式纳入GPU巨头版图，推理架构竞争格局面临重塑",
+        "LPU架构与传统GPU推理路径互补，并购后NVIDIA将同时覆盖训练+推理全栈"
       ],
       "actions": [
-        "评估英特尔代工业务进展是否影响现有代工供应商选择策略",
-        "关注英特尔先进封装合作方（如日月光等），评估新供应商引入时机",
-        "区分英特尔概念股中的实质受益者与概念炒作标的"
+        "重新评估AI推理芯片供应商格局，Groq并入NVIDIA后客户议价能力可能变化",
+        "关注推理芯片替代方案（如AMD MI300、Intel Gaudi）的战略价值"
       ],
-      "glossary": [],
+      "glossary": [
+        "LPU"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "65家中国芯片设计企业上榜CB Insights首份中国芯片设计榜单",
+      "summary": "CB Insights首次发布中国芯片设计企业榜单，65家中国企业上榜，覆盖GPU/AI芯片、MCU、模拟/射频、存储控制器等多个细分领域。榜单反映中国芯片设计企业数量快速增长，但整体营收规模与国际巨头差距仍然显著。",
+      "source": "Brave",
+      "published": "2026-04-18",
+      "url": "http://www.epicmems.com/news/13",
+      "tags": [
+        "设计公司",
+        "榜单",
+        "国内"
+      ],
+      "insights": [
+        "65家上榜反映中国芯片设计生态从数量积累转向质量筛选的关键阶段",
+        "细分领域多点开花但龙头效应不足，并购整合将是下一阶段主题"
+      ],
+      "actions": [
+        "利用榜单梳理芯片设计供应商全景图，优先关注细分领域头部企业",
+        "评估上榜企业中哪些有潜在采购合作机会"
+      ],
+      "glossary": [
+        "fabless"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "燧原科技IPO突爆大消息：腾讯+大基金加持的国产GPU设计公司",
+      "summary": "燧原科技IPO进程引发市场关注。该公司主营云端AI训练/推理GPU，腾讯为最大股东，国家大基金二期为第五大股东。燧原是国内少数拥有自主GPU架构的AI芯片设计公司。",
+      "source": "Brave",
+      "published": "2026-04-18",
+      "url": "https://www.stcn.com/article/detail/3568364.html",
+      "tags": [
+        "设计公司",
+        "IPO",
+        "GPU",
+        "国内"
+      ],
+      "insights": [
+        "燧原科技IPO代表国产GPU第二梯队进入资本市场，但与壁仞/天数等竞争格局仍不明朗",
+        "腾讯+大基金双加持反映国产AI芯片的政策与产业资本双轮驱动"
+      ],
+      "actions": [
+        "跟踪燧原IPO后产能规划，评估其GPU产品在AI推理场景的可用性",
+        "关注国产GPU赛道多家公司同时IPO的产能与服务竞争"
+      ],
+      "glossary": [
+        "AI GPU"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "2026年Q1半导体初创融资：Kandou AI完成2.25亿美元战略融资聚焦Chiplet互联IP",
+      "summary": "2026年Q1半导体初创融资盘点：Kandou AI（芯片互联IP）完成2.25亿美元战略融资，由Maverick Silicon领投；多家AI芯片/EDA/材料初创获得不同规模融资。总体融资环境在AI芯片赛道仍然活跃。",
+      "source": "Brave",
+      "published": "2026-04-14",
+      "url": "https://news.qq.com/rain/a/20260414A0698200",
+      "tags": [
+        "融资",
+        "EDA/IP",
+        "海外"
+      ],
+      "insights": [
+        "Kandou AI 2.25亿融资反映芯片互联IP赛道在Chiplet时代的重要性急升",
+        "Q1融资集中在AI芯片和先进封装相关领域，传统半导体赛道融资趋冷"
+      ],
+      "actions": [
+        "关注Kandou AI的Chiplet互联IP技术路线，评估其在先进封装设计中的可用性",
+        "梳理Q1融资企业中哪些产品线与采购需求匹配"
+      ],
+      "glossary": [
+        "Chiplet互联IP"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "半导体IPO潮涌：壁仞科技、天数智芯等硬科技企业港股挂牌",
+      "summary": "港股半导体IPO潮持续，壁仞科技、天数智芯（GPU/高性能计算）已挂牌；英诺赛科（氮化镓）上市；纳芯微（模拟芯片）在港股布局。A股方面多家封测/设计公司排队。反映中国半导体资本化进程加速。",
+      "source": "Brave",
+      "published": "2026-04-18",
+      "url": "https://www.stcn.com/article/detail/3582473.html",
+      "tags": [
+        "IPO",
+        "设计公司",
+        "国内"
+      ],
+      "insights": [
+        "GPU/AI芯片设计公司密集IPO反映国产替代赛道进入资本兑现期",
+        "港股成为硬科技IPO首选地，A股壳资源模式与港股注册制并行"
+      ],
+      "actions": [
+        "跟踪港股半导体IPO公司的业务进展与产能规划",
+        "评估IPO后公司财务实力对供应链稳定性的影响"
+      ],
+      "glossary": [
+        "氮化镓"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "朋熙半导体完成超10亿元战略融资聚焦CIM系统国产化突破",
+      "summary": "上海朋熙半导体完成超10亿元战略融资，聚焦CIM（制造执行系统）国产化突破。江苏矽谦半导体在扬州高邮完成数亿元增资。反映半导体制造信息化赛道获得大额资本投入。",
+      "source": "SerpAPI",
+      "published": "2026-04-18",
+      "url": "https://www.dramx.com/Info/",
+      "tags": [
+        "融资",
+        "EDA/CIM",
+        "国内"
+      ],
+      "insights": [
+        "CIM系统国产化获得10亿级融资，反映Fab信息化/智能制造成为国产替代新战场",
+        "Fab运营软件生态正在快速国产化，朋熙CIM有望成为国产CIM标杆"
+      ],
+      "actions": [
+        "评估朋熙CIM系统在Fab运营中的可用性，作为国产替代方案纳入选型",
+        "关注Fab信息化赛道融资企业产品成熟度"
+      ],
+      "glossary": [
+        "CIM"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "中芯国际发布2025年报：全年销售收入93.27亿美元同比增长16.2%",
+      "summary": "中芯国际发布2025年度报告，全年销售收入93.27亿美元，同比增长16.2%，经营业绩再上新台阶。作为中国最大晶圆代工厂，中芯国际的营收增长反映国内Fab需求持续旺盛。",
+      "source": "SerpAPI",
+      "published": "2026-03-26",
+      "url": "https://www.smics.com/tc/",
+      "tags": [
+        "Fab/制造",
+        "中芯国际",
+        "国内"
+      ],
+      "insights": [
+        "中芯国际16.2%增长反映国内晶圆代工需求旺盛，但增速主要来自成熟制程扩产",
+        "93亿美元营收规模与TSMC差距仍然巨大，先进制程突破是下一阶段关键"
+      ],
+      "actions": [
+        "关注中芯国际产能分配策略变化，评估成熟制程产能对设计公司出货的影响",
+        "跟踪中芯国际先进制程（14nm及以下）的客户导入进展"
+      ],
+      "glossary": [
+        "成熟制程"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "芯片与卫星竞赛升温：AI基础设施投资从数据中心向边缘和太空扩展",
+      "summary": "科技巨头在AI基础设施竞赛中持续加码，芯片与卫星通信成为新投资热点。多家公司同步推进AI芯片自研和卫星数据链路建设，反映AI算力需求正从数据中心向边缘和太空扩展。",
+      "source": "Serper",
+      "published": "2026-04-18",
+      "url": "https://meyka.com/blog/ai-tech-giants-april-18-chip-satellite-race-heats-up-1804/",
+      "tags": [
+        "AI芯片",
+        "卫星",
+        "海外"
+      ],
+      "insights": [
+        "AI算力需求从数据中心向卫星/边缘扩展，芯片应用场景多元化加速",
+        "卫星+AI组合反映地缘政治驱动的通信基础设施竞争"
+      ],
+      "actions": [
+        "关注AI芯片在卫星/边缘场景的需求，评估对先进封装产能的影响",
+        "跟踪卫星通信芯片供应链变化"
+      ],
+      "glossary": [
+        "边缘AI"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "Andrew Ng提出Unbiggen AI：小模型趋势对芯片设计的影响",
+      "summary": "Andrew Ng在IEEE Spectrum撰文提出Unbiggen AI理念，主张用更小模型配合更高质量数据来解决问题。这一趋势如果成立，将降低对超大算力芯片的需求，可能影响AI芯片市场增长预期。",
+      "source": "RSS-IEEE Spectrum",
+      "published": "2026-04-18",
+      "url": "https://spectrum.ieee.org/andrew-ng-data-centric-ai",
+      "tags": [
+        "AI",
+        "设计方法",
+        "海外"
+      ],
+      "insights": [
+        "小模型趋势如果扩散，将改变AI芯片需求结构——推理芯片重要性上升，训练芯片增速放缓",
+        "数据驱动AI方法论对EDA工具链也可能产生影响"
+      ],
+      "actions": [
+        "评估小模型趋势对AI芯片采购需求的影响，调整长期产能规划假设",
+        "关注EDA工具在数据驱动AI设计流程中的新应用场景"
+      ],
+      "glossary": [
+        "Unbiggen AI"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "半导体制造市场预测2026-2033：MES平台升级与晶圆级追溯",
+      "summary": "市场研究报告预测半导体制造市场2026-2033年持续增长，MES平台升级以提升晶圆级追溯和工艺优化成为关键趋势。Fab信息化投入预计加速。",
+      "source": "Brave",
+      "published": "2026-04-18",
+      "url": "https://www.coherentmarketinsights.com/industry-reports/semiconductor-fabrication-market",
+      "tags": [
+        "Fab/制造",
+        "MES",
+        "海外"
+      ],
+      "insights": [
+        "MES平台升级反映Fab信息化从辅助工具向核心竞争力的角色转变",
+        "晶圆级追溯需求驱动MES国产替代和进口升级并行"
+      ],
+      "actions": [
+        "评估现有Fab合作伙伴的MES系统水平，作为供应商选择维度之一",
+        "关注MES国产化进展，与朋熙CIM等国产方案做对标"
+      ],
+      "glossary": [
+        "MES"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "中国芯片制造补贴3.6倍于美国：十年产业政策投入对比",
+      "summary": "数据显示过去十年中国在芯片制造补贴上的支出是美国的3.6倍。这一差距反映两国半导体产业政策投入力度显著不同，也引发对中国Fab产能效率和补贴依赖的讨论。",
+      "source": "HN",
+      "published": "2026-04-18",
+      "url": "https://news.ycombinator.com/item?id=43682751",
+      "tags": [
+        "Fab/制造",
+        "政策",
+        "海外"
+      ],
+      "insights": [
+        "3.6倍补贴差距反映中国半导体产业政策驱动的强度，但补贴效率与市场化运营的平衡是长期挑战",
+        "美国补贴力度偏低但企业自投意愿强，两种模式各有优劣"
+      ],
+      "actions": [
+        "评估中国补贴政策对Fab产能过剩风险的长期影响",
+        "关注美国CHIPS Act后续补贴落地节奏"
+      ],
+      "glossary": [
+        "CHIPS Act"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "NVIDIA称AI将芯片设计工作量从80人月压缩至一夜完成",
+      "summary": "NVIDIA宣布AI辅助芯片设计可将原本需要80人月的工作量压缩至单个GPU一夜完成。这一声明在Reddit获得833分热议，反映AI+EDA融合正从概念走向实际生产。",
+      "source": "Reddit",
+      "published": "2026-04-18",
+      "url": "https://videocardz.com/nvidia-ai-chip-design",
+      "tags": [
+        "EDA",
+        "AI",
+        "NVIDIA",
+        "海外"
+      ],
+      "insights": [
+        "AI压缩芯片设计周期80倍，若真实将对EDA工具市场和设计公司运营模式产生深远影响",
+        "AI+EDA融合加速可能重塑芯片设计人才需求和外包市场"
+      ],
+      "actions": [
+        "关注AI辅助EDA工具的实际落地效果和可用产品",
+        "评估AI缩短设计周期对晶圆产能需求节奏的影响"
+      ],
+      "glossary": [
+        "AI-EDA"
+      ],
       "region": "overseas"
     }
   ]
