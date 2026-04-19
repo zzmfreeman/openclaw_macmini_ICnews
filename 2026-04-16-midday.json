@@ -1,0 +1,238 @@
+{
+  "version": "v20260416-1300",
+  "generatedAt": "2026-04-16T13:00:00+08:00",
+  "period": "midday",
+  "commit": "",
+  "glossary_list": [
+    {
+      "term": "盛合晶微",
+      "desc": "AI算力芯片设计公司，专注于高性能计算芯片",
+      "category": "设计"
+    },
+    {
+      "term": "CoPoS",
+      "desc": "台积电先进封装技术，CoWoS的演进版本，更高密度集成",
+      "category": "封装"
+    },
+    {
+      "term": "概伦电子",
+      "desc": "国产EDA公司，器件建模和电路仿真工具供应商",
+      "category": "EDA"
+    },
+    {
+      "term": "联讯仪器",
+      "desc": "国产半导体测试设备公司，专注晶圆级测试方案",
+      "category": "设备"
+    },
+    {
+      "term": "韬盛科技",
+      "desc": "EDA/半导体设计工具公司，冲刺科创板上市",
+      "category": "EDA"
+    }
+  ],
+  "topic_pulse": [
+    {
+      "topic": "CoWoS/先进封装",
+      "heat": "↑↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": ""
+    },
+    {
+      "topic": "HBM/AI存储",
+      "heat": "↑↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": ""
+    },
+    {
+      "topic": "中国Fab/先进制程",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": ""
+    },
+    {
+      "topic": "国产EDA/IP",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": ""
+    },
+    {
+      "topic": "封测OSAT",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": ""
+    },
+    {
+      "topic": "出口管制/制裁",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": ""
+    },
+    {
+      "topic": "AI芯片/NVIDIA",
+      "heat": "↑↑升温",
+      "reddit_top": null,
+      "hn_top": "Nvidia market share in China falls to less than 60% (3pts)",
+      "summary": ""
+    },
+    {
+      "topic": "设备/材料国产化",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": ""
+    }
+  ],
+  "items": [
+    {
+      "title": "瑞和数智战略投资盛合晶微，布局AI算力核心赛道_公司新闻_财经",
+      "summary": "2026年4月15日，瑞和数智（03680.HK）发布公告，通过投资某基金参与了对国内先进封测龙头——盛合晶微半导体有限公司（以下简称“盛合晶微”）的投资，持有其重要股权.",
+      "source": "Serper",
+      "published": "5小时前",
+      "url": "https://wap.stockstar.com/detail/IG2026041600007857",
+      "tags": [
+        "投资/并购"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "起底存储芯片“闪电并购”：业绩狂飙背后，客户、供应链、研发疑点重重",
+      "summary": "前言：从传统生态园林工程赛道，跨界切入半导体存储高科技领域，诚邦股份的这场转型，自落地之初便引发市场广泛关注。公司连续多年业绩亏损、负债规模高企、应收账款坏账...",
+      "source": "Serper",
+      "published": "18小时前",
+      "url": "https://m.10jqka.com.cn/20260415/c676014390.shtml",
+      "tags": [
+        "设计公司",
+        "投资/并购",
+        "存储"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "日联科技拟购上海菲莱控制权，标的曾曲线上市未果",
+      "summary": "来源：北京商报）. 前次被纳尔股份收购折戟仅三个月，上海菲莱测试技术有限公司（以下简称“上海菲莱”）迅速觅得了新买家。4月14日晚间，A股百亿龙头企业日联科技（688531）披露...",
+      "source": "Serper",
+      "published": "16小时前",
+      "url": "https://finance.sina.com.cn/jjxw/2026-04-15/doc-inhuqwsw3356329.shtml",
+      "tags": [
+        "投资/并购"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "半导体IP第一股，狂揽60亿订单！",
+      "summary": "设想一个场景。 现在你是一名芯片设计工程师，要设计一款应用于可穿戴设备上的产品，初步确定好芯片的规格、能耗、功能和架构设计后。 下一步该怎么做呢？",
+      "source": "Serper",
+      "published": "18小时前",
+      "url": "https://caifuhao.eastmoney.com/news/20260415190511663917450",
+      "tags": [
+        "设计公司",
+        "EDA/IP"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "联讯仪器申购：国产测试设备龙头的“硬科技”突围与估值博弈",
+      "summary": "在全球电子测量仪器市场规模预计2029年达183.8亿美元的背景下，这家以光通信测试为核心、半导体测试为增长极的企业，能否凭借技术壁垒和客户优势，在估值与风险的天平上...",
+      "source": "Serper",
+      "published": "13小时前",
+      "url": "https://m.sohu.com/a/1010074504_121361416?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+      "tags": [
+        "Fab/制造",
+        "投资/并购"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "韬盛科技冲刺科创板，同行索赔或成“拦路虎”？",
+      "summary": "发力探针卡业务。 《投资者网》张伟日前，上海韬盛电子科技股份有限公司（下称“韬盛科.",
+      "source": "Serper",
+      "published": "3小时前",
+      "url": "https://mp.ofweek.com/ee/a356714852637",
+      "tags": [
+        "EDA/IP",
+        "投资/并购"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "[年报]概伦电子(688206):2025年年度报告摘要",
+      "summary": "[年报]概伦电子(688206):2025年年度报告摘要.",
+      "source": "Serper",
+      "published": "4小时前",
+      "url": "https://www.cfi.net.cn/p20260416000137.html",
+      "tags": [
+        "EDA/IP"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "纳芯微(688052):光大证券股份有限公司关于苏州纳芯微电子股份有限公司2025年度持续督导跟踪报告",
+      "summary": "纳芯微(688052):光大证券股份有限公司关于苏州纳芯微电子股份有限公司2025年度持续督导跟踪报告.",
+      "source": "Serper",
+      "published": "45分钟前",
+      "url": "https://www.cfi.net.cn/p20260416001329.html",
+      "tags": [
+        "设计公司"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "VFabTech Launches to Expand Semiconductor Capacity for AI and Manufacturing - San Francisco Today",
+      "summary": "VFabTech, a new semiconductor engineering and consulting company, has launched to help semiconductor manufacturers expand their manufacturing capacity to meet growing demand driven by AI, robotics, an",
+      "source": "Brave",
+      "published": "4 days ago",
+      "url": "https://nationaltoday.com/us/ca/san-francisco/news/2026/04/11/vfabtech-launches-to-help-expand-semiconductor-capacity/",
+      "tags": [
+        "产业动态"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "TeraFab建设进展：特斯拉-SpaceX-xAI芯片设施首度曝光",
+      "summary": "Tesla与SpaceX及xAI联合建设的TeraFab芯片制造设施正在推进，这是马斯克垂直整合战略的重要一步，将部分自研芯片生产纳入内部体系。",
+      "source": "Brave/Tom's Hardware",
+      "published": "2026-04-16",
+      "url": "https://tomshardware.com/tech-industry/semiconductors/analyzing-elon-musks-terafab-a-step-towards-tesla-and-spacs-partial-vertical-integration",
+      "tags": [
+        "Fab/制造"
+      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas"
+    }
+  ]
+}

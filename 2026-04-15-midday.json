@@ -1,0 +1,255 @@
+{
+  "version": "v20260415-1300",
+  "generatedAt": "2026-04-15T13:00:00+08:00",
+  "period": "midday",
+  "commit": "",
+  "glossary_list": [
+    {
+      "term": "CoPoS",
+      "desc": "Chip on Panel on Substrate，台积电面板级先进封装技术，面向AI大芯片需求",
+      "category": "封装"
+    },
+    {
+      "term": "SiC碳化硅",
+      "desc": "第三代半导体功率器件材料，耐高温高电压，用于新能源车和工业电源",
+      "category": "材料"
+    },
+    {
+      "term": "MATCH法案",
+      "desc": "美国《Modernizing American Technology for Competitiveness and Hegemony》，针对中国半导体五虎将的升级制裁法案",
+      "category": "商业"
+    },
+    {
+      "term": "Rapidus",
+      "desc": "日本政府扶持的先进逻辑芯片制造商，目标2nm量产，对标台积电",
+      "category": "封装"
+    },
+    {
+      "term": "Chiplet",
+      "desc": "芯片组/小芯粒设计方法，将大芯片拆分为多个功能芯粒再通过先进封装互联",
+      "category": "封装"
+    }
+  ],
+  "topic_pulse": [
+    {
+      "topic": "CoWoS/先进封装",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": "A Brief History of Semiconductor Packaging [video] (points:99)",
+      "summary": "HN有相关讨论: A Brief History of Semiconductor Packaging [video]，整体热度平稳。"
+    },
+    {
+      "topic": "HBM/AI存储",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": "An EU startup just beat Nvidia in AI hardware (points:1)",
+      "summary": "HN有相关讨论: An EU startup just beat Nvidia in AI hardware，整体热度平稳。"
+    },
+    {
+      "topic": "中国Fab",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": "China's top chipmaker SMIC says US restrictions hampering growth (points:2)",
+      "summary": "HN有相关讨论: China's top chipmaker SMIC says US restrictions hampering gr，整体热度平稳。"
+    },
+    {
+      "topic": "国产EDA",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": "Activist Elliott Builds Big Stake in EDA Chip-Design Software Maker Synopsys (points:2)",
+      "summary": "HN有相关讨论: Activist Elliott Builds Big Stake in EDA Chip-Design Softwar，整体热度平稳。"
+    },
+    {
+      "topic": "封测OSAT",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": "A Chip Packaging War Brews Between TSMC and ASE (points:3)",
+      "summary": "HN有相关讨论: A Chip Packaging War Brews Between TSMC and ASE，整体热度平稳。"
+    },
+    {
+      "topic": "出口管制",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": "Japan and the Netherlands join US with tough chip controls on China (points:3)",
+      "summary": "HN有相关讨论: Japan and the Netherlands join US with tough chip controls o，整体热度平稳。"
+    },
+    {
+      "topic": "AI芯片/NVIDIA",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": "Four co's are hoarding billions worth of Nvidia GPU chips. Meta has 350K of them (points:27)",
+      "summary": "HN有相关讨论: Four co's are hoarding billions worth of Nvidia GPU chips. M，整体热度平稳。"
+    },
+    {
+      "topic": "设备/材料国产化",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "近期社区讨论较少，暂无明显热点。"
+    }
+  ],
+  "items": [
+    {
+      "title": "美国怕了华为自研芯片,狠砸新规制裁五虎将,妄图将咱们打回原地",
+      "summary": "点名道姓要对华为、中芯国际、华虹、长鑫存储和长江存储这五虎将实行全方位物理隔绝。法案的核心潜台词只有一句话：既然三年时间没能把中国芯彻底按死在泥潭里，那就干脆使狠招，想办法通过150天的通牒期把中国芯赶回2022年的落魄处境。这种“时间倒流",
+      "source": "SerpAPI(Baidu)",
+      "published": "",
+      "url": "https://baijiahao.baidu.com/s?id=1862319106922193966&wfr=spider&for=pc",
+      "tags": [
+        "出口管制"
+      ],
+      "insights": [
+        "美国MATCH法案升级制裁，针对华为/中芯/华虹/长鑫/长江存储五家企业",
+        "150天通牒期设计意图明确：加速封锁中国先进制程能力"
+      ],
+      "actions": [
+        "跟踪美国MATCH法案具体执行细则和150天通牒影响",
+        "评估被制裁五家企业的供应链替代方案储备"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "台积电CoPoS中试生产线预计将于6月完工",
+      "summary": "据Commercial Times报道，台积电CoPoS（基于基板的面板级芯片封装）中试生产线已于2月启动设备交付，整条产线预计6月全面建成。btfesmc. 报道指出，随着AI芯片尺寸持续扩大，...",
+      "source": "Serper(Google)",
+      "published": "3小时前",
+      "url": "https://www.esmchina.com/marketnews/57718.html",
+      "tags": [
+        "先进封装",
+        "Fab/制造"
+      ],
+      "insights": [
+        "台积电CoPoS技术加速推进，面板级封装成为AI芯片新方向",
+        "6月产线完工时间点值得关注，产能释放节奏影响下游AI芯片交付"
+      ],
+      "actions": [
+        "关注台积电CoPoS产线6月完工进展及下游客户分配",
+        "跟踪台积电先进封装产能扩张节奏对供应链的影响"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "3D IC和Chiplet技术正成为竞争焦点",
+      "summary": "半导体行业技术竞赛的焦点正从先进工艺节点转向封装。随着线宽缩小接近物理极限，2.5D和3D堆叠以及芯片组已成为性能竞争的关键决定因素。这一趋势正在重塑整个价值链，其...",
+      "source": "Serper(Google)",
+      "published": "21小时前",
+      "url": "https://m.thepaper.cn/newsDetail_forward_32960363",
+      "tags": [
+        "先进封装",
+        "EDA/IP"
+      ],
+      "insights": [
+        "先进封装取代先进制程成为性能竞争关键",
+        "价值链重构：从单芯片集成到多芯粒异构集成"
+      ],
+      "actions": [
+        "关注3D IC/Chiplet设计工具链（EDA/IP）投资机会",
+        "评估先进封装技术对现有OSAT格局的冲击"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "一期预计9月投产，这一碳化硅项目正式签约",
+      "summary": "4月14日，中瑞宏芯碳化硅芯片封测基地项目正式入驻江阴高新区中韩集成电路产业园，同步完成集中签约与二期工程开工。据悉，项目总投资1.8亿元，占地62.2亩，聚焦碳化硅功率...",
+      "source": "Serper(Google)",
+      "published": "31分钟前",
+      "url": "https://www.eet-china.com/mp/a487920.html",
+      "tags": [
+        "Fab/制造"
+      ],
+      "insights": [
+        "SiC功率器件市场持续扩容，国内封测基地加速落地",
+        "9月投产时间点需关注产能爬坡进度"
+      ],
+      "actions": [
+        "跟踪中瑞宏芯SiC封测基地9月投产进度",
+        "评估SiC产业链国产替代进展"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "「天风电子」关注存储、设备材料、封测、SOC、模拟等高景气度环节...",
+      "summary": "国产算力方向：国内字节、阿里、腾讯今年资本开支呈现爆发式增长，对国产算力芯片需求大增，供给侧国内先进工艺制程逐渐突破叠加先进封测产能逐渐爬升，国产算力环节有望迎来加速期，建议重点关注：先进工艺制造：中芯国际（港股）、华虹半导体（港股）；国产",
+      "source": "SerpAPI(Baidu)",
+      "published": "",
+      "url": "https://baijiahao.baidu.com/s?id=1862470479376343979&wfr=spider&for=pc",
+      "tags": [
+        "先进封装",
+        "存储",
+        "设计公司"
+      ],
+      "insights": [
+        "国内云厂商资本开支爆发式增长，国产算力芯片需求大增",
+        "先进工艺+先进封测双突破，国产算力环节迎加速期"
+      ],
+      "actions": [
+        "持续关注相关领域发展动态"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "“工业大米”三年实现10倍增长！温岭如何让“中国芯”持续跳动？",
+      "summary": "4月14日，位于温岭新城开发区的浙江益中半导体有限公司无尘车间内，6台双轴划片机正将晶圆切割成单颗芯片，27台上芯机和36台焊线机满负荷运转。“目前日产量稳定在80万颗...",
+      "source": "Serper(Google)",
+      "published": "4小时前",
+      "url": "https://zjnews.zjol.com.cn/zjnews/zjxw/202604/t20260415_31605773.shtml",
+      "tags": [
+        "国产替代"
+      ],
+      "insights": [
+        "温岭芯片封装产业三年10倍增长，体现国产替代加速度",
+        "日产80万颗规模反映国内封测产能快速扩张"
+      ],
+      "actions": [
+        "持续关注相关领域发展动态"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "Japan Bets $16 Billion to Propel Rapidus Into AI Chips",
+      "summary": "Japan investing $16 billion to boost Rapidus as an AI chip manufacturer, aiming to compete with TSMC and Samsung in adva",
+      "source": "Financial Post",
+      "published": "2026-04-14",
+      "url": "https://financialpost.com/pmn/business-pmn/japan-bets-16-billion-to-propel-rapidus-into-ai-chips/",
+      "tags": [
+        "Fab/制造",
+        "EDA/IP"
+      ],
+      "insights": [
+        "日本豪赌160亿美元扶持Rapidus，意在与台积电三星竞争AI芯片制造",
+        "Rapidus能否在2nm工艺上实现量产仍是最大不确定性"
+      ],
+      "actions": [
+        "关注Rapidus 2nm工艺量产进展和日本政府后续投入计划",
+        "评估日本半导体复兴对全球代工格局的潜在影响"
+      ],
+      "glossary": [],
+      "region": "overseas"
+    },
+    {
+      "title": "TSMC Shares Surge Past 2,000 TWD as AI Demand Fuels Record Q1 Revenue",
+      "summary": "TSMC shares crossed the 2,000 TWD milestone driven by unprecedented AI chip demand, with Q1 revenue hitting record highs",
+      "source": "IBTimes",
+      "published": "2026-04-14",
+      "url": "https://www.ibtimes.com.au/tsmc-shares-surge-past-2000-twd-ai-demand-fuels-record-q1-revenue-surge",
+      "tags": [
+        "Fab/制造"
+      ],
+      "insights": [
+        "台积电股价突破2000新台币，AI需求驱动Q1营收创纪录",
+        "台积电在AI芯片代工领域的垄断地位进一步巩固"
+      ],
+      "actions": [
+        "持续关注相关领域发展动态"
+      ],
+      "glossary": [],
+      "region": "overseas"
+    }
+  ]
+}

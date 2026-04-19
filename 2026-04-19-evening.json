@@ -1,0 +1,340 @@
+{
+  "version": "v20260419-2000",
+  "generatedAt": "2026-04-19T20:00:00+08:00",
+  "period": "evening",
+  "commit": "",
+  "glossary_list": [
+    {
+      "term": "Intel Foundry",
+      "desc": "英特尔晶圆代工服务部门，2024年独立运营，提供14A/18A等先进制程",
+      "category": "商业"
+    },
+    {
+      "term": "Terafab",
+      "desc": "马斯克规划的超级芯片制造工厂，目标自建AI芯片产线",
+      "category": "商业"
+    },
+    {
+      "term": "EUV",
+      "desc": "极紫外光刻技术，13.5nm波长，用于7nm及以下先进制程",
+      "category": "设备"
+    },
+    {
+      "term": "CoWoS",
+      "desc": "TSMC晶圆上芯片封装技术，AI芯片核心先进封装方案",
+      "category": "封装"
+    },
+    {
+      "term": "HBM4",
+      "desc": "第四代高带宽存储器，预计2026-2027量产，带宽超2TB/s",
+      "category": "存储"
+    },
+    {
+      "term": "硅光",
+      "desc": "硅基光电子技术，将光互连集成在硅芯片上解决带宽瓶颈",
+      "category": "材料"
+    },
+    {
+      "term": "TEL",
+      "desc": "东京电子(Tokyo Electron)，日本半导体设备巨头，刻蚀/薄膜设备主力供应商",
+      "category": "设备"
+    },
+    {
+      "term": "OSAT",
+      "desc": "外包封测服务厂商（如日月光、长电科技），提供芯片封装和测试",
+      "category": "封装"
+    }
+  ],
+  "topic_pulse": [
+    {
+      "topic": "CoWoS/先进封装",
+      "heat": "↑↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "先进封装成为AI算力瓶颈核心议题，TSMC CoWoS产能持续紧张，Intel Foveros加速追赶。多篇文章聚焦封装从配角变主角的趋势。"
+    },
+    {
+      "topic": "HBM/AI存储",
+      "heat": "↑↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "三星宣布缩短HBM开发周期至1年，SK Hynix维持领先。ASML EUV订单中存储首次反超逻辑，HBM超级周期信号明确。"
+    },
+    {
+      "topic": "中国Fab/先进制程",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "中芯国际动态平稳，本周未见重大制程突破报道。晶晨半导体出货超10亿颗是设计公司亮点。"
+    },
+    {
+      "topic": "国产EDA/IP",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "本周无重大国产EDA突破报道。硅光IP赛道（Credo收购Dust Photonics）是IP领域最大动态。"
+    },
+    {
+      "topic": "封测OSAT",
+      "heat": "↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "先进封装大战升温，颀中科技年报披露显示封测赛道活跃。ST中迪获赠半导体资产转向封测赛道。"
+    },
+    {
+      "topic": "出口管制/制裁",
+      "heat": "↑↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "黄仁勋公开反对芯片制裁政策引发热议。日本加码对华光刻机断供，管制从限购升级到限用。制裁倒逼国产替代效应持续。"
+    },
+    {
+      "topic": "AI芯片/NVIDIA",
+      "heat": "↑↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "黄仁勋公开回应制裁是本周最大话题。NVIDIA游戏显卡产能缩减40%反映AI芯片优先策略。OpenAI与NVIDIA推理大战升温。"
+    },
+    {
+      "topic": "设备/材料国产化",
+      "heat": "↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "日本加码对华光刻机断供加速国产替代窗口。ASML EUV订单结构变化反映全球设备需求转向存储。TEL/尼康在华份额面临压缩。"
+    }
+  ],
+  "items": [
+    {
+      "title": "晶圆代工订单涌向英特尔，Intel Foundry获关键客户突破",
+      "summary": "晶圆代工订单正加速流向英特尔。Intel Foundry近期连续获得多家大客户代工订单，包括与Terafab、Google签署合作协议。TSMC CEO在财报会议上首次公开警告Intel Foundry正成为\"有力竞争者\"。这标志着英特尔代工业务从战略布局走向实质突破，可能重塑全球晶圆代工格局。",
+      "source": "腾讯新闻/Serper2",
+      "published": "2026-04-19T12:00:00+08:00",
+      "url": "https://view.inews.qq.com/a/20260419A03Q6100",
+      "tags": [
+        "代工",
+        "Intel Foundry",
+        "晶圆",
+        "TSMC"
+      ],
+      "insights": [
+        "Intel Foundry从\"追赶者\"向\"有力竞争者\"转变，全球代工格局面临重构",
+        "TSMC产能紧张推动客户寻求二供，英特尔14A节点良率提升是关键转折点",
+        "代工订单分散化趋势加速，单一依赖TSMC的风险被更多客户认知"
+      ],
+      "actions": [
+        "评估Intel Foundry作为二供的可行性，关注其14A/18A良率进展",
+        "与现有TSMC合作方确认产能排期，评估是否需要引入二供保障",
+        "跟踪Intel Foundry客户名单变化，预判代工价格走势"
+      ],
+      "glossary": [
+        "Intel Foundry",
+        "14A"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "特斯拉在台招聘工程师挖角台积电，Terafab先进制程团队加速组建",
+      "summary": "特斯拉在台大举招聘具备先进制程经验的芯片工程师，涵盖工艺开发、良率管理、设备调试等9类职位。马斯克的Terafab项目正询价三大设备巨头（ASML、TEL、Applied Materials），意图自建芯片产线。台积电已回应称\"建厂没有捷径\"，但人才争夺战已打响。",
+      "source": "财联社/Serper2",
+      "published": "2026-04-19T12:00:00+08:00",
+      "url": "https://www.cls.cn/detail/2347181",
+      "tags": [
+        "特斯拉",
+        "Terafab",
+        "台积电",
+        "人才",
+        "代工"
+      ],
+      "insights": [
+        "非传统半导体玩家自建产线将加剧人才争夺，影响代工厂人力成本",
+        "Terafab若成功将改变AI芯片供应链格局，特斯拉自供芯片可能成为趋势",
+        "台积电人才流失风险上升，尤其是在先进制程核心岗位"
+      ],
+      "actions": [
+        "关注Terafab进展及对台积电产能的影响，评估特斯拉自供风险",
+        "若依赖TSMC先进制程，需确认产能排期不受人才流失影响",
+        "跟踪非传统芯片公司自建产线趋势，预判代工市场供需变化"
+      ],
+      "glossary": [
+        "Terafab",
+        "先进制程"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "ASML：内存芯片EUV光刻订单量首次反超逻辑芯片",
+      "summary": "ASML最新财报显示，内存芯片客户的EUV光刻机订单量首次超过逻辑芯片客户。这标志着HBM和AI存储需求正驱动存储制造商大规模导入EUV工艺，DRAM从传统DUV向EUV迁移的趋势明确。SK Hynix、三星等HBM供应商的EUV采购加速，预示先进存储产能竞争进入新阶段。",
+      "source": "网易/Serper2",
+      "published": "2026-04-19T12:00:00+08:00",
+      "url": "https://www.163.com/dy/article/KQSHSJIM0511CPMT.html",
+      "tags": [
+        "ASML",
+        "EUV",
+        "HBM",
+        "存储",
+        "光刻"
+      ],
+      "insights": [
+        "存储EUV化意味着HBM成本结构变化，DRAM供需格局可能因产能升级而重塑",
+        "ASML订单结构变化是AI存储超级周期的最直接信号",
+        "逻辑芯片EUV需求相对放缓，可能反映先进制程客户产能布局已基本到位"
+      ],
+      "actions": [
+        "关注HBM供应商EUV导入进度，评估存储供应稳定性",
+        "ASML订单变化是供应链风向标，需纳入采购策略参考",
+        "评估存储芯片从DUV向EUV迁移对成本和良率的影响"
+      ],
+      "glossary": [
+        "EUV",
+        "DUV",
+        "HBM"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "先进封装大战再起：摩尔定律放缓后的产业链主角之争",
+      "summary": "随着摩尔定律逼近物理极限，先进封装正从产业链\"配角\"跃升为决定AI算力上限的\"主角\"。限制AI硬件供应的不只有芯片本身，先进封装产能成为新的瓶颈。TSMC CoWoS、Intel Foveros、三星 I-Cube4等方案竞逐，OSAT厂商也在加速布局。封装的价值链重构正在发生。",
+      "source": "搜狐网/Serper",
+      "published": "2026-04-19T13:00:00+08:00",
+      "url": "https://m.sohu.com/a/1011577195_121228203",
+      "tags": [
+        "先进封装",
+        "CoWoS",
+        "OSAT",
+        "AI算力"
+      ],
+      "insights": [
+        "先进封装产能是当前AI芯片供应的最大瓶颈，价值远超传统封装",
+        "封装技术路线分化（CoWoS/Foveros/I-Cube4）将重塑OSAT竞争格局",
+        "封装从成本中心变为利润中心，供应商议价权大幅提升"
+      ],
+      "actions": [
+        "评估封测供应商先进封装能力，优先选择有CoWoS/等效方案的OSAT",
+        "关注日月光/长电等OSAT先进封装扩产进展",
+        "将封装产能排期纳入采购关键路径管理"
+      ],
+      "glossary": [
+        "CoWoS",
+        "Foveros",
+        "OSAT"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "黄仁勋回应美国对中国禁售芯片：\"太蠢了，完全是失败心态\"",
+      "summary": "NVIDIA CEO黄仁勋在公开场合情绪失控式回应美国对中国禁售芯片政策，称\"太蠢了完全是失败心态\"。他指出限制只会让中国更加速自主研发，反而削弱美国科技领导地位。这一表态在产业界引发广泛讨论，也凸显了芯片制裁政策的博弈复杂性。",
+      "source": "cnBeta/Serper2",
+      "published": "2026-04-19T14:00:00+08:00",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1558780.htm",
+      "tags": [
+        "NVIDIA",
+        "制裁",
+        "出口管制",
+        "黄仁勋",
+        "AI芯片"
+      ],
+      "insights": [
+        "黄仁勋公开反对制裁反映出美国芯片企业在中国市场的重大利益冲突",
+        "制裁倒逼中国加速自主替代的效应已显现，可能加速国产GPU/AI芯片进程",
+        "政策博弈加剧了供应链不确定性，客户需做好多源准备"
+      ],
+      "actions": [
+        "关注制裁政策新动向，评估对GPU/AI芯片采购的影响",
+        "评估国产替代方案（如华为昇腾）作为二供的可行性",
+        "制定制裁升级情景下的应急采购预案"
+      ],
+      "glossary": [
+        "出口管制",
+        "国产替代"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "三星拟将HBM开发周期缩短至1年，加速追赶SK Hynix",
+      "summary": "韩媒报道三星计划将HBM开发周期从18-24个月压缩至12个月，以加速追赶SK Hynix在HBM市场的领先地位。三星此前在HBM3E良率和认证上落后于SK Hynix，缩短开发周期是其战略调整的核心举措。若成功，三星HBM4有望提前量产，改变HBM供应格局。",
+      "source": "世界新闻网/Serper2",
+      "published": "2026-04-18T19:00:00+08:00",
+      "url": "https://www.worldjournal.com/wj/story/121477/9450186",
+      "tags": [
+        "三星",
+        "HBM",
+        "SK Hynix",
+        "存储",
+        "AI"
+      ],
+      "insights": [
+        "三星HBM战略提速意味着HBM双供格局可能提前形成，供应风险降低",
+        "HBM开发周期压缩对良率管理是巨大挑战，量产时间仍有不确定性",
+        "SK Hynix HBM垄断地位可能被打破，价格议价空间有望改善"
+      ],
+      "actions": [
+        "关注三星HBM4开发进度和NVIDIA认证进展",
+        "评估引入三星作为HBM二供的可能性",
+        "HBM供应格局变化将影响AI芯片成本，需纳入预算规划"
+      ],
+      "glossary": [
+        "HBM3E",
+        "HBM4"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "日本加码对华光刻机断供，设备\"买回来用不了\"引发产业链担忧",
+      "summary": "日本进一步收紧对华半导体设备出口管制，部分已购光刻机面临\"买回来用不了\"的困境。日本设备厂商（尼康、TEL）在美荷压力下加大断供力度，但分析指出这反而\"为美荷做了嫁衣\"——中国被迫加速国产替代，日本设备商失去中国市场。管制升级对既有产线运营和扩产均构成实质威胁。",
+      "source": "搜狐网/Serper2",
+      "published": "2026-04-19T16:00:00+08:00",
+      "url": "https://m.sohu.com/a/1011652593_117917",
+      "tags": [
+        "光刻机",
+        "日本",
+        "出口管制",
+        "设备",
+        "国产替代"
+      ],
+      "insights": [
+        "设备管制升级从\"限购\"发展到\"限用\"，对已有产线运营构成新威胁",
+        "日本设备商在华市场份额将加速流失，国产设备替代窗口被强制打开",
+        "管制倒逼效应叠加，国产光刻/刻蚀/薄膜设备渗透率将加速提升"
+      ],
+      "actions": [
+        "评估现有产线设备运营是否受新管制影响，制定应急预案",
+        "跟踪国产设备（中微、北方华创等）替代进展和量产验证",
+        "设备采购策略需纳入管制升级情景，优先评估国产替代路径"
+      ],
+      "glossary": [
+        "TEL",
+        "尼康"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "巨头都在抢光芯片：硅光/IP赛道进入加速期",
+      "summary": "全球科技巨头加速布局光芯片/硅光赛道。光互连在AI算力集群中的带宽瓶颈解决方案正成为投资热点，多家初创公司获得超1亿美元融资。Credo Technology收购Dust Photonics等并购事件频发，硅光IP和光芯片设计服务需求激增。光芯片从实验室走向量产的拐点正在到来。",
+      "source": "凤凰网科技/Serper2",
+      "published": "2026-04-19T12:00:00+08:00",
+      "url": "https://tech.ifeng.com/c/8sRrYgENzjH",
+      "tags": [
+        "光芯片",
+        "硅光",
+        "IP",
+        "并购",
+        "AI算力"
+      ],
+      "insights": [
+        "硅光/光芯片是AI算力带宽瓶颈的关键解法，赛道投资热度已达拐点",
+        "并购整合加速（Credo+Dust Photonics等），硅光IP市场格局快速演变",
+        "光芯片量产化将改变芯片间互连架构，对封装和测试提出新要求"
+      ],
+      "actions": [
+        "评估硅光IP供应商（如Dust Photonics）的合作可能性",
+        "关注光芯片对封装测试的新要求，提前布局相关技术",
+        "将光互连方案纳入下一代芯片架构设计评估"
+      ],
+      "glossary": [
+        "硅光",
+        "光互连"
+      ],
+      "region": "domestic"
+    }
+  ]
+}

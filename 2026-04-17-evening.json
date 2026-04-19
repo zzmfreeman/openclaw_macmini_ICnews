@@ -1,0 +1,267 @@
+{
+  "version": "v20260417-2240",
+  "generatedAt": "2026-04-17T22:40:00+08:00",
+  "period": "evening",
+  "commit": "a33439e",
+  "glossary_list": [
+    {
+      "term": "CoWoS",
+      "desc": "Chip on Wafer on Substrate，TSMC推出的先进封装技术，将芯片堆叠在晶圆上再封装到基板上，用于AI GPU和HBM的整合",
+      "category": "封装"
+    },
+    {
+      "term": "IGBT",
+      "desc": "绝缘栅双极晶体管，广泛用于功率半导体领域，可在高电压高电流场景中高效开关",
+      "category": "功率器件"
+    },
+    {
+      "term": "晶圆级封装(WLP)",
+      "desc": "在晶圆状态下完成封装后再切割，可显著降低成本和封装体积",
+      "category": "封装"
+    },
+    {
+      "term": "无晶圆厂/Fabless",
+      "desc": "无自有晶圆制造线的芯片设计公司，专注芯片设计和销售，将制造外包给代工厂",
+      "category": "商业"
+    },
+    {
+      "term": "Vayavya Labs",
+      "desc": "印度RTL设计服务公司，专注于芯片验证和调试工具，被MosChip收购",
+      "category": "EDA"
+    },
+    {
+      "term": "Terafab",
+      "desc": "特斯拉内部芯片制造项目，计划自建先进封装和制造能力",
+      "category": "商业"
+    }
+  ],
+  "topic_pulse": [
+    {
+      "topic": "CoWoS/先进封装",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "本期暂无社区热议，但台积电CoWoS和三星先进封装仍是AI芯片制造瓶颈，OSAT格局面临重塑压力。"
+    },
+    {
+      "topic": "HBM/AI存储",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": "Show HN: Token Economics Calculator for AI inference hardware (13pts)",
+      "summary": "SK海力士和三星HBM产能向AI服务器倾斜，HBM4标准推进中，佰维存储等国内封装厂商布局晶圆级封测以切入AI存储供应链。"
+    },
+    {
+      "topic": "中国Fab/先进制程",
+      "heat": "↓降温",
+      "reddit_top": null,
+      "hn_top": "China's biggest chipmaker (SMIC) to build colossal chip factory (3pts)",
+      "summary": "SMIC持续扩产，特斯拉Terafab入局加剧fab竞争格局；国内fab在成熟制程持续渗透，先进制程突破仍是核心挑战。"
+    },
+    {
+      "topic": "国产EDA/IP",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "MosChip收购Vayavya Labs体现印度EDA整合趋势，国内Empyrean等持续追赶，但全流程国产替代仍需时间。"
+    },
+    {
+      "topic": "封测OSAT",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "佰维存储布局晶圆级封测，长电/通富微电持续扩产，先进封装赛道成为OSAT新的增长引擎。"
+    },
+    {
+      "topic": "出口管制/制裁",
+      "heat": "↑升温",
+      "reddit_top": null,
+      "hn_top": "China bans exports to US of gallium, germanium in response to chip sanctions (21pts)",
+      "summary": "中国对镓、锗出口禁令生效作为反制措施，中美半导体博弈升级，供应链脱钩趋势加速。"
+    },
+    {
+      "topic": "AI芯片/NVIDIA",
+      "heat": "↑↑升温",
+      "reddit_top": null,
+      "hn_top": "Microsoft acquires twice as many Nvidia AI chips as tech rivals (54pts)",
+      "summary": "NVIDIA AI芯片需求持续强劲，Blackwell架构量产推进中；微软AI芯片采购量激增凸显算力军备竞赛。"
+    },
+    {
+      "topic": "设备/材料国产化",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": "Dutch resist US call to ban more chip equipment sales to China (6pts)",
+      "summary": "荷兰抵制美国扩大设备禁令要求，国产设备商（北方华创、中微等）成熟制程渗透加速，先进制程设备仍是短板。"
+    }
+  ],
+  "items": [
+    {
+      "title": "MosChip to acquire 73% stake in Vayavya Labs for ₹245.49 crore",
+      "summary": "MosChip to acquire 73% of Vayavya Labs for ₹245.49 crore, with remaining shares to be acquired by 2028.",
+      "source": "NewsAPI / The Hindu Business Line",
+      "published": "2026-04-17T22:40:56Z",
+      "url": "https://www.thehindubusinessline.com/info-tech/moschip-to-acquire-73-stake-in-vayavya-labs-for-24549-crore/article70869093.ece",
+      "tags": [
+        "overseas",
+        "newsapi",
+        "并购"
+      ],
+      "insights": [
+        "MosChip收购Vayavya Labs强化RTL验证能力，印度半导体设计服务业整合加速。"
+      ],
+      "actions": [
+        "关注印度EDA/设计服务公司整合趋势，评估对全球芯片设计供应链的影响。"
+      ],
+      "category": "eda_ip",
+      "region": "overseas",
+      "glossary": []
+    },
+    {
+      "title": "马斯克加快筹备Terafab半导体项目，特斯拉官方正为其招揽人才",
+      "summary": "",
+      "source": "Google News (Serper)",
+      "published": "2026-04-17T22:40:56Z",
+      "url": "https://finance.sina.cn/stock/jdts/2026-04-17/detail-inhuuyih0967467.d.html?oid=800&vt=4&cid=76993&node_id=76993",
+      "tags": [
+        "先进制造",
+        "domestic",
+        "fab",
+        "serper",
+        "tesla"
+      ],
+      "insights": [
+        "特斯拉自建芯片制造产能（Terafab）将从需求侧影响代工格局，若成功将分流部分成熟制程订单。"
+      ],
+      "actions": [
+        "关注Terafab招聘进展和制造工艺路线，评估对成熟制程代工厂的潜在订单分流影响。"
+      ],
+      "category": "fab",
+      "region": "domestic",
+      "glossary": []
+    },
+    {
+      "title": "华太电子IPO辅导收官：一家功率、射频“无晶圆厂”，能否叩开资本市场的大门？",
+      "summary": "",
+      "source": "Google News (Serper)",
+      "published": "2026-04-17T22:40:56Z",
+      "url": "https://www.mrjjxw.com/articles/2026-04-17/4343906.html",
+      "tags": [
+        "融资",
+        "serper",
+        "domestic"
+      ],
+      "insights": [
+        "华太电子完成IPO辅导，代表国内功率/射频fabless借助资本市场加速成长。"
+      ],
+      "actions": [
+        "关注华太电子IPO定价区间及功率半导体市场定位，评估其对国内功率芯片供应链的补充作用。"
+      ],
+      "category": "eda_ip",
+      "region": "domestic",
+      "glossary": []
+    },
+    {
+      "title": "捷捷微电宣布全线产品调价，IGBT 5月起涨10%~20%",
+      "summary": "",
+      "source": "Google News (Serper)",
+      "published": "2026-04-17T22:40:56Z",
+      "url": "https://m.sohu.com/a/1010946920_121157270?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+      "tags": [
+        "功率半导体",
+        "serper",
+        "domestic"
+      ],
+      "insights": [
+        "捷捷微电IGBT涨价10-20%反映功率半导体供需持续趋紧，功率器件国产替代进入量价齐升阶段。"
+      ],
+      "actions": [
+        "及时与捷捷微电确认订单优先级，评估功率器件涨价对成本结构的影响并调整备货策略。"
+      ],
+      "category": "fab",
+      "region": "domestic",
+      "glossary": []
+    },
+    {
+      "title": "Q1营收业绩激增342%后再加码：佰维存储押注晶圆级封测，打造AI时代“存算一体”新护城河",
+      "summary": "",
+      "source": "Google News (Serper)",
+      "published": "2026-04-17T22:40:56Z",
+      "url": "https://news.futunn.com/post/71638942/after-a-342-surge-in-q1-revenue-biwin-storage-doubles",
+      "tags": [
+        "先进封装",
+        "serper",
+        "domestic",
+        "OSAT"
+      ],
+      "insights": [
+        "佰维存储Q1营收激增342%后押注晶圆级封测，AI存储赛道封装需求成为新增长点。"
+      ],
+      "actions": [
+        "跟踪佰维存储先进封装产能爬坡进度，评估其在存算一体赛道的技术竞争力。"
+      ],
+      "category": "fab",
+      "region": "domestic",
+      "glossary": []
+    },
+    {
+      "title": "知满科技亮相深圳电博会，AI 赋能半导体全产业链-AI云资讯",
+      "summary": "",
+      "source": "Google News (Serper)",
+      "published": "2026-04-17T22:40:56Z",
+      "url": "https://www.icloudnews.net/a/116067.html",
+      "tags": [
+        "serper",
+        "domestic"
+      ],
+      "insights": [
+        "知满科技携AI方案亮相深圳电博会，半导体产业数字化/AI化渗透从设计向制造延伸。"
+      ],
+      "actions": [
+        "跟踪AI在半导体制造环节的渗透速度，评估相关AI工具供应商的产业化成熟度。"
+      ],
+      "category": "design",
+      "region": "domestic",
+      "glossary": []
+    },
+    {
+      "title": "杉杉股份绝境逆袭：获五大债权人全票“赦免”，71亿安徽国资强势入主",
+      "summary": "",
+      "source": "Google News (Serper)",
+      "published": "2026-04-17T22:40:56Z",
+      "url": "https://bydrug.pharmcube.com/news/detail/cf96a021eaaa02936a889106690d4eaf",
+      "tags": [
+        "serper",
+        "domestic"
+      ],
+      "insights": [
+        "安徽国资71亿入主杉杉股份，国有资本深度介入负极材料产业，供应链稳定性获政府背书。"
+      ],
+      "actions": [
+        "关注杉杉股份重组后的负极材料产能释放节奏，评估供应链话语权变化。"
+      ],
+      "category": "design",
+      "region": "domestic",
+      "glossary": []
+    },
+    {
+      "title": "Startup Funding: Q1 2026",
+      "summary": "Massive rounds for AI, EDA, and manufacturing; 80 startups raise $8.4B.",
+      "source": "Brave Search",
+      "published": "2026-04-17T22:40:56Z",
+      "url": "https://semiengineering.com/startup-funding-q1-2026/",
+      "tags": [
+        "overseas",
+        "brave",
+        "初创企业"
+      ],
+      "insights": [
+        "2026年Q1全球半导体初创融资回暖，先进封装、硅光子、RISC-V为核心赛道。"
+      ],
+      "actions": [
+        "关注Q1获投的初创企业技术方向，识别具有替代现有供应链潜力的新兴供应商。"
+      ],
+      "category": "design",
+      "region": "overseas",
+      "glossary": []
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "version": "v20260416-2000",
+  "generatedAt": "2026-04-16T20:05:14+08:00",
+  "period": "evening",
+  "commit": "",
+  "glossary_list": [
+    {
+      "term": "CoPoS",
+      "desc": "Chip on Panel Substrate，台积电新型先进封装技术，将芯片直接贴装在面板级基板上，大幅提升封装密度与成本效率",
+      "category": "封装"
+    },
+    {
+      "term": "MATCH法案",
+      "desc": "美国《硬件技术多边协调管制法案》，拟将15家中国半导体企业列入管制清单，实施全面出口限制",
+      "category": "商业"
+    },
+    {
+      "term": "Terafab",
+      "desc": "马斯克计划建设的大型晶圆厂项目，旨在为xAI和特斯拉等业务自研芯片提供制造能力",
+      "category": "设备"
+    },
+    {
+      "term": "Chiplet芯粒",
+      "desc": "将大芯片拆分为多个小芯粒再集成的设计架构，降低制造成本、提升良率与灵活性",
+      "category": "封装"
+    },
+    {
+      "term": "光芯片",
+      "desc": "利用光信号代替电信号进行数据传输和计算的芯片，具备低功耗、高带宽优势，曦智科技为国内代表企业",
+      "category": "设计"
+    }
+  ],
+  "topic_pulse": [
+    {
+      "topic": "CoWoS/先进封装",
+      "heat": "↑↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "台积电CoPoS试点产线消息引爆封装赛道讨论，玻璃基板产业化加速，先进封装成为AI算力核心底座。"
+    },
+    {
+      "topic": "HBM/AI存储",
+      "heat": "↑↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "佰维存储业绩暴涨印证存储超级周期，三星HBM4逻辑芯片涨价40-50%，AI存储需求持续推升。"
+    },
+    {
+      "topic": "中国Fab/先进制程",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "中芯国际Q1营收同比增长28.4%，产能利用率89.6%，基本面稳健但先进制程进展仍受关注。"
+    },
+    {
+      "topic": "国产EDA/IP",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "本周未见重大EDA/IP突破消息，行业整体平稳。"
+    },
+    {
+      "topic": "封测OSAT",
+      "heat": "↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "奥芯明全栈式方案定义先进封装新范式，封测环节在AI算力需求下持续升级。"
+    },
+    {
+      "topic": "出口管制/制裁",
+      "heat": "↑↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "MATCH法案拟将中芯国际、华虹、长鑫等15家中国半导体企业纳入管制清单，制裁压力再度升级。"
+    },
+    {
+      "topic": "AI芯片/NVIDIA",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "马斯克高调布局自研芯片与晶圆厂，台积电业绩超预期但未见NVIDIA重大新动态。"
+    },
+    {
+      "topic": "设备/材料国产化",
+      "heat": "↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "马斯克团队接洽AMAT/TEL/Lam等设备巨头抢购产能，全球设备供应紧张加剧国产替代紧迫性。"
+    }
+  ],
+  "items": [
+    {
+      "title": "美国MATCH法案拟将15家中国半导体企业纳入管制清单，含中芯国际、华虹等",
+      "summary": "美国两党议员提出MATCH法案，将中芯国际、华虹、华为、长鑫存储、长江存储等15家半导体企业列为受管制设施，实施全面出口限制。",
+      "source": "SerpAPI",
+      "published": "2026-04-03",
+      "url": "https://m.qcc.com/postnews/8e0689fb21e2f3845c150d92b3752962.html",
+      "tags": [
+        "出口管制",
+        "政策"
+      ],
+      "insights": [
+        "待深入分析"
+      ],
+      "actions": [
+        "关注后续发展"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "玻璃基板产业化加速：台积电搭建CoPoS封装试点产线",
+      "summary": "台积电发布超预期业绩，董事长魏哲家透露正在搭建CoPoS封装试点产线，AI算力需求持续推动封装技术迭代。",
+      "source": "Serper",
+      "published": "2026-04-16",
+      "url": "https://www.cls.cn/detail/2346234",
+      "tags": [
+        "Fab/制造",
+        "先进封装"
+      ],
+      "insights": [
+        "待深入分析"
+      ],
+      "actions": [
+        "关注后续发展"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "马斯克准备高价「光速」抢购半导体设备，启动Terafab晶圆厂大计",
+      "summary": "彭博报道，马斯克团队已接洽应用材料、东京威力科创、科林研发等芯片设备供应商，准备大胆投入建设Terafab晶圆厂。",
+      "source": "Serper",
+      "published": "2026-04-16",
+      "url": "https://www.worldjournal.com/wj/story/121208/9445616",
+      "tags": [
+        "Fab/制造",
+        "设备/材料"
+      ],
+      "insights": [
+        "待深入分析"
+      ],
+      "actions": [
+        "关注后续发展"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "佰维存储迎「超级周期」，AI多场景布局带动业绩暴涨",
+      "summary": "AI浪潮席卷半导体行业，存储市场迎来新一轮爆发，佰维存储多场景布局业绩大涨。",
+      "source": "Serper",
+      "published": "2026-04-16",
+      "url": "https://www.jiemian.com/article/14259852.html",
+      "tags": [
+        "存储",
+        "设计公司"
+      ],
+      "insights": [
+        "待深入分析"
+      ],
+      "actions": [
+        "关注后续发展"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "本土创新+全球引领，奥芯明全栈式方案定义先进封装新范式",
+      "summary": "半导体产业从制程微缩向系统级集成深度转型，先进封装成为承载AI算力、高速互联、智能驾驶的核心底座。",
+      "source": "Serper",
+      "published": "2026-04-16",
+      "url": "https://www.51cto.com/article/840885.html",
+      "tags": [
+        "Fab/制造",
+        "先进封装"
+      ],
+      "insights": [
+        "待深入分析"
+      ],
+      "actions": [
+        "关注后续发展"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "北极雄芯完成超亿元融资，探索基于芯粒的专用计算",
+      "summary": "北极雄芯通过Chiplet架构将下游场景芯片需求中的通用和专用部分解耦，豪创芯、讯飞创投、中芯熙诚等参与投资。",
+      "source": "Brave",
+      "published": "2026-04-16",
+      "url": "https://www.36kr.com/p/2396399940853122",
+      "tags": [
+        "Fab/制造",
+        "先进封装"
+      ],
+      "insights": [
+        "待深入分析"
+      ],
+      "actions": [
+        "关注后续发展"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "「AI光芯片第一股」曦智科技冲刺上市，投资人已豪赚40倍",
+      "summary": "曦智科技A轮获中科创星3680万元投资，对应上市前2.83%股份，光芯片赛道引来资本热捧。",
+      "source": "Brave",
+      "published": "2026-04-16",
+      "url": "https://www.36kr.com/p/3767856931553801",
+      "tags": [
+        "EDA/IP",
+        "设计公司"
+      ],
+      "insights": [
+        "待深入分析"
+      ],
+      "actions": [
+        "关注后续发展"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    },
+    {
+      "title": "国产DRAM第一股！长鑫存储冲刺科创板，估值1500亿元",
+      "summary": "长鑫科技2024年完成108亿元增资后估值约1500亿元，预计登陆科创板后市值有望向3000亿元迈进，成为半导体板块重要标杆。",
+      "source": "Brave",
+      "published": "2026-04-16",
+      "url": "https://www.esmchina.com/news/13796.html",
+      "tags": [
+        "存储",
+        "设计公司"
+      ],
+      "insights": [
+        "待深入分析"
+      ],
+      "actions": [
+        "关注后续发展"
+      ],
+      "glossary": [],
+      "region": "domestic"
+    }
+  ]
+}

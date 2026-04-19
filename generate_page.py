@@ -124,6 +124,7 @@ HTML_TEMPLATE = '''<!doctype html>
       </div>
       <div>
         <div class="keyword-row"><div class="kw-label">🏷️ 本期关键词</div><div id="keywords" style="display:contents"></div></div>
+      <div id="glossarySection" class="glossary-card" style="margin-bottom:24px;padding:16px;background:var(--panel);border:1px solid var(--border);border-radius:8px"></div>
         <div class="section-title" id="domestic">🇨🇳 国内</div>
         <div id="domesticItems"></div>
         <div class="section-title" id="overseas">🌍 国外</div>
@@ -144,7 +145,7 @@ HTML_TEMPLATE = '''<!doctype html>
       el('count').textContent=`条数: ${d.items.length}`;
       el('keywords').innerHTML=(d.keywords||[]).map(k=>`<span class="badge badge-tag">${{esc(k)}}</span>`).join('');
       el('headlines').innerHTML=d.items.map((it,i)=>`<a href="#item-${{i}}" class="headline"><div class="t">${{esc(it.title)}}</div><div class="s">${{esc(it.source||'')}} · ${{esc(it.published||'')}}</div></a>`).join('');
-      const ri=(it,i)=>`<div class="item" id="item-${{i}}"><div class="header"><div class="title2">${{esc(it.title)}}</div><div class="meta-row"><span>#${{i+1}}</span><span>📰 ${{esc(it.source||'')}}</span><span>📅 ${{esc(it.published||'')}}</span>${{it.url?`<a href="${{esc(it.url)}}" target="_blank">🔗 原文</a>`:''}}${{(it.tags||[]).map(t=>`<span class="badge badge-tag">${{esc(t)}}</span>`).join('')}}</div></div><div class="summary">${{it.summary}}</div><div class="box box-insight"><div class="lbl">💡 洞见</div><ul>${{(it.insights||[]).map(x=>`<li>${{esc(x)}}</li>`).join('')}}</ul></div><div class="box box-action"><div class="lbl">🎯 建议</div><ul>${{(it.actions||[]).map(x=>`<li>${{esc(x)}}</li>`).join('')}}</ul></div></div>${{(it.glossary||[]).length?`<div class="glossary-box"><div class="glossary-title">📚 术语</div>${{it.glossary.map(g=>`<div class="glossary-item"><span class="glossary-term">${{esc(g.term)}}</span>${{esc(g.desc)}}</div>`).join('')}}</div>`:''}}`;
+      const ri=(it,i)=>`<div class="item" id="item-${{i}}"><div class="header"><div class="title2">${{esc(it.title)}}</div><div class="meta-row"><span>#${{i+1}}</span><span>📰 ${{esc(it.source||'')}}</span><span>📅 ${{esc(it.published||'')}}</span>${{it.url?`<a href="${{esc(it.url)}}" target="_blank">🔗 原文</a>`:''}}${{(it.tags||[]).map(t=>`<span class="badge badge-tag">${{esc(t)}}</span>`).join('')}}</div></div><div class="summary">${{it.summary}}</div><div class="box box-insight"><div class="lbl">💡 洞见</div><ul>${{(it.insights||[]).map(x=>`<li>${{esc(x)}}</li>`).join('')}}</ul></div><div class="box box-action"><div class="lbl">🎯 建议</div><ul>${{(it.actions||[]).map(x=>`<li>${{esc(x)}}</li>`).join('')}}</ul></div></div>${{(it.glossary||[]).length?`<div class="glossary-box"><div class="glossary-title">📚 术语</div>${{it.glossary.map(g=>typeof g==="string"?`<div class="glossary-item"><span class="glossary-term">${{esc(g)}}</span></div>`:`<div class="glossary-item"><span class="glossary-term">${{esc(g.term)}}</span>${{esc(g.desc)}}</div>`).join('')}}</div>`:''}}`;
       const dm=d.items.filter(isDom),ov=d.items.filter(x=>!isDom(x));
       el('domesticItems').innerHTML=dm.length?dm.map(ri).join(''):'<div class="warnbox">暂无国内</div>';
       el('overseasItems').innerHTML=ov.length?ov.map(ri).join(''):'<div class="warnbox">暂无国外</div>';
