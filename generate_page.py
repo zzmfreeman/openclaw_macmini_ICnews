@@ -57,7 +57,7 @@ HTML_TEMPLATE = '''<!doctype html>
     .headline-card{{background:var(--panel); border:1px solid var(--border); border-radius:12px; box-shadow:0 2px 4px rgba(0,0,0,0.05); padding:20px}}
     .headline-card h2{{margin:0 0 16px; font-size:18px; font-weight:700; color:var(--text); border-bottom:2px solid var(--accent)}}
     .headline-list{{display:grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap:16px; padding:0}}
-    .headline{{background:var(--tag_bg); border:1px solid var(--border); padding:16px; border-radius:8px; text-decoration:none; color:inherit; display:block}}
+    .headline{{background:var(--tag-bg); border:1px solid var(--border); padding:16px; border-radius:8px; text-decoration:none; color:inherit; display:block}}
     .headline:hover{{transform:translateY(-2px); box-shadow:0 4px 6px rgba(0,0,0,0.1); background:var(--panel)}}
     .headline .t{{font-size:15px; font-weight:600; color:var(--text); line-height:1.5}}
     .headline .s{{font-size:12px; color:var(--muted); margin-top:4px}}
@@ -78,7 +78,7 @@ HTML_TEMPLATE = '''<!doctype html>
     .badge{{font-size:12px; padding:2px 10px; border-radius:12px; font-weight:500}}
     .badge.domestic{{background:#eff6ff; color:#1d4ed8}}
     .badge.overseas{{background:#f5f3ff; color:#7c3aed}}
-    .badge-tag{{background:var(--tag_bg); color:var(--tag_text); border:1px solid var(--border)}}
+    .badge-tag{{background:var(--tag-bg); color:var(--tag-text); border:1px solid var(--border)}}
     
     .summary{{color:var(--text); line-height:1.8}}
     .summary ul{{margin:0; padding-left:18px}}
@@ -90,9 +90,9 @@ HTML_TEMPLATE = '''<!doctype html>
     .box-action{{background:%%ACTION_BG%%; border-left:3px solid #10b981; color:%%ACTION_TEXT%%}}
     .box-action .lbl{{color:#15803d; font-weight:700; font-size:12px; margin-bottom:8px}}
     
-    .glossary-box{{margin-top:20px; padding:16px; background:var(--tag_bg); border:1px dashed var(--border); border-radius:8px}}
+    .glossary-box{{margin-top:20px; padding:16px; background:var(--tag-bg); border:1px dashed var(--border); border-radius:8px}}
     .glossary-title{{font-size:12px; font-weight:700; color:var(--muted); margin-bottom:8px}}
-    .glossary-item{{font-size:13px; color:var(--tag_text); margin-bottom:6px; line-height:1.5}}
+    .glossary-item{{font-size:13px; color:var(--tag-text); margin-bottom:6px; line-height:1.5}}
     .glossary-term{{font-weight:700; color:var(--text); background:var(--border); padding:1px 6px; border-radius:4px; margin-right:6px; font-size:12px}}
     
     .search-row{{margin-bottom:16px}}
