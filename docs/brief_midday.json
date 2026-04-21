@@ -1,42 +1,47 @@
 {
-  "version": "v20260420-1300",
-  "generatedAt": "2026-04-20T13:00:00+08:00",
+  "version": "v20260421-1308",
+  "generatedAt": "2026-04-21T13:08:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [
     {
-      "term": "CoWoS",
-      "desc": "Chip-on-Wafer-on-Substrate，台积电2.5D先进封装技术，将芯片堆叠在中介层上再封装到基板",
+      "term": "晶圆级封装",
+      "desc": "在晶圆级别完成封装工艺，比传统芯片级封装效率更高、成本更低",
       "category": "封装"
     },
     {
-      "term": "OSAT",
-      "desc": "Outsourced Semiconductor Assembly and Test，外包封测服务，如日月光、长电科技等",
+      "term": "共封装光学(CPO)",
+      "desc": "将光学元件与芯片封装在一起，实现光互联替代电互联，提升带宽和降低延迟",
       "category": "封装"
     },
     {
-      "term": "TPU",
-      "desc": "Tensor Processing Unit，谷歌专为AI推理设计的ASIC芯片架构",
-      "category": "商业"
-    },
-    {
-      "term": "光互联",
-      "desc": "Optical Interconnect，用光信号替代电信号进行芯片间数据传输，提升带宽降低功耗",
-      "category": "封装"
-    },
-    {
-      "term": "DRAM供需缺口",
-      "desc": "2026年DRAM产能仅能满足60%需求，AI驱动的内存需求持续超过供应增长",
+      "term": "SOCAMM2",
+      "desc": "SK海力士下一代AI服务器内存模块规格，体积更小容量更高",
       "category": "存储"
     },
     {
-      "term": "2nm制程",
-      "desc": "当前最先进半导体制造工艺节点，TSMC和三星均已进入量产阶段",
-      "category": "材料"
+      "term": "1c DRAM",
+      "desc": "1c节点制程DRAM，代表当前最先进的DRAM制造工艺节点",
+      "category": "存储"
     },
     {
-      "term": "ASIC",
-      "desc": "Application-Specific Integrated Circuit，为特定应用定制的芯片，如Google TPU、特斯拉AI芯片",
+      "term": "FP4精度",
+      "desc": "4-bit浮点精度格式，用于AI推理加速，牺牲精度换取吞吐量大幅提升",
+      "category": "商业"
+    },
+    {
+      "term": "Prefill/Decode分离",
+      "desc": "将AI推理的两个阶段(Prefill预处理和Decode解码)由不同芯片分别执行，优化推理效率",
+      "category": "商业"
+    },
+    {
+      "term": "MRM",
+      "desc": "微环调制器(Micro-Ring Modulator)，硅光子通信中的核心调制元件",
+      "category": "封装"
+    },
+    {
+      "term": "联邦采购法规(FAR)",
+      "desc": "美国联邦政府采购的统一法规框架，新增半导体禁令限制采购中国半导体产品",
       "category": "商业"
     }
   ],
@@ -46,278 +51,264 @@
       "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "先进封装成为AI芯片产能瓶颈，36氪深度报道封装大战再起。OSAT扩产竞赛加速，CoWoS产能供不应求。"
+      "summary": "盛合晶微上市引爆先进封装话题，市场对CoWoS级封装产能的关注度显著升温"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "DRAM供应商仅能满足60%需求至2027年，HBM产能挤占标准DRAM供应，涨价周期锁定多年。"
+      "summary": "SK海力士SOCAMM2量产与数据中心内存价格飙升，AI存储赛道热度持续走高"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中芯国际华虹本周无重大消息，国内Fab维持平稳运营。"
+      "summary": "中芯国际等国内代工企业本周无明显新动态，整体平稳"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "本周无国产EDA重大突破消息，Credo收购Dust Photonics显示海外光互联IP整合加速。"
+      "summary": "国产EDA/IP领域本周无重大突破，市场关注点转向封装和存储"
     },
     {
       "topic": "封测OSAT",
       "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "先进封装大战再起，OSAT扩产成为AI算力瓶颈突破的关键环节。功率半导体涨价信号显示封测产能紧张。"
+      "summary": "盛合晶微上市成为OSAT板块最大事件，先进封装龙头估值大幅重估"
     },
     {
       "topic": "出口管制/制裁",
-      "heat": "↑↑升温",
+      "heat": "↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "荷兰光刻机管制收紧无缓冲期，中国表态绝不谈判。15家中国半导体企业拟被纳入管制清单。管制压力持续升级。"
+      "summary": "美国FAR新增半导体采购禁令，制裁范围从出口管制扩展到政府采购"
     },
     {
       "topic": "AI芯片/NVIDIA",
-      "heat": "→平稳",
+      "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "DeepSeek首次融资3亿美元传闻震动市场，国产AI芯片公司纷纷回应。特斯拉2nm AI芯片转美制造。"
+      "summary": "NVIDIA/AMD硅光子竞速升温，华为昇腾950PR发布，AI芯片赛道全面加速"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "光刻机管制加速国产设备替代进程，功率半导体涨价反映产线爬坡阶段。本周无重大国产设备突破。"
+      "summary": "西安奕材年报利好国产硅片，但设备国产化方面无明显新进展"
     }
   ],
   "items": [
     {
-      "title": "先进封装，大战再起",
-      "url": "https://36kr.com/p/3773233695736323",
-      "published": "2026-04-20T10:00:00+08:00",
-      "source": "Serper",
-      "description": "当摩尔定律逼近物理极限，先进封装技术正从产业链配角一跃成为决定AI算力上限的主角。限制AI硬件供应的不只有芯片，先进封装产能同样成为瓶颈。",
+      "title": "盛合晶微科创板上市首日暴涨406%，市值超1800亿元，今年科创板最大IPO",
+      "summary": "4月21日，晶圆级先进封测企业盛合晶微(688820.SH)正式登陆科创板，发行价19.68元/股，开盘暴涨406.71%，市值一度超1800亿元。盛合晶微是全球前十封测企业，服务华为海思、英伟达、AMD等巨头，填补了国内晶圆级先进封测领域资本市场标的空白。无锡国资浮盈627%。",
+      "source": "Serper-新浪财经/搜狐",
+      "published": "2026-04-21T09:00:00+08:00",
+      "url": "https://finance.sina.com.cn/roll/2026-04-21/doc-inhvfqcm0241112.shtml",
       "tags": [
-        "封装",
+        "IPO",
         "先进封装",
-        "CoWoS",
-        "AI"
+        "封测",
+        "科创板"
       ],
-      "region": "domestic",
       "insights": [
-        "先进封装从配角变主角，CoWoS产能瓶颈比芯片本身更紧迫",
-        "OSAT格局面临重塑，封装产能成为AI芯片竞争的新战场"
+        "盛合晶微上市标志着国内晶圆级先进封装正式进入资本市场，填补封测板块空白",
+        "开盘暴涨400%反映市场对AI时代先进封装赛道的高度认可",
+        "无锡国资627%浮盈显示地方政府半导体投资布局成效显著"
       ],
       "actions": [
-        "关注日月光先进封装扩产进展，评估是否调整封测供应商优先级",
-        "跟进国内长电/通富微电先进封装布局"
+        "关注盛合晶微后续产能扩张与客户拓展节奏，评估是否纳入封测供应商评估名单",
+        "追踪其CoWoS级封装产能释放进度，对标日月光/安靠的先进封装服务能力"
       ],
       "glossary": [
-        "CoWoS",
+        "晶圆级封装",
         "先进封装",
         "OSAT"
-      ]
+      ],
+      "region": "domestic"
     },
     {
-      "title": "中国\"绝不谈判\"！光刻机封锁加剧，全球供应链谁最受伤？",
-      "url": "https://m.sohu.com/a/1011881274_122407934",
-      "published": "2026-04-20T11:00:00+08:00",
-      "source": "Serper",
-      "description": "荷兰2026年3月11日直接收紧光刻机出口管制，没有任何过渡期和协商窗口。中国表态绝不谈判。",
+      "title": "台积电财报会上警示Intel Foundry已成\" formidable对手\"，AI将驱动三分之一营收",
+      "summary": "台积电CEO在最新财报会上首次明确警示Intel Foundry的竞争力正在增长，称其为'formidable rival'。同时透露AI相关业务即将占到台积电营收的三分之一。数据中心DRAM和Flash价格因AI需求暴涨而飙升。",
+      "source": "Serper-MSN/TheNextPlatform",
+      "published": "2026-04-20T18:00:00+08:00",
+      "url": "https://www.nextplatform.com/compute/2026/04/20/ai-will-soon-drive-a-third-of-tsmcs-business/5218375",
       "tags": [
-        "光刻机",
-        "出口管制",
-        "荷兰",
-        "ASML"
-      ],
-      "region": "domestic",
-      "insights": [
-        "荷兰光刻机管制无缓冲期，ASML对中国客户交付面临重大不确定性",
-        "出口管制加速国内半导体设备国产化进程"
-      ],
-      "actions": [
-        "评估现有ASML设备维护合同风险，制定备件储备预案",
-        "跟踪上海微电子国产光刻机进展"
-      ],
-      "glossary": [
-        "光刻机",
-        "ASML",
-        "出口管制"
-      ]
-    },
-    {
-      "title": "DeepSeek首次融资传闻震动市场，国产AI芯片公司纷纷回应",
-      "url": "https://www.jinguxun.com/article/7892871",
-      "published": "2026-04-19T22:00:00+08:00",
-      "source": "Serper",
-      "description": "DeepSeek首次融资传闻震动市场，寒武纪、沐曦、摩尔线程等国产AI芯片公司天使投资人回应。",
-      "tags": [
-        "DeepSeek",
-        "融资",
-        "AI芯片",
-        "寒武纪"
-      ],
-      "region": "domestic",
-      "insights": [
-        "DeepSeek融资3亿美元级别，国产AI算力产业链迎来重大资本注入",
-        "融资传闻推动国产AI芯片公司估值重估，寒武纪等受益"
-      ],
-      "actions": [
-        "关注DeepSeek融资对国产算力供应链的影响",
-        "评估寒武纪/沐曦/摩尔线程合作可能性"
-      ],
-      "glossary": [
-        "DeepSeek",
-        "AI芯片",
-        "国产算力"
-      ]
-    },
-    {
-      "title": "存储芯片\"闪电并购\"背后：业绩狂飙但客户、供应链、研发疑点重重",
-      "url": "https://www.yemacaijing.com/Index/view/id/92347.html",
-      "published": "2026-04-20T12:00:00+08:00",
-      "source": "Serper",
-      "description": "存储芯片闪电并购背后疑点重重，客户、供应链、研发均有不确定性。",
-      "tags": [
-        "存储芯片",
-        "并购",
-        "DRAM",
-        "供应链"
-      ],
-      "region": "domestic",
-      "insights": [
-        "存储芯片并购热潮背后存在供应链整合风险",
-        "业绩狂飙掩盖了客户依赖和研发投入不足的隐患"
-      ],
-      "actions": [
-        "审查存储芯片并购后供应商稳定性",
-        "关注长鑫存储科创板IPO进展及供应链变化"
-      ],
-      "glossary": [
-        "存储芯片",
-        "并购",
-        "DRAM"
-      ]
-    },
-    {
-      "title": "特斯拉2nm AI芯片生产转移至美国本土，AI6/AI6.5分由三星德州和TSMC亚利桑那代工",
-      "url": "https://wccftech.com/tesla-pulls-2nm-ai-chip-production-onto-us-soil-splits-ai6-ai6-5-between-samsung-tsmc/",
-      "published": "2026-04-20",
-      "source": "RSS-Wccftech",
-      "description": "Tesla pulls 2nm AI chip production onto US soil, splitting AI6 and AI6.5 between Samsung Texas and TSMC Arizona fabs.",
-      "tags": [
-        "特斯拉",
-        "2nm",
         "TSMC",
-        "三星",
-        "美国制造"
+        "Intel Foundry",
+        "AI",
+        "财报"
       ],
-      "region": "overseas",
       "insights": [
-        "特斯拉2nm芯片在美制造标志着AI芯片地缘政治重构加速",
-        "TSMC亚利桑那和三星德州成为美国本土芯片制造双支柱"
+        "台积电首次公开承认Intel Foundry威胁，代工竞争格局正在变化",
+        "AI业务占比即将达1/3，台积电从通用代工转向AI专用代工的拐点已现",
+        "数据中心内存价格飙升反映AI算力需求的刚性拉动"
       ],
       "actions": [
-        "关注TSMC亚利桑那厂产能爬坡对代工交期影响",
-        "评估美国本土制造对供应链本地化的长期趋势"
+        "密切跟踪台积电与Intel Foundry在先进制程的客户争夺动态",
+        "关注AI驱动的内存价格走势对采购成本的影响"
       ],
       "glossary": [
-        "2nm",
-        "TSMC亚利桑那",
-        "美国制造"
-      ]
+        "Intel Foundry",
+        "先进制程"
+      ],
+      "region": "overseas"
     },
     {
-      "title": "谷歌将Marvell纳入双芯片TPU计划，重塑AI推理ASIC格局",
-      "url": "https://wccftech.com/google-pulls-marvell-into-a-two-chip-tpu-plan-reshaping-ai-inference-for-asics/",
-      "published": "2026-04-19",
-      "source": "RSS-Wccftech",
-      "description": "Google pulls Marvell into a two-chip TPU plan reshaping AI inference for ASICs.",
+      "title": "SK海力士启动1c SOCAMM2 192GB量产，下一代AI服务器内存方案落地",
+      "summary": "SK海力士宣布已开始量产1c SOCAMM2 192GB，这是下一代AI服务器内存模块方案。SOCAMM2相比传统RDIMM体积更小、容量更高，专为AI加速卡密集部署场景设计。",
+      "source": "Serper-KoreaTimes",
+      "published": "2026-04-20T14:00:00+08:00",
+      "url": "https://www.koreatimes.co.kr/amp/business/tech-science/20260420/sk-hynix-begins-mass-production-of-1c-socamm2-ai-server-chips",
       "tags": [
-        "Google",
-        "Marvell",
-        "TPU",
-        "ASIC",
-        "AI推理"
-      ],
-      "region": "overseas",
-      "insights": [
-        "Google双芯片TPU架构引入Marvell，ASIC设计公司角色升级",
-        "AI推理芯片从单芯片走向多芯片异构架构"
-      ],
-      "actions": [
-        "关注Marvell在AI推理ASIC领域的市场份额变化",
-        "评估多芯片TPU架构对封装需求的影响"
-      ],
-      "glossary": [
-        "TPU",
-        "ASIC",
-        "AI推理"
-      ]
-    },
-    {
-      "title": "DRAM供应商仅能满足60%需求至2027年，锁定多年短缺与涨价周期",
-      "url": "https://wccftech.com/memory-makers-only-meet-60-percent-dram-demand-through-2027/",
-      "published": "2026-04-20",
-      "source": "RSS-Wccftech",
-      "description": "Memory makers will only meet 60% of DRAM demand through 2027, locking in years of shortages and price pain.",
-      "tags": [
-        "DRAM",
-        "存储",
-        "短缺",
-        "涨价",
-        "AI"
-      ],
-      "region": "overseas",
-      "insights": [
-        "DRAM供需缺口40%，AI训练推理需求持续超过供应增长",
-        "涨价周期锁定至2027年，采购策略需提前锁定"
-      ],
-      "actions": [
-        "立即评估DRAM采购合同，考虑签订长期锁价协议",
-        "关注HBM产能分配对标准DRAM供应的挤占效应"
-      ],
-      "glossary": [
-        "DRAM",
+        "SK海力士",
         "HBM",
-        "供需缺口"
-      ]
-    },
-    {
-      "title": "Credo Technology收购Dust Photonics，光互联IP整合加速",
-      "url": "https://www.electronicsweekly.com/news/business/credo-trchnology-buys-dust-photonics-2026-04/",
-      "published": "2026-04-17",
-      "source": "RSS-Electronics Weekly",
-      "description": "Credo Technology buys Dust Photonics, consolidating optical interconnect IP for data center chips.",
-      "tags": [
-        "Credo",
-        "Dust Photonics",
-        "光互联",
-        "IP",
-        "并购"
+        "AI存储",
+        "SOCAMM2"
       ],
-      "region": "overseas",
       "insights": [
-        "Credo收购Dust Photonics标志数据中心光互联IP整合加速",
-        "芯片IP并购从EDA软件延伸到光互联领域，IP供应链格局变化"
+        "SOCAMM2量产标志着AI服务器内存从HBM向更小型化、更高密度方案演进",
+        "SK海力士在AI存储赛道持续领跑，巩固其HBM/SOCAMM2双线布局优势"
       ],
       "actions": [
-        "关注光互联IP供应商格局变化对数据中心芯片选型的影响",
-        "评估Credo在高速互联领域的竞争力"
+        "评估SOCAMM2规格对AI服务器采购选型的影响，关注与传统RDIMM的成本对比"
       ],
       "glossary": [
-        "光互联",
-        "Credo",
-        "Dust Photonics"
-      ]
+        "SOCAMM2",
+        "1c DRAM"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "AMD携手格罗方德开发MI500共封装光学方案，硅光子赛道与英伟达竞速",
+      "summary": "AMD将利用GlobalFoundries开发下一代Instinct MI500 AI加速器的MRM共封装光学(CPO)解决方案。与此同时，英伟达也在推进硅光子路线图。硅光子正成为AI互联的下一个技术战场。",
+      "source": "Serper-WCCFTech",
+      "published": "2026-04-20T17:00:00+08:00",
+      "url": "https://wccftech.com/amd-taps-globalfoundries-for-mi500-co-packaged-optics/amp/",
+      "tags": [
+        "AMD",
+        "GlobalFoundries",
+        "硅光子",
+        "CPO",
+        "AI芯片"
+      ],
+      "insights": [
+        "共封装光学(CPO)成为AMD与NVIDIA下一代AI芯片的必争技术",
+        "GlobalFoundries在硅光子代工领域获得AMD大单，代工格局出现新分支"
+      ],
+      "actions": [
+        "关注CPO技术对AI集群互联架构的影响，评估采购AI服务器时光互联选项的价值"
+      ],
+      "glossary": [
+        "共封装光学(CPO)",
+        "硅光子",
+        "MRM"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "英伟达硅光子路线图详解：AI集群互联的下一代技术路径",
+      "summary": "HPC Wire深度解读英伟达的硅光子路线图，涵盖从当前电气互联到未来光互联的演进路径，重点关注AI大规模集群中光互联对延迟和带宽的突破性改善。",
+      "source": "Serper-HPCWire",
+      "published": "2026-04-20T20:00:00+08:00",
+      "url": "https://www.hpcwire.com/2026/04/20/inside-nvidias-silicon-photonics-roadmap/",
+      "tags": [
+        "NVIDIA",
+        "硅光子",
+        "AI互联",
+        "路线图"
+      ],
+      "insights": [
+        "英伟达硅光子路线图显示AI集群将从电气互联全面转向光互联",
+        "光互联可突破当前NVLink的电信号瓶颈，对超大规模AI训练至关重要"
+      ],
+      "actions": [
+        "跟踪英伟达硅光子产品时间表，评估对下一代AI基础设施采购的规划影响"
+      ],
+      "glossary": [
+        "硅光子",
+        "NVLink",
+        "光互联"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "华为发布昇腾950PR与Atlas 350：自研HBM+FP4算力，Prefill/Decode分离架构",
+      "summary": "华为发布新一代AI加速器昇腾950PR和Atlas 350服务器，采用FP4精度计算、自研HBM内存，并首次采用Prefill与Decode分离的芯片设计策略。这标志着中国在受限环境下AI芯片自主设计能力的显著跃升。",
+      "source": "Serper-IntelligentLiving",
+      "published": "2026-04-20T16:00:00+08:00",
+      "url": "https://www.intelligentliving.co/huawei-ascend-950pr-atlas-350-fp4-ai/",
+      "tags": [
+        "华为",
+        "昇腾",
+        "AI芯片",
+        "HBM",
+        "FP4"
+      ],
+      "insights": [
+        "Prefill/Decode分离架构是AI推理效率优化的重要趋势，英伟达也在探索类似路径",
+        "自研HBM显示华为在制裁压力下已具备一定先进存储集成能力"
+      ],
+      "actions": [
+        "关注昇腾950PR的实际性能表现，评估国产AI芯片在推理场景的可用性"
+      ],
+      "glossary": [
+        "FP4精度",
+        "Prefill/Decode分离"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "美国联邦采购法规新增半导体禁令：禁止政府采购特定中国半导体产品",
+      "summary": "美国联邦采购法规(FAR)新增条款，禁止联邦机构采购特定中国半导体产品，进一步扩大对中国芯片产业的限制范围。该规定直接影响美国政府采购供应链。",
+      "source": "Serper-FDD",
+      "published": "2026-04-20T19:00:00+08:00",
+      "url": "https://www.fdd.org/analysis/2026/04/20/federal-acquisition-regulation-prohibition-on-certain-semiconductor-products-and-services",
+      "tags": [
+        "出口管制",
+        "美国禁令",
+        "半导体制裁"
+      ],
+      "insights": [
+        "联邦采购禁令标志着美国对华半导体限制从出口管制扩展到政府采购领域",
+        "受影响的中国企业需评估替代市场策略，减少对美国政府采购供应链的依赖"
+      ],
+      "actions": [
+        "核查采购供应链中是否涉及受禁令影响的产品或服务，评估合规风险"
+      ],
+      "glossary": [
+        "联邦采购法规(FAR)"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "西安奕材发布上市后首份年报：国产12英寸硅片龙头业绩再攀新高",
+      "summary": "国产12英寸硅片龙头西安奕材发布上市后首份年报，经营业绩再创新高。作为国产大硅片核心供应商，其产能和良率持续提升，对国内晶圆厂供应链安全具有重要支撑作用。",
+      "source": "Serper-新浪科技",
+      "published": "2026-04-20T21:00:00+08:00",
+      "url": "https://tech.sina.cn/2026-04-20/detail-inhvehiw6719752.d.html?oid=37812285894239",
+      "tags": [
+        "硅片",
+        "国产化",
+        "西安奕材",
+        "材料"
+      ],
+      "insights": [
+        "国产12英寸硅片产能良率持续提升，正在缩小与日本信越/胜高(SUMCO)的差距",
+        "西安奕材业绩新高验证国产硅片在国内晶圆厂的替代渗透加速"
+      ],
+      "actions": [
+        "评估西安奕材12英寸硅片在采购清单中的优先级，关注其良率和交付稳定性"
+      ],
+      "glossary": [
+        "12英寸硅片"
+      ],
+      "region": "domestic"
     }
   ]
 }
