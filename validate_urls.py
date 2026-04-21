@@ -96,6 +96,7 @@ def main():
     # 保留原始数据结构
     if isinstance(data, dict):
         data['items'] = valid_items
+
         output = data
     else:
         output = valid_items
