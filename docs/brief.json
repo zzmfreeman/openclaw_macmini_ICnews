@@ -1,309 +1,483 @@
 {
-  "version": "v20260421-2000",
-  "generatedAt": "2026-04-21T20:00:00+08:00",
-  "period": "evening",
-  "commit": "65b0541",
+  "version": "v20260422-0600",
+  "generatedAt": "2026-04-22T06:14:10+08:00",
+  "period": "morning",
+  "commit": "",
   "glossary_list": [
     {
-      "term": "晶圆级封装（WLP）",
-      "desc": "在晶圆上直接完成封装工艺，省去单颗芯片封装步骤，适用于先进封装和Chiplet集成",
+      "term": "WLP",
+      "desc": "晶圆级封装（Wafer-Level Packaging），在晶圆上直接完成封装工艺",
       "category": "封装"
     },
     {
-      "term": "1.4nm（A14节点）",
-      "desc": "台积电规划的最先进制程节点，预计2027年量产，比2nm进一步缩小晶体管尺寸",
-      "category": "设备"
+      "term": "CoWoS",
+      "desc": "台积电Chip-on-Wafer-on-Substrate先进封装技术，用于AI芯片高密度集成",
+      "category": "封装"
     },
     {
-      "term": "CFIUS",
-      "desc": "美国外国投资委员会，审查涉及国家安全的外资并购交易，近年频繁阻止中国半导体并购",
+      "term": "IFS",
+      "desc": "英特尔代工服务（Intel Foundry Services），英特尔向外部客户开放的代工业务",
       "category": "商业"
     },
     {
-      "term": "MEMS代工",
-      "desc": "专门提供MEMS传感器晶圆代工服务的工厂，与IC代工工艺差异大，全球纯MEMS代工厂数量有限",
-      "category": "制造"
+      "term": "HBM3E",
+      "desc": "第三代增强型高带宽存储器，SK海力士主导量产，为AI GPU提供高带宽存储",
+      "category": "存储"
     },
     {
-      "term": "HBM4",
-      "desc": "第四代高带宽存储，带宽和容量进一步提升，是AI GPU标配存储方案",
-      "category": "存储"
+      "term": "18A制程",
+      "desc": "英特尔1.8纳米制程节点，对标TSMC N2，是Intel Foundry核心先进制程",
+      "category": "设备"
+    },
+    {
+      "term": "端侧AI SoC",
+      "desc": "面向边缘设备的AI推理芯片，集成处理器和AI加速器于单芯片",
+      "category": "商业"
+    },
+    {
+      "term": "独角兽企业",
+      "desc": "估值超过10亿美元的初创企业，中国芯片赛道今年新增10家",
+      "category": "商业"
+    },
+    {
+      "term": "出口管制清单",
+      "desc": "美国商务部实体清单，限制向清单内企业出口特定技术和产品",
+      "category": "商业"
     }
   ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
-      "heat": "↑↑升温",
-      "reddit_top": null,
-      "hn_top": "Switzerland hosts 'CERN of semiconductor research' (34pts)",
-      "summary": "盛合晶微上市引爆先进封装讨论热度，CoWoS产能争夺持续升温，社区关注封装从后端走向前端设计的趋势"
+      "heat": "→平稳",
+      "reddit_top": "无显著帖子",
+      "hn_top": "无显著帖子",
+      "summary": "先进封装产能竞赛持续，Intel/日月光/盛合晶微均在扩产，CoWoS供给仍紧张"
     },
     {
       "topic": "HBM/AI存储",
-      "heat": "↑↑升温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "IEEE Spectrum深度报道HBM短缺，AI需求吞噬产能，SK Hynix被NVIDIA锁定，中小客户面临供应挤压"
+      "heat": "→平稳",
+      "reddit_top": "无显著帖子",
+      "hn_top": "无显著帖子",
+      "summary": "HBM供给缺口短期难以缓解，SK海力士主导HBM3E市场，三星追赶"
     },
     {
       "topic": "中国Fab/先进制程",
-      "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": "TSMC is reportedly sold out until 2028 (34pts)",
-      "summary": "中芯国际等国内Fab无重大新动态，TSMC产能售罄至2028引发讨论，国内替代方案关注度平稳"
+      "heat": "↑升温",
+      "reddit_top": "无显著帖子",
+      "hn_top": "Chinese foundry SMIC may have broken the 5nm process barrier (7pts)",
+      "summary": "中芯国际5nm突破传闻引发关注，制裁环境下量产可行性待验证"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": "Activist Elliott Builds Big Stake in EDA Chip-Design Software (2pts)",
-      "summary": "国产EDA无重大突破，海外EDA并购新闻清淡，Elliott入股EDA公司引发行业格局讨论但热度低"
+      "reddit_top": "无显著帖子",
+      "hn_top": "无显著帖子",
+      "summary": "国产EDA/IP融资活跃但市场渗透率仍低，华大九天等加速追赶"
     },
     {
       "topic": "封测OSAT",
-      "heat": "↑↑升温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "盛合晶微上市成为封测赛道里程碑事件，先进封装OSAT估值重估，日月光等传统OSAT面临竞争压力"
+      "heat": "→平稳",
+      "reddit_top": "无显著帖子",
+      "hn_top": "无显著帖子",
+      "summary": "盛合晶微上市标志中国先进封装进入资本市场新阶段，日月光继续领跑"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↑升温",
-      "reddit_top": null,
-      "hn_top": "The MATCH Act Is Missing Piece in America's AI Export Controls (2pts)",
-      "summary": "美国阻止中国LED芯片商收购Lumileds，制裁范围从高端芯片扩展到光电产业链，投资审查趋严"
+      "reddit_top": "无显著帖子",
+      "hn_top": "How the U.S. – Chinese Technology War Is Changing the World (1pts)",
+      "summary": "美国拟扩大制裁15家中企，出口管制范围持续升级"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↑↑升温",
-      "reddit_top": null,
-      "hn_top": "New Rowhammer attacks give complete control of machines running (132pts)",
-      "summary": "HBM短缺直接影响NVIDIA GPU供应链，社区讨论AI芯片安全漏洞（Rowhammer），黄仁勋收购Groq传闻持续发酵"
+      "reddit_top": "无显著帖子",
+      "hn_top": "Nvidia CEO Jensen Huang announces new AI chips: ‘We need bigger GPUs’ (393pts)",
+      "summary": "英伟达发布新一代AI GPU（393pts热度），AI算力需求持续膨胀"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "国产设备材料无重大新突破，NAURA/AMEC近期无新动态，社区讨论集中在宏观半导体投资而非具体国产化进展"
+      "reddit_top": "无显著帖子",
+      "hn_top": "无显著帖子",
+      "summary": "国产半导体设备和材料渗透率缓慢提升，北方华创/中微等持续扩产"
     }
   ],
   "items": [
     {
-      "title": "盛合晶微科创板上市首日暴涨406.71%，晶圆级先进封测第一股市值超1800亿",
-      "summary": "全球前十封测企业盛合晶微今日正式登陆科创板，开盘即大涨406.71%，市值突破1800亿元。该公司专注晶圆级先进封装与测试，是AI算力芯片封测核心供应商，无锡国资浮盈627%。此次IPO为今年科创板最大规模上市事件，募资约140亿元。",
-      "source": "Serper-36氪",
+      "title": "英特尔代工厂订单激增50%，需求强劲增长",
+      "summary": "英特尔代工业务工具订单同比增长50%，显示其IFS业务正逐步获得市场认可，先进制程和封装需求推动订单增长。",
+      "source": "NewsAPI (techpowerup.com)",
       "published": "2026-04-21",
-      "url": "https://www.36kr.com/p/3776448356041477",
+      "url": "https://www.techpowerup.com/348367/intel-foundry-tool-orders-surge-50-year-over-year-as-demand-booms",
       "tags": [
+        "Intel Foundry",
+        "代工",
+        "订单增长"
+      ],
+      "insights": [
+        "英特尔IFS业务拐点信号明确，50%订单增长表明先进封装需求正带动其代工复苏",
+        "先进封装产能需求持续攀升，多个Foundry争相扩产"
+      ],
+      "actions": [
+        "跟踪Intel Foundry客户进展，评估是否纳入代工供应商候选",
+        "关注Intel 18A制程量产进展及封装产能释放节奏"
+      ],
+      "glossary": [
+        "IFS (Intel Foundry Services)",
+        "18A制程"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "英特尔股价达25年新高，代工转型预期升温",
+      "summary": "英特尔股价创下25年来新高，市场对其代工业务转型前景看好，Q1财报前投资者密切关注 turnaround进展。",
+      "source": "NewsAPI (barchart.com)",
+      "published": "2026-04-21",
+      "url": "https://www.barchart.com/story/news/1400380/intel-hit-its-highest-price-in-25-years-here-s-why-it-will-make-a-new-all-time-high",
+      "tags": [
+        "Intel",
+        "股价",
+        "代工转型"
+      ],
+      "insights": [
+        "资本市场对Intel代工转型信心增强，IFS订单增长与股价共振",
+        "半导体板块整体热度接近互联网泡沫水平，需警惕估值泡沫"
+      ],
+      "actions": [
+        "关注Intel Q1财报IFS业务分部收入数据",
+        "评估半导体板块估值是否进入过热区间"
+      ],
+      "glossary": [
+        "IFS",
+        "Turnaround"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "半导体板块热度创互联网泡沫以来新高，是否过热？",
+      "summary": "半导体股票热度达到2000年互联网泡沫以来最高水平，AI需求驱动下估值持续攀升，但市场信号分化。",
+      "source": "NewsAPI (yahoo finance)",
+      "published": "2026-04-21",
+      "url": "https://finance.yahoo.com/news/semiconductor-stocks-havent-been-this-hot-since-the-dot-com-bubble--and-it-could-end-badly-131124176.html",
+      "tags": [
+        "半导体投资",
+        "估值",
+        "AI驱动"
+      ],
+      "insights": [
+        "半导体板块估值处于历史高位，AI算力需求是核心驱动力",
+        "板块热度集中于头部企业，中小型fabless估值分化明显"
+      ],
+      "actions": [
+        "审视当前半导体投资组合的集中度风险",
+        "关注板块回调信号，做好风险对冲准备"
+      ],
+      "glossary": [
+        "估值泡沫",
+        "集中度风险"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "盛合晶微科创板上市首日暴涨406%，市值超1500亿",
+      "summary": "全球领先的晶圆级先进封测企业盛合晶微在科创板上市，首日涨幅406.71%，前中芯国际高管掌舵，无锡国资大赚627%。",
+      "source": "Serper (36kr/zhidx)",
+      "published": "2026-04-21",
+      "url": "https://zhidx.com/p/551074.html",
+      "tags": [
+        "盛合晶微",
+        "科创板IPO",
         "先进封装",
-        "IPO",
-        "封测",
-        "科创板"
+        "晶圆级封测"
       ],
       "insights": [
-        "盛合晶微上市标志晶圆级先进封装赛道进入资本化阶段，AI算力封测需求持续驱动估值",
-        "开盘暴涨406%反映市场对先进封装赛道极度看好，类似中芯国际上市时的热情",
-        "无锡国资627%浮盈显示地方政府在半导体产业链投资的战略布局已进入收获期"
+        "盛合晶微上市标志着中国先进封装产业进入资本市场新阶段，前中芯团队背景显示产业人才流动趋势",
+        "晶圆级封测赛道估值溢价显著，反映市场对AI算力封装需求的高度预期"
       ],
       "actions": [
-        "关注盛合晶微后续产能扩产计划，评估其对当前封测供应商格局的影响",
-        "评估是否需要将盛合晶微纳入封测供应商候选池，特别是先进封装需求",
-        "关注科创板半导体IPO节奏，预判后续长鑫存储等企业上市时间窗口"
+        "评估盛合晶微作为先进封装供应商的技术能力和产能规模",
+        "关注其WLP/COWOS封装技术对标日月光/长电的差距"
       ],
       "glossary": [
-        "晶圆级封装",
-        "先进封测",
-        "科创板"
+        "WLP (晶圆级封装)",
+        "COWOS"
       ],
       "region": "domestic"
     },
     {
-      "title": "TSMC投入560亿美元扩产，CEO魏哲家承认短缺将持续至2027年",
-      "summary": "台积电宣布将投入560亿美元新建多座晶圆厂，但CEO魏哲家同时承认芯片短缺问题将持续至2027年。TSMC正在加速2nm及以下先进制程产能建设，全球客户排队争抢产能，先进制程供需失衡短期内难以缓解。",
-      "source": "RSS-WCCFTech",
+      "title": "帝科股份拟募资30亿元，超半数加码半导体与存储芯片封测",
+      "summary": "光伏材料龙头帝科股份宣布跨界半导体领域，拟募资30亿元中超15亿投向半导体与存储芯片封测业务。",
+      "source": "Serper (mrjjxw.com)",
       "published": "2026-04-21",
-      "url": "https://wccftech.com/tsmc-pouring-56-billion-into-new-fabs-admits-shortages-will-drag-into-2027-and-",
+      "url": "https://www.mrjjxw.com/articles/2026-04-21/4350648.html",
       "tags": [
-        "TSMC",
-        "扩产",
-        "先进制程",
-        "产能短缺"
+        "帝科股份",
+        "跨界半导体",
+        "封测投资"
       ],
       "insights": [
-        "TSMC 560亿美元扩产计划规模空前，但产能释放周期长，短缺延续至2027意味着下游客户需提前锁定",
-        "2nm及以下制程产能争夺加剧，高通、AMD等fabless公司议价权将进一步削弱"
+        "光伏企业跨界半导体封装反映封测赛道投资吸引力持续增强",
+        "存储芯片封测需求增长驱动更多非半导体企业进入该领域"
       ],
       "actions": [
-        "立即评估当前TSMC产能分配情况，确认未来2年产能锁定状态",
-        "考虑是否需要引入Samsung或Intel Foundry作为备选代工供应商"
+        "评估帝科股份封测技术积累是否具备竞争力",
+        "关注跨界企业的实际产能建设进度和技术路线"
       ],
       "glossary": [
-        "2nm",
-        "先进制程",
-        "产能短缺"
+        "存储芯片封测",
+        "跨界投资"
       ],
-      "region": "overseas"
+      "region": "domestic"
     },
     {
-      "title": "TSMC先进制程路线图解析：从3nm扩产到1.4nm量产",
-      "summary": "深度解析台积电先进制程路线图：3nm产能持续扩大，2nm预计2025年底量产，1.4nm（A14）节点2027年量产规划已启动。TSMC在先进制程上的领先优势进一步巩固，每代节点间隔约2年。",
-      "source": "Brave-GlobalSemiResearch",
+      "title": "美国拟将15家中国半导体企业纳入管制清单，中芯国际等受影响",
+      "summary": "美国拟扩大芯片管制范围，将15家中国半导体企业纳入出口管制清单，中芯国际等多家关键企业受到影响。",
+      "source": "SerpAPI (qcc.com)",
       "published": "2026-04-21",
-      "url": "https://globalsemiresearch.substack.com/p/decoding-tsmcs-advanced-process-roadmap",
+      "url": "https://m.qcc.com/postnews/8e0689fb21e2f3845c150d92b3752962.html",
       "tags": [
-        "TSMC",
-        "先进制程",
-        "1.4nm",
-        "路线图"
-      ],
-      "insights": [
-        "TSMC 1.4nm量产规划提前释放信号，意图锁定苹果、高通等头部客户长期订单",
-        "制程路线图加速意味着fabless需要更早启动芯片设计，设计周期与制程节点同步收紧"
-      ],
-      "actions": [
-        "对照TSMC制程路线图，评估当前芯片设计项目应采用的制程节点",
-        "与TSMC确认1.4nm产能预留窗口，提前规划下一代产品设计启动时间"
-      ],
-      "glossary": [
-        "1.4nm",
-        "A14节点",
-        "制程路线图"
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "美国政府阻止中国LED芯片巨头以2.39亿美元收购荷兰Lumileds",
-      "summary": "美国政府阻止了中国最大LED芯片制造商以2.39亿美元收购荷兰照明企业Lumileds的交易。此举延续了美国对中国半导体及光电领域并购的严格管控政策，跨境技术并购面临持续政治阻力。",
-      "source": "NewsAPI-Tom's Hardware",
-      "published": "2026-04-21",
-      "url": "https://www.tomshardware.com/tech-industry/us-blocks-chinese-acquisition-of-dutch-led-firm-lumileds-",
-      "tags": [
+        "出口管制",
         "制裁",
-        "并购",
-        "LED",
-        "出口管制"
+        "中芯国际",
+        "美国政策"
       ],
       "insights": [
-        "LED领域并购被阻止显示制裁范围已从高端芯片扩展到光电产业链，投资审查边界持续扩大",
-        "中国企业海外技术并购路径进一步受限，需转向内生技术积累和国内产业链整合"
+        "制裁范围持续扩大显示美国对华芯片封锁策略升级",
+        "被制裁企业供应链替代需求将加速国产设备和材料渗透"
       ],
       "actions": [
-        "评估海外并购替代路径，关注国内产业链垂直整合机会",
-        "跟踪美国投资审查新规动向，预判对封测/材料领域并购的潜在影响"
+        "评估被列入清单企业对自身供应链的影响",
+        "加快国产替代方案验证和备选供应商储备"
       ],
       "glossary": [
-        "Lumileds",
-        "CFIUS",
-        "投资审查"
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "Silicon Box加入IMEC汽车Chiplet计划，强化芯片集成架构",
-      "summary": "Silicon Box宣布加入IMEC汽车Chiplet项目，推动汽车芯片异构集成架构发展。IMEC作为欧洲顶尖微电子研究中心，其汽车Chiplet计划旨在解决汽车芯片碎片化问题，通过Chiplet架构实现灵活组合与快速迭代。",
-      "source": "NewsAPI-AntaraNews",
-      "published": "2026-04-21",
-      "url": "https://en.antaranews.com/news/412977/silicon-box-announces-it-joins-imec-automotive-chiplet-program",
-      "tags": [
-        "Chiplet",
-        "汽车芯片",
-        "IMEC",
-        "异构集成"
-      ],
-      "insights": [
-        "汽车芯片Chiplet化趋势加速，IMEC牵头意味着欧洲汽车半导体将走向模块化设计范式",
-        "Chiplet架构降低车规芯片设计门槛，中小fabless有机会通过Chiplet组合切入汽车市场"
-      ],
-      "actions": [
-        "关注IMEC汽车Chiplet标准进展，评估Chiplet设计对当前汽车芯片项目的适用性",
-        "评估Chiplet封装需求变化，提前对接先进封装供应商"
-      ],
-      "glossary": [
-        "Chiplet",
-        "IMEC",
-        "异构集成"
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "8家半导体企业披露IPO新进展，中国芯片资本市场热潮再起",
-      "summary": "8家半导体企业近期披露IPO新进展，包括长鑫存储、多家EDA和设计公司。中国半导体资本市场持续升温，科创板和创业板成为芯片企业首选上市渠道，IPO潮反映产业链成熟度提升和政策支持力度加大。",
-      "source": "Serper-新浪财经",
-      "published": "2026-04-21",
-      "url": "https://cj.sina.com.cn/articles/view/1960136440/74d54ef800101ftvq",
-      "tags": [
-        "IPO",
-        "半导体",
-        "资本市场",
-        "国产化"
-      ],
-      "insights": [
-        "半导体IPO潮反映国产替代进入收获期，更多企业从技术积累走向资本化运营",
-        "长鑫存储等头部企业上市将重塑国内存储芯片竞争格局"
-      ],
-      "actions": [
-        "跟踪8家IPO企业进展，重点关注长鑫存储上市时间窗口和募资用途",
-        "评估IPO企业产业链覆盖面，识别潜在新供应商和合作机会"
-      ],
-      "glossary": [
-        "IPO",
-        "科创板",
-        "半导体产业"
+        "出口管制清单",
+        "国产替代"
       ],
       "region": "domestic"
     },
     {
-      "title": "Silex计划在纳斯达克斯德哥尔摩上市，欧洲半导体IPO升温",
-      "summary": "瑞典半导体公司Silex宣布计划在纳斯达克斯德哥尔摩上市。Silex专注于MEMS代工服务，是全球领先的纯MEMS晶圆代工厂。欧洲半导体IPO市场升温，反映MEMS和传感器赛道商业化加速。",
-      "source": "Brave-TradingView",
+      "title": "Axiro将分阶段扩展fabless芯片业务，CG Power董事长表态",
+      "summary": "CG Power旗下Axiro计划分阶段扩大无晶圆厂芯片设计业务，显示印度fabless生态逐步成型。",
+      "source": "NewsAPI (economictimes.indiatimes.com)",
       "published": "2026-04-21",
-      "url": "https://www.tradingview.com/news/modular_finance:09b21e1a84e88:0-silex-intends-to-list-its-shares-on",
+      "url": "https://economictimes.indiatimes.com/tech/technology/axiro-will-scale-fabless-chip-business-in-phases-cg-power-chairman/articleshow/130376559.cms",
       "tags": [
-        "MEMS",
-        "IPO",
-        "欧洲半导体",
-        "代工"
+        "Axiro",
+        "fabless",
+        "印度芯片设计"
       ],
       "insights": [
-        "MEMS代工赛道商业化成熟，Silex上市将为传感器产业链提供新的产能和资本支撑",
-        "欧洲半导体IPO与国内科创板IPO并行升温，全球半导体资本化浪潮同步推进"
+        "印度fabless生态起步，与中芯等亚洲Foundry形成新的供需组合",
+        "CG Power模式（制造+设计整合）值得关注"
       ],
       "actions": [
-        "关注Silex上市后MEMS产能扩张计划，评估其对国内MEMS代工格局的影响",
-        "评估是否需要引入欧洲MEMS代工资源补充国内产能"
+        "关注印度fabless企业对代工产能的需求变化",
+        "评估是否需要关注印度芯片市场的新竞争格局"
       ],
       "glossary": [
-        "MEMS",
-        "纯MEMS代工",
-        "纳斯达克斯德哥尔摩"
+        "Fabless",
+        "CG Power"
       ],
       "region": "overseas"
     },
     {
-      "title": "AI算力需求吞噬HBM产能，高带宽存储短缺持续",
-      "summary": "IEEE Spectrum深度报道：AI算力对高带宽存储（HBM）的需求持续膨胀，SK Hynix和Samsung的HBM产能已被NVIDIA等客户完全锁定。HBM短缺推高价格，影响GPU和AI加速卡供应链成本，预计2027年产能才能逐步缓解。",
-      "source": "RSS-IEEE Spectrum",
+      "title": "AI算力对存储需求永无止境，HBM供给紧张持续",
+      "summary": "IEEE Spectrum报道AI算力对高带宽存储的需求持续膨胀，HBM产能供给紧张局面短期难以缓解。",
+      "source": "IEEE Spectrum",
       "published": "2026-04-21",
       "url": "https://spectrum.ieee.org/high-bandwidth-memory-shortage",
       "tags": [
         "HBM",
         "AI存储",
-        "产能短缺",
-        "NVIDIA"
+        "产能紧张"
       ],
       "insights": [
-        "HBM产能被头部客户锁定，中小客户获取HBM供应的难度和成本将持续上升",
-        "HBM短缺推动存储厂商加速产能投资，但3-5年周期内供需仍将偏紧"
+        "HBM供给缺口将持续到2027年，SK海力士/三星扩产节奏决定缓解时间",
+        "存储瓶颈正在倒逼芯片架构创新，chiplet+HBM组合成为主流"
       ],
       "actions": [
-        "评估当前AI加速卡HBM供应情况，确认2026-2027年HBM采购锁定状态",
-        "关注Samsung HBM4产能进展，考虑引入多源HBM供应策略"
+        "跟踪SK海力士HBM3E量产进度和产能分配",
+        "评估HBM供给对AI芯片采购周期的影响"
       ],
       "glossary": [
-        "HBM",
-        "高带宽存储",
-        "AI加速卡"
+        "HBM3E",
+        "高带宽存储"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "英特尔Q1财报前夕股价下跌3.78%，投资者关注转型进展",
+      "summary": "英特尔Q1财报发布前股价下跌3.78%，投资者密切关注代工转型和IFS业务进展。",
+      "source": "NewsAPI (ibtimes.com.au)",
+      "published": "2026-04-21",
+      "url": "https://www.ibtimes.com.au/intel-stock-drops-378-ahead-q1-earnings-investors-brace-turnaround-update-1867097",
+      "tags": [
+        "Intel",
+        "Q1财报",
+        "代工转型"
+      ],
+      "insights": [
+        "英特尔转型进展仍是市场焦点，IFS收入增速是关键指标",
+        "股价波动反映投资者对转型节奏的不确定性"
+      ],
+      "actions": [
+        "等待Intel Q1财报IFS业务数据再做供应链决策调整"
+      ],
+      "glossary": [
+        "Q1财报",
+        "IFS收入"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "重庆GPU厂商象帝先启动IPO，国产GPU赛道资本化加速",
+      "summary": "重庆GPU芯片厂商象帝先正式启动IPO，国产GPU赛道进入资本市场加速阶段。",
+      "source": "Brave (sohu.com)",
+      "published": "2026-04-21",
+      "url": "https://www.sohu.com/a/1012143376_128469",
+      "tags": [
+        "象帝先",
+        "国产GPU",
+        "IPO"
+      ],
+      "insights": [
+        "国产GPU企业IPO加速，反映资本市场对自主算力芯片的持续关注",
+        "象帝先GPU产品定位和制程选择需进一步评估"
+      ],
+      "actions": [
+        "关注象帝先GPU产品量产进度和客户验证情况",
+        "评估国产GPU对英伟达替代的实际进展"
+      ],
+      "glossary": [
+        "国产GPU",
+        "自主算力"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "亿智电子完成数亿元B轮融资，专注端侧AI SoC芯片",
+      "summary": "端侧通用算力AI SoC芯片研发商亿智电子完成数亿元B轮融资，专注边缘AI推理芯片。",
+      "source": "Brave (36kr)",
+      "published": "2026-04-21",
+      "url": "https://36kr.com/p/1927542907734661",
+      "tags": [
+        "亿智电子",
+        "端侧AI芯片",
+        "B轮融资"
+      ],
+      "insights": [
+        "端侧AI芯片融资活跃，边缘推理需求增长驱动投资",
+        "SoC设计公司融资加速，显示chiplet之外的单芯片集成路线仍有市场"
+      ],
+      "actions": [
+        "评估亿智电子产品与自身端侧AI需求匹配度",
+        "关注端侧AI芯片供应商格局变化"
+      ],
+      "glossary": [
+        "端侧AI SoC",
+        "边缘推理"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "英特尔代工起飞？SemiWiki深度分析IFS前景",
+      "summary": "SemiWiki发布深度分析文章，讨论英特尔代工业务起飞的可能性及关键里程碑。",
+      "source": "SemiWiki",
+      "published": "2026-04-20",
+      "url": "https://semiwiki.com/semiconductor-manufacturers/intel/368539-is-intel-about-to-take-flight/",
+      "tags": [
+        "Intel Foundry",
+        "SemiWiki",
+        "代工前景"
+      ],
+      "insights": [
+        "产业分析师对Intel IFS前景分歧明显，关键取决于18A良率和客户获取",
+        "Intel Foundry与TSMC竞争格局正在重塑全球代工产能分配"
+      ],
+      "actions": [
+        "阅读SemiWiki分析全文，评估Intel Foundry技术路线可行性",
+        "对比Intel 18A与TSMC N2制程进展"
+      ],
+      "glossary": [
+        "18A制程",
+        "N2制程"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "中国芯赛道仍收获超1000亿融资，诞生10家独角兽",
+      "summary": "尽管市场波动，中国芯片赛道今年仍吸引超1000亿元融资，诞生10家独角兽企业。",
+      "source": "Brave (36kr)",
+      "published": "2026-04-21",
+      "url": "https://36kr.com/p/2033509341506560",
+      "tags": [
+        "中国芯片投资",
+        "独角兽",
+        "融资规模"
+      ],
+      "insights": [
+        "中国芯片融资规模维持高位，政策引导和AI需求双驱动",
+        "独角兽集中在先进封装、EDA和端侧AI三个方向"
+      ],
+      "actions": [
+        "关注10家独角兽名单及其细分赛道定位",
+        "评估融资热度是否转化为实际产品交付能力"
+      ],
+      "glossary": [
+        "独角兽企业",
+        "融资规模"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "中芯国际可能突破5nm制程壁垒，先进制程追赶加速",
+      "summary": "据报道中芯国际可能已突破5nm制程关键工艺，显示中国先进制程自主研发取得重要进展。",
+      "source": "HN (Tom's Hardware)",
+      "published": "2026-04-21",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/china-poised-to-break-5nm-barrier-huawei-lists-5nm-processor-presumably-built-with-smic-tech-defying-us-sanctions",
+      "tags": [
+        "中芯国际",
+        "5nm",
+        "先进制程"
+      ],
+      "insights": [
+        "中芯国际5nm突破若属实，将改变国内先进制程供给格局",
+        "制裁环境下5nm量产的实际良率和商业可行性仍需验证"
+      ],
+      "actions": [
+        "跟踪中芯国际5nm制程量产进展和良率数据",
+        "评估5nm突破对国内fabless设计公司的实际供货影响"
+      ],
+      "glossary": [
+        "5nm制程",
+        "良率"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "英伟达CEO黄仁勋发布新一代AI芯片：需要更大GPU",
+      "summary": "英伟达CEO黄仁勋宣布新一代AI GPU芯片，强调AI算力需求持续增长需要更大规模GPU架构。",
+      "source": "HN (CNBC)",
+      "published": "2026-04-21",
+      "url": "https://www.cnbc.com/2024/03/18/nvidia-announces-gb200-blackwell-ai-chip-launching-later-this-year.html",
+      "tags": [
+        "NVIDIA",
+        "AI芯片",
+        "Blackwell",
+        "新GPU"
+      ],
+      "insights": [
+        "英伟达持续迭代AI GPU架构，Blackwell后续产品路线图明确",
+        "更大GPU需求将进一步推高HBM和先进封装产能需求"
+      ],
+      "actions": [
+        "关注英伟达新一代GPU对CoWoS封装产能的增量需求",
+        "评估英伟达产品迭代对代工产能分配的影响"
+      ],
+      "glossary": [
+        "Blackwell架构",
+        "CoWoS封装"
       ],
       "region": "overseas"
     }
