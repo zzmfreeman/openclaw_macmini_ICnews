@@ -1,327 +1,311 @@
 {
-  "version": "v20260420-2000",
-  "generatedAt": "2026-04-20T20:00:00+08:00",
+  "version": "v20260421-2000",
+  "generatedAt": "2026-04-21T20:00:00+08:00",
   "period": "evening",
   "commit": "",
   "glossary_list": [
     {
-      "term": "SOCAMM2",
-      "desc": "SK海力士推出的新型高带宽内存模块，带宽翻倍，HBM替代方案",
-      "category": "存储"
-    },
-    {
-      "term": "片上SRAM",
-      "desc": "集成在芯片内部的静态随机存储器，AI推理加速关键",
-      "category": "存储"
-    },
-    {
-      "term": "CPO",
-      "desc": "共封装光学，将光收发器与芯片封装在一起，降低互联功耗",
+      "term": "晶圆级封装（WLP）",
+      "desc": "在晶圆上直接完成封装工艺，省去单颗芯片封装步骤，适用于先进封装和Chiplet集成",
       "category": "封装"
     },
     {
-      "term": "OSAT",
-      "desc": "外包半导体封装测试服务",
-      "category": "封装"
+      "term": "1.4nm（A14节点）",
+      "desc": "台积电规划的最先进制程节点，预计2027年量产，比2nm进一步缩小晶体管尺寸",
+      "category": "设备"
     },
     {
-      "term": "IGBT",
-      "desc": "绝缘栅双极型晶体管，功率半导体核心器件",
-      "category": "封装"
-    },
-    {
-      "term": "光通信芯片",
-      "desc": "用于光纤数据传输的半导体器件，AI数据中心互联核心",
-      "category": "存储"
-    },
-    {
-      "term": "闪电并购",
-      "desc": "短时间内完成的半导体企业并购，通常伴随业绩快速释放",
+      "term": "CFIUS",
+      "desc": "美国外国投资委员会，审查涉及国家安全的外资并购交易，近年频繁阻止中国半导体并购",
       "category": "商业"
     },
     {
-      "term": "格罗方(GlobalFoundries)",
-      "desc": "全球第三大晶圆代工厂，专注特种工艺和硅光子技术",
-      "category": "材料"
+      "term": "MEMS代工",
+      "desc": "专门提供MEMS传感器晶圆代工服务的工厂，与IC代工工艺差异大，全球纯MEMS代工厂数量有限",
+      "category": "制造"
+    },
+    {
+      "term": "HBM4",
+      "desc": "第四代高带宽存储，带宽和容量进一步提升，是AI GPU标配存储方案",
+      "category": "存储"
     }
   ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
-      "heat": "→平稳",
+      "heat": "↑↑升温",
       "reddit_top": null,
-      "hn_top": null,
-      "summary": "社区讨论偏冷。通富微电业绩爆发和AMD CPO代工是产业层面最受关注的事件。"
+      "hn_top": "Switzerland hosts 'CERN of semiconductor research' (34pts)",
+      "summary": "盛合晶微上市引爆先进封装讨论热度，CoWoS产能争夺持续升温，社区关注封装从后端走向前端设计的趋势"
     },
     {
       "topic": "HBM/AI存储",
-      "heat": "↑微升温",
+      "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "SK海力士SOCAMM2量产引发关注，SOCAMM2作为HBM替代方案标志着AI存储架构多元化。"
+      "summary": "IEEE Spectrum深度报道HBM短缺，AI需求吞噬产能，SK Hynix被NVIDIA锁定，中小客户面临供应挤压"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "→平稳",
       "reddit_top": null,
-      "hn_top": null,
-      "summary": "无重大新进展，越南芯片厂开工和国内功率半导体涨价是区域性关注点。"
+      "hn_top": "TSMC is reportedly sold out until 2028 (34pts)",
+      "summary": "中芯国际等国内Fab无重大新动态，TSMC产能售罄至2028引发讨论，国内替代方案关注度平稳"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
       "reddit_top": null,
-      "hn_top": null,
-      "summary": "本周无国产EDA重大动态，社区关注度较低。"
+      "hn_top": "Activist Elliott Builds Big Stake in EDA Chip-Design Software (2pts)",
+      "summary": "国产EDA无重大突破，海外EDA并购新闻清淡，Elliott入股EDA公司引发行业格局讨论但热度低"
     },
     {
       "topic": "封测OSAT",
-      "heat": "↑微升温",
+      "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "通富微电年报业绩爆发，先进封装利润率大幅提升成为讨论焦点。"
+      "summary": "盛合晶微上市成为封测赛道里程碑事件，先进封装OSAT估值重估，日月光等传统OSAT面临竞争压力"
     },
     {
       "topic": "出口管制/制裁",
-      "heat": "→平稳",
+      "heat": "↑升温",
       "reddit_top": null,
-      "hn_top": null,
-      "summary": "美国拟将15家中国半导体企业纳入管制清单的消息仍在发酵，但社区讨论偏冷。"
+      "hn_top": "The MATCH Act Is Missing Piece in America's AI Export Controls (2pts)",
+      "summary": "美国阻止中国LED芯片商收购Lumileds，制裁范围从高端芯片扩展到光电产业链，投资审查趋严"
     },
     {
       "topic": "AI芯片/NVIDIA",
-      "heat": "↑微升温",
+      "heat": "↑↑升温",
       "reddit_top": null,
-      "hn_top": null,
-      "summary": "OpenAI 200亿美元大芯片订单引发关注，片上SRAM成为新焦点。"
+      "hn_top": "New Rowhammer attacks give complete control of machines running (132pts)",
+      "summary": "HBM短缺直接影响NVIDIA GPU供应链，社区讨论AI芯片安全漏洞（Rowhammer），黄仁勋收购Groq传闻持续发酵"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "本周无重大国产设备/材料突破新闻，社区讨论平稳。"
+      "summary": "国产设备材料无重大新突破，NAURA/AMEC近期无新动态，社区讨论集中在宏观半导体投资而非具体国产化进展"
     }
   ],
   "items": [
     {
-      "title": "OpenAI押注200亿美元超大AI芯片，片上SRAM进入主流视野",
-      "url": "https://www.cls.cn/detail/2348395",
-      "summary": "OpenAI以200亿美元订单押注超大AI芯片设计，片上SRAM成为主流方案。此举打破了芯片越做越小的传统路径，转向大尺寸、高SRAM密度设计，标志着AI算力架构从通用GPU向定制化超大芯片的转型。",
-      "source": "财联社",
-      "published": "2026-04-19T20:00:00+08:00",
+      "title": "盛合晶微科创板上市首日暴涨406.71%，晶圆级先进封测第一股市值超1800亿",
+      "summary": "全球前十封测企业盛合晶微今日正式登陆科创板，开盘即大涨406.71%，市值突破1800亿元。该公司专注晶圆级先进封装与测试，是AI算力芯片封测核心供应商，无锡国资浮盈627%。此次IPO为今年科创板最大规模上市事件，募资约140亿元。",
+      "source": "Serper-36氪",
+      "published": "2026-04-21",
+      "url": "https://www.36kr.com/p/3776448356041477",
       "tags": [
-        "AI芯片",
-        "SRAM",
-        "OpenAI"
+        "先进封装",
+        "IPO",
+        "封测",
+        "科创板"
       ],
       "insights": [
-        "OpenAI的大芯片策略预示AI算力架构正在从通用GPU转向定制化超大芯片方案",
-        "片上SRAM需求激增将推动SRAM IP授权和定制化存储设计成为新增长点"
+        "盛合晶微上市标志晶圆级先进封装赛道进入资本化阶段，AI算力封测需求持续驱动估值",
+        "开盘暴涨406%反映市场对先进封装赛道极度看好，类似中芯国际上市时的热情",
+        "无锡国资627%浮盈显示地方政府在半导体产业链投资的战略布局已进入收获期"
       ],
       "actions": [
-        "关注SRAM IP供应商（如Arm、SureCore）的技术路线和产能规划",
-        "评估定制AI芯片对代工厂先进制程产能需求的影响"
+        "关注盛合晶微后续产能扩产计划，评估其对当前封测供应商格局的影响",
+        "评估是否需要将盛合晶微纳入封测供应商候选池，特别是先进封装需求",
+        "关注科创板半导体IPO节奏，预判后续长鑫存储等企业上市时间窗口"
       ],
       "glossary": [
-        {
-          "term": "片上SRAM",
-          "desc": "集成在芯片内部的静态随机存储器，AI推理加速关键",
-          "category": "存储"
-        }
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "SK海力士量产192GB SOCAMM2内存，带宽翻倍成HBM替代方案",
-      "url": "https://wccftech.com/sk-hynix-begins-mass-production-of-192-gb-socamm2-memory-with-2x-bandwidth-a-viable-hbm-alternative/",
-      "summary": "SK海力士宣布量产192GB SOCAMM2内存模块，带宽较前代翻倍，被视为HBM的有力替代方案。SOCAMM2采用新型封装架构，为AI数据中心提供更高密度和带宽的存储选择。",
-      "source": "Wccftech",
-      "published": "2026-04-20T10:00:00+08:00",
-      "tags": [
-        "HBM/AI存储",
-        "SOCAMM2",
-        "SK海力士"
-      ],
-      "insights": [
-        "SOCAMM2作为HBM替代方案量产，表明AI存储架构多元化趋势加速",
-        "SK海力士在AI存储领域的持续创新巩固了其市场领先地位"
-      ],
-      "actions": [
-        "评估SOCAMM2与HBM的成本效益对比，研判是否需要更新存储采购方案",
-        "关注SOCAMM2下游客户采用进度"
-      ],
-      "glossary": [
-        {
-          "term": "SOCAMM2",
-          "desc": "SK海力士推出的新型高带宽内存模块，带宽翻倍，HBM替代方案",
-          "category": "存储"
-        }
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "AMD选择格罗方代工MI500共封装光学，硅光子技术加速商业化",
-      "url": "https://wccftech.com/amd-taps-globalfoundries-for-mi500s-co-packaged-optics-as-the-silicon-photonics-revolution-begins/",
-      "summary": "AMD将MI500 AI加速器的共封装光学（CPO）交由格罗方代工，标志着硅光子技术从实验室走向量产。CPO方案可大幅降低数据中心互联功耗和延迟。",
-      "source": "Wccftech",
-      "published": "2026-04-20T09:00:00+08:00",
-      "tags": [
-        "设计公司",
-        "AMD",
-        "共封装光学",
-        "格罗方"
-      ],
-      "insights": [
-        "CPO技术商业化加速，将重塑AI数据中心互联架构",
-        "格罗方获得AMD CPO代工订单，证明其硅光子平台竞争力"
-      ],
-      "actions": [
-        "跟踪AMD CPO量产进度，评估对数据中心光互联供应链的影响",
-        "关注格罗方硅光子产线产能规划"
-      ],
-      "glossary": [
-        {
-          "term": "CPO",
-          "desc": "共封装光学，将光收发器与芯片封装在一起，降低互联功耗",
-          "category": "封装"
-        }
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "通富微电2025年营收净利双创历史新高，净利润同比增长近八成",
-      "url": "https://caifuhao.eastmoney.com/news/20260420084835824481080",
-      "summary": "通富微电2025年营收和净利润均创历史新高，净利润同比增长近80%。先进封装业务成为增长核心驱动力，利润增速远超营收增速表明先进封装毛利率显著提升。",
-      "source": "证券时报",
-      "published": "2026-04-20T08:48:00+08:00",
-      "tags": [
-        "封测OSAT",
-        "业绩",
-        "先进封装"
-      ],
-      "insights": [
-        "国内OSAT龙头企业业绩爆发验证了先进封装需求的持续增长趋势",
-        "通富微电利润增速远超营收增速，表明先进封装产品毛利率显著提升"
-      ],
-      "actions": [
-        "关注通富微电先进封装产能扩张节奏，评估封测供应商优先级是否需要调整",
-        "对比日月光/安靠同期业绩，研判国内OSAT国际竞争力变化"
-      ],
-      "glossary": [
-        {
-          "term": "OSAT",
-          "desc": "外包半导体封装测试服务",
-          "category": "封装"
-        }
+        "晶圆级封装",
+        "先进封测",
+        "科创板"
       ],
       "region": "domestic"
     },
     {
-      "title": "捷捷微电宣布涨价，两大新产线爬坡缓解产能紧张",
-      "url": "https://m.sohu.com/a/1011997332_266510",
-      "summary": "捷捷微电因原材料价格持续高位及产能紧张，对晶闸管、防护器件、MOSFET、IGBT等主力产品实施调价。公司两大新产线正在爬坡，预计逐步缓解产能瓶颈。",
-      "source": "搜狐网",
-      "published": "2026-04-20T15:00:00+08:00",
+      "title": "TSMC投入560亿美元扩产，CEO魏哲家承认短缺将持续至2027年",
+      "summary": "台积电宣布将投入560亿美元新建多座晶圆厂，但CEO魏哲家同时承认芯片短缺问题将持续至2027年。TSMC正在加速2nm及以下先进制程产能建设，全球客户排队争抢产能，先进制程供需失衡短期内难以缓解。",
+      "source": "RSS-WCCFTech",
+      "published": "2026-04-21",
+      "url": "https://wccftech.com/tsmc-pouring-56-billion-into-new-fabs-admits-shortages-will-drag-into-2027-and-",
       "tags": [
-        "功率半导体",
-        "涨价",
-        "产能"
+        "TSMC",
+        "扩产",
+        "先进制程",
+        "产能短缺"
       ],
       "insights": [
-        "功率半导体涨价潮表明下游需求回暖叠加原材料成本压力，行业景气度上行",
-        "国产功率半导体企业产线爬坡与涨价并存，反映出产能供给仍偏紧"
+        "TSMC 560亿美元扩产计划规模空前，但产能释放周期长，短缺延续至2027意味着下游客户需提前锁定",
+        "2nm及以下制程产能争夺加剧，高通、AMD等fabless公司议价权将进一步削弱"
       ],
       "actions": [
-        "评估捷捷微电等功率半导体供应商涨价对采购成本的影响",
-        "关注功率半导体产能释放节奏，提前锁定价格窗口"
+        "立即评估当前TSMC产能分配情况，确认未来2年产能锁定状态",
+        "考虑是否需要引入Samsung或Intel Foundry作为备选代工供应商"
       ],
       "glossary": [
-        {
-          "term": "IGBT",
-          "desc": "绝缘栅双极型晶体管，功率半导体核心器件",
-          "category": "封装"
-        }
+        "2nm",
+        "先进制程",
+        "产能短缺"
       ],
-      "region": "domestic"
-    },
-    {
-      "title": "源杰科技涨停成A股新股王：硅基新贵的逆袭与隐忧",
-      "url": "https://www.bjnews.com.cn/detail/1776676034129801.html",
-      "summary": "源杰科技以1445元/股涨停超越贵州茅台，成为A股新股王。公司主营光通信芯片，受益于AI算力需求爆发，但估值风险和产品线单一引发市场关注。",
-      "source": "新京报",
-      "published": "2026-04-20T18:00:00+08:00",
-      "tags": [
-        "设计公司",
-        "光通信芯片",
-        "A股"
-      ],
-      "insights": [
-        "光通信芯片企业受AI算力需求推动估值飙升，反映市场对高速互联芯片的强烈预期",
-        "源杰科技股价短期暴涨掩盖了产品线单一和客户集中度高的结构性风险"
-      ],
-      "actions": [
-        "跟踪源杰科技产品线和客户结构变化，评估其作为光通信芯片供应商的长期可靠性",
-        "关注A股芯片设计板块估值泡沫风险，审慎评估投资与采购策略"
-      ],
-      "glossary": [
-        {
-          "term": "光通信芯片",
-          "desc": "用于光纤数据传输的半导体器件，AI数据中心互联核心",
-          "category": "存储"
-        }
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "越南首座本土半导体芯片厂开工，雄心背后面临布局挑战",
-      "url": "https://m.sohu.com/a/1012114130_120319119",
-      "summary": "越南首座本土半导体芯片厂于今年1月正式开工，标志越南半导体产业进入新阶段。越南将半导体定位为国家经济增长引擎，但基础设施和人才储备等短板制约其发展。",
-      "source": "搜狐网",
-      "published": "2026-04-20T14:00:00+08:00",
-      "tags": [
-        "Fab/制造",
-        "东南亚",
-        "产业政策"
-      ],
-      "insights": [
-        "东南亚正成为半导体产能扩张新热点，但越南在人才和产业链配套方面仍远落后于中国和马来西亚",
-        "越南半导体布局以封装测试为主，晶圆制造能力短期内难以形成规模"
-      ],
-      "actions": [
-        "评估越南封装测试产能对OSAT供应链格局的潜在影响",
-        "关注越南半导体政策动向，研判是否需要调整东南亚供应链策略"
-      ],
-      "glossary": [],
       "region": "overseas"
     },
     {
-      "title": "存储芯片闪电并购背后疑点重重：业绩狂飙掩盖供应链风险",
-      "url": "https://m.sohu.com/a/1012199000_120319119",
-      "summary": "国内存储芯片领域近期出现闪电并购案例，业绩狂飙但客户、供应链和研发存在诸多疑点。并购背后的资本运作和产业整合逻辑值得深入审视。",
-      "source": "搜狐网",
-      "published": "2026-04-20T16:00:00+08:00",
+      "title": "TSMC先进制程路线图解析：从3nm扩产到1.4nm量产",
+      "summary": "深度解析台积电先进制程路线图：3nm产能持续扩大，2nm预计2025年底量产，1.4nm（A14）节点2027年量产规划已启动。TSMC在先进制程上的领先优势进一步巩固，每代节点间隔约2年。",
+      "source": "Brave-GlobalSemiResearch",
+      "published": "2026-04-21",
+      "url": "https://globalsemiresearch.substack.com/p/decoding-tsmcs-advanced-process-roadmap",
       "tags": [
-        "存储芯片",
+        "TSMC",
+        "先进制程",
+        "1.4nm",
+        "路线图"
+      ],
+      "insights": [
+        "TSMC 1.4nm量产规划提前释放信号，意图锁定苹果、高通等头部客户长期订单",
+        "制程路线图加速意味着fabless需要更早启动芯片设计，设计周期与制程节点同步收紧"
+      ],
+      "actions": [
+        "对照TSMC制程路线图，评估当前芯片设计项目应采用的制程节点",
+        "与TSMC确认1.4nm产能预留窗口，提前规划下一代产品设计启动时间"
+      ],
+      "glossary": [
+        "1.4nm",
+        "A14节点",
+        "制程路线图"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "美国政府阻止中国LED芯片巨头以2.39亿美元收购荷兰Lumileds",
+      "summary": "美国政府阻止了中国最大LED芯片制造商以2.39亿美元收购荷兰照明企业Lumileds的交易。此举延续了美国对中国半导体及光电领域并购的严格管控政策，跨境技术并购面临持续政治阻力。",
+      "source": "NewsAPI-Tom's Hardware",
+      "published": "2026-04-21",
+      "url": "https://www.tomshardware.com/tech-industry/us-blocks-chinese-acquisition-of-dutch-led-firm-lumileds-",
+      "tags": [
+        "制裁",
         "并购",
-        "产业整合"
+        "LED",
+        "出口管制"
       ],
       "insights": [
-        "存储芯片领域并购加速，但闪电并购模式下的整合质量和持续性存疑",
-        "业绩狂飙掩盖供应链和研发风险，半导体并购需审慎评估长期价值"
+        "LED领域并购被阻止显示制裁范围已从高端芯片扩展到光电产业链，投资审查边界持续扩大",
+        "中国企业海外技术并购路径进一步受限，需转向内生技术积累和国内产业链整合"
       ],
       "actions": [
-        "对存储芯片并购案例做尽职调查，重点审查供应链稳定性和研发可持续性",
-        "评估并购对下游采购选择的影响，避免供应商集中度风险"
+        "评估海外并购替代路径，关注国内产业链垂直整合机会",
+        "跟踪美国投资审查新规动向，预判对封测/材料领域并购的潜在影响"
       ],
       "glossary": [
-        {
-          "term": "闪电并购",
-          "desc": "短时间内完成的半导体企业并购，通常伴随业绩快速释放",
-          "category": "商业"
-        }
+        "Lumileds",
+        "CFIUS",
+        "投资审查"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "Silicon Box加入IMEC汽车Chiplet计划，强化芯片集成架构",
+      "summary": "Silicon Box宣布加入IMEC汽车Chiplet项目，推动汽车芯片异构集成架构发展。IMEC作为欧洲顶尖微电子研究中心，其汽车Chiplet计划旨在解决汽车芯片碎片化问题，通过Chiplet架构实现灵活组合与快速迭代。",
+      "source": "NewsAPI-AntaraNews",
+      "published": "2026-04-21",
+      "url": "https://en.antaranews.com/news/412977/silicon-box-announces-it-joins-imec-automotive-chiplet-program",
+      "tags": [
+        "Chiplet",
+        "汽车芯片",
+        "IMEC",
+        "异构集成"
+      ],
+      "insights": [
+        "汽车芯片Chiplet化趋势加速，IMEC牵头意味着欧洲汽车半导体将走向模块化设计范式",
+        "Chiplet架构降低车规芯片设计门槛，中小fabless有机会通过Chiplet组合切入汽车市场"
+      ],
+      "actions": [
+        "关注IMEC汽车Chiplet标准进展，评估Chiplet设计对当前汽车芯片项目的适用性",
+        "评估Chiplet封装需求变化，提前对接先进封装供应商"
+      ],
+      "glossary": [
+        "Chiplet",
+        "IMEC",
+        "异构集成"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "8家半导体企业披露IPO新进展，中国芯片资本市场热潮再起",
+      "summary": "8家半导体企业近期披露IPO新进展，包括长鑫存储、多家EDA和设计公司。中国半导体资本市场持续升温，科创板和创业板成为芯片企业首选上市渠道，IPO潮反映产业链成熟度提升和政策支持力度加大。",
+      "source": "Serper-新浪财经",
+      "published": "2026-04-21",
+      "url": "https://cj.sina.com.cn/articles/view/1960136440/74d54ef800101ftvq",
+      "tags": [
+        "IPO",
+        "半导体",
+        "资本市场",
+        "国产化"
+      ],
+      "insights": [
+        "半导体IPO潮反映国产替代进入收获期，更多企业从技术积累走向资本化运营",
+        "长鑫存储等头部企业上市将重塑国内存储芯片竞争格局"
+      ],
+      "actions": [
+        "跟踪8家IPO企业进展，重点关注长鑫存储上市时间窗口和募资用途",
+        "评估IPO企业产业链覆盖面，识别潜在新供应商和合作机会"
+      ],
+      "glossary": [
+        "IPO",
+        "科创板",
+        "半导体产业"
       ],
       "region": "domestic"
+    },
+    {
+      "title": "Silex计划在纳斯达克斯德哥尔摩上市，欧洲半导体IPO升温",
+      "summary": "瑞典半导体公司Silex宣布计划在纳斯达克斯德哥尔摩上市。Silex专注于MEMS代工服务，是全球领先的纯MEMS晶圆代工厂。欧洲半导体IPO市场升温，反映MEMS和传感器赛道商业化加速。",
+      "source": "Brave-TradingView",
+      "published": "2026-04-21",
+      "url": "https://www.tradingview.com/news/modular_finance:09b21e1a84e88:0-silex-intends-to-list-its-shares-on",
+      "tags": [
+        "MEMS",
+        "IPO",
+        "欧洲半导体",
+        "代工"
+      ],
+      "insights": [
+        "MEMS代工赛道商业化成熟，Silex上市将为传感器产业链提供新的产能和资本支撑",
+        "欧洲半导体IPO与国内科创板IPO并行升温，全球半导体资本化浪潮同步推进"
+      ],
+      "actions": [
+        "关注Silex上市后MEMS产能扩张计划，评估其对国内MEMS代工格局的影响",
+        "评估是否需要引入欧洲MEMS代工资源补充国内产能"
+      ],
+      "glossary": [
+        "MEMS",
+        "纯MEMS代工",
+        "纳斯达克斯德哥尔摩"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "AI算力需求吞噬HBM产能，高带宽存储短缺持续",
+      "summary": "IEEE Spectrum深度报道：AI算力对高带宽存储（HBM）的需求持续膨胀，SK Hynix和Samsung的HBM产能已被NVIDIA等客户完全锁定。HBM短缺推高价格，影响GPU和AI加速卡供应链成本，预计2027年产能才能逐步缓解。",
+      "source": "RSS-IEEE Spectrum",
+      "published": "2026-04-21",
+      "url": "https://spectrum.ieee.org/high-bandwidth-memory-shortage",
+      "tags": [
+        "HBM",
+        "AI存储",
+        "产能短缺",
+        "NVIDIA"
+      ],
+      "insights": [
+        "HBM产能被头部客户锁定，中小客户获取HBM供应的难度和成本将持续上升",
+        "HBM短缺推动存储厂商加速产能投资，但3-5年周期内供需仍将偏紧"
+      ],
+      "actions": [
+        "评估当前AI加速卡HBM供应情况，确认2026-2027年HBM采购锁定状态",
+        "关注Samsung HBM4产能进展，考虑引入多源HBM供应策略"
+      ],
+      "glossary": [
+        "HBM",
+        "高带宽存储",
+        "AI加速卡"
+      ],
+      "region": "overseas"
     }
   ]
 }
