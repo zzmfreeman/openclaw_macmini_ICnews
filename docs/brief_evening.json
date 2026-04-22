@@ -1,311 +1,313 @@
 {
-  "version": "v20260421-2000",
-  "generatedAt": "2026-04-21T20:00:00+08:00",
+  "version": "v20260422-2000",
+  "generatedAt": "2026-04-22T20:08:48+08:00",
   "period": "evening",
-  "commit": "65b0541",
+  "commit": "",
   "glossary_list": [
     {
-      "term": "晶圆级封装（WLP）",
-      "desc": "在晶圆上直接完成封装工艺，省去单颗芯片封装步骤，适用于先进封装和Chiplet集成",
+      "term": "CoWoS",
+      "desc": "Chip-on-Wafer-on-Substrate，台积电先进封装技术，将芯片堆叠在硅中介层上再封装到基板",
       "category": "封装"
     },
     {
-      "term": "1.4nm（A14节点）",
-      "desc": "台积电规划的最先进制程节点，预计2027年量产，比2nm进一步缩小晶体管尺寸",
-      "category": "设备"
+      "term": "晶圆级引擎(WSE)",
+      "desc": "Wafer-Scale Engine，Cerebras独有的整片晶圆单芯片架构，AI训练算力密度极高",
+      "category": "封装"
     },
     {
-      "term": "CFIUS",
-      "desc": "美国外国投资委员会，审查涉及国家安全的外资并购交易，近年频繁阻止中国半导体并购",
+      "term": "成熟制程遏制",
+      "desc": "美国从限制先进制程(≤28nm)转向打击中国28nm以上成熟制程扩产的新型制裁策略",
       "category": "商业"
     },
     {
-      "term": "MEMS代工",
-      "desc": "专门提供MEMS传感器晶圆代工服务的工厂，与IC代工工艺差异大，全球纯MEMS代工厂数量有限",
-      "category": "制造"
+      "term": "OSAT",
+      "desc": "外包封测服务(Outsourced Semiconductor Assembly and Test)，如日月光/安靠/盛合晶微",
+      "category": "封装"
     },
     {
-      "term": "HBM4",
-      "desc": "第四代高带宽存储，带宽和容量进一步提升，是AI GPU标配存储方案",
-      "category": "存储"
+      "term": "fabless",
+      "desc": "无晶圆厂芯片设计模式，公司只做设计、依赖代工厂制造",
+      "category": "商业"
+    },
+    {
+      "term": "chiplet健康监测",
+      "desc": "先进封装/chiplet架构中的在线可靠性监测技术，保障多芯片堆叠系统的运行稳定性",
+      "category": "设备"
+    },
+    {
+      "term": "Intel Foundry",
+      "desc": "Intel独立代工业务部门，2024年拆分后对外承接晶圆制造订单",
+      "category": "商业"
     }
   ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
       "heat": "↑↑升温",
-      "reddit_top": null,
-      "hn_top": "Switzerland hosts 'CERN of semiconductor research' (34pts)",
-      "summary": "盛合晶微上市引爆先进封装讨论热度，CoWoS产能争夺持续升温，社区关注封装从后端走向前端设计的趋势"
+      "reddit_top": "N/A（ScrapeCreators额度用尽）",
+      "hn_top": "无相关热帖",
+      "summary": "盛合晶微上市暴涨400%+帝科跨界封测30亿募资，先进封装赛道资本热度创近期新高。Chiplet Summit展示proteanTecs监测方案，封装生态向全链路验证延伸。"
     },
     {
       "topic": "HBM/AI存储",
-      "heat": "↑↑升温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "IEEE Spectrum深度报道HBM短缺，AI需求吞噬产能，SK Hynix被NVIDIA锁定，中小客户面临供应挤压"
+      "heat": "→平稳",
+      "reddit_top": "N/A",
+      "hn_top": "无相关热帖",
+      "summary": "帝科股份30亿募资超半数投向存储芯片封测，反映存储封装产能需求持续但未爆发。HBM产能扩建仍在进行中。"
     },
     {
       "topic": "中国Fab/先进制程",
-      "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": "TSMC is reportedly sold out until 2028 (34pts)",
-      "summary": "中芯国际等国内Fab无重大新动态，TSMC产能售罄至2028引发讨论，国内替代方案关注度平稳"
+      "heat": "↑↑升温",
+      "reddit_top": "N/A",
+      "hn_top": "无相关热帖",
+      "summary": "美国制裁策略升级为成熟制程遏制，叠加先进制程28nm封锁，中国Fab扩张面临双重压力。但IPO热潮显示产业仍在加速资本化。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": "Activist Elliott Builds Big Stake in EDA Chip-Design Software (2pts)",
-      "summary": "国产EDA无重大突破，海外EDA并购新闻清淡，Elliott入股EDA公司引发行业格局讨论但热度低"
+      "reddit_top": "N/A",
+      "hn_top": "无相关热帖",
+      "summary": "本周无重大国产EDA/IP新闻，proteanTecs在chiplet验证领域的展示间接反映EDA工具向封装链路延伸的趋势。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↑↑升温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "盛合晶微上市成为封测赛道里程碑事件，先进封装OSAT估值重估，日月光等传统OSAT面临竞争压力"
+      "reddit_top": "N/A",
+      "hn_top": "无相关热帖",
+      "summary": "盛合晶微上市暴涨400%成为本周最大产业事件，帝科30亿跨界封测，OSAT赛道资本和产能热度同时飙升。"
     },
     {
       "topic": "出口管制/制裁",
-      "heat": "↑升温",
-      "reddit_top": null,
-      "hn_top": "The MATCH Act Is Missing Piece in America's AI Export Controls (2pts)",
-      "summary": "美国阻止中国LED芯片商收购Lumileds，制裁范围从高端芯片扩展到光电产业链，投资审查趋严"
+      "heat": "↑↑升温",
+      "reddit_top": "N/A",
+      "hn_top": "无相关热帖",
+      "summary": "美国制裁策略从卡尖端升级为全面遏制，成熟制程扩产也被纳入打击范围，对供应链稳定性构成新风险。"
     },
     {
       "topic": "AI芯片/NVIDIA",
-      "heat": "↑↑升温",
-      "reddit_top": null,
-      "hn_top": "New Rowhammer attacks give complete control of machines running (132pts)",
-      "summary": "HBM短缺直接影响NVIDIA GPU供应链，社区讨论AI芯片安全漏洞（Rowhammer），黄仁勋收购Groq传闻持续发酵"
+      "heat": "→平稳",
+      "reddit_top": "N/A",
+      "hn_top": "无相关热帖",
+      "summary": "Cerebras提交IPO申请，AI芯片资本市场活跃。65家中国芯片设计企业上榜CB Insights，GPU/AI赛道最拥挤。NVIDIA本周无明显新动态。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "国产设备材料无重大新突破，NAURA/AMEC近期无新动态，社区讨论集中在宏观半导体投资而非具体国产化进展"
+      "reddit_top": "N/A",
+      "hn_top": "无相关热帖",
+      "summary": "本周国产设备/材料领域无重大新闻，美国制裁升级可能间接加速国产设备替代进程。"
     }
   ],
   "items": [
     {
-      "title": "盛合晶微科创板上市首日暴涨406.71%，晶圆级先进封测第一股市值超1800亿",
-      "summary": "全球前十封测企业盛合晶微今日正式登陆科创板，开盘即大涨406.71%，市值突破1800亿元。该公司专注晶圆级先进封装与测试，是AI算力芯片封测核心供应商，无锡国资浮盈627%。此次IPO为今年科创板最大规模上市事件，募资约140亿元。",
-      "source": "Serper-36氪",
-      "published": "2026-04-21",
-      "url": "https://www.36kr.com/p/3776448356041477",
+      "title": "盛合晶微登陆科创板开盘大涨超400%，先进封装赛道热度飙升",
+      "url": "https://m.sohu.com/a/1012622591_250147",
+      "source": "Serper-搜狐财经",
+      "published": "2026-04-22",
       "tags": [
         "先进封装",
         "IPO",
-        "封测",
-        "科创板"
-      ],
-      "insights": [
-        "盛合晶微上市标志晶圆级先进封装赛道进入资本化阶段，AI算力封测需求持续驱动估值",
-        "开盘暴涨406%反映市场对先进封装赛道极度看好，类似中芯国际上市时的热情",
-        "无锡国资627%浮盈显示地方政府在半导体产业链投资的战略布局已进入收获期"
-      ],
-      "actions": [
-        "关注盛合晶微后续产能扩产计划，评估其对当前封测供应商格局的影响",
-        "评估是否需要将盛合晶微纳入封测供应商候选池，特别是先进封装需求",
-        "关注科创板半导体IPO节奏，预判后续长鑫存储等企业上市时间窗口"
-      ],
-      "glossary": [
-        "晶圆级封装",
-        "先进封测",
-        "科创板"
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "TSMC投入560亿美元扩产，CEO魏哲家承认短缺将持续至2027年",
-      "summary": "台积电宣布将投入560亿美元新建多座晶圆厂，但CEO魏哲家同时承认芯片短缺问题将持续至2027年。TSMC正在加速2nm及以下先进制程产能建设，全球客户排队争抢产能，先进制程供需失衡短期内难以缓解。",
-      "source": "RSS-WCCFTech",
-      "published": "2026-04-21",
-      "url": "https://wccftech.com/tsmc-pouring-56-billion-into-new-fabs-admits-shortages-will-drag-into-2027-and-",
-      "tags": [
-        "TSMC",
-        "扩产",
-        "先进制程",
-        "产能短缺"
-      ],
-      "insights": [
-        "TSMC 560亿美元扩产计划规模空前，但产能释放周期长，短缺延续至2027意味着下游客户需提前锁定",
-        "2nm及以下制程产能争夺加剧，高通、AMD等fabless公司议价权将进一步削弱"
-      ],
-      "actions": [
-        "立即评估当前TSMC产能分配情况，确认未来2年产能锁定状态",
-        "考虑是否需要引入Samsung或Intel Foundry作为备选代工供应商"
-      ],
-      "glossary": [
-        "2nm",
-        "先进制程",
-        "产能短缺"
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "TSMC先进制程路线图解析：从3nm扩产到1.4nm量产",
-      "summary": "深度解析台积电先进制程路线图：3nm产能持续扩大，2nm预计2025年底量产，1.4nm（A14）节点2027年量产规划已启动。TSMC在先进制程上的领先优势进一步巩固，每代节点间隔约2年。",
-      "source": "Brave-GlobalSemiResearch",
-      "published": "2026-04-21",
-      "url": "https://globalsemiresearch.substack.com/p/decoding-tsmcs-advanced-process-roadmap",
-      "tags": [
-        "TSMC",
-        "先进制程",
-        "1.4nm",
-        "路线图"
-      ],
-      "insights": [
-        "TSMC 1.4nm量产规划提前释放信号，意图锁定苹果、高通等头部客户长期订单",
-        "制程路线图加速意味着fabless需要更早启动芯片设计，设计周期与制程节点同步收紧"
-      ],
-      "actions": [
-        "对照TSMC制程路线图，评估当前芯片设计项目应采用的制程节点",
-        "与TSMC确认1.4nm产能预留窗口，提前规划下一代产品设计启动时间"
-      ],
-      "glossary": [
-        "1.4nm",
-        "A14节点",
-        "制程路线图"
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "美国政府阻止中国LED芯片巨头以2.39亿美元收购荷兰Lumileds",
-      "summary": "美国政府阻止了中国最大LED芯片制造商以2.39亿美元收购荷兰照明企业Lumileds的交易。此举延续了美国对中国半导体及光电领域并购的严格管控政策，跨境技术并购面临持续政治阻力。",
-      "source": "NewsAPI-Tom's Hardware",
-      "published": "2026-04-21",
-      "url": "https://www.tomshardware.com/tech-industry/us-blocks-chinese-acquisition-of-dutch-led-firm-lumileds-",
-      "tags": [
-        "制裁",
-        "并购",
-        "LED",
-        "出口管制"
-      ],
-      "insights": [
-        "LED领域并购被阻止显示制裁范围已从高端芯片扩展到光电产业链，投资审查边界持续扩大",
-        "中国企业海外技术并购路径进一步受限，需转向内生技术积累和国内产业链整合"
-      ],
-      "actions": [
-        "评估海外并购替代路径，关注国内产业链垂直整合机会",
-        "跟踪美国投资审查新规动向，预判对封测/材料领域并购的潜在影响"
-      ],
-      "glossary": [
-        "Lumileds",
-        "CFIUS",
-        "投资审查"
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "Silicon Box加入IMEC汽车Chiplet计划，强化芯片集成架构",
-      "summary": "Silicon Box宣布加入IMEC汽车Chiplet项目，推动汽车芯片异构集成架构发展。IMEC作为欧洲顶尖微电子研究中心，其汽车Chiplet计划旨在解决汽车芯片碎片化问题，通过Chiplet架构实现灵活组合与快速迭代。",
-      "source": "NewsAPI-AntaraNews",
-      "published": "2026-04-21",
-      "url": "https://en.antaranews.com/news/412977/silicon-box-announces-it-joins-imec-automotive-chiplet-program",
-      "tags": [
-        "Chiplet",
-        "汽车芯片",
-        "IMEC",
-        "异构集成"
-      ],
-      "insights": [
-        "汽车芯片Chiplet化趋势加速，IMEC牵头意味着欧洲汽车半导体将走向模块化设计范式",
-        "Chiplet架构降低车规芯片设计门槛，中小fabless有机会通过Chiplet组合切入汽车市场"
-      ],
-      "actions": [
-        "关注IMEC汽车Chiplet标准进展，评估Chiplet设计对当前汽车芯片项目的适用性",
-        "评估Chiplet封装需求变化，提前对接先进封装供应商"
-      ],
-      "glossary": [
-        "Chiplet",
-        "IMEC",
-        "异构集成"
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "8家半导体企业披露IPO新进展，中国芯片资本市场热潮再起",
-      "summary": "8家半导体企业近期披露IPO新进展，包括长鑫存储、多家EDA和设计公司。中国半导体资本市场持续升温，科创板和创业板成为芯片企业首选上市渠道，IPO潮反映产业链成熟度提升和政策支持力度加大。",
-      "source": "Serper-新浪财经",
-      "published": "2026-04-21",
-      "url": "https://cj.sina.com.cn/articles/view/1960136440/74d54ef800101ftvq",
-      "tags": [
-        "IPO",
-        "半导体",
-        "资本市场",
-        "国产化"
-      ],
-      "insights": [
-        "半导体IPO潮反映国产替代进入收获期，更多企业从技术积累走向资本化运营",
-        "长鑫存储等头部企业上市将重塑国内存储芯片竞争格局"
-      ],
-      "actions": [
-        "跟踪8家IPO企业进展，重点关注长鑫存储上市时间窗口和募资用途",
-        "评估IPO企业产业链覆盖面，识别潜在新供应商和合作机会"
-      ],
-      "glossary": [
-        "IPO",
         "科创板",
-        "半导体产业"
+        "封测"
       ],
-      "region": "domestic"
+      "insights": [
+        "先进封装龙头上市首日涨幅超400%，反映市场对CoWoS/chiplet封装赛道的高度追捧",
+        "前中芯国际高管团队掌舵，产业链人才正向封装领域集中流动"
+      ],
+      "actions": [
+        "评估盛合晶微先进封装产能与自家项目需求的匹配度",
+        "关注其CoWoS类似工艺布局，作为封测供应商备选"
+      ],
+      "glossary": [
+        "CoWoS",
+        "OSAT",
+        "先进封装"
+      ],
+      "region": "domestic",
+      "summary": "封测龙头盛合晶微今日正式登陆科创板，开盘大涨超400%，市值冲上千亿。公司由前中芯国际高管掌舵，主营先进封装业务，上峰水泥作为早期投资方账面浮盈超12亿元。"
     },
     {
-      "title": "Silex计划在纳斯达克斯德哥尔摩上市，欧洲半导体IPO升温",
-      "summary": "瑞典半导体公司Silex宣布计划在纳斯达克斯德哥尔摩上市。Silex专注于MEMS代工服务，是全球领先的纯MEMS晶圆代工厂。欧洲半导体IPO市场升温，反映MEMS和传感器赛道商业化加速。",
-      "source": "Brave-TradingView",
-      "published": "2026-04-21",
-      "url": "https://www.tradingview.com/news/modular_finance:09b21e1a84e88:0-silex-intends-to-list-its-shares-on",
+      "title": "帝科股份拟募资30亿元跨界半导体封测，超半数投向存储芯片封装",
+      "url": "https://www.mrjjxw.com/articles/2026-04-22/4351474.html",
+      "source": "Serper-每日经济新闻",
+      "published": "2026-04-22",
       "tags": [
-        "MEMS",
+        "封测",
+        "存储芯片",
+        "跨界",
+        "募资"
+      ],
+      "insights": [
+        "光伏材料龙头跨界半导体封测，反映存储芯片封装需求旺盛吸引跨行业资本",
+        "超半数募资额投向存储芯片封测，DRAM/NAND封装产能正成为投资热点"
+      ],
+      "actions": [
+        "跟踪帝科股份封测产线建设进度，评估其对存储芯片封装市场的实际影响",
+        "关注跨界企业对封测格局的搅动效应"
+      ],
+      "glossary": [
+        "存储芯片封装",
+        "募资"
+      ],
+      "region": "domestic",
+      "summary": "光伏材料龙头帝科股份拟募资30亿元，超半数投向半导体与存储芯片封测领域。跨界布局反映存储芯片封装产能需求旺盛，非半导体企业也在涌入赛道。"
+    },
+    {
+      "title": "美国对中国芯片产业双层打击：先锁死28nm先进制程，再遏制成熟制程扩产",
+      "url": "https://www.163.com/dy/article/KR3U33RJ05563IC9.html",
+      "source": "Serper-网易",
+      "published": "2026-04-22",
+      "tags": [
+        "出口管制",
+        "制裁",
+        "28nm",
+        "成熟制程"
+      ],
+      "insights": [
+        "美国从封锁先进制程转向打击成熟制程扩产，制裁策略从卡尖升级为全面遏制",
+        "成熟制程扩产受限将直接影响汽车/工控等下游芯片供给稳定性"
+      ],
+      "actions": [
+        "评估成熟制程供应风险，考虑多区域分散采购策略",
+        "关注国产28nm及以上制程替代方案的进展节奏"
+      ],
+      "glossary": [
+        "出口管制",
+        "成熟制程",
+        "28nm"
+      ],
+      "region": "domestic",
+      "summary": "深度分析美国对中国芯片产业的双层打击策略：第一阶段锁死28nm先进制程，第二阶段打击成熟制程扩产。制裁逻辑从卡尖端升级为全面遏制，成熟制程扩产受限将波及汽车/工控等下游供应链。"
+    },
+    {
+      "title": "半导体IPO潮涌持续，中国芯片企业加速上市融资",
+      "url": "https://www.stcn.com/article/detail/3582473.html",
+      "source": "Brave-证券时报",
+      "published": "2026-04-22",
+      "tags": [
         "IPO",
-        "欧洲半导体",
+        "融资",
+        "半导体投资"
+      ],
+      "insights": [
+        "半导体IPO密集上市反映产业资本化加速，但需警惕估值泡沫风险",
+        "上市潮与先进封装/存储/EDA赛道重叠，资本正向硬科技高壁垒环节集中"
+      ],
+      "actions": [
+        "梳理即将IPO的半导体企业清单，评估供应链合作机会",
+        "关注上市后的产能扩张计划对供需格局的影响"
+      ],
+      "glossary": [
+        "IPO潮",
+        "产业资本"
+      ],
+      "region": "domestic",
+      "summary": "半导体IPO潮涌不断，多家芯片设计/封测/材料企业冲刺科创板和创业板。资本正向先进封装、存储芯片、EDA等硬科技高壁垒环节集中，但需警惕估值泡沫。"
+    },
+    {
+      "title": "65家中国芯片设计企业上榜CB Insights榜单，GPU/AI芯片设计公司占比突出",
+      "url": "https://www.cbinsights.com/research/",
+      "source": "Brave-CB Insights",
+      "published": "2026-04-22",
+      "tags": [
+        "芯片设计",
+        "fabless",
+        "GPU",
+        "AI芯片"
+      ],
+      "insights": [
+        "中国芯片设计公司数量快速增长，GPU/AI芯片赛道最为拥挤",
+        "fabless模式使中国设计公司能快速响应市场需求，但制造端依赖仍是瓶颈"
+      ],
+      "actions": [
+        "梳理榜单中的潜在供应商和合作伙伴",
+        "关注AI芯片设计公司的量产进展和代工合作关系"
+      ],
+      "glossary": [
+        "fabless",
+        "芯片设计"
+      ],
+      "region": "domestic",
+      "summary": "CB Insights首次发布中国芯片设计企业榜单，65家中国企业上榜，覆盖GPU/AI芯片、通信、物联网等多个领域。GPU/AI芯片设计公司占比突出，反映国产算力芯片赛道竞争激烈。"
+    },
+    {
+      "title": "Cerebras Systems提交IPO申请，AI芯片赛道迎来新上市公司",
+      "url": "https://www.electronicsweekly.com/news/business/cerebras-files-for-ipo-2026-04/",
+      "source": "RSS-ElectronicsWeekly",
+      "published": "2026-04-22",
+      "tags": [
+        "AI芯片",
+        "IPO",
+        "wafer-scale",
+        "Cerebras"
+      ],
+      "insights": [
+        "Cerebras以晶圆级引擎(WSE)差异化路线IPO，挑战传统GPU架构在AI训练中的地位",
+        "AI芯片IPO密集出现（Cerebras+盛合晶微），半导体资本市场正聚焦AI算力"
+      ],
+      "actions": [
+        "关注Cerebras IPO后的量产和客户拓展情况",
+        "评估WSE架构在自家AI推理场景的适用性"
+      ],
+      "glossary": [
+        "wafer-scale engine",
+        "WSE"
+      ],
+      "region": "overseas",
+      "summary": "AI芯片创业公司Cerebras Systems已提交IPO申请。该公司以晶圆级引擎(WSE)架构著称，单颗芯片面积覆盖整片晶圆，在AI训练性能上挑战传统GPU架构。"
+    },
+    {
+      "title": "Intel代工业务能否起飞？产业分析评估其扭亏为盈的可能性",
+      "url": "https://semiwiki.com/semiconductor-manufacturers/intel/368539-is-intel-about-to-take-flight/",
+      "source": "RSS-SemiWiki",
+      "published": "2026-04-21",
+      "tags": [
+        "Intel",
+        "foundry",
         "代工"
       ],
       "insights": [
-        "MEMS代工赛道商业化成熟，Silex上市将为传感器产业链提供新的产能和资本支撑",
-        "欧洲半导体IPO与国内科创板IPO并行升温，全球半导体资本化浪潮同步推进"
+        "Intel Foundry订单同比增长50%，但距离盈利仍需大量投入和客户积累",
+        "Intel代工转型成败将重塑全球晶圆代工竞争格局，影响TSMC/Samsung市场份额"
       ],
       "actions": [
-        "关注Silex上市后MEMS产能扩张计划，评估其对国内MEMS代工格局的影响",
-        "评估是否需要引入欧洲MEMS代工资源补充国内产能"
+        "跟踪Intel Foundry客户进展和良率数据",
+        "评估Intel代工对自身供应链的潜在替代价值"
       ],
       "glossary": [
-        "MEMS",
-        "纯MEMS代工",
-        "纳斯达克斯德哥尔摩"
+        "Intel Foundry",
+        "代工转型"
       ],
-      "region": "overseas"
+      "region": "overseas",
+      "summary": "SemiWiki深度分析Intel代工业务的现状与前景。Intel Foundry工具订单同比激增50%，但距离真正盈利仍需大量投入和外部客户积累。代工转型成败将直接影响全球晶圆代工格局。"
     },
     {
-      "title": "AI算力需求吞噬HBM产能，高带宽存储短缺持续",
-      "summary": "IEEE Spectrum深度报道：AI算力对高带宽存储（HBM）的需求持续膨胀，SK Hynix和Samsung的HBM产能已被NVIDIA等客户完全锁定。HBM短缺推高价格，影响GPU和AI加速卡供应链成本，预计2027年产能才能逐步缓解。",
-      "source": "RSS-IEEE Spectrum",
+      "title": "proteanTecs在Chiplet Summit展示先进封装健康监测技术",
+      "url": "https://semiwiki.com/events/368423-proteantecs-at-chiplet-summit-changing-the-game-for-health-performance-monitoring-of-chiplets/",
+      "source": "RSS-SemiWiki",
       "published": "2026-04-21",
-      "url": "https://spectrum.ieee.org/high-bandwidth-memory-shortage",
       "tags": [
-        "HBM",
-        "AI存储",
-        "产能短缺",
-        "NVIDIA"
+        "chiplet",
+        "先进封装",
+        "EDA",
+        "健康监测"
       ],
       "insights": [
-        "HBM产能被头部客户锁定，中小客户获取HBM供应的难度和成本将持续上升",
-        "HBM短缺推动存储厂商加速产能投资，但3-5年周期内供需仍将偏紧"
+        "proteanTecs的芯片健康监测方案填补先进封装可靠性验证空白，chiplet架构对在线监测需求显著增加",
+        "Chiplet Summit热度持续，先进封装生态正从封装工艺向全链路验证/监测延伸"
       ],
       "actions": [
-        "评估当前AI加速卡HBM供应情况，确认2026-2027年HBM采购锁定状态",
-        "关注Samsung HBM4产能进展，考虑引入多源HBM供应策略"
+        "了解proteanTecs健康监测技术对chiplet良率保障的实际效果",
+        "评估先进封装验证工具对供应链质量控制的影响"
       ],
       "glossary": [
-        "HBM",
-        "高带宽存储",
-        "AI加速卡"
+        "chiplet",
+        "健康监测",
+        "可靠性验证"
       ],
-      "region": "overseas"
+      "region": "overseas",
+      "summary": "proteanTecs在Chiplet Summit展示芯片健康与性能监测技术方案。该技术为先进封装/chiplet架构提供在线可靠性监测，填补了先进封装验证链路的关键空白。"
     }
-  ]
+  ],
+  "keywords": []
 }
