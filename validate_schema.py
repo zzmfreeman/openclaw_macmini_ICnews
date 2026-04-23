@@ -96,6 +96,69 @@ def ensure_actions(val, title=""):
 
 # ─── 主逻辑 ───
 
+
+
+def filter_by_date(items, period, generated_at, max_hours_morning=48, max_hours_midday=12, max_hours_evening=12):
+    """过滤超过时间窗口的新闻条目"""
+    from datetime import datetime, timedelta, timezone
+    
+    tz = timezone(timedelta(hours=8))
+    
+    # Parse generated_at to get reference time
+    try:
+        ref_time = datetime.fromisoformat(generated_at.replace("+08:00", "+08:00")).astimezone(tz)
+    except:
+        ref_time = datetime.now(tz)
+    
+    # Determine max age based on period
+    if period == "morning":
+        max_age_hours = 48  # 48h window for morning (news often published yesterday)
+    elif period == "midday":
+        max_age_hours = 12  # 12h window for midday/evening
+    else:  # evening
+        max_age_hours = 12  # 12h window for midday/evening
+    
+    cutoff = ref_time - timedelta(hours=max_age_hours)
+    
+    kept = []
+    dropped = []
+    
+    for item in items:
+        published = item.get("published", "")
+        title = item.get("title", "")[:40]
+        
+        if not published:
+            dropped.append((title, "no_date"))
+            continue
+        
+        # Parse published date (try multiple formats)
+        pub_dt = None
+        for fmt in ["%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d", "%Y-%m-%d %H:%M"]:
+            try:
+                pub_dt = datetime.strptime(published[:19] if "T" in published else published, fmt)
+                if pub_dt.tzinfo is None:
+                    pub_dt = pub_dt.replace(tzinfo=tz)
+                break
+            except:
+                continue
+        
+        if pub_dt is None:
+            dropped.append((title, f"unparseable({published[:20]})"))
+            continue
+        
+        # Check age
+        age_hours = (ref_time - pub_dt).total_seconds() / 3600
+        
+        if age_hours > max_age_hours:
+            dropped.append((title, f"too_old({age_hours:.0f}h>max{max_age_hours}h)"))
+            continue
+        
+        # Also add age info to the item for transparency
+        item["_age_hours"] = round(age_hours, 1)
+        kept.append(item)
+    
+    return kept, dropped
+
 def validate_item(item, idx):
     """校验并修正单条新闻条目，返回 (fixed_item, warnings)"""
     warnings = []
@@ -227,7 +290,7 @@ def main():
         items = ensure_array(items, [])
     
     fixed_items = []
-    dropped = 0
+    schema_dropped = 0
     
     for idx, item in enumerate(items):
         fixed, warnings = validate_item(item, idx)
@@ -235,7 +298,22 @@ def main():
         if fixed is not None:
             fixed_items.append(fixed)
         else:
-            dropped += 1
+            schema_dropped += 1
+    
+    # 日期过滤：移除超过时间窗口的新闻
+    period = data.get("period", "morning")
+    generated_at = data.get("generatedAt", "")
+    fixed_items, date_dropped = filter_by_date(fixed_items, period, generated_at)
+    
+    for title, reason in date_dropped:
+        all_warnings.append(f"日期过滤: 丢弃 '{title}' ({reason})")
+    
+    if date_dropped:
+        print(f'[schema] 日期过滤: 丢弃 {len(date_dropped)} 条过期新闻', file=sys.stderr)
+    
+    # Clean up internal metadata before writing
+    for item in fixed_items:
+        item.pop("_age_hours", None)
     
     data["items"] = fixed_items
     
@@ -243,15 +321,16 @@ def main():
         json.dump(data, f, ensure_ascii=False, indent=2)
     
     # 输出报告
-    print(f'[schema] 输入 {len(items)} 条 → 有效 {len(fixed_items)} 条 → 丢弃 {dropped} 条', file=sys.stderr)
+    total_dropped = schema_dropped + len(date_dropped)
+    print(f'[schema] 输入 {len(items)} 条 → 有效 {len(fixed_items)} 条 → 丢弃 {total_dropped} 条 (schema:{schema_dropped} + date:{len(date_dropped)})', file=sys.stderr)
     
     if all_warnings:
         print(f'[schema] 修正 {len(all_warnings)} 个问题:', file=sys.stderr)
         for w in all_warnings:
             print(f'  {w}', file=sys.stderr)
     
-    if dropped > len(items) * 0.5:
-        print(f'[schema] ⚠️ 丢弃比例过高({dropped}/{len(items)})，请检查原始数据质量', file=sys.stderr)
+    if schema_dropped > len(items) * 0.5:
+        print(f'[schema] ⚠️ 丢弃比例过高({schema_dropped}/{len(items)})，请检查原始数据质量', file=sys.stderr)
     
     return 0 if len(fixed_items) > 0 else 1
 
