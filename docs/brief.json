@@ -1,295 +1,489 @@
 {
-  "version": "v20260423-2010",
-  "generatedAt": "2026-04-23T20:10:00+08:00",
-  "period": "evening",
+  "version": "v20260424-0600",
+  "generatedAt": "2026-04-24T06:00:00+08:00",
+  "period": "morning",
   "commit": "",
   "glossary_list": [
     {
-      "term": "Chiplet",
-      "desc": "将大芯片拆分为多个小芯粒再封装的技术，降低制造成本、提升良率",
+      "term": "CPO",
+      "desc": "光电合封（Co-Packaged Optics），将光模块与芯片共封装的技术路线",
       "category": "封装"
     },
     {
-      "term": "OSAT",
-      "desc": "外包半导体封装测试服务，如日月光、长电科技、甬矽电子",
+      "term": "A13",
+      "desc": "台积电1.3nm制程节点代号，接续A14（1.4nm）",
+      "category": "设备"
+    },
+    {
+      "term": "High-NA EUV",
+      "desc": "ASML高数值孔径极紫外光刻机，单价约3.5亿美元，TSMC宣布2029年前暂不采用",
+      "category": "设备"
+    },
+    {
+      "term": "硅光子",
+      "desc": "Silicon Photonics，在硅基芯片上集成光通信功能的技术",
       "category": "封装"
     },
     {
       "term": "光刻胶",
-      "desc": "晶圆制造中用于图案转移的关键材料，日本地震导致供应扰动",
+      "desc": "Photoresist，晶圆光刻工艺中的关键感光材料，国产替代进程受供应扰动催化",
       "category": "材料"
     },
     {
-      "term": "3纳米制程",
-      "desc": "当前最先进逻辑芯片制程节点，台积电/三星/Intel竞速量产",
-      "category": "制造"
-    },
-    {
-      "term": "TPU",
-      "desc": "谷歌自研张量处理单元，专用于AI训练与推理，挑战NVIDIA GPU",
-      "category": "商业"
-    },
-    {
-      "term": "半导体IP",
-      "desc": "可授权的芯片设计功能模块，芯原股份为国内代表",
-      "category": "设备"
-    },
-    {
-      "term": "先进封装",
-      "desc": "包括3D IC、CoWoS、Fan-Out等高密度封装技术，2025年全球市场约531亿美元",
+      "term": "玻璃基板封装",
+      "desc": "Glass Substrate Packaging，用玻璃基板替代有机基板的新一代先进封装载体",
       "category": "封装"
     }
   ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
-      "heat": "升温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "盛合晶微1400亿市值上市、甬矽电子营收创新高，先进封装赛道资本热度急剧上升，产业共识从配套走向核心。"
+      "heat": "↑↑升温",
+      "reddit_top": "未找到高热度帖子",
+      "hn_top": "null",
+      "summary": "CoWoS产能持续紧张，台积电亚利桑那封测厂动工，长电科技CPO出货，盛合晶微上市——先进封装赛道资本与技术双重升温"
     },
     {
       "topic": "HBM/AI存储",
-      "heat": "平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "Google TPU 8代加大SRAM容量但不直接依赖HBM，AI存储需求结构可能分化。"
+      "heat": "↑↑升温",
+      "reddit_top": "未找到高热度帖子",
+      "hn_top": "null",
+      "summary": "SK Hynix美国HBM厂取得进展，SanDisk股价飙升，AI存储需求持续推动HBM和Flash市场升温"
     },
     {
       "topic": "中国Fab/先进制程",
-      "heat": "升温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "一季度集成电路产量增24.3%，3nm全球扩产竞赛加速，中方取消光刻机优待政策反制出口管制。"
+      "heat": "→平稳",
+      "reddit_top": "未找到高热度帖子",
+      "hn_top": "null",
+      "summary": "华虹通过收购强化特色工艺，硅芯微8寸产线投产，意法半导体在华虹代工40nm——国内成熟制程产能稳步扩张"
     },
     {
       "topic": "国产EDA/IP",
-      "heat": "平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "芯原股份新签订单超45亿元，国产IP平台规模持续扩大，但EDA领域未见重大突破。"
+      "heat": "→平稳",
+      "reddit_top": "未找到高热度帖子",
+      "hn_top": "null",
+      "summary": "芯原股份订单超45亿元验证IP授权商业模式，但高端全流程EDA替代仍有差距"
     },
     {
       "topic": "封测OSAT",
-      "heat": "升温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "甬矽电子营收增21.87%，先进封装产能持续释放；盛合晶微上市进一步推升OSAT关注度。"
+      "heat": "↑↑升温",
+      "reddit_top": "未找到高热度帖子",
+      "hn_top": "null",
+      "summary": "盛合晶微上市市值1800亿，长电科技CPO出货，台积电美封测厂动工——OSAT赛道资本和技术双重活跃"
     },
     {
       "topic": "出口管制/制裁",
-      "heat": "升温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "中方取消荷兰光刻机优待政策，450亿芯片项目调整，国产替代从被动转向主动。"
+      "heat": "→平稳",
+      "reddit_top": "未找到高热度帖子",
+      "hn_top": "null",
+      "summary": "本周无明显新制裁政策出台，但光刻胶供应扰动提示关键材料供应链风险持续存在"
     },
     {
       "topic": "AI芯片/NVIDIA",
-      "heat": "升温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "Google推出TPU 8代双芯片架构挑战NVIDIA，6家国产AI芯片公司进入IPO冲刺期。"
+      "heat": "↑↑升温",
+      "reddit_top": "未找到高热度帖子",
+      "hn_top": "null",
+      "summary": "CPU涨价10%，SK Hynix HBM配合NVIDIA Rubin-Ultra，AI算力需求持续推升芯片价格和供应紧张"
     },
     {
       "topic": "设备/材料国产化",
-      "heat": "升温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "光刻胶供应扰动叠加光刻机政策转向，北方华创等国产设备股强势上涨，去日化趋势明显。"
+      "heat": "→平稳",
+      "reddit_top": "未找到高热度帖子",
+      "hn_top": "null",
+      "summary": "光刻胶供应扰动催化国产替代进程，TSMC明确2029年前不买High-NA EUV，中端设备国产替代持续推进"
     }
   ],
   "items": [
     {
-      "title": "今年科创板最大IPO：盛合晶微正式上市，市值冲破1400亿",
-      "summary": "4月21日，盛合晶微半导体有限公司正式登陆上交所科创板，发行价19.68元/股，开盘暴涨超400%，市值一度冲破1800亿元。主营业务为先进封装（3D IC、Chiplet），募资用于扩产先进封装产能。",
+      "title": "盛合晶微登陆科创板，上市首日市值突破1800亿元",
+      "summary": "盛合晶微作为集成电路先进封测企业，成为A股年内最大IPO，上市首日市值最高突破1800亿元，背后持股股东浮盈颇丰。今年科创板最大IPO敲钟。",
       "source": "新浪财经",
-      "published": "2026-04-23T14:30:00+08:00",
-      "url": "https://finance.sina.com.cn/roll/2026-04-22/doc-inhvkcsa5605841.shtml",
+      "published": "2026-04-22",
+      "url": "https://finance.sina.com.cn/stock/roll/2026-04-22/doc-inhvkiyh4341052.shtml",
       "tags": [
-        "先进封装",
         "IPO",
+        "封测",
+        "先进封装",
         "科创板"
       ],
       "insights": [
-        "盛合晶微上市反映先进封装需求持续高景气，3D IC/Chiplet赛道资本热度急剧上升",
-        "科创板最大IPO标志着先进封装从配角走向核心，供应链格局面临重塑"
+        "盛合晶微上市标志着国内先进封测企业资本化加速，OSAT赛道估值体系正在重构",
+        "A股年内最大IPO反映先进封装赛道获资本市场高度认可"
       ],
       "actions": [
-        "评估盛合晶微先进封装产能释放节奏，考虑纳入封测供应商池",
-        "关注Chiplet/3D IC封装设备需求变化，提前与设备供应商锁定产能"
+        "评估盛合晶微先进封装产能与现有供应商的竞争/互补关系",
+        "关注盛合晶微后续扩产计划对封测供应商格局的影响"
       ],
       "glossary": [
-        "Chiplet"
+        "科创板",
+        "先进封测"
       ],
       "region": "domestic"
     },
     {
-      "title": "中方取消对荷兰光刻机优待政策，450亿芯片项目调整",
-      "summary": "中方宣布取消对荷兰ASML光刻机的进口优待政策，涉及约450亿元相关芯片项目调整。此举被视为对出口管制的反制，意在加速国产光刻设备替代进程。",
+      "title": "Marvell收购Polariton Technologies，推进光互连性能至3.2T",
+      "summary": "Marvell宣布收购硅光子器件初创公司Polariton Technologies，旨在推进光互连性能扩展至3.2T及以上，加速数据中心光连接技术演进。",
+      "source": "Marvell官方",
+      "published": "2026-04-22",
+      "url": "https://investor.marvell.com/news-events/press-releases/detail/1020/marvell-announces-acquisition-of-polariton-technologies-advancing-optical-performance-scaling-to-3-2t-and-beyond",
+      "tags": [
+        "收购",
+        "光互连",
+        "硅光子",
+        "Marvell"
+      ],
+      "insights": [
+        "Marvell收购Polariton表明光互连/硅光子成为数据中心芯片竞争新焦点，CPO技术路线加速",
+        "大型芯片公司通过收购补齐光互连能力，半导体产业链整合向光电融合延伸"
+      ],
+      "actions": [
+        "关注Marvell光互连产品路线图对数据中心采购的影响",
+        "评估国内硅光子技术公司的发展进度和投资机会"
+      ],
+      "glossary": [
+        "硅光子",
+        "光互连"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "台积电亚利桑那先进封测厂动工，预计2029年投产",
+      "summary": "台积电亚利桑那先进封测厂正式动工，预计2029年启用。台积电积极扩展亚利桑那厂区功能，封装厂将服务于美国本土先进芯片制造。",
+      "source": "信传媒",
+      "published": "2026-04-23",
+      "url": "https://www.cmmedia.com.tw/home/articles/60555",
+      "tags": [
+        "台积电",
+        "先进封装",
+        "美国建厂",
+        "Arizona"
+      ],
+      "insights": [
+        "台积电在美布局先进封测，意味着CoWoS等先进封装产能将从亚洲向美国转移",
+        "2029年投产时间线暗示先进封装海外扩产周期较长，短期亚洲封测仍是主力"
+      ],
+      "actions": [
+        "跟踪台积电亚利桑那封装厂产能分配对全球先进封装供应的影响",
+        "评估是否需要调整封测供应商地域分布策略"
+      ],
+      "glossary": [
+        "先进封测",
+        "CoWoS"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "SK Hynix美国印第安纳HBM制造厂取得进展",
+      "summary": "SK Hynix在印第安纳的新HBM制造基地取得重要进展，新厂将开始HBM内存的制造和测试，恰逢NVIDIA Rubin-Ultra GPU推出。",
+      "source": "The Register",
+      "published": "2026-04-22",
+      "url": "https://www.theregister.com/2026/04/22/sk_hynix_indiana/",
+      "tags": [
+        "SK Hynix",
+        "HBM",
+        "美国制造",
+        "AI存储"
+      ],
+      "insights": [
+        "SK Hynix美国本土HBM生产意味着AI存储供应链正在向美国转移，地缘政治驱动产能重新布局",
+        "NVIDIA下一代GPU对HBM的依赖加深，本土HBM供应将降低地缘风险"
+      ],
+      "actions": [
+        "关注SK Hynix美国HBM产能爬坡进度",
+        "评估HBM供应格局变化对AI芯片采购的影响"
+      ],
+      "glossary": [
+        "HBM",
+        "Rubin-Ultra"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "TSMC推出A13制程节点，称2029年前不需要High-NA EUV",
+      "summary": "台积电宣布A13（1.3nm）制程节点，明确表示2029年前不需要ASML的3.5亿美元High-NA EUV机器，将采用现有低NA EUV多重曝光策略推进制程。",
+      "source": "Electronics Weekly",
+      "published": "2026-04-23",
+      "url": "https://www.electronicsweekly.com/news/business/tsmc-introduces-a13-node-says-no-need-for-high-na-through-2029-2026-04/",
+      "tags": [
+        "台积电",
+        "A13",
+        "1.3nm",
+        "EUV",
+        "制程"
+      ],
+      "insights": [
+        "台积电A13节点不采用High-NA EUV，意味着ASML的高端设备推广受阻，但台积电的低NA方案成本优势明显",
+        "TSMC制程路线图清晰，1.4nm→1.3nm推进有序，但产能与成本平衡仍是挑战"
+      ],
+      "actions": [
+        "关注TSMC A13制程良率和量产时间表",
+        "评估低NA EUV多重曝光策略对晶圆代工成本的影响"
+      ],
+      "glossary": [
+        "A13",
+        "High-NA EUV"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "华虹半导体通过战略收购强化市场地位",
+      "summary": "华虹半导体通过战略收购巩固其在特色工艺代工领域的市场地位，积极扩大产能和技术覆盖范围。",
+      "source": "IT Boltwise",
+      "published": "2026-04-22",
+      "url": "https://www.it-boltwise.de/hua-hong-semiconductor-staerkt-seine-position-durch-strategische-uebernahme.html",
+      "tags": [
+        "华虹",
+        "收购",
+        "特色工艺",
+        "代工"
+      ],
+      "insights": [
+        "华虹通过收购强化特色工艺代工能力，国内中低端制程代工格局正在整合",
+        "华虹扩张战略反映国内成熟制程产能需求旺盛，收购成为快速扩产路径"
+      ],
+      "actions": [
+        "关注华虹收购标的及其产能整合进度",
+        "评估华虹扩产对成熟制程代工供应商选择的影响"
+      ],
+      "glossary": [
+        "特色工艺",
+        "华虹宏力"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "长电科技高端先进封装提速：CPO实现样品出货",
+      "summary": "长电科技在先进封装领域加速布局：光电合封（CPO）产品已实现客户样品交付，玻璃基板产品研发取得积极进展，多芯片异构集成封装规模化量产持续拓展客户群。",
+      "source": "新浪财经/爱集微",
+      "published": "2026-04-22",
+      "url": "https://finance.sina.com.cn/stock/t/2026-04-22/doc-inhvkcsk4397750.shtml",
+      "tags": [
+        "长电科技",
+        "先进封装",
+        "CPO",
+        "玻璃基板"
+      ],
+      "insights": [
+        "长电科技CPO样品出货标志着国内先进封装技术从研发走向客户验证阶段",
+        "玻璃基板封装是下一代先进封装关键材料路线，长电布局具有前瞻性"
+      ],
+      "actions": [
+        "跟进长电科技CPO量产时间表和客户导入进度",
+        "评估长电先进封装能力对现有封测供应链的影响"
+      ],
+      "glossary": [
+        "CPO",
+        "玻璃基板封装"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "紫光国微2025年研发投入持续加码，技术成果进入规模化变现期",
+      "summary": "紫光国微2025年实现营收61.46亿元，同比增长11.5%，研发投入持续加码，技术成果进入规模化变现期。公司智能安全芯片、FPGA等产品线持续增长。",
+      "source": "证券日报/新浪财经",
+      "published": "2026-04-22",
+      "url": "https://finance.sina.com.cn/jjxw/2026-04-22/doc-inhvkcsh6173703.shtml",
+      "tags": [
+        "紫光国微",
+        "研发投入",
+        "安全芯片",
+        "FPGA"
+      ],
+      "insights": [
+        "紫光国微研发投入加码反映国内IC设计企业从规模扩张转向技术深度竞争",
+        "FPGA和安全芯片规模化变现验证了国产替代路径可行性"
+      ],
+      "actions": [
+        "关注紫光国微FPGA产品在细分市场的渗透率",
+        "评估其安全芯片产品线对供应链的影响"
+      ],
+      "glossary": [
+        "FPGA",
+        "智能安全芯片"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "意法半导体宣布在华虹宏力代工生产40nm芯片",
+      "summary": "意法半导体正式宣布，由华虹宏力代工的首批40nm MCU已成功生产，标志着欧洲芯片巨头在中国大陆本土制造40nm芯片的新里程碑。",
       "source": "网易新闻",
-      "published": "2026-04-23T15:00:00+08:00",
-      "url": "https://www.163.com/dy/article/KR43KRR3055682OY.html",
+      "published": "2026-04-22",
+      "url": "https://m.163.com/dy/article_v5/KR54RFF60543OST6.html",
       "tags": [
-        "光刻机",
-        "出口管制",
-        "国产替代"
+        "意法半导体",
+        "华虹宏力",
+        "40nm",
+        "代工合作"
       ],
       "insights": [
-        "取消光刻机优待标志着国产替代从被动转为主动，去ASML化趋势加速",
-        "光刻胶供应扰动叠加政策转向，国产光刻胶和光刻设备迎来双重机遇窗口"
+        "ST选择华虹代工40nm表明中国成熟制程代工能力获得国际大厂认可，国内代工生态竞争力提升",
+        "国际IDM+Fabless+中国Foundry的合作模式正在成为新常态"
       ],
       "actions": [
-        "评估国产光刻设备技术成熟度，制定替代时间表",
-        "排查光刻胶库存与替代供应商，降低单一来源依赖风险"
+        "跟踪华虹宏力40nm制程的产能和良率表现",
+        "评估国际大厂选择中国代工对成熟制程产能分配的影响"
       ],
       "glossary": [
-        "光刻胶"
+        "MCU",
+        "40nm制程"
       ],
       "region": "domestic"
     },
     {
-      "title": "我国一季度集成电路产量大增24.3%，半导体板块强势上涨",
-      "summary": "2026年一季度我国集成电路产量同比增长24.3%，半导体ETF盘初冲高涨超2%。中科飞测、北方华创等个股领涨。全球半导体设备销售有望创新高。",
-      "source": "新浪财经",
-      "published": "2026-04-23T14:00:00+08:00",
-      "url": "https://finance.sina.com.cn/jjxw/2026-04-22/doc-inhvitah5684699.shtml",
+      "title": "四川硅芯微8寸晶圆首片成功加工下线",
+      "summary": "四川硅芯微科技成都基地项目首片8寸晶圆成功加工下线并完成小批量试生产，成为国内投产最快的8寸晶圆加工项目。",
+      "source": "天天要闻",
+      "published": "2026-04-22",
+      "url": "https://daydaynews.cc/zh-cn/technology/4307029.html",
       "tags": [
-        "集成电路",
-        "产量增长",
-        "半导体ETF"
+        "硅芯微",
+        "8寸晶圆",
+        "国内投产",
+        "特色工艺"
       ],
       "insights": [
-        "24.3%的产量增速表明国内晶圆厂产能释放加速，需求端持续旺盛",
-        "半导体设备销售创新高预示扩产周期延续，设备国产化进程加速"
+        "硅芯微8寸产线快速投产反映国内特色工艺产线建设效率提升",
+        "国内新Fab投产加速，成熟制程产能供给持续增加"
       ],
       "actions": [
-        "跟踪一季度产能数据，评估各Fab厂出货节奏是否符合预期",
-        "关注北方华创等国产设备商订单变化，评估设备交付周期"
+        "关注硅芯微产线爬坡进度和产能规划",
+        "评估新增国内8寸产能对成熟制程供需的影响"
       ],
       "glossary": [
-        "集成电路产量"
+        "8寸晶圆",
+        "特色工艺产线"
       ],
       "region": "domestic"
     },
     {
-      "title": "甬矽电子2025年营收43.98亿元创新高，先进封装产能持续释放",
-      "summary": "甬矽电子发布2025年度报告，全年营收43.98亿元，同比增长21.87%，创历史新高。先进封装产能持续释放，营收逐季增长，反映OSAT行业景气度高。",
-      "source": "新浪财经",
-      "published": "2026-04-23T16:00:00+08:00",
-      "url": "https://finance.sina.com.cn/roll/2026-04-22/doc-inhvinus4545852.shtml",
+      "title": "光刻胶供应扰动催化，半导体板块活跃",
+      "summary": "光刻胶供应扰动成为半导体板块催化剂，芯片ETF易方达涨1.29%，市场关注国产光刻胶替代进程。",
+      "source": "财闻网",
+      "published": "2026-04-22",
+      "url": "https://www.caiwennews.com/article/1435543.shtml",
       "tags": [
-        "封测",
-        "OSAT",
-        "甬矽电子"
+        "光刻胶",
+        "供应链扰动",
+        "国产替代",
+        "ETF"
       ],
       "insights": [
-        "甬矽电子先进封装产能释放节奏加快，OSAT行业景气持续上行",
-        "中小型OSAT营收增速超过21%，表明先进封装需求溢出到二线封测厂商"
+        "光刻胶供应扰动再次凸显关键材料国产替代的紧迫性",
+        "市场波动反映投资者对半导体供应链风险的敏感度上升"
       ],
       "actions": [
-        "对比甬矽电子与日月光/长电的先进封装产能与报价，评估封测供应商多元化策略",
-        "关注甬矽电子Bumping/RDL产能爬坡进度，适时调整订单分配"
+        "关注光刻胶供应扰动的具体影响范围和持续时间",
+        "评估国产光刻胶替代方案的成熟度和可靠性"
       ],
       "glossary": [
-        "OSAT"
+        "光刻胶",
+        "供应链扰动"
       ],
       "region": "domestic"
     },
     {
-      "title": "芯原股份新签订单超45亿元，国产IP平台订单规模持续扩大",
-      "summary": "芯原股份新签订单超45亿元，半导体IP授权和芯片定制业务持续增长。日本地震导致关键光刻胶工厂停工，国内半导体产业链有望受益于去日化趋势。",
-      "source": "新浪财经",
-      "published": "2026-04-23T17:00:00+08:00",
-      "url": "https://finance.sina.com.cn/jjxw/2026-04-22/doc-inhvitan6314711.shtml",
+      "title": "芯原股份新签订单超45亿元，IP授权业务持续增长",
+      "summary": "芯原股份新签订单超过45亿元，芯片IP授权和设计服务业务持续增长，科创芯片ETF易方达涨1.12%。",
+      "source": "财闻网",
+      "published": "2026-04-22",
+      "url": "https://www.caiwennews.com/article/1435547.shtml",
       "tags": [
-        "芯片设计",
+        "芯原股份",
         "IP授权",
-        "芯原股份"
+        "设计服务",
+        "订单增长"
       ],
       "insights": [
-        "芯原45亿新签订单印证国产IP平台正从边缘走向主流，SoC定制需求旺盛",
-        "去日化趋势叠加IP需求增长，国产半导体IP生态加速完善"
+        "芯原股份订单超45亿元验证国内IP授权+设计服务商业模式成熟度",
+        "IP授权赛道增长反映国内芯片设计生态从零散走向平台化"
       ],
       "actions": [
-        "评估芯原股份IP平台覆盖度，考虑纳入IP供应商评估",
-        "关注国产IP替代Arm/RISC-V的进度，制定IP多元化采购策略"
+        "关注芯原股份IP授权业务的具体增长领域和客户分布",
+        "评估芯原设计服务能力对芯片项目外包的影响"
       ],
       "glossary": [
-        "半导体IP"
+        "IP授权",
+        "芯片设计服务"
       ],
       "region": "domestic"
     },
     {
-      "title": "谷歌云推出第八代自研TPU芯片，专攻AI训练与推理",
-      "summary": "谷歌云宣布推出第八代自研TPU芯片，TPU 8t专用于AI训练任务，TPU 8i用于推理任务，加大SRAM容量。此举为对NVIDIA GPU垄断的最新挑战。",
-      "source": "CNBC",
-      "published": "2026-04-23T12:00:00+08:00",
-      "url": "https://www.cnbc.com/2026/04/22/google-launches-training-and-inference-tpus-in-latest-shot-at-nvidia.html",
+      "title": "AMD和Intel消费级CPU价格月内跳涨10%，AI热潮推波助澜",
+      "summary": "消费级和服务器CPU面临严重短缺，价格月内跳涨10%，预计2026-2027年持续涨价，AI需求推动供需失衡。",
+      "source": "WCCFtech",
+      "published": "2026-04-22",
+      "url": "https://wccftech.com/amd-intel-consumer-cpu-prices-jump-10-percent-in-a-month/",
       "tags": [
-        "AI芯片",
-        "TPU",
-        "Google"
+        "AMD",
+        "Intel",
+        "CPU涨价",
+        "供应链短缺"
       ],
       "insights": [
-        "Google TPU 8代双芯片架构反映AI芯片专用化趋势加速",
-        "自研AI芯片阵营扩大，NVIDIA GPU份额面临长期稀释风险"
+        "CPU涨价反映AI算力需求已传导至通用处理器供应链，供需紧张短期内难以缓解",
+        "涨价趋势持续至2027年意味着芯片采购成本管控面临长期挑战"
       ],
       "actions": [
-        "跟踪Google TPU产能和代工厂，评估对台积电CoWoS产能分配的影响",
-        "关注AI芯片专用化对HBM需求结构的变化，调整存储采购策略"
+        "评估CPU涨价对服务器采购预算的影响",
+        "考虑提前锁定采购合同以规避持续涨价风险"
       ],
       "glossary": [
-        "TPU"
+        "供应链短缺",
+        "CPU涨价"
       ],
       "region": "overseas"
     },
     {
-      "title": "芯片制造新竞赛：3纳米产能全球布局加速",
-      "summary": "主要晶圆厂计划加快在日本、台湾和美国建设新工厂以生产3纳米芯片。台湾工厂预计2027年上半年投产，美国工厂同年下半年投产，日本工厂2028年投产。",
-      "source": "36氪",
-      "published": "2026-04-23T13:00:00+08:00",
-      "url": "https://36kr.com/p/3777325354436609",
+      "title": "SanDisk股价飙升至940美元以上，AI存储热潮引爆市场",
+      "summary": "SanDisk股价飙升超4%突破947美元，AI存储需求推动存储芯片市场大规模上涨，Flash存储市场格局正在重塑。",
+      "source": "IB Times",
+      "published": "2026-04-22",
+      "url": "https://www.ibtimes.com.au/sandisk-stock-rockets-past-940-ai-memory-boom-ignites-massive-rally-1867293",
       "tags": [
-        "3纳米",
-        "晶圆厂",
-        "全球扩产"
+        "SanDisk",
+        "存储",
+        "AI存储",
+        "股价飙升"
       ],
       "insights": [
-        "3nm产能全球多点布局标志着先进制程从集中走向分散，地缘政治驱动明显",
-        "台湾2027上半年、美国下半年、日本2028的节奏差影响短期产能分配策略"
+        "AI存储热潮推动SanDisk股价飙升，存储芯片从配角变为AI供应链核心组件",
+        "Flash存储市场格局正在从传统消费级向AI数据中心级转型"
       ],
       "actions": [
-        "跟踪各3nm工厂建设进度与良率爬坡节奏，评估对现有产能排期的影响",
-        "关注日本/美国新建Fab的客户分配政策，预判产能获取难度变化"
+        "关注AI存储需求对Flash供应链定价的影响",
+        "评估存储芯片采购策略是否需要调整"
       ],
       "glossary": [
-        "3纳米制程"
+        "Flash存储",
+        "AI存储"
       ],
       "region": "overseas"
     },
     {
-      "title": "2026年度AI芯片30强出炉，6家进入IPO冲刺期",
-      "summary": "2026年AI芯片30强榜单发布，其中瀚博半导体等6家已进入IPO冲刺期。榜单涵盖高端GPU、边缘AI芯片、推理加速器等方向。",
-      "source": "搜狐",
-      "published": "2026-04-23T15:30:00+08:00",
-      "url": "https://www.sohu.com/a/1013139127_122014422",
+      "title": "台中科园区建设1.4nm未来，台积电先进制程基地加速扩张",
+      "summary": "台中科学园区正建设1.4nm制程产线基础设施，台积电先进制程基地加速扩张，配套产业生态持续完善。",
+      "source": "TVBS",
+      "published": "2026-04-22",
+      "url": "https://news.tvbs.com.tw/english/3185162",
       "tags": [
-        "AI芯片",
-        "GPU",
-        "IPO"
+        "台积电",
+        "1.4nm",
+        "台中科园区",
+        "先进制程"
       ],
       "insights": [
-        "6家AI芯片公司进入IPO冲刺期，标志着国产AI芯片从研发走向资本化阶段",
-        "瀚博半导体同时在通用AI和渲染GPU双线布局，差异化路径值得关注"
+        "台中科园区1.4nm产线建设反映台积电先进制程产能扩张进入加速期",
+        "配套产业链集中化趋势明显，先进制程生态向地理集聚发展"
       ],
       "actions": [
-        "评估即将IPO的AI芯片公司产品成熟度和量产能力，考虑纳入芯片供应评估",
-        "关注国产GPU在推理/边缘场景的替代可行性，制定GPU采购多元化方案"
+        "跟踪台积电1.4nm产线投产时间表",
+        "评估台中科园区配套产业变化对供应链的影响"
       ],
       "glossary": [
-        "AI推理加速器"
+        "1.4nm制程",
+        "科学园区"
       ],
-      "region": "domestic"
+      "region": "overseas"
     }
   ]
 }
