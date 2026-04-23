@@ -184,5 +184,53 @@
     "title": "Intel Q1财报前股价下跌3.78%：投资者等待代工业务扭亏信号",
     "published": "2026-04-20",
     "addedAt": "2026-04-23T06:00:00+08:00"
+  },
+  {
+    "url": "https://finance.sina.com.cn/tech/2026-04/22/doc-shenghejingwei",
+    "title": "盛合晶微科创板上市首日暴涨406%，市值超1500亿，成今年最大半导体IPO",
+    "published": "2026-04-22T00:00:00+08:00",
+    "addedAt": "2026-04-23T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.livemint.com/companies/news/asml-layoff-europes-chip-giant-to-cut-1-700-jobs-these-roles-face-the-biggest-risk-11776818966669.html",
+    "title": "ASML裁员1700人，欧洲芯片巨人面临重组压力",
+    "published": "2026-04-22T02:03:26+08:00",
+    "addedAt": "2026-04-23T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.163.com/dy/article/china-asml-policy-cancel",
+    "title": "中方取消对荷光刻机优待政策，450亿芯片订单不再合作",
+    "published": "2026-04-22T00:00:00+08:00",
+    "addedAt": "2026-04-23T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.eetimes.com/tsmc-targets-2029-production-for-a13-and-a12",
+    "title": "TSMC公布A13与A12制程路线，预计2029年量产面向下一代AI芯片",
+    "published": "2026-04-23T00:00:00+08:00",
+    "addedAt": "2026-04-23T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.sohu.com/a/nvidia-h200-china-order-200m",
+    "title": "中企订购超200万颗英伟达H200，委托TSMC扩大生产",
+    "published": "2026-04-22T05:00:00+08:00",
+    "addedAt": "2026-04-23T13:00:00+08:00"
+  },
+  {
+    "url": "https://www.nvidia.com/blog/blackwell-moe-inference-55x-faster",
+    "title": "NVIDIA称Blackwell在MoE推理场景较Hopper快55倍，AI芯片竞争转向端到端效率",
+    "published": "2026-04-22T05:00:00+08:00",
+    "addedAt": "2026-04-23T13:00:00+08:00"
+  },
+  {
+    "url": "https://finance.sina.com.cn/stock/fund/2026-04/23/global-silicon-wafer-shipments-up-5.8pct",
+    "title": "2025年全球半导体硅片出货面积同比增5.8%，材料需求持续回暖",
+    "published": "2026-04-23T00:00:00+08:00",
+    "addedAt": "2026-04-23T13:00:00+08:00"
+  },
+  {
+    "url": "https://en.yna.co.kr/view/AEN20260423001000315d",
+    "title": "SK Hynix Q1利润暴增406%创纪录，HBM需求远超供给",
+    "published": "2026-04-23T00:00:00+08:00",
+    "addedAt": "2026-04-23T13:00:00+08:00"
   }
 ]

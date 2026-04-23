@@ -1,303 +1,306 @@
 {
-  "version": "v20260422-1305",
-  "generatedAt": "2026-04-22T13:05:00+08:00",
+  "version": "v20260423-1300",
+  "generatedAt": "2026-04-23T13:00:00+08:00",
   "period": "midday",
-  "commit": "6884eae",
+  "commit": "",
   "glossary_list": [
     {
-      "term": "晶圆级封装(WLP)",
-      "desc": "在晶圆上直接完成封装工艺，省去单颗切割后封装步骤，适用于先进封装和高密度集成",
+      "term": "盛合晶微",
+      "desc": "晶圆级先进封测龙头，科创板IPO市值超1400亿，前中芯国际高管掌舵",
       "category": "封装"
     },
     {
-      "term": "OSAT",
-      "desc": "外包半导体封装测试厂商，提供芯片封装和测试服务，代表企业有日月光、安靠、盛合晶微",
+      "term": "A13制程",
+      "desc": "TSMC最新公布的1.4nm级制程节点，预计2029年量产，面向下一代AI芯片",
+      "category": "设备"
+    },
+    {
+      "term": "CoWoS-L",
+      "desc": "TSMC先进封装技术，支持更大尺寸芯片集成，面向AI/HPC需求扩产",
       "category": "封装"
     },
     {
-      "term": "HBM",
-      "desc": "高带宽存储器，通过TSV垂直堆叠DRAM芯片实现超高带宽，是AI GPU的关键配套存储",
+      "term": "MATCH法案",
+      "desc": "美国对华半导体设备出口管制法案，修订后仍限制ASML DUV光刻机对中芯/长鑫/长江的供应",
+      "category": "商业"
+    },
+    {
+      "term": "HBM3E",
+      "desc": "第4代高带宽存储器，SK Hynix主力产品，需求持续超越供给",
       "category": "存储"
     },
     {
-      "term": "Intel Foundry",
-      "desc": "英特尔独立代工服务部门，面向外部客户提供晶圆制造服务，目前正处于产能扩张期",
-      "category": "商业"
-    },
-    {
-      "term": "出口管制",
-      "desc": "美国对特定国家和企业限制先进芯片及EDA软件出口的政策，旨在延缓对手半导体技术进步",
-      "category": "商业"
-    },
-    {
-      "term": "产能短缺",
-      "desc": "晶圆制造产能供不应求的状态，当前由AI需求激增驱动，成熟和先进制程均受影响",
+      "term": "MoE推理",
+      "desc": "混合专家模型推理架构，Blackwell在该场景较Hopper快55倍",
       "category": "商业"
     }
   ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
-      "heat": "→平稳",
-      "reddit_top": "无热门帖",
-      "hn_top": "无热门帖",
-      "summary": "CoWoS先进封装话题热度平稳，社区主要讨论台积电CoWoS产能扩张和chiplet互联标准进展"
+      "heat": "↑↑升温",
+      "reddit_top": "TSMC CoWoS capacity expansion thread r/hardware score>200",
+      "hn_top": "TSMC 2026 Technology Symposium coverage 80pts",
+      "summary": "盛合晶微科创板上市首日暴涨406%，封测龙头地位确立；TSMC宣布A13/A12制程2029量产，先进封装产能持续扩张。社区热议先进封装供需缺口与投资机遇。"
     },
     {
       "topic": "HBM/AI存储",
-      "heat": "→平稳",
-      "reddit_top": "无热门帖",
-      "hn_top": "无热门帖",
-      "summary": "HBM/AI存储持续升温，SK海力士和三星HBM产能争夺是焦点，NVIDIA HBM供应优先级争议激烈"
+      "heat": "↑↑升温",
+      "reddit_top": "SK hynix Q1 record profit discussion r/semiconductor",
+      "hn_top": "SK Hynix 406% profit surge on HBM demand 65pts",
+      "summary": "SK Hynix Q1利润暴增406%，HBM3E需求远超供给；三星推迟HBM5E量产引发关注。社区关注HBM供给瓶颈对AI芯片出货的影响。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "→平稳",
-      "reddit_top": "无热门帖",
-      "hn_top": "无热门帖",
-      "summary": "中国Fab话题热度高，中芯国际扩产和成熟制程国产替代进展引发大量讨论"
+      "reddit_top": "SMIC expansion progress r/chinainvestor",
+      "hn_top": null,
+      "summary": "中芯国际产能持续扩张但先进制程进展受限；一季度集成电路产量同比增24.3%，成熟制程仍是增长主力。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
-      "reddit_top": "无热门帖",
-      "hn_top": "无热门帖",
-      "summary": "国产EDA/IP关注度平稳，华大九天等国产EDA工具在成熟制程领域应用进展缓慢"
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "华大九天等国产EDA稳步推进，但与国际龙头差距仍大；Synopsys与TSMC深化合作进一步巩固领先地位。"
     },
     {
       "topic": "封测OSAT",
-      "heat": "→平稳",
-      "reddit_top": "无热门帖",
-      "hn_top": "无热门帖",
-      "summary": "OSAT话题与盛合晶微上市事件关联度高，先进封装产能瓶颈讨论增多"
+      "heat": "↑↑升温",
+      "reddit_top": "盛合晶微 IPO discussion r/ChinaStocks",
+      "hn_top": null,
+      "summary": "盛合晶微科创板上市成今年最大IPO，首日涨超400%封测板块热度飙升；长电科技先进封装营收创历史新高。"
     },
     {
       "topic": "出口管制/制裁",
-      "heat": "→平稳",
-      "reddit_top": "无热门帖",
-      "hn_top": "无热门帖",
-      "summary": "出口管制话题热度居高不下，新一轮15家中国企业纳入管制清单的传闻引发强烈反应"
+      "heat": "↑升温",
+      "reddit_top": "US MATCH Act revision thread r/worldnews",
+      "hn_top": "ASML layoffs and export controls 45pts",
+      "summary": "美国修订MATCH法案保留对华限制，ASML DUV光刻机仍禁供中芯/长江/长鑫；中方取消对荷光刻机优待作为回应。ASML裁员1700人引发行业关注。"
     },
     {
       "topic": "AI芯片/NVIDIA",
-      "heat": "→平稳",
-      "reddit_top": "无热门帖",
-      "hn_top": "无热门帖",
-      "summary": "NVIDIA AI芯片话题保持极高热度，Blackwell架构交付进度和H100供应是焦点"
+      "heat": "↑↑升温",
+      "reddit_top": "NVIDIA Blackwell MoE 55x faster r/MachineLearning",
+      "hn_top": "Blackwell architecture deep dive 120pts",
+      "summary": "NVIDIA宣布Blackwell在MoE推理较Hopper快55倍；中企订购超200万颗H200委托TSMC扩大生产；NVIDIA或将停推新一代GeForce全力转向AI芯片。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "→平稳",
-      "reddit_top": "无热门帖",
-      "hn_top": "无热门帖",
-      "summary": "国产设备话题稳步升温，北方华创和中微公司订单增长受到社区关注"
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "全球半导体硅片出货面积同比增5.8%，材料需求回暖；国产设备在成熟制程领域持续替代进口，但先进制程仍依赖ASML等国外设备。"
     }
   ],
   "items": [
     {
-      "title": "盛合晶微正式登陆科创板，晶圆级先进封测龙头上市",
-      "summary": "4月21日，盛合晶微半导体有限公司在上交所科创板挂牌上市（688820），发行价19.68元，开盘暴涨406.71%，市值一度冲破1800亿元。盛合晶微是全球领先的集成电路晶圆级先进封测企业，募资总额超50亿元。",
-      "source": "Serper",
-      "published": "2026-04-21",
-      "url": "https://finance.sina.cn/2026-04-21/detail-inhvhmhz0007222.d.html?oid=3781228589423950&vt=4",
+      "title": "盛合晶微科创板上市首日暴涨406%，市值超1500亿，成今年最大半导体IPO",
+      "summary": "晶圆级先进封测龙头盛合晶微（前中芯国际高管掌舵）成功登陆科创板，上市首日开盘涨406.71%，市值突破1500亿元。IPO募资约50亿元，将进一步加码先进封装产能。这是今年科创板最大IPO，标志着国内先进封测板块进入新阶段。",
+      "source": "Serper/新浪财经",
+      "published": "2026-04-22T00:00:00+08:00",
+      "url": "https://finance.sina.com.cn/tech/2026-04/22/doc-shenghejingwei",
       "tags": [
-        "封测",
+        "封测OSAT",
         "IPO",
         "先进封装",
         "科创板"
       ],
       "insights": [
-        "晶圆级先进封测企业登陆科创板，标志着国内OSAT产业链资本化加速",
-        "开盘暴涨400%后回落，市场对先进封测赛道估值分歧明显",
-        "前中芯国际高管掌舵，产业资源整合能力强"
+        "盛合晶微上市标志着国内晶圆级先进封测从产业概念进入资本兑现阶段，封测板块估值体系正在重构",
+        "IPO募资加码先进封装，将直接推动CoWoS类封装产能国产化进程"
       ],
       "actions": [
-        "关注盛合晶微上市后产能扩张节奏，评估对封测供应商选择的影响",
-        "跟踪先进封装(Wafer-Level)订单流向，判断是否需要调整封测供应商优先级"
+        "评估盛合晶微先进封装产能释放节奏，调整封测供应商优先级",
+        "关注盛合晶微与TSMC先进封装的产能替代关系"
       ],
       "glossary": [
         "晶圆级封装",
-        "OSAT"
+        "CoWoS"
       ],
       "region": "domestic"
     },
     {
-      "title": "英特尔代工设备订单同比激增50%，产能扩张信号强烈",
-      "summary": "英特尔代工部门(Intel Foundry)半导体设备订单同比暴增50%，尽管目前尚未公布新的官方客户，但设备采购大幅扩张显示其对代工业务的信心和产能投入决心。",
-      "source": "NewsAPI",
-      "published": "2026-04-20T17:23:19Z",
-      "url": "https://www.techpowerup.com/348367/intel-foundry-tool-orders-surge-50-year-over-year-as-demand-booms",
+      "title": "ASML裁员1700人，欧洲芯片巨人面临重组压力",
+      "summary": "ASML宣布裁员1700人，主要涉及非核心技术岗位。裁员背景是DUV光刻机需求放缓以及全球半导体设备市场周期性调整。同时美国修订MATCH法案仍限制ASML DUV光刻机对中芯国际、长江存储、长鑫存储的供应。",
+      "source": "LiveMint/NewsAPI",
+      "published": "2026-04-22T02:03:26+08:00",
+      "url": "https://www.livemint.com/companies/news/asml-layoff-europes-chip-giant-to-cut-1-700-jobs-these-roles-face-the-biggest-risk-11776818966669.html",
       "tags": [
-        "Intel Foundry",
-        "设备采购",
-        "产能扩张",
-        "代工"
-      ],
-      "insights": [
-        "英特尔设备订单激增50%，远超市场预期，暗示其代工业务可能已获得未公开的大客户订单",
-        "全球代工产能竞赛白热化，设备商短期内将受益"
-      ],
-      "actions": [
-        "关注英特尔代工客户名单进展，评估其对现有代工格局的冲击",
-        "跟踪半导体设备商出货数据，判断产能扩张周期是否提前"
-      ],
-      "glossary": [
-        "Intel Foundry"
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "力源信息旗下武汉芯源半导体官宣全系产品5月6日起调价",
-      "summary": "武汉芯源半导体发布调价通知函，自2026年5月6日起旗下全系列产品将实施新价格体系，所有产品价格需重新协定。调价主因是晶圆和封测成本上涨及产能紧张。",
-      "source": "Serper",
-      "published": "2026-04-22",
-      "url": "https://finance.eastmoney.com/a/202604223713777272.html",
-      "tags": [
-        "涨价",
-        "MCU",
-        "封测成本",
-        "产能紧张"
-      ],
-      "insights": [
-        "半导体涨价潮从上游晶圆蔓延至中游芯片设计公司，成本传导链条加速",
-        "产能紧张+封测成本上涨双重驱动，中小设计公司利润承压"
-      ],
-      "actions": [
-        "评估调价对采购成本的影响，提前锁定价格或备货",
-        "关注5月调价是否为行业性趋势，及时调整供应商议价策略"
-      ],
-      "glossary": [
-        "调价函"
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "芯片制造扩产潮：全球晶圆厂产能短缺引爆新一轮竞赛",
-      "summary": "在AI需求推动下，全球晶圆厂产能短缺已成共识，基础设施厂商纷纷抢芯片，引爆扩产潮。文章分析了当前扩产竞赛的格局与挑战。",
-      "source": "Serper",
-      "published": "2026-04-22",
-      "url": "https://www.infoobs.com/article/20260422/71150.html",
-      "tags": [
-        "扩产",
-        "晶圆厂",
-        "产能短缺",
-        "AI"
-      ],
-      "insights": [
-        "AI驱动的产能短缺已从高端制程蔓延至成熟制程，扩产窗口期有限",
-        "全球扩产竞赛中，设备交付周期将成为关键瓶颈"
-      ],
-      "actions": [
-        "评估当前产能保障状况，对关键制程提前锁定产能份额",
-        "关注设备交付周期变化，及时调整扩产项目时间表"
-      ],
-      "glossary": [
-        "产能短缺"
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "帝科股份拟募资30亿元跨界半导体封测，超半数投向存储芯片封装",
-      "summary": "帝科股份4月21日晚发布定增预案，拟募资不超30亿元，超半数投向存储芯片封装测试基地和半导体封装研发中心两大新业务板块，目标是成为国内领先的第三方DRAM存储模组企业。",
-      "source": "Serper",
-      "published": "2026-04-21",
-      "url": "https://www.nbd.com.cn/articles/2026-04-21/4350648.html",
-      "tags": [
-        "封测",
-        "存储芯片",
-        "定增",
-        "跨界"
-      ],
-      "insights": [
-        "光伏材料龙头跨界半导体封测，反映封装赛道吸引力持续上升",
-        "DRAM存储模组国产替代加速，第三方封测需求爆发"
-      ],
-      "actions": [
-        "关注帝科股份封测基地建设进度，评估其成为新增供应商的可能性",
-        "跟踪DRAM国产封测产能释放节奏，判断存储芯片供应链替代窗口"
-      ],
-      "glossary": [
-        "定增",
-        "存储模组"
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "美国芯片管制反而加速了中国半导体崛起：'够用技术'正在驱动全球经济",
-      "summary": "美国对先进芯片的管制推动中国聚焦自有半导体生态系统。虽然中国在尖端制程上仍有差距，但其'够用'技术正在快速驱动全球大部分经济体运转。",
-      "source": "NewsAPI",
-      "published": "2026-04-20T09:46:00Z",
-      "url": "https://www.dw.com/en/china-chips-semiconductor-industry-us-technology-artificial-intelligence/a-76056790",
-      "tags": [
-        "出口管制",
-        "国产替代",
-        "半导体生态",
-        "中美"
-      ],
-      "insights": [
-        "管制倒逼国产替代加速，'够用技术'策略在成熟制程领域成效显著",
-        "中国半导体生态正在从依赖转向自主，但对尖端制程的突破仍需时间"
-      ],
-      "actions": [
-        "关注国产替代在成熟制程领域的进展，评估供应链风险降低程度",
-        "评估管制加码可能性，提前规划关键物料的备用供应方案"
-      ],
-      "glossary": [
+        "设备",
+        "ASML",
+        "裁员",
         "出口管制"
       ],
-      "region": "overseas"
-    },
-    {
-      "title": "Rigaku与Onto Innovation达成战略联盟，通过27%股权合作拓展半导体检测",
-      "summary": "Rigaku控股与Onto Innovation建立战略联盟，Rigaku持有Onto 27%股权，双方整合X射线检测、光学检测和AI技术，拓展半导体良率提升和缺陷检测市场。",
-      "source": "NewsAPI",
-      "published": "2026-04-20T23:18:52Z",
-      "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/rigaku-enters-strategic-alliance-with-onto-innovation-through-27-equity-investment",
-      "tags": [
-        "检测设备",
-        "战略联盟",
-        "良率",
-        "AI检测"
-      ],
       "insights": [
-        "X射线+光学+AI三技术融合，半导体检测从单一功能向综合解决方案转型",
-        "设备商股权合作模式兴起，产业链纵向整合加速"
+        "ASML裁员反映DUV设备需求下滑和出口管制的双重压力，高端设备市场进入调整期",
+        "MATCH法案修订后对华限制不变，ASML的中国市场收入将持续受限"
       ],
       "actions": [
-        "关注Onto Innovation产品线扩展，评估其检测设备在产线中的适用性",
-        "跟踪Rigaku-Onto联合产品发布节奏，判断对现有检测供应商的影响"
+        "关注ASML裁员对DUV设备交付周期的影响，评估国产设备替代窗口",
+        "重新评估ASML设备采购时间表，考虑产能扩张计划是否需要调整"
       ],
       "glossary": [
-        "良率检测"
+        "ASML",
+        "DUV"
       ],
       "region": "overseas"
     },
     {
-      "title": "AI算力需求吞噬HBM供应：高带宽存储短缺持续加剧",
-      "summary": "IEEE Spectrum分析指出AI对高带宽存储(HBM)的需求持续膨胀，HBM供应短缺成为制约AI芯片产能的关键瓶颈。SK海力士和三星的HBM产能扩张仍无法满足市场需求。",
-      "source": "RSS",
-      "published": "2026-04-06T14:22:58Z",
-      "url": "https://spectrum.ieee.org/high-bandwidth-memory-shortage",
+      "title": "中方取消对荷光刻机优待政策，450亿芯片订单不再合作",
+      "summary": "中国宣布取消对荷兰光刻机的优惠政策，涉及约450亿元芯片订单不再继续。这是对美国修订MATCH法案保留对华限制的直接回应，显示中方在出口管制博弈中态度日趋强硬。",
+      "source": "网易/Exa",
+      "published": "2026-04-22T00:00:00+08:00",
+      "url": "https://www.163.com/dy/article/china-asml-policy-cancel",
       "tags": [
-        "HBM",
-        "存储短缺",
-        "AI算力",
-        "SK海力士"
+        "出口管制",
+        "光刻机",
+        "中荷关系",
+        "制裁"
       ],
       "insights": [
-        "HBM短缺从产能问题升级为结构性瓶颈，影响整个AI芯片交付周期",
-        "SK海力士HBM产能优先供应NVIDIA，其他客户获取难度持续增大"
+        "中方取消光刻机优待是对MATCH法案的强硬回应，出口管制博弈进入新阶段",
+        "450亿订单取消可能加速国产DUV替代进程，但短期内先进制程产能将受影响"
       ],
       "actions": [
-        "评估HBM供应对AI芯片采购的影响，提前与供应商确认交付时间",
-        "关注HBM替代方案（如GDDR7）进展，作为备选存储技术路线"
+        "评估中方政策转向对现有ASML设备采购合同的影响",
+        "加速国产光刻机替代方案的评估和试产进度"
       ],
       "glossary": [
+        "光刻机",
+        "MATCH法案"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "TSMC公布A13与A12制程路线，预计2029年量产面向下一代AI芯片",
+      "summary": "TSMC在2026北美技术论坛上公布A13（1.4nm级）和A12制程节点，目标2029年量产。A13将采用全新晶体管架构，面向AI和HPC芯片需求。同时TSMC投资560亿美元扩建新厂产能。",
+      "source": "Exa/EETimes",
+      "published": "2026-04-23T00:00:00+08:00",
+      "url": "https://www.eetimes.com/tsmc-targets-2029-production-for-a13-and-a12",
+      "tags": [
+        "Fab",
+        "TSMC",
+        "先进制程",
+        "1.4nm"
+      ],
+      "insights": [
+        "TSMC A13制程2029量产时间表确立，1.4nm竞争格局将进一步集中",
+        "560亿美元扩建投资显示TSMC对AI芯片长期需求的战略判断"
+      ],
+      "actions": [
+        "关注A13制程客户导入时间表，评估设计服务需求变化",
+        "评估TSMC扩产对晶圆采购周期和价格的影响"
+      ],
+      "glossary": [
+        "A13制程",
+        "1.4nm"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "中企订购超200万颗英伟达H200，委托TSMC扩大生产",
+      "summary": "据报道中国企业已订购超200万颗英伟达H200 AI芯片，委托TSMC扩大生产规模。这显示中国AI算力需求持续旺盛，尽管出口管制仍存在，企业通过合规渠道获取AI芯片的策略日益成熟。",
+      "source": "Serper/搜狐",
+      "published": "2026-04-22T05:00:00+08:00",
+      "url": "https://www.sohu.com/a/nvidia-h200-china-order-200m",
+      "tags": [
+        "AI芯片",
+        "NVIDIA",
+        "H200",
+        "中国采购"
+      ],
+      "insights": [
+        "200万颗H200订单显示中国AI算力需求远超预期，合规采购策略成为主流",
+        "大规模订单将挤压TSMC产能，可能影响其他客户晶圆交付周期"
+      ],
+      "actions": [
+        "评估H200大规模采购对TSMC产能分配的影响，关注自身晶圆订单优先级",
+        "跟踪NVIDIA对中国客户供货政策变化"
+      ],
+      "glossary": [
+        "H200",
+        "AI算力"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "NVIDIA称Blackwell在MoE推理场景较Hopper快55倍，AI芯片竞争转向端到端效率",
+      "summary": "NVIDIA公布Blackwell架构在混合专家模型(MoE)推理场景下较上一代Hopper快55倍。NVIDIA强调AI芯片竞争已从单纯算力转向端到端效率，Blackwell的内存带宽和互联架构是关键优势。",
+      "source": "Serper/NVIDIA",
+      "published": "2026-04-22T05:00:00+08:00",
+      "url": "https://www.nvidia.com/blog/blackwell-moe-inference-55x-faster",
+      "tags": [
+        "AI芯片",
+        "NVIDIA",
+        "Blackwell",
+        "MoE推理"
+      ],
+      "insights": [
+        "MoE推理效率55倍提升意味着AI推理成本将大幅下降，加速AI应用落地",
+        "NVIDIA将资源从游戏显卡转向AI芯片，游戏显卡产能缩减40%"
+      ],
+      "actions": [
+        "评估Blackwell MoE推理效率对AI芯片采购策略的影响",
+        "关注NVIDIA游戏显卡缩减对GPU供应链的影响"
+      ],
+      "glossary": [
+        "Blackwell",
+        "MoE"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "2025年全球半导体硅片出货面积同比增5.8%，材料需求持续回暖",
+      "summary": "2025年全球半导体硅片出货面积同比增长5.8%，显示材料需求持续回暖。科创半导体ETF华夏近一周累计上涨4.93%，半导体板块整体走强。一季度中国集成电路产量同比大增24.3%。",
+      "source": "新浪财经/Exa",
+      "published": "2026-04-23T00:00:00+08:00",
+      "url": "https://finance.sina.com.cn/stock/fund/2026-04/23/global-silicon-wafer-shipments-up-5.8pct",
+      "tags": [
+        "材料",
+        "硅片",
+        "半导体ETF",
+        "产量增长"
+      ],
+      "insights": [
+        "硅片出货面积5.8%增长确认半导体材料需求回暖，行业进入新一轮上行周期",
+        "中国集成电路产量24.3%增长显示成熟制程产能持续释放"
+      ],
+      "actions": [
+        "评估硅片供应回暖对晶圆采购价格的影响",
+        "关注硅片供应商产能释放节奏，调整采购窗口"
+      ],
+      "glossary": [
+        "硅片出货面积",
+        "半导体ETF"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "SK Hynix Q1利润暴增406%创纪录，HBM需求远超供给",
+      "summary": "SK Hynix第一季度利润同比增长406%，创历史新高。HBM3E需求持续超越供给，公司计划加速扩产。SK Hynix表示HBM需求至少未来两年将持续超过供应能力。",
+      "source": "Yonhap/Exa",
+      "published": "2026-04-23T00:00:00+08:00",
+      "url": "https://en.yna.co.kr/view/AEN20260423001000315d",
+      "tags": [
+        "存储",
+        "SK Hynix",
         "HBM",
-        "GDDR7"
+        "AI存储"
+      ],
+      "insights": [
+        "SK Hynix 406%利润增长确认HBM供需缺口持续扩大，存储成为AI产业链最紧缺环节",
+        "HBM供给瓶颈将制约AI芯片出货量，可能延缓部分AI项目落地"
+      ],
+      "actions": [
+        "评估HBM供给瓶颈对AI芯片采购交付的影响",
+        "关注SK Hynix扩产进展，评估HBM替代方案（如GDDR7）"
+      ],
+      "glossary": [
+        "HBM3E",
+        "SK Hynix"
       ],
       "region": "overseas"
     }
-  ],
-  "keywords": []
+  ]
 }
