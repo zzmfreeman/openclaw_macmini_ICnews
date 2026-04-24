@@ -1,321 +1,304 @@
 {
-  "version": "v20260424-1300",
-  "generatedAt": "2026-04-24T13:08:00+08:00",
-  "period": "midday",
-  "commit": "9dfcf74",
+  "version": "v20260424-2011",
+  "generatedAt": "2026-04-24T20:11:00+08:00",
+  "period": "evening",
+  "commit": "",
   "glossary_list": [
     {
-      "term": "ABF载板",
-      "desc": "Ajinomoto Build-up Film载板，高密度互连封装基板，AI芯片先进封装关键材料",
+      "term": "14A工艺",
+      "desc": "Intel下一代先进制程节点，约1.4nm级别，对标TSMC A16",
+      "category": "设备"
+    },
+    {
+      "term": "NAND短缺",
+      "desc": "3D NAND闪存产能不足导致SSD价格持续上涨",
+      "category": "存储"
+    },
+    {
+      "term": "1.6T光模块",
+      "desc": "下一代数据中心光互连标准，传输速率1.6Tbps",
       "category": "封装"
     },
     {
-      "term": "晶圆级封装",
-      "desc": "Wafer-Level Packaging，在晶圆上直接完成封装工艺，大幅减小封装尺寸和成本",
-      "category": "封装"
-    },
-    {
-      "term": "硅光子",
-      "desc": "Silicon Photonics，利用硅基材料实现光信号传输与处理的集成技术，用于高速数据互联",
-      "category": "封装"
-    },
-    {
-      "term": "等离子调制",
-      "desc": "Plasmonic Modulation，利用表面等离子体效应实现超高速低功耗光信号调制",
-      "category": "封装"
-    },
-    {
-      "term": "tape-out",
-      "desc": "芯片设计完成并交付制造的过程，标志着从设计到量产的关键里程碑",
+      "term": "超级周期",
+      "desc": "半导体市场长期高景气周期，当前由AI需求驱动",
       "category": "商业"
     },
     {
-      "term": "量价齐升",
-      "desc": "销量和价格同步上升的产业周期阶段，通常出现在供需从过剩转向紧张时",
-      "category": "商业"
+      "term": "TeraFab",
+      "desc": "Tesla自建芯片制造设施，计划采用Intel 14A工艺",
+      "category": "设备"
+    },
+    {
+      "term": "中段制造",
+      "desc": "晶圆制造与封装测试之间的中间工序环节",
+      "category": "封装"
     }
   ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
-      "heat": "↑↑升温",
-      "reddit_top": "数据不可用（Reddit API余额耗尽）",
+      "heat": "→平稳",
+      "reddit_top": null,
       "hn_top": null,
-      "summary": "大摩VIP洞察指出ABF载板和HBM成为AI芯片核心瓶颈，SK Hynix加码封装投资，社区讨论聚焦封装路线博弈"
+      "summary": "社区关注度平稳，先进封装产能扩张仍是讨论焦点。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↑↑升温",
-      "reddit_top": "数据不可用",
+      "reddit_top": null,
       "hn_top": null,
-      "summary": "SK Hynix P&T7 Fab动工，HBM供应紧张持续至2027，社区关注HBM超级周期持续性辩论"
+      "summary": "SK海力士利润不及预期引发HBM超级周期可持续性讨论，三星工会事件加剧供应担忧。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "→平稳",
-      "reddit_top": "数据不可用",
+      "reddit_top": null,
       "hn_top": null,
-      "summary": "矽芯微8寸晶圆快速投产，盛合晶微科创板上市，国内Fab产能建设稳步推进"
+      "summary": "中芯国际产能扩张持续推进，中段制造与先进封装讨论热度维持。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
-      "reddit_top": "数据不可用",
+      "reddit_top": null,
       "hn_top": null,
-      "summary": "国内EDA/IP近期无重大突破性新闻，行业处于稳步发展期"
+      "summary": "联讯仪器上市国产测试仪器突破，AI辅助芯片设计引发关注。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↑↑升温",
-      "reddit_top": "数据不可用",
+      "reddit_top": null,
       "hn_top": null,
-      "summary": "盛合晶微晶圆级封装上市引发资本市场关注，联讯仪器测试设备IPO暴涨800%，OSAT赛道热度显著上升"
+      "summary": "封测产能紧缺与涨价讨论升温，中芯长电先进封装独角兽成为焦点。"
     },
     {
       "topic": "出口管制/制裁",
-      "heat": "→平稳",
-      "reddit_top": "数据不可用",
+      "heat": "↑↑升温",
+      "reddit_top": null,
       "hn_top": null,
-      "summary": "本周无新制裁政策出台，社区讨论平稳"
+      "summary": "Nvidia H200未能进入中国引发出口管制与国产替代加速讨论。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↑↑升温",
-      "reddit_top": "数据不可用",
+      "reddit_top": null,
       "hn_top": null,
-      "summary": "大摩指出ABF载板和HBM制约AI芯片量产，Bolt GPU以成本效率切入挑战NVIDIA定价权"
+      "summary": "Intel 14A赢得Tesla代工订单、Tesla收购AI硬件公司等事件推升热度。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "→平稳",
-      "reddit_top": "数据不可用",
+      "reddit_top": null,
       "hn_top": null,
-      "summary": "九峰山论坛展示化合物半导体产业活跃度，国产设备材料发展稳步推进"
+      "summary": "联讯仪器上市国产化突破、莱普科技打破激光热处理垄断等讨论维持关注。"
     }
   ],
   "items": [
     {
-      "title": "大摩VIP洞察：AI芯片2027年前制约在ABF载板与HBM，先进封装路线成供应链核心博弈",
-      "url": "https://finance.sina.cn/stock/jdts/2026-04-24/detail-inhvqfhn3275695.d.html?vt=4&cid=76993&node_id=76993",
-      "published": "2026-04-24T07:00:00+08:00",
-      "source": "新浪财经 / Serper",
-      "summary": "摩根士丹利VIP洞察指出，AI芯片面积持续扩大、制程逼近物理极限，先进封装路线已成为全球半导体供应链最核心的技术博弈焦点。ABF载板与HBM供应瓶颈将在2027年前持续制约AI芯片量产节奏。",
+      "title": "三星工会大规模集会导致代工产出骤降58%，管理层与工会博弈升级",
+      "summary": "三星电子工会组织大规模集会，单日导致代工产出骤降58%，管理层与工会陷入僵持局面，可能影响全球半导体供应链稳定性。",
+      "source": "Wccftech",
+      "published": "2026-04-24T18:10:00+08:00",
+      "url": "https://wccftech.com/samsung-braces-for-unprecedented-chaos-after-union-rally-knocks-out-58-of-foundry-output-in-a-single-day/",
       "tags": [
-        "先进封装",
-        "ABF载板",
-        "HBM",
-        "供应链瓶颈"
+        "Samsung",
+        "Foundry",
+        "工会",
+        "产能"
       ],
       "insights": [
-        "ABF载板与HBM产能瓶颈正取代制程成为AI芯片量产的核心制约因素",
-        "不同封装方案的选择直接决定下一代AI芯片量产路径和成本结构",
-        "先进封装路线博弈加剧，CoWoS vs 其他方案的竞争格局影响OSAT供应商选择"
+        "三星代工产出骤降预示全球Foundry供应短期波动，客户需评估备选代工方案",
+        "工会与管理层博弈升级可能持续影响Samsung先进制程量产节奏"
       ],
       "actions": [
-        "评估ABF载板供应商备选方案，关注日月光/Kinsus产能规划",
-        "跟踪HBM供应分配动态，确认重点客户优先级对采购的影响",
-        "关注先进封装技术路线分化趋势，调整封测供应商优先级"
+        "评估三星代工项目交付风险，准备TSMC/中芯国际等备选方案",
+        "关注三星工会谈判进展，预判对客户交付周期的影响窗口"
       ],
       "glossary": [
-        "ABF载板",
-        "VIP洞察"
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "SK Hynix在清州动工建设P&T7先进封装Fab，晶圆级封装预计2028量产",
-      "url": "https://www.trendforce.com/news/2026/04/22/news-sk-hynix-breaks-ground-on-pt7-advanced-packaging-fab-in-cheongju-wafer-level-packaging-set-for-2028-ramp/",
-      "published": "2026-04-22T00:00:00+08:00",
-      "source": "TrendForce / Exa",
-      "summary": "SK Hynix在清州动工建设P&T7先进封装工厂，预计2028年启动晶圆级封装量产。这是继M15X Fab后又一重大产能投资，旨在强化HBM封装能力。",
-      "tags": [
-        "SK Hynix",
-        "先进封装",
-        "HBM",
-        "P&T7 Fab"
-      ],
-      "insights": [
-        "SK Hynix持续加码封装产能投资，显示HBM需求远超现有供应能力",
-        "晶圆级封装量产时间定于2028，意味着2026-2027年HBM供应仍然紧张",
-        "韩国在先进封装领域的投资力度显著领先，加速OSAT格局重塑"
-      ],
-      "actions": [
-        "跟踪SK Hynix封装产能时间线，评估HBM供应缓解节点",
-        "关注韩国先进封装投资对日月光等OSAT格局的影响",
-        "与HBM供应商确认2026-2027年供应分配计划"
-      ],
-      "glossary": [
-        "P&T7 Fab",
-        "晶圆级封装"
+        "代工产出",
+        "工会博弈"
       ],
       "region": "overseas"
     },
     {
-      "title": "盛合晶微成功登陆科创板——今年科创板最大IPO，晶圆级先进封装第一股",
-      "url": "https://m.thepaper.cn/newsDetail_forward_33035863",
-      "published": "2026-04-21T09:00:00+08:00",
-      "source": "澎湃新闻 / Serper",
-      "summary": "盛合晶微半导体有限公司在上海证券交易所科创板挂牌上市，股票代码688820，发行价19.68元/股。这是今年科创板最大IPO，也是A股晶圆级先进封装第一股。",
+      "title": "Intel 14A工艺赢得Tesla代工订单，CEO确认多客户18AP/14A合作",
+      "summary": "Intel正式宣布14A节点已赢得Tesla代工订单，CEO确认18AP和14A节点正推进多个客户合作，Foundry业务迎来转机。",
+      "source": "Wccftech",
+      "published": "2026-04-24T14:35:00+08:00",
+      "url": "https://wccftech.com/intel-14a-wins-tesla-major-customers-foundry-business-gamble-pays-off/",
       "tags": [
-        "盛合晶微",
-        "科创板IPO",
-        "先进封装",
-        "晶圆级封装"
+        "Intel",
+        "14A",
+        "Tesla",
+        "Foundry"
       ],
       "insights": [
-        "晶圆级先进封装第一股登陆资本市场，反映国内封装产业获得投资市场高度认可",
-        "科创板最大IPO规模说明先进封装赛道已成为资本关注焦点",
-        "盛合晶微上市将加速国内先进封装产能扩张，对OSAT格局有深远影响"
+        "Tesla选择14A验证Intel先进制程竞争力回升，代工格局从TSMC一家独大走向多元",
+        "Intel Foundry获得头部客户背书有助于吸引更多fabless设计公司评估合作"
       ],
       "actions": [
-        "关注盛合晶微上市后产能扩张计划及客户结构变化",
-        "评估盛合晶微与现有封测供应商的竞争合作关系",
-        "跟踪国内先进封装产业链投资机会"
+        "评估Intel 14A/18AP工艺参数与交付节奏，作为备选代工资源纳入考量",
+        "关注Tesla TeraFab项目进展，判断其自建产线对代工市场的影响"
       ],
       "glossary": [
-        "晶圆级先进封装",
-        "科创板"
+        "14A工艺",
+        "TeraFab"
       ],
-      "region": "domestic"
+      "region": "overseas"
     },
     {
-      "title": "联讯仪器科创板上市首日暴涨800%，光通信1.6T测试能力跻身全球前列",
-      "url": "http://stock.stockstar.com/IG2026042400032539.shtml",
-      "published": "2026-04-24T09:30:00+08:00",
-      "source": "证券之星 / Serper",
-      "summary": "联讯仪器（688808.SH）科创板上市首日开盘大涨800%，报736.92元/股，刷新A股上市首日最贵开盘价。公司光通信测试能力覆盖1.6T，跻身全球前列。",
+      "title": "联讯仪器登陆科创板：高端测试仪器国产化，1.6T光模块测试全球第二",
+      "summary": "联讯仪器成功登陆科创板(688808.SH)，是国内极少数覆盖光通信模块、芯片、晶圆全产业链测试的企业，全球第二家能量产1.6T光模块全套测试方案。",
+      "source": "Serper-CN",
+      "published": "2026-04-24T14:00:00+08:00",
+      "url": "https://m.sohu.com/a/1013966773_121361416",
       "tags": [
         "联讯仪器",
-        "光通信测试",
-        "科创板IPO",
-        "1.6T"
+        "测试仪器",
+        "国产化",
+        "1.6T光模块",
+        "EDA"
       ],
       "insights": [
-        "光通信测试设备国产化突破1.6T速率级别，测试能力迭代速度必须领先产业需求",
-        "上市首日800%涨幅反映市场对国产测试设备稀缺性的高度认可",
-        "产业速率迭代周期从5年压缩至2年，测试仪表需更快速迭代"
+        "1.6T光模块测试方案国产化打破国外垄断，6G与算力产业链测试能力自主可控",
+        "联讯仪器上市为国产高端测试仪器企业融资发展提供标杆案例"
       ],
       "actions": [
-        "评估联讯仪器测试设备在光通信/半导体测试领域的替代可行性",
-        "关注光通信速率迭代对测试设备需求的影响",
-        "跟踪国产测试设备产业链的上市及融资动态"
+        "评估联讯仪器测试方案替代Keysight/泰克等进口设备的可行性与成本优势",
+        "关注1.6T光模块测试需求增长，布局国产测试设备采购策略"
       ],
       "glossary": [
-        "1.6T光通信",
-        "测试仪表"
+        "1.6T光模块",
+        "全产业链测试"
       ],
       "region": "domestic"
     },
     {
-      "title": "Marvell收购Polariton Technologies，强化硅光子技术布局",
-      "url": "https://www.electronicsweekly.com/news/business/marvell-buys-polariton-2026-04/",
-      "published": "2026-04-23T06:51:50+08:00",
-      "source": "Electronics Weekly / RSS",
-      "summary": "Marvell收购Polariton Technologies，一家开发高速低功耗等离子硅光子器件的公司。此收购强化Marvell光互连技术组合，增加先进调制能力以支持持续扩展。",
+      "title": "江阴中芯长电半导体：先进封装独角兽年入65亿，跻身全球前十",
+      "summary": "江阴中芯长电半导体作为中国大陆12英寸中段制造填补者，先进封装年营收达65亿元，跻身全球封测前十。",
+      "source": "Serper-CN",
+      "published": "2026-04-24T18:00:00+08:00",
+      "url": "https://m.sohu.com/a/1014101016_121948396",
       "tags": [
-        "Marvell",
-        "Polariton",
-        "硅光子",
-        "并购",
-        "光互连"
+        "中芯长电",
+        "先进封装",
+        "12英寸中段",
+        "封测"
       ],
       "insights": [
-        "硅光子技术成为数据中心互联的关键技术路径，Marvell布局抢占先机",
-        "等离子调制技术可实现超低功耗高速信号传输，对AI训练集群互联意义重大",
-        "半导体行业并购加速向光互连方向倾斜，传统电互连面临瓶颈"
+        "中芯长电先进封装营收跻身全球前十，证明国产封测在先进封装赛道具备竞争力",
+        "12英寸中段制造填补国内空白，为fabless设计公司提供完整的制造+封装一站式服务"
       ],
       "actions": [
-        "关注硅光子技术对芯片封装和互联方案的影响",
-        "评估Marvell硅光子产品对现有互联方案的替代可能性",
-        "跟踪硅光子产业链并购动态，识别技术路线变化"
+        "评估中芯长电先进封装能力，纳入封测供应商备选池",
+        "关注中段制造+封装一体化服务的成本与交期优势"
       ],
       "glossary": [
-        "硅光子",
-        "等离子调制"
+        "中段制造",
+        "先进封装"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "海外CPU持续缺货涨价，国产替代产业链全面受益加速成长",
+      "summary": "海外Intel、AMD两大主流CPU厂商持续缺货并开启多轮提价，行业供需偏紧，国产替代加速受益。",
+      "source": "Serper-CN",
+      "published": "2026-04-24T08:00:00+08:00",
+      "url": "https://caifuhao.eastmoney.com/news/20260423235446781129840",
+      "tags": [
+        "CPU涨价",
+        "Intel",
+        "AMD",
+        "国产替代"
+      ],
+      "insights": [
+        "海外CPU涨价为国产fabless设计公司提供量价齐升窗口期",
+        "供需偏紧格局下，国产CPU供应商优先级需重新评估"
+      ],
+      "actions": [
+        "评估国产CPU替代方案的性能与可靠性，制定渐进替代采购计划",
+        "跟踪Intel/AMD涨价幅度与交付周期变化，预判国产替代加速节奏"
+      ],
+      "glossary": [
+        "缺货涨价",
+        "国产替代"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "SK海力士利润激增5倍仍不及预期，AI存储超级周期可持续性受质疑",
+      "summary": "SK海力士季度利润激增5倍但仍未达到市场预期，投资者质疑AI存储芯片需求的超级周期可持续性。",
+      "source": "Financial Post",
+      "published": "2026-04-24T08:00:00+08:00",
+      "url": "https://financialpost.com/pmn/business-pmn/sk-hynixs-profit-surge-falls-short-as-supercycle-debate-rages",
+      "tags": [
+        "SK海力士",
+        "HBM",
+        "AI存储",
+        "超级周期"
+      ],
+      "insights": [
+        "HBM需求虽强劲但市场预期过高，存储超级周期拐点信号需密切关注",
+        "投资者质疑AI存储可持续性可能引发HBM扩产节奏调整"
+      ],
+      "actions": [
+        "跟踪HBM供需指标，预判价格拐点以优化采购时机",
+        "评估HBM供应商优先级，关注SK海力士扩产进展及三星/美光追赶节奏"
+      ],
+      "glossary": [
+        "超级周期",
+        "HBM"
       ],
       "region": "overseas"
     },
     {
-      "title": "武汉芯源半导体官宣MCU全面涨价，国产MCU供应链进入量价齐升阶段",
-      "url": "https://www.c114.net.cn/industry/78202.html",
-      "published": "2026-04-24T06:00:00+08:00",
-      "source": "光通信Pro / Serper",
-      "summary": "武汉芯源半导体发布涨价函，MCU产品全面涨价。同期Intel/AMD持续缺货并开启多轮提价，海外芯片涨价交付周期拉长的背景下，国产MCU进入量价齐升阶段。",
+      "title": "三星和金士顿再次涨价10%，1TB SSD突破330美元，NAND短缺加剧",
+      "summary": "三星和金士顿再次上调所有SSD产品价格约10%，1TB SSD价格突破330美元，NAND闪存短缺持续加剧。",
+      "source": "Wccftech",
+      "published": "2026-04-24T08:00:00+08:00",
+      "url": "https://wccftech.com/samsung-and-kingston-hike-ssd-prices-by-10-again-pushing-1tb-drives-past-330-as-nand-shortage-deepens/",
       "tags": [
-        "MCU涨价",
-        "武汉芯源",
-        "国产替代",
-        "供需紧张"
+        "NAND",
+        "SSD涨价",
+        "三星",
+        "存储短缺"
       ],
       "insights": [
-        "海外CPU持续缺货涨价传导至MCU领域，国产替代窗口加速打开",
-        "国产MCU涨价说明供需格局已从过剩转向紧张，行业进入量价齐升周期",
-        "MCU涨价潮可能传导至下游整机厂商，影响终端产品成本"
+        "NAND短缺持续加剧将推升存储成本，数据中心和终端厂商面临成本压力",
+        "连续涨价预示存储供应链从供需平衡转向持续短缺，采购策略需转向锁量锁价"
       ],
       "actions": [
-        "评估MCU涨价对采购成本的影响，考虑提前备货",
-        "关注国产MCU替代方案的技术指标和供货稳定性",
-        "跟踪海外CPU涨价传导效应，预判下一波涨价品类"
+        "评估存储产品采购策略，考虑提前锁量锁价以应对持续涨价",
+        "跟踪NAND扩产节奏，预判短缺缓解时间窗口"
       ],
       "glossary": [
-        "MCU",
-        "量价齐升"
+        "NAND短缺",
+        "SSD涨价"
       ],
-      "region": "domestic"
+      "region": "overseas"
     },
     {
-      "title": "TI第一季度营收$4.8B同比增19%，指引Q2营收$3.45B持续复苏",
-      "url": "https://www.marketbeat.com/instant-alerts/texas-instruments-q1-earnings-call-highlights-2026-04-23/",
-      "published": "2026-04-23T06:00:00+08:00",
-      "source": "MarketBeat / Serper",
-      "summary": "Texas Instruments Q1 2026营收48亿美元，环比增9%同比增19%。Q2指引营收34.5亿美元，毛利率持续回升。公司指出终端市场需求广泛复苏。",
+      "title": "Intel Q1营收$136亿同比增7%，亏损收窄指引Q2营收$138-148亿",
+      "summary": "Intel 2026 Q1营收同比增长7%至136亿美元，季度亏损37亿美元但收窄，Q2营收指引138-148亿美元。",
+      "source": "ElectronicsWeekly",
+      "published": "2026-04-24T13:30:00+08:00",
+      "url": "https://www.electronicsweekly.com/news/business/upbeat-q1-for-intel-2026-04/",
       "tags": [
-        "Texas Instruments",
+        "Intel",
         "Q1财报",
-        "模拟芯片",
-        "需求复苏"
+        "Foundry"
       ],
       "insights": [
-        "TI营收同比增19%确认模拟芯片需求从底部全面复苏",
-        "Q2指引持续增长说明库存调整周期已结束，终端需求真实回暖",
-        "TI的广泛终端市场复苏信号对整个半导体供应链具有前瞻指示意义"
+        "Intel营收恢复增长与亏损收窄为Foundry业务投入提供更多资金空间",
+        "Q2指引偏乐观预示客户需求回暖，代工订单量可能回升"
       ],
       "actions": [
-        "确认TI关键产品线供货情况和交期变化",
-        "评估TI需求复苏对同品类国产替代节奏的影响",
-        "关注模拟芯片供需格局变化对采购策略的调整需求"
+        "关注Intel Foundry业务拆分后的独立财务指标，评估代工合作可行性",
+        "对比Intel与TSMC代工报价与产能分配，制定代工策略"
       ],
       "glossary": [
-        "模拟芯片",
-        "库存调整周期"
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "Bolt GPU Zeus芯片tape-out：目标将HPC计算成本降低17倍",
-      "url": "https://www.electronicsweekly.com/news/business/bolt-gpu-to-cut-compute-cost-17x-2026-04/",
-      "published": "2026-04-23T05:21:30+08:00",
-      "source": "Electronics Weekly / RSS",
-      "summary": "Bolt Graphics完成Zeus GPU测试芯片tape-out，目标是将HPC和渲染工作负载计算成本降低17倍。量产计划持续推进。",
-      "tags": [
-        "Bolt GPU",
-        "Zeus",
-        "HPC",
-        "GPU替代"
-      ],
-      "insights": [
-        "新兴GPU厂商Bolt以成本效率差异化切入HPC市场，挑战NVIDIA定价权",
-        "17倍成本降低目标若实现，将重塑HPC/渲染领域的GPU采购逻辑",
-        "非NVIDIA GPU生态正在快速发育，为采购方提供更多议价空间"
-      ],
-      "actions": [
-        "跟踪Bolt Zeus量产进度和实际性能/成本指标",
-        "评估非NVIDIA GPU方案在HPC场景的可行性",
-        "关注GPU供应商多元化对议价策略的支撑"
-      ],
-      "glossary": [
-        "tape-out",
-        "HPC"
+        "营收指引",
+        "亏损收窄"
       ],
       "region": "overseas"
     }
