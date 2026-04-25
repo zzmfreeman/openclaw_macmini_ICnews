@@ -1,306 +1,92 @@
 {
-  "version": "v20260424-2011",
-  "generatedAt": "2026-04-24T20:11:00+08:00",
+  "version": "v20260425-2000",
+  "generatedAt": "2026-04-25T20:06:12+08:00",
   "period": "evening",
-  "commit": "64b001b",
+  "commit": "",
   "glossary_list": [
     {
-      "term": "14A工艺",
-      "desc": "Intel下一代先进制程节点，约1.4nm级别，对标TSMC A16",
-      "category": "设备"
-    },
-    {
-      "term": "NAND短缺",
-      "desc": "3D NAND闪存产能不足导致SSD价格持续上涨",
+      "term": "DRAM 10nm",
+      "desc": "动态随机存取存储器的10纳米以下制程，代表存储芯片制造精度的重大突破",
       "category": "存储"
     },
     {
-      "term": "1.6T光模块",
-      "desc": "下一代数据中心光互连标准，传输速率1.6Tbps",
-      "category": "封装"
-    },
-    {
-      "term": "超级周期",
-      "desc": "半导体市场长期高景气周期，当前由AI需求驱动",
-      "category": "商业"
-    },
-    {
-      "term": "TeraFab",
-      "desc": "Tesla自建芯片制造设施，计划采用Intel 14A工艺",
+      "term": "国产设备占比",
+      "desc": "晶圆产线中国产半导体设备的使用比例，超过50%标志着国产替代从量变到质变",
       "category": "设备"
     },
     {
-      "term": "中段制造",
-      "desc": "晶圆制造与封装测试之间的中间工序环节",
+      "term": "AI CPU",
+      "desc": "为AI计算任务优化的中央处理器，AI推理和混合计算场景下CPU需求重新上升",
+      "category": "商业"
+    },
+    {
+      "term": "CoWoS",
+      "desc": "TSMC晶圆级封装技术，AI芯片核心封装方案",
       "category": "封装"
+    },
+    {
+      "term": "北方华创",
+      "desc": "中国半导体设备龙头，覆盖刻蚀、薄膜沉积、清洗等多类前道设备",
+      "category": "设备"
     }
   ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "社区关注度平稳，先进封装产能扩张仍是讨论焦点。"
+      "reddit_top": "null (ScrapeCreators额度耗尽)",
+      "hn_top": "null",
+      "summary": "CoWoS产能扩张稳步推进，TSMC与OSAT格局相对稳定，社区关注度维持常态。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↑↑升温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "SK海力士利润不及预期引发HBM超级周期可持续性讨论，三星工会事件加剧供应担忧。"
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "三星DRAM 10nm突破引发HBM竞争格局讨论升温，SK海力士技术领先地位面临新挑战。"
     },
     {
       "topic": "中国Fab/先进制程",
-      "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "中芯国际产能扩张持续推进，中段制造与先进封装讨论热度维持。"
+      "heat": "↑↑升温",
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "长江存储国产设备占比首超50%成为热议焦点，国产替代进入新阶段。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "联讯仪器上市国产测试仪器突破，AI辅助芯片设计引发关注。"
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "国产EDA话题热度平稳，华大九天等厂商持续稳步推进，无突发重大事件。"
     },
     {
       "topic": "封测OSAT",
-      "heat": "↑↑升温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "封测产能紧缺与涨价讨论升温，中芯长电先进封装独角兽成为焦点。"
+      "heat": "→平稳",
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "盛合晶微市值超长电科技引发市场关注，但OSAT整体格局变化不大。"
     },
     {
       "topic": "出口管制/制裁",
-      "heat": "↑↑升温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "Nvidia H200未能进入中国引发出口管制与国产替代加速讨论。"
+      "heat": "→平稳",
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "本周出口管制话题无明显升温，政策面暂无新规发布。"
     },
     {
       "topic": "AI芯片/NVIDIA",
-      "heat": "↑↑升温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "Intel 14A赢得Tesla代工订单、Tesla收购AI硬件公司等事件推升热度。"
+      "heat": "→平稳",
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "Intel财报超预期引发AI CPU讨论，但NVIDIA本周无重大新闻，热度平稳。"
     },
     {
       "topic": "设备/材料国产化",
-      "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "联讯仪器上市国产化突破、莱普科技打破激光热处理垄断等讨论维持关注。"
+      "heat": "↑↑升温",
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "长江存储国产设备突破+光刻胶批量供货等消息叠加，设备国产化话题显著升温。"
     }
   ],
-  "items": [
-    {
-      "title": "三星工会大规模集会导致代工产出骤降58%，管理层与工会博弈升级",
-      "summary": "三星电子工会组织大规模集会，单日导致代工产出骤降58%，管理层与工会陷入僵持局面，可能影响全球半导体供应链稳定性。",
-      "source": "Wccftech",
-      "published": "2026-04-24T18:10:00+08:00",
-      "url": "https://wccftech.com/samsung-braces-for-unprecedented-chaos-after-union-rally-knocks-out-58-of-foundry-output-in-a-single-day/",
-      "tags": [
-        "Samsung",
-        "Foundry",
-        "工会",
-        "产能"
-      ],
-      "insights": [
-        "三星代工产出骤降预示全球Foundry供应短期波动，客户需评估备选代工方案",
-        "工会与管理层博弈升级可能持续影响Samsung先进制程量产节奏"
-      ],
-      "actions": [
-        "评估三星代工项目交付风险，准备TSMC/中芯国际等备选方案",
-        "关注三星工会谈判进展，预判对客户交付周期的影响窗口"
-      ],
-      "glossary": [
-        "代工产出",
-        "工会博弈"
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "Intel 14A工艺赢得Tesla代工订单，CEO确认多客户18AP/14A合作",
-      "summary": "Intel正式宣布14A节点已赢得Tesla代工订单，CEO确认18AP和14A节点正推进多个客户合作，Foundry业务迎来转机。",
-      "source": "Wccftech",
-      "published": "2026-04-24T14:35:00+08:00",
-      "url": "https://wccftech.com/intel-14a-wins-tesla-major-customers-foundry-business-gamble-pays-off/",
-      "tags": [
-        "Intel",
-        "14A",
-        "Tesla",
-        "Foundry"
-      ],
-      "insights": [
-        "Tesla选择14A验证Intel先进制程竞争力回升，代工格局从TSMC一家独大走向多元",
-        "Intel Foundry获得头部客户背书有助于吸引更多fabless设计公司评估合作"
-      ],
-      "actions": [
-        "评估Intel 14A/18AP工艺参数与交付节奏，作为备选代工资源纳入考量",
-        "关注Tesla TeraFab项目进展，判断其自建产线对代工市场的影响"
-      ],
-      "glossary": [
-        "14A工艺",
-        "TeraFab"
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "联讯仪器登陆科创板：高端测试仪器国产化，1.6T光模块测试全球第二",
-      "summary": "联讯仪器成功登陆科创板(688808.SH)，是国内极少数覆盖光通信模块、芯片、晶圆全产业链测试的企业，全球第二家能量产1.6T光模块全套测试方案。",
-      "source": "Serper-CN",
-      "published": "2026-04-24T14:00:00+08:00",
-      "url": "https://m.sohu.com/a/1013966773_121361416",
-      "tags": [
-        "联讯仪器",
-        "测试仪器",
-        "国产化",
-        "1.6T光模块",
-        "EDA"
-      ],
-      "insights": [
-        "1.6T光模块测试方案国产化打破国外垄断，6G与算力产业链测试能力自主可控",
-        "联讯仪器上市为国产高端测试仪器企业融资发展提供标杆案例"
-      ],
-      "actions": [
-        "评估联讯仪器测试方案替代Keysight/泰克等进口设备的可行性与成本优势",
-        "关注1.6T光模块测试需求增长，布局国产测试设备采购策略"
-      ],
-      "glossary": [
-        "1.6T光模块",
-        "全产业链测试"
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "江阴中芯长电半导体：先进封装独角兽年入65亿，跻身全球前十",
-      "summary": "江阴中芯长电半导体作为中国大陆12英寸中段制造填补者，先进封装年营收达65亿元，跻身全球封测前十。",
-      "source": "Serper-CN",
-      "published": "2026-04-24T18:00:00+08:00",
-      "url": "https://m.sohu.com/a/1014101016_121948396",
-      "tags": [
-        "中芯长电",
-        "先进封装",
-        "12英寸中段",
-        "封测"
-      ],
-      "insights": [
-        "中芯长电先进封装营收跻身全球前十，证明国产封测在先进封装赛道具备竞争力",
-        "12英寸中段制造填补国内空白，为fabless设计公司提供完整的制造+封装一站式服务"
-      ],
-      "actions": [
-        "评估中芯长电先进封装能力，纳入封测供应商备选池",
-        "关注中段制造+封装一体化服务的成本与交期优势"
-      ],
-      "glossary": [
-        "中段制造",
-        "先进封装"
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "海外CPU持续缺货涨价，国产替代产业链全面受益加速成长",
-      "summary": "海外Intel、AMD两大主流CPU厂商持续缺货并开启多轮提价，行业供需偏紧，国产替代加速受益。",
-      "source": "Serper-CN",
-      "published": "2026-04-24T08:00:00+08:00",
-      "url": "https://caifuhao.eastmoney.com/news/20260423235446781129840",
-      "tags": [
-        "CPU涨价",
-        "Intel",
-        "AMD",
-        "国产替代"
-      ],
-      "insights": [
-        "海外CPU涨价为国产fabless设计公司提供量价齐升窗口期",
-        "供需偏紧格局下，国产CPU供应商优先级需重新评估"
-      ],
-      "actions": [
-        "评估国产CPU替代方案的性能与可靠性，制定渐进替代采购计划",
-        "跟踪Intel/AMD涨价幅度与交付周期变化，预判国产替代加速节奏"
-      ],
-      "glossary": [
-        "缺货涨价",
-        "国产替代"
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "SK海力士利润激增5倍仍不及预期，AI存储超级周期可持续性受质疑",
-      "summary": "SK海力士季度利润激增5倍但仍未达到市场预期，投资者质疑AI存储芯片需求的超级周期可持续性。",
-      "source": "Financial Post",
-      "published": "2026-04-24T08:00:00+08:00",
-      "url": "https://financialpost.com/pmn/business-pmn/sk-hynixs-profit-surge-falls-short-as-supercycle-debate-rages",
-      "tags": [
-        "SK海力士",
-        "HBM",
-        "AI存储",
-        "超级周期"
-      ],
-      "insights": [
-        "HBM需求虽强劲但市场预期过高，存储超级周期拐点信号需密切关注",
-        "投资者质疑AI存储可持续性可能引发HBM扩产节奏调整"
-      ],
-      "actions": [
-        "跟踪HBM供需指标，预判价格拐点以优化采购时机",
-        "评估HBM供应商优先级，关注SK海力士扩产进展及三星/美光追赶节奏"
-      ],
-      "glossary": [
-        "超级周期",
-        "HBM"
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "三星和金士顿再次涨价10%，1TB SSD突破330美元，NAND短缺加剧",
-      "summary": "三星和金士顿再次上调所有SSD产品价格约10%，1TB SSD价格突破330美元，NAND闪存短缺持续加剧。",
-      "source": "Wccftech",
-      "published": "2026-04-24T08:00:00+08:00",
-      "url": "https://wccftech.com/samsung-and-kingston-hike-ssd-prices-by-10-again-pushing-1tb-drives-past-330-as-nand-shortage-deepens/",
-      "tags": [
-        "NAND",
-        "SSD涨价",
-        "三星",
-        "存储短缺"
-      ],
-      "insights": [
-        "NAND短缺持续加剧将推升存储成本，数据中心和终端厂商面临成本压力",
-        "连续涨价预示存储供应链从供需平衡转向持续短缺，采购策略需转向锁量锁价"
-      ],
-      "actions": [
-        "评估存储产品采购策略，考虑提前锁量锁价以应对持续涨价",
-        "跟踪NAND扩产节奏，预判短缺缓解时间窗口"
-      ],
-      "glossary": [
-        "NAND短缺",
-        "SSD涨价"
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "Intel Q1营收$136亿同比增7%，亏损收窄指引Q2营收$138-148亿",
-      "summary": "Intel 2026 Q1营收同比增长7%至136亿美元，季度亏损37亿美元但收窄，Q2营收指引138-148亿美元。",
-      "source": "ElectronicsWeekly",
-      "published": "2026-04-24T13:30:00+08:00",
-      "url": "https://www.electronicsweekly.com/news/business/upbeat-q1-for-intel-2026-04/",
-      "tags": [
-        "Intel",
-        "Q1财报",
-        "Foundry"
-      ],
-      "insights": [
-        "Intel营收恢复增长与亏损收窄为Foundry业务投入提供更多资金空间",
-        "Q2指引偏乐观预示客户需求回暖，代工订单量可能回升"
-      ],
-      "actions": [
-        "关注Intel Foundry业务拆分后的独立财务指标，评估代工合作可行性",
-        "对比Intel与TSMC代工报价与产能分配，制定代工策略"
-      ],
-      "glossary": [
-        "营收指引",
-        "亏损收窄"
-      ],
-      "region": "overseas"
-    }
-  ]
+  "items": []
 }

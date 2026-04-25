@@ -1,37 +1,32 @@
 {
-  "version": "v20260425-1300",
-  "generatedAt": "2026-04-25T13:00:00+08:00",
-  "period": "midday",
+  "version": "v20260425-2000",
+  "generatedAt": "2026-04-25T20:06:12+08:00",
+  "period": "evening",
   "commit": "",
   "glossary_list": [
     {
-      "term": "高NA EUV",
-      "desc": "0.55数值孔径极紫外光刻机，ASML最新一代光刻设备，单台售价超3亿美元",
+      "term": "DRAM 10nm",
+      "desc": "动态随机存取存储器的10纳米以下制程，代表存储芯片制造精度的重大突破",
+      "category": "存储"
+    },
+    {
+      "term": "国产设备占比",
+      "desc": "晶圆产线中国产半导体设备的使用比例，超过50%标志着国产替代从量变到质变",
       "category": "设备"
     },
     {
-      "term": "OSAT",
-      "desc": "外包半导体封装测试服务，代表性企业包括日月光、长电科技等",
-      "category": "封装"
-    },
-    {
-      "term": "覆铜板(CCL)",
-      "desc": "印制电路板的核心基材，高频高速CCL是AI服务器和5G基站的关键材料",
-      "category": "材料"
-    },
-    {
-      "term": "SiC碳化硅",
-      "desc": "第三代半导体宽禁带材料，适用于高温高压功率器件，新能源汽车核心组件",
-      "category": "材料"
-    },
-    {
-      "term": "推理GPU",
-      "desc": "专为AI推理场景设计的GPU芯片，追求推理吞吐量和成本效率而非训练能力",
+      "term": "AI CPU",
+      "desc": "为AI计算任务优化的中央处理器，AI推理和混合计算场景下CPU需求重新上升",
       "category": "商业"
     },
     {
-      "term": "Intel 14A",
-      "desc": "Intel下一代先进制程节点，约1.4nm级别，已获外部客户合作意向",
+      "term": "CoWoS",
+      "desc": "TSMC晶圆级封装技术，AI芯片核心封装方案",
+      "category": "封装"
+    },
+    {
+      "term": "北方华创",
+      "desc": "中国半导体设备龙头，覆盖刻蚀、薄膜沉积、清洗等多类前道设备",
       "category": "设备"
     }
   ],
@@ -39,323 +34,59 @@
     {
       "topic": "CoWoS/先进封装",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "社区关注Intel先进封装进展和CoWoS产能分配，情绪偏乐观"
+      "reddit_top": "null (ScrapeCreators额度耗尽)",
+      "hn_top": "null",
+      "summary": "CoWoS产能扩张稳步推进，TSMC与OSAT格局相对稳定，社区关注度维持常态。"
     },
     {
       "topic": "HBM/AI存储",
-      "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "HBM产能扩张讨论活跃，SK Hynix产能领先引发热议"
+      "heat": "↑↑升温",
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "三星DRAM 10nm突破引发HBM竞争格局讨论升温，SK海力士技术领先地位面临新挑战。"
     },
     {
       "topic": "中国Fab/先进制程",
-      "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "SMIC进展讨论热度平稳，关注出口管制下制程突破"
+      "heat": "↑↑升温",
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "长江存储国产设备占比首超50%成为热议焦点，国产替代进入新阶段。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "国产EDA替代讨论较少，产业关注度偏低"
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "国产EDA话题热度平稳，华大九天等厂商持续稳步推进，无突发重大事件。"
     },
     {
       "topic": "封测OSAT",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "封测产能紧张话题引发讨论，关注ASE和长电科技年报"
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "盛合晶微市值超长电科技引发市场关注，但OSAT整体格局变化不大。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "制裁话题热度稳定，关注美国最新管制清单影响"
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "本周出口管制话题无明显升温，政策面暂无新规发布。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "NVIDIA Blackwell架构讨论火热，Intel复苏成为对比话题"
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "Intel财报超预期引发AI CPU讨论，但NVIDIA本周无重大新闻，热度平稳。"
     },
     {
       "topic": "设备/材料国产化",
-      "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "国产设备替代讨论较冷，NAURA和AMEC关注度偏低"
+      "heat": "↑↑升温",
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "长江存储国产设备突破+光刻胶批量供货等消息叠加，设备国产化话题显著升温。"
     }
   ],
-  "items": [
-    {
-      "title": "Intel Q1财报远超预期，股价飙升20%，AI驱动复苏信号明确",
-      "summary": "Intel 2026年Q1财报大幅超出华尔街预期，股价暴涨20%。AI相关业务成为关键增长动力，芯片制造商展现出明确的复苏迹象，产线利用率和订单量均有改善。",
-      "source": "SiliconAngle",
-      "published": "2026-04-24T00:18:00Z",
-      "url": "https://siliconangle.com/2026/04/23/intel-crushes-wall-streets-expectations-stock-surges-20-revival-gains-pace/",
-      "tags": [
-        "Intel",
-        "财报",
-        "AI芯片",
-        "Foundry"
-      ],
-      "insights": [
-        "Intel Foundry业务拐点出现，AI驱动的复苏可能重塑代工竞争格局",
-        "Intel 14A制程获Elon Musk合作意向，先进制程客户拓展加速"
-      ],
-      "actions": [
-        "关注Intel Foundry订单恢复情况，评估是否作为备选代工供应商纳入评估",
-        "跟踪Intel先进封装产能扩张节奏，判断对OSAT竞争的影响"
-      ],
-      "glossary": [
-        {
-          "term": "Intel 14A",
-          "desc": "Intel下一代先进制程节点，1.4nm级别"
-        },
-        {
-          "term": "Foundry",
-          "desc": "晶圆代工服务模式"
-        }
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "台积电发布A12与A13先进逻辑制程，预告2029年量产，未采用ASML最新光刻机",
-      "summary": "台积电在2026北美技术论坛上公布A12和A13两大先进制程节点，预计2029年量产。值得注意的是台积电未采用ASML最新高NA EUV光刻机，选择在现有EUV工具基础上继续推进制程演进。",
-      "source": "NOWnews",
-      "published": "2026-04-23T00:00:00.000Z",
-      "url": "https://www.nownews.com/news/6810271",
-      "tags": [
-        "台积电",
-        "先进制程",
-        "EUV",
-        "A12",
-        "A13"
-      ],
-      "insights": [
-        "台积电绕过高NA EUV推进制程，意味着设备投资门槛可控，量产节奏更稳定",
-        "A12/A13节点2029量产时间表锁定，对2nm以下制程竞争格局产生深远影响"
-      ],
-      "actions": [
-        "评估A12/A13节点对自身产品路线图的影响，提前规划流片时间窗口",
-        "关注ASML高NA EUV采用策略变化，判断设备采购时机"
-      ],
-      "glossary": [
-        {
-          "term": "高NA EUV",
-          "desc": "0.55数值孔径极紫外光刻机，ASML最新一代设备"
-        },
-        {
-          "term": "A12/A13",
-          "desc": "台积电1.2nm/1.3nm级别先进制程代号"
-        }
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "封测四大巨头年报出炉：通富微电、长电科技、华天科技、晶方科技后市预期对比",
-      "summary": "国内封测行业四大上市公司年报集中发布，通富微电、长电科技、华天科技、晶方科技业绩各有亮点。先进封装需求持续旺盛，传统封测产能利用率回升，市场对后市预期分化。",
-      "source": "东方财富",
-      "published": "20小时前",
-      "url": "https://caifuhao.eastmoney.com/news/20260424165341581113160?from=guba&name=5Yip5bCU6L6%2B5ZCn&gubaurl=aHR0cHM6Ly9ndWJhLmVhc3Rtb25leS5jb20vbGlzdCw5MjAyNDkuaHRtbA%3D%3D",
-      "tags": [
-        "封测",
-        "OSAT",
-        "年报",
-        "通富微电",
-        "长电科技"
-      ],
-      "insights": [
-        "先进封装产能紧张持续，OSAT龙头业绩分化反映封装技术升级竞赛加速",
-        "长电科技在先进封装领域优势明显，通富微电国际客户绑定策略见效"
-      ],
-      "actions": [
-        "对比四家OSAT财报中的先进封装产能规划和毛利率变化，调整供应商优先级",
-        "关注封装涨价信号，评估是否需要提前锁定长协订单"
-      ],
-      "glossary": [
-        {
-          "term": "OSAT",
-          "desc": "外包半导体封装测试厂商"
-        },
-        {
-          "term": "先进封装",
-          "desc": "包括CoWoS、Chiplet等高密度封装技术"
-        }
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "生益科技拟投52亿元建设高性能覆铜板项目，聚焦汽车与AI服务器领域",
-      "summary": "生益科技宣布拟投资约52亿元建设松山湖第二工厂高性能覆铜板项目，重点面向汽车电子、5G通讯及AI服务器等高端应用领域，预计达产后年销售收入近93亿元。",
-      "source": "新浪财经",
-      "published": "2026-04-24T00:00:00.000Z",
-      "url": "https://finance.sina.com.cn/stock/aigc/tzxm/2026-04-25/doc-inhvrtis4435835.shtml",
-      "tags": [
-        "生益科技",
-        "覆铜板",
-        "材料",
-        "AI服务器",
-        "汽车电子"
-      ],
-      "insights": [
-        "AI服务器对高频高速CCL需求爆发，材料厂商产能扩张信号明确",
-        "覆铜板国产替代加速，生益科技52亿投资瞄准进口替代空白区"
-      ],
-      "actions": [
-        "评估生益科技新产能对PCB供应链的影响，确认交付周期变化",
-        "关注高性能CCL价格走势，判断是否需要调整采购策略"
-      ],
-      "glossary": [
-        {
-          "term": "CCL",
-          "desc": "覆铜板，PCB的核心基材"
-        },
-        {
-          "term": "高频高速CCL",
-          "desc": "支持高速信号传输的特种覆铜板材料"
-        }
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "第三代碳化硅研发制造基地落户天津宝坻，北京晶坤SiC全产业链布局加速",
-      "summary": "北京晶坤新材料与天津宝坻京津中关村科技城签约，建设第三代碳化硅晶体生产研发基地项目，形成研发、制造、应用、服务等全产业链体系。项目拟于2027年竣工投产，预计年产值可达3亿元。",
-      "source": "新浪财经",
-      "published": "2026-04-24T00:00:00.000Z",
-      "url": "https://finance.sina.com.cn/jjxw/2026-04-25/doc-inhvrxrn7557300.shtml",
-      "tags": [
-        "碳化硅",
-        "SiC",
-        "国产替代",
-        "功率半导体",
-        "天津"
-      ],
-      "insights": [
-        "SiC国产化从衬底延伸到器件制造，全链条布局模式值得关注",
-        "天津宝坻基地与既有SiC衬底厂商形成产业集群效应"
-      ],
-      "actions": [
-        "跟踪SiC国产器件性能指标和量产节奏，评估替代进口方案可行性",
-        "关注国产SiC价格竞争力，判断采购成本优化空间"
-      ],
-      "glossary": [
-        {
-          "term": "SiC",
-          "desc": "碳化硅，第三代半导体宽禁带材料"
-        },
-        {
-          "term": "宽禁带",
-          "desc": "禁带宽度大于2eV的半导体材料，耐高温高压"
-        }
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "SemiWiki收购IPnest，半导体IP分析平台整合加速",
-      "summary": "半导体产业媒体SemiWiki宣布收购IP分析机构IPnest，将IP市场数据与产业深度分析能力整合。Dr. Eric Esteve将留任至2026年协助过渡，SemiWiki将扩展IP报告覆盖范围。",
-      "source": "SemiWiki",
-      "published": "Fri, 24 Apr 2026 15:00:41 +0000",
-      "url": "https://semiwiki.com/semiconductor-services/ipnest/368639-semiwiki-acquires-ipnest/",
-      "tags": [
-        "SemiWiki",
-        "IPnest",
-        "半导体IP",
-        "产业分析",
-        "并购"
-      ],
-      "insights": [
-        "IP市场分析服务商业化加速，反映IP授权交易活跃度和产业对IP数据的重视",
-        "产业媒体与数据服务商合并趋势，IP评估决策将更依赖量化数据"
-      ],
-      "actions": [
-        "关注IPnest数据库整合后是否提供更全面的IP授权成本分析",
-        "评估自身IP选型流程是否需要引入更量化评估工具"
-      ],
-      "glossary": [
-        {
-          "term": "半导体IP",
-          "desc": "可授权复用的芯片设计功能模块"
-        },
-        {
-          "term": "IPnest",
-          "desc": "专注半导体IP市场分析的咨询机构"
-        }
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "国内首家百亿估值纯推理GPU独角兽诞生：曦望科技专访，推理成本竞争成关键",
-      "summary": "曦望科技成为国内首家百亿估值的纯推理GPU独角兽企业，联席CEO王湛表示推理成本是竞争核心。AI推理市场爆发推动专用GPU芯片需求，国产推理芯片赛道竞争加剧。",
-      "source": "量子位",
-      "published": "1 day ago",
-      "url": "https://www.qbitai.com/2026/04/406020.html",
-      "tags": [
-        "推理GPU",
-        "曦望科技",
-        "独角兽",
-        "AI芯片",
-        "国产"
-      ],
-      "insights": [
-        "推理专用GPU赛道独立成型，百亿估值标志资本市场对推理芯片商业模式的认可",
-        "推理成本竞争将重塑AI芯片市场格局，通用GPU和专用推理GPU走向分化"
-      ],
-      "actions": [
-        "关注曦望科技推理GPU性能指标和客户落地进展",
-        "评估推理专用芯片对采购策略的影响，判断是否需要区分训练和推理芯片供应商"
-      ],
-      "glossary": [
-        {
-          "term": "推理GPU",
-          "desc": "专为AI推理任务设计的GPU芯片"
-        },
-        {
-          "term": "独角兽",
-          "desc": "估值超10亿美元的初创企业"
-        }
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "英特尔告别至暗时刻：老霸主打响反击战，AI与代工双线突破",
-      "summary": "英特尔2026年Q1财报标志着至暗时刻的终结，AI驱动业务复苏与Foundry客户拓展双线推进。14A制程获得外部客户合作意向，代工业务从投入期向收获期过渡。",
-      "source": "网易",
-      "published": "2026-04-24T00:00:00.000Z",
-      "url": "https://www.163.com/dy/article/KR9867AS05568C4N.html",
-      "tags": [
-        "Intel",
-        "Foundry",
-        "AI",
-        "14A制程",
-        "代工"
-      ],
-      "insights": [
-        "Intel从至暗到复苏的转折对全球代工格局影响深远，三强竞争重回白热化",
-        "Intel Foundry从投入期向收获期过渡，但量产验证仍是关键考验"
-      ],
-      "actions": [
-        "评估Intel Foundry作为代工备选方案的成熟度和风险等级",
-        "跟踪Intel 14A制程客户签约进展，判断量产时间表的可靠性"
-      ],
-      "glossary": [
-        {
-          "term": "Intel Foundry",
-          "desc": "Intel独立代工服务业务"
-        },
-        {
-          "term": "至暗时刻",
-          "desc": "Intel 2023-2025年业绩低谷期"
-        }
-      ],
-      "region": "overseas"
-    }
-  ]
+  "items": []
 }
