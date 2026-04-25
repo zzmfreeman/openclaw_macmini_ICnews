@@ -98,7 +98,7 @@ def ensure_actions(val, title=""):
 
 
 
-def filter_by_date(items, period, generated_at, max_hours_morning=48, max_hours_midday=12, max_hours_evening=12):
+def filter_by_date(items, period, generated_at, max_hours_morning=48, max_hours_midday=48, max_hours_evening=48):
     """过滤超过时间窗口的新闻条目"""
     from datetime import datetime, timedelta, timezone
     
