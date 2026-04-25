@@ -114,9 +114,9 @@ def filter_by_date(items, period, generated_at, max_hours_morning=48, max_hours_
     if period == "morning":
         max_age_hours = 48  # 48h window for morning (news often published yesterday)
     elif period == "midday":
-        max_age_hours = 12  # 12h window for midday/evening
+        max_age_hours = 6   # 6h window for midday/evening (only breaking news)
     else:  # evening
-        max_age_hours = 12  # 12h window for midday/evening
+        max_age_hours = 6   # 6h window for midday/evening (only breaking news)
     
     cutoff = ref_time - timedelta(hours=max_age_hours)
     
@@ -332,6 +332,10 @@ def main():
     if schema_dropped > len(items) * 0.5:
         print(f'[schema] ⚠️ 丢弃比例过高({schema_dropped}/{len(items)})，请检查原始数据质量', file=sys.stderr)
     
+    # Allow 0 items for midday/evening (no breaking news is valid)
+    if period in ("midday", "evening") and len(fixed_items) == 0:
+        print(f'[schema] 午报/晚报无突发重大新闻，0条为正常结果', file=sys.stderr)
+        return 0
     return 0 if len(fixed_items) > 0 else 1
 
 
