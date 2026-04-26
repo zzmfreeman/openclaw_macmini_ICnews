@@ -1,91 +1,65 @@
 {
-  "version": "v20260425-2000",
-  "generatedAt": "2026-04-25T20:06:12+08:00",
+  "version": "v20260426-2000",
+  "generatedAt": "2026-04-26T20:00:00+08:00",
   "period": "evening",
   "commit": "",
-  "glossary_list": [
-    {
-      "term": "DRAM 10nm",
-      "desc": "动态随机存取存储器的10纳米以下制程，代表存储芯片制造精度的重大突破",
-      "category": "存储"
-    },
-    {
-      "term": "国产设备占比",
-      "desc": "晶圆产线中国产半导体设备的使用比例，超过50%标志着国产替代从量变到质变",
-      "category": "设备"
-    },
-    {
-      "term": "AI CPU",
-      "desc": "为AI计算任务优化的中央处理器，AI推理和混合计算场景下CPU需求重新上升",
-      "category": "商业"
-    },
-    {
-      "term": "CoWoS",
-      "desc": "TSMC晶圆级封装技术，AI芯片核心封装方案",
-      "category": "封装"
-    },
-    {
-      "term": "北方华创",
-      "desc": "中国半导体设备龙头，覆盖刻蚀、薄膜沉积、清洗等多类前道设备",
-      "category": "设备"
-    }
-  ],
+  "glossary_list": [],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
       "heat": "→平稳",
-      "reddit_top": "null (ScrapeCreators额度耗尽)",
-      "hn_top": "null",
-      "summary": "CoWoS产能扩张稳步推进，TSMC与OSAT格局相对稳定，社区关注度维持常态。"
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "周末无新动态，CoWoS产能扩张进展平稳，社区讨论热度较低。TSMC持续主导先进封装产能，OSAT厂商跟进节奏未见加速。"
     },
     {
       "topic": "HBM/AI存储",
-      "heat": "↑↑升温",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "三星DRAM 10nm突破引发HBM竞争格局讨论升温，SK海力士技术领先地位面临新挑战。"
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "HBM需求持续旺盛但周末无突发消息，SK Hynix与Samsung在HBM3E量产竞赛中处于常态推进状态。"
     },
     {
       "topic": "中国Fab/先进制程",
-      "heat": "↑↑升温",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "长江存储国产设备占比首超50%成为热议焦点，国产替代进入新阶段。"
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "周末无中芯国际/华虹等国内Fab突发消息。Exa检索到高通优先选择台积电2nm代工，三星代工复苏遇阻的报道，但非突发。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "国产EDA话题热度平稳，华大九天等厂商持续稳步推进，无突发重大事件。"
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "周末无国产EDA/IP领域突发动态，华大九天等国产EDA厂商近期无重大事件。"
     },
     {
       "topic": "封测OSAT",
       "heat": "→平稳",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "盛合晶微市值超长电科技引发市场关注，但OSAT整体格局变化不大。"
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "周末无OSAT领域突发新闻。芯联集成分析文章指出其营收行业第五但净利润垫底，属常规分析而非突发。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "→平稳",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "本周出口管制话题无明显升温，政策面暂无新规发布。"
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "周末无新的出口管制或制裁政策发布，社区未出现相关突发讨论。"
     },
     {
       "topic": "AI芯片/NVIDIA",
-      "heat": "→平稳",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "Intel财报超预期引发AI CPU讨论，但NVIDIA本周无重大新闻，热度平稳。"
+      "heat": "↑↑升温",
+      "reddit_top": null,
+      "hn_top": "Google unveils chips for AI training and inference in latest (13pts)",
+      "summary": "NVIDIA市值突破5万亿美元引发持续关注，Intel财报超预期大涨23%带动芯片股整体情绪升温。Google推出自研AI芯片也在HN引发讨论。"
     },
     {
       "topic": "设备/材料国产化",
-      "heat": "↑↑升温",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "长江存储国产设备突破+光刻胶批量供货等消息叠加，设备国产化话题显著升温。"
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "周末无设备/材料国产化领域突发动态。长川科技Q1盈利增长超217%的报道为常规财报披露。"
     }
   ],
   "items": []
