@@ -1,6 +1,6 @@
 {
   "date": "2026-04-26",
-  "generatedAt": "2026-04-27T00:05:26+08:00",
+  "generatedAt": "2026-04-27T00:30:29+08:00",
   "articles": [
     {
       "title": "Meta大规模裁员背后：向AI的毅然转型",
@@ -107,5 +107,6 @@
     "https://cn.wsj.com/articles/intel-sales-rise-7-as-ai-agents-drive-growth-1a0d64e0": "https://images.wsj.net/im-31236487/social",
     "https://cn.wsj.com/articles/justice-department-will-end-probe-of-powell-clearing-path-for-kevin-warsh-be9b30d9": "https://images.wsj.net/im-84586721/social",
     "https://cn.wsj.com/articles/ford-geely-china-technology-talks-76a502fc": "https://images.wsj.net/im-44113563/social"
-  }
+  },
+  "pubtimes": {}
 }
