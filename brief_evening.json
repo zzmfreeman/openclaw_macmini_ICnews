@@ -1,6 +1,6 @@
 {
-  "version": "v20260426-2000",
-  "generatedAt": "2026-04-26T20:00:00+08:00",
+  "version": "v20260427-2006",
+  "generatedAt": "2026-04-27T20:06:00+08:00",
   "period": "evening",
   "commit": "",
   "glossary_list": [],
@@ -8,58 +8,58 @@
     {
       "topic": "CoWoS/先进封装",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "周末无新动态，CoWoS产能扩张进展平稳，社区讨论热度较低。TSMC持续主导先进封装产能，OSAT厂商跟进节奏未见加速。"
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "本周台积电CoWoS扩产消息持续，但社区讨论热度一般，未出现重大突发。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "HBM需求持续旺盛但周末无突发消息，SK Hynix与Samsung在HBM3E量产竞赛中处于常态推进状态。"
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "HBM供给话题热度平稳，三星罢工对DRAM供给的潜在影响是近期关注点，但尚未引发社区大量讨论。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "周末无中芯国际/华虹等国内Fab突发消息。Exa检索到高通优先选择台积电2nm代工，三星代工复苏遇阻的报道，但非突发。"
+      "reddit_top": "null",
+      "hn_top": "China's largest chipmaker testing first homegrown immersion DUV litho tool (3pts)",
+      "summary": "中芯国际测试国产沉浸式DUV光刻工具的HN帖子关注度较低(3pts)，国产光刻进展仍处于缓慢推进阶段。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "周末无国产EDA/IP领域突发动态，华大九天等国产EDA厂商近期无重大事件。"
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "国产EDA/IP话题本周无明显新进展，社区讨论平淡。"
     },
     {
       "topic": "封测OSAT",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "周末无OSAT领域突发新闻。芯联集成分析文章指出其营收行业第五但净利润垫底，属常规分析而非突发。"
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "OSAT话题本周热度平稳，先进封装扩产持续推进但无突发消息。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "周末无新的出口管制或制裁政策发布，社区未出现相关突发讨论。"
+      "reddit_top": "null",
+      "hn_top": "How the U.S. – Chinese Technology War Is Changing the World (1pts)",
+      "summary": "美中技术竞争话题热度低，本周无新的出口管制或制裁法规发布。"
     },
     {
       "topic": "AI芯片/NVIDIA",
-      "heat": "↑↑升温",
-      "reddit_top": null,
-      "hn_top": "Google unveils chips for AI training and inference in latest (13pts)",
-      "summary": "NVIDIA市值突破5万亿美元引发持续关注，Intel财报超预期大涨23%带动芯片股整体情绪升温。Google推出自研AI芯片也在HN引发讨论。"
+      "heat": "→平稳",
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "NVIDIA相关话题本周平稳，Intel财报抢占了部分关注。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "周末无设备/材料国产化领域突发动态。长川科技Q1盈利增长超217%的报道为常规财报披露。"
+      "reddit_top": "null",
+      "hn_top": "null",
+      "summary": "国产半导体设备和材料话题本周无明显新动态，社区讨论平淡。"
     }
   ],
   "items": []
