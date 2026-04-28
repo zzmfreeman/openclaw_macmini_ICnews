@@ -1,210 +1,97 @@
 {
-  "version": "v20260428-1837",
-  "generatedAt": "2026-04-28T18:37:28.041362",
+  "version": "v20260428-2007",
+  "generatedAt": "2026-04-28T20:07:00+08:00",
   "period": "evening",
   "commit": "",
-  "glossary_list": [],
-  "topic_pulse": [],
-  "items": [
+  "glossary_list": [
     {
-      "title": "中国叫停Manus收购案后，Meta准备撤销交易",
-      "url": "https://cn.wsj.com/articles/meta-is-preparing-to-have-to-undo-its-manus-acquisition-after-china-ban-acfcb22d",
-      "summary": "中国政府近期叫停了Meta对AI初创公司Manus的收购计划，这一决定凸显了中方在核心AI技术领域坚持自主可控、防止关键技术外流的战略决心。面对监管阻力，Meta正准备撤销该交易。此举不仅反映了中美在AI领域的科技博弈日益加剧，也预示着未来跨国科技企业在涉及敏感AI资产并购时，将面临更严格的国安审查与地缘政治挑战。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
+      "term": "TGV",
+      "desc": "Through Glass Via，玻璃基板通孔互连技术，用于先进射频IPD封装",
+      "category": "封装"
     },
     {
-      "title": "科技公司大裁员以豪赌AI，但这可能是把双刃剑",
-      "url": "https://cn.wsj.com/articles/%E7%A7%91%E6%8A%80%E5%85%AC%E5%8F%B8%E5%A4%A7%E8%A3%81%E5%91%98%E4%BB%A5%E8%B1%AA%E8%B5%8Cai-%E4%BD%86%E8%BF%99%E5%8F%AF%E8%83%BD%E6%98%AF%E6%8A%8A%E5%8F%8C%E5%88%83%E5%89%91-1adf49fa",
-      "summary": "全球科技巨头正通过大规模裁员来削减成本，并将资金重金投入AI领域，试图以此提升运营效率与市场竞争力。然而，这种豪赌AI的策略实为双刃剑。虽然短期内裁员能改善财务指标，但长期来看，过度削减人力可能导致核心业务受损、创新能力下降及企业文化动荡。企业在AI转型与保留核心人才之间需谨慎权衡，盲目跟风裁员可能得不偿失。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
+      "term": "CoWoS",
+      "desc": "Chip-on-Wafer-on-Substrate，台积电2.5D先进封装技术",
+      "category": "封装"
     },
     {
-      "title": "中国以国家安全为由禁止Meta收购Manus",
-      "url": "https://cn.wsj.com/articles/china-bans-metas-acquisition-of-manus-on-national-security-grounds-13bba406",
-      "summary": "中国监管部门以国家安全为由，正式否决了Meta收购本土AI企业Manus的交易。该决定旨在防止敏感AI技术被跨国巨头获取，反映出在当前地缘政治背景下，中国对战略性科技资产的保护力度正不断升级，跨国并购面临更严苛的审查。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
+      "term": "NAURA",
+      "desc": "北方华创，中国半导体设备龙头，产品覆盖刻蚀/薄膜/清洗等",
+      "category": "设备"
     },
     {
-      "title": "美国人爱上的视频可能出自中国AI之手",
-      "url": "https://cn.wsj.com/articles/%E7%BE%8E%E5%9B%BD%E4%BA%BA%E7%88%B1%E4%B8%8A%E7%9A%84%E8%A7%86%E9%A2%91%E5%8F%AF%E8%83%BD%E5%87%BA%E8%87%AA%E4%B8%AD%E5%9B%BDai%E4%B9%8B%E6%89%8B-2a7d34f6",
-      "summary": "随着中国AI视频生成技术的快速发展，越来越多在美国社交媒体上广受欢迎的视频内容实际上是由中国AI模型创作。这一现象不仅展示了中国在AI应用层面的全球影响力，也引发了关于文化渗透、内容安全以及中美科技竞争在应用端延伸的广泛讨论。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
+      "term": "ePOP",
+      "desc": "嵌入式封装存储方案，将NAND Flash叠封于主芯片上方",
+      "category": "存储"
     },
     {
-      "title": "OpenAI与微软达成“休战协议”，获得更大自主权",
-      "url": "https://cn.wsj.com/articles/openai-and-microsoft-strike-truce-redrawing-once-tense-partnership-f6b1a6dc",
-      "summary": "OpenAI与长期合作伙伴微软达成“休战协议”，重新调整了双方原本紧张的合作关系。根据新协议，OpenAI将获得更大的运营与商业自主权，这标志着其在寻求独立发展、摆脱过度依赖微软方面迈出关键一步，同时也为未来的IPO及更广泛的云计算合作铺平道路。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
+      "term": "EUV",
+      "desc": "极紫外光刻，7nm及以下节点核心光刻技术",
+      "category": "设备"
     },
     {
-      "title": "中共中央政治局重申保持市场稳定、提高能源安全的承诺",
-      "url": "https://cn.wsj.com/articles/china-spolitburo-reiterates-vows-to-keep-markets-stable-boost-energy-security-8e47d580",
-      "summary": "面对中东地缘冲突带来的外部不确定性，中共中央政治局会议释放明确安抚信号，重申将致力于保持国内金融市场稳定，并着力提升国家能源安全保障水平。此举旨在对冲国际油价波动与供应链风险，稳住经济大盘，表明高层在复杂国际局势下稳增长的坚定立场。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
-    },
-    {
-      "title": "防厮打还要防DNA外泄：大国峰会背后的“极限”规程",
-      "url": "https://cn.wsj.com/articles/how-to-avoid-fistfights-and-dna-leaks-at-a-world-leaders-summit-bfe95327",
-      "summary": "特朗普与习近平即将在北京举行大国峰会，双方数百名官员正进行极限筹备。从防止代表团成员厮打到防范DNA外泄与毒害风险，峰会背后的规程极其严苛。这不仅折射出当前中美关系的极度敏感性，也凸显了高层外交在安保、礼仪与防间谍等细节上的前所未有的复杂度。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
-    },
-    {
-      "title": "实时更新：伊朗提议停火以换取美国解封，并推迟核谈判",
-      "url": "https://cn.wsj.com/articles/iran-middle-east-israel-us-conflict-2026-9da1697c",
-      "summary": "中东局势出现新动向，伊朗官方提出停火提议，条件是美国解除对其经济制裁，并宣布推迟核问题谈判。此举显示伊朗试图以战术性让步换取经济喘息空间，但核谈判的延后意味着地区根本性安全困境仍悬而未决，美伊博弈进入复杂拉锯阶段。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
-    },
-    {
-      "title": "“美股七雄”财报发布在即，散户为何态度谨慎？",
-      "url": "https://cn.wsj.com/articles/why-individual-investors-are-cautious-ahead-of-earnings-for-microsoft-amazon-and-the-rest-of-the-magnificent-seven-666ad788",
-      "summary": "随着“美股七雄”财报季拉开帷幕，市场预期高度聚焦。然而，面对宏观经济的逆风与AI投资回报的不确定性，散户投资者并未盲目追高，反而表现出罕见的谨慎态度。高估值压力与潜在的增长放缓担忧，使得个人投资者在巨头财报前更倾向于观望与防御。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
-    },
-    {
-      "title": "OpenAI冲刺IPO之际未达关键营收与用户目标",
-      "url": "https://cn.wsj.com/articles/openai-misses-key-revenue-user-targets-in-high-stakes-sprint-toward-ipo-3f6bce9d",
-      "summary": "在冲刺IPO的关键阶段，OpenAI未能达到此前设定的核心营收与用户增长目标。这一挫折暴露了其在商业化变现与市场扩张上的压力，可能会对其估值预期与上市进程产生负面影响，也反映出AI初创企业在高昂研发成本下实现盈利的艰难挑战。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
-    },
-    {
-      "title": "伊朗石油积压严重，废旧储罐成临时“仓库”",
-      "url": "https://cn.wsj.com/articles/iran-is-flooded-with-so-much-unsold-oil-that-its-stashing-it-in-derelict-tanks-9c20dbb9",
-      "summary": "受制裁影响，伊朗原油严重积压，被迫启用废弃储罐并尝试高成本铁路运油至中国，以避免油井关停。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
-    },
-    {
-      "title": "达利欧建议投资者将不超过15%的资金配置黄金",
-      "url": "https://cn.wsj.com/articles/%E8%BE%BE%E5%88%A9%E6%AC%A7%E5%BB%BA%E8%AE%AE%E6%8A%95%E8%B5%84%E8%80%85%E5%B0%86%E4%B8%8D%E8%B6%85%E8%BF%8715-%E7%9A%84%E8%B5%84%E9%87%91%E9%85%8D%E7%BD%AE%E9%BB%84%E9%87%91-a93921b4",
-      "summary": "达利欧指出伊朗战争带来不确定性，建议投资者配置5%-15%的黄金以对冲地缘与经济风险。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
-    },
-    {
-      "title": "查尔斯国王访美看点",
-      "url": "https://cn.wsj.com/articles/%E8%8C%B6-%E5%8F%B8%E5%BA%B7%E4%B8%8E%E5%9C%B0%E7%BC%98%E6%94%BF%E6%B2%BB-%E6%9F%A5%E5%B0%94%E6%96%AF%E5%9B%BD%E7%8E%8B%E8%AE%BF%E7%BE%8E%E7%9C%8B%E7%82%B9-68976fe9",
-      "summary": "查尔斯国王访美正值美英关系微妙期，对英国政府而言这是一次高风险的外交博弈。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
-    },
-    {
-      "title": "曾饱受历史摧残的印度洋岛民，如今又遭特朗普反复打击",
-      "url": "https://cn.wsj.com/articles/the-indian-ocean-islanders-who-were-pummeled-by-historyand-now-by-trump-too-8199f7ed",
-      "summary": "查戈斯群岛居民本盼重返故土，却因特朗普政策反复而再次遭受打击，前途未卜。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
-    },
-    {
-      "title": "燃烧瓶之年：美国反政府暴力事件创30年新高",
-      "url": "https://cn.wsj.com/articles/%E7%87%83%E7%83%A7%E7%93%B6%E4%B9%8B%E5%B9%B4-%E7%BE%8E%E5%9B%BD%E5%8F%8D%E6%94%BF%E5%BA%9C%E6%9A%B4%E5%8A%9B%E4%BA%8B%E4%BB%B6%E5%88%9B30%E5%B9%B4%E6%96%B0%E9%AB%98-21795700",
-      "summary": "美国反政府暴力事件创30年新高，因抵制移民政策，极左翼袭击首度超越极右翼。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
-    },
-    {
-      "title": "穆迪上调中国信用评级展望，称经济面对挑战展现出韧性",
-      "url": "https://cn.wsj.com/articles/%E7%A9%86%E8%BF%AA%E4%B8%8A%E8%B0%83%E4%B8%AD%E5%9B%BD%E4%BF%A1%E7%94%A8%E8%AF%84%E7%BA%A7%E5%B1%95%E6%9C%9B-%E7%A7%B0%E7%BB%8F%E6%B5%8E%E9%9D%A2%E5%AF%B9%E6%8C%91%E6%88%98%E5%B1%95%E7%8E%B0%E5%87%BA%E9%9F%A7%E6%80%A7-2b0993d3",
-      "summary": "穆迪上调中国信用评级展望，指出中国经济在面对内外挑战时展现出较强韧性与稳定潜力。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
-    },
-    {
-      "title": "伊朗领导层内部分歧令谈判进展受挫",
-      "url": "https://cn.wsj.com/articles/%E4%BC%8A%E6%9C%97%E9%A2%86%E5%AF%BC%E5%B1%82%E5%86%85%E9%83%A8%E5%88%86%E6%AD%A7%E4%BB%A4%E8%B0%88%E5%88%A4%E8%BF%9B%E5%B1%95%E5%8F%97%E6%8C%AB-a2e3b963",
-      "summary": "伊朗领导层内部存在严重分歧，导致相关外交与核谈判进展严重受挫，加剧局势不确定性。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
-    },
-    {
-      "title": "美国扩大制裁名单，旨在遏制伊朗对华石油出口",
-      "url": "https://cn.wsj.com/articles/u-s-adds-to-sanctions-list-in-effort-to-halt-iran-oil-exports-to-china-1e3c4b6d",
-      "summary": "美国扩大制裁名单，旨在精准打击并遏制伊朗绕过限制向中国出口石油的渠道与网络。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
-    },
-    {
-      "title": "金价自伊朗战争以来已跌近11%，买入理由正重新集聚",
-      "url": "https://cn.wsj.com/articles/%E9%87%91%E4%BB%B7%E8%87%AA%E4%BC%8A%E6%9C%97%E6%88%98%E4%BA%89%E4%BB%A5%E6%9D%A5%E5%B7%B2%E8%B7%8C%E8%BF%9111-%E4%B9%B0%E5%85%A5%E7%90%86%E7%94%B1%E6%AD%A3%E9%87%8D%E6%96%B0%E9%9B%86%E8%81%9A-056bd695",
-      "summary": "金价自伊朗战争爆发以来已跌近11%，但随着风险积聚，逢低买入的理由正重新显现。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
-    },
-    {
-      "title": "查尔斯国王力图挽救英国与特朗普的关系",
-      "url": "https://cn.wsj.com/articles/WP-WSJS-0003530020",
-      "summary": "查尔斯国王正力图通过外交努力，挽救并修复英国与特朗普政府间日益紧张的特殊关系。",
-      "published": "2026-04-28",
-      "source": "WSJ中文",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
+      "term": "IPD",
+      "desc": "Integrated Passive Device，集成无源器件，用于射频前端",
+      "category": "封装"
     }
-  ]
+  ],
+  "topic_pulse": [
+    {
+      "topic": "CoWoS/先进封装",
+      "heat": "↑↑升温",
+      "reddit_top": "无显著热帖（ScrapeCreators额度已耗尽）",
+      "hn_top": null,
+      "summary": "台积电CoWoS扩产消息持续占据产业新闻头条，长电科技TGV射频IPD技术突破引发关注，先进封装领域热度持续攀升。"
+    },
+    {
+      "topic": "HBM/AI存储",
+      "heat": "→平稳",
+      "reddit_top": "无显著热帖",
+      "hn_top": null,
+      "summary": "三星罢工事件对DRAM/NAND供应的潜在影响已被广泛报道，HBM产能扩张仍是业界关注焦点。"
+    },
+    {
+      "topic": "中国Fab/先进制程",
+      "heat": "↑↑升温",
+      "reddit_top": "无显著热帖",
+      "hn_top": null,
+      "summary": "中芯国际部分产能涨价10%的消息引发产业关注，台积电5座2nm厂同时放量报道进一步加剧先进制程竞赛讨论。"
+    },
+    {
+      "topic": "国产EDA/IP",
+      "heat": "→平稳",
+      "reddit_top": "无显著热帖",
+      "hn_top": null,
+      "summary": "Cadence与Google Cloud新合作、Synopsys与Atomera推进GaN建模等EDA动态频出，国产EDA进展近期无重大突破。"
+    },
+    {
+      "topic": "封测OSAT",
+      "heat": "↑↑升温",
+      "reddit_top": "无显著热帖",
+      "hn_top": null,
+      "summary": "长电科技TGV技术突破、盛合晶微科创板亮相、甬矽电子供应商大会等封测领域消息密集，OSAT格局活跃。"
+    },
+    {
+      "topic": "出口管制/制裁",
+      "heat": "→平稳",
+      "reddit_top": "无显著热帖",
+      "hn_top": null,
+      "summary": "台湾法院判决前东京电子员工案引发关注，但近期无新制裁/管制政策发布，话题热度平稳。"
+    },
+    {
+      "topic": "AI芯片/NVIDIA",
+      "heat": "↑↑升温",
+      "reddit_top": "无显著热帖",
+      "hn_top": null,
+      "summary": "OpenAI进军手机与高通联发科合作处理器、NVIDIA租赁大规模数据中心等消息持续推动AI芯片话题升温。"
+    },
+    {
+      "topic": "设备/材料国产化",
+      "heat": "↑↑升温",
+      "reddit_top": "无显著热帖",
+      "hn_top": null,
+      "summary": "中微公司Q1净利同比增197%、半导体硅片再迎上行周期、国产替代加速等消息密集，设备材料国产化热度明显升温。"
+    }
+  ],
+  "items": []
 }
