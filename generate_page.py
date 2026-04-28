@@ -272,7 +272,7 @@ def generate_index_page(base_dir=None):
                 'json': f.replace('.html', '.json'),
                 'icon': pinfo['icon'],
                 'label': pinfo['label'],
-                'sort_key': f,  # YYYY-MM-DD-period sorts naturally
+                'sort_key': (date_str, {'evening': 2, 'midday': 1, 'morning': 0}.get(period, 0))  # evening > midday > morning by time
             })
     
     # Sort descending (newest first)
@@ -295,7 +295,7 @@ def generate_index_page(base_dir=None):
     if latest:
         current_link = f'''
         <a href="{latest['html']}" class="brief-card current">
-          <div class="brief-icon">📡</div>
+          <div class="brief-icon">{latest["icon"]}</div>
           <div class="brief-info">
             <div class="brief-title">最新简报（{latest['date']} {latest['label']}）</div>
             <div class="brief-period">{latest['period']}</div>
