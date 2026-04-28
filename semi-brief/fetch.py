@@ -241,6 +241,56 @@ class NewsProcessor:
         return items[:target]
 
 
+def validate_url(url: str, timeout: int = 8) -> tuple:
+    """
+    校验 URL 是否可访问且内容有效。
+    返回 (is_valid: bool, final_url: str, reason: str)
+    - is_valid=True  → 内容页存在，可保留
+    - is_valid=False → 已失效，需过滤
+    """
+    try:
+        parsed = urllib.parse.urlparse(url)
+        # 1. URL 编码：处理中文路径
+        path_enc = urllib.parse.quote(parsed.path, safe='/:@!$&\'()*+,;=%')
+        full_url = urllib.parse.urlunparse((parsed.scheme, parsed.netloc, path_enc, '', parsed.query, ''))
+
+        req = urllib.request.Request(
+            full_url,
+            headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"},
+            method="GET"
+        )
+        with urllib.request.urlopen(req, timeout=timeout, context=ssl_context) as resp:
+            final_url = resp.url
+            final_parsed = urllib.parse.urlparse(final_url)
+            final_domain = final_parsed.netloc.lower().replace('www.', '')
+            orig_domain = parsed.netloc.lower().replace('www.', '')
+
+            # 2. SSL/TLS 协议层屏蔽
+            if final_domain in BLOCKED_DOMAINS:
+                return False, final_url, f"blocked_domain:{final_domain}"
+
+            # 3. 重定向到陌生域名
+            if final_domain != orig_domain and final_domain not in orig_domain:
+                return False, final_url, f"cross_domain:{orig_domain}→{final_domain}"
+
+            # 4. 重定向到已知的占位页/首页（内容已删除）
+            redir_lower = final_url.lower()
+            for blk in BLACKLIST_REDIR:
+                if blk in redir_lower:
+                    return False, final_url, f"dead_page:{blk}"
+
+            # 5. 状态码非 200
+            if resp.status != 200:
+                return False, final_url, f"http_{resp.status}"
+
+            return True, final_url, None
+
+    except urllib.error.HTTPError as e:
+        return False, None, f"http_error_{e.code}"
+    except urllib.error.HTTPError:  # Python 3.9 compat - HTTPErr is base class
+        return False, None, "http_error"
+    except Exception as e:
+        return False, None, f"exception_{type(e).__name__}"
 def main():
     """主入口"""
     import argparse
@@ -299,53 +349,3 @@ BLOCKED_DOMAINS = {
     "tmtpost.com",  # 大量中文站URL编码问题
 }
 
-def validate_url(url: str, timeout: int = 8) -> tuple:
-    """
-    校验 URL 是否可访问且内容有效。
-    返回 (is_valid: bool, final_url: str, reason: str)
-    - is_valid=True  → 内容页存在，可保留
-    - is_valid=False → 已失效，需过滤
-    """
-    try:
-        parsed = urllib.parse.urlparse(url)
-        # 1. URL 编码：处理中文路径
-        path_enc = urllib.parse.quote(parsed.path, safe='/:@!$&\'()*+,;=%')
-        full_url = urllib.parse.urlunparse((parsed.scheme, parsed.netloc, path_enc, '', parsed.query, ''))
-
-        req = urllib.request.Request(
-            full_url,
-            headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"},
-            method="GET"
-        )
-        with urllib.request.urlopen(req, timeout=timeout, context=ssl_context) as resp:
-            final_url = resp.url
-            final_parsed = urllib.parse.urlparse(final_url)
-            final_domain = final_parsed.netloc.lower().replace('www.', '')
-            orig_domain = parsed.netloc.lower().replace('www.', '')
-
-            # 2. SSL/TLS 协议层屏蔽
-            if final_domain in BLOCKED_DOMAINS:
-                return False, final_url, f"blocked_domain:{final_domain}"
-
-            # 3. 重定向到陌生域名
-            if final_domain != orig_domain and final_domain not in orig_domain:
-                return False, final_url, f"cross_domain:{orig_domain}→{final_domain}"
-
-            # 4. 重定向到已知的占位页/首页（内容已删除）
-            redir_lower = final_url.lower()
-            for blk in BLACKLIST_REDIR:
-                if blk in redir_lower:
-                    return False, final_url, f"dead_page:{blk}"
-
-            # 5. 状态码非 200
-            if resp.status != 200:
-                return False, final_url, f"http_{resp.status}"
-
-            return True, final_url, None
-
-    except urllib.error.HTTPError as e:
-        return False, None, f"http_error_{e.code}"
-    except urllib.error.HTTPError:  # Python 3.9 compat - HTTPErr is base class
-        return False, None, "http_error"
-    except Exception as e:
-        return False, None, f"exception_{type(e).__name__}"
