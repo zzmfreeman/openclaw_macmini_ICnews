@@ -1,6 +1,6 @@
 {
-  "version": "v20260428-1659",
-  "generatedAt": "2026-04-28T16:59:08.214549",
+  "version": "v20260428-1837",
+  "generatedAt": "2026-04-28T18:37:28.041362",
   "period": "evening",
   "commit": "",
   "glossary_list": [],
@@ -9,9 +9,9 @@
     {
       "title": "中国叫停Manus收购案后，Meta准备撤销交易",
       "url": "https://cn.wsj.com/articles/meta-is-preparing-to-have-to-undo-its-manus-acquisition-after-china-ban-acfcb22d",
-      "summary": "Meta原计划收购中国AI初创公司Manus，但中国政府以国家安全和保留本土AI技术为由叫停了该交易。面对监管阻力，Meta目前正准备撤销这项收购案。此举凸显了在全球AI竞赛加剧的背景下，中国对核心AI技术外流的严防死守，也反映出跨国科技巨头在华扩张所面临的地缘政治与监管挑战日益严峻。",
-      "published": "",
-      "source": "WSJ",
+      "summary": "中国政府近期叫停了Meta对AI初创公司Manus的收购计划，这一决定凸显了中方在核心AI技术领域坚持自主可控、防止关键技术外流的战略决心。面对监管阻力，Meta正准备撤销该交易。此举不仅反映了中美在AI领域的科技博弈日益加剧，也预示着未来跨国科技企业在涉及敏感AI资产并购时，将面临更严格的国安审查与地缘政治挑战。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
       "region": "overseas",
       "lang": "zh",
       "category": "industry"
@@ -19,9 +19,9 @@
     {
       "title": "科技公司大裁员以豪赌AI，但这可能是把双刃剑",
       "url": "https://cn.wsj.com/articles/%E7%A7%91%E6%8A%80%E5%85%AC%E5%8F%B8%E5%A4%A7%E8%A3%81%E5%91%98%E4%BB%A5%E8%B1%AA%E8%B5%8Cai-%E4%BD%86%E8%BF%99%E5%8F%AF%E8%83%BD%E6%98%AF%E6%8A%8A%E5%8F%8C%E5%88%83%E5%89%91-1adf49fa",
-      "summary": "为集中资源押注人工智能，众多科技公司近期掀起大规模裁员潮。虽然削减人力成本能在短期内改善财务报表和效率指标，为AI研发腾出资金，但这种策略存在双刃剑效应。大幅裁员不仅可能导致核心人才流失、创新活力受损，还可能引发内部士气低落和企业文化动荡。长远来看，过度依赖裁员来换取AI投资空间，可能会削弱企业的综合竞争力与可持续发展能力。",
-      "published": "",
-      "source": "WSJ",
+      "summary": "全球科技巨头正通过大规模裁员来削减成本，并将资金重金投入AI领域，试图以此提升运营效率与市场竞争力。然而，这种豪赌AI的策略实为双刃剑。虽然短期内裁员能改善财务指标，但长期来看，过度削减人力可能导致核心业务受损、创新能力下降及企业文化动荡。企业在AI转型与保留核心人才之间需谨慎权衡，盲目跟风裁员可能得不偿失。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
       "region": "overseas",
       "lang": "zh",
       "category": "industry"
@@ -29,9 +29,9 @@
     {
       "title": "中国以国家安全为由禁止Meta收购Manus",
       "url": "https://cn.wsj.com/articles/china-bans-metas-acquisition-of-manus-on-national-security-grounds-13bba406",
-      "summary": "中国政府正式以国家安全为由，禁止美国科技巨头Meta收购中国AI初创企业Manus。这一决定不仅直接阻断了跨国资本对本土AI核心技术的整合，也再次表明中国在防范关键技术外流方面的坚定立场。在当前全球AI竞争日趋白热化的格局下，该禁令凸显了技术主权与地缘政治对跨国并购的深远影响，Meta将不得不重新评估其在华及全球的AI战略布局。",
-      "published": "",
-      "source": "WSJ",
+      "summary": "中国监管部门以国家安全为由，正式否决了Meta收购本土AI企业Manus的交易。该决定旨在防止敏感AI技术被跨国巨头获取，反映出在当前地缘政治背景下，中国对战略性科技资产的保护力度正不断升级，跨国并购面临更严苛的审查。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
       "region": "overseas",
       "lang": "zh",
       "category": "industry"
@@ -39,9 +39,9 @@
     {
       "title": "美国人爱上的视频可能出自中国AI之手",
       "url": "https://cn.wsj.com/articles/%E7%BE%8E%E5%9B%BD%E4%BA%BA%E7%88%B1%E4%B8%8A%E7%9A%84%E8%A7%86%E9%A2%91%E5%8F%AF%E8%83%BD%E5%87%BA%E8%87%AA%E4%B8%AD%E5%9B%BDai%E4%B9%8B%E6%89%8B-2a7d34f6",
-      "summary": "随着中国AI视频生成技术的快速迭代，越来越多由中国AI工具创作或辅助生成的视频内容正在美国社交媒体和视频平台上走红，吸引了大量美国受众。这一现象不仅展示了中国AI应用在内容创作领域的强大竞争力与全球渗透力，也反映出在消费级AI产品上，中美之间的技术输出与文化交流正呈现出新的形态，打破了传统的单向技术流动格局。",
-      "published": "",
-      "source": "WSJ",
+      "summary": "随着中国AI视频生成技术的快速发展，越来越多在美国社交媒体上广受欢迎的视频内容实际上是由中国AI模型创作。这一现象不仅展示了中国在AI应用层面的全球影响力，也引发了关于文化渗透、内容安全以及中美科技竞争在应用端延伸的广泛讨论。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
       "region": "overseas",
       "lang": "zh",
       "category": "industry"
@@ -49,19 +49,9 @@
     {
       "title": "OpenAI与微软达成“休战协议”，获得更大自主权",
       "url": "https://cn.wsj.com/articles/openai-and-microsoft-strike-truce-redrawing-once-tense-partnership-f6b1a6dc",
-      "summary": "OpenAI与其最大投资者及合作伙伴微软近期达成了一项关键的“休战协议”，重新调整了此前日益紧张的合作伙伴关系。根据新协议，OpenAI将获得更大的运营自主权与独立发展空间，这在一定程度上缓解了双方在商业化与算力资源上的摩擦。此举不仅为OpenAI的后续融资及IPO冲刺扫清了部分障碍，也标志着两大AI巨头在利益分配与战略协同上找到了新的平衡点。",
-      "published": "",
-      "source": "WSJ",
-      "region": "overseas",
-      "lang": "zh",
-      "category": "industry"
-    },
-    {
-      "title": "防厮打还要防DNA外泄：大国峰会背后的“极限”规程",
-      "url": "https://cn.wsj.com/articles/how-to-avoid-fistfights-and-dna-leaks-at-a-world-leaders-summit-bfe95327",
-      "summary": "中美领导人峰会即将在北京举行，筹备工作进入极限状态。双方数百名官员正就细节展开密集协调，不仅需确保言辞精准、行程无误，甚至还要防范包括DNA外泄和毒害在内的极端安全风险。这反映出大国博弈背景下，高层外交互动的敏感性与复杂性已达到前所未有的高度，任何微小失误都可能引发严重的外交危机。",
-      "published": "",
-      "source": "WSJ",
+      "summary": "OpenAI与长期合作伙伴微软达成“休战协议”，重新调整了双方原本紧张的合作关系。根据新协议，OpenAI将获得更大的运营与商业自主权，这标志着其在寻求独立发展、摆脱过度依赖微软方面迈出关键一步，同时也为未来的IPO及更广泛的云计算合作铺平道路。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
       "region": "overseas",
       "lang": "zh",
       "category": "industry"
@@ -69,9 +59,19 @@
     {
       "title": "中共中央政治局重申保持市场稳定、提高能源安全的承诺",
       "url": "https://cn.wsj.com/articles/china-spolitburo-reiterates-vows-to-keep-markets-stable-boost-energy-security-8e47d580",
-      "summary": "面对中东地缘冲突带来的外部不确定性，中共中央政治局召开会议释放安抚信号，重申将致力于保持国内金融市场稳定与提升能源安全水平。这一表态旨在对冲国际油价波动与供应链风险对国内经济的冲击，稳定市场预期。高层强调在复杂国际环境下，稳市场与保能源仍是宏观政策的核心底线，为后续政策托底定调。",
-      "published": "",
-      "source": "WSJ",
+      "summary": "面对中东地缘冲突带来的外部不确定性，中共中央政治局会议释放明确安抚信号，重申将致力于保持国内金融市场稳定，并着力提升国家能源安全保障水平。此举旨在对冲国际油价波动与供应链风险，稳住经济大盘，表明高层在复杂国际局势下稳增长的坚定立场。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
+      "region": "overseas",
+      "lang": "zh",
+      "category": "industry"
+    },
+    {
+      "title": "防厮打还要防DNA外泄：大国峰会背后的“极限”规程",
+      "url": "https://cn.wsj.com/articles/how-to-avoid-fistfights-and-dna-leaks-at-a-world-leaders-summit-bfe95327",
+      "summary": "特朗普与习近平即将在北京举行大国峰会，双方数百名官员正进行极限筹备。从防止代表团成员厮打到防范DNA外泄与毒害风险，峰会背后的规程极其严苛。这不仅折射出当前中美关系的极度敏感性，也凸显了高层外交在安保、礼仪与防间谍等细节上的前所未有的复杂度。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
       "region": "overseas",
       "lang": "zh",
       "category": "industry"
@@ -79,9 +79,129 @@
     {
       "title": "实时更新：伊朗提议停火以换取美国解封，并推迟核谈判",
       "url": "https://cn.wsj.com/articles/iran-middle-east-israel-us-conflict-2026-9da1697c",
-      "summary": "中东冲突持续之际，伊朗正式向美国提出停火提议，条件是美方解除对其的经济制裁，同时决定推迟核谈判进程。这一举措为持续紧张的局势带来潜在转机，但也增加了不确定性。伊朗试图以停火换取经济喘息空间，而核谈判的延后则意味着核心分歧仍未化解，美伊博弈进入战术性调整阶段。",
-      "published": "",
-      "source": "WSJ",
+      "summary": "中东局势出现新动向，伊朗官方提出停火提议，条件是美国解除对其经济制裁，并宣布推迟核问题谈判。此举显示伊朗试图以战术性让步换取经济喘息空间，但核谈判的延后意味着地区根本性安全困境仍悬而未决，美伊博弈进入复杂拉锯阶段。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
+      "region": "overseas",
+      "lang": "zh",
+      "category": "industry"
+    },
+    {
+      "title": "“美股七雄”财报发布在即，散户为何态度谨慎？",
+      "url": "https://cn.wsj.com/articles/why-individual-investors-are-cautious-ahead-of-earnings-for-microsoft-amazon-and-the-rest-of-the-magnificent-seven-666ad788",
+      "summary": "随着“美股七雄”财报季拉开帷幕，市场预期高度聚焦。然而，面对宏观经济的逆风与AI投资回报的不确定性，散户投资者并未盲目追高，反而表现出罕见的谨慎态度。高估值压力与潜在的增长放缓担忧，使得个人投资者在巨头财报前更倾向于观望与防御。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
+      "region": "overseas",
+      "lang": "zh",
+      "category": "industry"
+    },
+    {
+      "title": "OpenAI冲刺IPO之际未达关键营收与用户目标",
+      "url": "https://cn.wsj.com/articles/openai-misses-key-revenue-user-targets-in-high-stakes-sprint-toward-ipo-3f6bce9d",
+      "summary": "在冲刺IPO的关键阶段，OpenAI未能达到此前设定的核心营收与用户增长目标。这一挫折暴露了其在商业化变现与市场扩张上的压力，可能会对其估值预期与上市进程产生负面影响，也反映出AI初创企业在高昂研发成本下实现盈利的艰难挑战。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
+      "region": "overseas",
+      "lang": "zh",
+      "category": "industry"
+    },
+    {
+      "title": "伊朗石油积压严重，废旧储罐成临时“仓库”",
+      "url": "https://cn.wsj.com/articles/iran-is-flooded-with-so-much-unsold-oil-that-its-stashing-it-in-derelict-tanks-9c20dbb9",
+      "summary": "受制裁影响，伊朗原油严重积压，被迫启用废弃储罐并尝试高成本铁路运油至中国，以避免油井关停。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
+      "region": "overseas",
+      "lang": "zh",
+      "category": "industry"
+    },
+    {
+      "title": "达利欧建议投资者将不超过15%的资金配置黄金",
+      "url": "https://cn.wsj.com/articles/%E8%BE%BE%E5%88%A9%E6%AC%A7%E5%BB%BA%E8%AE%AE%E6%8A%95%E8%B5%84%E8%80%85%E5%B0%86%E4%B8%8D%E8%B6%85%E8%BF%8715-%E7%9A%84%E8%B5%84%E9%87%91%E9%85%8D%E7%BD%AE%E9%BB%84%E9%87%91-a93921b4",
+      "summary": "达利欧指出伊朗战争带来不确定性，建议投资者配置5%-15%的黄金以对冲地缘与经济风险。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
+      "region": "overseas",
+      "lang": "zh",
+      "category": "industry"
+    },
+    {
+      "title": "查尔斯国王访美看点",
+      "url": "https://cn.wsj.com/articles/%E8%8C%B6-%E5%8F%B8%E5%BA%B7%E4%B8%8E%E5%9C%B0%E7%BC%98%E6%94%BF%E6%B2%BB-%E6%9F%A5%E5%B0%94%E6%96%AF%E5%9B%BD%E7%8E%8B%E8%AE%BF%E7%BE%8E%E7%9C%8B%E7%82%B9-68976fe9",
+      "summary": "查尔斯国王访美正值美英关系微妙期，对英国政府而言这是一次高风险的外交博弈。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
+      "region": "overseas",
+      "lang": "zh",
+      "category": "industry"
+    },
+    {
+      "title": "曾饱受历史摧残的印度洋岛民，如今又遭特朗普反复打击",
+      "url": "https://cn.wsj.com/articles/the-indian-ocean-islanders-who-were-pummeled-by-historyand-now-by-trump-too-8199f7ed",
+      "summary": "查戈斯群岛居民本盼重返故土，却因特朗普政策反复而再次遭受打击，前途未卜。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
+      "region": "overseas",
+      "lang": "zh",
+      "category": "industry"
+    },
+    {
+      "title": "燃烧瓶之年：美国反政府暴力事件创30年新高",
+      "url": "https://cn.wsj.com/articles/%E7%87%83%E7%83%A7%E7%93%B6%E4%B9%8B%E5%B9%B4-%E7%BE%8E%E5%9B%BD%E5%8F%8D%E6%94%BF%E5%BA%9C%E6%9A%B4%E5%8A%9B%E4%BA%8B%E4%BB%B6%E5%88%9B30%E5%B9%B4%E6%96%B0%E9%AB%98-21795700",
+      "summary": "美国反政府暴力事件创30年新高，因抵制移民政策，极左翼袭击首度超越极右翼。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
+      "region": "overseas",
+      "lang": "zh",
+      "category": "industry"
+    },
+    {
+      "title": "穆迪上调中国信用评级展望，称经济面对挑战展现出韧性",
+      "url": "https://cn.wsj.com/articles/%E7%A9%86%E8%BF%AA%E4%B8%8A%E8%B0%83%E4%B8%AD%E5%9B%BD%E4%BF%A1%E7%94%A8%E8%AF%84%E7%BA%A7%E5%B1%95%E6%9C%9B-%E7%A7%B0%E7%BB%8F%E6%B5%8E%E9%9D%A2%E5%AF%B9%E6%8C%91%E6%88%98%E5%B1%95%E7%8E%B0%E5%87%BA%E9%9F%A7%E6%80%A7-2b0993d3",
+      "summary": "穆迪上调中国信用评级展望，指出中国经济在面对内外挑战时展现出较强韧性与稳定潜力。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
+      "region": "overseas",
+      "lang": "zh",
+      "category": "industry"
+    },
+    {
+      "title": "伊朗领导层内部分歧令谈判进展受挫",
+      "url": "https://cn.wsj.com/articles/%E4%BC%8A%E6%9C%97%E9%A2%86%E5%AF%BC%E5%B1%82%E5%86%85%E9%83%A8%E5%88%86%E6%AD%A7%E4%BB%A4%E8%B0%88%E5%88%A4%E8%BF%9B%E5%B1%95%E5%8F%97%E6%8C%AB-a2e3b963",
+      "summary": "伊朗领导层内部存在严重分歧，导致相关外交与核谈判进展严重受挫，加剧局势不确定性。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
+      "region": "overseas",
+      "lang": "zh",
+      "category": "industry"
+    },
+    {
+      "title": "美国扩大制裁名单，旨在遏制伊朗对华石油出口",
+      "url": "https://cn.wsj.com/articles/u-s-adds-to-sanctions-list-in-effort-to-halt-iran-oil-exports-to-china-1e3c4b6d",
+      "summary": "美国扩大制裁名单，旨在精准打击并遏制伊朗绕过限制向中国出口石油的渠道与网络。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
+      "region": "overseas",
+      "lang": "zh",
+      "category": "industry"
+    },
+    {
+      "title": "金价自伊朗战争以来已跌近11%，买入理由正重新集聚",
+      "url": "https://cn.wsj.com/articles/%E9%87%91%E4%BB%B7%E8%87%AA%E4%BC%8A%E6%9C%97%E6%88%98%E4%BA%89%E4%BB%A5%E6%9D%A5%E5%B7%B2%E8%B7%8C%E8%BF%9111-%E4%B9%B0%E5%85%A5%E7%90%86%E7%94%B1%E6%AD%A3%E9%87%8D%E6%96%B0%E9%9B%86%E8%81%9A-056bd695",
+      "summary": "金价自伊朗战争爆发以来已跌近11%，但随着风险积聚，逢低买入的理由正重新显现。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
+      "region": "overseas",
+      "lang": "zh",
+      "category": "industry"
+    },
+    {
+      "title": "查尔斯国王力图挽救英国与特朗普的关系",
+      "url": "https://cn.wsj.com/articles/WP-WSJS-0003530020",
+      "summary": "查尔斯国王正力图通过外交努力，挽救并修复英国与特朗普政府间日益紧张的特殊关系。",
+      "published": "2026-04-28",
+      "source": "WSJ中文",
       "region": "overseas",
       "lang": "zh",
       "category": "industry"
