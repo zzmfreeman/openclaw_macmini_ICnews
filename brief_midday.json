@@ -1,6 +1,6 @@
 {
-  "version": "v20260428-1307",
-  "generatedAt": "2026-04-28T13:07:00+08:00",
+  "version": "v20260429-1300",
+  "generatedAt": "2026-04-29T13:06:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [],
@@ -10,56 +10,56 @@
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区讨论趋于平稳，未出现重大产能或技术突破讨论。CoWoS产能扩张仍为长期关注焦点。"
+      "summary": "社区讨论热度平稳，无明显突发话题。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "→平稳",
       "reddit_top": null,
-      "hn_top": "Neo Semiconductor 3D X-DRAM for AI processors passed proof-of-concept (1pts)",
-      "summary": "HN出现Neo Semiconductor 3D X-DRAM通过概念验证的消息，但关注度极低。HBM产能分配仍是行业持续关注话题。"
+      "hn_top": null,
+      "summary": "HBM相关讨论近期无显著升温。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区讨论平淡，中芯国际和华虹近期无重大技术突破或产能公告引发热议。"
+      "summary": "中芯国际/中国Fab话题平稳，无重大事件。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA替代话题热度平稳，近期无新政策或产品发布引发社区关注。"
+      "summary": "EDA国产化话题讨论量正常。"
     },
     {
       "topic": "封测OSAT",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "OSAT先进封装话题暂无热度，日月光和Amkor近期无重大并购或扩产消息。"
+      "summary": "OSAT话题无明显波动。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制话题近期无新增制裁或政策变动，社区讨论热度平稳。"
+      "summary": "出口管制话题近期无重大新规讨论。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "→平稳",
       "reddit_top": null,
-      "hn_top": null,
-      "summary": "NVIDIA Blackwell产能与交付仍是长期关注点，但近期无突发新闻或新政策讨论。"
+      "hn_top": "Nvidia market share in China falls to less than 60% (3pts)",
+      "summary": "NVIDIA在中国市场份额下降引发少量讨论，热度不高。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产设备替代话题热度平淡，NAURA和AMEC近期无重大产品或订单公告引发热议。"
+      "summary": "设备国产化话题平稳。"
     }
   ],
   "items": []

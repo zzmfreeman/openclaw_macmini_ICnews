@@ -1,60 +1,66 @@
 {
-  "version": "v20260428-1659",
-  "generatedAt": "2026-04-28T16:59:39.733407",
+  "version": "v20260429-1300",
+  "generatedAt": "2026-04-29T13:06:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [],
-  "topic_pulse": [],
-  "items": [
+  "topic_pulse": [
     {
-      "title": "New CPU Memory Module",
-      "url": "https://semiengineering.com/new-cpu-memory-module/",
-      "summary": "Benefits and questions surrounding a next-gen low-power standard for high-performance compute.\nThe post New CPU Memory Module appeared first on Semiconductor Engineering.",
-      "published": "Tue, 28 Apr 2026 07:15:40 +0000",
-      "source": "SemiEngineering",
-      "region": "overseas",
-      "lang": "en",
-      "category": "design"
+      "topic": "CoWoS/先进封装",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "社区讨论热度平稳，无明显突发话题。"
     },
     {
-      "title": "Research Bits: Apr. 28",
-      "url": "https://semiengineering.com/research-bits-apr-28/",
-      "summary": "Papertronics; post-quantum cryptography; hot-carrier degradation.\nThe post Research Bits: Apr. 28 appeared first on Semiconductor Engineering.",
-      "published": "Tue, 28 Apr 2026 07:01:22 +0000",
-      "source": "SemiEngineering",
-      "region": "overseas",
-      "lang": "en",
-      "category": "design"
+      "topic": "HBM/AI存储",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "HBM相关讨论近期无显著升温。"
     },
     {
-      "title": "When Semiconductor Materials Misbehave",
-      "url": "https://semiengineering.com/when-semiconductor-materials-misbehave/",
-      "summary": "The gap between lab performance and fab reality is growing wider as packages grow more complex.\nThe post When Semiconductor Materials Misbehave appeared first on Semiconductor Engineering.",
-      "published": "Mon, 27 Apr 2026 07:01:30 +0000",
-      "source": "SemiEngineering",
-      "region": "overseas",
-      "lang": "en",
-      "category": "design"
+      "topic": "中国Fab/先进制程",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "中芯国际/中国Fab话题平稳，无重大事件。"
     },
     {
-      "title": "TSMC Tech Symposium 2026, By The Numbers",
-      "url": "https://semiengineering.com/tsmc-tech-symposium-2026-by-the-numbers/",
-      "summary": "Foundry rolls out aggressive new roadmap, focusing on area, power, and latency.\nThe post TSMC Tech Symposium 2026, By The Numbers appeared first on Semiconductor Engineering.",
-      "published": "Mon, 27 Apr 2026 07:01:14 +0000",
-      "source": "SemiEngineering",
-      "region": "overseas",
-      "lang": "en",
-      "category": "design"
+      "topic": "国产EDA/IP",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "EDA国产化话题讨论量正常。"
     },
     {
-      "title": "Chip Industry Week In Review",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-135/",
-      "summary": "Marvell's photonics buy; Onto's process control stake; TSMC A14/13 and EDA flows; Apple shuffle; LPDDR6; SOCAMM2 chipset; MATCH Act progress; EUV resist crunch; India 3D packaging; digital test card f",
-      "published": "Fri, 24 Apr 2026 07:01:37 +0000",
-      "source": "SemiEngineering",
-      "region": "overseas",
-      "lang": "en",
-      "category": "design"
+      "topic": "封测OSAT",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "OSAT话题无明显波动。"
+    },
+    {
+      "topic": "出口管制/制裁",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "出口管制话题近期无重大新规讨论。"
+    },
+    {
+      "topic": "AI芯片/NVIDIA",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": "Nvidia market share in China falls to less than 60% (3pts)",
+      "summary": "NVIDIA在中国市场份额下降引发少量讨论，热度不高。"
+    },
+    {
+      "topic": "设备/材料国产化",
+      "heat": "→平稳",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "设备国产化话题平稳。"
     }
-  ]
+  ],
+  "items": []
 }
