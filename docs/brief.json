@@ -1,213 +1,453 @@
 {
-  "version": "v20260429-2000",
-  "generatedAt": "2026-04-29T20:00:00+08:00",
-  "period": "evening",
+  "version": "v20260430-0600",
+  "generatedAt": "2026-04-30T06:00:00+08:00",
+  "period": "morning",
   "commit": "",
   "glossary_list": [
     {
-      "term": "18A-P",
-      "desc": "Intel 1.8nm增强版制程节点，面向高性能计算和移动芯片制造",
-      "category": "制造"
-    },
-    {
-      "term": "EMIB",
-      "desc": "Embedded Multi-die Interconnect Bridge，Intel先进封装桥接技术，用于多芯片互联",
+      "term": "CoWoS",
+      "desc": "Chip on Wafer on Substrate，台积电先进封装技术，将芯片堆叠在晶圆上再封装到基板上",
       "category": "封装"
     },
     {
-      "term": "4nm良率",
-      "desc": "4纳米制程的芯片制造良品率，80%为成熟量产水平的关键门槛",
+      "term": "2nm/N2",
+      "desc": "台积电第二代先进制程节点，2025年量产，采用GAA晶体管架构",
       "category": "制造"
     },
     {
-      "term": "东京威力科创",
-      "desc": "Tokyo Electron，日本半导体设备巨头，全球第二大半导体制造设备供应商",
-      "category": "设备"
+      "term": "SPAD-SoC",
+      "desc": "单光子avalanche diode集成SoC，激光雷达接收端芯片架构",
+      "category": "设计"
     },
     {
-      "term": "供应链信任",
-      "desc": "设备供应商与晶圆厂之间的技术共享和商业合作关系基础，泄密事件可能破坏信任",
+      "term": "华大九天/Empyrean",
+      "desc": "国产EDA龙头，提供模拟电路设计全流程工具",
+      "category": "EDA"
+    },
+    {
+      "term": "舱驾融合",
+      "desc": "智能座舱与自动驾驶计算平台融合，单芯片同时处理座舱和驾驶任务",
+      "category": "设计"
+    },
+    {
+      "term": "Polariton",
+      "desc": "Marvell收购的硅光技术公司，专注光互连芯片设计",
       "category": "商业"
+    },
+    {
+      "term": "GPNPU",
+      "desc": "通用神经网络处理单元，云天励飞自研AI推理加速架构",
+      "category": "设计"
+    },
+    {
+      "term": "ChipStack",
+      "desc": "Cadence与Google合作推出的AI超级Agent，用于自动化芯片设计",
+      "category": "EDA"
     }
   ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
-      "heat": "→平稳",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "Intel EMIB获谷歌TPUv8e采用，先进封装竞争从TSMC CoWoS扩展至Intel EMIB，格局多元化"
+      "heat": "↑↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "CoWoS产能扩张成为行业焦点，台积电ASP接近7nm节点水平，2026年产能预计大幅增长。封装正从后端工序走向产业核心。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "→平稳",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "HBM需求持续旺盛，SK海力士和三星竞争下一代HBM4产能，供应紧张态势延续"
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "HBM需求持续但无重大突发，SK海力士和三星稳步扩产。TSMC CoWoS路线图规划至2029年支持24层HBM5E堆叠。"
     },
     {
       "topic": "中国Fab/先进制程",
-      "heat": "→平稳",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "三星4nm良率突破80%挑战台积电，中芯国际先进制程进展仍受设备限制"
+      "heat": "↑↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "美国白宫进一步打压华虹等中国成熟制程Fab，台厂成熟制程或受益。SMIC报价传闻上涨10%。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "国产EDA工具在成熟节点持续渗透，先进节点仍依赖Synopsys/Cadence"
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "华大九天估值承压但仍是国产EDA破冰者。Cadence Q1营收增长19%，与Google合作推出ChipStack AI超级Agent。"
     },
     {
       "topic": "封测OSAT",
-      "heat": "→平稳",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "先进封装产能持续紧张，日月光和长电科技扩产进展受关注"
+      "heat": "↑↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "CoWoS ASP趋近7nm晶圆价格，先进封装正成为新的价值中心。ASE、Amkor需求强劲推动扩产。"
     },
     {
       "topic": "出口管制/制裁",
-      "heat": "→平稳",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "出口管制持续影响中国半导体发展，设备获取受限推动国产替代加速"
+      "heat": "↑↑升温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "白宫新一轮打击中国红色供应链，华虹被盯上，成熟制程领域成新战场。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "→平稳",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "NVIDIA Blackwell架构需求旺盛，推理侧CPU/GPU比率变化引发架构讨论"
+      "reddit_top": null,
+      "hn_top": "Nvidia market share in China falls below 60% (3pts)",
+      "summary": "NVIDIA中国市场份额跌破60%，国产AI芯片加速替代。DeepSeek-V4发布，华为昇腾和云天励飞完成适配验证。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "→平稳",
-      "reddit_top": "null",
-      "hn_top": "null",
-      "summary": "东京威力科创泄密事件引发供应链安全关注，国产设备替代进程加速"
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "无重大突发，北方华创和中微公司持续稳步推进国产设备替代进程。"
     }
   ],
   "items": [
     {
-      "title": "Intel 18A-P 据报拿下苹果下一代M芯片订单，EMIB封装赢得谷歌TPUv8e客户",
-      "url": "https://www.trendforce.com/news/2026/04/29/news-intel-foundry-gains-momentum-apple-reportedly-eyes-18a-p-as-google-explores-advanced-packaging/",
-      "published": "2026-04-29T10:35:33+08:00",
-      "source": "TrendForce",
-      "description": "Intel CEO Lip-Bu Tan flagged that CPU-to-GPU ratio trending toward 1:1. Apple reportedly evaluating 18A-P for next M chips, Google interested in EMIB for TPUv8e, Tesla already signed 14A.",
-      "topic": "t2",
-      "summary": "Intel晶圆代工业务迎来重大转机：据TrendForce报道，苹果正评估18A-P制程用于下一代M系列芯片，谷歌考虑采用EMIB先进封装技术用于TPUv8e，特斯拉已签约14A制程。英特尔CEO Lip-Bu Tan透露CPU与GPU比率正从1:8趋向1:1，服务器CPU需求反弹。",
+      "title": "FTC对IonQ-SkyWater 155亿美元芯片合作提出新审查要求",
+      "summary": "美国FTC对IonQ与SkyWater的155亿美元芯片合作关系提出新审查要求，关注潜在垄断风险和供应链安全。",
+      "source": "Exa",
+      "published": "2026-04-27T00:00:00.000Z",
+      "url": "https://www.pymnts.com/cpi-posts/ftc-targets-15-5b-ionq-skywater-chip-tie-up-with-new-request/",
       "tags": [
-        "Intel",
-        "foundry",
-        "Apple",
-        "18A-P",
-        "EMIB",
-        "Google"
+        "并购",
+        "投资",
+        "IPO"
       ],
       "insights": [
-        "Intel代工获苹果谷歌两大客户青睐，晶圆代工格局或迎来重大洗牌",
-        "EMIB先进封装成为Intel代工差异化竞争关键抓手",
-        "CPU/GPU比率回归1:1趋势，服务器CPU需求复苏将重塑AI基础设施投资节奏"
+        "IonQ-SkyWater审查凸显量子计算与半导体交叉领域监管收紧趋势"
       ],
       "actions": [
-        "密切关注Intel 18A-P制程进展和苹果验证进度，评估代工供应商策略调整",
-        "关注EMIB封装良率和产能规划，评估先进封装供应商竞争格局变化",
-        "跟踪服务器CPU需求反弹对SoC设计公司订单影响"
+        "关注IonQ-SkyWater审查后续进展，评估量子计算芯片供应链影响"
       ],
       "glossary": [
-        "18A-P",
-        "EMIB"
+        "FTC审查",
+        "IonQ量子计算"
       ],
       "region": "overseas"
     },
     {
-      "title": "三星代工4nm良率突破80%，直追台积电正面挑战",
-      "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=268726",
-      "published": "2026-04-29T11:44:01+08:00",
-      "source": "BusinessKorea",
-      "description": "Samsung Electronics foundry division has surpassed the mature process stage of its 4nm process, reaching 80% yield and challenging TSMC directly.",
-      "topic": "t1",
-      "summary": "三星电子代工部门宣布4nm制程良率突破80%大关，正式超越成熟制程阶段达到技术巅峰水平。三星4nm平台正作为完整方案扩展至AI、汽车和通信领域，首次在良率上与台积电正面竞争。",
+      "title": "Marvell收购Polariton Technologies，布局硅光互连技术",
+      "summary": "Marvell收购硅光技术公司Polariton Technologies，加强数据中心光互连芯片布局，瞄准下一代高速互联需求。",
+      "source": "Exa-补充",
+      "published": "2026-04-27T00:00:00.000Z",
+      "url": "https://www.eenewseurope.com/en/marvell-acquires-polariton-for-optical-scaling/",
       "tags": [
-        "Samsung",
-        "foundry",
-        "4nm",
-        "yield",
-        "TSMC"
+        "并购",
+        "投资",
+        "IPO"
       ],
       "insights": [
-        "三星4nm良率突破80%是代工格局重要拐点，首次在核心制程指标上具备与台积电正面竞争条件",
-        "良率突破将显著降低三星代工客户的产品成本风险，可能改变fabless客户的代工选择策略"
+        "硅光互连成为数据中心下一代技术方向，Marvell通过收购建立差异化竞争力"
       ],
       "actions": [
-        "评估三星4nm良率突破对当前代工供应商分配策略的影响",
-        "关注三星代工是否因此获得高通等大客户追加订单",
-        "对比三星4nm与台积电N4P的良率和成本数据，更新供应商评估矩阵"
+        "评估Marvell硅光产品路线，数据中心高速互联需求可能改变采购策略"
       ],
       "glossary": [
-        "4nm",
-        "良率"
+        "硅光互连",
+        "Polariton"
       ],
       "region": "overseas"
     },
     {
-      "title": "台积电及关联公司完全退出Arm持股，套现2.31亿美元",
-      "url": "https://parameter.io/tsmc-tsm-exits-arm-holdings-arm-completely-pockets-231m-in-final-sale/",
-      "published": "2026-04-29T16:07:25+08:00",
-      "source": "Parameter",
-      "description": "TSMC and its unit TSMC Partners have disposed of entire shares in Arm Holdings for $231 million, completely exiting Arm.",
-      "topic": "t5",
-      "summary": "台积电及其关联公司TSMC Partners完全出售所持Arm Holdings全部股份，套现约2.31亿美元。此举标志着台积电正式退出对Arm的战略投资，释放资金用于核心产能扩张。分析师认为此举对Arm股价形成短期压力。",
+      "title": "白宫新一轮打击红色供应链：美国盯上华虹，成熟制程台厂受益",
+      "summary": "美国白宫新一轮打压中国红色供应链，将华虹纳入关注范围，成熟制程领域成新制裁焦点。台湾成熟制程厂商有望受益承接订单转移。",
+      "source": "Serper",
+      "published": "5小时前",
+      "url": "https://money.udn.com/money/story/5612/9472866?from=edn_industry_index",
       "tags": [
-        "TSMC",
-        "Arm",
-        "divestment",
-        "investment"
+        "制造",
+        "晶圆代工",
+        "产能"
       ],
       "insights": [
-        "台积电完全退出Arm持股，释放资金可能用于加速先进制程和先进封装产能扩张",
-        "Arm与台积电的产业合作关系不会因股权退出而改变，但战略投资信号释放值得关注"
+        "美国制裁从先进制程延伸至成熟制程，华虹成新靶点；台湾成熟制程厂受益承接转单"
       ],
       "actions": [
-        "关注台积电释放资金后的产能投资方向，评估对供应链的影响",
-        "跟踪Arm股价波动及其对IP授权业务影响"
+        "评估华虹相关订单风险，考虑台湾成熟制程Fab作为备选供应源"
       ],
       "glossary": [
-        "套现",
-        "持股退出"
-      ],
-      "region": "overseas"
-    },
-    {
-      "title": "东京威力科创前员工泄露台积电机密被判刑，日企与台积电供应链信任面临考验",
-      "url": "https://asia.nikkei.com/business/tech/semiconductors/tokyo-electron-s-close-ties-with-tsmc-at-risk-after-chip-tech-leak/",
-      "published": "2026-04-29T14:28:00+08:00",
-      "source": "Nikkei Asia",
-      "description": "A former employee of Tokyo Electron subsidiary was convicted for leaking TSMC confidential data, testing Japan-TSMC supply chain trust.",
-      "topic": "t1",
-      "summary": "日本半导体设备巨头东京威力科创（Tokyo Electron）旗下子公司前员工因泄露台积电机密资料被判刑。此事件对日本设备供应商与台积电之间的供应链信任关系构成考验，可能影响设备合作和技术共享安排。东京威力科创因此被罚款1.5亿新台币。",
-      "tags": [
-        "Tokyo Electron",
-        "TSMC",
-        "leak",
-        "supply chain",
-        "trust"
-      ],
-      "insights": [
-        "设备供应商员工泄密事件可能引发台积电收紧对设备厂商的技术共享和合作审查",
-        "供应链安全信任受损可能导致台积电重新评估与部分设备供应商的合作深度"
-      ],
-      "actions": [
-        "关注台积电对设备供应商的安全审查政策变化",
-        "评估供应链安全事件对设备采购和交付周期影响",
-        "加强自身供应链安全管控措施，防范类似泄密风险"
-      ],
-      "glossary": [
-        "东京威力科创",
-        "供应链信任"
+        "红色供应链",
+        "成熟制程"
       ],
       "region": "domestic"
+    },
+    {
+      "title": "台积电2026年资本支出创历史新高560亿美元，加速2nm和A16量产",
+      "summary": "台积电宣布2026年资本支出560亿美元创历史新高，重点投入2nm和A16制程量产，AI芯片产能扩张全面加速。",
+      "source": "Exa",
+      "published": "2026-04-28T00:00:00.000Z",
+      "url": "https://investor.wedbush.com/wedbush/article/tokenring-2026-1-15-tsmc-sets-historic-56-billion-capex-for-2026-to-accelerate-2nm-and-a16-production",
+      "tags": [
+        "制造",
+        "晶圆代工",
+        "产能"
+      ],
+      "insights": [
+        "台积电560亿美元资本支出创纪录，2nm/A16量产节奏加快，AI芯片产能竞赛全面升级"
+      ],
+      "actions": [
+        "跟踪台积电2nm/A16量产节奏，评估2026-2027年先进制程产能分配"
+      ],
+      "glossary": [
+        "A16制程",
+        "资本支出"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "台积电2nm产能年增长70%，目标2028年持续扩产",
+      "summary": "台积电规划2nm产能年增长70%持续至2028年，应对AI和HPC芯片需求爆发性增长。",
+      "source": "Exa",
+      "published": "2026-04-28T00:00:00.000Z",
+      "url": "https://www.newkerala.com/news/a/tsmc-projects-70-annual-growth-2nm-capacity-through-943.htm",
+      "tags": [
+        "制造",
+        "晶圆代工",
+        "产能"
+      ],
+      "insights": [
+        "2nm产能70%年增表明台积电对AI/HPC需求信心充足，GAA制程量产节奏优于预期"
+      ],
+      "actions": [
+        "提前规划2nm产能需求，与台积电沟通产能预留窗口"
+      ],
+      "glossary": [
+        "GAA晶体管",
+        "2nm量产"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "台积电3nm月产能2026年或将达18万片，同比增长超40%",
+      "summary": "台积电3nm月产能2026年预计达18万片，同比增长超40%，苹果和AI芯片客户持续拉动需求。",
+      "source": "Exa",
+      "published": "2026-04-27T00:00:00.000Z",
+      "url": "https://www.trendforce.com/news/2026/04/27/news-tsmc-3nm-monthly-capacity-may-hit-180k-wafers-by-2026-up-over-40-yoy-on-ai-demand/",
+      "tags": [
+        "制造",
+        "晶圆代工",
+        "产能"
+      ],
+      "insights": [
+        "3nm月产能18万片意味着台积电高端制程供应弹性大幅提升，客户议价空间收窄"
+      ],
+      "actions": [
+        "3nm供应弹性提升有利于产能获取，但仍需提前锁定2026年下半年窗口"
+      ],
+      "glossary": [
+        "月产能18万片",
+        "FinFET"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "地平线发布中国首款舱驾融合智能体芯片及操作系统",
+      "summary": "地平线发布中国首款舱驾融合智能体芯片，单芯片同时处理智能座舱和自动驾驶任务，配套发布智能体操作系统。",
+      "source": "Exa",
+      "published": "2026-04-27T00:00:00.000Z",
+      "url": "https://finance.sina.com.cn/stock/zqgd/2026-04-27/doc-inhvxhzk9223668.shtml",
+      "tags": [
+        "芯片设计",
+        "fabless",
+        "AI芯片"
+      ],
+      "insights": [
+        "舱驾融合趋势加速，单芯片双域处理降低系统成本，中国设计公司抢占车规SoC赛道"
+      ],
+      "actions": [
+        "关注舱驾融合SoC量产进度和车规认证状态，评估替代国外座舱芯片可行性"
+      ],
+      "glossary": [
+        "舱驾融合",
+        "智能体芯片"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "芯擎科技发布5nm车规级AI舱驾融合芯片\"龍鹰二号\"",
+      "summary": "芯擎科技发布5nm车规级AI舱驾融合芯片\"龍鹰二号\"，AI算力达200TOPS，支持座舱和驾驶双域融合计算。",
+      "source": "Exa",
+      "published": "2026-04-28T00:00:00.000Z",
+      "url": "https://finance.sina.com.cn/roll/2026-04-28/doc-inhwaicu8477282.shtml",
+      "tags": [
+        "芯片设计",
+        "fabless",
+        "AI芯片"
+      ],
+      "insights": [
+        "5nm车规芯片发布标志国产汽车芯片进入先进制程，200TOPS算力对标国际Tier1"
+      ],
+      "actions": [
+        "评估龍鹰二号200TOPS算力是否满足产品需求，关注量产时间表和供应稳定性"
+      ],
+      "glossary": [
+        "龍鹰二号",
+        "200TOPS"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "速腾聚创发布EOCENE SPAD-SoC架构及Phoenix/Peacock芯片系列",
+      "summary": "速腾聚创发布EOCENE SPAD-SoC架构及Phoenix/Peacock芯片系列，将激光雷达接收端集成到SoC，大幅降低成本和体积。",
+      "source": "Exa",
+      "published": "2026-04-28T00:00:00.000Z",
+      "url": "https://en.antaranews.com/news/413899/robosense-unveiled-eocene-spad-soc-architecture-and-chipsets-phoenix-and-peacock",
+      "tags": [
+        "芯片设计",
+        "fabless",
+        "AI芯片"
+      ],
+      "insights": [
+        "SPAD-SoC架构将激光雷达核心器件集成到单芯片，成本和体积大幅下降，固态激光雷达普及加速"
+      ],
+      "actions": [
+        "SPAD-SoC架构有望降低激光雷达BOM成本，关注量产时间评估采购机会"
+      ],
+      "glossary": [
+        "SPAD-SoC",
+        "EOCENE架构"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "云天励飞GPNPU架构完成DeepSeek-V4模型关键机制适配验证",
+      "summary": "云天励飞自研GPNPU架构和IFWA智能融合软件栈完成DeepSeek-V4大模型关键机制适配验证，国产AI推理芯片能力持续突破。",
+      "source": "Exa-补充",
+      "published": "2026-04-25T00:00:00.000Z",
+      "url": "https://finance.sina.com.cn/wm/2026-04-25/doc-inhvuaqt0347536.shtml",
+      "tags": [
+        "芯片设计",
+        "fabless",
+        "AI芯片"
+      ],
+      "insights": [
+        "国产AI推理芯片适配DeepSeek-V4验证成功，国产算力生态闭环能力增强"
+      ],
+      "actions": [
+        "国产AI推理芯片适配验证成功，关注GPNPU量产和云天励飞供应能力评估"
+      ],
+      "glossary": [
+        "GPNPU",
+        "DeepSeek-V4适配"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "华大九天：国产EDA的破冰者，估值焦虑与希望并存",
+      "summary": "国产EDA龙头华大九天面临估值考验，利润下滑但零售资金持续流入，国产EDA替代进口的长期趋势不变但短期承压。",
+      "source": "Exa-补充",
+      "published": "2026-04-28T00:00:00.000Z",
+      "url": "https://www.tour028.com/t/143377.html",
+      "tags": [
+        "EDA",
+        "IP",
+        "设计自动化"
+      ],
+      "insights": [
+        "国产EDA估值面临考验，利润下滑与资金流入并存，长期替代进口趋势不变但短期承压"
+      ],
+      "actions": [
+        "跟踪华大九天产品线更新和客户拓展，评估国产EDA替代进口可行性"
+      ],
+      "glossary": [
+        "华大九天",
+        "国产EDA"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "Cadence Q1 2026财报：营收增长19%，AI驱动EDA需求加速",
+      "summary": "Cadence Q1 2026财报显示营收增长19%，AI驱动EDA工具需求加速，订单积压达80亿美元新高。",
+      "source": "Exa",
+      "published": "2026-04-27T00:00:00.000Z",
+      "url": "https://www.benzinga.com/insights/news/26/04/52082160/cadence-design-systems-q1-2026-earnings-call-transcript",
+      "tags": [
+        "EDA",
+        "IP",
+        "设计自动化"
+      ],
+      "insights": [
+        "Cadence营收增长19%验证EDA景气周期，AI驱动设计工具需求成为新增长引擎"
+      ],
+      "actions": [
+        "Cadence景气周期持续，关注AI驱动EDA工具定价变化和订阅模式演进"
+      ],
+      "glossary": [
+        "Cadence Q1财报",
+        "AI驱动EDA"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "Cadence与Google合作推出ChipStack AI超级Agent",
+      "summary": "Cadence与Google合作推出ChipStack AI超级Agent，在Google Cloud上扩展AI驱动的芯片设计能力，EDA走向自动化设计。",
+      "source": "Exa-补充",
+      "published": "2026-04-26T00:00:00.000Z",
+      "url": "https://www.eenano.com/article/2343.html",
+      "tags": [
+        "EDA",
+        "IP",
+        "设计自动化"
+      ],
+      "insights": [
+        "EDA+Cloud+AI三栈融合加速，ChipStack超级Agent代表芯片设计自动化新范式"
+      ],
+      "actions": [
+        "ChipStack AI超级Agent可能改变芯片设计流程，评估Google Cloud上EDA工具试用"
+      ],
+      "glossary": [
+        "ChipStack",
+        "AI超级Agent"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "CoWoS产能2026年预计大幅飙升：先进封装进入爆发增长期",
+      "summary": "CoWoS先进封装产能2026年预计大幅飙升，台积电、ASE、Amkor等加速扩产，先进封装从后端工序走向产业核心。",
+      "source": "Brave",
+      "published": "2024-12-31T18:40:10",
+      "url": "https://semiwiki.com/forum/threads/cowos-capacity-set-to-skyrocket-by-2026-massive-growth-in-advanced-packaging.21773/",
+      "tags": [
+        "封测",
+        "先进封装",
+        "CoWoS"
+      ],
+      "insights": [
+        "先进封装产能爆发增长，CoWoS从瓶颈走向规模量产，OSAT格局加速重塑"
+      ],
+      "actions": [
+        "CoWoS产能扩张利好封装供应弹性，但仍需关注产能分配优先级和排队时间"
+      ],
+      "glossary": [
+        "CoWoS扩产",
+        "先进封装"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "台积电CoWoS晶圆ASP接近7nm水平，先进封装成为新价值核心",
+      "summary": "台积电CoWoS晶圆ASP接近7nm制程水平，封装价值正在向晶圆制造价格靠拢，先进封装产业地位质变。",
+      "source": "Exa-补充",
+      "published": "2026-04-28T00:00:00.000Z",
+      "url": "https://www.trendforce.com/news/2026/04/28/news-tsmc-cowos-wafer-asp-reportedly-nears-7nm-levels-advanced-packaging-poised-to-become-a-key-profit-driver/",
+      "tags": [
+        "封测",
+        "先进封装",
+        "CoWoS"
+      ],
+      "insights": [
+        "CoWoS ASP接近7nm晶圆价格表明封装价值质变，先进封装不再是廉价后端工序"
+      ],
+      "actions": [
+        "CoWoS ASP接近7nm意味着封装成本占比上升，评估整体封装采购预算调整"
+      ],
+      "glossary": [
+        "CoWoS ASP",
+        "封装价值质变"
+      ],
+      "region": "overseas"
     }
   ]
 }

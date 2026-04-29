@@ -1,48 +1,48 @@
 {
-  "version": "v20260429-0600",
-  "generatedAt": "2026-04-29T06:00:00+08:00",
+  "version": "v20260430-0600",
+  "generatedAt": "2026-04-30T06:00:00+08:00",
   "period": "morning",
   "commit": "",
   "glossary_list": [
     {
-      "term": "2nm制程",
-      "desc": "台积电下一代先进制程节点，5座厂同时放量标志着量产规模化",
-      "category": "制造"
-    },
-    {
-      "term": "EUV光刻机",
-      "desc": "极紫外光刻设备，ASML独供，产能成为2nm以下制程扩张瓶颈",
-      "category": "设备"
-    },
-    {
-      "term": "TGV（玻璃通孔）",
-      "desc": "Through Glass Via技术，玻璃基板垂直互连，射频IPD封装新方案",
+      "term": "CoWoS",
+      "desc": "Chip on Wafer on Substrate，台积电先进封装技术，将芯片堆叠在晶圆上再封装到基板上",
       "category": "封装"
     },
     {
-      "term": "IPD（集成无源器件）",
-      "desc": "Integrated Passive Device，将无源元件集成于芯片内，5G/6G射频应用",
-      "category": "封装"
-    },
-    {
-      "term": "盈利兑现期",
-      "desc": "国产半导体设备从技术投入期进入利润兑现阶段，标志着商业化成熟",
-      "category": "商业"
-    },
-    {
-      "term": "产能利用率",
-      "desc": "晶圆厂产能使用比例，满载反映供需紧张，涨价前兆",
+      "term": "2nm/N2",
+      "desc": "台积电第二代先进制程节点，2025年量产，采用GAA晶体管架构",
       "category": "制造"
     },
     {
-      "term": "复合增长率",
-      "desc": "多年产能增长的平均年化增速，台积电2nm3年CAGR达70%",
-      "category": "制造"
+      "term": "SPAD-SoC",
+      "desc": "单光子avalanche diode集成SoC，激光雷达接收端芯片架构",
+      "category": "设计"
     },
     {
-      "term": "跨境并购合规审查",
-      "desc": "各国对半导体等敏感行业跨国收购的监管审查趋严",
+      "term": "华大九天/Empyrean",
+      "desc": "国产EDA龙头，提供模拟电路设计全流程工具",
+      "category": "EDA"
+    },
+    {
+      "term": "舱驾融合",
+      "desc": "智能座舱与自动驾驶计算平台融合，单芯片同时处理座舱和驾驶任务",
+      "category": "设计"
+    },
+    {
+      "term": "Polariton",
+      "desc": "Marvell收购的硅光技术公司，专注光互连芯片设计",
       "category": "商业"
+    },
+    {
+      "term": "GPNPU",
+      "desc": "通用神经网络处理单元，云天励飞自研AI推理加速架构",
+      "category": "设计"
+    },
+    {
+      "term": "ChipStack",
+      "desc": "Cadence与Google合作推出的AI超级Agent，用于自动化芯片设计",
+      "category": "EDA"
     }
   ],
   "topic_pulse": [
@@ -51,451 +51,403 @@
       "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "台积电3nm/2nm产能扩张加速驱动CoWoS需求持续攀升，长电科技TGV技术突破和盛合晶微市值登顶显示先进封装赛道景气高涨。"
+      "summary": "CoWoS产能扩张成为行业焦点，台积电ASP接近7nm节点水平，2026年产能预计大幅增长。封装正从后端工序走向产业核心。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "大摩报告指出存储瓶颈逐步缓解，HBM供给改善但AI需求仍在增长，SK海力士和三星HBM产能竞赛持续。"
+      "summary": "HBM需求持续但无重大突发，SK海力士和三星稳步扩产。TSMC CoWoS路线图规划至2029年支持24层HBM5E堆叠。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中芯国际涨价10%反映国内代工产能紧张加剧，成熟制程供需逆转，国内Fab进入全面景气周期。"
+      "summary": "美国白宫进一步打压华虹等中国成熟制程Fab，台厂成熟制程或受益。SMIC报价传闻上涨10%。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "Cadence Q1超预期印证国际EDA景气上行，国产EDA替代仍在技术突破期，商业化进程需更多时间。"
+      "summary": "华大九天估值承压但仍是国产EDA破冰者。Cadence Q1营收增长19%，与Google合作推出ChipStack AI超级Agent。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "盛合晶微市值登顶封测板块、长电TGV突破、伟测173%增长，封测行业全面景气上行，先进封装成为价值重估核心驱动。"
+      "summary": "CoWoS ASP趋近7nm晶圆价格，先进封装正成为新的价值中心。ASE、Amkor需求强劲推动扩产。"
     },
     {
       "topic": "出口管制/制裁",
-      "heat": "→平稳",
+      "heat": "↑↑升温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期无重大新制裁措施出台，跨境并购受阻案例增加但主要针对消费科技，半导体出口管制暂时维持现有框架。"
+      "summary": "白宫新一轮打击中国红色供应链，华虹被盯上，成熟制程领域成新战场。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "→平稳",
       "reddit_top": null,
-      "hn_top": null,
-      "summary": "NVIDIA市值创历史新高但近期无重大技术发布，Blackwell产能爬坡稳步推进，AI芯片需求持续但未见突发性事件。"
+      "hn_top": "Nvidia market share in China falls below 60% (3pts)",
+      "summary": "NVIDIA中国市场份额跌破60%，国产AI芯片加速替代。DeepSeek-V4发布，华为昇腾和云天励飞完成适配验证。"
     },
     {
       "topic": "设备/材料国产化",
-      "heat": "↑↑升温",
+      "heat": "→平稳",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中微公司Q1净利增长197%标志国产设备进入盈利兑现期，EUV光刻机成为下一个瓶颈推动国产替代加速，国产化率持续攀升。"
+      "summary": "无重大突发，北方华创和中微公司持续稳步推进国产设备替代进程。"
     }
   ],
   "items": [
     {
-      "title": "台积电3nm与2nm产能将于2026年底增产20%，供给紧缺持续",
-      "summary": "台积电计划在2026年底前将3nm和2nm制程的晶圆产量提升20%，以应对持续的AI芯片需求供给紧张。目前3nm月产能约15万片，目标增至18万片。",
-      "source": "Wccftech",
-      "published": "2026-04-27T06:45:07Z",
-      "url": "https://wccftech.com/tsmc-3nm-2nm-wafer-output-to-be-boosted-by-the-end-of-2026/",
+      "title": "FTC对IonQ-SkyWater 155亿美元芯片合作提出新审查要求",
+      "summary": "美国FTC对IonQ与SkyWater的155亿美元芯片合作关系提出新审查要求，关注潜在垄断风险和供应链安全。",
+      "source": "Exa",
+      "published": "2026-04-27T00:00:00.000Z",
+      "url": "https://www.pymnts.com/cpi-posts/ftc-targets-15-5b-ionq-skywater-chip-tie-up-with-new-request/",
       "tags": [
-        "台积电",
-        "先进制程",
-        "产能扩张",
-        "3nm",
-        "2nm"
+        "并购",
+        "投资",
+        "IPO"
       ],
       "insights": [
-        "台积电3nm/2nm产能扩张加速，AI芯片供给紧缺正在推动代工龙头持续加码投资",
-        "2nm量产进度快于预期，5座2nm厂同时放量意味着先进制程竞赛进入新阶段"
+        "IonQ-SkyWater审查凸显量子计算与半导体交叉领域监管收紧趋势"
       ],
       "actions": [
-        "跟踪台积电2nm产能进度，评估对自身项目时间线的影响",
-        "关注台积电产能分配策略变化，提前锁定先进制程产能"
+        "关注IonQ-SkyWater审查后续进展，评估量子计算芯片供应链影响"
       ],
       "glossary": [
-        "2nm制程",
-        "月产能18万片"
+        "FTC审查",
+        "IonQ量子计算"
       ],
       "region": "overseas"
     },
     {
-      "title": "台积电5座2奈米厂同时放量，3年产能复合成长70%",
-      "summary": "台积电同时推进5座2奈米晶圆厂放量生产，预计3年内2nm产能复合增长率达70%，标志着先进制程扩张进入前所未有的规模化阶段。",
-      "source": "经济日报",
-      "published": "2026-04-28T00:00:00Z",
-      "url": "https://money.udn.com/money/story/5612/9468550",
+      "title": "Marvell收购Polariton Technologies，布局硅光互连技术",
+      "summary": "Marvell收购硅光技术公司Polariton Technologies，加强数据中心光互连芯片布局，瞄准下一代高速互联需求。",
+      "source": "Exa-补充",
+      "published": "2026-04-27T00:00:00.000Z",
+      "url": "https://www.eenewseurope.com/en/marvell-acquires-polariton-for-optical-scaling/",
       "tags": [
-        "台积电",
-        "2nm",
-        "产能扩张",
-        "复合成长"
+        "并购",
+        "投资",
+        "IPO"
       ],
       "insights": [
-        "5座2nm厂同时放量是台积电史上最大规模的单一制程扩张，反映AI需求驱动的产能竞赛白热化",
-        "3年70%复合增长率意味着2nm产能将从初期快速跃升至量产规模，对供应链各环节产生连锁影响"
+        "硅光互连成为数据中心下一代技术方向，Marvell通过收购建立差异化竞争力"
       ],
       "actions": [
-        "评估2nm产能快速放量对CoWoS先进封装配套产能的需求压力",
-        "关注2nm量产良率进展，为后续项目制程选择提供参考"
+        "评估Marvell硅光产品路线，数据中心高速互联需求可能改变采购策略"
       ],
       "glossary": [
-        "复合增长率",
-        "放量生产"
+        "硅光互连",
+        "Polariton"
       ],
       "region": "overseas"
     },
     {
-      "title": "中芯国际部分产能涨价10%，晶圆代工行业产能紧张",
-      "summary": "中芯国际针对部分成熟制程产能实施涨价约10%，反映出成熟制程晶圆代工供给紧缺态势，多家代工厂产能利用率接近满载。",
-      "source": "36氪",
-      "published": "2026-04-28T00:00:00Z",
-      "url": "https://www.36kr.com/p/3609446170543104",
+      "title": "白宫新一轮打击红色供应链：美国盯上华虹，成熟制程台厂受益",
+      "summary": "美国白宫新一轮打压中国红色供应链，将华虹纳入关注范围，成熟制程领域成新制裁焦点。台湾成熟制程厂商有望受益承接订单转移。",
+      "source": "Serper",
+      "published": "5小时前",
+      "url": "https://money.udn.com/money/story/5612/9472866?from=edn_industry_index",
       "tags": [
-        "中芯国际",
-        "涨价",
-        "成熟制程",
-        "产能紧张"
+        "制造",
+        "晶圆代工",
+        "产能"
       ],
       "insights": [
-        "中芯国际涨价10%标志着成熟制程供需关系逆转，代工行业进入全面产能紧张周期",
-        "涨价潮可能蔓延至其他国内代工厂，采购成本压力将在Q2-Q3持续"
+        "美国制裁从先进制程延伸至成熟制程，华虹成新靶点；台湾成熟制程厂受益承接转单"
       ],
       "actions": [
-        "评估中芯国际涨价对项目采购预算的影响，提前锁定产能和价格",
-        "对比华虹、长鑫等替代代工厂的价格和产能情况，制定备选方案"
+        "评估华虹相关订单风险，考虑台湾成熟制程Fab作为备选供应源"
       ],
       "glossary": [
-        "成熟制程",
-        "产能利用率"
+        "红色供应链",
+        "成熟制程"
       ],
       "region": "domestic"
     },
     {
-      "title": "台湾法院判决前东京电子员工窃取台积电商业秘密案获刑10年",
-      "summary": "台湾法院对前东京电子员工窃取台积电商业秘密案判处10年有期徒刑，涉及先进制程核心技术泄露，凸显半导体知识产权保护严峻态势。",
-      "source": "Japan Today",
-      "published": "2026-04-27T21:38:41Z",
-      "url": "https://japantoday.com/category/crime/taiwan-court-sentences-ex-tokyo-electron-staff-to-10-years-in-tsmc-trade-secrets-case",
+      "title": "台积电2026年资本支出创历史新高560亿美元，加速2nm和A16量产",
+      "summary": "台积电宣布2026年资本支出560亿美元创历史新高，重点投入2nm和A16制程量产，AI芯片产能扩张全面加速。",
+      "source": "Exa",
+      "published": "2026-04-28T00:00:00.000Z",
+      "url": "https://investor.wedbush.com/wedbush/article/tokenring-2026-1-15-tsmc-sets-historic-56-billion-capex-for-2026-to-accelerate-2nm-and-a16-production",
       "tags": [
-        "商业秘密",
-        "台积电",
-        "东京电子",
-        "知识产权"
+        "制造",
+        "晶圆代工",
+        "产能"
       ],
       "insights": [
-        "10年重判显示台湾对半导体知识产权保护力度加大，行业人才流动的法律风险显著上升",
-        "案件涉及设备商与代工厂之间的技术信息边界，提醒企业在合作中需加强信息隔离机制"
+        "台积电560亿美元资本支出创纪录，2nm/A16量产节奏加快，AI芯片产能竞赛全面升级"
       ],
       "actions": [
-        "审查自身与供应商/客户之间的信息隔离机制和NDA条款",
-        "关注半导体行业知识产权保护新规，完善内部保密制度"
+        "跟踪台积电2nm/A16量产节奏，评估2026-2027年先进制程产能分配"
       ],
       "glossary": [
-        "商业秘密",
-        "NDA"
+        "A16制程",
+        "资本支出"
       ],
       "region": "overseas"
     },
     {
-      "title": "Cadence 2026年Q1财报：AI驱动EDA需求持续强劲",
-      "summary": "Cadence发布2026年Q1财报，收入和利润均超预期，AI驱动的芯片设计需求推动EDA工具订单持续增长，公司看好全年前景。",
-      "source": "The Globe and Mail",
-      "published": "2026-04-28T00:00:00Z",
-      "url": "https://www.theglobeandmail.com/investing/markets/stocks/CDNS/pressreleases/1549186/cadence-cdns-q1-2026-earnings-transcript/",
+      "title": "台积电2nm产能年增长70%，目标2028年持续扩产",
+      "summary": "台积电规划2nm产能年增长70%持续至2028年，应对AI和HPC芯片需求爆发性增长。",
+      "source": "Exa",
+      "published": "2026-04-28T00:00:00.000Z",
+      "url": "https://www.newkerala.com/news/a/tsmc-projects-70-annual-growth-2nm-capacity-through-943.htm",
       "tags": [
-        "Cadence",
-        "EDA",
-        "财报",
-        "AI驱动"
+        "制造",
+        "晶圆代工",
+        "产能"
       ],
       "insights": [
-        "Cadence Q1超预期印证EDA行业景气持续上行，AI芯片设计复杂度提升是核心驱动力",
-        "EDA龙头公司业绩强劲意味着芯片设计工具支出将继续增长，设计成本压力传导至fabless企业"
+        "2nm产能70%年增表明台积电对AI/HPC需求信心充足，GAA制程量产节奏优于预期"
       ],
       "actions": [
-        "评估Cadence工具升级对设计效率的影响，考虑升级最新版本",
-        "关注EDA工具定价变化趋势，在采购谈判中提前锁定长期合同"
+        "提前规划2nm产能需求，与台积电沟通产能预留窗口"
       ],
       "glossary": [
-        "EDA",
-        "fabless"
+        "GAA晶体管",
+        "2nm量产"
       ],
       "region": "overseas"
     },
     {
-      "title": "芯片设计弹性会更大：高景气度下设计公司迎来加速期",
-      "summary": "分析指出芯片设计公司在高景气度周期中弹性更大，AI芯片、汽车芯片等新兴应用领域推动fabless企业收入快速增长，多家设计公司Q1业绩超预期。",
-      "source": "东方财富",
-      "published": "2026-04-28T22:00:00Z",
-      "url": "https://caifuhao.eastmoney.com/news/20260428231453514952910",
+      "title": "台积电3nm月产能2026年或将达18万片，同比增长超40%",
+      "summary": "台积电3nm月产能2026年预计达18万片，同比增长超40%，苹果和AI芯片客户持续拉动需求。",
+      "source": "Exa",
+      "published": "2026-04-27T00:00:00.000Z",
+      "url": "https://www.trendforce.com/news/2026/04/27/news-tsmc-3nm-monthly-capacity-may-hit-180k-wafers-by-2026-up-over-40-yoy-on-ai-demand/",
+      "tags": [
+        "制造",
+        "晶圆代工",
+        "产能"
+      ],
+      "insights": [
+        "3nm月产能18万片意味着台积电高端制程供应弹性大幅提升，客户议价空间收窄"
+      ],
+      "actions": [
+        "3nm供应弹性提升有利于产能获取，但仍需提前锁定2026年下半年窗口"
+      ],
+      "glossary": [
+        "月产能18万片",
+        "FinFET"
+      ],
+      "region": "overseas"
+    },
+    {
+      "title": "地平线发布中国首款舱驾融合智能体芯片及操作系统",
+      "summary": "地平线发布中国首款舱驾融合智能体芯片，单芯片同时处理智能座舱和自动驾驶任务，配套发布智能体操作系统。",
+      "source": "Exa",
+      "published": "2026-04-27T00:00:00.000Z",
+      "url": "https://finance.sina.com.cn/stock/zqgd/2026-04-27/doc-inhvxhzk9223668.shtml",
       "tags": [
         "芯片设计",
         "fabless",
-        "高景气度",
-        "业绩弹性"
+        "AI芯片"
       ],
       "insights": [
-        "设计公司在景气周期中利润弹性最大，AI和汽车芯片双赛道驱动增长",
-        "设计公司业绩分化明显，AI相关设计公司增速远超传统消费电子设计企业"
+        "舱驾融合趋势加速，单芯片双域处理降低系统成本，中国设计公司抢占车规SoC赛道"
       ],
       "actions": [
-        "关注AI芯片设计公司的产能需求变化，评估对代工端产能分配的影响",
-        "对比不同赛道设计公司的增长趋势，调整供应商评估权重"
+        "关注舱驾融合SoC量产进度和车规认证状态，评估替代国外座舱芯片可行性"
       ],
       "glossary": [
-        "业绩弹性",
-        "景气周期"
+        "舱驾融合",
+        "智能体芯片"
       ],
       "region": "domestic"
     },
     {
-      "title": "大摩科技展望：存储之后，EUV光刻机和CPU将成为新的瓶颈",
-      "summary": "摩根士丹利发布科技展望报告指出，存储芯片瓶颈逐步缓解后，EUV光刻机产能和CPU供给将成为半导体行业下一个结构性瓶颈，影响2026-2027年供给格局。",
-      "source": "华尔街见闻",
-      "published": "2026-04-28T22:00:00Z",
-      "url": "https://wallstreetcn.com/articles/3771070",
+      "title": "芯擎科技发布5nm车规级AI舱驾融合芯片\"龍鹰二号\"",
+      "summary": "芯擎科技发布5nm车规级AI舱驾融合芯片\"龍鹰二号\"，AI算力达200TOPS，支持座舱和驾驶双域融合计算。",
+      "source": "Exa",
+      "published": "2026-04-28T00:00:00.000Z",
+      "url": "https://finance.sina.com.cn/roll/2026-04-28/doc-inhwaicu8477282.shtml",
       "tags": [
-        "摩根士丹利",
-        "EUV光刻",
-        "CPU",
-        "供给瓶颈"
+        "芯片设计",
+        "fabless",
+        "AI芯片"
       ],
       "insights": [
-        "EUV光刻机产能瓶颈将制约2nm以下制程扩张速度，ASML产能分配成为行业关键变量",
-        "CPU供给紧张可能影响数据中心和PC供应链，需关注Intel/AMD产能恢复进度"
+        "5nm车规芯片发布标志国产汽车芯片进入先进制程，200TOPS算力对标国际Tier1"
       ],
       "actions": [
-        "跟踪ASML EUV光刻机出货量和产能分配数据，评估对代工厂2nm量产的影响",
-        "评估CPU供给紧张对下游客户项目进度的影响，提前做好替代方案"
+        "评估龍鹰二号200TOPS算力是否满足产品需求，关注量产时间表和供应稳定性"
       ],
       "glossary": [
-        "EUV光刻机",
-        "结构性瓶颈"
+        "龍鹰二号",
+        "200TOPS"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "速腾聚创发布EOCENE SPAD-SoC架构及Phoenix/Peacock芯片系列",
+      "summary": "速腾聚创发布EOCENE SPAD-SoC架构及Phoenix/Peacock芯片系列，将激光雷达接收端集成到SoC，大幅降低成本和体积。",
+      "source": "Exa",
+      "published": "2026-04-28T00:00:00.000Z",
+      "url": "https://en.antaranews.com/news/413899/robosense-unveiled-eocene-spad-soc-architecture-and-chipsets-phoenix-and-peacock",
+      "tags": [
+        "芯片设计",
+        "fabless",
+        "AI芯片"
+      ],
+      "insights": [
+        "SPAD-SoC架构将激光雷达核心器件集成到单芯片，成本和体积大幅下降，固态激光雷达普及加速"
+      ],
+      "actions": [
+        "SPAD-SoC架构有望降低激光雷达BOM成本，关注量产时间评估采购机会"
+      ],
+      "glossary": [
+        "SPAD-SoC",
+        "EOCENE架构"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "云天励飞GPNPU架构完成DeepSeek-V4模型关键机制适配验证",
+      "summary": "云天励飞自研GPNPU架构和IFWA智能融合软件栈完成DeepSeek-V4大模型关键机制适配验证，国产AI推理芯片能力持续突破。",
+      "source": "Exa-补充",
+      "published": "2026-04-25T00:00:00.000Z",
+      "url": "https://finance.sina.com.cn/wm/2026-04-25/doc-inhvuaqt0347536.shtml",
+      "tags": [
+        "芯片设计",
+        "fabless",
+        "AI芯片"
+      ],
+      "insights": [
+        "国产AI推理芯片适配DeepSeek-V4验证成功，国产算力生态闭环能力增强"
+      ],
+      "actions": [
+        "国产AI推理芯片适配验证成功，关注GPNPU量产和云天励飞供应能力评估"
+      ],
+      "glossary": [
+        "GPNPU",
+        "DeepSeek-V4适配"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "华大九天：国产EDA的破冰者，估值焦虑与希望并存",
+      "summary": "国产EDA龙头华大九天面临估值考验，利润下滑但零售资金持续流入，国产EDA替代进口的长期趋势不变但短期承压。",
+      "source": "Exa-补充",
+      "published": "2026-04-28T00:00:00.000Z",
+      "url": "https://www.tour028.com/t/143377.html",
+      "tags": [
+        "EDA",
+        "IP",
+        "设计自动化"
+      ],
+      "insights": [
+        "国产EDA估值面临考验，利润下滑与资金流入并存，长期替代进口趋势不变但短期承压"
+      ],
+      "actions": [
+        "跟踪华大九天产品线更新和客户拓展，评估国产EDA替代进口可行性"
+      ],
+      "glossary": [
+        "华大九天",
+        "国产EDA"
+      ],
+      "region": "domestic"
+    },
+    {
+      "title": "Cadence Q1 2026财报：营收增长19%，AI驱动EDA需求加速",
+      "summary": "Cadence Q1 2026财报显示营收增长19%，AI驱动EDA工具需求加速，订单积压达80亿美元新高。",
+      "source": "Exa",
+      "published": "2026-04-27T00:00:00.000Z",
+      "url": "https://www.benzinga.com/insights/news/26/04/52082160/cadence-design-systems-q1-2026-earnings-call-transcript",
+      "tags": [
+        "EDA",
+        "IP",
+        "设计自动化"
+      ],
+      "insights": [
+        "Cadence营收增长19%验证EDA景气周期，AI驱动设计工具需求成为新增长引擎"
+      ],
+      "actions": [
+        "Cadence景气周期持续，关注AI驱动EDA工具定价变化和订阅模式演进"
+      ],
+      "glossary": [
+        "Cadence Q1财报",
+        "AI驱动EDA"
       ],
       "region": "overseas"
     },
     {
-      "title": "中微公司2026年Q1净利同比增长197%，半导体设备迎来历史性扩产周期",
-      "summary": "中微公司2026年Q1净利润同比增长197.20%，半导体设备ETF盘中涨超2%，国产设备厂商在历史性扩产周期中迎来盈利兑现期。",
-      "source": "新浪财经",
-      "published": "2026-04-28T00:00:00Z",
-      "url": "https://finance.sina.com.cn/jjxw/2026-04-28/doc-inhvzmye8585003.shtml",
+      "title": "Cadence与Google合作推出ChipStack AI超级Agent",
+      "summary": "Cadence与Google合作推出ChipStack AI超级Agent，在Google Cloud上扩展AI驱动的芯片设计能力，EDA走向自动化设计。",
+      "source": "Exa-补充",
+      "published": "2026-04-26T00:00:00.000Z",
+      "url": "https://www.eenano.com/article/2343.html",
       "tags": [
-        "中微公司",
-        "半导体设备",
-        "盈利兑现",
-        "国产替代"
+        "EDA",
+        "IP",
+        "设计自动化"
       ],
       "insights": [
-        "中微公司Q1净利197%增长标志着国产半导体设备从技术突破期进入盈利兑现期",
-        "设备ETF持续上涨反映市场对国产替代加速的强烈预期，设备板块景气度将持续"
+        "EDA+Cloud+AI三栈融合加速，ChipStack超级Agent代表芯片设计自动化新范式"
       ],
       "actions": [
-        "评估中微公司刻蚀设备在自身项目中的应用潜力",
-        "关注国产设备厂商产能交付能力，对比进口设备替代可行性"
+        "ChipStack AI超级Agent可能改变芯片设计流程，评估Google Cloud上EDA工具试用"
       ],
       "glossary": [
-        "盈利兑现期",
-        "刻蚀设备"
+        "ChipStack",
+        "AI超级Agent"
       ],
-      "region": "domestic"
+      "region": "overseas"
     },
     {
-      "title": "半导体设备国产替代加速，产业迈入盈利兑现期",
-      "summary": "分析指出国产半导体设备替代进程加速，多家设备厂商2026年Q1业绩大幅增长，行业从投入期迈入盈利兑现期，国产化率持续攀升。",
-      "source": "新浪财经",
-      "published": "2026-04-28T00:00:00Z",
-      "url": "https://finance.sina.com.cn/roll/2026-04-28/doc-inhvyzkk8634470.shtml",
+      "title": "CoWoS产能2026年预计大幅飙升：先进封装进入爆发增长期",
+      "summary": "CoWoS先进封装产能2026年预计大幅飙升，台积电、ASE、Amkor等加速扩产，先进封装从后端工序走向产业核心。",
+      "source": "Brave",
+      "published": "2024-12-31T18:40:10",
+      "url": "https://semiwiki.com/forum/threads/cowos-capacity-set-to-skyrocket-by-2026-massive-growth-in-advanced-packaging.21773/",
       "tags": [
-        "国产替代",
-        "半导体设备",
-        "盈利兑现",
-        "国产化率"
-      ],
-      "insights": [
-        "国产设备盈利兑现意味着技术成熟度和客户认可度双提升，国产化拐点已至",
-        "设备国产化率攀升将降低对ASML等进口设备的依赖度，但高端领域替代仍需时间"
-      ],
-      "actions": [
-        "评估国产设备在各制程节点的替代可行性，制定分阶段替代计划",
-        "关注北方华创、中微公司、盛美半导体等龙头设备厂商的新品发布和交付进度"
-      ],
-      "glossary": [
-        "国产化率",
-        "盈利兑现"
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "盛合晶微市值登顶A股封测板块，能否坐稳龙头地位？",
-      "summary": "盛合晶微市值首次登顶A股封测板块，成为行业龙头。公司聚焦先进封测技术，在AI算力需求驱动下快速增长，但能否持续领先引发市场讨论。",
-      "source": "东方财富",
-      "published": "2026-04-28T22:00:00Z",
-      "url": "https://wap.eastmoney.com/a/202604293723217843.html",
-      "tags": [
-        "盛合晶微",
-        "封测龙头",
+        "封测",
         "先进封装",
-        "A股"
+        "CoWoS"
       ],
       "insights": [
-        "盛合晶微登顶封测板块标志着先进封装在资本市场价值重估，AI算力驱动封装环节重要性持续上升",
-        "封测龙头之争加剧，日月光、长电科技等传统巨头与盛合晶微等新锐的竞争格局正在重塑"
+        "先进封装产能爆发增长，CoWoS从瓶颈走向规模量产，OSAT格局加速重塑"
       ],
       "actions": [
-        "评估盛合晶微先进封装产能和服务能力，考虑纳入封测供应商评估清单",
-        "关注封测板块估值变化，为投资和供应商策略调整提供参考"
+        "CoWoS产能扩张利好封装供应弹性，但仍需关注产能分配优先级和排队时间"
       ],
       "glossary": [
-        "先进封测",
-        "价值重估"
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "长电科技玻璃基TGV射频IPD技术实现重大突破",
-      "summary": "长电科技宣布玻璃基TGV（Through Glass Via）射频IPD技术实现重大突破，为5G/6G射频器件封装提供全新解决方案，技术指标达到国际领先水平。",
-      "source": "新浪财经",
-      "published": "2026-04-28T22:00:00Z",
-      "url": "https://finance.sina.com.cn/roll/2026-04-28/doc-inhvzshf1710358.shtml",
-      "tags": [
-        "长电科技",
-        "TGV",
-        "玻璃基板",
-        "射频IPD",
-        "技术突破"
-      ],
-      "insights": [
-        "玻璃基TGV技术突破开辟了射频封装新路径，可能重塑IPD封装材料选择逻辑",
-        "长电科技在先进封装领域持续技术突破，与日月光的技术竞争正在从传统封装延伸到前沿领域"
-      ],
-      "actions": [
-        "关注长电科技TGV技术的量产进度和客户验证情况",
-        "评估玻璃基封装在射频器件项目中的应用可行性"
-      ],
-      "glossary": [
-        "TGV",
-        "IPD"
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "伟测科技Q1净利润同比增长173%，测试服务需求旺盛",
-      "summary": "伟测科技发布2026年Q1财报，净利润同比增长173%，环比下降29%，反映芯片测试服务需求在AI和汽车芯片驱动下持续旺盛。",
-      "source": "财联社",
-      "published": "2026-04-28T22:00:00Z",
-      "url": "https://www.cls.cn/detail/2358587",
-      "tags": [
-        "伟测科技",
-        "芯片测试",
-        "Q1财报",
-        "同比增长"
-      ],
-      "insights": [
-        "伟测173%同比增长反映独立测试服务市场景气高涨，AI芯片测试需求是核心驱动",
-        "环比下降29%说明Q1有季节性波动，但整体趋势向上，测试产能紧张将持续"
-      ],
-      "actions": [
-        "评估伟测科技测试服务覆盖范围和产能情况",
-        "关注独立测试厂商产能紧张对芯片交付周期的影响"
-      ],
-      "glossary": [
-        "独立测试服务",
-        "季节性波动"
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "这些晶圆厂，重回C位：全球晶圆制造格局再洗牌",
-      "summary": "分析全球晶圆厂格局变化，AI芯片需求驱动先进制程产能紧张，成熟制程也因汽车和物联网需求回升，全球晶圆制造产能分配面临新一轮洗牌。",
-      "source": "36氪",
-      "published": "2026-04-28T00:00:00Z",
-      "url": "https://www.36kr.com/p/3784411331730697",
-      "tags": [
-        "晶圆厂",
-        "产能分配",
-        "格局洗牌",
-        "AI需求"
-      ],
-      "insights": [
-        "全球晶圆厂格局再洗牌意味着产能分配逻辑从消费电子转向AI和汽车，采购策略需相应调整",
-        "成熟制程产能回升为物联网和汽车芯片项目提供了更多选择空间"
-      ],
-      "actions": [
-        "重新评估晶圆代工供应商优先级，将AI产能保障纳入核心考量",
-        "关注成熟制程产能回升趋势，把握成本和产能窗口"
-      ],
-      "glossary": [
-        "产能分配",
-        "格局洗牌"
-      ],
-      "region": "domestic"
-    },
-    {
-      "title": "跨国并购受阻：科技巨头收购的多元死亡场景",
-      "summary": "分析近期科技巨头跨国并购受阻案例，Meta收购Manus被阻止等事件显示监管趋严，跨境半导体并购面临更多合规审查和政策障碍。",
-      "source": "36氪英文版",
-      "published": "2026-04-28T22:00:00Z",
-      "url": "https://eu.36kr.com/en/p/3786167323254021",
-      "tags": [
-        "跨境并购",
-        "监管趋严",
-        "科技巨头",
-        "合规审查"
-      ],
-      "insights": [
-        "跨境并购监管趋严对半导体行业整合产生实质性阻碍，特别是涉及中国的交易审查更加严格",
-        "并购受阻将延缓行业整合速度，中小半导体企业可能获得更多独立发展窗口"
-      ],
-      "actions": [
-        "关注半导体跨境并购审查新动向，评估对供应链整合的影响",
-        "在跨国技术合作中提前做好合规风险评估"
-      ],
-      "glossary": [
-        "跨境并购",
-        "合规审查"
+        "CoWoS扩产",
+        "先进封装"
       ],
       "region": "overseas"
     },
     {
-      "title": "曦智科技上市，“AI硅光芯片第一股”为何选择上海？",
-      "summary": "曦智科技在上海上市，成为“AI硅光芯片第一股”。公司基于光子计算技术开发AI加速芯片，选择上海上市反映国内AI芯片设计企业资本化路径正在多元化。",
-      "source": "澎湃新闻",
-      "published": "2026-04-28T10:00:00+08:00",
-      "url": "https://www.thepaper.cn/newsDetail_forward_33057905",
+      "title": "台积电CoWoS晶圆ASP接近7nm水平，先进封装成为新价值核心",
+      "summary": "台积电CoWoS晶圆ASP接近7nm制程水平，封装价值正在向晶圆制造价格靠拢，先进封装产业地位质变。",
+      "source": "Exa-补充",
+      "published": "2026-04-28T00:00:00.000Z",
+      "url": "https://www.trendforce.com/news/2026/04/28/news-tsmc-cowos-wafer-asp-reportedly-nears-7nm-levels-advanced-packaging-poised-to-become-a-key-profit-driver/",
       "tags": [
-        "曦智科技",
-        "AI芯片设计",
-        "硅光芯片",
-        "上市",
-        "设计公司"
+        "封测",
+        "先进封装",
+        "CoWoS"
       ],
       "insights": [
-        "曦智科技上市标志着AI硅光芯片赛道首次进入资本市场，光子计算从实验室走向商业化",
-        "AI芯片设计公司选择上海上市反映科创板对硬科技企业的吸引力持续增强"
+        "CoWoS ASP接近7nm晶圆价格表明封装价值质变，先进封装不再是廉价后端工序"
       ],
       "actions": [
-        "关注曦智科技硅光芯片产品线和客户拓展情况",
-        "评估硅光计算在AI加速领域的应用前景和技术成熟度"
+        "CoWoS ASP接近7nm意味着封装成本占比上升，评估整体封装采购预算调整"
       ],
       "glossary": [
-        "硅光芯片",
-        "光子计算"
+        "CoWoS ASP",
+        "封装价值质变"
       ],
-      "region": "domestic"
+      "region": "overseas"
     }
   ]
 }
