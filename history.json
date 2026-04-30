@@ -1078,5 +1078,95 @@
     "title": "美国制裁华虹半导体：三大美系设备商被令断供",
     "published": "2026-04-30T13:29:00+08:00",
     "addedAt": "2026-04-30T20:11:00+08:00"
+  },
+  {
+    "url": "https://en.antaranews.com/news/413899/robosense-unveiled-eocene-spad-soc-architecture-and-chipsets-phoenix-and-peacock",
+    "title": "速腾聚创发布EOCENE SPAD-SoC架构及Phoenix/Peacock芯片",
+    "published": "2026-04-29T18:00:00+08:00",
+    "addedAt": "2026-05-01T06:15:42+08:00"
+  },
+  {
+    "url": "https://wccftech.com/lisuan-launches-7g100-china-gaming-graphics-card-on-20th-may-6nm-whql-certification/",
+    "title": "中国GPU厂商理算科技将于5月20日发布7G100游戏显卡",
+    "published": "2026-04-29T14:00:00+08:00",
+    "addedAt": "2026-05-01T06:15:42+08:00"
+  },
+  {
+    "url": "https://finance.sina.com.cn/roll/2026-04-28/doc-inhwaicu8477282.shtml",
+    "title": "芯擎科技发布5nm车规级AI舱驾融合芯片\"龍鹰二号\"",
+    "published": "2026-04-29T10:00:00+08:00",
+    "addedAt": "2026-05-01T06:15:42+08:00"
+  },
+  {
+    "url": "https://sqmagazine.co.uk/sensetime-sensenova-u1-multimodal-ai-model/",
+    "title": "商汤科技发布SenseNova U1多模态AI模型",
+    "published": "2026-04-29T16:00:00+08:00",
+    "addedAt": "2026-05-01T06:15:42+08:00"
+  },
+  {
+    "url": "https://thetechrevolutionist.com/2026/04/cadence-and-nvidia-double-down-on-ai-driven-engineering-and-its-bigger-than-just-chips.html",
+    "title": "Cadence与NVIDIA深化AI驱动工程设计合作",
+    "published": "2026-04-29T12:00:00+08:00",
+    "addedAt": "2026-05-01T06:15:42+08:00"
+  },
+  {
+    "url": "https://www.jonpeddie.com/news/risc-v-becomes-ai-hardwares-open-foundation/",
+    "title": "RISC-V成为AI硬件的开放基础架构",
+    "published": "2026-04-29T14:00:00+08:00",
+    "addedAt": "2026-05-01T06:15:42+08:00"
+  },
+  {
+    "url": "https://www.newelectronics.co.uk/content/news/synopsys-and-tsmc-deepen-collaboration-on-advanced-ai-semiconductor-design",
+    "title": "Synopsys与台积电深化AI半导体设计合作",
+    "published": "2026-04-29T10:00:00+08:00",
+    "addedAt": "2026-05-01T06:15:42+08:00"
+  },
+  {
+    "url": "https://abit.ee/en/processors/tsmc-cowos-hbm5e-roadmap-2029-ai-chip-packaging-a13-semiconductors-en",
+    "title": "台积电公布CoWoS路线图至2029：48倍算力跃升与24层HBM5E堆叠",
+    "published": "2026-04-29T09:00:00+08:00",
+    "addedAt": "2026-05-01T06:15:42+08:00"
+  },
+  {
+    "url": "https://www.taipeitimes.com/News/biz/archives/2026/04/30/2003856469",
+    "title": "日月光集团今年预算上调20%",
+    "published": "2026-04-30T08:00:00+08:00",
+    "addedAt": "2026-05-01T06:15:42+08:00"
+  },
+  {
+    "url": "https://wccftech.com/intel-backed-glass-substrates-tech-will-be-commercilization-ready-within-three-years/",
+    "title": "英特尔支持的\"玻璃基板\"技术将在2年内实现商业化",
+    "published": "2026-04-29T11:00:00+08:00",
+    "addedAt": "2026-05-01T06:15:42+08:00"
+  },
+  {
+    "url": "https://technode.com/2026/04/29/tsmc-accelerates-2nm-expansion-as-ai-demand-surges-targets-record-five-fab-ramp-in-2026/",
+    "title": "台积电加速2nm扩张，目标2026年创纪录五厂同时量产",
+    "published": "2026-04-29T12:00:00+08:00",
+    "addedAt": "2026-05-01T06:15:42+08:00"
+  },
+  {
+    "url": "https://www.taipeitimes.com/News/front/archives/2026/04/29/2003856422",
+    "title": "台积电预计2nm产能年增长70%",
+    "published": "2026-04-29T08:00:00+08:00",
+    "addedAt": "2026-05-01T06:15:42+08:00"
+  },
+  {
+    "url": "https://chiplet-marketplace.com/insights/news/openlight-series-a-1-funding-photonics",
+    "title": "OpenLight获5000万美元A-1轮融资加速硅光子技术全球部署",
+    "published": "2026-04-29T10:00:00+08:00",
+    "addedAt": "2026-05-01T06:15:42+08:00"
+  },
+  {
+    "url": "https://www.jinguxun.com/article/8214959",
+    "title": "科创板公司2025年年报业绩解码：营收同比增长10.3%",
+    "published": "2026-04-30T22:00:00+08:00",
+    "addedAt": "2026-05-01T06:15:42+08:00"
+  },
+  {
+    "url": "https://www.newsbytesapp.com/news/science/tsmc-projects-70-annual-2nm-growth-after-hsinchu-kaohsiung-openings/tldr",
+    "title": "台积电2nm产能年增70%：新竹与高雄新厂投产后快速爬坡",
+    "published": "2026-04-29T08:00:00+08:00",
+    "addedAt": "2026-05-01T06:15:42+08:00"
   }
 ]
