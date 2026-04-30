@@ -1,6 +1,6 @@
 {
-  "version": "v20260429-1300",
-  "generatedAt": "2026-04-29T13:06:00+08:00",
+  "version": "v20260430-1300",
+  "generatedAt": "2026-04-30T13:04:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [],
@@ -8,58 +8,58 @@
     {
       "topic": "CoWoS/先进封装",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "社区讨论热度平稳，无明显突发话题。"
+      "reddit_top": "ScrapeCreators信用耗尽",
+      "hn_top": "Nvidia dual-die Blackwell (pts=2, 2025-01)",
+      "summary": "CoWoS话题近期平稳，HN相关帖子较旧得分低，无突发动态。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "HBM相关讨论近期无显著升温。"
+      "reddit_top": "ScrapeCreators信用耗尽",
+      "hn_top": "PSMC ZAM替代HBM (pts=1, 2026-02)",
+      "summary": "HBM话题无重大突发，PSMC ZAM方案讨论热度低。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "中芯国际/中国Fab话题平稳，无重大事件。"
+      "reddit_top": "ScrapeCreators信用耗尽",
+      "hn_top": "SMIC 7nm ASICs (pts=49, 2022旧闻)",
+      "summary": "中芯国际讨论较旧，近期无突发动态。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "→平稳",
-      "reddit_top": null,
+      "reddit_top": "ScrapeCreators信用耗尽",
       "hn_top": null,
-      "summary": "EDA国产化话题讨论量正常。"
+      "summary": "国产EDA/IP无显著社区讨论，无最新新闻。"
     },
     {
       "topic": "封测OSAT",
       "heat": "→平稳",
-      "reddit_top": null,
+      "reddit_top": "ScrapeCreators信用耗尽",
       "hn_top": null,
-      "summary": "OSAT话题无明显波动。"
+      "summary": "OSAT近期无重大动态，社区讨论平淡。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "出口管制话题近期无重大新规讨论。"
+      "reddit_top": "ScrapeCreators信用耗尽",
+      "hn_top": "US sanctions (pts=11, 2024旧闻)",
+      "summary": "出口管制近期无新政策发布。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "→平稳",
-      "reddit_top": null,
-      "hn_top": "Nvidia market share in China falls to less than 60% (3pts)",
-      "summary": "NVIDIA在中国市场份额下降引发少量讨论，热度不高。"
+      "reddit_top": "ScrapeCreators信用耗尽",
+      "hn_top": "Microsoft Nvidia chips (pts=54, 2024-12)",
+      "summary": "NVIDIA近期平稳，Nemotron发布为48h前新闻不在6h窗口。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "→平稳",
-      "reddit_top": null,
+      "reddit_top": "ScrapeCreators信用耗尽",
       "hn_top": null,
-      "summary": "设备国产化话题平稳。"
+      "summary": "北方华创/中微近期无重大动态。"
     }
   ],
   "items": []
