@@ -1,65 +1,65 @@
 {
-  "version": "v20260430-1300",
-  "generatedAt": "2026-04-30T13:04:00+08:00",
+  "version": "v20260501-1303",
+  "generatedAt": "2026-05-01T13:03:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
-      "heat": "→平稳",
-      "reddit_top": "ScrapeCreators信用耗尽",
-      "hn_top": "Nvidia dual-die Blackwell (pts=2, 2025-01)",
-      "summary": "CoWoS话题近期平稳，HN相关帖子较旧得分低，无突发动态。"
+      "heat": "↓降温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "五一假期期间社区讨论稀少，话题热度偏低"
     },
     {
       "topic": "HBM/AI存储",
-      "heat": "→平稳",
-      "reddit_top": "ScrapeCreators信用耗尽",
-      "hn_top": "PSMC ZAM替代HBM (pts=1, 2026-02)",
-      "summary": "HBM话题无重大突发，PSMC ZAM方案讨论热度低。"
+      "heat": "↓降温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "近期社区讨论较少，话题热度偏低"
     },
     {
       "topic": "中国Fab/先进制程",
-      "heat": "→平稳",
-      "reddit_top": "ScrapeCreators信用耗尽",
-      "hn_top": "SMIC 7nm ASICs (pts=49, 2022旧闻)",
-      "summary": "中芯国际讨论较旧，近期无突发动态。"
+      "heat": "↓降温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "近期社区讨论较少，话题热度偏低"
     },
     {
       "topic": "国产EDA/IP",
-      "heat": "→平稳",
-      "reddit_top": "ScrapeCreators信用耗尽",
+      "heat": "↓降温",
+      "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP无显著社区讨论，无最新新闻。"
+      "summary": "近期社区讨论较少，话题热度偏低"
     },
     {
       "topic": "封测OSAT",
-      "heat": "→平稳",
-      "reddit_top": "ScrapeCreators信用耗尽",
+      "heat": "↓降温",
+      "reddit_top": null,
       "hn_top": null,
-      "summary": "OSAT近期无重大动态，社区讨论平淡。"
+      "summary": "近期社区讨论较少，话题热度偏低"
     },
     {
       "topic": "出口管制/制裁",
-      "heat": "→平稳",
-      "reddit_top": "ScrapeCreators信用耗尽",
-      "hn_top": "US sanctions (pts=11, 2024旧闻)",
-      "summary": "出口管制近期无新政策发布。"
+      "heat": "↓降温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "近期社区讨论较少，话题热度偏低"
     },
     {
       "topic": "AI芯片/NVIDIA",
-      "heat": "→平稳",
-      "reddit_top": "ScrapeCreators信用耗尽",
-      "hn_top": "Microsoft Nvidia chips (pts=54, 2024-12)",
-      "summary": "NVIDIA近期平稳，Nemotron发布为48h前新闻不在6h窗口。"
+      "heat": "↓降温",
+      "reddit_top": null,
+      "hn_top": null,
+      "summary": "近期社区讨论较少，话题热度偏低"
     },
     {
       "topic": "设备/材料国产化",
-      "heat": "→平稳",
-      "reddit_top": "ScrapeCreators信用耗尽",
+      "heat": "↓降温",
+      "reddit_top": null,
       "hn_top": null,
-      "summary": "北方华创/中微近期无重大动态。"
+      "summary": "近期社区讨论较少，话题热度偏低"
     }
   ],
   "items": []

@@ -1,501 +1,66 @@
 {
-  "version": "v20260501-0613",
-  "generatedAt": "2026-05-01T06:13:00+08:00",
-  "period": "morning",
+  "version": "v20260501-1303",
+  "generatedAt": "2026-05-01T13:03:00+08:00",
+  "period": "midday",
   "commit": "",
-  "glossary_list": [
-    {
-      "term": "CoWoS",
-      "desc": "Chip on Wafer on Substrate，台积电2.5D先进封装技术",
-      "category": "封装"
-    },
-    {
-      "term": "SPAD-SoC",
-      "desc": "单光子雪崩二极管探测器与系统级芯片集成架构",
-      "category": "设计"
-    },
-    {
-      "term": "SoIC",
-      "desc": "System on Integrated Chips，台积电3D芯片堆叠技术",
-      "category": "封装"
-    },
-    {
-      "term": "ChipStack",
-      "desc": "Cadence AI超级代理平台，整合NVIDIA加速计算",
-      "category": "EDA"
-    },
-    {
-      "term": "DTCO",
-      "desc": "Design-Technology Co-Optimization，设计-工艺协同优化",
-      "category": "EDA"
-    },
-    {
-      "term": "玻璃基板",
-      "desc": "Glass Substrates，先进封装下一代基板材料",
-      "category": "封装"
-    },
-    {
-      "term": "硅光子集成",
-      "desc": "Silicon Photonics Integration，光电集成互连技术",
-      "category": "材料"
-    },
-    {
-      "term": "舱驾融合SoC",
-      "desc": "智能座舱与自动驾驶功能在同一芯片上融合处理",
-      "category": "设计"
-    }
-  ],
+  "glossary_list": [],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
-      "heat": "↑↑升温",
+      "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "TSMC公布CoWoS路线图至2029年，48x算力跃升目标引发热议。ASE预算上调20%，先进封装产能竞赛加速。社区对CoWoS产能瓶颈何时缓解高度关注。"
+      "summary": "五一假期期间社区讨论稀少，话题热度偏低"
     },
     {
       "topic": "HBM/AI存储",
-      "heat": "↑↑升温",
+      "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM产能紧缺持续，SK海力士和三星争夺HBM3e/4订单。社区讨论HBM在AI训练和推理中的性能差异，认为HBM4将是2027年关键转折点。"
+      "summary": "近期社区讨论较少，话题热度偏低"
     },
     {
       "topic": "中国Fab/先进制程",
-      "heat": "→平稳",
+      "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中芯国际成熟制程产能利用率保持高位，2nm仍是TSMC独领。社区讨论SMIC 7nm量产可行性，普遍认为量产仍需1-2年。"
+      "summary": "近期社区讨论较少，话题热度偏低"
     },
     {
       "topic": "国产EDA/IP",
-      "heat": "→平稳",
+      "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "Cadence+Synopsys与NVIDIA/TSMC深度绑定，国内EDA厂商差距明显。社区关注华大九天和SiFive RISC-V进展，认为国产EDA在先进制程支持上仍有瓶颈。"
+      "summary": "近期社区讨论较少，话题热度偏低"
     },
     {
       "topic": "封测OSAT",
-      "heat": "↑↑升温",
+      "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "ASE和Amkor加速先进封装扩建，Intel玻璃基板商业化时间表公布。社区讨论OSAT格局重塑，认为TSMC InFO/CoWoS自建封装对OSAT形成压力。"
+      "summary": "近期社区讨论较少，话题热度偏低"
     },
     {
       "topic": "出口管制/制裁",
-      "heat": "→平稳",
+      "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "美国半导体出口管制持续收紧但未有新规出台。社区讨论BIS新规传闻，普遍认为短期内不会有重大变化。"
+      "summary": "近期社区讨论较少，话题热度偏低"
     },
     {
       "topic": "AI芯片/NVIDIA",
-      "heat": "↑↑升温",
+      "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "NVIDIA Blackwell Ultra和下一代Rubin架构引发大量讨论。社区关注NVIDIA产品路线图和AMD MI400竞争态势，认为AI芯片市场格局短期不变。"
+      "summary": "近期社区讨论较少，话题热度偏低"
     },
     {
       "topic": "设备/材料国产化",
-      "heat": "→平稳",
+      "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "北方华创和中微公司业绩增长稳健，国产设备在刻蚀和薄膜领域渗透率提升。社区讨论国产设备在先进制程的突破瓶颈，认为量测设备仍是短板。"
+      "summary": "近期社区讨论较少，话题热度偏低"
     }
   ],
-  "items": [
-    {
-      "title": "速腾聚创发布EOCENE SPAD-SoC架构及Phoenix/Peacock芯片",
-      "summary": "RoboSense（速腾聚创）推出EOCENE SPAD-SoC架构，发布Phoenix和Peacock两款芯片集，将SPAD（单光子雪崩二极管）探测器与SoC集成，大幅提升激光雷达接收端性能和集成度。",
-      "source": "Exa",
-      "published": "2026-04-29T18:00:00+08:00",
-      "url": "https://en.antaranews.com/news/413899/robosense-unveiled-eocene-spad-soc-architecture-and-chipsets-phoenix-and-peacock",
-      "tags": [
-        "设计",
-        "激光雷达",
-        "SPAD-SoC"
-      ],
-      "insights": [
-        "SPAD-SoC架构将激光雷达接收端从离散器件转向集成芯片方案，推动LiDAR小型化和成本下降",
-        "国内激光雷达芯片自主设计能力提升，有望打破海外传感器芯片垄断"
-      ],
-      "actions": [
-        "跟踪速腾聚创SPAD-SoC量产进度，评估激光雷达供应链国产化替代机会",
-        "关注SPAD-SoC对传统LiDAR接收端供应链的影响"
-      ],
-      "glossary": [
-        "SPAD-SoC"
-      ],
-      "region": "domestic",
-      "search_source": "Exa",
-      "topic": "T2"
-    },
-    {
-      "title": "中国GPU厂商理算科技将于5月20日发布7G100游戏显卡",
-      "summary": "中国GPU厂商Lisuan（理算科技）宣布将于5月20日发布7G100游戏显卡，这是国产GPU在游戏消费级市场的重要尝试，目标填补国内消费级GPU空白。",
-      "source": "Exa",
-      "published": "2026-04-29T14:00:00+08:00",
-      "url": "https://wccftech.com/lisuan-launches-7g100-china-gaming-graphics-card-on-20th-may-6nm-whql-certification/",
-      "tags": [
-        "设计",
-        "GPU",
-        "国产替代"
-      ],
-      "insights": [
-        "国产GPU从服务器/AI训练端向消费级游戏市场延伸，市场竞争格局正在变化",
-        "理算7G100若能实际量产交付，将验证国产GPU消费级产品化能力"
-      ],
-      "actions": [
-        "关注7G100发布后的性能评测和实际交付时间",
-        "评估国产GPU在消费级市场的长期竞争力"
-      ],
-      "glossary": [
-        "GPU"
-      ],
-      "region": "domestic",
-      "search_source": "Exa",
-      "topic": "T2"
-    },
-    {
-      "title": "芯擎科技发布5nm车规级AI舱驾融合芯片\"龍鹰二号\"",
-      "summary": "芯擎科技发布5nm车规级AI舱驾融合芯片\"龍鹰二号\"，实现智能座舱与自动驾驶功能在同一SoC上融合处理，标志国产车规芯片进入先进制程领域。",
-      "source": "Exa",
-      "published": "2026-04-29T10:00:00+08:00",
-      "url": "https://finance.sina.com.cn/roll/2026-04-28/doc-inhwaicu8477282.shtml",
-      "tags": [
-        "设计",
-        "车规芯片",
-        "5nm"
-      ],
-      "insights": [
-        "舱驾融合SoC是汽车芯片下一代演进方向，降低整车芯片用量和系统复杂度",
-        "5nm车规级芯片的发布表明国内设计公司在先进制程车规领域取得突破"
-      ],
-      "actions": [
-        "评估龍鹰二号在舱驾融合场景下的算力和功耗表现",
-        "跟踪芯擎科技与车企的合作进展，评估车规芯片供应链替代可能性"
-      ],
-      "glossary": [
-        "舱驾融合SoC"
-      ],
-      "region": "domestic",
-      "search_source": "Exa",
-      "topic": "T2"
-    },
-    {
-      "title": "商汤科技发布SenseNova U1多模态AI模型",
-      "summary": "商汤科技发布SenseNova U1多模态AI模型，强调更快推理速度和多模态处理能力，展示国内AI大模型在推理效率方面的持续突破。",
-      "source": "Exa",
-      "published": "2026-04-29T16:00:00+08:00",
-      "url": "https://sqmagazine.co.uk/sensetime-sensenova-u1-multimodal-ai-model/",
-      "tags": [
-        "设计",
-        "AI模型",
-        "商汤"
-      ],
-      "insights": [
-        "商汤SenseNova系列持续迭代，U1版本聚焦推理速度优化，反映国产AI模型竞争转向效率而非单纯规模",
-        "多模态AI模型对底层AI推理芯片的需求将推动国产AI芯片生态发展"
-      ],
-      "actions": [
-        "关注SenseNova U1实际推理速度对比数据",
-        "评估商汤AI模型迭代对寒武纪等国产AI推理芯片的需求拉动"
-      ],
-      "glossary": [
-        "多模态AI"
-      ],
-      "region": "domestic",
-      "search_source": "Exa",
-      "topic": "T2"
-    },
-    {
-      "title": "Cadence与NVIDIA深化AI驱动工程设计合作",
-      "summary": "Cadence与NVIDIA宣布深化合作，将AI能力全面引入芯片设计和工程仿真流程，ChipStack AI超级代理平台整合NVIDIA加速计算，大幅提升EDA工具智能化水平。",
-      "source": "Exa",
-      "published": "2026-04-29T12:00:00+08:00",
-      "url": "https://thetechrevolutionist.com/2026/04/cadence-and-nvidia-double-down-on-ai-driven-engineering-and-its-bigger-than-just-chips.html",
-      "tags": [
-        "EDA",
-        "AI设计",
-        "Cadence"
-      ],
-      "insights": [
-        "EDA巨头与GPU巨头深度绑定，AI驱动设计正从概念走向生产环境落地",
-        "Cadence ChipStack+Gemini+NVIDIA的组合将重塑芯片设计工作流，加速设计迭代"
-      ],
-      "actions": [
-        "评估Cadence AI工具对现有设计流程的改造需求",
-        "关注NVIDIA+Cadence生态对国内EDA厂商的竞争压力"
-      ],
-      "glossary": [
-        "ChipStack"
-      ],
-      "region": "overseas",
-      "search_source": "Exa",
-      "topic": "T3"
-    },
-    {
-      "title": "RISC-V成为AI硬件的开放基础架构",
-      "summary": "Jon Peddie Research报告指出RISC-V正成为AI硬件的开放基础架构，越来越多AI加速器芯片采用RISC-V核心，替代传统Arm架构实现定制化设计。",
-      "source": "Exa",
-      "published": "2026-04-29T14:00:00+08:00",
-      "url": "https://www.jonpeddie.com/news/risc-v-becomes-ai-hardwares-open-foundation/",
-      "tags": [
-        "EDA/IP",
-        "RISC-V",
-        "AI芯片"
-      ],
-      "insights": [
-        "RISC-V在AI芯片领域渗透加速，开放指令集降低芯片设计门槛和授权成本",
-        "RISC-V生态成熟度提升将冲击Arm在AI加速器IP市场的垄断地位"
-      ],
-      "actions": [
-        "评估RISC-V IP供应商（如SiFive）在AI芯片设计中的可用性",
-        "关注国内RISC-V芯片项目进展，评估供应链替代风险"
-      ],
-      "glossary": [
-        "RISC-V"
-      ],
-      "region": "overseas",
-      "search_source": "Exa",
-      "topic": "T3"
-    },
-    {
-      "title": "Synopsys与台积电深化AI半导体设计合作",
-      "summary": "Synopsys与TSMC宣布深化合作，在AI半导体设计领域加强协同，涵盖先进制程设计支持、AI辅助EDA工具优化和工艺-设计协同（DTCO）。",
-      "source": "Exa",
-      "published": "2026-04-29T10:00:00+08:00",
-      "url": "https://www.newelectronics.co.uk/content/news/synopsys-and-tsmc-deepen-collaboration-on-advanced-ai-semiconductor-design",
-      "tags": [
-        "EDA",
-        "Synopsys",
-        "TSMC"
-      ],
-      "insights": [
-        "EDA与Foundry深度绑定确保先进制程设计工具链完整性，Synopsys-TSMC联盟壁垒持续加固",
-        "DTCO合作深化意味着设计-制造协同从2nm向更先进节点延伸"
-      ],
-      "actions": [
-        "关注Synopsys-TSMC合作对先进制程设计流程的影响",
-        "评估国内EDA厂商在先进制程支持方面的差距"
-      ],
-      "glossary": [
-        "DTCO"
-      ],
-      "region": "overseas",
-      "search_source": "Exa",
-      "topic": "T3"
-    },
-    {
-      "title": "台积电公布CoWoS路线图至2029：48倍算力跃升与24层HBM5E堆叠",
-      "summary": "TSMC公布先进封装CoWoS路线图至2029年，目标实现48倍算力跃升、24层HBM5E堆叠和SoIC芯片堆叠技术，为AI芯片提供持续封装升级路径。",
-      "source": "Exa",
-      "published": "2026-04-29T09:00:00+08:00",
-      "url": "https://abit.ee/en/processors/tsmc-cowos-hbm5e-roadmap-2029-ai-chip-packaging-a13-semiconductors-en",
-      "tags": [
-        "封装",
-        "CoWoS",
-        "TSMC"
-      ],
-      "insights": [
-        "CoWoS路线图清晰指向2029年，AI算力需求驱动封装技术从2.5D向3D持续演进",
-        "48x算力目标意味着先进封装将成为AI芯片性能提升的核心杠杆"
-      ],
-      "actions": [
-        "关注TSMC CoWoS产能扩充时间表和客户分配策略",
-        "评估CoWoS路线图对OSAT厂商先进封装布局的影响"
-      ],
-      "glossary": [
-        "CoWoS",
-        "HBM5E",
-        "SoIC"
-      ],
-      "region": "overseas",
-      "search_source": "Exa",
-      "topic": "T4"
-    },
-    {
-      "title": "日月光集团今年预算上调20%",
-      "summary": "ASE Technology Holding（日月光集团）宣布今年预算上调20%，反映先进封装需求强劲增长驱动OSAT龙头加大产能和研发投入。",
-      "source": "Exa",
-      "published": "2026-04-30T08:00:00+08:00",
-      "url": "https://www.taipeitimes.com/News/biz/archives/2026/04/30/2003856469",
-      "tags": [
-        "封测",
-        "ASE",
-        "先进封装"
-      ],
-      "insights": [
-        "OSAT龙头加大投入验证先进封装产能紧缺趋势仍在持续",
-        "ASE预算上调20%的规模表明先进封装扩建进入加速期"
-      ],
-      "actions": [
-        "关注ASE先进封装产能扩建进度和客户分配",
-        "评估ASE扩产对封测供应商选择策略的影响"
-      ],
-      "glossary": [
-        "OSAT"
-      ],
-      "region": "overseas",
-      "search_source": "Exa",
-      "topic": "T4"
-    },
-    {
-      "title": "英特尔支持的\"玻璃基板\"技术将在2年内实现商业化",
-      "summary": "Intel支持的玻璃基板（Glass Substrates）技术预计在2年内实现商业化，替代有机基板用于先进封装，提供更高密度互连和更好热性能。",
-      "source": "Exa",
-      "published": "2026-04-29T11:00:00+08:00",
-      "url": "https://wccftech.com/intel-backed-glass-substrates-tech-will-be-commercilization-ready-within-three-years/",
-      "tags": [
-        "封装",
-        "玻璃基板",
-        "Intel"
-      ],
-      "insights": [
-        "玻璃基板技术是先进封装下一代材料方向，将挑战当前有机基板的市场地位",
-        "Intel推动玻璃基板商业化意味着先进封装材料赛道将出现新玩家"
-      ],
-      "actions": [
-        "跟踪玻璃基板技术进展和量产时间表",
-        "评估玻璃基板对现有封装材料供应链的潜在冲击"
-      ],
-      "glossary": [
-        "玻璃基板"
-      ],
-      "region": "overseas",
-      "search_source": "Exa",
-      "topic": "T4"
-    },
-    {
-      "title": "台积电加速2nm扩张，目标2026年创纪录五厂同时量产",
-      "summary": "TSMC加速2nm工艺扩张计划，2026年目标同时启动五个晶圆厂量产2nm，创历史纪录。AI需求激增是推动2nm产能大幅扩张的核心动力。",
-      "source": "Exa",
-      "published": "2026-04-29T12:00:00+08:00",
-      "url": "https://technode.com/2026/04/29/tsmc-accelerates-2nm-expansion-as-ai-demand-surges-targets-record-five-fab-ramp-in-2026/",
-      "tags": [
-        "制造",
-        "台积电",
-        "2nm"
-      ],
-      "insights": [
-        "五厂同时量产2nm前所未有，TSMC在先进制程产能投入远超历史水平",
-        "2nm产能加速扩张将挤压3nm和成熟制程的产能分配"
-      ],
-      "actions": [
-        "关注TSMC 2nm量产进度和产能爬坡计划",
-        "评估2nm加速扩张对3nm/5nm产能分配和报价的影响"
-      ],
-      "glossary": [
-        "2nm"
-      ],
-      "region": "overseas",
-      "search_source": "Exa",
-      "topic": "T1"
-    },
-    {
-      "title": "台积电预计2nm产能年增长70%",
-      "summary": "TSMC预计2nm工艺产能将实现70%年增长率，在新竹和高雄新厂投产后产能快速爬坡。70%的年增长率表明台积电对2nm需求前景非常乐观。",
-      "source": "Exa",
-      "published": "2026-04-29T08:00:00+08:00",
-      "url": "https://www.taipeitimes.com/News/front/archives/2026/04/29/2003856422",
-      "tags": [
-        "制造",
-        "台积电",
-        "2nm"
-      ],
-      "insights": [
-        "70%年增长率远超3nm爬坡速度，反映AI芯片对2nm需求极度旺盛",
-        "2nm产能高速爬坡将推动CoWoS先进封装需求同步增长"
-      ],
-      "actions": [
-        "关注2nm产能爬坡对客户交付周期的影响",
-        "评估2nm报价趋势和产能分配优先级"
-      ],
-      "glossary": [
-        "产能爬坡"
-      ],
-      "region": "overseas",
-      "search_source": "Exa",
-      "topic": "T1"
-    },
-    {
-      "title": "OpenLight获5000万美元A-1轮融资加速硅光子技术全球部署",
-      "summary": "OpenLight获得5000万美元Series A-1轮融资，用于加速硅光子集成（SiPh）技术的全球部署和产品化。硅光子技术被视为下一代高速互连和光通信核心。",
-      "source": "Exa",
-      "published": "2026-04-29T10:00:00+08:00",
-      "url": "https://chiplet-marketplace.com/insights/news/openlight-series-a-1-funding-photonics",
-      "tags": [
-        "投资",
-        "硅光子",
-        "融资"
-      ],
-      "insights": [
-        "硅光子技术融资活跃，反映光互连在AI数据中心和先进封装中的战略地位提升",
-        "OpenLight的SiPh方案将光电集成推向芯片级，对传统电互连方案形成替代压力"
-      ],
-      "actions": [
-        "关注硅光子技术在AI加速器封装中的应用前景",
-        "评估OpenLight产品化进度对光通信芯片供应链的影响"
-      ],
-      "glossary": [
-        "硅光子集成"
-      ],
-      "region": "overseas",
-      "search_source": "Exa",
-      "topic": "T5"
-    },
-    {
-      "title": "科创板公司2025年年报业绩解码：营收同比增长10.3%",
-      "summary": "截至2026年4月30日，科创板608家公司披露2025年年报，共实现营业收入15,985.96亿元，同比增长10.3%。半导体和硬科技板块表现亮眼，彰显科创企业向新向优发展势头。",
-      "source": "金股讯",
-      "published": "2026-04-30T22:00:00+08:00",
-      "url": "https://www.jinguxun.com/article/8214959",
-      "tags": [
-        "投资",
-        "科创板",
-        "年报"
-      ],
-      "insights": [
-        "科创板半导体企业营收增长10.3%反映国内芯片产业整体向好",
-        "硬科技板块业绩增长验证国产替代和自主可控战略的有效推进"
-      ],
-      "actions": [
-        "关注科创板半导体龙头企业的具体业绩数据",
-        "评估科创板半导体板块估值和投资机会"
-      ],
-      "glossary": [
-        "科创板"
-      ],
-      "region": "domestic",
-      "search_source": "Serper",
-      "topic": "T1"
-    },
-    {
-      "title": "台积电2nm产能年增70%：新竹与高雄新厂投产后快速爬坡",
-      "summary": "TSMC在新竹和高雄新厂投产后，2nm工艺产能将实现70%年增长率。这是TSMC在先进制程产能扩张上的重大加速，旨在满足AI芯片客户的强劲需求。",
-      "source": "Exa",
-      "published": "2026-04-29T08:00:00+08:00",
-      "url": "https://www.newsbytesapp.com/news/science/tsmc-projects-70-annual-2nm-growth-after-hsinchu-kaohsiung-openings/tldr",
-      "tags": [
-        "制造",
-        "台积电",
-        "2nm"
-      ],
-      "insights": [
-        "2nm产能70%年增长是TSMC历史上最激进的制程爬坡速度，显示AI需求的紧迫性",
-        "新竹+高雄双厂2nm量产将大幅提升TSMC先进制程产能总量"
-      ],
-      "actions": [
-        "关注TSMC 2nm产能分配和客户优先级变化",
-        "评估2nm激进扩张对中芯国际等竞争Fab的影响"
-      ],
-      "glossary": [
-        "先进制程"
-      ],
-      "region": "overseas",
-      "search_source": "Exa",
-      "topic": "T1"
-    }
-  ],
-  "keywords": []
+  "items": []
 }
