@@ -1,7 +1,7 @@
 {
-  "version": "v20260503-0221",
-  "generatedAt": "2026-05-03T02:21:00+08:00",
-  "period": "midday",
+  "version": "v20260503-0605",
+  "generatedAt": "2026-05-03T06:05:00+08:00",
+  "period": "morning",
   "commit": "",
   "glossary_list": [
     {
@@ -18,41 +18,6 @@
       "term": "OSAT",
       "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
       "category": "封装"
-    },
-    {
-      "term": "LPDA",
-      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "Full-Wave EM Simulation",
-      "desc": "全波电磁仿真，直接求解麦克斯韦方程的精确电磁场仿真方法",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "Agentic AI",
-      "desc": "代理AI，能够自主规划并执行复杂任务的多模态AI系统",
-      "category": "AI"
-    },
-    {
-      "term": "WFE",
-      "desc": "Wafer Fabrication Equipment，晶圆制造设备",
-      "category": "设备"
-    },
-    {
-      "term": "Cerebras",
-      "desc": "一家研发晶圆级AI计算芯片的初创公司",
-      "category": "芯片"
-    },
-    {
-      "term": "WSE",
-      "desc": "Wafer-Scale Engine，晶圆级引擎，Cerebras推出的超大AI芯片架构",
-      "category": "芯片"
-    },
-    {
-      "term": "RISC-V",
-      "desc": "一种开源、基于精简指令集原则的指令集架构（ISA）",
-      "category": "IP"
     }
   ],
   "topic_pulse": [
@@ -61,61 +26,93 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对先进封装的讨论热度有所降温，缺乏引爆性新技术或产能扩张消息刺激。"
+      "summary": ""
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM及AI存储相关讨论热度下降，市场关注点可能暂时从存储瓶颈转移至系统架构创新。"
+      "summary": ""
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "关于中国晶圆厂和先进制程的社区讨论降温，暂无重大技术突破或政策调整消息传出。"
+      "summary": ""
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题热度回落，社区处于等待新政策或重磅产品发布的平静期。"
+      "summary": ""
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT板块讨论降温，缺乏短期业绩超预期或先进封装订单激增的刺激信息。"
+      "summary": ""
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制话题热度下降，近期无新增重大制裁措施引发社区焦虑与热议。"
+      "summary": ""
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片及英伟达相关讨论暂遇冷，市场可能处于新品发布后的信息消化与生态适配期。"
+      "summary": ""
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化讨论降温，社区关注焦点短暂偏移至IPO及航天芯片等宏观话题。"
+      "summary": ""
     }
   ],
   "items": [
     {
-      "title": "使用全波电磁仿真设计宽带LPDA馈源反射面天线",
+      "title": "AI chipmaker Cerebras targets up to $4bn IPO at $40bn valuation",
+      "url": "https://thenextweb.com/news/cerebras-ipo-4-billion-40-billion-valuation",
+      "description": "AI chipmaker Cerebras targets up to $4bn IPO at $40bn valuation\n\nAfter a CFIUS-induced retreat in 2024, the wafer-scale chip startup is back with an OpenAI deal in its pocket and a sharper bet against Nvidia.\n\nEighteen months ago, Cerebras Systems looked like a cautionary tale. The Sunnyvale-based A",
+      "published": "2026-05-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "AI chipmaker Cerebras targets up to $4bn IPO at $40bn valuation\n\nAfter a CFIUS-induced retreat in 2024, the wafer-scale chip startup is back with an O",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "Optics & Photonics News - Molex Looks to Silicon Photonics with Teramount Acquisition",
+      "url": "https://www.optica-opn.org/home/industry/2026/may/molex_looks_to_silicon_photonics_with_teramount_acquisition/",
+      "description": "Optics & Photonics News - Molex Looks to Silicon Photonics with Teramount Acquisition\n\n###### ADVERTISEMENT\n\n---\n\nNews> Molex Looks to Silicon Photonics with Teramount Acquisition\n\nIndustry News\n\n# Molex Looks to Silicon Photonics with Teramount Acquisition\n\nTeramount’s Universal Photonic Coupler. [",
+      "published": "2026-05-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Optics & Photonics News - Molex Looks to Silicon Photonics with Teramount Acquisition\n\n###### ADVERTISEMENT\n\n---\n\nNews> Molex Looks to Silicon Photoni",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Designing Broadband LPDA-Fed Reflector Antennas With Full-Wave EM Simulation",
       "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
       "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
       "published": "Fri, 17 Apr 2026 14:00:50 +0000",
@@ -123,155 +120,245 @@
       "source_type": "RSS",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "全波电磁仿真在复杂宽带天线设计中至关重要，能显著提高设计精度并缩短研发周期。",
-        "随着卫星通信和雷达系统需求增加，针对大尺寸电磁结构的高效EDA仿真工具需求将上升。"
-      ],
-      "actions": [
-        "射频与微波芯片设计工程师应关注全波仿真工具的最新进展，优化天线与前端的协同设计流程。",
-        "EDA厂商可针对高频宽带电磁仿真场景，开发更具算力优势的云端或GPU加速解决方案。"
-      ],
-      "glossary": [
-        {
-          "term": "LPDA",
-          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线",
-          "category": "EDA/IP"
-        },
-        {
-          "term": "Full-Wave EM Simulation",
-          "desc": "全波电磁仿真，直接求解麦克斯韦方程的精确电磁场仿真方法",
-          "category": "EDA/IP"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "overseas",
-      "summary": "本文提供了一份使用全波电磁仿真设计对数周期偶极子阵列(LPDA)馈电抛物面反射面天线的实用指南。",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dip",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "随着2026年SpaceX IPO预期升温，台积电、英特尔、AMD、英伟达及安靠等芯片股受关注",
-      "url": "https://www.marketbeat.com/originals/the-real-spacex-play-5-chip-stocks-powering-the-ipo-before-it-launches/?amp=",
-      "description": "Dylan Jovine of Behind the Markets identifies five chip stocks set to benefit from the SpaceX IPO and the agentic AI wave driving it.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "航天与低轨卫星通信的扩张正成为AI芯片和先进封装的新增长引擎。",
-        "SpaceX等航天巨头的资本运作与算力需求，将向上传导并带动半导体全产业链的长期需求。"
-      ],
-      "actions": [
-        "供应链管理者应关注航天级芯片及先进封装（如安靠提供的服务）的市场扩容机会。",
-        "跟踪代理AI在太空计算等极端场景的落地进度，提前布局高可靠性芯片产能。"
-      ],
-      "glossary": [
-        {
-          "term": "Agentic AI",
-          "desc": "代理AI，能够自主规划并执行复杂任务的多模态AI系统",
-          "category": "AI"
-        }
-      ],
-      "region": "overseas",
-      "summary": "分析师指出，受SpaceX潜在的IPO及推动其发展的代理AI浪潮影响，五只关键芯片股票有望从中受益。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "尽管面临美国制裁，中国半导体设备公司仍在获取市场份额",
-      "url": "https://247wallst.com/technology-3/2026/05/01/chinas-semiconductor-equipment-companies-gain-share-despite-u-s-sanctions/",
-      "description": "Global WFE Market Share and Competitive Positioning Chinese semiconductor equipment vendors continue to gain share within the global WFE market, although the absolute level remains modest. Global leaders such as Applied Materials (AMAT), Lam Research (LRCX), KLA (KLAC), ASML (ASML), Tokyo Electron ...",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "美国制裁倒逼国产设备加速验证与导入，国产化率在成熟制程环节稳步提升。",
-        "虽然整体份额仍偏低，但国产设备在刻蚀、清洗等关键节点的突破已对海外厂商形成局部替代压力。"
-      ],
-      "actions": [
-        "国内晶圆厂应持续评估并导入国产设备，构建多元化供应链以降低断供风险。",
-        "国产设备商需抓住当前窗口期，加快先进制程设备的研发迭代与产线验证。"
-      ],
-      "glossary": [
-        {
-          "term": "WFE",
-          "desc": "Wafer Fabrication Equipment，晶圆制造设备",
-          "category": "设备"
-        }
-      ],
-      "region": "overseas",
-      "summary": "尽管绝对水平依然不高，中国半导体设备供应商在全球晶圆厂设备(WFE)市场中继续扩大份额。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "Cerebras寻求高达40亿美元的IPO，估值达400亿美元",
-      "url": "https://investing.com/news/stock-market-news/cerebras-targets-up-to-4-billion-in-ipo-with-40-billion-valuation--bloomberg-93CH-4654514",
-      "description": "Cerebras targets up to $4 billion in IPO with $40 billion valuation - Bloomberg",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "Cerebras的高估值反映了资本市场对非传统架构（如晶圆级引擎WSE）在AI算力竞赛中潜力的认可。",
-        "大模型训练对内存带宽和算力的极致需求，为挑战NVIDIA垄断地位的初创公司提供了生存空间。"
-      ],
-      "actions": [
-        "AI芯片从业者应密切关注晶圆级集成架构的生态发展及其在超大模型训练中的实际商业表现。",
-        "投资者需警惕高估值AI芯片初创公司面临的流片成本高昂、软件生态壁垒深等商业化风险。"
-      ],
-      "glossary": [
-        {
-          "term": "Cerebras",
-          "desc": "一家研发晶圆级AI计算芯片的初创公司",
-          "category": "芯片"
-        },
-        {
-          "term": "WSE",
-          "desc": "Wafer-Scale Engine，晶圆级引擎，Cerebras推出的超大AI芯片架构",
-          "category": "芯片"
-        }
-      ],
-      "region": "overseas",
-      "summary": "晶圆级芯片初创公司Cerebras计划进行IPO，目标融资高达40亿美元，估值约400亿美元。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "RISC-V国际协会2026年4月活动",
-      "url": "https://riscv.org/events/tag/cloud/2026-04/",
-      "description": "Events for April 2026 – RISC-V International\n\nSearch\n\n35 events found.\n\n## Calendar of Events\n\n0 events 30\n\n0 events, 30\n\n0 events 31\n\n0 events, 31\n\n0 events 1\n\n0 events, 1\n\n0 events 2\n\n0 events, 2\n\n0 events 3\n\n0 events, 3\n\n0 events 4\n\n0 events, 4\n\n0 events 5\n\n0 events, 5\n\n0 events 6\n\n0 events, 6\n\n0",
-      "published": "2026-05-03T00:00:00.000Z",
+      "title": "台積電今年新建9座廠　廠務供應商接單旺 | 財經 | 三立新聞網  SETN.COM",
+      "url": "https://www.setn.com/News.aspx?NewsID=1831976",
+      "description": "台積電今年新建9座廠 廠務供應商接單旺 | 財經 | 三立新聞網 SETN.COM\n\n快訊\n\n0:00 0:00\n\n0.25\n\n0.5\n\n0.75\n\n一般\n\n1.25\n\n1.5\n\n1.75\n\n2.0\n\n# 台積電今年新建9座廠 廠務供應商接單旺\n\n2026/05/01 16:59\n\n美伊戰爭引發能源危機，你是否同意重啟核二、核三？\n\n同意\n\n不同意\n\n沒意見\n\n我要投票 直接看結果\n\n晶圓代工龍頭廠台積電（2330）加速產能擴張，今年預計推動9座新建廠和產能轉換。台積電廠務相關供應商漢唐（2404）、兆聯實業（6944）、帆宣（6196）及和淞（6826）等受惠接單暢旺。\n\n台積電（TSMC）",
+      "published": "2026-05-01T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "RISC-V生态活动频繁，表明开源指令集架构在全球范围内的采用率和社区活跃度持续上升。",
-        "密集的社区活动规划显示，RISC-V正从学术和嵌入式领域向汽车、AI等更广泛的商业应用拓展。"
-      ],
-      "actions": [
-        "芯片设计公司应积极参与RISC-V社区活动，获取最新架构规范和生态资源以降低研发门槛。",
-        "关注RISC-V在特定高增长领域的标准扩展进展，寻找差异化IP开发与产品定义机会。"
-      ],
-      "glossary": [
-        {
-          "term": "RISC-V",
-          "desc": "一种开源、基于精简指令集原则的指令集架构（ISA）",
-          "category": "IP"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "台積電今年新建9座廠 廠務供應商接單旺 | 財經 | 三立新聞網 SETN.COM\n\n快訊\n\n0:00 0:00\n\n0.25\n\n0.5\n\n0.75\n\n一般\n\n1.25\n\n1.5\n\n1.75\n\n2.0\n\n# 台積電今年新建9座廠 廠務供應商接單旺\n\n2026/05/01 16:59\n\n美伊戰爭引發能源",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "熱門股／台積秘寶CoPoS封裝　進補台股22強 | 財經 | 三立新聞網  SETN.COM",
+      "url": "https://setntest.sanlih.com.tw/News.aspx?NewsID=1832073",
+      "description": "熱門股／台積秘寶CoPoS封裝 進補台股22強 | 財經 | 三立新聞網 SETN.COM\n\n快訊\n\n0:00 0:00\n\n0.25\n\n0.5\n\n0.75\n\n一般\n\n1.25\n\n1.5\n\n1.75\n\n2.0\n\n# 熱門股／台積秘寶CoPoS封裝 進補台股22強\n\n2026/05/02 23:00:00\n\n您認為政府應不應該設置跨性別廁所？\n\n應該\n\n不應該\n\n我要投票 直接看結果\n\n賴政府上任將滿百日，您最關心的有哪些?(可複選)\n\n房價\n\n租屋補貼\n\n社會住宅\n\n電價\n\n能源政策\n\n薪資\n\n食安\n\n學費\n\n育兒政策\n\n打詐\n\n治安\n\n國會改革釋憲案\n\n兩岸關係\n\n經濟產業政策\n\n司法改革\n\n",
+      "published": "2026-05-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "熱門股／台積秘寶CoPoS封裝 進補台股22強 | 財經 | 三立新聞網 SETN.COM\n\n快訊\n\n0:00 0:00\n\n0.25\n\n0.5\n\n0.75\n\n一般\n\n1.25\n\n1.5\n\n1.75\n\n2.0\n\n# 熱門股／台積秘寶CoPoS封裝 進補台股22強\n\n2026/05/02 23:00:0",
+      "tag_category": "综合"
+    },
+    {
+      "title": "TSMC's A16 '1.6nm' Node Promises 10% Speed Boost or 20% Power Cut Over 2nm, With Backside Power Hitting Production by Q4 2026",
+      "url": "https://wccftech.com/tsmc-a16-node-promises-speed-boost-power-cut-over-2nm-backside-power-production-q4-2026/",
+      "description": "TSMC's A16 '1.6nm' Node Promises 10% Speed Boost or 20% Power Cut Over 2nm, With Backside Power Hitting Production by Q4 2026\n\n# TSMC’s A16 ‘1.6nm’ Node Promises 10% Speed Boost or 20% Power Cut Over 2nm, With Backside Power Hitting Production by Q4 2026\n\nTSMC's next-generation A16 or 1.6nm process ",
+      "published": "2026-05-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "overseas",
-      "summary": "RISC-V国际协会发布了2026年4月的活动日历，包含35场相关活动。",
+      "summary": "TSMC's A16 '1.6nm' Node Promises 10% Speed Boost or 20% Power Cut Over 2nm, With Backside Power Hitting Production by Q4 2026\n\n# TSMC’s A16 ‘1.6nm’ No",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "TSMC Widens Gap with Samsung by Expanding 2nm and 3nm Output by 20% | SemiWiki",
+      "url": "https://semiwiki.com/forum/threads/tsmc-widens-gap-with-samsung-by-expanding-2nm-and-3nm-output-by-20.25032/",
+      "description": "TSMC Widens Gap with Samsung by Expanding 2nm and 3nm Output by 20% | SemiWiki\n\nRegister/ Log in\n\n```\nArray\n(\n    [content] => \n    [params] => Array\n        (\n            [0] => /forum/threads/tsmc-widens-gap-with-samsung-by-expanding-2nm-and-3nm-output-by-20.25032/\n        )\n\n    [addOns] => Array",
+      "published": "2026-05-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "TSMC Widens Gap with Samsung by Expanding 2nm and 3nm Output by 20% | SemiWiki\n\nRegister/ Log in\n\n```\nArray\n(\n    [content] => \n    [params] => Array\n",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "TSMC Delays High-NA EUV Machine Adoption Until 2029",
+      "url": "https://www.harianbasis.co/en/tsmc-delays-asml-high-na-euv",
+      "description": "TSMC Delays High-NA EUV Machine Adoption Until 2029\n\n# TSMC Delays High-NA EUV Machine Adoption Until 2029\n\nChristopher Williams\n\nPublished May 1, 2026 - 16:22\n\nLast Update May 1, 2026 - 16:22\n\nShare\n\nTSMC (TSM): Top 10 Harvard University Stock Pick\n\nSmallest Font\n\nLargest Font\n\nTaiwan Semiconductor",
+      "published": "2026-05-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "TSMC Delays High-NA EUV Machine Adoption Until 2029\n\n# TSMC Delays High-NA EUV Machine Adoption Until 2029\n\nChristopher Williams\n\nPublished May 1, 202",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "TSMC: The Chokepoint of the AI Economy - FourWeekMBA",
+      "url": "https://fourweekmba.com/be-tsmc-the-chokepoint-of-the-ai-economy/",
+      "description": "TSMC: The Chokepoint of the AI Economy - FourWeekMBA\n\nIn AI, the conversation often centers on energy and compute — as explored in the economics of AI compute infrastructure— as the ultimate constraints. That’s directionally correct. But over the next five years, the binding constraint is far more s",
+      "published": "2026-05-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "TSMC: The Chokepoint of the AI Economy - FourWeekMBA\n\nIn AI, the conversation often centers on energy and compute — as explored in the economics of AI",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "RESEARCH NOTE: Devices Launched at MWC 2026 — Smartphones, Robots, AI, and PCs - Moor Insights & Strategy",
+      "url": "https://moorinsightsstrategy.com/research-notes/devices-launched-at-mwc-2026-smartphones-robots-ai-and-pcs/",
+      "description": "RESEARCH NOTE: Devices Launched at MWC 2026 — Smartphones, Robots, AI, and PCs - Moor Insights & Strategy\n\n# RESEARCH NOTE: Devices Launched at MWC 2026 — Smartphones, Robots, AI, and PCs\n\n- Contact\n- May 1, 2026\n\nThe Xiaomi Concept GT Car, which caught everyone’s attention at MWC (Credit: Anshel Sa",
+      "published": "2026-05-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "RESEARCH NOTE: Devices Launched at MWC 2026 — Smartphones, Robots, AI, and PCs - Moor Insights & Strategy\n\n# RESEARCH NOTE: Devices Launched at MWC 20",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Google Announces TPU v8t Sunfish and TPU v8i Zebrafish - StorageReview.com",
+      "url": "https://www.storagereview.com/news/google-announces-tpu-v8t-sunfish-and-tpu-v8i-zebrafish",
+      "description": "Google Announces TPU v8t Sunfish and TPU v8i Zebrafish - StorageReview.com\n\n≡ Menu\n\nby Divyansh Jain on May 1, 2026\n\nAt Google Cloud Next, Google announced its next-generation AI accelerators: the TPU v8t “Sunfish” for training and the TPU v8i “Zebrafish” for inference, along with its new Virgo data",
+      "published": "2026-05-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Google Announces TPU v8t Sunfish and TPU v8i Zebrafish - StorageReview.com\n\n≡ Menu\n\nby Divyansh Jain on May 1, 2026\n\nAt Google Cloud Next, Google anno",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Tenstorrent Launches Galaxy Blackhole AI System for General Availability - Archynewsy",
+      "url": "https://www.archynewsy.com/tenstorrent-launches-galaxy-blackhole-ai-system-for-general-availability/",
+      "description": "Tenstorrent Launches Galaxy Blackhole AI System for General Availability - Archynewsy\n\n# Tenstorrent Launches Galaxy Blackhole AI System for General Availability\n\nMay 1, 2026\n\nMay 1, 2026 0 comments\n\n7\n\n## Tenstorrent Scales AI Infrastructure with General Availability of Galaxy Blackhole\n\nThe race t",
+      "published": "2026-05-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Tenstorrent Launches Galaxy Blackhole AI System for General Availability - Archynewsy\n\n# Tenstorrent Launches Galaxy Blackhole AI System for General A",
+      "tag_category": "综合"
+    },
+    {
+      "title": "StellarSpace Unveils New-Generation Industrial Automation",
+      "url": "https://www.globenewswire.com/news-release/2026/05/01/3286166/0/en/StellarSpace-Unveils-New-Generation-Industrial-Automation-Products-at-Silicon-Valley-Launch-Event.html",
+      "description": "StellarSpace Unveils New-Generation Industrial Automation\n\n# StellarSpace Unveils New-Generation Industrial Automation Products at Silicon Valley Launch Event\n\nMay 01, 2026 13:53 ET | Source: StellarSpace Follow StellarSpace\n\n---\n\nShare\n\n---\n\nSANTA CLARA, Calif., May 01, 2026 (GLOBE NEWSWIRE) -- Ste",
+      "published": "2026-05-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "StellarSpace Unveils New-Generation Industrial Automation\n\n# StellarSpace Unveils New-Generation Industrial Automation Products at Silicon Valley Laun",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Our new eighth-generation TPUs are designed to power the AI era.",
+      "url": "https://www.taxheal.com/our-new-eighth-generation-tpus-are-designed-to-power-the-ai-era.html",
+      "description": "Our new eighth-generation TPUs are designed to power the AI era.\n\n## Our new eighth-generation TPUs are designed to power the AI era.\n\nOur new eighth-generation TPUs are designed to power the AI era.\n\nRunning millions of AI agents takes some serious computing muscle. Our AI Hypercomputer is a purpos",
+      "published": "2026-05-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Our new eighth-generation TPUs are designed to power the AI era.\n\n## Our new eighth-generation TPUs are designed to power the AI era.\n\nOur new eighth-",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Semiconductor News 20260502 | Amiko Consulting",
+      "url": "https://amiko.consulting/en/semiconductor-news-20260502/",
+      "description": "Semiconductor News 20260502 | Amiko Consulting\n\nメニュー\n\n1. Home\n2. News\n3. Semiconductor News 20260502\n\n# Semiconductor News 20260502\n\n2026-05-02\n\nToday’s semiconductor news is a mix of unprecedented special demand brought about by global investment in AI infrastructure and the resulting supply chain ",
+      "published": "2026-05-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Semiconductor News 20260502 | Amiko Consulting\n\nメニュー\n\n1. Home\n2. News\n3. Semiconductor News 20260502\n\n# Semiconductor News 20260502\n\n2026-05-02\n\nToday",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Synopsys Spyglass vX-2025.06 - 云创源码",
+      "url": "https://www.loowp.com/52757.html",
+      "description": "Synopsys Spyglass vX-2025.06 - 云创源码\n\n## 一、Synopsys SpyGlass vX-2025简介\n\nSynopsys SpyGlass（亦称 VC SpyGlass）是业界领先的 RTL 静态验证与 Signoff 平台，广泛应用于 SoC、ASIC 和 FPGA 的前端设计质量验证。最新版本 vX-2025 延续了“RTL Signoff 平台化”的发展方向，在 Lint、CDC（时钟域交叉）、RDC（复位域交叉）、低功耗验证、约束验证以及 AI/ML 辅助分析等方面进行了显著增强。\n\n该工具通过早期发现设计问题，帮助团队减少后端迭代、降低流片风险，",
+      "published": "2026-05-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "Synopsys Spyglass vX-2025.06 - 云创源码\n\n## 一、Synopsys SpyGlass vX-2025简介\n\nSynopsys SpyGlass（亦称 VC SpyGlass）是业界领先的 RTL 静态验证与 Signoff 平台，广泛应用于 SoC、ASIC 和 F",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "Synopsys Core Synthesis Tools vX-2025.6 SP3 - 云创源码",
+      "url": "https://www.loowp.com/52755.html",
+      "description": "Synopsys Core Synthesis Tools vX-2025.6 SP3 - 云创源码\n\n## 一、软件简介\n\nSynopsys Core Synthesis Tools 是 Synopsys 公司推出的一款专业级逻辑综合软件，最新版本为 vx 2025.06 SP3。该工具主要面向数字芯片设计流程中的RTL-to-Gate-Level转换环节，能够将工程师使用 VHDL、Verilog 或 SystemVerilog 等硬件描述语言编写的高层次设计代码，自动转换为由基本逻辑门、触发器和寄存器构成的门级网表（Gate-Level Netlist），为后续的布局布线及物理制造奠定基",
+      "published": "2026-05-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "Synopsys Core Synthesis Tools vX-2025.6 SP3 - 云创源码\n\n## 一、软件简介\n\nSynopsys Core Synthesis Tools 是 Synopsys 公司推出的一款专业级逻辑综合软件，最新版本为 vx 2025.06 SP3。该工具主要面向数",
       "tag_category": "EDA/IP"
     }
   ],
   "stats": {
-    "total_raw": 87,
-    "after_dedup": 85,
+    "total_raw": 151,
+    "after_dedup": 125,
     "sources": {
-      "Exa": 2,
-      "RSS": 65,
-      "Brave": 18
+      "Exa": 40,
+      "RSS": 64,
+      "Brave": 21
     }
   }
 }
