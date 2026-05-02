@@ -1,66 +1,276 @@
 {
-  "version": "v20260502-2005",
-  "generatedAt": "2026-05-02T20:05:00+08:00",
-  "period": "evening",
+  "version": "v20260503-0142",
+  "generatedAt": "2026-05-03T01:42:00+08:00",
+  "period": "midday",
   "commit": "",
-  "glossary_list": [],
+  "glossary_list": [
+    {
+      "term": "CoWoS",
+      "desc": "Chip-on-Wafer-on-Substrate，台积电2.5D/3D先进封装平台",
+      "category": "封装"
+    },
+    {
+      "term": "HBM",
+      "desc": "High Bandwidth Memory，高带宽内存，AI芯片关键配套",
+      "category": "存储"
+    },
+    {
+      "term": "OSAT",
+      "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
+      "category": "封装"
+    },
+    {
+      "term": "LPDA",
+      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线",
+      "category": "射频/天线"
+    },
+    {
+      "term": "Full-Wave EM Simulation",
+      "desc": "全波电磁仿真，直接求解麦克斯韦方程的电磁仿真方法，精度高但计算量大",
+      "category": "EDA"
+    },
+    {
+      "term": "RISC-V",
+      "desc": "基于精简指令集(RISC)原则的开源指令集架构(ISA)",
+      "category": "IP/架构"
+    },
+    {
+      "term": "Tower Semiconductor",
+      "desc": "高塔半导体，全球领先的专注于模拟IC、混合信号等特色工艺的纯晶圆代工厂",
+      "category": "Foundry"
+    },
+    {
+      "term": "SoC Debug",
+      "desc": "系统级芯片调试，定位并修复芯片设计中的功能或时序错误",
+      "category": "EDA"
+    },
+    {
+      "term": "UVM",
+      "desc": "Universal Verification Methodology，通用验证方法学，基于SystemVerilog的验证标准",
+      "category": "EDA"
+    },
+    {
+      "term": "IPLM",
+      "desc": "Integrated Product Lifecycle Management，集成产品生命周期管理（或IP Lifecycle Management，IP生命周期管理）",
+      "category": "EDA/管理"
+    }
+  ],
   "topic_pulse": [
     {
       "topic": "CoWoS/先进封装",
-      "heat": "→平稳",
+      "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区讨论数据未获取到有效帖子。"
+      "summary": "近期先进封装话题热度有所降温，社区讨论趋于平稳，情绪回归理性。"
     },
     {
       "topic": "HBM/AI存储",
-      "heat": "→平稳",
+      "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区讨论数据未获取到有效帖子。"
+      "summary": "HBM与AI存储热度下降，缺乏新的重大突破消息，社区关注度暂时转移。"
     },
     {
       "topic": "中国Fab/先进制程",
-      "heat": "→平稳",
+      "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区讨论数据未获取到有效帖子。"
+      "summary": "中国Fab与先进制程讨论降温，市场处于政策消化期，情绪偏观望。"
     },
     {
       "topic": "国产EDA/IP",
-      "heat": "→平稳",
+      "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区讨论数据未获取到有效帖子。"
+      "summary": "国产EDA/IP话题降温，行业进入实质性研发攻坚期，炒作情绪减弱。"
     },
     {
       "topic": "封测OSAT",
-      "heat": "→平稳",
+      "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区讨论数据未获取到有效帖子。"
+      "summary": "封测OSAT热度下降，传统封装需求未见明显反弹，社区讨论较少。"
     },
     {
       "topic": "出口管制/制裁",
-      "heat": "→平稳",
+      "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区讨论数据未获取到有效帖子。"
+      "summary": "出口管制话题降温，近期无新增严厉制裁措施，市场担忧情绪暂缓。"
     },
     {
       "topic": "AI芯片/NVIDIA",
-      "heat": "→平稳",
+      "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区讨论数据未获取到有效帖子。"
+      "summary": "AI芯片与英伟达热度回落，社区等待下一轮财报或产品发布以刺激新讨论。"
     },
     {
       "topic": "设备/材料国产化",
-      "heat": "→平稳",
+      "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区讨论数据未获取到有效帖子。"
+      "summary": "设备材料国产化讨论降温，产业链处于稳步替代阶段，缺乏短期爆点话题。"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "title": "使用全波电磁仿真设计宽带LPDA馈源反射面天线",
+      "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
+      "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
+      "published": "Fri, 17 Apr 2026 14:00:50 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "全波电磁仿真在复杂射频天线设计中的重要性日益凸显，能有效提升设计精度并降低试错成本。",
+        "EDA工具正从通用逻辑向射频、天线等垂直细分领域深度渗透，提供更专业化的解决方案。"
+      ],
+      "actions": [
+        "射频与天线设计工程师应关注并引入全波EM仿真工具以提升复杂天线的设计效率。",
+        "EDA供应商可针对特定天线应用推出更垂直的参考设计与流程指南，降低用户使用门槛。"
+      ],
+      "glossary": [
+        {
+          "term": "LPDA",
+          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线",
+          "category": "射频/天线"
+        },
+        {
+          "term": "Full-Wave EM Simulation",
+          "desc": "全波电磁仿真，直接求解麦克斯韦方程的电磁仿真方法，精度高但计算量大",
+          "category": "EDA"
+        }
+      ],
+      "region": "overseas",
+      "summary": "本文提供了一份使用全波电磁仿真设计对数周期偶极子阵列（LPDA）馈电抛物面反射面天线的实用指南。",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "RISC-V国际协会2026年4月活动",
+      "url": "https://riscv.org/events/tag/cloud/2026-04/",
+      "description": "Events for April 2026 – RISC-V International\n\nSearch\n\n35 events found.\n\n## Calendar of Events\n\n0 events 30\n\n0 events, 30\n\n0 events 31\n\n0 events, 31\n\n0 events 1\n\n0 events, 1\n\n0 events 2\n\n0 events, 2\n\n0 events 3\n\n0 events, 3\n\n0 events 4\n\n0 events, 4\n\n0 events 5\n\n0 events, 5\n\n0 events 6\n\n0 events, 6\n\n0",
+      "published": "2026-05-03T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "RISC-V生态持续扩张，提前规划长期活动表明基金会正系统性地推动全球开源架构生态建设。",
+        "活动密集预示着开源指令集在芯片设计中的社区活跃度依然高涨，商业化落地正在加速。"
+      ],
+      "actions": [
+        "芯片设计公司可提前关注并参与RISC-V相关活动，以掌握开源架构最新生态与技术动态。",
+        "IP供应商应评估RISC-V活动带来的潜在合作机会，提前布局相关接口IP。"
+      ],
+      "glossary": [
+        {
+          "term": "RISC-V",
+          "desc": "基于精简指令集(RISC)原则的开源指令集架构(ISA)",
+          "category": "IP/架构"
+        }
+      ],
+      "region": "overseas",
+      "summary": "RISC-V国际协会公布了2026年4月的活动日历，目前已规划了35场相关活动。",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "“Tower的估值已相当于一家成长型公司”",
+      "url": "http://www.globes.co.il/en/article-1001539446",
+      "description": "\"Tower is priced as a growth company\" - Globes\n\n# \"Tower is priced as a growth company\"\n\nRussell Ellwanger credit: Inbal Marmari\n\nBen Gurion airport eerily quiet on Passover eve�The war reinforces need for renewable energy�\n\n5 Apr, 2026 16:22\n\nShiri Habib-Valdhorn and Assaf Gilead\n\n## Stock market s",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "模拟/混合信号特色工艺代工领域若具备差异化技术能力，依然能获得资本市场的高估值与成长预期。",
+        "在先进制程内卷的当下，纯代工模式在特色工艺细分赛道仍具备对抗周期性波动的韧性。"
+      ],
+      "actions": [
+        "投资者及供应链伙伴应重新评估特色工艺代工厂的增长潜力与抗风险能力。",
+        "Fab厂管理者需聚焦差异化工艺平台（如射频、高压等）以提升公司估值与议价能力。"
+      ],
+      "glossary": [
+        {
+          "term": "Tower Semiconductor",
+          "desc": "高塔半导体，全球领先的专注于模拟IC、混合信号等特色工艺的纯晶圆代工厂",
+          "category": "Foundry"
+        }
+      ],
+      "region": "overseas",
+      "summary": "高塔半导体（Tower）CEO Russell Ellwanger表示，Tower目前的市场定价已反映出其作为一家成长型公司的价值。",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "Bronco AI网络研讨会：15分钟内完成全芯片SoC调试",
+      "url": "https://semiwiki.com/eda/bronco-ai/368908-bronco-ai-webinar-full-chip-soc-debug-in-15-minutes/",
+      "description": "<p>A single bug on a full-chip SoC can pull engineers off roadmap work for days or even weeks. It involves massive waveforms, thousands of files of RTL and UVM, and dense specs that aren’t always perfect. Finding these bugs have always been a matter of engineer-hours and how well knowledge diffuses ",
+      "published": "Fri, 01 May 2026 17:00:46 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "SoC复杂度急剧上升导致传统验证与调试成为研发瓶颈，AI驱动的调试工具正成为EDA领域的关键突破口。",
+        "大幅缩短Debug时间对加速芯片上市时间（TTM）具有直接且巨大的商业价值。"
+      ],
+      "actions": [
+        "验证工程师应积极评估并试用AI辅助调试工具，以突破大规模SoC的验证效率瓶颈。",
+        "SoC项目管理者需将AI驱动的调试工具纳入验证流程优化路线图，释放人力投入到 roadmap 创新中。"
+      ],
+      "glossary": [
+        {
+          "term": "SoC Debug",
+          "desc": "系统级芯片调试，定位并修复芯片设计中的功能或时序错误",
+          "category": "EDA"
+        },
+        {
+          "term": "UVM",
+          "desc": "Universal Verification Methodology，通用验证方法学，基于SystemVerilog的验证标准",
+          "category": "EDA"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Bronco AI将举办研讨会，探讨如何利用AI在15分钟内完成全芯片SoC的调试，解决传统调试耗时数天甚至数周的问题。",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "IPLM：5月19日“面向未来”网络研讨会",
+      "url": "https://semiwiki.com/eda/perforce/368866-iplm-future-forward-webinar-may-19th/",
+      "description": "<p class=\"isSelectedEnd\">Step into the future of innovation with the <strong>IPLM: Future Forward Webinar</strong>—a dynamic, insight-packed event designed for professionals who are ready to rethink how ideas evolve into impact. In a rapidly shifting digital landscape, staying ahead means more than ",
+      "published": "Fri, 01 May 2026 15:00:11 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "芯片设计复杂度提升促使产品生命周期管理（PLM）或IP生命周期管理（IPLM）理念在半导体行业加速落地。",
+        "相关研讨会的增加反映出行业对跨环节协同、数据管理及流程重构的迫切需求。"
+      ],
+      "actions": [
+        "芯片架构师与项目经理可报名参与IPLM研讨会，了解最新的生命周期与数据管理理念。",
+        "EDA及工业软件服务商应关注PLM/IP管理在芯片设计中的渗透趋势，寻找生态整合机会。"
+      ],
+      "glossary": [
+        {
+          "term": "IPLM",
+          "desc": "Integrated Product Lifecycle Management，集成产品生命周期管理（或IP Lifecycle Management，IP生命周期管理）",
+          "category": "EDA/管理"
+        }
+      ],
+      "region": "overseas",
+      "summary": "IPLM将于5月19日举办“面向未来”研讨会，旨在帮助专业人士重新思考创新路径与产品生命周期管理。",
+      "tag_category": "EDA/IP"
+    }
+  ],
+  "stats": {
+    "total_raw": 67,
+    "after_dedup": 67,
+    "sources": {
+      "Exa": 2,
+      "RSS": 65
+    }
+  }
 }
