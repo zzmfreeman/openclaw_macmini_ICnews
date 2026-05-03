@@ -1,6 +1,6 @@
 {
-  "version": "v20260503-0857",
-  "generatedAt": "2026-05-03T08:57:00+08:00",
+  "version": "v20260503-0908",
+  "generatedAt": "2026-05-03T09:08:00+08:00",
   "period": "morning",
   "commit": "",
   "glossary_list": [
@@ -321,12 +321,12 @@
     }
   ],
   "stats": {
-    "total_raw": 131,
-    "after_dedup": 84,
+    "total_raw": 132,
+    "after_dedup": 85,
     "sources": {
       "Exa": 9,
       "RSS": 64,
-      "Brave": 11
+      "Brave": 12
     }
   }
 }
