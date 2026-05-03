@@ -1,6 +1,6 @@
 {
-  "version": "v20260503-0908",
-  "generatedAt": "2026-05-03T09:08:00+08:00",
+  "version": "v20260504-0605",
+  "generatedAt": "2026-05-04T06:05:00+08:00",
   "period": "morning",
   "commit": "",
   "glossary_list": [
@@ -18,6 +18,76 @@
       "term": "OSAT",
       "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
       "category": "封装"
+    },
+    {
+      "term": "GPU",
+      "desc": "图形处理器，在AI领域常作为通用并行计算芯片用于模型训练和推理",
+      "category": "设计公司"
+    },
+    {
+      "term": "SoC",
+      "desc": "系统级芯片，将CPU、GPU、NPU等关键组件集成在同一芯片上的集成电路",
+      "category": "设计公司"
+    },
+    {
+      "term": "Wafer-scale chip",
+      "desc": "晶圆级芯片，将整片晶圆作为单一芯片使用，省去切割与封装步骤以获得极高算力",
+      "category": "设计公司"
+    },
+    {
+      "term": "Embodied AI",
+      "desc": "具身智能，将AI算法与物理实体结合，使机器人能感知并在物理世界中执行任务",
+      "category": "综合"
+    },
+    {
+      "term": "GTM",
+      "desc": "走向市场策略，企业将产品或服务推向市场并交付给客户的方法和渠道规划",
+      "category": "EDA/IP"
+    },
+    {
+      "term": "PPU",
+      "desc": "处理器打包单元/推理处理单元，此处指阿里自研的AI推理加速芯片",
+      "category": "Fab/制造"
+    },
+    {
+      "term": "EMIB",
+      "desc": "嵌入式多芯片互连桥接，英特尔的2.5D封装技术，通过硅桥实现多芯片高速互联",
+      "category": "封装"
+    },
+    {
+      "term": "N3",
+      "desc": "3纳米制程节点，台积电当前最先进的量产工艺之一，提供高性能和低功耗",
+      "category": "Fab/制造"
+    },
+    {
+      "term": "Backside Power",
+      "desc": "背面供电技术，将供电网络移至晶圆背面，释放正面空间用于信号布线以提升性能",
+      "category": "Fab/制造"
+    },
+    {
+      "term": "Multimodal AI",
+      "desc": "多模态人工智能，能够同时处理文本、图像、音频等多种数据类型的AI模型",
+      "category": "设计公司"
+    },
+    {
+      "term": "AI-Driven Connectivity",
+      "desc": "AI驱动连接，利用人工智能技术实现网络的自适应优化、故障预测和智能调度",
+      "category": "综合"
+    },
+    {
+      "term": "128B Model",
+      "desc": "1280亿参数模型，属于大语言模型规模，需要大量显存和算力进行推理",
+      "category": "综合"
+    },
+    {
+      "term": "Quantum Computing",
+      "desc": "量子计算，利用量子力学原理进行计算，在特定问题上具有远超经典计算机的潜力",
+      "category": "设计公司"
+    },
+    {
+      "term": "MaaS",
+      "desc": "模型即服务，将AI模型作为云服务提供，用户无需训练即可直接调用模型能力",
+      "category": "综合"
     }
   ],
   "topic_pulse": [
@@ -26,61 +96,117 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "社区对先进封装的关注度有所降温，讨论焦点从产能紧缺转向各技术路线（如CoWoS与EMIB）的良率与生态竞争，情绪趋于理性。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "HBM话题热度下降，社区讨论从缺货炒作转向实际部署中的性价比考量，对非HBM高带宽存储替代方案的关注有所增加。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "关于中国先进制程突破的讨论热度回落，社区情绪从前期的高涨转为观望，更关注成熟制程的产能利用率与实际商业化进展。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "国产EDA/IP话题降温，社区讨论重点从国产替代的迫切性转向工具链的实际易用性与生态完善度，情绪相对务实。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "封测OSAT讨论热度下降，随着先进封装产能逐步释放，社区对OSAT承接外溢订单的预期趋于平稳，缺乏短期爆点。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "出口管制话题降温，社区对制裁新闻产生疲劳，讨论重心转向如何在现有限制下通过架构创新和存量优化维持业务发展。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "英伟达及AI芯片话题热度回落，社区对英伟达新硬件发布的兴奋度减弱，转而关注端侧小模型落地与算力实际利用率等务实问题。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "国产设备材料话题降温，社区讨论从政策驱动转向具体工艺节点的验证进展，对短期全面替代的乐观情绪有所修正。"
     }
   ],
   "items": [
     {
-      "title": "AI chipmaker Cerebras targets up to $4bn IPO at $40bn valuation",
+      "title": "国产GPU龙头业绩大增，无锡资本深度参与",
+      "url": "https://finance.sina.com.cn/wm/2026-05-02/doc-inhwpcha9620690.shtml",
+      "description": "近日\n\nA股2026年一季报披露收官\n\n科创板块表现尤为亮眼\n\n其中\n\n寒武纪、海光信息、摩尔线程等\n\n国产AI芯片龙头业绩大增\n\n📈📈📈\n\n整体来看\n\n行业呈现头部企业盈利稳固\n\n二线厂商减亏甚至扭亏提速\n\n梯队化成长格局清晰的特征\n\n据科创板日报，寒武纪、摩尔线程营收同比增速均超150%，海光信息一季度营收突破40亿元，行业高景气度持续验证。国产AI算力芯片正从技术突破向规模化商业落地跨越，国产化进程持续深化。\n\n截至2026年4月30日收盘，国产六大AI算力芯片企业中，A股头部企业体量领先：寒武纪市值7168.48亿元、海光信息市值6885.85亿元，位居行业前两位；摩尔线程、沐曦",
+      "published": "2026-05-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "国产AI芯片已进入规模化商业落地阶段，头部效应显现，营收增速超150%验证了行业高景气度。",
+        "二线厂商减亏甚至扭亏提速，表明行业生态逐渐健康，非头部企业也能在细分市场找到生存空间。"
+      ],
+      "actions": [
+        "供应链企业应优先保障寒武纪、海光等头部国产GPU企业的产能与封测需求，深度绑定核心客户。",
+        "关注二线国产芯片厂商的扭亏趋势，适时拓展合作机会，分散单一客户依赖风险。"
+      ],
+      "glossary": [
+        {
+          "term": "GPU",
+          "desc": "图形处理器，在AI领域常作为通用并行计算芯片用于模型训练和推理",
+          "category": "设计公司"
+        }
+      ],
+      "region": "domestic",
+      "summary": "寒武纪、海光信息、摩尔线程等国产AI芯片龙头一季度业绩大增，行业呈现梯队化成长格局，国产AI算力芯片正从技术突破向规模化商业落地跨越。",
+      "tag_category": "设计公司"
+    },
+    {
+      "title": "第二代豆包AI手机2026上半年发布：搭载骁龙8至尊版并实现深度系统级AI交互",
+      "url": "https://ai.zol.com.cn/1174/11742035.html",
+      "description": "第二代豆包AI手机2026上半年发布：骁龙8至尊版+深度系统级AI交互_人工智能-中关村在线\n\nZOL首页>人工智能频道> 正文\n\n产品定位聚焦于构建“AI代为操作手机”的全新交互范式，突破传统应用内嵌式AI功能的局限，致力于实现跨应用、端到端的自然语言指令执行。\n\n首代豆包手机以努比亚M153为型号，于2025年12月以工程样机形式限量发售三万台，售价3499元，开售即告售罄。其展现出的“一句话自动比价下单”“跨应用协同任务执行”等能力，在业内引发广泛关注。不过，由于系统级AI权限较高，部分主流应用曾对其调用行为作出限制，影响了部分场景下的功能完整性。\n\n基于首批用户反馈及后续生态合作进展，",
+      "published": "2026-05-03T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "端侧AI正从应用内嵌式功能向系统级交互演进，对手机SoC的NPU算力和内存带宽提出极高要求。",
+        "AI手机交互范式的变革将催生新的软硬件协同优化需求，可能重塑智能手机竞争格局。"
+      ],
+      "actions": [
+        "手机芯片供应链需关注端侧大模型对算力需求的升级，提前布局高性能NPU与LPDDR6等内存方案。",
+        "应用开发者与系统集成商应尽早适配系统级AI交互接口，抢占新交互范式下的应用生态位。"
+      ],
+      "glossary": [
+        {
+          "term": "SoC",
+          "desc": "系统级芯片，将CPU、GPU、NPU等关键组件集成在同一芯片上的集成电路",
+          "category": "设计公司"
+        }
+      ],
+      "region": "domestic",
+      "summary": "第二代豆包AI手机将于2026上半年发布，搭载骁龙8至尊版，主打跨应用、端到端的自然语言指令执行，构建“AI代为操作手机”的全新交互范式。",
+      "tag_category": "综合"
+    },
+    {
+      "title": "AI芯片制造商Cerebras寻求以400亿美元估值进行最高40亿美元的IPO",
       "url": "https://thenextweb.com/news/cerebras-ipo-4-billion-40-billion-valuation",
       "description": "AI chipmaker Cerebras targets up to $4bn IPO at $40bn valuation\n\nAfter a CFIUS-induced retreat in 2024, the wafer-scale chip startup is back with an OpenAI deal in its pocket and a sharper bet against Nvidia.\n\nEighteen months ago, Cerebras Systems looked like a cautionary tale. The Sunnyvale-based A",
       "published": "2026-05-02T00:00:00.000Z",
@@ -88,63 +214,200 @@
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
+      "insights": [
+        "Cerebras的高估值IPO反映了资本市场对非传统架构AI算力（如晶圆级芯片）的持续看好。",
+        "与OpenAI等头部大模型厂商的深度绑定，是提升AI芯片初创公司商业想象力和估值的关键。"
+      ],
+      "actions": [
+        "关注晶圆级计算架构在超大模型训练中的商业化进展，评估其作为传统GPU集群替代方案的潜力。",
+        "投资机构可关注非主流先进架构芯片赛道，寻找具有头部大模型客户背书的标的。"
+      ],
+      "glossary": [
+        {
+          "term": "Wafer-scale chip",
+          "desc": "晶圆级芯片，将整片晶圆作为单一芯片使用，省去切割与封装步骤以获得极高算力",
+          "category": "设计公司"
+        }
+      ],
       "region": "overseas",
-      "summary": "AI chipmaker Cerebras targets up to $4bn IPO at $40bn valuation\n\nAfter a CFIUS-induced retreat in 2024, the wafer-scale chip startup is back with an O",
+      "summary": "晶圆级芯片初创公司Cerebras在2024年因CFIUS受阻后，凭借与OpenAI的合作再次寻求IPO，目标估值达400亿美元。",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "Designing Broadband LPDA-Fed Reflector Antennas With Full-Wave EM Simulation",
-      "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
-      "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
-      "published": "Fri, 17 Apr 2026 14:00:50 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dip",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "熱門股／台積秘寶CoPoS封裝　進補台股22強 | 財經 | 三立新聞網  SETN.COM",
-      "url": "https://setntest.sanlih.com.tw/News.aspx?NewsID=1832073",
-      "description": "熱門股／台積秘寶CoPoS封裝 進補台股22強 | 財經 | 三立新聞網 SETN.COM\n\n快訊\n\n0:00 0:00\n\n0.25\n\n0.5\n\n0.75\n\n一般\n\n1.25\n\n1.5\n\n1.75\n\n2.0\n\n# 熱門股／台積秘寶CoPoS封裝 進補台股22強\n\n2026/05/02 23:00:00\n\n您認為政府應不應該設置跨性別廁所？\n\n應該\n\n不應該\n\n我要投票 直接看結果\n\n賴政府上任將滿百日，您最關心的有哪些?(可複選)\n\n房價\n\n租屋補貼\n\n社會住宅\n\n電價\n\n能源政策\n\n薪資\n\n食安\n\n學費\n\n育兒政策\n\n打詐\n\n治安\n\n國會改革釋憲案\n\n兩岸關係\n\n經濟產業政策\n\n司法改革\n\n",
+      "title": "Meta收购Assured Robot Intelligence以发力人形机器人AI",
+      "url": "https://www.aibusinessreview.org/2026/05/02/meta-acquires-assured-robot-intelligence-humanoid-ai/",
+      "description": "Meta Buys Assured Robot Intelligence for Humanoid AI\n\nSearch\n\nSee all results\n\nShare\n\nMeta has acquired Assured Robot Intelligence, a robotics startup focused on embodied artificial intelligence, according to TechCrunch AI. The acquisition marks Meta’s first significant move into physical AI systems",
       "published": "2026-05-02T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic",
-      "summary": "熱門股／台積秘寶CoPoS封裝 進補台股22強 | 財經 | 三立新聞網 SETN.COM\n\n快訊\n\n0:00 0:00\n\n0.25\n\n0.5\n\n0.75\n\n一般\n\n1.25\n\n1.5\n\n1.75\n\n2.0\n\n# 熱門股／台積秘寶CoPoS封裝 進補台股22強\n\n2026/05/02 23:00:0",
+      "insights": [
+        "科技巨头通过并购切入具身智能赛道，人形机器人将成为AI算力新的重要需求场景。",
+        "具身智能对边缘侧低功耗、高算力芯片及多传感器融合的需求，将催生专用边缘AI芯片市场。"
+      ],
+      "actions": [
+        "芯片设计公司应关注具身智能对专用边缘AI芯片的增量需求，研发低功耗高算力融合控制芯片。",
+        "供应链企业需提前布局机器人所需的视觉处理、传感器融合与实时控制芯片产能。"
+      ],
+      "glossary": [
+        {
+          "term": "Embodied AI",
+          "desc": "具身智能，将AI算法与物理实体结合，使机器人能感知并在物理世界中执行任务",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Meta收购了专注于具身智能的机器人初创公司Assured Robot Intelligence，加速布局人形机器人AI领域。",
       "tag_category": "综合"
     },
     {
-      "title": "West Bengal Election 2026 Repolling Live Updates: EC orders repolling in all 285 booths of Falta on May 21; counting on May 24 - The Times of India",
-      "url": "https://timesofindia.indiatimes.com/india/west-bengal-elections-2026-repoll-15-booths-magrahat-diamond-harbour-ec-order-evm-tampering-cctv-irregularities/liveblog/130708252.cms",
-      "description": "Repolling was held across 15 polling booths in West Bengal’s South 24 Parganas district, after the Election Commission of India (ECI) declared the Ap",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
+      "title": "Chameleon Semiconductor首席执行官Geoffrey Rodgers专访",
+      "url": "https://semiwiki.com/ceo-interviews/368833-ceo-interview-with-geoffrey-rodgers-of-chameleon-semiconductor/",
+      "description": "<p>Geoffrey Rodgers spent most of his career at the intersection of semiconductor technology and go-to-market execution, with a focus on scaling businesses and bringing complex solutions to market. He previously led the Analog Go-To-Market motion at Synopsys following the acquisition of Analog Desig",
+      "published": "Sun, 03 May 2026 21:00:04 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic",
-      "summary": "Repolling was held across 15 polling booths in West Bengal’s South 24 Parganas district, after the Election Commission of India (ECI) declared the Ap",
-      "tag_category": "综合"
+      "insights": [
+        "半导体初创公司不仅需要技术突破，更依赖精准的GTM（走向市场）策略实现商业化闭环。",
+        "复杂芯片解决方案的落地需要与客户生态深度绑定，单点技术优势难以转化为持续营收。"
+      ],
+      "actions": [
+        "芯片设计初创企业应尽早构建具备市场销售经验的复合型团队，避免陷入唯技术论的误区。",
+        "在产品定义阶段即引入目标客户共同开发，降低复杂解决方案走向市场的不确定性风险。"
+      ],
+      "glossary": [
+        {
+          "term": "GTM",
+          "desc": "走向市场策略，企业将产品或服务推向市场并交付给客户的方法和渠道规划",
+          "category": "EDA/IP"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Chameleon Semiconductor首席执行官分享了其在半导体技术与市场执行交汇处的经验，重点关注业务扩展和复杂解决方案的市场化。",
+      "tag_category": "EDA/IP"
     },
     {
-      "title": "TSMC's A16 '1.6nm' Node Promises 10% Speed Boost or 20% Power Cut Over 2nm, With Backside Power Hitting Production by Q4 2026",
+      "title": "阿里首次证实自研AI芯片PPU存在，大规模出货已有一年",
+      "url": "https://www.36kr.com/p/3659934294991749",
+      "description": "阿里首次证实自研AI芯片PPU存在，大规模出货已有一年-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 阿里首次证实自研AI芯片PPU存在，大规模出货已有一年\n\n虽然阿里长期未主动公开披露这款芯片的信息，但这款芯片几乎是云计算和半导体行业内“公开的秘密”。\n\n1月29日，阿里首次主动证实了自研AI芯片PPU的存在——此次披露的PPU芯片被命名为真武810E。不过，阿里方面未披露真武810E的工艺制程和代工方等关键问题。\n\n真武810E由阿里巴巴集团全资芯片业务主体平头哥研发。虽然阿里长期未主动公开披露这",
+      "published": "2026-05-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "云厂商自研AI算力芯片已成常态，旨在优化内部推理成本和基础设施效率，摆脱对单一供应商的依赖。",
+        "PPU的大规模出货表明国内云厂商自研芯片已跨越量产门槛，进入实质性替换通用GPU的阶段。"
+      ],
+      "actions": [
+        "传统GPU供应商需警惕云厂商自研芯片对通用推理算力采购的替代效应，调整产品差异化策略。",
+        "封测与代工企业应积极对接云厂商自研芯片的流片与量产需求，寻找新的增长曲线。"
+      ],
+      "glossary": [
+        {
+          "term": "PPU",
+          "desc": "处理器打包单元/推理处理单元，此处指阿里自研的AI推理加速芯片",
+          "category": "Fab/制造"
+        }
+      ],
+      "region": "domestic",
+      "summary": "阿里云首次主动证实其自研AI芯片PPU的存在，该芯片已在行业内作为“公开的秘密”大规模出货一年。",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "联发科延揽前台积电CoWoS推手余振华：声明与英特尔EMIB无关，选边台积电",
+      "url": "https://abmedia.io/mediatek-hires-tsmc-cowos-yu-chen-hua-advanced-packaging-may-2026",
+      "description": "聯發科延攬前台積電 CoWoS 推手余振華：聲明與英特爾 EMIB 無關、選邊台積 | 鏈新聞 ABMedia\n\n聯發科 5 月 2 日宣布延攬前台積電研發副總余振華擔任非全職顧問，職責聚焦先進封裝前瞻技術探索與路徑規劃，並深化與台積電先進封裝產品的合作。聯發科同步聲明此舉「與英特爾 EMIB 無關」，公開將自身先進封裝路徑綁定台積電。余振華是台積電 31 年資歷的 CoWoS 主要推手、研發六騎士最後一位退休的元老。\n\nTable of Contents\n\nToggle\n\n## 5/2 聲明定調：聯發科明確切割英特爾 EMIB、選邊台積電\n\n市場原本傳聞聯發科可能跟進 Google TPU ",
+      "published": "2026-05-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "先进封装已成为芯片大厂竞争的核心战场，联发科公开“选边”台积电CoWoS，意味着先进封装生态的阵营化趋势加剧。",
+        "英特尔EMIB在客户争夺上面临压力，头部Fabless更倾向于选择成熟度更高的台积电封装路线。"
+      ],
+      "actions": [
+        "芯片设计公司需尽早明确先进封装技术路线图，与特定代工厂深度绑定以确保产能供给。",
+        "关注台积电CoWoS与英特尔EMIB生态的竞争格局，在产品规划时评估不同封装路线的迁移成本。"
+      ],
+      "glossary": [
+        {
+          "term": "CoWoS",
+          "desc": "晶圆级多芯片封装，台积电的2.5D/3D先进封装技术，广泛用于AI芯片",
+          "category": "封装"
+        },
+        {
+          "term": "EMIB",
+          "desc": "嵌入式多芯片互连桥接，英特尔的2.5D封装技术，通过硅桥实现多芯片高速互联",
+          "category": "封装"
+        }
+      ],
+      "region": "domestic",
+      "summary": "联发科聘请前台积电研发副总余振华担任顾问，聚焦先进封装技术规划，并明确声明此举与英特尔EMIB无关，将先进封装路径绑定台积电。",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "台积电CoWoS外溢最大受惠者？英特尔EMIB良率传达90%，先进封装成翻身关键",
+      "url": "https://abmedia.io/tsmc-cowos-emib-intel-90-percent",
+      "description": "台積電 CoWoS 外溢最大受惠者？英特爾 EMIB 良率傳 90%，先進封裝成翻身關鍵 | 鏈新聞 ABMedia\n\n在 AI 晶片需求持續推升先進封裝產能緊張之際，Intel 的 EMIB 封裝技術再度成為市場焦點。科技媒體 Wccftech引述廣發證券科技研究分析師 Jeff Pu 的說法指出，Intel EMIB 良率已達 90%，顯示這項被視為 Intel Foundry 轉型關鍵的先進封裝技術，已具備進一步導入 AI 資料中心晶片的成熟度。\n\n(陳立武封神！Citrini 評 Intel 「今年最出色財報」盼承接台積電 CoWoS 外溢需求)\n\n這也呼應研究機構 Citrini R",
+      "published": "2026-05-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "英特尔EMIB良率突破90%表明其先进封装技术已具备量产竞争力，有望承接台积电CoWoS的外溢需求。",
+        "先进封装正成为晶圆代工巨头争夺客户的核心筹码，良率和产能是决定技术路线成败的关键。"
+      ],
+      "actions": [
+        "芯片设计厂商应评估英特尔EMIB封装的产能与良率稳定性，作为先进封装产能紧缺时的备选方案。",
+        "关注英特尔EMIB生态下OSAT和ABF基板供应链的投资机会，提前布局相关产能。"
+      ],
+      "glossary": [
+        {
+          "term": "EMIB",
+          "desc": "嵌入式多芯片互连桥接，英特尔的2.5D封装技术，通过硅桥实现多芯片高速互联",
+          "category": "封装"
+        }
+      ],
+      "region": "domestic",
+      "summary": "在先进封装产能紧张之际，英特尔EMIB封装技术良率传已达90%，被视为英特尔晶圆代工转型的关键。",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "台积电“仁慈”的N3定价使其在产能争夺战中获评“全球最公平公司”",
+      "url": "https://finance.biggo.com/news/ak5V6Z0BNl__-4_GdpqQ",
+      "description": "TSMC's \"Benevolent\" N3 Pricing Earns It Title of \"World's Fairest Company\" as Capacity Battle Erupts — BigGo Finance\n\n# TSMC's \"Benevolent\" N3 Pricing Earns It Title of \"World's Fairest Company\" as Capacity Battle Erupts\n\nSemiconductor research firm Semi Analysis published a report hailing TSMC as \"",
+      "published": "2026-05-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "台积电在N3节点的定价策略兼顾了利润率与客户生态的维持，巩固了其市场垄断地位。",
+        "成熟且合理的定价有助于下游客户在产能紧缺期保持产品竞争力，避免因代工成本失控而亏损。"
+      ],
+      "actions": [
+        "芯片设计公司应充分利用台积电N3节点的产能与价格优势，规划高性能核心产品的流片。",
+        "关注未来先进节点产能分配的优先级规则，通过长期采购承诺锁定N3及更先进节点的产能。"
+      ],
+      "glossary": [
+        {
+          "term": "N3",
+          "desc": "3纳米制程节点，台积电当前最先进的量产工艺之一，提供高性能和低功耗",
+          "category": "Fab/制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "在产能争夺战爆发的背景下，台积电因其相对合理的N3制程定价策略，被评价为“全球最公平公司”。",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "台积电A16“1.6nm”节点承诺比2nm提速10%或降功耗20%，背面供电将于2026年Q4量产",
       "url": "https://wccftech.com/tsmc-a16-node-promises-speed-boost-power-cut-over-2nm-backside-power-production-q4-2026/",
       "description": "TSMC's A16 '1.6nm' Node Promises 10% Speed Boost or 20% Power Cut Over 2nm, With Backside Power Hitting Production by Q4 2026\n\n# TSMC’s A16 ‘1.6nm’ Node Promises 10% Speed Boost or 20% Power Cut Over 2nm, With Backside Power Hitting Production by Q4 2026\n\nTSMC's next-generation A16 or 1.6nm process ",
       "published": "2026-05-02T00:00:00.000Z",
@@ -152,181 +415,173 @@
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
+      "insights": [
+        "背面供电（BSPDN）是延续摩尔定律的关键，台积电A16节点的明确量产时间表加剧了先进制程竞争。",
+        "1.6nm节点的性能提升幅度趋缓，凸显了在制程微缩放缓下，架构创新和先进封装的重要性。"
+      ],
+      "actions": [
+        "芯片架构师需提前评估背面供电技术对芯片布局、散热设计及EDA工具链的影响。",
+        "在2nm之后的产品路线图中纳入A16节点的评估，抢占技术先发优势并与台积电建立联合研发合作。"
+      ],
+      "glossary": [
+        {
+          "term": "Backside Power",
+          "desc": "背面供电技术，将供电网络移至晶圆背面，释放正面空间用于信号布线以提升性能",
+          "category": "Fab/制造"
+        }
+      ],
       "region": "overseas",
-      "summary": "TSMC's A16 '1.6nm' Node Promises 10% Speed Boost or 20% Power Cut Over 2nm, With Backside Power Hitting Production by Q4 2026\n\n# TSMC’s A16 ‘1.6nm’ No",
+      "summary": "台积电宣布A16（1.6nm）节点相比2nm将提供10%的速度提升或20%的功耗降低，并计划于2026年第四季度量产背面供电技术。",
       "tag_category": "Fab/制造"
     },
     {
-      "title": "TSMC: The Chokepoint of the AI Economy - FourWeekMBA",
-      "url": "https://fourweekmba.com/be-tsmc-the-chokepoint-of-the-ai-economy/",
-      "description": "TSMC: The Chokepoint of the AI Economy - FourWeekMBA\n\nIn AI, the conversation often centers on energy and compute — as explored in the economics of AI compute infrastructure— as the ultimate constraints. That’s directionally correct. But over the next five years, the binding constraint is far more s",
+      "title": "英伟达发布Nemotron-3 Nano Omni：紧凑且可扩展的多模态AI",
+      "url": "https://www.convergence-now.com/artificial-intelligence/nvidia-nemotron-3-nano-omni-multimodal-ai-launch/",
+      "description": "Nvidia Nemotron-3 Nano Omni Launch: Multimodal AI Gets Compact and Scalable\n\nNVIDIA Unveils Nemotron-3 Nano Omni, Expands Push Into Multimodal AI Systems\n\nNvidia launches Nemotron-3 Nano Omni, a compact multimodal AI model designed for real-time processing across text, image, audio and video applica",
       "published": "2026-05-02T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
+      "insights": [
+        "英伟达不仅提供算力硬件，还通过发布小尺寸多模态模型完善端侧AI软件栈，构建软硬一体的护城河。",
+        "紧凑型多模态模型有利于在边缘设备上实现高效推理，将加速AI向PC和智能终端的渗透。"
+      ],
+      "actions": [
+        "端侧设备厂商可基于Nemotron-3等紧凑模型优化产品AI功能，降低对云端算力的依赖。",
+        "关注英伟达在边缘计算领域的软硬件生态扩张，评估其替代现有端侧AI方案的潜力与成本。"
+      ],
+      "glossary": [
+        {
+          "term": "Multimodal AI",
+          "desc": "多模态人工智能，能够同时处理文本、图像、音频等多种数据类型的AI模型",
+          "category": "设计公司"
+        }
+      ],
       "region": "overseas",
-      "summary": "TSMC: The Chokepoint of the AI Economy - FourWeekMBA\n\nIn AI, the conversation often centers on energy and compute — as explored in the economics of AI",
-      "tag_category": "Fab/制造"
+      "summary": "英伟达推出紧凑型多模态AI模型Nemotron-3 Nano Omni，进一步扩展其在多模态AI系统领域的布局。",
+      "tag_category": "设计公司"
     },
     {
-      "title": "Samsung Electronics vs TSMC Stock 2026: Which to Buy in Booming AI Semiconductor Market?",
-      "url": "https://www.ibtimes.com.au/samsung-electronics-vs-tsmc-stock-2026-which-buy-booming-ai-semiconductor-market-1868021",
-      "description": "Samsung Electronics vs TSMC Stock 2026: Which to Buy in Booming AI Semiconductor Market?\n\nSamsung Electronics vs TSMC Stock 2026: Which to Buy in Booming AI Semiconductor Market?\n\nNEW YORK — Investors weighing Samsung Electronics against Taiwan Semiconductor Manufacturing Co. (TSMC) in 2026 face a c",
-      "published": "2026-05-02T00:00:00.000Z",
+      "title": "华为在开罗发布升级版星河智能网络，加速非洲AI驱动的连接",
+      "url": "https://www.technotime.net/13893",
+      "description": "Huawei Launches Upgraded Xinghe Intelligent Network in Cairo to Accelerate AI-Driven Connectivity Across Africa | Techno Time\n\n# Huawei Launches Upgraded Xinghe Intelligent Network in Cairo to Accelerate AI-Driven Connectivity Across Africa\n\nSunday 3 May 2026 10:46\n\nHuawei has unveiled an upgraded v",
+      "published": "2026-05-03T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
+      "insights": [
+        "华为将AI网络解决方案向海外市场拓展，表明网络基础设施智能化是全球性趋势。",
+        "AI驱动的网络对底层通信芯片的数据处理能力和低延迟转发提出了新要求。"
+      ],
+      "actions": [
+        "网络设备供应商应跟进AI驱动的网络架构演进，升级通信芯片的AI加速能力与可编程性。",
+        "关注新兴市场（如非洲）的智能网络基础设施建设机遇，提供高性价比的AI网络芯片方案。"
+      ],
+      "glossary": [
+        {
+          "term": "AI-Driven Connectivity",
+          "desc": "AI驱动连接，利用人工智能技术实现网络的自适应优化、故障预测和智能调度",
+          "category": "综合"
+        }
+      ],
       "region": "overseas",
-      "summary": "Samsung Electronics vs TSMC Stock 2026: Which to Buy in Booming AI Semiconductor Market?\n\nSamsung Electronics vs TSMC Stock 2026: Which to Buy in Boom",
-      "tag_category": "Fab/制造"
-    },
-    {
-      "title": "TSMC: the Semiconductor Clock Behind the Taiwan Strait",
-      "url": "https://leonliao.substack.com/p/tsmc-the-semiconductor-clock-behind",
-      "description": "TSMC: the Semiconductor Clock Behind the Taiwan Strait\n\n# China as a System @leonliao\n\nSubscribeSign in\n\n# TSMC: the Semiconductor Clock Behind the Taiwan Strait\n\n### Geopolitics & New World Order #12\n\nMay 02, 2026\n\n1\n\nShare\n\n---\n\nOver the past few years, the most common questions about the Taiwan S",
-      "published": "2026-05-02T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "TSMC: the Semiconductor Clock Behind the Taiwan Strait\n\n# China as a System @leonliao\n\nSubscribeSign in\n\n# TSMC: the Semiconductor Clock Behind the Ta",
-      "tag_category": "Fab/制造"
-    },
-    {
-      "title": "Q1 '26 Foundry/OSAT Earnings: Hit Or Miss?",
-      "url": "https://marklapedus.substack.com/p/q1-26-foundryosat-earnings-hit-or",
-      "description": "Q1 '26 Foundry/OSAT Earnings: Hit Or Miss?\n\n# Semiecosystem\n\nSubscribeSign in\n\n# Q1 '26 Foundry/OSAT Earnings: Hit Or Miss?\n\n### Earnings from Samsung, ASE, UMC, JCET, Amkor, Intel\n\nMay 02, 2026\n\n6\n\n1\n\nShare\n\nBy Mark LaPedus\n\nThe foundry industry, a key part of the semiconductor business, involves a",
-      "published": "2026-05-02T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "Q1 '26 Foundry/OSAT Earnings: Hit Or Miss?\n\n# Semiecosystem\n\nSubscribeSign in\n\n# Q1 '26 Foundry/OSAT Earnings: Hit Or Miss?\n\n### Earnings from Samsung",
-      "tag_category": "Fab/制造"
-    },
-    {
-      "title": "Uperfect UFree V Review: A Wireless “True” Portable Monitor With Incredible Compatibility And Versatility",
-      "url": "https://wccftech.com/review/uperfect-ufree-v-wireless-portable-monitor-review/",
-      "description": "After having reviewed several portable monitors from Uperfect, I got my hands on the UFree V, a new portable monitor which promises completely \"wireless\" operation. As soon as I read that, my interest sparked several folds since conventional portable monitors aren't \"truly\" portable, as you still ha",
-      "published": "Sat, 02 May 2026 20:31:00 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "After having reviewed several portable monitors from Uperfect, I got my hands on the UFree V, a new portable monitor which promises completely \"wirele",
+      "summary": "华为在开罗发布升级版星河智能网络，旨在加速非洲地区AI驱动的网络连接发展。",
       "tag_category": "综合"
     },
     {
-      "title": "QNAP Pairs a 6-Year-Old Zen 2 EPYC With NVIDIA’s 96GB RTX PRO 6000 Blackwell in Its New Edge AI NAS",
-      "url": "https://wccftech.com/qnap-pairs-6-year-old-zen-2-epyc-with-nvidia-96gb-rtx-pro-6000-blackwell-in-new-edge-ai-nas/",
-      "description": "QNAP has introduced its new AI NAS, which packs a 16-Core AMD EPYC \"Zen 2\" CPU &#38; can be paired with up to an RTX PRO 6000 Blackwell GPU. Old Meets New In QNAP's \"QAI-h1290FX\" AI NAS: 16 Zen 2 Cores &#38; 96 GB RTX PRO 6000 GPU The \"QAI-h1290FX\" is QNAP's latest Edge AI offering that combines two",
-      "published": "Sat, 02 May 2026 18:00:06 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "Mistral Medium 3.5将聊天、推理和代码能力整合进单一128B AI模型",
+      "url": "https://winbuzzer.com/2026/05/02/mistral-medium-3-5-unified-flagship-chat-reasoning-code-xcxwbn/",
+      "description": "Mistral Medium 3.5 Folds Chat, Reasoning, and Code Into One 128B AI Model\n\nSearch\n\nCompanies, AI Divisions, Projects, Labs\n\nChatbots, AI Assistants, AI Solutions\n\n- Windows 10\n- Windows 11\n\n- Microsoft Azure\n- Google Cloud\n- Amazon Web Services (AWS)\n- Salesforce\n\nSearch\n\n# Mistral Medium 3.5 Folds ",
+      "published": "2026-05-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
+      "insights": [
+        "大模型正走向多功能融合，单一模型处理多任务可降低部署成本和系统复杂度。",
+        "128B参数规模的模型对推理芯片的显存容量和卡间互联带宽提出了极高要求，考验底层算力基础设施。"
+      ],
+      "actions": [
+        "AI推理芯片设计需针对百亿参数级大模型优化HBM利用率与NVLink/CXL互联带宽。",
+        "云服务商应评估此类融合大模型对算力基础设施的性价比影响，优化GPU集群配置。"
+      ],
+      "glossary": [
+        {
+          "term": "128B Model",
+          "desc": "1280亿参数模型，属于大语言模型规模，需要大量显存和算力进行推理",
+          "category": "综合"
+        }
+      ],
       "region": "overseas",
-      "summary": "QNAP has introduced its new AI NAS, which packs a 16-Core AMD EPYC \"Zen 2\" CPU &#38; can be paired with up to an RTX PRO 6000 Blackwell GPU. Old Meets",
-      "tag_category": "设计公司"
-    },
-    {
-      "title": "Sub-1nm Process Technology Won’t Arrive Till 2034, Logic Roadmap Highlights 2D FETs For 0.2nm & Sub 0.2nm Nodes By 2043-2046",
-      "url": "https://wccftech.com/sub-1nm-process-node-technology-wont-arrive-till-2034-logic-roadmap-2dfets-sub-0-2nm-2046/",
-      "description": "Moore's Law has slowed down, but progress continues in logic development as a new roadmap points to sub-1nm process nodes around 2034. It will Be Years Before Process Technology Go Sub-1nm, But They Are In Development: 0.7nm by 2034 &#38; &#60;0.2nm by 2046 Process technologies have slowed down as w",
-      "published": "Sat, 02 May 2026 17:00:12 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "Moore's Law has slowed down, but progress continues in logic development as a new roadmap points to sub-1nm process nodes around 2034. It will Be Year",
+      "summary": "Mistral推出Medium 3.5模型，将聊天、推理和代码生成能力整合在一个1280亿参数的AI模型中。",
       "tag_category": "综合"
     },
     {
-      "title": "AMD Finally Cracks HDMI 2.1 On Linux After Years Of Forum Lockout, Thanks To Valve’s Quiet Push",
-      "url": "https://wccftech.com/amd-finally-cracks-hdmi-2-1-on-linux-after-years-of-forum-lockout/",
-      "description": "AMD has taken a major step toward enabling native open-source HDMI 2.1 support on Linux by submitting new patches for its AMDGPU driver. AMD Moves Closer to Open-Source HDMI 2.1 Support on Linux With New AMDGPU FRL Patches It appears that the HDMI 2.1 support is finally arriving to Linux as AMD has ",
-      "published": "Sat, 02 May 2026 15:14:18 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "英伟达开源Ising：首个专为量子计算构建的AI模型家族",
+      "url": "https://toolsstackai.com/nvidia-ising-open-source-quantum-ai-models-error-correction-2026/",
+      "description": "NVIDIA Just Open-Sourced Ising — The First AI Model Family Built for Quantum Computing - Tools Stack AI\n\nQuantum computing has had a quiet 2026 in the press cycle, mostly because everyone’s been busy watching the GPT-5.5 vs. Gemini 3.1 vs. Claude Opus 4.6 frontier race. But NVIDIA just dropped somet",
+      "published": "2026-05-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
+      "insights": [
+        "英伟达开源量子计算AI模型，旨在提前布局量子计算软件生态，延续其在算力领域的统治力。",
+        "AI与量子计算的交叉领域可能催生新的专用处理器需求，加速量子算法的实用化进程。"
+      ],
+      "actions": [
+        "长期投资者应关注量子计算与AI结合带来的底层硬件架构变革，寻找早期投资机会。",
+        "科研机构可利用Ising模型探索量子加速在特定AI工作负载（如组合优化）中的优势。"
+      ],
+      "glossary": [
+        {
+          "term": "Quantum Computing",
+          "desc": "量子计算，利用量子力学原理进行计算，在特定问题上具有远超经典计算机的潜力",
+          "category": "设计公司"
+        }
+      ],
       "region": "overseas",
-      "summary": "AMD has taken a major step toward enabling native open-source HDMI 2.1 support on Linux by submitting new patches for its AMDGPU driver. AMD Moves Clo",
+      "summary": "英伟达开源了首个专为量子计算构建的AI模型家族Ising，推动AI与量子计算的融合。",
       "tag_category": "设计公司"
     },
     {
-      "title": "AMD’s Ryzen 7 7800X3D Hits Its Lowest 2026 Price At $324, Undercutting The 9800X3D By $126 For Gamers",
-      "url": "https://wccftech.com/amd-ryzen-7-7800x3d-hits-its-lowest-2026-price-at-324/",
-      "description": "One of the best gaming processors has dropped to its lowest price in 2026, but it's a limited-time deal. AMD Ryzen 7 7800X3D Drops to $324 on Amazon; The Best Gaming Processor for Sub-$350 Price Tag Not just Ryzen 7 9800X3D, the launch of newer and faster processors has resulted in price drops acros",
-      "published": "Sat, 02 May 2026 14:33:03 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "Nebius将以6.43亿美元收购Eigen AI以增强AI能力",
+      "url": "https://n24.com.tr/en/technology/nebius-to-acquire-eigen-ai-for-643m-to-boost-ai-capabilities-526",
+      "description": "Nebius to acquire Eigen AI for $643M to boost AI capabilities\n\n3 May 2026 14:51\n\n# Nebius to acquire Eigen AI for $643M to boost AI capabilities\n\nNebius plans to buy Eigen AI for $643M, enhancing AI inference and model optimization.\n\nEditör· 2 May 2026 08:45 · 2 dk okuma · 75 reads\n\nNebius, an Amste",
+      "published": "2026-05-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
+      "insights": [
+        "AI基础设施提供商通过并购整合MaaS（模型即服务）能力，提供全栈式AI解决方案。",
+        "算力云厂商的垂直整合趋势明显，旨在提升毛利率和客户粘性，摆脱单纯算力租赁的低端竞争。"
+      ],
+      "actions": [
+        "AI算力租赁企业需从单纯提供GPU算力向提供模型微调与部署服务延伸，提升附加值。",
+        "关注AI基础设施领域的并购整合带来的市场份额变动，适时调整云服务采购策略。"
+      ],
+      "glossary": [
+        {
+          "term": "MaaS",
+          "desc": "模型即服务，将AI模型作为云服务提供，用户无需训练即可直接调用模型能力",
+          "category": "综合"
+        }
+      ],
       "region": "overseas",
-      "summary": "One of the best gaming processors has dropped to its lowest price in 2026, but it's a limited-time deal. AMD Ryzen 7 7800X3D Drops to $324 on Amazon; ",
-      "tag_category": "设计公司"
-    },
-    {
-      "title": "User Walks Out From Walmart With A Ryzen 7 7800X3D And 7600X For Just $220",
-      "url": "https://wccftech.com/user-walks-out-from-walmart-with-a-ryzen-7-7800x3d-and-7600x-for-just-220/",
-      "description": "You don't see these deals everyday, and this is one of the craziest ones we have seen so far for the AM5 platform. Redditor Grabs AMD Ryzen 7 7800X3D for Just $145 and Ryzen 5 7600X For Only $75 From Local Walmart The AMD Ryzen 7 7800X3D sells for around $350 on Amazon, which, even though it is sign",
-      "published": "Sat, 02 May 2026 14:13:27 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "You don't see these deals everyday, and this is one of the craziest ones we have seen so far for the AM5 platform. Redditor Grabs AMD Ryzen 7 7800X3D ",
-      "tag_category": "设计公司"
+      "summary": "Nebius计划以6.43亿美元收购Eigen AI，以增强其AI基础设施和能力。",
+      "tag_category": "综合"
     }
   ],
   "stats": {
-    "total_raw": 132,
-    "after_dedup": 85,
+    "total_raw": 134,
+    "after_dedup": 66,
     "sources": {
-      "Exa": 9,
-      "RSS": 64,
-      "Brave": 12
+      "Exa": 25,
+      "RSS": 35,
+      "Brave": 6
     }
   }
 }
