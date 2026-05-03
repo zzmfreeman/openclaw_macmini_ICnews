@@ -1,6 +1,6 @@
 {
-  "version": "v20260503-0221",
-  "generatedAt": "2026-05-03T02:21:00+08:00",
+  "version": "v20260503-1304",
+  "generatedAt": "2026-05-03T13:04:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [
@@ -20,39 +20,34 @@
       "category": "封装"
     },
     {
-      "term": "LPDA",
-      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线",
-      "category": "EDA/IP"
+      "term": "IPO",
+      "desc": "首次公开募股，企业第一次将它的股份向公众出售。",
+      "category": "资本市场"
     },
     {
-      "term": "Full-Wave EM Simulation",
-      "desc": "全波电磁仿真，直接求解麦克斯韦方程的精确电磁场仿真方法",
-      "category": "EDA/IP"
+      "term": "Wafer-Scale Engine",
+      "desc": "晶圆级引擎，将整个晶圆作为单个巨型芯片的架构，由Cerebras主导。",
+      "category": "芯片架构"
     },
     {
-      "term": "Agentic AI",
-      "desc": "代理AI，能够自主规划并执行复杂任务的多模态AI系统",
-      "category": "AI"
+      "term": "Crypto ASIC",
+      "desc": "专为加密货币挖矿算法设计的专用集成电路。",
+      "category": "芯片类型"
     },
     {
-      "term": "WFE",
-      "desc": "Wafer Fabrication Equipment，晶圆制造设备",
-      "category": "设备"
+      "term": "Specialty Foundry",
+      "desc": "特色工艺代工厂，专注于非先进制程但具有特殊工艺技术（如高压、射频、模拟）的晶圆代工厂。",
+      "category": "制造"
     },
     {
-      "term": "Cerebras",
-      "desc": "一家研发晶圆级AI计算芯片的初创公司",
-      "category": "芯片"
+      "term": "High NA EUV",
+      "desc": "高数值孔径极紫外光刻，下一代EUV光刻技术，数值孔径从0.33提升至0.55，用于2nm以下制程。",
+      "category": "半导体设备"
     },
     {
-      "term": "WSE",
-      "desc": "Wafer-Scale Engine，晶圆级引擎，Cerebras推出的超大AI芯片架构",
-      "category": "芯片"
-    },
-    {
-      "term": "RISC-V",
-      "desc": "一种开源、基于精简指令集原则的指令集架构（ISA）",
-      "category": "IP"
+      "term": "Chiplet",
+      "desc": "芯粒，将不同功能的小芯片通过先进封装互联集成的架构模式，可降低成本并提高良率。",
+      "category": "封装架构"
     }
   ],
   "topic_pulse": [
@@ -61,217 +56,212 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对先进封装的讨论热度有所降温，缺乏引爆性新技术或产能扩张消息刺激。"
+      "summary": "先进封装热度有所回落，社区对CoWoS产能扩张的短期供需反转存在分歧，情绪趋于观望。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM及AI存储相关讨论热度下降，市场关注点可能暂时从存储瓶颈转移至系统架构创新。"
+      "summary": "HBM话题热度下降，讨论焦点从产能紧缺转向下一代HBM4的技术规格与标准，情绪平稳。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "关于中国晶圆厂和先进制程的社区讨论降温，暂无重大技术突破或政策调整消息传出。"
+      "summary": "国产Fab话题降温，社区暂无重大先进制程技术突破的讨论，情绪偏谨慎。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题热度回落，社区处于等待新政策或重磅产品发布的平静期。"
+      "summary": "国产EDA讨论减少，主要围绕特定点工具的替代突破，整体情绪理性务实。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT板块讨论降温，缺乏短期业绩超预期或先进封装订单激增的刺激信息。"
+      "summary": "OSAT板块关注度下降，讨论多集中于传统封装的价格竞争与盈利压力，情绪偏悲观。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制话题热度下降，近期无新增重大制裁措施引发社区焦虑与热议。"
+      "summary": "制裁话题热度回落，社区对新增实体清单的敏感度降低，情绪逐渐脱敏。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片及英伟达相关讨论暂遇冷，市场可能处于新品发布后的信息消化与生态适配期。"
+      "summary": "英伟达及AI芯片讨论降温，市场正消化Blackwell架构延期的预期，情绪从狂热转向冷静。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化讨论降温，社区关注焦点短暂偏移至IPO及航天芯片等宏观话题。"
+      "summary": "国产设备材料讨论减少，暂无重大产线验证进展传出，情绪处于蓄力期。"
     }
   ],
   "items": [
     {
-      "title": "使用全波电磁仿真设计宽带LPDA馈源反射面天线",
-      "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
-      "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
-      "published": "Fri, 17 Apr 2026 14:00:50 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "全波电磁仿真在复杂宽带天线设计中至关重要，能显著提高设计精度并缩短研发周期。",
-        "随着卫星通信和雷达系统需求增加，针对大尺寸电磁结构的高效EDA仿真工具需求将上升。"
-      ],
-      "actions": [
-        "射频与微波芯片设计工程师应关注全波仿真工具的最新进展，优化天线与前端的协同设计流程。",
-        "EDA厂商可针对高频宽带电磁仿真场景，开发更具算力优势的云端或GPU加速解决方案。"
-      ],
-      "glossary": [
-        {
-          "term": "LPDA",
-          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线",
-          "category": "EDA/IP"
-        },
-        {
-          "term": "Full-Wave EM Simulation",
-          "desc": "全波电磁仿真，直接求解麦克斯韦方程的精确电磁场仿真方法",
-          "category": "EDA/IP"
-        }
-      ],
-      "region": "overseas",
-      "summary": "本文提供了一份使用全波电磁仿真设计对数周期偶极子阵列(LPDA)馈电抛物面反射面天线的实用指南。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "随着2026年SpaceX IPO预期升温，台积电、英特尔、AMD、英伟达及安靠等芯片股受关注",
-      "url": "https://www.marketbeat.com/originals/the-real-spacex-play-5-chip-stocks-powering-the-ipo-before-it-launches/?amp=",
-      "description": "Dylan Jovine of Behind the Markets identifies five chip stocks set to benefit from the SpaceX IPO and the agentic AI wave driving it.",
+      "title": "Jio、Zepto和塔塔也要上市？印度未来几个月或将迎来股市上市潮",
+      "url": "https://www.theweek.in/news/biz-tech/2026/05/02/india-ipo-upcoming.html",
+      "description": "India is gearing up for a series of substantial IPOs from prominent companies like Jio, PhonePe, and Zepto, which may unlock significant value for public investors",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "航天与低轨卫星通信的扩张正成为AI芯片和先进封装的新增长引擎。",
-        "SpaceX等航天巨头的资本运作与算力需求，将向上传导并带动半导体全产业链的长期需求。"
+        "印度科技和电信巨头的集中上市反映了其国内资本市场的成熟和数字经济的快速发展。",
+        "半导体产业链可借势印度科技巨头的资本扩张，关注其数据中心和终端设备的芯片增量需求。"
       ],
       "actions": [
-        "供应链管理者应关注航天级芯片及先进封装（如安靠提供的服务）的市场扩容机会。",
-        "跟踪代理AI在太空计算等极端场景的落地进度，提前布局高可靠性芯片产能。"
+        "跟踪印度大型科技企业IPO募资用途，评估其在自研芯片或半导体供应链本地化方面的合作机会。",
+        "针对印度市场消费电子和通信基础设施的扩张，提前规划相应的芯片分销与支持渠道。"
       ],
       "glossary": [
         {
-          "term": "Agentic AI",
-          "desc": "代理AI，能够自主规划并执行复杂任务的多模态AI系统",
-          "category": "AI"
+          "term": "IPO",
+          "desc": "首次公开募股，企业第一次将它的股份向公众出售。",
+          "category": "资本市场"
         }
       ],
       "region": "overseas",
-      "summary": "分析师指出，受SpaceX潜在的IPO及推动其发展的代理AI浪潮影响，五只关键芯片股票有望从中受益。",
+      "summary": "印度正准备迎接Jio、PhonePe和Zepto等知名公司的一系列大型IPO，有望为公众投资者释放巨大价值。",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "尽管面临美国制裁，中国半导体设备公司仍在获取市场份额",
-      "url": "https://247wallst.com/technology-3/2026/05/01/chinas-semiconductor-equipment-companies-gain-share-despite-u-s-sanctions/",
-      "description": "Global WFE Market Share and Competitive Positioning Chinese semiconductor equipment vendors continue to gain share within the global WFE market, although the absolute level remains modest. Global leaders such as Applied Materials (AMAT), Lam Research (LRCX), KLA (KLAC), ASML (ASML), Tokyo Electron ...",
+      "title": "AI芯片制造商Cerebras据悉将寻求高达40亿美元的IPO",
+      "url": "https://economictimes.indiatimes.com/tech/technology/ai-chipmaker-cerebras-is-said-to-target-up-to-4-billion-in-ipo/articleshow/130719500.cms",
+      "description": "AI chipmaker Cerebras Systems is preparing for a massive initial public offering. The company aims to raise up to four billion dollars, valuing itself at forty billion dollars. This move comes as demand for AI infrastructure surges. Cerebras plans to begin marketing its shares soon.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "美国制裁倒逼国产设备加速验证与导入，国产化率在成熟制程环节稳步提升。",
-        "虽然整体份额仍偏低，但国产设备在刻蚀、清洗等关键节点的突破已对海外厂商形成局部替代压力。"
+        "Cerebras的高估值IPO彰显了资本市场对非GPU架构AI芯片（如晶圆级计算）的强烈兴趣与押注。",
+        "AI芯片赛道的资本热度仍在攀升，巨额融资将为晶圆级芯片的先进封装和制造研发提供资金保障。"
       ],
       "actions": [
-        "国内晶圆厂应持续评估并导入国产设备，构建多元化供应链以降低断供风险。",
-        "国产设备商需抓住当前窗口期，加快先进制程设备的研发迭代与产线验证。"
+        "关注Cerebras晶圆级架构对大尺寸晶圆制造和特定先进封装的供应链需求变化。",
+        "评估非GPU架构AI芯片在超大参数模型训练中的渗透率，调整对传统GPU供应链的依赖预期。"
       ],
       "glossary": [
         {
-          "term": "WFE",
-          "desc": "Wafer Fabrication Equipment，晶圆制造设备",
-          "category": "设备"
+          "term": "Wafer-Scale Engine",
+          "desc": "晶圆级引擎，将整个晶圆作为单个巨型芯片的架构，由Cerebras主导。",
+          "category": "芯片架构"
         }
       ],
       "region": "overseas",
-      "summary": "尽管绝对水平依然不高，中国半导体设备供应商在全球晶圆厂设备(WFE)市场中继续扩大份额。",
+      "summary": "AI芯片制造商Cerebras Systems正筹备大规模IPO，目标融资40亿美元，估值达400亿美元。",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "Cerebras寻求高达40亿美元的IPO，估值达400亿美元",
-      "url": "https://investing.com/news/stock-market-news/cerebras-targets-up-to-4-billion-in-ipo-with-40-billion-valuation--bloomberg-93CH-4654514",
-      "description": "Cerebras targets up to $4 billion in IPO with $40 billion valuation - Bloomberg",
+      "title": "加密货币IPO浪潮有一个大问题：比特币仍在主导地位",
+      "url": "https://cryptorank.io/news/feed/ba06a-the-crypto-ipo-wave-has-one-big-problem-bitcoin-is-still-in-charge",
+      "description": "After Circle and Bullish delivered blockbuster listings in 2025, crypto exchanges rushed toward public markets with a familiar promise: the industry is finally",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "Cerebras的高估值反映了资本市场对非传统架构（如晶圆级引擎WSE）在AI算力竞赛中潜力的认可。",
-        "大模型训练对内存带宽和算力的极致需求，为挑战NVIDIA垄断地位的初创公司提供了生存空间。"
+        "加密货币行业的上市潮受制于底层资产的高波动性，这限制了其作为稳定科技基础设施的估值逻辑。",
+        "对半导体产业而言，加密挖矿芯片（ASIC）的需求仍高度周期性，难以作为稳健的长期增长引擎。"
       ],
       "actions": [
-        "AI芯片从业者应密切关注晶圆级集成架构的生态发展及其在超大模型训练中的实际商业表现。",
-        "投资者需警惕高估值AI芯片初创公司面临的流片成本高昂、软件生态壁垒深等商业化风险。"
+        "对加密货币相关芯片（如矿机ASIC）的订单需求保持谨慎态度，避免在币价高点过度扩张产能。",
+        "将研发和产能优先分配给AI、汽车等具有长期确定性的赛道，降低加密市场周期波动风险。"
       ],
       "glossary": [
         {
-          "term": "Cerebras",
-          "desc": "一家研发晶圆级AI计算芯片的初创公司",
-          "category": "芯片"
-        },
-        {
-          "term": "WSE",
-          "desc": "Wafer-Scale Engine，晶圆级引擎，Cerebras推出的超大AI芯片架构",
-          "category": "芯片"
+          "term": "Crypto ASIC",
+          "desc": "专为加密货币挖矿算法设计的专用集成电路。",
+          "category": "芯片类型"
         }
       ],
       "region": "overseas",
-      "summary": "晶圆级芯片初创公司Cerebras计划进行IPO，目标融资高达40亿美元，估值约400亿美元。",
+      "summary": "尽管多家加密货币企业争相上市，但加密货币IPO浪潮仍面临比特币主导地位带来的核心问题与不确定性。",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "RISC-V国际协会2026年4月活动",
-      "url": "https://riscv.org/events/tag/cloud/2026-04/",
-      "description": "Events for April 2026 – RISC-V International\n\nSearch\n\n35 events found.\n\n## Calendar of Events\n\n0 events 30\n\n0 events, 30\n\n0 events 31\n\n0 events, 31\n\n0 events 1\n\n0 events, 1\n\n0 events 2\n\n0 events, 2\n\n0 events 3\n\n0 events, 3\n\n0 events 4\n\n0 events, 4\n\n0 events 5\n\n0 events, 5\n\n0 events 6\n\n0 events, 6\n\n0",
+      "title": "“Tower被定价为一家成长型公司”",
+      "url": "https://en.globes.co.il/en/article-tower-is-priced-as-a-growth-company-1001539446",
+      "description": "\"Tower is priced as a growth company\" - Globes\n\n# \"Tower is priced as a growth company\"\n\nRussell Ellwanger credit: Inbal Marmari\n\nBen Gurion airport eerily quiet on Passover eve�The war reinforces need for renewable energy�\n\n5 Apr, 2026 16:22\n\nShiri Habib-Valdhorn and Assaf Gilead\n\n## Stock market s",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "作为特色工艺代工厂，Tower获得成长型估值说明市场对模拟/混合信号、射频等非先进制程产能的需求持续增长。",
+        "汽车电子、工业和医疗芯片的稳健需求是推动特色代工厂价值重估的核心动力。"
+      ],
+      "actions": [
+        "芯片设计公司应重视特色工艺产线的战略价值，提前锁定长周期产能以应对汽车/工业芯片的交付需求。",
+        "设备与材料厂商可加大对特色工艺（如BCD、SOI）的升级支持，挖掘非先进制程的高利润市场。"
+      ],
+      "glossary": [
+        {
+          "term": "Specialty Foundry",
+          "desc": "特色工艺代工厂，专注于非先进制程但具有特殊工艺技术（如高压、射频、模拟）的晶圆代工厂。",
+          "category": "制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "特色工艺代工厂Tower Semiconductor在市场上被赋予了成长型公司的估值定价。",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "IBM与东京电子延长战略合作伙伴关系，推进生成式AI时代的芯粒架构与High NA EUV技术",
+      "url": "https://www.blog.baldengineering.com/2025/04/ibm-and-tokyo-electron-extend-strategic.html",
+      "description": "BALD Engineering - Born in Finland, Born to ALD: IBM and Tokyo Electron Extend Strategic Partnership to Advance Chiplet Architectures and High NA EUV for Generative AI Era\n\nIBM and Tokyo Electron (TEL) have renewed their long-standing semiconductor research partnership with a new five-year agreement",
       "published": "2026-05-03T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "RISC-V生态活动频繁，表明开源指令集架构在全球范围内的采用率和社区活跃度持续上升。",
-        "密集的社区活动规划显示，RISC-V正从学术和嵌入式领域向汽车、AI等更广泛的商业应用拓展。"
+        "High NA EUV与Chiplet的结合是突破AI算力瓶颈和摩尔定律放缓的关键路径，2nm以下工艺落地将加速。",
+        "系统巨头（IBM）与设备大厂（TEL）的深度绑定，表明先进制程研发的合作模式正走向高度定制化与封闭化。"
       ],
       "actions": [
-        "芯片设计公司应积极参与RISC-V社区活动，获取最新架构规范和生态资源以降低研发门槛。",
-        "关注RISC-V在特定高增长领域的标准扩展进展，寻找差异化IP开发与产品定义机会。"
+        "芯片设计公司需尽早基于Chiplet架构和2nm节点规划下一代AI加速芯片的技术路线图。",
+        "设备与材料供应链需紧密跟进High NA EUV产线的调试进展，提前布局配套的新一代光刻胶和检测设备。"
       ],
       "glossary": [
         {
-          "term": "RISC-V",
-          "desc": "一种开源、基于精简指令集原则的指令集架构（ISA）",
-          "category": "IP"
+          "term": "High NA EUV",
+          "desc": "高数值孔径极紫外光刻，下一代EUV光刻技术，数值孔径从0.33提升至0.55，用于2nm以下制程。",
+          "category": "半导体设备"
+        },
+        {
+          "term": "Chiplet",
+          "desc": "芯粒，将不同功能的小芯片通过先进封装互联集成的架构模式，可降低成本并提高良率。",
+          "category": "封装架构"
         }
       ],
       "region": "overseas",
-      "summary": "RISC-V国际协会发布了2026年4月的活动日历，包含35场相关活动。",
+      "summary": "IBM与东京电子（TEL）宣布延长战略合作伙伴关系，共同推进面向生成式AI时代的Chiplet架构和High NA EUV技术。",
       "tag_category": "EDA/IP"
     }
   ],
   "stats": {
-    "total_raw": 87,
-    "after_dedup": 85,
+    "total_raw": 76,
+    "after_dedup": 58,
     "sources": {
       "Exa": 2,
-      "RSS": 65,
-      "Brave": 18
+      "RSS": 50,
+      "Brave": 6
     }
   }
 }
