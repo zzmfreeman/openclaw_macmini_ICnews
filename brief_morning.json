@@ -1,6 +1,6 @@
 {
-  "version": "v20260504-0605",
-  "generatedAt": "2026-05-04T06:05:00+08:00",
+  "version": "v20260505-0605",
+  "generatedAt": "2026-05-05T06:05:00+08:00",
   "period": "morning",
   "commit": "",
   "glossary_list": [
@@ -20,74 +20,49 @@
       "category": "封装"
     },
     {
-      "term": "GPU",
-      "desc": "图形处理器，在AI领域常作为通用并行计算芯片用于模型训练和推理",
-      "category": "设计公司"
-    },
-    {
       "term": "SoC",
-      "desc": "系统级芯片，将CPU、GPU、NPU等关键组件集成在同一芯片上的集成电路",
-      "category": "设计公司"
+      "desc": "System on Chip，系统级芯片，将CPU、GPU等关键部件集成在一块芯片上",
+      "category": "设计"
     },
     {
-      "term": "Wafer-scale chip",
-      "desc": "晶圆级芯片，将整片晶圆作为单一芯片使用，省去切割与封装步骤以获得极高算力",
-      "category": "设计公司"
+      "term": "AI芯片",
+      "desc": "专门用于加速人工智能应用的芯片，如GPU、NPU等",
+      "category": "设计"
     },
     {
-      "term": "Embodied AI",
-      "desc": "具身智能，将AI算法与物理实体结合，使机器人能感知并在物理世界中执行任务",
-      "category": "综合"
+      "term": "Wafer-Scale Engine",
+      "desc": "晶圆级引擎，Cerebras开发的将整个晶圆作为单一芯片的AI计算架构",
+      "category": "架构"
     },
     {
-      "term": "GTM",
-      "desc": "走向市场策略，企业将产品或服务推向市场并交付给客户的方法和渠道规划",
-      "category": "EDA/IP"
+      "term": "Monolithic 3D",
+      "desc": "单片三维集成，在单一晶圆上垂直堆叠晶体管层的技术",
+      "category": "制造"
     },
     {
-      "term": "PPU",
-      "desc": "处理器打包单元/推理处理单元，此处指阿里自研的AI推理加速芯片",
-      "category": "Fab/制造"
+      "term": "Memory Wall",
+      "desc": "存储墙，指处理器与存储器之间数据传输速度不匹配导致的性能瓶颈",
+      "category": "架构"
     },
     {
-      "term": "EMIB",
-      "desc": "嵌入式多芯片互连桥接，英特尔的2.5D封装技术，通过硅桥实现多芯片高速互联",
+      "term": "Advanced Packaging",
+      "desc": "先进封装，如2.5D/3D、Chiplet等提升芯片互联带宽和集成度的封装技术",
       "category": "封装"
     },
     {
-      "term": "N3",
-      "desc": "3纳米制程节点，台积电当前最先进的量产工艺之一，提供高性能和低功耗",
-      "category": "Fab/制造"
+      "term": "Angstrom",
+      "desc": "埃米，长度单位，1埃米=0.1纳米，代表1nm以下的先进制程节点",
+      "category": "制造"
     },
     {
-      "term": "Backside Power",
-      "desc": "背面供电技术，将供电网络移至晶圆背面，释放正面空间用于信号布线以提升性能",
-      "category": "Fab/制造"
+      "term": "Physical AI",
+      "desc": "物理AI，指能够理解并操作物理世界的AI系统，如机器人、自动驾驶等",
+      "category": "应用"
     },
     {
-      "term": "Multimodal AI",
-      "desc": "多模态人工智能，能够同时处理文本、图像、音频等多种数据类型的AI模型",
-      "category": "设计公司"
-    },
-    {
-      "term": "AI-Driven Connectivity",
-      "desc": "AI驱动连接，利用人工智能技术实现网络的自适应优化、故障预测和智能调度",
-      "category": "综合"
-    },
-    {
-      "term": "128B Model",
-      "desc": "1280亿参数模型，属于大语言模型规模，需要大量显存和算力进行推理",
-      "category": "综合"
-    },
-    {
-      "term": "Quantum Computing",
-      "desc": "量子计算，利用量子力学原理进行计算，在特定问题上具有远超经典计算机的潜力",
-      "category": "设计公司"
-    },
-    {
-      "term": "MaaS",
-      "desc": "模型即服务，将AI模型作为云服务提供，用户无需训练即可直接调用模型能力",
-      "category": "综合"
+      "term": "ECAD",
+      "desc": "Electronic Computer-Aided Design，电子计算机辅助设计",
+      "category": "EDA"
     }
   ],
   "topic_pulse": [
@@ -96,492 +71,438 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区对先进封装的关注度有所降温，讨论焦点从产能紧缺转向各技术路线（如CoWoS与EMIB）的良率与生态竞争，情绪趋于理性。"
+      "summary": "联发科引入台积电研发高管强化CoWoS合作，应用材料收购NEXX扩展封装组合，但社区讨论热度降温，可能因利好出尽或等待实质产能落地。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM话题热度下降，社区讨论从缺货炒作转向实际部署中的性价比考量，对非HBM高带宽存储替代方案的关注有所增加。"
+      "summary": "美国单片3D芯片突破存储墙引发技术关注，但HBM话题降温，社区关注点可能从HBM容量竞赛转向新型存储架构与存算一体。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "关于中国先进制程突破的讨论热度回落，社区情绪从前期的高涨转为观望，更关注成熟制程的产能利用率与实际商业化进展。"
+      "summary": "台积电龙潭建埃米厂与国产AI芯片商业化拐点并存，但国内Fab话题降温，市场担忧设备禁令未解下先进制程扩产的天花板。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题降温，社区讨论重点从国产替代的迫切性转向工具链的实际易用性与生态完善度，情绪相对务实。"
+      "summary": "ECAD基础设施重构受关注，但国产EDA话题降温，缺乏重大全流程工具突破性新闻，社区情绪偏谨慎。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT讨论热度下降，随着先进封装产能逐步释放，社区对OSAT承接外溢订单的预期趋于平稳，缺乏短期爆点。"
+      "summary": "日月光增长战略受关注，但OSAT板块整体降温，资金可能流向更具弹性的的人工智能芯片设计端。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制话题降温，社区对制裁新闻产生疲劳，讨论重心转向如何在现有限制下通过架构创新和存量优化维持业务发展。"
+      "summary": "英伟达亚洲供应链占比达90%凸显脱钩难度，出口管制话题降温，市场对常态化制裁已逐渐脱敏。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "英伟达及AI芯片话题热度回落，社区对英伟达新硬件发布的兴奋度减弱，转而关注端侧小模型落地与算力实际利用率等务实问题。"
+      "summary": "Cerebras高估值IPO与小米玄戒O1出货引发讨论，但NVIDIA话题降温，可能处于财报发布前的信息真空期。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产设备材料话题降温，社区讨论从政策驱动转向具体工艺节点的验证进展，对短期全面替代的乐观情绪有所修正。"
+      "summary": "应用材料收购NEXX强化巨头地位，国产设备话题降温，缺乏新的大规模国产替代订单催化，社区观望情绪浓厚。"
     }
   ],
   "items": [
     {
-      "title": "国产GPU龙头业绩大增，无锡资本深度参与",
-      "url": "https://finance.sina.com.cn/wm/2026-05-02/doc-inhwpcha9620690.shtml",
-      "description": "近日\n\nA股2026年一季报披露收官\n\n科创板块表现尤为亮眼\n\n其中\n\n寒武纪、海光信息、摩尔线程等\n\n国产AI芯片龙头业绩大增\n\n📈📈📈\n\n整体来看\n\n行业呈现头部企业盈利稳固\n\n二线厂商减亏甚至扭亏提速\n\n梯队化成长格局清晰的特征\n\n据科创板日报，寒武纪、摩尔线程营收同比增速均超150%，海光信息一季度营收突破40亿元，行业高景气度持续验证。国产AI算力芯片正从技术突破向规模化商业落地跨越，国产化进程持续深化。\n\n截至2026年4月30日收盘，国产六大AI算力芯片企业中，A股头部企业体量领先：寒武纪市值7168.48亿元、海光信息市值6885.85亿元，位居行业前两位；摩尔线程、沐曦",
-      "published": "2026-05-02T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "国产AI芯片已进入规模化商业落地阶段，头部效应显现，营收增速超150%验证了行业高景气度。",
-        "二线厂商减亏甚至扭亏提速，表明行业生态逐渐健康，非头部企业也能在细分市场找到生存空间。"
-      ],
-      "actions": [
-        "供应链企业应优先保障寒武纪、海光等头部国产GPU企业的产能与封测需求，深度绑定核心客户。",
-        "关注二线国产芯片厂商的扭亏趋势，适时拓展合作机会，分散单一客户依赖风险。"
-      ],
-      "glossary": [
-        {
-          "term": "GPU",
-          "desc": "图形处理器，在AI领域常作为通用并行计算芯片用于模型训练和推理",
-          "category": "设计公司"
-        }
-      ],
-      "region": "domestic",
-      "summary": "寒武纪、海光信息、摩尔线程等国产AI芯片龙头一季度业绩大增，行业呈现梯队化成长格局，国产AI算力芯片正从技术突破向规模化商业落地跨越。",
-      "tag_category": "设计公司"
-    },
-    {
-      "title": "第二代豆包AI手机2026上半年发布：搭载骁龙8至尊版并实现深度系统级AI交互",
-      "url": "https://ai.zol.com.cn/1174/11742035.html",
-      "description": "第二代豆包AI手机2026上半年发布：骁龙8至尊版+深度系统级AI交互_人工智能-中关村在线\n\nZOL首页>人工智能频道> 正文\n\n产品定位聚焦于构建“AI代为操作手机”的全新交互范式，突破传统应用内嵌式AI功能的局限，致力于实现跨应用、端到端的自然语言指令执行。\n\n首代豆包手机以努比亚M153为型号，于2025年12月以工程样机形式限量发售三万台，售价3499元，开售即告售罄。其展现出的“一句话自动比价下单”“跨应用协同任务执行”等能力，在业内引发广泛关注。不过，由于系统级AI权限较高，部分主流应用曾对其调用行为作出限制，影响了部分场景下的功能完整性。\n\n基于首批用户反馈及后续生态合作进展，",
+      "title": "小米首款自研芯片报捷 玄戒O1出货逾百万颗",
+      "url": "https://money.udn.com/money/story/5604/9479479",
+      "description": "首款自研晶片報捷 小米玄戒O1出貨逾百萬顆 | 陸股透視 | 兩岸 | 經濟日報\n\n打開 App\n\n# 首款自研晶片報捷 小米玄戒O1出貨逾百萬顆\n\n本文共396字\n\n', '', '', '', '', '', '', '', '', '', '', '', '', '\n\n00:00\n\n2026/05/04 01:26:52\n\n經濟日報 記者黃雅慧／綜合報導\n\n小米CEO雷軍宣布，小米自研的首款高端旗艦SoC玄戒O1出貨量已突破100萬顆，未來還將應用於小米汽車。目前，玄戒O1已搭載於小米15S Pro、小米平板7 Ultra、小米平板7S Pro三款終端設備。意味小米在自研晶片上，正實現從",
       "published": "2026-05-03T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "端侧AI正从应用内嵌式功能向系统级交互演进，对手机SoC的NPU算力和内存带宽提出极高要求。",
-        "AI手机交互范式的变革将催生新的软硬件协同优化需求，可能重塑智能手机竞争格局。"
+        "手机厂商自研SoC是构建软硬件生态护城河的关键，百万级出货证明了其量产与商业化能力。",
+        "小米的突破将加剧移动芯片市场的竞争，可能引发其他手机厂商的跟进自研潮。"
       ],
       "actions": [
-        "手机芯片供应链需关注端侧大模型对算力需求的升级，提前布局高性能NPU与LPDDR6等内存方案。",
-        "应用开发者与系统集成商应尽早适配系统级AI交互接口，抢占新交互范式下的应用生态位。"
+        "关注小米玄戒O1的代工及封测供应链合作伙伴，评估潜在订单转移效应。",
+        "评估自研芯片对高通、联发科等第三方SoC供应商市场份额的长期影响。"
       ],
       "glossary": [
         {
           "term": "SoC",
-          "desc": "系统级芯片，将CPU、GPU、NPU等关键组件集成在同一芯片上的集成电路",
-          "category": "设计公司"
+          "desc": "System on Chip，系统级芯片，将CPU、GPU等关键部件集成在一块芯片上",
+          "category": "设计"
         }
       ],
       "region": "domestic",
-      "summary": "第二代豆包AI手机将于2026上半年发布，搭载骁龙8至尊版，主打跨应用、端到端的自然语言指令执行，构建“AI代为操作手机”的全新交互范式。",
+      "summary": "小米CEO雷军宣布，小米首款自研芯片玄戒O1出货量已超过一百万颗，标志着国产手机SoC自研取得重要商业化突破。",
       "tag_category": "综合"
     },
     {
-      "title": "AI芯片制造商Cerebras寻求以400亿美元估值进行最高40亿美元的IPO",
-      "url": "https://thenextweb.com/news/cerebras-ipo-4-billion-40-billion-valuation",
-      "description": "AI chipmaker Cerebras targets up to $4bn IPO at $40bn valuation\n\nAfter a CFIUS-induced retreat in 2024, the wafer-scale chip startup is back with an OpenAI deal in its pocket and a sharper bet against Nvidia.\n\nEighteen months ago, Cerebras Systems looked like a cautionary tale. The Sunnyvale-based A",
-      "published": "2026-05-02T00:00:00.000Z",
+      "title": "国产AI芯片迎来商业化拐点 天数智芯上市以来涨超250%",
+      "url": "https://finance.sina.com.cn/jjxw/2026-05-04/doc-inhwsyqp0062622.shtml",
+      "description": "财联社5月4日讯（编辑 胡家荣）近日，国内半导体行业热度持续攀升，市场关注度显著提升。港股半导体概念早盘走强。截至发稿，天数智芯(09903.HK)涨14.21%，澜起科技(06809.HK)涨6.95%，上海复旦(01385.HK)涨6.79%，壁仞科技(06082.HK)涨6.14%。\n\n消息方面，寒武纪、海光信息、摩尔线程、沐曦股份已悉数披露2026年一季度财报，而壁仞科技、天数智芯两家港股上市企业暂未披露相关数据。\n\n有分析指出，半导体行业整体呈现\"头部企业盈利稳固、二线厂商减亏提速\"的发展态势。具体来看，三家企业实现盈利，寒武纪、摩尔线程营收同比增速均超150%；海光信息一季度营收突",
+      "published": "2026-05-04T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "Cerebras的高估值IPO反映了资本市场对非传统架构AI算力（如晶圆级芯片）的持续看好。",
-        "与OpenAI等头部大模型厂商的深度绑定，是提升AI芯片初创公司商业想象力和估值的关键。"
+        "国产AI芯片企业股价大涨，反映出资本市场对算力国产替代的强烈预期与信心。",
+        "商业化拐点的到来意味着国产AI芯片正从纯研发走向规模化落地，营收结构开始改善。"
       ],
       "actions": [
-        "关注晶圆级计算架构在超大模型训练中的商业化进展，评估其作为传统GPU集群替代方案的潜力。",
-        "投资机构可关注非主流先进架构芯片赛道，寻找具有头部大模型客户背书的标的。"
+        "深入分析天数智芯、壁仞科技等国产AI芯片企业的财报，验证其真实营收结构与客户粘性。",
+        "提前布局国产AI芯片生态链，寻找软硬件适配与系统集成的早期合作机会。"
       ],
       "glossary": [
         {
-          "term": "Wafer-scale chip",
-          "desc": "晶圆级芯片，将整片晶圆作为单一芯片使用，省去切割与封装步骤以获得极高算力",
-          "category": "设计公司"
+          "term": "AI芯片",
+          "desc": "专门用于加速人工智能应用的芯片，如GPU、NPU等",
+          "category": "设计"
+        }
+      ],
+      "region": "domestic",
+      "summary": "国内半导体行业热度攀升，天数智芯等港股半导体概念股大涨，国产AI芯片企业一季度财报披露引发市场强烈关注。",
+      "tag_category": "设计公司"
+    },
+    {
+      "title": "Cerebras更新IPO条款：融资35亿美元 估值266亿美元",
+      "url": "https://thenextweb.com/news/cerebras-ipo-3-5-billion-updated-prospectus",
+      "description": "Cerebras files updated IPO terms: $3.5bn raise at $26.6bn valuation\n\nThree days after suggesting it might target up to $4bn at $40bn, the AI chipmaker has marketed 28 million shares at $115-$125 each, lining the deal up with its February private valuation rather than above it.\n\n---\n\nCerebras Systems",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "Cerebras的高估值IPO显示了资本市场对非传统架构AI芯片（如晶圆级计算）的认可。",
+        "巨额融资将助力Cerebras在晶圆制造和系统级方案上与主流巨头展开更激烈竞争。"
+      ],
+      "actions": [
+        "关注Cerebras的IPO进展及资金用途，评估其对台积电等晶圆代工厂的特殊工艺需求。",
+        "对比分析晶圆级芯片与主流GPU在AI训练场景的TCO，寻找差异化算力方案。"
+      ],
+      "glossary": [
+        {
+          "term": "Wafer-Scale Engine",
+          "desc": "晶圆级引擎，Cerebras开发的将整个晶圆作为单一芯片的AI计算架构",
+          "category": "架构"
         }
       ],
       "region": "overseas",
-      "summary": "晶圆级芯片初创公司Cerebras在2024年因CFIUS受阻后，凭借与OpenAI的合作再次寻求IPO，目标估值达400亿美元。",
+      "summary": "AI芯片初创公司Cerebras更新IPO条款，计划以266亿美元的估值融资35亿美元，发行价区间为115至125美元。",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "Meta收购Assured Robot Intelligence以发力人形机器人AI",
-      "url": "https://www.aibusinessreview.org/2026/05/02/meta-acquires-assured-robot-intelligence-humanoid-ai/",
-      "description": "Meta Buys Assured Robot Intelligence for Humanoid AI\n\nSearch\n\nSee all results\n\nShare\n\nMeta has acquired Assured Robot Intelligence, a robotics startup focused on embodied artificial intelligence, according to TechCrunch AI. The acquisition marks Meta’s first significant move into physical AI systems",
-      "published": "2026-05-02T00:00:00.000Z",
+      "title": "美国首款单片3D AI芯片突破存储墙 基于SkyWater代工",
+      "url": "https://www.intelligentliving.co/us-monolothic-3d-ai-chip-skywater/",
+      "description": "First U.S. Monolithic 3D AI Chip Breakthrough Breaks The Memory Wall with SkyWater Foundry\n\nSearch\n\nSign in\n\nWelcome! Log into your account\n\nyour username\n\nyour password\n\nForgot your password? Get help\n\nPassword recovery\n\nRecover your password\n\nyour email\n\nA password will be e-mailed to you.\n\nVertic",
+      "published": "2026-05-04T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "科技巨头通过并购切入具身智能赛道，人形机器人将成为AI算力新的重要需求场景。",
-        "具身智能对边缘侧低功耗、高算力芯片及多传感器融合的需求，将催生专用边缘AI芯片市场。"
+        "单片3D集成技术是突破AI算力存储墙的有效路径，无需依赖传统先进封装即可实现极高带宽。",
+        "采用SkyWater等非顶级代工厂实现3D芯片，表明该工艺对成熟制程具有良好兼容性，可降低制造成本。"
       ],
       "actions": [
-        "芯片设计公司应关注具身智能对专用边缘AI芯片的增量需求，研发低功耗高算力融合控制芯片。",
-        "供应链企业需提前布局机器人所需的视觉处理、传感器融合与实时控制芯片产能。"
+        "追踪单片3D集成技术的工艺成熟度与可靠性，评估其在边缘AI芯片的商用潜力。",
+        "关注国内代工厂在3D IC领域的研发布局，寻找技术合作或设备采购机会。"
       ],
       "glossary": [
         {
-          "term": "Embodied AI",
-          "desc": "具身智能，将AI算法与物理实体结合，使机器人能感知并在物理世界中执行任务",
-          "category": "综合"
+          "term": "Monolithic 3D",
+          "desc": "单片三维集成，在单一晶圆上垂直堆叠晶体管层的技术",
+          "category": "制造"
+        },
+        {
+          "term": "Memory Wall",
+          "desc": "存储墙，指处理器与存储器之间数据传输速度不匹配导致的性能瓶颈",
+          "category": "架构"
         }
       ],
       "region": "overseas",
-      "summary": "Meta收购了专注于具身智能的机器人初创公司Assured Robot Intelligence，加速布局人形机器人AI领域。",
+      "summary": "美国实现首款单片3D AI芯片突破，该芯片与SkyWater代工厂合作，成功打破AI计算中的“存储墙”瓶颈。",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "应用材料通过收购NEXX扩展先进封装产品组合",
+      "url": "https://www.globenewswire.com/news-release/2026/05/04/3286382/0/en/Applied-Materials-Broadens-Advanced-Packaging-Portfolio-with-Acquisition-of-NEXX.html",
+      "description": "Applied Materials Broadens Advanced Packaging Portfolio\n\n# Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX\n\nMay 03, 2026 20:00 ET | Source: Applied Materials, Inc. Follow Applied Materials, Inc.\n\n---\n\nShare\n\n---\n\nSANTA CLARA, Calif., May 03, 2026 (GLOBE NEWSWIRE) -- ",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "半导体设备巨头通过并购补全先进封装能力，凸显先进封装在后摩尔时代的关键地位。",
+        "NEXX的镀膜和封装设备将增强应用材料在2.5D/3D封装市场的整体解决方案实力，改变设备竞争格局。"
+      ],
+      "actions": [
+        "评估应用材料收购NEXX后对现有先进封装设备竞争格局的影响，特别是对ASMPT的冲击。",
+        "封装厂应关注应用材料新产品组合的交付周期与工艺验证进度，适时调整设备采购规划。"
+      ],
+      "glossary": [
+        {
+          "term": "Advanced Packaging",
+          "desc": "先进封装，如2.5D/3D、Chiplet等提升芯片互联带宽和集成度的封装技术",
+          "category": "封装"
+        }
+      ],
+      "region": "overseas",
+      "summary": "应用材料宣布从ASMPT收购NEXX业务，以扩展和加强其在先进封装领域的产品组合与市场竞争力。",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "FinancialContent - Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX",
+      "url": "https://markets.financialcontent.com/stocks/article/gnwcq-2026-5-4-applied-materials-broadens-advanced-packaging-portfolio-with-acquisition-of-nexx",
+      "description": "FinancialContent - Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX\n\nIndicators\n\nStandard & Poors 500\n\nMarkets:\n\n# Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX\n\nⓘ This article is third-party content and does not represent the views ",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "FinancialContent - Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX\n\nIndicators\n\nStandard & Poors 500\n\nMarkets:\n\n# App",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "龙科三期大复活 台积电传将在龙潭建埃米厂",
+      "url": "https://money.udn.com/money/story/5612/9479520",
+      "description": "龍科三期大復活 台積傳要在龍潭蓋埃米廠 漢唐、帆宣迎千億建廠大單 | 產業熱點 | 產業 | 經濟日報\n\n打開 App\n\n# 龍科三期大復活 台積傳要在龍潭蓋埃米廠 漢唐、帆宣迎千億建廠大單\n\n本文共1240字\n\n', '', '', '', '', '', '', '', '', '', '', '', '', '\n\n00:00\n\n2026/05/03 23:14:35\n\n經濟日報 記者李珣瑛／新竹即時報導\n\n懸宕兩年半的竹科龍潭園區擴建計畫（龍科三期）大復活，傳出台積電（2330）將重返龍潭蓋次世代埃米級製程晶圓廠，投資額上看五、六千億元，引爆新一波建廠大商機，漢唐（2404）、帆宣（61",
+      "published": "2026-05-03T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "台积电推进埃米级制程需要更庞大的基建与极紫外光刻支持，龙潭厂的扩建是技术演进的必然。",
+        "建厂需求的爆发将直接利好特气、厂务工程等供应链厂商，带来显著的业绩增量。"
+      ],
+      "actions": [
+        "追踪龙潭厂环评与土地审批进度，预判台积电资本支出的节奏变化。",
+        "厂务与材料供应商应提前备货扩产，以应对埃米厂建设带来的短期需求脉冲。"
+      ],
+      "glossary": [
+        {
+          "term": "Angstrom",
+          "desc": "埃米，长度单位，1埃米=0.1纳米，代表1nm以下的先进制程节点",
+          "category": "制造"
+        }
+      ],
+      "region": "domestic",
+      "summary": "台积电龙潭厂区三期扩建计划复活，传闻将建设埃米级先进制程工厂，为汉唐、帆宣等厂区服务商带来千亿建厂大单。",
       "tag_category": "综合"
     },
     {
-      "title": "Chameleon Semiconductor首席执行官Geoffrey Rodgers专访",
-      "url": "https://semiwiki.com/ceo-interviews/368833-ceo-interview-with-geoffrey-rodgers-of-chameleon-semiconductor/",
-      "description": "<p>Geoffrey Rodgers spent most of his career at the intersection of semiconductor technology and go-to-market execution, with a focus on scaling businesses and bringing complex solutions to market. He previously led the Analog Go-To-Market motion at Synopsys following the acquisition of Analog Desig",
-      "published": "Sun, 03 May 2026 21:00:04 +0000",
+      "title": "台积电前研发大将助阵联发科！强化CoWoS合作",
+      "url": "https://news.nextapple.com/finance/20260503/252C5830FB22195CA36E25942AF627C4",
+      "description": "台積電前研發大將助陣聯發科！強化CoWoS合作 外資另喊驚人目標價｜壹蘋新聞網\n\n【記者呂承哲／台北報導】近日市場傳出，台積電（2330）「研發六騎士」、前研發副總余振華加入聯發科（2454），對此，公司證實，余振華獲邀擔任聯發科的非全職顧問，將借重其經驗，協助聯發科高階封裝未來技術的前瞻探索與路徑規劃，這也符合聯發科日前在法說會提及，公司採多元技術布局策略，並持續與台積電持續密切合作。\n\n余振華在去年7月8日正式從台積電退休。余振華畢業於國立清華大學物理學系，先後取得材料工程研究所碩士、美國喬治亞理工學院材料工程博士學位，根據介紹，余振華在台積電服務超過20年，成功研發銅導線/低介質材料的互",
+      "published": "2026-05-03T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "联发科引入台积电研发高管，标志着其定制高阶AI芯片并采用CoWoS封装的战略决心。",
+        "先进封装产能稀缺，联发科此举意在深化与台积电的绑定，确保未来CoWoS产能分配。"
+      ],
+      "actions": [
+        "关注联发科后续基于CoWoS封装的ASIC产品流片动态，评估其对AI推理市场的冲击。",
+        "重新评估联发科在AI算力供应链中的角色，寻找与其Chiplet架构配套的IP合作机会。"
+      ],
+      "glossary": [
+        {
+          "term": "CoWoS",
+          "desc": "Chip-on-Wafer-on-Substrate，台积电的2.5D先进封装技术，广泛用于AI芯片",
+          "category": "封装"
+        }
+      ],
+      "region": "domestic",
+      "summary": "台积电前研发副总余振华加入联发科担任顾问，协助高阶封装技术的前瞻探索与路径规划，强化联发科与台积电的CoWoS合作。",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "台积电的60%问题",
+      "url": "https://nextfinancial.substack.com/p/the-60-problem",
+      "description": "The 60% Problem - Next Financial\n\n# Next Financial\n\nSubscribeSign in\n\n# The 60% Problem\n\nMay 04, 2026\n\n∙ Paid\n\n13\n\nShare\n\nWhen TSMC released its fourth-quarter results, one number went largely unnoticed in the financial press.\n\nNvidia had reserved 60% of the world’s advanced packaging capacity at TS",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "台积电营收高度集中于少数头部客户或特定地区，带来潜在的地缘和周期性风险。",
+        "过度依赖单极市场可能在出口管制升级时遭遇重创，分散客户结构是长期稳健的关键。"
+      ],
+      "actions": [
+        "审视自身供应链对单一大客户或单一地区的依赖度，制定极端情况下的业务连续性计划。",
+        "关注台积电在全球分散建厂（如日本、欧洲）的进展，评估供应链区域化重构趋势。"
+      ],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "文章探讨台积电财报中一个被忽视的数据，揭示其面临的地缘政治或营收集中度风险（60%问题）。",
+      "tag_category": "设计公司"
+    },
+    {
+      "title": "Longtan Phase III Expansion Revived: TSMC Files Factory Application, Hsinchu Science Park Administration Confirms Majority Landowner Support at Public Hearing — BigGo Finance",
+      "url": "https://finance.biggo.com/news/eszj8Z0BX0tZvRTv6p9y",
+      "description": "Longtan Phase III Expansion Revived: TSMC Files Factory Application, Hsinchu Science Park Administration Confirms Majority Landowner Support at Public Hearing — BigGo Finance\n\n# Longtan Phase III Expansion Revived: TSMC Files Factory Application, Hsinchu Science Park Administration Confirms Majority",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Longtan Phase III Expansion Revived: TSMC Files Factory Application, Hsinchu Science Park Administration Confirms Majority Landowner Support at Public",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "英伟达亚洲供应链组件成本占比达90%",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidias-asian-supply-chain-hits-90-percent-of-production-costs",
+      "description": "Nvidia's exposure to Asian supply chains for components hits 90% of its production costs — marked increase from 65% could intensify as physical AI adds even more exposure | Tom's Hardware\n\nNvidia's exposure to Asian supply chains for components hits 90% of its production costs — marked increase from",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "英伟达对亚洲供应链的深度依赖，凸显了亚洲在半导体封装、测试及组件制造上的不可替代性。",
+        "物理AI对定制化硬件需求增加，将推高对亚洲成熟制程和封装产能的绑定。"
+      ],
+      "actions": [
+        "评估地缘政治对英伟达亚洲供应链的潜在冲击，寻找关键无源器件和基板的替代来源。",
+        "国内供应链企业应抓住物理AI带来的增量需求，切入英伟达等巨头的组件供应体系。"
+      ],
+      "glossary": [
+        {
+          "term": "Physical AI",
+          "desc": "物理AI，指能够理解并操作物理世界的AI系统，如机器人、自动驾驶等",
+          "category": "应用"
+        }
+      ],
+      "region": "overseas",
+      "summary": "英伟达生产成本中90%来自亚洲供应链组件，较此前的65%显著上升，且随着物理AI发展，该比例可能进一步增加。",
+      "tag_category": "设计公司"
+    },
+    {
+      "title": "日月光投控的增长战略与未来前景",
+      "url": "https://matrixbcg.com/blogs/growth-strategy/aseglobal",
+      "description": "What is Growth Strategy and Future Prospects of ASE Technology Holding Company? – MatrixBCG.com\n\nMay 4, 2026\n\n# What is Growth Strategy and Future Prospects of ASE Technology Holding Company?\n\nGenerate AI Summary\n\n### ASE Technology Holding Bundle\n\nGet Full Bundle:\n\nTOTAL:\n\nADD TO CART\n\n## How will ",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "作为OSAT龙头，日月光在先进封装（如CoWoS配套）的布局将直接受益于AI芯片爆发。",
+        "测试业务随芯片复杂度提升而增长，系统级测试（SLT）成为新利润点。"
+      ],
+      "actions": [
+        "关注日月光在2.5D/3D封装产能的扩充进度，评估其对客户交期的影响。",
+        "封装设备供应商应针对日月光的技术路线图，提前进行设备验证与导入。"
+      ],
+      "glossary": [
+        {
+          "term": "OSAT",
+          "desc": "Outsourced Semiconductor Assembly and Test，专业半导体封测代工",
+          "category": "封装"
+        }
+      ],
+      "region": "overseas",
+      "summary": "分析日月光投控的增长战略及未来前景，探讨其在先进封装和测试市场的领先地位与发展路径。",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Applied Materials Acquires NEXX Business From ASMPT",
+      "url": "https://pulse2.com/applied-materials-acquires-nexx-business-from-asmpt/",
+      "description": "Applied Materials Acquires NEXX Business From ASMPT\n\n# Applied Materials Acquires NEXX Business From ASMPT\n\nBy Amit Chowdhry • Yesterday at 10:34 PM\n\nApplied Materials Acquires NEXX Business From ASMPT\n\nApplied Materials has entered into a definitive agreement with ASMPT Limited to acquire its NEXX ",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Applied Materials Acquires NEXX Business From ASMPT\n\n# Applied Materials Acquires NEXX Business From ASMPT\n\nBy Amit Chowdhry • Yesterday at 10:34 PM\n\n",
+      "tag_category": "综合"
+    },
+    {
+      "title": "重新思考ECAD IT基础设施：从碎片化到工程平台",
+      "url": "https://semiwiki.com/artificial-intelligence/368752-rethinking-ecad-it-infrastructure-from-fragmentation-to-an-engineering-platform/",
+      "description": "<p>The semiconductor industry is entering a new phase of complexity. Advanced nodes, heterogeneous integration, and AI-driven design workflows are placing unprecedented demands on engineering teams. While much of the focus remains on tools and methodologies, an equally critical constraint is emergin",
+      "published": "Mon, 04 May 2026 13:00:52 +0000",
       "source": "RSS",
       "source_type": "RSS",
       "lang": "en",
       "tags": [],
       "insights": [
-        "半导体初创公司不仅需要技术突破，更依赖精准的GTM（走向市场）策略实现商业化闭环。",
-        "复杂芯片解决方案的落地需要与客户生态深度绑定，单点技术优势难以转化为持续营收。"
+        "AI驱动的设计流程和先进制程产生海量数据，传统分散的IT架构已成为研发效率的瓶颈。",
+        "构建集中式、高吞吐的EDA工程平台是芯片设计公司提升迭代速度的核心。"
       ],
       "actions": [
-        "芯片设计初创企业应尽早构建具备市场销售经验的复合型团队，避免陷入唯技术论的误区。",
-        "在产品定义阶段即引入目标客户共同开发，降低复杂解决方案走向市场的不确定性风险。"
+        "芯片设计企业应评估现有EDA IT基础设施的算力利用率与存储瓶颈，规划云原生化改造。",
+        "IT基础设施供应商需开发针对EDA工作负载优化的高性能计算与存储方案。"
       ],
       "glossary": [
         {
-          "term": "GTM",
-          "desc": "走向市场策略，企业将产品或服务推向市场并交付给客户的方法和渠道规划",
-          "category": "EDA/IP"
+          "term": "ECAD",
+          "desc": "Electronic Computer-Aided Design，电子计算机辅助设计",
+          "category": "EDA"
         }
       ],
       "region": "overseas",
-      "summary": "Chameleon Semiconductor首席执行官分享了其在半导体技术与市场执行交汇处的经验，重点关注业务扩展和复杂解决方案的市场化。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "阿里首次证实自研AI芯片PPU存在，大规模出货已有一年",
-      "url": "https://www.36kr.com/p/3659934294991749",
-      "description": "阿里首次证实自研AI芯片PPU存在，大规模出货已有一年-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 阿里首次证实自研AI芯片PPU存在，大规模出货已有一年\n\n虽然阿里长期未主动公开披露这款芯片的信息，但这款芯片几乎是云计算和半导体行业内“公开的秘密”。\n\n1月29日，阿里首次主动证实了自研AI芯片PPU的存在——此次披露的PPU芯片被命名为真武810E。不过，阿里方面未披露真武810E的工艺制程和代工方等关键问题。\n\n真武810E由阿里巴巴集团全资芯片业务主体平头哥研发。虽然阿里长期未主动公开披露这",
-      "published": "2026-05-02T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "云厂商自研AI算力芯片已成常态，旨在优化内部推理成本和基础设施效率，摆脱对单一供应商的依赖。",
-        "PPU的大规模出货表明国内云厂商自研芯片已跨越量产门槛，进入实质性替换通用GPU的阶段。"
-      ],
-      "actions": [
-        "传统GPU供应商需警惕云厂商自研芯片对通用推理算力采购的替代效应，调整产品差异化策略。",
-        "封测与代工企业应积极对接云厂商自研芯片的流片与量产需求，寻找新的增长曲线。"
-      ],
-      "glossary": [
-        {
-          "term": "PPU",
-          "desc": "处理器打包单元/推理处理单元，此处指阿里自研的AI推理加速芯片",
-          "category": "Fab/制造"
-        }
-      ],
-      "region": "domestic",
-      "summary": "阿里云首次主动证实其自研AI芯片PPU的存在，该芯片已在行业内作为“公开的秘密”大规模出货一年。",
-      "tag_category": "Fab/制造"
-    },
-    {
-      "title": "联发科延揽前台积电CoWoS推手余振华：声明与英特尔EMIB无关，选边台积电",
-      "url": "https://abmedia.io/mediatek-hires-tsmc-cowos-yu-chen-hua-advanced-packaging-may-2026",
-      "description": "聯發科延攬前台積電 CoWoS 推手余振華：聲明與英特爾 EMIB 無關、選邊台積 | 鏈新聞 ABMedia\n\n聯發科 5 月 2 日宣布延攬前台積電研發副總余振華擔任非全職顧問，職責聚焦先進封裝前瞻技術探索與路徑規劃，並深化與台積電先進封裝產品的合作。聯發科同步聲明此舉「與英特爾 EMIB 無關」，公開將自身先進封裝路徑綁定台積電。余振華是台積電 31 年資歷的 CoWoS 主要推手、研發六騎士最後一位退休的元老。\n\nTable of Contents\n\nToggle\n\n## 5/2 聲明定調：聯發科明確切割英特爾 EMIB、選邊台積電\n\n市場原本傳聞聯發科可能跟進 Google TPU ",
-      "published": "2026-05-02T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "先进封装已成为芯片大厂竞争的核心战场，联发科公开“选边”台积电CoWoS，意味着先进封装生态的阵营化趋势加剧。",
-        "英特尔EMIB在客户争夺上面临压力，头部Fabless更倾向于选择成熟度更高的台积电封装路线。"
-      ],
-      "actions": [
-        "芯片设计公司需尽早明确先进封装技术路线图，与特定代工厂深度绑定以确保产能供给。",
-        "关注台积电CoWoS与英特尔EMIB生态的竞争格局，在产品规划时评估不同封装路线的迁移成本。"
-      ],
-      "glossary": [
-        {
-          "term": "CoWoS",
-          "desc": "晶圆级多芯片封装，台积电的2.5D/3D先进封装技术，广泛用于AI芯片",
-          "category": "封装"
-        },
-        {
-          "term": "EMIB",
-          "desc": "嵌入式多芯片互连桥接，英特尔的2.5D封装技术，通过硅桥实现多芯片高速互联",
-          "category": "封装"
-        }
-      ],
-      "region": "domestic",
-      "summary": "联发科聘请前台积电研发副总余振华担任顾问，聚焦先进封装技术规划，并明确声明此举与英特尔EMIB无关，将先进封装路径绑定台积电。",
-      "tag_category": "Fab/制造"
-    },
-    {
-      "title": "台积电CoWoS外溢最大受惠者？英特尔EMIB良率传达90%，先进封装成翻身关键",
-      "url": "https://abmedia.io/tsmc-cowos-emib-intel-90-percent",
-      "description": "台積電 CoWoS 外溢最大受惠者？英特爾 EMIB 良率傳 90%，先進封裝成翻身關鍵 | 鏈新聞 ABMedia\n\n在 AI 晶片需求持續推升先進封裝產能緊張之際，Intel 的 EMIB 封裝技術再度成為市場焦點。科技媒體 Wccftech引述廣發證券科技研究分析師 Jeff Pu 的說法指出，Intel EMIB 良率已達 90%，顯示這項被視為 Intel Foundry 轉型關鍵的先進封裝技術，已具備進一步導入 AI 資料中心晶片的成熟度。\n\n(陳立武封神！Citrini 評 Intel 「今年最出色財報」盼承接台積電 CoWoS 外溢需求)\n\n這也呼應研究機構 Citrini R",
-      "published": "2026-05-02T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "英特尔EMIB良率突破90%表明其先进封装技术已具备量产竞争力，有望承接台积电CoWoS的外溢需求。",
-        "先进封装正成为晶圆代工巨头争夺客户的核心筹码，良率和产能是决定技术路线成败的关键。"
-      ],
-      "actions": [
-        "芯片设计厂商应评估英特尔EMIB封装的产能与良率稳定性，作为先进封装产能紧缺时的备选方案。",
-        "关注英特尔EMIB生态下OSAT和ABF基板供应链的投资机会，提前布局相关产能。"
-      ],
-      "glossary": [
-        {
-          "term": "EMIB",
-          "desc": "嵌入式多芯片互连桥接，英特尔的2.5D封装技术，通过硅桥实现多芯片高速互联",
-          "category": "封装"
-        }
-      ],
-      "region": "domestic",
-      "summary": "在先进封装产能紧张之际，英特尔EMIB封装技术良率传已达90%，被视为英特尔晶圆代工转型的关键。",
-      "tag_category": "Fab/制造"
-    },
-    {
-      "title": "台积电“仁慈”的N3定价使其在产能争夺战中获评“全球最公平公司”",
-      "url": "https://finance.biggo.com/news/ak5V6Z0BNl__-4_GdpqQ",
-      "description": "TSMC's \"Benevolent\" N3 Pricing Earns It Title of \"World's Fairest Company\" as Capacity Battle Erupts — BigGo Finance\n\n# TSMC's \"Benevolent\" N3 Pricing Earns It Title of \"World's Fairest Company\" as Capacity Battle Erupts\n\nSemiconductor research firm Semi Analysis published a report hailing TSMC as \"",
-      "published": "2026-05-02T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "台积电在N3节点的定价策略兼顾了利润率与客户生态的维持，巩固了其市场垄断地位。",
-        "成熟且合理的定价有助于下游客户在产能紧缺期保持产品竞争力，避免因代工成本失控而亏损。"
-      ],
-      "actions": [
-        "芯片设计公司应充分利用台积电N3节点的产能与价格优势，规划高性能核心产品的流片。",
-        "关注未来先进节点产能分配的优先级规则，通过长期采购承诺锁定N3及更先进节点的产能。"
-      ],
-      "glossary": [
-        {
-          "term": "N3",
-          "desc": "3纳米制程节点，台积电当前最先进的量产工艺之一，提供高性能和低功耗",
-          "category": "Fab/制造"
-        }
-      ],
-      "region": "overseas",
-      "summary": "在产能争夺战爆发的背景下，台积电因其相对合理的N3制程定价策略，被评价为“全球最公平公司”。",
-      "tag_category": "Fab/制造"
-    },
-    {
-      "title": "台积电A16“1.6nm”节点承诺比2nm提速10%或降功耗20%，背面供电将于2026年Q4量产",
-      "url": "https://wccftech.com/tsmc-a16-node-promises-speed-boost-power-cut-over-2nm-backside-power-production-q4-2026/",
-      "description": "TSMC's A16 '1.6nm' Node Promises 10% Speed Boost or 20% Power Cut Over 2nm, With Backside Power Hitting Production by Q4 2026\n\n# TSMC’s A16 ‘1.6nm’ Node Promises 10% Speed Boost or 20% Power Cut Over 2nm, With Backside Power Hitting Production by Q4 2026\n\nTSMC's next-generation A16 or 1.6nm process ",
-      "published": "2026-05-02T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "背面供电（BSPDN）是延续摩尔定律的关键，台积电A16节点的明确量产时间表加剧了先进制程竞争。",
-        "1.6nm节点的性能提升幅度趋缓，凸显了在制程微缩放缓下，架构创新和先进封装的重要性。"
-      ],
-      "actions": [
-        "芯片架构师需提前评估背面供电技术对芯片布局、散热设计及EDA工具链的影响。",
-        "在2nm之后的产品路线图中纳入A16节点的评估，抢占技术先发优势并与台积电建立联合研发合作。"
-      ],
-      "glossary": [
-        {
-          "term": "Backside Power",
-          "desc": "背面供电技术，将供电网络移至晶圆背面，释放正面空间用于信号布线以提升性能",
-          "category": "Fab/制造"
-        }
-      ],
-      "region": "overseas",
-      "summary": "台积电宣布A16（1.6nm）节点相比2nm将提供10%的速度提升或20%的功耗降低，并计划于2026年第四季度量产背面供电技术。",
-      "tag_category": "Fab/制造"
-    },
-    {
-      "title": "英伟达发布Nemotron-3 Nano Omni：紧凑且可扩展的多模态AI",
-      "url": "https://www.convergence-now.com/artificial-intelligence/nvidia-nemotron-3-nano-omni-multimodal-ai-launch/",
-      "description": "Nvidia Nemotron-3 Nano Omni Launch: Multimodal AI Gets Compact and Scalable\n\nNVIDIA Unveils Nemotron-3 Nano Omni, Expands Push Into Multimodal AI Systems\n\nNvidia launches Nemotron-3 Nano Omni, a compact multimodal AI model designed for real-time processing across text, image, audio and video applica",
-      "published": "2026-05-02T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "英伟达不仅提供算力硬件，还通过发布小尺寸多模态模型完善端侧AI软件栈，构建软硬一体的护城河。",
-        "紧凑型多模态模型有利于在边缘设备上实现高效推理，将加速AI向PC和智能终端的渗透。"
-      ],
-      "actions": [
-        "端侧设备厂商可基于Nemotron-3等紧凑模型优化产品AI功能，降低对云端算力的依赖。",
-        "关注英伟达在边缘计算领域的软硬件生态扩张，评估其替代现有端侧AI方案的潜力与成本。"
-      ],
-      "glossary": [
-        {
-          "term": "Multimodal AI",
-          "desc": "多模态人工智能，能够同时处理文本、图像、音频等多种数据类型的AI模型",
-          "category": "设计公司"
-        }
-      ],
-      "region": "overseas",
-      "summary": "英伟达推出紧凑型多模态AI模型Nemotron-3 Nano Omni，进一步扩展其在多模态AI系统领域的布局。",
-      "tag_category": "设计公司"
-    },
-    {
-      "title": "华为在开罗发布升级版星河智能网络，加速非洲AI驱动的连接",
-      "url": "https://www.technotime.net/13893",
-      "description": "Huawei Launches Upgraded Xinghe Intelligent Network in Cairo to Accelerate AI-Driven Connectivity Across Africa | Techno Time\n\n# Huawei Launches Upgraded Xinghe Intelligent Network in Cairo to Accelerate AI-Driven Connectivity Across Africa\n\nSunday 3 May 2026 10:46\n\nHuawei has unveiled an upgraded v",
-      "published": "2026-05-03T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "华为将AI网络解决方案向海外市场拓展，表明网络基础设施智能化是全球性趋势。",
-        "AI驱动的网络对底层通信芯片的数据处理能力和低延迟转发提出了新要求。"
-      ],
-      "actions": [
-        "网络设备供应商应跟进AI驱动的网络架构演进，升级通信芯片的AI加速能力与可编程性。",
-        "关注新兴市场（如非洲）的智能网络基础设施建设机遇，提供高性价比的AI网络芯片方案。"
-      ],
-      "glossary": [
-        {
-          "term": "AI-Driven Connectivity",
-          "desc": "AI驱动连接，利用人工智能技术实现网络的自适应优化、故障预测和智能调度",
-          "category": "综合"
-        }
-      ],
-      "region": "overseas",
-      "summary": "华为在开罗发布升级版星河智能网络，旨在加速非洲地区AI驱动的网络连接发展。",
+      "summary": "半导体设计复杂性增加，先进节点和异构集成对EDA的IT基础设施提出新要求，需从碎片化转向统一工程平台。",
       "tag_category": "综合"
     },
     {
-      "title": "Mistral Medium 3.5将聊天、推理和代码能力整合进单一128B AI模型",
-      "url": "https://winbuzzer.com/2026/05/02/mistral-medium-3-5-unified-flagship-chat-reasoning-code-xcxwbn/",
-      "description": "Mistral Medium 3.5 Folds Chat, Reasoning, and Code Into One 128B AI Model\n\nSearch\n\nCompanies, AI Divisions, Projects, Labs\n\nChatbots, AI Assistants, AI Solutions\n\n- Windows 10\n- Windows 11\n\n- Microsoft Azure\n- Google Cloud\n- Amazon Web Services (AWS)\n- Salesforce\n\nSearch\n\n# Mistral Medium 3.5 Folds ",
-      "published": "2026-05-02T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
+      "title": "Call of Duty Leaves PS4/Xbox One Behind as Activision Confirms The Next COD is Being Made for Current-Gen Only",
+      "url": "https://wccftech.com/call-of-duty-no-longer-ps4-xbox-one/",
+      "description": "Video game studios don't often comment on rumours, but when they do they offer welcome points of clarity for players. Today, Activision chose to comment on a rumour that ran rampant yesterday and most of today, which was that the next Call of Duty game (which is largely reported to be Call of Duty: ",
+      "published": "Mon, 04 May 2026 20:35:55 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "大模型正走向多功能融合，单一模型处理多任务可降低部署成本和系统复杂度。",
-        "128B参数规模的模型对推理芯片的显存容量和卡间互联带宽提出了极高要求，考验底层算力基础设施。"
-      ],
-      "actions": [
-        "AI推理芯片设计需针对百亿参数级大模型优化HBM利用率与NVLink/CXL互联带宽。",
-        "云服务商应评估此类融合大模型对算力基础设施的性价比影响，优化GPU集群配置。"
-      ],
-      "glossary": [
-        {
-          "term": "128B Model",
-          "desc": "1280亿参数模型，属于大语言模型规模，需要大量显存和算力进行推理",
-          "category": "综合"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "overseas",
-      "summary": "Mistral推出Medium 3.5模型，将聊天、推理和代码生成能力整合在一个1280亿参数的AI模型中。",
-      "tag_category": "综合"
-    },
-    {
-      "title": "英伟达开源Ising：首个专为量子计算构建的AI模型家族",
-      "url": "https://toolsstackai.com/nvidia-ising-open-source-quantum-ai-models-error-correction-2026/",
-      "description": "NVIDIA Just Open-Sourced Ising — The First AI Model Family Built for Quantum Computing - Tools Stack AI\n\nQuantum computing has had a quiet 2026 in the press cycle, mostly because everyone’s been busy watching the GPT-5.5 vs. Gemini 3.1 vs. Claude Opus 4.6 frontier race. But NVIDIA just dropped somet",
-      "published": "2026-05-02T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "英伟达开源量子计算AI模型，旨在提前布局量子计算软件生态，延续其在算力领域的统治力。",
-        "AI与量子计算的交叉领域可能催生新的专用处理器需求，加速量子算法的实用化进程。"
-      ],
-      "actions": [
-        "长期投资者应关注量子计算与AI结合带来的底层硬件架构变革，寻找早期投资机会。",
-        "科研机构可利用Ising模型探索量子加速在特定AI工作负载（如组合优化）中的优势。"
-      ],
-      "glossary": [
-        {
-          "term": "Quantum Computing",
-          "desc": "量子计算，利用量子力学原理进行计算，在特定问题上具有远超经典计算机的潜力",
-          "category": "设计公司"
-        }
-      ],
-      "region": "overseas",
-      "summary": "英伟达开源了首个专为量子计算构建的AI模型家族Ising，推动AI与量子计算的融合。",
-      "tag_category": "设计公司"
-    },
-    {
-      "title": "Nebius将以6.43亿美元收购Eigen AI以增强AI能力",
-      "url": "https://n24.com.tr/en/technology/nebius-to-acquire-eigen-ai-for-643m-to-boost-ai-capabilities-526",
-      "description": "Nebius to acquire Eigen AI for $643M to boost AI capabilities\n\n3 May 2026 14:51\n\n# Nebius to acquire Eigen AI for $643M to boost AI capabilities\n\nNebius plans to buy Eigen AI for $643M, enhancing AI inference and model optimization.\n\nEditör· 2 May 2026 08:45 · 2 dk okuma · 75 reads\n\nNebius, an Amste",
-      "published": "2026-05-02T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AI基础设施提供商通过并购整合MaaS（模型即服务）能力，提供全栈式AI解决方案。",
-        "算力云厂商的垂直整合趋势明显，旨在提升毛利率和客户粘性，摆脱单纯算力租赁的低端竞争。"
-      ],
-      "actions": [
-        "AI算力租赁企业需从单纯提供GPU算力向提供模型微调与部署服务延伸，提升附加值。",
-        "关注AI基础设施领域的并购整合带来的市场份额变动，适时调整云服务采购策略。"
-      ],
-      "glossary": [
-        {
-          "term": "MaaS",
-          "desc": "模型即服务，将AI模型作为云服务提供，用户无需训练即可直接调用模型能力",
-          "category": "综合"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Nebius计划以6.43亿美元收购Eigen AI，以增强其AI基础设施和能力。",
+      "summary": "Video game studios don't often comment on rumours, but when they do they offer welcome points of clarity for players. Today, Activision chose to comme",
       "tag_category": "综合"
     }
   ],
   "stats": {
-    "total_raw": 134,
-    "after_dedup": 66,
+    "total_raw": 143,
+    "after_dedup": 120,
     "sources": {
-      "Exa": 25,
-      "RSS": 35,
-      "Brave": 6
+      "Exa": 30,
+      "RSS": 65,
+      "Brave": 25
     }
   }
 }
