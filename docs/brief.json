@@ -1,7 +1,7 @@
 {
-  "version": "v20260505-2003",
-  "generatedAt": "2026-05-05T20:03:00+08:00",
-  "period": "evening",
+  "version": "v20260506-0604",
+  "generatedAt": "2026-05-06T06:04:00+08:00",
+  "period": "morning",
   "commit": "",
   "glossary_list": [
     {
@@ -18,41 +18,6 @@
       "term": "OSAT",
       "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
       "category": "封装"
-    },
-    {
-      "term": "GTM",
-      "desc": "Go-To-Market，将产品推向市场、触达客户并获取竞争优势的策略和执行过程",
-      "category": "商业"
-    },
-    {
-      "term": "NPU",
-      "desc": "Neural Processing Unit，神经网络处理单元，专为AI计算设计的处理器核心",
-      "category": "架构"
-    },
-    {
-      "term": "Dimensity",
-      "desc": "天玑，联发科旗下的5G智能手机芯片品牌",
-      "category": "产品"
-    },
-    {
-      "term": "LPDA",
-      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线结构",
-      "category": "设计"
-    },
-    {
-      "term": "EM Simulation",
-      "desc": "Electromagnetic Simulation，电磁仿真，利用计算电磁学方法求解电磁场分布",
-      "category": "EDA"
-    },
-    {
-      "term": "Wafer-scale",
-      "desc": "晶圆级，在整个晶圆上构建单个超大规模芯片的架构，无需切割封装",
-      "category": "架构"
-    },
-    {
-      "term": "IPO",
-      "desc": "Initial Public Offering，首次公开募股，企业首次向公众出售股份",
-      "category": "金融"
     }
   ],
   "topic_pulse": [
@@ -61,61 +26,93 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区讨论热度降温，缺乏新的产能扩张或技术突破事件驱动，情绪趋于观望。"
+      "summary": ""
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "前期炒作热度回落，社区关注点从产能紧缺转向实际需求落地及价格走势，情绪偏谨慎。"
+      "summary": ""
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "讨论暂入平淡期，缺乏重大制程突破或政策利好刺激，社区情绪相对平稳。"
+      "summary": ""
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "话题降温，社区对国产替代的长期性有共识，短期缺乏重磅产品发布，情绪偏理性。"
+      "summary": ""
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "热度下降，先进封装红利已被充分讨论，近期缺乏业绩超预期事件，情绪中性。"
+      "summary": ""
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "讨论热度回落，无新增管制清单，社区对常态化制裁已有预期，情绪不再激烈。"
+      "summary": ""
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "热度有所降温，Blackwell架构发布后的兴奋期消退，市场转向关注实际出货与竞争格局，情绪偏冷静。"
+      "summary": ""
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "讨论降温，国产化进展进入深水区，短期难有颠覆性突破，社区情绪转为长期跟踪。"
+      "summary": ""
     }
   ],
   "items": [
     {
-      "title": "Chameleon Semiconductor首席执行官Geoffrey Rodgers专访",
+      "title": "Cerebras files updated IPO terms: $3.5bn raise at $26.6bn valuation",
+      "url": "https://thenextweb.com/news/cerebras-ipo-3-5-billion-updated-prospectus",
+      "description": "Cerebras files updated IPO terms: $3.5bn raise at $26.6bn valuation\n\nThree days after suggesting it might target up to $4bn at $40bn, the AI chipmaker has marketed 28 million shares at $115-$125 each, lining the deal up with its February private valuation rather than above it.\n\n---\n\nCerebras Systems",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Cerebras files updated IPO terms: $3.5bn raise at $26.6bn valuation\n\nThree days after suggesting it might target up to $4bn at $40bn, the AI chipmaker",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX - Semiconductor Digest",
+      "url": "https://www.semiconductor-digest.com/applied-materials-broadens-advanced-packaging-portfolio-with-acquisition-of-nexx/",
+      "description": "Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX - Semiconductor Digest\n\nApplied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX\n\nApplied Materials, Inc. today announced it has entered into a definitive agreement with ASMPT Limited to acquire ",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX - Semiconductor Digest\n\nApplied Materials Broadens Advanced Packaging",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "CEO Interview with Geoffrey Rodgers of Chameleon Semiconductor",
       "url": "https://semiwiki.com/ceo-interviews/368833-ceo-interview-with-geoffrey-rodgers-of-chameleon-semiconductor/",
       "description": "<p>Geoffrey Rodgers spent most of his career at the intersection of semiconductor technology and go-to-market execution, with a focus on scaling businesses and bringing complex solutions to market. He previously led the Analog Go-To-Market motion at Synopsys following the acquisition of Analog Desig",
       "published": "Sun, 03 May 2026 21:00:04 +0000",
@@ -123,155 +120,229 @@
       "source_type": "RSS",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "初创半导体公司在EDA/IP领域需要强大的商业化能力以跨越死亡之谷。",
-        "领导者的GTM（走向市场）经验对技术驱动型芯片公司的规模化至关重要。"
-      ],
-      "actions": [
-        "关注Chameleon Semiconductor的产品路线图及潜在的技术授权合作机会。",
-        "芯片初创团队应评估并强化自身的GTM策略，弥补技术与市场间的断层。"
-      ],
-      "glossary": [
-        {
-          "term": "GTM",
-          "desc": "Go-To-Market，将产品推向市场、触达客户并获取竞争优势的策略和执行过程",
-          "category": "商业"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "overseas",
-      "summary": "Chameleon Semiconductor首席执行官分享了其在半导体技术与市场推广交叉领域的职业生涯，以及扩展业务和将复杂解决方案推向市场的经验。",
+      "summary": "<p>Geoffrey Rodgers spent most of his career at the intersection of semiconductor technology and go-to-market execution, with a focus on scaling busin",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "OpenAI首款智能手机选择联发科而非高通，定制双NPU架构天玑9600以挑战iPhone",
-      "url": "https://wccftech.com/openai-picks-mediatek-over-qualcomm-for-its-first-smartphone-customizing-the-dimensity-9600-with-a-dual-npu-architecture-to-challenge-the-iphone/",
-      "description": "OpenAI appears to be fast-tracking its plans for an AI-enabled smartphone, partially in a bid to bolster its IPO that might land as soon as this year. And, in its urgency, OpenAI appears to be settling on a customized version of MediaTek's upcoming flagship Dimensity 9600 chip as the SoC of choice f",
-      "published": "Tue, 05 May 2026 06:25:15 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "TSMC Stock Holds Firm As $56 Billion AI Expansion Defies Apple Supply Chain Rumors - Taiwan Semiconductor - Benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/05/52282399/tsmc-stock-holds-firm-as-56-billion-ai-expansion-defies-apple-supply-chain-rumors",
+      "description": "TSMC Stock Holds Firm As $56 Billion AI Expansion Defies Apple Supply Chain Rumors - Taiwan Semiconductor - Benzinga\n\nMy Account\n\n---\n\nLogin\n\nLoginRegister\n\nStock of the Day\n\nStreetTracks Gold Shares (GLD)\n\nIBIT Bitcoin Trust (IBIT)\n\nBest Swing Trade Stocks\n\nStock of the Day\n\nStreetTracks Gold Share",
+      "published": "2026-05-05T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "AI大模型厂商向端侧硬件延伸成为趋势，软硬一体可构建更强护城河。",
-        "联发科凭借开放定制化能力在AI手机芯片竞争中抢占先机，高通的相对封闭性可能使其错失此轮合作。",
-        "双NPU架构预示着端侧AI算力需求的倍增，手机SoC架构设计将发生显著变化。"
-      ],
-      "actions": [
-        "硬件终端厂商应加速与AI大模型公司的生态对接，抢占定制化芯片首发红利。",
-        "芯片设计公司需提升IP架构的灵活性与可定制性，以满足大客户差异化算力需求。"
-      ],
-      "glossary": [
-        {
-          "term": "NPU",
-          "desc": "Neural Processing Unit，神经网络处理单元，专为AI计算设计的处理器核心",
-          "category": "架构"
-        },
-        {
-          "term": "Dimensity",
-          "desc": "天玑，联发科旗下的5G智能手机芯片品牌",
-          "category": "产品"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "overseas",
-      "summary": "OpenAI为加速推出AI智能手机并助力IPO，选择联发科定制搭载双NPU架构的天玑9600芯片，而非高通。",
-      "tag_category": "EDA/IP"
+      "summary": "TSMC Stock Holds Firm As $56 Billion AI Expansion Defies Apple Supply Chain Rumors - Taiwan Semiconductor - Benzinga\n\nMy Account\n\n---\n\nLogin\n\nLoginReg",
+      "tag_category": "Fab/制造"
     },
     {
-      "title": "使用全波电磁仿真设计宽带LPDA馈源反射面天线",
-      "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
-      "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
-      "published": "Fri, 17 Apr 2026 14:00:50 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "TSMC seeks approval for advanced fab in expanded Hsinchu Science Park - Focus Taiwan",
+      "url": "https://focustaiwan.tw/sci-tech/202605040012",
+      "description": "TSMC seeks approval for advanced fab in expanded Hsinchu Science Park - Focus Taiwan\n\nFocus Taiwan App\n\nDownload\n\n# TSMC seeks approval for advanced fab in expanded Hsinchu Science Park\n\n05/04/2026 04:25 PM\n\nTo activate the text-to-speech service, please first agree to the privacy policy below.\n\nCNA",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "高频宽带天线设计高度依赖全波电磁仿真工具，EDA工具在射频/微波领域不可或缺。",
-        "LPDA馈源设计对提升天线增益和带宽具有关键作用，是5G/6G基站及卫星通信的核心技术。"
-      ],
-      "actions": [
-        "射频工程师应熟练掌握全波EM仿真工具以优化复杂天线系统的设计周期。",
-        "EDA厂商可针对特定天线架构提供更优化的仿真加速及云化解决方案。"
-      ],
-      "glossary": [
-        {
-          "term": "LPDA",
-          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线结构",
-          "category": "设计"
-        },
-        {
-          "term": "EM Simulation",
-          "desc": "Electromagnetic Simulation，电磁仿真，利用计算电磁学方法求解电磁场分布",
-          "category": "EDA"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "overseas",
-      "summary": "本文提供了使用全波电磁仿真设计对数周期偶极子阵列（LPDA）馈源抛物面反射面天线的实用指南。",
-      "tag_category": "EDA/IP"
+      "summary": "TSMC seeks approval for advanced fab in expanded Hsinchu Science Park - Focus Taiwan\n\nFocus Taiwan App\n\nDownload\n\n# TSMC seeks approval for advanced f",
+      "tag_category": "Fab/制造"
     },
     {
-      "title": "Cerebras寻求融资35亿美元",
-      "url": "https://www.electronicsweekly.com/news/business/cerebras-looking-for-3-5bn-2026-05/",
-      "description": "<p>Cerebras, the waferscale AI chip developer, has priced its upcoming IPO at $115-125. It is putting up 28 million shares for sale so is looking to raise up to $3.5 ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/news/business/cerebras-looking-for-3-5bn-2026-05/\">Cerebras looking for",
-      "published": "Tue, 05 May 2026 05:27:46 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "The 60% Problem - Next Financial",
+      "url": "https://nextfinancial.substack.com/p/the-60-problem",
+      "description": "The 60% Problem - Next Financial\n\n# Next Financial\n\nSubscribeSign in\n\n# The 60% Problem\n\nMay 04, 2026\n\n∙ Paid\n\n15\n\nShare\n\nWhen TSMC released its fourth-quarter results, one number went largely unnoticed in the financial press.\n\nNvidia had reserved 60% of the world’s advanced packaging capacity at TS",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "晶圆级芯片架构在AI算力需求爆发下获得资本市场高度认可，打破了传统摩尔定律的封装限制。",
-        "AI芯片初创公司的巨额融资将进一步加剧高端算力市场的竞争，重塑行业格局。"
-      ],
-      "actions": [
-        "投资者应关注晶圆级芯片在良率、散热和封装上的潜在风险与突破性进展。",
-        "代工及封测企业需提前评估晶圆级芯片带来的工艺挑战及潜在设备需求。"
-      ],
-      "glossary": [
-        {
-          "term": "Wafer-scale",
-          "desc": "晶圆级，在整个晶圆上构建单个超大规模芯片的架构，无需切割封装",
-          "category": "架构"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "overseas",
-      "summary": "晶圆级AI芯片开发商Cerebras计划以每股115至125美元的价格IPO，发行2800万股，寻求融资35亿美元。",
-      "tag_category": "EDA/IP"
+      "summary": "The 60% Problem - Next Financial\n\n# Next Financial\n\nSubscribeSign in\n\n# The 60% Problem\n\nMay 04, 2026\n\n∙ Paid\n\n15\n\nShare\n\nWhen TSMC released its fourt",
+      "tag_category": "设计公司"
     },
     {
-      "title": "Cerebras IPO：随着AI芯片需求激增，Cerebras目标融资40亿美元",
-      "url": "https://cio.economictimes.indiatimes.com/news/investments/ai-chipmaker-cerebras-targets-up-to-4-billion-in-ipo/130760041",
-      "description": "Cerebras IPO: Cerebras Systems plans to raise up to $4 billion in its IPO, targeting a valuation of $40 billion amid rising demand for AI infrastructure and semiconductor stocks. The company seeks to rival Nvidia with its powerful chips and data center operations.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
+      "title": "What's Going On With Taiwan Semiconductor Stock Monday? - Taiwan Semiconductor (NYSE:TSM) - Benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/05/52245951/whats-going-on-with-taiwan-semiconductor-stock-monday",
+      "description": "What's Going On With Taiwan Semiconductor Stock Monday? - Taiwan Semiconductor (NYSE:TSM) - Benzinga\n\nMy Account\n\n---\n\nLogin\n\nLoginRegister\n\nStock of the Day\n\nStreetTracks Gold Shares (GLD)\n\nIBIT Bitcoin Trust (IBIT)\n\nBest Swing Trade Stocks\n\nStock of the Day\n\nStreetTracks Gold Shares (GLD)\n\nIBIT Bi",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "AI算力需求是当前半导体市场最大的增长引擎，直接推高了非GPU架构AI专用芯片的估值。",
-        "400亿美元的估值表明资本市场对挑战NVIDIA垄断地位的创新架构仍抱有巨大期待。"
-      ],
-      "actions": [
-        "供应链企业应密切关注Cerebras的代工及先进封装合作伙伴，提前布局相关产能。",
-        "行业从业者需重新评估AI芯片市场的天花板，关注算力多元化带来的软硬件生态重构。"
-      ],
-      "glossary": [
-        {
-          "term": "IPO",
-          "desc": "Initial Public Offering，首次公开募股，企业首次向公众出售股份",
-          "category": "金融"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "overseas",
-      "summary": "受AI基础设施和半导体股票需求激增推动，Cerebras Systems计划在IPO中融资高达40亿美元，目标估值达400亿美元。",
+      "summary": "What's Going On With Taiwan Semiconductor Stock Monday? - Taiwan Semiconductor (NYSE:TSM) - Benzinga\n\nMy Account\n\n---\n\nLogin\n\nLoginRegister\n\nStock of ",
+      "tag_category": "综合"
+    },
+    {
+      "title": "China's LineShine CPU-Only Exascale Supercomputer Explained: 2+ ExaFLOPS, Compute Sovereignty, and the Real Cost of AI Infrastructure",
+      "url": "https://www.intelligentliving.co/lineshine-cpu-exascale-supercomputer/",
+      "description": "China's LineShine CPU-Only Exascale Supercomputer Explained: 2+ ExaFLOPS, Compute Sovereignty, and the Real Cost of AI Infrastructure\n\nSearch\n\nSign in\n\nWelcome! Log into your account\n\nyour username\n\nyour password\n\nForgot your password? Get help\n\nPassword recovery\n\nRecover your password\n\nyour email\n\n",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "China's LineShine CPU-Only Exascale Supercomputer Explained: 2+ ExaFLOPS, Compute Sovereignty, and the Real Cost of AI Infrastructure\n\nSearch\n\nSign in",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Micropolis Robotics Unveils New, Next-Generation,",
+      "url": "https://www.globenewswire.com/news-release/2026/05/04/3286586/0/en/Micropolis-Robotics-Unveils-New-Next-Generation-High-Endurance-Robot-at-the-Make-it-in-the-Emirates-2026-Industry-Exhibition.html",
+      "description": "Micropolis Robotics Unveils New, Next-Generation,\n\n# Micropolis Robotics Unveils New, Next-Generation, High-Endurance Robot at the Make it in the Emirates 2026 Industry Exhibition\n\n## Developed for mission-critical deployments with requirements defined by the UAE National Guard, Saudi Arabia’s Minis",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Micropolis Robotics Unveils New, Next-Generation,\n\n# Micropolis Robotics Unveils New, Next-Generation, High-Endurance Robot at the Make it in the Emir",
+      "tag_category": "综合"
+    },
+    {
+      "title": "CoWoS Is No Longer Just Packaging: It Is TSMC’s New Value-Creation Engine",
+      "url": "https://tspasemiconductor.substack.com/p/cowos-is-no-longer-just-packaging",
+      "description": "CoWoS Is No Longer Just Packaging: It Is TSMC’s New Value-Creation Engine\n\nSubscribeSign in\n\n# CoWoS Is No Longer Just Packaging: It Is TSMC’s New Value-Creation Engine\n\n### Original Article By SemiVision Reserach [Reading time: 14 mins]\n\nMay 05, 2026\n\n15\n\n4\n\nShare\n\n#### CoWoS Is No Longer Just Pack",
+      "published": "2026-05-05T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "CoWoS Is No Longer Just Packaging: It Is TSMC’s New Value-Creation Engine\n\nSubscribeSign in\n\n# CoWoS Is No Longer Just Packaging: It Is TSMC’s New Val",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "What is Growth Strategy and Future Prospects of ASE Technology Holding Company? – MatrixBCG.com",
+      "url": "https://matrixbcg.com/blogs/growth-strategy/aseglobal",
+      "description": "What is Growth Strategy and Future Prospects of ASE Technology Holding Company? – MatrixBCG.com\n\nMay 4, 2026\n\n# What is Growth Strategy and Future Prospects of ASE Technology Holding Company?\n\nGenerate AI Summary\n\n### ASE Technology Holding Bundle\n\nGet Full Bundle:\n\nTOTAL:\n\nADD TO CART\n\n## How will ",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "What is Growth Strategy and Future Prospects of ASE Technology Holding Company? – MatrixBCG.com\n\nMay 4, 2026\n\n# What is Growth Strategy and Future Pro",
+      "tag_category": "综合"
+    },
+    {
+      "title": "How Does ASE Technology Holding Company Work? – MatrixBCG.com",
+      "url": "https://matrixbcg.com/blogs/how-it-works/aseglobal",
+      "description": "How Does ASE Technology Holding Company Work? – MatrixBCG.com\n\nMay 4, 2026\n\n# How Does ASE Technology Holding Company Work?\n\nGenerate AI Summary\n\n### ASE Technology Holding Bundle\n\nGet Full Bundle:\n\nTOTAL:\n\nADD TO CART\n\n## How will ASE Technology Holding sustain its semiconductor dominance?\n\nASE Tec",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "How Does ASE Technology Holding Company Work? – MatrixBCG.com\n\nMay 4, 2026\n\n# How Does ASE Technology Holding Company Work?\n\nGenerate AI Summary\n\n### ",
+      "tag_category": "综合"
+    },
+    {
+      "title": "GlobalFoundries accelerates adoption of co-packaged optics",
+      "url": "https://www.globenewswire.com/news-release/2026/05/04/3286711/0/en/GlobalFoundries-accelerates-adoption-of-co-packaged-optics-for-advanced-AI-data-centers-with-SCALE-optical-module-solution.html",
+      "description": "GlobalFoundries accelerates adoption of co-packaged optics\n\n# GlobalFoundries accelerates adoption of co-packaged optics for advanced AI data centers with SCALE optical module solution\n\n## SCALE CPO solution is the industry’s first OCI MSA capable platform and built with GF’s proven silicon photonic",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "GlobalFoundries accelerates adoption of co-packaged optics\n\n# GlobalFoundries accelerates adoption of co-packaged optics for advanced AI data centers ",
+      "tag_category": "综合"
+    },
+    {
+      "title": "[News] Applied Materials to Acquire ASMPT NEXX for $120M, Expanding Panel-Level Advanced Packaging Portfolio",
+      "url": "https://www.trendforce.com/news/2026/05/05/news-applied-materials-to-acquire-asmpt-nexx-for-120m-expanding-panel-level-advanced-packaging-portfolio/",
+      "description": "[News] Applied Materials to Acquire ASMPT NEXX for $120M, Expanding Panel-Level Advanced Packaging Portfolio\n\n# [News] Applied Materials to Acquire ASMPT NEXX for $120M, Expanding Panel-Level Advanced Packaging Portfolio\n\n---\n\n---\n\nAs advanced packaging has emerged as a key growth opportunity amid t",
+      "published": "2026-05-05T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "[News] Applied Materials to Acquire ASMPT NEXX for $120M, Expanding Panel-Level Advanced Packaging Portfolio\n\n# [News] Applied Materials to Acquire AS",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "Lattice Semiconductor to buy software firm AMI in $1.65 billion deal, ETTelecom",
+      "url": "https://telecom.economictimes.indiatimes.com/news/devices/lattice-semiconductor-to-buy-software-firm-ami-in-1-65-billion-deal/130814256",
+      "description": "Lattice Semiconductor to buy software firm AMI in $1.65 billion deal, ETTelecom\n\n- Devices\n- 1 min read\n\n# Lattice Semiconductor to buy software firm AMI in $1.65 billion deal\n\nUnder the deal, Lattice will acquire ​AMI for $1 billion in cash ⁠and around $650 ‌million in shares.\n\n- Published On May 5",
+      "published": "2026-05-05T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Lattice Semiconductor to buy software firm AMI in $1.65 billion deal, ETTelecom\n\n- Devices\n- 1 min read\n\n# Lattice Semiconductor to buy software firm ",
+      "tag_category": "综合"
+    },
+    {
+      "title": "RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发-36氪",
+      "url": "https://36kr.com/p/3639229542780294?f=rss",
+      "description": "RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发\n\n拥有国内RISC-V高算力芯片量产数量最多的芯片。\n\n硬氪获悉，基于RISC-V架构研发和销售下一代AI芯片的企业「进迭时空」已完成数亿元B轮融资。我们总结了本轮融资信息和该公司几大亮点：\n\n1. 融资金额及投资机构\n\n融资轮次：B轮\n\n融资规模：数亿元人民",
+      "published": "2026-05-05T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代R",
       "tag_category": "EDA/IP"
     }
   ],
   "stats": {
-    "total_raw": 86,
-    "after_dedup": 77,
+    "total_raw": 150,
+    "after_dedup": 122,
     "sources": {
-      "RSS": 65,
-      "Brave": 12
+      "Exa": 34,
+      "RSS": 64,
+      "Brave": 24
     }
   }
 }

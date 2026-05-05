@@ -1,6 +1,6 @@
 {
-  "version": "v20260505-0605",
-  "generatedAt": "2026-05-05T06:05:00+08:00",
+  "version": "v20260506-0604",
+  "generatedAt": "2026-05-06T06:04:00+08:00",
   "period": "morning",
   "commit": "",
   "glossary_list": [
@@ -18,51 +18,6 @@
       "term": "OSAT",
       "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
       "category": "封装"
-    },
-    {
-      "term": "SoC",
-      "desc": "System on Chip，系统级芯片，将CPU、GPU等关键部件集成在一块芯片上",
-      "category": "设计"
-    },
-    {
-      "term": "AI芯片",
-      "desc": "专门用于加速人工智能应用的芯片，如GPU、NPU等",
-      "category": "设计"
-    },
-    {
-      "term": "Wafer-Scale Engine",
-      "desc": "晶圆级引擎，Cerebras开发的将整个晶圆作为单一芯片的AI计算架构",
-      "category": "架构"
-    },
-    {
-      "term": "Monolithic 3D",
-      "desc": "单片三维集成，在单一晶圆上垂直堆叠晶体管层的技术",
-      "category": "制造"
-    },
-    {
-      "term": "Memory Wall",
-      "desc": "存储墙，指处理器与存储器之间数据传输速度不匹配导致的性能瓶颈",
-      "category": "架构"
-    },
-    {
-      "term": "Advanced Packaging",
-      "desc": "先进封装，如2.5D/3D、Chiplet等提升芯片互联带宽和集成度的封装技术",
-      "category": "封装"
-    },
-    {
-      "term": "Angstrom",
-      "desc": "埃米，长度单位，1埃米=0.1纳米，代表1nm以下的先进制程节点",
-      "category": "制造"
-    },
-    {
-      "term": "Physical AI",
-      "desc": "物理AI，指能够理解并操作物理世界的AI系统，如机器人、自动驾驶等",
-      "category": "应用"
-    },
-    {
-      "term": "ECAD",
-      "desc": "Electronic Computer-Aided Design，电子计算机辅助设计",
-      "category": "EDA"
     }
   ],
   "topic_pulse": [
@@ -71,117 +26,61 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "联发科引入台积电研发高管强化CoWoS合作，应用材料收购NEXX扩展封装组合，但社区讨论热度降温，可能因利好出尽或等待实质产能落地。"
+      "summary": ""
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "美国单片3D芯片突破存储墙引发技术关注，但HBM话题降温，社区关注点可能从HBM容量竞赛转向新型存储架构与存算一体。"
+      "summary": ""
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "台积电龙潭建埃米厂与国产AI芯片商业化拐点并存，但国内Fab话题降温，市场担忧设备禁令未解下先进制程扩产的天花板。"
+      "summary": ""
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "ECAD基础设施重构受关注，但国产EDA话题降温，缺乏重大全流程工具突破性新闻，社区情绪偏谨慎。"
+      "summary": ""
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "日月光增长战略受关注，但OSAT板块整体降温，资金可能流向更具弹性的的人工智能芯片设计端。"
+      "summary": ""
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "英伟达亚洲供应链占比达90%凸显脱钩难度，出口管制话题降温，市场对常态化制裁已逐渐脱敏。"
+      "summary": ""
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "Cerebras高估值IPO与小米玄戒O1出货引发讨论，但NVIDIA话题降温，可能处于财报发布前的信息真空期。"
+      "summary": ""
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "应用材料收购NEXX强化巨头地位，国产设备话题降温，缺乏新的大规模国产替代订单催化，社区观望情绪浓厚。"
+      "summary": ""
     }
   ],
   "items": [
     {
-      "title": "小米首款自研芯片报捷 玄戒O1出货逾百万颗",
-      "url": "https://money.udn.com/money/story/5604/9479479",
-      "description": "首款自研晶片報捷 小米玄戒O1出貨逾百萬顆 | 陸股透視 | 兩岸 | 經濟日報\n\n打開 App\n\n# 首款自研晶片報捷 小米玄戒O1出貨逾百萬顆\n\n本文共396字\n\n', '', '', '', '', '', '', '', '', '', '', '', '', '\n\n00:00\n\n2026/05/04 01:26:52\n\n經濟日報 記者黃雅慧／綜合報導\n\n小米CEO雷軍宣布，小米自研的首款高端旗艦SoC玄戒O1出貨量已突破100萬顆，未來還將應用於小米汽車。目前，玄戒O1已搭載於小米15S Pro、小米平板7 Ultra、小米平板7S Pro三款終端設備。意味小米在自研晶片上，正實現從",
-      "published": "2026-05-03T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "手机厂商自研SoC是构建软硬件生态护城河的关键，百万级出货证明了其量产与商业化能力。",
-        "小米的突破将加剧移动芯片市场的竞争，可能引发其他手机厂商的跟进自研潮。"
-      ],
-      "actions": [
-        "关注小米玄戒O1的代工及封测供应链合作伙伴，评估潜在订单转移效应。",
-        "评估自研芯片对高通、联发科等第三方SoC供应商市场份额的长期影响。"
-      ],
-      "glossary": [
-        {
-          "term": "SoC",
-          "desc": "System on Chip，系统级芯片，将CPU、GPU等关键部件集成在一块芯片上",
-          "category": "设计"
-        }
-      ],
-      "region": "domestic",
-      "summary": "小米CEO雷军宣布，小米首款自研芯片玄戒O1出货量已超过一百万颗，标志着国产手机SoC自研取得重要商业化突破。",
-      "tag_category": "综合"
-    },
-    {
-      "title": "国产AI芯片迎来商业化拐点 天数智芯上市以来涨超250%",
-      "url": "https://finance.sina.com.cn/jjxw/2026-05-04/doc-inhwsyqp0062622.shtml",
-      "description": "财联社5月4日讯（编辑 胡家荣）近日，国内半导体行业热度持续攀升，市场关注度显著提升。港股半导体概念早盘走强。截至发稿，天数智芯(09903.HK)涨14.21%，澜起科技(06809.HK)涨6.95%，上海复旦(01385.HK)涨6.79%，壁仞科技(06082.HK)涨6.14%。\n\n消息方面，寒武纪、海光信息、摩尔线程、沐曦股份已悉数披露2026年一季度财报，而壁仞科技、天数智芯两家港股上市企业暂未披露相关数据。\n\n有分析指出，半导体行业整体呈现\"头部企业盈利稳固、二线厂商减亏提速\"的发展态势。具体来看，三家企业实现盈利，寒武纪、摩尔线程营收同比增速均超150%；海光信息一季度营收突",
-      "published": "2026-05-04T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "国产AI芯片企业股价大涨，反映出资本市场对算力国产替代的强烈预期与信心。",
-        "商业化拐点的到来意味着国产AI芯片正从纯研发走向规模化落地，营收结构开始改善。"
-      ],
-      "actions": [
-        "深入分析天数智芯、壁仞科技等国产AI芯片企业的财报，验证其真实营收结构与客户粘性。",
-        "提前布局国产AI芯片生态链，寻找软硬件适配与系统集成的早期合作机会。"
-      ],
-      "glossary": [
-        {
-          "term": "AI芯片",
-          "desc": "专门用于加速人工智能应用的芯片，如GPU、NPU等",
-          "category": "设计"
-        }
-      ],
-      "region": "domestic",
-      "summary": "国内半导体行业热度攀升，天数智芯等港股半导体概念股大涨，国产AI芯片企业一季度财报披露引发市场强烈关注。",
-      "tag_category": "设计公司"
-    },
-    {
-      "title": "Cerebras更新IPO条款：融资35亿美元 估值266亿美元",
+      "title": "Cerebras files updated IPO terms: $3.5bn raise at $26.6bn valuation",
       "url": "https://thenextweb.com/news/cerebras-ipo-3-5-billion-updated-prospectus",
       "description": "Cerebras files updated IPO terms: $3.5bn raise at $26.6bn valuation\n\nThree days after suggesting it might target up to $4bn at $40bn, the AI chipmaker has marketed 28 million shares at $115-$125 each, lining the deal up with its February private valuation rather than above it.\n\n---\n\nCerebras Systems",
       "published": "2026-05-04T00:00:00.000Z",
@@ -189,90 +88,17 @@
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "Cerebras的高估值IPO显示了资本市场对非传统架构AI芯片（如晶圆级计算）的认可。",
-        "巨额融资将助力Cerebras在晶圆制造和系统级方案上与主流巨头展开更激烈竞争。"
-      ],
-      "actions": [
-        "关注Cerebras的IPO进展及资金用途，评估其对台积电等晶圆代工厂的特殊工艺需求。",
-        "对比分析晶圆级芯片与主流GPU在AI训练场景的TCO，寻找差异化算力方案。"
-      ],
-      "glossary": [
-        {
-          "term": "Wafer-Scale Engine",
-          "desc": "晶圆级引擎，Cerebras开发的将整个晶圆作为单一芯片的AI计算架构",
-          "category": "架构"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "overseas",
-      "summary": "AI芯片初创公司Cerebras更新IPO条款，计划以266亿美元的估值融资35亿美元，发行价区间为115至125美元。",
+      "summary": "Cerebras files updated IPO terms: $3.5bn raise at $26.6bn valuation\n\nThree days after suggesting it might target up to $4bn at $40bn, the AI chipmaker",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "美国首款单片3D AI芯片突破存储墙 基于SkyWater代工",
-      "url": "https://www.intelligentliving.co/us-monolothic-3d-ai-chip-skywater/",
-      "description": "First U.S. Monolithic 3D AI Chip Breakthrough Breaks The Memory Wall with SkyWater Foundry\n\nSearch\n\nSign in\n\nWelcome! Log into your account\n\nyour username\n\nyour password\n\nForgot your password? Get help\n\nPassword recovery\n\nRecover your password\n\nyour email\n\nA password will be e-mailed to you.\n\nVertic",
-      "published": "2026-05-04T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "单片3D集成技术是突破AI算力存储墙的有效路径，无需依赖传统先进封装即可实现极高带宽。",
-        "采用SkyWater等非顶级代工厂实现3D芯片，表明该工艺对成熟制程具有良好兼容性，可降低制造成本。"
-      ],
-      "actions": [
-        "追踪单片3D集成技术的工艺成熟度与可靠性，评估其在边缘AI芯片的商用潜力。",
-        "关注国内代工厂在3D IC领域的研发布局，寻找技术合作或设备采购机会。"
-      ],
-      "glossary": [
-        {
-          "term": "Monolithic 3D",
-          "desc": "单片三维集成，在单一晶圆上垂直堆叠晶体管层的技术",
-          "category": "制造"
-        },
-        {
-          "term": "Memory Wall",
-          "desc": "存储墙，指处理器与存储器之间数据传输速度不匹配导致的性能瓶颈",
-          "category": "架构"
-        }
-      ],
-      "region": "overseas",
-      "summary": "美国实现首款单片3D AI芯片突破，该芯片与SkyWater代工厂合作，成功打破AI计算中的“存储墙”瓶颈。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "应用材料通过收购NEXX扩展先进封装产品组合",
-      "url": "https://www.globenewswire.com/news-release/2026/05/04/3286382/0/en/Applied-Materials-Broadens-Advanced-Packaging-Portfolio-with-Acquisition-of-NEXX.html",
-      "description": "Applied Materials Broadens Advanced Packaging Portfolio\n\n# Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX\n\nMay 03, 2026 20:00 ET | Source: Applied Materials, Inc. Follow Applied Materials, Inc.\n\n---\n\nShare\n\n---\n\nSANTA CLARA, Calif., May 03, 2026 (GLOBE NEWSWIRE) -- ",
-      "published": "2026-05-04T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "半导体设备巨头通过并购补全先进封装能力，凸显先进封装在后摩尔时代的关键地位。",
-        "NEXX的镀膜和封装设备将增强应用材料在2.5D/3D封装市场的整体解决方案实力，改变设备竞争格局。"
-      ],
-      "actions": [
-        "评估应用材料收购NEXX后对现有先进封装设备竞争格局的影响，特别是对ASMPT的冲击。",
-        "封装厂应关注应用材料新产品组合的交付周期与工艺验证进度，适时调整设备采购规划。"
-      ],
-      "glossary": [
-        {
-          "term": "Advanced Packaging",
-          "desc": "先进封装，如2.5D/3D、Chiplet等提升芯片互联带宽和集成度的封装技术",
-          "category": "封装"
-        }
-      ],
-      "region": "overseas",
-      "summary": "应用材料宣布从ASMPT收购NEXX业务，以扩展和加强其在先进封装领域的产品组合与市场竞争力。",
-      "tag_category": "Fab/制造"
-    },
-    {
-      "title": "FinancialContent - Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX",
-      "url": "https://markets.financialcontent.com/stocks/article/gnwcq-2026-5-4-applied-materials-broadens-advanced-packaging-portfolio-with-acquisition-of-nexx",
-      "description": "FinancialContent - Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX\n\nIndicators\n\nStandard & Poors 500\n\nMarkets:\n\n# Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX\n\nⓘ This article is third-party content and does not represent the views ",
+      "title": "Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX - Semiconductor Digest",
+      "url": "https://www.semiconductor-digest.com/applied-materials-broadens-advanced-packaging-portfolio-with-acquisition-of-nexx/",
+      "description": "Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX - Semiconductor Digest\n\nApplied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX\n\nApplied Materials, Inc. today announced it has entered into a definitive agreement with ASMPT Limited to acquire ",
       "published": "2026-05-04T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
@@ -282,91 +108,93 @@
       "actions": [],
       "glossary": [],
       "region": "overseas",
-      "summary": "FinancialContent - Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX\n\nIndicators\n\nStandard & Poors 500\n\nMarkets:\n\n# App",
+      "summary": "Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX - Semiconductor Digest\n\nApplied Materials Broadens Advanced Packaging",
       "tag_category": "Fab/制造"
     },
     {
-      "title": "龙科三期大复活 台积电传将在龙潭建埃米厂",
-      "url": "https://money.udn.com/money/story/5612/9479520",
-      "description": "龍科三期大復活 台積傳要在龍潭蓋埃米廠 漢唐、帆宣迎千億建廠大單 | 產業熱點 | 產業 | 經濟日報\n\n打開 App\n\n# 龍科三期大復活 台積傳要在龍潭蓋埃米廠 漢唐、帆宣迎千億建廠大單\n\n本文共1240字\n\n', '', '', '', '', '', '', '', '', '', '', '', '', '\n\n00:00\n\n2026/05/03 23:14:35\n\n經濟日報 記者李珣瑛／新竹即時報導\n\n懸宕兩年半的竹科龍潭園區擴建計畫（龍科三期）大復活，傳出台積電（2330）將重返龍潭蓋次世代埃米級製程晶圓廠，投資額上看五、六千億元，引爆新一波建廠大商機，漢唐（2404）、帆宣（61",
-      "published": "2026-05-03T00:00:00.000Z",
+      "title": "CEO Interview with Geoffrey Rodgers of Chameleon Semiconductor",
+      "url": "https://semiwiki.com/ceo-interviews/368833-ceo-interview-with-geoffrey-rodgers-of-chameleon-semiconductor/",
+      "description": "<p>Geoffrey Rodgers spent most of his career at the intersection of semiconductor technology and go-to-market execution, with a focus on scaling businesses and bringing complex solutions to market. He previously led the Analog Go-To-Market motion at Synopsys following the acquisition of Analog Desig",
+      "published": "Sun, 03 May 2026 21:00:04 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "<p>Geoffrey Rodgers spent most of his career at the intersection of semiconductor technology and go-to-market execution, with a focus on scaling busin",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "TSMC Stock Holds Firm As $56 Billion AI Expansion Defies Apple Supply Chain Rumors - Taiwan Semiconductor - Benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/05/52282399/tsmc-stock-holds-firm-as-56-billion-ai-expansion-defies-apple-supply-chain-rumors",
+      "description": "TSMC Stock Holds Firm As $56 Billion AI Expansion Defies Apple Supply Chain Rumors - Taiwan Semiconductor - Benzinga\n\nMy Account\n\n---\n\nLogin\n\nLoginRegister\n\nStock of the Day\n\nStreetTracks Gold Shares (GLD)\n\nIBIT Bitcoin Trust (IBIT)\n\nBest Swing Trade Stocks\n\nStock of the Day\n\nStreetTracks Gold Share",
+      "published": "2026-05-05T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "台积电推进埃米级制程需要更庞大的基建与极紫外光刻支持，龙潭厂的扩建是技术演进的必然。",
-        "建厂需求的爆发将直接利好特气、厂务工程等供应链厂商，带来显著的业绩增量。"
-      ],
-      "actions": [
-        "追踪龙潭厂环评与土地审批进度，预判台积电资本支出的节奏变化。",
-        "厂务与材料供应商应提前备货扩产，以应对埃米厂建设带来的短期需求脉冲。"
-      ],
-      "glossary": [
-        {
-          "term": "Angstrom",
-          "desc": "埃米，长度单位，1埃米=0.1纳米，代表1nm以下的先进制程节点",
-          "category": "制造"
-        }
-      ],
-      "region": "domestic",
-      "summary": "台积电龙潭厂区三期扩建计划复活，传闻将建设埃米级先进制程工厂，为汉唐、帆宣等厂区服务商带来千亿建厂大单。",
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "TSMC Stock Holds Firm As $56 Billion AI Expansion Defies Apple Supply Chain Rumors - Taiwan Semiconductor - Benzinga\n\nMy Account\n\n---\n\nLogin\n\nLoginReg",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "TSMC seeks approval for advanced fab in expanded Hsinchu Science Park - Focus Taiwan",
+      "url": "https://focustaiwan.tw/sci-tech/202605040012",
+      "description": "TSMC seeks approval for advanced fab in expanded Hsinchu Science Park - Focus Taiwan\n\nFocus Taiwan App\n\nDownload\n\n# TSMC seeks approval for advanced fab in expanded Hsinchu Science Park\n\n05/04/2026 04:25 PM\n\nTo activate the text-to-speech service, please first agree to the privacy policy below.\n\nCNA",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "TSMC seeks approval for advanced fab in expanded Hsinchu Science Park - Focus Taiwan\n\nFocus Taiwan App\n\nDownload\n\n# TSMC seeks approval for advanced f",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "The 60% Problem - Next Financial",
+      "url": "https://nextfinancial.substack.com/p/the-60-problem",
+      "description": "The 60% Problem - Next Financial\n\n# Next Financial\n\nSubscribeSign in\n\n# The 60% Problem\n\nMay 04, 2026\n\n∙ Paid\n\n15\n\nShare\n\nWhen TSMC released its fourth-quarter results, one number went largely unnoticed in the financial press.\n\nNvidia had reserved 60% of the world’s advanced packaging capacity at TS",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "The 60% Problem - Next Financial\n\n# Next Financial\n\nSubscribeSign in\n\n# The 60% Problem\n\nMay 04, 2026\n\n∙ Paid\n\n15\n\nShare\n\nWhen TSMC released its fourt",
+      "tag_category": "设计公司"
+    },
+    {
+      "title": "What's Going On With Taiwan Semiconductor Stock Monday? - Taiwan Semiconductor (NYSE:TSM) - Benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/05/52245951/whats-going-on-with-taiwan-semiconductor-stock-monday",
+      "description": "What's Going On With Taiwan Semiconductor Stock Monday? - Taiwan Semiconductor (NYSE:TSM) - Benzinga\n\nMy Account\n\n---\n\nLogin\n\nLoginRegister\n\nStock of the Day\n\nStreetTracks Gold Shares (GLD)\n\nIBIT Bitcoin Trust (IBIT)\n\nBest Swing Trade Stocks\n\nStock of the Day\n\nStreetTracks Gold Shares (GLD)\n\nIBIT Bi",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "What's Going On With Taiwan Semiconductor Stock Monday? - Taiwan Semiconductor (NYSE:TSM) - Benzinga\n\nMy Account\n\n---\n\nLogin\n\nLoginRegister\n\nStock of ",
       "tag_category": "综合"
     },
     {
-      "title": "台积电前研发大将助阵联发科！强化CoWoS合作",
-      "url": "https://news.nextapple.com/finance/20260503/252C5830FB22195CA36E25942AF627C4",
-      "description": "台積電前研發大將助陣聯發科！強化CoWoS合作 外資另喊驚人目標價｜壹蘋新聞網\n\n【記者呂承哲／台北報導】近日市場傳出，台積電（2330）「研發六騎士」、前研發副總余振華加入聯發科（2454），對此，公司證實，余振華獲邀擔任聯發科的非全職顧問，將借重其經驗，協助聯發科高階封裝未來技術的前瞻探索與路徑規劃，這也符合聯發科日前在法說會提及，公司採多元技術布局策略，並持續與台積電持續密切合作。\n\n余振華在去年7月8日正式從台積電退休。余振華畢業於國立清華大學物理學系，先後取得材料工程研究所碩士、美國喬治亞理工學院材料工程博士學位，根據介紹，余振華在台積電服務超過20年，成功研發銅導線/低介質材料的互",
-      "published": "2026-05-03T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "联发科引入台积电研发高管，标志着其定制高阶AI芯片并采用CoWoS封装的战略决心。",
-        "先进封装产能稀缺，联发科此举意在深化与台积电的绑定，确保未来CoWoS产能分配。"
-      ],
-      "actions": [
-        "关注联发科后续基于CoWoS封装的ASIC产品流片动态，评估其对AI推理市场的冲击。",
-        "重新评估联发科在AI算力供应链中的角色，寻找与其Chiplet架构配套的IP合作机会。"
-      ],
-      "glossary": [
-        {
-          "term": "CoWoS",
-          "desc": "Chip-on-Wafer-on-Substrate，台积电的2.5D先进封装技术，广泛用于AI芯片",
-          "category": "封装"
-        }
-      ],
-      "region": "domestic",
-      "summary": "台积电前研发副总余振华加入联发科担任顾问，协助高阶封装技术的前瞻探索与路径规划，强化联发科与台积电的CoWoS合作。",
-      "tag_category": "Fab/制造"
-    },
-    {
-      "title": "台积电的60%问题",
-      "url": "https://nextfinancial.substack.com/p/the-60-problem",
-      "description": "The 60% Problem - Next Financial\n\n# Next Financial\n\nSubscribeSign in\n\n# The 60% Problem\n\nMay 04, 2026\n\n∙ Paid\n\n13\n\nShare\n\nWhen TSMC released its fourth-quarter results, one number went largely unnoticed in the financial press.\n\nNvidia had reserved 60% of the world’s advanced packaging capacity at TS",
-      "published": "2026-05-04T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "台积电营收高度集中于少数头部客户或特定地区，带来潜在的地缘和周期性风险。",
-        "过度依赖单极市场可能在出口管制升级时遭遇重创，分散客户结构是长期稳健的关键。"
-      ],
-      "actions": [
-        "审视自身供应链对单一大客户或单一地区的依赖度，制定极端情况下的业务连续性计划。",
-        "关注台积电在全球分散建厂（如日本、欧洲）的进展，评估供应链区域化重构趋势。"
-      ],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "文章探讨台积电财报中一个被忽视的数据，揭示其面临的地缘政治或营收集中度风险（60%问题）。",
-      "tag_category": "设计公司"
-    },
-    {
-      "title": "Longtan Phase III Expansion Revived: TSMC Files Factory Application, Hsinchu Science Park Administration Confirms Majority Landowner Support at Public Hearing — BigGo Finance",
-      "url": "https://finance.biggo.com/news/eszj8Z0BX0tZvRTv6p9y",
-      "description": "Longtan Phase III Expansion Revived: TSMC Files Factory Application, Hsinchu Science Park Administration Confirms Majority Landowner Support at Public Hearing — BigGo Finance\n\n# Longtan Phase III Expansion Revived: TSMC Files Factory Application, Hsinchu Science Park Administration Confirms Majority",
+      "title": "China's LineShine CPU-Only Exascale Supercomputer Explained: 2+ ExaFLOPS, Compute Sovereignty, and the Real Cost of AI Infrastructure",
+      "url": "https://www.intelligentliving.co/lineshine-cpu-exascale-supercomputer/",
+      "description": "China's LineShine CPU-Only Exascale Supercomputer Explained: 2+ ExaFLOPS, Compute Sovereignty, and the Real Cost of AI Infrastructure\n\nSearch\n\nSign in\n\nWelcome! Log into your account\n\nyour username\n\nyour password\n\nForgot your password? Get help\n\nPassword recovery\n\nRecover your password\n\nyour email\n\n",
       "published": "2026-05-04T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
@@ -376,39 +204,43 @@
       "actions": [],
       "glossary": [],
       "region": "overseas",
-      "summary": "Longtan Phase III Expansion Revived: TSMC Files Factory Application, Hsinchu Science Park Administration Confirms Majority Landowner Support at Public",
-      "tag_category": "Fab/制造"
+      "summary": "China's LineShine CPU-Only Exascale Supercomputer Explained: 2+ ExaFLOPS, Compute Sovereignty, and the Real Cost of AI Infrastructure\n\nSearch\n\nSign in",
+      "tag_category": "综合"
     },
     {
-      "title": "英伟达亚洲供应链组件成本占比达90%",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidias-asian-supply-chain-hits-90-percent-of-production-costs",
-      "description": "Nvidia's exposure to Asian supply chains for components hits 90% of its production costs — marked increase from 65% could intensify as physical AI adds even more exposure | Tom's Hardware\n\nNvidia's exposure to Asian supply chains for components hits 90% of its production costs — marked increase from",
+      "title": "Micropolis Robotics Unveils New, Next-Generation,",
+      "url": "https://www.globenewswire.com/news-release/2026/05/04/3286586/0/en/Micropolis-Robotics-Unveils-New-Next-Generation-High-Endurance-Robot-at-the-Make-it-in-the-Emirates-2026-Industry-Exhibition.html",
+      "description": "Micropolis Robotics Unveils New, Next-Generation,\n\n# Micropolis Robotics Unveils New, Next-Generation, High-Endurance Robot at the Make it in the Emirates 2026 Industry Exhibition\n\n## Developed for mission-critical deployments with requirements defined by the UAE National Guard, Saudi Arabia’s Minis",
       "published": "2026-05-04T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "英伟达对亚洲供应链的深度依赖，凸显了亚洲在半导体封装、测试及组件制造上的不可替代性。",
-        "物理AI对定制化硬件需求增加，将推高对亚洲成熟制程和封装产能的绑定。"
-      ],
-      "actions": [
-        "评估地缘政治对英伟达亚洲供应链的潜在冲击，寻找关键无源器件和基板的替代来源。",
-        "国内供应链企业应抓住物理AI带来的增量需求，切入英伟达等巨头的组件供应体系。"
-      ],
-      "glossary": [
-        {
-          "term": "Physical AI",
-          "desc": "物理AI，指能够理解并操作物理世界的AI系统，如机器人、自动驾驶等",
-          "category": "应用"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "overseas",
-      "summary": "英伟达生产成本中90%来自亚洲供应链组件，较此前的65%显著上升，且随着物理AI发展，该比例可能进一步增加。",
-      "tag_category": "设计公司"
+      "summary": "Micropolis Robotics Unveils New, Next-Generation,\n\n# Micropolis Robotics Unveils New, Next-Generation, High-Endurance Robot at the Make it in the Emir",
+      "tag_category": "综合"
     },
     {
-      "title": "日月光投控的增长战略与未来前景",
+      "title": "CoWoS Is No Longer Just Packaging: It Is TSMC’s New Value-Creation Engine",
+      "url": "https://tspasemiconductor.substack.com/p/cowos-is-no-longer-just-packaging",
+      "description": "CoWoS Is No Longer Just Packaging: It Is TSMC’s New Value-Creation Engine\n\nSubscribeSign in\n\n# CoWoS Is No Longer Just Packaging: It Is TSMC’s New Value-Creation Engine\n\n### Original Article By SemiVision Reserach [Reading time: 14 mins]\n\nMay 05, 2026\n\n15\n\n4\n\nShare\n\n#### CoWoS Is No Longer Just Pack",
+      "published": "2026-05-05T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "CoWoS Is No Longer Just Packaging: It Is TSMC’s New Value-Creation Engine\n\nSubscribeSign in\n\n# CoWoS Is No Longer Just Packaging: It Is TSMC’s New Val",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "What is Growth Strategy and Future Prospects of ASE Technology Holding Company? – MatrixBCG.com",
       "url": "https://matrixbcg.com/blogs/growth-strategy/aseglobal",
       "description": "What is Growth Strategy and Future Prospects of ASE Technology Holding Company? – MatrixBCG.com\n\nMay 4, 2026\n\n# What is Growth Strategy and Future Prospects of ASE Technology Holding Company?\n\nGenerate AI Summary\n\n### ASE Technology Holding Bundle\n\nGet Full Bundle:\n\nTOTAL:\n\nADD TO CART\n\n## How will ",
       "published": "2026-05-04T00:00:00.000Z",
@@ -416,29 +248,17 @@
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "作为OSAT龙头，日月光在先进封装（如CoWoS配套）的布局将直接受益于AI芯片爆发。",
-        "测试业务随芯片复杂度提升而增长，系统级测试（SLT）成为新利润点。"
-      ],
-      "actions": [
-        "关注日月光在2.5D/3D封装产能的扩充进度，评估其对客户交期的影响。",
-        "封装设备供应商应针对日月光的技术路线图，提前进行设备验证与导入。"
-      ],
-      "glossary": [
-        {
-          "term": "OSAT",
-          "desc": "Outsourced Semiconductor Assembly and Test，专业半导体封测代工",
-          "category": "封装"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "overseas",
-      "summary": "分析日月光投控的增长战略及未来前景，探讨其在先进封装和测试市场的领先地位与发展路径。",
+      "summary": "What is Growth Strategy and Future Prospects of ASE Technology Holding Company? – MatrixBCG.com\n\nMay 4, 2026\n\n# What is Growth Strategy and Future Pro",
       "tag_category": "综合"
     },
     {
-      "title": "Applied Materials Acquires NEXX Business From ASMPT",
-      "url": "https://pulse2.com/applied-materials-acquires-nexx-business-from-asmpt/",
-      "description": "Applied Materials Acquires NEXX Business From ASMPT\n\n# Applied Materials Acquires NEXX Business From ASMPT\n\nBy Amit Chowdhry • Yesterday at 10:34 PM\n\nApplied Materials Acquires NEXX Business From ASMPT\n\nApplied Materials has entered into a definitive agreement with ASMPT Limited to acquire its NEXX ",
+      "title": "How Does ASE Technology Holding Company Work? – MatrixBCG.com",
+      "url": "https://matrixbcg.com/blogs/how-it-works/aseglobal",
+      "description": "How Does ASE Technology Holding Company Work? – MatrixBCG.com\n\nMay 4, 2026\n\n# How Does ASE Technology Holding Company Work?\n\nGenerate AI Summary\n\n### ASE Technology Holding Bundle\n\nGet Full Bundle:\n\nTOTAL:\n\nADD TO CART\n\n## How will ASE Technology Holding sustain its semiconductor dominance?\n\nASE Tec",
       "published": "2026-05-04T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
@@ -448,61 +268,81 @@
       "actions": [],
       "glossary": [],
       "region": "overseas",
-      "summary": "Applied Materials Acquires NEXX Business From ASMPT\n\n# Applied Materials Acquires NEXX Business From ASMPT\n\nBy Amit Chowdhry • Yesterday at 10:34 PM\n\n",
+      "summary": "How Does ASE Technology Holding Company Work? – MatrixBCG.com\n\nMay 4, 2026\n\n# How Does ASE Technology Holding Company Work?\n\nGenerate AI Summary\n\n### ",
       "tag_category": "综合"
     },
     {
-      "title": "重新思考ECAD IT基础设施：从碎片化到工程平台",
-      "url": "https://semiwiki.com/artificial-intelligence/368752-rethinking-ecad-it-infrastructure-from-fragmentation-to-an-engineering-platform/",
-      "description": "<p>The semiconductor industry is entering a new phase of complexity. Advanced nodes, heterogeneous integration, and AI-driven design workflows are placing unprecedented demands on engineering teams. While much of the focus remains on tools and methodologies, an equally critical constraint is emergin",
-      "published": "Mon, 04 May 2026 13:00:52 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AI驱动的设计流程和先进制程产生海量数据，传统分散的IT架构已成为研发效率的瓶颈。",
-        "构建集中式、高吞吐的EDA工程平台是芯片设计公司提升迭代速度的核心。"
-      ],
-      "actions": [
-        "芯片设计企业应评估现有EDA IT基础设施的算力利用率与存储瓶颈，规划云原生化改造。",
-        "IT基础设施供应商需开发针对EDA工作负载优化的高性能计算与存储方案。"
-      ],
-      "glossary": [
-        {
-          "term": "ECAD",
-          "desc": "Electronic Computer-Aided Design，电子计算机辅助设计",
-          "category": "EDA"
-        }
-      ],
-      "region": "overseas",
-      "summary": "半导体设计复杂性增加，先进节点和异构集成对EDA的IT基础设施提出新要求，需从碎片化转向统一工程平台。",
-      "tag_category": "综合"
-    },
-    {
-      "title": "Call of Duty Leaves PS4/Xbox One Behind as Activision Confirms The Next COD is Being Made for Current-Gen Only",
-      "url": "https://wccftech.com/call-of-duty-no-longer-ps4-xbox-one/",
-      "description": "Video game studios don't often comment on rumours, but when they do they offer welcome points of clarity for players. Today, Activision chose to comment on a rumour that ran rampant yesterday and most of today, which was that the next Call of Duty game (which is largely reported to be Call of Duty: ",
-      "published": "Mon, 04 May 2026 20:35:55 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "GlobalFoundries accelerates adoption of co-packaged optics",
+      "url": "https://www.globenewswire.com/news-release/2026/05/04/3286711/0/en/GlobalFoundries-accelerates-adoption-of-co-packaged-optics-for-advanced-AI-data-centers-with-SCALE-optical-module-solution.html",
+      "description": "GlobalFoundries accelerates adoption of co-packaged optics\n\n# GlobalFoundries accelerates adoption of co-packaged optics for advanced AI data centers with SCALE optical module solution\n\n## SCALE CPO solution is the industry’s first OCI MSA capable platform and built with GF’s proven silicon photonic",
+      "published": "2026-05-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [],
       "actions": [],
       "glossary": [],
       "region": "overseas",
-      "summary": "Video game studios don't often comment on rumours, but when they do they offer welcome points of clarity for players. Today, Activision chose to comme",
+      "summary": "GlobalFoundries accelerates adoption of co-packaged optics\n\n# GlobalFoundries accelerates adoption of co-packaged optics for advanced AI data centers ",
       "tag_category": "综合"
+    },
+    {
+      "title": "[News] Applied Materials to Acquire ASMPT NEXX for $120M, Expanding Panel-Level Advanced Packaging Portfolio",
+      "url": "https://www.trendforce.com/news/2026/05/05/news-applied-materials-to-acquire-asmpt-nexx-for-120m-expanding-panel-level-advanced-packaging-portfolio/",
+      "description": "[News] Applied Materials to Acquire ASMPT NEXX for $120M, Expanding Panel-Level Advanced Packaging Portfolio\n\n# [News] Applied Materials to Acquire ASMPT NEXX for $120M, Expanding Panel-Level Advanced Packaging Portfolio\n\n---\n\n---\n\nAs advanced packaging has emerged as a key growth opportunity amid t",
+      "published": "2026-05-05T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "[News] Applied Materials to Acquire ASMPT NEXX for $120M, Expanding Panel-Level Advanced Packaging Portfolio\n\n# [News] Applied Materials to Acquire AS",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "Lattice Semiconductor to buy software firm AMI in $1.65 billion deal, ETTelecom",
+      "url": "https://telecom.economictimes.indiatimes.com/news/devices/lattice-semiconductor-to-buy-software-firm-ami-in-1-65-billion-deal/130814256",
+      "description": "Lattice Semiconductor to buy software firm AMI in $1.65 billion deal, ETTelecom\n\n- Devices\n- 1 min read\n\n# Lattice Semiconductor to buy software firm AMI in $1.65 billion deal\n\nUnder the deal, Lattice will acquire ​AMI for $1 billion in cash ⁠and around $650 ‌million in shares.\n\n- Published On May 5",
+      "published": "2026-05-05T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Lattice Semiconductor to buy software firm AMI in $1.65 billion deal, ETTelecom\n\n- Devices\n- 1 min read\n\n# Lattice Semiconductor to buy software firm ",
+      "tag_category": "综合"
+    },
+    {
+      "title": "RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发-36氪",
+      "url": "https://36kr.com/p/3639229542780294?f=rss",
+      "description": "RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发\n\n拥有国内RISC-V高算力芯片量产数量最多的芯片。\n\n硬氪获悉，基于RISC-V架构研发和销售下一代AI芯片的企业「进迭时空」已完成数亿元B轮融资。我们总结了本轮融资信息和该公司几大亮点：\n\n1. 融资金额及投资机构\n\n融资轮次：B轮\n\n融资规模：数亿元人民",
+      "published": "2026-05-05T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代R",
+      "tag_category": "EDA/IP"
     }
   ],
   "stats": {
-    "total_raw": 143,
-    "after_dedup": 120,
+    "total_raw": 150,
+    "after_dedup": 122,
     "sources": {
-      "Exa": 30,
-      "RSS": 65,
-      "Brave": 25
+      "Exa": 34,
+      "RSS": 64,
+      "Brave": 24
     }
   }
 }
