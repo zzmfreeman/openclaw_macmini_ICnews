@@ -1,7 +1,7 @@
 {
-  "version": "v20260506-0604",
-  "generatedAt": "2026-05-06T06:04:00+08:00",
-  "period": "morning",
+  "version": "v20260506-1302",
+  "generatedAt": "2026-05-06T13:02:00+08:00",
+  "period": "midday",
   "commit": "",
   "glossary_list": [
     {
@@ -18,6 +18,51 @@
       "term": "OSAT",
       "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
       "category": "封装"
+    },
+    {
+      "term": "GTM",
+      "desc": "Go-To-Market，推向市场策略，指企业将产品推向目标市场并获取竞争优势的行动计划",
+      "category": "商业"
+    },
+    {
+      "term": "LPDA",
+      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线",
+      "category": "设计"
+    },
+    {
+      "term": "Full-Wave EM Simulation",
+      "desc": "全波电磁仿真，直接求解麦克斯韦方程组的精确电磁场仿真方法",
+      "category": "EDA"
+    },
+    {
+      "term": "ASIC",
+      "desc": "Application-Specific Integrated Circuit，专用集成电路",
+      "category": "设计"
+    },
+    {
+      "term": "Silicon IP",
+      "desc": "硅知识产权，已验证的集成电路设计模块，可用于ASIC或SoC集成",
+      "category": "IP"
+    },
+    {
+      "term": "DTCO",
+      "desc": "Design-Technology Co-Optimization，设计与工艺协同优化",
+      "category": "EDA"
+    },
+    {
+      "term": "STCO",
+      "desc": "System-Technology Co-Optimization，系统与工艺协同优化",
+      "category": "EDA"
+    },
+    {
+      "term": "3D IC",
+      "desc": "三维集成电路，通过垂直堆叠芯片实现高密度互连的先进封装技术",
+      "category": "封装"
+    },
+    {
+      "term": "U2U",
+      "desc": "User to User，西门子EDA举办的用户技术交流大会",
+      "category": "综合"
     }
   ],
   "topic_pulse": [
@@ -26,93 +71,61 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "社区对先进封装技术的讨论热度有所回落，暂无引发广泛关注的焦点事件，情绪趋于平稳。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "HBM与AI存储话题降温，市场情绪观望，缺乏新的技术突破或产能消息刺激讨论。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "关于中国晶圆厂和先进制程的讨论热度下降，社区处于信息空窗期，情绪以谨慎观望为主。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "国产EDA/IP话题降温，近期缺乏重大政策或技术进展引发社区热烈讨论。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "封测板块讨论热度下降，行业焦点暂时转移至上游EDA与设计端，社区情绪平淡。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "出口管制相关讨论降温，未出现新的制裁传闻引发社区焦虑，情绪有所缓和。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "AI芯片及英伟达话题降温，市场关注点暂时分散，缺乏爆款产品或财报信息刺激。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "设备与材料国产化讨论降温，社区情绪平稳，等待下一次政策或验证节点驱动。"
     }
   ],
   "items": [
     {
-      "title": "Cerebras files updated IPO terms: $3.5bn raise at $26.6bn valuation",
-      "url": "https://thenextweb.com/news/cerebras-ipo-3-5-billion-updated-prospectus",
-      "description": "Cerebras files updated IPO terms: $3.5bn raise at $26.6bn valuation\n\nThree days after suggesting it might target up to $4bn at $40bn, the AI chipmaker has marketed 28 million shares at $115-$125 each, lining the deal up with its February private valuation rather than above it.\n\n---\n\nCerebras Systems",
-      "published": "2026-05-04T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "Cerebras files updated IPO terms: $3.5bn raise at $26.6bn valuation\n\nThree days after suggesting it might target up to $4bn at $40bn, the AI chipmaker",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX - Semiconductor Digest",
-      "url": "https://www.semiconductor-digest.com/applied-materials-broadens-advanced-packaging-portfolio-with-acquisition-of-nexx/",
-      "description": "Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX - Semiconductor Digest\n\nApplied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX\n\nApplied Materials, Inc. today announced it has entered into a definitive agreement with ASMPT Limited to acquire ",
-      "published": "2026-05-04T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX - Semiconductor Digest\n\nApplied Materials Broadens Advanced Packaging",
-      "tag_category": "Fab/制造"
-    },
-    {
-      "title": "CEO Interview with Geoffrey Rodgers of Chameleon Semiconductor",
+      "title": "Chameleon Semiconductor首席执行官Geoffrey Rodgers专访",
       "url": "https://semiwiki.com/ceo-interviews/368833-ceo-interview-with-geoffrey-rodgers-of-chameleon-semiconductor/",
       "description": "<p>Geoffrey Rodgers spent most of his career at the intersection of semiconductor technology and go-to-market execution, with a focus on scaling businesses and bringing complex solutions to market. He previously led the Analog Go-To-Market motion at Synopsys following the acquisition of Analog Desig",
       "published": "Sun, 03 May 2026 21:00:04 +0000",
@@ -120,229 +133,164 @@
       "source_type": "RSS",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
+      "insights": [
+        "初创半导体公司CEO的技术与市场双重背景反映了当前EDA/IP领域对商业化执行力的极度重视。",
+        "复杂芯片解决方案的成功推向市场，不仅依赖技术突破，更需要精准的GTM策略与生态协同。"
+      ],
+      "actions": [
+        "关注Chameleon Semiconductor的产品动态，评估其IP/EDA解决方案的差异化优势及生态适配性。",
+        "芯片创业公司应加强技术与市场团队的早期协同，确保产品定义直击客户痛点并加速商业化。"
+      ],
+      "glossary": [
+        {
+          "term": "GTM",
+          "desc": "Go-To-Market，推向市场策略，指企业将产品推向目标市场并获取竞争优势的行动计划",
+          "category": "商业"
+        }
+      ],
       "region": "overseas",
-      "summary": "<p>Geoffrey Rodgers spent most of his career at the intersection of semiconductor technology and go-to-market execution, with a focus on scaling busin",
+      "summary": "Chameleon Semiconductor CEO分享了其在半导体技术与市场推广交叉领域的职业生涯，重点关注业务扩展和复杂解决方案的商业化落地。",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "TSMC Stock Holds Firm As $56 Billion AI Expansion Defies Apple Supply Chain Rumors - Taiwan Semiconductor - Benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/05/52282399/tsmc-stock-holds-firm-as-56-billion-ai-expansion-defies-apple-supply-chain-rumors",
-      "description": "TSMC Stock Holds Firm As $56 Billion AI Expansion Defies Apple Supply Chain Rumors - Taiwan Semiconductor - Benzinga\n\nMy Account\n\n---\n\nLogin\n\nLoginRegister\n\nStock of the Day\n\nStreetTracks Gold Shares (GLD)\n\nIBIT Bitcoin Trust (IBIT)\n\nBest Swing Trade Stocks\n\nStock of the Day\n\nStreetTracks Gold Share",
-      "published": "2026-05-05T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
+      "title": "使用全波电磁仿真设计宽带LPDA馈电反射面天线",
+      "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
+      "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
+      "published": "Fri, 17 Apr 2026 14:00:50 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
+      "insights": [
+        "高频宽带天线设计高度依赖精确的全波电磁仿真工具，这持续拉动EDA工具在射频微波领域的刚性需求。",
+        "LPDA馈电反射面天线在5G/6G宽带通信中具有应用潜力，相关射频IP与仿真设计需求可能增长。"
+      ],
+      "actions": [
+        "射频与微波芯片设计工程师应掌握全波电磁仿真工具的高级功能，以提升复杂天线系统的设计精度。",
+        "EDA供应商可深耕射频天线仿真细分市场，优化求解器性能与大规模并行计算能力。"
+      ],
+      "glossary": [
+        {
+          "term": "LPDA",
+          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线",
+          "category": "设计"
+        },
+        {
+          "term": "Full-Wave EM Simulation",
+          "desc": "全波电磁仿真，直接求解麦克斯韦方程组的精确电磁场仿真方法",
+          "category": "EDA"
+        }
+      ],
       "region": "overseas",
-      "summary": "TSMC Stock Holds Firm As $56 Billion AI Expansion Defies Apple Supply Chain Rumors - Taiwan Semiconductor - Benzinga\n\nMy Account\n\n---\n\nLogin\n\nLoginReg",
-      "tag_category": "Fab/制造"
-    },
-    {
-      "title": "TSMC seeks approval for advanced fab in expanded Hsinchu Science Park - Focus Taiwan",
-      "url": "https://focustaiwan.tw/sci-tech/202605040012",
-      "description": "TSMC seeks approval for advanced fab in expanded Hsinchu Science Park - Focus Taiwan\n\nFocus Taiwan App\n\nDownload\n\n# TSMC seeks approval for advanced fab in expanded Hsinchu Science Park\n\n05/04/2026 04:25 PM\n\nTo activate the text-to-speech service, please first agree to the privacy policy below.\n\nCNA",
-      "published": "2026-05-04T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "TSMC seeks approval for advanced fab in expanded Hsinchu Science Park - Focus Taiwan\n\nFocus Taiwan App\n\nDownload\n\n# TSMC seeks approval for advanced f",
-      "tag_category": "Fab/制造"
-    },
-    {
-      "title": "The 60% Problem - Next Financial",
-      "url": "https://nextfinancial.substack.com/p/the-60-problem",
-      "description": "The 60% Problem - Next Financial\n\n# Next Financial\n\nSubscribeSign in\n\n# The 60% Problem\n\nMay 04, 2026\n\n∙ Paid\n\n15\n\nShare\n\nWhen TSMC released its fourth-quarter results, one number went largely unnoticed in the financial press.\n\nNvidia had reserved 60% of the world’s advanced packaging capacity at TS",
-      "published": "2026-05-04T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "The 60% Problem - Next Financial\n\n# Next Financial\n\nSubscribeSign in\n\n# The 60% Problem\n\nMay 04, 2026\n\n∙ Paid\n\n15\n\nShare\n\nWhen TSMC released its fourt",
-      "tag_category": "设计公司"
-    },
-    {
-      "title": "What's Going On With Taiwan Semiconductor Stock Monday? - Taiwan Semiconductor (NYSE:TSM) - Benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/05/52245951/whats-going-on-with-taiwan-semiconductor-stock-monday",
-      "description": "What's Going On With Taiwan Semiconductor Stock Monday? - Taiwan Semiconductor (NYSE:TSM) - Benzinga\n\nMy Account\n\n---\n\nLogin\n\nLoginRegister\n\nStock of the Day\n\nStreetTracks Gold Shares (GLD)\n\nIBIT Bitcoin Trust (IBIT)\n\nBest Swing Trade Stocks\n\nStock of the Day\n\nStreetTracks Gold Shares (GLD)\n\nIBIT Bi",
-      "published": "2026-05-04T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "What's Going On With Taiwan Semiconductor Stock Monday? - Taiwan Semiconductor (NYSE:TSM) - Benzinga\n\nMy Account\n\n---\n\nLogin\n\nLoginRegister\n\nStock of ",
-      "tag_category": "综合"
-    },
-    {
-      "title": "China's LineShine CPU-Only Exascale Supercomputer Explained: 2+ ExaFLOPS, Compute Sovereignty, and the Real Cost of AI Infrastructure",
-      "url": "https://www.intelligentliving.co/lineshine-cpu-exascale-supercomputer/",
-      "description": "China's LineShine CPU-Only Exascale Supercomputer Explained: 2+ ExaFLOPS, Compute Sovereignty, and the Real Cost of AI Infrastructure\n\nSearch\n\nSign in\n\nWelcome! Log into your account\n\nyour username\n\nyour password\n\nForgot your password? Get help\n\nPassword recovery\n\nRecover your password\n\nyour email\n\n",
-      "published": "2026-05-04T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "China's LineShine CPU-Only Exascale Supercomputer Explained: 2+ ExaFLOPS, Compute Sovereignty, and the Real Cost of AI Infrastructure\n\nSearch\n\nSign in",
-      "tag_category": "综合"
-    },
-    {
-      "title": "Micropolis Robotics Unveils New, Next-Generation,",
-      "url": "https://www.globenewswire.com/news-release/2026/05/04/3286586/0/en/Micropolis-Robotics-Unveils-New-Next-Generation-High-Endurance-Robot-at-the-Make-it-in-the-Emirates-2026-Industry-Exhibition.html",
-      "description": "Micropolis Robotics Unveils New, Next-Generation,\n\n# Micropolis Robotics Unveils New, Next-Generation, High-Endurance Robot at the Make it in the Emirates 2026 Industry Exhibition\n\n## Developed for mission-critical deployments with requirements defined by the UAE National Guard, Saudi Arabia’s Minis",
-      "published": "2026-05-04T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "Micropolis Robotics Unveils New, Next-Generation,\n\n# Micropolis Robotics Unveils New, Next-Generation, High-Endurance Robot at the Make it in the Emir",
-      "tag_category": "综合"
-    },
-    {
-      "title": "CoWoS Is No Longer Just Packaging: It Is TSMC’s New Value-Creation Engine",
-      "url": "https://tspasemiconductor.substack.com/p/cowos-is-no-longer-just-packaging",
-      "description": "CoWoS Is No Longer Just Packaging: It Is TSMC’s New Value-Creation Engine\n\nSubscribeSign in\n\n# CoWoS Is No Longer Just Packaging: It Is TSMC’s New Value-Creation Engine\n\n### Original Article By SemiVision Reserach [Reading time: 14 mins]\n\nMay 05, 2026\n\n15\n\n4\n\nShare\n\n#### CoWoS Is No Longer Just Pack",
-      "published": "2026-05-05T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "CoWoS Is No Longer Just Packaging: It Is TSMC’s New Value-Creation Engine\n\nSubscribeSign in\n\n# CoWoS Is No Longer Just Packaging: It Is TSMC’s New Val",
-      "tag_category": "Fab/制造"
-    },
-    {
-      "title": "What is Growth Strategy and Future Prospects of ASE Technology Holding Company? – MatrixBCG.com",
-      "url": "https://matrixbcg.com/blogs/growth-strategy/aseglobal",
-      "description": "What is Growth Strategy and Future Prospects of ASE Technology Holding Company? – MatrixBCG.com\n\nMay 4, 2026\n\n# What is Growth Strategy and Future Prospects of ASE Technology Holding Company?\n\nGenerate AI Summary\n\n### ASE Technology Holding Bundle\n\nGet Full Bundle:\n\nTOTAL:\n\nADD TO CART\n\n## How will ",
-      "published": "2026-05-04T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "What is Growth Strategy and Future Prospects of ASE Technology Holding Company? – MatrixBCG.com\n\nMay 4, 2026\n\n# What is Growth Strategy and Future Pro",
-      "tag_category": "综合"
-    },
-    {
-      "title": "How Does ASE Technology Holding Company Work? – MatrixBCG.com",
-      "url": "https://matrixbcg.com/blogs/how-it-works/aseglobal",
-      "description": "How Does ASE Technology Holding Company Work? – MatrixBCG.com\n\nMay 4, 2026\n\n# How Does ASE Technology Holding Company Work?\n\nGenerate AI Summary\n\n### ASE Technology Holding Bundle\n\nGet Full Bundle:\n\nTOTAL:\n\nADD TO CART\n\n## How will ASE Technology Holding sustain its semiconductor dominance?\n\nASE Tec",
-      "published": "2026-05-04T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "How Does ASE Technology Holding Company Work? – MatrixBCG.com\n\nMay 4, 2026\n\n# How Does ASE Technology Holding Company Work?\n\nGenerate AI Summary\n\n### ",
-      "tag_category": "综合"
-    },
-    {
-      "title": "GlobalFoundries accelerates adoption of co-packaged optics",
-      "url": "https://www.globenewswire.com/news-release/2026/05/04/3286711/0/en/GlobalFoundries-accelerates-adoption-of-co-packaged-optics-for-advanced-AI-data-centers-with-SCALE-optical-module-solution.html",
-      "description": "GlobalFoundries accelerates adoption of co-packaged optics\n\n# GlobalFoundries accelerates adoption of co-packaged optics for advanced AI data centers with SCALE optical module solution\n\n## SCALE CPO solution is the industry’s first OCI MSA capable platform and built with GF’s proven silicon photonic",
-      "published": "2026-05-04T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "GlobalFoundries accelerates adoption of co-packaged optics\n\n# GlobalFoundries accelerates adoption of co-packaged optics for advanced AI data centers ",
-      "tag_category": "综合"
-    },
-    {
-      "title": "[News] Applied Materials to Acquire ASMPT NEXX for $120M, Expanding Panel-Level Advanced Packaging Portfolio",
-      "url": "https://www.trendforce.com/news/2026/05/05/news-applied-materials-to-acquire-asmpt-nexx-for-120m-expanding-panel-level-advanced-packaging-portfolio/",
-      "description": "[News] Applied Materials to Acquire ASMPT NEXX for $120M, Expanding Panel-Level Advanced Packaging Portfolio\n\n# [News] Applied Materials to Acquire ASMPT NEXX for $120M, Expanding Panel-Level Advanced Packaging Portfolio\n\n---\n\n---\n\nAs advanced packaging has emerged as a key growth opportunity amid t",
-      "published": "2026-05-05T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "[News] Applied Materials to Acquire ASMPT NEXX for $120M, Expanding Panel-Level Advanced Packaging Portfolio\n\n# [News] Applied Materials to Acquire AS",
-      "tag_category": "Fab/制造"
-    },
-    {
-      "title": "Lattice Semiconductor to buy software firm AMI in $1.65 billion deal, ETTelecom",
-      "url": "https://telecom.economictimes.indiatimes.com/news/devices/lattice-semiconductor-to-buy-software-firm-ami-in-1-65-billion-deal/130814256",
-      "description": "Lattice Semiconductor to buy software firm AMI in $1.65 billion deal, ETTelecom\n\n- Devices\n- 1 min read\n\n# Lattice Semiconductor to buy software firm AMI in $1.65 billion deal\n\nUnder the deal, Lattice will acquire ​AMI for $1 billion in cash ⁠and around $650 ‌million in shares.\n\n- Published On May 5",
-      "published": "2026-05-05T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "Lattice Semiconductor to buy software firm AMI in $1.65 billion deal, ETTelecom\n\n- Devices\n- 1 min read\n\n# Lattice Semiconductor to buy software firm ",
-      "tag_category": "综合"
-    },
-    {
-      "title": "RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发-36氪",
-      "url": "https://36kr.com/p/3639229542780294?f=rss",
-      "description": "RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发\n\n拥有国内RISC-V高算力芯片量产数量最多的芯片。\n\n硬氪获悉，基于RISC-V架构研发和销售下一代AI芯片的企业「进迭时空」已完成数亿元B轮融资。我们总结了本轮融资信息和该公司几大亮点：\n\n1. 融资金额及投资机构\n\n融资轮次：B轮\n\n融资规模：数亿元人民",
-      "published": "2026-05-05T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic",
-      "summary": "RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代R",
+      "summary": "本文提供了一份使用全波电磁仿真设计对数周期偶极子阵列（LPDA）馈电抛物面反射面天线的实用指南。",
       "tag_category": "EDA/IP"
+    },
+    {
+      "title": "SkyeChip Berhad IPO（0.88林吉特）",
+      "url": "https://azamtaifor.substack.com/p/skyechip-berhad-ipo-rm088",
+      "description": "SkyeChip buat duit melalui reka bentuk silicon IP dan custom ASIC. Mereka design “building blocks” untuk chip, kemudian customers seperti fabless semiconductor companies guna IP tersebut dalam chip mereka. Contoh: memory interface IP, Network-on-Chip IP, D2D interface IP, custom ASIC untuk ...",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "东南亚地区（如马来西亚）的芯片IP和ASIC设计服务正在崛起，试图在全球供应链重构中占据一席之地。",
+        "专注于特定IP模块和定制ASIC的轻资产设计服务模式在当前资本市场依然受到认可和青睐。"
+      ],
+      "actions": [
+        "Fabless厂商可评估东南亚本土IP供应商的性价比与交付能力，作为供应链多元化和降本的备选方案。",
+        "区域性芯片设计服务企业可借鉴SkyeChip的商业模式，聚焦特色IP开发与ASIC定制以形成差异化竞争。"
+      ],
+      "glossary": [
+        {
+          "term": "ASIC",
+          "desc": "Application-Specific Integrated Circuit，专用集成电路",
+          "category": "设计"
+        },
+        {
+          "term": "Silicon IP",
+          "desc": "硅知识产权，已验证的集成电路设计模块，可用于ASIC或SoC集成",
+          "category": "IP"
+        }
+      ],
+      "region": "overseas",
+      "summary": "马来西亚芯片设计公司SkyeChip通过硅IP和定制ASIC设计盈利，为Fabless公司提供芯片基础构建模块，现正进行IPO。",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "新思科技与台积电深化AI设计联盟：这意味着什么",
+      "url": "https://semiwiki.com/3dic/368839-synopsys-and-tsmc-deepen-ai-design-alliance-what-it-means/",
+      "description": "<p>A recent announcement from Synopsys signals a meaningful escalation in the race to build next-generation AI hardware. The expanded collaboration between Synopsys and TSMC brings together silicon-proven IP, AI-driven design tools, and cutting-edge manufacturing processes in a tightly integrated ef",
+      "published": "Tue, 05 May 2026 17:00:23 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "EDA巨头与晶圆代工龙头的深度绑定是AI芯片算力突破的关键，设计与工艺协同优化（DTCO/STCO）成为核心趋势。",
+        "AI驱动的EDA工具与先进工艺的联合开发，将大幅缩短超大规模AI芯片的上市时间并突破PPA极限。"
+      ],
+      "actions": [
+        "AI芯片设计公司应优先适配新思与台积电联合推出的AI设计流程和先进节点参考流程。",
+        "密切关注AI辅助EDA工具（如DSO.ai）的进展，评估其在提升设计生产力和优化PPA方面的实际ROI。"
+      ],
+      "glossary": [
+        {
+          "term": "DTCO",
+          "desc": "Design-Technology Co-Optimization，设计与工艺协同优化",
+          "category": "EDA"
+        },
+        {
+          "term": "STCO",
+          "desc": "System-Technology Co-Optimization，系统与工艺协同优化",
+          "category": "EDA"
+        }
+      ],
+      "region": "overseas",
+      "summary": "新思科技与台积电扩大合作，标志着构建下一代AI硬件的竞争显著升级，双方将结合硅工艺和EDA能力加速AI芯片设计。",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "西门子U2U 3D IC设计与验证专题讨论",
+      "url": "https://semiwiki.com/eda/siemens-eda/369017-siemens-u2u-3d-ic-design-and-verification-panel/",
+      "description": "<p>Given the success of the event in Silicon Valley last week, I would expect the <strong><a href=\"https://events.sw.siemens.com/en-US/u2uconference/europe/\">Siemens U2U event in Munich</a></strong> to be even bigger. In my experience this has been the best user driven event in 2026 with the deepest",
+      "published": "Tue, 05 May 2026 13:00:39 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "3D IC（先进封装）的设计与验证已成为行业焦点，EDA工具在多物理场和多尺度仿真上面临新挑战。",
+        "欧洲半导体生态正在积极跟进3D IC技术，行业对跨层协同设计与验证流程标准化的需求日益迫切。"
+      ],
+      "actions": [
+        "先进封装与3D IC工程师应关注西门子在慕尼黑U2U大会上发布的设计与验证方法论及工具链更新。",
+        "企业需提前布局3D IC验证工具，解决热力学、应力和电磁协同仿真的痛点，降低设计返工风险。"
+      ],
+      "glossary": [
+        {
+          "term": "3D IC",
+          "desc": "三维集成电路，通过垂直堆叠芯片实现高密度互连的先进封装技术",
+          "category": "封装"
+        },
+        {
+          "term": "U2U",
+          "desc": "User to User，西门子EDA举办的用户技术交流大会",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "继硅谷活动取得成功后，西门子U2U大会将在慕尼黑举行，重点探讨3D IC的设计与验证挑战。",
+      "tag_category": "综合"
     }
   ],
   "stats": {
-    "total_raw": 150,
-    "after_dedup": 122,
+    "total_raw": 84,
+    "after_dedup": 79,
     "sources": {
-      "Exa": 34,
-      "RSS": 64,
-      "Brave": 24
+      "RSS": 65,
+      "Brave": 14
     }
   }
 }
