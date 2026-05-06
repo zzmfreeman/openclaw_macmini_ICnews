@@ -1,7 +1,7 @@
 {
-  "version": "v20260506-1302",
-  "generatedAt": "2026-05-06T13:02:00+08:00",
-  "period": "midday",
+  "version": "v20260506-2003",
+  "generatedAt": "2026-05-06T20:03:00+08:00",
+  "period": "evening",
   "commit": "",
   "glossary_list": [
     {
@@ -20,49 +20,49 @@
       "category": "封装"
     },
     {
-      "term": "GTM",
-      "desc": "Go-To-Market，推向市场策略，指企业将产品推向目标市场并获取竞争优势的行动计划",
-      "category": "商业"
+      "term": "GTM (Go-to-Market)",
+      "desc": "走向市场策略，指企业将产品推向目标市场并实现商业化的执行计划与策略。",
+      "category": "商业/市场"
     },
     {
       "term": "LPDA",
-      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线",
-      "category": "设计"
+      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种具有宽频带特性的天线结构。",
+      "category": "射频/天线"
     },
     {
       "term": "Full-Wave EM Simulation",
-      "desc": "全波电磁仿真，直接求解麦克斯韦方程组的精确电磁场仿真方法",
-      "category": "EDA"
+      "desc": "全波电磁仿真，求解麦克斯韦方程组的完整数值方法，用于高精度电磁分析与天线设计。",
+      "category": "EDA/IP"
     },
     {
-      "term": "ASIC",
-      "desc": "Application-Specific Integrated Circuit，专用集成电路",
-      "category": "设计"
+      "term": "Genio 510",
+      "desc": "联发科推出的面向边缘AI和物联网应用的处理器系列，具备强大的多媒体与AI加速能力。",
+      "category": "芯片产品"
+    },
+    {
+      "term": "Edge AI",
+      "desc": "边缘人工智能，指在设备端本地执行AI计算而非依赖云端，适用于低延迟与隐私敏感场景。",
+      "category": "技术趋势"
     },
     {
       "term": "Silicon IP",
-      "desc": "硅知识产权，已验证的集成电路设计模块，可用于ASIC或SoC集成",
-      "category": "IP"
+      "desc": "硅知识产权，指经过验证的、可重复用于芯片设计的功能模块（如CPU、接口等），是芯片设计的基石。",
+      "category": "EDA/IP"
+    },
+    {
+      "term": "Custom ASIC",
+      "desc": "定制专用集成电路，为特定客户或应用量身设计的芯片，兼顾性能与成本优势。",
+      "category": "芯片设计"
+    },
+    {
+      "term": "EDA",
+      "desc": "Electronic Design Automation，电子设计自动化，芯片设计必需的软件工具集群。",
+      "category": "EDA/IP"
     },
     {
       "term": "DTCO",
-      "desc": "Design-Technology Co-Optimization，设计与工艺协同优化",
-      "category": "EDA"
-    },
-    {
-      "term": "STCO",
-      "desc": "System-Technology Co-Optimization，系统与工艺协同优化",
-      "category": "EDA"
-    },
-    {
-      "term": "3D IC",
-      "desc": "三维集成电路，通过垂直堆叠芯片实现高密度互连的先进封装技术",
-      "category": "封装"
-    },
-    {
-      "term": "U2U",
-      "desc": "User to User，西门子EDA举办的用户技术交流大会",
-      "category": "综合"
+      "desc": "Design-Technology Co-Optimization，设计与工艺协同优化，通过EDA与Foundry联合优化提升PPA。",
+      "category": "制造/代工"
     }
   ],
   "topic_pulse": [
@@ -71,56 +71,56 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区对先进封装技术的讨论热度有所回落，暂无引发广泛关注的焦点事件，情绪趋于平稳。"
+      "summary": "社区对先进封装的讨论热度有所回落，近期缺乏突破性技术进展或产能扩张的重磅消息，情绪趋于平稳观望。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题降温，市场情绪观望，缺乏新的技术突破或产能消息刺激讨论。"
+      "summary": "HBM与AI存储话题热度降温，随着前期产能与订单预期逐步消化，社区讨论焦点暂时转移，缺乏新的刺激点。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "关于中国晶圆厂和先进制程的讨论热度下降，社区处于信息空窗期，情绪以谨慎观望为主。"
+      "summary": "国内晶圆厂与先进制程的讨论热度下降，社区暂无重大技术突破或扩产传闻，情绪由前期的乐观转为冷静期。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题降温，近期缺乏重大政策或技术进展引发社区热烈讨论。"
+      "summary": "国产EDA/IP话题热度走低，近期未见显著的产品发布或替代突破，社区讨论暂归沉寂，等待下一个催化节点。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测板块讨论热度下降，行业焦点暂时转移至上游EDA与设计端，社区情绪平淡。"
+      "summary": "封测OSAT板块关注度降温，行业进入常规运营周期，社区缺乏关于先进封装产能紧缺或并购的新鲜议题。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制相关讨论降温，未出现新的制裁传闻引发社区焦虑，情绪有所缓和。"
+      "summary": "出口管制与制裁话题热度回落，近期无新增严厉政策落地，社区紧张情绪缓解，讨论趋于边缘化。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片及英伟达话题降温，市场关注点暂时分散，缺乏爆款产品或财报信息刺激。"
+      "summary": "NVIDIA及AI芯片话题热度出现降温，随着财报季与新品发布期过去，社区短期缺乏增量信息，讨论进入平台期。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化讨论降温，社区情绪平稳，等待下一次政策或验证节点驱动。"
+      "summary": "设备与材料国产化讨论热度下降，近期无核心零部件突破或政策利好传出，社区关注点暂时转移至其他领域。"
     }
   ],
   "items": [
@@ -134,22 +134,22 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "初创半导体公司CEO的技术与市场双重背景反映了当前EDA/IP领域对商业化执行力的极度重视。",
-        "复杂芯片解决方案的成功推向市场，不仅依赖技术突破，更需要精准的GTM策略与生态协同。"
+        "半导体初创企业的成功不仅依赖技术突破，更需要精准的GTM（走向市场）策略与商业化落地能力。",
+        "复杂芯片解决方案的规模化需要跨越技术到市场的鸿沟，强调生态合作与标杆客户的验证。"
       ],
       "actions": [
-        "关注Chameleon Semiconductor的产品动态，评估其IP/EDA解决方案的差异化优势及生态适配性。",
-        "芯片创业公司应加强技术与市场团队的早期协同，确保产品定义直击客户痛点并加速商业化。"
+        "芯片初创企业应尽早构建具备市场敏锐度的商业化团队，避免纯技术导向的闭门造车。",
+        "在推广复杂解决方案时，优先寻找战略级标杆客户以验证商业模式并形成市场示范效应。"
       ],
       "glossary": [
         {
-          "term": "GTM",
-          "desc": "Go-To-Market，推向市场策略，指企业将产品推向目标市场并获取竞争优势的行动计划",
-          "category": "商业"
+          "term": "GTM (Go-to-Market)",
+          "desc": "走向市场策略，指企业将产品推向目标市场并实现商业化的执行计划与策略。",
+          "category": "商业/市场"
         }
       ],
       "region": "overseas",
-      "summary": "Chameleon Semiconductor CEO分享了其在半导体技术与市场推广交叉领域的职业生涯，重点关注业务扩展和复杂解决方案的商业化落地。",
+      "summary": "Chameleon Semiconductor首席执行官Geoffrey Rodgers分享了其职业生涯经验，重点探讨了半导体技术与市场执行的结合，以及如何扩大业务规模并将复杂解决方案推向市场。",
       "tag_category": "EDA/IP"
     },
     {
@@ -162,31 +162,64 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "高频宽带天线设计高度依赖精确的全波电磁仿真工具，这持续拉动EDA工具在射频微波领域的刚性需求。",
-        "LPDA馈电反射面天线在5G/6G宽带通信中具有应用潜力，相关射频IP与仿真设计需求可能增长。"
+        "全波电磁仿真在天线设计中越来越关键，能显著提高宽带复杂天线系统的设计精度与效率，降低物理试错成本。",
+        "LPDA馈电反射面天线在宽带通信中具有重要应用，仿真工具的进步使得射频前端与天线的协同设计成为可能。"
       ],
       "actions": [
-        "射频与微波芯片设计工程师应掌握全波电磁仿真工具的高级功能，以提升复杂天线系统的设计精度。",
-        "EDA供应商可深耕射频天线仿真细分市场，优化求解器性能与大规模并行计算能力。"
+        "射频与微波芯片设计团队应评估并引入先进的全波EM仿真工具，以提升天线与前端协同设计的效率。",
+        "关注宽带天线在5G/6G及卫星通信中的需求增长，提前布局相关射频IP与设计能力。"
       ],
       "glossary": [
         {
           "term": "LPDA",
-          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线",
-          "category": "设计"
+          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种具有宽频带特性的天线结构。",
+          "category": "射频/天线"
         },
         {
           "term": "Full-Wave EM Simulation",
-          "desc": "全波电磁仿真，直接求解麦克斯韦方程组的精确电磁场仿真方法",
-          "category": "EDA"
+          "desc": "全波电磁仿真，求解麦克斯韦方程组的完整数值方法，用于高精度电磁分析与天线设计。",
+          "category": "EDA/IP"
         }
       ],
       "region": "overseas",
-      "summary": "本文提供了一份使用全波电磁仿真设计对数周期偶极子阵列（LPDA）馈电抛物面反射面天线的实用指南。",
+      "summary": "该文章提供了一份实用指南，介绍如何使用全波电磁仿真技术来设计由对数周期偶极子阵列（LPDA）馈电的抛物面反射器宽带天线。",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "SkyeChip Berhad IPO（0.88林吉特）",
+      "title": "联发科Genio 510驱动VC EvoCam用于图像采集与处理",
+      "url": "https://www.electronicsweekly.com/news/products/mediatek-genio-510-powers-vc-evocam-for-image-acquisition-and-processing-2026-05/",
+      "description": "<p>Vision Components&#8217; VC EvoCam features a 65 x 40mm camera, the MediaTek Genio 510 processor and all other components required for image acquisition and image processing. Aimed at applications in ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/news/products/mediatek-genio-510-p",
+      "published": "Wed, 06 May 2026 10:59:24 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "边缘AI视觉处理器（如MediaTek Genio系列）正在推动智能相机向高度集成、微型化与端侧智能化方向发展。",
+        "图像采集与处理的端侧化趋势明显，减少了对云端算力的依赖，提升了工业与嵌入式视觉的实时性与数据隐私。"
+      ],
+      "actions": [
+        "机器视觉与工业相机厂商应积极评估联发科等边缘AI SoC，以加速产品智能化与小型化迭代。",
+        "芯片供应链需关注端侧视觉处理带来的存储与高速接口需求变化，提前备货相关元器件。"
+      ],
+      "glossary": [
+        {
+          "term": "Genio 510",
+          "desc": "联发科推出的面向边缘AI和物联网应用的处理器系列，具备强大的多媒体与AI加速能力。",
+          "category": "芯片产品"
+        },
+        {
+          "term": "Edge AI",
+          "desc": "边缘人工智能，指在设备端本地执行AI计算而非依赖云端，适用于低延迟与隐私敏感场景。",
+          "category": "技术趋势"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Vision Components推出VC EvoCam智能相机，采用联发科Genio 510处理器，集成了图像采集与处理所需的全部组件，瞄准特定边缘视觉应用市场。",
+      "tag_category": "设计公司"
+    },
+    {
+      "title": "SkyeChip Berhad IPO（发行价0.88林吉特）",
       "url": "https://azamtaifor.substack.com/p/skyechip-berhad-ipo-rm088",
       "description": "SkyeChip buat duit melalui reka bentuk silicon IP dan custom ASIC. Mereka design “building blocks” untuk chip, kemudian customers seperti fabless semiconductor companies guna IP tersebut dalam chip mereka. Contoh: memory interface IP, Network-on-Chip IP, D2D interface IP, custom ASIC untuk ...",
       "published": "",
@@ -195,31 +228,31 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "东南亚地区（如马来西亚）的芯片IP和ASIC设计服务正在崛起，试图在全球供应链重构中占据一席之地。",
-        "专注于特定IP模块和定制ASIC的轻资产设计服务模式在当前资本市场依然受到认可和青睐。"
+        "东南亚半导体产业链正在向高附加值的设计与IP环节延伸，SkyeChip的IPO标志着该区域在硅IP/ASIC领域的商业化突破。",
+        "定制ASIC与IP授权模式在细分市场具有稳定盈利能力，成为中小设计公司上市并构建护城河的核心支撑。"
       ],
       "actions": [
-        "Fabless厂商可评估东南亚本土IP供应商的性价比与交付能力，作为供应链多元化和降本的备选方案。",
-        "区域性芯片设计服务企业可借鉴SkyeChip的商业模式，聚焦特色IP开发与ASIC定制以形成差异化竞争。"
+        "关注东南亚新兴半导体设计企业的崛起，评估其IP/ASIC作为供应链备选或合作对象的潜力与风险。",
+        "国内IP/ASIC设计公司可借鉴其商业模式，深耕细分市场的“building blocks”以实现稳定营收并探索资本化路径。"
       ],
       "glossary": [
         {
-          "term": "ASIC",
-          "desc": "Application-Specific Integrated Circuit，专用集成电路",
-          "category": "设计"
+          "term": "Silicon IP",
+          "desc": "硅知识产权，指经过验证的、可重复用于芯片设计的功能模块（如CPU、接口等），是芯片设计的基石。",
+          "category": "EDA/IP"
         },
         {
-          "term": "Silicon IP",
-          "desc": "硅知识产权，已验证的集成电路设计模块，可用于ASIC或SoC集成",
-          "category": "IP"
+          "term": "Custom ASIC",
+          "desc": "定制专用集成电路，为特定客户或应用量身设计的芯片，兼顾性能与成本优势。",
+          "category": "芯片设计"
         }
       ],
       "region": "overseas",
-      "summary": "马来西亚芯片设计公司SkyeChip通过硅IP和定制ASIC设计盈利，为Fabless公司提供芯片基础构建模块，现正进行IPO。",
+      "summary": "马来西亚芯片设计公司SkyeChip Berhad以0.88林吉特的价格启动IPO，该公司主要业务为硅IP设计和定制ASIC，为无晶圆厂半导体公司提供芯片基础构建模块。",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "新思科技与台积电深化AI设计联盟：这意味着什么",
+      "title": "新思科技与台积电深化AI设计合作：这意味着什么",
       "url": "https://semiwiki.com/3dic/368839-synopsys-and-tsmc-deepen-ai-design-alliance-what-it-means/",
       "description": "<p>A recent announcement from Synopsys signals a meaningful escalation in the race to build next-generation AI hardware. The expanded collaboration between Synopsys and TSMC brings together silicon-proven IP, AI-driven design tools, and cutting-edge manufacturing processes in a tightly integrated ef",
       "published": "Tue, 05 May 2026 17:00:23 +0000",
@@ -228,69 +261,36 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "EDA巨头与晶圆代工龙头的深度绑定是AI芯片算力突破的关键，设计与工艺协同优化（DTCO/STCO）成为核心趋势。",
-        "AI驱动的EDA工具与先进工艺的联合开发，将大幅缩短超大规模AI芯片的上市时间并突破PPA极限。"
+        "EDA巨头与晶圆代工龙头的深度绑定，正在重塑AI芯片的设计范式，通过工具与工艺的协同优化（DTCO）大幅缩短设计周期。",
+        "AI芯片的复杂度与先进制程的挑战使得单点工具难以胜任，全流程协同设计与参考流程成为提升良率与性能的关键。"
       ],
       "actions": [
-        "AI芯片设计公司应优先适配新思与台积电联合推出的AI设计流程和先进节点参考流程。",
-        "密切关注AI辅助EDA工具（如DSO.ai）的进展，评估其在提升设计生产力和优化PPA方面的实际ROI。"
+        "AI芯片设计公司应优先采用新思科技与台积电联合优化的EDA参考流程，以降低先进制程的流片风险与迭代时间。",
+        "供应链从业者需关注EDA与Foundry联盟带来的生态壁垒，评估非联盟体系下的替代方案风险与长期可行性。"
       ],
       "glossary": [
+        {
+          "term": "EDA",
+          "desc": "Electronic Design Automation，电子设计自动化，芯片设计必需的软件工具集群。",
+          "category": "EDA/IP"
+        },
         {
           "term": "DTCO",
-          "desc": "Design-Technology Co-Optimization，设计与工艺协同优化",
-          "category": "EDA"
-        },
-        {
-          "term": "STCO",
-          "desc": "System-Technology Co-Optimization，系统与工艺协同优化",
-          "category": "EDA"
+          "desc": "Design-Technology Co-Optimization，设计与工艺协同优化，通过EDA与Foundry联合优化提升PPA。",
+          "category": "制造/代工"
         }
       ],
       "region": "overseas",
-      "summary": "新思科技与台积电扩大合作，标志着构建下一代AI硬件的竞争显著升级，双方将结合硅工艺和EDA能力加速AI芯片设计。",
+      "summary": "新思科技与台积电宣布扩大合作，深化在下一代AI硬件设计领域的联盟，将硅工艺与EDA工具更紧密地结合，以加速AI芯片开发并提升性能。",
       "tag_category": "EDA/IP"
-    },
-    {
-      "title": "西门子U2U 3D IC设计与验证专题讨论",
-      "url": "https://semiwiki.com/eda/siemens-eda/369017-siemens-u2u-3d-ic-design-and-verification-panel/",
-      "description": "<p>Given the success of the event in Silicon Valley last week, I would expect the <strong><a href=\"https://events.sw.siemens.com/en-US/u2uconference/europe/\">Siemens U2U event in Munich</a></strong> to be even bigger. In my experience this has been the best user driven event in 2026 with the deepest",
-      "published": "Tue, 05 May 2026 13:00:39 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "3D IC（先进封装）的设计与验证已成为行业焦点，EDA工具在多物理场和多尺度仿真上面临新挑战。",
-        "欧洲半导体生态正在积极跟进3D IC技术，行业对跨层协同设计与验证流程标准化的需求日益迫切。"
-      ],
-      "actions": [
-        "先进封装与3D IC工程师应关注西门子在慕尼黑U2U大会上发布的设计与验证方法论及工具链更新。",
-        "企业需提前布局3D IC验证工具，解决热力学、应力和电磁协同仿真的痛点，降低设计返工风险。"
-      ],
-      "glossary": [
-        {
-          "term": "3D IC",
-          "desc": "三维集成电路，通过垂直堆叠芯片实现高密度互连的先进封装技术",
-          "category": "封装"
-        },
-        {
-          "term": "U2U",
-          "desc": "User to User，西门子EDA举办的用户技术交流大会",
-          "category": "综合"
-        }
-      ],
-      "region": "overseas",
-      "summary": "继硅谷活动取得成功后，西门子U2U大会将在慕尼黑举行，重点探讨3D IC的设计与验证挑战。",
-      "tag_category": "综合"
     }
   ],
   "stats": {
-    "total_raw": 84,
-    "after_dedup": 79,
+    "total_raw": 87,
+    "after_dedup": 64,
     "sources": {
-      "RSS": 65,
-      "Brave": 14
+      "RSS": 63,
+      "Brave": 1
     }
   }
 }
