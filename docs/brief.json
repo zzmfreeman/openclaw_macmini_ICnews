@@ -1,7 +1,7 @@
 {
-  "version": "v20260507-2005",
-  "generatedAt": "2026-05-07T20:05:00+08:00",
-  "period": "evening",
+  "version": "v20260508-0607",
+  "generatedAt": "2026-05-08T06:07:00+08:00",
+  "period": "morning",
   "commit": "",
   "glossary_list": [
     {
@@ -18,46 +18,6 @@
       "term": "OSAT",
       "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
       "category": "封装"
-    },
-    {
-      "term": "LPDA",
-      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线结构",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "Full-Wave EM Simulation",
-      "desc": "全波电磁仿真，求解麦克斯韦方程组的完整形式以获得高精度电磁特性的方法",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "Co-Simulation",
-      "desc": "协同仿真，多个仿真器同时运行并交互数据以模拟复杂系统行为",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "Multiphysics",
-      "desc": "多物理场，涉及热、应力、流体(CFD)等多种物理现象的耦合分析",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "AI Design Alliance",
-      "desc": "AI设计联盟，EDA厂商与代工厂针对AI芯片设计优化的深度合作框架",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "RISC-V",
-      "desc": "一种开源的指令集架构(ISA)，基于精简指令集(RISC)原则",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "ISA",
-      "desc": "Instruction Set Architecture，指令集架构，软件和硬件之间的接口",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "Unreal Engine 5",
-      "desc": "虚幻引擎5，Epic Games开发的最新一代高级实时3D创作工具",
-      "category": "综合"
     }
   ],
   "topic_pulse": [
@@ -66,61 +26,93 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS及先进封装的讨论热度有所降温，情绪趋于平稳。随着产能逐步释放与扩产计划落地，市场对封装产能紧缺的焦虑有所缓解，关注点正从产能短缺转向良率与成本优化。"
+      "summary": ""
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度下降，社区情绪由前期的狂热转为冷静观望。尽管长期需求依然强劲，但短期市场正在消化前期过度预期，讨论焦点暂无重大突破性新闻。"
+      "summary": ""
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中国Fab与先进制程话题热度降温，社区讨论趋于沉寂。在缺乏重大技术突破或政策变动的情况下，业界处于按既定路线推进的阶段，情绪较为谨慎低调。"
+      "summary": ""
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题热度回落，社区情绪相对平稳。前期对国产替代的激情讨论暂告一段落，目前业界更关注实际工具的商业化落地与客户验证反馈，进入务实沉淀期。"
+      "summary": ""
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT话题热度降温，社区讨论较少。随着传统封测需求进入周期性调整，且先进封装话题热度也有所回落，整体板块缺乏短期催化剂，情绪偏中性。"
+      "summary": ""
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度下降，社区情绪暂时缓和。近期无新增重大制裁清单或政策传闻，业界处于消化现有规则与调整供应链策略的适应期，讨论热度随之降低。"
+      "summary": ""
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与英伟达话题热度降温，社区情绪从高涨转为理性。在英伟达新品发布周期间隙，市场对AI算力神话的讨论有所收敛，开始更务实地评估实际部署成本与投资回报率。"
+      "summary": ""
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化话题热度降温，社区讨论趋于平淡。在政策与市场预期相对稳定的当下，讨论缺乏新刺激点，业界正默默推进现有国产化目标，情绪务实且低调。"
+      "summary": ""
     }
   ],
   "items": [
     {
-      "title": "使用全波电磁仿真设计宽带LPDA馈电反射面天线",
+      "title": "台積電CoPoS登板　從圓走向方的轉變3大紅利族群現身 | ETtoday財經雲 | ETtoday新聞雲",
+      "url": "https://finance.ettoday.net/news/3161268",
+      "description": "台積電CoPoS登板 從圓走向方的轉變3大紅利族群現身 | ETtoday財經雲 | ETtoday新聞雲\n\n›\n\n隨著AI算力需求狂飆，晶片面積不斷放大，傳統12吋晶圓封裝逐步逼近極限，台積電CoPoS浮上檯面，成為產業高度關注的下一世代解決方案。同時，這場從「圓」走向「方」的轉變，也將帶來製程、設備與材料體系的全面重構，相關供應鏈迎接新一波需求浪潮。\n\n文／吳旻蓁 圖／先探投資週刊提供\n\n近年來，隨著摩爾定律逐漸走到極限，半導體產業的發展重心也逐步從單純的奈米製程微縮，朝向先進封裝技術的突破。而隨著雲端服務供應商對大型語言模型的訓練需求不斷升級，ＡＩ加速器晶片的設計趨勢，不可逆地朝向整合更",
+      "published": "2026-05-06T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "台積電CoPoS登板 從圓走向方的轉變3大紅利族群現身 | ETtoday財經雲 | ETtoday新聞雲\n\n›\n\n隨著AI算力需求狂飆，晶片面積不斷放大，傳統12吋晶圓封裝逐步逼近極限，台積電CoPoS浮上檯面，成為產業高度關注的下一世代解決方案。同時，這場從「圓」走向「方」的轉變，也將帶來製程、",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Pure-play MEMS foundry Silex prices Stockholm IPO",
+      "url": "https://thenextweb.com/news/silex-microsystems-stockholm-ipo-mems-foundry-debut",
+      "description": "Pure-play MEMS foundry Silex prices Stockholm IPO\n\nThe Bure Equity- and Creades-backed pure-play MEMS foundry priced at SEK 81 per share, with the offering oversubscribed several times. Cornerstone investors, including Capital Research, Fidelity, AFA, AP2, AP3, AP4, Swedbank Robur, and Carnegie, too",
+      "published": "2026-05-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Pure-play MEMS foundry Silex prices Stockholm IPO\n\nThe Bure Equity- and Creades-backed pure-play MEMS foundry priced at SEK 81 per share, with the off",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "Designing Broadband LPDA-Fed Reflector Antennas With Full-Wave EM Simulation",
       "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
       "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
       "published": "Fri, 17 Apr 2026 14:00:50 +0000",
@@ -128,158 +120,230 @@
       "source_type": "RSS",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "全波电磁仿真在复杂宽带天线设计中至关重要，能显著提高设计精度并缩短研发周期。",
-        "射频与天线设计的EDA工具需求持续存在，对高精度仿真软件的求解能力和计算效率提出了更高要求。"
-      ],
-      "actions": [
-        "射频与微波芯片设计团队应评估并引入高精度的全波EM仿真工具，以提升天线及前端模块的整体性能。",
-        "关注天线与射频前端芯片协同设计的仿真流程优化，减少系统级设计迭代风险。"
-      ],
-      "glossary": [
-        {
-          "term": "LPDA",
-          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线结构",
-          "category": "EDA/IP"
-        },
-        {
-          "term": "Full-Wave EM Simulation",
-          "desc": "全波电磁仿真，求解麦克斯韦方程组的完整形式以获得高精度电磁特性的方法",
-          "category": "EDA/IP"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "overseas",
-      "summary": "本文提供了一份使用全波电磁仿真设计对数周期偶极子阵列（LPDA）馈电抛物面反射面天线的实用指南。",
+      "summary": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dip",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "系统协同仿真的不同视角",
-      "url": "https://semiwiki.com/eda/368418-a-different-angle-on-co-simulation-for-systems/",
-      "description": "<p>Co-simulation, two or more simulations running concurrently in some manner, is not a new idea. I have written before about multiphysics systems able to model thermal, stress, CFD and other factors simultaneously. I just read a white paper from Siemens based on a different method, using an open st",
-      "published": "Wed, 06 May 2026 13:00:36 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
+      "title": "成本普涨、盈利分化！半导体行业涨价潮影响见端倪",
+      "url": "https://finance.sina.com.cn/roll/2026-05-07/doc-inhxaaie7741634.shtml",
+      "description": "2026年以来，半导体行业上游材料、晶圆代工以及封装环节纷纷涨价，推动行业成本上涨，逐渐形成了全产业链价格普涨之势。 涨价潮的影响，已经体现在一季报中。",
+      "published": "16小时前",
+      "source": "新浪财经",
+      "source_type": "Serper",
+      "lang": "zh",
       "tags": [],
-      "insights": [
-        "随着芯片集成度与功率密度提升，单一物理场仿真已无法满足需求，多物理场协同仿真成为必然趋势。",
-        "系统级协同仿真有助于在设计早期发现跨域交互问题，从而大幅降低后期修改与流片成本。"
-      ],
-      "actions": [
-        "系统工程师和EDA工具采购方应优先考虑支持多物理场协同仿真的平台，提升系统验证的完备性。",
-        "建立跨学科仿真团队，打通热、力、电等不同仿真域的数据壁垒，实现系统级设计闭环。"
-      ],
-      "glossary": [
-        {
-          "term": "Co-Simulation",
-          "desc": "协同仿真，多个仿真器同时运行并交互数据以模拟复杂系统行为",
-          "category": "EDA/IP"
-        },
-        {
-          "term": "Multiphysics",
-          "desc": "多物理场，涉及热、应力、流体(CFD)等多种物理现象的耦合分析",
-          "category": "EDA/IP"
-        }
-      ],
-      "region": "overseas",
-      "summary": "文章探讨了系统级协同仿真的新视角，强调多物理场（热、应力、流体等）并发仿真在复杂系统设计中的重要性。",
-      "tag_category": "EDA/IP"
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "2026年以来，半导体行业上游材料、晶圆代工以及封装环节纷纷涨价，推动行业成本上涨，逐渐形成了全产业链价格普涨之势。 涨价潮的影响，已经体现在一季报中。",
+      "tag_category": "Fab/制造"
     },
     {
-      "title": "新思科技与台积电深化AI设计合作：这意味着什么",
-      "url": "https://semiwiki.com/3dic/368839-synopsys-and-tsmc-deepen-ai-design-alliance-what-it-means/",
-      "description": "<p>A recent announcement from Synopsys signals a meaningful escalation in the race to build next-generation AI hardware. The expanded collaboration between Synopsys and TSMC brings together silicon-proven IP, AI-driven design tools, and cutting-edge manufacturing processes in a tightly integrated ef",
-      "published": "Tue, 05 May 2026 17:00:23 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "36氪首发 | 从快手独立的AI芯片公司融资数亿元，视频压缩性能超英伟达-36氪",
+      "url": "https://36kr.com/p/3359143021102851",
+      "description": "36氪首发 | 从快手独立的AI芯片公司融资数亿元，视频压缩性能超英伟达-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 36氪首发 | 从快手独立的AI芯片公司融资数亿元，视频压缩性能超英伟达\n\n其SL200芯片连续两年在MSU大赛中超越英特尔、英伟达，已覆盖快手、阿里、百度等互联网数据中心。\n\n作者 | 林晴晴\n\n编辑 | 彭孝秋\n\n36氪获悉，人工智能芯片企业「凌川科技」近日完成数亿元A轮融资，由北京市人工智能产业投资基金和快手集团领投，亦庄产投、顺禧基金、九智资本等跟投。本轮融资将主要用于下一代",
+      "published": "2026-05-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "EDA巨头与晶圆代工龙头深度绑定，表明AI芯片设计的复杂度已超出单点工具能力，需要从工艺到设计的全栈协同。",
-        "这种深度合作将加速AI芯片的上市时间，但也可能进一步抬高先进制程设计的生态壁垒，挤压中小设计公司的生存空间。"
-      ],
-      "actions": [
-        "AI芯片初创公司应密切关注TSMC与Synopsys联合推出的参考流程和设计架构，以减少流片风险。",
-        "国产EDA厂商需寻找差异化切入点，在特定环节（如先进封装仿真、DFT验证）突破巨头联盟的封锁。"
-      ],
-      "glossary": [
-        {
-          "term": "AI Design Alliance",
-          "desc": "AI设计联盟，EDA厂商与代工厂针对AI芯片设计优化的深度合作框架",
-          "category": "EDA/IP"
-        }
-      ],
-      "region": "overseas",
-      "summary": "新思科技与台积电宣布扩大合作，深化在下一代AI硬件设计领域的联盟，旨在将硅工艺与先进EDA工具更紧密地结合。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "串联线索：为何RISC-V系统设计正迈入新时代",
-      "url": "https://semiwiki.com/artificial-intelligence/368842-connecting-the-dots-why-risc-v-system-design-is-entering-a-new-era/",
-      "description": "<p>At the recent RISC-V Now event hosted by Andes, the discussion underscored the fact that RISC-V is no longer just about instruction set architecture advantages or customizable cores. The real focus has moved up the stack to system-level design. This is where connectivity, integration, and securit",
-      "published": "Mon, 04 May 2026 17:00:00 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "RISC-V生态正从核心IP构建走向系统级整合，软件生态和系统级参考设计成为新的竞争焦点。",
-        "可定制内核的优势必须通过系统级优化才能转化为商业价值，单纯谈ISA优势已不足以吸引终端客户。"
-      ],
-      "actions": [
-        "采用RISC-V的芯片开发商应将重心从核心选型转移到系统级架构和软件生态建设上，提升整体解决方案竞争力。",
-        "供应链厂商需关注RISC-V系统级开发板及参考设计的推出，提前布局相关配套组件与软件支持。"
-      ],
-      "glossary": [
-        {
-          "term": "RISC-V",
-          "desc": "一种开源的指令集架构(ISA)，基于精简指令集(RISC)原则",
-          "category": "EDA/IP"
-        },
-        {
-          "term": "ISA",
-          "desc": "Instruction Set Architecture，指令集架构，软件和硬件之间的接口",
-          "category": "EDA/IP"
-        }
-      ],
-      "region": "overseas",
-      "summary": "晶心科技举办的RISC-V活动指出，RISC-V的关注点已从单纯的指令集架构优势转向系统级设计与应用落地，标志着其进入新时代。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "《哥特王朝1》重制版在虚幻引擎5中保留了原版灵魂，但初期体验可能引发玩家分歧",
-      "url": "https://wccftech.com/gothic-1-remake-preserves-the-originals-soul-in-unreal-engine-5-but-the-first-hours-will-divide-players/",
-      "description": "The Gothic series may not be the most popular role-playing game series, but its impact on more successful games is undeniable. Without the rough edges and janky gameplay of the franchise developed by Piranha Bytes, some all-time classics like The Witcher 3: Wild Hunt would never have existed. With i",
-      "published": "Thu, 07 May 2026 12:00:00 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "经典游戏重制依赖UE5等先进引擎，反映出高端渲染引擎在泛娱乐及交互内容领域的统治力。",
-        "游戏引擎的迭代同样对底层GPU算力和渲染API提出了新要求，持续驱动图形芯片架构的演进。"
-      ],
-      "actions": [
-        "GPU及图形IP开发商应关注UE5等主流引擎的更新趋势，确保硬件驱动与架构针对新渲染特性进行优化。",
-        "游戏及元宇宙相关芯片供应链需留意内容创作端对算力需求的波动，提前规划产能与产品迭代。"
-      ],
-      "glossary": [
-        {
-          "term": "Unreal Engine 5",
-          "desc": "虚幻引擎5，Epic Games开发的最新一代高级实时3D创作工具",
-          "category": "综合"
-        }
-      ],
-      "region": "overseas",
-      "summary": "《哥特王朝1》重制版采用虚幻引擎5开发，保留了原作精髓，但其初期的游戏体验设计可能引发玩家群体的不同评价。",
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "36氪首发 | 从快手独立的AI芯片公司融资数亿元，视频压缩性能超英伟达-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 36氪首发 | 从快手独立的AI芯片公司融资数亿元，视频压缩性能超英伟达\n\n其SL20",
       "tag_category": "综合"
+    },
+    {
+      "title": "台積電強攻CoPoS！中介層是大關鍵 「這黑馬」連拉3漲停｜東森新聞",
+      "url": "https://news.ebc.net.tw/news/business/550469",
+      "description": "台積電強攻CoPoS！中介層是大關鍵 「這黑馬」連拉3漲停｜東森新聞\n\n快訊\n\n分享 分享 複製連結\n\n# 台積電強攻CoPoS！中介層是大關鍵 「這黑馬」連拉3漲停\n\n2026-05-07\n\n11:40\n\n聽新聞\n\n台積電強攻CoPoS面板級封裝技術。（示意圖／AI生成）\n\n★【理財達人秀】巨震創高 如何上車 挖大戶思維 下檔漲倍股★\n\n## 傳台積電擴廠龍潭布局CoPoS\n\n口袋證券表示，台積電於2026年初正式向竹科管理局提出龍潭科學園區第三期建廠申請，雖然管理局對細節保持低調，但市場法人普遍推估該地足以興建三座面板級封裝（CoPoS）廠房。台積電對此回應表示，「公司始終以台灣為營運重心",
+      "published": "2026-05-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "台積電強攻CoPoS！中介層是大關鍵 「這黑馬」連拉3漲停｜東森新聞\n\n快訊\n\n分享 分享 複製連結\n\n# 台積電強攻CoPoS！中介層是大關鍵 「這黑馬」連拉3漲停\n\n2026-05-07\n\n11:40\n\n聽新聞\n\n台積電強攻CoPoS面板級封裝技術。（示意圖／AI生成）\n\n★【理財達人秀】巨震創",
+      "tag_category": "综合"
+    },
+    {
+      "title": "12吋晶圓快撐不住！台積電秘密武器CoPoS曝光，AI封裝大改版「這些台廠」先受惠 | 先探投資週刊 | 財經 - 風傳媒",
+      "url": "https://www.storm.mg/article/11128592",
+      "description": "12吋晶圓快撐不住！台積電秘密武器CoPoS曝光，AI封裝大改版「這些台廠」先受惠 | 先探投資週刊 | 財經 - 風傳媒\n\n# 12吋晶圓快撐不住！台積電秘密武器CoPoS曝光，AI封裝大改版「這些台廠」先受惠\n\n2026-05-06 18:20\n\n2026-05-06 18:20\n\n隨著AI算力需求狂飆，晶片面積不斷放大，傳統12吋晶圓封裝逐步逼近極限，台積電CoPoS浮上檯面，成為產業高度關注的下一世代解決方案。魏鑫陽攝\n\n目錄顯示全部\n\n隨著AI算力需求狂飆，晶片面積不斷放大，傳統12吋晶圓封裝逐步逼近極限，台積電CoPoS浮上檯面，成為產業高度關注的下一世代解決方案。同時，這場從「圓",
+      "published": "2026-05-06T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "12吋晶圓快撐不住！台積電秘密武器CoPoS曝光，AI封裝大改版「這些台廠」先受惠 | 先探投資週刊 | 財經 - 風傳媒\n\n# 12吋晶圓快撐不住！台積電秘密武器CoPoS曝光，AI封裝大改版「這些台廠」先受惠\n\n2026-05-06 18:20\n\n2026-05-06 18:20\n\n隨著AI算力",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Capacity Cuts and Surging Demand for AI Power ICs Set Stage for Mature-Node Foundry Price Increases, Says TrendForce",
+      "url": "https://www.trendforce.com/presscenter/news/20260507-13036.html",
+      "description": "Capacity Cuts and Surging Demand for AI Power ICs Set Stage for Mature-Node Foundry Price Increases, Says TrendForce\n\n# Press Center\n\n# Capacity Cuts and Surging Demand for AI Power ICs Set Stage for Mature-Node Foundry Price Increases, Says TrendForce\n\n---\n\n7 May 2026 Semiconductors TrendForce\n\n---",
+      "published": "2026-05-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Capacity Cuts and Surging Demand for AI Power ICs Set Stage for Mature-Node Foundry Price Increases, Says TrendForce\n\n# Press Center\n\n# Capacity Cuts ",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "Mature-node foundry prices set to rise as AI demand tightens capacity",
+      "url": "https://evertiq.com/news/2026-05-07-mature-node-foundry-prices-set-to-rise-as-ai-demand-tightens-capacity",
+      "description": "Mature-node foundry prices set to rise as AI demand tightens capacity\n\nAd\n\nAd\n\nAd\n\nAd\n\n# Mature-node foundry prices set to rise as AI demand tightens capacity\n\n## A structural shift in the global mature-node foundry market is underway, according to research from TrendForce. Capacity cuts, surging de",
+      "published": "2026-05-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Mature-node foundry prices set to rise as AI demand tightens capacity\n\nAd\n\nAd\n\nAd\n\nAd\n\n# Mature-node foundry prices set to rise as AI demand tightens ",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "TSMC Stock Rallies: $56 Billion AI Expansion Crushes Apple Supply Chain Fears - Taiwan Semiconductor (NYS - Benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/05/52337222/tsmc-stock-rallies-56-billion-ai-expansion-crushes-apple-supply-chain-fears",
+      "description": "TSMC Stock Rallies: $56 Billion AI Expansion Crushes Apple Supply Chain Fears - Taiwan Semiconductor (NYS - Benzinga\n\nMy Account\n\n---\n\nLogin\n\nLoginRegister\n\nStock of the Day\n\nStreetTracks Gold Shares (GLD)\n\nIBIT Bitcoin Trust (IBIT)\n\nBest Swing Trade Stocks\n\nStock of the Day\n\nStreetTracks Gold Share",
+      "published": "2026-05-06T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "TSMC Stock Rallies: $56 Billion AI Expansion Crushes Apple Supply Chain Fears - Taiwan Semiconductor (NYS - Benzinga\n\nMy Account\n\n---\n\nLogin\n\nLoginReg",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "[News] TSMC Hints at Potential Further U.S. Expansion; Industry Sources Reportedly See Up to US$250B Investment",
+      "url": "https://www.trendforce.com/news/2026/05/07/news-tsmc-hints-at-potential-further-u-s-expansion-industry-sources-reportedly-see-up-to-us250b-investment/",
+      "description": "[News] TSMC Hints at Potential Further U.S. Expansion; Industry Sources Reportedly See Up to US$250B Investment\n\n# [News] TSMC Hints at Potential Further U.S. Expansion; Industry Sources Reportedly See Up to US$250B Investment\n\n---\n\n---\n\nAs TSMC continues expanding its U.S. footprint, comments from ",
+      "published": "2026-05-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "[News] TSMC Hints at Potential Further U.S. Expansion; Industry Sources Reportedly See Up to US$250B Investment\n\n# [News] TSMC Hints at Potential Furt",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "HONOR debuts 600 series in UK with focus on Gen AI - Tech Digest",
+      "url": "https://www.techdigest.tv/2026/05/honor-debuts-600-series-in-uk-with-focus-on-gen-ai.html",
+      "description": "HONOR debuts 600 series in UK with focus on Gen AI - Tech Digest\n\nShare\n\nChinese-brand HONOR has officially launched its 600 Series smartphone lineup in the UK, aiming to capture the “premium mid-range” market through a combination of high-resolution imaging and new generative AI tools.\n\nAt a launch",
+      "published": "2026-05-06T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "HONOR debuts 600 series in UK with focus on Gen AI - Tech Digest\n\nShare\n\nChinese-brand HONOR has officially launched its 600 Series smartphone lineup ",
+      "tag_category": "综合"
+    },
+    {
+      "title": "The Great Divide: A Tale of Three Hardware Emulation... - SemiWiki",
+      "url": "https://semiwiki.com/eda/synopsys/368861-the-great-divide-a-tale-of-three-hardware-emulation-architectures/",
+      "description": "The Great Divide: A Tale of Three Hardware Emulation... - SemiWiki\n\nRegister/ Log In\n\nRegister/ Log In\n\nGuests have limited access. Join our community today!\n\nYou are currently viewing SemiWiki as a guest which gives you limited access to the site. To view blog comments and experience other SemiWiki",
+      "published": "2026-05-06T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "The Great Divide: A Tale of Three Hardware Emulation... - SemiWiki\n\nRegister/ Log In\n\nRegister/ Log In\n\nGuests have limited access. Join our community",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Amkor Technology to double Vietnam annual output to 1.2M semiconductor items - TNGlobal",
+      "url": "https://technode.global/2026/05/06/amkor-technology-to-double-vietnam-annual-output-to-1-2m-semiconductor-items/",
+      "description": "Amkor Technology to double Vietnam annual output to 1.2M semiconductor items - TNGlobal\n\n## Amkor Technology to double Vietnam annual output to 1.2M semiconductor items\n\nMay 6, 2026• Deep Tech, News, Vietnam•\n\nThe United States’ semiconductor firm Amkor Technology plans to increase the annual output",
+      "published": "2026-05-06T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Amkor Technology to double Vietnam annual output to 1.2M semiconductor items - TNGlobal\n\n## Amkor Technology to double Vietnam annual output to 1.2M s",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Lattice Semiconductor To Acquire AMI In $1.65 Billion Deal To Expand AI Infrastructure Platform",
+      "url": "https://pulse2.com/lattice-semiconductor-to-acquire-ami-in-1-65-billion-deal-to-expand-ai-infrastructure-platform/",
+      "description": "Lattice Semiconductor To Acquire AMI In $1.65 Billion Deal To Expand AI Infrastructure Platform\n\n# Lattice Semiconductor To Acquire AMI In $1.65 Billion Deal To Expand AI Infrastructure Platform\n\nBy Amit Chowdhry • Yesterday at 2:09 PM\n\nLattice Semiconductor To Acquire AMI In $1.65 Billion Deal To E",
+      "published": "2026-05-06T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Lattice Semiconductor To Acquire AMI In $1.65 Billion Deal To Expand AI Infrastructure Platform\n\n# Lattice Semiconductor To Acquire AMI In $1.65 Billi",
+      "tag_category": "综合"
+    },
+    {
+      "title": "RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发-36氪",
+      "url": "https://www.36kr.com/p/3639229542780294",
+      "description": "RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发\n\n拥有国内RISC-V高算力芯片量产数量最多的芯片。\n\n硬氪获悉，基于RISC-V架构研发和销售下一代AI芯片的企业「进迭时空」已完成数亿元B轮融资。我们总结了本轮融资信息和该公司几大亮点：\n\n1. 融资金额及投资机构\n\n融资轮次：B轮\n\n融资规模：数亿元人民",
+      "published": "2026-05-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代R",
+      "tag_category": "EDA/IP"
     }
   ],
   "stats": {
-    "total_raw": 55,
-    "after_dedup": 53,
+    "total_raw": 164,
+    "after_dedup": 111,
     "sources": {
-      "RSS": 53
+      "Serper": 1,
+      "Exa": 42,
+      "RSS": 47,
+      "Brave": 21
     }
   }
 }
