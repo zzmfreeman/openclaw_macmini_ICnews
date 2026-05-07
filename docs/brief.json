@@ -1,7 +1,7 @@
 {
-  "version": "v20260507-0606",
-  "generatedAt": "2026-05-07T06:06:00+08:00",
-  "period": "morning",
+  "version": "v20260507-1303",
+  "generatedAt": "2026-05-07T13:03:00+08:00",
+  "period": "midday",
   "commit": "",
   "glossary_list": [
     {
@@ -18,6 +18,56 @@
       "term": "OSAT",
       "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
       "category": "封装"
+    },
+    {
+      "term": "Quantum Machines",
+      "desc": "一家提供量子控制系统和软件架构的领先以色列公司",
+      "category": "量子计算"
+    },
+    {
+      "term": "QHarbor",
+      "desc": "一家专注于量子技术相关软件与服务的公司",
+      "category": "量子计算"
+    },
+    {
+      "term": "LPDA",
+      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线结构",
+      "category": "射频/天线"
+    },
+    {
+      "term": "Full-Wave EM Simulation",
+      "desc": "全波电磁仿真，直接求解麦克斯韦方程组的完整数值方法，精度高但计算量大",
+      "category": "EDA"
+    },
+    {
+      "term": "MediaTek Genio 510",
+      "desc": "联发科面向物联网和智能视觉应用的AI处理器平台",
+      "category": "芯片设计"
+    },
+    {
+      "term": "VC EvoCam",
+      "desc": "Vision Components推出的一款尺寸仅65x40mm的微型智能工业相机",
+      "category": "终端产品"
+    },
+    {
+      "term": "InP",
+      "desc": "Indium Phosphide，磷化铟，用于制造高频射频和光通信芯片的第三代半导体材料",
+      "category": "材料"
+    },
+    {
+      "term": "GCS Holdings",
+      "desc": "一家全球领先的化合物半导体晶圆代工企业",
+      "category": "Fab/制造"
+    },
+    {
+      "term": "PCIe 7.0",
+      "desc": "PCI Express 7.0，下一代高速互连标准，双向带宽可达256 GT/s",
+      "category": "接口/IP"
+    },
+    {
+      "term": "Rambus",
+      "desc": "一家专注于高速互连和内存接口IP的半导体技术公司",
+      "category": "EDA/IP"
     }
   ],
   "topic_pulse": [
@@ -26,93 +76,94 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "社区对先进封装的讨论热度有所下降，近期缺乏重大产能或技术突破消息，情绪趋于平稳观望。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "HBM相关讨论降温，市场对AI存储的短期供需矛盾关注减弱，情绪转向长期技术演进与架构探讨。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "国内Fab话题热度回落，社区暂无新的大规模制程突破传闻，情绪相对冷静，处于常态化跟踪阶段。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "国产EDA讨论暂无新热点，社区情绪平稳，等待后续政策或产品发布刺激，关注度短暂转移。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "OSAT话题降温，传统封装与先进封装的讨论均趋于平淡，无明显情绪波动与争议点。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "管制话题热度下降，尽管InP等特定材料风险仍存，但社区整体关注焦点已转移，情绪不再高度紧张。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "NVIDIA和AI芯片讨论热度回落，缺乏新卡发布或财报刺激，社区情绪从狂热回归理性分析。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "设备材料国产化讨论降温，近期无重大国产替代突破消息，社区处于信息消化与平稳期。"
     }
   ],
   "items": [
     {
-      "title": "台積電CoPoS登板　從圓走向方的轉變3大紅利族群現身 | ETtoday財經雲 | ETtoday新聞雲",
-      "url": "https://finance.ettoday.net/news/3161268",
-      "description": "台積電CoPoS登板 從圓走向方的轉變3大紅利族群現身 | ETtoday財經雲 | ETtoday新聞雲\n\n›\n\n隨著AI算力需求狂飆，晶片面積不斷放大，傳統12吋晶圓封裝逐步逼近極限，台積電CoPoS浮上檯面，成為產業高度關注的下一世代解決方案。同時，這場從「圓」走向「方」的轉變，也將帶來製程、設備與材料體系的全面重構，相關供應鏈迎接新一波需求浪潮。\n\n文／吳旻蓁 圖／先探投資週刊提供\n\n近年來，隨著摩爾定律逐漸走到極限，半導體產業的發展重心也逐步從單純的奈米製程微縮，朝向先進封裝技術的突破。而隨著雲端服務供應商對大型語言模型的訓練需求不斷升級，ＡＩ加速器晶片的設計趨勢，不可逆地朝向整合更",
-      "published": "2026-05-06T00:00:00.000Z",
+      "title": "Quantum Machines宣布收购QHarbor",
+      "url": "https://www.newelectronics.co.uk/content/news/quantum-machines-acquires-qharbor-and-expands-presence-in-european-quantum-hub",
+      "description": "Quantum Machines announces acquisition of QHarbor - New Electronics\n\n07 May 2026\n\nMore in\n\n###### Quantum Technology\n\n###### Policy & Business\n\n###### Electronics\n\n# Quantum Machines acquires QHarbor and expands presence in European quantum hub\n\n1 min read\n\nQuantum Machines has acquired QHarbor, a s",
+      "published": "2026-05-07T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic",
-      "summary": "台積電CoPoS登板 從圓走向方的轉變3大紅利族群現身 | ETtoday財經雲 | ETtoday新聞雲\n\n›\n\n隨著AI算力需求狂飆，晶片面積不斷放大，傳統12吋晶圓封裝逐步逼近極限，台積電CoPoS浮上檯面，成為產業高度關注的下一世代解決方案。同時，這場從「圓」走向「方」的轉變，也將帶來製程、",
+      "insights": [
+        "量子计算领域的并购活动开始增加，表明行业正从早期的纯研发阶段向商业化与生态整合过渡。",
+        "软硬件控制与接口的统一是量子计算降低开发门槛、实现规模化落地的关键趋势。"
+      ],
+      "actions": [
+        "关注量子计算产业链的垂直整合动态，评估量子控制硬件与软件生态的投资及合作机会。",
+        "量子硬件初创企业应尽早适配主流控制架构，以避免在生态整合中被边缘化。"
+      ],
+      "glossary": [
+        {
+          "term": "Quantum Machines",
+          "desc": "一家提供量子控制系统和软件架构的领先以色列公司",
+          "category": "量子计算"
+        },
+        {
+          "term": "QHarbor",
+          "desc": "一家专注于量子技术相关软件与服务的公司",
+          "category": "量子计算"
+        }
+      ],
+      "region": "overseas",
+      "summary": "量子计算控制解决方案提供商Quantum Machines宣布收购QHarbor，旨在进一步整合和扩展其在量子技术领域的生态布局。",
       "tag_category": "综合"
     },
     {
-      "title": "Astera Labs Extends Leadership in Open, AI Scale-Up",
-      "url": "https://www.globenewswire.com/news-release/2026/05/05/3288226/0/en/Astera-Labs-Extends-Leadership-in-Open-AI-Scale-Up-Networking-with-New-320-Lane-Scorpio-X-Series-Smart-Fabric-Switch.html",
-      "description": "Astera Labs Extends Leadership in Open, AI Scale-Up\n\n# Astera Labs Extends Leadership in Open, AI Scale-Up Networking with New 320 Lane Scorpio X-Series Smart Fabric Switch\n\n## Now Shipping to Leading Hyperscalers, Scorpio Smart Fabric Switch Family Delivers Breakthrough Accelerator Utilization Thro",
-      "published": "2026-05-05T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "Astera Labs Extends Leadership in Open, AI Scale-Up\n\n# Astera Labs Extends Leadership in Open, AI Scale-Up Networking with New 320 Lane Scorpio X-Seri",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "Designing Broadband LPDA-Fed Reflector Antennas With Full-Wave EM Simulation",
+      "title": "使用全波电磁仿真设计宽带LPDA馈源反射面天线",
       "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
       "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
       "published": "Fri, 17 Apr 2026 14:00:50 +0000",
@@ -120,15 +171,32 @@
       "source_type": "RSS",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
+      "insights": [
+        "全波电磁仿真在天线与射频设计中日益不可或缺，能显著提升复杂宽带结构的设计精度与迭代效率。",
+        "EDA工具在射频微波领域的应用深度持续增加，高精度仿真正成为高性能通信系统设计的前置标准。"
+      ],
+      "actions": [
+        "射频与天线工程师应关注全波仿真工具的最新进展，将其引入宽带天线及复杂射频模块的设计验证流程。",
+        "系统级设备厂商在评估设计软件时，应优先考虑具备高精度全波求解能力的EDA平台。"
+      ],
+      "glossary": [
+        {
+          "term": "LPDA",
+          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线结构",
+          "category": "射频/天线"
+        },
+        {
+          "term": "Full-Wave EM Simulation",
+          "desc": "全波电磁仿真，直接求解麦克斯韦方程组的完整数值方法，精度高但计算量大",
+          "category": "EDA"
+        }
+      ],
       "region": "overseas",
-      "summary": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dip",
+      "summary": "IEEE文章发布实用指南，介绍如何利用全波电磁仿真技术设计对数周期偶极子阵列（LPDA）馈源的抛物面反射面天线。",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "MediaTek Genio 510 powers VC EvoCam for image acquisition and processing",
+      "title": "联发科Genio 510驱动VC EvoCam进行图像采集与处理",
       "url": "https://www.electronicsweekly.com/news/products/mediatek-genio-510-powers-vc-evocam-for-image-acquisition-and-processing-2026-05/",
       "description": "<p>Vision Components&#8217; VC EvoCam features a 65 x 40mm camera, the MediaTek Genio 510 processor and all other components required for image acquisition and image processing. Aimed at applications in ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/news/products/mediatek-genio-510-p",
       "published": "Wed, 06 May 2026 10:59:24 +0000",
@@ -136,214 +204,104 @@
       "source_type": "RSS",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
+      "insights": [
+        "边缘AI视觉处理芯片正加速向工业相机等垂直场景渗透，联发科Genio系列在智能物联网视觉市场取得实质进展。",
+        "高度集成化的小尺寸智能相机方案正在替代传统分立式图像采集与处理系统，降低终端开发门槛。"
+      ],
+      "actions": [
+        "嵌入式视觉与工业检测设备厂商可评估联发科Genio系列等边缘AI芯片，以提升产品的集成度与智能化水平。",
+        "芯片供应链从业者应关注智能物联网视觉细分市场的参考设计（Reference Design）需求，提供配套存储与传感器方案。"
+      ],
+      "glossary": [
+        {
+          "term": "MediaTek Genio 510",
+          "desc": "联发科面向物联网和智能视觉应用的AI处理器平台",
+          "category": "芯片设计"
+        },
+        {
+          "term": "VC EvoCam",
+          "desc": "Vision Components推出的一款尺寸仅65x40mm的微型智能工业相机",
+          "category": "终端产品"
+        }
+      ],
       "region": "overseas",
-      "summary": "<p>Vision Components&#8217; VC EvoCam features a 65 x 40mm camera, the MediaTek Genio 510 processor and all other components required for image acquis",
+      "summary": "Vision Components推出搭载联发科Genio 510处理器的VC EvoCam微型智能相机，专为嵌入式图像采集与边缘AI处理应用而设计。",
       "tag_category": "设计公司"
     },
     {
-      "title": "中國矽晶圓國產化衝七成，12 吋市場自主化進入決勝年 | 科技新報",
-      "url": "https://today.line.me/tw/v3/article/nX3BZKK",
-      "description": "中國今年將矽晶圓國產化比例提升至逾七成，成為半導體供應鏈自主化最具指標意義的一役。據知情人士透露，這項政府目標已在晶片製造商之間形成不成文的...",
-      "published": "20小时前",
-      "source": "LINE TODAY",
-      "source_type": "Serper",
-      "lang": "zh",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic",
-      "summary": "中國今年將矽晶圓國產化比例提升至逾七成，成為半導體供應鏈自主化最具指標意義的一役。據知情人士透露，這項政府目標已在晶片製造商之間形成不成文的...",
-      "tag_category": "综合"
-    },
-    {
-      "title": "玄戒O1登场，小米剑指高端-36氪",
-      "url": "https://www.36kr.com/p/3304576937518593",
-      "description": "玄戒O1登场，小米剑指高端-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 玄戒O1登场，小米剑指高端\n\n未来5年，小米研发投入预计2000亿元！\n\n小米自主设计旗舰SoC玄戒O1！预热一周，正式登场。\n\n5月22日晚7点，雷军带着小米玄戒O1如约而至，并相继发布了搭载这款芯片的旗舰手机新品小米15S Pro、小米平板 7 Ultra，以及搭载小米玄戒T1长续航4G手表芯片的小米手表S415周年纪念版。此外，曾因小米SU7事故迎来“创办以来最艰难一段时间”的雷军，也顶住压力，带来了最新小米YU7汽车。\n",
-      "published": "2026-05-05T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
+      "title": "GCS Holdings表示，尽管采取了产能和采购调整措施，InP出口管制仍是最大供应风险",
+      "url": "https://www.digitimes.com/newsshow/article.asp?datePublish=2026/05/06&pages=pd&seq=211",
+      "description": "Export controls on indium phosphide (InP) risk prolonging supply strains in the compound semiconductor market, GCS Holdings warned, affecting optical and RF component makers worldwide. The company said it has secured capacity and diversified sourcing ahead of the second half of 2026, signaling ...",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic",
-      "summary": "玄戒O1登场，小米剑指高端-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 玄戒O1登场，小米剑指高端\n\n未来5年，小米研发投入预计2000亿元！\n\n小米自主设计旗舰SoC玄戒O1！预热一周，正式登场。\n\n5",
-      "tag_category": "综合"
-    },
-    {
-      "title": "世界先進法說會｜切入CoWoS供應鏈！增矽中介層產線　曝評估擴第二廠｜壹蘋新聞網",
-      "url": "https://news.nextapple.com/finance/20260505/732F014A2AC4C212EF1E35BF0EA402CC",
-      "description": "世界先進法說會｜切入CoWoS供應鏈！增矽中介層產線 曝評估擴第二廠｜壹蘋新聞網\n\n【記者呂承哲／台北報導】晶圓代工廠世界先進（5347）今（5）日召開法說會，董事長方略指出，在AI需求帶動下，整體半導體景氣維持成長動能，並透露新加坡12吋廠已導入矽中介層（interposer）產能，切入先進封裝CoWoS供應鏈，首期產能提前售罄，正評估第二階段擴廠。\n\n方略表示，今年PC與手機需求並未顯著衰退，而是受到AI投資熱潮排擠，加上記憶體價格偏高影響終端銷售。他指出，AI需求強勁帶來產能與價格排擠效應，使部分終端需求受限，但整體半導體需求仍維持強勁，若無重大經濟變數，下半年產業可望穩健成長。\n\n世界",
-      "published": "2026-05-05T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic",
-      "summary": "世界先進法說會｜切入CoWoS供應鏈！增矽中介層產線 曝評估擴第二廠｜壹蘋新聞網\n\n【記者呂承哲／台北報導】晶圓代工廠世界先進（5347）今（5）日召開法說會，董事長方略指出，在AI需求帶動下，整體半導體景氣維持成長動能，並透露新加坡12吋廠已導入矽中介層（interposer）產能，切入先進封裝C",
+      "insights": [
+        "InP材料出口管制已成为化合物半导体供应链的核心瓶颈，光通信和5G/6G射频芯片面临长期断链风险。",
+        "单纯依靠产能转移和多元化采购难以完全化解地缘政治带来的底层材料风险，供应链本土化和替代材料研发的紧迫性进一步提升。"
+      ],
+      "actions": [
+        "光通信和射频芯片厂商需加速InP衬底的多元化采购渠道建设，并评估GaAs或其他替代材料的技术可行性。",
+        "国内化合物半导体Fab应把握海外InP供应受限的窗口期，加快国产InP衬底及外延片的验证与导入。"
+      ],
+      "glossary": [
+        {
+          "term": "InP",
+          "desc": "Indium Phosphide，磷化铟，用于制造高频射频和光通信芯片的第三代半导体材料",
+          "category": "材料"
+        },
+        {
+          "term": "GCS Holdings",
+          "desc": "一家全球领先的化合物半导体晶圆代工企业",
+          "category": "Fab/制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "GCS Holdings警告称，磷化铟(InP)的出口管制可能延长化合物半导体市场的供应紧张，严重影响全球光通信和射频器件制造商。",
       "tag_category": "Fab/制造"
     },
     {
-      "title": "TSMC Stock Holds Firm As $56 Billion AI Expansion Defies Apple Supply Chain Rumors - Taiwan Semiconductor - Benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/05/52282399/tsmc-stock-holds-firm-as-56-billion-ai-expansion-defies-apple-supply-chain-rumors",
-      "description": "TSMC Stock Holds Firm As $56 Billion AI Expansion Defies Apple Supply Chain Rumors - Taiwan Semiconductor - Benzinga\n\nMy Account\n\n---\n\nLogin\n\nLoginRegister\n\nStock of the Day\n\nStreetTracks Gold Shares (GLD)\n\nIBIT Bitcoin Trust (IBIT)\n\nBest Swing Trade Stocks\n\nStock of the Day\n\nStreetTracks Gold Share",
-      "published": "2026-05-05T00:00:00.000Z",
+      "title": "Rambus推出PCIe 7.0交换IP",
+      "url": "https://www.newelectronics.co.uk/content/news/rambus-unveils-pcie-70-switch-ip-aimed-at-scaling-ai-and-data-centre-performance",
+      "description": "Rambus introduces PCIe 7.0 switch IP - New Electronics\n\n07 May 2026\n\nMore in\n\n###### ASIC & SoC\n\n###### CPUs\n\n###### GPUs\n\n###### System Design\n\n###### Artificial Intelligence\n\n###### Electronics\n\n# Rambus unveils PCIe 7.0 switch IP aimed at scaling AI and data centre performance\n\n2 mins read\n\nRambu",
+      "published": "2026-05-07T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
+      "insights": [
+        "PCIe 7.0标准的IP提前推出，反映了AI数据中心对极高互连带宽的迫切需求，互连速率升级周期正在缩短。",
+        "高速接口IP市场的竞争加剧，IP厂商正通过提前布局新一代标准来抢占AI加速芯片架构设计的先机。"
+      ],
+      "actions": [
+        "数据中心ASIC/SoC设计团队应尽早评估PCIe 7.0等新一代互连IP，为下一代AI加速芯片的架构设计预留接口带宽。",
+        "芯片供应链从业者需关注PCIe 7.0带来的信号完整性及测试验证挑战，提前储备相关测试设备与方案。"
+      ],
+      "glossary": [
+        {
+          "term": "PCIe 7.0",
+          "desc": "PCI Express 7.0，下一代高速互连标准，双向带宽可达256 GT/s",
+          "category": "接口/IP"
+        },
+        {
+          "term": "Rambus",
+          "desc": "一家专注于高速互连和内存接口IP的半导体技术公司",
+          "category": "EDA/IP"
+        }
+      ],
       "region": "overseas",
-      "summary": "TSMC Stock Holds Firm As $56 Billion AI Expansion Defies Apple Supply Chain Rumors - Taiwan Semiconductor - Benzinga\n\nMy Account\n\n---\n\nLogin\n\nLoginReg",
-      "tag_category": "Fab/制造"
-    },
-    {
-      "title": "TSMC Stock Rallies: $56 Billion AI Expansion Crushes Apple Supply Chain Fears - Taiwan Semiconductor (NYS - Benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/05/52337222/tsmc-stock-rallies-56-billion-ai-expansion-crushes-apple-supply-chain-fears",
-      "description": "TSMC Stock Rallies: $56 Billion AI Expansion Crushes Apple Supply Chain Fears - Taiwan Semiconductor (NYS - Benzinga\n\nMy Account\n\n---\n\nLogin\n\nLoginRegister\n\nStock of the Day\n\nStreetTracks Gold Shares (GLD)\n\nIBIT Bitcoin Trust (IBIT)\n\nBest Swing Trade Stocks\n\nStock of the Day\n\nStreetTracks Gold Share",
-      "published": "2026-05-06T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "TSMC Stock Rallies: $56 Billion AI Expansion Crushes Apple Supply Chain Fears - Taiwan Semiconductor (NYS - Benzinga\n\nMy Account\n\n---\n\nLogin\n\nLoginReg",
-      "tag_category": "Fab/制造"
-    },
-    {
-      "title": "[News] TSMC Reportedly Upgrades Central Taiwan 28/22nm Fab to 4nm; Phase 2 1.4nm Trial Production May Start 3Q27",
-      "url": "https://www.trendforce.com/news/2026/05/06/news-tsmc-reportedly-upgrades-central-taiwan-2822nm-fab-to-4nm-phase-2-1-4nm-trial-production-may-begin-in-3q27/",
-      "description": "[News] TSMC Reportedly Upgrades Central Taiwan 28/22nm Fab to 4nm; Phase 2 1.4nm Trial Production May Start 3Q27\n\n# [News] TSMC Reportedly Upgrades Central Taiwan 28/22nm Fab to 4nm; Phase 2 1.4nm Trial Production May Start 3Q27\n\n---\n\n---\n\nTSMC is reportedly upgrading its Central Taiwan Science Park",
-      "published": "2026-05-06T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "[News] TSMC Reportedly Upgrades Central Taiwan 28/22nm Fab to 4nm; Phase 2 1.4nm Trial Production May Start 3Q27\n\n# [News] TSMC Reportedly Upgrades Ce",
-      "tag_category": "Fab/制造"
-    },
-    {
-      "title": "GlobalWafers outlines 2026 recovery path, highlights tightening 12-inch wafer supply",
-      "url": "https://www.digitimes.com/news/a20260506PD221/globalwafers-2026-recovery-12-inch-wafer.html",
-      "description": "GlobalWafers outlines 2026 recovery path, highlights tightening 12-inch wafer supply\n\nREALTIME NEWS\n\n# GlobalWafers outlines 2026 recovery path, highlights tightening 12-inch wafer supply\n\n, Hsinchu\n\nCredit: DIGITIMES\n\nGlobalWafers expects the current semiconductor cycle to bottom in the first quart",
-      "published": "2026-05-06T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "GlobalWafers outlines 2026 recovery path, highlights tightening 12-inch wafer supply\n\nREALTIME NEWS\n\n# GlobalWafers outlines 2026 recovery path, highl",
-      "tag_category": "综合"
-    },
-    {
-      "title": "[News] TSMC Affiliate VIS Reportedly Weighs Second 12-Inch Fab Amid Tight Capacity, Silicon Interposer Push",
-      "url": "https://www.trendforce.com/news/2026/05/06/news-tsmc-affiliate-vis-reportedly-weighs-second-12-inch-fab-amid-tight-capacity-silicon-interposer-push/",
-      "description": "[News] TSMC Affiliate VIS Reportedly Weighs Second 12-Inch Fab Amid Tight Capacity, Silicon Interposer Push\n\n# [News] TSMC Affiliate VIS Reportedly Weighs Second 12-Inch Fab Amid Tight Capacity, Silicon Interposer Push\n\n---\n\n---\n\nVanguard International Semiconductor (VIS), a TSMC affiliate, commente",
-      "published": "2026-05-06T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "[News] TSMC Affiliate VIS Reportedly Weighs Second 12-Inch Fab Amid Tight Capacity, Silicon Interposer Push\n\n# [News] TSMC Affiliate VIS Reportedly We",
-      "tag_category": "Fab/制造"
-    },
-    {
-      "title": "China targets top spot in supercomputing with fully domestic, CPU-only machine | South China Morning Post",
-      "url": "https://www.scmp.com/news/china/science/article/3352514/china-targets-top-spot-supercomputing-fully-domestic-machine",
-      "description": "China targets top spot in supercomputing with fully domestic, CPU-only machine | South China Morning Post\n\nAdvertisement\n\n# China targets top spot in supercomputing with fully domestic, CPU-only machine\n\n### Lingsheng or LineShine, built from home-grown CPUs, is designed to surpass America’s El Capi",
-      "published": "2026-05-05T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "China targets top spot in supercomputing with fully domestic, CPU-only machine | South China Morning Post\n\nAdvertisement\n\n# China targets top spot in ",
-      "tag_category": "综合"
-    },
-    {
-      "title": "Building for the Rising Complexity of Agentic Systems with Extreme Co-Design | NVIDIA Technical Blog",
-      "url": "https://developer.nvidia.com/blog/building-for-the-rising-complexity-of-agentic-systems-with-extreme-co-design/",
-      "description": "# Building for the Rising Complexity of Agentic Systems with Extreme Co-Design\n\nPublished: 2026-05-05\nAuthor: Eduardo Alvarez\n\nGenerative AI’s explosive first chapter was defined by humans sending requests and models responding. The agentic chapter is different.\n\nAgents don’t follow a pre-determined",
-      "published": "2026-05-05T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "# Building for the Rising Complexity of Agentic Systems with Extreme Co-Design\n\nPublished: 2026-05-05\nAuthor: Eduardo Alvarez\n\nGenerative AI’s explosi",
-      "tag_category": "设计公司"
-    },
-    {
-      "title": "GlobalFoundries unveils silicon photonics platform - New Electronics",
-      "url": "https://www.newelectronics.co.uk/content/news/globalfoundries-unveils-silicon-photonics-platform-to-support-co-packaged-optics",
-      "description": "GlobalFoundries unveils silicon photonics platform - New Electronics\n\n05 May 2026\n\nMore in\n\n###### Electronics\n\n###### Manufacturing\n\n###### Artificial Intelligence\n\n###### Optoelectronics\n\n###### Semiconductors\n\n# GlobalFoundries unveils silicon photonics platform to support co-packaged optics\n\n2 m",
-      "published": "2026-05-05T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "GlobalFoundries unveils silicon photonics platform - New Electronics\n\n05 May 2026\n\nMore in\n\n###### Electronics\n\n###### Manufacturing\n\n###### Artificia",
-      "tag_category": "综合"
-    },
-    {
-      "title": "RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发-36氪",
-      "url": "https://36kr.com/p/3639229542780294?f=rss",
-      "description": "RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发\n\n拥有国内RISC-V高算力芯片量产数量最多的芯片。\n\n硬氪获悉，基于RISC-V架构研发和销售下一代AI芯片的企业「进迭时空」已完成数亿元B轮融资。我们总结了本轮融资信息和该公司几大亮点：\n\n1. 融资金额及投资机构\n\n融资轮次：B轮\n\n融资规模：数亿元人民",
-      "published": "2026-05-05T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic",
-      "summary": "RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代R",
+      "summary": "Rambus宣布推出PCIe 7.0交换IP，旨在满足下一代AI和数据中心系统对极高带宽和低延迟互连的需求。",
       "tag_category": "EDA/IP"
     }
   ],
   "stats": {
-    "total_raw": 160,
-    "after_dedup": 137,
+    "total_raw": 87,
+    "after_dedup": 83,
     "sources": {
-      "Serper": 1,
-      "Exa": 38,
+      "Exa": 3,
       "RSS": 65,
-      "Brave": 33
+      "Brave": 15
     }
   }
 }

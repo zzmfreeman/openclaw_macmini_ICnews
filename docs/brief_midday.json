@@ -1,6 +1,6 @@
 {
-  "version": "v20260506-1302",
-  "generatedAt": "2026-05-06T13:02:00+08:00",
+  "version": "v20260507-1303",
+  "generatedAt": "2026-05-07T13:03:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [
@@ -20,49 +20,54 @@
       "category": "封装"
     },
     {
-      "term": "GTM",
-      "desc": "Go-To-Market，推向市场策略，指企业将产品推向目标市场并获取竞争优势的行动计划",
-      "category": "商业"
+      "term": "Quantum Machines",
+      "desc": "一家提供量子控制系统和软件架构的领先以色列公司",
+      "category": "量子计算"
+    },
+    {
+      "term": "QHarbor",
+      "desc": "一家专注于量子技术相关软件与服务的公司",
+      "category": "量子计算"
     },
     {
       "term": "LPDA",
-      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线",
-      "category": "设计"
+      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线结构",
+      "category": "射频/天线"
     },
     {
       "term": "Full-Wave EM Simulation",
-      "desc": "全波电磁仿真，直接求解麦克斯韦方程组的精确电磁场仿真方法",
+      "desc": "全波电磁仿真，直接求解麦克斯韦方程组的完整数值方法，精度高但计算量大",
       "category": "EDA"
     },
     {
-      "term": "ASIC",
-      "desc": "Application-Specific Integrated Circuit，专用集成电路",
-      "category": "设计"
+      "term": "MediaTek Genio 510",
+      "desc": "联发科面向物联网和智能视觉应用的AI处理器平台",
+      "category": "芯片设计"
     },
     {
-      "term": "Silicon IP",
-      "desc": "硅知识产权，已验证的集成电路设计模块，可用于ASIC或SoC集成",
-      "category": "IP"
+      "term": "VC EvoCam",
+      "desc": "Vision Components推出的一款尺寸仅65x40mm的微型智能工业相机",
+      "category": "终端产品"
     },
     {
-      "term": "DTCO",
-      "desc": "Design-Technology Co-Optimization，设计与工艺协同优化",
-      "category": "EDA"
+      "term": "InP",
+      "desc": "Indium Phosphide，磷化铟，用于制造高频射频和光通信芯片的第三代半导体材料",
+      "category": "材料"
     },
     {
-      "term": "STCO",
-      "desc": "System-Technology Co-Optimization，系统与工艺协同优化",
-      "category": "EDA"
+      "term": "GCS Holdings",
+      "desc": "一家全球领先的化合物半导体晶圆代工企业",
+      "category": "Fab/制造"
     },
     {
-      "term": "3D IC",
-      "desc": "三维集成电路，通过垂直堆叠芯片实现高密度互连的先进封装技术",
-      "category": "封装"
+      "term": "PCIe 7.0",
+      "desc": "PCI Express 7.0，下一代高速互连标准，双向带宽可达256 GT/s",
+      "category": "接口/IP"
     },
     {
-      "term": "U2U",
-      "desc": "User to User，西门子EDA举办的用户技术交流大会",
-      "category": "综合"
+      "term": "Rambus",
+      "desc": "一家专注于高速互连和内存接口IP的半导体技术公司",
+      "category": "EDA/IP"
     }
   ],
   "topic_pulse": [
@@ -71,89 +76,94 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区对先进封装技术的讨论热度有所回落，暂无引发广泛关注的焦点事件，情绪趋于平稳。"
+      "summary": "社区对先进封装的讨论热度有所下降，近期缺乏重大产能或技术突破消息，情绪趋于平稳观望。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题降温，市场情绪观望，缺乏新的技术突破或产能消息刺激讨论。"
+      "summary": "HBM相关讨论降温，市场对AI存储的短期供需矛盾关注减弱，情绪转向长期技术演进与架构探讨。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "关于中国晶圆厂和先进制程的讨论热度下降，社区处于信息空窗期，情绪以谨慎观望为主。"
+      "summary": "国内Fab话题热度回落，社区暂无新的大规模制程突破传闻，情绪相对冷静，处于常态化跟踪阶段。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题降温，近期缺乏重大政策或技术进展引发社区热烈讨论。"
+      "summary": "国产EDA讨论暂无新热点，社区情绪平稳，等待后续政策或产品发布刺激，关注度短暂转移。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测板块讨论热度下降，行业焦点暂时转移至上游EDA与设计端，社区情绪平淡。"
+      "summary": "OSAT话题降温，传统封装与先进封装的讨论均趋于平淡，无明显情绪波动与争议点。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制相关讨论降温，未出现新的制裁传闻引发社区焦虑，情绪有所缓和。"
+      "summary": "管制话题热度下降，尽管InP等特定材料风险仍存，但社区整体关注焦点已转移，情绪不再高度紧张。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片及英伟达话题降温，市场关注点暂时分散，缺乏爆款产品或财报信息刺激。"
+      "summary": "NVIDIA和AI芯片讨论热度回落，缺乏新卡发布或财报刺激，社区情绪从狂热回归理性分析。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化讨论降温，社区情绪平稳，等待下一次政策或验证节点驱动。"
+      "summary": "设备材料国产化讨论降温，近期无重大国产替代突破消息，社区处于信息消化与平稳期。"
     }
   ],
   "items": [
     {
-      "title": "Chameleon Semiconductor首席执行官Geoffrey Rodgers专访",
-      "url": "https://semiwiki.com/ceo-interviews/368833-ceo-interview-with-geoffrey-rodgers-of-chameleon-semiconductor/",
-      "description": "<p>Geoffrey Rodgers spent most of his career at the intersection of semiconductor technology and go-to-market execution, with a focus on scaling businesses and bringing complex solutions to market. He previously led the Analog Go-To-Market motion at Synopsys following the acquisition of Analog Desig",
-      "published": "Sun, 03 May 2026 21:00:04 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "Quantum Machines宣布收购QHarbor",
+      "url": "https://www.newelectronics.co.uk/content/news/quantum-machines-acquires-qharbor-and-expands-presence-in-european-quantum-hub",
+      "description": "Quantum Machines announces acquisition of QHarbor - New Electronics\n\n07 May 2026\n\nMore in\n\n###### Quantum Technology\n\n###### Policy & Business\n\n###### Electronics\n\n# Quantum Machines acquires QHarbor and expands presence in European quantum hub\n\n1 min read\n\nQuantum Machines has acquired QHarbor, a s",
+      "published": "2026-05-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "初创半导体公司CEO的技术与市场双重背景反映了当前EDA/IP领域对商业化执行力的极度重视。",
-        "复杂芯片解决方案的成功推向市场，不仅依赖技术突破，更需要精准的GTM策略与生态协同。"
+        "量子计算领域的并购活动开始增加，表明行业正从早期的纯研发阶段向商业化与生态整合过渡。",
+        "软硬件控制与接口的统一是量子计算降低开发门槛、实现规模化落地的关键趋势。"
       ],
       "actions": [
-        "关注Chameleon Semiconductor的产品动态，评估其IP/EDA解决方案的差异化优势及生态适配性。",
-        "芯片创业公司应加强技术与市场团队的早期协同，确保产品定义直击客户痛点并加速商业化。"
+        "关注量子计算产业链的垂直整合动态，评估量子控制硬件与软件生态的投资及合作机会。",
+        "量子硬件初创企业应尽早适配主流控制架构，以避免在生态整合中被边缘化。"
       ],
       "glossary": [
         {
-          "term": "GTM",
-          "desc": "Go-To-Market，推向市场策略，指企业将产品推向目标市场并获取竞争优势的行动计划",
-          "category": "商业"
+          "term": "Quantum Machines",
+          "desc": "一家提供量子控制系统和软件架构的领先以色列公司",
+          "category": "量子计算"
+        },
+        {
+          "term": "QHarbor",
+          "desc": "一家专注于量子技术相关软件与服务的公司",
+          "category": "量子计算"
         }
       ],
       "region": "overseas",
-      "summary": "Chameleon Semiconductor CEO分享了其在半导体技术与市场推广交叉领域的职业生涯，重点关注业务扩展和复杂解决方案的商业化落地。",
-      "tag_category": "EDA/IP"
+      "summary": "量子计算控制解决方案提供商Quantum Machines宣布收购QHarbor，旨在进一步整合和扩展其在量子技术领域的生态布局。",
+      "tag_category": "综合"
     },
     {
-      "title": "使用全波电磁仿真设计宽带LPDA馈电反射面天线",
+      "title": "使用全波电磁仿真设计宽带LPDA馈源反射面天线",
       "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
       "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
       "published": "Fri, 17 Apr 2026 14:00:50 +0000",
@@ -162,135 +172,136 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "高频宽带天线设计高度依赖精确的全波电磁仿真工具，这持续拉动EDA工具在射频微波领域的刚性需求。",
-        "LPDA馈电反射面天线在5G/6G宽带通信中具有应用潜力，相关射频IP与仿真设计需求可能增长。"
+        "全波电磁仿真在天线与射频设计中日益不可或缺，能显著提升复杂宽带结构的设计精度与迭代效率。",
+        "EDA工具在射频微波领域的应用深度持续增加，高精度仿真正成为高性能通信系统设计的前置标准。"
       ],
       "actions": [
-        "射频与微波芯片设计工程师应掌握全波电磁仿真工具的高级功能，以提升复杂天线系统的设计精度。",
-        "EDA供应商可深耕射频天线仿真细分市场，优化求解器性能与大规模并行计算能力。"
+        "射频与天线工程师应关注全波仿真工具的最新进展，将其引入宽带天线及复杂射频模块的设计验证流程。",
+        "系统级设备厂商在评估设计软件时，应优先考虑具备高精度全波求解能力的EDA平台。"
       ],
       "glossary": [
         {
           "term": "LPDA",
-          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线",
-          "category": "设计"
+          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线结构",
+          "category": "射频/天线"
         },
         {
           "term": "Full-Wave EM Simulation",
-          "desc": "全波电磁仿真，直接求解麦克斯韦方程组的精确电磁场仿真方法",
+          "desc": "全波电磁仿真，直接求解麦克斯韦方程组的完整数值方法，精度高但计算量大",
           "category": "EDA"
         }
       ],
       "region": "overseas",
-      "summary": "本文提供了一份使用全波电磁仿真设计对数周期偶极子阵列（LPDA）馈电抛物面反射面天线的实用指南。",
+      "summary": "IEEE文章发布实用指南，介绍如何利用全波电磁仿真技术设计对数周期偶极子阵列（LPDA）馈源的抛物面反射面天线。",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "SkyeChip Berhad IPO（0.88林吉特）",
-      "url": "https://azamtaifor.substack.com/p/skyechip-berhad-ipo-rm088",
-      "description": "SkyeChip buat duit melalui reka bentuk silicon IP dan custom ASIC. Mereka design “building blocks” untuk chip, kemudian customers seperti fabless semiconductor companies guna IP tersebut dalam chip mereka. Contoh: memory interface IP, Network-on-Chip IP, D2D interface IP, custom ASIC untuk ...",
+      "title": "联发科Genio 510驱动VC EvoCam进行图像采集与处理",
+      "url": "https://www.electronicsweekly.com/news/products/mediatek-genio-510-powers-vc-evocam-for-image-acquisition-and-processing-2026-05/",
+      "description": "<p>Vision Components&#8217; VC EvoCam features a 65 x 40mm camera, the MediaTek Genio 510 processor and all other components required for image acquisition and image processing. Aimed at applications in ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/news/products/mediatek-genio-510-p",
+      "published": "Wed, 06 May 2026 10:59:24 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "边缘AI视觉处理芯片正加速向工业相机等垂直场景渗透，联发科Genio系列在智能物联网视觉市场取得实质进展。",
+        "高度集成化的小尺寸智能相机方案正在替代传统分立式图像采集与处理系统，降低终端开发门槛。"
+      ],
+      "actions": [
+        "嵌入式视觉与工业检测设备厂商可评估联发科Genio系列等边缘AI芯片，以提升产品的集成度与智能化水平。",
+        "芯片供应链从业者应关注智能物联网视觉细分市场的参考设计（Reference Design）需求，提供配套存储与传感器方案。"
+      ],
+      "glossary": [
+        {
+          "term": "MediaTek Genio 510",
+          "desc": "联发科面向物联网和智能视觉应用的AI处理器平台",
+          "category": "芯片设计"
+        },
+        {
+          "term": "VC EvoCam",
+          "desc": "Vision Components推出的一款尺寸仅65x40mm的微型智能工业相机",
+          "category": "终端产品"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Vision Components推出搭载联发科Genio 510处理器的VC EvoCam微型智能相机，专为嵌入式图像采集与边缘AI处理应用而设计。",
+      "tag_category": "设计公司"
+    },
+    {
+      "title": "GCS Holdings表示，尽管采取了产能和采购调整措施，InP出口管制仍是最大供应风险",
+      "url": "https://www.digitimes.com/newsshow/article.asp?datePublish=2026/05/06&pages=pd&seq=211",
+      "description": "Export controls on indium phosphide (InP) risk prolonging supply strains in the compound semiconductor market, GCS Holdings warned, affecting optical and RF component makers worldwide. The company said it has secured capacity and diversified sourcing ahead of the second half of 2026, signaling ...",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "东南亚地区（如马来西亚）的芯片IP和ASIC设计服务正在崛起，试图在全球供应链重构中占据一席之地。",
-        "专注于特定IP模块和定制ASIC的轻资产设计服务模式在当前资本市场依然受到认可和青睐。"
+        "InP材料出口管制已成为化合物半导体供应链的核心瓶颈，光通信和5G/6G射频芯片面临长期断链风险。",
+        "单纯依靠产能转移和多元化采购难以完全化解地缘政治带来的底层材料风险，供应链本土化和替代材料研发的紧迫性进一步提升。"
       ],
       "actions": [
-        "Fabless厂商可评估东南亚本土IP供应商的性价比与交付能力，作为供应链多元化和降本的备选方案。",
-        "区域性芯片设计服务企业可借鉴SkyeChip的商业模式，聚焦特色IP开发与ASIC定制以形成差异化竞争。"
+        "光通信和射频芯片厂商需加速InP衬底的多元化采购渠道建设，并评估GaAs或其他替代材料的技术可行性。",
+        "国内化合物半导体Fab应把握海外InP供应受限的窗口期，加快国产InP衬底及外延片的验证与导入。"
       ],
       "glossary": [
         {
-          "term": "ASIC",
-          "desc": "Application-Specific Integrated Circuit，专用集成电路",
-          "category": "设计"
+          "term": "InP",
+          "desc": "Indium Phosphide，磷化铟，用于制造高频射频和光通信芯片的第三代半导体材料",
+          "category": "材料"
         },
         {
-          "term": "Silicon IP",
-          "desc": "硅知识产权，已验证的集成电路设计模块，可用于ASIC或SoC集成",
-          "category": "IP"
+          "term": "GCS Holdings",
+          "desc": "一家全球领先的化合物半导体晶圆代工企业",
+          "category": "Fab/制造"
         }
       ],
       "region": "overseas",
-      "summary": "马来西亚芯片设计公司SkyeChip通过硅IP和定制ASIC设计盈利，为Fabless公司提供芯片基础构建模块，现正进行IPO。",
-      "tag_category": "EDA/IP"
+      "summary": "GCS Holdings警告称，磷化铟(InP)的出口管制可能延长化合物半导体市场的供应紧张，严重影响全球光通信和射频器件制造商。",
+      "tag_category": "Fab/制造"
     },
     {
-      "title": "新思科技与台积电深化AI设计联盟：这意味着什么",
-      "url": "https://semiwiki.com/3dic/368839-synopsys-and-tsmc-deepen-ai-design-alliance-what-it-means/",
-      "description": "<p>A recent announcement from Synopsys signals a meaningful escalation in the race to build next-generation AI hardware. The expanded collaboration between Synopsys and TSMC brings together silicon-proven IP, AI-driven design tools, and cutting-edge manufacturing processes in a tightly integrated ef",
-      "published": "Tue, 05 May 2026 17:00:23 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "Rambus推出PCIe 7.0交换IP",
+      "url": "https://www.newelectronics.co.uk/content/news/rambus-unveils-pcie-70-switch-ip-aimed-at-scaling-ai-and-data-centre-performance",
+      "description": "Rambus introduces PCIe 7.0 switch IP - New Electronics\n\n07 May 2026\n\nMore in\n\n###### ASIC & SoC\n\n###### CPUs\n\n###### GPUs\n\n###### System Design\n\n###### Artificial Intelligence\n\n###### Electronics\n\n# Rambus unveils PCIe 7.0 switch IP aimed at scaling AI and data centre performance\n\n2 mins read\n\nRambu",
+      "published": "2026-05-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "EDA巨头与晶圆代工龙头的深度绑定是AI芯片算力突破的关键，设计与工艺协同优化（DTCO/STCO）成为核心趋势。",
-        "AI驱动的EDA工具与先进工艺的联合开发，将大幅缩短超大规模AI芯片的上市时间并突破PPA极限。"
+        "PCIe 7.0标准的IP提前推出，反映了AI数据中心对极高互连带宽的迫切需求，互连速率升级周期正在缩短。",
+        "高速接口IP市场的竞争加剧，IP厂商正通过提前布局新一代标准来抢占AI加速芯片架构设计的先机。"
       ],
       "actions": [
-        "AI芯片设计公司应优先适配新思与台积电联合推出的AI设计流程和先进节点参考流程。",
-        "密切关注AI辅助EDA工具（如DSO.ai）的进展，评估其在提升设计生产力和优化PPA方面的实际ROI。"
+        "数据中心ASIC/SoC设计团队应尽早评估PCIe 7.0等新一代互连IP，为下一代AI加速芯片的架构设计预留接口带宽。",
+        "芯片供应链从业者需关注PCIe 7.0带来的信号完整性及测试验证挑战，提前储备相关测试设备与方案。"
       ],
       "glossary": [
         {
-          "term": "DTCO",
-          "desc": "Design-Technology Co-Optimization，设计与工艺协同优化",
-          "category": "EDA"
+          "term": "PCIe 7.0",
+          "desc": "PCI Express 7.0，下一代高速互连标准，双向带宽可达256 GT/s",
+          "category": "接口/IP"
         },
         {
-          "term": "STCO",
-          "desc": "System-Technology Co-Optimization，系统与工艺协同优化",
-          "category": "EDA"
+          "term": "Rambus",
+          "desc": "一家专注于高速互连和内存接口IP的半导体技术公司",
+          "category": "EDA/IP"
         }
       ],
       "region": "overseas",
-      "summary": "新思科技与台积电扩大合作，标志着构建下一代AI硬件的竞争显著升级，双方将结合硅工艺和EDA能力加速AI芯片设计。",
+      "summary": "Rambus宣布推出PCIe 7.0交换IP，旨在满足下一代AI和数据中心系统对极高带宽和低延迟互连的需求。",
       "tag_category": "EDA/IP"
-    },
-    {
-      "title": "西门子U2U 3D IC设计与验证专题讨论",
-      "url": "https://semiwiki.com/eda/siemens-eda/369017-siemens-u2u-3d-ic-design-and-verification-panel/",
-      "description": "<p>Given the success of the event in Silicon Valley last week, I would expect the <strong><a href=\"https://events.sw.siemens.com/en-US/u2uconference/europe/\">Siemens U2U event in Munich</a></strong> to be even bigger. In my experience this has been the best user driven event in 2026 with the deepest",
-      "published": "Tue, 05 May 2026 13:00:39 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "3D IC（先进封装）的设计与验证已成为行业焦点，EDA工具在多物理场和多尺度仿真上面临新挑战。",
-        "欧洲半导体生态正在积极跟进3D IC技术，行业对跨层协同设计与验证流程标准化的需求日益迫切。"
-      ],
-      "actions": [
-        "先进封装与3D IC工程师应关注西门子在慕尼黑U2U大会上发布的设计与验证方法论及工具链更新。",
-        "企业需提前布局3D IC验证工具，解决热力学、应力和电磁协同仿真的痛点，降低设计返工风险。"
-      ],
-      "glossary": [
-        {
-          "term": "3D IC",
-          "desc": "三维集成电路，通过垂直堆叠芯片实现高密度互连的先进封装技术",
-          "category": "封装"
-        },
-        {
-          "term": "U2U",
-          "desc": "User to User，西门子EDA举办的用户技术交流大会",
-          "category": "综合"
-        }
-      ],
-      "region": "overseas",
-      "summary": "继硅谷活动取得成功后，西门子U2U大会将在慕尼黑举行，重点探讨3D IC的设计与验证挑战。",
-      "tag_category": "综合"
     }
   ],
   "stats": {
-    "total_raw": 84,
-    "after_dedup": 79,
+    "total_raw": 87,
+    "after_dedup": 83,
     "sources": {
+      "Exa": 3,
       "RSS": 65,
-      "Brave": 14
+      "Brave": 15
     }
   }
 }
