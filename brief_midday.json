@@ -1,6 +1,6 @@
 {
-  "version": "v20260507-1303",
-  "generatedAt": "2026-05-07T13:03:00+08:00",
+  "version": "v20260508-1303",
+  "generatedAt": "2026-05-08T13:03:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [
@@ -20,54 +20,54 @@
       "category": "封装"
     },
     {
-      "term": "Quantum Machines",
-      "desc": "一家提供量子控制系统和软件架构的领先以色列公司",
-      "category": "量子计算"
+      "term": "Irida Labs",
+      "desc": "一家专注于嵌入式视觉和边缘AI技术的公司，提供软硬件协同的AI解决方案",
+      "category": "EDA/IP"
     },
     {
-      "term": "QHarbor",
-      "desc": "一家专注于量子技术相关软件与服务的公司",
-      "category": "量子计算"
+      "term": "Embedded Systems",
+      "desc": "嵌入式系统，专为特定控制功能设计的计算机系统",
+      "category": "系统/应用"
     },
     {
       "term": "LPDA",
-      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线结构",
-      "category": "射频/天线"
+      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线",
+      "category": "EDA/IP"
     },
     {
       "term": "Full-Wave EM Simulation",
-      "desc": "全波电磁仿真，直接求解麦克斯韦方程组的完整数值方法，精度高但计算量大",
-      "category": "EDA"
-    },
-    {
-      "term": "MediaTek Genio 510",
-      "desc": "联发科面向物联网和智能视觉应用的AI处理器平台",
-      "category": "芯片设计"
-    },
-    {
-      "term": "VC EvoCam",
-      "desc": "Vision Components推出的一款尺寸仅65x40mm的微型智能工业相机",
-      "category": "终端产品"
-    },
-    {
-      "term": "InP",
-      "desc": "Indium Phosphide，磷化铟，用于制造高频射频和光通信芯片的第三代半导体材料",
-      "category": "材料"
-    },
-    {
-      "term": "GCS Holdings",
-      "desc": "一家全球领先的化合物半导体晶圆代工企业",
-      "category": "Fab/制造"
-    },
-    {
-      "term": "PCIe 7.0",
-      "desc": "PCI Express 7.0，下一代高速互连标准，双向带宽可达256 GT/s",
-      "category": "接口/IP"
-    },
-    {
-      "term": "Rambus",
-      "desc": "一家专注于高速互连和内存接口IP的半导体技术公司",
+      "desc": "全波电磁仿真，通过求解麦克斯韦方程组来精确模拟电磁场行为的EDA技术",
       "category": "EDA/IP"
+    },
+    {
+      "term": "IPO",
+      "desc": "Initial Public Offering，首次公开募股",
+      "category": "综合"
+    },
+    {
+      "term": "AI Infrastructure",
+      "desc": "AI基础设施，包括算力芯片、服务器、数据中心等支撑AI运行的硬件底座",
+      "category": "系统/应用"
+    },
+    {
+      "term": "Pure-play Foundry",
+      "desc": "纯代工晶圆厂，仅提供芯片制造服务而不设计自有产品的半导体厂商",
+      "category": "制造"
+    },
+    {
+      "term": "MEMS",
+      "desc": "Micro-Electro-Mechanical Systems，微机电系统，将微型传感器与执行器集成在芯片上的技术",
+      "category": "制造"
+    },
+    {
+      "term": "SPAC",
+      "desc": "Special Purpose Acquisition Company，特殊目的收购公司，专为并购上市而设立的空白支票公司",
+      "category": "综合"
+    },
+    {
+      "term": "Form S-4",
+      "desc": "美国SEC要求企业进行重大并购或合并时提交的注册声明表格",
+      "category": "综合"
     }
   ],
   "topic_pulse": [
@@ -76,94 +76,94 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区对先进封装的讨论热度有所下降，近期缺乏重大产能或技术突破消息，情绪趋于平稳观望。"
+      "summary": "近期社区对CoWoS及先进封装的讨论热度明显降温，市场从前期对产能紧缺的焦虑转向对实际扩产效果的观望。情绪趋于理性，关注点逐渐向产能释放后的价格波动与订单能见度转移。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM相关讨论降温，市场对AI存储的短期供需矛盾关注减弱，情绪转向长期技术演进与架构探讨。"
+      "summary": "HBM与AI存储话题热度回落，社区对HBM3e量产进度的讨论趋于平稳，前期炒作情绪消退。投资者与工程师正冷静评估下一代存储架构的实际部署成本与性能收益。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国内Fab话题热度回落，社区暂无新的大规模制程突破传闻，情绪相对冷静，处于常态化跟踪阶段。"
+      "summary": "中国Fab与先进制程讨论热度下降，社区暂无重大技术突破或政策变动刺激，情绪相对平淡。讨论焦点从突破性进展转向日常产线良率提升与成熟制程的稳健运营。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA讨论暂无新热点，社区情绪平稳，等待后续政策或产品发布刺激，关注度短暂转移。"
+      "summary": "国产EDA/IP话题降温，缺乏新的大规模替代事件驱动，社区情绪由激进转为务实。讨论重点集中在特定点工具的局部突破与客户验证反馈上，整体生态建设仍被视为长周期过程。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "OSAT话题降温，传统封装与先进封装的讨论均趋于平淡，无明显情绪波动与争议点。"
+      "summary": "封测OSAT热度走低，随着先进封装产能逐步缓解，社区对OSAT抢产能的讨论减少。情绪偏向谨慎，关注传统封装需求疲软与先进封装利润率分化对OSAT财报的实际影响。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "管制话题热度下降，尽管InP等特定材料风险仍存，但社区整体关注焦点已转移，情绪不再高度紧张。"
+      "summary": "出口管制与制裁话题降温，近期无新增重磅禁令出台，社区情绪暂获喘息。讨论转向对现有规则漏洞的深挖与长期合规策略的探讨，而非短期的恐慌性应对。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "NVIDIA和AI芯片讨论热度回落，缺乏新卡发布或财报刺激，社区情绪从狂热回归理性分析。"
+      "summary": "AI芯片与英伟达话题热度下降，市场对新一代GPU的预期已充分消化，缺乏短期催化剂。社区情绪从狂热回归常态，开始审视除英伟达外的ASIC定制算力路线及推理侧成本优化。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备材料国产化讨论降温，近期无重大国产替代突破消息，社区处于信息消化与平稳期。"
+      "summary": "设备与材料国产化热度回落，社区讨论进入平静期，情绪从前期的高预期回归现实。关注点聚焦于国产设备的实际产线验证数据与材料厂商的规模化供货能力。"
     }
   ],
   "items": [
     {
-      "title": "Quantum Machines宣布收购QHarbor",
-      "url": "https://www.newelectronics.co.uk/content/news/quantum-machines-acquires-qharbor-and-expands-presence-in-european-quantum-hub",
-      "description": "Quantum Machines announces acquisition of QHarbor - New Electronics\n\n07 May 2026\n\nMore in\n\n###### Quantum Technology\n\n###### Policy & Business\n\n###### Electronics\n\n# Quantum Machines acquires QHarbor and expands presence in European quantum hub\n\n1 min read\n\nQuantum Machines has acquired QHarbor, a s",
-      "published": "2026-05-07T00:00:00.000Z",
+      "title": "瑞萨电子完成对Irida Labs的收购",
+      "url": "https://www.newelectronics.co.uk/content/news/renesas-completes-irida-labs-acquisition-to-strengthen-vision-ai-capabilities",
+      "description": "Renesas completes Irida Labs acquisition - New Electronics\n\n08 May 2026\n\nMore in\n\n###### Electronics\n\n###### Policy & Business\n\n###### Artificial Intelligence\n\n###### Embedded Systems\n\n###### EDA & Design Software\n\n###### Embedded Software\n\n# Renesas completes Irida Labs acquisition to strengthen Vi",
+      "published": "2026-05-08T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "量子计算领域的并购活动开始增加，表明行业正从早期的纯研发阶段向商业化与生态整合过渡。",
-        "软硬件控制与接口的统一是量子计算降低开发门槛、实现规模化落地的关键趋势。"
+        "瑞萨通过收购补齐视觉AI IP短板，反映出MCU厂商向“处理器+AI IP”方案转型的趋势。",
+        "嵌入式视觉AI在工业和汽车领域的应用正成为半导体大厂竞争的新焦点。"
       ],
       "actions": [
-        "关注量子计算产业链的垂直整合动态，评估量子控制硬件与软件生态的投资及合作机会。",
-        "量子硬件初创企业应尽早适配主流控制架构，以避免在生态整合中被边缘化。"
+        "关注瑞萨后续基于Irida Labs IP推出的AI MCU新品，评估替代或升级现有嵌入式方案的可行性。",
+        "嵌入式视觉方案商应尽早与瑞萨建立生态合作，锁定早期开发资源。"
       ],
       "glossary": [
         {
-          "term": "Quantum Machines",
-          "desc": "一家提供量子控制系统和软件架构的领先以色列公司",
-          "category": "量子计算"
+          "term": "Irida Labs",
+          "desc": "一家专注于嵌入式视觉和边缘AI技术的公司，提供软硬件协同的AI解决方案",
+          "category": "EDA/IP"
         },
         {
-          "term": "QHarbor",
-          "desc": "一家专注于量子技术相关软件与服务的公司",
-          "category": "量子计算"
+          "term": "Embedded Systems",
+          "desc": "嵌入式系统，专为特定控制功能设计的计算机系统",
+          "category": "系统/应用"
         }
       ],
       "region": "overseas",
-      "summary": "量子计算控制解决方案提供商Quantum Machines宣布收购QHarbor，旨在进一步整合和扩展其在量子技术领域的生态布局。",
-      "tag_category": "综合"
+      "summary": "瑞萨电子正式完成对嵌入式视觉AI公司Irida Labs的收购，旨在增强其在边缘AI和嵌入式系统领域的软硬件协同设计能力。",
+      "tag_category": "EDA/IP"
     },
     {
-      "title": "使用全波电磁仿真设计宽带LPDA馈源反射面天线",
+      "title": "使用全波电磁仿真设计宽带LPDA馈电反射面天线",
       "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
       "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
       "published": "Fri, 17 Apr 2026 14:00:50 +0000",
@@ -172,136 +172,136 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "全波电磁仿真在天线与射频设计中日益不可或缺，能显著提升复杂宽带结构的设计精度与迭代效率。",
-        "EDA工具在射频微波领域的应用深度持续增加，高精度仿真正成为高性能通信系统设计的前置标准。"
+        "全波电磁仿真在复杂天线设计中的普及，标志着EDA工具在射频与微波领域的精度和效率进一步提升。",
+        "LPDA馈电反射天线设计对5G/6G基站和卫星通信硬件研发具有重要参考价值。"
       ],
       "actions": [
-        "射频与天线工程师应关注全波仿真工具的最新进展，将其引入宽带天线及复杂射频模块的设计验证流程。",
-        "系统级设备厂商在评估设计软件时，应优先考虑具备高精度全波求解能力的EDA平台。"
+        "射频工程师应评估引入先进全波EM仿真工具以缩短宽带天线开发周期。",
+        "通信设备供应链需关注高性能宽带天线的工艺实现要求，提前布局相关测试与制造能力。"
       ],
       "glossary": [
         {
           "term": "LPDA",
-          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线结构",
-          "category": "射频/天线"
+          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线",
+          "category": "EDA/IP"
         },
         {
           "term": "Full-Wave EM Simulation",
-          "desc": "全波电磁仿真，直接求解麦克斯韦方程组的完整数值方法，精度高但计算量大",
-          "category": "EDA"
+          "desc": "全波电磁仿真，通过求解麦克斯韦方程组来精确模拟电磁场行为的EDA技术",
+          "category": "EDA/IP"
         }
       ],
       "region": "overseas",
-      "summary": "IEEE文章发布实用指南，介绍如何利用全波电磁仿真技术设计对数周期偶极子阵列（LPDA）馈源的抛物面反射面天线。",
+      "summary": "IEEE发表实用指南，介绍如何利用全波电磁仿真技术设计对数周期偶极子阵列（LPDA）馈电的抛物面反射天线，以优化宽带天线性能。",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "联发科Genio 510驱动VC EvoCam进行图像采集与处理",
-      "url": "https://www.electronicsweekly.com/news/products/mediatek-genio-510-powers-vc-evocam-for-image-acquisition-and-processing-2026-05/",
-      "description": "<p>Vision Components&#8217; VC EvoCam features a 65 x 40mm camera, the MediaTek Genio 510 processor and all other components required for image acquisition and image processing. Aimed at applications in ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/news/products/mediatek-genio-510-p",
-      "published": "Wed, 06 May 2026 10:59:24 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "边缘AI视觉处理芯片正加速向工业相机等垂直场景渗透，联发科Genio系列在智能物联网视觉市场取得实质进展。",
-        "高度集成化的小尺寸智能相机方案正在替代传统分立式图像采集与处理系统，降低终端开发门槛。"
-      ],
-      "actions": [
-        "嵌入式视觉与工业检测设备厂商可评估联发科Genio系列等边缘AI芯片，以提升产品的集成度与智能化水平。",
-        "芯片供应链从业者应关注智能物联网视觉细分市场的参考设计（Reference Design）需求，提供配套存储与传感器方案。"
-      ],
-      "glossary": [
-        {
-          "term": "MediaTek Genio 510",
-          "desc": "联发科面向物联网和智能视觉应用的AI处理器平台",
-          "category": "芯片设计"
-        },
-        {
-          "term": "VC EvoCam",
-          "desc": "Vision Components推出的一款尺寸仅65x40mm的微型智能工业相机",
-          "category": "终端产品"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Vision Components推出搭载联发科Genio 510处理器的VC EvoCam微型智能相机，专为嵌入式图像采集与边缘AI处理应用而设计。",
-      "tag_category": "设计公司"
-    },
-    {
-      "title": "GCS Holdings表示，尽管采取了产能和采购调整措施，InP出口管制仍是最大供应风险",
-      "url": "https://www.digitimes.com/newsshow/article.asp?datePublish=2026/05/06&pages=pd&seq=211",
-      "description": "Export controls on indium phosphide (InP) risk prolonging supply strains in the compound semiconductor market, GCS Holdings warned, affecting optical and RF component makers worldwide. The company said it has secured capacity and diversified sourcing ahead of the second half of 2026, signaling ...",
+      "title": "2026年AI IPO浪潮：从模型到芯片",
+      "url": "https://tspasemiconductor.substack.com/p/the-2026-ai-ipo-wave-from-models",
+      "description": "Original Article By SemiVision Research [Reading time: 12mins]",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "InP材料出口管制已成为化合物半导体供应链的核心瓶颈，光通信和5G/6G射频芯片面临长期断链风险。",
-        "单纯依靠产能转移和多元化采购难以完全化解地缘政治带来的底层材料风险，供应链本土化和替代材料研发的紧迫性进一步提升。"
+        "AI产业链从软件模型向底层算力芯片的资本转移趋势明显，AI芯片初创公司正成为IPO主力。",
+        "IPO热潮将为AI芯片研发提供充裕资金，但也可能加剧算力市场的同质化竞争和产能抢夺。"
       ],
       "actions": [
-        "光通信和射频芯片厂商需加速InP衬底的多元化采购渠道建设，并评估GaAs或其他替代材料的技术可行性。",
-        "国内化合物半导体Fab应把握海外InP供应受限的窗口期，加快国产InP衬底及外延片的验证与导入。"
+        "芯片供应链企业应梳理即将IPO的AI芯片客户名单，提前锁定其量产带来的代工与封装订单。",
+        "投资者需甄别AI芯片公司的真实流片与量产能力，避免仅凭模型概念盲目追高。"
       ],
       "glossary": [
         {
-          "term": "InP",
-          "desc": "Indium Phosphide，磷化铟，用于制造高频射频和光通信芯片的第三代半导体材料",
-          "category": "材料"
+          "term": "IPO",
+          "desc": "Initial Public Offering，首次公开募股",
+          "category": "综合"
         },
         {
-          "term": "GCS Holdings",
-          "desc": "一家全球领先的化合物半导体晶圆代工企业",
-          "category": "Fab/制造"
+          "term": "AI Infrastructure",
+          "desc": "AI基础设施，包括算力芯片、服务器、数据中心等支撑AI运行的硬件底座",
+          "category": "系统/应用"
         }
       ],
       "region": "overseas",
-      "summary": "GCS Holdings警告称，磷化铟(InP)的出口管制可能延长化合物半导体市场的供应紧张，严重影响全球光通信和射频器件制造商。",
-      "tag_category": "Fab/制造"
+      "summary": "SemiVision研究指出，2026年正迎来AI领域的IPO浪潮，涵盖从大模型到AI芯片的上下游企业，资本市场对AI基础设施的关注度持续高涨。",
+      "tag_category": "EDA/IP"
     },
     {
-      "title": "Rambus推出PCIe 7.0交换IP",
-      "url": "https://www.newelectronics.co.uk/content/news/rambus-unveils-pcie-70-switch-ip-aimed-at-scaling-ai-and-data-centre-performance",
-      "description": "Rambus introduces PCIe 7.0 switch IP - New Electronics\n\n07 May 2026\n\nMore in\n\n###### ASIC & SoC\n\n###### CPUs\n\n###### GPUs\n\n###### System Design\n\n###### Artificial Intelligence\n\n###### Electronics\n\n# Rambus unveils PCIe 7.0 switch IP aimed at scaling AI and data centre performance\n\n2 mins read\n\nRambu",
-      "published": "2026-05-07T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
+      "title": "纯代工MEMS晶圆厂Silex确定斯德哥尔摩IPO发行价",
+      "url": "https://thenextweb.com/news/silex-microsystems-stockholm-ipo-mems-foundry-debut",
+      "description": "Silex Microsystems opened sharply higher on its Nasdaq Stockholm debut on 7 May 2026 after pricing at SEK 81 per share.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "PCIe 7.0标准的IP提前推出，反映了AI数据中心对极高互连带宽的迫切需求，互连速率升级周期正在缩短。",
-        "高速接口IP市场的竞争加剧，IP厂商正通过提前布局新一代标准来抢占AI加速芯片架构设计的先机。"
+        "纯代工MEMS晶圆厂成功上市并获得市场溢价，反映出专业特色工艺代工模式在资本市场获得独立认可。",
+        "随着汽车、物联网对传感器需求激增，MEMS独立代工产能正成为供应链关键瓶颈与投资热点。"
       ],
       "actions": [
-        "数据中心ASIC/SoC设计团队应尽早评估PCIe 7.0等新一代互连IP，为下一代AI加速芯片的架构设计预留接口带宽。",
-        "芯片供应链从业者需关注PCIe 7.0带来的信号完整性及测试验证挑战，提前储备相关测试设备与方案。"
+        "MEMS设计公司应关注Silex上市后的产能扩张计划，将其作为多元化代工策略的重要备选。",
+        "产业资本可借机考察其他特色工艺（如SiC、GaN）代工企业的上市潜力与投资机会。"
       ],
       "glossary": [
         {
-          "term": "PCIe 7.0",
-          "desc": "PCI Express 7.0，下一代高速互连标准，双向带宽可达256 GT/s",
-          "category": "接口/IP"
+          "term": "Pure-play Foundry",
+          "desc": "纯代工晶圆厂，仅提供芯片制造服务而不设计自有产品的半导体厂商",
+          "category": "制造"
         },
         {
-          "term": "Rambus",
-          "desc": "一家专注于高速互连和内存接口IP的半导体技术公司",
-          "category": "EDA/IP"
+          "term": "MEMS",
+          "desc": "Micro-Electro-Mechanical Systems，微机电系统，将微型传感器与执行器集成在芯片上的技术",
+          "category": "制造"
         }
       ],
       "region": "overseas",
-      "summary": "Rambus宣布推出PCIe 7.0交换IP，旨在满足下一代AI和数据中心系统对极高带宽和低延迟互连的需求。",
+      "summary": "纯代工MEMS晶圆厂Silex Microsystems在纳斯达克斯德哥尔摩首日交易大涨，此前其IPO发行价定为每股81瑞典克朗。",
       "tag_category": "EDA/IP"
+    },
+    {
+      "title": "Archimedes Tech SPAC Partners II公司宣布向SEC提交S-4表格注册声明",
+      "url": "https://www.globenewswire.com/news-release/2026/05/07/3290730/0/en/Archimedes-Tech-SPAC-Partners-II-Co-Announces-Filing-of-Registration-Statement-on-Form-S-4-with-the-SEC.html",
+      "description": "CLAYMONT, Del., May 07, 2026 (GLOBE NEWSWIRE) -- Archimedes Tech SPAC Partners II Co. (Nasdaq: ATII), a publicly traded special purpose acquisition...",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "SPAC机制仍是科技企业快速上市的重要通道，S-4注册声明的提交意味着标的并购谈判进入实质性阶段。",
+        "半导体及硬科技初创企业可能借助此类SPAC完成上市，绕过传统IPO的漫长审核。"
+      ],
+      "actions": [
+        "关注Archimedes SPAC潜在的并购标的，若涉及半导体或EDA领域，可能引发行业整合连锁反应。",
+        "初创企业在寻求退出路径时，可将SPAC作为备选方案，但需评估合并后的流动性风险。"
+      ],
+      "glossary": [
+        {
+          "term": "SPAC",
+          "desc": "Special Purpose Acquisition Company，特殊目的收购公司，专为并购上市而设立的空白支票公司",
+          "category": "综合"
+        },
+        {
+          "term": "Form S-4",
+          "desc": "美国SEC要求企业进行重大并购或合并时提交的注册声明表格",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "特殊目的收购公司（SPAC）Archimedes Tech SPAC Partners II宣布向美国证券交易委员会提交S-4表格注册声明，推进其潜在的业务合并进程。",
+      "tag_category": "综合"
     }
   ],
   "stats": {
-    "total_raw": 87,
-    "after_dedup": 83,
+    "total_raw": 94,
+    "after_dedup": 89,
     "sources": {
-      "Exa": 3,
+      "Exa": 7,
       "RSS": 65,
-      "Brave": 15
+      "Brave": 17
     }
   }
 }
