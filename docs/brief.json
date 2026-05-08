@@ -1,7 +1,7 @@
 {
-  "version": "v20260508-2003",
-  "generatedAt": "2026-05-08T20:03:00+08:00",
-  "period": "evening",
+  "version": "v20260509-0610",
+  "generatedAt": "2026-05-09T06:10:00+08:00",
+  "period": "morning",
   "commit": "",
   "glossary_list": [
     {
@@ -18,46 +18,6 @@
       "term": "OSAT",
       "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
       "category": "封装"
-    },
-    {
-      "term": "LPDA",
-      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽带天线结构",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "Full-Wave EM Simulation",
-      "desc": "全波电磁仿真，求解麦克斯韦方程组的完整电磁场仿真方法",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "Pure-play foundry",
-      "desc": "纯代工厂，仅提供晶圆代工服务而不销售自有芯片的商业模式",
-      "category": "制造"
-    },
-    {
-      "term": "MEMS",
-      "desc": "Micro-Electro-Mechanical Systems，微机电系统",
-      "category": "制造"
-    },
-    {
-      "term": "IPO",
-      "desc": "Initial Public Offering，首次公开募股",
-      "category": "综合"
-    },
-    {
-      "term": "SPAC",
-      "desc": "Special Purpose Acquisition Company，特殊目的收购公司，即空白支票公司",
-      "category": "综合"
-    },
-    {
-      "term": "SEC",
-      "desc": "Securities and Exchange Commission，美国证券交易委员会",
-      "category": "综合"
-    },
-    {
-      "term": "RISC-V",
-      "desc": "一种开源的精简指令集架构（ISA），具有模块化和可扩展特性",
-      "category": "EDA/IP"
     }
   ],
   "topic_pulse": [
@@ -66,221 +26,307 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区对先进封装的讨论热度明显降温，近期缺乏引爆性话题。市场关注点正从产能紧缺焦虑转向长期的供需平衡评估。"
+      "summary": ""
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度回落，社区情绪趋于平稳。随着供应链产能逐步释放，前期对HBM短缺的焦虑情绪已有所缓解。"
+      "summary": ""
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中国Fab与先进制程讨论热度走低，暂无重大技术突破或政策传闻刺激。社区目前处于观望状态，等待下一轮财报或地缘政治动态。"
+      "summary": ""
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题降温，近期缺乏重磅产品发布或替代突破的新闻。社区讨论重心暂时转移，等待新一轮验证进展。"
+      "summary": ""
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT讨论热度下降，行业进入传统周期性平淡期。社区对传统封装利润率压力的关注度暂时降低。"
+      "summary": ""
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度下降，近期无新规出台引发恐慌性讨论。社区情绪暂时从担忧转向常态化应对与合规调整。"
+      "summary": ""
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与英伟达话题降温，缺乏新一代产品发布或惊人财报的刺激。社区对算力军备竞赛的短期讨论趋于饱和。"
+      "summary": ""
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化讨论热度回落，暂无核心环节重大验证进展披露。社区正等待更多Fab端导入国产设备的实际数据反馈。"
+      "summary": ""
     }
   ],
   "items": [
     {
-      "title": "使用全波电磁仿真设计宽带LPDA馈电反射面天线",
-      "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
-      "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
-      "published": "Fri, 17 Apr 2026 14:00:50 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "CoWoS之后，下一代先进封装会是CoPoS？|玻璃_新浪财经_新浪网",
+      "url": "https://finance.sina.com.cn/roll/2026-05-07/doc-inhxatff4703756.shtml",
+      "description": "华泰证券报告表示，随着AI芯片面积持续扩大，传统CoWoS封装已接近物理极限。以台积电为代表的龙头厂商正加速推动CoPoS技术——用方形玻璃基板替代圆形硅中介层。玻璃基板尺寸更大、信号损耗更低、不易翘曲。台积电已启动试产线，大规模量产预计2028年，产业链迁移已实质性启动。\n\n在AI算力需求驱动下，先进封装的芯片系统面积正持续扩大。传统的CoWoS技术（圆形硅中介层）因受限于光罩尺寸与材料特性，已成为制约大尺寸AI芯片的瓶颈。\n\n华泰证券在两份研报中，清晰地揭示了一个正在发生的产业变革：台积电正在用CoPoS技术（方形玻璃基板）取代传统的CoWoS技术，以突破先进封装的横向发展极限。\n\n这一转",
+      "published": "2026-05-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "全波电磁仿真在复杂宽带天线设计中至关重要，能显著提高设计精度并缩短研发周期。",
-        "EDA工具在射频与微波器件设计领域的渗透率持续加深，推动天线与前端芯片的协同仿真需求。"
-      ],
-      "actions": [
-        "射频芯片设计团队应评估并引入具备全波电磁仿真能力的先进EDA工具，提升设计效率。",
-        "关注天线与芯片协同仿真的趋势，提前布局相关IP与设计服务能力。"
-      ],
-      "glossary": [
-        {
-          "term": "LPDA",
-          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽带天线结构",
-          "category": "EDA/IP"
-        },
-        {
-          "term": "Full-Wave EM Simulation",
-          "desc": "全波电磁仿真，求解麦克斯韦方程组的完整电磁场仿真方法",
-          "category": "EDA/IP"
-        }
-      ],
-      "region": "overseas",
-      "summary": "本文提供了一份实用指南，介绍如何使用全波电磁仿真来设计对数周期偶极子阵列（LPDA）馈电的抛物面反射面天线。",
-      "tag_category": "EDA/IP"
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "华泰证券报告表示，随着AI芯片面积持续扩大，传统CoWoS封装已接近物理极限。以台积电为代表的龙头厂商正加速推动CoPoS技术——用方形玻璃基板替代圆形硅中介层。玻璃基板尺寸更大、信号损耗更低、不易翘曲。台积电已启动试产线，大规模量产预计2028年，产业链迁移已实质性启动。\n\n在AI算力需求驱动下，",
+      "tag_category": "Fab/制造"
     },
     {
-      "title": "纯代工MEMS晶圆厂Silex确定斯德哥尔摩IPO发行价",
-      "url": "https://thenextweb.com/news/silex-microsystems-stockholm-ipo-mems-foundry-debut",
-      "description": "Silex Microsystems opened sharply higher on its Nasdaq Stockholm debut on 7 May 2026 after pricing at SEK 81 per share.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
+      "title": "Renesas Completes Acquisition of Irida Labs - Semiconductor Digest",
+      "url": "https://www.semiconductor-digest.com/renesas-completes-acquisition-of-irida-labs/",
+      "description": "Renesas Completes Acquisition of Irida Labs - Semiconductor Digest\n\nRenesas Completes Acquisition of Irida Labs\n\nRenesas Electronics Corporation, a supplier of advanced semiconductor solutions, today announced that a subsidiary of Renesas has completed the acquisition of Irida Labs, a Greece-based c",
+      "published": "2026-05-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "MEMS纯代工模式在资本市场获得认可，反映出专用工艺晶圆厂的独立价值与市场潜力。",
-        "汽车、工业与医疗等细分市场对MEMS的稳健需求，有效支撑了该类特色晶圆厂的估值溢价。"
-      ],
-      "actions": [
-        "MEMS设计公司可关注Silex产能扩充后的代工合作机会，以分散供应链集中风险。",
-        "投资者与产业界应重新评估特色工艺晶圆厂（MEMS/模拟等）在当前半导体周期下的长期投资价值。"
-      ],
-      "glossary": [
-        {
-          "term": "Pure-play foundry",
-          "desc": "纯代工厂，仅提供晶圆代工服务而不销售自有芯片的商业模式",
-          "category": "制造"
-        },
-        {
-          "term": "MEMS",
-          "desc": "Micro-Electro-Mechanical Systems，微机电系统",
-          "category": "制造"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "overseas",
-      "summary": "纯MEMS代工厂Silex Microsystems在纳斯达克斯德哥尔摩首日交易中大幅高开，发行价定为每股81瑞典克朗。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "2026年AI IPO浪潮：从模型到芯片",
-      "url": "https://tspasemiconductor.substack.com/p/the-2026-ai-ipo-wave-from-models",
-      "description": "Original Article By SemiVision Research [Reading time: 12mins]",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AI产业链的资本化正从软件层向硬件底座延伸，AI芯片初创公司迎来集中上市期。",
-        "资本市场的关注点将逐渐从模型算力需求转向芯片落地能力、量产可行性及盈利变现。"
-      ],
-      "actions": [
-        "供应链企业需提前对接即将IPO的AI芯片公司，锁定其量产带来的代工与封测订单红利。",
-        "关注AI芯片IPO公司的技术壁垒与供应链依赖度，评估合作风险与长期商业价值。"
-      ],
-      "glossary": [
-        {
-          "term": "IPO",
-          "desc": "Initial Public Offering，首次公开募股",
-          "category": "综合"
-        }
-      ],
-      "region": "overseas",
-      "summary": "SemiVision Research发布文章，深度分析了2026年从AI大模型到底层芯片领域的IPO热潮与产业趋势。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "Archimedes Tech SPAC Partners II公司宣布向SEC提交S-4表格注册声明",
-      "url": "https://www.globenewswire.com/news-release/2026/05/07/3290730/0/en/Archimedes-Tech-SPAC-Partners-II-Co-Announces-Filing-of-Registration-Statement-on-Form-S-4-with-the-SEC.html",
-      "description": "CLAYMONT, Del., May 07, 2026 (GLOBE NEWSWIRE) -- Archimedes Tech SPAC Partners II Co. (Nasdaq: ATII), a publicly traded special purpose acquisition...",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "SPAC依然是半导体及硬科技初创企业快速登陆资本市场的重要备选路径。",
-        "S-4注册声明的提交标志着标的公司的业务与财务合规性进入实质性审查阶段，并购步伐加快。"
-      ],
-      "actions": [
-        "关注该SPAC潜在的半导体并购标的，预判其技术方向与产业链整合效应。",
-        "拟被并购的半导体企业应审视自身财务与合规状况，为SPAC路径做好尽职调查准备。"
-      ],
-      "glossary": [
-        {
-          "term": "SPAC",
-          "desc": "Special Purpose Acquisition Company，特殊目的收购公司，即空白支票公司",
-          "category": "综合"
-        },
-        {
-          "term": "SEC",
-          "desc": "Securities and Exchange Commission，美国证券交易委员会",
-          "category": "综合"
-        }
-      ],
-      "region": "overseas",
-      "summary": "特殊目的收购公司（SPAC）Archimedes Tech SPAC Partners II宣布向美国证券交易委员会提交S-4表格注册声明，推进并购上市进程。",
+      "summary": "Renesas Completes Acquisition of Irida Labs - Semiconductor Digest\n\nRenesas Completes Acquisition of Irida Labs\n\nRenesas Electronics Corporation, a su",
       "tag_category": "综合"
     },
     {
-      "title": "RISC-V：从小众架构到战略基石",
-      "url": "https://semiwiki.com/artificial-intelligence/368958-risc-v-from-niche-architecture-to-strategic-foundation/",
-      "description": "<p>At the recent RISC-V Now by Andes conference, Aion Silicon’s presentation made one thing clear: RISC-V is no longer an emerging alternative but rather rapidly becoming foundational to modern silicon design. This conviction is not theoretical says Oliver Jones, CEO of Aion Silicon, who gave the ta",
-      "published": "Thu, 07 May 2026 17:00:42 +0000",
+      "title": "Molex Completes Acquisition of Teramount Ltd.",
+      "url": "https://www.prnewswire.com/news-releases/molex-completes-acquisition-of-teramount-ltd-302764874.html",
+      "description": "Molex Completes Acquisition of Teramount Ltd. Accessibility Statement Skip Navigation\n\nLISLE, Ill., May 7, 2026 /PRNewswire/ -- Molex, a global electronics leader and connectivity innovator, has completed the acquisition of Teramount Ltd., an Israel‑based developer of detachable fiber‑to‑chip connec",
+      "published": "2026-05-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Molex Completes Acquisition of Teramount Ltd. Accessibility Statement Skip Navigation\n\nLISLE, Ill., May 7, 2026 /PRNewswire/ -- Molex, a global electr",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "Pure-play MEMS foundry Silex prices Stockholm IPO",
+      "url": "https://thenextweb.com/news/silex-microsystems-stockholm-ipo-mems-foundry-debut",
+      "description": "Pure-play MEMS foundry Silex prices Stockholm IPO\n\nThe Bure Equity- and Creades-backed pure-play MEMS foundry priced at SEK 81 per share, with the offering oversubscribed several times. Cornerstone investors, including Capital Research, Fidelity, AFA, AP2, AP3, AP4, Swedbank Robur, and Carnegie, too",
+      "published": "2026-05-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Pure-play MEMS foundry Silex prices Stockholm IPO\n\nThe Bure Equity- and Creades-backed pure-play MEMS foundry priced at SEK 81 per share, with the off",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "36氪首发 ｜ 「瀚博半导体」获16亿B1、B2轮融资，主攻高端算力芯片-36氪",
+      "url": "https://36kr.com/p/1534375858851849",
+      "description": "36氪首发 ｜ 「瀚博半导体」获16亿B1、B2轮融资，主攻高端算力芯片-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 36氪首发 ｜ 「瀚博半导体」获16亿B1、B2轮融资，主攻高端算力芯片\n\n本轮融资由阿里巴巴集团，人保资本，经纬创投和五源资本联合领投。\n\n近日，36氪获悉，芯片设计独角兽企业「瀚博半导体」获16亿人民币的B-1和B-2轮融资，由阿里巴巴集团、人保资本、经纬创投和五源资本联合领投，国寿科创基金、Mirae Asset (未来资产)、基石资本、慕华科创基金（清华产业背景），以及老股东",
+      "published": "2026-05-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "36氪首发 ｜ 「瀚博半导体」获16亿B1、B2轮融资，主攻高端算力芯片-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 36氪首发 ｜ 「瀚博半导体」获16亿B1、B2轮融资，主攻高端算力芯片\n\n本轮融资由",
+      "tag_category": "设计公司"
+    },
+    {
+      "title": "CoWoS之后，下一代先进封装会是CoPoS？|先进封装|台积电|材料|玻璃基板|知名企业|载板_手机网易网",
+      "url": "https://m.163.com/dy/article/KSBPVKVF05198NMR.html",
+      "description": "CoWoS之后，下一代先进封装会是CoPoS？|先进封装|台积电|材料|玻璃基板|知名企业|载板_手机网易网\n\n在AI算力需求驱动下，先进封装的芯片系统面积正持续扩大。传统的CoWoS技术（圆形硅中介层）因受限于光罩尺寸与材料特性，已成为制约大尺寸AI芯片的瓶颈。\n\n这一转型的核心原因在于：当芯片面积扩大至9.5倍以上光罩时，传统CoWoS面临翘曲、成本高及面积受限等物理瓶颈，而CoPoS具备尺寸更大、信号损耗更低、热膨胀系数可匹配硅等优势。据Trendforce信息，台积电已于2026年Q1启动CoPoS试产线建设，计划6月完成；苹果也已开始测试三星的玻璃基板用于AI封装。产业链向CoPoS",
+      "published": "2026-05-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "CoWoS之后，下一代先进封装会是CoPoS？|先进封装|台积电|材料|玻璃基板|知名企业|载板_手机网易网\n\n在AI算力需求驱动下，先进封装的芯片系统面积正持续扩大。传统的CoWoS技术（圆形硅中介层）因受限于光罩尺寸与材料特性，已成为制约大尺寸AI芯片的瓶颈。\n\n这一转型的核心原因在于：当芯片面",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "Capacity Cuts and Surging Demand for AI Power ICs Set Stage for Mature-Node Foundry Price Increases, Says TrendForce",
+      "url": "https://www.trendforce.com/presscenter/news/20260507-13036.html",
+      "description": "Capacity Cuts and Surging Demand for AI Power ICs Set Stage for Mature-Node Foundry Price Increases, Says TrendForce\n\n# Press Center\n\n# Capacity Cuts and Surging Demand for AI Power ICs Set Stage for Mature-Node Foundry Price Increases, Says TrendForce\n\n---\n\n7 May 2026 Semiconductors TrendForce\n\n---",
+      "published": "2026-05-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Capacity Cuts and Surging Demand for AI Power ICs Set Stage for Mature-Node Foundry Price Increases, Says TrendForce\n\n# Press Center\n\n# Capacity Cuts ",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "Mature-node foundry prices set to rise as AI demand tightens capacity",
+      "url": "https://evertiq.com/news/2026-05-07-mature-node-foundry-prices-set-to-rise-as-ai-demand-tightens-capacity",
+      "description": "Mature-node foundry prices set to rise as AI demand tightens capacity\n\nAd\n\nAd\n\nAd\n\nAd\n\n# Mature-node foundry prices set to rise as AI demand tightens capacity\n\n## A structural shift in the global mature-node foundry market is underway, according to research from TrendForce. Capacity cuts, surging de",
+      "published": "2026-05-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Mature-node foundry prices set to rise as AI demand tightens capacity\n\nAd\n\nAd\n\nAd\n\nAd\n\n# Mature-node foundry prices set to rise as AI demand tightens ",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "TrendForce: TSMC's Cuts to Mature Node Capacity Could Boost UMC Orders and Trigger Price Hikes — BigGo Finance",
+      "url": "https://finance.biggo.com/news/VcWVBZ4BLfE1EzqPxLM_",
+      "description": "TrendForce: TSMC's Cuts to Mature Node Capacity Could Boost UMC Orders and Trigger Price Hikes — BigGo Finance\n\n# TrendForce: TSMC's Cuts to Mature Node Capacity Could Boost UMC Orders and Trigger Price Hikes\n\nMarket research firm TrendForce's latest report highlights a structural shift in the globa",
+      "published": "2026-05-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "TrendForce: TSMC's Cuts to Mature Node Capacity Could Boost UMC Orders and Trigger Price Hikes — BigGo Finance\n\n# TrendForce: TSMC's Cuts to Mature No",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "HNS 2026 | Huawei and Industry Organizations Launch Xinghe AI Full-Scope Security Campus Technical White Paper - ANTARA News",
+      "url": "https://en.antaranews.com/news/415048/hns-2026-huawei-and-industry-organizations-launch-xinghe-ai-full-scope-security-campus-technical-white-paper",
+      "description": "HNS 2026 | Huawei and Industry Organizations Launch Xinghe AI Full-Scope Security Campus Technical White Paper - ANTARA News\n\n# HNS 2026 | Huawei and Industry Organizations Launch Xinghe AI Full-Scope Security Campus Technical White Paper\n\n- May 8, 2026 13:30 GMT+700\n\nThe launch ceremony of the whit",
+      "published": "2026-05-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "HNS 2026 | Huawei and Industry Organizations Launch Xinghe AI Full-Scope Security Campus Technical White Paper - ANTARA News\n\n# HNS 2026 | Huawei and ",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Design Conductor 2.0: An agent builds a TurboQuant inference accelerator in 80 hours",
+      "url": "https://scirate.com/arxiv/2605.05170",
+      "description": "Design Conductor 2.0: An agent builds a TurboQuant inference accelerator in 80 hours\n\n# Design Conductor 2.0: An agent builds a TurboQuant inference accelerator in 80 hours\n\nScitedScite!\n\n@misc{2605.05170, author = {The Verkor Team and Ravi Krishna and Suresh Krishna and David Chin}, title = {{D}esi",
+      "published": "2026-05-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Design Conductor 2.0: An agent builds a TurboQuant inference accelerator in 80 hours\n\n# Design Conductor 2.0: An agent builds a TurboQuant inference a",
+      "tag_category": "综合"
+    },
+    {
+      "title": "AMD Eyes Samsung 2nm Tech As Alternative In Tackling Wafer Supply Constraints With Talks In \"Advanced Stages\"",
+      "url": "https://wccftech.com/amd-eyes-samsung-2nm-tech-as-tsmc-alternative-in-tackling-wafer-supply-constraints/",
+      "description": "AMD Eyes Samsung 2nm Tech As Alternative In Tackling Wafer Supply Constraints With Talks In \"Advanced Stages\"\n\n# AMD Eyes Samsung 2nm Tech As Alternative In Tackling Wafer Supply Constraints With Talks In “Advanced Stages”\n\nAMD is in advanced talks with Samsung to utilize the company's 2nm technolog",
+      "published": "2026-05-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "AMD Eyes Samsung 2nm Tech As Alternative In Tackling Wafer Supply Constraints With Talks In \"Advanced Stages\"\n\n# AMD Eyes Samsung 2nm Tech As Alternat",
+      "tag_category": "设计公司"
+    },
+    {
+      "title": "Quantum Motion Raises $160 Million Series C to Deliver Quantum Computing's \"Transistor Moment\" - Semiconductor Digest",
+      "url": "https://www.semiconductor-digest.com/quantum-motion-raises-160-million-series-c-to-deliver-quantum-computings-transistor-moment/",
+      "description": "Quantum Motion Raises $160 Million Series C to Deliver Quantum Computing's \"Transistor Moment\" - Semiconductor Digest\n\nQuantum Motion Raises $160 Million Series C to Deliver Quantum Computing’s “Transistor Moment”\n\nQuantum Motion, a company in silicon transistor-based quantum computing, today announ",
+      "published": "2026-05-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Quantum Motion Raises $160 Million Series C to Deliver Quantum Computing's \"Transistor Moment\" - Semiconductor Digest\n\nQuantum Motion Raises $160 Mill",
+      "tag_category": "综合"
+    },
+    {
+      "title": "CEO Interview with Dave Kelf, CEO of Breker Verification Systems",
+      "url": "https://semiwiki.com/eda/breker-verification-systems/369053-ceo-interview-with-dave-kelf-ceo-of-breker-verification-systems/",
+      "description": "<p>In the functional verification space, <a href=\"https://www.brekersystems.com/\">Breker Verification Systems</a> stands out for its vast and long-standing understanding and ability to solve many of the seemingly intractable complexity challenges, especially in the system space.</p>\n<p>I recently ta",
+      "published": "Fri, 08 May 2026 13:00:37 +0000",
       "source": "RSS",
       "source_type": "RSS",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "RISC-V架构已跨越早期探索阶段，正在AI、汽车等高增长领域确立底层架构地位。",
-        "从“替代选项”到“战略基石”的转变，意味着基于RISC-V的IP授权与SoC定制设计需求将迎来爆发。"
-      ],
-      "actions": [
-        "芯片设计公司应加速RISC-V内核的评估与产品导入，抢占非x86/ARM生态的先发优势。",
-        "IP供应商需针对AI与特定计算场景，开发高性能RISC-V定制化扩展指令集，满足差异化需求。"
-      ],
-      "glossary": [
-        {
-          "term": "RISC-V",
-          "desc": "一种开源的精简指令集架构（ISA），具有模块化和可扩展特性",
-          "category": "EDA/IP"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "overseas",
-      "summary": "在Andes举办的RISC-V会议上，Aion Silicon明确指出，RISC-V已不再是新兴替代方案，而是正迅速成为现代硅片的战略基石。",
-      "tag_category": "EDA/IP"
+      "summary": "<p>In the functional verification space, <a href=\"https://www.brekersystems.com/\">Breker Verification Systems</a> stands out for its vast and long-sta",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Bringing mathematical rigour in the world of hardware – a journey into Formal Verification",
+      "url": "https://semiwiki.com/semiconductor-services/axiomise/369080-bringing-mathematical-rigour-in-the-world-of-hardware-a-journey-into-formal-verification/",
+      "description": "<p>This interview presents the first steps of Robert Simpson (R.S.), a Maths graduate who found an unexpected, but natural home in Formal Verification (FV) at Axiomise. Drawn by a desire to apply rigorous logic to real-world problems, he shares how abstract mathematical thinking translates into ensu",
+      "published": "Thu, 07 May 2026 13:00:58 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "<p>This interview presents the first steps of Robert Simpson (R.S.), a Maths graduate who found an unexpected, but natural home in Formal Verification",
+      "tag_category": "综合"
     }
   ],
   "stats": {
-    "total_raw": 89,
-    "after_dedup": 80,
+    "total_raw": 160,
+    "after_dedup": 136,
     "sources": {
+      "Exa": 39,
       "RSS": 65,
-      "Brave": 15
+      "Brave": 32
     }
   }
 }
