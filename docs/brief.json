@@ -1,7 +1,7 @@
 {
-  "version": "v20260509-2004",
-  "generatedAt": "2026-05-09T20:04:00+08:00",
-  "period": "evening",
+  "version": "v20260510-0611",
+  "generatedAt": "2026-05-10T06:11:00+08:00",
+  "period": "morning",
   "commit": "",
   "glossary_list": [
     {
@@ -18,46 +18,6 @@
       "term": "OSAT",
       "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
       "category": "封装"
-    },
-    {
-      "term": "LPDA",
-      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线设计。",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "Full-Wave EM Simulation",
-      "desc": "全波电磁仿真，求解麦克斯韦方程组的完整形式，用于高精度分析电磁辐射与散射问题。",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "2nm",
-      "desc": "半导体制造的先进工艺节点，代表下一代极紫外（EUV）光刻与晶体管架构技术。",
-      "category": "制造"
-    },
-    {
-      "term": "Pre-IPO",
-      "desc": "上市前融资阶段，指企业在正式公开发行股票前进行的最后一轮或几轮私募融资。",
-      "category": "投资"
-    },
-    {
-      "term": "昆仑芯",
-      "desc": "百度旗下的AI芯片品牌，专注于提供云端及边缘端AI加速计算芯片。",
-      "category": "芯片"
-    },
-    {
-      "term": "IPO",
-      "desc": "Initial Public Offering，首次公开募股，企业首次向公众投资者发售股票。",
-      "category": "投资"
-    },
-    {
-      "term": "线控底盘",
-      "desc": "By-wire chassis，将传统机械控制替换为电子信号控制的底盘系统，是实现高阶自动驾驶的基础。",
-      "category": "汽车电子"
-    },
-    {
-      "term": "激光雷达",
-      "desc": "LiDAR，通过发射激光束测量距离的传感器，广泛用于自动驾驶环境的三维感知。",
-      "category": "传感器"
     }
   ],
   "topic_pulse": [
@@ -66,222 +26,339 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区对先进封装的讨论热度降温，近期缺乏重大技术突破或产能扩张消息刺激，情绪趋于平稳观望。"
+      "summary": ""
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM话题热度下降，随着前期产能分配消息消化完毕，社区暂无新的大订单或技术迭代传闻，讨论趋于沉寂。"
+      "summary": ""
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国内晶圆厂与先进制程话题降温，缺乏新的制裁动向或国产突破进展，社区情绪暂时陷入平淡期。"
+      "summary": ""
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP讨论热度回落，近期未见重磅替代案例或政策扶持新规，社区关注度短暂转移。"
+      "summary": ""
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测板块热度下降，行业进入常规运营期，缺乏突发供需波动或并购事件，社区讨论情绪偏冷。"
+      "summary": ""
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制话题降温，近期无新制裁政策落地传闻，社区紧张情绪缓解，讨论重心暂移至市场基本面。"
+      "summary": ""
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "NVIDIA与AI芯片热度回落，随着新一代产品发布期远去，社区短期缺乏刺激点，情绪从狂热回归理性。"
+      "summary": ""
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化讨论降温，未见新的大规模验证通过或国产线扩产消息，社区关注暂时处于低谷期。"
+      "summary": ""
     }
   ],
   "items": [
     {
-      "title": "使用全波电磁仿真设计宽带LPDA馈电反射面天线",
-      "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
-      "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
-      "published": "Fri, 17 Apr 2026 14:00:50 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "全波电磁仿真在复杂天线设计中至关重要，能显著提高设计精度并缩短研发周期。",
-        "随着射频与通信系统对宽带性能要求提升，EDA工具在电磁仿真领域的应用深度持续增加。"
-      ],
-      "actions": [
-        "射频与天线设计工程师应评估并引入先进的全波EM仿真工具，以提升复杂天线系统的设计效率。",
-        "EDA软件供应商需关注射频与天线设计的细分需求，优化仿真算法与计算性能。"
-      ],
-      "glossary": [
-        {
-          "term": "LPDA",
-          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线设计。",
-          "category": "EDA/IP"
-        },
-        {
-          "term": "Full-Wave EM Simulation",
-          "desc": "全波电磁仿真，求解麦克斯韦方程组的完整形式，用于高精度分析电磁辐射与散射问题。",
-          "category": "EDA/IP"
-        }
-      ],
-      "region": "overseas",
-      "summary": "本文提供了一份使用全波电磁仿真软件设计对数周期偶极子阵列馈电抛物面反射面天线的实用指南。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "高通权衡AI优势之际，苹果锁定台积电2nm供应",
-      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-qcom/qualcomm/news/qualcomm-weighs-ai-upside-as-apple-locks-in-tsmc-2nm-supply",
-      "description": "Apple has reportedly secured over 50% of TSMC’s initial 2nm chip production capacity, limiting early access for other customers such as NasdaqGS:QCOM. Qualcomm is expanding further into AI and data center chips, including a US$2.3b data center acquisition and a plan to ship custom data center ...",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "苹果凭借庞大订单量持续占据先进制程首发优势，台积电2nm初期产能稀缺性将推高代工报价。",
-        "高通等厂商在2nm排期受限的情况下，可能会更倾向于选择成熟制程或转向其他代工厂以保障AI芯片供应。"
-      ],
-      "actions": [
-        "非头部客户需尽早与台积电或其他代工厂（如三星）沟通N2/N3制程的产能排期，避免产品上市延迟。",
-        "供应链企业应关注苹果2nm芯片量产带来的上游材料与设备需求增量，提前做好产能储备。"
-      ],
-      "glossary": [
-        {
-          "term": "2nm",
-          "desc": "半导体制造的先进工艺节点，代表下一代极紫外（EUV）光刻与晶体管架构技术。",
-          "category": "制造"
-        }
-      ],
-      "region": "overseas",
-      "summary": "据报道，苹果已包下台积电超过50%的初始2nm芯片产能，限制了高通等客户早期获取2nm产能的机会，高通正进一步向AI和数据中心扩张。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "你能投资Anthropic Pre-IPO吗？你需要知道的一切",
-      "url": "https://www.fool.com/investing/2026/05/08/can-you-invest-in-anthropic-pre-ipo-everything-you/",
-      "description": "It is possible -- but you have to know where to look.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "大模型初创公司Pre-IPO投资热度不减，反映出资本市场对AI底层算力与算法创新的持续押注。",
-        "Pre-IPO份额稀缺且门槛高，通常仅面向特定机构或高净值人群，普通投资者需警惕流动性风险。"
-      ],
-      "actions": [
-        "半导体与AI产业链投资者可关注Anthropic等头部大模型公司的融资动态，预判其对高端AI算力芯片的需求拉动。",
-        "有意参与Pre-IPO的机构需尽早建立与二级市场基金或私募股权的渠道联系，获取份额信息。"
-      ],
-      "glossary": [
-        {
-          "term": "Pre-IPO",
-          "desc": "上市前融资阶段，指企业在正式公开发行股票前进行的最后一轮或几轮私募融资。",
-          "category": "投资"
-        }
-      ],
-      "region": "overseas",
-      "summary": "文章探讨了在Anthropic正式上市前如何寻找并参与其Pre-IPO投资的机会与途径。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "百度AI芯片部门昆仑芯瞄准146亿美元香港IPO",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/05/52406536/baidu-ai-chip-arm-eyes-14-6-billion-hong-kong-ipo",
-      "description": "Baidu's AI chip unit Kunlunxin targets a $14.6B Hong Kong IPO. BIDU shares jump 4.6% as China's semiconductor momentum builds.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "昆仑芯独立上市标志着国内互联网巨头加速剥离并独立运作其AI芯片业务，以获取更充裕的研发资金。",
-        "巨额IPO估值反映出市场对中国本土AI算力芯片替代潜力的极高期待，但也面临商业化落地与生态建设的考验。"
-      ],
-      "actions": [
-        "国内芯片供应链企业应积极对接昆仑芯，争取成为其IPO后产能扩张阶段的优先供应商。",
-        "投资者需审慎评估昆仑芯的财务模型，关注其芯片在百度内部及外部市场的实际出货量与市占率。"
-      ],
-      "glossary": [
-        {
-          "term": "昆仑芯",
-          "desc": "百度旗下的AI芯片品牌，专注于提供云端及边缘端AI加速计算芯片。",
-          "category": "芯片"
-        },
-        {
-          "term": "IPO",
-          "desc": "Initial Public Offering，首次公开募股，企业首次向公众投资者发售股票。",
-          "category": "投资"
-        }
-      ],
-      "region": "overseas",
-      "summary": "百度旗下AI芯片部门昆仑芯计划在香港进行146亿美元的IPO，受中国半导体发展势头推动，百度股价上涨4.6%。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日",
-      "url": "https://chejiahao.autohome.com.cn/info/25266221",
-      "description": "全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日\n\n酱酱侃车\n\n车家号·0浏览·2026-04-20 22:37 · 北京\n\n\"这不是汽车，这是具身智能机器人的开山之作。\"\n\n4月20日，理想汽车CEO李想在社交媒体上的一句话，为即将亮相的全新一代理想L9(参数|询",
-      "published": "2026-05-15T00:00:00.000Z",
+      "title": "瑞芯微推出RK3572：新一代八核AIoT平台，性能翻倍，功耗减半_新浪财经_新浪网",
+      "url": "https://finance.sina.com.cn/wm/2026-05-08/doc-inhxemqf2242631.shtml",
+      "description": "瑞芯微正式推出面向中阶AIoT市场的RK3572八核处理器，在高性能、低功耗与全栈AI能力之间实现突破性平衡，为广泛应用场景如消费类电子及智能硬件提供极具市场竞争力的算力底座。\n\nRK3572采用8nm先进制程，集成双核Cortex-A73大核与六核Cortex-A53小核的八核架构。内置4TOPS NPU，端侧AI算力强劲。图形处理方面，集成Mali-G310 GPU，支持Vulkan 1.4图形API。支持双屏异显，最高可同时驱动4K@60fps + 2K@60fps分辨率。多媒体能力方面，支持4K视频编解码，兼容主流及开源视频格式。\n\nRK3572五大核心优势\n\n1、性能翻倍，功耗减半\n",
+      "published": "2026-05-08T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "四颗激光雷达的配置表明高端智能驾驶正向多传感器冗余融合演进，激光雷达渗透率在旗舰车型中持续攀升。",
-        "全线控底盘的采用意味着车辆线束与ECU架构将大幅简化，推动车规级芯片向域控制器集中整合。"
-      ],
-      "actions": [
-        "激光雷达及车规芯片供应商需加快产能验证与交付节奏，以应对主机厂旗舰车型密集发布带来的订单峰值。",
-        "汽车电子架构供应商应关注全线控底盘带来的域控制器需求升级，提前布局多合一控制芯片方案。"
-      ],
-      "glossary": [
-        {
-          "term": "线控底盘",
-          "desc": "By-wire chassis，将传统机械控制替换为电子信号控制的底盘系统，是实现高阶自动驾驶的基础。",
-          "category": "汽车电子"
-        },
-        {
-          "term": "激光雷达",
-          "desc": "LiDAR，通过发射激光束测量距离的传感器，广泛用于自动驾驶环境的三维感知。",
-          "category": "传感器"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "domestic",
-      "summary": "理想汽车L9 Livis车型定档5月15日发布，配置全线控底盘、四颗激光雷达及420km纯电续航。",
+      "summary": "瑞芯微正式推出面向中阶AIoT市场的RK3572八核处理器，在高性能、低功耗与全栈AI能力之间实现突破性平衡，为广泛应用场景如消费类电子及智能硬件提供极具市场竞争力的算力底座。\n\nRK3572采用8nm先进制程，集成双核Cortex-A73大核与六核Cortex-A53小核的八核架构。内置4TOPS",
+      "tag_category": "设计公司"
+    },
+    {
+      "title": "Lattice Semiconductor to buy software firm AMI in $1.65B deal",
+      "url": "https://evertiq.com/news/2026-05-08-lattice-semiconductor-to-buy-software-firm-ami-in-165b-deal",
+      "description": "Lattice Semiconductor to buy software firm AMI in $1.65B deal\n\nAd\n\nAd\n\nAd\n\nAd\n\n# Lattice Semiconductor to buy software firm AMI in $1.65B deal\n\n## The acquisition brings together Lattice’s low power FPGAs with AMI’s platform firmware and infrastructure manageability solutions for cloud and AI to cre",
+      "published": "2026-05-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Lattice Semiconductor to buy software firm AMI in $1.65B deal\n\nAd\n\nAd\n\nAd\n\nAd\n\n# Lattice Semiconductor to buy software firm AMI in $1.65B deal\n\n## The",
       "tag_category": "综合"
+    },
+    {
+      "title": "Renesas Completes Acquisition of Irida Labs - Semiconductor Digest",
+      "url": "https://www.semiconductor-digest.com/renesas-completes-acquisition-of-irida-labs/",
+      "description": "Renesas Completes Acquisition of Irida Labs - Semiconductor Digest\n\nRenesas Completes Acquisition of Irida Labs\n\nRenesas Electronics Corporation, a supplier of advanced semiconductor solutions, today announced that a subsidiary of Renesas has completed the acquisition of Irida Labs, a Greece-based c",
+      "published": "2026-05-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Renesas Completes Acquisition of Irida Labs - Semiconductor Digest\n\nRenesas Completes Acquisition of Irida Labs\n\nRenesas Electronics Corporation, a su",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Robo.ai Announces Acquisition of Data Processing and Compression Technology Company Neurovia, Building Data Infrastructure for the Machine Economy",
+      "url": "https://www.prnewswire.com/news-releases/roboai-announces-acquisition-of-data-processing-and-compression-technology-company-neurovia-building-data-infrastructure-for-the-machine-economy-302766695.html",
+      "description": "Robo.ai Announces Acquisition of Data Processing and Compression Technology Company Neurovia, Building Data Infrastructure for the Machine Economy Accessibility Statement Skip Navigation\n\nDUBAI, UAE, May 8, 2026 /PRNewswire/ -- Robo.ai Inc. (NASDAQ: AIIO) (the \"Company\" or \"Robo.ai\") today announced",
+      "published": "2026-05-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Robo.ai Announces Acquisition of Data Processing and Compression Technology Company Neurovia, Building Data Infrastructure for the Machine Economy Acc",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "Molex Completes Acquisition of Teramount Ltd. - Semiconductor Digest",
+      "url": "https://www.semiconductor-digest.com/molex-completes-acquisition-of-teramount-ltd/",
+      "description": "Molex Completes Acquisition of Teramount Ltd. - Semiconductor Digest\n\nMolex Completes Acquisition of Teramount Ltd.\n\nMolex, a global electronics leader and connectivity innovator, has completed the acquisition of Teramount Ltd., an Israel‑based developer of detachable fiber‑to‑chip connectivity solu",
+      "published": "2026-05-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Molex Completes Acquisition of Teramount Ltd. - Semiconductor Digest\n\nMolex Completes Acquisition of Teramount Ltd.\n\nMolex, a global electronics leade",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "瑞芯微发布RK3572 AIoT处理器：8nm工艺、4TOPS算力、1W超低功耗_人工智能-中关村在线",
+      "url": "https://ai.zol.com.cn/1177/11773634.html",
+      "description": "瑞芯微发布RK3572 AIoT处理器：8nm工艺、4TOPS算力、1W超低功耗_人工智能-中关村在线\n\nZOL首页>人工智能频道> 正文\n\n2026年5月8日，瑞芯微正式发布面向中端AIoT应用的新一代处理器RK3572。该芯片基于8纳米先进制程工艺打造，在保持同类定位产品定位的同时，整体性能较前代提升一倍，功耗降低一半，多数典型应用场景下整机最小系统功耗可控制在1瓦以内。\n\nRK3572采用2颗Cortex-A73核心与6颗Cortex-A53核心组成的八核异构CPU架构，集成Mali-G310图形处理器，并内置算力达4TOPS的INT8专用神经网络处理单元。内存方面支持LPDDR4x及L",
+      "published": "2026-05-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "瑞芯微发布RK3572 AIoT处理器：8nm工艺、4TOPS算力、1W超低功耗_人工智能-中关村在线\n\nZOL首页>人工智能频道> 正文\n\n2026年5月8日，瑞芯微正式发布面向中端AIoT应用的新一代处理器RK3572。该芯片基于8纳米先进制程工艺打造，在保持同类定位产品定位的同时，整体性能较前",
+      "tag_category": "设计公司"
+    },
+    {
+      "title": "刚刚，追觅宣布造芯，2nm智驾芯片算力2000TOPS，手机芯片、机器人芯片都来了-36氪",
+      "url": "https://36kr.com/p/3718300916020873",
+      "description": "刚刚，追觅宣布造芯，2nm智驾芯片算力2000TOPS，手机芯片、机器人芯片都来了-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 刚刚，追觅宣布造芯，2nm智驾芯片算力2000TOPS，手机芯片、机器人芯片都来了\n\n又一款“中国芯”来了！\n\n智东西3月11日报道，刚刚，追觅发布芯片品牌“芯际穿越（NXMIND）”，包括手机芯片赤霄01、自动驾驶芯片、泛机器人芯片“苍穹”系列，并发布由200万颗算力卫星组成的太空算力中心、算力达1.5PFLOPS的个人超级AI电脑。\n\n其芯片业务聚焦AI时代的亿万级下一",
+      "published": "2026-05-09T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "刚刚，追觅宣布造芯，2nm智驾芯片算力2000TOPS，手机芯片、机器人芯片都来了-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 刚刚，追觅宣布造芯，2nm智驾芯片算力2000TOPS，手机芯片、机器人芯片",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Foundryecosystem Report: Terafab; capacity, EUV, GaN",
+      "url": "https://marklapedus.substack.com/p/foundryecosystem-report-terafab-capacity",
+      "description": "Foundryecosystem Report: Terafab; capacity, EUV, GaN\n\n# Semiecosystem\n\nSubscribeSign in\n\n# Foundryecosystem Report: Terafab; capacity, EUV, GaN\n\n### How much does a fab cost? What is the current foundry capacity situation? And why won't TSMC use high-NA EUV?\n\nMay 08, 2026\n\n12\n\n4\n\nShare\n\nBy Mark LaPe",
+      "published": "2026-05-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Foundryecosystem Report: Terafab; capacity, EUV, GaN\n\n# Semiecosystem\n\nSubscribeSign in\n\n# Foundryecosystem Report: Terafab; capacity, EUV, GaN\n\n### H",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "TSMC Squeezed: 3nm Capacity Limits and Packaging Bottleneck Choke 2026 AI Growth",
+      "url": "https://www.ainvest.com/news/tsmc-squeezed-3nm-capacity-limits-packaging-bottleneck-choke-2026-ai-growth-2605/",
+      "description": "TSMC Squeezed: 3nm Capacity Limits and Packaging Bottleneck Choke 2026 AI Growth\n\nSymbols\n\nSymbols\n\nAInvest★★★★★3-DAY FREE\n\nCatch pre-market movers with AI signals.\n\nClaim Trial\n\n# TSMC Squeezed: 3nm Capacity Limits and Packaging Bottleneck Choke 2026 AI Growth\n\nGenerated by AI Agent Cyrus Cole Revi",
+      "published": "2026-05-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "TSMC Squeezed: 3nm Capacity Limits and Packaging Bottleneck Choke 2026 AI Growth\n\nSymbols\n\nSymbols\n\nAInvest★★★★★3-DAY FREE\n\nCatch pre-market movers wi",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "TSMC April Revenue $13.05B: 17.5% YoY Growth",
+      "url": "https://www.newkerala.com/news/a/tsmc-reports-april-revenue-usd-1305-billion-marking-961.htm",
+      "description": "TSMC April Revenue $13.05B: 17.5% YoY Growth\n\n## TSMC reports April revenue of USD 13.05 billion, marking 17.5% YoY growth\n\nTSMC reports April 2026 revenue of NT$410.73 billion ($13.05B), a 17.5% increase year-on-year. First four months total NT$1.54 trillion, up 29.9%.\n\n> \"The revenue for January t",
+      "published": "2026-05-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "TSMC April Revenue $13.05B: 17.5% YoY Growth\n\n## TSMC reports April revenue of USD 13.05 billion, marking 17.5% YoY growth\n\nTSMC reports April 2026 re",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "TSMC AI Surge Powers Record Outlook Amid Geopolitical Risks",
+      "url": "https://blocknow.com/tsmc-ai-surge-powers-record-outlook-geopolitical-risks/",
+      "description": "TSMC AI Surge Powers Record Outlook Amid Geopolitical Risks\n\n### The Clean 16: Every Crypto Asset the SEC Just Declared a Commodity\n\n### U.S. Debt Hits 100% of GDP as Fiscal Crisis Warnings Intensify\n\n### IRS Refund Delays 2026: Why Refunds Are Late and “Where’s My Refund” Isn’t Updating\n\n### SEC De",
+      "published": "2026-05-09T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "TSMC AI Surge Powers Record Outlook Amid Geopolitical Risks\n\n### The Clean 16: Every Crypto Asset the SEC Just Declared a Commodity\n\n### U.S. Debt Hit",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "AI Drives Mature Process Demand Surge, 8-Inch Fab Utilization Nears 90%, UMC Benefits From Order Shifts and Price Hikes — BigGo Finance",
+      "url": "https://finance.biggo.com/news/BikFC54BNl__-4_Gn02r",
+      "description": "AI Drives Mature Process Demand Surge, 8-Inch Fab Utilization Nears 90%, UMC Benefits From Order Shifts and Price Hikes — BigGo Finance\n\n# AI Drives Mature Process Demand Surge, 8-Inch Fab Utilization Nears 90%, UMC Benefits From Order Shifts and Price Hikes\n\nThe AI boom is cascading from advanced t",
+      "published": "2026-05-09T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "AI Drives Mature Process Demand Surge, 8-Inch Fab Utilization Nears 90%, UMC Benefits From Order Shifts and Price Hikes — BigGo Finance\n\n# AI Drives M",
+      "tag_category": "Fab/制造"
+    },
+    {
+      "title": "'Wukong' of China: Fourth-Generation Quantum Computer Goes Live, Opens Global Access",
+      "url": "https://www.ibtimes.sg/wukong-china-fourth-generation-quantum-computer-goes-live-opens-global-access-86267",
+      "description": "'Wukong' of China: Fourth-Generation Quantum Computer Goes Live, Opens Global Access\n\n# 'Wukong' of China: Fourth-Generation Quantum Computer Goes Live, Opens Global Access\n\n## China's Origin Quantum launches the 180-qubit Origin Wukong-180, integrating domestically developed quantum computing with ",
+      "published": "2026-05-09T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "'Wukong' of China: Fourth-Generation Quantum Computer Goes Live, Opens Global Access\n\n# 'Wukong' of China: Fourth-Generation Quantum Computer Goes Liv",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Quantum Motion Raises $160 Million Series C to Deliver Quantum Computing’s “Transistor Moment”",
+      "url": "https://www.azoquantum.com/News.aspx?newsID=11124",
+      "description": "Quantum Motion Raises $160 Million Series C to Deliver Quantum Computing’s “Transistor Moment”\n\nPosted in | News| Quantum Computing\n\n# Quantum Motion Raises $160 Million Series C to Deliver Quantum Computing’s “Transistor Moment”\n\n- Download PDF Copy\n- View Supplier Profile\n\nReviewed\n\nQuantum Motion",
+      "published": "2026-05-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Quantum Motion Raises $160 Million Series C to Deliver Quantum Computing’s “Transistor Moment”\n\nPosted in | News| Quantum Computing\n\n# Quantum Motion ",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Robo.ai Acquires Data Processing and Compression Tech Company Neurovia for $100M",
+      "url": "https://theaiinsider.tech/2026/05/08/robo-ai-acquires-data-processing-and-compression-tech-company-neurovia-for-100m/",
+      "description": "Robo.ai Acquires Data Processing and Compression Tech Company Neurovia for $100M\n\n- Newsletter\n- AI, AI Funding & Investment, Robotics\n\n# Robo.ai Acquires Data Processing and Compression Tech Company Neurovia for $100M\n\n- Greg Bock\n- May 8, 2026\n- 7 min read\n\nInsider Brief\n\n- Robo.ai announced an ag",
+      "published": "2026-05-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Robo.ai Acquires Data Processing and Compression Tech Company Neurovia for $100M\n\n- Newsletter\n- AI, AI Funding & Investment, Robotics\n\n# Robo.ai Acqu",
+      "tag_category": "综合"
+    },
+    {
+      "title": "紫光展锐发布端边 AI 芯片平台 N9 系列：4nm 工艺，Arm v9.2 CPU|紫光|AI|展锐_新浪科技_新浪网",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-05-08/doc-inhxfanc4128445.shtml",
+      "description": "紫光展锐发布端边 AI 芯片平台 N9 系列：4nm 工艺，Arm v9.2 CPU|紫光|AI|展锐_新浪科技_新浪网\n\n移动客户端\n\n登录\n\n新浪科技> 数码 > 正文\n\n# 紫光展锐发布端边 AI 芯片平台 N9 系列：4nm 工艺，Arm v9.2 CPU\n\n紫光展锐发布端边 AI 芯片平台 N9 系列：4nm 工艺，Arm v9.2 CPU\n\nIT之家 5 月 8 日消息，紫光展锐 (UNISOC) 在昨日举行的 2026 新紫光集团创新峰会上发布了端边 AI 芯片平台 N9 系列。其采用 4nm 工艺和 Arm v9.2 CPU 架构，以“归一 + 灵活”为设计理念，可在不同场景拓",
+      "published": "2026-05-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "紫光展锐发布端边 AI 芯片平台 N9 系列：4nm 工艺，Arm v9.2 CPU|紫光|AI|展锐_新浪科技_新浪网\n\n移动客户端\n\n登录\n\n新浪科技> 数码 > 正文\n\n# 紫光展锐发布端边 AI 芯片平台 N9 系列：4nm 工艺，Arm v9.2 CPU\n\n紫光展锐发布端边 AI 芯片平台",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "以RISC-V重构通用AI算力底座，奕行智能获新一轮战略融资_新浪财经_新浪网",
+      "url": "https://finance.sina.com.cn/jjxw/2026-05-08/doc-inhxemqf2269810.shtml",
+      "description": "界面新闻记者 | 徐美慧\n\n界面新闻编辑 | 文姝琪\n\n5月8日，国内RISC-V AI算力芯片企业奕行智能官宣获得中国移动链长基金数亿元的战略投资。而就在半个月前的4月22日，该公司刚刚宣布完成15亿元人民币的B轮融资。\n\n密集获得资本加持的背后，是业界对新一代算力架构的迫切需求，以及企业自身商业化进程的提速。\n\n界面新闻记者获悉，奕行智能的核心产品——国内首款RISC-V AI算力芯片Epoch目前已实现规模化量产，而最新一轮资金也将重点用于Epoch系列产品量产交付与商业化加速、下一代产品研发等。\n\n奕行智能成立于2022年，创始人兼CEO刘珲此前在接受界面新闻等媒体专访时指出，当前的算",
+      "published": "2026-05-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "界面新闻记者 | 徐美慧\n\n界面新闻编辑 | 文姝琪\n\n5月8日，国内RISC-V AI算力芯片企业奕行智能官宣获得中国移动链长基金数亿元的战略投资。而就在半个月前的4月22日，该公司刚刚宣布完成15亿元人民币的B轮融资。\n\n密集获得资本加持的背后，是业界对新一代算力架构的迫切需求，以及企业自身商业",
+      "tag_category": "EDA/IP"
     }
   ],
   "stats": {
-    "total_raw": 85,
-    "after_dedup": 77,
+    "total_raw": 154,
+    "after_dedup": 127,
     "sources": {
-      "Exa": 1,
+      "Exa": 34,
       "RSS": 65,
-      "Brave": 11
+      "Brave": 28
     }
   }
 }
