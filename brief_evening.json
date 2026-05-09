@@ -1,6 +1,6 @@
 {
-  "version": "v20260508-2003",
-  "generatedAt": "2026-05-08T20:03:00+08:00",
+  "version": "v20260509-2004",
+  "generatedAt": "2026-05-09T20:04:00+08:00",
   "period": "evening",
   "commit": "",
   "glossary_list": [
@@ -21,43 +21,43 @@
     },
     {
       "term": "LPDA",
-      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽带天线结构",
+      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线设计。",
       "category": "EDA/IP"
     },
     {
       "term": "Full-Wave EM Simulation",
-      "desc": "全波电磁仿真，求解麦克斯韦方程组的完整电磁场仿真方法",
+      "desc": "全波电磁仿真，求解麦克斯韦方程组的完整形式，用于高精度分析电磁辐射与散射问题。",
       "category": "EDA/IP"
     },
     {
-      "term": "Pure-play foundry",
-      "desc": "纯代工厂，仅提供晶圆代工服务而不销售自有芯片的商业模式",
+      "term": "2nm",
+      "desc": "半导体制造的先进工艺节点，代表下一代极紫外（EUV）光刻与晶体管架构技术。",
       "category": "制造"
     },
     {
-      "term": "MEMS",
-      "desc": "Micro-Electro-Mechanical Systems，微机电系统",
-      "category": "制造"
+      "term": "Pre-IPO",
+      "desc": "上市前融资阶段，指企业在正式公开发行股票前进行的最后一轮或几轮私募融资。",
+      "category": "投资"
+    },
+    {
+      "term": "昆仑芯",
+      "desc": "百度旗下的AI芯片品牌，专注于提供云端及边缘端AI加速计算芯片。",
+      "category": "芯片"
     },
     {
       "term": "IPO",
-      "desc": "Initial Public Offering，首次公开募股",
-      "category": "综合"
+      "desc": "Initial Public Offering，首次公开募股，企业首次向公众投资者发售股票。",
+      "category": "投资"
     },
     {
-      "term": "SPAC",
-      "desc": "Special Purpose Acquisition Company，特殊目的收购公司，即空白支票公司",
-      "category": "综合"
+      "term": "线控底盘",
+      "desc": "By-wire chassis，将传统机械控制替换为电子信号控制的底盘系统，是实现高阶自动驾驶的基础。",
+      "category": "汽车电子"
     },
     {
-      "term": "SEC",
-      "desc": "Securities and Exchange Commission，美国证券交易委员会",
-      "category": "综合"
-    },
-    {
-      "term": "RISC-V",
-      "desc": "一种开源的精简指令集架构（ISA），具有模块化和可扩展特性",
-      "category": "EDA/IP"
+      "term": "激光雷达",
+      "desc": "LiDAR，通过发射激光束测量距离的传感器，广泛用于自动驾驶环境的三维感知。",
+      "category": "传感器"
     }
   ],
   "topic_pulse": [
@@ -66,56 +66,56 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区对先进封装的讨论热度明显降温，近期缺乏引爆性话题。市场关注点正从产能紧缺焦虑转向长期的供需平衡评估。"
+      "summary": "社区对先进封装的讨论热度降温，近期缺乏重大技术突破或产能扩张消息刺激，情绪趋于平稳观望。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度回落，社区情绪趋于平稳。随着供应链产能逐步释放，前期对HBM短缺的焦虑情绪已有所缓解。"
+      "summary": "HBM话题热度下降，随着前期产能分配消息消化完毕，社区暂无新的大订单或技术迭代传闻，讨论趋于沉寂。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中国Fab与先进制程讨论热度走低，暂无重大技术突破或政策传闻刺激。社区目前处于观望状态，等待下一轮财报或地缘政治动态。"
+      "summary": "国内晶圆厂与先进制程话题降温，缺乏新的制裁动向或国产突破进展，社区情绪暂时陷入平淡期。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题降温，近期缺乏重磅产品发布或替代突破的新闻。社区讨论重心暂时转移，等待新一轮验证进展。"
+      "summary": "国产EDA/IP讨论热度回落，近期未见重磅替代案例或政策扶持新规，社区关注度短暂转移。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT讨论热度下降，行业进入传统周期性平淡期。社区对传统封装利润率压力的关注度暂时降低。"
+      "summary": "封测板块热度下降，行业进入常规运营期，缺乏突发供需波动或并购事件，社区讨论情绪偏冷。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度下降，近期无新规出台引发恐慌性讨论。社区情绪暂时从担忧转向常态化应对与合规调整。"
+      "summary": "出口管制话题降温，近期无新制裁政策落地传闻，社区紧张情绪缓解，讨论重心暂移至市场基本面。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与英伟达话题降温，缺乏新一代产品发布或惊人财报的刺激。社区对算力军备竞赛的短期讨论趋于饱和。"
+      "summary": "NVIDIA与AI芯片热度回落，随着新一代产品发布期远去，社区短期缺乏刺激点，情绪从狂热回归理性。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化讨论热度回落，暂无核心环节重大验证进展披露。社区正等待更多Fab端导入国产设备的实际数据反馈。"
+      "summary": "设备与材料国产化讨论降温，未见新的大规模验证通过或国产线扩产消息，社区关注暂时处于低谷期。"
     }
   ],
   "items": [
@@ -129,158 +129,159 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "全波电磁仿真在复杂宽带天线设计中至关重要，能显著提高设计精度并缩短研发周期。",
-        "EDA工具在射频与微波器件设计领域的渗透率持续加深，推动天线与前端芯片的协同仿真需求。"
+        "全波电磁仿真在复杂天线设计中至关重要，能显著提高设计精度并缩短研发周期。",
+        "随着射频与通信系统对宽带性能要求提升，EDA工具在电磁仿真领域的应用深度持续增加。"
       ],
       "actions": [
-        "射频芯片设计团队应评估并引入具备全波电磁仿真能力的先进EDA工具，提升设计效率。",
-        "关注天线与芯片协同仿真的趋势，提前布局相关IP与设计服务能力。"
+        "射频与天线设计工程师应评估并引入先进的全波EM仿真工具，以提升复杂天线系统的设计效率。",
+        "EDA软件供应商需关注射频与天线设计的细分需求，优化仿真算法与计算性能。"
       ],
       "glossary": [
         {
           "term": "LPDA",
-          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽带天线结构",
+          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线设计。",
           "category": "EDA/IP"
         },
         {
           "term": "Full-Wave EM Simulation",
-          "desc": "全波电磁仿真，求解麦克斯韦方程组的完整电磁场仿真方法",
+          "desc": "全波电磁仿真，求解麦克斯韦方程组的完整形式，用于高精度分析电磁辐射与散射问题。",
           "category": "EDA/IP"
         }
       ],
       "region": "overseas",
-      "summary": "本文提供了一份实用指南，介绍如何使用全波电磁仿真来设计对数周期偶极子阵列（LPDA）馈电的抛物面反射面天线。",
+      "summary": "本文提供了一份使用全波电磁仿真软件设计对数周期偶极子阵列馈电抛物面反射面天线的实用指南。",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "纯代工MEMS晶圆厂Silex确定斯德哥尔摩IPO发行价",
-      "url": "https://thenextweb.com/news/silex-microsystems-stockholm-ipo-mems-foundry-debut",
-      "description": "Silex Microsystems opened sharply higher on its Nasdaq Stockholm debut on 7 May 2026 after pricing at SEK 81 per share.",
+      "title": "高通权衡AI优势之际，苹果锁定台积电2nm供应",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-qcom/qualcomm/news/qualcomm-weighs-ai-upside-as-apple-locks-in-tsmc-2nm-supply",
+      "description": "Apple has reportedly secured over 50% of TSMC’s initial 2nm chip production capacity, limiting early access for other customers such as NasdaqGS:QCOM. Qualcomm is expanding further into AI and data center chips, including a US$2.3b data center acquisition and a plan to ship custom data center ...",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "MEMS纯代工模式在资本市场获得认可，反映出专用工艺晶圆厂的独立价值与市场潜力。",
-        "汽车、工业与医疗等细分市场对MEMS的稳健需求，有效支撑了该类特色晶圆厂的估值溢价。"
+        "苹果凭借庞大订单量持续占据先进制程首发优势，台积电2nm初期产能稀缺性将推高代工报价。",
+        "高通等厂商在2nm排期受限的情况下，可能会更倾向于选择成熟制程或转向其他代工厂以保障AI芯片供应。"
       ],
       "actions": [
-        "MEMS设计公司可关注Silex产能扩充后的代工合作机会，以分散供应链集中风险。",
-        "投资者与产业界应重新评估特色工艺晶圆厂（MEMS/模拟等）在当前半导体周期下的长期投资价值。"
+        "非头部客户需尽早与台积电或其他代工厂（如三星）沟通N2/N3制程的产能排期，避免产品上市延迟。",
+        "供应链企业应关注苹果2nm芯片量产带来的上游材料与设备需求增量，提前做好产能储备。"
       ],
       "glossary": [
         {
-          "term": "Pure-play foundry",
-          "desc": "纯代工厂，仅提供晶圆代工服务而不销售自有芯片的商业模式",
-          "category": "制造"
-        },
-        {
-          "term": "MEMS",
-          "desc": "Micro-Electro-Mechanical Systems，微机电系统",
+          "term": "2nm",
+          "desc": "半导体制造的先进工艺节点，代表下一代极紫外（EUV）光刻与晶体管架构技术。",
           "category": "制造"
         }
       ],
       "region": "overseas",
-      "summary": "纯MEMS代工厂Silex Microsystems在纳斯达克斯德哥尔摩首日交易中大幅高开，发行价定为每股81瑞典克朗。",
+      "summary": "据报道，苹果已包下台积电超过50%的初始2nm芯片产能，限制了高通等客户早期获取2nm产能的机会，高通正进一步向AI和数据中心扩张。",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "2026年AI IPO浪潮：从模型到芯片",
-      "url": "https://tspasemiconductor.substack.com/p/the-2026-ai-ipo-wave-from-models",
-      "description": "Original Article By SemiVision Research [Reading time: 12mins]",
+      "title": "你能投资Anthropic Pre-IPO吗？你需要知道的一切",
+      "url": "https://www.fool.com/investing/2026/05/08/can-you-invest-in-anthropic-pre-ipo-everything-you/",
+      "description": "It is possible -- but you have to know where to look.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "AI产业链的资本化正从软件层向硬件底座延伸，AI芯片初创公司迎来集中上市期。",
-        "资本市场的关注点将逐渐从模型算力需求转向芯片落地能力、量产可行性及盈利变现。"
+        "大模型初创公司Pre-IPO投资热度不减，反映出资本市场对AI底层算力与算法创新的持续押注。",
+        "Pre-IPO份额稀缺且门槛高，通常仅面向特定机构或高净值人群，普通投资者需警惕流动性风险。"
       ],
       "actions": [
-        "供应链企业需提前对接即将IPO的AI芯片公司，锁定其量产带来的代工与封测订单红利。",
-        "关注AI芯片IPO公司的技术壁垒与供应链依赖度，评估合作风险与长期商业价值。"
+        "半导体与AI产业链投资者可关注Anthropic等头部大模型公司的融资动态，预判其对高端AI算力芯片的需求拉动。",
+        "有意参与Pre-IPO的机构需尽早建立与二级市场基金或私募股权的渠道联系，获取份额信息。"
       ],
       "glossary": [
+        {
+          "term": "Pre-IPO",
+          "desc": "上市前融资阶段，指企业在正式公开发行股票前进行的最后一轮或几轮私募融资。",
+          "category": "投资"
+        }
+      ],
+      "region": "overseas",
+      "summary": "文章探讨了在Anthropic正式上市前如何寻找并参与其Pre-IPO投资的机会与途径。",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "百度AI芯片部门昆仑芯瞄准146亿美元香港IPO",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/05/52406536/baidu-ai-chip-arm-eyes-14-6-billion-hong-kong-ipo",
+      "description": "Baidu's AI chip unit Kunlunxin targets a $14.6B Hong Kong IPO. BIDU shares jump 4.6% as China's semiconductor momentum builds.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "昆仑芯独立上市标志着国内互联网巨头加速剥离并独立运作其AI芯片业务，以获取更充裕的研发资金。",
+        "巨额IPO估值反映出市场对中国本土AI算力芯片替代潜力的极高期待，但也面临商业化落地与生态建设的考验。"
+      ],
+      "actions": [
+        "国内芯片供应链企业应积极对接昆仑芯，争取成为其IPO后产能扩张阶段的优先供应商。",
+        "投资者需审慎评估昆仑芯的财务模型，关注其芯片在百度内部及外部市场的实际出货量与市占率。"
+      ],
+      "glossary": [
+        {
+          "term": "昆仑芯",
+          "desc": "百度旗下的AI芯片品牌，专注于提供云端及边缘端AI加速计算芯片。",
+          "category": "芯片"
+        },
         {
           "term": "IPO",
-          "desc": "Initial Public Offering，首次公开募股",
-          "category": "综合"
+          "desc": "Initial Public Offering，首次公开募股，企业首次向公众投资者发售股票。",
+          "category": "投资"
         }
       ],
       "region": "overseas",
-      "summary": "SemiVision Research发布文章，深度分析了2026年从AI大模型到底层芯片领域的IPO热潮与产业趋势。",
+      "summary": "百度旗下AI芯片部门昆仑芯计划在香港进行146亿美元的IPO，受中国半导体发展势头推动，百度股价上涨4.6%。",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "Archimedes Tech SPAC Partners II公司宣布向SEC提交S-4表格注册声明",
-      "url": "https://www.globenewswire.com/news-release/2026/05/07/3290730/0/en/Archimedes-Tech-SPAC-Partners-II-Co-Announces-Filing-of-Registration-Statement-on-Form-S-4-with-the-SEC.html",
-      "description": "CLAYMONT, Del., May 07, 2026 (GLOBE NEWSWIRE) -- Archimedes Tech SPAC Partners II Co. (Nasdaq: ATII), a publicly traded special purpose acquisition...",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
+      "title": "全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日",
+      "url": "https://chejiahao.autohome.com.cn/info/25266221",
+      "description": "全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日\n\n酱酱侃车\n\n车家号·0浏览·2026-04-20 22:37 · 北京\n\n\"这不是汽车，这是具身智能机器人的开山之作。\"\n\n4月20日，理想汽车CEO李想在社交媒体上的一句话，为即将亮相的全新一代理想L9(参数|询",
+      "published": "2026-05-15T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "SPAC依然是半导体及硬科技初创企业快速登陆资本市场的重要备选路径。",
-        "S-4注册声明的提交标志着标的公司的业务与财务合规性进入实质性审查阶段，并购步伐加快。"
+        "四颗激光雷达的配置表明高端智能驾驶正向多传感器冗余融合演进，激光雷达渗透率在旗舰车型中持续攀升。",
+        "全线控底盘的采用意味着车辆线束与ECU架构将大幅简化，推动车规级芯片向域控制器集中整合。"
       ],
       "actions": [
-        "关注该SPAC潜在的半导体并购标的，预判其技术方向与产业链整合效应。",
-        "拟被并购的半导体企业应审视自身财务与合规状况，为SPAC路径做好尽职调查准备。"
+        "激光雷达及车规芯片供应商需加快产能验证与交付节奏，以应对主机厂旗舰车型密集发布带来的订单峰值。",
+        "汽车电子架构供应商应关注全线控底盘带来的域控制器需求升级，提前布局多合一控制芯片方案。"
       ],
       "glossary": [
         {
-          "term": "SPAC",
-          "desc": "Special Purpose Acquisition Company，特殊目的收购公司，即空白支票公司",
-          "category": "综合"
+          "term": "线控底盘",
+          "desc": "By-wire chassis，将传统机械控制替换为电子信号控制的底盘系统，是实现高阶自动驾驶的基础。",
+          "category": "汽车电子"
         },
         {
-          "term": "SEC",
-          "desc": "Securities and Exchange Commission，美国证券交易委员会",
-          "category": "综合"
+          "term": "激光雷达",
+          "desc": "LiDAR，通过发射激光束测量距离的传感器，广泛用于自动驾驶环境的三维感知。",
+          "category": "传感器"
         }
       ],
-      "region": "overseas",
-      "summary": "特殊目的收购公司（SPAC）Archimedes Tech SPAC Partners II宣布向美国证券交易委员会提交S-4表格注册声明，推进并购上市进程。",
+      "region": "domestic",
+      "summary": "理想汽车L9 Livis车型定档5月15日发布，配置全线控底盘、四颗激光雷达及420km纯电续航。",
       "tag_category": "综合"
-    },
-    {
-      "title": "RISC-V：从小众架构到战略基石",
-      "url": "https://semiwiki.com/artificial-intelligence/368958-risc-v-from-niche-architecture-to-strategic-foundation/",
-      "description": "<p>At the recent RISC-V Now by Andes conference, Aion Silicon’s presentation made one thing clear: RISC-V is no longer an emerging alternative but rather rapidly becoming foundational to modern silicon design. This conviction is not theoretical says Oliver Jones, CEO of Aion Silicon, who gave the ta",
-      "published": "Thu, 07 May 2026 17:00:42 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "RISC-V架构已跨越早期探索阶段，正在AI、汽车等高增长领域确立底层架构地位。",
-        "从“替代选项”到“战略基石”的转变，意味着基于RISC-V的IP授权与SoC定制设计需求将迎来爆发。"
-      ],
-      "actions": [
-        "芯片设计公司应加速RISC-V内核的评估与产品导入，抢占非x86/ARM生态的先发优势。",
-        "IP供应商需针对AI与特定计算场景，开发高性能RISC-V定制化扩展指令集，满足差异化需求。"
-      ],
-      "glossary": [
-        {
-          "term": "RISC-V",
-          "desc": "一种开源的精简指令集架构（ISA），具有模块化和可扩展特性",
-          "category": "EDA/IP"
-        }
-      ],
-      "region": "overseas",
-      "summary": "在Andes举办的RISC-V会议上，Aion Silicon明确指出，RISC-V已不再是新兴替代方案，而是正迅速成为现代硅片的战略基石。",
-      "tag_category": "EDA/IP"
     }
   ],
   "stats": {
-    "total_raw": 89,
-    "after_dedup": 80,
+    "total_raw": 85,
+    "after_dedup": 77,
     "sources": {
+      "Exa": 1,
       "RSS": 65,
-      "Brave": 15
+      "Brave": 11
     }
   }
 }
