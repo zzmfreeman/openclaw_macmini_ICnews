@@ -1,6 +1,6 @@
 {
-  "version": "v20260510-2004",
-  "generatedAt": "2026-05-10T20:04:00+08:00",
+  "version": "v20260511-2012",
+  "generatedAt": "2026-05-11T20:12:00+08:00",
   "period": "evening",
   "commit": "",
   "glossary_list": [
@@ -21,43 +21,43 @@
     },
     {
       "term": "LPDA",
-      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种非频变宽带天线结构",
+      "desc": "对数周期偶极子阵列，一种具有宽频带特性的天线结构",
       "category": "EDA/IP"
     },
     {
-      "term": "Full-Wave EM Simulation",
-      "desc": "全波电磁仿真，求解麦克斯韦方程组的完整数值方法，用于高精度电磁分析",
+      "term": "全波电磁仿真",
+      "desc": "Full-Wave EM Simulation，直接求解麦克斯韦方程组的精确电磁仿真方法",
       "category": "EDA/IP"
     },
     {
-      "term": "2nm",
-      "desc": "半导体先进制程节点，代表当前最前沿的晶体管制造工艺",
-      "category": "制造"
+      "term": "CPI",
+      "desc": "消费者物价指数，衡量通货膨胀水平的重要宏观经济指标",
+      "category": "宏观经济"
     },
     {
-      "term": "Pre-IPO",
-      "desc": "上市前融资阶段，指企业在正式公开发行股票前的私募融资",
-      "category": "资本"
+      "term": "IPO",
+      "desc": "首次公开募股，公司首次向公众投资者发售股票",
+      "category": "金融"
     },
     {
-      "term": "Unicorn Club",
-      "desc": "独角兽俱乐部，指估值超过10亿美元的初创企业",
-      "category": "资本"
+      "term": "晶圆级计算",
+      "desc": "Wafer-scale computing，将整个晶圆作为单一巨大芯片的计算架构",
+      "category": "芯片架构"
     },
     {
-      "term": "Deeptech",
-      "desc": "深科技，基于科学突破和工程创新的硬核技术，如半导体、AI、航天等",
-      "category": "综合"
-    },
-    {
-      "term": "线控底盘",
-      "desc": "By-wire chassis，将底盘操作由机械连接转为电子信号控制的底盘系统",
-      "category": "应用"
+      "term": "Cash Burn",
+      "desc": "现金消耗，指初创公司消耗其现金储备的速率",
+      "category": "金融"
     },
     {
       "term": "激光雷达",
-      "desc": "LiDAR，通过发射激光测量距离的传感器，常用于自动驾驶3D环境感知",
-      "category": "应用"
+      "desc": "LiDAR，利用激光测量距离的遥感技术，自动驾驶核心传感器",
+      "category": "传感器"
+    },
+    {
+      "term": "线控底盘",
+      "desc": "By-wire chassis，通过电子信号控制底盘执行机构的系统",
+      "category": "汽车电子"
     }
   ],
   "topic_pulse": [
@@ -66,61 +66,61 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区对CoWoS及先进封装的讨论热度降温，近期缺乏引爆话题的新技术突破或产能扩张消息。市场情绪趋于平稳，关注点从产能紧缺转向常态化供需。"
+      "summary": "近期社区对先进封装的讨论热度有所下降，可能受产能逐步缓解及市场信息消化期影响。业界正从狂热预期转向实际产能爬坡与良率关注。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度下降，社区暂无突出的技术讨论或爆款文章。随着AI硬件布局阶段性落地，短期内存供需焦虑有所缓解，情绪偏向观望。"
+      "summary": "HBM相关话题降温，市场对AI存储的短期预期趋于平稳。讨论焦点从产能紧缺逐渐转移至不同HBM代际的技术演进与实际部署成本。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中国Fab与先进制程话题热度回落，社区讨论趋于平淡，未见重大国产突破或外部制裁新动态。情绪相对冷静，处于等待下一轮政策或技术催化剂的蓄力期。"
+      "summary": "国内晶圆厂与先进制程讨论暂归平静，等待新的技术突破或政策信号。社区情绪较为理性，正专注跟踪成熟制程的产能利用率恢复情况。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP关注度降温，社区缺乏关于国产替代新进展的热议。行业情绪从前期的替代亢奋转向务实落地，关注实际工具链的打磨与客户导入。"
+      "summary": "国产EDA/IP话题热度回落，行业进入低调的落地验证与研发期。社区对全流程替代的难度有了更客观的认知，情绪偏向务实。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT话题热度走低，社区讨论缺乏亮点，传统封装及先进封装的短期博弈暂告一段落。情绪平稳，市场正消化前期产能扩张带来的影响。"
+      "summary": "封测板块讨论减少，市场关注点暂时转移至上游芯片设计复苏情况。传统封测需求平淡，先进封装仍是该领域唯一亮点。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度明显下降，近期未出现引发社区恐慌或热议的新规传闻。情绪暂时放松，但从业者仍保持长期警惕与合规审视。"
+      "summary": "出口管制话题降温，短期内无重大新规刺激。社区对常态化制裁已有免疫感，讨论重心转向如何在现有限制下寻找变通方案。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片及英伟达相关讨论热度降温，缺乏新品发布或财报等刺激因素。社区情绪从狂热逐渐回归理性，开始更多关注AI算力落地与实际ROI。"
+      "summary": "AI芯片与英伟达讨论热度下降，目前处于新品发布后的信息消化期。社区正冷静评估Blackwell架构的实际交付时间与性价比。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化话题热度下降，社区讨论缺乏新的国产化里程碑事件。情绪平稳，产业链正默默推进验证与渗透，等待量变到质变的节点。"
+      "summary": "设备材料国产化讨论暂歇，业界正专注落实前期订单与产线验证。社区情绪谨慎乐观，关注重点转向国产设备的长期运行稳定性。"
     }
   ],
   "items": [
     {
-      "title": "使用全波电磁仿真设计宽带LPDA馈电反射面天线",
+      "title": "使用全波电磁仿真设计宽带LPDA馈源反射面天线",
       "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
       "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
       "published": "Fri, 17 Apr 2026 14:00:50 +0000",
@@ -129,116 +129,116 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "全波电磁仿真在复杂宽带天线设计中愈发重要，能显著提升射频前端设计的精度与效率。",
-        "随着通信频段向宽带化演进，LPDA馈电反射面天线等高性能结构的设计需求将持续增长。"
+        "全波电磁仿真在天线设计中至关重要，能显著提高复杂结构如LPDA馈源反射面的设计精度。",
+        "随着射频与毫米波应用增加，EDA工具在电磁仿真领域的需求持续增长。"
       ],
       "actions": [
-        "射频与天线设计工程师应关注全波仿真工具的最新进展，评估引入高精度仿真软件以缩短研发周期。",
-        "EDA厂商可针对宽带天线与射频设计推出更具针对性的仿真模块，抢占细分市场。"
+        "射频与天线工程师应关注并引入全波仿真工具以优化高频天线设计流程。",
+        "EDA供应商可针对5G/6G天线设计推出更优化的全波仿真解决方案。"
       ],
       "glossary": [
         {
           "term": "LPDA",
-          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种非频变宽带天线结构",
+          "desc": "对数周期偶极子阵列，一种具有宽频带特性的天线结构",
           "category": "EDA/IP"
         },
         {
-          "term": "Full-Wave EM Simulation",
-          "desc": "全波电磁仿真，求解麦克斯韦方程组的完整数值方法，用于高精度电磁分析",
+          "term": "全波电磁仿真",
+          "desc": "Full-Wave EM Simulation，直接求解麦克斯韦方程组的精确电磁仿真方法",
           "category": "EDA/IP"
         }
       ],
       "region": "overseas",
-      "summary": "本文提供了一份实用指南，介绍如何使用全波电磁仿真技术设计由对数周期偶极子阵列（LPDA）馈电的抛物面反射器天线。",
+      "summary": "本文提供了一种使用全波电磁仿真设计对数周期偶极子阵列（LPDA）馈电抛物面反射面天线的实用指南。",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "苹果锁定台积电2nm产能，高通权衡AI增长潜力",
-      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-qcom/qualcomm/news/qualcomm-weighs-ai-upside-as-apple-locks-in-tsmc-2nm-supply",
-      "description": "Apple has reportedly secured over 50% of TSMC’s initial 2nm chip production capacity, limiting early access for other customers such as NasdaqGS:QCOM. Qualcomm is expanding further into AI and data center chips, including a US$2.3b data center acquisition and a plan to ship custom data center ...",
+      "title": "市场简报：消费者会开始“认输”吗？| Morningstar",
+      "url": "https://www.morningstar.com/markets/markets-brief-will-consumer-start-crying-uncle",
+      "description": "Plus: Cerebras’ IPO, the tech stocks leading the EM rally, unicorn concentration, and the April CPI.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "头部客户（如苹果）对先进制程产能的垄断效应加剧，导致其他芯片厂商在首发竞争中处于劣势。",
-        "2nm制程的争夺反映出AI与高性能计算对顶级制程的刚性需求，非手机厂商的产能话语权正在提升。"
+        "Cerebras的IPO成为科技股和半导体市场情绪的重要风向标。",
+        "宏观经济指标（如CPI）直接影响消费端对科技及电子产品的购买力。"
       ],
       "actions": [
-        "非头部手机芯片厂商需提前规划2nm及以下制程的产能备选方案，或考虑转向先进封装路线以缓解制程竞争压力。",
-        "供应链企业应密切关注台积电2nm产能分配动向，调整对相关客户的出货预期与产能依赖度。"
+        "投资者需密切关注CPI等宏观数据对半导体终端消费市场的传导效应。",
+        "跟踪Cerebras等AI芯片独角兽的上市表现，评估AI硬件赛道整体估值。"
       ],
       "glossary": [
         {
-          "term": "2nm",
-          "desc": "半导体先进制程节点，代表当前最前沿的晶体管制造工艺",
-          "category": "制造"
+          "term": "CPI",
+          "desc": "消费者物价指数，衡量通货膨胀水平的重要宏观经济指标",
+          "category": "宏观经济"
         }
       ],
       "region": "overseas",
-      "summary": "据报道，苹果已包揽台积电初期超过50%的2nm芯片产能，限制了高通等客户的早期获取，而高通正进一步向AI和数据中心领域扩张。",
+      "summary": "Morningstar市场简报关注消费者韧性，并提及Cerebras的IPO、科技股走势及CPI数据。",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "如何在Anthropic IPO前进行投资？你需要知道的一切",
-      "url": "https://www.fool.com/investing/2026/05/08/can-you-invest-in-anthropic-pre-ipo-everything-you/",
-      "description": "It is possible -- but you have to know where to look.",
+      "title": "需求旺盛，Cerebras将IPO目标提高至48亿美元",
+      "url": "https://www.asatunews.co.id/en/cerebras-increases-ipo-target-valuation",
+      "description": "Chipmaker Cerebras Systems raises its IPO price range to $160 per share, aiming for a $4.8 billion debut as AI hardware demand surges on Monday.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "AI大模型头部企业（如Anthropic）的Pre-IPO投资热度极高，资本正加速向底层AI模型厂商集中。",
-        "半导体供应链需警惕AI算力需求泡沫，但也应把握大模型扩张带来的硬件增量红利。"
+        "AI算力需求持续火热，非传统GPU架构（如晶圆级计算）正获得资本市场高度认可。",
+        "Cerebras的高估值反映了市场对打破NVIDIA垄断的替代AI硬件方案的强烈渴望。"
       ],
       "actions": [
-        "投资机构应评估Anthropic等AI巨头Pre-IPO份额的获取渠道与风险，合理配置AI资产。",
-        "芯片及算力基础设施供应商需与这类AI大模型公司建立早期业务绑定，锁定未来算力采购订单。"
+        "AI芯片初创企业可参考Cerebras的上市路径，强化自身差异化架构的资本故事。",
+        "供应链企业应提前评估Cerebras晶圆级芯片的封装与制造需求，抢占合作先机。"
       ],
       "glossary": [
         {
-          "term": "Pre-IPO",
-          "desc": "上市前融资阶段，指企业在正式公开发行股票前的私募融资",
-          "category": "资本"
-        }
-      ],
-      "region": "overseas",
-      "summary": "本文探讨了如何在Anthropic正式IPO前寻找并参与其投资机会，反映了市场对AI大模型初创公司的强烈投资意愿。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "TICE融资指数：Skyroot进入独角兽俱乐部，AI激增、IPO热潮与深科技势头推动融资达1.58亿美元",
-      "url": "https://www.tice.news/tice-trending/tice-funding-index-skyroot-enters-unicorn-club-as-funding-touches-158-mn-amid-ai-surge-ipo-buzz-and-deeptech-momentum-11819172",
-      "description": "From Skyroot Aerospace entering the unicorn club to rising AI adoption, semiconductor funding, IPO preparations, acquisitions, and layoffs, here’s a complete look at the biggest developments shaping India’s startup ecosystem this week.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "深科技（包括航天与半导体）在新兴市场（如印度）正迎来资本青睐，独角兽企业的诞生标志着该领域商业化成熟度提升。",
-        "全球半导体与深科技的投资重心正呈现多极化趋势，新兴市场的本土供应链建设值得关注。"
-      ],
-      "actions": [
-        "半导体及深科技初创企业可参考印度市场的融资路径，积极寻求跨国资本与政策支持。",
-        "供应链企业应关注印度等新兴市场的深科技独角兽，提前布局潜在的零部件合作与供应链出海机会。"
-      ],
-      "glossary": [
-        {
-          "term": "Unicorn Club",
-          "desc": "独角兽俱乐部，指估值超过10亿美元的初创企业",
-          "category": "资本"
+          "term": "IPO",
+          "desc": "首次公开募股，公司首次向公众投资者发售股票",
+          "category": "金融"
         },
         {
-          "term": "Deeptech",
-          "desc": "深科技，基于科学突破和工程创新的硬核技术，如半导体、AI、航天等",
-          "category": "综合"
+          "term": "晶圆级计算",
+          "desc": "Wafer-scale computing，将整个晶圆作为单一巨大芯片的计算架构",
+          "category": "芯片架构"
         }
       ],
       "region": "overseas",
-      "summary": "随着Skyroot Aerospace进入独角兽俱乐部，印度科技生态在AI激增、半导体融资、IPO准备和深科技势头推动下，融资总额达到1.58亿美元。",
+      "summary": "受AI硬件需求激增推动，芯片制造商Cerebras Systems将其IPO股价范围提高至每股160美元，目标估值达48亿美元。",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "今日美股市场：实时更新 10.05.2026",
+      "url": "https://ts2.tech/en/stock-market-today-10-05-2026/",
+      "description": "Investors should monitor cash burn trends and potential funding needs carefully, but the current cash position offers some reassurance amid growth challenges. May 10, 2026, 7:23 PM EDT. Cerebras Systems plans to raise its initial public offering (IPO) price range to $150-$160 per share from $115-$125, aiming to raise about $4.8 billion. The AI chipmaker ...",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "高增长科技企业（如Cerebras）在扩张期的现金消耗是衡量其财务健康度的关键。",
+        "充足的现金储备是AI芯片公司在研发长周期中抵御宏观风险的核心护城河。"
+      ],
+      "actions": [
+        "投资机构需建立针对半导体初创企业的现金流动态监测模型。",
+        "芯片企业CFO应平衡研发投入与现金储备，确保在资本寒冬下的生存能力。"
+      ],
+      "glossary": [
+        {
+          "term": "Cash Burn",
+          "desc": "现金消耗，指初创公司消耗其现金储备的速率",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "投资者应密切关注现金消耗趋势和潜在资金需求，但目前的现金头寸在增长挑战中提供了一定保障。",
       "tag_category": "EDA/IP"
     },
     {
@@ -251,37 +251,37 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "四颗激光雷达的搭载表明车企对高阶自动驾驶感知冗余的需求正在攀升，将直接拉动车规级激光雷达及配套芯片的出货量。",
-        "全线控底盘的普及意味着汽车电子架构向域控制集中演进加速，底盘线控芯片需求将迎来爆发。"
+        "多激光雷达与全线控底盘配置标志着国产高端智能电动车对高阶自动驾驶算力与传感融合的硬性需求。",
+        "智能底盘与激光雷达的普及将直接拉动车规级MCU、SoC及光电芯片的出货量。"
       ],
       "actions": [
-        "激光雷达及自动驾驶芯片供应商应加速车规级量产与降本进程，以迎合车企多传感器融合趋势。",
-        "底盘域控制器及相关线控芯片厂商需抓紧与主机厂对接，抢占新一代电子架构的定点份额。"
+        "车规芯片供应商应加速适配多激光雷达并发处理与线控底盘实时控制的需求。",
+        "半导体厂商需关注新能源车企的电子电气架构演进，提前布局高集成度域控制器芯片。"
       ],
       "glossary": [
         {
-          "term": "线控底盘",
-          "desc": "By-wire chassis，将底盘操作由机械连接转为电子信号控制的底盘系统",
-          "category": "应用"
+          "term": "激光雷达",
+          "desc": "LiDAR，利用激光测量距离的遥感技术，自动驾驶核心传感器",
+          "category": "传感器"
         },
         {
-          "term": "激光雷达",
-          "desc": "LiDAR，通过发射激光测量距离的传感器，常用于自动驾驶3D环境感知",
-          "category": "应用"
+          "term": "线控底盘",
+          "desc": "By-wire chassis，通过电子信号控制底盘执行机构的系统",
+          "category": "汽车电子"
         }
       ],
       "region": "domestic",
-      "summary": "理想汽车新车型L9 Livis定档5月15日发布，该车型配备全线控底盘、四颗激光雷达及420km纯电续航，智能化与电动化配置显著提升。",
+      "summary": "理想L9 Livis车型定档5月15日发布，配备全线控底盘、四颗激光雷达及420km纯电续航。",
       "tag_category": "综合"
     }
   ],
   "stats": {
-    "total_raw": 86,
-    "after_dedup": 81,
+    "total_raw": 82,
+    "after_dedup": 76,
     "sources": {
       "Exa": 2,
       "RSS": 65,
-      "Brave": 14
+      "Brave": 9
     }
   }
 }

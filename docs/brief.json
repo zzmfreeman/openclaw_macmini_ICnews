@@ -1,7 +1,7 @@
 {
-  "version": "v20260511-1307",
-  "generatedAt": "2026-05-11T13:07:00+08:00",
-  "period": "midday",
+  "version": "v20260511-2012",
+  "generatedAt": "2026-05-11T20:12:00+08:00",
+  "period": "evening",
   "commit": "",
   "glossary_list": [
     {
@@ -20,29 +20,44 @@
       "category": "封装"
     },
     {
-      "term": "Silicon Photonics",
-      "desc": "硅光子技术，利用硅基材料实现光信号的产生、传输和处理的集成技术",
-      "category": "光电子"
+      "term": "LPDA",
+      "desc": "对数周期偶极子阵列，一种具有宽频带特性的天线结构",
+      "category": "EDA/IP"
     },
     {
-      "term": "Functional Verification",
-      "desc": "功能验证，确保芯片设计在制造前符合其功能规格和预期行为的流程",
-      "category": "EDA/验证"
+      "term": "全波电磁仿真",
+      "desc": "Full-Wave EM Simulation，直接求解麦克斯韦方程组的精确电磁仿真方法",
+      "category": "EDA/IP"
     },
     {
-      "term": "RISC-V",
-      "desc": "一种开源的指令集架构(ISA)，基于精简指令集计算原则，可自由用于学术或商业设计",
-      "category": "IP/架构"
+      "term": "CPI",
+      "desc": "消费者物价指数，衡量通货膨胀水平的重要宏观经济指标",
+      "category": "宏观经济"
     },
     {
-      "term": "Formal Verification",
-      "desc": "形式化验证，使用数学逻辑和算法证明硬件设计符合其规格属性的方法",
-      "category": "EDA/验证"
+      "term": "IPO",
+      "desc": "首次公开募股，公司首次向公众投资者发售股票",
+      "category": "金融"
     },
     {
-      "term": "Hardware Emulation",
-      "desc": "硬件仿真，使用专用硬件系统（如FPGA阵列）模拟芯片设计以加速验证的过程",
-      "category": "EDA/验证"
+      "term": "晶圆级计算",
+      "desc": "Wafer-scale computing，将整个晶圆作为单一巨大芯片的计算架构",
+      "category": "芯片架构"
+    },
+    {
+      "term": "Cash Burn",
+      "desc": "现金消耗，指初创公司消耗其现金储备的速率",
+      "category": "金融"
+    },
+    {
+      "term": "激光雷达",
+      "desc": "LiDAR，利用激光测量距离的遥感技术，自动驾驶核心传感器",
+      "category": "传感器"
+    },
+    {
+      "term": "线控底盘",
+      "desc": "By-wire chassis，通过电子信号控制底盘执行机构的系统",
+      "category": "汽车电子"
     }
   ],
   "topic_pulse": [
@@ -51,205 +66,222 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期关于CoWoS产能和先进封装的讨论热度有所降温，社区情绪趋于平稳。暂无引发广泛关注的突发性产能或技术突破新闻，市场进入信息消化期。"
+      "summary": "近期社区对先进封装的讨论热度有所下降，可能受产能逐步缓解及市场信息消化期影响。业界正从狂热预期转向实际产能爬坡与良率关注。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM及AI存储话题热度下降，市场对HBM产能紧缺的焦虑情绪有所缓解。社区暂无新的重大讨论焦点，关注度暂时回落。"
+      "summary": "HBM相关话题降温，市场对AI存储的短期预期趋于平稳。讨论焦点从产能紧缺逐渐转移至不同HBM代际的技术演进与实际部署成本。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中国晶圆厂与先进制程话题热度回落，相关制裁或突破性进展的讨论暂告一段落。社区目前处于观望期，情绪较为平淡。"
+      "summary": "国内晶圆厂与先进制程讨论暂归平静，等待新的技术突破或政策信号。社区情绪较为理性，正专注跟踪成熟制程的产能利用率恢复情况。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP关注度降温，缺乏新的政策刺激或重磅产品发布。社区讨论暂时陷入沉寂，等待下一个行业催化剂。"
+      "summary": "国产EDA/IP话题热度回落，行业进入低调的落地验证与研发期。社区对全流程替代的难度有了更客观的认知，情绪偏向务实。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT板块热度下降，传统封装与先进封装的讨论均趋于平淡。市场暂无明显情绪波动，缺乏热点事件驱动。"
+      "summary": "封测板块讨论减少，市场关注点暂时转移至上游芯片设计复苏情况。传统封测需求平淡，先进封装仍是该领域唯一亮点。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度降温，近期无新增制裁清单或政策传闻。社区紧张情绪有所缓解，讨论重心暂时转移。"
+      "summary": "出口管制话题降温，短期内无重大新规刺激。社区对常态化制裁已有免疫感，讨论重心转向如何在现有限制下寻找变通方案。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片及英伟达相关讨论热度回落，市场对英伟达财报和新品的狂热情绪暂歇。社区进入信息消化与技术深挖阶段，缺乏新爆点。"
+      "summary": "AI芯片与英伟达讨论热度下降，目前处于新品发布后的信息消化期。社区正冷静评估Blackwell架构的实际交付时间与性价比。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化话题热度下降，缺乏新的国产替代里程碑事件。社区讨论热度暂时走低，情绪相对稳定。"
+      "summary": "设备材料国产化讨论暂歇，业界正专注落实前期订单与产线验证。社区情绪谨慎乐观，关注重点转向国产设备的长期运行稳定性。"
     }
   ],
   "items": [
     {
-      "title": "Scintil Photonics首席执行官Matt Crowley访谈",
-      "url": "https://semiwiki.com/ceo-interviews/369014-ceo-interview-with-matt-crowley-of-scintil-photonics/",
-      "description": "<p>Matt Crowley is Chief Executive Officer of Scintil Photonics. A physicist by training, Matt built his career transitioning advanced semiconductor technologies from development to volume manufacturing. Before Scintil, he led MEMS technology company Vesper Technologies to high-volume production and",
-      "published": "Sun, 10 May 2026 21:00:51 +0000",
+      "title": "使用全波电磁仿真设计宽带LPDA馈源反射面天线",
+      "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
+      "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
+      "published": "Fri, 17 Apr 2026 14:00:50 +0000",
       "source": "RSS",
       "source_type": "RSS",
       "lang": "en",
       "tags": [],
       "insights": [
-        "硅光子技术从实验室走向量产是当前光互联领域的核心挑战与机遇，需要跨越工艺与封装的鸿沟。",
-        "具备物理背景且深谙量产之道的复合型领导者，对硬科技初创企业的商业化落地至关重要。"
+        "全波电磁仿真在天线设计中至关重要，能显著提高复杂结构如LPDA馈源反射面的设计精度。",
+        "随着射频与毫米波应用增加，EDA工具在电磁仿真领域的需求持续增长。"
       ],
       "actions": [
-        "关注硅光子代工生态的成熟度，评估其在高带宽计算场景下替代传统互联的潜力。",
-        "初创半导体企业应重视从研发到量产的过渡管理，尽早建立可靠的供应链与制造合作伙伴关系。"
+        "射频与天线工程师应关注并引入全波仿真工具以优化高频天线设计流程。",
+        "EDA供应商可针对5G/6G天线设计推出更优化的全波仿真解决方案。"
       ],
       "glossary": [
         {
-          "term": "Silicon Photonics",
-          "desc": "硅光子技术，利用硅基材料实现光信号的产生、传输和处理的集成技术",
-          "category": "光电子"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Scintil Photonics CEO Matt Crowley分享了其将先进半导体技术从研发推向量产制造的职业生涯经验与见解。",
-      "tag_category": "综合"
-    },
-    {
-      "title": "Breker验证系统首席执行官Dave Kelf访谈",
-      "url": "https://semiwiki.com/eda/breker-verification-systems/369053-ceo-interview-with-dave-kelf-ceo-of-breker-verification-systems/",
-      "description": "<p>In the functional verification space, <a href=\"https://www.brekersystems.com/\">Breker Verification Systems</a> stands out for its vast and long-standing understanding and ability to solve many of the seemingly intractable complexity challenges, especially in the system space.</p>\n<p>I recently ta",
-      "published": "Fri, 08 May 2026 13:00:37 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "随着芯片设计复杂度激增，功能验证已成为制约开发周期与成本的最大瓶颈。",
-        "自动化和智能化的验证工具是提升SoC交付效率、降低人工调试依赖的关键。"
-      ],
-      "actions": [
-        "芯片设计团队应评估并引入高级验证自动化工具，以缩短验证收敛时间并提高覆盖率。",
-        "EDA供应商需深耕特定验证痛点（如系统级验证），提供针对性解决方案以建立市场护城河。"
-      ],
-      "glossary": [
+          "term": "LPDA",
+          "desc": "对数周期偶极子阵列，一种具有宽频带特性的天线结构",
+          "category": "EDA/IP"
+        },
         {
-          "term": "Functional Verification",
-          "desc": "功能验证，确保芯片设计在制造前符合其功能规格和预期行为的流程",
-          "category": "EDA/验证"
+          "term": "全波电磁仿真",
+          "desc": "Full-Wave EM Simulation，直接求解麦克斯韦方程组的精确电磁仿真方法",
+          "category": "EDA/IP"
         }
       ],
       "region": "overseas",
-      "summary": "Breker Verification Systems CEO Dave Kelf探讨了公司在功能验证领域的深厚积累及解决复杂验证挑战的能力。",
-      "tag_category": "综合"
-    },
-    {
-      "title": "RISC-V：从小众架构到战略基础",
-      "url": "https://semiwiki.com/artificial-intelligence/368958-risc-v-from-niche-architecture-to-strategic-foundation/",
-      "description": "<p>At the recent RISC-V Now by Andes conference, Aion Silicon’s presentation made one thing clear: RISC-V is no longer an emerging alternative but rather rapidly becoming foundational to modern silicon design. This conviction is not theoretical says Oliver Jones, CEO of Aion Silicon, who gave the ta",
-      "published": "Thu, 07 May 2026 17:00:42 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "RISC-V正在从边缘探索走向主流基础设施，其指令集的可定制性在AI和特定计算领域优势明显。",
-        "生态成熟度与工具链的不断完善，正在加速RISC-V在商业芯片中的规模化落地进程。"
-      ],
-      "actions": [
-        "芯片企业应将RISC-V纳入长期架构规划，探索其在差异化计算场景下的定制化潜力。",
-        "IP供应商需加快高性能RISC-V内核及配套软件工具链的开发，抢占战略生态位。"
-      ],
-      "glossary": [
-        {
-          "term": "RISC-V",
-          "desc": "一种开源的指令集架构(ISA)，基于精简指令集计算原则，可自由用于学术或商业设计",
-          "category": "IP/架构"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Aion Silicon在Andes会议上指出，RISC-V已不再是新兴替代方案，而是正迅速成为现代硅设计的战略基础架构。",
+      "summary": "本文提供了一种使用全波电磁仿真设计对数周期偶极子阵列（LPDA）馈电抛物面反射面天线的实用指南。",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "将数学严谨性引入硬件世界——形式化验证之旅",
-      "url": "https://semiwiki.com/semiconductor-services/axiomise/369080-bringing-mathematical-rigour-in-the-world-of-hardware-a-journey-into-formal-verification/",
-      "description": "<p>This interview presents the first steps of Robert Simpson (R.S.), a Maths graduate who found an unexpected, but natural home in Formal Verification (FV) at Axiomise. Drawn by a desire to apply rigorous logic to real-world problems, he shares how abstract mathematical thinking translates into ensu",
-      "published": "Thu, 07 May 2026 13:00:58 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "市场简报：消费者会开始“认输”吗？| Morningstar",
+      "url": "https://www.morningstar.com/markets/markets-brief-will-consumer-start-crying-uncle",
+      "description": "Plus: Cerebras’ IPO, the tech stocks leading the EM rally, unicorn concentration, and the April CPI.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "形式化验证通过数学证明而非传统仿真来确保设计正确性，在处理复杂边界条件时具有不可替代的优势。",
-        "跨学科人才（如数学背景）正在为EDA验证领域注入新的方法论，推动验证从经验走向科学。"
+        "Cerebras的IPO成为科技股和半导体市场情绪的重要风向标。",
+        "宏观经济指标（如CPI）直接影响消费端对科技及电子产品的购买力。"
       ],
       "actions": [
-        "对于高可靠性芯片（如汽车、安防），设计团队应增加形式化验证的比重，以彻底降低漏测风险。",
-        "半导体企业应拓宽招聘视野，吸纳数学等基础学科人才进入芯片验证领域，提升团队理论深度。"
+        "投资者需密切关注CPI等宏观数据对半导体终端消费市场的传导效应。",
+        "跟踪Cerebras等AI芯片独角兽的上市表现，评估AI硬件赛道整体估值。"
       ],
       "glossary": [
         {
-          "term": "Formal Verification",
-          "desc": "形式化验证，使用数学逻辑和算法证明硬件设计符合其规格属性的方法",
-          "category": "EDA/验证"
+          "term": "CPI",
+          "desc": "消费者物价指数，衡量通货膨胀水平的重要宏观经济指标",
+          "category": "宏观经济"
         }
       ],
       "region": "overseas",
-      "summary": "数学专业毕业生Robert Simpson分享了其在Axiomise从事形式化验证(FV)的心路历程，强调数学严谨性在硬件验证中的应用价值。",
-      "tag_category": "综合"
+      "summary": "Morningstar市场简报关注消费者韧性，并提及Cerebras的IPO、科技股走势及CPI数据。",
+      "tag_category": "EDA/IP"
     },
     {
-      "title": "大分裂：三种硬件仿真架构的故事",
-      "url": "https://semiwiki.com/eda/synopsys/368861-the-great-divide-a-tale-of-three-hardware-emulation-architectures/",
-      "description": "<p>Hardware emulation arose as a necessity out of the needs of the eighties. By the mid-1980s, semiconductor designs had outgrown the practical limits of gate-level simulation. Gate-level simulation delivered accuracy, but at glacial pace; silicon prototypes performed at real-speed but arrived far t",
-      "published": "Wed, 06 May 2026 17:00:33 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "需求旺盛，Cerebras将IPO目标提高至48亿美元",
+      "url": "https://www.asatunews.co.id/en/cerebras-increases-ipo-target-valuation",
+      "description": "Chipmaker Cerebras Systems raises its IPO price range to $160 per share, aiming for a $4.8 billion debut as AI hardware demand surges on Monday.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "硬件仿真架构的演进反映了芯片设计规模与验证效率之间的长期博弈，不同架构在性能与容量上各有侧重。",
-        "随着SoC规模持续扩大，选择合适的仿真架构或混合架构，对大型系统的验证收敛至关重要。"
+        "AI算力需求持续火热，非传统GPU架构（如晶圆级计算）正获得资本市场高度认可。",
+        "Cerebras的高估值反映了市场对打破NVIDIA垄断的替代AI硬件方案的强烈渴望。"
       ],
       "actions": [
-        "验证工程师需根据项目规模、预算和调试需求，合理选择或混合使用不同的硬件仿真架构。",
-        "关注仿真云化及虚拟化技术趋势，以降低硬件仿真的使用门槛和资本支出成本。"
+        "AI芯片初创企业可参考Cerebras的上市路径，强化自身差异化架构的资本故事。",
+        "供应链企业应提前评估Cerebras晶圆级芯片的封装与制造需求，抢占合作先机。"
       ],
       "glossary": [
         {
-          "term": "Hardware Emulation",
-          "desc": "硬件仿真，使用专用硬件系统（如FPGA阵列）模拟芯片设计以加速验证的过程",
-          "category": "EDA/验证"
+          "term": "IPO",
+          "desc": "首次公开募股，公司首次向公众投资者发售股票",
+          "category": "金融"
+        },
+        {
+          "term": "晶圆级计算",
+          "desc": "Wafer-scale computing，将整个晶圆作为单一巨大芯片的计算架构",
+          "category": "芯片架构"
         }
       ],
       "region": "overseas",
-      "summary": "文章回顾了硬件仿真技术的发展，探讨了自80年代以来因门级仿真性能极限而催生的三种主流硬件仿真架构及其差异。",
+      "summary": "受AI硬件需求激增推动，芯片制造商Cerebras Systems将其IPO股价范围提高至每股160美元，目标估值达48亿美元。",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "今日美股市场：实时更新 10.05.2026",
+      "url": "https://ts2.tech/en/stock-market-today-10-05-2026/",
+      "description": "Investors should monitor cash burn trends and potential funding needs carefully, but the current cash position offers some reassurance amid growth challenges. May 10, 2026, 7:23 PM EDT. Cerebras Systems plans to raise its initial public offering (IPO) price range to $150-$160 per share from $115-$125, aiming to raise about $4.8 billion. The AI chipmaker ...",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "高增长科技企业（如Cerebras）在扩张期的现金消耗是衡量其财务健康度的关键。",
+        "充足的现金储备是AI芯片公司在研发长周期中抵御宏观风险的核心护城河。"
+      ],
+      "actions": [
+        "投资机构需建立针对半导体初创企业的现金流动态监测模型。",
+        "芯片企业CFO应平衡研发投入与现金储备，确保在资本寒冬下的生存能力。"
+      ],
+      "glossary": [
+        {
+          "term": "Cash Burn",
+          "desc": "现金消耗，指初创公司消耗其现金储备的速率",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "投资者应密切关注现金消耗趋势和潜在资金需求，但目前的现金头寸在增长挑战中提供了一定保障。",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日",
+      "url": "https://chejiahao.autohome.com.cn/info/25266221",
+      "description": "全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日\n\n酱酱侃车\n\n车家号·0浏览·2026-04-20 22:37 · 北京\n\n\"这不是汽车，这是具身智能机器人的开山之作。\"\n\n4月20日，理想汽车CEO李想在社交媒体上的一句话，为即将亮相的全新一代理想L9(参数|询",
+      "published": "2026-05-15T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "多激光雷达与全线控底盘配置标志着国产高端智能电动车对高阶自动驾驶算力与传感融合的硬性需求。",
+        "智能底盘与激光雷达的普及将直接拉动车规级MCU、SoC及光电芯片的出货量。"
+      ],
+      "actions": [
+        "车规芯片供应商应加速适配多激光雷达并发处理与线控底盘实时控制的需求。",
+        "半导体厂商需关注新能源车企的电子电气架构演进，提前布局高集成度域控制器芯片。"
+      ],
+      "glossary": [
+        {
+          "term": "激光雷达",
+          "desc": "LiDAR，利用激光测量距离的遥感技术，自动驾驶核心传感器",
+          "category": "传感器"
+        },
+        {
+          "term": "线控底盘",
+          "desc": "By-wire chassis，通过电子信号控制底盘执行机构的系统",
+          "category": "汽车电子"
+        }
+      ],
+      "region": "domestic",
+      "summary": "理想L9 Livis车型定档5月15日发布，配备全线控底盘、四颗激光雷达及420km纯电续航。",
       "tag_category": "综合"
     }
   ],
   "stats": {
-    "total_raw": 29,
-    "after_dedup": 24,
+    "total_raw": 82,
+    "after_dedup": 76,
     "sources": {
-      "RSS": 24
+      "Exa": 2,
+      "RSS": 65,
+      "Brave": 9
     }
   }
 }
