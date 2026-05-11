@@ -1,7 +1,7 @@
 {
-  "version": "v20260511-2012",
-  "generatedAt": "2026-05-11T20:12:00+08:00",
-  "period": "evening",
+  "version": "v20260512-0616",
+  "generatedAt": "2026-05-12T06:16:00+08:00",
+  "period": "morning",
   "commit": "",
   "glossary_list": [
     {
@@ -21,43 +21,48 @@
     },
     {
       "term": "LPDA",
-      "desc": "对数周期偶极子阵列，一种具有宽频带特性的天线结构",
+      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线设计",
       "category": "EDA/IP"
     },
     {
-      "term": "全波电磁仿真",
-      "desc": "Full-Wave EM Simulation，直接求解麦克斯韦方程组的精确电磁仿真方法",
+      "term": "IonQ",
+      "desc": "一家专注于离子阱量子计算的硬件和软件公司",
+      "category": "设计公司"
+    },
+    {
+      "term": "SkyWater",
+      "desc": "美国本土的特种半导体晶圆代工厂",
+      "category": "制造"
+    },
+    {
+      "term": "Cerebras",
+      "desc": "研发晶圆级AI芯片的半导体公司",
+      "category": "设计公司"
+    },
+    {
+      "term": "WSE",
+      "desc": "Wafer-Scale Engine，晶圆级引擎，Cerebras的核心芯片架构",
+      "category": "设计公司"
+    },
+    {
+      "term": "MI355X",
+      "desc": "AMD下一代Instinct系列AI加速卡",
+      "category": "设计公司"
+    },
+    {
+      "term": "vLLM",
+      "desc": "一种高吞吐量、内存高效的大语言模型推理和服务引擎",
       "category": "EDA/IP"
     },
     {
-      "term": "CPI",
-      "desc": "消费者物价指数，衡量通货膨胀水平的重要宏观经济指标",
-      "category": "宏观经济"
+      "term": "RX 9070",
+      "desc": "AMD基于RDNA架构的下一代消费级显卡",
+      "category": "设计公司"
     },
     {
-      "term": "IPO",
-      "desc": "首次公开募股，公司首次向公众投资者发售股票",
-      "category": "金融"
-    },
-    {
-      "term": "晶圆级计算",
-      "desc": "Wafer-scale computing，将整个晶圆作为单一巨大芯片的计算架构",
-      "category": "芯片架构"
-    },
-    {
-      "term": "Cash Burn",
-      "desc": "现金消耗，指初创公司消耗其现金储备的速率",
-      "category": "金融"
-    },
-    {
-      "term": "激光雷达",
-      "desc": "LiDAR，利用激光测量距离的遥感技术，自动驾驶核心传感器",
-      "category": "传感器"
-    },
-    {
-      "term": "线控底盘",
-      "desc": "By-wire chassis，通过电子信号控制底盘执行机构的系统",
-      "category": "汽车电子"
+      "term": "EVM",
+      "desc": "Error Vector Magnitude，误差矢量幅度，衡量数字调制信号质量的指标",
+      "category": "测试"
     }
   ],
   "topic_pulse": [
@@ -66,61 +71,61 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对先进封装的讨论热度有所下降，可能受产能逐步缓解及市场信息消化期影响。业界正从狂热预期转向实际产能爬坡与良率关注。"
+      "summary": "社区对先进封装的讨论热度有所降温，近期台系代工厂产能扩充消息较多，缓解了短期紧缺焦虑，讨论焦点从产能恐慌转向长期技术迭代与良率提升。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM相关话题降温，市场对AI存储的短期预期趋于平稳。讨论焦点从产能紧缺逐渐转移至不同HBM代际的技术演进与实际部署成本。"
+      "summary": "尽管韩国出口数据显示HBM和存储价格大涨，但社区讨论热度却出现降温，情绪从恐慌性紧缺转向对价格持续性与下游承受能力的观望。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国内晶圆厂与先进制程讨论暂归平静，等待新的技术突破或政策信号。社区情绪较为理性，正专注跟踪成熟制程的产能利用率恢复情况。"
+      "summary": "国内晶圆厂相关讨论热度下降，社区情绪趋于平静，目前处于技术突破的消化期，缺乏新的重大刺激点，关注点转向成熟制程的产能利用率。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题热度回落，行业进入低调的落地验证与研发期。社区对全流程替代的难度有了更客观的认知，情绪偏向务实。"
+      "summary": "国产EDA话题热度回落，讨论从初期的政策期待转向实际工具验证与客户导入的务实阶段，社区对国产替代的节奏预期趋于理性。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测板块讨论减少，市场关注点暂时转移至上游芯片设计复苏情况。传统封测需求平淡，先进封装仍是该领域唯一亮点。"
+      "summary": "封测板块讨论降温，市场对传统OSAT的关注度减弱，焦点被先进封装的长期趋势稀释，社区正在寻找传统封测向先进封装转型的投资逻辑。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制话题降温，短期内无重大新规刺激。社区对常态化制裁已有免疫感，讨论重心转向如何在现有限制下寻找变通方案。"
+      "summary": "制裁话题热度下降，社区对新增限制清单的敏感度降低，情绪从短期应激转向长期适应与合规常态化，讨论重心转移至供应链重构效果。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与英伟达讨论热度下降，目前处于新品发布后的信息消化期。社区正冷静评估Blackwell架构的实际交付时间与性价比。"
+      "summary": "AI芯片讨论热度降温，尽管Cerebras IPO和AMD新动作带来新竞争，但NVIDIA垄断格局下社区缺乏颠覆性新话题，情绪从狂热趋于理性算力性价比评估。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备材料国产化讨论暂歇，业界正专注落实前期订单与产线验证。社区情绪谨慎乐观，关注重点转向国产设备的长期运行稳定性。"
+      "summary": "设备材料国产化讨论热度回落，市场正消化前期的国产替代订单利好，进入验证与量产爬坡的静默期，社区期待下一轮财报数据验证替代成效。"
     }
   ],
   "items": [
     {
-      "title": "使用全波电磁仿真设计宽带LPDA馈源反射面天线",
+      "title": "使用全波电磁仿真设计宽带LPDA馈电反射面天线",
       "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
       "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
       "published": "Fri, 17 Apr 2026 14:00:50 +0000",
@@ -129,159 +134,349 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "全波电磁仿真在天线设计中至关重要，能显著提高复杂结构如LPDA馈源反射面的设计精度。",
-        "随着射频与毫米波应用增加，EDA工具在电磁仿真领域的需求持续增长。"
+        "全波电磁仿真在天线等射频器件设计中不可或缺，能有效提升设计精度与缩短研发周期。",
+        "EDA工具在射频与微波领域的应用深度持续增加，正推动5G及下一代无线系统的底层硬件创新。"
       ],
       "actions": [
-        "射频与天线工程师应关注并引入全波仿真工具以优化高频天线设计流程。",
-        "EDA供应商可针对5G/6G天线设计推出更优化的全波仿真解决方案。"
+        "射频设计工程师应关注并引入最新的全波EM仿真工具，以优化宽带天线的性能指标。",
+        "EDA厂商可加强射频仿真模块的本地化支持与客户培训，抢占细分市场。"
       ],
       "glossary": [
         {
           "term": "LPDA",
-          "desc": "对数周期偶极子阵列，一种具有宽频带特性的天线结构",
-          "category": "EDA/IP"
-        },
-        {
-          "term": "全波电磁仿真",
-          "desc": "Full-Wave EM Simulation，直接求解麦克斯韦方程组的精确电磁仿真方法",
+          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线设计",
           "category": "EDA/IP"
         }
       ],
       "region": "overseas",
-      "summary": "本文提供了一种使用全波电磁仿真设计对数周期偶极子阵列（LPDA）馈电抛物面反射面天线的实用指南。",
+      "summary": "文章提供了一份实用指南，介绍如何使用全波电磁仿真工具设计对数周期偶极子阵列（LPDA）馈电的抛物面反射面天线。",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "市场简报：消费者会开始“认输”吗？| Morningstar",
-      "url": "https://www.morningstar.com/markets/markets-brief-will-consumer-start-crying-uncle",
-      "description": "Plus: Cerebras’ IPO, the tech stocks leading the EM rally, unicorn concentration, and the April CPI.",
+      "title": "IonQ与SkyWater合并获批，量子制造成为焦点",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-skywater-merger-approval-puts-121207049.html",
+      "description": "SkyWater Technology shareholders have approved the merger agreement with IonQ. The companies currently expect the deal to close in the second or third quarter of 2026, subject to regulatory approvals. The acquisition is intended to combine IonQ's quantum computing focus with SkyWater's ...",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "Cerebras的IPO成为科技股和半导体市场情绪的重要风向标。",
-        "宏观经济指标（如CPI）直接影响消费端对科技及电子产品的购买力。"
+        "量子计算公司与传统晶圆代工厂的合并，标志着量子硬件制造正从实验室走向规模化与商业化。",
+        "此次合并将推动硅基量子芯片的晶圆级制造进程，缩短量子计算产业链从设计到落地的距离。"
       ],
       "actions": [
-        "投资者需密切关注CPI等宏观数据对半导体终端消费市场的传导效应。",
-        "跟踪Cerebras等AI芯片独角兽的上市表现，评估AI硬件赛道整体估值。"
+        "晶圆代工厂应密切关注量子芯片制造的特殊工艺需求（如极低温兼容），提前布局相关产能与研发。",
+        "投资者可追踪量子计算硬件供应链的整合趋势，寻找潜在的材料与设备合作机会。"
       ],
       "glossary": [
         {
-          "term": "CPI",
-          "desc": "消费者物价指数，衡量通货膨胀水平的重要宏观经济指标",
-          "category": "宏观经济"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Morningstar市场简报关注消费者韧性，并提及Cerebras的IPO、科技股走势及CPI数据。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "需求旺盛，Cerebras将IPO目标提高至48亿美元",
-      "url": "https://www.asatunews.co.id/en/cerebras-increases-ipo-target-valuation",
-      "description": "Chipmaker Cerebras Systems raises its IPO price range to $160 per share, aiming for a $4.8 billion debut as AI hardware demand surges on Monday.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AI算力需求持续火热，非传统GPU架构（如晶圆级计算）正获得资本市场高度认可。",
-        "Cerebras的高估值反映了市场对打破NVIDIA垄断的替代AI硬件方案的强烈渴望。"
-      ],
-      "actions": [
-        "AI芯片初创企业可参考Cerebras的上市路径，强化自身差异化架构的资本故事。",
-        "供应链企业应提前评估Cerebras晶圆级芯片的封装与制造需求，抢占合作先机。"
-      ],
-      "glossary": [
-        {
-          "term": "IPO",
-          "desc": "首次公开募股，公司首次向公众投资者发售股票",
-          "category": "金融"
+          "term": "IonQ",
+          "desc": "一家专注于离子阱量子计算的硬件和软件公司",
+          "category": "设计公司"
         },
         {
-          "term": "晶圆级计算",
-          "desc": "Wafer-scale computing，将整个晶圆作为单一巨大芯片的计算架构",
-          "category": "芯片架构"
+          "term": "SkyWater",
+          "desc": "美国本土的特种半导体晶圆代工厂",
+          "category": "制造"
         }
       ],
       "region": "overseas",
-      "summary": "受AI硬件需求激增推动，芯片制造商Cerebras Systems将其IPO股价范围提高至每股160美元，目标估值达48亿美元。",
-      "tag_category": "EDA/IP"
+      "summary": "SkyWater Technology股东已批准与量子计算公司IonQ的合并协议，预计交易将在2026年第二或第三季度完成，需等待监管批准。",
+      "tag_category": "综合"
     },
     {
-      "title": "今日美股市场：实时更新 10.05.2026",
-      "url": "https://ts2.tech/en/stock-market-today-10-05-2026/",
-      "description": "Investors should monitor cash burn trends and potential funding needs carefully, but the current cash position offers some reassurance amid growth challenges. May 10, 2026, 7:23 PM EDT. Cerebras Systems plans to raise its initial public offering (IPO) price range to $150-$160 per share from $115-$125, aiming to raise about $4.8 billion. The AI chipmaker ...",
+      "title": "Which companies led the largest recent mergers & acquisitions? | Intellizence",
+      "url": "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/",
+      "description": "Discover which companies led the largest mergers and acquisitions in 2025. Subscribe to Intellizence to get insights on top M&A data by value, industry, and region.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Discover which companies led the largest mergers and acquisitions in 2025. Subscribe to Intellizence to get insights on top M&A data by value, industr",
+      "tag_category": "综合"
+    },
+    {
+      "title": "英伟达、AMD、博通及现在的Cerebras：AI芯片交易迎来新玩家",
+      "url": "https://www.benzinga.com/markets/ipos/26/05/52452702/nvidia-amd-broadcom-and-now-cerebras-ai-chip-trade-gets-a-new-name",
+      "description": "Cerebras Systems' IPO is expected this week, bringing fresh competition to the AI chip trade.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "高增长科技企业（如Cerebras）在扩张期的现金消耗是衡量其财务健康度的关键。",
-        "充足的现金储备是AI芯片公司在研发长周期中抵御宏观风险的核心护城河。"
+        "Cerebras凭借其晶圆级芯片（WSE）的独特架构进入公开市场，将加剧AI算力硬件的多元化竞争。",
+        "AI芯片赛道不再仅是GPU巨头垄断，专为大模型训练优化的专用架构芯片正获得资本市场青睐。"
       ],
       "actions": [
-        "投资机构需建立针对半导体初创企业的现金流动态监测模型。",
-        "芯片企业CFO应平衡研发投入与现金储备，确保在资本寒冬下的生存能力。"
+        "供应链企业需评估Cerebras晶圆级芯片对先进封装和制造工艺的特殊要求，探索合作可能。",
+        "AI算力采购方应将Cerebras纳入评估体系，探索其在特定大模型训练上的性价比与能效优势。"
       ],
       "glossary": [
         {
-          "term": "Cash Burn",
-          "desc": "现金消耗，指初创公司消耗其现金储备的速率",
-          "category": "金融"
+          "term": "Cerebras",
+          "desc": "研发晶圆级AI芯片的半导体公司",
+          "category": "设计公司"
+        },
+        {
+          "term": "WSE",
+          "desc": "Wafer-Scale Engine，晶圆级引擎，Cerebras的核心芯片架构",
+          "category": "设计公司"
         }
       ],
       "region": "overseas",
-      "summary": "投资者应密切关注现金消耗趋势和潜在资金需求，但目前的现金头寸在增长挑战中提供了一定保障。",
+      "summary": "Cerebras Systems的IPO预计将于本周进行，为AI芯片市场带来新的竞争者与投资标的。",
       "tag_category": "EDA/IP"
     },
     {
-      "title": "全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日",
-      "url": "https://chejiahao.autohome.com.cn/info/25266221",
-      "description": "全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日\n\n酱酱侃车\n\n车家号·0浏览·2026-04-20 22:37 · 北京\n\n\"这不是汽车，这是具身智能机器人的开山之作。\"\n\n4月20日，理想汽车CEO李想在社交媒体上的一句话，为即将亮相的全新一代理想L9(参数|询",
-      "published": "2026-05-15T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
+      "title": "Zyphra与AMD推出基于15MW MI355X GPU的新型开源AI平台",
+      "url": "https://wccftech.com/zyphra-amd-launch-open-ai-platform-powered-by-15mw-mi355x-gpus/",
+      "description": "Zyphra has partnered with AMD to launch its brand new open-source AI platform that rivals DeepSeek &#38; is based in the US, all powered by MI355X GPUs. Zyphra Cloud - The DeepSeek of China Is Here &#38; It Is Powered By An All-AMD Powerhouse With 15MW of Compute Through MI355X &#38; Expansion To Fu",
+      "published": "Mon, 11 May 2026 20:40:06 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
       "lang": "en",
       "tags": [],
       "insights": [
-        "多激光雷达与全线控底盘配置标志着国产高端智能电动车对高阶自动驾驶算力与传感融合的硬性需求。",
-        "智能底盘与激光雷达的普及将直接拉动车规级MCU、SoC及光电芯片的出货量。"
+        "AMD正通过开源生态和MI355X/MI450等新一代Instinct加速卡，强力反击NVIDIA在AI算力市场的垄断。",
+        "开源AI平台的兴起表明，软硬件协同优化正成为打破闭源生态壁垒、降低算力成本的关键路径。"
       ],
       "actions": [
-        "车规芯片供应商应加速适配多激光雷达并发处理与线控底盘实时控制的需求。",
-        "半导体厂商需关注新能源车企的电子电气架构演进，提前布局高集成度域控制器芯片。"
+        "国内AI算法团队应积极适配AMD的ROCm生态及相关推理插件，降低对单一硬件生态的依赖。",
+        "服务器整机厂商需提前规划支持MI355X及MI450系列的高密度液冷整机柜架构与供电方案。"
       ],
       "glossary": [
         {
-          "term": "激光雷达",
-          "desc": "LiDAR，利用激光测量距离的遥感技术，自动驾驶核心传感器",
-          "category": "传感器"
-        },
-        {
-          "term": "线控底盘",
-          "desc": "By-wire chassis，通过电子信号控制底盘执行机构的系统",
-          "category": "汽车电子"
+          "term": "MI355X",
+          "desc": "AMD下一代Instinct系列AI加速卡",
+          "category": "设计公司"
         }
       ],
-      "region": "domestic",
-      "summary": "理想L9 Livis车型定档5月15日发布，配备全线控底盘、四颗激光雷达及420km纯电续航。",
+      "region": "overseas",
+      "summary": "Zyphra与AMD合作推出基于MI355X GPU的新型开源AI平台，旨在与DeepSeek等竞争，并计划扩展至MI450及后续产品。",
+      "tag_category": "设计公司"
+    },
+    {
+      "title": "韩国DRAM与NAND出口统计显示价格大幅上涨：SSD上涨63%，内存上涨29%，HBM上涨19%",
+      "url": "https://wccftech.com/koreas-dram-nand-export-massive-prices-bump-versus-last-month-ssd-memory-up-63-percent/",
+      "description": "Korean customs export/import data has been updated, showcasing the massive DRAM &#38; NAND price surge that will affect global memory and SSD markets. NAND &#38; DRAM Demand Has Swollen To Record Levels &#38; Korean Semiconductor Firms Are Earning Big Time Due To Memory &#38; SSD Price Surges The la",
+      "published": "Mon, 11 May 2026 19:55:24 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "存储器价格的全线暴涨反映出全球AI算力及终端设备对内存需求的急剧膨胀，供应链正面临严重的供不应求。",
+        "HBM价格持续走高但涨幅相对较小，说明AI高带宽内存的产能爬坡仍难以满足GPU厂商的激增需求。"
+      ],
+      "actions": [
+        "终端设备厂商需重新评估下半年的BOM成本，提前锁定存储器长期采购协议以对冲涨价风险。",
+        "存储模组及SSD厂商应抓住价格上行周期，优化库存管理并加速高附加值产品出货。"
+      ],
+      "glossary": [
+        {
+          "term": "HBM",
+          "desc": "High Bandwidth Memory，高带宽内存，常用于AI加速卡",
+          "category": "存储"
+        }
+      ],
+      "region": "overseas",
+      "summary": "韩国海关最新进出口数据显示，DRAM与NAND价格出现大幅飙升，SSD价格上涨63%，内存上涨29%，HBM上涨19%。",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Star Fox (2026) — Everything We Know About Nintendo’s Star Fox 64 Remake",
+      "url": "https://wccftech.com/roundup/star-fox-switch-2-everything-we-know/",
+      "description": "After nearly a decade of dormancy, one of Nintendo's most beloved franchises is finally making its comeback. Star Fox was announced during a surprise Nintendo Direct in May 2026 as a full remake of the classic Star Fox 64, and it's coming sooner than anyone expected. Originally released on Nintendo ",
+      "published": "Mon, 11 May 2026 19:30:00 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "After nearly a decade of dormancy, one of Nintendo's most beloved franchises is finally making its comeback. Star Fox was announced during a surprise ",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Subnautica 2 Storms Toward Early Access Launch This Week With Over 5 Million Wishlists on Steam, Pre-Orders Now Live",
+      "url": "https://wccftech.com/subnautica-2-pre-orders-live-5-million-wishlists/",
+      "description": "Unknown Worlds has opened up pre-orders for Subnautica 2 as the game surpasses 5 million wishlists on Steam ahead of its early access launch later this week on May 14, 2026. Subnautica 2 has reportedly been the most wishlisted game on Steam, and it will almost definitely be one of the biggest launch",
+      "published": "Mon, 11 May 2026 19:18:50 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Unknown Worlds has opened up pre-orders for Subnautica 2 as the game surpasses 5 million wishlists on Steam ahead of its early access launch later thi",
+      "tag_category": "综合"
+    },
+    {
+      "title": "AMD的vLLM-ATOM插件大幅提升Instinct MI350和MI400加速卡上的大模型推理性能",
+      "url": "https://wccftech.com/amd-vllm-atom-plugin-supercharges-deepseek-r1-kimi-k2-gpt-oss-120b-ai-llm-inference-on-instinct-mi350-mi400/",
+      "description": "AMD has introduced a new plugin called vLLM-ATOM, which supercharges AI LLMs while supporting its Instinct MI350 and MI400 GPUs. AMD Offers Big Boost To AI LLMs With Its vLLM-ATOM Plugin That Works Seamlessly With vLLM &#38; Accelerates AI Inference Performance The vLLM-ATOM is a purpose-built plugi",
+      "published": "Mon, 11 May 2026 18:40:05 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AMD通过软件生态优化（如vLLM插件）弥补硬件生态短板，提升其GPU在开源大模型推理市场的竞争力。",
+        "针对特定大模型的硬件级优化插件，正成为AI芯片厂商争夺开发者心智与市场份额的新战场。"
+      ],
+      "actions": [
+        "数据中心运维团队应测试vLLM-ATOM插件在AMD平台上的实际吞吐量提升，评估替换推理集群的可行性。",
+        "AI应用开发者需关注各硬件厂商的推理加速插件，选择最优的软硬协同部署方案以降低推理成本。"
+      ],
+      "glossary": [
+        {
+          "term": "vLLM",
+          "desc": "一种高吞吐量、内存高效的大语言模型推理和服务引擎",
+          "category": "EDA/IP"
+        }
+      ],
+      "region": "overseas",
+      "summary": "AMD推出全新vLLM-ATOM插件，显著提升了DeepSeek-R1、Kimi-K2等大语言模型在Instinct MI350和MI400 GPU上的推理性能。",
+      "tag_category": "设计公司"
+    },
+    {
+      "title": "Lies of P Studio Round8 is Hiring an “AI Creator” to use GenAI Tech to Speed Up Art Production",
+      "url": "https://wccftech.com/lies-of-p-studio-hiring-ai-creator-to-use-genai-to-speed-up-art-production/",
+      "description": "As we all anxiously wait for Lies of P developer Round8 Studio to finish working on the upcoming sequel to its stellar 2023 action game now that the game's major DLC expansion is out, a job listing for Round8 has been spotted online that has fans concerned for the sequel. Round8 Studio is hiring for",
+      "published": "Mon, 11 May 2026 18:27:02 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "As we all anxiously wait for Lies of P developer Round8 Studio to finish working on the upcoming sequel to its stellar 2023 action game now that the g",
+      "tag_category": "综合"
+    },
+    {
+      "title": "PowerColor Hellhound RX 9070首次跌破600美元，逆势对抗全行业GPU涨价潮",
+      "url": "https://wccftech.com/amd-radeon-rx-9070-drops-below-600/",
+      "description": "It might not be the most powerful GPU on the planet, but it's certainly the most powerful for under $600. PowerColor Hellhound Radeon RX 9070 16 GB Listed at $586 at a Time When the GPUs are Selling for 20% Higher Price The Radeon RX 9070 might be 10-15% slower than its XT variant, but its usual sel",
+      "published": "Mon, 11 May 2026 15:49:50 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "消费级GPU局部降价可能反映了特定型号库存压力或AMD抢占中端市场份额的战略，与AI算力GPU的紧缺涨价形成鲜明对比。",
+        "游戏与消费级显卡市场正与AI专业算力市场脱钩，前者面临需求疲软与价格战，后者则供不应求。"
+      ],
+      "actions": [
+        "PC OEM厂商可利用消费级GPU的短暂价格窗口，优化中端游戏本和台式机的成本结构。",
+        "渠道商需警惕消费级显卡价格波动，避免在下行周期中囤积过多中低端库存。"
+      ],
+      "glossary": [
+        {
+          "term": "RX 9070",
+          "desc": "AMD基于RDNA架构的下一代消费级显卡",
+          "category": "设计公司"
+        }
+      ],
+      "region": "overseas",
+      "summary": "PowerColor Hellhound Radeon RX 9070显卡价格首次跌破600美元至586美元，在当前全行业GPU普遍涨价的环境中逆势下跌。",
+      "tag_category": "设计公司"
+    },
+    {
+      "title": "Nintendo Stock Craters 12% After Switch 2 Price Hike and Bleak FY27 Forecast, Yet Furukawa Shrugs Off Momentum Fears",
+      "url": "https://wccftech.com/nintendo-stock-falls-amidst-nintendo-switch-2-price-hike-but-president-furukawa-isnt-phased/",
+      "description": "Nintendo's share price took a 12% hit over the weekend following the confirmation of a price hike for the Nintendo Switch 2 set to go into effect this September, but that wasn't the only reason for the double-digit decline. An admittance that Nintendo's biggest titles are taking longer to make, fore",
+      "published": "Mon, 11 May 2026 15:42:26 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Nintendo's share price took a 12% hit over the weekend following the confirmation of a price hike for the Nintendo Switch 2 set to go into effect this",
+      "tag_category": "综合"
+    },
+    {
+      "title": "ASUS Resurrects Its Legendary 2006 ROG Crosshair Copper Heatsink For a 20th Anniversary Motherboard",
+      "url": "https://wccftech.com/asus-teases-rog-20th-anniversary-edition-motherboard/",
+      "description": "ASUS teased a new 20th anniversary edition on its social media handles, taking us back to the 2000 era with the iconic copper heatsink. ASUS Brings Back 2006 ROG Crosshair Motherboard Memories by Dropping a Teaser for its Upcoming 20th Anniversary Edition The launch of the 2006 ROG Crosshair motherb",
+      "published": "Mon, 11 May 2026 14:53:09 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "ASUS teased a new 20th anniversary edition on its social media handles, taking us back to the 2000 era with the iconic copper heatsink. ASUS Brings Ba",
+      "tag_category": "综合"
+    },
+    {
+      "title": "Stellar Blade 2 is “Progressing Smoothly,” Says Shift Up, More Details on SB2 and Project Spirits “Within the Year”",
+      "url": "https://wccftech.com/stellar-blade-2-progressing-smoothly-says-shift-up-more-details-in-2026/",
+      "description": "After Stellar Blade was one of the most popular and successful action games in 2024, it was hardly a surprise when developer Shift Up confirmed that it was working on a sequel less than a year after the first game's release. While there's a lot we still don't know about what is just known as Stellar",
+      "published": "Mon, 11 May 2026 14:16:40 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "After Stellar Blade was one of the most popular and successful action games in 2024, it was hardly a surprise when developer Shift Up confirmed that i",
+      "tag_category": "综合"
+    },
+    {
+      "title": "为什么掌握EVM对下一代无线系统至关重要",
+      "url": "https://content.knowledgehub.wiley.com/understanding-evm-error-vector-magnitude-in-modern-wireless-communications/",
+      "description": "<img src=\"https://spectrum.ieee.org/media-library/rohde-schwarz-logo-with-slogan-make-ideas-real-and-rs-emblem-in-diamond-shape.png?id=66678514&width=980\"/><br/><br/><p>A comprehensive guide to error vector magnitude (EVM), the primary metric for quantifying modulation accuracy in Wi-Fi, LTE, and 5G",
+      "published": "Mon, 11 May 2026 10:00:01 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "随着5G/6G及Wi-Fi 7等复杂调制技术的应用，EVM成为评估射频发射机性能和信号质量的核心指标。",
+        "射频测试设备厂商需提供更精准的EVM测量解决方案，以应对更高频段和更宽带宽的测试挑战。"
+      ],
+      "actions": [
+        "射频工程师应深入理解EVM的测量原理及影响因素，优化下一代无线产品的发射机线性度设计。",
+        "测试测量企业应加速推出支持毫米波及超宽带EVM分析的高端仪器，抢占5G/6G测试市场。"
+      ],
+      "glossary": [
+        {
+          "term": "EVM",
+          "desc": "Error Vector Magnitude，误差矢量幅度，衡量数字调制信号质量的指标",
+          "category": "测试"
+        }
+      ],
+      "region": "overseas",
+      "summary": "文章详细介绍了误差矢量幅度（EVM）在下一代无线系统中的重要性，并提供了全面的测试指南。",
       "tag_category": "综合"
     }
   ],
   "stats": {
-    "total_raw": 82,
-    "after_dedup": 76,
+    "total_raw": 94,
+    "after_dedup": 82,
     "sources": {
-      "Exa": 2,
-      "RSS": 65,
-      "Brave": 9
+      "RSS": 60,
+      "Brave": 22
     }
   }
 }

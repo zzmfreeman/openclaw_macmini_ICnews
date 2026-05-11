@@ -2716,5 +2716,95 @@
     "title": "全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日",
     "published": "2026-05-15T00:00:00.000Z",
     "addedAt": "2026-05-11T20:12:00+08:00"
+  },
+  {
+    "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
+    "title": "使用全波电磁仿真设计宽带LPDA馈电反射面天线",
+    "published": "Fri, 17 Apr 2026 14:00:50 +0000",
+    "addedAt": "2026-05-12T06:16:00+08:00"
+  },
+  {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-skywater-merger-approval-puts-121207049.html",
+    "title": "IonQ与SkyWater合并获批，量子制造成为焦点",
+    "published": "",
+    "addedAt": "2026-05-12T06:16:00+08:00"
+  },
+  {
+    "url": "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/",
+    "title": "Which companies led the largest recent mergers & acquisitions? | Intellizence",
+    "published": "",
+    "addedAt": "2026-05-12T06:16:00+08:00"
+  },
+  {
+    "url": "https://www.benzinga.com/markets/ipos/26/05/52452702/nvidia-amd-broadcom-and-now-cerebras-ai-chip-trade-gets-a-new-name",
+    "title": "英伟达、AMD、博通及现在的Cerebras：AI芯片交易迎来新玩家",
+    "published": "",
+    "addedAt": "2026-05-12T06:16:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/zyphra-amd-launch-open-ai-platform-powered-by-15mw-mi355x-gpus/",
+    "title": "Zyphra与AMD推出基于15MW MI355X GPU的新型开源AI平台",
+    "published": "Mon, 11 May 2026 20:40:06 +0000",
+    "addedAt": "2026-05-12T06:16:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/koreas-dram-nand-export-massive-prices-bump-versus-last-month-ssd-memory-up-63-percent/",
+    "title": "韩国DRAM与NAND出口统计显示价格大幅上涨：SSD上涨63%，内存上涨29%，HBM上涨19%",
+    "published": "Mon, 11 May 2026 19:55:24 +0000",
+    "addedAt": "2026-05-12T06:16:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/roundup/star-fox-switch-2-everything-we-know/",
+    "title": "Star Fox (2026) — Everything We Know About Nintendo’s Star Fox 64 Remake",
+    "published": "Mon, 11 May 2026 19:30:00 +0000",
+    "addedAt": "2026-05-12T06:16:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/subnautica-2-pre-orders-live-5-million-wishlists/",
+    "title": "Subnautica 2 Storms Toward Early Access Launch This Week With Over 5 Million Wishlists on Steam, Pre-Orders Now Live",
+    "published": "Mon, 11 May 2026 19:18:50 +0000",
+    "addedAt": "2026-05-12T06:16:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/amd-vllm-atom-plugin-supercharges-deepseek-r1-kimi-k2-gpt-oss-120b-ai-llm-inference-on-instinct-mi350-mi400/",
+    "title": "AMD的vLLM-ATOM插件大幅提升Instinct MI350和MI400加速卡上的大模型推理性能",
+    "published": "Mon, 11 May 2026 18:40:05 +0000",
+    "addedAt": "2026-05-12T06:16:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/lies-of-p-studio-hiring-ai-creator-to-use-genai-to-speed-up-art-production/",
+    "title": "Lies of P Studio Round8 is Hiring an “AI Creator” to use GenAI Tech to Speed Up Art Production",
+    "published": "Mon, 11 May 2026 18:27:02 +0000",
+    "addedAt": "2026-05-12T06:16:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/amd-radeon-rx-9070-drops-below-600/",
+    "title": "PowerColor Hellhound RX 9070首次跌破600美元，逆势对抗全行业GPU涨价潮",
+    "published": "Mon, 11 May 2026 15:49:50 +0000",
+    "addedAt": "2026-05-12T06:16:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/nintendo-stock-falls-amidst-nintendo-switch-2-price-hike-but-president-furukawa-isnt-phased/",
+    "title": "Nintendo Stock Craters 12% After Switch 2 Price Hike and Bleak FY27 Forecast, Yet Furukawa Shrugs Off Momentum Fears",
+    "published": "Mon, 11 May 2026 15:42:26 +0000",
+    "addedAt": "2026-05-12T06:16:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/asus-teases-rog-20th-anniversary-edition-motherboard/",
+    "title": "ASUS Resurrects Its Legendary 2006 ROG Crosshair Copper Heatsink For a 20th Anniversary Motherboard",
+    "published": "Mon, 11 May 2026 14:53:09 +0000",
+    "addedAt": "2026-05-12T06:16:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/stellar-blade-2-progressing-smoothly-says-shift-up-more-details-in-2026/",
+    "title": "Stellar Blade 2 is “Progressing Smoothly,” Says Shift Up, More Details on SB2 and Project Spirits “Within the Year”",
+    "published": "Mon, 11 May 2026 14:16:40 +0000",
+    "addedAt": "2026-05-12T06:16:00+08:00"
+  },
+  {
+    "url": "https://content.knowledgehub.wiley.com/understanding-evm-error-vector-magnitude-in-modern-wireless-communications/",
+    "title": "为什么掌握EVM对下一代无线系统至关重要",
+    "published": "Mon, 11 May 2026 10:00:01 +0000",
+    "addedAt": "2026-05-12T06:16:00+08:00"
   }
 ]
