@@ -1,6 +1,6 @@
 {
-  "version": "v20260510-1304",
-  "generatedAt": "2026-05-10T13:04:00+08:00",
+  "version": "v20260511-1307",
+  "generatedAt": "2026-05-11T13:07:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [
@@ -20,49 +20,29 @@
       "category": "封装"
     },
     {
-      "term": "LPDA",
-      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线结构",
-      "category": "EDA/IP"
+      "term": "Silicon Photonics",
+      "desc": "硅光子技术，利用硅基材料实现光信号的产生、传输和处理的集成技术",
+      "category": "光电子"
     },
     {
-      "term": "Full-Wave EM Simulation",
-      "desc": "全波电磁仿真，求解麦克斯韦方程组的完整形式以分析电磁特性的方法",
-      "category": "EDA/IP"
+      "term": "Functional Verification",
+      "desc": "功能验证，确保芯片设计在制造前符合其功能规格和预期行为的流程",
+      "category": "EDA/验证"
     },
     {
-      "term": "2nm",
-      "desc": "半导体制造的先进工艺节点，代表极高的晶体管密度和性能功耗比",
-      "category": "制造"
+      "term": "RISC-V",
+      "desc": "一种开源的指令集架构(ISA)，基于精简指令集计算原则，可自由用于学术或商业设计",
+      "category": "IP/架构"
     },
     {
-      "term": "TSMC",
-      "desc": "台湾积体电路制造公司，全球最大的先进制程晶圆代工半导体制造厂",
-      "category": "制造"
+      "term": "Formal Verification",
+      "desc": "形式化验证，使用数学逻辑和算法证明硬件设计符合其规格属性的方法",
+      "category": "EDA/验证"
     },
     {
-      "term": "Pre-IPO",
-      "desc": "首次公开募股前，指公司在正式上市前进行的融资阶段，通常面向特定机构或高净值人群",
-      "category": "资本"
-    },
-    {
-      "term": "线控底盘",
-      "desc": "By-wire chassis，通过电子信号控制底盘执行机构，取代传统机械连接，是实现高阶自动驾驶的基础",
-      "category": "汽车电子"
-    },
-    {
-      "term": "激光雷达",
-      "desc": "LiDAR，通过发射激光束测量距离的传感器，常用于自动驾驶3D环境感知",
-      "category": "传感器"
-    },
-    {
-      "term": "ISCA",
-      "desc": "International Symposium on Computer Architecture，国际计算机体系结构研讨会，计算机架构领域顶级学术会议",
-      "category": "学术"
-    },
-    {
-      "term": "马赫100",
-      "desc": "理想汽车自研的智能驾驶/座舱核心计算芯片代号",
-      "category": "汽车电子"
+      "term": "Hardware Emulation",
+      "desc": "硬件仿真，使用专用硬件系统（如FPGA阵列）模拟芯片设计以加速验证的过程",
+      "category": "EDA/验证"
     }
   ],
   "topic_pulse": [
@@ -71,227 +51,205 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS及先进封装的讨论热度有所降温，主要因产能扩张预期逐渐明朗，短期供需紧张情绪缓解，市场关注点转向长期产能分配。"
+      "summary": "近期关于CoWoS产能和先进封装的讨论热度有所降温，社区情绪趋于平稳。暂无引发广泛关注的突发性产能或技术突破新闻，市场进入信息消化期。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度下降，市场对HBM产能短缺的焦虑暂缓，社区讨论从抢产能转向关注HBM4等下一代技术的实际落地与长期供应协议。"
+      "summary": "HBM及AI存储话题热度下降，市场对HBM产能紧缺的焦虑情绪有所缓解。社区暂无新的重大讨论焦点，关注度暂时回落。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中国Fab与先进制程讨论热度回落，缺乏新的重大突破消息刺激，社区情绪趋于观望，讨论焦点集中在现有产线的良率提升与成熟制程的优化。"
+      "summary": "中国晶圆厂与先进制程话题热度回落，相关制裁或突破性进展的讨论暂告一段落。社区目前处于观望期，情绪较为平淡。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题降温，短期内无重磅替代产品发布，社区讨论从情绪驱动转向务实的技术验证与生态建设，对国产工具的实际可用性要求更高。"
+      "summary": "国产EDA/IP关注度降温，缺乏新的政策刺激或重磅产品发布。社区讨论暂时陷入沉寂，等待下一个行业催化剂。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT板块热度下降，传统封装需求平稳，先进封装产能瓶颈暂缓，社区缺乏新焦点，讨论多集中于企业财报与常规产能利用率。"
+      "summary": "封测OSAT板块热度下降，传统封装与先进封装的讨论均趋于平淡。市场暂无明显情绪波动，缺乏热点事件驱动。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度走低，近期无新增严厉政策落地，市场对现有规则已逐步消化并适应，社区情绪从恐慌转为常态化应对。"
+      "summary": "出口管制与制裁话题热度降温，近期无新增制裁清单或政策传闻。社区紧张情绪有所缓解，讨论重心暂时转移。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与NVIDIA话题降温，随着短期算力需求预期稳定，社区对NVIDIA垄断地位的讨论暂趋平静，关注点开始分散至推理侧算力与竞品动态。"
+      "summary": "AI芯片及英伟达相关讨论热度回落，市场对英伟达财报和新品的狂热情绪暂歇。社区进入信息消化与技术深挖阶段，缺乏新爆点。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化讨论热度下降，市场进入政策消化与产能爬坡期，社区关注点从概念炒作转向实际产线验证与国产设备良率数据的追踪。"
+      "summary": "设备与材料国产化话题热度下降，缺乏新的国产替代里程碑事件。社区讨论热度暂时走低，情绪相对稳定。"
     }
   ],
   "items": [
     {
-      "title": "使用全波电磁仿真设计宽带LPDA馈电反射器天线",
-      "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
-      "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
-      "published": "Fri, 17 Apr 2026 14:00:50 +0000",
+      "title": "Scintil Photonics首席执行官Matt Crowley访谈",
+      "url": "https://semiwiki.com/ceo-interviews/369014-ceo-interview-with-matt-crowley-of-scintil-photonics/",
+      "description": "<p>Matt Crowley is Chief Executive Officer of Scintil Photonics. A physicist by training, Matt built his career transitioning advanced semiconductor technologies from development to volume manufacturing. Before Scintil, he led MEMS technology company Vesper Technologies to high-volume production and",
+      "published": "Sun, 10 May 2026 21:00:51 +0000",
       "source": "RSS",
       "source_type": "RSS",
       "lang": "en",
       "tags": [],
       "insights": [
-        "全波电磁仿真在天线设计中至关重要，能显著提高复杂结构的设计精度与效率。",
-        "EDA工具正从传统芯片设计向更广泛的系统级电磁仿真延伸，应用场景不断拓宽。"
+        "硅光子技术从实验室走向量产是当前光互联领域的核心挑战与机遇，需要跨越工艺与封装的鸿沟。",
+        "具备物理背景且深谙量产之道的复合型领导者，对硬科技初创企业的商业化落地至关重要。"
       ],
       "actions": [
-        "射频与天线工程师应关注全波仿真工具的最新进展，提升复杂天线系统的设计效率。",
-        "EDA供应商可探索系统级电磁仿真市场的拓展机会，满足通信与汽车电子的需求。"
+        "关注硅光子代工生态的成熟度，评估其在高带宽计算场景下替代传统互联的潜力。",
+        "初创半导体企业应重视从研发到量产的过渡管理，尽早建立可靠的供应链与制造合作伙伴关系。"
       ],
       "glossary": [
         {
-          "term": "LPDA",
-          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线结构",
-          "category": "EDA/IP"
-        },
-        {
-          "term": "Full-Wave EM Simulation",
-          "desc": "全波电磁仿真，求解麦克斯韦方程组的完整形式以分析电磁特性的方法",
-          "category": "EDA/IP"
+          "term": "Silicon Photonics",
+          "desc": "硅光子技术，利用硅基材料实现光信号的产生、传输和处理的集成技术",
+          "category": "光电子"
         }
       ],
       "region": "overseas",
-      "summary": "本文提供了一份使用全波电磁仿真设计对数周期偶极子阵列（LPDA）馈电抛物面反射器天线的实用指南。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "高通权衡AI优势之际，苹果锁定台积电2nm产能",
-      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-qcom/qualcomm/news/qualcomm-weighs-ai-upside-as-apple-locks-in-tsmc-2nm-supply",
-      "description": "Apple has reportedly secured over 50% of TSMC’s initial 2nm chip production capacity, limiting early access for other customers such as NasdaqGS:QCOM. Qualcomm is expanding further into AI and data center chips, including a US$2.3b data center acquisition and a plan to ship custom data center ...",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "苹果对先进制程的垄断性抢产能策略，持续挤压其他头部芯片厂商的首发空间与议价权。",
-        "高通向AI和数据中心转型，反映出手机芯片厂商在先进制程受限及消费电子疲软下的突围路径。"
-      ],
-      "actions": [
-        "非苹果阵营的芯片设计公司需提前规划2nm及以下制程的产能备选方案，如多重采购或转向封装优化。",
-        "供应链企业应密切关注高通在AI及数据中心领域的生态布局，预判其订单转移与供应链重构趋势。"
-      ],
-      "glossary": [
-        {
-          "term": "2nm",
-          "desc": "半导体制造的先进工艺节点，代表极高的晶体管密度和性能功耗比",
-          "category": "制造"
-        },
-        {
-          "term": "TSMC",
-          "desc": "台湾积体电路制造公司，全球最大的先进制程晶圆代工半导体制造厂",
-          "category": "制造"
-        }
-      ],
-      "region": "overseas",
-      "summary": "据报道，苹果已包下台积电超50%的初始2nm芯片产能，限制了高通等客户的早期获取；高通正进一步向AI和数据中心领域扩张。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "你能投资Anthropic的Pre-IPO吗？你需要知道的一切",
-      "url": "https://www.fool.com/investing/2026/05/08/can-you-invest-in-anthropic-pre-ipo-everything-you/",
-      "description": "It is possible -- but you have to know where to look.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AI大模型初创公司的Pre-IPO投资热度不减，反映出资本市场对AI底层算力及生态的长期看好。",
-        "半导体供应链从业者需警惕AI泡沫风险，同时关注大模型厂商自研定制芯片对上游需求的拉动。"
-      ],
-      "actions": [
-        "投资者及供应链企业应关注Anthropic等大模型厂商的融资动态，评估其自研AI芯片的潜在需求。",
-        "芯片厂商可积极对接此类AI公司，探索定制化算力芯片或IP授权的合作机会。"
-      ],
-      "glossary": [
-        {
-          "term": "Pre-IPO",
-          "desc": "首次公开募股前，指公司在正式上市前进行的融资阶段，通常面向特定机构或高净值人群",
-          "category": "资本"
-        }
-      ],
-      "region": "overseas",
-      "summary": "本文探讨了如何在Anthropic正式上市前对其进行Pre-IPO投资，指出虽然可行但需要寻找特定渠道。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日",
-      "url": "https://chejiahao.autohome.com.cn/info/25266221",
-      "description": "全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日\n\n酱酱侃车\n\n车家号·0浏览·2026-04-20 22:37 · 北京\n\n\"这不是汽车，这是具身智能机器人的开山之作。\"\n\n4月20日，理想汽车CEO李想在社交媒体上的一句话，为即将亮相的全新一代理想L9(参数|询",
-      "published": "2026-05-15T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "激光雷达数量增加和线控底盘的采用，标志着智能汽车对高阶自动驾驶硬件的预埋需求正在加速。",
-        "车规级激光雷达和底盘控制芯片的市场需求将随高端车型配置下放而迎来持续增长。"
-      ],
-      "actions": [
-        "激光雷达及车规芯片供应商应加快产能爬坡与车规认证，以应对车企激进的硬件堆叠策略。",
-        "自动驾驶算法及系统集成商需针对多雷达融合及线控底盘开发更稳健的控制策略与软硬件协同方案。"
-      ],
-      "glossary": [
-        {
-          "term": "线控底盘",
-          "desc": "By-wire chassis，通过电子信号控制底盘执行机构，取代传统机械连接，是实现高阶自动驾驶的基础",
-          "category": "汽车电子"
-        },
-        {
-          "term": "激光雷达",
-          "desc": "LiDAR，通过发射激光束测量距离的传感器，常用于自动驾驶3D环境感知",
-          "category": "传感器"
-        }
-      ],
-      "region": "domestic",
-      "summary": "理想汽车L9 Livis版本定档5月15日发布，该车型配备全线控底盘、四颗激光雷达及420km纯电续航。",
+      "summary": "Scintil Photonics CEO Matt Crowley分享了其将先进半导体技术从研发推向量产制造的职业生涯经验与见解。",
       "tag_category": "综合"
     },
     {
-      "title": "汽车行业第一家！理想马赫100芯片论文刊登2026 ISCA",
-      "url": "https://chejiahao.autohome.com.cn/info/25098285",
-      "description": "汽车行业第一家！理想马赫100芯片论文刊登2026 ISCA_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n汽车行业第一家！理想马赫100芯片论文刊登2026 ISCA\n\n皆电\n\n车家号·0浏览·2026-03-30 17:47 · 广东\n\n3月30日消息，理想汽车CEO李想今日发文宣布，理想马赫100芯片研发团队的论文被2026 ISCA Industry Track录用。李想表示，理想对数据流架构的探索，获得了",
-      "published": "2026-05-15T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
+      "title": "Breker验证系统首席执行官Dave Kelf访谈",
+      "url": "https://semiwiki.com/eda/breker-verification-systems/369053-ceo-interview-with-dave-kelf-ceo-of-breker-verification-systems/",
+      "description": "<p>In the functional verification space, <a href=\"https://www.brekersystems.com/\">Breker Verification Systems</a> stands out for its vast and long-standing understanding and ability to solve many of the seemingly intractable complexity challenges, especially in the system space.</p>\n<p>I recently ta",
+      "published": "Fri, 08 May 2026 13:00:37 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
       "lang": "en",
       "tags": [],
       "insights": [
-        "车企自研芯片论文登顶顶级学术会议，标志着汽车行业在底层算力架构设计上的技术深度已达到业界前沿。",
-        "主机厂从“芯片采购者”向“架构定义者”转变，将重塑车规芯片供应链格局，传统芯片厂面临话语权削弱风险。"
+        "随着芯片设计复杂度激增，功能验证已成为制约开发周期与成本的最大瓶颈。",
+        "自动化和智能化的验证工具是提升SoC交付效率、降低人工调试依赖的关键。"
       ],
       "actions": [
-        "传统车规芯片供应商需从单纯提供标准品转向与主机厂深度联合定义芯片架构，提供定制化IP与代工服务。",
-        "供应链企业应关注主机厂自研芯片的流片及量产进度，提前布局对应的代工、封测与软件生态适配产能。"
+        "芯片设计团队应评估并引入高级验证自动化工具，以缩短验证收敛时间并提高覆盖率。",
+        "EDA供应商需深耕特定验证痛点（如系统级验证），提供针对性解决方案以建立市场护城河。"
       ],
       "glossary": [
         {
-          "term": "ISCA",
-          "desc": "International Symposium on Computer Architecture，国际计算机体系结构研讨会，计算机架构领域顶级学术会议",
-          "category": "学术"
-        },
-        {
-          "term": "马赫100",
-          "desc": "理想汽车自研的智能驾驶/座舱核心计算芯片代号",
-          "category": "汽车电子"
+          "term": "Functional Verification",
+          "desc": "功能验证，确保芯片设计在制造前符合其功能规格和预期行为的流程",
+          "category": "EDA/验证"
         }
       ],
-      "region": "domestic",
-      "summary": "理想汽车的“马赫100”芯片论文被2026年国际计算机体系结构研讨会（ISCA）收录，成为汽车行业首家获此殊荣的企业。",
+      "region": "overseas",
+      "summary": "Breker Verification Systems CEO Dave Kelf探讨了公司在功能验证领域的深厚积累及解决复杂验证挑战的能力。",
+      "tag_category": "综合"
+    },
+    {
+      "title": "RISC-V：从小众架构到战略基础",
+      "url": "https://semiwiki.com/artificial-intelligence/368958-risc-v-from-niche-architecture-to-strategic-foundation/",
+      "description": "<p>At the recent RISC-V Now by Andes conference, Aion Silicon’s presentation made one thing clear: RISC-V is no longer an emerging alternative but rather rapidly becoming foundational to modern silicon design. This conviction is not theoretical says Oliver Jones, CEO of Aion Silicon, who gave the ta",
+      "published": "Thu, 07 May 2026 17:00:42 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "RISC-V正在从边缘探索走向主流基础设施，其指令集的可定制性在AI和特定计算领域优势明显。",
+        "生态成熟度与工具链的不断完善，正在加速RISC-V在商业芯片中的规模化落地进程。"
+      ],
+      "actions": [
+        "芯片企业应将RISC-V纳入长期架构规划，探索其在差异化计算场景下的定制化潜力。",
+        "IP供应商需加快高性能RISC-V内核及配套软件工具链的开发，抢占战略生态位。"
+      ],
+      "glossary": [
+        {
+          "term": "RISC-V",
+          "desc": "一种开源的指令集架构(ISA)，基于精简指令集计算原则，可自由用于学术或商业设计",
+          "category": "IP/架构"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Aion Silicon在Andes会议上指出，RISC-V已不再是新兴替代方案，而是正迅速成为现代硅设计的战略基础架构。",
+      "tag_category": "EDA/IP"
+    },
+    {
+      "title": "将数学严谨性引入硬件世界——形式化验证之旅",
+      "url": "https://semiwiki.com/semiconductor-services/axiomise/369080-bringing-mathematical-rigour-in-the-world-of-hardware-a-journey-into-formal-verification/",
+      "description": "<p>This interview presents the first steps of Robert Simpson (R.S.), a Maths graduate who found an unexpected, but natural home in Formal Verification (FV) at Axiomise. Drawn by a desire to apply rigorous logic to real-world problems, he shares how abstract mathematical thinking translates into ensu",
+      "published": "Thu, 07 May 2026 13:00:58 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "形式化验证通过数学证明而非传统仿真来确保设计正确性，在处理复杂边界条件时具有不可替代的优势。",
+        "跨学科人才（如数学背景）正在为EDA验证领域注入新的方法论，推动验证从经验走向科学。"
+      ],
+      "actions": [
+        "对于高可靠性芯片（如汽车、安防），设计团队应增加形式化验证的比重，以彻底降低漏测风险。",
+        "半导体企业应拓宽招聘视野，吸纳数学等基础学科人才进入芯片验证领域，提升团队理论深度。"
+      ],
+      "glossary": [
+        {
+          "term": "Formal Verification",
+          "desc": "形式化验证，使用数学逻辑和算法证明硬件设计符合其规格属性的方法",
+          "category": "EDA/验证"
+        }
+      ],
+      "region": "overseas",
+      "summary": "数学专业毕业生Robert Simpson分享了其在Axiomise从事形式化验证(FV)的心路历程，强调数学严谨性在硬件验证中的应用价值。",
+      "tag_category": "综合"
+    },
+    {
+      "title": "大分裂：三种硬件仿真架构的故事",
+      "url": "https://semiwiki.com/eda/synopsys/368861-the-great-divide-a-tale-of-three-hardware-emulation-architectures/",
+      "description": "<p>Hardware emulation arose as a necessity out of the needs of the eighties. By the mid-1980s, semiconductor designs had outgrown the practical limits of gate-level simulation. Gate-level simulation delivered accuracy, but at glacial pace; silicon prototypes performed at real-speed but arrived far t",
+      "published": "Wed, 06 May 2026 17:00:33 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "硬件仿真架构的演进反映了芯片设计规模与验证效率之间的长期博弈，不同架构在性能与容量上各有侧重。",
+        "随着SoC规模持续扩大，选择合适的仿真架构或混合架构，对大型系统的验证收敛至关重要。"
+      ],
+      "actions": [
+        "验证工程师需根据项目规模、预算和调试需求，合理选择或混合使用不同的硬件仿真架构。",
+        "关注仿真云化及虚拟化技术趋势，以降低硬件仿真的使用门槛和资本支出成本。"
+      ],
+      "glossary": [
+        {
+          "term": "Hardware Emulation",
+          "desc": "硬件仿真，使用专用硬件系统（如FPGA阵列）模拟芯片设计以加速验证的过程",
+          "category": "EDA/验证"
+        }
+      ],
+      "region": "overseas",
+      "summary": "文章回顾了硬件仿真技术的发展，探讨了自80年代以来因门级仿真性能极限而催生的三种主流硬件仿真架构及其差异。",
       "tag_category": "综合"
     }
   ],
   "stats": {
-    "total_raw": 84,
-    "after_dedup": 80,
+    "total_raw": 29,
+    "after_dedup": 24,
     "sources": {
-      "Exa": 3,
-      "RSS": 65,
-      "Brave": 12
+      "RSS": 24
     }
   }
 }
