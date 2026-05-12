@@ -1,6 +1,6 @@
 {
-  "version": "v20260512-0616",
-  "generatedAt": "2026-05-12T06:16:00+08:00",
+  "version": "v20260513-0606",
+  "generatedAt": "2026-05-13T06:06:00+08:00",
   "period": "morning",
   "commit": "",
   "glossary_list": [
@@ -20,49 +20,79 @@
       "category": "封装"
     },
     {
-      "term": "LPDA",
-      "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线设计",
-      "category": "EDA/IP"
+      "term": "马赫100",
+      "desc": "理想汽车自研的智能驾驶/座舱芯片，旨在支撑AI在物理世界的落地应用",
+      "category": "芯片产品"
+    },
+    {
+      "term": "3D-CIM",
+      "desc": "三维存算一体技术，通过三维集成实现存储与计算的深度融合，提升算力密度与带宽",
+      "category": "半导体技术"
+    },
+    {
+      "term": "中芯北方",
+      "desc": "中芯国际旗下的晶圆代工厂，主要专注于成熟制程的量产",
+      "category": "晶圆制造"
+    },
+    {
+      "term": "红筹公司",
+      "desc": "指在中国境外注册、但主要业务和资产在中国境内的公司",
+      "category": "资本市场"
+    },
+    {
+      "term": "Inference",
+      "desc": "推理，指AI模型训练完成后，使用模型进行预测和生成的新数据计算过程",
+      "category": "人工智能"
+    },
+    {
+      "term": "Irida Labs",
+      "desc": "一家专注于嵌入式视觉和人工智能处理的软件与IP公司",
+      "category": "企业"
+    },
+    {
+      "term": "M&A",
+      "desc": "并购（Mergers and Acquisitions），指企业之间的合并与收购行为",
+      "category": "资本市场"
     },
     {
       "term": "IonQ",
-      "desc": "一家专注于离子阱量子计算的硬件和软件公司",
-      "category": "设计公司"
+      "desc": "一家领先的量子计算公司，专注于离子阱量子计算机的开发",
+      "category": "企业"
+    },
+    {
+      "term": "Intellizence",
+      "desc": "一家提供市场情报、并购数据和商业洞察的分析平台",
+      "category": "研究机构"
     },
     {
       "term": "SkyWater",
-      "desc": "美国本土的特种半导体晶圆代工厂",
-      "category": "制造"
+      "desc": "一家美国的特许晶圆代工厂，提供先进特种制造服务",
+      "category": "晶圆制造"
     },
     {
-      "term": "Cerebras",
-      "desc": "研发晶圆级AI芯片的半导体公司",
-      "category": "设计公司"
+      "term": "长电科技",
+      "desc": "中国大陆领先的半导体封装测试企业，全球排名前列的OSAT厂商",
+      "category": "封装测试"
     },
     {
-      "term": "WSE",
-      "desc": "Wafer-Scale Engine，晶圆级引擎，Cerebras的核心芯片架构",
-      "category": "设计公司"
+      "term": "多模态 AI SoC",
+      "desc": "支持处理视觉、语音等多种模态数据的人工智能片上系统",
+      "category": "芯片产品"
     },
     {
-      "term": "MI355X",
-      "desc": "AMD下一代Instinct系列AI加速卡",
-      "category": "设计公司"
+      "term": "鸿蒙智行",
+      "desc": "华为旗下的智能汽车生态联盟，提供鸿蒙智能座舱与智驾解决方案",
+      "category": "汽车电子"
     },
     {
-      "term": "vLLM",
-      "desc": "一种高吞吐量、内存高效的大语言模型推理和服务引擎",
-      "category": "EDA/IP"
+      "term": "indie",
+      "desc": "一家专注于汽车半导体解决方案的公司",
+      "category": "企业"
     },
     {
-      "term": "RX 9070",
-      "desc": "AMD基于RDNA架构的下一代消费级显卡",
-      "category": "设计公司"
-    },
-    {
-      "term": "EVM",
-      "desc": "Error Vector Magnitude，误差矢量幅度，衡量数字调制信号质量的指标",
-      "category": "测试"
+      "term": "Governed Convergence",
+      "desc": "受治理的融合，指在统一的数据与流程治理框架下，实现多工具和多领域的深度集成",
+      "category": "EDA"
     }
   ],
   "topic_pulse": [
@@ -71,89 +101,264 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区对先进封装的讨论热度有所降温，近期台系代工厂产能扩充消息较多，缓解了短期紧缺焦虑，讨论焦点从产能恐慌转向长期技术迭代与良率提升。"
+      "summary": "社区对先进封装产能的关注度有所降温，但长电科技市值突破千亿仍引发热议。讨论焦点正从单纯的产能紧缺转向封装技术的长期价值重估。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "尽管韩国出口数据显示HBM和存储价格大涨，但社区讨论热度却出现降温，情绪从恐慌性紧缺转向对价格持续性与下游承受能力的观望。"
+      "summary": "HBM热度出现回落迹象，社区讨论从抢产能转向关注下一代HBM技术演进与成本优化。部分投资者开始警惕存储周期高点的回调风险。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国内晶圆厂相关讨论热度下降，社区情绪趋于平静，目前处于技术突破的消化期，缺乏新的重大刺激点，关注点转向成熟制程的产能利用率。"
+      "summary": "中芯国际406亿收购中芯北方获批引发高度关注，但整体板块情绪趋于冷静。社区讨论认为此举主要意在理顺产权，对先进制程突破的短期刺激有限。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA话题热度回落，讨论从初期的政策期待转向实际工具验证与客户导入的务实阶段，社区对国产替代的节奏预期趋于理性。"
+      "summary": "RISC-V存算一体标准启动带来局部热度，但整体国产EDA/IP话题降温。社区对国产替代的长期预期仍在，但短期缺乏强催化事件。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测板块讨论降温，市场对传统OSAT的关注度减弱，焦点被先进封装的长期趋势稀释，社区正在寻找传统封测向先进封装转型的投资逻辑。"
+      "summary": "封测板块热度随大盘降温，但长电科技千亿市值引发价值重估讨论。社区普遍认同先进封装已成为算力瓶颈下的核心资产。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "制裁话题热度下降，社区对新增限制清单的敏感度降低，情绪从短期应激转向长期适应与合规常态化，讨论重心转移至供应链重构效果。"
+      "summary": "该话题热度显著下降，社区暂无新的重大管制政策讨论。情绪相对平稳，市场已逐步消化现有制裁预期。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片讨论热度降温，尽管Cerebras IPO和AMD新动作带来新竞争，但NVIDIA垄断格局下社区缺乏颠覆性新话题，情绪从狂热趋于理性算力性价比评估。"
+      "summary": "英伟达及AI芯片话题降温，社区讨论重心开始向推理侧转移。投资者对纯训练侧硬件的增长持续性出现分歧。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备材料国产化讨论热度回落，市场正消化前期的国产替代订单利好，进入验证与量产爬坡的静默期，社区期待下一轮财报数据验证替代成效。"
+      "summary": "设备材料国产化话题热度回落，社区讨论趋于理性。焦点转向国产设备在晶圆厂实际验证进度与量产良率表现。"
     }
   ],
   "items": [
     {
-      "title": "使用全波电磁仿真设计宽带LPDA馈电反射面天线",
-      "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
-      "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
-      "published": "Fri, 17 Apr 2026 14:00:50 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "理想自研马赫100芯片落地：全栈协同打造AI物理世界体验新标杆",
+      "url": "https://auto.zol.com.cn/1180/11801034.html",
+      "description": "理想自研马赫100芯片落地：全栈协同打造AI物理世界体验新标杆_汽车新闻-中关村在线\n\nZOL首页>汽车>新闻> 正文\n\n2026年5月12日，理想汽车创始人李想就公司自研芯片的战略动因作出系统阐述。\n\n他表示，外界存在一种误解，认为理想投入芯片研发是盲目跟风、为做而做，甚至质疑其投入缺乏必要性。事实并非如此。理想启动芯片自研，并非出于技术证明的动机，核心目标在于推动人工智能真正落地于物理世界——通过自主可控的芯片能力，突破现有供应链在关键场景中难以解决的技术瓶颈。\n\n理想所追求的，正是将AI深度融入物理空间，并以此为基础，交付接近苹果水准的整体体验。这种体验不是简单复刻手机交互逻辑或界面风格",
+      "published": "2026-05-12T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "全波电磁仿真在天线等射频器件设计中不可或缺，能有效提升设计精度与缩短研发周期。",
-        "EDA工具在射频与微波领域的应用深度持续增加，正推动5G及下一代无线系统的底层硬件创新。"
+        "车企自研芯片的驱动力正从“降本替代”转向“软硬协同与AI场景定义”，以构建差异化竞争壁垒。",
+        "智能座舱与智驾的深度融合需要底层算力架构的深度定制，通用芯片已难以满足极致体验需求。"
       ],
       "actions": [
-        "射频设计工程师应关注并引入最新的全波EM仿真工具，以优化宽带天线的性能指标。",
-        "EDA厂商可加强射频仿真模块的本地化支持与客户培训，抢占细分市场。"
+        "传统汽车芯片供应商需警惕车企自研带来的份额挤压，加速向提供灵活IP授权或定制化服务转型。",
+        "芯片设计公司应加强与主机厂在AI模型与硬件协同优化方面的合作，从纯硬件供应商升级为全栈合作伙伴。"
       ],
       "glossary": [
         {
-          "term": "LPDA",
-          "desc": "Log-Periodic Dipole Array，对数周期偶极子阵列，一种宽频带天线设计",
-          "category": "EDA/IP"
+          "term": "马赫100",
+          "desc": "理想汽车自研的智能驾驶/座舱芯片，旨在支撑AI在物理世界的落地应用",
+          "category": "芯片产品"
+        }
+      ],
+      "region": "domestic",
+      "summary": "理想汽车创始人李想系统阐述了自研马赫100芯片的战略动因，强调自研并非盲目跟风，而是为了推动人工智能在物理世界的真正落地。",
+      "tag_category": "综合",
+      "title_en": "理想自研马赫100芯片落地：全栈协同打造AI物理世界体验新标杆_汽车新闻-中关村在线"
+    },
+    {
+      "title": "全球首个RISC-V存算一体标准研制工作启动",
+      "url": "https://www.36kr.com/p/3462167968781702",
+      "description": "全球首个RISC-V存算一体标准研制工作启动-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 全球首个RISC-V存算一体标准研制工作启动\n\n算力密度、软硬件生态、数据带宽成为制约产业升级的“三座大山”。微纳核芯在RISC-V存算一体产业论坛暨应用组启动大会上介绍的3D-CIM（三维存算一体）技术，与开源灵活的RISC-V架构深度融合，正成为突破困境、推动国产芯片迭代的核心路径。\n\n在人工智能大模型飞速发展、算力需求呈指数级增长的当下，中国芯片产业正面临三个核心痛点。芯片先进工艺技术封锁叠加传统架构的固",
+      "published": "2026-05-11T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "存算一体（CIM）技术是突破传统冯·诺依曼架构瓶颈的关键路径，而结合RISC-V开源生态将大幅降低生态构建门槛。",
+        "3D-CIM等三维存算一体技术的标准化，将加速该技术从学术研究向商业化量产落地。"
+      ],
+      "actions": [
+        "关注并适时参与RISC-V存算一体标准制定，争取在新兴生态中的话语权。",
+        "AI芯片初创企业可评估3D-CIM技术路线，在边缘计算等对能效要求极高的场景寻找差异化突围机会。"
+      ],
+      "glossary": [
+        {
+          "term": "3D-CIM",
+          "desc": "三维存算一体技术，通过三维集成实现存储与计算的深度融合，提升算力密度与带宽",
+          "category": "半导体技术"
+        }
+      ],
+      "region": "domestic",
+      "summary": "全球首个RISC-V存算一体标准研制工作正式启动，旨在突破算力密度、软硬件生态和数据带宽制约产业升级的瓶颈。",
+      "tag_category": "EDA/IP",
+      "title_en": "全球首个RISC-V存算一体标准研制工作启动-36氪"
+    },
+    {
+      "title": "国产晶圆代工最大并购！中芯国际406亿收购中芯北方今日上会",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-05-11/doc-inhxphzp0476924.shtml",
+      "description": "国产晶圆代工最大并购！中芯国际406亿收购中芯北方今日上会_新浪科技_新浪网\n\n移动客户端\n\n登录\n\n新浪科技> 滚动新闻 > 正文\n\n# 国产晶圆代工最大并购！中芯国际406亿收购中芯北方今日上会\n\n国产晶圆代工最大并购！中芯国际406亿收购中芯北方今日上会\n\n快科技5 月11日消息，上交所并购重组审核委员会今日召开2026年第5次会议，审议中芯国际发行股份购买资产暨关联交易事项，这是国产晶圆代工行业历史上金额最大的并购案。\n\n本次交易总金额约406亿元，中芯国际拟向国家集成电路产业投资基金等5家机构发行股份，收购其合计持有的中芯北方49%股权，发行价定为每股74.20元，不涉及配套资金募集",
+      "published": "2026-05-11T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "中芯国际全资控股中芯北方，意在理顺产权关系并加强产能统筹，为成熟制程的规模扩张和产能调配扫清障碍。",
+        "科创板最大重组案落地，反映出国内晶圆代工产业正进入资本深度整合与集中度提升的新阶段。"
+      ],
+      "actions": [
+        "设备与材料供应商应密切关注中芯国际产能整合后的采购策略变化，提前调整商务对接体系。",
+        "投资者可关注中芯国际产业链相关标的，产能整合带来的规模效应有望提升其盈利能力。"
+      ],
+      "glossary": [
+        {
+          "term": "中芯北方",
+          "desc": "中芯国际旗下的晶圆代工厂，主要专注于成熟制程的量产",
+          "category": "晶圆制造"
+        }
+      ],
+      "region": "domestic",
+      "summary": "中芯国际斥资406亿元人民币收购中芯北方的并购重组案今日上会审核，这是国产晶圆代工领域规模最大的并购交易。",
+      "tag_category": "Fab/制造",
+      "title_en": "国产晶圆代工最大并购！中芯国际406亿收购中芯北方今日上会_新浪科技_新浪网"
+    },
+    {
+      "title": "中芯国际斥资406亿元人民币全购中芯北方 创下科创板史上最大并购纪录",
+      "url": "https://hk.finance.yahoo.com/news/%E4%B8%AD%E8%8A%AF%E5%9C%8B%E9%9A%9B%E6%96%A5%E8%B3%87406%E5%84%84%E5%85%83%E4%BA%BA%E6%B0%91%E5%B9%A3%E5%85%A8%E8%B3%BC%E4%B8%AD%E8%8A%AF%E5%8C%97%E6%96%B9-%E5%89%B5%E4%B8%8B%E7%A7%91%E5%89%B5%E6%9D%BF%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%A4%A7%E4%BD%B5%E8%B3%BC%E7%B4%80%E9%8C%84-135619531.html",
+      "description": "中芯國際斥資406億元人民幣全購中芯北方 創下科創板史上最大併購紀錄\n\n抱歉，發生錯誤\n\n# 中芯國際斥資406億元人民幣全購中芯北方 創下科創板史上最大併購紀錄\n\n上海證券交易所網站周一 (11 日) 披露，晶圓代工龍頭中芯國際 (SMIC) 發行股份購買資產案正式獲准通過。這筆交易涉及金額高達約 406.01 億元人民幣，不僅是科創板設立以來規模最大的重組案，也是首單多地上市紅籌公司發行股份購買資產的案例。\n\n###### 交易細節與審核效率\n\n根據披露的交易方案，中芯國際擬向國家集成電路基金 (大基金)、集成電路投資中心、亦莊國投、中關村發展及北京工投等 5 名股東，以每股 74.2 元",
+      "published": "2026-05-11T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "该并购案获批标志着中芯国际对核心产线的控制力进一步加强，有助于优化内部资源分配和战略决策效率。",
+        "首单多地上市红筹公司发行股份购买资产案例的落地，为后续半导体行业资本运作提供了监管范本。"
+      ],
+      "actions": [
+        "供应链企业需根据中芯国际内部资源整合进度，优化自身的产能配合与交付节奏。",
+        "关注红筹架构企业在A股资本运作的新模式，评估其对半导体资产证券化的示范效应。"
+      ],
+      "glossary": [
+        {
+          "term": "红筹公司",
+          "desc": "指在中国境外注册、但主要业务和资产在中国境内的公司",
+          "category": "资本市场"
+        }
+      ],
+      "region": "domestic",
+      "summary": "中芯国际发行股份购买资产案正式获准通过，交易金额约406.01亿元人民币，成为科创板设立以来规模最大的重组案。",
+      "tag_category": "Fab/制造",
+      "title_en": "中芯國際斥資406億元人民幣全購中芯北方 創下科創板史上最大併購紀錄"
+    },
+    {
+      "title": "推理时代的转变（The Inference Shift）",
+      "url": "https://stratechery.com/2026/the-inference-shift/",
+      "description": "The Inference Shift – Stratechery by Ben Thompson\n\n## The Inference Shift\n\nMonday, May 11, 2026\n\nListen to this post:\n\nLog in to listen\n\nIf you were looking for the ideal time to IPO, being a chip company in May 2026 is hard to beat. Reuters reported over the weekend:\n\nCerebras Systems is set to rai",
+      "published": "2026-05-11T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI算力需求正从大规模预训练向边缘侧和云端推理转移，推理算力市场的爆发将重塑芯片竞争格局。",
+        "推理场景对成本、功耗和延迟的敏感度更高，这将催生更多专用架构（如ASIC）的创业与上市机会。"
+      ],
+      "actions": [
+        "芯片设计公司应调整产品路线图，将研发重心向高能效比、低延迟的推理芯片倾斜。",
+        "投资机构可重点挖掘专注于AI推理侧的初创企业，把握其IPO窗口期红利。"
+      ],
+      "glossary": [
+        {
+          "term": "Inference",
+          "desc": "推理，指AI模型训练完成后，使用模型进行预测和生成的新数据计算过程",
+          "category": "人工智能"
         }
       ],
       "region": "overseas",
-      "summary": "文章提供了一份实用指南，介绍如何使用全波电磁仿真工具设计对数周期偶极子阵列（LPDA）馈电的抛物面反射面天线。",
-      "tag_category": "EDA/IP"
+      "summary": "Ben Thompson探讨半导体行业正从训练侧向推理侧的转变趋势，指出当前是芯片公司IPO的理想时机。",
+      "tag_category": "EDA/IP",
+      "title_en": "The Inference Shift – Stratechery by Ben Thompson"
     },
     {
-      "title": "IonQ与SkyWater合并获批，量子制造成为焦点",
+      "title": "瑞萨电子完成对Irida Labs的收购（Renesas Electronics Completes Acquisition of Irida Labs）",
+      "url": "https://www.everythingpe.com/News/details/10353-renesas-electronics-completes-acquisition-of-irida-labs",
+      "description": "Renesas Electronics Completes Acquisition of Irida Labs\n\nhttps://www.everythingpe.com/News/details/10353-renesas-electronics-completes-acquisition-of-irida-labs\n\n# Renesas Electronics Completes Acquisition of Irida Labs\n\nRenesas Electronics, a premier supplier of advanced semiconductor solutions, an",
+      "published": "2026-05-11T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "瑞萨通过并购补齐AI视觉算法与IP短板，反映出MCU大厂正加速向“硬件+算法”的整体解决方案商转型。",
+        "边缘AI视觉处理需求激增，传统MCU厂商必须通过外延并购快速获取相关算法与软件生态能力。"
+      ],
+      "actions": [
+        "MCU及嵌入式芯片厂商需审视自身AI算法生态的完整性，考虑通过并购或合作补齐短板。",
+        "边缘AI算法与IP初创公司可借机寻求被半导体大厂并购的退出路径。"
+      ],
+      "glossary": [
+        {
+          "term": "Irida Labs",
+          "desc": "一家专注于嵌入式视觉和人工智能处理的软件与IP公司",
+          "category": "企业"
+        }
+      ],
+      "region": "overseas",
+      "summary": "瑞萨电子宣布正式完成对Irida Labs的收购，旨在增强其在嵌入式视觉和AI处理领域的技术实力。",
+      "tag_category": "综合",
+      "title_en": "Renesas Electronics Completes Acquisition of Irida Labs"
+    },
+    {
+      "title": "中芯国际59亿美元收购案获批准，创中国国内晶圆代工最大并购纪录（SMIC secures approval for $5.9 billion acquisition in China’s largest domestic wafer foundry M&A）",
+      "url": "https://technode.com/2026/05/12/smic-secures-approval-for-5-9-billion-acquisition-in-chinas-largest-domestic-wafer-foundry-ma/",
+      "description": "On Monday, Semiconductor Manufacturing International Corporation (SMIC) announced that its share issuance and asset acquisition plan had been reviewed and",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "海外媒体高度关注中芯国际的资本扩张，这表明中国晶圆代工产能整合在全球供应链中的影响力正在提升。",
+        "大规模资本运作获批，预示着国内成熟制程产能将进一步集中，全球成熟制程市场的竞争将加剧。"
+      ],
+      "actions": [
+        "全球半导体供应链需重新评估中国成熟制程产能集中度提升对定价权的潜在影响。",
+        "国内Fab厂应审视自身产能规模，考虑通过联合或并购应对中芯国际整合后的头部竞争压力。"
+      ],
+      "glossary": [
+        {
+          "term": "M&A",
+          "desc": "并购（Mergers and Acquisitions），指企业之间的合并与收购行为",
+          "category": "资本市场"
+        }
+      ],
+      "region": "overseas",
+      "summary": "中芯国际发行股份及资产收购计划已获审核批准，这笔价值59亿美元的交易成为中国国内晶圆代工领域最大的并购案。",
+      "tag_category": "Fab/制造",
+      "title_en": "SMIC secures approval for $5.9 billion acquisition in China’s largest domestic wafer foundry M&A · TechNode"
+    },
+    {
+      "title": "IonQ与SkyWater合并获批，量子制造故事成为焦点（IonQ SkyWater Merger Approval Puts Quantum Manufacturing Story In Focus）",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-skywater-merger-approval-puts-121207049.html",
       "description": "SkyWater Technology shareholders have approved the merger agreement with IonQ. The companies currently expect the deal to close in the second or third quarter of 2026, subject to regulatory approvals. The acquisition is intended to combine IonQ's quantum computing focus with SkyWater's ...",
       "published": "",
@@ -162,31 +367,27 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "量子计算公司与传统晶圆代工厂的合并，标志着量子硬件制造正从实验室走向规模化与商业化。",
-        "此次合并将推动硅基量子芯片的晶圆级制造进程，缩短量子计算产业链从设计到落地的距离。"
+        "量子计算公司与传统晶圆代工厂的深度绑定，标志着量子计算正从实验室走向晶圆级量产的探索阶段。",
+        "IonQ通过并购掌控制造环节，意在解决量子硬件规模化与良率痛点，构建垂直整合优势。"
       ],
       "actions": [
-        "晶圆代工厂应密切关注量子芯片制造的特殊工艺需求（如极低温兼容），提前布局相关产能与研发。",
-        "投资者可追踪量子计算硬件供应链的整合趋势，寻找潜在的材料与设备合作机会。"
+        "晶圆代工厂可关注量子计算芯片的特种制造需求，探索成为量子计算产业链核心代工节点的机会。",
+        "量子计算企业需评估自建产线与代工模式的ROI，在技术迭代与资产轻重之间寻找平衡。"
       ],
       "glossary": [
         {
           "term": "IonQ",
-          "desc": "一家专注于离子阱量子计算的硬件和软件公司",
-          "category": "设计公司"
-        },
-        {
-          "term": "SkyWater",
-          "desc": "美国本土的特种半导体晶圆代工厂",
-          "category": "制造"
+          "desc": "一家领先的量子计算公司，专注于离子阱量子计算机的开发",
+          "category": "企业"
         }
       ],
       "region": "overseas",
-      "summary": "SkyWater Technology股东已批准与量子计算公司IonQ的合并协议，预计交易将在2026年第二或第三季度完成，需等待监管批准。",
-      "tag_category": "综合"
+      "summary": "SkyWater Technology股东批准了与量子计算公司IonQ的合并协议，预计交易将在2026年第二或第三季度完成。",
+      "tag_category": "综合",
+      "title_en": "IonQ SkyWater Merger Approval Puts Quantum Manufacturing Story In Focus"
     },
     {
-      "title": "Which companies led the largest recent mergers & acquisitions? | Intellizence",
+      "title": "哪些公司主导了近期最大的并购交易？（Which companies led the largest recent mergers & acquisitions?）",
       "url": "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/",
       "description": "Discover which companies led the largest mergers and acquisitions in 2025. Subscribe to Intellizence to get insights on top M&A data by value, industry, and region.",
       "published": "",
@@ -194,289 +395,211 @@
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
+      "insights": [
+        "半导体行业的并购整合正呈现加速态势，巨头通过并购补齐技术拼图或扩大市场规模的趋势明显。",
+        "跨领域并购（如量子与代工、汽车与芯片）增多，反映出产业边界正在模糊，融合创新成为主流。"
+      ],
+      "actions": [
+        "企业战略部门应定期梳理行业并购数据，识别潜在的技术合作或被并购标的。",
+        "供应链企业需警惕大客户并购带来的供应链重构风险，提前布局备选方案。"
+      ],
+      "glossary": [
+        {
+          "term": "Intellizence",
+          "desc": "一家提供市场情报、并购数据和商业洞察的分析平台",
+          "category": "研究机构"
+        }
+      ],
       "region": "overseas",
-      "summary": "Discover which companies led the largest mergers and acquisitions in 2025. Subscribe to Intellizence to get insights on top M&A data by value, industr",
-      "tag_category": "综合"
+      "summary": "该文章盘点了2025年主导最大规模并购交易的公司，提供了按价值、行业和地区划分的顶级并购数据洞察。",
+      "tag_category": "综合",
+      "title_en": "Which companies led the largest recent mergers & acquisitions? | Intellizence"
     },
     {
-      "title": "英伟达、AMD、博通及现在的Cerebras：AI芯片交易迎来新玩家",
-      "url": "https://www.benzinga.com/markets/ipos/26/05/52452702/nvidia-amd-broadcom-and-now-cerebras-ai-chip-trade-gets-a-new-name",
-      "description": "Cerebras Systems' IPO is expected this week, bringing fresh competition to the AI chip trade.",
+      "title": "今日股市（5月11日）：SkyWater投票推进半导体制造交易，IonQ股价上涨（Stock Market Today, May 11: IonQ Rises as SkyWater Vote Advances Semiconductor Manufacturing Deal）",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/05/11/stock-market-today-may-11-ionq-rises-as-skywater-vote-advances-semiconductor-manufacturing-deal/",
+      "description": "IonQ’s proposed SkyWater acquisition could bring more fabrication and packaging work into its supply chain, giving the company tighter control over the hardware needed to scale its quantum systems.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "Cerebras凭借其晶圆级芯片（WSE）的独特架构进入公开市场，将加剧AI算力硬件的多元化竞争。",
-        "AI芯片赛道不再仅是GPU巨头垄断，专为大模型训练优化的专用架构芯片正获得资本市场青睐。"
+        "资本市场对量子计算概念与制造端结合持乐观态度，掌控制造环节被视为提升量子系统扩展性的关键。",
+        "先进封��技术在量子芯片等异构计算领域的战略地位日益凸显，成为并购整合的核心驱动力。"
       ],
       "actions": [
-        "供应链企业需评估Cerebras晶圆级芯片对先进封装和制造工艺的特殊要求，探索合作可能。",
-        "AI算力采购方应将Cerebras纳入评估体系，探索其在特定大模型训练上的性价比与能效优势。"
+        "封装测试企业（OSAT）应关注量子计算等前沿领域的特种封装需求，提前进行技术储备。",
+        "投资者可追踪量子计算产业链上游的制造与封装环节，寻找具备技术壁垒的隐形冠军。"
       ],
       "glossary": [
         {
-          "term": "Cerebras",
-          "desc": "研发晶圆级AI芯片的半导体公司",
-          "category": "设计公司"
-        },
-        {
-          "term": "WSE",
-          "desc": "Wafer-Scale Engine，晶圆级引擎，Cerebras的核心芯片架构",
-          "category": "设计公司"
+          "term": "SkyWater",
+          "desc": "一家美国的特许晶圆代工厂，提供先进特种制造服务",
+          "category": "晶圆制造"
         }
       ],
       "region": "overseas",
-      "summary": "Cerebras Systems的IPO预计将于本周进行，为AI芯片市场带来新的竞争者与投资标的。",
-      "tag_category": "EDA/IP"
+      "summary": "IonQ拟议对SkyWater的收购将为其供应链引入更多制造和封装产能，使其能够更好地控制扩展量子系统所需的硬件。",
+      "tag_category": "Fab/制造",
+      "title_en": "Stock Market Today, May 11: IonQ Rises as SkyWater Vote Advances Semiconductor Manufacturing Deal | The Motley Fool"
     },
     {
-      "title": "Zyphra与AMD推出基于15MW MI355X GPU的新型开源AI平台",
-      "url": "https://wccftech.com/zyphra-amd-launch-open-ai-platform-powered-by-15mw-mi355x-gpus/",
-      "description": "Zyphra has partnered with AMD to launch its brand new open-source AI platform that rivals DeepSeek &#38; is based in the US, all powered by MI355X GPUs. Zyphra Cloud - The DeepSeek of China Is Here &#38; It Is Powered By An All-AMD Powerhouse With 15MW of Compute Through MI355X &#38; Expansion To Fu",
-      "published": "Mon, 11 May 2026 20:40:06 +0000",
+      "title": "“缺芯少算”，长电科技千亿市值“稳了”",
+      "url": "https://news.futunn.com/en/post/72928584",
+      "description": "本文作者为朝阳资本论，钛媒体经授权发布）. 文| 朝阳资本论，作者| 沙华. 半导体，已经涨了一个多月了。 从存储芯片到封测环节，资金像找到了久违的出口，一路推着股价往上...",
+      "published": "14小时前",
+      "source": "富途牛牛",
+      "source_type": "Serper",
+      "lang": "zh",
+      "tags": [],
+      "insights": [
+        "算力缺口与先进封装产能瓶颈叠加，使得封测环节从传统的成本中心转变为算力产业链的产能决定因素。",
+        "资本市场对封测龙头的重估，反映出先进封装在AI时代的价值量与战略地位正大幅提升。"
+      ],
+      "actions": [
+        "封测企业应抓住市场估值重塑的窗口期，加大在2.5D/3D等先进封装产能的资本开支。",
+        "芯片设计公司需与头部封测厂建立更深度的战略绑定，以保障先进封装产能的稳定供应。"
+      ],
+      "glossary": [
+        {
+          "term": "长电科技",
+          "desc": "中国大陆领先的半导体封装测试企业，全球排名前列的OSAT厂商",
+          "category": "封装测试"
+        }
+      ],
+      "region": "domestic",
+      "summary": "在“缺芯少算”的背景下，资金涌入存储芯片和封测环节，推动长电科技等封测龙头股价上涨，市值稳居千亿。",
+      "tag_category": "Fab/制造",
+      "title_en": "“缺芯少算”，长电科技千亿市值“稳了”"
+    },
+    {
+      "title": "聆思推出 VenusA 第三代多模态 AI SoC 芯片，视觉语音能力全面升级",
+      "url": "https://www.smartcn.cn/349537.html",
+      "description": "聆思推出 VenusA 第三代多模态 AI SoC 芯片，视觉语音能力全面升级 – 数智网\n\n随着 AI 终端持续向视觉化、带屏化和多模态交互演进，越来越多的终端产品，需要在一颗芯片上同时实现视觉处理、语音交互、屏幕显示、图像编码以及外设扩展等多样化能力。\n\n面向这一趋势，聆思推出全新升级的第三代多模态 AI SoC 芯片——VenusA。VenusA主要面向 AI 云台、无人机、智能门锁、智能家电、玩具相机等各类多模态的终端场景。围绕实际产品中的视觉识别、语音交互及各类个性化需求，对芯片架构、存储带宽、视觉链路、语音能力和接口扩展等方面进行了系统性升级。\n\n不仅实现了芯片性能的大幅提升，在「",
+      "published": "2026-05-11T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI终端正快速向视觉化、带屏化和多模态交互演进，单芯片集成多样化处理能力成为AIoT赛道刚需。",
+        "边缘侧多模态SoC的迭代加速，将大幅降低智能硬件的开发门槛，催生更多长尾AI应用落地。"
+      ],
+      "actions": [
+        "AIoT硬件开发者可评估VenusA等多模态SoC，以降低BOM成本并加速产品上市时间。",
+        "芯片厂商在边缘AI SoC设计中，需高度重视视觉、语音及显示模块的带宽分配与协同调度优化。"
+      ],
+      "glossary": [
+        {
+          "term": "多模态 AI SoC",
+          "desc": "支持处理视觉、语音等多种模态数据的人工智能片上系统",
+          "category": "芯片产品"
+        }
+      ],
+      "region": "domestic",
+      "summary": "聆思推出第三代多模态AI SoC芯片VenusA，面向AI云台、无人机、智能门锁等终端，全面升级视觉与语音交互能力。",
+      "tag_category": "综合",
+      "title_en": "聆思推出 VenusA 第三代多模态 AI SoC 芯片，视觉语音能力全面升级 – 数智网"
+    },
+    {
+      "title": "华为余承东：鸿蒙智行首款旗舰MPV智界V9将于5月15日发布",
+      "url": "https://news.qq.com/rain/a/20260511A02JJY00",
+      "description": "华为余承东：鸿蒙智行首款旗舰 MPV 智界 V9 将于 5 月 15 日发布_腾讯新闻\n\n# 华为余承东：鸿蒙智行首款旗舰 MPV 智界 V9 将于 5 月 15 日发布\n\n问AI · 鸿蒙智行首款MPV发布如何推动华为汽车战略？\n\nIT之家 5 月 11 日消息，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东今日官宣，鸿蒙智行首款旗舰 MPV 车型 —— 智界 V9 将于 5 月 15 日发布。\n\n该图片疑似使用了AI生成技术，请谨慎甄别\n\n智界 V9 已于 4 月 22 日开启预售，预售价 39.98 万元起。\n\nIT之家注意到，该车是鸿蒙智行首款旗舰 MPV 车型，搭载了",
+      "published": "2026-05-11T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "华为持续扩大智选车产品线至MPV细分市场，其车规级芯片与鸿蒙座舱的规模化落地正在加速。",
+        "智能汽车电子电气架构的演进，正带动车规SoC、传感器及通信芯片的需求持续放量。"
+      ],
+      "actions": [
+        "汽车芯片供应商需紧跟华为智选车系的迭代节奏，做好车规级芯片的产能与验证储备。",
+        "关注MPV等大空间车型对智能座舱多屏交互、后排娱乐带来的增量芯片需求。"
+      ],
+      "glossary": [
+        {
+          "term": "鸿蒙智行",
+          "desc": "华为旗下的智能汽车生态联盟，提供鸿蒙智能座舱与智驾解决方案",
+          "category": "汽车电子"
+        }
+      ],
+      "region": "domestic",
+      "summary": "华为常务董事余承东宣布，鸿蒙智行首款旗舰MPV车型智界V9将于5月15日正式发布。",
+      "tag_category": "综合",
+      "title_en": "华为余承东：鸿蒙智行首款旗舰 MPV 智界 V9 将于 5 月 15 日发布_腾讯新闻"
+    },
+    {
+      "title": "indie将收购ams OSRAM的CMOS图像传感器产品线（indie to Acquire CMOS Image Sensor Product Line from ams OSRAM）",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/indie-acquire-cmos-image-sensor-100000899.html",
+      "description": "indie to Acquire CMOS Image Sensor Product Line from ams OSRAM\n\nOops, something went wrong\n\nThis is a paid press release. Contact the press release distributor directly with any inquiries.\n\n# indie to Acquire CMOS Image Sensor Product Line from ams OSRAM\n\nindie to Acquire CMOS Image Sensor Product L",
+      "published": "2026-05-11T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "ams OSRAM剥离部分CIS业务，反映出其战略收缩与聚焦趋势；而indie则借此补齐汽车视觉传感器拼图。",
+        "汽车智能化对ADAS视觉感知需求激增，汽车CIS市场正成为半导体并购的高频地带。"
+      ],
+      "actions": [
+        "汽车视觉系统供应商需关注CIS市场格局变动，确保供应链稳定性。",
+        "CIS设计公司可寻求在特定细分市场（如汽车舱内感知）建立技术壁垒，以抵御大厂并购带来的竞争压力。"
+      ],
+      "glossary": [
+        {
+          "term": "indie",
+          "desc": "一家专注于汽车半导体解决方案的公司",
+          "category": "企业"
+        }
+      ],
+      "region": "overseas",
+      "summary": "indie Semiconductor宣布将收购ams OSRAM的CMOS图像传感器产品线，以扩展其在汽车视觉领域的布局。",
+      "tag_category": "综合",
+      "title_en": "indie to Acquire CMOS Image Sensor Product Line from ams OSRAM"
+    },
+    {
+      "title": "超越工具互操作性：半导体设计中新兴的受治理融合问题（Beyond Tool Interoperability: The Emerging Governed Convergence Problem in Semiconductor Design）",
+      "url": "https://semiwiki.com/eda/369107-beyond-tool-interoperability-the-emerging-governed-convergence-problem-in-semiconductor-design/",
+      "description": "<p><em><strong>By Dr. Moh Kolbehdari</strong></em></p>\n<p>The semiconductor industry has spent decades optimizing tools. Today, however, the central challenge is no longer whether individual tools are powerful enough. The real question is whether increasingly specialized tools, domains, models, and ",
+      "published": "Tue, 12 May 2026 17:00:47 +0000",
       "source": "RSS",
       "source_type": "RSS",
       "lang": "en",
       "tags": [],
       "insights": [
-        "AMD正通过开源生态和MI355X/MI450等新一代Instinct加速卡，强力反击NVIDIA在AI算力市场的垄断。",
-        "开源AI平台的兴起表明，软硬件协同优化正成为打破闭源生态壁垒、降低算力成本的关键路径。"
+        "随着芯片复杂度飙升，EDA工具间的孤立运作已成为瓶颈，跨领域的受治理融合成为提升设计效率的关键。",
+        "数据治理与流程集成在先进芯片设计中的地位提升，将催生对新型设计基础设施管理软件的需求。"
       ],
       "actions": [
-        "国内AI算法团队应积极适配AMD的ROCm生态及相关推理插件，降低对单一硬件生态的依赖。",
-        "服务器整机厂商需提前规划支持MI355X及MI450系列的高密度液冷整机柜架构与供电方案。"
+        "EDA企业需从提供单一工具向提供集成化、受治理的设计平台转型，增强数据流转与协同能力。",
+        "芯片设计公司应建立完善的设计数据治理体系，打破部门与工具间的数据孤岛。"
       ],
       "glossary": [
         {
-          "term": "MI355X",
-          "desc": "AMD下一代Instinct系列AI加速卡",
-          "category": "设计公司"
+          "term": "Governed Convergence",
+          "desc": "受治理的融合，指在统一的数据与流程治理框架下，实现多工具和多领域的深度集成",
+          "category": "EDA"
         }
       ],
       "region": "overseas",
-      "summary": "Zyphra与AMD合作推出基于MI355X GPU的新型开源AI平台，旨在与DeepSeek等竞争，并计划扩展至MI450及后续产品。",
-      "tag_category": "设计公司"
-    },
-    {
-      "title": "韩国DRAM与NAND出口统计显示价格大幅上涨：SSD上涨63%，内存上涨29%，HBM上涨19%",
-      "url": "https://wccftech.com/koreas-dram-nand-export-massive-prices-bump-versus-last-month-ssd-memory-up-63-percent/",
-      "description": "Korean customs export/import data has been updated, showcasing the massive DRAM &#38; NAND price surge that will affect global memory and SSD markets. NAND &#38; DRAM Demand Has Swollen To Record Levels &#38; Korean Semiconductor Firms Are Earning Big Time Due To Memory &#38; SSD Price Surges The la",
-      "published": "Mon, 11 May 2026 19:55:24 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "存储器价格的全线暴涨反映出全球AI算力及终端设备对内存需求的急剧膨胀，供应链正面临严重的供不应求。",
-        "HBM价格持续走高但涨幅相对较小，说明AI高带宽内存的产能爬坡仍难以满足GPU厂商的激增需求。"
-      ],
-      "actions": [
-        "终端设备厂商需重新评估下半年的BOM成本，提前锁定存储器长期采购协议以对冲涨价风险。",
-        "存储模组及SSD厂商应抓住价格上行周期，优化库存管理并加速高附加值产品出货。"
-      ],
-      "glossary": [
-        {
-          "term": "HBM",
-          "desc": "High Bandwidth Memory，高带宽内存，常用于AI加速卡",
-          "category": "存储"
-        }
-      ],
-      "region": "overseas",
-      "summary": "韩国海关最新进出口数据显示，DRAM与NAND价格出现大幅飙升，SSD价格上涨63%，内存上涨29%，HBM上涨19%。",
-      "tag_category": "综合"
-    },
-    {
-      "title": "Star Fox (2026) — Everything We Know About Nintendo’s Star Fox 64 Remake",
-      "url": "https://wccftech.com/roundup/star-fox-switch-2-everything-we-know/",
-      "description": "After nearly a decade of dormancy, one of Nintendo's most beloved franchises is finally making its comeback. Star Fox was announced during a surprise Nintendo Direct in May 2026 as a full remake of the classic Star Fox 64, and it's coming sooner than anyone expected. Originally released on Nintendo ",
-      "published": "Mon, 11 May 2026 19:30:00 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "After nearly a decade of dormancy, one of Nintendo's most beloved franchises is finally making its comeback. Star Fox was announced during a surprise ",
-      "tag_category": "综合"
-    },
-    {
-      "title": "Subnautica 2 Storms Toward Early Access Launch This Week With Over 5 Million Wishlists on Steam, Pre-Orders Now Live",
-      "url": "https://wccftech.com/subnautica-2-pre-orders-live-5-million-wishlists/",
-      "description": "Unknown Worlds has opened up pre-orders for Subnautica 2 as the game surpasses 5 million wishlists on Steam ahead of its early access launch later this week on May 14, 2026. Subnautica 2 has reportedly been the most wishlisted game on Steam, and it will almost definitely be one of the biggest launch",
-      "published": "Mon, 11 May 2026 19:18:50 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "Unknown Worlds has opened up pre-orders for Subnautica 2 as the game surpasses 5 million wishlists on Steam ahead of its early access launch later thi",
-      "tag_category": "综合"
-    },
-    {
-      "title": "AMD的vLLM-ATOM插件大幅提升Instinct MI350和MI400加速卡上的大模型推理性能",
-      "url": "https://wccftech.com/amd-vllm-atom-plugin-supercharges-deepseek-r1-kimi-k2-gpt-oss-120b-ai-llm-inference-on-instinct-mi350-mi400/",
-      "description": "AMD has introduced a new plugin called vLLM-ATOM, which supercharges AI LLMs while supporting its Instinct MI350 and MI400 GPUs. AMD Offers Big Boost To AI LLMs With Its vLLM-ATOM Plugin That Works Seamlessly With vLLM &#38; Accelerates AI Inference Performance The vLLM-ATOM is a purpose-built plugi",
-      "published": "Mon, 11 May 2026 18:40:05 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AMD通过软件生态优化（如vLLM插件）弥补硬件生态短板，提升其GPU在开源大模型推理市场的竞争力。",
-        "针对特定大模型的硬件级优化插件，正成为AI芯片厂商争夺开发者心智与市场份额的新战场。"
-      ],
-      "actions": [
-        "数据中心运维团队应测试vLLM-ATOM插件在AMD平台上的实际吞吐量提升，评估替换推理集群的可行性。",
-        "AI应用开发者需关注各硬件厂商的推理加速插件，选择最优的软硬协同部署方案以降低推理成本。"
-      ],
-      "glossary": [
-        {
-          "term": "vLLM",
-          "desc": "一种高吞吐量、内存高效的大语言模型推理和服务引擎",
-          "category": "EDA/IP"
-        }
-      ],
-      "region": "overseas",
-      "summary": "AMD推出全新vLLM-ATOM插件，显著提升了DeepSeek-R1、Kimi-K2等大语言模型在Instinct MI350和MI400 GPU上的推理性能。",
-      "tag_category": "设计公司"
-    },
-    {
-      "title": "Lies of P Studio Round8 is Hiring an “AI Creator” to use GenAI Tech to Speed Up Art Production",
-      "url": "https://wccftech.com/lies-of-p-studio-hiring-ai-creator-to-use-genai-to-speed-up-art-production/",
-      "description": "As we all anxiously wait for Lies of P developer Round8 Studio to finish working on the upcoming sequel to its stellar 2023 action game now that the game's major DLC expansion is out, a job listing for Round8 has been spotted online that has fans concerned for the sequel. Round8 Studio is hiring for",
-      "published": "Mon, 11 May 2026 18:27:02 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "As we all anxiously wait for Lies of P developer Round8 Studio to finish working on the upcoming sequel to its stellar 2023 action game now that the g",
-      "tag_category": "综合"
-    },
-    {
-      "title": "PowerColor Hellhound RX 9070首次跌破600美元，逆势对抗全行业GPU涨价潮",
-      "url": "https://wccftech.com/amd-radeon-rx-9070-drops-below-600/",
-      "description": "It might not be the most powerful GPU on the planet, but it's certainly the most powerful for under $600. PowerColor Hellhound Radeon RX 9070 16 GB Listed at $586 at a Time When the GPUs are Selling for 20% Higher Price The Radeon RX 9070 might be 10-15% slower than its XT variant, but its usual sel",
-      "published": "Mon, 11 May 2026 15:49:50 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "消费级GPU局部降价可能反映了特定型号库存压力或AMD抢占中端市场份额的战略，与AI算力GPU的紧缺涨价形成鲜明对比。",
-        "游戏与消费级显卡市场正与AI专业算力市场脱钩，前者面临需求疲软与价格战，后者则供不应求。"
-      ],
-      "actions": [
-        "PC OEM厂商可利用消费级GPU的短暂价格窗口，优化中端游戏本和台式机的成本结构。",
-        "渠道商需警惕消费级显卡价格波动，避免在下行周期中囤积过多中低端库存。"
-      ],
-      "glossary": [
-        {
-          "term": "RX 9070",
-          "desc": "AMD基于RDNA架构的下一代消费级显卡",
-          "category": "设计公司"
-        }
-      ],
-      "region": "overseas",
-      "summary": "PowerColor Hellhound Radeon RX 9070显卡价格首次跌破600美元至586美元，在当前全行业GPU普遍涨价的环境中逆势下跌。",
-      "tag_category": "设计公司"
-    },
-    {
-      "title": "Nintendo Stock Craters 12% After Switch 2 Price Hike and Bleak FY27 Forecast, Yet Furukawa Shrugs Off Momentum Fears",
-      "url": "https://wccftech.com/nintendo-stock-falls-amidst-nintendo-switch-2-price-hike-but-president-furukawa-isnt-phased/",
-      "description": "Nintendo's share price took a 12% hit over the weekend following the confirmation of a price hike for the Nintendo Switch 2 set to go into effect this September, but that wasn't the only reason for the double-digit decline. An admittance that Nintendo's biggest titles are taking longer to make, fore",
-      "published": "Mon, 11 May 2026 15:42:26 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "Nintendo's share price took a 12% hit over the weekend following the confirmation of a price hike for the Nintendo Switch 2 set to go into effect this",
-      "tag_category": "综合"
-    },
-    {
-      "title": "ASUS Resurrects Its Legendary 2006 ROG Crosshair Copper Heatsink For a 20th Anniversary Motherboard",
-      "url": "https://wccftech.com/asus-teases-rog-20th-anniversary-edition-motherboard/",
-      "description": "ASUS teased a new 20th anniversary edition on its social media handles, taking us back to the 2000 era with the iconic copper heatsink. ASUS Brings Back 2006 ROG Crosshair Motherboard Memories by Dropping a Teaser for its Upcoming 20th Anniversary Edition The launch of the 2006 ROG Crosshair motherb",
-      "published": "Mon, 11 May 2026 14:53:09 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "ASUS teased a new 20th anniversary edition on its social media handles, taking us back to the 2000 era with the iconic copper heatsink. ASUS Brings Ba",
-      "tag_category": "综合"
-    },
-    {
-      "title": "Stellar Blade 2 is “Progressing Smoothly,” Says Shift Up, More Details on SB2 and Project Spirits “Within the Year”",
-      "url": "https://wccftech.com/stellar-blade-2-progressing-smoothly-says-shift-up-more-details-in-2026/",
-      "description": "After Stellar Blade was one of the most popular and successful action games in 2024, it was hardly a surprise when developer Shift Up confirmed that it was working on a sequel less than a year after the first game's release. While there's a lot we still don't know about what is just known as Stellar",
-      "published": "Mon, 11 May 2026 14:16:40 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "After Stellar Blade was one of the most popular and successful action games in 2024, it was hardly a surprise when developer Shift Up confirmed that i",
-      "tag_category": "综合"
-    },
-    {
-      "title": "为什么掌握EVM对下一代无线系统至关重要",
-      "url": "https://content.knowledgehub.wiley.com/understanding-evm-error-vector-magnitude-in-modern-wireless-communications/",
-      "description": "<img src=\"https://spectrum.ieee.org/media-library/rohde-schwarz-logo-with-slogan-make-ideas-real-and-rs-emblem-in-diamond-shape.png?id=66678514&width=980\"/><br/><br/><p>A comprehensive guide to error vector magnitude (EVM), the primary metric for quantifying modulation accuracy in Wi-Fi, LTE, and 5G",
-      "published": "Mon, 11 May 2026 10:00:01 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "随着5G/6G及Wi-Fi 7等复杂调制技术的应用，EVM成为评估射频发射机性能和信号质量的核心指标。",
-        "射频测试设备厂商需提供更精准的EVM测量解决方案，以应对更高频段和更宽带宽的测试挑战。"
-      ],
-      "actions": [
-        "射频工程师应深入理解EVM的测量原理及影响因素，优化下一代无线产品的发射机线性度设计。",
-        "测试测量企业应加速推出支持毫米波及超宽带EVM分析的高端仪器，抢占5G/6G测试市场。"
-      ],
-      "glossary": [
-        {
-          "term": "EVM",
-          "desc": "Error Vector Magnitude，误差矢量幅度，衡量数字调制信号质量的指标",
-          "category": "测试"
-        }
-      ],
-      "region": "overseas",
-      "summary": "文章详细介绍了误差矢量幅度（EVM）在下一代无线系统中的重要性，并提供了全面的测试指南。",
-      "tag_category": "综合"
+      "summary": "文章指出半导体设计的核心挑战已从单一工具的优化，转变为在治理框架下实现多工具、多领域的数据与流程融合。",
+      "tag_category": "综合",
+      "title_en": "Beyond Tool Interoperability: The Emerging Governed Convergence Problem in Semiconductor Design"
     }
   ],
   "stats": {
-    "total_raw": 94,
-    "after_dedup": 82,
+    "total_raw": 161,
+    "after_dedup": 135,
     "sources": {
-      "RSS": 60,
-      "Brave": 22
+      "Serper": 1,
+      "Exa": 39,
+      "RSS": 65,
+      "Brave": 30
     }
-  }
+  },
+  "code_version": "",
+  "data_commit": ""
 }
