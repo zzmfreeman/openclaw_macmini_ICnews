@@ -65,18 +65,17 @@ h2 {
   margin-top: 32px;
   margin-bottom: 16px;
 }
-/* Article cards */
+/* Article cards — 统一格式 */
 .article-card {
   background: var(--wsj-card-bg);
   border-bottom: 1px solid var(--wsj-border);
   padding: 16px 0;
   margin: 0;
 }
-.article-card.compact { padding: 12px 0; }
 .article-img {
   width: 100%;
-  height: auto;
-  object-fit: contain;
+  max-height: 360px;
+  object-fit: cover;
   border-radius: 2px;
   margin-bottom: 12px;
   background: #f0f0f0;
@@ -91,13 +90,6 @@ h2 {
   color: var(--wsj-dark);
   margin: 0 0 4px 0;
   line-height: 1.3;
-}
-.article-header h4 {
-  font-family: var(--wsj-serif);
-  font-size: 1em;
-  font-weight: 600;
-  color: var(--wsj-dark);
-  margin: 0 0 4px 0;
 }
 .date-tag {
   font-family: var(--wsj-sans);
@@ -128,12 +120,6 @@ h2 {
   color: var(--wsj-text);
   line-height: 1.6;
   margin: 10px 0;
-}
-.bullet-guide {
-  font-family: var(--wsj-serif);
-  color: var(--wsj-text-light);
-  font-size: 0.88em;
-  line-height: 1.5;
 }
 .article-footer {
   margin-top: 8px;
@@ -167,7 +153,7 @@ h2 {
 <header class="site-header">
   <h1>📰 华尔街日报中文简报</h1>
   <div class="subtitle">2026-05-12 · 午间简报 · 来源 cn.wsj.com</div>
-  <div class="generated-at">生成时间：2026-05-12 12:51:44 CST</div>
+  <div class="generated-at">生成时间：2026-05-12 15:14:01 CST</div>
 </header>
 
 <h2>💻 科技资讯</h2>
@@ -179,7 +165,7 @@ h2 {
                     <span class="date-tag">05-12</span>
                 </div>
                 <div class="guide-text">中国政府将资金大举投入AI、电动汽车和军事实力，而消费者信心萎靡，就业市场状况日益严峻。</div>
-                <div class="ai-summary">本文深入剖析了习近平领导下的中国所呈现的复杂图景：一方面，国家在人工智能、电动汽车及军事力量等战略领域取得炫目进展，彰显出强大的科技与军事实力；另一方面，国内经济却陷入困局，消费者信心持续低迷，就业市场面临日益严峻的挑战。这种科技军事强盛与经济民生疲软的背离，正成为中国当前发展的核心矛盾，也对未来政策走向提出考验。</div>
+                <div class="ai-summary">本文深入剖析了当前中国经济的结构性矛盾：国家层面在人工智能、电动汽车及军事领域取得炫目成就并持续重金投入，但微观层面消费者信心持续萎靡，就业市场日趋严峻。这种宏观科技军力强盛与微观经济困局并存的现象，凸显了中国经济转型期面临的深层挑战，也对全球产业竞争格局与地缘政治产生深远影响。</div>
                 <div class="article-footer"><a href="https://cn.wsj.com/articles/xischina-dazzling-technology-military-muscleand-an-economic-mess-300e9237" target="_blank" rel="noopener" class="article-link">阅读原文 →</a></div>
             </article>
 
@@ -190,7 +176,7 @@ h2 {
                     <span class="date-tag">05-12</span>
                 </div>
                 <div class="guide-text">一位白宫官员向《华尔街日报》透露，马斯克预计将加入该代表团。苹果公司CEO库克以及贝莱德的劳伦斯·芬克也计划同行。</div>
-                <div class="ai-summary">随着特朗普计划访华，美国商界巨头组成的代表团名单备受瞩目。除马斯克预计随行外，苹果CEO库克与贝莱德CEO芬克等重量级人物也计划同行。这一豪华阵容不仅凸显了美国企业界对中美高层互动的高度关注，也反映出在复杂的地缘政治背景下，跨国巨头依然将中国市场视为不可忽视的战略重心，试图通过此行稳固或拓展商业利益。</div>
+                <div class="ai-summary">随着特朗普计划访华，美国商界巨头代表团阵容浮出水面。特斯拉CEO马斯克、苹果CEO库克及贝莱德CEO芬克等重量级人物预计将随行。这一豪华阵容不仅彰显了美国企业对中国市场的持续重视，也预示着在复杂的中美经贸关系下，科技与金融巨头正试图通过高层互动寻求商业突破与政策确定性，为双边经贸定调。</div>
                 <div class="article-footer"><a href="https://cn.wsj.com/articles/whostraveling-to-china-with-trump-in-the-u-s-business-delegation-2bc6eb6c" target="_blank" rel="noopener" class="article-link">阅读原文 →</a></div>
             </article>
 
@@ -201,32 +187,8 @@ h2 {
                     <span class="date-tag">05-12</span>
                 </div>
                 <div class="guide-text">NACHO即“霍尔木兹海峡绝无可能开放”的缩写。油价和美债收益率上涨，而芯片股持续走强，标普500指数和纳指再创新高。</div>
-                <div class="ai-summary">华尔街近期悄然兴起一种名为“NACHO”的交易策略，即押注“霍尔木兹海峡绝无可能开放”。受地缘冲突影响，油价与美国国债收益率双双上涨，但科技板块未受拖累，芯片股持续走强，推动标普500指数和纳斯达克指数再创新高。这一策略反映出市场对中东航运中断风险的定价，同时也体现了投资者对科技股韧性的强烈信心。</div>
+                <div class="ai-summary">华尔街正悄然兴起一种名为“NACHO”（霍尔木兹海峡绝无可能开放）的新型交易策略，反映出市场对中东地缘政治风险升级的定价。在此背景下，油价与美国国债收益率双双上涨，而芯片股依然保持强劲势头，推动标普500指数和纳斯达克指数再创历史新高。这表明市场在避险与追涨科技股之间呈现出复杂的分化态势。</div>
                 <div class="article-footer"><a href="https://cn.wsj.com/articles/nacho%E4%BA%A4%E6%98%93%E5%9C%A8%E5%8D%8E%E5%B0%94%E8%A1%97%E6%82%84%E7%84%B6%E6%88%90%E5%BD%A2-461c6243" target="_blank" rel="noopener" class="article-link">阅读原文 →</a></div>
-            </article>
-
-<h2>🔥 今日头条</h2>
-
-            <article class="article-card">
-                
-                <div class="article-header">
-                    <h3>两万海员被困霍尔木兹海峡，物资告急且归期无望</h3>
-                    <span class="date-tag">05-12</span>
-                </div>
-                <div class="guide-text">这些海员一边躲避无人机和战火威胁，一边精打细算靠着仅存的食物艰难维生，同时等待脱困方案。</div>
-                <div class="ai-summary">霍尔木兹海峡的紧张局势已导致约两万名海员被困于该水域。这些海员不仅要在战火与无人机的威胁下求生，还面临物资严重告急的困境，只能精打细算依靠仅存的食物维持基本生存。在归期无望的焦虑中，他们苦苦等待各方提出的脱困方案。这一人道危机凸显了地缘冲突对全球航运一线从业者的沉重打击。</div>
-                <div class="article-footer"><a href="https://cn.wsj.com/articles/iran-hormuz-sailors-ships-stranded-e5253909" target="_blank" rel="noopener" class="article-link">阅读原文 →</a></div>
-            </article>
-
-            <article class="article-card">
-                
-                <div class="article-header">
-                    <h3>特朗普对伊朗战争泄密事件的不满促使司法部展开积极调查</h3>
-                    <span class="date-tag">05-12</span>
-                </div>
-                <div class="guide-text">《华尔街日报》收到了日期为3月4日的大陪审团传票，要求提供该报记者的记录。</div>
-                <div class="ai-summary">因特朗普对伊朗战争计划泄密事件表达强烈不满，美国司法部已展开积极调查。作为调查的一部分，《华尔街日报》收到了3月4日签发的大陪审团传票，被要求提供相关记者的记录。此举引发了关于新闻自由与国家安全之间界限的再度交锋，也显示出政府在追查内部泄密者时对媒体机构的施压态势。</div>
-                <div class="article-footer"><a href="https://cn.wsj.com/articles/trumps-complaints-about-iran-war-leaks-prompt-aggressive-doj-investigations-d487e558" target="_blank" rel="noopener" class="article-link">阅读原文 →</a></div>
             </article>
 
             <article class="article-card">
@@ -236,19 +198,65 @@ h2 {
                     <span class="date-tag">05-12</span>
                 </div>
                 <div class="guide-text">这一决定预计将抬高这个耗资数十亿美元项目的建设成本和难度。</div>
-                <div class="ai-summary">美国海军宣布，新一代“特朗普级”战列舰将采用核动力推进系统。虽然核动力能提供更持久的海上续航力，但这一决定预计将大幅抬高该数十亿美元级项目的建设成本与工程难度。在国防预算备受审视的背景下，此举不仅面临技术挑战，也必将引发关于军事投入性价比与战略优先级的广泛争议。</div>
-                <div class="article-footer"><a href="https://cn.wsj.com/articles/%E7%BE%8E%E5%9B%BD%E6%B5%B7%E5%86%9B%E7%A7%B0-%E7%89%B9%E6%9C%97%E6%99%AE%E7%BA%A7-%E6%88%98%E5%88%97%E8%88%B0%E5%B0%86%E9%87%87%E7%94%A8%E6%A0%B8%E5%8A%A8%E5%8A%A9-754d8e4d" target="_blank" rel="noopener" class="article-link">阅读原文 →</a></div>
+                <div class="ai-summary">美国海军宣布新一代“特朗普级”战列舰将采用核动力设计，此举标志着美国海军舰艇动力系统的重大战略转向。然而，核动力方案的引入预计将大幅推高这个本已耗资数十亿美元的超级项目的建设成本与工程难度。这不仅引发了对国防预算压力的担忧，也反映出美国在追求军事技术绝对优势与控制军费开支之间面临的艰难平衡。</div>
+                <div class="article-footer"><a href="https://cn.wsj.com/articles/%E7%BE%8E%E5%9B%BD%E6%B5%B7%E5%86%9B%E7%A7%B0-%E7%89%B9%E6%9C%97%E6%99%AE%E7%BA%A7-%E6%88%98%E5%88%97%E8%88%B0%E5%B0%86%E9%87%87%E7%94%A8%E6%A0%B8%E5%8A%A8%E5%8A%A8-754d8e4d" target="_blank" rel="noopener" class="article-link">阅读原文 →</a></div>
+            </article>
+
+<h2>🔥 今日头条</h2>
+
+            <article class="article-card">
+                <img src="https://images.wsj.net/im-91042597/large" alt="从“中国冲击”到“佛山阵痛”：中国家具之都艰难求存" loading="lazy" class="article-img" onerror="this.style.display='none'">
+                <div class="article-header">
+                    <h3>从“中国冲击”到“佛山阵痛”：中国家具之都艰难求存</h3>
+                    <span class="date-tag">05-12</span>
+                </div>
+                <div class="guide-text">据推断：本文探讨中国家具制造重镇佛山在“中国冲击”余波下遭遇的产业阵痛，揭示出口受阻与内需疲软交织下，传统制造业面临的生存困境与转型挑战。</div>
+                <div class="ai-summary">本文聚焦中国家具制造重镇佛山，探讨其从昔日“中国冲击”的出口辉煌到如今面临“阵痛”的艰难求存历程。在海外需求疲软与国内房地产下行双重挤压下，佛山家具产业正遭遇订单萎缩、产能过剩与利润下滑的严峻挑战。文章揭示了中国传统制造业在全球化退潮与经济转型期所面临的深层结构性困境及突围之难。</div>
+                <div class="article-footer"><a href="https://cn.wsj.com/articles/%E4%BB%8E-%E4%B8%AD%E5%9B%BD%E5%86%B2%E5%87%BB-%E5%88%B0-%E4%BD%9B%E5%B1%B1%E9%98%B5%E7%97%9B-%E4%B8%AD%E5%9B%BD%E5%AE%B6%E5%85%B7%E4%B9%8B%E9%83%BD%E8%89%B0%E9%9A%BE%E6%B1%82%E5%AD%98-20060be6" target="_blank" rel="noopener" class="article-link">阅读原文 →</a></div>
+            </article>
+
+            <article class="article-card">
+                <img src="https://images.wsj.net/im-70668364/large" alt="美国难觅中国整车踪影，但中国汽车零部件无处不在" loading="lazy" class="article-img" onerror="this.style.display='none'">
+                <div class="article-header">
+                    <h3>美国难觅中国整车踪影，但中国汽车零部件无处不在</h3>
+                    <span class="date-tag">05-12</span>
+                </div>
+                <div class="guide-text">数据显示，在美国的10,000万家供应商中，约5%的供应商已被中国公司持有所有权股份。</div>
+                <div class="ai-summary">尽管中国制造的整车因关税等壁垒难以进入美国市场，但中国汽车零部件已深度渗透美国供应链。数据显示，美国上万家供应商中约5%已被中资持股。这一现象揭示了中美汽车产业脱钩的复杂性：整车隔离并未切断底层零部件的紧密联系，中国供应链的成本与技术优势依然在美国汽车制造业中发挥着不可或缺的隐性作用。</div>
+                <div class="article-footer"><a href="https://cn.wsj.com/articles/chinas-cars-arent-in-the-u-s-but-its-auto-parts-are-everywhere-5ff34e4b" target="_blank" rel="noopener" class="article-link">阅读原文 →</a></div>
+            </article>
+
+            <article class="article-card">
+                <img src="https://images.wsj.net/im-76976723/large" alt="他手臂残缺，俄罗斯却仍将他送上前线" loading="lazy" class="article-img" onerror="this.style.display='none'">
+                <div class="article-header">
+                    <h3>他手臂残缺，俄罗斯却仍将他送上前线</h3>
+                    <span class="date-tag">05-12</span>
+                </div>
+                <div class="guide-text">尽管俄罗斯每月有数以万计的士兵伤亡，但普京在乌克兰战场上仍难以大幅推进。俄罗斯迟缓的进展表明夺取土地可能需要以数十万人的生命作为代价。</div>
+                <div class="ai-summary">本文通过一名手臂残缺的俄罗斯士兵被强征上前线的个案，揭示了俄乌战争中俄军面临的残酷现实与兵力枯竭危机。尽管每月承受数以万计的伤亡，普京的军队在乌克兰战场上仍难以取得实质性大幅推进。这种迟缓的战局表明，俄罗斯为夺取有限土地所付出的代价正呈指数级增长，战争的惨烈程度与兵源质量恶化令人震惊。</div>
+                <div class="article-footer"><a href="https://cn.wsj.com/articles/he-was-missing-part-of-his-arm-russia-sent-him-into-battle-anyway-2a60ed9e" target="_blank" rel="noopener" class="article-link">阅读原文 →</a></div>
             </article>
 
             <article class="article-card">
                 
                 <div class="article-header">
-                    <h3>从“中国冲击”到“佛山阵痛”：中国家具之都艰难求存</h3>
+                    <h3>特朗普对伊朗战争泄密事件的不满促使司法部展开积极调查</h3>
                     <span class="date-tag">05-12</span>
                 </div>
-                <div class="guide-text">据推断：曾以出口席卷全球的“中国家具之都”佛山，如今在内外需疲软与产业转型双重夹击下，正经历从昔日“中国冲击”到今日“阵痛”的艰难求生。</div>
-                <div class="ai-summary">本文聚焦中国家具制造重镇佛山，探讨其从过去凭借低成本出口席卷全球的“中国冲击”模式，如今陷入“佛山阵痛”的艰难转型。随着国内外需求疲软、房地产下行及供应链转移，佛山家具产业面临严重产能过剩与利润压缩。当地企业正艰难求存，试图通过品牌升级、内销转型与数字化改造寻找出路，折射出中国传统制造业在宏观困局下的普遍挣扎。</div>
-                <div class="article-footer"><a href="https://cn.wsj.com/articles/%E4%BB%8E-%E4%B8%AD%E5%9B%BD%E5%86%B2%E5%87%BB-%E5%88%B0-%E4%BD%9F%E5%B1%B1%E9%98%B5%E7%97%9B-%E4%B8%AD%E5%9B%BD%E5%AE%B6%E5%85%B7%E4%B9%8B%E9%83%BD%E8%89%B0%E9%9A%BE%E6%B1%82%E5%AD%98-20060be6" target="_blank" rel="noopener" class="article-link">阅读原文 →</a></div>
+                <div class="guide-text">《华尔街日报》收到了日期为3月4日的大陪审团传票，要求提供该报记者的记录。</div>
+                <div class="ai-summary">因特朗普对伊朗战争计划泄密事件的强烈不满，美国司法部已展开极具进攻性的调查。大陪审团发出传票，直接要求《华尔街日报》交出相关记者的记录。这一举动不仅凸显了政府对国家安全泄密事件的零容忍态度，也引发了关于新闻自由、记者隐私权保护与国家安全利益之间激烈冲突的深层担忧，可能对媒体监督权构成严峻挑战。</div>
+                <div class="article-footer"><a href="https://cn.wsj.com/articles/trumps-complaints-about-iran-war-leaks-prompt-aggressive-doj-investigations-d487e558" target="_blank" rel="noopener" class="article-link">阅读原文 →</a></div>
+            </article>
+
+            <article class="article-card">
+                
+                <div class="article-header">
+                    <h3>从摩根大通百万和解金看大企业花钱平息职场丑闻背后的考量</h3>
+                    <span class="date-tag">05-12</span>
+                </div>
+                <div class="guide-text">面对员工提出的令人尴尬且暗藏法律风险的职场指控，是对簿公堂还是花钱消灾，对公司老板来说往往是一个棘手的两难选择。</div>
+                <div class="ai-summary">本文以摩根大通支付百万美元和解金为例，深度剖析了大企业在面对职场丑闻时的两难抉择。当员工提出令人尴尬且暗藏法律风险的指控时，企业往往在对簿公堂与花钱消灾之间艰难权衡。花钱平息虽能短期内保全声誉、避免漫长诉讼，但也可能助长内部不良风气并引发公众对企业文化与问责机制的质疑，这是一门极其微妙的管理艺术。</div>
+                <div class="article-footer"><a href="https://cn.wsj.com/articles/jpmorgan-and-the-delicate-art-of-paying-off-employees-99613dfd" target="_blank" rel="noopener" class="article-link">阅读原文 →</a></div>
             </article>
 
             <article class="article-card">
@@ -258,33 +266,12 @@ h2 {
                     <span class="date-tag">05-12</span>
                 </div>
                 <div class="guide-text">一些极具前景的候选方案正被搁置，等待资金到位后才能进行人体测试。</div>
-                <div class="ai-summary">在汉坦病毒防治的下一阶段，寻找有效疫苗与疗法成为核心任务。然而，尽管科研人员已开发出一些极具前景的候选方案，但这些项目目前正被无奈搁置，只能等待资金到位后才能推进关键的人体测试。资金短缺严重拖慢了抗疫进程，暴露出公共卫生领域在应对新兴传染病时研发投入与商业化转化之间的断层。</div>
+                <div class="ai-summary">在全球公共卫生领域持续关注汉坦病毒的背景下，寻找有效疫苗与疗法的工作正面临资金瓶颈。尽管目前已有一些极具科学前景的候选方案，但由于缺乏足够的研发资金支持，这些潜在的生命拯救项目被迫搁置，无法推进至关键的人体测试阶段。这一困境凸显了传染病防治中科研突破与商业投资意愿之间的断层，亟待政策与资本介入。</div>
                 <div class="article-footer"><a href="https://cn.wsj.com/articles/%E6%B1%89%E5%9D%A6%E7%97%85%E6%AF%92%E6%88%98%E7%96%AB%E4%B8%8B%E4%B8%80%E7%A8%8B-%E5%AF%BB%E6%89%BE%E7%96%AB%E8%8B%97%E4%B8%8E%E7%96%97%E6%B3%95-d00cd1fc" target="_blank" rel="noopener" class="article-link">阅读原文 →</a></div>
             </article>
 
-            <article class="article-card">
-                
-                <div class="article-header">
-                    <h3>青少年与年轻男性为求“完美”以身试肽</h3>
-                    <span class="date-tag">05-12</span>
-                </div>
-                <div class="guide-text">号称具有美肤、肌肉恢复和增肌效果的注射剂，正吸引着越来越年轻的群体，包括年轻男性乃至青少年。</div>
-                <div class="ai-summary">近年来，号称具备美肤、肌肉恢复及增肌效果的肽类注射剂在市场上迅速走红，其受众群体正呈现显著的年轻化趋势，甚至吸引了大量年轻男性与青少年。为了追求所谓的“完美”体态，这些年轻人不惜以身试肽。然而，在缺乏专业医疗指导与长期安全数据的情况下，这种盲目跟风不仅潜藏健康风险，也折射出社会容貌焦虑向更年轻群体蔓延的隐忧。</div>
-                <div class="article-footer"><a href="https://cn.wsj.com/articles/%E9%9D%A2%E5%B0%91%E5%B9%B4%E4%B8%8E%E5%B9%B4%E8%BD%BB%E7%94%B7%E6%80%A7%E4%B8%BA%E6%B1%82-%E5%AE%8C%E7%BE%8E-%E4%BB%A5%E8%BA%AB%E8%AF%95%E8%82%BD-08ddc225" target="_blank" rel="noopener" class="article-link">阅读原文 →</a></div>
-            </article>
-
 <h2>📋 其他资讯</h2>
-
-            <article class="article-card">
-                
-                <div class="article-header">
-                    <h3>Fortress联合创始人据称遭性伴侣勒索</h3>
-                    <span class="date-tag">05-12</span>
-                </div>
-                <div class="guide-text">出生于中国的女企业家Changli “Sophia” Luo被控涉嫌通过威胁公开她与韦斯利·埃登斯发生关系的视频和照片，向埃登斯勒索超过10亿美元。</div>
-                <div class="ai-summary">Fortress投资集团联合创始人韦斯利·埃登斯遭遇巨额勒索案。出生于中国的女企业家Changli “Sophia” Luo被控涉嫌以公开两人私密关系视频与照片为威胁，向埃登斯索要超过10亿美元。此案不仅涉及惊人的勒索金额，更因双方的特殊身份与私密关系而备受关注，目前案件细节正逐步浮出水面，引发商界与法律界的热议。</div>
-                <div class="article-footer"><a href="https://cn.wsj.com/articles/fortress%E8%81%94%E5%90%88%E5%88%9B%E5%A7%8B%E4%BA%BA%E6%8D%AE%E7%A7%B0%E9%81%AD%E6%80%A7%E4%BC%B4%E4%BE%A3%E5%8B%92%E7%B4%A2-b6b35ce2" target="_blank" rel="noopener" class="article-link">阅读原文 →</a></div>
-            </article>
+<p style="color:#999;font-style:italic">今日无其他资讯</p>
 
 <footer class="site-footer">
   🤖 模型：GLM-5.1 · Powered by OpenClaw<br>

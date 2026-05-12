@@ -3,47 +3,95 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>半导体简报｜Semi Brief</title>
+  <title>半导体简报索引</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
-    :root { --bg:#f8fafc; --text:#1e293b; --muted:#64748b; --accent:#2563eb; --border:#e2e8f0; --sans:'Noto Sans SC',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC",sans-serif }
-    body { margin:0; background:var(--bg); color:var(--text); font-family:var(--sans) }
-    .wrap { max-width:900px; margin:0 auto; padding:40px 24px 60px }
-    .hero { text-align:center; margin-bottom:40px; border-bottom:2px solid var(--border); padding-bottom:32px }
-    .hero-title { font-size:36px; font-weight:700; letter-spacing:-1px }
-    .hero-sub { font-size:16px; color:var(--muted); margin-top:12px }
-    .brief-grid { display:grid; grid-template-columns:1fr; gap:16px }
+    :root { --bg:#f8fafc; --text:#1e293b; --muted:#64748b; --accent:#2563eb; --border:#e2e8f0; --panel:#fff; --tag-bg:#f1f5f9; --tag-text:#475569; --sans: 'Noto Sans SC', -apple-system, sans-serif; }
+    body { margin:0; background:var(--bg); color:var(--text); font-family:var(--sans); padding:40px 24px; }
+    .container { max-width:900px; margin:0 auto; }
+    h1 { font-size:28px; font-weight:700; margin:0 0 8px; text-align:center; }
+    .subtitle { text-align:center; color:var(--muted); font-size:14px; margin-bottom:40px; }
     .brief-card { display:flex; align-items:center; gap:16px; background:#fff; border:1px solid var(--border); border-radius:12px; padding:20px; text-decoration:none; color:inherit; transition:transform 0.2s, box-shadow 0.2s }
-    .brief-card:hover { transform:translateY(-2px); box-shadow:0 4px 8px rgba(0,0,0,0.08); border-color:var(--accent) }
+    .brief-card:hover { transform:translateY(-2px); box-shadow:0 4px 8px rgba(0,0,0,.08); border-color:var(--accent) }
     .brief-card.current { background:#eff6ff; border-color:var(--accent); border-width:2px }
-    .brief-icon { font-size:32px; width:48px; text-align:center }
+    .brief-icon { font-size:28px; }
     .brief-info { flex:1 }
-    .brief-title { font-size:18px; font-weight:600 }
-    .brief-period { font-size:13px; color:var(--muted); margin-top:4px }
-    .foot { margin-top:40px; text-align:center; color:var(--muted); font-size:12px; padding-top:20px; border-top:1px solid var(--border) }
-    .section-label { font-size:14px; font-weight:700; color:var(--muted); margin:24px 0 8px; text-transform:uppercase; letter-spacing:1px }
+    .brief-title { font-size:16px; font-weight:600; }
+    .brief-period { font-size:12px; color:var(--muted); margin-top:4px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; }
+    .topic-row { display:flex; align-items:center; gap:8px; padding:8px 0; border-bottom:1px solid var(--border); font-size:14px }
+    .tp-heat { display:inline-block; padding:2px 8px; border-radius:4px; font-size:12px; font-weight:600; min-width:48px; text-align:center }
+    .tp-heat.up { background:#fef2f2; color:#dc2626 }
+    .tp-heat.stable { background:#fffbeb; color:#d97706 }
+    .tp-heat.down { background:#f0fdf4; color:#16a34a }
+    .topic-section { background:#fff; border:1px solid var(--border); border-radius:12px; padding:20px; margin-bottom:24px }
+    .topic-section h2 { font-size:16px; font-weight:600; margin:0 0 12px; border-bottom:2px solid var(--accent); padding-bottom:8px }
+    .footer { text-align:center; color:var(--muted); font-size:12px; margin-top:40px; }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="hero">
-      <div class="hero-title">📡 半导体简报</div>
-      <div class="hero-sub">芯片供应链 · Fab/封测/EDA/IP · 每天3次更新</div>
-    </div>
-    <div class="section-label">📌 最新</div>
+  <div class="container">
+    <h1>📡 半导体简报索引</h1>
+    <div class="subtitle">最新简报 · 话题热度追踪</div>
+    
+    
+                <div class="topic-section">
+                  <h2>🔥 话题热度（2026-05-12）</h2>
+                  
+                    <div class="topic-row">
+                      <span style="min-width:120px;font-weight:600">CoWoS/先进封装</span>
+                      <span class="tp-heat down">↓↓降温</span>
+                      <span style="color:var(--muted);font-size:12px">社区对先进封装的讨论热度有所降温，近期台系代工厂产能扩充消息较多，缓解了短期紧缺焦虑，讨论焦点从产能恐慌转向长期技术迭代</span>
+                    </div>
+                    <div class="topic-row">
+                      <span style="min-width:120px;font-weight:600">HBM/AI存储</span>
+                      <span class="tp-heat down">↓↓降温</span>
+                      <span style="color:var(--muted);font-size:12px">尽管韩国出口数据显示HBM和存储价格大涨，但社区讨论热度却出现降温，情绪从恐慌性紧缺转向对价格持续性与下游承受能力的观望</span>
+                    </div>
+                    <div class="topic-row">
+                      <span style="min-width:120px;font-weight:600">中国Fab/先进制程</span>
+                      <span class="tp-heat down">↓↓降温</span>
+                      <span style="color:var(--muted);font-size:12px">国内晶圆厂相关讨论热度下降，社区情绪趋于平静，目前处于技术突破的消化期，缺乏新的重大刺激点，关注点转向成熟制程的产能利用</span>
+                    </div>
+                    <div class="topic-row">
+                      <span style="min-width:120px;font-weight:600">国产EDA/IP</span>
+                      <span class="tp-heat down">↓↓降温</span>
+                      <span style="color:var(--muted);font-size:12px">国产EDA话题热度回落，讨论从初期的政策期待转向实际工具验证与客户导入的务实阶段，社区对国产替代的节奏预期趋于理性。</span>
+                    </div>
+                    <div class="topic-row">
+                      <span style="min-width:120px;font-weight:600">封测OSAT</span>
+                      <span class="tp-heat down">↓↓降温</span>
+                      <span style="color:var(--muted);font-size:12px">封测板块讨论降温，市场对传统OSAT的关注度减弱，焦点被先进封装的长期趋势稀释，社区正在寻找传统封测向先进封装转型的投资</span>
+                    </div>
+                    <div class="topic-row">
+                      <span style="min-width:120px;font-weight:600">出口管制/制裁</span>
+                      <span class="tp-heat down">↓↓降温</span>
+                      <span style="color:var(--muted);font-size:12px">制裁话题热度下降，社区对新增限制清单的敏感度降低，情绪从短期应激转向长期适应与合规常态化，讨论重心转移至供应链重构效果。</span>
+                    </div>
+                    <div class="topic-row">
+                      <span style="min-width:120px;font-weight:600">AI芯片/NVIDIA</span>
+                      <span class="tp-heat down">↓↓降温</span>
+                      <span style="color:var(--muted);font-size:12px">AI芯片讨论热度降温，尽管Cerebras IPO和AMD新动作带来新竞争，但NVIDIA垄断格局下社区缺乏颠覆性新话题</span>
+                    </div>
+                    <div class="topic-row">
+                      <span style="min-width:120px;font-weight:600">设备/材料国产化</span>
+                      <span class="tp-heat down">↓↓降温</span>
+                      <span style="color:var(--muted);font-size:12px">设备材料国产化讨论热度回落，市场正消化前期的国产替代订单利好，进入验证与量产爬坡的静默期，社区期待下一轮财报数据验证替代</span>
+                    </div>
+                </div>
+    
     
         <a href="2026-05-12-midday.html" class="brief-card current">
           <div class="brief-icon">🌤️</div>
           <div class="brief-info">
-            <div class="brief-title">最新简报（2026-05-12 午报）</div>
-            <div class="brief-period">midday</div>
+            <div class="brief-title">2026-05-12 午报</div>
+            <div class="brief-period">最新 · 点击查看</div>
           </div>
         </a>
-    <div class="section-label">📅 历史简报</div>
-    <div class="brief-grid">
     
+    <div class="grid">
         <a href="2026-05-12-midday.html" class="brief-card">
           <div class="brief-icon">🌤️</div>
           <div class="brief-info">
@@ -253,9 +301,8 @@
             <div class="brief-title">2026-05-01 晚报</div>
             <div class="brief-period">evening</div>
           </div>
-        </a>
-    </div>
-    <div class="foot">Generated by OpenClaw · Semi Brief</div>
+        </a></div>
+    <div class="footer">Generated by OpenClaw</div>
   </div>
 </body>
 </html>
