@@ -1,7 +1,7 @@
 {
-  "version": "v20260512-1306",
-  "generatedAt": "2026-05-12T13:06:00+08:00",
-  "period": "midday",
+  "version": "v20260512-2005",
+  "generatedAt": "2026-05-12T20:05:00+08:00",
+  "period": "evening",
   "commit": "",
   "glossary_list": [
     {
@@ -21,48 +21,43 @@
     },
     {
       "term": "LPDA",
-      "desc": "对数周期偶极子阵列，一种具有宽频带特性的天线结构",
+      "desc": "对数周期偶极子阵列，一种宽带天线结构",
       "category": "EDA/IP"
     },
     {
       "term": "Full-Wave EM Simulation",
-      "desc": "全波电磁仿真，求解麦克斯韦方程组的完整数值方法，用于高精度电磁分析",
+      "desc": "全波电磁仿真，求解麦克斯韦方程组的完整数值方法，用于高频电磁设计",
       "category": "EDA/IP"
     },
     {
-      "term": "线控底盘",
-      "desc": "通过电子信号控制底盘执行机构的系统，是实现高级自动驾驶的基础",
-      "category": "汽车芯片"
+      "term": "IonQ",
+      "desc": "一家专注于离子阱量子计算的领先公司",
+      "category": "Fab/制造"
     },
     {
-      "term": "激光雷达",
-      "desc": "利用激光进行探测和测距的传感器，常用于自动驾驶3D环境感知",
-      "category": "汽车芯片"
+      "term": "SkyWater",
+      "desc": "一家美国独立晶圆代工厂，提供特种工艺和先进封装服务",
+      "category": "Fab/制造"
     },
     {
-      "term": "Tensor Processing",
-      "desc": "张量处理，针对多维数组（张量）进行的数学运算，是深度学习计算的核心",
-      "category": "芯片架构"
+      "term": "M&A",
+      "desc": "并购，包括兼并与收购，是企业扩张和整合的重要手段",
+      "category": "综合"
     },
     {
-      "term": "Agentic AI",
-      "desc": "代理式AI，具备自主规划、决策和执行能力的智能系统",
-      "category": "制造/良率"
+      "term": "Cerebras",
+      "desc": "一家AI芯片初创公司，以晶圆级引擎（WSE）架构闻名",
+      "category": "EDA/IP"
     },
     {
-      "term": "Point Solutions",
-      "desc": "单点解决方案，针对特定孤立问题设计的局部优化工具",
-      "category": "制造/良率"
+      "term": "IPO",
+      "desc": "首次公开募股，企业上市融资的过程",
+      "category": "综合"
     },
     {
-      "term": "Moore's Law",
-      "desc": "摩尔定律，指集成电路上可容纳的晶体管数目约每隔两年增加一倍的性能规律",
-      "category": "行业趋势"
-    },
-    {
-      "term": "Beyond Moore's Law",
-      "desc": "超越摩尔定律，通过封装、异构集成等非单纯微缩手段提升系统整体性能的技术路线",
-      "category": "行业趋势"
+      "term": "Quantum Manufacturing",
+      "desc": "量子制造，指量子计算硬件的晶圆制造、封装与测试过程",
+      "category": "Fab/制造"
     }
   ],
   "topic_pulse": [
@@ -71,56 +66,56 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS和先进封装的讨论热度有所下降，市场情绪趋于冷静。投资者和从业者正从初期的狂热转向关注实际产能释放与良率爬坡的落地情况。"
+      "summary": "社区对CoWoS及先进封装的讨论热度降温，近期缺乏重大产能扩张或技术突破新闻。市场关注点暂时从封装瓶颈转向其他领域，但长期产能紧缺预期依然存在。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度降温，社区讨论焦点从缺货炒作转向长期供需平衡。业界开始理性评估HBM产能扩张后的价格走势及技术迭代节奏。"
+      "summary": "HBM与AI存储话题热度下降，缺乏新的供应商动态或规格发布。社区情绪趋于平稳，等待下一代HBM4的明确路线图及量产时间表。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "关于中国Fab与先进制程的讨论热度回落，社区情绪相对平稳。大家正密切关注国内晶圆厂在当前技术限制下的实际量产进度与客户导入情况。"
+      "summary": "关于中国Fab与先进制程的讨论热度回落，近期无重大国产突破消息刺激。社区关注焦点暂时转移，但仍在持续追踪本土产线的良率与产能爬坡进展。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题热度降温，社区讨论从概念炒作进入务实阶段。从业者更关注本土EDA工具在特定点工具上的突破及客户验证反馈。"
+      "summary": "国产EDA/IP话题降温，缺乏重磅新品发布或融资事件。社区讨论暂归平静，业界仍在等待国产EDA在关键点工具上的实质性替代进展。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT板块热度下降，社区讨论趋于平淡。市场正等待传统封装需求复苏及先进封装产能实质性扩充的进一步数据验证。"
+      "summary": "封测OSAT热度下降，近期无显著订单或技术整合新闻。社区对传统封测的关注减弱，目光更多转向先进封装与垂直整合趋势。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度降温，社区情绪暂趋缓和。讨论重心从新规冲击的恐慌转向企业合规应对与供应链调整的常态化运作。"
+      "summary": "出口管制与制裁话题热度减退，近期无新增重大禁令或清单更新。社区情绪暂时缓和，但企业仍在默默推进供应链合规与替代方案。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与英伟达相关讨论热度回落，市场情绪回归理性。社区关注点从短期算力霸权转向长期竞争格局及英伟达下一代架构的演进预期。"
+      "summary": "AI芯片与英伟达相关讨论降温，缺乏新一代产品发布或财报刺激。社区短期焦点转移，但英伟达的生态霸主地位与长期需求预期仍是共识。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化话题热度降温，社区讨论进入沉淀期。业界正聚焦于国产设备在产线上的实际验证进度与材料客户的持续替代率。"
+      "summary": "设备与材料国产化热度下降，近期缺乏核心环节的突破性进展。社区讨论暂缓，业界持续关注国产设备在先进产线上的验证与导入进度。"
     }
   ],
   "items": [
@@ -134,169 +129,166 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "全波电磁仿真在复杂宽带天线设计中越来越不可或缺，能显著提高设计精度并缩短研发周期。",
-        "LPDA馈电反射面天线在宽带通信与雷达系统中具有重要应用价值，EDA工具的高精度仿真能力是关键支撑。"
+        "全波电磁仿真在复杂天线系统设计中愈发关键，能显著提升宽带天线的设计精度与效率。",
+        "LPDA馈电反射面天线设计对EDA工具的高频电磁求解能力提出了更高要求，相关仿真软件市场存在细分机会。"
       ],
       "actions": [
-        "射频与天线设计工程师应关注并引入先进的全波EM仿真工具，以优化宽带天线的设计流程与性能验证。",
-        "EDA厂商可针对宽带天线设计场景，开发更具针对性的仿真模块和优化算法，提升工具的差异化竞争力。"
+        "射频与微波芯片设计团队应评估并引入具备高精度全波电磁仿真能力的EDA工具，以应对复杂天线设计需求。",
+        "关注天线仿真领域的IP与EDA初创公司，寻找潜在的技术合作或并购标的。"
       ],
       "glossary": [
         {
           "term": "LPDA",
-          "desc": "对数周期偶极子阵列，一种具有宽频带特性的天线结构",
+          "desc": "对数周期偶极子阵列，一种宽带天线结构",
           "category": "EDA/IP"
         },
         {
           "term": "Full-Wave EM Simulation",
-          "desc": "全波电磁仿真，求解麦克斯韦方程组的完整数值方法，用于高精度电磁分析",
+          "desc": "全波电磁仿真，求解麦克斯韦方程组的完整数值方法，用于高频电磁设计",
           "category": "EDA/IP"
         }
       ],
       "region": "overseas",
-      "summary": "本文介绍了使用全波电磁仿真工具设计对数周期偶极子阵列（LPDA）馈电抛物面反射面天线的实用指南与设计方法。",
+      "summary": "本文提供了一份实用指南，介绍如何使用全波电磁仿真工具设计对数周期偶极子阵列（LPDA）馈电的抛物面反射天线。",
       "tag_category": "EDA/IP",
       "title_en": "Designing Broadband LPDA-Fed Reflector Antennas With Full-Wave EM Simulation"
     },
     {
-      "title": "全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日",
-      "url": "https://chejiahao.autohome.com.cn/info/25266221",
-      "description": "全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日\n\n酱酱侃车\n\n车家号·0浏览·2026-04-20 22:37 · 北京\n\n\"这不是汽车，这是具身智能机器人的开山之作。\"\n\n4月20日，理想汽车CEO李想在社交媒体上的一句话，为即将亮相的全新一代理想L9(参数|询",
-      "published": "2026-05-15T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
+      "title": "IonQ与SkyWater合并获批，量子制造故事成为焦点（IonQ SkyWater Merger Approval Puts Quantum Manufacturing Story In Focus）",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-skywater-merger-approval-puts-121207049.html",
+      "description": "SkyWater Technology shareholders have approved the merger agreement with IonQ. The companies currently expect the deal to close in the second or third quarter of 2026, subject to regulatory approvals. The acquisition is intended to combine IonQ's quantum computing focus with SkyWater's ...",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "四颗激光雷达的配置标志着车载传感器数量和算力需求持续攀升，将直接拉动车规级高性能计算芯片及激光雷达处理器市场。",
-        "全线控底盘的普及要求更复杂的底盘域控制器和更高可靠性的MCU/SoC支持，推动汽车芯片向高安全等级演进。"
+        "量子计算公司通过并购晶圆代工厂来垂直整合制造能力，标志着量子硬件从研发走向规模化制造的关键转折。",
+        "此次合并将强化IonQ在量子芯片制造和封装环节的自主可控性，缩短产品迭代周期。"
       ],
       "actions": [
-        "车载芯片供应商应加速布局高集成度、高可靠性的底盘域控SoC和激光雷达信号处理芯片。",
-        "供应链需关注理想等主机厂的传感器与底盘配置升级趋势，提前储备对应的高速接口和信号处理IP。"
+        "半导体供应链企业应密切关注量子计算制造生态的崛起，提前布局量子芯片所需的特种工艺、封装及测试服务。",
+        "代工厂和OSAT可评估量子芯片制造的工艺需求与产能潜力，寻求与IonQ等量子计算头部企业的合作机会。"
       ],
       "glossary": [
         {
-          "term": "线控底盘",
-          "desc": "通过电子信号控制底盘执行机构的系统，是实现高级自动驾驶的基础",
-          "category": "汽车芯片"
+          "term": "IonQ",
+          "desc": "一家专注于离子阱量子计算的领先公司",
+          "category": "Fab/制造"
         },
         {
-          "term": "激光雷达",
-          "desc": "利用激光进行探测和测距的传感器，常用于自动驾驶3D环境感知",
-          "category": "汽车芯片"
-        }
-      ],
-      "region": "domestic",
-      "summary": "理想汽车宣布其L9 Livis车型定档5月15日，该车型配备全线控底盘、四颗激光雷达及420km纯电续航，彰显了高端智能电动汽车的硬件配置趋势。",
-      "tag_category": "综合",
-      "title_en": "全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日_车家号_发现车生活_汽车之家"
-    },
-    {
-      "title": "快速、高效且正确的张量处理（Fast, furious, and yet correct tensor processing）",
-      "url": "https://shonan.nii.ac.jp/seminars/249/",
-      "description": "No.249 Fast, furious, and yet correct tensor processing | Seminars | NII Shonan Meeting\n[![NII SHONAN MEETING](https://shonan.nii.ac.jp/_libs/images/common/shonan_meeting_logo.svg)](https://shonan.nii.ac.jp/)\n*MENU*\n# [Seminars](https://shonan.nii.ac.jp/seminars/)\nArchives202620252024202320212020201",
-      "published": "2026-05-17T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "张量处理是AI芯片的核心运算，在追求算力爆发的同时兼顾计算正确性是架构设计的难点与趋势。",
-        "硬件级容错与精度优化技术将成为下一代AI加速器的重要差异化竞争力。"
-      ],
-      "actions": [
-        "AI芯片架构师需在设计中引入更高效的精度验证与容错机制，平衡性能与准确性。",
-        "相关研发团队应关注NII Shonan Meeting等前沿研讨会中关于张量计算正确性的最新学术进展与架构思路。"
-      ],
-      "glossary": [
-        {
-          "term": "Tensor Processing",
-          "desc": "张量处理，针对多维数组（张量）进行的数学运算，是深度学习计算的核心",
-          "category": "芯片架构"
+          "term": "SkyWater",
+          "desc": "一家美国独立晶圆代工厂，提供特种工艺和先进封装服务",
+          "category": "Fab/制造"
         }
       ],
       "region": "overseas",
-      "summary": "该研讨会探讨了如何在保持高速度和高效率的同时，确保张量处理计算的准确性，这对AI加速器架构设计至关重要。",
+      "summary": "SkyWater Technology股东已批准与IonQ的合并协议，预计交易将在2026年第二或第三季度完成，需等待监管批准。",
       "tag_category": "综合",
-      "title_en": "NO.249 \nFast, furious, and yet correct tensor processing"
+      "title_en": "IonQ SkyWater Merger Approval Puts Quantum Manufacturing Story In Focus"
     },
     {
-      "title": "从单点解决方案到代理式AI生态系统：半导体工艺控制依赖于其历史（From Point Solutions to Agentic AI Ecosystems: Semiconductor Process Control Depends on Its Past）",
-      "url": "https://semiwiki.com/artificial-intelligence/369092-from-point-solutions-to-agentic-ai-ecosystems-semiconductor-process-control-depends-on-its-past/",
-      "description": "<p>Agentic AI is often presented as a revolutionary shift in semiconductor manufacturing, driven by large language models and generative AI. However, this framing overlooks an important reality: today’s advances are built on decades of prior work. As Jonathan Holt of PDF Solutions emphasizes in his ",
-      "published": "Mon, 11 May 2026 17:00:35 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "哪些公司主导了近期最大的并购交易？（Which companies led the largest recent mergers & acquisitions? | Intellizence）",
+      "url": "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/",
+      "description": "Discover which companies led the largest mergers and acquisitions in 2025. Subscribe to Intellizence to get insights on top M&A data by value, industry, and region.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "半导体制造中的Agentic AI并非空中楼阁，其有效性建立在长期积累的工艺控制数据和单点检测方案之上。",
-        "从单点方案向AI生态系统演进，要求企业打通数据孤岛，实现全流程的数据互通与模型迭代。"
+        "半导体行业的并购活动仍是资本整合与技术获取的核心驱动力，头部企业通过并购加速AI、量子等前沿领域布局。",
+        "跟踪并购趋势有助于预判产业价值链的重构方向，特别是制造、EDA和先进封装环节的集中度变化。"
       ],
       "actions": [
-        "Fab厂商在引入生成式AI和代理式AI时，应优先夯实底层数据采集与单点控制系统的质量，避免脱离实际的AI空转。",
-        "设备与良率管理软件供应商需开发更开放的数据接口，助力客户将历史单点数据转化为AI生态系统的训练资产。"
+        "供应链从业者应定期复盘半导体领域的重大并购案，分析其对上下游竞争格局和客户结构的潜在冲击。",
+        "投资与战略部门需建立并购情报追踪机制，识别潜在的标的出售或行业整合机会。"
       ],
       "glossary": [
         {
-          "term": "Agentic AI",
-          "desc": "代理式AI，具备自主规划、决策和执行能力的智能系统",
-          "category": "制造/良率"
-        },
-        {
-          "term": "Point Solutions",
-          "desc": "单点解决方案，针对特定孤立问题设计的局部优化工具",
-          "category": "制造/良率"
+          "term": "M&A",
+          "desc": "并购，包括兼并与收购，是企业扩张和整合的重要手段",
+          "category": "综合"
         }
       ],
       "region": "overseas",
-      "summary": "文章指出，代理式AI在半导体制造中被视为革命性转变，但实际上当前的发展仍高度依赖于过去积累的单点解决方案和工艺数据基础。",
+      "summary": "Intellizence发布数据，揭示了2025年按价值、行业和地区划分的最大并购交易及其主导公司。",
       "tag_category": "综合",
-      "title_en": "From Point Solutions to Agentic AI Ecosystems: Semiconductor Process Control Depends on Its Past"
+      "title_en": "Which companies led the largest recent mergers & acquisitions? | Intellizence"
     },
     {
-      "title": "小组讨论：超越摩尔定律与半导体制造的未来（Panel Discission: Beyond Moore’s Law and the Future of Semiconductor Manufacturing）",
-      "url": "https://semiwiki.com/semiconductor-services/netapp/369122-panel-discission-beyond-moores-law-and-the-future-of/",
-      "description": "<p data-start=\"0\" data-end=\"628\">\n<p data-start=\"0\" data-end=\"628\">The semiconductor industry is entering a post-Moore’s Law era in which scaling transistor density alone is no longer sufficient to sustain historical performance growth. As discussed in the panel <a href=\"https://netapp.hosted.panopt",
-      "published": "Mon, 11 May 2026 13:00:12 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "市场简报：消费者是否会开始屈服？（Markets Brief: Will the Consumer Start Crying ‘Uncle’? | Morningstar）",
+      "url": "https://www.morningstar.com/markets/markets-brief-will-consumer-start-crying-uncle",
+      "description": "Plus: Cerebras’ IPO, the tech stocks leading the EM rally, unicorn concentration, and the April CPI.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "后摩尔时代，先进封装、异构集成和新材料成为延续系统性能提升的关键路径。",
-        "半导体制造的未来不仅依赖光刻微缩，更需要晶圆厂在系统集成和工艺创新上寻找增量。"
+        "Cerebras的IPO进展是AI芯片领域的重要风向标，其晶圆级芯片架构若成功上市，将对传统GPU市场格局形成挑战。",
+        "宏观经济指标（如CPI）与消费者支出直接影响终端电子设备需求，进而传导至半导体产业链的产能利用率。"
       ],
       "actions": [
-        "芯片设计与制造企业应加大对先进封装（如Chiplet）和异构集成技术的战略投资，以应对微缩放缓的挑战。",
-        "设备与材料厂商需紧跟超越摩尔定律的技术路线，研发支持3D集成和新材料的新型制造装备。"
+        "关注Cerebras IPO后续动态，评估其晶圆级计算方案对先进封装和代工产能需求的独特拉动效应。",
+        "芯片供应链管理者需结合宏观经济与消费者信心数据，动态调整库存与产能规划，防范需求突变风险。"
       ],
       "glossary": [
         {
-          "term": "Moore's Law",
-          "desc": "摩尔定律，指集成电路上可容纳的晶体管数目约每隔两年增加一倍的性能规律",
-          "category": "行业趋势"
+          "term": "Cerebras",
+          "desc": "一家AI芯片初创公司，以晶圆级引擎（WSE）架构闻名",
+          "category": "EDA/IP"
         },
         {
-          "term": "Beyond Moore's Law",
-          "desc": "超越摩尔定律，通过封装、异构集成等非单纯微缩手段提升系统整体性能的技术路线",
-          "category": "行业趋势"
+          "term": "IPO",
+          "desc": "首次公开募股，企业上市融资的过程",
+          "category": "综合"
         }
       ],
       "region": "overseas",
-      "summary": "该小组讨论探讨了半导体行业进入后摩尔定律时代的挑战，指出仅靠缩小晶体管密度已不足以维持行业发展，需寻求新的制造与架构突破。",
-      "tag_category": "综合",
-      "title_en": "Panel Discission: Beyond Moore’s Law and the Future of Semiconductor Manufacturing"
+      "summary": "Morningstar市场简报探讨了消费者支出韧性，并提及Cerebras的IPO、引领新兴市场反弹的科技股以及4月CPI数据。",
+      "tag_category": "EDA/IP",
+      "title_en": "Markets Brief: Will the Consumer Start Crying ‘Uncle’? | Morningstar"
+    },
+    {
+      "title": "5月11日今日股市：SkyWater投票推进半导体制造交易，IonQ股价上涨（Stock Market Today, May 11: IonQ Rises as SkyWater Vote Advances Semiconductor Manufacturing Deal）",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/05/11/stock-market-today-may-11-ionq-rises-as-skywater-vote-advances-semiconductor-manufacturing-deal/",
+      "description": "IonQ’s proposed SkyWater acquisition could bring more fabrication and packaging work into its supply chain, giving the company tighter control over the hardware needed to scale its quantum systems.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "量子计算企业向制造端延伸，反映了硬件自主可控在规模化阶段的核心战略价值，类似AI芯片厂商自建封装产能的逻辑。",
+        "将代工与封装内化后，IonQ能更灵活地优化量子芯片的良率与迭代速度，缩短从设计到量产的周期。"
+      ],
+      "actions": [
+        "半导体设备与材料供应商应关注量子计算制造垂直整合带来的新采购需求，特别是针对特种工艺的定制化设备。",
+        "传统OSAT需警惕部分高增长客户（如量子、AI芯片商）自建制造/封装产能的趋势，加速向高附加值服务转型。"
+      ],
+      "glossary": [
+        {
+          "term": "Quantum Manufacturing",
+          "desc": "量子制造，指量子计算硬件的晶圆制造、封装与测试过程",
+          "category": "Fab/制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "IonQ拟对SkyWater的收购将为其供应链引入更多制造和封装业务，使公司对扩展量子系统所需的硬件拥有更紧密的控制权。",
+      "tag_category": "Fab/制造",
+      "title_en": "Stock Market Today, May 11: IonQ Rises as SkyWater Vote Advances Semiconductor Manufacturing Deal"
     }
   ],
   "stats": {
-    "total_raw": 75,
-    "after_dedup": 69,
+    "total_raw": 86,
+    "after_dedup": 80,
     "sources": {
-      "Exa": 2,
-      "RSS": 62,
-      "Brave": 5
+      "Exa": 1,
+      "RSS": 65,
+      "Brave": 14
     }
-  }
+  },
+  "code_version": "",
+  "data_commit": ""
 }

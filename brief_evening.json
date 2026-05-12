@@ -1,6 +1,6 @@
 {
-  "version": "v20260511-2012",
-  "generatedAt": "2026-05-11T20:12:00+08:00",
+  "version": "v20260512-2005",
+  "generatedAt": "2026-05-12T20:05:00+08:00",
   "period": "evening",
   "commit": "",
   "glossary_list": [
@@ -21,43 +21,43 @@
     },
     {
       "term": "LPDA",
-      "desc": "对数周期偶极子阵列，一种具有宽频带特性的天线结构",
+      "desc": "对数周期偶极子阵列，一种宽带天线结构",
       "category": "EDA/IP"
     },
     {
-      "term": "全波电磁仿真",
-      "desc": "Full-Wave EM Simulation，直接求解麦克斯韦方程组的精确电磁仿真方法",
+      "term": "Full-Wave EM Simulation",
+      "desc": "全波电磁仿真，求解麦克斯韦方程组的完整数值方法，用于高频电磁设计",
       "category": "EDA/IP"
     },
     {
-      "term": "CPI",
-      "desc": "消费者物价指数，衡量通货膨胀水平的重要宏观经济指标",
-      "category": "宏观经济"
+      "term": "IonQ",
+      "desc": "一家专注于离子阱量子计算的领先公司",
+      "category": "Fab/制造"
+    },
+    {
+      "term": "SkyWater",
+      "desc": "一家美国独立晶圆代工厂，提供特种工艺和先进封装服务",
+      "category": "Fab/制造"
+    },
+    {
+      "term": "M&A",
+      "desc": "并购，包括兼并与收购，是企业扩张和整合的重要手段",
+      "category": "综合"
+    },
+    {
+      "term": "Cerebras",
+      "desc": "一家AI芯片初创公司，以晶圆级引擎（WSE）架构闻名",
+      "category": "EDA/IP"
     },
     {
       "term": "IPO",
-      "desc": "首次公开募股，公司首次向公众投资者发售股票",
-      "category": "金融"
+      "desc": "首次公开募股，企业上市融资的过程",
+      "category": "综合"
     },
     {
-      "term": "晶圆级计算",
-      "desc": "Wafer-scale computing，将整个晶圆作为单一巨大芯片的计算架构",
-      "category": "芯片架构"
-    },
-    {
-      "term": "Cash Burn",
-      "desc": "现金消耗，指初创公司消耗其现金储备的速率",
-      "category": "金融"
-    },
-    {
-      "term": "激光雷达",
-      "desc": "LiDAR，利用激光测量距离的遥感技术，自动驾驶核心传感器",
-      "category": "传感器"
-    },
-    {
-      "term": "线控底盘",
-      "desc": "By-wire chassis，通过电子信号控制底盘执行机构的系统",
-      "category": "汽车电子"
+      "term": "Quantum Manufacturing",
+      "desc": "量子制造，指量子计算硬件的晶圆制造、封装与测试过程",
+      "category": "Fab/制造"
     }
   ],
   "topic_pulse": [
@@ -66,61 +66,61 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对先进封装的讨论热度有所下降，可能受产能逐步缓解及市场信息消化期影响。业界正从狂热预期转向实际产能爬坡与良率关注。"
+      "summary": "社区对CoWoS及先进封装的讨论热度降温，近期缺乏重大产能扩张或技术突破新闻。市场关注点暂时从封装瓶颈转向其他领域，但长期产能紧缺预期依然存在。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM相关话题降温，市场对AI存储的短期预期趋于平稳。讨论焦点从产能紧缺逐渐转移至不同HBM代际的技术演进与实际部署成本。"
+      "summary": "HBM与AI存储话题热度下降，缺乏新的供应商动态或规格发布。社区情绪趋于平稳，等待下一代HBM4的明确路线图及量产时间表。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国内晶圆厂与先进制程讨论暂归平静，等待新的技术突破或政策信号。社区情绪较为理性，正专注跟踪成熟制程的产能利用率恢复情况。"
+      "summary": "关于中国Fab与先进制程的讨论热度回落，近期无重大国产突破消息刺激。社区关注焦点暂时转移，但仍在持续追踪本土产线的良率与产能爬坡进展。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题热度回落，行业进入低调的落地验证与研发期。社区对全流程替代的难度有了更客观的认知，情绪偏向务实。"
+      "summary": "国产EDA/IP话题降温，缺乏重磅新品发布或融资事件。社区讨论暂归平静，业界仍在等待国产EDA在关键点工具上的实质性替代进展。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测板块讨论减少，市场关注点暂时转移至上游芯片设计复苏情况。传统封测需求平淡，先进封装仍是该领域唯一亮点。"
+      "summary": "封测OSAT热度下降，近期无显著订单或技术整合新闻。社区对传统封测的关注减弱，目光更多转向先进封装与垂直整合趋势。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制话题降温，短期内无重大新规刺激。社区对常态化制裁已有免疫感，讨论重心转向如何在现有限制下寻找变通方案。"
+      "summary": "出口管制与制裁话题热度减退，近期无新增重大禁令或清单更新。社区情绪暂时缓和，但企业仍在默默推进供应链合规与替代方案。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与英伟达讨论热度下降，目前处于新品发布后的信息消化期。社区正冷静评估Blackwell架构的实际交付时间与性价比。"
+      "summary": "AI芯片与英伟达相关讨论降温，缺乏新一代产品发布或财报刺激。社区短期焦点转移，但英伟达的生态霸主地位与长期需求预期仍是共识。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备材料国产化讨论暂歇，业界正专注落实前期订单与产线验证。社区情绪谨慎乐观，关注重点转向国产设备的长期运行稳定性。"
+      "summary": "设备与材料国产化热度下降，近期缺乏核心环节的突破性进展。社区讨论暂缓，业界持续关注国产设备在先进产线上的验证与导入进度。"
     }
   ],
   "items": [
     {
-      "title": "使用全波电磁仿真设计宽带LPDA馈源反射面天线",
+      "title": "使用全波电磁仿真设计宽带LPDA馈电反射面天线（Designing Broadband LPDA-Fed Reflector Antennas With Full-Wave EM Simulation）",
       "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
       "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
       "published": "Fri, 17 Apr 2026 14:00:50 +0000",
@@ -129,31 +129,95 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "全波电磁仿真在天线设计中至关重要，能显著提高复杂结构如LPDA馈源反射面的设计精度。",
-        "随着射频与毫米波应用增加，EDA工具在电磁仿真领域的需求持续增长。"
+        "全波电磁仿真在复杂天线系统设计中愈发关键，能显著提升宽带天线的设计精度与效率。",
+        "LPDA馈电反射面天线设计对EDA工具的高频电磁求解能力提出了更高要求，相关仿真软件市场存在细分机会。"
       ],
       "actions": [
-        "射频与天线工程师应关注并引入全波仿真工具以优化高频天线设计流程。",
-        "EDA供应商可针对5G/6G天线设计推出更优化的全波仿真解决方案。"
+        "射频与微波芯片设计团队应评估并引入具备高精度全波电磁仿真能力的EDA工具，以应对复杂天线设计需求。",
+        "关注天线仿真领域的IP与EDA初创公司，寻找潜在的技术合作或并购标的。"
       ],
       "glossary": [
         {
           "term": "LPDA",
-          "desc": "对数周期偶极子阵列，一种具有宽频带特性的天线结构",
+          "desc": "对数周期偶极子阵列，一种宽带天线结构",
           "category": "EDA/IP"
         },
         {
-          "term": "全波电磁仿真",
-          "desc": "Full-Wave EM Simulation，直接求解麦克斯韦方程组的精确电磁仿真方法",
+          "term": "Full-Wave EM Simulation",
+          "desc": "全波电磁仿真，求解麦克斯韦方程组的完整数值方法，用于高频电磁设计",
           "category": "EDA/IP"
         }
       ],
       "region": "overseas",
-      "summary": "本文提供了一种使用全波电磁仿真设计对数周期偶极子阵列（LPDA）馈电抛物面反射面天线的实用指南。",
-      "tag_category": "EDA/IP"
+      "summary": "本文提供了一份实用指南，介绍如何使用全波电磁仿真工具设计对数周期偶极子阵列（LPDA）馈电的抛物面反射天线。",
+      "tag_category": "EDA/IP",
+      "title_en": "Designing Broadband LPDA-Fed Reflector Antennas With Full-Wave EM Simulation"
     },
     {
-      "title": "市场简报：消费者会开始“认输”吗？| Morningstar",
+      "title": "IonQ与SkyWater合并获批，量子制造故事成为焦点（IonQ SkyWater Merger Approval Puts Quantum Manufacturing Story In Focus）",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-skywater-merger-approval-puts-121207049.html",
+      "description": "SkyWater Technology shareholders have approved the merger agreement with IonQ. The companies currently expect the deal to close in the second or third quarter of 2026, subject to regulatory approvals. The acquisition is intended to combine IonQ's quantum computing focus with SkyWater's ...",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "量子计算公司通过并购晶圆代工厂来垂直整合制造能力，标志着量子硬件从研发走向规模化制造的关键转折。",
+        "此次合并将强化IonQ在量子芯片制造和封装环节的自主可控性，缩短产品迭代周期。"
+      ],
+      "actions": [
+        "半导体供应链企业应密切关注量子计算制造生态的崛起，提前布局量子芯片所需的特种工艺、封装及测试服务。",
+        "代工厂和OSAT可评估量子芯片制造的工艺需求与产能潜力，寻求与IonQ等量子计算头部企业的合作机会。"
+      ],
+      "glossary": [
+        {
+          "term": "IonQ",
+          "desc": "一家专注于离子阱量子计算的领先公司",
+          "category": "Fab/制造"
+        },
+        {
+          "term": "SkyWater",
+          "desc": "一家美国独立晶圆代工厂，提供特种工艺和先进封装服务",
+          "category": "Fab/制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "SkyWater Technology股东已批准与IonQ的合并协议，预计交易将在2026年第二或第三季度完成，需等待监管批准。",
+      "tag_category": "综合",
+      "title_en": "IonQ SkyWater Merger Approval Puts Quantum Manufacturing Story In Focus"
+    },
+    {
+      "title": "哪些公司主导了近期最大的并购交易？（Which companies led the largest recent mergers & acquisitions? | Intellizence）",
+      "url": "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/",
+      "description": "Discover which companies led the largest mergers and acquisitions in 2025. Subscribe to Intellizence to get insights on top M&A data by value, industry, and region.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "半导体行业的并购活动仍是资本整合与技术获取的核心驱动力，头部企业通过并购加速AI、量子等前沿领域布局。",
+        "跟踪并购趋势有助于预判产业价值链的重构方向，特别是制造、EDA和先进封装环节的集中度变化。"
+      ],
+      "actions": [
+        "供应链从业者应定期复盘半导体领域的重大并购案，分析其对上下游竞争格局和客户结构的潜在冲击。",
+        "投资与战略部门需建立并购情报追踪机制，识别潜在的标的出售或行业整合机会。"
+      ],
+      "glossary": [
+        {
+          "term": "M&A",
+          "desc": "并购，包括兼并与收购，是企业扩张和整合的重要手段",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Intellizence发布数据，揭示了2025年按价值、行业和地区划分的最大并购交易及其主导公司。",
+      "tag_category": "综合",
+      "title_en": "Which companies led the largest recent mergers & acquisitions? | Intellizence"
+    },
+    {
+      "title": "市场简报：消费者是否会开始屈服？（Markets Brief: Will the Consumer Start Crying ‘Uncle’? | Morningstar）",
       "url": "https://www.morningstar.com/markets/markets-brief-will-consumer-start-crying-uncle",
       "description": "Plus: Cerebras’ IPO, the tech stocks leading the EM rally, unicorn concentration, and the April CPI.",
       "published": "",
@@ -162,126 +226,69 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "Cerebras的IPO成为科技股和半导体市场情绪的重要风向标。",
-        "宏观经济指标（如CPI）直接影响消费端对科技及电子产品的购买力。"
+        "Cerebras的IPO进展是AI芯片领域的重要风向标，其晶圆级芯片架构若成功上市，将对传统GPU市场格局形成挑战。",
+        "宏观经济指标（如CPI）与消费者支出直接影响终端电子设备需求，进而传导至半导体产业链的产能利用率。"
       ],
       "actions": [
-        "投资者需密切关注CPI等宏观数据对半导体终端消费市场的传导效应。",
-        "跟踪Cerebras等AI芯片独角兽的上市表现，评估AI硬件赛道整体估值。"
+        "关注Cerebras IPO后续动态，评估其晶圆级计算方案对先进封装和代工产能需求的独特拉动效应。",
+        "芯片供应链管理者需结合宏观经济与消费者信心数据，动态调整库存与产能规划，防范需求突变风险。"
       ],
       "glossary": [
         {
-          "term": "CPI",
-          "desc": "消费者物价指数，衡量通货膨胀水平的重要宏观经济指标",
-          "category": "宏观经济"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Morningstar市场简报关注消费者韧性，并提及Cerebras的IPO、科技股走势及CPI数据。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "需求旺盛，Cerebras将IPO目标提高至48亿美元",
-      "url": "https://www.asatunews.co.id/en/cerebras-increases-ipo-target-valuation",
-      "description": "Chipmaker Cerebras Systems raises its IPO price range to $160 per share, aiming for a $4.8 billion debut as AI hardware demand surges on Monday.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AI算力需求持续火热，非传统GPU架构（如晶圆级计算）正获得资本市场高度认可。",
-        "Cerebras的高估值反映了市场对打破NVIDIA垄断的替代AI硬件方案的强烈渴望。"
-      ],
-      "actions": [
-        "AI芯片初创企业可参考Cerebras的上市路径，强化自身差异化架构的资本故事。",
-        "供应链企业应提前评估Cerebras晶圆级芯片的封装与制造需求，抢占合作先机。"
-      ],
-      "glossary": [
+          "term": "Cerebras",
+          "desc": "一家AI芯片初创公司，以晶圆级引擎（WSE）架构闻名",
+          "category": "EDA/IP"
+        },
         {
           "term": "IPO",
-          "desc": "首次公开募股，公司首次向公众投资者发售股票",
-          "category": "金融"
-        },
-        {
-          "term": "晶圆级计算",
-          "desc": "Wafer-scale computing，将整个晶圆作为单一巨大芯片的计算架构",
-          "category": "芯片架构"
+          "desc": "首次公开募股，企业上市融资的过程",
+          "category": "综合"
         }
       ],
       "region": "overseas",
-      "summary": "受AI硬件需求激增推动，芯片制造商Cerebras Systems将其IPO股价范围提高至每股160美元，目标估值达48亿美元。",
-      "tag_category": "EDA/IP"
+      "summary": "Morningstar市场简报探讨了消费者支出韧性，并提及Cerebras的IPO、引领新兴市场反弹的科技股以及4月CPI数据。",
+      "tag_category": "EDA/IP",
+      "title_en": "Markets Brief: Will the Consumer Start Crying ‘Uncle’? | Morningstar"
     },
     {
-      "title": "今日美股市场：实时更新 10.05.2026",
-      "url": "https://ts2.tech/en/stock-market-today-10-05-2026/",
-      "description": "Investors should monitor cash burn trends and potential funding needs carefully, but the current cash position offers some reassurance amid growth challenges. May 10, 2026, 7:23 PM EDT. Cerebras Systems plans to raise its initial public offering (IPO) price range to $150-$160 per share from $115-$125, aiming to raise about $4.8 billion. The AI chipmaker ...",
+      "title": "5月11日今日股市：SkyWater投票推进半导体制造交易，IonQ股价上涨（Stock Market Today, May 11: IonQ Rises as SkyWater Vote Advances Semiconductor Manufacturing Deal）",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/05/11/stock-market-today-may-11-ionq-rises-as-skywater-vote-advances-semiconductor-manufacturing-deal/",
+      "description": "IonQ’s proposed SkyWater acquisition could bring more fabrication and packaging work into its supply chain, giving the company tighter control over the hardware needed to scale its quantum systems.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "高增长科技企业（如Cerebras）在扩张期的现金消耗是衡量其财务健康度的关键。",
-        "充足的现金储备是AI芯片公司在研发长周期中抵御宏观风险的核心护城河。"
+        "量子计算企业向制造端延伸，反映了硬件自主可控在规模化阶段的核心战略价值，类似AI芯片厂商自建封装产能的逻辑。",
+        "将代工与封装内化后，IonQ能更灵活地优化量子芯片的良率与迭代速度，缩短从设计到量产的周期。"
       ],
       "actions": [
-        "投资机构需建立针对半导体初创企业的现金流动态监测模型。",
-        "芯片企业CFO应平衡研发投入与现金储备，确保在资本寒冬下的生存能力。"
+        "半导体设备与材料供应商应关注量子计算制造垂直整合带来的新采购需求，特别是针对特种工艺的定制化设备。",
+        "传统OSAT需警惕部分高增长客户（如量子、AI芯片商）自建制造/封装产能的趋势，加速向高附加值服务转型。"
       ],
       "glossary": [
         {
-          "term": "Cash Burn",
-          "desc": "现金消耗，指初创公司消耗其现金储备的速率",
-          "category": "金融"
+          "term": "Quantum Manufacturing",
+          "desc": "量子制造，指量子计算硬件的晶圆制造、封装与测试过程",
+          "category": "Fab/制造"
         }
       ],
       "region": "overseas",
-      "summary": "投资者应密切关注现金消耗趋势和潜在资金需求，但目前的现金头寸在增长挑战中提供了一定保障。",
-      "tag_category": "EDA/IP"
-    },
-    {
-      "title": "全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日",
-      "url": "https://chejiahao.autohome.com.cn/info/25266221",
-      "description": "全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日\n\n酱酱侃车\n\n车家号·0浏览·2026-04-20 22:37 · 北京\n\n\"这不是汽车，这是具身智能机器人的开山之作。\"\n\n4月20日，理想汽车CEO李想在社交媒体上的一句话，为即将亮相的全新一代理想L9(参数|询",
-      "published": "2026-05-15T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "多激光雷达与全线控底盘配置标志着国产高端智能电动车对高阶自动驾驶算力与传感融合的硬性需求。",
-        "智能底盘与激光雷达的普及将直接拉动车规级MCU、SoC及光电芯片的出货量。"
-      ],
-      "actions": [
-        "车规芯片供应商应加速适配多激光雷达并发处理与线控底盘实时控制的需求。",
-        "半导体厂商需关注新能源车企的电子电气架构演进，提前布局高集成度域控制器芯片。"
-      ],
-      "glossary": [
-        {
-          "term": "激光雷达",
-          "desc": "LiDAR，利用激光测量距离的遥感技术，自动驾驶核心传感器",
-          "category": "传感器"
-        },
-        {
-          "term": "线控底盘",
-          "desc": "By-wire chassis，通过电子信号控制底盘执行机构的系统",
-          "category": "汽车电子"
-        }
-      ],
-      "region": "domestic",
-      "summary": "理想L9 Livis车型定档5月15日发布，配备全线控底盘、四颗激光雷达及420km纯电续航。",
-      "tag_category": "综合"
+      "summary": "IonQ拟对SkyWater的收购将为其供应链引入更多制造和封装业务，使公司对扩展量子系统所需的硬件拥有更紧密的控制权。",
+      "tag_category": "Fab/制造",
+      "title_en": "Stock Market Today, May 11: IonQ Rises as SkyWater Vote Advances Semiconductor Manufacturing Deal"
     }
   ],
   "stats": {
-    "total_raw": 82,
-    "after_dedup": 76,
+    "total_raw": 86,
+    "after_dedup": 80,
     "sources": {
-      "Exa": 2,
+      "Exa": 1,
       "RSS": 65,
-      "Brave": 9
+      "Brave": 14
     }
-  }
+  },
+  "code_version": "",
+  "data_commit": ""
 }
