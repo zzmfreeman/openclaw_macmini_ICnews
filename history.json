@@ -1,89 +1,5 @@
 [
   {
-    "url": "https://finance.sina.cn/2026-04-21/detail-inhvhmhz0007222.d.html?oid=3781228589423950&vt=4",
-    "title": "盛合晶微正式登陆科创板，晶圆级先进封测龙头上市",
-    "published": "2026-04-21",
-    "addedAt": "2026-04-22T13:05:00+08:00"
-  },
-  {
-    "url": "https://www.techpowerup.com/348367/intel-foundry-tool-orders-surge-50-year-over-year-as-demand-booms",
-    "title": "英特尔代工设备订单同比激增50%，产能扩张信号强烈",
-    "published": "2026-04-20T17:23:19Z",
-    "addedAt": "2026-04-22T13:05:00+08:00"
-  },
-  {
-    "url": "https://finance.eastmoney.com/a/202604223713777272.html",
-    "title": "力源信息旗下武汉芯源半导体官宣全系产品5月6日起调价",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-22T13:05:00+08:00"
-  },
-  {
-    "url": "https://www.infoobs.com/article/20260422/71150.html",
-    "title": "芯片制造扩产潮：全球晶圆厂产能短缺引爆新一轮竞赛",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-22T13:05:00+08:00"
-  },
-  {
-    "url": "https://www.nbd.com.cn/articles/2026-04-21/4350648.html",
-    "title": "帝科股份拟募资30亿元跨界半导体封测，超半数投向存储芯片封装",
-    "published": "2026-04-21",
-    "addedAt": "2026-04-22T13:05:00+08:00"
-  },
-  {
-    "url": "https://www.dw.com/en/china-chips-semiconductor-industry-us-technology-artificial-intelligence/a-76056790",
-    "title": "美国芯片管制反而加速了中国半导体崛起：'够用技术'正在驱动全球经济",
-    "published": "2026-04-20T09:46:00Z",
-    "addedAt": "2026-04-22T13:05:00+08:00"
-  },
-  {
-    "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/rigaku-enters-strategic-alliance-with-onto-innovation-through-27-equity-investment",
-    "title": "Rigaku与Onto Innovation达成战略联盟，通过27%股权合作拓展半导体检测",
-    "published": "2026-04-20T23:18:52Z",
-    "addedAt": "2026-04-22T13:05:00+08:00"
-  },
-  {
-    "url": "https://spectrum.ieee.org/high-bandwidth-memory-shortage",
-    "title": "AI算力需求吞噬HBM供应：高带宽存储短缺持续加剧",
-    "published": "2026-04-06T14:22:58Z",
-    "addedAt": "2026-04-22T13:05:00+08:00"
-  },
-  {
-    "url": "https://m.sohu.com/a/1012622591_250147",
-    "title": "盛合晶微登陆科创板开盘大涨超400%，先进封装赛道热度飙升",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-22T20:09:54+08:00"
-  },
-  {
-    "url": "https://www.mrjjxw.com/articles/2026-04-22/4351474.html",
-    "title": "帝科股份拟募资30亿元跨界半导体封测，超半数投向存储芯片封装",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-22T20:09:54+08:00"
-  },
-  {
-    "url": "https://www.163.com/dy/article/KR3U33RJ05563IC9.html",
-    "title": "美国对中国芯片产业双层打击：先锁死28nm先进制程，再遏制成熟制程扩产",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-22T20:09:54+08:00"
-  },
-  {
-    "url": "https://www.stcn.com/article/detail/3582473.html",
-    "title": "半导体IPO潮涌持续，中国芯片企业加速上市融资",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-22T20:09:54+08:00"
-  },
-  {
-    "url": "https://www.cbinsights.com/research/",
-    "title": "65家中国芯片设计企业上榜CB Insights榜单，GPU/AI芯片设计公司占比突出",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-22T20:09:54+08:00"
-  },
-  {
-    "url": "https://www.electronicsweekly.com/news/business/cerebras-files-for-ipo-2026-04/",
-    "title": "Cerebras Systems提交IPO申请，AI芯片赛道迎来新上市公司",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-22T20:09:54+08:00"
-  },
-  {
     "url": "https://semiwiki.com/semiconductor-manufacturers/intel/368539-is-intel-about-to-take-flight/",
     "title": "Intel代工业务能否起飞？产业分析评估其扭亏为盈的可能性",
     "published": "2026-04-21",
@@ -2986,5 +2902,101 @@
     "title": "理想自研马赫M100芯片正式官宣 单芯算力1280TOPs",
     "published": "2026-05-15T00:00:00.000Z",
     "addedAt": "2026-05-13T13:02:00+08:00"
+  },
+  {
+    "url": "https://finance.sina.com.cn/tech/discovery/2026-05-12/doc-inhxrwqf8214852.shtml",
+    "title": "理想自研马赫M100芯片官宣：理想L9 Livis首发",
+    "published": "2026-05-12T00:00:00.000Z",
+    "addedAt": "2026-05-14T06:13:00+08:00"
+  },
+  {
+    "url": "https://finance.sina.com.cn/wm/2026-05-12/doc-inhxrwqe1427950.shtml",
+    "title": "科创板史上最大并购：中芯国际406亿全资控股中芯北方！晶圆代工“集团军”集结冲锋",
+    "published": "2026-05-12T00:00:00.000Z",
+    "addedAt": "2026-05-14T06:13:00+08:00"
+  },
+  {
+    "url": "https://thenextweb.com/news/huawei-chip-lab-trump-china-visit",
+    "title": "北京在特朗普抵达前两天将华为秘密芯片实验室放上国家电视，该信息并非针对中国观众",
+    "published": "2026-05-12T00:00:00.000Z",
+    "addedAt": "2026-05-14T06:13:00+08:00"
+  },
+  {
+    "url": "https://dailyalpha.us/news/doosan-nears-sk-siltron-acquisition-aiming-to-finalize-vertical-integration-for-ai-semiconductors-in-h1-2026-6a03fcc6011290e921496e35",
+    "title": "斗山接近完成对SK Siltron的收购，目标在2026上半年实现AI半导体垂直整合",
+    "published": "2026-05-13T00:00:00.000Z",
+    "addedAt": "2026-05-14T06:13:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/ceo-interviews/369204-ceo-interview-with-dr-jekaterina-viktorova-of-syenta/",
+    "title": "Syenta首席执行官Jekaterina Viktorova博士专访",
+    "published": "Wed, 13 May 2026 15:00:25 +0000",
+    "addedAt": "2026-05-14T06:13:00+08:00"
+  },
+  {
+    "url": "https://technode.com/2026/05/12/smic-secures-approval-for-5-9-billion-acquisition-in-chinas-largest-domestic-wafer-foundry-ma/",
+    "title": "中芯国际59亿美元收购获批，创国内晶圆代工最大并购纪录",
+    "published": "",
+    "addedAt": "2026-05-14T06:13:00+08:00"
+  },
+  {
+    "url": "https://www.morningstar.com/stocks/why-ai-chip-designer-cerebras-is-2026s-hottest-ipo-yet",
+    "title": "为什么AI芯片设计公司Cerebras是2026年最热门的IPO（Why AI Chip Designer Cerebras Is 2026’s Hottest IPO Yet）",
+    "published": "",
+    "addedAt": "2026-05-14T06:13:00+08:00"
+  },
+  {
+    "url": "https://www.digitimes.com/news/a20260513PD201/tsmc-investment-president-fab-capacity.html",
+    "title": "台积电最新人事调整新增四位高管，美国投资与接班人计划加速推进",
+    "published": "2026-05-12T00:00:00.000Z",
+    "addedAt": "2026-05-14T06:13:00+08:00"
+  },
+  {
+    "url": "https://www.aicerts.ai/news/tsmcs-56b-bet-on-ai-infrastructure/",
+    "title": "台积电560亿美元押注AI基础设施（TSMC’s $56B Bet On AI Infrastructure）",
+    "published": "2026-05-12T00:00:00.000Z",
+    "addedAt": "2026-05-14T06:13:00+08:00"
+  },
+  {
+    "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-allocates-usd20-billion-to-arizona-expansion-project-faces-water-and-labor-shortages-complicated-by-visa-rules",
+    "title": "台积电拨款200亿美元扩建亚利桑那州工厂——项目面临水资源和劳动力短缺，签证规则使情况复杂化",
+    "published": "2026-05-12T00:00:00.000Z",
+    "addedAt": "2026-05-14T06:13:00+08:00"
+  },
+  {
+    "url": "https://www.semiconductor-digest.com/nhanced-semiconductors-the-university-of-florida-to-present-on-hybrid-bonding-reliability-at-the-2026-electronic-components-technology-conference-in-orlando/",
+    "title": "NHanced Semiconductors与佛罗里达大学将在2026年奥兰多电子组件与技术会议上展示混合键合可靠性研究",
+    "published": "2026-05-13T00:00:00.000Z",
+    "addedAt": "2026-05-14T06:13:00+08:00"
+  },
+  {
+    "url": "https://semiconalpha.substack.com/p/ase-q1-2026-capex-struggling-to-keep",
+    "title": "日月光2026年第一季度：资本支出难以跟上激增的需求（ASE Q1 2026. CapEx Struggling To Keep Pace With Surging Demand）",
+    "published": "2026-05-12T00:00:00.000Z",
+    "addedAt": "2026-05-14T06:13:00+08:00"
+  },
+  {
+    "url": "https://finance.yahoo.com/news/nextpower-announces-definitive-agreement-acquire-200500570.html",
+    "title": "你的隐私选择",
+    "published": "2026-05-12T00:00:00.000Z",
+    "addedAt": "2026-05-14T06:13:00+08:00"
+  },
+  {
+    "url": "https://autotechinsight.spglobal.com/news/5288194/indie-semiconductor-to-acquire-ams-osram-cmos-image-sensor-group-for-40m",
+    "title": "Indie Semiconductor以4000万欧元收购ams OSRAM CMOS图像传感器业务",
+    "published": "2026-05-12T00:00:00.000Z",
+    "addedAt": "2026-05-14T06:13:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/3dic/368442-sensing-a-quantum-tech-ready-for-market/",
+    "title": "量子传感：一项准备好进入市场的量子技术？",
+    "published": "Wed, 13 May 2026 13:00:32 +0000",
+    "addedAt": "2026-05-14T06:13:00+08:00"
+  },
+  {
+    "url": "https://www.163.com/dy/article/KSOFP0MF0511B8LM.html",
+    "title": "进迭时空第三代RISC-V处理器核X200完成研发，性能翻倍",
+    "published": "2026-05-12T00:00:00.000Z",
+    "addedAt": "2026-05-14T06:13:00+08:00"
   }
 ]

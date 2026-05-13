@@ -1,7 +1,7 @@
 {
-  "version": "v20260513-1302",
-  "generatedAt": "2026-05-13T13:02:00+08:00",
-  "period": "midday",
+  "version": "v20260514-0613",
+  "generatedAt": "2026-05-14T06:13:00+08:00",
+  "period": "morning",
   "commit": "",
   "glossary_list": [
     {
@@ -20,44 +20,74 @@
       "category": "封装"
     },
     {
-      "term": "IPO",
-      "desc": "首次公开募股，指企业首次向公众投资者出售股份",
-      "category": "金融"
-    },
-    {
-      "term": "Cerebras Systems",
-      "desc": "一家以晶圆级芯片（WSE）闻名的AI芯片初创公司",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "Morningstar",
-      "desc": "晨星，知名的投资研究与基金评级机构",
-      "category": "金融"
-    },
-    {
-      "term": "Nasdaq Capital Market",
-      "desc": "纳斯达克资本市场，主要面向中小型企业的纳斯达克分层市场",
-      "category": "金融"
-    },
-    {
-      "term": "Suchness Tech",
-      "desc": "一家新加坡半导体特种材料及设施工程服务提供商",
-      "category": "材料/设备"
-    },
-    {
-      "term": "Wafer-scale architecture",
-      "desc": "晶圆级架构，将整个晶圆作为单一芯片设计的创新架构",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "TOPS",
-      "desc": "每秒万亿次操作，衡量AI芯片算力的常用单位",
-      "category": "芯片指标"
-    },
-    {
       "term": "马赫M100",
-      "desc": "理想汽车自研的智能驾驶芯片，算力达1280TOPS",
-      "category": "车载芯片"
+      "desc": "理想汽车自研的智能驾驶芯片",
+      "category": "芯片"
+    },
+    {
+      "term": "中芯北方",
+      "desc": "中芯国际的控股子公司，主要晶圆制造厂",
+      "category": "Fab/制造"
+    },
+    {
+      "term": "Secret chip lab",
+      "desc": "秘密芯片实验室，指未公开的半导体研发中心",
+      "category": "EDA/IP"
+    },
+    {
+      "term": "SK Siltron",
+      "desc": "韩国主要半导体硅片制造商",
+      "category": "材料"
+    },
+    {
+      "term": "Additive manufacturing",
+      "desc": "增材制造，即3D打印，通过逐层增加材料的方式制造零件的技术",
+      "category": "制造工艺"
+    },
+    {
+      "term": "M&A",
+      "desc": "并购，即兼并与收购",
+      "category": "综合"
+    },
+    {
+      "term": "Cerebras",
+      "desc": "专注于晶圆级AI芯片设计的美国公司",
+      "category": "芯片设计"
+    },
+    {
+      "term": "Reshuffle",
+      "desc": "人事调整或改组",
+      "category": "企业管理"
+    },
+    {
+      "term": "CapEx",
+      "desc": "资本支出，企业用于购买或升级物理资产的资金",
+      "category": "财务"
+    },
+    {
+      "term": "Visa rules",
+      "desc": "签证规则，指跨国技术人员赴美工作签证的政策限制",
+      "category": "政策"
+    },
+    {
+      "term": "Hybrid Bonding",
+      "desc": "混合键合，一种无需中间材料的晶圆级直接互联封装技术",
+      "category": "封装"
+    },
+    {
+      "term": "CMOS image sensor",
+      "desc": "互补金属氧化物半导体图像传感器",
+      "category": "传感器"
+    },
+    {
+      "term": "Quantum Sensing",
+      "desc": "量子传感，利用量子力学特性进行高精度测量的技术",
+      "category": "前沿技术"
+    },
+    {
+      "term": "RISC-V",
+      "desc": "一种开源的指令集架构",
+      "category": "IP/架构"
     }
   ],
   "topic_pulse": [
@@ -66,95 +96,235 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区对先进封装产能扩张的关注度有所降温，讨论焦点从产能紧缺转向技术迭代与良率提升。市场正逐步消化前期扩产带来的供给增量。"
+      "summary": "社区对先进封装的关注度有所降温，但日月光CapEx跟不上需求说明产能依然紧缺，讨论焦点可能从概念炒作转向实际交付瓶颈与产能分配。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM相关讨论热度下降，市场对HBM3e的紧缺预期趋于理性。社区开始关注下一代HBM4的技术规格与成本结构。"
+      "summary": "热度下降，市场对HBM的短期预期趋于理性，讨论重心转向库存消化与下一代规格落地，缺乏新的刺激事件。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国内Fab扩产与制程突破的讨论暂入平缓期，社区情绪趋于观望。大家更关注现有产能的利用率及成熟制程的盈利修复情况。"
+      "summary": "中芯国际并购引发一定关注，但整体制程突破话题降温，社区情绪趋于观望，关注点集中在产能整合而非技术飞跃。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题热度回落，社区讨论从政策驱动转向商业化落地验证。用户更关注本土EDA工具在实际流片中的覆盖率与稳定性。"
+      "summary": "RISC-V新核发布带来局部热度，但整体板块情绪平稳，社区讨论重点在生态建设与商业化落地，而非单纯概念炒作。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测板块讨论降温，传统封装产能过剩担忧浮现。社区关注点向先进封装的盈利弹性及OSAT厂商的资本开支节奏转移。"
+      "summary": "日月光CapEx瓶颈引发对产能分配的担忧，讨论从产能扩张转向交付延迟风险，对二线封测厂商承接溢出订单的期待增加。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制话题热度下降，近期无重大新增制裁政策出台。社区讨论暂入政策消化期，重点评估现有管制框架对供应链的长期结构性影响。"
+      "summary": "华为芯片实验室曝光带来地缘政治信号，但整体制裁话题热度降温，社区处于政策观望期，对新增限制的预期暂未发酵。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "NVIDIA及AI芯片讨论热度降温，市场对算力军备竞赛的短期预期趋于平稳。社区开始审视推理侧成本优化及非NVIDIA架构的替代机会。"
+      "summary": "Cerebras IPO带来非GPU架构的新话题，但NVIDIA主导的板块整体降温，市场在寻找算力需求的新增长点与差异化竞争路径。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产设备与材料话题热度回落，讨论重心从突破验证转向规模化重复采购与盈利兑现。市场更关注国产厂商在核心晶圆厂的渗透率提升情况。"
+      "summary": "斗山收购SK Siltron引发材料端整合讨论，但国内设备替代话题暂无新刺激点，情绪平稳，讨论聚焦于现有产线的良率提升。"
     }
   ],
   "items": [
     {
-      "title": "Cerebras Systems 2026年IPO日期与股票催化剂详情（Cerebras Systems IPO 2026 Date & Stock Catalyst Details | Catacal）",
-      "url": "https://www.catacal.com/catalyst/cerebras-systems-ipo",
-      "description": "Cerebras Systems IPO 2026 Date & Stock Catalyst Details | Catacal\n\nBack to calendar\n\nIPO\n\n## Cerebras Systems IPO\n\nMay 14, 2026 · 9:30 AM\n\nAddedMay 10, 2026\n\nIPO\n\n# Cerebras Systems IPO\n\nThu, May 14, 2026 · 9:30 AM EDT\n\nAddedMay 10, 2026\n\n## About This Event\n\nAI chip maker Cerebras Systems begins tr",
-      "published": "2026-05-14T00:00:00.000Z",
+      "title": "理想自研马赫M100芯片官宣：理想L9 Livis首发",
+      "url": "https://finance.sina.com.cn/tech/discovery/2026-05-12/doc-inhxrwqf8214852.shtml",
+      "description": "全球最强算力！理想自研马赫M100芯片官宣：理想L9 Livis首发_新浪科技_新浪网\n\n移动客户端\n\n登录\n\n新浪科技> 科学探索 > 正文\n\n# 全球最强算力！理想自研马赫M100芯片官宣：理想L9 Livis首发\n\n全球最强算力！理想自研马赫M100芯片官宣：理想L9 Livis首发\n\n快科技5月12日消息，今日，理想汽车正式官宣自研芯片马赫M100，这款号称拥有“全球最强算力”的芯片，将首发搭载于全新理想L9 Livis车型。\n\n马赫M100芯片的核心突破，在于采用行业首款端侧动态数据流架构。\n\n不同于传统冯・诺依曼架构，这一设计专为AI时代高并发、高算力需求打造，打破了GPU架构的效",
+      "published": "2026-05-12T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "AI芯片初创公司正加速走向资本市场，试图借助AI基础设施浪潮获取更多扩张资金。",
-        "IPO时间表的明确为市场提供了评估其晶圆级架构商业化进展的锚点。"
+        "车企自研芯片趋势加速，旨在掌握底层算力定义权以优化智能驾驶系统。",
+        "主机厂与芯片厂的边界逐渐模糊，供应链话语权正在重构。"
       ],
       "actions": [
-        "关注Cerebras Systems上市前的财务披露与客户结构，评估其晶圆级架构的商业落地能力。",
-        "对比其他AI芯片初创公司的融资与上市节奏，调整相关投资或合作策略。"
+        "关注国内车企自研芯片带来的代工和封测订单转移机会。",
+        "评估传统车规级芯片供应商面临的竞争压力及替代风险。"
       ],
       "glossary": [
         {
-          "term": "IPO",
-          "desc": "首次公开募股，指企业首次向公众投资者出售股份",
-          "category": "金融"
-        },
+          "term": "马赫M100",
+          "desc": "理想汽车自研的智能驾驶芯片",
+          "category": "芯片"
+        }
+      ],
+      "region": "domestic",
+      "summary": "理想汽车正式官宣自研芯片马赫M100，号称拥有“全球最强算力”，将由理想L9 Livis首发搭载。",
+      "tag_category": "设计公司",
+      "title_en": "全球最强算力！理想自研马赫M100芯片官宣：理想L9 Livis首发_新浪科技_新浪网"
+    },
+    {
+      "title": "科创板史上最大并购：中芯国际406亿全资控股中芯北方！晶圆代工“集团军”集结冲锋",
+      "url": "https://finance.sina.com.cn/wm/2026-05-12/doc-inhxrwqe1427950.shtml",
+      "description": "5 月 11 日，上交所并购重组委审议通过中芯国际发行股份购买资产的重大关联交易。中芯国际以约 406 亿元全股份对价，收购控股子公司中芯北方剩余 49% 股权，实现 100% 全资控股。\n\n这笔交易不仅是科创板设立以来规模最大的发行股份购买资产交易，也刷新了国产晶圆代工行业并购金额纪录，标志着国内半导体产业链整合进入加速期。\n\n一、并购详解：零现金！国家队资本腾挪\n\n本次交易全程不涉及现金支付。中芯国际拟向大基金一期、北京集成电路制造和装备股权投资中心、亦庄国投、中关村发展、北京工投5 名股东，以74.2 元 / 股的价格发行约 5.47 亿股 A 股，换取其持有的中芯北方 49% 股权。\n",
+      "published": "2026-05-12T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "国内半导体产业链整合进入加速期，晶圆代工集团化作战趋势明显。",
+        "零现金的全股份收购反映了国家队资本的内部腾挪与资源集中。"
+      ],
+      "actions": [
+        "关注中芯国际体系内产能调配与设备采购的集中化趋势。",
+        "评估中芯北方全资控股后对国内竞争代工厂的挤压效应。"
+      ],
+      "glossary": [
         {
-          "term": "Cerebras Systems",
-          "desc": "一家以晶圆级芯片（WSE）闻名的AI芯片初创公司",
+          "term": "中芯北方",
+          "desc": "中芯国际的控股子公司，主要晶圆制造厂",
+          "category": "Fab/制造"
+        }
+      ],
+      "region": "domestic",
+      "summary": "中芯国际以约406亿元全股份对价收购中芯北方剩余49%股权，实现100%全资控股，刷新科创板及国产晶圆代工行业并购纪录。",
+      "tag_category": "Fab/制造",
+      "title_en": "科创板史上最大并购：中芯国际 406 亿全资控股中芯北方！晶圆代工 “集团军” 集结冲锋_新浪财经_新浪网"
+    },
+    {
+      "title": "北京在特朗普抵达前两天将华为秘密芯片实验室放上国家电视，该信息并非针对中国观众",
+      "url": "https://thenextweb.com/news/huawei-chip-lab-trump-china-visit",
+      "description": "Beijing put Huawei's secret chip lab on national TV two days before Trump arrives. The message wasn't for Chinese viewers.\n\nImage by: X-SHLIED\n\n#### TL;DR\n\nBeijing broadcast Huawei’s secret chip lab on prime-time TV two days before Trump’s state visit, signalling that US export controls have consoli",
+      "published": "2026-05-12T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "半导体技术正成为地缘政治博弈的核心筹码，官方展示意在震慑外部制裁压力。",
+        "华为的芯片研发进展已成为中国科技韧性的象征。"
+      ],
+      "actions": [
+        "密切关注中美谈判期间可能出台的出口管制新规。",
+        "警惕地缘政治信号引发的供应链短期波动与情绪性囤货。"
+      ],
+      "glossary": [
+        {
+          "term": "Secret chip lab",
+          "desc": "秘密芯片实验室，指未公开的半导体研发中心",
           "category": "EDA/IP"
         }
       ],
       "region": "overseas",
-      "summary": "Cerebras Systems计划于2026年5月14日进行IPO，市场正密切关注其上市细节及潜在的股票催化剂。",
+      "summary": "北京在特朗普访华前通过国家电视台展示华为秘密芯片实验室，向外界传递技术自主与抗压能力的信号。",
       "tag_category": "EDA/IP",
-      "title_en": "Cerebras Systems IPO 2026 Date & Stock Catalyst Details | Catacal"
+      "title_en": "Beijing put Huawei's secret chip lab on national TV two days before Trump arrives. The message wasn't for Chinese viewers."
     },
     {
-      "title": "为何AI芯片设计公司Cerebras是2026年最热门的IPO（Why AI Chip Designer Cerebras Is 2026’s Hottest IPO Yet | Morningstar）",
+      "title": "斗山接近完成对SK Siltron的收购，目标在2026上半年实现AI半导体垂直整合",
+      "url": "https://dailyalpha.us/news/doosan-nears-sk-siltron-acquisition-aiming-to-finalize-vertical-integration-for-ai-semiconductors-in-h1-2026-6a03fcc6011290e921496e35",
+      "description": "Doosan Nears SK Siltron Acquisition, Aiming to Finalize Vertical Integration for AI Semiconductors in H1 2026 | DailyAlpha\n\n[DailyAlphaDailyAlpha](https://dailyalpha.us/)\nDoosan Nears SK Siltron Acquisition, Aiming to Finalize Vertical Integration for AI Semiconductors in H1 2026 | DailyAlpha\nBack t",
+      "published": "2026-05-13T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "韩国半导体产业链正加速纵向整合，从材料到制造的闭环有助于提升AI芯片供应链稳定性。",
+        "财团跨界并购显示AI红利正向上游材料端蔓延。"
+      ],
+      "actions": [
+        "评估韩国硅片厂股权变动对全球硅材料供应格局的影响。",
+        "关注国内硅片厂商在AI需求拉动下的替代机遇。"
+      ],
+      "glossary": [
+        {
+          "term": "SK Siltron",
+          "desc": "韩国主要半导体硅片制造商",
+          "category": "材料"
+        }
+      ],
+      "region": "overseas",
+      "summary": "斗山集团即将收购SK Siltron，计划于2026年上半年完成AI半导体领域的垂直整合布局。",
+      "tag_category": "综合",
+      "title_en": "Doosan Nears SK Siltron Acquisition, Aiming to Finalize Vertical Integration for AI Semiconductors in H1 2026 | DailyAlpha"
+    },
+    {
+      "title": "Syenta首席执行官Jekaterina Viktorova博士专访",
+      "url": "https://semiwiki.com/ceo-interviews/369204-ceo-interview-with-dr-jekaterina-viktorova-of-syenta/",
+      "description": "<p>Dr. Jekaterina (Jeka) Viktorova is the CEO and Co-Founder of Syenta, an Australian deep-tech company developing breakthrough additive manufacturing technology for the semiconductor industry. With a background in chemistry, electrochemistry, and advanced manufacturing, she is the inventor of the c",
+      "published": "Wed, 13 May 2026 15:00:25 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "增材制造（3D打印）在半导体领域的应用正从概念走向落地，有望颠覆传统光刻与沉积工艺的某些环节。",
+        "初创企业在非传统工艺路径上的创新值得关注。"
+      ],
+      "actions": [
+        "追踪增材制造技术在半导体封装及互联领域的商业化进度。",
+        "探索与新型制造技术公司的早期合作以降低未来工艺迭代风险。"
+      ],
+      "glossary": [
+        {
+          "term": "Additive manufacturing",
+          "desc": "增材制造，即3D打印，通过逐层增加材料的方式制造零件的技术",
+          "category": "制造工艺"
+        }
+      ],
+      "region": "overseas",
+      "summary": "专访澳大利亚深科技公司Syenta的CEO，探讨其面向半导体行业的突破性增材制造技术。",
+      "tag_category": "综合",
+      "title_en": "CEO Interview with Dr. Jekaterina Viktorova of Syenta"
+    },
+    {
+      "title": "中芯国际59亿美元收购获批，创国内晶圆代工最大并购纪录",
+      "url": "https://technode.com/2026/05/12/smic-secures-approval-for-5-9-billion-acquisition-in-chinas-largest-domestic-wafer-foundry-ma/",
+      "description": "On Monday, Semiconductor Manufacturing International Corporation (SMIC) announced that its share issuance and asset acquisition plan had been reviewed and",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "中芯国际并购获批标志着国内晶圆制造资源的高度集中，有助于提升规模化竞争力。",
+        "全股份支付方式凸显了当前半导体资产估值的高溢价特征。"
+      ],
+      "actions": [
+        "关注中芯系产能整合对国内设备与材料采购格局的重塑。",
+        "评估并购后中芯北方产能释放对整体代工市场定价的潜在影响。"
+      ],
+      "glossary": [
+        {
+          "term": "M&A",
+          "desc": "并购，即兼并与收购",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "中芯国际发行股份购买资产计划获批，以约59亿美元全资控股中芯北方，创国内晶圆代工并购规模纪录。",
+      "tag_category": "Fab/制造",
+      "title_en": "SMIC secures approval for $5.9 billion acquisition in China’s largest domestic wafer foundry M&A · TechNode"
+    },
+    {
+      "title": "为什么AI芯片设计公司Cerebras是2026年最热门的IPO（Why AI Chip Designer Cerebras Is 2026’s Hottest IPO Yet）",
       "url": "https://www.morningstar.com/stocks/why-ai-chip-designer-cerebras-is-2026s-hottest-ipo-yet",
       "description": "Cerebras’ IPO looks set to ride the massive AI infrastructure wave, but competition in its markets is fierce.",
       "published": "",
@@ -163,130 +333,286 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "AI基础设施的持续扩张为底层芯片供应商创造了巨大的上市估值空间。",
-        "市场竞争激烈意味着Cerebras必须在性能和生态上持续证明其差异化优势，才能维持高估值。"
+        "AI芯片初创公司通过IPO融资加速技术迭代，但巨头垄断与同质化竞争是长期挑战。",
+        "晶圆级芯片架构正在获得资本市场认可。"
       ],
       "actions": [
-        "深入分析Cerebras与NVIDIA等巨头在特定推理/训练场景的性价比对比，寻找潜在替代机会。",
-        "警惕AI芯片赛道估值泡沫，谨慎评估其长期盈利能力与市场份额。"
+        "关注Cerebras上市对晶圆级计算架构生态的拉动作用。",
+        "评估非GPU架构AI芯片在特定场景下的落地进展与供应链机会。"
       ],
       "glossary": [
         {
-          "term": "Morningstar",
-          "desc": "晨星，知名的投资研究与基金评级机构",
-          "category": "金融"
+          "term": "Cerebras",
+          "desc": "专注于晶圆级AI芯片设计的美国公司",
+          "category": "芯片设计"
         }
       ],
       "region": "overseas",
-      "summary": "Morningstar分析指出，Cerebras的IPO将乘着大规模AI基础设施浪潮，但其面临的市场竞争异常激烈。",
+      "summary": "AI芯片设计公司Cerebras预计将乘着AI基础设施浪潮上市，但其面临的市场竞争依然激烈。",
       "tag_category": "EDA/IP",
       "title_en": "Why AI Chip Designer Cerebras Is 2026’s Hottest IPO Yet | Morningstar"
     },
     {
-      "title": "半导体材料与设施服务提供商Suchness Tech申请在纳斯达克资本市场IPO（Suchness Tech, Semiconductor Materials & Facility Services, Files for Nasdaq Capital Market IPO — TradingView News）",
-      "url": "https://www.tradingview.com/news/tradingview:674e575a7099c:0-suchness-tech-semiconductor-materials-facility-services-files-for-nasdaq-capital-market-ipo/",
-      "description": "Suchness Tech, a Singapore-based provider of semiconductor specialty materials and facility engineering services, filed for a U.S. IPO on the Nasdaq Capital Market under the proposed ticker “SUCH.” The company plans to raise approximately $20 million in an initial public offering of Class ...",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "半导体特种材料及厂务工程服务正成为资本市场新宠，反映出晶圆厂扩产对上游供应链的持续需求。",
-        "新加坡半导体服务商赴美上市，体现了亚太区半导体细分供应链向全球融资的趋势。"
-      ],
-      "actions": [
-        "评估Suchness Tech的业务版图与国内晶圆厂厂务/材料供应商的重合度，关注其技术壁垒。",
-        "关注亚太区半导体服务类企业的上市动向，寻找潜在的并购或业务合作标的。"
-      ],
-      "glossary": [
-        {
-          "term": "Nasdaq Capital Market",
-          "desc": "纳斯达克资本市场，主要面向中小型企业的纳斯达克分层市场",
-          "category": "金融"
-        },
-        {
-          "term": "Suchness Tech",
-          "desc": "一家新加坡半导体特种材料及设施工程服务提供商",
-          "category": "材料/设备"
-        }
-      ],
-      "region": "overseas",
-      "summary": "总部位于新加坡的半导体特种材料和设施工程服务提供商Suchness Tech已申请在纳斯达克资本市场IPO，拟定股票代码为“SUCH”。",
-      "tag_category": "EDA/IP",
-      "title_en": "Suchness Tech, Semiconductor Materials & Facility Services, Files for Nasdaq Capital Market IPO — TradingView News"
-    },
-    {
-      "title": "Cerebras IPO及其全定制架构的四大瓶颈（Cerebras IPO and the Four Bottlenecks in Its Custom-Everything Architecture）",
-      "url": "https://www.viksnewsletter.com/p/cerebras-ipo-and-the-scaling-bottlenecks",
-      "description": "A closer look at the wafer-scale architecture, the OpenAI deal, and four design vectors that decide if Cerebras can deploy at scale",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "晶圆级架构虽然提供极致算力，但在良率、散热、互联和软件生态上面临严峻的规模化瓶颈。",
-        "与头部大模型厂商（如OpenAI）的合作是验证非主流架构商业可行性的关键。"
-      ],
-      "actions": [
-        "追踪Cerebras在散热与互联技术上的突破进展，评估其架构在超大规模集群中的实际可用性。",
-        "评估自研架构在软件生态适配上的成本，为潜在技术路线选择提供参考。"
-      ],
-      "glossary": [
-        {
-          "term": "Wafer-scale architecture",
-          "desc": "晶圆级架构，将整个晶圆作为单一芯片设计的创新架构",
-          "category": "EDA/IP"
-        }
-      ],
-      "region": "overseas",
-      "summary": "深入分析Cerebras的晶圆级架构、与OpenAI的交易，以及决定其能否大规模部署的四个设计向量瓶颈。",
-      "tag_category": "EDA/IP",
-      "title_en": "Cerebras IPO and the Four Bottlenecks in Its Custom-Everything Architecture"
-    },
-    {
-      "title": "理想自研马赫M100芯片正式官宣 单芯算力1280TOPs",
-      "url": "https://chejiahao.autohome.com.cn/info/25471686",
-      "description": "理想自研马赫M100芯片正式官宣 单芯算力1280TOPs_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n理想自研马赫M100芯片正式官宣 单芯算力1280TOPs\n\nCNMO科技\n\n车家号·0浏览·2026-05-12 18:35 · 北京\n\n【CNMO科技消息】5月12日，理想汽车创始人、CEO李想在社交媒体发文，正式宣布公司自研的马赫M100芯片首次亮相，并将率先搭载于全新理想L9 Livis车型。\n\n李想在",
-      "published": "2026-05-15T00:00:00.000Z",
+      "title": "台积电最新人事调整新增四位高管，美国投资与接班人计划加速推进",
+      "url": "https://www.digitimes.com/news/a20260513PD201/tsmc-investment-president-fab-capacity.html",
+      "description": "TSMC adds four executives in latest reshuffle as US investment and succession push accelerate\n\nREALTIME NEWS\n\n# TSMC adds four executives in latest reshuffle as US investment and succession push accelerate\n\n, Hsinchu\n\nCredit:Digitimes\n\nTSMC's board of directors approved a US$31.3 billion capital bud",
+      "published": "2026-05-12T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "车企自研大算力智驾芯片已成趋势，1280TOPS的算力指标标志着国产车载芯片进入千TOPS级竞争阶段。",
-        "自研芯片有助于车企摆脱对第三方高端SoC的依赖，实现软硬协同与成本优化。"
+        "台积电高层扩容折射出海外建厂带来的管理复杂度上升。",
+        "接班梯队明朗化有助于稳定跨国扩张期的内部治理。"
       ],
       "actions": [
-        "关注马赫M100的制程选择与代工厂商，评估其量产时间表与供应链稳定性。",
-        "对比地平线、黑芝麻等国产智驾芯片厂商的产品路线图，调整车载芯片市场竞争策略。"
+        "关注台积电美国厂高管本土化趋势对当地供应链导入的影响。",
+        "追踪台积电核心管理层变动可能引发的客户订单微调。"
       ],
       "glossary": [
         {
-          "term": "TOPS",
-          "desc": "每秒万亿次操作，衡量AI芯片算力的常用单位",
-          "category": "芯片指标"
-        },
+          "term": "Reshuffle",
+          "desc": "人事调整或改组",
+          "category": "企业管理"
+        }
+      ],
+      "region": "overseas",
+      "summary": "台积电新增四位高管，伴随其美国投资扩张和接班人计划的加速推进而进行组织架构调整。",
+      "tag_category": "Fab/制造",
+      "title_en": "TSMC adds four executives in latest reshuffle as US investment and succession push accelerate"
+    },
+    {
+      "title": "台积电560亿美元押注AI基础设施（TSMC’s $56B Bet On AI Infrastructure）",
+      "url": "https://www.aicerts.ai/news/tsmcs-56b-bet-on-ai-infrastructure/",
+      "description": "TSMC’s $56B Bet On AI Infrastructure - AI CERTs News\n\n# Post\n\n###### AI CERTS\n\n24 hours ago\n\n## TSMC’s $56B Bet On AI Infrastructure\n\nHowever, Chief Executive C.C. Wei cautioned that missteps could become “a big disaster.” The stakes could not be higher for the world’s largest dedicated foundry.\n\nTS",
+      "published": "2026-05-12T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "巨额资本支出显示台积电对AI算力需求的长期坚定看好，但也面临产能过剩与回报周期拉长的财务压力。",
+        "行业龙头的前瞻性投资往往定义未来数年的产能天花板。"
+      ],
+      "actions": [
+        "评估台积电巨额投资对上游设备与材料供应商的订单拉动效应。",
+        "警惕AI基础设施投资过热可能导致的周期性产能过剩风险。"
+      ],
+      "glossary": [
         {
-          "term": "马赫M100",
-          "desc": "理想汽车自研的智能驾驶芯片，算力达1280TOPS",
-          "category": "车载芯片"
+          "term": "CapEx",
+          "desc": "资本支出，企业用于购买或升级物理资产的资金",
+          "category": "财务"
+        }
+      ],
+      "region": "overseas",
+      "summary": "台积电投入560亿美元巨资押注AI基础设施，但CEO警告失误可能带来风险。",
+      "tag_category": "Fab/制造",
+      "title_en": "TSMC’s $56B Bet On AI Infrastructure - AI CERTs News"
+    },
+    {
+      "title": "台积电拨款200亿美元扩建亚利桑那州工厂——项目面临水资源和劳动力短缺，签证规则使情况复杂化",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-allocates-usd20-billion-to-arizona-expansion-project-faces-water-and-labor-shortages-complicated-by-visa-rules",
+      "description": "TSMC allocates $20 billion to Arizona expansion — project faces water and labor shortages, complicated by visa rules | Tom's Hardware\n\n> If they generated $514 million in profit the first year they can certainly pay for electricity generation systems and other needs instead of taxpayers paying.\n\n> I",
+      "published": "2026-05-12T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "海外建厂的非技术性阻力（水、电、人、政策）正成为晶圆厂扩张的隐性成本。",
+        "美国本土半导体制造生态的配套短板短期内难以弥补。"
+      ],
+      "actions": [
+        "评估台积电美国厂投产延迟对相关客户产能分配的影响。",
+        "关注美国本土半导体配套产业（水处理、特种气体等）的投资机会。"
+      ],
+      "glossary": [
+        {
+          "term": "Visa rules",
+          "desc": "签证规则，指跨国技术人员赴美工作签证的政策限制",
+          "category": "政策"
+        }
+      ],
+      "region": "overseas",
+      "summary": "台积电为亚利桑那州扩建项目拨款200亿美元，但面临水资源与劳动力短缺问题，且签证规则加剧了建厂难度。",
+      "tag_category": "Fab/制造",
+      "title_en": "TSMC allocates $20 billion to Arizona expansion — project faces water and labor shortages, complicated by visa rules | Tom's Hardware"
+    },
+    {
+      "title": "NHanced Semiconductors与佛罗里达大学将在2026年奥兰多电子组件与技术会议上展示混合键合可靠性研究",
+      "url": "https://www.semiconductor-digest.com/nhanced-semiconductors-the-university-of-florida-to-present-on-hybrid-bonding-reliability-at-the-2026-electronic-components-technology-conference-in-orlando/",
+      "description": "NHanced Semiconductors & the University of Florida to Present on Hybrid Bonding Reliability at the 2026 Electronic Components & Technology Conference in Orlando - Semiconductor Digest\n\nNHanced Semiconductors & the University of Florida to Present on Hybrid Bonding Reliability at the 2026 Electronic ",
+      "published": "2026-05-13T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "混合键合技术是先进封装实现高密度互联的关键，其可靠性验证正从实验室走向产业标准制定阶段。",
+        "产学研合作加速了核心工艺的成熟。"
+      ],
+      "actions": [
+        "追踪混合键合设备与材料的国产化突破进度。",
+        "提前布局混合键合良率提升所需的检测与量测环节。"
+      ],
+      "glossary": [
+        {
+          "term": "Hybrid Bonding",
+          "desc": "混合键合，一种无需中间材料的晶圆级直接互联封装技术",
+          "category": "封装"
+        }
+      ],
+      "region": "overseas",
+      "summary": "NHanced Semiconductors与佛罗里达大学将在ECTC会议上展示关于混合键合可靠性的研究成果。",
+      "tag_category": "综合",
+      "title_en": "NHanced Semiconductors & the University of Florida to Present on Hybrid Bonding Reliability at the 2026 Electronic Components & Technology Conference in Orlando - Semiconductor Digest"
+    },
+    {
+      "title": "日月光2026年第一季度：资本支出难以跟上激增的需求（ASE Q1 2026. CapEx Struggling To Keep Pace With Surging Demand）",
+      "url": "https://semiconalpha.substack.com/p/ase-q1-2026-capex-struggling-to-keep",
+      "description": "ASE Q1 2026. CapEx Struggling To Keep Pace With Surging Demand\n\n# Semicon Alpha\n\nSubscribeSign in\n\n# ASE Q1 2026. CapEx Struggling To Keep Pace With Surging Demand\n\nMay 12, 2026\n\n∙ Paid\n\n2\n\nShare\n\nOn Wednesday 29 April 2026, ASE Technology (TWSE: 3711, NYSE ADR: ASX) reported Q1 2026 revenues of NT$",
+      "published": "2026-05-12T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "先进封装需求爆发远超OSAT厂商的资本支出节奏，产能紧缺将延续。",
+        "封装环节正成为AI芯片交付的新瓶颈。"
+      ],
+      "actions": [
+        "优先锁定日月光等头部OSAT的先进封装产能长单。",
+        "评估二线OSAT及国内封测厂商承接溢出订单的能力。"
+      ],
+      "glossary": [
+        {
+          "term": "OSAT",
+          "desc": "外部半导体封装测试代工厂",
+          "category": "封装"
+        }
+      ],
+      "region": "overseas",
+      "summary": "日月光封装测试第一季度资本支出增速落后于激增的市场需求，面临产能扩张瓶颈。",
+      "tag_category": "综合",
+      "title_en": "ASE Q1 2026. CapEx Struggling To Keep Pace With Surging Demand"
+    },
+    {
+      "title": "你的隐私选择",
+      "url": "https://finance.yahoo.com/news/nextpower-announces-definitive-agreement-acquire-200500570.html",
+      "description": "Jouw privacykeuzes\n\nJouw privacykeuzes\n# guce\n[ ![](https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage.png)![](https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_w_bestfit_frontpage.png) guce ](https://www.yahoo.com/)\nJe privacy is belangrijk voor ons\nYahoo maakt deel uit van de Ya",
+      "published": "2026-05-12T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "无实质产业洞见。"
+      ],
+      "actions": [
+        "无需采取行动。"
+      ],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "该条目为网站的隐私政策选择页面，无实质半导体行业新闻内容。",
+      "tag_category": "综合",
+      "title_en": "Jouw privacykeuzes"
+    },
+    {
+      "title": "Indie Semiconductor以4000万欧元收购ams OSRAM CMOS图像传感器业务",
+      "url": "https://autotechinsight.spglobal.com/news/5288194/indie-semiconductor-to-acquire-ams-osram-cmos-image-sensor-group-for-40m",
+      "description": "Indie Semiconductor to acquire ams OSRAM CMOS image sensor group for €40M - Automotive Technology Insight | Forecasts | Industry News | Supply Chain\n\n# Indie Semiconductor to acquire ams OSRAM CMOS image sensor group for €40M\n\nThe deal enhances Indie’s multimodal sensing and AI-focused image sensor ",
+      "published": "2026-05-12T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "汽车芯片厂商通过并购补齐传感器版图，向平台型供应商转型。",
+        "欧洲老牌传感器厂商剥离非核心业务，折射出汽车电子供应链的重构。"
+      ],
+      "actions": [
+        "关注ams OSRAM剥离资产后其剩余业务的聚焦方向。",
+        "评估Indie Semiconductor整合图像传感器后对国内车载视觉供应链的竞争冲击。"
+      ],
+      "glossary": [
+        {
+          "term": "CMOS image sensor",
+          "desc": "互补金属氧化物半导体图像传感器",
+          "category": "传感器"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Indie Semiconductor宣布以4000万欧元收购ams OSRAM的CMOS图像传感器业务集团。",
+      "tag_category": "综合",
+      "title_en": "Indie Semiconductor to acquire ams OSRAM CMOS image sensor group for €40M - Automotive Technology Insight | Forecasts | Industry News | Supply Chain"
+    },
+    {
+      "title": "量子传感：一项准备好进入市场的量子技术？",
+      "url": "https://semiwiki.com/3dic/368442-sensing-a-quantum-tech-ready-for-market/",
+      "description": "<p>While the quantum world revolves around quantum computing, (QC) there are a couple of other quantum technologies of note. I covered one of these, quantum communication, in a <a href=\"https://semiwiki.com/photonics/366985-another-quantum-topic-quantum-communication/\">recent blog</a>. Here I’ll int",
+      "published": "Wed, 13 May 2026 13:00:32 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "量子传感在精度与抗干扰上具备优势，在半导体量测与导航等领域有明确刚需。",
+        "量子技术的商业化路径正从算力优先转向传感优先。"
+      ],
+      "actions": [
+        "关注量子传感在半导体缺陷检测等工业场景的替代潜力。",
+        "探索与量子传感初创企业的早期战略合作。"
+      ],
+      "glossary": [
+        {
+          "term": "Quantum Sensing",
+          "desc": "量子传感，利用量子力学特性进行高精度测量的技术",
+          "category": "前沿技术"
+        }
+      ],
+      "region": "overseas",
+      "summary": "探讨量子传感技术是否已具备商业化市场条件，相较于量子计算，量子传感可能更快落地。",
+      "tag_category": "综合",
+      "title_en": "Sensing. A Quantum Tech Ready for Market?"
+    },
+    {
+      "title": "进迭时空第三代RISC-V处理器核X200完成研发，性能翻倍",
+      "url": "https://www.163.com/dy/article/KSOFP0MF0511B8LM.html",
+      "description": "进迭时空第三代RISC-V处理器核X200完成研发，性能翻倍|单核|多核|访存|risc|x200_网易订阅\n\n快速导航\n\n### 新闻\n\n### 体育\n\n### 娱乐\n\n### 财经\n\n### 汽车\n\n### 科技\n\n### 时尚\n\n### 手机 / 数码\n\n### 房产 / 家居\n\n### 教育\n\n安全退出\n\n邮箱\n\n# 进迭时空第三代RISC-V处理器核X200完成研发，性能翻倍\n\n2026-05-12 18:23:13 来源: IT之家山东举报\n\n0\n\n分享至\n\n用微信扫码二维码\n\n分享至好友和朋友圈\n\nIT之家 5 月 12 日消息，进迭时空上周官宣，第三代 RISC-V 处理器核 ",
+      "published": "2026-05-12T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "RISC-V架构在高性能计算领域的突破正在加速，性能翻倍缩小了与ARM架构的差距。",
+        "国产自主指令集生态的成熟为本土芯片设计提供了更多选择。"
+      ],
+      "actions": [
+        "评估X200核在车载与边缘计算场景的替代可行性。",
+        "关注基于RISC-V架构的SoC设计对国产EDA工具链的适配需求。"
+      ],
+      "glossary": [
+        {
+          "term": "RISC-V",
+          "desc": "一种开源的指令集架构",
+          "category": "IP/架构"
         }
       ],
       "region": "domestic",
-      "summary": "理想汽车正式官宣其自研的马赫M100芯片，单芯片算力达到1280TOPS。",
-      "tag_category": "综合",
-      "title_en": "理想自研马赫M100芯片正式官宣 单芯算力1280TOPs_车家号_发现车生活_汽车之家"
+      "summary": "进迭时空宣布其第三代RISC-V处理器核X200完成研发，单核与多核性能均实现翻倍提升。",
+      "tag_category": "EDA/IP",
+      "title_en": "进迭时空第三代RISC-V处理器核X200完成研发，性能翻倍|单核|多核|访存|risc|x200_网易订阅"
     }
   ],
   "stats": {
-    "total_raw": 89,
-    "after_dedup": 82,
+    "total_raw": 162,
+    "after_dedup": 127,
     "sources": {
-      "Exa": 4,
-      "RSS": 65,
-      "Brave": 13
+      "Exa": 33,
+      "RSS": 63,
+      "Brave": 31
     }
   },
   "code_version": "",
