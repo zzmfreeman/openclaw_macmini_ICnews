@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WSJ AI Brief Demo - 2026-05-13</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17202a;
+      --muted: #5d6b7a;
+      --line: #d9e0e7;
+      --paper: #fbfcfd;
+      --accent: #0f6b5f;
+      --warn: #8a5a00;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #edf2f5;
+      color: var(--ink);
+      line-height: 1.65;
+    }
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 42px 18px 64px;
+    }
+    article {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: clamp(22px, 4vw, 42px);
+      box-shadow: 0 18px 50px rgba(24, 42, 54, 0.08);
+    }
+    .kicker {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(30px, 6vw, 54px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+    .lede {
+      margin: 18px 0 28px;
+      color: var(--muted);
+      font-size: 19px;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 0 32px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .pill {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 5px 10px;
+      background: #fff;
+    }
+    section {
+      border-top: 1px solid var(--line);
+      padding-top: 24px;
+      margin-top: 24px;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 19px;
+      letter-spacing: 0;
+    }
+    ol, ul {
+      margin: 0;
+      padding-left: 24px;
+    }
+    li + li { margin-top: 10px; }
+    .notice {
+      border-left: 4px solid var(--warn);
+      background: #fff8e8;
+      padding: 12px 14px;
+      color: #4f3a10;
+      border-radius: 0 6px 6px 0;
+    }
+    footer {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <p class="kicker">WSJ AI Brief Demo</p>
+      <h1>AI Brief: Fed signals caution on rate cuts</h1>
+      <p class="lede">据推断：该报道聚焦宏观与行业变量，建议结合原文确认细节。</p>
+      <div class="meta">
+        <span class="pill">Generated: 2026-05-13</span>
+        <span class="pill">OpenClaw skill: wsj-brief</span>
+        <span class="pill">Local API fallback mode</span>
+      </div>
+
+      <section>
+        <h2>AI Summary</h2>
+        <p>当前为本地兜底摘要。根据已有文本，该事件可能对市场情绪与相关板块形成阶段性影响，但具体方向仍取决于后续数据与政策表态。</p>
+      </section>
+
+      <section>
+        <h2>Key Points</h2>
+        <ol>
+          <li>Federal Reserve officials signaled caution on rate cuts as inflation remains above target and investors reassess expectations for policy easing.</li>
+          <li>Equity markets were mixed while Treasury yields moved higher, reflecting uncertainty about the timing and scale of future cuts.</li>
+          <li>原文关键信息不足，建议补充上下文后再生成。</li>
+          <li>原文关键信息不足，建议补充上下文后再生成。</li>
+          <li>原文关键信息不足，建议补充上下文后再生成。</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Market Impact</h2>
+        <p>市场影响尚不确定，建议关注后续官方披露与关键财务指标。</p>
+      </section>
+
+      <section>
+        <h2>Risks</h2>
+        <ul>
+          <li>当前结果为本地兜底摘要，未调用远程模型。</li>
+          <li>请结合原文核对数字、时间和主体信息。</li>
+        </ul>
+      </section>
+
+      <section>
+        <div class="notice">
+          说明：这页用于验证 OpenClaw 的 WSJ brief 工作流和网页发布链路。当前后端模型环境变量未配置，所以结果来自本地兜底逻辑。
+        </div>
+      </section>
+    </article>
+    <footer>Published from OpenClaw workspace on mac mini.</footer>
+  </main>
+</body>
+</html>
