@@ -1,6 +1,6 @@
 {
-  "version": "v20260512-1306",
-  "generatedAt": "2026-05-12T13:06:00+08:00",
+  "version": "v20260513-1302",
+  "generatedAt": "2026-05-13T13:02:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [
@@ -20,49 +20,44 @@
       "category": "封装"
     },
     {
-      "term": "LPDA",
-      "desc": "对数周期偶极子阵列，一种具有宽频带特性的天线结构",
+      "term": "IPO",
+      "desc": "首次公开募股，指企业首次向公众投资者出售股份",
+      "category": "金融"
+    },
+    {
+      "term": "Cerebras Systems",
+      "desc": "一家以晶圆级芯片（WSE）闻名的AI芯片初创公司",
       "category": "EDA/IP"
     },
     {
-      "term": "Full-Wave EM Simulation",
-      "desc": "全波电磁仿真，求解麦克斯韦方程组的完整数值方法，用于高精度电磁分析",
+      "term": "Morningstar",
+      "desc": "晨星，知名的投资研究与基金评级机构",
+      "category": "金融"
+    },
+    {
+      "term": "Nasdaq Capital Market",
+      "desc": "纳斯达克资本市场，主要面向中小型企业的纳斯达克分层市场",
+      "category": "金融"
+    },
+    {
+      "term": "Suchness Tech",
+      "desc": "一家新加坡半导体特种材料及设施工程服务提供商",
+      "category": "材料/设备"
+    },
+    {
+      "term": "Wafer-scale architecture",
+      "desc": "晶圆级架构，将整个晶圆作为单一芯片设计的创新架构",
       "category": "EDA/IP"
     },
     {
-      "term": "线控底盘",
-      "desc": "通过电子信号控制底盘执行机构的系统，是实现高级自动驾驶的基础",
-      "category": "汽车芯片"
+      "term": "TOPS",
+      "desc": "每秒万亿次操作，衡量AI芯片算力的常用单位",
+      "category": "芯片指标"
     },
     {
-      "term": "激光雷达",
-      "desc": "利用激光进行探测和测距的传感器，常用于自动驾驶3D环境感知",
-      "category": "汽车芯片"
-    },
-    {
-      "term": "Tensor Processing",
-      "desc": "张量处理，针对多维数组（张量）进行的数学运算，是深度学习计算的核心",
-      "category": "芯片架构"
-    },
-    {
-      "term": "Agentic AI",
-      "desc": "代理式AI，具备自主规划、决策和执行能力的智能系统",
-      "category": "制造/良率"
-    },
-    {
-      "term": "Point Solutions",
-      "desc": "单点解决方案，针对特定孤立问题设计的局部优化工具",
-      "category": "制造/良率"
-    },
-    {
-      "term": "Moore's Law",
-      "desc": "摩尔定律，指集成电路上可容纳的晶体管数目约每隔两年增加一倍的性能规律",
-      "category": "行业趋势"
-    },
-    {
-      "term": "Beyond Moore's Law",
-      "desc": "超越摩尔定律，通过封装、异构集成等非单纯微缩手段提升系统整体性能的技术路线",
-      "category": "行业趋势"
+      "term": "马赫M100",
+      "desc": "理想汽车自研的智能驾驶芯片，算力达1280TOPS",
+      "category": "车载芯片"
     }
   ],
   "topic_pulse": [
@@ -71,232 +66,229 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS和先进封装的讨论热度有所下降，市场情绪趋于冷静。投资者和从业者正从初期的狂热转向关注实际产能释放与良率爬坡的落地情况。"
+      "summary": "社区对先进封装产能扩张的关注度有所降温，讨论焦点从产能紧缺转向技术迭代与良率提升。市场正逐步消化前期扩产带来的供给增量。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度降温，社区讨论焦点从缺货炒作转向长期供需平衡。业界开始理性评估HBM产能扩张后的价格走势及技术迭代节奏。"
+      "summary": "HBM相关讨论热度下降，市场对HBM3e的紧缺预期趋于理性。社区开始关注下一代HBM4的技术规格与成本结构。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "关于中国Fab与先进制程的讨论热度回落，社区情绪相对平稳。大家正密切关注国内晶圆厂在当前技术限制下的实际量产进度与客户导入情况。"
+      "summary": "国内Fab扩产与制程突破的讨论暂入平缓期，社区情绪趋于观望。大家更关注现有产能的利用率及成熟制程的盈利修复情况。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题热度降温，社区讨论从概念炒作进入务实阶段。从业者更关注本土EDA工具在特定点工具上的突破及客户验证反馈。"
+      "summary": "国产EDA/IP话题热度回落，社区讨论从政策驱动转向商业化落地验证。用户更关注本土EDA工具在实际流片中的覆盖率与稳定性。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT板块热度下降，社区讨论趋于平淡。市场正等待传统封装需求复苏及先进封装产能实质性扩充的进一步数据验证。"
+      "summary": "封测板块讨论降温，传统封装产能过剩担忧浮现。社区关注点向先进封装的盈利弹性及OSAT厂商的资本开支节奏转移。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度降温，社区情绪暂趋缓和。讨论重心从新规冲击的恐慌转向企业合规应对与供应链调整的常态化运作。"
+      "summary": "出口管制话题热度下降，近期无重大新增制裁政策出台。社区讨论暂入政策消化期，重点评估现有管制框架对供应链的长期结构性影响。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与英伟达相关讨论热度回落，市场情绪回归理性。社区关注点从短期算力霸权转向长期竞争格局及英伟达下一代架构的演进预期。"
+      "summary": "NVIDIA及AI芯片讨论热度降温，市场对算力军备竞赛的短期预期趋于平稳。社区开始审视推理侧成本优化及非NVIDIA架构的替代机会。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化话题热度降温，社区讨论进入沉淀期。业界正聚焦于国产设备在产线上的实际验证进度与材料客户的持续替代率。"
+      "summary": "国产设备与材料话题热度回落，讨论重心从突破验证转向规模化重复采购与盈利兑现。市场更关注国产厂商在核心晶圆厂的渗透率提升情况。"
     }
   ],
   "items": [
     {
-      "title": "使用全波电磁仿真设计宽带LPDA馈电反射面天线（Designing Broadband LPDA-Fed Reflector Antennas With Full-Wave EM Simulation）",
-      "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
-      "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
-      "published": "Fri, 17 Apr 2026 14:00:50 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "Cerebras Systems 2026年IPO日期与股票催化剂详情（Cerebras Systems IPO 2026 Date & Stock Catalyst Details | Catacal）",
+      "url": "https://www.catacal.com/catalyst/cerebras-systems-ipo",
+      "description": "Cerebras Systems IPO 2026 Date & Stock Catalyst Details | Catacal\n\nBack to calendar\n\nIPO\n\n## Cerebras Systems IPO\n\nMay 14, 2026 · 9:30 AM\n\nAddedMay 10, 2026\n\nIPO\n\n# Cerebras Systems IPO\n\nThu, May 14, 2026 · 9:30 AM EDT\n\nAddedMay 10, 2026\n\n## About This Event\n\nAI chip maker Cerebras Systems begins tr",
+      "published": "2026-05-14T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "全波电磁仿真在复杂宽带天线设计中越来越不可或缺，能显著提高设计精度并缩短研发周期。",
-        "LPDA馈电反射面天线在宽带通信与雷达系统中具有重要应用价值，EDA工具的高精度仿真能力是关键支撑。"
+        "AI芯片初创公司正加速走向资本市场，试图借助AI基础设施浪潮获取更多扩张资金。",
+        "IPO时间表的明确为市场提供了评估其晶圆级架构商业化进展的锚点。"
       ],
       "actions": [
-        "射频与天线设计工程师应关注并引入先进的全波EM仿真工具，以优化宽带天线的设计流程与性能验证。",
-        "EDA厂商可针对宽带天线设计场景，开发更具针对性的仿真模块和优化算法，提升工具的差异化竞争力。"
+        "关注Cerebras Systems上市前的财务披露与客户结构，评估其晶圆级架构的商业落地能力。",
+        "对比其他AI芯片初创公司的融资与上市节奏，调整相关投资或合作策略。"
       ],
       "glossary": [
         {
-          "term": "LPDA",
-          "desc": "对数周期偶极子阵列，一种具有宽频带特性的天线结构",
-          "category": "EDA/IP"
+          "term": "IPO",
+          "desc": "首次公开募股，指企业首次向公众投资者出售股份",
+          "category": "金融"
         },
         {
-          "term": "Full-Wave EM Simulation",
-          "desc": "全波电磁仿真，求解麦克斯韦方程组的完整数值方法，用于高精度电磁分析",
+          "term": "Cerebras Systems",
+          "desc": "一家以晶圆级芯片（WSE）闻名的AI芯片初创公司",
           "category": "EDA/IP"
         }
       ],
       "region": "overseas",
-      "summary": "本文介绍了使用全波电磁仿真工具设计对数周期偶极子阵列（LPDA）馈电抛物面反射面天线的实用指南与设计方法。",
+      "summary": "Cerebras Systems计划于2026年5月14日进行IPO，市场正密切关注其上市细节及潜在的股票催化剂。",
       "tag_category": "EDA/IP",
-      "title_en": "Designing Broadband LPDA-Fed Reflector Antennas With Full-Wave EM Simulation"
+      "title_en": "Cerebras Systems IPO 2026 Date & Stock Catalyst Details | Catacal"
     },
     {
-      "title": "全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日",
-      "url": "https://chejiahao.autohome.com.cn/info/25266221",
-      "description": "全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日\n\n酱酱侃车\n\n车家号·0浏览·2026-04-20 22:37 · 北京\n\n\"这不是汽车，这是具身智能机器人的开山之作。\"\n\n4月20日，理想汽车CEO李想在社交媒体上的一句话，为即将亮相的全新一代理想L9(参数|询",
+      "title": "为何AI芯片设计公司Cerebras是2026年最热门的IPO（Why AI Chip Designer Cerebras Is 2026’s Hottest IPO Yet | Morningstar）",
+      "url": "https://www.morningstar.com/stocks/why-ai-chip-designer-cerebras-is-2026s-hottest-ipo-yet",
+      "description": "Cerebras’ IPO looks set to ride the massive AI infrastructure wave, but competition in its markets is fierce.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI基础设施的持续扩张为底层芯片供应商创造了巨大的上市估值空间。",
+        "市场竞争激烈意味着Cerebras必须在性能和生态上持续证明其差异化优势，才能维持高估值。"
+      ],
+      "actions": [
+        "深入分析Cerebras与NVIDIA等巨头在特定推理/训练场景的性价比对比，寻找潜在替代机会。",
+        "警惕AI芯片赛道估值泡沫，谨慎评估其长期盈利能力与市场份额。"
+      ],
+      "glossary": [
+        {
+          "term": "Morningstar",
+          "desc": "晨星，知名的投资研究与基金评级机构",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Morningstar分析指出，Cerebras的IPO将乘着大规模AI基础设施浪潮，但其面临的市场竞争异常激烈。",
+      "tag_category": "EDA/IP",
+      "title_en": "Why AI Chip Designer Cerebras Is 2026’s Hottest IPO Yet | Morningstar"
+    },
+    {
+      "title": "半导体材料与设施服务提供商Suchness Tech申请在纳斯达克资本市场IPO（Suchness Tech, Semiconductor Materials & Facility Services, Files for Nasdaq Capital Market IPO — TradingView News）",
+      "url": "https://www.tradingview.com/news/tradingview:674e575a7099c:0-suchness-tech-semiconductor-materials-facility-services-files-for-nasdaq-capital-market-ipo/",
+      "description": "Suchness Tech, a Singapore-based provider of semiconductor specialty materials and facility engineering services, filed for a U.S. IPO on the Nasdaq Capital Market under the proposed ticker “SUCH.” The company plans to raise approximately $20 million in an initial public offering of Class ...",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "半导体特种材料及厂务工程服务正成为资本市场新宠，反映出晶圆厂扩产对上游供应链的持续需求。",
+        "新加坡半导体服务商赴美上市，体现了亚太区半导体细分供应链向全球融资的趋势。"
+      ],
+      "actions": [
+        "评估Suchness Tech的业务版图与国内晶圆厂厂务/材料供应商的重合度，关注其技术壁垒。",
+        "关注亚太区半导体服务类企业的上市动向，寻找潜在的并购或业务合作标的。"
+      ],
+      "glossary": [
+        {
+          "term": "Nasdaq Capital Market",
+          "desc": "纳斯达克资本市场，主要面向中小型企业的纳斯达克分层市场",
+          "category": "金融"
+        },
+        {
+          "term": "Suchness Tech",
+          "desc": "一家新加坡半导体特种材料及设施工程服务提供商",
+          "category": "材料/设备"
+        }
+      ],
+      "region": "overseas",
+      "summary": "总部位于新加坡的半导体特种材料和设施工程服务提供商Suchness Tech已申请在纳斯达克资本市场IPO，拟定股票代码为“SUCH”。",
+      "tag_category": "EDA/IP",
+      "title_en": "Suchness Tech, Semiconductor Materials & Facility Services, Files for Nasdaq Capital Market IPO — TradingView News"
+    },
+    {
+      "title": "Cerebras IPO及其全定制架构的四大瓶颈（Cerebras IPO and the Four Bottlenecks in Its Custom-Everything Architecture）",
+      "url": "https://www.viksnewsletter.com/p/cerebras-ipo-and-the-scaling-bottlenecks",
+      "description": "A closer look at the wafer-scale architecture, the OpenAI deal, and four design vectors that decide if Cerebras can deploy at scale",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "晶圆级架构虽然提供极致算力，但在良率、散热、互联和软件生态上面临严峻的规模化瓶颈。",
+        "与头部大模型厂商（如OpenAI）的合作是验证非主流架构商业可行性的关键。"
+      ],
+      "actions": [
+        "追踪Cerebras在散热与互联技术上的突破进展，评估其架构在超大规模集群中的实际可用性。",
+        "评估自研架构在软件生态适配上的成本，为潜在技术路线选择提供参考。"
+      ],
+      "glossary": [
+        {
+          "term": "Wafer-scale architecture",
+          "desc": "晶圆级架构，将整个晶圆作为单一芯片设计的创新架构",
+          "category": "EDA/IP"
+        }
+      ],
+      "region": "overseas",
+      "summary": "深入分析Cerebras的晶圆级架构、与OpenAI的交易，以及决定其能否大规模部署的四个设计向量瓶颈。",
+      "tag_category": "EDA/IP",
+      "title_en": "Cerebras IPO and the Four Bottlenecks in Its Custom-Everything Architecture"
+    },
+    {
+      "title": "理想自研马赫M100芯片正式官宣 单芯算力1280TOPs",
+      "url": "https://chejiahao.autohome.com.cn/info/25471686",
+      "description": "理想自研马赫M100芯片正式官宣 单芯算力1280TOPs_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n理想自研马赫M100芯片正式官宣 单芯算力1280TOPs\n\nCNMO科技\n\n车家号·0浏览·2026-05-12 18:35 · 北京\n\n【CNMO科技消息】5月12日，理想汽车创始人、CEO李想在社交媒体发文，正式宣布公司自研的马赫M100芯片首次亮相，并将率先搭载于全新理想L9 Livis车型。\n\n李想在",
       "published": "2026-05-15T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "四颗激光雷达的配置标志着车载传感器数量和算力需求持续攀升，将直接拉动车规级高性能计算芯片及激光雷达处理器市场。",
-        "全线控底盘的普及要求更复杂的底盘域控制器和更高可靠性的MCU/SoC支持，推动汽车芯片向高安全等级演进。"
+        "车企自研大算力智驾芯片已成趋势，1280TOPS的算力指标标志着国产车载芯片进入千TOPS级竞争阶段。",
+        "自研芯片有助于车企摆脱对第三方高端SoC的依赖，实现软硬协同与成本优化。"
       ],
       "actions": [
-        "车载芯片供应商应加速布局高集成度、高可靠性的底盘域控SoC和激光雷达信号处理芯片。",
-        "供应链需关注理想等主机厂的传感器与底盘配置升级趋势，提前储备对应的高速接口和信号处理IP。"
+        "关注马赫M100的制程选择与代工厂商，评估其量产时间表与供应链稳定性。",
+        "对比地平线、黑芝麻等国产智驾芯片厂商的产品路线图，调整车载芯片市场竞争策略。"
       ],
       "glossary": [
         {
-          "term": "线控底盘",
-          "desc": "通过电子信号控制底盘执行机构的系统，是实现高级自动驾驶的基础",
-          "category": "汽车芯片"
+          "term": "TOPS",
+          "desc": "每秒万亿次操作，衡量AI芯片算力的常用单位",
+          "category": "芯片指标"
         },
         {
-          "term": "激光雷达",
-          "desc": "利用激光进行探测和测距的传感器，常用于自动驾驶3D环境感知",
-          "category": "汽车芯片"
+          "term": "马赫M100",
+          "desc": "理想汽车自研的智能驾驶芯片，算力达1280TOPS",
+          "category": "车载芯片"
         }
       ],
       "region": "domestic",
-      "summary": "理想汽车宣布其L9 Livis车型定档5月15日，该车型配备全线控底盘、四颗激光雷达及420km纯电续航，彰显了高端智能电动汽车的硬件配置趋势。",
+      "summary": "理想汽车正式官宣其自研的马赫M100芯片，单芯片算力达到1280TOPS。",
       "tag_category": "综合",
-      "title_en": "全线控底盘+四颗激光雷达+纯电420km，理想L9 Livis定档5月15日_车家号_发现车生活_汽车之家"
-    },
-    {
-      "title": "快速、高效且正确的张量处理（Fast, furious, and yet correct tensor processing）",
-      "url": "https://shonan.nii.ac.jp/seminars/249/",
-      "description": "No.249 Fast, furious, and yet correct tensor processing | Seminars | NII Shonan Meeting\n[![NII SHONAN MEETING](https://shonan.nii.ac.jp/_libs/images/common/shonan_meeting_logo.svg)](https://shonan.nii.ac.jp/)\n*MENU*\n# [Seminars](https://shonan.nii.ac.jp/seminars/)\nArchives202620252024202320212020201",
-      "published": "2026-05-17T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "张量处理是AI芯片的核心运算，在追求算力爆发的同时兼顾计算正确性是架构设计的难点与趋势。",
-        "硬件级容错与精度优化技术将成为下一代AI加速器的重要差异化竞争力。"
-      ],
-      "actions": [
-        "AI芯片架构师需在设计中引入更高效的精度验证与容错机制，平衡性能与准确性。",
-        "相关研发团队应关注NII Shonan Meeting等前沿研讨会中关于张量计算正确性的最新学术进展与架构思路。"
-      ],
-      "glossary": [
-        {
-          "term": "Tensor Processing",
-          "desc": "张量处理，针对多维数组（张量）进行的数学运算，是深度学习计算的核心",
-          "category": "芯片架构"
-        }
-      ],
-      "region": "overseas",
-      "summary": "该研讨会探讨了如何在保持高速度和高效率的同时，确保张量处理计算的准确性，这对AI加速器架构设计至关重要。",
-      "tag_category": "综合",
-      "title_en": "NO.249 \nFast, furious, and yet correct tensor processing"
-    },
-    {
-      "title": "从单点解决方案到代理式AI生态系统：半导体工艺控制依赖于其历史（From Point Solutions to Agentic AI Ecosystems: Semiconductor Process Control Depends on Its Past）",
-      "url": "https://semiwiki.com/artificial-intelligence/369092-from-point-solutions-to-agentic-ai-ecosystems-semiconductor-process-control-depends-on-its-past/",
-      "description": "<p>Agentic AI is often presented as a revolutionary shift in semiconductor manufacturing, driven by large language models and generative AI. However, this framing overlooks an important reality: today’s advances are built on decades of prior work. As Jonathan Holt of PDF Solutions emphasizes in his ",
-      "published": "Mon, 11 May 2026 17:00:35 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "半导体制造中的Agentic AI并非空中楼阁，其有效性建立在长期积累的工艺控制数据和单点检测方案之上。",
-        "从单点方案向AI生态系统演进，要求企业打通数据孤岛，实现全流程的数据互通与模型迭代。"
-      ],
-      "actions": [
-        "Fab厂商在引入生成式AI和代理式AI时，应优先夯实底层数据采集与单点控制系统的质量，避免脱离实际的AI空转。",
-        "设备与良率管理软件供应商需开发更开放的数据接口，助力客户将历史单点数据转化为AI生态系统的训练资产。"
-      ],
-      "glossary": [
-        {
-          "term": "Agentic AI",
-          "desc": "代理式AI，具备自主规划、决策和执行能力的智能系统",
-          "category": "制造/良率"
-        },
-        {
-          "term": "Point Solutions",
-          "desc": "单点解决方案，针对特定孤立问题设计的局部优化工具",
-          "category": "制造/良率"
-        }
-      ],
-      "region": "overseas",
-      "summary": "文章指出，代理式AI在半导体制造中被视为革命性转变，但实际上当前的发展仍高度依赖于过去积累的单点解决方案和工艺数据基础。",
-      "tag_category": "综合",
-      "title_en": "From Point Solutions to Agentic AI Ecosystems: Semiconductor Process Control Depends on Its Past"
-    },
-    {
-      "title": "小组讨论：超越摩尔定律与半导体制造的未来（Panel Discission: Beyond Moore’s Law and the Future of Semiconductor Manufacturing）",
-      "url": "https://semiwiki.com/semiconductor-services/netapp/369122-panel-discission-beyond-moores-law-and-the-future-of/",
-      "description": "<p data-start=\"0\" data-end=\"628\">\n<p data-start=\"0\" data-end=\"628\">The semiconductor industry is entering a post-Moore’s Law era in which scaling transistor density alone is no longer sufficient to sustain historical performance growth. As discussed in the panel <a href=\"https://netapp.hosted.panopt",
-      "published": "Mon, 11 May 2026 13:00:12 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "后摩尔时代，先进封装、异构集成和新材料成为延续系统性能提升的关键路径。",
-        "半导体制造的未来不仅依赖光刻微缩，更需要晶圆厂在系统集成和工艺创新上寻找增量。"
-      ],
-      "actions": [
-        "芯片设计与制造企业应加大对先进封装（如Chiplet）和异构集成技术的战略投资，以应对微缩放缓的挑战。",
-        "设备与材料厂商需紧跟超越摩尔定律的技术路线，研发支持3D集成和新材料的新型制造装备。"
-      ],
-      "glossary": [
-        {
-          "term": "Moore's Law",
-          "desc": "摩尔定律，指集成电路上可容纳的晶体管数目约每隔两年增加一倍的性能规律",
-          "category": "行业趋势"
-        },
-        {
-          "term": "Beyond Moore's Law",
-          "desc": "超越摩尔定律，通过封装、异构集成等非单纯微缩手段提升系统整体性能的技术路线",
-          "category": "行业趋势"
-        }
-      ],
-      "region": "overseas",
-      "summary": "该小组讨论探讨了半导体行业进入后摩尔定律时代的挑战，指出仅靠缩小晶体管密度已不足以维持行业发展，需寻求新的制造与架构突破。",
-      "tag_category": "综合",
-      "title_en": "Panel Discission: Beyond Moore’s Law and the Future of Semiconductor Manufacturing"
+      "title_en": "理想自研马赫M100芯片正式官宣 单芯算力1280TOPs_车家号_发现车生活_汽车之家"
     }
   ],
   "stats": {
-    "total_raw": 75,
-    "after_dedup": 69,
+    "total_raw": 89,
+    "after_dedup": 82,
     "sources": {
-      "Exa": 2,
-      "RSS": 62,
-      "Brave": 5
+      "Exa": 4,
+      "RSS": 65,
+      "Brave": 13
     }
-  }
+  },
+  "code_version": "",
+  "data_commit": ""
 }
