@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://semiwiki.com/semiconductor-manufacturers/intel/368539-is-intel-about-to-take-flight/",
-    "title": "Intel代工业务能否起飞？产业分析评估其扭亏为盈的可能性",
-    "published": "2026-04-21",
-    "addedAt": "2026-04-22T20:09:54+08:00"
-  },
-  {
-    "url": "https://semiwiki.com/events/368423-proteantecs-at-chiplet-summit-changing-the-game-for-health-performance-monitoring-of-chiplets/",
-    "title": "proteanTecs在Chiplet Summit展示先进封装健康监测技术",
-    "published": "2026-04-21",
-    "addedAt": "2026-04-22T20:09:54+08:00"
-  },
-  {
-    "url": "https://finance.ifeng.com/c/8sWUQtZJkuh",
-    "title": "盛合晶微登陆科创板：晶圆级先进封测龙头募资50亿，市值1428亿",
-    "published": "2026-04-21",
-    "addedAt": "2026-04-23T06:00:00+08:00"
-  },
-  {
-    "url": "https://36kr.com/p/3612074260841728",
-    "title": "黄仁勋200亿美元收购Groq：NVIDIA加速AI推理芯片版图扩张",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-23T06:00:00+08:00"
-  },
-  {
-    "url": "https://www.stcn.com/article/detail/3568364.html",
-    "title": "燧原科技冲刺IPO：腾讯持股的国产AI芯片公司，已开发四代产品",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-23T06:00:00+08:00"
-  },
-  {
     "url": "https://finance.sina.com.cn/jjxw/2026-04-23/doc-inhvkyvy4247407.shtml",
     "title": "帝科股份定增30亿豪赌存储芯片：光伏银浆巨头跨界半导体",
     "published": "2026-04-23",
@@ -2998,5 +2968,35 @@
     "title": "进迭时空第三代RISC-V处理器核X200完成研发，性能翻倍",
     "published": "2026-05-12T00:00:00.000Z",
     "addedAt": "2026-05-14T06:13:00+08:00"
+  },
+  {
+    "url": "https://www.catacal.com/catalyst/cerebras-systems-ipo",
+    "title": "Cerebras Systems 2026年IPO日期与股票催化剂详情（Cerebras Systems IPO 2026 Date & Stock Catalyst Details | Catacal）",
+    "published": "2026-05-14T00:00:00.000Z",
+    "addedAt": "2026-05-14T13:02:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/ceo-interviews/369204-ceo-interview-with-dr-jekaterina-viktorova-of-syenta/",
+    "title": "Syenta公司CEO Jekaterina Viktorova博士专访（CEO Interview with Dr. Jekaterina Viktorova of Syenta）",
+    "published": "Wed, 13 May 2026 15:00:25 +0000",
+    "addedAt": "2026-05-14T13:02:00+08:00"
+  },
+  {
+    "url": "https://finance.yahoo.com/news/2026s-biggest-ipo-far-ai-142945644.html",
+    "title": "2026年迄今最大IPO：AI芯片制造商Cerebras目标筹集48亿美元，预测市场怎么说？（2026's Biggest IPO So Far: AI Chipmaker Cerebras Targets $4.8 Billion Raise, But What Do Prediction Markets Say?）",
+    "published": "",
+    "addedAt": "2026-05-14T13:02:00+08:00"
+  },
+  {
+    "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261892837-crypto-consensys-ledger-kraken-cerebras-ipo-payward-tradingkey",
+    "title": "AI狂热对决加密寒冬：Cerebras创下年度最大IPO，而加密融资降至冰点（AI Frenzy vs. Crypto Winter: Cerebras Sets Year’s Largest IPO as Crypto Funding Hits Freezing Point）",
+    "published": "",
+    "addedAt": "2026-05-14T13:02:00+08:00"
+  },
+  {
+    "url": "https://chejiahao.autohome.com.cn/info/25471686",
+    "title": "理想汽车自研马赫M100芯片正式官宣，单芯算力达1280TOPs",
+    "published": "2026-05-15T00:00:00.000Z",
+    "addedAt": "2026-05-14T13:02:00+08:00"
   }
 ]
