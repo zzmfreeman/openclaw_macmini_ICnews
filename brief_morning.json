@@ -1,6 +1,6 @@
 {
-  "version": "v20260514-0613",
-  "generatedAt": "2026-05-14T06:13:00+08:00",
+  "version": "v20260515-0604",
+  "generatedAt": "2026-05-15T06:04:00+08:00",
   "period": "morning",
   "commit": "",
   "glossary_list": [
@@ -18,76 +18,6 @@
       "term": "OSAT",
       "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
       "category": "封装"
-    },
-    {
-      "term": "马赫M100",
-      "desc": "理想汽车自研的智能驾驶芯片",
-      "category": "芯片"
-    },
-    {
-      "term": "中芯北方",
-      "desc": "中芯国际的控股子公司，主要晶圆制造厂",
-      "category": "Fab/制造"
-    },
-    {
-      "term": "Secret chip lab",
-      "desc": "秘密芯片实验室，指未公开的半导体研发中心",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "SK Siltron",
-      "desc": "韩国主要半导体硅片制造商",
-      "category": "材料"
-    },
-    {
-      "term": "Additive manufacturing",
-      "desc": "增材制造，即3D打印，通过逐层增加材料的方式制造零件的技术",
-      "category": "制造工艺"
-    },
-    {
-      "term": "M&A",
-      "desc": "并购，即兼并与收购",
-      "category": "综合"
-    },
-    {
-      "term": "Cerebras",
-      "desc": "专注于晶圆级AI芯片设计的美国公司",
-      "category": "芯片设计"
-    },
-    {
-      "term": "Reshuffle",
-      "desc": "人事调整或改组",
-      "category": "企业管理"
-    },
-    {
-      "term": "CapEx",
-      "desc": "资本支出，企业用于购买或升级物理资产的资金",
-      "category": "财务"
-    },
-    {
-      "term": "Visa rules",
-      "desc": "签证规则，指跨国技术人员赴美工作签证的政策限制",
-      "category": "政策"
-    },
-    {
-      "term": "Hybrid Bonding",
-      "desc": "混合键合，一种无需中间材料的晶圆级直接互联封装技术",
-      "category": "封装"
-    },
-    {
-      "term": "CMOS image sensor",
-      "desc": "互补金属氧化物半导体图像传感器",
-      "category": "传感器"
-    },
-    {
-      "term": "Quantum Sensing",
-      "desc": "量子传感，利用量子力学特性进行高精度测量的技术",
-      "category": "前沿技术"
-    },
-    {
-      "term": "RISC-V",
-      "desc": "一种开源的指令集架构",
-      "category": "IP/架构"
     }
   ],
   "topic_pulse": [
@@ -96,177 +26,112 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区对先进封装的关注度有所降温，但日月光CapEx跟不上需求说明产能依然紧缺，讨论焦点可能从概念炒作转向实际交付瓶颈与产能分配。"
+      "summary": ""
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "热度下降，市场对HBM的短期预期趋于理性，讨论重心转向库存消化与下一代规格落地，缺乏新的刺激事件。"
+      "summary": ""
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中芯国际并购引发一定关注，但整体制程突破话题降温，社区情绪趋于观望，关注点集中在产能整合而非技术飞跃。"
+      "summary": ""
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "RISC-V新核发布带来局部热度，但整体板块情绪平稳，社区讨论重点在生态建设与商业化落地，而非单纯概念炒作。"
+      "summary": ""
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "日月光CapEx瓶颈引发对产能分配的担忧，讨论从产能扩张转向交付延迟风险，对二线封测厂商承接溢出订单的期待增加。"
+      "summary": ""
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "华为芯片实验室曝光带来地缘政治信号，但整体制裁话题热度降温，社区处于政策观望期，对新增限制的预期暂未发酵。"
+      "summary": ""
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "Cerebras IPO带来非GPU架构的新话题，但NVIDIA主导的板块整体降温，市场在寻找算力需求的新增长点与差异化竞争路径。"
+      "summary": ""
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "斗山收购SK Siltron引发材料端整合讨论，但国内设备替代话题暂无新刺激点，情绪平稳，讨论聚焦于现有产线的良率提升。"
+      "summary": ""
     }
   ],
   "items": [
     {
-      "title": "理想自研马赫M100芯片官宣：理想L9 Livis首发",
-      "url": "https://finance.sina.com.cn/tech/discovery/2026-05-12/doc-inhxrwqf8214852.shtml",
-      "description": "全球最强算力！理想自研马赫M100芯片官宣：理想L9 Livis首发_新浪科技_新浪网\n\n移动客户端\n\n登录\n\n新浪科技> 科学探索 > 正文\n\n# 全球最强算力！理想自研马赫M100芯片官宣：理想L9 Livis首发\n\n全球最强算力！理想自研马赫M100芯片官宣：理想L9 Livis首发\n\n快科技5月12日消息，今日，理想汽车正式官宣自研芯片马赫M100，这款号称拥有“全球最强算力”的芯片，将首发搭载于全新理想L9 Livis车型。\n\n马赫M100芯片的核心突破，在于采用行业首款端侧动态数据流架构。\n\n不同于传统冯・诺依曼架构，这一设计专为AI时代高并发、高算力需求打造，打破了GPU架构的效",
-      "published": "2026-05-12T00:00:00.000Z",
+      "title": "Cerebras (CBRS) Stock: AI Chipmaker's Record $5.55B IPO Challenges Nvidia's Dominance - Parameter（待翻译）",
+      "url": "https://parameter.io/cerebras-cbrs-stock-ai-chipmakers-record-5-55b-ipo-challenges-nvidias-dominance/",
+      "description": "Close Menu \n\n Facebook X (Twitter) Instagram \n\n \n\n Facebook X (Twitter) \n\n \n\n \n\n \n\nStock\n\n# Cerebras (CBRS) Stock: AI Chipmaker’s Record $5.55B IPO Challenges Nvidia’s Dominance\n\nBy Trader Edge May 14, 20264 Mins Read\n\nTable of Contents\n\nToggle\n\n### Key Highlights\n\n- Cerebras set its IPO price at $1",
+      "published": "2026-05-14T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "车企自研芯片趋势加速，旨在掌握底层算力定义权以优化智能驾驶系统。",
-        "主机厂与芯片厂的边界逐渐模糊，供应链话语权正在重构。"
-      ],
-      "actions": [
-        "关注国内车企自研芯片带来的代工和封测订单转移机会。",
-        "评估传统车规级芯片供应商面临的竞争压力及替代风险。"
-      ],
-      "glossary": [
-        {
-          "term": "马赫M100",
-          "desc": "理想汽车自研的智能驾驶芯片",
-          "category": "芯片"
-        }
-      ],
-      "region": "domestic",
-      "summary": "理想汽车正式官宣自研芯片马赫M100，号称拥有“全球最强算力”，将由理想L9 Livis首发搭载。",
-      "tag_category": "设计公司",
-      "title_en": "全球最强算力！理想自研马赫M100芯片官宣：理想L9 Livis首发_新浪科技_新浪网"
-    },
-    {
-      "title": "科创板史上最大并购：中芯国际406亿全资控股中芯北方！晶圆代工“集团军”集结冲锋",
-      "url": "https://finance.sina.com.cn/wm/2026-05-12/doc-inhxrwqe1427950.shtml",
-      "description": "5 月 11 日，上交所并购重组委审议通过中芯国际发行股份购买资产的重大关联交易。中芯国际以约 406 亿元全股份对价，收购控股子公司中芯北方剩余 49% 股权，实现 100% 全资控股。\n\n这笔交易不仅是科创板设立以来规模最大的发行股份购买资产交易，也刷新了国产晶圆代工行业并购金额纪录，标志着国内半导体产业链整合进入加速期。\n\n一、并购详解：零现金！国家队资本腾挪\n\n本次交易全程不涉及现金支付。中芯国际拟向大基金一期、北京集成电路制造和装备股权投资中心、亦庄国投、中关村发展、北京工投5 名股东，以74.2 元 / 股的价格发行约 5.47 亿股 A 股，换取其持有的中芯北方 49% 股权。\n",
-      "published": "2026-05-12T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "国内半导体产业链整合进入加速期，晶圆代工集团化作战趋势明显。",
-        "零现金的全股份收购反映了国家队资本的内部腾挪与资源集中。"
-      ],
-      "actions": [
-        "关注中芯国际体系内产能调配与设备采购的集中化趋势。",
-        "评估中芯北方全资控股后对国内竞争代工厂的挤压效应。"
-      ],
-      "glossary": [
-        {
-          "term": "中芯北方",
-          "desc": "中芯国际的控股子公司，主要晶圆制造厂",
-          "category": "Fab/制造"
-        }
-      ],
-      "region": "domestic",
-      "summary": "中芯国际以约406亿元全股份对价收购中芯北方剩余49%股权，实现100%全资控股，刷新科创板及国产晶圆代工行业并购纪录。",
-      "tag_category": "Fab/制造",
-      "title_en": "科创板史上最大并购：中芯国际 406 亿全资控股中芯北方！晶圆代工 “集团军” 集结冲锋_新浪财经_新浪网"
-    },
-    {
-      "title": "北京在特朗普抵达前两天将华为秘密芯片实验室放上国家电视，该信息并非针对中国观众",
-      "url": "https://thenextweb.com/news/huawei-chip-lab-trump-china-visit",
-      "description": "Beijing put Huawei's secret chip lab on national TV two days before Trump arrives. The message wasn't for Chinese viewers.\n\nImage by: X-SHLIED\n\n#### TL;DR\n\nBeijing broadcast Huawei’s secret chip lab on prime-time TV two days before Trump’s state visit, signalling that US export controls have consoli",
-      "published": "2026-05-12T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "半导体技术正成为地缘政治博弈的核心筹码，官方展示意在震慑外部制裁压力。",
-        "华为的芯片研发进展已成为中国科技韧性的象征。"
-      ],
-      "actions": [
-        "密切关注中美谈判期间可能出台的出口管制新规。",
-        "警惕地缘政治信号引发的供应链短期波动与情绪性囤货。"
-      ],
-      "glossary": [
-        {
-          "term": "Secret chip lab",
-          "desc": "秘密芯片实验室，指未公开的半导体研发中心",
-          "category": "EDA/IP"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "overseas",
-      "summary": "北京在特朗普访华前通过国家电视台展示华为秘密芯片实验室，向外界传递技术自主与抗压能力的信号。",
+      "summary": "Close Menu \n\n Facebook X (Twitter) Instagram \n\n \n\n Facebook X (Twitter) \n\n \n\n \n\n \n\nStock\n\n# Cerebras (CBRS) Stock: AI Chipmaker’s Record $5.55B IPO Ch",
       "tag_category": "EDA/IP",
-      "title_en": "Beijing put Huawei's secret chip lab on national TV two days before Trump arrives. The message wasn't for Chinese viewers."
+      "title_en": "Cerebras (CBRS) Stock: AI Chipmaker's Record $5.55B IPO Challenges Nvidia's Dominance - Parameter"
     },
     {
-      "title": "斗山接近完成对SK Siltron的收购，目标在2026上半年实现AI半导体垂直整合",
-      "url": "https://dailyalpha.us/news/doosan-nears-sk-siltron-acquisition-aiming-to-finalize-vertical-integration-for-ai-semiconductors-in-h1-2026-6a03fcc6011290e921496e35",
-      "description": "Doosan Nears SK Siltron Acquisition, Aiming to Finalize Vertical Integration for AI Semiconductors in H1 2026 | DailyAlpha\n\n[DailyAlphaDailyAlpha](https://dailyalpha.us/)\nDoosan Nears SK Siltron Acquisition, Aiming to Finalize Vertical Integration for AI Semiconductors in H1 2026 | DailyAlpha\nBack t",
+      "title": "Renesas completes acquisition of Greek Vision AI software firm Irid...（待翻译）",
+      "url": "https://evertiq.com/design/2026-05-13-renesas-completes-acquisition-of-greek-vision-ai-software-firm-irida-labs",
+      "description": "Renesas completes acquisition of Greek Vision AI software firm Irid...\n\nAd\n\nAd\n\nAd\n\nAd\n\nAd\n\n# Renesas completes acquisition of Greek Vision AI software firm Irida Labs\n\n## Japanese semiconductor company Renesas Electronics has completed the acquisition of Irida Labs, a Greece-based company specialis",
       "published": "2026-05-13T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "韩国半导体产业链正加速纵向整合，从材料到制造的闭环有助于提升AI芯片供应链稳定性。",
-        "财团跨界并购显示AI红利正向上游材料端蔓延。"
-      ],
-      "actions": [
-        "评估韩国硅片厂股权变动对全球硅材料供应格局的影响。",
-        "关注国内硅片厂商在AI需求拉动下的替代机遇。"
-      ],
-      "glossary": [
-        {
-          "term": "SK Siltron",
-          "desc": "韩国主要半导体硅片制造商",
-          "category": "材料"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "overseas",
-      "summary": "斗山集团即将收购SK Siltron，计划于2026年上半年完成AI半导体领域的垂直整合布局。",
+      "summary": "Renesas completes acquisition of Greek Vision AI software firm Irid...\n\nAd\n\nAd\n\nAd\n\nAd\n\nAd\n\n# Renesas completes acquisition of Greek Vision AI softwar",
       "tag_category": "综合",
-      "title_en": "Doosan Nears SK Siltron Acquisition, Aiming to Finalize Vertical Integration for AI Semiconductors in H1 2026 | DailyAlpha"
+      "title_en": "Renesas completes acquisition of Greek Vision AI software firm Irid..."
     },
     {
-      "title": "Syenta首席执行官Jekaterina Viktorova博士专访",
+      "title": "AI chipmaker Cerebras raises $7.1 billion in year’s biggest IPO | The Straits Times（待翻译）",
+      "url": "https://www.straitstimes.com/business/companies-markets/ai-chipmaker-cerebras-raises-7-1-billion-in-years-biggest-ipo",
+      "description": "AI chipmaker Cerebras raises $7.1 billion in year’s biggest IPO | The Straits Times\n\nmyST+\n\nMenu\n\n# AI chipmaker Cerebras raises $7.1 billion in year’s biggest IPO\n\nSign up now: Get ST's newsletters delivered to your inbox\n\nThe pricing gives Cerebras a market value of about US$40 billion, based on t",
+      "published": "2026-05-14T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "AI chipmaker Cerebras raises $7.1 billion in year’s biggest IPO | The Straits Times\n\nmyST+\n\nMenu\n\n# AI chipmaker Cerebras raises $7.1 billion in year’",
+      "tag_category": "EDA/IP",
+      "title_en": "AI chipmaker Cerebras raises $7.1 billion in year’s biggest IPO | The Straits Times"
+    },
+    {
+      "title": "CEO Interview with Dr. Jekaterina Viktorova of Syenta（待翻译）",
       "url": "https://semiwiki.com/ceo-interviews/369204-ceo-interview-with-dr-jekaterina-viktorova-of-syenta/",
       "description": "<p>Dr. Jekaterina (Jeka) Viktorova is the CEO and Co-Founder of Syenta, an Australian deep-tech company developing breakthrough additive manufacturing technology for the semiconductor industry. With a background in chemistry, electrochemistry, and advanced manufacturing, she is the inventor of the c",
       "published": "Wed, 13 May 2026 15:00:25 +0000",
@@ -274,173 +139,152 @@
       "source_type": "RSS",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "增材制造（3D打印）在半导体领域的应用正从概念走向落地，有望颠覆传统光刻与沉积工艺的某些环节。",
-        "初创企业在非传统工艺路径上的创新值得关注。"
-      ],
-      "actions": [
-        "追踪增材制造技术在半导体封装及互联领域的商业化进度。",
-        "探索与新型制造技术公司的早期合作以降低未来工艺迭代风险。"
-      ],
-      "glossary": [
-        {
-          "term": "Additive manufacturing",
-          "desc": "增材制造，即3D打印，通过逐层增加材料的方式制造零件的技术",
-          "category": "制造工艺"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "overseas",
-      "summary": "专访澳大利亚深科技公司Syenta的CEO，探讨其面向半导体行业的突破性增材制造技术。",
+      "summary": "<p>Dr. Jekaterina (Jeka) Viktorova is the CEO and Co-Founder of Syenta, an Australian deep-tech company developing breakthrough additive manufacturing",
       "tag_category": "综合",
       "title_en": "CEO Interview with Dr. Jekaterina Viktorova of Syenta"
     },
     {
-      "title": "中芯国际59亿美元收购获批，创国内晶圆代工最大并购纪录",
-      "url": "https://technode.com/2026/05/12/smic-secures-approval-for-5-9-billion-acquisition-in-chinas-largest-domestic-wafer-foundry-ma/",
-      "description": "On Monday, Semiconductor Manufacturing International Corporation (SMIC) announced that its share issuance and asset acquisition plan had been reviewed and",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "中芯国际并购获批标志着国内晶圆制造资源的高度集中，有助于提升规模化竞争力。",
-        "全股份支付方式凸显了当前半导体资产估值的高溢价特征。"
-      ],
-      "actions": [
-        "关注中芯系产能整合对国内设备与材料采购格局的重塑。",
-        "评估并购后中芯北方产能释放对整体代工市场定价的潜在影响。"
-      ],
-      "glossary": [
-        {
-          "term": "M&A",
-          "desc": "并购，即兼并与收购",
-          "category": "综合"
-        }
-      ],
-      "region": "overseas",
-      "summary": "中芯国际发行股份购买资产计划获批，以约59亿美元全资控股中芯北方，创国内晶圆代工并购规模纪录。",
-      "tag_category": "Fab/制造",
-      "title_en": "SMIC secures approval for $5.9 billion acquisition in China’s largest domestic wafer foundry M&A · TechNode"
-    },
-    {
-      "title": "为什么AI芯片设计公司Cerebras是2026年最热门的IPO（Why AI Chip Designer Cerebras Is 2026’s Hottest IPO Yet）",
-      "url": "https://www.morningstar.com/stocks/why-ai-chip-designer-cerebras-is-2026s-hottest-ipo-yet",
-      "description": "Cerebras’ IPO looks set to ride the massive AI infrastructure wave, but competition in its markets is fierce.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AI芯片初创公司通过IPO融资加速技术迭代，但巨头垄断与同质化竞争是长期挑战。",
-        "晶圆级芯片架构正在获得资本市场认可。"
-      ],
-      "actions": [
-        "关注Cerebras上市对晶圆级计算架构生态的拉动作用。",
-        "评估非GPU架构AI芯片在特定场景下的落地进展与供应链机会。"
-      ],
-      "glossary": [
-        {
-          "term": "Cerebras",
-          "desc": "专注于晶圆级AI芯片设计的美国公司",
-          "category": "芯片设计"
-        }
-      ],
-      "region": "overseas",
-      "summary": "AI芯片设计公司Cerebras预计将乘着AI基础设施浪潮上市，但其面临的市场竞争依然激烈。",
-      "tag_category": "EDA/IP",
-      "title_en": "Why AI Chip Designer Cerebras Is 2026’s Hottest IPO Yet | Morningstar"
-    },
-    {
-      "title": "台积电最新人事调整新增四位高管，美国投资与接班人计划加速推进",
-      "url": "https://www.digitimes.com/news/a20260513PD201/tsmc-investment-president-fab-capacity.html",
-      "description": "TSMC adds four executives in latest reshuffle as US investment and succession push accelerate\n\nREALTIME NEWS\n\n# TSMC adds four executives in latest reshuffle as US investment and succession push accelerate\n\n, Hsinchu\n\nCredit:Digitimes\n\nTSMC's board of directors approved a US$31.3 billion capital bud",
-      "published": "2026-05-12T00:00:00.000Z",
+      "title": "理想自研马赫M100芯片正式官宣 单芯算力1280TOPs_车家号_发现车生活_汽车之家",
+      "url": "https://chejiahao.autohome.com.cn/info/25471686",
+      "description": "理想自研马赫M100芯片正式官宣 单芯算力1280TOPs_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n理想自研马赫M100芯片正式官宣 单芯算力1280TOPs\n\nCNMO科技\n\n车家号·0浏览·2026-05-12 18:35 · 北京\n\n【CNMO科技消息】5月12日，理想汽车创始人、CEO李想在社交媒体发文，正式宣布公司自研的马赫M100芯片首次亮相，并将率先搭载于全新理想L9 Livis车型。\n\n李想在",
+      "published": "2026-05-15T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "台积电高层扩容折射出海外建厂带来的管理复杂度上升。",
-        "接班梯队明朗化有助于稳定跨国扩张期的内部治理。"
-      ],
-      "actions": [
-        "关注台积电美国厂高管本土化趋势对当地供应链导入的影响。",
-        "追踪台积电核心管理层变动可能引发的客户订单微调。"
-      ],
-      "glossary": [
-        {
-          "term": "Reshuffle",
-          "desc": "人事调整或改组",
-          "category": "企业管理"
-        }
-      ],
-      "region": "overseas",
-      "summary": "台积电新增四位高管，伴随其美国投资扩张和接班人计划的加速推进而进行组织架构调整。",
-      "tag_category": "Fab/制造",
-      "title_en": "TSMC adds four executives in latest reshuffle as US investment and succession push accelerate"
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "理想自研马赫M100芯片正式官宣 单芯算力1280TOPs_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n理想自研马赫",
+      "tag_category": "综合",
+      "title_en": "理想自研马赫M100芯片正式官宣 单芯算力1280TOPs_车家号_发现车生活_汽车之家"
     },
     {
-      "title": "台积电560亿美元押注AI基础设施（TSMC’s $56B Bet On AI Infrastructure）",
-      "url": "https://www.aicerts.ai/news/tsmcs-56b-bet-on-ai-infrastructure/",
-      "description": "TSMC’s $56B Bet On AI Infrastructure - AI CERTs News\n\n# Post\n\n###### AI CERTS\n\n24 hours ago\n\n## TSMC’s $56B Bet On AI Infrastructure\n\nHowever, Chief Executive C.C. Wei cautioned that missteps could become “a big disaster.” The stakes could not be higher for the world’s largest dedicated foundry.\n\nTS",
-      "published": "2026-05-12T00:00:00.000Z",
+      "title": "36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构-36氪",
+      "url": "https://36kr.com/p/3799984046333186?f=rss",
+      "description": "36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构\n\n通过全栈重构大幅释放GPU算力潜力。\n\n作者 | 乔钰杰\n\n编辑 | 袁斯来\n\n硬氪获悉，北京容芯致远科技有限公司（以下简称“容芯致远”）近日完成天使轮数亿元融资。本轮由北京绿色能源和低碳产业基金与赛富投资基金领投，顺禧基金、富华资本、万利达集团、长江创新投、水木清华校友基",
+      "published": "2026-05-14T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "巨额资本支出显示台积电对AI算力需求的长期坚定看好，但也面临产能过剩与回报周期拉长的财务压力。",
-        "行业龙头的前瞻性投资往往定义未来数年的产能天花板。"
-      ],
-      "actions": [
-        "评估台积电巨额投资对上游设备与材料供应商的订单拉动效应。",
-        "警惕AI基础设施投资过热可能导致的周期性产能过剩风险。"
-      ],
-      "glossary": [
-        {
-          "term": "CapEx",
-          "desc": "资本支出，企业用于购买或升级物理资产的资金",
-          "category": "财务"
-        }
-      ],
-      "region": "overseas",
-      "summary": "台积电投入560亿美元巨资押注AI基础设施，但CEO警告失误可能带来风险。",
-      "tag_category": "Fab/制造",
-      "title_en": "TSMC’s $56B Bet On AI Infrastructure - AI CERTs News"
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为",
+      "tag_category": "设计公司",
+      "title_en": "36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构-36氪"
     },
     {
-      "title": "台积电拨款200亿美元扩建亚利桑那州工厂——项目面临水资源和劳动力短缺，签证规则使情况复杂化",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-allocates-usd20-billion-to-arizona-expansion-project-faces-water-and-labor-shortages-complicated-by-visa-rules",
-      "description": "TSMC allocates $20 billion to Arizona expansion — project faces water and labor shortages, complicated by visa rules | Tom's Hardware\n\n> If they generated $514 million in profit the first year they can certainly pay for electricity generation systems and other needs instead of taxpayers paying.\n\n> I",
-      "published": "2026-05-12T00:00:00.000Z",
+      "title": "台積電狠甩英特爾、三星　最大尺寸CoWoS量產良率98% | 產經 | 中央社 CNA",
+      "url": "https://www.cna.com.tw/news/afe/202605140194.aspx",
+      "description": "台積電狠甩英特爾、三星 最大尺寸CoWoS量產良率98% | 產經 | 中央社 CNA\n\nYour browser does not appear to support Traditional Chinese. Would you like to go to CNA’s English website,“Focus Taiwan”?\n\n中央社一手新聞APP\n\n下載\n\n# 台積電狠甩英特爾、三星 最大尺寸CoWoS量產良率98%\n\n2026/5/14 15:53（5/14 16:15 更新）\n\n請同意我們的隱私權規範，才能啟用聽新聞的功能。\n\n台積電14日在台灣技術論壇上宣布將量產全球最大尺寸的",
+      "published": "2026-05-14T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "海外建厂的非技术性阻力（水、电、人、政策）正成为晶圆厂扩张的隐性成本。",
-        "美国本土半导体制造生态的配套短板短期内难以弥补。"
-      ],
-      "actions": [
-        "评估台积电美国厂投产延迟对相关客户产能分配的影响。",
-        "关注美国本土半导体配套产业（水处理、特种气体等）的投资机会。"
-      ],
-      "glossary": [
-        {
-          "term": "Visa rules",
-          "desc": "签证规则，指跨国技术人员赴美工作签证的政策限制",
-          "category": "政策"
-        }
-      ],
-      "region": "overseas",
-      "summary": "台积电为亚利桑那州扩建项目拨款200亿美元，但面临水资源与劳动力短缺问题，且签证规则加剧了建厂难度。",
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "台積電狠甩英特爾、三星 最大尺寸CoWoS量產良率98% | 產經 | 中央社 CNA\n\nYour browser does not appear to support Traditional Chinese. Would you like to go to CNA’s English websit",
       "tag_category": "Fab/制造",
-      "title_en": "TSMC allocates $20 billion to Arizona expansion — project faces water and labor shortages, complicated by visa rules | Tom's Hardware"
+      "title_en": "台積電狠甩英特爾、三星　最大尺寸CoWoS量產良率98% | 產經 | 中央社 CNA"
     },
     {
-      "title": "NHanced Semiconductors与佛罗里达大学将在2026年奥兰多电子组件与技术会议上展示混合键合可靠性研究",
+      "title": "台積電技術論壇》CoWoS良率98％ 每年更新整合更多HBM",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%BB%8A%E6%8A%80%E8%A1%93%E8%AB%96%E5%A3%87-cowos%E8%89%AF%E7%8E%8798-%E6%AF%8F%E5%B9%B4%E6%9B%B4%E6%96%B0%E6%95%B4%E5%90%88%E6%9B%B4%E5%A4%9Ahbm-035228315.html",
+      "description": "台積電技術論壇》CoWoS良率98％ 每年更新整合更多HBM\n\n廣告\n\n為呼應AI對HBM整合的需求，台積電未來5年每年都將更新CoWoS。（圖／報系資料照）\n\n晶圓代工龍頭台積電14日舉行技術論壇，業務開發資深處長袁立本演講時，提到Coupe的進展，以及目前最大的5.5倍光罩尺寸已經量產，目前台積電的CoWoS良率已經達到98％，為了支撐HBM連接晶片的需求，未來5年內的CoWoS將以每年更新的速度推進。\n\n袁立本指出，持續推出領先業界的技術平台，預期3奈米技術將成為2026年營收的主要來源；目前台積電持續在先進邏輯技術上持續演進，今年推出A16、A14及N2U等新製程，其中A14製程由A1",
+      "published": "2026-05-14T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "台積電技術論壇》CoWoS良率98％ 每年更新整合更多HBM\n\n廣告\n\n為呼應AI對HBM整合的需求，台積電未來5年每年都將更新CoWoS。（圖／報系資料照）\n\n晶圓代工龍頭台積電14日舉行技術論壇，業務開發資深處長袁立本演講時，提到Coupe的進展，以及目前最大的5.5倍光罩尺寸已經量產，目前台積",
+      "tag_category": "Fab/制造",
+      "title_en": "台積電技術論壇》CoWoS良率98％ 每年更新整合更多HBM"
+    },
+    {
+      "title": "TSMC Supply Tighter than Demand at the Leading Edge │ TVBS World Taiwan（待翻译）",
+      "url": "https://t.media/3203718",
+      "description": "TSMC Supply Tighter than Demand at the Leading Edge │ TVBS World Taiwan\n\n廣告\n\n# TSMC Supply Tighter than Demand at the Leading Edge\n\nS\n\nM\n\nL\n\nImage courtesy of TSMC.\n\nTSMC's April revenue of NT$410.7 billion (US$12.6 billion) was up 17.5 percent year on year and down 1.1 percent from March, the compa",
+      "published": "2026-05-14T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "TSMC Supply Tighter than Demand at the Leading Edge │ TVBS World Taiwan\n\n廣告\n\n# TSMC Supply Tighter than Demand at the Leading Edge\n\nS\n\nM\n\nL\n\nImage cou",
+      "tag_category": "Fab/制造",
+      "title_en": "TSMC Supply Tighter than Demand at the Leading Edge │ TVBS World Taiwan"
+    },
+    {
+      "title": "TSMC expands CoWoS and SoIC capacity on AI boom（待翻译）",
+      "url": "https://www.digitimes.com/news/a20260514PD237/tsmc-cowos-soic-capacity-packaging.html",
+      "description": "TSMC expands CoWoS and SoIC capacity on AI boom\n\nREALTIME NEWS\n\n# TSMC expands CoWoS and SoIC capacity on AI boom\n\n, Hsinchu\n\nTSMC said on May 14, 2026, that it is rapidly expanding CoWoS and SoIC advanced packaging capacity as AI demand drives the construction of 18 new fabs and advanced packaging ",
+      "published": "2026-05-14T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "TSMC expands CoWoS and SoIC capacity on AI boom\n\nREALTIME NEWS\n\n# TSMC expands CoWoS and SoIC capacity on AI boom\n\n, Hsinchu\n\nTSMC said on May 14, 202",
+      "tag_category": "Fab/制造",
+      "title_en": "TSMC expands CoWoS and SoIC capacity on AI boom"
+    },
+    {
+      "title": "[News] TSMC Sees AI Wafer Demand Rising 11x From 2022–2026, Targets CoWoS With 24 HBM Stacks in 2029（待翻译）",
+      "url": "https://www.trendforce.com/news/2026/05/14/news-tsmc-sees-ai-wafer-demand-rising-11x-from-2022-2026-targets-cowos-with-24-hbm-stacks-in-2029/",
+      "description": "[News] TSMC Sees AI Wafer Demand Rising 11x From 2022–2026, Targets CoWoS With 24 HBM Stacks in 2029\n\n# [News] TSMC Sees AI Wafer Demand Rising 11x From 2022–2026, Targets CoWoS With 24 HBM Stacks in 2029\n\n---\n\n2026-05-14 Emerging Technologies/ Semiconductors editor\n\n---\n\nTSMC held its Taiwan Techno",
+      "published": "2026-05-14T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "[News] TSMC Sees AI Wafer Demand Rising 11x From 2022–2026, Targets CoWoS With 24 HBM Stacks in 2029\n\n# [News] TSMC Sees AI Wafer Demand Rising 11x Fr",
+      "tag_category": "Fab/制造",
+      "title_en": "[News] TSMC Sees AI Wafer Demand Rising 11x From 2022–2026, Targets CoWoS With 24 HBM Stacks in 2029"
+    },
+    {
+      "title": "Blog Review: May 13（待翻译）",
+      "url": "https://semiengineering.com/blog-review-may-13-3/",
+      "description": "Blog Review: May 13\n\nMENU\n\nHome> Systems & Design> Blog Review: May 13\n\n# Blog Review: May 13\n\nGPU rasterizer for computational lithography; restructuring techniques; inline memory encryption; automotive electronic stability program.\n\nMay 13th, 2026 - By: Jesse Allen\n\nSiemens’ Loay Hegazy, Mohamed T",
+      "published": "2026-05-13T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Blog Review: May 13\n\nMENU\n\nHome> Systems & Design> Blog Review: May 13\n\n# Blog Review: May 13\n\nGPU rasterizer for computational lithography; restructu",
+      "tag_category": "设计公司",
+      "title_en": "Blog Review: May 13"
+    },
+    {
+      "title": "NHanced Semiconductors & the University of Florida to Present on Hybrid Bonding Reliability at the 2026 Electronic Components & Technology Conference in Orlando - Semiconductor Digest（待翻译）",
       "url": "https://www.semiconductor-digest.com/nhanced-semiconductors-the-university-of-florida-to-present-on-hybrid-bonding-reliability-at-the-2026-electronic-components-technology-conference-in-orlando/",
       "description": "NHanced Semiconductors & the University of Florida to Present on Hybrid Bonding Reliability at the 2026 Electronic Components & Technology Conference in Orlando - Semiconductor Digest\n\nNHanced Semiconductors & the University of Florida to Present on Hybrid Bonding Reliability at the 2026 Electronic ",
       "published": "2026-05-13T00:00:00.000Z",
@@ -448,171 +292,56 @@
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "混合键合技术是先进封装实现高密度互联的关键，其可靠性验证正从实验室走向产业标准制定阶段。",
-        "产学研合作加速了核心工艺的成熟。"
-      ],
-      "actions": [
-        "追踪混合键合设备与材料的国产化突破进度。",
-        "提前布局混合键合良率提升所需的检测与量测环节。"
-      ],
-      "glossary": [
-        {
-          "term": "Hybrid Bonding",
-          "desc": "混合键合，一种无需中间材料的晶圆级直接互联封装技术",
-          "category": "封装"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "overseas",
-      "summary": "NHanced Semiconductors与佛罗里达大学将在ECTC会议上展示关于混合键合可靠性的研究成果。",
+      "summary": "NHanced Semiconductors & the University of Florida to Present on Hybrid Bonding Reliability at the 2026 Electronic Components & Technology Conference ",
       "tag_category": "综合",
       "title_en": "NHanced Semiconductors & the University of Florida to Present on Hybrid Bonding Reliability at the 2026 Electronic Components & Technology Conference in Orlando - Semiconductor Digest"
     },
     {
-      "title": "日月光2026年第一季度：资本支出难以跟上激增的需求（ASE Q1 2026. CapEx Struggling To Keep Pace With Surging Demand）",
-      "url": "https://semiconalpha.substack.com/p/ase-q1-2026-capex-struggling-to-keep",
-      "description": "ASE Q1 2026. CapEx Struggling To Keep Pace With Surging Demand\n\n# Semicon Alpha\n\nSubscribeSign in\n\n# ASE Q1 2026. CapEx Struggling To Keep Pace With Surging Demand\n\nMay 12, 2026\n\n∙ Paid\n\n2\n\nShare\n\nOn Wednesday 29 April 2026, ASE Technology (TWSE: 3711, NYSE ADR: ASX) reported Q1 2026 revenues of NT$",
-      "published": "2026-05-12T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "先进封装需求爆发远超OSAT厂商的资本支出节奏，产能紧缺将延续。",
-        "封装环节正成为AI芯片交付的新瓶颈。"
-      ],
-      "actions": [
-        "优先锁定日月光等头部OSAT的先进封装产能长单。",
-        "评估二线OSAT及国内封测厂商承接溢出订单的能力。"
-      ],
-      "glossary": [
-        {
-          "term": "OSAT",
-          "desc": "外部半导体封装测试代工厂",
-          "category": "封装"
-        }
-      ],
-      "region": "overseas",
-      "summary": "日月光封装测试第一季度资本支出增速落后于激增的市场需求，面临产能扩张瓶颈。",
-      "tag_category": "综合",
-      "title_en": "ASE Q1 2026. CapEx Struggling To Keep Pace With Surging Demand"
-    },
-    {
-      "title": "你的隐私选择",
-      "url": "https://finance.yahoo.com/news/nextpower-announces-definitive-agreement-acquire-200500570.html",
-      "description": "Jouw privacykeuzes\n\nJouw privacykeuzes\n# guce\n[ ![](https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage.png)![](https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_w_bestfit_frontpage.png) guce ](https://www.yahoo.com/)\nJe privacy is belangrijk voor ons\nYahoo maakt deel uit van de Ya",
-      "published": "2026-05-12T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "无实质产业洞见。"
-      ],
-      "actions": [
-        "无需采取行动。"
-      ],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "该条目为网站的隐私政策选择页面，无实质半导体行业新闻内容。",
-      "tag_category": "综合",
-      "title_en": "Jouw privacykeuzes"
-    },
-    {
-      "title": "Indie Semiconductor以4000万欧元收购ams OSRAM CMOS图像传感器业务",
-      "url": "https://autotechinsight.spglobal.com/news/5288194/indie-semiconductor-to-acquire-ams-osram-cmos-image-sensor-group-for-40m",
-      "description": "Indie Semiconductor to acquire ams OSRAM CMOS image sensor group for €40M - Automotive Technology Insight | Forecasts | Industry News | Supply Chain\n\n# Indie Semiconductor to acquire ams OSRAM CMOS image sensor group for €40M\n\nThe deal enhances Indie’s multimodal sensing and AI-focused image sensor ",
-      "published": "2026-05-12T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "汽车芯片厂商通过并购补齐传感器版图，向平台型供应商转型。",
-        "欧洲老牌传感器厂商剥离非核心业务，折射出汽车电子供应链的重构。"
-      ],
-      "actions": [
-        "关注ams OSRAM剥离资产后其剩余业务的聚焦方向。",
-        "评估Indie Semiconductor整合图像传感器后对国内车载视觉供应链的竞争冲击。"
-      ],
-      "glossary": [
-        {
-          "term": "CMOS image sensor",
-          "desc": "互补金属氧化物半导体图像传感器",
-          "category": "传感器"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Indie Semiconductor宣布以4000万欧元收购ams OSRAM的CMOS图像传感器业务集团。",
-      "tag_category": "综合",
-      "title_en": "Indie Semiconductor to acquire ams OSRAM CMOS image sensor group for €40M - Automotive Technology Insight | Forecasts | Industry News | Supply Chain"
-    },
-    {
-      "title": "量子传感：一项准备好进入市场的量子技术？",
-      "url": "https://semiwiki.com/3dic/368442-sensing-a-quantum-tech-ready-for-market/",
-      "description": "<p>While the quantum world revolves around quantum computing, (QC) there are a couple of other quantum technologies of note. I covered one of these, quantum communication, in a <a href=\"https://semiwiki.com/photonics/366985-another-quantum-topic-quantum-communication/\">recent blog</a>. Here I’ll int",
-      "published": "Wed, 13 May 2026 13:00:32 +0000",
+      "title": "The Semiconductor Growth Numbers are Insane but the Real World Doesn’t Tally!（待翻译）",
+      "url": "https://semiwiki.com/semiconductor-services/future-horizons/369198-the-semiconductor-growth-numbers-are-insane-but-the-real-world-doesnt-tally/",
+      "description": "<p>May’s WSTS Report saw March’s total monthly semiconductor sales up 88.1 percent vs. March 2025, albeit down 8.5 percent from February 2026.  This month-on-month decline needs to put in the context of February’s record-breaking 25.7 percent monthly growth.</p>\n<p>This growth, however, was solely a",
+      "published": "Thu, 14 May 2026 15:00:50 +0000",
       "source": "RSS",
       "source_type": "RSS",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "量子传感在精度与抗干扰上具备优势，在半导体量测与导航等领域有明确刚需。",
-        "量子技术的商业化路径正从算力优先转向传感优先。"
-      ],
-      "actions": [
-        "关注量子传感在半导体缺陷检测等工业场景的替代潜力。",
-        "探索与量子传感初创企业的早期战略合作。"
-      ],
-      "glossary": [
-        {
-          "term": "Quantum Sensing",
-          "desc": "量子传感，利用量子力学特性进行高精度测量的技术",
-          "category": "前沿技术"
-        }
-      ],
+      "insights": [],
+      "actions": [],
+      "glossary": [],
       "region": "overseas",
-      "summary": "探讨量子传感技术是否已具备商业化市场条件，相较于量子计算，量子传感可能更快落地。",
+      "summary": "<p>May’s WSTS Report saw March’s total monthly semiconductor sales up 88.1 percent vs. March 2025, albeit down 8.5 percent from February 2026.  This m",
       "tag_category": "综合",
-      "title_en": "Sensing. A Quantum Tech Ready for Market?"
+      "title_en": "The Semiconductor Growth Numbers are Insane but the Real World Doesn’t Tally!"
     },
     {
-      "title": "进迭时空第三代RISC-V处理器核X200完成研发，性能翻倍",
-      "url": "https://www.163.com/dy/article/KSOFP0MF0511B8LM.html",
-      "description": "进迭时空第三代RISC-V处理器核X200完成研发，性能翻倍|单核|多核|访存|risc|x200_网易订阅\n\n快速导航\n\n### 新闻\n\n### 体育\n\n### 娱乐\n\n### 财经\n\n### 汽车\n\n### 科技\n\n### 时尚\n\n### 手机 / 数码\n\n### 房产 / 家居\n\n### 教育\n\n安全退出\n\n邮箱\n\n# 进迭时空第三代RISC-V处理器核X200完成研发，性能翻倍\n\n2026-05-12 18:23:13 来源: IT之家山东举报\n\n0\n\n分享至\n\n用微信扫码二维码\n\n分享至好友和朋友圈\n\nIT之家 5 月 12 日消息，进迭时空上周官宣，第三代 RISC-V 处理器核 ",
-      "published": "2026-05-12T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
+      "title": "A Grand Total Of $276 In Savings Are Headed Your Way Because The MSI Vector 16 HX AI Gaming Laptop Gives You A Free 007 First Light Copy On Amazon（待翻译）",
+      "url": "https://wccftech.com/free-007-first-light-copy-with-each-msi-vector-16-hx-ai-rtx-5070-ti-gaming-laptop-purchase/",
+      "description": "IO Interactive’s 007 First Light&#160;is just around the corner, and what better way to prepare gamers for this AAA release than NVIDIA’s new bundle, which includes copies with each GeForce RTX GPU purchase. Fortunately, this deal is also applicable to gaming laptops, and what better way to begin yo",
+      "published": "Thu, 14 May 2026 21:36:37 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
       "lang": "en",
       "tags": [],
-      "insights": [
-        "RISC-V架构在高性能计算领域的突破正在加速，性能翻倍缩小了与ARM架构的差距。",
-        "国产自主指令集生态的成熟为本土芯片设计提供了更多选择。"
-      ],
-      "actions": [
-        "评估X200核在车载与边缘计算场景的替代可行性。",
-        "关注基于RISC-V架构的SoC设计对国产EDA工具链的适配需求。"
-      ],
-      "glossary": [
-        {
-          "term": "RISC-V",
-          "desc": "一种开源的指令集架构",
-          "category": "IP/架构"
-        }
-      ],
-      "region": "domestic",
-      "summary": "进迭时空宣布其第三代RISC-V处理器核X200完成研发，单核与多核性能均实现翻倍提升。",
-      "tag_category": "EDA/IP",
-      "title_en": "进迭时空第三代RISC-V处理器核X200完成研发，性能翻倍|单核|多核|访存|risc|x200_网易订阅"
+      "insights": [],
+      "actions": [],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "IO Interactive’s 007 First Light&#160;is just around the corner, and what better way to prepare gamers for this AAA release than NVIDIA’s new bundle, ",
+      "tag_category": "设计公司",
+      "title_en": "A Grand Total Of $276 In Savings Are Headed Your Way Because The MSI Vector 16 HX AI Gaming Laptop Gives You A Free 007 First Light Copy On Amazon"
     }
   ],
   "stats": {
-    "total_raw": 162,
-    "after_dedup": 127,
+    "total_raw": 153,
+    "after_dedup": 130,
     "sources": {
-      "Exa": 33,
-      "RSS": 63,
-      "Brave": 31
+      "Exa": 36,
+      "RSS": 64,
+      "Brave": 30
     }
   },
   "code_version": "",

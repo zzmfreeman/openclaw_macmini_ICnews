@@ -1,95 +1,5 @@
 [
   {
-    "url": "https://spectrum.ieee.org/ai-chip-design-matlab",
-    "title": "AI将如何改变芯片设计：从EDA工具到设计流程的全面重塑",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-23T06:00:00+08:00"
-  },
-  {
-    "url": "https://semiwiki.com/wikis/industry-wikis/eda-mergers-and-acquisitions-wiki/",
-    "title": "EDA/IP并购历史回顾：产业整合浪潮从未停止",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-23T06:00:00+08:00"
-  },
-  {
-    "url": "https://news.mit.edu/2026/how-to-expand-us-economy-priority-technologies-book-0421",
-    "title": "MIT发布优先技术报告：半导体是美国经济扩张的关键赛道",
-    "published": "2026-04-21",
-    "addedAt": "2026-04-23T06:00:00+08:00"
-  },
-  {
-    "url": "https://www.qbitai.com/2026/01/366454.html",
-    "title": "百度AI芯片公司昆仑芯冲刺IPO：出货量国产第二",
-    "published": "2026-01-15",
-    "addedAt": "2026-04-23T06:00:00+08:00"
-  },
-  {
-    "url": "https://thenextweb.com/news/orangeqs-15m-seed",
-    "title": "OrangeQS融资1500万欧元：量子芯片测试专用方案获资本认可",
-    "published": "2026-04-21",
-    "addedAt": "2026-04-23T06:00:00+08:00"
-  },
-  {
-    "url": "https://techcrunch.com/2026/04/21/apple-tim-cook-ceo-15-year-legacy-takeaways-ios-silicon-china-tril",
-    "title": "苹果Tim Cook 15年遗产：硅自研与供应链重构改变芯片产业",
-    "published": "2026-04-21",
-    "addedAt": "2026-04-23T06:00:00+08:00"
-  },
-  {
-    "url": "https://www.ibtimes.com.au/intel-stock-drops-378-ahead-q1-earnings-investors-brace-turnaround-update",
-    "title": "Intel Q1财报前股价下跌3.78%：投资者等待代工业务扭亏信号",
-    "published": "2026-04-20",
-    "addedAt": "2026-04-23T06:00:00+08:00"
-  },
-  {
-    "url": "https://finance.sina.com.cn/tech/2026-04/22/doc-shenghejingwei",
-    "title": "盛合晶微科创板上市首日暴涨406%，市值超1500亿，成今年最大半导体IPO",
-    "published": "2026-04-22T00:00:00+08:00",
-    "addedAt": "2026-04-23T13:00:00+08:00"
-  },
-  {
-    "url": "https://www.livemint.com/companies/news/asml-layoff-europes-chip-giant-to-cut-1-700-jobs-these-roles-face-the-biggest-risk-11776818966669.html",
-    "title": "ASML裁员1700人，欧洲芯片巨人面临重组压力",
-    "published": "2026-04-22T02:03:26+08:00",
-    "addedAt": "2026-04-23T13:00:00+08:00"
-  },
-  {
-    "url": "https://www.163.com/dy/article/china-asml-policy-cancel",
-    "title": "中方取消对荷光刻机优待政策，450亿芯片订单不再合作",
-    "published": "2026-04-22T00:00:00+08:00",
-    "addedAt": "2026-04-23T13:00:00+08:00"
-  },
-  {
-    "url": "https://www.eetimes.com/tsmc-targets-2029-production-for-a13-and-a12",
-    "title": "TSMC公布A13与A12制程路线，预计2029年量产面向下一代AI芯片",
-    "published": "2026-04-23T00:00:00+08:00",
-    "addedAt": "2026-04-23T13:00:00+08:00"
-  },
-  {
-    "url": "https://www.sohu.com/a/nvidia-h200-china-order-200m",
-    "title": "中企订购超200万颗英伟达H200，委托TSMC扩大生产",
-    "published": "2026-04-22T05:00:00+08:00",
-    "addedAt": "2026-04-23T13:00:00+08:00"
-  },
-  {
-    "url": "https://www.nvidia.com/blog/blackwell-moe-inference-55x-faster",
-    "title": "NVIDIA称Blackwell在MoE推理场景较Hopper快55倍，AI芯片竞争转向端到端效率",
-    "published": "2026-04-22T05:00:00+08:00",
-    "addedAt": "2026-04-23T13:00:00+08:00"
-  },
-  {
-    "url": "https://finance.sina.com.cn/stock/fund/2026-04/23/global-silicon-wafer-shipments-up-5.8pct",
-    "title": "2025年全球半导体硅片出货面积同比增5.8%，材料需求持续回暖",
-    "published": "2026-04-23T00:00:00+08:00",
-    "addedAt": "2026-04-23T13:00:00+08:00"
-  },
-  {
-    "url": "https://en.yna.co.kr/view/AEN20260423001000315d",
-    "title": "SK Hynix Q1利润暴增406%创纪录，HBM需求远超供给",
-    "published": "2026-04-23T00:00:00+08:00",
-    "addedAt": "2026-04-23T13:00:00+08:00"
-  },
-  {
     "url": "https://finance.sina.com.cn/roll/2026-04-22/doc-inhvkcsa5605841.shtml",
     "title": "今年科创板最大IPO：盛合晶微正式上市，市值冲破1400亿",
     "published": "2026-04-22",
@@ -2998,5 +2908,95 @@
     "title": "中芯国际拿下近60亿美元大单，深化中国AI布局（SMIC lands nearly US$6bn mega deal to deepen China AI push）",
     "published": "",
     "addedAt": "2026-05-14T20:03:00+08:00"
+  },
+  {
+    "url": "https://parameter.io/cerebras-cbrs-stock-ai-chipmakers-record-5-55b-ipo-challenges-nvidias-dominance/",
+    "title": "Cerebras (CBRS) Stock: AI Chipmaker's Record $5.55B IPO Challenges Nvidia's Dominance - Parameter（待翻译）",
+    "published": "2026-05-14T00:00:00.000Z",
+    "addedAt": "2026-05-15T06:04:00+08:00"
+  },
+  {
+    "url": "https://evertiq.com/design/2026-05-13-renesas-completes-acquisition-of-greek-vision-ai-software-firm-irida-labs",
+    "title": "Renesas completes acquisition of Greek Vision AI software firm Irid...（待翻译）",
+    "published": "2026-05-13T00:00:00.000Z",
+    "addedAt": "2026-05-15T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.straitstimes.com/business/companies-markets/ai-chipmaker-cerebras-raises-7-1-billion-in-years-biggest-ipo",
+    "title": "AI chipmaker Cerebras raises $7.1 billion in year’s biggest IPO | The Straits Times（待翻译）",
+    "published": "2026-05-14T00:00:00.000Z",
+    "addedAt": "2026-05-15T06:04:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/ceo-interviews/369204-ceo-interview-with-dr-jekaterina-viktorova-of-syenta/",
+    "title": "CEO Interview with Dr. Jekaterina Viktorova of Syenta（待翻译）",
+    "published": "Wed, 13 May 2026 15:00:25 +0000",
+    "addedAt": "2026-05-15T06:04:00+08:00"
+  },
+  {
+    "url": "https://chejiahao.autohome.com.cn/info/25471686",
+    "title": "理想自研马赫M100芯片正式官宣 单芯算力1280TOPs_车家号_发现车生活_汽车之家",
+    "published": "2026-05-15T00:00:00.000Z",
+    "addedAt": "2026-05-15T06:04:00+08:00"
+  },
+  {
+    "url": "https://36kr.com/p/3799984046333186?f=rss",
+    "title": "36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构-36氪",
+    "published": "2026-05-14T00:00:00.000Z",
+    "addedAt": "2026-05-15T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.cna.com.tw/news/afe/202605140194.aspx",
+    "title": "台積電狠甩英特爾、三星　最大尺寸CoWoS量產良率98% | 產經 | 中央社 CNA",
+    "published": "2026-05-14T00:00:00.000Z",
+    "addedAt": "2026-05-15T06:04:00+08:00"
+  },
+  {
+    "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%BB%8A%E6%8A%80%E8%A1%93%E8%AB%96%E5%A3%87-cowos%E8%89%AF%E7%8E%8798-%E6%AF%8F%E5%B9%B4%E6%9B%B4%E6%96%B0%E6%95%B4%E5%90%88%E6%9B%B4%E5%A4%9Ahbm-035228315.html",
+    "title": "台積電技術論壇》CoWoS良率98％ 每年更新整合更多HBM",
+    "published": "2026-05-14T00:00:00.000Z",
+    "addedAt": "2026-05-15T06:04:00+08:00"
+  },
+  {
+    "url": "https://t.media/3203718",
+    "title": "TSMC Supply Tighter than Demand at the Leading Edge │ TVBS World Taiwan（待翻译）",
+    "published": "2026-05-14T00:00:00.000Z",
+    "addedAt": "2026-05-15T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.digitimes.com/news/a20260514PD237/tsmc-cowos-soic-capacity-packaging.html",
+    "title": "TSMC expands CoWoS and SoIC capacity on AI boom（待翻译）",
+    "published": "2026-05-14T00:00:00.000Z",
+    "addedAt": "2026-05-15T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.trendforce.com/news/2026/05/14/news-tsmc-sees-ai-wafer-demand-rising-11x-from-2022-2026-targets-cowos-with-24-hbm-stacks-in-2029/",
+    "title": "[News] TSMC Sees AI Wafer Demand Rising 11x From 2022–2026, Targets CoWoS With 24 HBM Stacks in 2029（待翻译）",
+    "published": "2026-05-14T00:00:00.000Z",
+    "addedAt": "2026-05-15T06:04:00+08:00"
+  },
+  {
+    "url": "https://semiengineering.com/blog-review-may-13-3/",
+    "title": "Blog Review: May 13（待翻译）",
+    "published": "2026-05-13T00:00:00.000Z",
+    "addedAt": "2026-05-15T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.semiconductor-digest.com/nhanced-semiconductors-the-university-of-florida-to-present-on-hybrid-bonding-reliability-at-the-2026-electronic-components-technology-conference-in-orlando/",
+    "title": "NHanced Semiconductors & the University of Florida to Present on Hybrid Bonding Reliability at the 2026 Electronic Components & Technology Conference in Orlando - Semiconductor Digest（待翻译）",
+    "published": "2026-05-13T00:00:00.000Z",
+    "addedAt": "2026-05-15T06:04:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/semiconductor-services/future-horizons/369198-the-semiconductor-growth-numbers-are-insane-but-the-real-world-doesnt-tally/",
+    "title": "The Semiconductor Growth Numbers are Insane but the Real World Doesn’t Tally!（待翻译）",
+    "published": "Thu, 14 May 2026 15:00:50 +0000",
+    "addedAt": "2026-05-15T06:04:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/free-007-first-light-copy-with-each-msi-vector-16-hx-ai-rtx-5070-ti-gaming-laptop-purchase/",
+    "title": "A Grand Total Of $276 In Savings Are Headed Your Way Because The MSI Vector 16 HX AI Gaming Laptop Gives You A Free 007 First Light Copy On Amazon（待翻译）",
+    "published": "Thu, 14 May 2026 21:36:37 +0000",
+    "addedAt": "2026-05-15T06:04:00+08:00"
   }
 ]
