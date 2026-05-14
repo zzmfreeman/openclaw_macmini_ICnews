@@ -1,6 +1,6 @@
 {
-  "version": "v20260512-2005",
-  "generatedAt": "2026-05-12T20:05:00+08:00",
+  "version": "v20260514-2003",
+  "generatedAt": "2026-05-14T20:03:00+08:00",
   "period": "evening",
   "commit": "",
   "glossary_list": [
@@ -20,44 +20,44 @@
       "category": "封装"
     },
     {
-      "term": "LPDA",
-      "desc": "对数周期偶极子阵列，一种宽带天线结构",
-      "category": "EDA/IP"
+      "term": "Additive Manufacturing",
+      "desc": "增材制造，即3D打印，通过逐层添加材料来构建物体的制造技术",
+      "category": "制造"
     },
     {
-      "term": "Full-Wave EM Simulation",
-      "desc": "全波电磁仿真，求解麦克斯韦方程组的完整数值方法，用于高频电磁设计",
-      "category": "EDA/IP"
+      "term": "Humanoid Robot",
+      "desc": "人形机器人，具有类似人类身体结构的机器人，通常集成高级AI系统",
+      "category": "应用"
     },
     {
-      "term": "IonQ",
-      "desc": "一家专注于离子阱量子计算的领先公司",
-      "category": "Fab/制造"
+      "term": "WSE",
+      "desc": "晶圆级引擎，Cerebras开发的将整个晶圆作为单一巨大芯片的技术",
+      "category": "芯片"
     },
     {
-      "term": "SkyWater",
-      "desc": "一家美国独立晶圆代工厂，提供特种工艺和先进封装服务",
-      "category": "Fab/制造"
+      "term": "SoftBank",
+      "desc": "软银，日本跨国投资与科技公司，在科技领域有大量投资布局",
+      "category": "金融"
     },
     {
-      "term": "M&A",
-      "desc": "并购，包括兼并与收购，是企业扩张和整合的重要手段",
-      "category": "综合"
+      "term": "Prediction Market",
+      "desc": "预测市场，通过交易合约来预测未来事件结果的金融市场",
+      "category": "金融"
     },
     {
-      "term": "Cerebras",
-      "desc": "一家AI芯片初创公司，以晶圆级引擎（WSE）架构闻名",
-      "category": "EDA/IP"
+      "term": "Oversubscribed",
+      "desc": "超额认购，投资者申购数量超过发行数量的现象，反映市场需求旺盛",
+      "category": "金融"
     },
     {
-      "term": "IPO",
-      "desc": "首次公开募股，企业上市融资的过程",
-      "category": "综合"
+      "term": "SMIC",
+      "desc": "中芯国际，中国大陆规模最大、技术最先进的集成电路晶圆代工企业",
+      "category": "代工"
     },
     {
-      "term": "Quantum Manufacturing",
-      "desc": "量子制造，指量子计算硬件的晶圆制造、封装与测试过程",
-      "category": "Fab/制造"
+      "term": "Asset Acquisition",
+      "desc": "资产收购，企业通过购买另一企业的资产来获得业务或技术控制权的行为",
+      "category": "金融"
     }
   ],
   "topic_pulse": [
@@ -66,227 +66,227 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区对CoWoS及先进封装的讨论热度降温，近期缺乏重大产能扩张或技术突破新闻。市场关注点暂时从封装瓶颈转向其他领域，但长期产能紧缺预期依然存在。"
+      "summary": "社区对CoWoS产能扩张的讨论热度有所下降，近期缺乏新的产能分配消息，情绪趋于观望。市场正等待台积电等厂商下一季度的产能规划指引。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度下降，缺乏新的供应商动态或规格发布。社区情绪趋于平稳，等待下一代HBM4的明确路线图及量产时间表。"
+      "summary": "HBM价格与产能的讨论暂无新进展，社区情绪从前期的狂热转为冷静，关注点转向实际交付情况与良率提升。部分讨论开始关注HBM4的早期规格泄露。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "关于中国Fab与先进制程的讨论热度回落，近期无重大国产突破消息刺激。社区关注焦点暂时转移，但仍在持续追踪本土产线的良率与产能爬坡进展。"
+      "summary": "关于国内晶圆厂先进制程突破的讨论热度降温，缺乏实质性技术突破消息，社区情绪偏谨慎。讨论焦点暂时转向中芯国际的资本运作与产能整合。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题降温，缺乏重磅新品发布或融资事件。社区讨论暂归平静，业界仍在等待国产EDA在关键点工具上的实质性替代进展。"
+      "summary": "国产EDA替代话题近期缺乏重磅更新，社区讨论趋于平静，情绪聚焦于长期研发投入而非短期爆发。用户更关注特定点工具的突破而非全流程解决方案。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT热度下降，近期无显著订单或技术整合新闻。社区对传统封测的关注减弱，目光更多转向先进封装与垂直整合趋势。"
+      "summary": "传统封测板块讨论热度下降，市场等待先进封装技术带来的新订单数据，情绪较为平淡。部分讨论关注日月光等龙头企业的资本支出调整信号。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度减退，近期无新增重大禁令或清单更新。社区情绪暂时缓和，但企业仍在默默推进供应链合规与替代方案。"
+      "summary": "制裁与管制话题近期无新增政策传闻，社区讨论热度回落，情绪从焦虑转为常态化应对。讨论重点转向如何在新规下优化供应链合规与物流路径。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与英伟达相关讨论降温，缺乏新一代产品发布或财报刺激。社区短期焦点转移，但英伟达的生态霸主地位与长期需求预期仍是共识。"
+      "summary": "英伟达相关讨论热度出现降温，市场对下一代架构的期待暂无新料支撑，情绪进入短暂休整期。社区开始反思当前AI集群的算力利用率与实际投资回报。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化热度下降，近期缺乏核心环节的突破性进展。社区讨论暂缓，业界持续关注国产设备在先进产线上的验证与导入进度。"
+      "summary": "国产设备材料验证与导入的讨论热度下降，缺乏新的批量替代案例，社区情绪保持务实与耐心。讨论焦点集中在特定前道设备的客户验证进度上。"
     }
   ],
   "items": [
     {
-      "title": "使用全波电磁仿真设计宽带LPDA馈电反射面天线（Designing Broadband LPDA-Fed Reflector Antennas With Full-Wave EM Simulation）",
-      "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
-      "description": "<img src=\"https://spectrum.ieee.org/media-library/wipl-d-logo.png?id=26851496&width=980\"/><br/><br/><p>A practical guide to designing log-periodic dipole array fed parabolic reflector antennas using advanced 3D MoM simulation — from parametric modeling to electrically large structures.</p><p><strong",
-      "published": "Fri, 17 Apr 2026 14:00:50 +0000",
+      "title": "Syenta首席执行官Jekaterina Viktorova博士专访（CEO Interview with Dr. Jekaterina Viktorova of Syenta）",
+      "url": "https://semiwiki.com/ceo-interviews/369204-ceo-interview-with-dr-jekaterina-viktorova-of-syenta/",
+      "description": "<p>Dr. Jekaterina (Jeka) Viktorova is the CEO and Co-Founder of Syenta, an Australian deep-tech company developing breakthrough additive manufacturing technology for the semiconductor industry. With a background in chemistry, electrochemistry, and advanced manufacturing, she is the inventor of the c",
+      "published": "Wed, 13 May 2026 15:00:25 +0000",
       "source": "RSS",
       "source_type": "RSS",
       "lang": "en",
       "tags": [],
       "insights": [
-        "全波电磁仿真在复杂天线系统设计中愈发关键，能显著提升宽带天线的设计精度与效率。",
-        "LPDA馈电反射面天线设计对EDA工具的高频电磁求解能力提出了更高要求，相关仿真软件市场存在细分机会。"
+        "增材制造（3D打印）在半导体领域的应用正从概念走向落地，有望改变传统晶圆制造的复杂流程与材料限制。",
+        "澳大利亚等非传统半导体强国的深科技初创企业，在细分制造技术领域展现出独特的创新潜力与跨界优势。"
       ],
       "actions": [
-        "射频与微波芯片设计团队应评估并引入具备高精度全波电磁仿真能力的EDA工具，以应对复杂天线设计需求。",
-        "关注天线仿真领域的IP与EDA初创公司，寻找潜在的技术合作或并购标的。"
+        "关注增材制造技术在半导体前道工艺中的最新进展，评估其对现有光刻与沉积流程的潜在替代效应。",
+        "寻找与类似Syenta的海外深科技初创企业的早期合作或投资机会，提前布局下一代半导体制造技术。"
       ],
       "glossary": [
         {
-          "term": "LPDA",
-          "desc": "对数周期偶极子阵列，一种宽带天线结构",
-          "category": "EDA/IP"
-        },
-        {
-          "term": "Full-Wave EM Simulation",
-          "desc": "全波电磁仿真，求解麦克斯韦方程组的完整数值方法，用于高频电磁设计",
-          "category": "EDA/IP"
+          "term": "Additive Manufacturing",
+          "desc": "增材制造，即3D打印，通过逐层添加材料来构建物体的制造技术",
+          "category": "制造"
         }
       ],
       "region": "overseas",
-      "summary": "本文提供了一份实用指南，介绍如何使用全波电磁仿真工具设计对数周期偶极子阵列（LPDA）馈电的抛物面反射天线。",
-      "tag_category": "EDA/IP",
-      "title_en": "Designing Broadband LPDA-Fed Reflector Antennas With Full-Wave EM Simulation"
-    },
-    {
-      "title": "IonQ与SkyWater合并获批，量子制造故事成为焦点（IonQ SkyWater Merger Approval Puts Quantum Manufacturing Story In Focus）",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-skywater-merger-approval-puts-121207049.html",
-      "description": "SkyWater Technology shareholders have approved the merger agreement with IonQ. The companies currently expect the deal to close in the second or third quarter of 2026, subject to regulatory approvals. The acquisition is intended to combine IonQ's quantum computing focus with SkyWater's ...",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "量子计算公司通过并购晶圆代工厂来垂直整合制造能力，标志着量子硬件从研发走向规模化制造的关键转折。",
-        "此次合并将强化IonQ在量子芯片制造和封装环节的自主可控性，缩短产品迭代周期。"
-      ],
-      "actions": [
-        "半导体供应链企业应密切关注量子计算制造生态的崛起，提前布局量子芯片所需的特种工艺、封装及测试服务。",
-        "代工厂和OSAT可评估量子芯片制造的工艺需求与产能潜力，寻求与IonQ等量子计算头部企业的合作机会。"
-      ],
-      "glossary": [
-        {
-          "term": "IonQ",
-          "desc": "一家专注于离子阱量子计算的领先公司",
-          "category": "Fab/制造"
-        },
-        {
-          "term": "SkyWater",
-          "desc": "一家美国独立晶圆代工厂，提供特种工艺和先进封装服务",
-          "category": "Fab/制造"
-        }
-      ],
-      "region": "overseas",
-      "summary": "SkyWater Technology股东已批准与IonQ的合并协议，预计交易将在2026年第二或第三季度完成，需等待监管批准。",
+      "summary": "澳大利亚深科技公司Syenta的首席执行官Jekaterina Viktorova博士接受专访，该公司正致力于为半导体行业开发突破性的增材制造技术。",
       "tag_category": "综合",
-      "title_en": "IonQ SkyWater Merger Approval Puts Quantum Manufacturing Story In Focus"
+      "title_en": "CEO Interview with Dr. Jekaterina Viktorova of Syenta"
     },
     {
-      "title": "哪些公司主导了近期最大的并购交易？（Which companies led the largest recent mergers & acquisitions? | Intellizence）",
-      "url": "https://intellizence.com/insights/merger-and-acquisition/largest-merger-acquisition-deals/",
-      "description": "Discover which companies led the largest mergers and acquisitions in 2025. Subscribe to Intellizence to get insights on top M&A data by value, industry, and region.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
+      "title": "英国人形机器人初创公司Humanoid寻求IPO（UK Humanoid robot startup looking at IPO）",
+      "url": "https://www.electronicsweekly.com/news/business/uks-humanoid-robot-startup-looking-at-ipo-2026-05/",
+      "description": "<p>Two year-old UK AI and robotics startup Humanoid is looking to IPO in 2029 or 2030. Founder and sole investor Artem Sokolov told Reuters that it would probably IPO in ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/news/business/uks-humanoid-robot-startup-looking-at-ipo-2026-05/\">U",
+      "published": "Thu, 14 May 2026 05:28:03 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
       "lang": "en",
       "tags": [],
       "insights": [
-        "半导体行业的并购活动仍是资本整合与技术获取的核心驱动力，头部企业通过并购加速AI、量子等前沿领域布局。",
-        "跟踪并购趋势有助于预判产业价值链的重构方向，特别是制造、EDA和先进封装环节的集中度变化。"
+        "人形机器人赛道正吸引大量资本关注，初创公司提前规划IPO反映出该领域商业化预期的提升。",
+        "AI与半导体的结合在人形机器人领域尤为紧密，其量产将直接拉动边缘AI芯片、传感器及控制半导体的需求。"
       ],
       "actions": [
-        "供应链从业者应定期复盘半导体领域的重大并购案，分析其对上下游竞争格局和客户结构的潜在冲击。",
-        "投资与战略部门需建立并购情报追踪机制，识别潜在的标的出售或行业整合机会。"
+        "供应链企业应提前对接人形机器人厂商，了解其对边缘AI芯片、传感器及控制半导体的定制化需求与规格演进。",
+        "投资者可关注人形机器人产业链上游的芯片与模组供应商，提前布局相关赛道以捕捉终端放量红利。"
       ],
       "glossary": [
         {
-          "term": "M&A",
-          "desc": "并购，包括兼并与收购，是企业扩张和整合的重要手段",
-          "category": "综合"
+          "term": "Humanoid Robot",
+          "desc": "人形机器人，具有类似人类身体结构的机器人，通常集成高级AI系统",
+          "category": "应用"
         }
       ],
       "region": "overseas",
-      "summary": "Intellizence发布数据，揭示了2025年按价值、行业和地区划分的最大并购交易及其主导公司。",
-      "tag_category": "综合",
-      "title_en": "Which companies led the largest recent mergers & acquisitions? | Intellizence"
+      "summary": "英国AI与机器人初创公司Humanoid计划于2029或2030年进行IPO，创始人Artem Sokolov表示公司正加速推进上市进程。",
+      "tag_category": "EDA/IP",
+      "title_en": "UK Humanoid robot startup looking at IPO"
     },
     {
-      "title": "市场简报：消费者是否会开始屈服？（Markets Brief: Will the Consumer Start Crying ‘Uncle’? | Morningstar）",
-      "url": "https://www.morningstar.com/markets/markets-brief-will-consumer-start-crying-uncle",
-      "description": "Plus: Cerebras’ IPO, the tech stocks leading the EM rally, unicorn concentration, and the April CPI.",
+      "title": "三次提价至185美元：拒绝软银后，Cerebras凭什么对490亿美元估值充满信心？（Pricing Hiked Three Times to $185. What Gives Cerebras Confidence in Its $49B Valuation After Spurning SoftBank?）",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261892914-cerebras-185-ipo-price-49b-valuation-turning-down-softbank-tradingkey",
+      "description": "TradingKey - AI chipmaker Cerebras Systems is racing toward a US IPO with momentum far exceeding expectations, as Wall Street's fervor for the AI semiconductor sector is fully reflected in the company.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "Cerebras的IPO进展是AI芯片领域的重要风向标，其晶圆级芯片架构若成功上市，将对传统GPU市场格局形成挑战。",
-        "宏观经济指标（如CPI）与消费者支出直接影响终端电子设备需求，进而传导至半导体产业链的产能利用率。"
+        "Cerebras的高估值反映了资本市场对非GPU架构AI芯片（如WSE晶圆级芯片）的强烈期待与押注，算力多元化需求正获认可。",
+        "拒绝软银并选择独立IPO，说明头部AI芯片初创企业更倾向于通过公开市场获取更高溢价与战略独立性。"
       ],
       "actions": [
-        "关注Cerebras IPO后续动态，评估其晶圆级计算方案对先进封装和代工产能需求的独特拉动效应。",
-        "芯片供应链管理者需结合宏观经济与消费者信心数据，动态调整库存与产能规划，防范需求突变风险。"
+        "评估Cerebras晶圆级引擎（WSE）技术路线在超大模型训练中的实际落地情况，判断其市场占有率潜力与生态成熟度。",
+        "关注Cerebras IPO后的资金投向，预判其产能扩张对上游特种晶圆制造和先进封装供应链的拉动效应。"
       ],
       "glossary": [
         {
-          "term": "Cerebras",
-          "desc": "一家AI芯片初创公司，以晶圆级引擎（WSE）架构闻名",
-          "category": "EDA/IP"
+          "term": "WSE",
+          "desc": "晶圆级引擎，Cerebras开发的将整个晶圆作为单一巨大芯片的技术",
+          "category": "芯片"
         },
         {
-          "term": "IPO",
-          "desc": "首次公开募股，企业上市融资的过程",
-          "category": "综合"
+          "term": "SoftBank",
+          "desc": "软银，日本跨国投资与科技公司，在科技领域有大量投资布局",
+          "category": "金融"
         }
       ],
       "region": "overseas",
-      "summary": "Morningstar市场简报探讨了消费者支出韧性，并提及Cerebras的IPO、引领新兴市场反弹的科技股以及4月CPI数据。",
+      "summary": "AI芯片制造商Cerebras Systems在拒绝软银投资后，三次上调IPO发行价至185美元，估值达490亿美元，显示出华尔街对AI半导体板块的极度狂热。",
       "tag_category": "EDA/IP",
-      "title_en": "Markets Brief: Will the Consumer Start Crying ‘Uncle’? | Morningstar"
+      "title_en": "Pricing Hiked Three Times to $185. What Gives Cerebras Confidence in Its $49B Valuation After Spurning SoftBank?"
     },
     {
-      "title": "5月11日今日股市：SkyWater投票推进半导体制造交易，IonQ股价上涨（Stock Market Today, May 11: IonQ Rises as SkyWater Vote Advances Semiconductor Manufacturing Deal）",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/05/11/stock-market-today-may-11-ionq-rises-as-skywater-vote-advances-semiconductor-manufacturing-deal/",
-      "description": "IonQ’s proposed SkyWater acquisition could bring more fabrication and packaging work into its supply chain, giving the company tighter control over the hardware needed to scale its quantum systems.",
+      "title": "2026年迄今最大IPO：AI芯片制造商Cerebras目标募资48亿美元，但预测市场怎么看？（2026's Biggest IPO So Far: AI Chipmaker Cerebras Targets $4.8 Billion Raise, But What Do Prediction Markets Say?）",
+      "url": "https://finance.yahoo.com/news/2026s-biggest-ipo-far-ai-142945644.html",
+      "description": "Cerebras Systems is set to be the largest IPO of 2026 so far, with the AI chipmaker on track to raise up to $4.8 billion at a $48.8 billion valuation after its order book closed roughly 20 times oversubscribed. The Sunnyvale company lifted its price range to $150 to $160 per share from $115 ...",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "量子计算企业向制造端延伸，反映了硬件自主可控在规模化阶段的核心战略价值，类似AI芯片厂商自建封装产能的逻辑。",
-        "将代工与封装内化后，IonQ能更灵活地优化量子芯片的良率与迭代速度，缩短从设计到量产的周期。"
+        "认购超20倍的超额需求表明市场对AI算力替代方案的渴求远超传统预期，资金正疯狂涌入算力基础设施。",
+        "巨额募资将极大增强Cerebras的研发与产能扩充能力，可能重塑当前由英伟达主导的AI芯片竞争格局。"
       ],
       "actions": [
-        "半导体设备与材料供应商应关注量子计算制造垂直整合带来的新采购需求，特别是针对特种工艺的定制化设备。",
-        "传统OSAT需警惕部分高增长客户（如量子、AI芯片商）自建制造/封装产能的趋势，加速向高附加值服务转型。"
+        "密切关注Cerebras上市后的财报与产能规划，评估其晶圆级芯片量产进度对台积电等代工厂的潜在分流影响。",
+        "预测市场对IPO后走势的判断可作为二级市场投资AI半导体板块的情绪参考指标，需动态跟踪市场预期变化。"
       ],
       "glossary": [
         {
-          "term": "Quantum Manufacturing",
-          "desc": "量子制造，指量子计算硬件的晶圆制造、封装与测试过程",
-          "category": "Fab/制造"
+          "term": "Prediction Market",
+          "desc": "预测市场，通过交易合约来预测未来事件结果的金融市场",
+          "category": "金融"
+        },
+        {
+          "term": "Oversubscribed",
+          "desc": "超额认购，投资者申购数量超过发行数量的现象，反映市场需求旺盛",
+          "category": "金融"
         }
       ],
       "region": "overseas",
-      "summary": "IonQ拟对SkyWater的收购将为其供应链引入更多制造和封装业务，使公司对扩展量子系统所需的硬件拥有更紧密的控制权。",
-      "tag_category": "Fab/制造",
-      "title_en": "Stock Market Today, May 11: IonQ Rises as SkyWater Vote Advances Semiconductor Manufacturing Deal"
+      "summary": "AI芯片制造商Cerebras Systems有望成为2026年迄今最大IPO，其订单簿超额认购约20倍，目标以488亿美元估值募资48亿美元。",
+      "tag_category": "EDA/IP",
+      "title_en": "2026's Biggest IPO So Far: AI Chipmaker Cerebras Targets $4.8 Billion Raise, But What Do Prediction Markets Say?"
+    },
+    {
+      "title": "中芯国际拿下近60亿美元大单，深化中国AI布局（SMIC lands nearly US$6bn mega deal to deepen China AI push）",
+      "url": "https://www.digitimes.com/newsshow/article.asp?datePublish=2026/05/12&pages=vl&seq=211",
+      "description": "China's top foundry SMIC is entering a new growth phase after regulators approved a record CNY40.6 billion (US$5.98 billion) asset acquisition that strengthens its grip over one of its most profitable wafer fabs, while surging domestic AI infrastructure spending is rapidly reshaping the company's ...",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "中芯国际巨额资产收购标志着中国本土晶圆厂正通过资本运作加速整合内部资源，以应对AI算力国产化的迫切需求。",
+        "在外部制裁压力下，中芯国际通过强化高利润业务（可能涉及特殊制程或关联封装）来提升自我造血能力，支撑先进制程研发。"
+      ],
+      "actions": [
+        "国内半导体设备与材料供应商应紧抓中芯国际扩产与资产整合带来的订单红利，加速导入验证周期。",
+        "关注该笔资产收购的具体标的（大概率涉及中芯南方等先进制程资产），评估其对国产AI芯片产能的实际提升幅度。"
+      ],
+      "glossary": [
+        {
+          "term": "SMIC",
+          "desc": "中芯国际，中国大陆规模最大、技术最先进的集成电路晶圆代工企业",
+          "category": "代工"
+        },
+        {
+          "term": "Asset Acquisition",
+          "desc": "资产收购，企业通过购买另一企业的资产来获得业务或技术控制权的行为",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "中芯国际获监管批准完成406亿元人民币（近60亿美元）的创纪录资产收购，此举将强化其对高利润业务的掌控，并进一步深化中国AI芯片制造布局。",
+      "tag_category": "EDA/IP",
+      "title_en": "SMIC lands nearly US$6bn mega deal to deepen China AI push"
     }
   ],
   "stats": {
-    "total_raw": 86,
-    "after_dedup": 80,
+    "total_raw": 90,
+    "after_dedup": 83,
     "sources": {
-      "Exa": 1,
+      "Exa": 2,
       "RSS": 65,
-      "Brave": 14
+      "Brave": 16
     }
   },
   "code_version": "",

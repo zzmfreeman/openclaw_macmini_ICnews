@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://finance.sina.com.cn/jjxw/2026-04-23/doc-inhvkyvy4247407.shtml",
-    "title": "帝科股份定增30亿豪赌存储芯片：光伏银浆巨头跨界半导体",
-    "published": "2026-04-23",
-    "addedAt": "2026-04-23T06:00:00+08:00"
-  },
-  {
-    "url": "https://globalsemiresearch.substack.com/p/decoding-tsmcs-advanced-process-roadmap",
-    "title": "TSMC先进制程路线图解读：3nm产能向18万片/月扩张，1.4nm量产在望",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-23T06:00:00+08:00"
-  },
-  {
-    "url": "https://cj.sina.com.cn/articles/view/1960136440/74d54ef800101ftvq",
-    "title": "8家半导体企业披露IPO新进展：资本市场热潮再起",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-23T06:00:00+08:00"
-  },
-  {
-    "url": "https://cbgc.scol.com.cn/news/7425799",
-    "title": "SEMICON China 2026直击：万亿美金芯时代，国产设备对标国际巨头",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-23T06:00:00+08:00"
-  },
-  {
-    "url": "https://www.barchart.com/story/news/1400380/intel-hit-its-highest-price-in-25-years-here-s-why-it-wi",
-    "title": "Intel股价创25年新高：代工业务转型获市场认可",
-    "published": "2026-04-21",
-    "addedAt": "2026-04-23T06:00:00+08:00"
-  },
-  {
     "url": "https://spectrum.ieee.org/ai-chip-design-matlab",
     "title": "AI将如何改变芯片设计：从EDA工具到设计流程的全面重塑",
     "published": "2026-04-22",
@@ -2998,5 +2968,35 @@
     "title": "理想汽车自研马赫M100芯片正式官宣，单芯算力达1280TOPs",
     "published": "2026-05-15T00:00:00.000Z",
     "addedAt": "2026-05-14T13:02:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/ceo-interviews/369204-ceo-interview-with-dr-jekaterina-viktorova-of-syenta/",
+    "title": "Syenta首席执行官Jekaterina Viktorova博士专访（CEO Interview with Dr. Jekaterina Viktorova of Syenta）",
+    "published": "Wed, 13 May 2026 15:00:25 +0000",
+    "addedAt": "2026-05-14T20:03:00+08:00"
+  },
+  {
+    "url": "https://www.electronicsweekly.com/news/business/uks-humanoid-robot-startup-looking-at-ipo-2026-05/",
+    "title": "英国人形机器人初创公司Humanoid寻求IPO（UK Humanoid robot startup looking at IPO）",
+    "published": "Thu, 14 May 2026 05:28:03 +0000",
+    "addedAt": "2026-05-14T20:03:00+08:00"
+  },
+  {
+    "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261892914-cerebras-185-ipo-price-49b-valuation-turning-down-softbank-tradingkey",
+    "title": "三次提价至185美元：拒绝软银后，Cerebras凭什么对490亿美元估值充满信心？（Pricing Hiked Three Times to $185. What Gives Cerebras Confidence in Its $49B Valuation After Spurning SoftBank?）",
+    "published": "",
+    "addedAt": "2026-05-14T20:03:00+08:00"
+  },
+  {
+    "url": "https://finance.yahoo.com/news/2026s-biggest-ipo-far-ai-142945644.html",
+    "title": "2026年迄今最大IPO：AI芯片制造商Cerebras目标募资48亿美元，但预测市场怎么看？（2026's Biggest IPO So Far: AI Chipmaker Cerebras Targets $4.8 Billion Raise, But What Do Prediction Markets Say?）",
+    "published": "",
+    "addedAt": "2026-05-14T20:03:00+08:00"
+  },
+  {
+    "url": "https://www.digitimes.com/newsshow/article.asp?datePublish=2026/05/12&pages=vl&seq=211",
+    "title": "中芯国际拿下近60亿美元大单，深化中国AI布局（SMIC lands nearly US$6bn mega deal to deepen China AI push）",
+    "published": "",
+    "addedAt": "2026-05-14T20:03:00+08:00"
   }
 ]
