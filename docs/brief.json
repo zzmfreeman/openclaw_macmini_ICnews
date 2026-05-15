@@ -1,7 +1,7 @@
 {
-  "version": "v20260515-0604",
-  "generatedAt": "2026-05-15T06:04:00+08:00",
-  "period": "morning",
+  "version": "v20260515-1303",
+  "generatedAt": "2026-05-15T13:03:00+08:00",
+  "period": "midday",
   "commit": "",
   "glossary_list": [
     {
@@ -18,6 +18,41 @@
       "term": "OSAT",
       "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
       "category": "封装"
+    },
+    {
+      "term": "Additive Manufacturing",
+      "desc": "增材制造，又称3D打印，是通过逐层添加材料来构建三维物理实体的制造技术",
+      "category": "制造"
+    },
+    {
+      "term": "Waferscale",
+      "desc": "晶圆级，指在整块晶圆上制造单个超大芯片的技术架构，无需切割",
+      "category": "架构"
+    },
+    {
+      "term": "IPO",
+      "desc": "首次公开募股，企业首次向公众投资者出售股票筹集资金的过程",
+      "category": "金融"
+    },
+    {
+      "term": "Humanoid robot",
+      "desc": "人形机器人，具有类似人类身体结构和运动能力的智能机器人",
+      "category": "应用"
+    },
+    {
+      "term": "Embodied AI",
+      "desc": "具身智能，将AI算法与物理实体结合，能通过感知与交互执行物理任务的智能系统",
+      "category": "技术"
+    },
+    {
+      "term": "AI Chipmaker",
+      "desc": "AI芯片制造商，专门设计制造用于人工智能计算加速芯片的企业",
+      "category": "产业"
+    },
+    {
+      "term": "Tech IPO",
+      "desc": "科技企业首次公开募股，科技公司进入公开资本市场的融资行为",
+      "category": "金融"
     }
   ],
   "topic_pulse": [
@@ -26,112 +61,61 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "随着Cerebras晶圆级芯片IPO引发市场狂欢，社区对传统先进封装（如CoWoS）的短期关注度有所降温。讨论焦点正从封装瓶颈转移至颠覆性的晶圆级架构能否绕过先进封装限制。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "受Cerebras采用SRAM替代HBM架构思路的影响，社区对HBM短期瓶颈的焦虑情绪降温。投资者开始探讨非HBM架构在AI大模型训练中的可行性及对存储产业链的长期影响。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "国内先进制程话题热度降温，社区暂无重大技术突破或政策新动向讨论。市场注意力被海外大型IPO及具身智能等新赛道吸引，国内Fab进展讨论暂入平稳期。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "国产EDA/IP板块讨论趋于平静，缺乏新的政策刺激或产品发布。从业者目前更多处于观望状态，等待下半年市场验证期结果，社区情绪偏保守。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "传统OSAT话题热度下降，社区对封测产能过剩的担忧暂时缓解。焦点转移至晶圆级制造是否会对传统封装流程产生长期替代效应，传统封测厂面临转型思考。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "出口管制话题情绪降温，近期无新增制裁清单或重大政策变动。社区讨论重心转向商业竞争与资本运作，地缘政治焦虑暂时搁置。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "NVIDIA话题热度回落，主要受Cerebras强势IPO分流了AI算力赛道的关注度。社区正在重新评估非GPU架构在AI算力市场的长期竞争力及对NVIDIA垄断地位的挑战。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "设备与材料国产化讨论热度降温，近期缺乏标志性进展或订单传闻。社区关注点暂时转向海外资本市场的动态及新架构芯片对供应链的潜在重塑。"
     }
   ],
   "items": [
     {
-      "title": "Cerebras (CBRS) Stock: AI Chipmaker's Record $5.55B IPO Challenges Nvidia's Dominance - Parameter（待翻译）",
-      "url": "https://parameter.io/cerebras-cbrs-stock-ai-chipmakers-record-5-55b-ipo-challenges-nvidias-dominance/",
-      "description": "Close Menu \n\n Facebook X (Twitter) Instagram \n\n \n\n Facebook X (Twitter) \n\n \n\n \n\n \n\nStock\n\n# Cerebras (CBRS) Stock: AI Chipmaker’s Record $5.55B IPO Challenges Nvidia’s Dominance\n\nBy Trader Edge May 14, 20264 Mins Read\n\nTable of Contents\n\nToggle\n\n### Key Highlights\n\n- Cerebras set its IPO price at $1",
-      "published": "2026-05-14T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "Close Menu \n\n Facebook X (Twitter) Instagram \n\n \n\n Facebook X (Twitter) \n\n \n\n \n\n \n\nStock\n\n# Cerebras (CBRS) Stock: AI Chipmaker’s Record $5.55B IPO Ch",
-      "tag_category": "EDA/IP",
-      "title_en": "Cerebras (CBRS) Stock: AI Chipmaker's Record $5.55B IPO Challenges Nvidia's Dominance - Parameter"
-    },
-    {
-      "title": "Renesas completes acquisition of Greek Vision AI software firm Irid...（待翻译）",
-      "url": "https://evertiq.com/design/2026-05-13-renesas-completes-acquisition-of-greek-vision-ai-software-firm-irida-labs",
-      "description": "Renesas completes acquisition of Greek Vision AI software firm Irid...\n\nAd\n\nAd\n\nAd\n\nAd\n\nAd\n\n# Renesas completes acquisition of Greek Vision AI software firm Irida Labs\n\n## Japanese semiconductor company Renesas Electronics has completed the acquisition of Irida Labs, a Greece-based company specialis",
-      "published": "2026-05-13T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "Renesas completes acquisition of Greek Vision AI software firm Irid...\n\nAd\n\nAd\n\nAd\n\nAd\n\nAd\n\n# Renesas completes acquisition of Greek Vision AI softwar",
-      "tag_category": "综合",
-      "title_en": "Renesas completes acquisition of Greek Vision AI software firm Irid..."
-    },
-    {
-      "title": "AI chipmaker Cerebras raises $7.1 billion in year’s biggest IPO | The Straits Times（待翻译）",
-      "url": "https://www.straitstimes.com/business/companies-markets/ai-chipmaker-cerebras-raises-7-1-billion-in-years-biggest-ipo",
-      "description": "AI chipmaker Cerebras raises $7.1 billion in year’s biggest IPO | The Straits Times\n\nmyST+\n\nMenu\n\n# AI chipmaker Cerebras raises $7.1 billion in year’s biggest IPO\n\nSign up now: Get ST's newsletters delivered to your inbox\n\nThe pricing gives Cerebras a market value of about US$40 billion, based on t",
-      "published": "2026-05-14T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "AI chipmaker Cerebras raises $7.1 billion in year’s biggest IPO | The Straits Times\n\nmyST+\n\nMenu\n\n# AI chipmaker Cerebras raises $7.1 billion in year’",
-      "tag_category": "EDA/IP",
-      "title_en": "AI chipmaker Cerebras raises $7.1 billion in year’s biggest IPO | The Straits Times"
-    },
-    {
-      "title": "CEO Interview with Dr. Jekaterina Viktorova of Syenta（待翻译）",
+      "title": "Syenta首席执行官Jekaterina Viktorova博士专访（CEO Interview with Dr. Jekaterina Viktorova of Syenta）",
       "url": "https://semiwiki.com/ceo-interviews/369204-ceo-interview-with-dr-jekaterina-viktorova-of-syenta/",
       "description": "<p>Dr. Jekaterina (Jeka) Viktorova is the CEO and Co-Founder of Syenta, an Australian deep-tech company developing breakthrough additive manufacturing technology for the semiconductor industry. With a background in chemistry, electrochemistry, and advanced manufacturing, she is the inventor of the c",
       "published": "Wed, 13 May 2026 15:00:25 +0000",
@@ -139,209 +123,160 @@
       "source_type": "RSS",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
+      "insights": [
+        "增材制造（3D打印）在半导体领域的应用正在兴起，可能为复杂电路和先进封装结构提供全新的制造路径。",
+        "澳大利亚深科技初创企业正试图通过创新制造工艺切入全球半导体供应链，避开传统光刻赛道的激烈竞争。"
+      ],
+      "actions": [
+        "关注增材制造技术在半导体封装和互联上的潜在应用，评估其对传统沉积和蚀刻工艺的补充或替代效应。",
+        "寻找与类似Syenta的创新型制造技术公司的合作或投资机会，以提前布局下一代半导体制造工艺。"
+      ],
+      "glossary": [
+        {
+          "term": "Additive Manufacturing",
+          "desc": "增材制造，又称3D打印，是通过逐层添加材料来构建三维物理实体的制造技术",
+          "category": "制造"
+        }
+      ],
       "region": "overseas",
-      "summary": "<p>Dr. Jekaterina (Jeka) Viktorova is the CEO and Co-Founder of Syenta, an Australian deep-tech company developing breakthrough additive manufacturing",
+      "summary": "Syenta是一家澳大利亚深科技公司，致力于为半导体行业开发突破性的增材制造技术，其首席执行官兼联合创始人Jekaterina Viktorova博士接受了专访。",
       "tag_category": "综合",
       "title_en": "CEO Interview with Dr. Jekaterina Viktorova of Syenta"
     },
     {
-      "title": "理想自研马赫M100芯片正式官宣 单芯算力1280TOPs_车家号_发现车生活_汽车之家",
-      "url": "https://chejiahao.autohome.com.cn/info/25471686",
-      "description": "理想自研马赫M100芯片正式官宣 单芯算力1280TOPs_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n理想自研马赫M100芯片正式官宣 单芯算力1280TOPs\n\nCNMO科技\n\n车家号·0浏览·2026-05-12 18:35 · 北京\n\n【CNMO科技消息】5月12日，理想汽车创始人、CEO李想在社交媒体发文，正式宣布公司自研的马赫M100芯片首次亮相，并将率先搭载于全新理想L9 Livis车型。\n\n李想在",
-      "published": "2026-05-15T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic",
-      "summary": "理想自研马赫M100芯片正式官宣 单芯算力1280TOPs_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n理想自研马赫",
-      "tag_category": "综合",
-      "title_en": "理想自研马赫M100芯片正式官宣 单芯算力1280TOPs_车家号_发现车生活_汽车之家"
-    },
-    {
-      "title": "36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构-36氪",
-      "url": "https://36kr.com/p/3799984046333186?f=rss",
-      "description": "36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构\n\n通过全栈重构大幅释放GPU算力潜力。\n\n作者 | 乔钰杰\n\n编辑 | 袁斯来\n\n硬氪获悉，北京容芯致远科技有限公司（以下简称“容芯致远”）近日完成天使轮数亿元融资。本轮由北京绿色能源和低碳产业基金与赛富投资基金领投，顺禧基金、富华资本、万利达集团、长江创新投、水木清华校友基",
-      "published": "2026-05-14T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic",
-      "summary": "36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为",
-      "tag_category": "设计公司",
-      "title_en": "36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构-36氪"
-    },
-    {
-      "title": "台積電狠甩英特爾、三星　最大尺寸CoWoS量產良率98% | 產經 | 中央社 CNA",
-      "url": "https://www.cna.com.tw/news/afe/202605140194.aspx",
-      "description": "台積電狠甩英特爾、三星 最大尺寸CoWoS量產良率98% | 產經 | 中央社 CNA\n\nYour browser does not appear to support Traditional Chinese. Would you like to go to CNA’s English website,“Focus Taiwan”?\n\n中央社一手新聞APP\n\n下載\n\n# 台積電狠甩英特爾、三星 最大尺寸CoWoS量產良率98%\n\n2026/5/14 15:53（5/14 16:15 更新）\n\n請同意我們的隱私權規範，才能啟用聽新聞的功能。\n\n台積電14日在台灣技術論壇上宣布將量產全球最大尺寸的",
-      "published": "2026-05-14T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic",
-      "summary": "台積電狠甩英特爾、三星 最大尺寸CoWoS量產良率98% | 產經 | 中央社 CNA\n\nYour browser does not appear to support Traditional Chinese. Would you like to go to CNA’s English websit",
-      "tag_category": "Fab/制造",
-      "title_en": "台積電狠甩英特爾、三星　最大尺寸CoWoS量產良率98% | 產經 | 中央社 CNA"
-    },
-    {
-      "title": "台積電技術論壇》CoWoS良率98％ 每年更新整合更多HBM",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%BB%8A%E6%8A%80%E8%A1%93%E8%AB%96%E5%A3%87-cowos%E8%89%AF%E7%8E%8798-%E6%AF%8F%E5%B9%B4%E6%9B%B4%E6%96%B0%E6%95%B4%E5%90%88%E6%9B%B4%E5%A4%9Ahbm-035228315.html",
-      "description": "台積電技術論壇》CoWoS良率98％ 每年更新整合更多HBM\n\n廣告\n\n為呼應AI對HBM整合的需求，台積電未來5年每年都將更新CoWoS。（圖／報系資料照）\n\n晶圓代工龍頭台積電14日舉行技術論壇，業務開發資深處長袁立本演講時，提到Coupe的進展，以及目前最大的5.5倍光罩尺寸已經量產，目前台積電的CoWoS良率已經達到98％，為了支撐HBM連接晶片的需求，未來5年內的CoWoS將以每年更新的速度推進。\n\n袁立本指出，持續推出領先業界的技術平台，預期3奈米技術將成為2026年營收的主要來源；目前台積電持續在先進邏輯技術上持續演進，今年推出A16、A14及N2U等新製程，其中A14製程由A1",
-      "published": "2026-05-14T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "domestic",
-      "summary": "台積電技術論壇》CoWoS良率98％ 每年更新整合更多HBM\n\n廣告\n\n為呼應AI對HBM整合的需求，台積電未來5年每年都將更新CoWoS。（圖／報系資料照）\n\n晶圓代工龍頭台積電14日舉行技術論壇，業務開發資深處長袁立本演講時，提到Coupe的進展，以及目前最大的5.5倍光罩尺寸已經量產，目前台積",
-      "tag_category": "Fab/制造",
-      "title_en": "台積電技術論壇》CoWoS良率98％ 每年更新整合更多HBM"
-    },
-    {
-      "title": "TSMC Supply Tighter than Demand at the Leading Edge │ TVBS World Taiwan（待翻译）",
-      "url": "https://t.media/3203718",
-      "description": "TSMC Supply Tighter than Demand at the Leading Edge │ TVBS World Taiwan\n\n廣告\n\n# TSMC Supply Tighter than Demand at the Leading Edge\n\nS\n\nM\n\nL\n\nImage courtesy of TSMC.\n\nTSMC's April revenue of NT$410.7 billion (US$12.6 billion) was up 17.5 percent year on year and down 1.1 percent from March, the compa",
-      "published": "2026-05-14T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "TSMC Supply Tighter than Demand at the Leading Edge │ TVBS World Taiwan\n\n廣告\n\n# TSMC Supply Tighter than Demand at the Leading Edge\n\nS\n\nM\n\nL\n\nImage cou",
-      "tag_category": "Fab/制造",
-      "title_en": "TSMC Supply Tighter than Demand at the Leading Edge │ TVBS World Taiwan"
-    },
-    {
-      "title": "TSMC expands CoWoS and SoIC capacity on AI boom（待翻译）",
-      "url": "https://www.digitimes.com/news/a20260514PD237/tsmc-cowos-soic-capacity-packaging.html",
-      "description": "TSMC expands CoWoS and SoIC capacity on AI boom\n\nREALTIME NEWS\n\n# TSMC expands CoWoS and SoIC capacity on AI boom\n\n, Hsinchu\n\nTSMC said on May 14, 2026, that it is rapidly expanding CoWoS and SoIC advanced packaging capacity as AI demand drives the construction of 18 new fabs and advanced packaging ",
-      "published": "2026-05-14T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "TSMC expands CoWoS and SoIC capacity on AI boom\n\nREALTIME NEWS\n\n# TSMC expands CoWoS and SoIC capacity on AI boom\n\n, Hsinchu\n\nTSMC said on May 14, 202",
-      "tag_category": "Fab/制造",
-      "title_en": "TSMC expands CoWoS and SoIC capacity on AI boom"
-    },
-    {
-      "title": "[News] TSMC Sees AI Wafer Demand Rising 11x From 2022–2026, Targets CoWoS With 24 HBM Stacks in 2029（待翻译）",
-      "url": "https://www.trendforce.com/news/2026/05/14/news-tsmc-sees-ai-wafer-demand-rising-11x-from-2022-2026-targets-cowos-with-24-hbm-stacks-in-2029/",
-      "description": "[News] TSMC Sees AI Wafer Demand Rising 11x From 2022–2026, Targets CoWoS With 24 HBM Stacks in 2029\n\n# [News] TSMC Sees AI Wafer Demand Rising 11x From 2022–2026, Targets CoWoS With 24 HBM Stacks in 2029\n\n---\n\n2026-05-14 Emerging Technologies/ Semiconductors editor\n\n---\n\nTSMC held its Taiwan Techno",
-      "published": "2026-05-14T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "[News] TSMC Sees AI Wafer Demand Rising 11x From 2022–2026, Targets CoWoS With 24 HBM Stacks in 2029\n\n# [News] TSMC Sees AI Wafer Demand Rising 11x Fr",
-      "tag_category": "Fab/制造",
-      "title_en": "[News] TSMC Sees AI Wafer Demand Rising 11x From 2022–2026, Targets CoWoS With 24 HBM Stacks in 2029"
-    },
-    {
-      "title": "Blog Review: May 13（待翻译）",
-      "url": "https://semiengineering.com/blog-review-may-13-3/",
-      "description": "Blog Review: May 13\n\nMENU\n\nHome> Systems & Design> Blog Review: May 13\n\n# Blog Review: May 13\n\nGPU rasterizer for computational lithography; restructuring techniques; inline memory encryption; automotive electronic stability program.\n\nMay 13th, 2026 - By: Jesse Allen\n\nSiemens’ Loay Hegazy, Mohamed T",
-      "published": "2026-05-13T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "Blog Review: May 13\n\nMENU\n\nHome> Systems & Design> Blog Review: May 13\n\n# Blog Review: May 13\n\nGPU rasterizer for computational lithography; restructu",
-      "tag_category": "设计公司",
-      "title_en": "Blog Review: May 13"
-    },
-    {
-      "title": "NHanced Semiconductors & the University of Florida to Present on Hybrid Bonding Reliability at the 2026 Electronic Components & Technology Conference in Orlando - Semiconductor Digest（待翻译）",
-      "url": "https://www.semiconductor-digest.com/nhanced-semiconductors-the-university-of-florida-to-present-on-hybrid-bonding-reliability-at-the-2026-electronic-components-technology-conference-in-orlando/",
-      "description": "NHanced Semiconductors & the University of Florida to Present on Hybrid Bonding Reliability at the 2026 Electronic Components & Technology Conference in Orlando - Semiconductor Digest\n\nNHanced Semiconductors & the University of Florida to Present on Hybrid Bonding Reliability at the 2026 Electronic ",
-      "published": "2026-05-13T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
-      "region": "overseas",
-      "summary": "NHanced Semiconductors & the University of Florida to Present on Hybrid Bonding Reliability at the 2026 Electronic Components & Technology Conference ",
-      "tag_category": "综合",
-      "title_en": "NHanced Semiconductors & the University of Florida to Present on Hybrid Bonding Reliability at the 2026 Electronic Components & Technology Conference in Orlando - Semiconductor Digest"
-    },
-    {
-      "title": "The Semiconductor Growth Numbers are Insane but the Real World Doesn’t Tally!（待翻译）",
-      "url": "https://semiwiki.com/semiconductor-services/future-horizons/369198-the-semiconductor-growth-numbers-are-insane-but-the-real-world-doesnt-tally/",
-      "description": "<p>May’s WSTS Report saw March’s total monthly semiconductor sales up 88.1 percent vs. March 2025, albeit down 8.5 percent from February 2026.  This month-on-month decline needs to put in the context of February’s record-breaking 25.7 percent monthly growth.</p>\n<p>This growth, however, was solely a",
-      "published": "Thu, 14 May 2026 15:00:50 +0000",
+      "title": "Cerebras以185美元IPO上市；股价触及385美元（Cerebras IPOs at $185; hits $385）",
+      "url": "https://www.electronicsweekly.com/news/business/cerebras-ipos-at-185-opens-at-219-2026-05/",
+      "description": "<p>Cerebras, the waferscale specialist, eventually IPO’d at $185 &#8211; after increasing the price several times in the wake of considerable interest. Trading began at 2pm UK time today and by ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/news/business/cerebras-ipos-at-185-opens-at",
+      "published": "Thu, 14 May 2026 13:30:32 +0000",
       "source": "RSS",
       "source_type": "RSS",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
+      "insights": [
+        "Cerebras作为晶圆级芯片的代表性企业，其成功IPO并大幅上涨反映了资本市场对非传统架构AI算力的高期待。",
+        "IPO定价的多次上调及首日暴涨，说明当前市场对打破传统GPU垄断的替代方案具有强烈的渴求。"
+      ],
+      "actions": [
+        "重新评估晶圆级计算架构在AI训练和推理场景下的商业可行性及供应链成熟度。",
+        "关注Cerebras上市后的资金动向及其对先进封装和代工产能的进一步需求拉动。"
+      ],
+      "glossary": [
+        {
+          "term": "Waferscale",
+          "desc": "晶圆级，指在整块晶圆上制造单个超大芯片的技术架构，无需切割",
+          "category": "架构"
+        },
+        {
+          "term": "IPO",
+          "desc": "首次公开募股，企业首次向公众投资者出售股票筹集资金的过程",
+          "category": "金融"
+        }
+      ],
       "region": "overseas",
-      "summary": "<p>May’s WSTS Report saw March’s total monthly semiconductor sales up 88.1 percent vs. March 2025, albeit down 8.5 percent from February 2026.  This m",
-      "tag_category": "综合",
-      "title_en": "The Semiconductor Growth Numbers are Insane but the Real World Doesn’t Tally!"
+      "summary": "晶圆级芯片专家Cerebras在获得极大市场关注后，经过多次提价，最终以185美元的价格IPO上市，并在交易开始后股价迅速触及385美元。",
+      "tag_category": "EDA/IP",
+      "title_en": "Cerebras IPOs at $185; hits $385"
     },
     {
-      "title": "A Grand Total Of $276 In Savings Are Headed Your Way Because The MSI Vector 16 HX AI Gaming Laptop Gives You A Free 007 First Light Copy On Amazon（待翻译）",
-      "url": "https://wccftech.com/free-007-first-light-copy-with-each-msi-vector-16-hx-ai-rtx-5070-ti-gaming-laptop-purchase/",
-      "description": "IO Interactive’s 007 First Light&#160;is just around the corner, and what better way to prepare gamers for this AAA release than NVIDIA’s new bundle, which includes copies with each GeForce RTX GPU purchase. Fortunately, this deal is also applicable to gaming laptops, and what better way to begin yo",
-      "published": "Thu, 14 May 2026 21:36:37 +0000",
+      "title": "英国人形机器人初创公司考虑IPO上市（UK Humanoid robot startup looking at IPO）",
+      "url": "https://www.electronicsweekly.com/news/business/uks-humanoid-robot-startup-looking-at-ipo-2026-05/",
+      "description": "<p>Two-year-old UK AI and robotics startup Humanoid is looking to IPO in 2029 or 2030. Founder and sole investor Artem Sokolov told Reuters that it would probably IPO in the ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/news/business/uks-humanoid-robot-startup-looking-at-ipo-2026-05",
+      "published": "Thu, 14 May 2026 05:28:03 +0000",
       "source": "RSS",
       "source_type": "RSS",
       "lang": "en",
       "tags": [],
-      "insights": [],
-      "actions": [],
-      "glossary": [],
+      "insights": [
+        "人形机器人赛道正从技术验证期走向长期的商业化与资本化规划，2029-2030的时间表暗示了量产落地的预期。",
+        "AI与具身智能的结合正在催生新的硬件形态，对底层芯片（边缘AI算力、传感器融合）提出了新的需求。"
+      ],
+      "actions": [
+        "芯片供应商应提前布局面向人形机器人的专用边缘AI芯片、电机控制芯片及传感器接口方案。",
+        "追踪欧美具身智能初创企业的融资与IPO节奏，以把握下一代智能硬件的供应链切入时机。"
+      ],
+      "glossary": [
+        {
+          "term": "Humanoid robot",
+          "desc": "人形机器人，具有类似人类身体结构和运动能力的智能机器人",
+          "category": "应用"
+        },
+        {
+          "term": "Embodied AI",
+          "desc": "具身智能，将AI算法与物理实体结合，能通过感知与交互执行物理任务的智能系统",
+          "category": "技术"
+        }
+      ],
       "region": "overseas",
-      "summary": "IO Interactive’s 007 First Light&#160;is just around the corner, and what better way to prepare gamers for this AAA release than NVIDIA’s new bundle, ",
-      "tag_category": "设计公司",
-      "title_en": "A Grand Total Of $276 In Savings Are Headed Your Way Because The MSI Vector 16 HX AI Gaming Laptop Gives You A Free 007 First Light Copy On Amazon"
+      "summary": "成立两年的英国AI与机器人初创公司Humanoid正考虑在2029或2030年进行IPO，创始人兼唯一投资者Artem Sokolov向路透社透露了这一计划。",
+      "tag_category": "EDA/IP",
+      "title_en": "UK Humanoid robot startup looking at IPO"
+    },
+    {
+      "title": "Cerebras股价在2026年最大规模IPO中飙升近70%（Cerebras stock surges nearly 70% in biggest IPO of 2026）",
+      "url": "https://finance.yahoo.com/markets/article/cerebras-stock-surges-nearly-70-in-biggest-ipo-of-2026-130757196.html",
+      "description": "The AI chipmaker opened at $350 per share, well above its IPO price of $185.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "Cerebras成为2026年迄今最大规模的科技IPO，标志着晶圆级AI芯片已获得主流资本市场的重金押注。",
+        "首日近70%的涨幅显示出市场对打破传统GPU垄断的替代方案具有强烈需求，非HBM架构的AI芯片正在崛起。"
+      ],
+      "actions": [
+        "供应链企业需评估Cerebras大规模融资后扩产对晶圆代工、先进封装及测试环节的增量需求。",
+        "投资者及竞争对手应重新审视大算力芯片市场的格局演变，Cerebras的资本加持可能加速其在超大规模数据中心的渗透。"
+      ],
+      "glossary": [
+        {
+          "term": "AI Chipmaker",
+          "desc": "AI芯片制造商，专门设计制造用于人工智能计算加速芯片的企业",
+          "category": "产业"
+        }
+      ],
+      "region": "overseas",
+      "summary": "这家AI芯片制造商的开盘价为每股350美元，远高于其185美元的IPO发行价，首日涨幅近70%。",
+      "tag_category": "EDA/IP",
+      "title_en": "Cerebras stock surges nearly 70% in biggest IPO of 2026"
+    },
+    {
+      "title": "Cerebras在2026年首个大型科技IPO中融资55亿美元，股价暴涨108% | TechCrunch（Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026 | TechCrunch）",
+      "url": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
+      "description": "A year ago, it looked like this day would never happen for Cerebras.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "Cerebras从去年的上市受阻到如今巨额融资并股价翻倍，反映了AI算力需求爆发下资本市场对差异化算力硬件的极度饥渴。",
+        "55亿美元的巨额募资将极大增强Cerebras在研发和供应链上的火力，可能重塑超算数据中心芯片的竞争格局。"
+      ],
+      "actions": [
+        "密切关注Cerebras后续的产能扩张计划，特别是其与代工厂的合作深度及对特定封装资源的锁定情况。",
+        "传统GPU供应链企业需警惕Cerebras凭借资本优势在特定AI训练场景下抢占市场份额的风险。"
+      ],
+      "glossary": [
+        {
+          "term": "Tech IPO",
+          "desc": "科技企业首次公开募股，科技公司进入公开资本市场的融资行为",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "一年前Cerebras似乎还无法迎来这一天，但如今其成功融资55亿美元并实现108%的股价暴涨，成为2026年首个重磅科技IPO。",
+      "tag_category": "EDA/IP",
+      "title_en": "Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026 | TechCrunch"
     }
   ],
   "stats": {
-    "total_raw": 153,
-    "after_dedup": 130,
+    "total_raw": 90,
+    "after_dedup": 81,
     "sources": {
-      "Exa": 36,
-      "RSS": 64,
-      "Brave": 30
+      "Exa": 3,
+      "RSS": 65,
+      "Brave": 13
     }
   },
   "code_version": "",
