@@ -1,6 +1,6 @@
 {
-  "version": "v20260514-2003",
-  "generatedAt": "2026-05-14T20:03:00+08:00",
+  "version": "v20260515-2003",
+  "generatedAt": "2026-05-15T20:03:00+08:00",
   "period": "evening",
   "commit": "",
   "glossary_list": [
@@ -20,44 +20,39 @@
       "category": "封装"
     },
     {
-      "term": "Additive Manufacturing",
-      "desc": "增材制造，即3D打印，通过逐层添加材料来构建物体的制造技术",
-      "category": "制造"
+      "term": "Cerebras",
+      "desc": "一家专注于晶圆级AI芯片设计的美国半导体公司",
+      "category": "EDA/IP"
     },
     {
-      "term": "Humanoid Robot",
-      "desc": "人形机器人，具有类似人类身体结构的机器人，通常集成高级AI系统",
-      "category": "应用"
-    },
-    {
-      "term": "WSE",
-      "desc": "晶圆级引擎，Cerebras开发的将整个晶圆作为单一巨大芯片的技术",
-      "category": "芯片"
-    },
-    {
-      "term": "SoftBank",
-      "desc": "软银，日本跨国投资与科技公司，在科技领域有大量投资布局",
+      "term": "IPO",
+      "desc": "首次公开募股，指企业首次向公众出售股票",
       "category": "金融"
     },
     {
-      "term": "Prediction Market",
-      "desc": "预测市场，通过交易合约来预测未来事件结果的金融市场",
+      "term": "Wafer-scale",
+      "desc": "晶圆级，指在整块晶圆上构建单个超大芯片的技术",
+      "category": "EDA/IP"
+    },
+    {
+      "term": "AI Chipmaker",
+      "desc": "AI芯片制造商，专注于设计用于人工智能计算的处理器",
+      "category": "EDA/IP"
+    },
+    {
+      "term": "Stock Debut",
+      "desc": "股票首秀，指公司股票在公开市场的首个交易日",
       "category": "金融"
     },
     {
-      "term": "Oversubscribed",
-      "desc": "超额认购，投资者申购数量超过发行数量的现象，反映市场需求旺盛",
+      "term": "ARK Invest",
+      "desc": "方舟投资，一家专注于颠覆性创新技术的美国投资管理公司",
       "category": "金融"
     },
     {
-      "term": "SMIC",
-      "desc": "中芯国际，中国大陆规模最大、技术最先进的集成电路晶圆代工企业",
+      "term": "TSM",
+      "desc": "台湾半导体制造公司（台积电）的股票代码",
       "category": "代工"
-    },
-    {
-      "term": "Asset Acquisition",
-      "desc": "资产收购，企业通过购买另一企业的资产来获得业务或技术控制权的行为",
-      "category": "金融"
     }
   ],
   "topic_pulse": [
@@ -66,227 +61,222 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区对CoWoS产能扩张的讨论热度有所下降，近期缺乏新的产能分配消息，情绪趋于观望。市场正等待台积电等厂商下一季度的产能规划指引。"
+      "summary": "随着Cerebras等颠覆性架构IPO吸引市场注意力，社区对CoWoS等传统先进封装的讨论热度有所降温，短期情绪趋于平稳。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM价格与产能的讨论暂无新进展，社区情绪从前期的狂热转为冷静，关注点转向实际交付情况与良率提升。部分讨论开始关注HBM4的早期规格泄露。"
+      "summary": "HBM相关话题热度下降，社区暂无重大技术突破或产能变动的讨论，关注度暂时被AI芯片IPO转移。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "关于国内晶圆厂先进制程突破的讨论热度降温，缺乏实质性技术突破消息，社区情绪偏谨慎。讨论焦点暂时转向中芯国际的资本运作与产能整合。"
+      "summary": "中国Fab与先进制程话题降温，近期缺乏新的制裁或突破性进展刺激，社区讨论处于观望期。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA替代话题近期缺乏重磅更新，社区讨论趋于平静，情绪聚焦于长期研发投入而非短期爆发。用户更关注特定点工具的突破而非全流程解决方案。"
+      "summary": "国产EDA/IP板块热度回落，社区暂无重大国产替代新动态，讨论焦点转向海外AI芯片初创企业的资本表现。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "传统封测板块讨论热度下降，市场等待先进封装技术带来的新订单数据，情绪较为平淡。部分讨论关注日月光等龙头企业的资本支出调整信号。"
+      "summary": "封测OSAT讨论热度下降，市场对传统封装产能紧缺的担忧缓解，社区情绪偏向冷静。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "制裁与管制话题近期无新增政策传闻，社区讨论热度回落，情绪从焦虑转为常态化应对。讨论重点转向如何在新规下优化供应链合规与物流路径。"
+      "summary": "出口管制与制裁话题降温，近期无新增重大管制政策出台，社区关注点暂时转移至资本市场动态。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "英伟达相关讨论热度出现降温，市场对下一代架构的期待暂无新料支撑，情绪进入短暂休整期。社区开始反思当前AI集群的算力利用率与实际投资回报。"
+      "summary": "AI芯片/NVIDIA话题热度回落，虽然NVIDIA仍是核心，但社区当前焦点已被Cerebras的IPO首秀及非GPU架构的崛起所分散。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产设备材料验证与导入的讨论热度下降，缺乏新的批量替代案例，社区情绪保持务实与耐心。讨论焦点集中在特定前道设备的客户验证进度上。"
+      "summary": "设备与材料国产化讨论降温，近期缺乏标志性进展，社区情绪暂无明显波动。"
     }
   ],
   "items": [
     {
-      "title": "Syenta首席执行官Jekaterina Viktorova博士专访（CEO Interview with Dr. Jekaterina Viktorova of Syenta）",
-      "url": "https://semiwiki.com/ceo-interviews/369204-ceo-interview-with-dr-jekaterina-viktorova-of-syenta/",
-      "description": "<p>Dr. Jekaterina (Jeka) Viktorova is the CEO and Co-Founder of Syenta, an Australian deep-tech company developing breakthrough additive manufacturing technology for the semiconductor industry. With a background in chemistry, electrochemistry, and advanced manufacturing, she is the inventor of the c",
-      "published": "Wed, 13 May 2026 15:00:25 +0000",
+      "title": "Cerebras以185美元IPO上市；股价触及385美元（Cerebras IPOs at $185; hits $385）",
+      "url": "https://www.electronicsweekly.com/news/business/cerebras-ipos-at-185-opens-at-219-2026-05/",
+      "description": "<p>Cerebras, the waferscale specialist, eventually IPO’d at $185 &#8211; after increasing the price several times in the wake of considerable interest. Trading began at 2pm UK time today and by ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/news/business/cerebras-ipos-at-185-opens-at",
+      "published": "Thu, 14 May 2026 13:30:32 +0000",
       "source": "RSS",
       "source_type": "RSS",
       "lang": "en",
       "tags": [],
       "insights": [
-        "增材制造（3D打印）在半导体领域的应用正从概念走向落地，有望改变传统晶圆制造的复杂流程与材料限制。",
-        "澳大利亚等非传统半导体强国的深科技初创企业，在细分制造技术领域展现出独特的创新潜力与跨界优势。"
+        "晶圆级计算架构在AI算力需求激增的背景下获得了资本市场的强烈认可。",
+        "IPO定价的多次上调及上市后的暴涨，反映出投资者对非传统架构AI芯片的极高期待。"
       ],
       "actions": [
-        "关注增材制造技术在半导体前道工艺中的最新进展，评估其对现有光刻与沉积流程的潜在替代效应。",
-        "寻找与类似Syenta的海外深科技初创企业的早期合作或投资机会，提前布局下一代半导体制造技术。"
+        "关注Cerebras晶圆级芯片在AI训练和推理场景的实际落地情况，评估其对传统GPU架构的潜在替代效应。",
+        "密切跟踪Cerebras供应链（如代工和封装）的合作伙伴，寻找潜在的生态协同机会。"
       ],
       "glossary": [
         {
-          "term": "Additive Manufacturing",
-          "desc": "增材制造，即3D打印，通过逐层添加材料来构建物体的制造技术",
-          "category": "制造"
-        }
-      ],
-      "region": "overseas",
-      "summary": "澳大利亚深科技公司Syenta的首席执行官Jekaterina Viktorova博士接受专访，该公司正致力于为半导体行业开发突破性的增材制造技术。",
-      "tag_category": "综合",
-      "title_en": "CEO Interview with Dr. Jekaterina Viktorova of Syenta"
-    },
-    {
-      "title": "英国人形机器人初创公司Humanoid寻求IPO（UK Humanoid robot startup looking at IPO）",
-      "url": "https://www.electronicsweekly.com/news/business/uks-humanoid-robot-startup-looking-at-ipo-2026-05/",
-      "description": "<p>Two year-old UK AI and robotics startup Humanoid is looking to IPO in 2029 or 2030. Founder and sole investor Artem Sokolov told Reuters that it would probably IPO in ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/news/business/uks-humanoid-robot-startup-looking-at-ipo-2026-05/\">U",
-      "published": "Thu, 14 May 2026 05:28:03 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "人形机器人赛道正吸引大量资本关注，初创公司提前规划IPO反映出该领域商业化预期的提升。",
-        "AI与半导体的结合在人形机器人领域尤为紧密，其量产将直接拉动边缘AI芯片、传感器及控制半导体的需求。"
-      ],
-      "actions": [
-        "供应链企业应提前对接人形机器人厂商，了解其对边缘AI芯片、传感器及控制半导体的定制化需求与规格演进。",
-        "投资者可关注人形机器人产业链上游的芯片与模组供应商，提前布局相关赛道以捕捉终端放量红利。"
-      ],
-      "glossary": [
-        {
-          "term": "Humanoid Robot",
-          "desc": "人形机器人，具有类似人类身体结构的机器人，通常集成高级AI系统",
-          "category": "应用"
-        }
-      ],
-      "region": "overseas",
-      "summary": "英国AI与机器人初创公司Humanoid计划于2029或2030年进行IPO，创始人Artem Sokolov表示公司正加速推进上市进程。",
-      "tag_category": "EDA/IP",
-      "title_en": "UK Humanoid robot startup looking at IPO"
-    },
-    {
-      "title": "三次提价至185美元：拒绝软银后，Cerebras凭什么对490亿美元估值充满信心？（Pricing Hiked Three Times to $185. What Gives Cerebras Confidence in Its $49B Valuation After Spurning SoftBank?）",
-      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261892914-cerebras-185-ipo-price-49b-valuation-turning-down-softbank-tradingkey",
-      "description": "TradingKey - AI chipmaker Cerebras Systems is racing toward a US IPO with momentum far exceeding expectations, as Wall Street's fervor for the AI semiconductor sector is fully reflected in the company.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "Cerebras的高估值反映了资本市场对非GPU架构AI芯片（如WSE晶圆级芯片）的强烈期待与押注，算力多元化需求正获认可。",
-        "拒绝软银并选择独立IPO，说明头部AI芯片初创企业更倾向于通过公开市场获取更高溢价与战略独立性。"
-      ],
-      "actions": [
-        "评估Cerebras晶圆级引擎（WSE）技术路线在超大模型训练中的实际落地情况，判断其市场占有率潜力与生态成熟度。",
-        "关注Cerebras IPO后的资金投向，预判其产能扩张对上游特种晶圆制造和先进封装供应链的拉动效应。"
-      ],
-      "glossary": [
-        {
-          "term": "WSE",
-          "desc": "晶圆级引擎，Cerebras开发的将整个晶圆作为单一巨大芯片的技术",
-          "category": "芯片"
+          "term": "Cerebras",
+          "desc": "一家专注于晶圆级AI芯片设计的美国半导体公司",
+          "category": "EDA/IP"
         },
         {
-          "term": "SoftBank",
-          "desc": "软银，日本跨国投资与科技公司，在科技领域有大量投资布局",
+          "term": "IPO",
+          "desc": "首次公开募股，指企业首次向公众出售股票",
           "category": "金融"
         }
       ],
       "region": "overseas",
-      "summary": "AI芯片制造商Cerebras Systems在拒绝软银投资后，三次上调IPO发行价至185美元，估值达490亿美元，显示出华尔街对AI半导体板块的极度狂热。",
+      "summary": "晶圆级芯片专家Cerebras最终以185美元的价格IPO上市，由于市场兴趣浓厚，发行价经过数次上调，上市后股价迅速飙升至385美元。",
       "tag_category": "EDA/IP",
-      "title_en": "Pricing Hiked Three Times to $185. What Gives Cerebras Confidence in Its $49B Valuation After Spurning SoftBank?"
+      "title_en": "Cerebras IPOs at $185; hits $385"
     },
     {
-      "title": "2026年迄今最大IPO：AI芯片制造商Cerebras目标募资48亿美元，但预测市场怎么看？（2026's Biggest IPO So Far: AI Chipmaker Cerebras Targets $4.8 Billion Raise, But What Do Prediction Markets Say?）",
-      "url": "https://finance.yahoo.com/news/2026s-biggest-ipo-far-ai-142945644.html",
-      "description": "Cerebras Systems is set to be the largest IPO of 2026 so far, with the AI chipmaker on track to raise up to $4.8 billion at a $48.8 billion valuation after its order book closed roughly 20 times oversubscribed. The Sunnyvale company lifted its price range to $150 to $160 per share from $115 ...",
+      "title": "Cerebras筹集55亿美元，股价暴涨108%，成为2026年首个大型科技IPO（Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026 | TechCrunch）",
+      "url": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
+      "description": "A year ago, it looked like this day would never happen for Cerebras.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "认购超20倍的超额需求表明市场对AI算力替代方案的渴求远超传统预期，资金正疯狂涌入算力基础设施。",
-        "巨额募资将极大增强Cerebras的研发与产能扩充能力，可能重塑当前由英伟达主导的AI芯片竞争格局。"
+        "半导体初创企业在经历漫长的等待后，依然能够通过差异化技术路线在资本市场获得巨额融资。",
+        "108%的首日涨幅显示出市场对AI芯片赛道的高溢价接受度。"
       ],
       "actions": [
-        "密切关注Cerebras上市后的财报与产能规划，评估其晶圆级芯片量产进度对台积电等代工厂的潜在分流影响。",
-        "预测市场对IPO后走势的判断可作为二级市场投资AI半导体板块的情绪参考指标，需动态跟踪市场预期变化。"
+        "重新评估AI芯片初创企业的估值逻辑，将晶圆级等颠覆性架构纳入长期投资或合作考量。",
+        "关注后续类似技术路线的初创企业上市动向，提前布局相关产业链。"
       ],
       "glossary": [
         {
-          "term": "Prediction Market",
-          "desc": "预测市场，通过交易合约来预测未来事件结果的金融市场",
+          "term": "Wafer-scale",
+          "desc": "晶圆级，指在整块晶圆上构建单个超大芯片的技术",
+          "category": "EDA/IP"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Cerebras成功筹集55亿美元，上市首日股价大涨108%，标志着2026年首个重大科技IPO的诞生。",
+      "tag_category": "EDA/IP",
+      "title_en": "Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026 | TechCrunch"
+    },
+    {
+      "title": "Cerebras股价飙升近70%，成为2026年最大IPO（Cerebras stock surges nearly 70% in biggest IPO of 2026）",
+      "url": "https://finance.yahoo.com/markets/article/cerebras-stock-surges-nearly-70-in-biggest-ipo-of-2026-130757196.html",
+      "description": "The AI chipmaker opened at $350 per share, well above its IPO price of $185.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "远超发行价的开盘表现验证了AI算力需求对半导体初创企业估值的直接拉动作用。",
+        "巨额IPO规模表明资本市场对打破NVIDIA垄断格局的替代方案抱有极大热情。"
+      ],
+      "actions": [
+        "对标Cerebras的晶圆级方案，审视自身产品线在超大规模AI集群中的竞争力。",
+        "警惕首日暴涨后的估值泡沫风险，理性评估其长期商业变现能力。"
+      ],
+      "glossary": [
+        {
+          "term": "AI Chipmaker",
+          "desc": "AI芯片制造商，专注于设计用于人工智能计算的处理器",
+          "category": "EDA/IP"
+        }
+      ],
+      "region": "overseas",
+      "summary": "这家AI芯片制造商开盘价为350美元，远高于其185美元的IPO发行价，成为2026年规模最大的IPO项目。",
+      "tag_category": "EDA/IP",
+      "title_en": "Cerebras stock surges nearly 70% in biggest IPO of 2026"
+    },
+    {
+      "title": "Cerebras股票首秀：AI芯片制造商在55亿美元IPO后飙升近90%（Cerebras Stock Debut: AI Chipmaker Soars Nearly 90% After $5.5B IPO）",
+      "url": "https://coinpaper.com/17041/cerebras-stock-debut-ai-chipmaker-soars-nearly-90-after-5-5-b-ipo",
+      "description": "Cerebras shares soar nearly 90% after IPO as AI chip demand fuels massive investor interest in semiconductor startups.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI芯片需求不仅利好巨头，同样为具有独特架构的初创企业打开了资本大门。",
+        "投资者正在积极寻找NVIDIA之外的算力投资标的，以分散风险并捕捉新增长点。"
+      ],
+      "actions": [
+        "加快自身AI相关产品或技术的市场推广，借势当前资本市场对AI算力的高热度。",
+        "分析Cerebras的客户结构，挖掘其背后AI大模型厂商的供应链机会。"
+      ],
+      "glossary": [
+        {
+          "term": "Stock Debut",
+          "desc": "股票首秀，指公司股票在公开市场的首个交易日",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "受AI芯片需求推动，投资者对半导体初创企业产生巨大兴趣，Cerebras在55亿美元IPO后股价飙升近90%。",
+      "tag_category": "EDA/IP",
+      "title_en": "Cerebras Stock Debut: AI Chipmaker Soars Nearly 90% After $5.5B IPO"
+    },
+    {
+      "title": "ARK Invest在高位抛售台积电（TSM），大举买入Cerebras IPO（ARK Invest Exits Taiwan Semiconductor (TSM) at Peak, Piles Into Cerebras IPO - Parameter）",
+      "url": "https://parameter.io/ark-invest-exits-taiwan-semiconductor-tsm-at-peak-piles-into-cerebras-ipo/",
+      "description": "ARK Invest sold $16.6M in Taiwan Semiconductor (TSM) at record highs and purchased 105,616 shares of Cerebras Systems after its blockbuster IPO debut.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "顶级投资机构正在调整半导体持仓结构，从成熟的代工巨头向高增长的AI芯片初创企业转移。",
+        "台积电的高位减持与Cerebras的加仓，暗示资本认为颠覆性AI架构的短期回报率可能超越传统先进封装代工。"
+      ],
+      "actions": [
+        "关注机构资金流向，警惕台积电等代工巨头在高位面临的资金获利回吐压力。",
+        "评估Cerebras等新兴势力对台积电CoWoS等先进封装产能依赖度的长期变化，防范订单转移风险。"
+      ],
+      "glossary": [
+        {
+          "term": "ARK Invest",
+          "desc": "方舟投资，一家专注于颠覆性创新技术的美国投资管理公司",
           "category": "金融"
         },
         {
-          "term": "Oversubscribed",
-          "desc": "超额认购，投资者申购数量超过发行数量的现象，反映市场需求旺盛",
-          "category": "金融"
-        }
-      ],
-      "region": "overseas",
-      "summary": "AI芯片制造商Cerebras Systems有望成为2026年迄今最大IPO，其订单簿超额认购约20倍，目标以488亿美元估值募资48亿美元。",
-      "tag_category": "EDA/IP",
-      "title_en": "2026's Biggest IPO So Far: AI Chipmaker Cerebras Targets $4.8 Billion Raise, But What Do Prediction Markets Say?"
-    },
-    {
-      "title": "中芯国际拿下近60亿美元大单，深化中国AI布局（SMIC lands nearly US$6bn mega deal to deepen China AI push）",
-      "url": "https://www.digitimes.com/newsshow/article.asp?datePublish=2026/05/12&pages=vl&seq=211",
-      "description": "China's top foundry SMIC is entering a new growth phase after regulators approved a record CNY40.6 billion (US$5.98 billion) asset acquisition that strengthens its grip over one of its most profitable wafer fabs, while surging domestic AI infrastructure spending is rapidly reshaping the company's ...",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "中芯国际巨额资产收购标志着中国本土晶圆厂正通过资本运作加速整合内部资源，以应对AI算力国产化的迫切需求。",
-        "在外部制裁压力下，中芯国际通过强化高利润业务（可能涉及特殊制程或关联封装）来提升自我造血能力，支撑先进制程研发。"
-      ],
-      "actions": [
-        "国内半导体设备与材料供应商应紧抓中芯国际扩产与资产整合带来的订单红利，加速导入验证周期。",
-        "关注该笔资产收购的具体标的（大概率涉及中芯南方等先进制程资产），评估其对国产AI芯片产能的实际提升幅度。"
-      ],
-      "glossary": [
-        {
-          "term": "SMIC",
-          "desc": "中芯国际，中国大陆规模最大、技术最先进的集成电路晶圆代工企业",
+          "term": "TSM",
+          "desc": "台湾半导体制造公司（台积电）的股票代码",
           "category": "代工"
-        },
-        {
-          "term": "Asset Acquisition",
-          "desc": "资产收购，企业通过购买另一企业的资产来获得业务或技术控制权的行为",
-          "category": "金融"
         }
       ],
       "region": "overseas",
-      "summary": "中芯国际获监管批准完成406亿元人民币（近60亿美元）的创纪录资产收购，此举将强化其对高利润业务的掌控，并进一步深化中国AI芯片制造布局。",
+      "summary": "ARK Invest在台积电股价创纪录高点时抛售了1660万美元的股票，并在Cerebras轰动性的IPO首秀中买入了105,616股。",
       "tag_category": "EDA/IP",
-      "title_en": "SMIC lands nearly US$6bn mega deal to deepen China AI push"
+      "title_en": "ARK Invest Exits Taiwan Semiconductor (TSM) at Peak, Piles Into Cerebras IPO - Parameter"
     }
   ],
   "stats": {
-    "total_raw": 90,
-    "after_dedup": 83,
+    "total_raw": 86,
+    "after_dedup": 80,
     "sources": {
-      "Exa": 2,
+      "Exa": 1,
       "RSS": 65,
-      "Brave": 16
+      "Brave": 14
     }
   },
   "code_version": "",

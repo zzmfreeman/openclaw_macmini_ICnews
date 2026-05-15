@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://www.cnbc.com/2026/04/22/google-launches-training-and-inference-tpus-in-latest-shot-at-nvidia.html",
-    "title": "谷歌云推出第八代自研TPU芯片，专攻AI训练与推理",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-23T20:10:33+08:00"
-  },
-  {
-    "url": "https://36kr.com/p/3777325354436609",
-    "title": "芯片制造新竞赛：3纳米产能全球布局加速",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-23T20:10:33+08:00"
-  },
-  {
-    "url": "https://www.sohu.com/a/1013139127_122014422",
-    "title": "2026年度AI芯片30强出炉，6家进入IPO冲刺期",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-23T20:10:33+08:00"
-  },
-  {
-    "url": "https://finance.sina.com.cn/stock/roll/2026-04-22/doc-inhvkiyh4341052.shtml",
-    "title": "盛合晶微登陆科创板，上市首日市值突破1800亿元",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-24T06:00:00+08:00"
-  },
-  {
-    "url": "https://investor.marvell.com/news-events/press-releases/detail/1020/marvell-announces-acquisition-of-polariton-technologies-advancing-optical-performance-scaling-to-3-2t-and-beyond",
-    "title": "Marvell收购Polariton Technologies，推进光互连性能至3.2T",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-24T06:00:00+08:00"
-  },
-  {
     "url": "https://www.cmmedia.com.tw/home/articles/60555",
     "title": "台积电亚利桑那先进封测厂动工，预计2029年投产",
     "published": "2026-04-23",
@@ -2998,5 +2968,35 @@
     "title": "Cerebras在2026年首个大型科技IPO中融资55亿美元，股价暴涨108% | TechCrunch（Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026 | TechCrunch）",
     "published": "",
     "addedAt": "2026-05-15T13:03:00+08:00"
+  },
+  {
+    "url": "https://www.electronicsweekly.com/news/business/cerebras-ipos-at-185-opens-at-219-2026-05/",
+    "title": "Cerebras以185美元IPO上市；股价触及385美元（Cerebras IPOs at $185; hits $385）",
+    "published": "Thu, 14 May 2026 13:30:32 +0000",
+    "addedAt": "2026-05-15T20:03:00+08:00"
+  },
+  {
+    "url": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
+    "title": "Cerebras筹集55亿美元，股价暴涨108%，成为2026年首个大型科技IPO（Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026 | TechCrunch）",
+    "published": "",
+    "addedAt": "2026-05-15T20:03:00+08:00"
+  },
+  {
+    "url": "https://finance.yahoo.com/markets/article/cerebras-stock-surges-nearly-70-in-biggest-ipo-of-2026-130757196.html",
+    "title": "Cerebras股价飙升近70%，成为2026年最大IPO（Cerebras stock surges nearly 70% in biggest IPO of 2026）",
+    "published": "",
+    "addedAt": "2026-05-15T20:03:00+08:00"
+  },
+  {
+    "url": "https://coinpaper.com/17041/cerebras-stock-debut-ai-chipmaker-soars-nearly-90-after-5-5-b-ipo",
+    "title": "Cerebras股票首秀：AI芯片制造商在55亿美元IPO后飙升近90%（Cerebras Stock Debut: AI Chipmaker Soars Nearly 90% After $5.5B IPO）",
+    "published": "",
+    "addedAt": "2026-05-15T20:03:00+08:00"
+  },
+  {
+    "url": "https://parameter.io/ark-invest-exits-taiwan-semiconductor-tsm-at-peak-piles-into-cerebras-ipo/",
+    "title": "ARK Invest在高位抛售台积电（TSM），大举买入Cerebras IPO（ARK Invest Exits Taiwan Semiconductor (TSM) at Peak, Piles Into Cerebras IPO - Parameter）",
+    "published": "",
+    "addedAt": "2026-05-15T20:03:00+08:00"
   }
 ]
