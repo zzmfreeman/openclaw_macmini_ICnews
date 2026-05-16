@@ -1,6 +1,6 @@
 {
-  "version": "v20260515-1303",
-  "generatedAt": "2026-05-15T13:03:00+08:00",
+  "version": "v20260516-1303",
+  "generatedAt": "2026-05-16T13:03:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [
@@ -20,39 +20,39 @@
       "category": "封装"
     },
     {
-      "term": "Additive Manufacturing",
-      "desc": "增材制造，又称3D打印，是通过逐层添加材料来构建三维物理实体的制造技术",
-      "category": "制造"
-    },
-    {
-      "term": "Waferscale",
-      "desc": "晶圆级，指在整块晶圆上制造单个超大芯片的技术架构，无需切割",
-      "category": "架构"
-    },
-    {
       "term": "IPO",
-      "desc": "首次公开募股，企业首次向公众投资者出售股票筹集资金的过程",
+      "desc": "首次公开募股，企业首次向公众出售股票筹集资金的过程",
       "category": "金融"
     },
     {
-      "term": "Humanoid robot",
-      "desc": "人形机器人，具有类似人类身体结构和运动能力的智能机器人",
-      "category": "应用"
+      "term": "WSE",
+      "desc": "晶圆级引擎，Cerebras特有的将整片晶圆作为单一处理器的大芯片架构",
+      "category": "芯片架构"
     },
     {
-      "term": "Embodied AI",
-      "desc": "具身智能，将AI算法与物理实体结合，能通过感知与交互执行物理任务的智能系统",
-      "category": "技术"
-    },
-    {
-      "term": "AI Chipmaker",
-      "desc": "AI芯片制造商，专门设计制造用于人工智能计算加速芯片的企业",
+      "term": "Big Tech",
+      "desc": "大型科技公司，通常指苹果、亚马逊、谷歌、微软、Meta等科技巨头",
       "category": "产业"
     },
     {
-      "term": "Tech IPO",
-      "desc": "科技企业首次公开募股，科技公司进入公开资本市场的融资行为",
+      "term": "IPO Recap",
+      "desc": "IPO回顾，对一定时期内首次公开募股市场表现的总结分析",
       "category": "金融"
+    },
+    {
+      "term": "Early Backers",
+      "desc": "早期投资者，在企业初创阶段提供资金支持的风险投资机构或个人",
+      "category": "金融"
+    },
+    {
+      "term": "UAE Entities",
+      "desc": "阿联酋实体，指位于阿拉伯联合酋长国的企业或组织，此处主要指G42集团",
+      "category": "地缘政治"
+    },
+    {
+      "term": "Federal Security Scrutiny",
+      "desc": "联邦安全审查，美国政府对涉及国家安全的外资投资或技术出口进行的严格调查",
+      "category": "合规"
     }
   ],
   "topic_pulse": [
@@ -61,222 +61,222 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "随着Cerebras晶圆级芯片IPO引发市场狂欢，社区对传统先进封装（如CoWoS）的短期关注度有所降温。讨论焦点正从封装瓶颈转移至颠覆性的晶圆级架构能否绕过先进封装限制。"
+      "summary": "社区对先进封装的讨论热度有所降温，近期缺乏重大技术突破或产能扩张消息。在Cerebras等非传统架构AI芯片IPO吸引大量目光之际，传统CoWoS产能话题暂时进入观望期。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "受Cerebras采用SRAM替代HBM架构思路的影响，社区对HBM短期瓶颈的焦虑情绪降温。投资者开始探讨非HBM架构在AI大模型训练中的可行性及对存储产业链的长期影响。"
+      "summary": "HBM及AI存储话题热度下降，社区暂无新的大规模订单或技术路线争论。市场注意力转向资本市场大事件，存储端供应链讨论暂时趋于平静。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国内先进制程话题热度降温，社区暂无重大技术突破或政策新动向讨论。市场注意力被海外大型IPO及具身智能等新赛道吸引，国内Fab进展讨论暂入平稳期。"
+      "summary": "中国晶圆厂与先进制程讨论热度回落，近期缺乏实质性技术节点突破的传闻。社区情绪趋于理性，正等待下一步明确的政策或技术落地信号。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP板块讨论趋于平静，缺乏新的政策刺激或产品发布。从业者目前更多处于观望状态，等待下半年市场验证期结果，社区情绪偏保守。"
+      "summary": "国产EDA/IP板块讨论降温，社区暂未出现新的国产替代突破性进展或重磅产品发布。市场关注点短暂转移至海外IPO等金融事件，本土生态建设话题暂歇。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "传统OSAT话题热度下降，社区对封测产能过剩的担忧暂时缓解。焦点转移至晶圆级制造是否会对传统封装流程产生长期替代效应，传统封测厂面临转型思考。"
+      "summary": "封测OSAT板块热度下降，社区缺乏关于并购或先进封装技术整合的新动态。在先进封装整体降温的背景下，传统封测话题更显沉寂。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制话题情绪降温，近期无新增制裁清单或重大政策变动。社区讨论重心转向商业竞争与资本运作，地缘政治焦虑暂时搁置。"
+      "summary": "出口管制与制裁话题热度回落，近期无新增重大制裁清单或政策传闻。社区情绪从紧张转为平静，正观望后续地缘政治的具体走向。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "NVIDIA话题热度回落，主要受Cerebras强势IPO分流了AI算力赛道的关注度。社区正在重新评估非GPU架构在AI算力市场的长期竞争力及对NVIDIA垄断地位的挑战。"
+      "summary": "AI芯片与英伟达话题热度下降，社区焦点被Cerebras的史上最大AI IPO短暂吸走。关于英伟达传统GPU生态的讨论暂居次要位置，市场正在评估新竞争者带来的长期影响。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化讨论热度降温，近期缺乏标志性进展或订单传闻。社区关注点暂时转向海外资本市场的动态及新架构芯片对供应链的潜在重塑。"
+      "summary": "设备与材料国产化讨论降温，近期无核心零部件突破或大基金新动向的讨论。社区情绪平稳，处于政策与市场双重等待期。"
     }
   ],
   "items": [
     {
-      "title": "Syenta首席执行官Jekaterina Viktorova博士专访（CEO Interview with Dr. Jekaterina Viktorova of Syenta）",
-      "url": "https://semiwiki.com/ceo-interviews/369204-ceo-interview-with-dr-jekaterina-viktorova-of-syenta/",
-      "description": "<p>Dr. Jekaterina (Jeka) Viktorova is the CEO and Co-Founder of Syenta, an Australian deep-tech company developing breakthrough additive manufacturing technology for the semiconductor industry. With a background in chemistry, electrochemistry, and advanced manufacturing, she is the inventor of the c",
-      "published": "Wed, 13 May 2026 15:00:25 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "增材制造（3D打印）在半导体领域的应用正在兴起，可能为复杂电路和先进封装结构提供全新的制造路径。",
-        "澳大利亚深科技初创企业正试图通过创新制造工艺切入全球半导体供应链，避开传统光刻赛道的激烈竞争。"
-      ],
-      "actions": [
-        "关注增材制造技术在半导体封装和互联上的潜在应用，评估其对传统沉积和蚀刻工艺的补充或替代效应。",
-        "寻找与类似Syenta的创新型制造技术公司的合作或投资机会，以提前布局下一代半导体制造工艺。"
-      ],
-      "glossary": [
-        {
-          "term": "Additive Manufacturing",
-          "desc": "增材制造，又称3D打印，是通过逐层添加材料来构建三维物理实体的制造技术",
-          "category": "制造"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Syenta是一家澳大利亚深科技公司，致力于为半导体行业开发突破性的增材制造技术，其首席执行官兼联合创始人Jekaterina Viktorova博士接受了专访。",
-      "tag_category": "综合",
-      "title_en": "CEO Interview with Dr. Jekaterina Viktorova of Syenta"
-    },
-    {
-      "title": "Cerebras以185美元IPO上市；股价触及385美元（Cerebras IPOs at $185; hits $385）",
-      "url": "https://www.electronicsweekly.com/news/business/cerebras-ipos-at-185-opens-at-219-2026-05/",
-      "description": "<p>Cerebras, the waferscale specialist, eventually IPO’d at $185 &#8211; after increasing the price several times in the wake of considerable interest. Trading began at 2pm UK time today and by ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/news/business/cerebras-ipos-at-185-opens-at",
-      "published": "Thu, 14 May 2026 13:30:32 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "Cerebras作为晶圆级芯片的代表性企业，其成功IPO并大幅上涨反映了资本市场对非传统架构AI算力的高期待。",
-        "IPO定价的多次上调及首日暴涨，说明当前市场对打破传统GPU垄断的替代方案具有强烈的渴求。"
-      ],
-      "actions": [
-        "重新评估晶圆级计算架构在AI训练和推理场景下的商业可行性及供应链成熟度。",
-        "关注Cerebras上市后的资金动向及其对先进封装和代工产能的进一步需求拉动。"
-      ],
-      "glossary": [
-        {
-          "term": "Waferscale",
-          "desc": "晶圆级，指在整块晶圆上制造单个超大芯片的技术架构，无需切割",
-          "category": "架构"
-        },
-        {
-          "term": "IPO",
-          "desc": "首次公开募股，企业首次向公众投资者出售股票筹集资金的过程",
-          "category": "金融"
-        }
-      ],
-      "region": "overseas",
-      "summary": "晶圆级芯片专家Cerebras在获得极大市场关注后，经过多次提价，最终以185美元的价格IPO上市，并在交易开始后股价迅速触及385美元。",
-      "tag_category": "EDA/IP",
-      "title_en": "Cerebras IPOs at $185; hits $385"
-    },
-    {
-      "title": "英国人形机器人初创公司考虑IPO上市（UK Humanoid robot startup looking at IPO）",
-      "url": "https://www.electronicsweekly.com/news/business/uks-humanoid-robot-startup-looking-at-ipo-2026-05/",
-      "description": "<p>Two-year-old UK AI and robotics startup Humanoid is looking to IPO in 2029 or 2030. Founder and sole investor Artem Sokolov told Reuters that it would probably IPO in the ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/news/business/uks-humanoid-robot-startup-looking-at-ipo-2026-05",
-      "published": "Thu, 14 May 2026 05:28:03 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "人形机器人赛道正从技术验证期走向长期的商业化与资本化规划，2029-2030的时间表暗示了量产落地的预期。",
-        "AI与具身智能的结合正在催生新的硬件形态，对底层芯片（边缘AI算力、传感器融合）提出了新的需求。"
-      ],
-      "actions": [
-        "芯片供应商应提前布局面向人形机器人的专用边缘AI芯片、电机控制芯片及传感器接口方案。",
-        "追踪欧美具身智能初创企业的融资与IPO节奏，以把握下一代智能硬件的供应链切入时机。"
-      ],
-      "glossary": [
-        {
-          "term": "Humanoid robot",
-          "desc": "人形机器人，具有类似人类身体结构和运动能力的智能机器人",
-          "category": "应用"
-        },
-        {
-          "term": "Embodied AI",
-          "desc": "具身智能，将AI算法与物理实体结合，能通过感知与交互执行物理任务的智能系统",
-          "category": "技术"
-        }
-      ],
-      "region": "overseas",
-      "summary": "成立两年的英国AI与机器人初创公司Humanoid正考虑在2029或2030年进行IPO，创始人兼唯一投资者Artem Sokolov向路透社透露了这一计划。",
-      "tag_category": "EDA/IP",
-      "title_en": "UK Humanoid robot startup looking at IPO"
-    },
-    {
-      "title": "Cerebras股价在2026年最大规模IPO中飙升近70%（Cerebras stock surges nearly 70% in biggest IPO of 2026）",
-      "url": "https://finance.yahoo.com/markets/article/cerebras-stock-surges-nearly-70-in-biggest-ipo-of-2026-130757196.html",
-      "description": "The AI chipmaker opened at $350 per share, well above its IPO price of $185.",
+      "title": "2026年美国最大IPO登场，Cerebras首日大涨68%，这只AI芯片新星现在值得买入吗？（Largest US IPO of 2026 Debuts, Cerebras Soars 68% on First Day, Is This AI Chip Upstart Worth Buying Now?）",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261898526-cerebras-ipo-surges-68-wall-street-biggest-2026-tech-listing-still-buy-tradingkey",
+      "description": "TradingKey — On Thursday, May 14, Eastern Time, AI chipmaker Cerebras Systems, regarded by the market as an \"Nvidia challenger,\" officially listed on the Nasdaq under the ticker symbol \"CBRS,\" delivering a stunning performance on its first day of trading.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "Cerebras成为2026年迄今最大规模的科技IPO，标志着晶圆级AI芯片已获得主流资本市场的重金押注。",
-        "首日近70%的涨幅显示出市场对打破传统GPU垄断的替代方案具有强烈需求，非HBM架构的AI芯片正在崛起。"
+        "Cerebras的晶圆级芯片架构（WSE）在IPO中受到资本市场热烈追捧，显示投资者对非GPU架构AI算力替代方案的期待。",
+        "首日大涨反映出市场对AI基础设施投资热情依然高涨，但后续需关注其商业化落地与盈利能力。"
       ],
       "actions": [
-        "供应链企业需评估Cerebras大规模融资后扩产对晶圆代工、先进封装及测试环节的增量需求。",
-        "投资者及竞争对手应重新审视大算力芯片市场的格局演变，Cerebras的资本加持可能加速其在超大规模数据中心的渗透。"
+        "供应链从业者应关注Cerebras晶圆级芯片制造对先进封装和代工产能的特殊需求，评估潜在合作机会。",
+        "投资者需理性看待其首日涨幅，深入评估其长期技术壁垒及与英伟达生态竞争的可行性。"
       ],
       "glossary": [
         {
-          "term": "AI Chipmaker",
-          "desc": "AI芯片制造商，专门设计制造用于人工智能计算加速芯片的企业",
+          "term": "IPO",
+          "desc": "首次公开募股，企业首次向公众出售股票筹集资金的过程",
+          "category": "金融"
+        },
+        {
+          "term": "WSE",
+          "desc": "晶圆级引擎，Cerebras特有的将整片晶圆作为单一处理器的大芯片架构",
+          "category": "芯片架构"
+        }
+      ],
+      "region": "overseas",
+      "summary": "AI芯片制造商Cerebras Systems正式在纳斯达克挂牌上市，首日股价大涨68%，成为2026年美国规模最大的IPO，市场将其视为英伟达的挑战者。",
+      "tag_category": "EDA/IP",
+      "title_en": "Largest US IPO of 2026 Debuts, Cerebras Soars 68% on First Day, Is This AI Chip Upstart Worth Buying Now?"
+    },
+    {
+      "title": "今日科技股：Cerebras在IPO中大涨，大型科技公司CEO齐聚中国（Tech stocks today: Cerebras stock jumps in IPO, Big Tech CEOs in China）",
+      "url": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-cerebras-stock-jumps-in-ipo-big-tech-ceos-in-china-100000526.html",
+      "description": "The tech sector helped US stocks cruise to all-time highs last week, as the artificial intelligence boom broadened.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI热潮正在从核心芯片向更广泛的科技板块蔓延，带动整体市场估值上升。",
+        "大型科技公司高管对中国市场的关注，暗示全球科技供应链仍无法脱离中国的影响力。"
+      ],
+      "actions": [
+        "关注美股科技板块的整体走势，作为半导体行业景气度的宏观风向标。",
+        "密切跟踪大型科技巨头在华战略调整，评估其对本土半导体供应链的溢出效应。"
+      ],
+      "glossary": [
+        {
+          "term": "Big Tech",
+          "desc": "大型科技公司，通常指苹果、亚马逊、谷歌、微软、Meta等科技巨头",
           "category": "产业"
         }
       ],
       "region": "overseas",
-      "summary": "这家AI芯片制造商的开盘价为每股350美元，远高于其185美元的IPO发行价，首日涨幅近70%。",
+      "summary": "受AI热潮扩大的推动，科技股助力美股创下历史新高，其中Cerebras在IPO中表现亮眼，同时大型科技公司CEO们正聚焦中国市场动态。",
       "tag_category": "EDA/IP",
-      "title_en": "Cerebras stock surges nearly 70% in biggest IPO of 2026"
+      "title_en": "Tech stocks today: Cerebras stock jumps in IPO, Big Tech CEOs in China"
     },
     {
-      "title": "Cerebras在2026年首个大型科技IPO中融资55亿美元，股价暴涨108% | TechCrunch（Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026 | TechCrunch）",
-      "url": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
-      "description": "A year ago, it looked like this day would never happen for Cerebras.",
+      "title": "IPO新闻 - 美国IPO每周回顾：Cerebras在史上最大AI IPO中筹集56亿美元并大涨68%（IPO News - US IPO Weekly Recap: Cerebras raises $5.6 billion in the largest AI IPO ever and jumps 68%）",
+      "url": "https://www.renaissancecapital.com/IPO-Center/News/119105/US-IPO-Weekly-Recap-Cerebras-raises-$5.6-billion-in-the-largest-AI-IPO-ever",
+      "description": "The IPO market saw the largest AI deal of all time this past week, joined by major listings in energy, infrastructure, and emergency services.AI chipmaker Cerebras Systems (CBRS) upsized and priced above the upwardly revised range to raise $5.6 billion at a $54.9 billion market cap.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "Cerebras从去年的上市受阻到如今巨额融资并股价翻倍，反映了AI算力需求爆发下资本市场对差异化算力硬件的极度饥渴。",
-        "55亿美元的巨额募资将极大增强Cerebras在研发和供应链上的火力，可能重塑超算数据中心芯片的竞争格局。"
+        "56亿美元的巨额融资规模表明资本市场对AI算力底层硬件的极度渴求，AI芯片赛道吸金能力已达到历史新高度。",
+        "能源与基础设施公司同步上市，说明AI发展正带动周边配套产业（如电力、数据中心基建）的资本化进程。"
       ],
       "actions": [
-        "密切关注Cerebras后续的产能扩张计划，特别是其与代工厂的合作深度及对特定封装资源的锁定情况。",
-        "传统GPU供应链企业需警惕Cerebras凭借资本优势在特定AI训练场景下抢占市场份额的风险。"
+        "芯片供应链企业应利用此资本热潮窗口，积极寻求与AI芯片新贵及配套基建厂商的绑定合作。",
+        "关注AI数据中心带来的能源与基础设施需求增量，提前布局相关半导体功率器件与传感器市场。"
       ],
       "glossary": [
         {
-          "term": "Tech IPO",
-          "desc": "科技企业首次公开募股，科技公司进入公开资本市场的融资行为",
+          "term": "IPO Recap",
+          "desc": "IPO回顾，对一定时期内首次公开募股市场表现的总结分析",
           "category": "金融"
         }
       ],
       "region": "overseas",
-      "summary": "一年前Cerebras似乎还无法迎来这一天，但如今其成功融资55亿美元并实现108%的股价暴涨，成为2026年首个重磅科技IPO。",
+      "summary": "Cerebras Systems成功完成史上最大规模AI IPO，筹集56亿美元，上市首日股价飙升68%，本周IPO市场还涵盖了能源、基础设施等其他重要领域。",
       "tag_category": "EDA/IP",
-      "title_en": "Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026 | TechCrunch"
+      "title_en": "IPO News - US IPO Weekly Recap: Cerebras raises $5.6 billion in the largest AI IPO ever and jumps 68%"
+    },
+    {
+      "title": "Cerebras IPO为CEO Andrew Feldman及早期AI芯片投资者创造数十亿财富（Cerebras IPO Creates Billions for CEO Andrew Feldman and Early A.I. Chip Backers）",
+      "url": "https://observer.com/2026/05/cerebras-ipo-create-billions-andrew-feldman-ai-chip-investors/",
+      "description": "Cerebras’ $5.55 billion IPO minted billionaires, lifted early backers and tested investor appetite for OpenAI, Anthropic and A.I. listings.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI硬件初创企业的成功上市为早期风投带来了巨额回报，将刺激更多资本涌入AI芯片及大模型初创领域。",
+        "Cerebras的财富效应正在为OpenAI和Anthropic等AI软件/模型巨头的潜在IPO铺路，测试市场承接力。"
+      ],
+      "actions": [
+        "关注早期VC的资金回笼与再投资动向，预判下一波AI半导体初创企业的融资热点。",
+        "跟踪OpenAI等大模型厂商的IPO预期，评估其对自研AI芯片策略及供应链格局的长期影响。"
+      ],
+      "glossary": [
+        {
+          "term": "Early Backers",
+          "desc": "早期投资者，在企业初创阶段提供资金支持的风险投资机构或个人",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Cerebras高达55.5亿美元的IPO不仅让公司CEO及早期支持者身价暴涨，也进一步试探了投资者对OpenAI、Anthropic等后续AI企业上市的胃口。",
+      "tag_category": "EDA/IP",
+      "title_en": "Cerebras IPO Creates Billions for CEO Andrew Feldman and Early A.I. Chip Backers"
+    },
+    {
+      "title": "Cerebras在AI芯片IPO中筹集55.5亿美元，但对阿联酋实体86%的收入依赖问题仍未解决（Cerebras Raises $5.55 Billion in AI Chip IPO, But 86% Revenue Dependence on UAE Entities Unresolved）",
+      "url": "https://www.techtimes.com/articles/316698/20260515/cerebras-raises-555-billion-ai-chip-ipo-86-revenue-dependence-uae-entities-unresolved.htm",
+      "description": "Cerebras Systems, a Silicon Valley AI chipmaker whose first IPO attempt collapsed under federal security scrutiny eighteen months ago, raised $5.55 billion on Nasdaq on Thursday after pricing 30 million shares at $185 each, making it the largest global IPO of 2026.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "86%营收依赖单一海外客户（阿联酋G42）暴露出极大的商业脆弱性与地缘政治风险，这是其未来发展的最大隐患。",
+        "此前因美国联邦安全审查导致IPO流产的历史，说明AI芯片出口与外资投资正成为国家安全博弈的核心焦点。"
+      ],
+      "actions": [
+        "供应链企业在评估与Cerebras合作时，必须将其客户集中度及地缘合规风险纳入核心考量，防范订单突发中断风险。",
+        "密切关注美国对中东等地区AI算力投资的联邦安全审查动向，提前做好合规与市场多元化预案。"
+      ],
+      "glossary": [
+        {
+          "term": "UAE Entities",
+          "desc": "阿联酋实体，指位于阿拉伯联合酋长国的企业或组织，此处主要指G42集团",
+          "category": "地缘政治"
+        },
+        {
+          "term": "Federal Security Scrutiny",
+          "desc": "联邦安全审查，美国政府对涉及国家安全的外资投资或技术出口进行的严格调查",
+          "category": "合规"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Cerebras Systems成功筹集55.5亿美元在纳斯达克上市，但其18个月前首次IPO因联邦安全审查失败，且目前86%营收严重依赖阿联酋实体的隐患仍未消除。",
+      "tag_category": "EDA/IP",
+      "title_en": "Cerebras Raises $5.55 Billion in AI Chip IPO, But 86% Revenue Dependence on UAE Entities Unresolved"
     }
   ],
   "stats": {
-    "total_raw": 90,
-    "after_dedup": 81,
+    "total_raw": 81,
+    "after_dedup": 78,
     "sources": {
-      "Exa": 3,
+      "Exa": 1,
       "RSS": 65,
-      "Brave": 13
+      "Brave": 12
     }
   },
   "code_version": "",
