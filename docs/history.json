@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://www.electronicsweekly.com/news/business/bolt-gpu-to-cut-compute-cost-17x-2026-04/",
-    "title": "Bolt GPU Zeus芯片tape-out：目标将HPC计算成本降低17倍",
-    "published": "2026-04-23T05:21:30+08:00",
-    "addedAt": "2026-04-24T13:10:00+08:00"
-  },
-  {
-    "url": "https://wccftech.com/samsung-braces-for-unprecedented-chaos-after-union-rally-knocks-out-58-of-foundry-output-in-a-single-day/",
-    "title": "三星工会大规模集会导致代工产出骤降58%，管理层与工会博弈升级",
-    "published": "2026-04-24T10:10:55+08:00",
-    "addedAt": "2026-04-24T20:09:00+08:00"
-  },
-  {
-    "url": "https://wccftech.com/intel-14a-wins-tesla-major-customers-foundry-business-gamble-pays-off/",
-    "title": "Intel 14A工艺赢得Tesla代工订单，CEO确认多客户18AP/14A合作",
-    "published": "2026-04-24T06:35:10+08:00",
-    "addedAt": "2026-04-24T20:09:00+08:00"
-  },
-  {
-    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/368690-tsmc-technology-symposium-2026-overview/",
-    "title": "TSMC 2026技术研讨会：先进制程路线图从3nm扩产到1.4nm量产",
-    "published": "2026-04-22T19:00:11+08:00",
-    "addedAt": "2026-04-24T20:09:00+08:00"
-  },
-  {
-    "url": "https://financialpost.com/pmn/business-pmn/sk-hynixs-profit-surge-falls-short-as-supercycle-debate-rages",
-    "title": "SK海力士利润激增5倍仍不及预期，AI存储超级周期可持续性受质疑",
-    "published": "2026-04-23T04:29:32+08:00",
-    "addedAt": "2026-04-24T20:09:00+08:00"
-  },
-  {
     "url": "https://m.sohu.com/a/1013966773_121361416",
     "title": "联讯仪器登陆科创板：高端测试仪器国产化，1.6T光模块测试全球第二",
     "published": "2026-04-24T14:00:00+08:00",
@@ -2998,5 +2968,35 @@
     "title": "Cerebras在AI芯片IPO中筹集55.5亿美元，但对阿联酋实体86%的收入依赖问题仍未解决（Cerebras Raises $5.55 Billion in AI Chip IPO, But 86% Revenue Dependence on UAE Entities Unresolved）",
     "published": "",
     "addedAt": "2026-05-16T13:03:00+08:00"
+  },
+  {
+    "url": "https://finance.biggo.com/news/1KOaLp4B6tLPsnrZ5f6F",
+    "title": "中国国产AI芯片出货量首次突破40%，华为昇腾引领“自主可用”新时代（China's Homegrown AI Chip Shipments Surpass 40% for the First Time, Huawei Ascend Leads New Era of 'Self-Reliant and Practical' — BigGo Finance）",
+    "published": "",
+    "addedAt": "2026-05-16T20:03:00+08:00"
+  },
+  {
+    "url": "https://finance.yahoo.com/markets/article/cerebras-stock-slides-after-near-70-surge-in-biggest-ipo-of-2026-130757084.html",
+    "title": "Cerebras在2026年最大IPO中飙升近70%后股价下滑（Cerebras stock slides after near-70% surge in biggest IPO of 2026）",
+    "published": "",
+    "addedAt": "2026-05-16T20:03:00+08:00"
+  },
+  {
+    "url": "https://www.renaissancecapital.com/IPO-Center/News/119105/US-IPO-Weekly-Recap-Cerebras-raises-$5.6-billion-in-the-largest-AI-IPO-ever",
+    "title": "IPO新闻 - 美股IPO每周回顾：Cerebras在史上最大AI IPO中筹集56亿美元并大涨68%（IPO News - US IPO Weekly Recap: Cerebras raises $5.6 billion in the largest AI IPO ever and jumps 68%）",
+    "published": "",
+    "addedAt": "2026-05-16T20:03:00+08:00"
+  },
+  {
+    "url": "https://observer.com/2026/05/cerebras-ipo-create-billions-andrew-feldman-ai-chip-investors/",
+    "title": "Cerebras IPO为CEO Andrew Feldman及早期AI芯片投资者创造数十亿美元财富（Cerebras IPO Creates Billions for CEO Andrew Feldman and Early A.I. Chip Backers）",
+    "published": "",
+    "addedAt": "2026-05-16T20:03:00+08:00"
+  },
+  {
+    "url": "https://parameter.io/ark-invest-exits-taiwan-semiconductor-tsm-at-peak-piles-into-cerebras-ipo/",
+    "title": "ARK投资在高位出清台积电（TSM），重仓押注Cerebras IPO（ARK Invest Exits Taiwan Semiconductor (TSM) at Peak, Piles Into Cerebras IPO - Parameter）",
+    "published": "",
+    "addedAt": "2026-05-16T20:03:00+08:00"
   }
 ]
