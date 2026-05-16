@@ -1,7 +1,7 @@
 {
-  "version": "v20260516-2003",
-  "generatedAt": "2026-05-16T20:03:00+08:00",
-  "period": "evening",
+  "version": "v20260517-0600",
+  "generatedAt": "2026-05-17T06:00:00+08:00",
+  "period": "morning",
   "commit": "",
   "glossary_list": [
     {
@@ -18,46 +18,6 @@
       "term": "OSAT",
       "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
       "category": "封装"
-    },
-    {
-      "term": "AI accelerator card",
-      "desc": "AI加速卡，用于加速人工智能计算任务的专用硬件扩展卡",
-      "category": "硬件"
-    },
-    {
-      "term": "Huawei Ascend",
-      "desc": "华为昇腾，华为推出的AI计算芯片及计算框架品牌",
-      "category": "芯片"
-    },
-    {
-      "term": "IPO",
-      "desc": "首次公开募股，企业首次向公众投资者发售股票",
-      "category": "金融"
-    },
-    {
-      "term": "Cerebras",
-      "desc": "Cerebras Systems，以晶圆级引擎（WSE）AI芯片闻名的初创公司",
-      "category": "芯片"
-    },
-    {
-      "term": "Upsized and priced",
-      "desc": "扩大发行规模并确定发行价格，通常指IPO时因需求旺盛而增加股票发售数量",
-      "category": "金融"
-    },
-    {
-      "term": "Early backers",
-      "desc": "早期支持者/早期投资者，在企业初创阶段提供资金的风险投资机构或个人",
-      "category": "金融"
-    },
-    {
-      "term": "ARK Invest",
-      "desc": "ARK投资，由Cathie Wood创立的专注于颠覆性创新主题的主动管理型ETF基金公司",
-      "category": "金融"
-    },
-    {
-      "term": "TSM",
-      "desc": "台积电（Taiwan Semiconductor Manufacturing）在美股的代码",
-      "category": "公司"
     }
   ],
   "topic_pulse": [
@@ -66,228 +26,63 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "CoWoS与先进封装话题热度降温，社区缺乏引爆性新帖。短期产能扩张预期已充分消化，市场情绪趋于平静观望。"
+      "summary": ""
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度下降，Reddit和Hacker News均无显著热门讨论。随着前期HBM产能分配尘埃落定，社区关注点暂时转移。"
+      "summary": ""
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中国Fab与先进制程讨论热度回落，社区暂无重大技术突破或政策传闻刺激。市场情绪进入平稳期，等待后续实质性进展。"
+      "summary": ""
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题降温，缺乏引发热议的新事件。自主替代的长期逻辑已在预期内，短期缺乏催化剂导致社区讨论趋于沉寂。"
+      "summary": ""
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT话题热度下降，社区讨论平淡。先进封装产能紧缺的叙事已常态化，短期无新增供需失衡信号引发关注。"
+      "summary": ""
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度走低，近期无新规出台或重大执法事件。社区情绪暂缓，处于政策观察的静默期。"
+      "summary": ""
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与NVIDIA话题降温，缺乏颠覆性新品发布或财报刺激。尽管英伟达仍是核心，但市场短期已无新增博弈点，讨论热度自然回落。"
+      "summary": ""
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化话题热度下降，社区无新突破性进展分享。国产替代进程步入常态化阶段，短期缺乏情绪爆点。"
+      "summary": ""
     }
   ],
-  "items": [
-    {
-      "title": "中国国产AI芯片出货量首次突破40%，华为昇腾引领“自主可用”新时代（China's Homegrown AI Chip Shipments Surpass 40% for the First Time, Huawei Ascend Leads New Era of 'Self-Reliant and Practical' — BigGo Finance）",
-      "url": "https://finance.biggo.com/news/1KOaLp4B6tLPsnrZ5f6F",
-      "description": "China's AI accelerator card market achieved a historic breakthrough in 2025, with domestic manufacturers shipping a combined 1.65 million units and capturing a",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "国产AI芯片在市场份额上的突破标志着中国半导体在算力领域的自主可控取得实质性进展。",
-        "华为昇腾的领先地位反映出在制裁压力下，国内算力生态正在加速闭环与成熟。"
-      ],
-      "actions": [
-        "国内云厂商和智算中心应加速昇腾等国产算力平台的适配与迁移，降低对单一海外供应链的依赖。",
-        "关注国产AI芯片生态链上的软件适配、集群互联等短板环节，寻找投资与合作机会。"
-      ],
-      "glossary": [
-        {
-          "term": "AI accelerator card",
-          "desc": "AI加速卡，用于加速人工智能计算任务的专用硬件扩展卡",
-          "category": "硬件"
-        },
-        {
-          "term": "Huawei Ascend",
-          "desc": "华为昇腾，华为推出的AI计算芯片及计算框架品牌",
-          "category": "芯片"
-        }
-      ],
-      "region": "overseas",
-      "summary": "2025年中国AI加速卡市场取得历史性突破，国产厂商合计出货165万片，市场份额首次超过40%，华为昇腾成为主导力量。",
-      "tag_category": "EDA/IP",
-      "title_en": "China's Homegrown AI Chip Shipments Surpass 40% for the First Time, Huawei Ascend Leads New Era of 'Self-Reliant and Practical' — BigGo Finance"
-    },
-    {
-      "title": "Cerebras在2026年最大IPO中飙升近70%后股价下滑（Cerebras stock slides after near-70% surge in biggest IPO of 2026）",
-      "url": "https://finance.yahoo.com/markets/article/cerebras-stock-slides-after-near-70-surge-in-biggest-ipo-of-2026-130757084.html",
-      "description": "The AI chipmaker opened at $350 per share on Thursday, well above its IPO price of $185.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "Cerebras上市首日的冲高回落反映了市场对AI芯片初创公司估值的高预期与短期获利回吐的矛盾。",
-        "晶圆级芯片（WSE）路线虽在IPO中获资本热捧，但商业化落地与持续盈利能力仍需经受市场检验。"
-      ],
-      "actions": [
-        "投资者需警惕AI概念IPO初期的波动风险，关注Cerebras后续财报中的实际营收与客户拓展情况。",
-        "芯片供应链企业应评估Cerebras晶圆级巨芯片对先进封装和代工产能的潜在新需求。"
-      ],
-      "glossary": [
-        {
-          "term": "IPO",
-          "desc": "首次公开募股，企业首次向公众投资者发售股票",
-          "category": "金融"
-        },
-        {
-          "term": "Cerebras",
-          "desc": "Cerebras Systems，以晶圆级引擎（WSE）AI芯片闻名的初创公司",
-          "category": "芯片"
-        }
-      ],
-      "region": "overseas",
-      "summary": "AI芯片制造商Cerebras周四以每股350美元开盘，远高于185美元的IPO发行价，但在大涨近70%后股价出现回落。",
-      "tag_category": "EDA/IP",
-      "title_en": "Cerebras stock slides after near-70% surge in biggest IPO of 2026"
-    },
-    {
-      "title": "IPO新闻 - 美股IPO每周回顾：Cerebras在史上最大AI IPO中筹集56亿美元并大涨68%（IPO News - US IPO Weekly Recap: Cerebras raises $5.6 billion in the largest AI IPO ever and jumps 68%）",
-      "url": "https://www.renaissancecapital.com/IPO-Center/News/119105/US-IPO-Weekly-Recap-Cerebras-raises-$5.6-billion-in-the-largest-AI-IPO-ever",
-      "description": "The IPO market saw the largest AI deal of all time this past week, joined by major listings in energy, infrastructure, and emergency services.AI chipmaker Cerebras Systems (CBRS) upsized and priced above the upwardly revised range to raise $5.6 billion at a $54.9 billion market cap.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "Cerebras创下AI领域最大IPO纪录，表明资本市场对非GPU架构的差异化AI算力路线存在强烈投资意愿。",
-        "能源、基础设施等配套领域的同步上市热潮，印证了AI产业正从单一算力向全栈基础设施扩张。"
-      ],
-      "actions": [
-        "关注Cerebras上市后对台积电等代工巨头的晶圆代工订单拉动效应。",
-        "寻找与Cerebras晶圆级芯片配套的冷却、供电等基础设施供应链的投资切入点。"
-      ],
-      "glossary": [
-        {
-          "term": "Upsized and priced",
-          "desc": "扩大发行规模并确定发行价格，通常指IPO时因需求旺盛而增加股票发售数量",
-          "category": "金融"
-        }
-      ],
-      "region": "overseas",
-      "summary": "上周IPO市场迎来了史上最大的AI交易，AI芯片制造商Cerebras Systems（CBRS）扩大发行规模并以高于预期的价格上市，筹集56亿美元，股价大涨68%。",
-      "tag_category": "EDA/IP",
-      "title_en": "IPO News - US IPO Weekly Recap: Cerebras raises $5.6 billion in the largest AI IPO ever and jumps 68%"
-    },
-    {
-      "title": "Cerebras IPO为CEO Andrew Feldman及早期AI芯片投资者创造数十亿美元财富（Cerebras IPO Creates Billions for CEO Andrew Feldman and Early A.I. Chip Backers）",
-      "url": "https://observer.com/2026/05/cerebras-ipo-create-billions-andrew-feldman-ai-chip-investors/",
-      "description": "Cerebras’ $5.55 billion IPO minted billionaires, lifted early backers and tested investor appetite for OpenAI, Anthropic and A.I. listings.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "Cerebras IPO的成功造富效应将进一步刺激VC对底层AI芯片及算力基础设施的早期投资。",
-        "此次上市被视为OpenAI等AI巨头未来IPO的试金石，市场对高估值AI标的的承接能力得到初步验证。"
-      ],
-      "actions": [
-        "早期半导体创投机构可借此热度，加速手中AI芯片及算力项目的融资与退出规划。",
-        "关注OpenAI、Anthropic等大模型厂商的IPO动向，提前布局其可能带动的算力供应链标的。"
-      ],
-      "glossary": [
-        {
-          "term": "Early backers",
-          "desc": "早期支持者/早期投资者，在企业初创阶段提供资金的风险投资机构或个人",
-          "category": "金融"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Cerebras 55.5亿美元的IPO造就了多位亿万富翁，让早期支持者获得丰厚回报，并测试了投资者对OpenAI、Anthropic等AI公司上市的胃口。",
-      "tag_category": "EDA/IP",
-      "title_en": "Cerebras IPO Creates Billions for CEO Andrew Feldman and Early A.I. Chip Backers"
-    },
-    {
-      "title": "ARK投资在高位出清台积电（TSM），重仓押注Cerebras IPO（ARK Invest Exits Taiwan Semiconductor (TSM) at Peak, Piles Into Cerebras IPO - Parameter）",
-      "url": "https://parameter.io/ark-invest-exits-taiwan-semiconductor-tsm-at-peak-piles-into-cerebras-ipo/",
-      "description": "ARK Invest sold $16.6M in Taiwan Semiconductor (TSM) at record highs and purchased 105,616 shares of Cerebras Systems after its blockbuster IPO debut.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "ARK从成熟代工龙头台积电高位撤资转向高风险AI初创Cerebras，体现了资本在AI算力投资上的偏好转移：从重资产制造向高弹性创新架构倾斜。",
-        "台积电在AI红利期的股价高点遭遇知名机构减持，可能引发市场对代工板块短期估值透支的担忧。"
-      ],
-      "actions": [
-        "持有台积电等代工巨头股票的投资者需审视短期获利回吐风险，适度平衡仓位。",
-        "跟踪ARK等先锋基金的持仓变动，将其作为捕捉AI算力新架构（如晶圆级计算）投资风向的参考。"
-      ],
-      "glossary": [
-        {
-          "term": "ARK Invest",
-          "desc": "ARK投资，由Cathie Wood创立的专注于颠覆性创新主题的主动管理型ETF基金公司",
-          "category": "金融"
-        },
-        {
-          "term": "TSM",
-          "desc": "台积电（Taiwan Semiconductor Manufacturing）在美股的代码",
-          "category": "公司"
-        }
-      ],
-      "region": "overseas",
-      "summary": "ARK投资在台积电股价创纪录高位时出售了1660万美元的股票，并在Cerebras Systems轰动性的IPO首秀后买入了105,616股。",
-      "tag_category": "EDA/IP",
-      "title_en": "ARK Invest Exits Taiwan Semiconductor (TSM) at Peak, Piles Into Cerebras IPO - Parameter"
-    }
-  ],
+  "items": [],
   "stats": {
-    "total_raw": 83,
-    "after_dedup": 81,
-    "sources": {
-      "Exa": 1,
-      "RSS": 65,
-      "Brave": 15
-    }
+    "total_raw": 0,
+    "after_dedup": 0,
+    "sources": {}
   },
   "code_version": "",
   "data_commit": ""
