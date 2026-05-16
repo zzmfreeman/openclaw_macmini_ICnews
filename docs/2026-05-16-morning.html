@@ -143,11 +143,8 @@
     function toggleTheme(){const d=document.documentElement;const next=d.getAttribute('data-theme')==='dark'?'light':'dark';d.setAttribute('data-theme',next);localStorage.setItem('sb-theme',next)}
     (function(){const t=localStorage.getItem('sb-theme');if(t)document.documentElement.setAttribute('data-theme',t)})();
     function setFilter(f){state.filter=f;document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.filter===f));render()}
-    function toggleBox(el){el.classList.toggle('open');const c=el.querySelector('.content');if(c){c.classList.toggle('collapsed');c.classList.toggle('expanded')}
-    function copyPrompt(idx){const d=state.data;if(!d||!d.items||!d.items[idx])return;const it=d.items[idx];const text='新闻：'+it.title+'
-摘要：'+(it.summary||'')+'
-洞见：'+(it.insights||[]).join('；')+'
-建议：'+(it.actions||[]).join('；');navigator.clipboard.writeText(text).then(()=>{const btn=document.querySelector('#copy-'+idx);btn.textContent='✅ 已复制';btn.classList.add('copied');setTimeout(()=>{btn.textContent='📋 复制为 prompt';btn.classList.remove('copied')},1500)})}
+    function toggleBox(el){el.classList.toggle('open');const c=el.querySelector('.content');if(c){c.classList.toggle('collapsed');c.classList.toggle('expanded')}}
+    function copyPrompt(idx){const d=state.data;if(!d||!d.items||!d.items[idx])return;const it=d.items[idx];const text='新闻：'+it.title+'\n摘要：'+(it.summary||'')+'\n洞见：'+(it.insights||[]).join('；')+'\n建议：'+(it.actions||[]).join('；');navigator.clipboard.writeText(text).then(()=>{const btn=document.querySelector('#copy-'+idx);btn.textContent='✅ 已复制';btn.classList.add('copied');setTimeout(()=>{btn.textContent='📋 复制为 prompt';btn.classList.remove('copied')},1500)})}
     function render(){const d=state.filtered||state.data;if(!d)return;if(!d.items)d.items=[];
       el('buildmeta').textContent='版本号('+d.version+'-'+')｜生成时间('+d.generatedAt+'-'+')';
       el('asof').textContent='更新: '+d.generatedAt;
