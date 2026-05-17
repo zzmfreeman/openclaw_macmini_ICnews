@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://m.sohu.com/a/1013966773_121361416",
-    "title": "联讯仪器登陆科创板：高端测试仪器国产化，1.6T光模块测试全球第二",
-    "published": "2026-04-24T14:00:00+08:00",
-    "addedAt": "2026-04-24T20:09:00+08:00"
-  },
-  {
-    "url": "https://caifuhao.eastmoney.com/news/20260423235446781129840",
-    "title": "海外CPU持续缺货涨价，国产替代产业链全面受益加速成长",
-    "published": "2026-04-23T23:54:00+08:00",
-    "addedAt": "2026-04-24T20:09:00+08:00"
-  },
-  {
-    "url": "https://m.sohu.com/a/1014101016_121948396",
-    "title": "江阴中芯长电半导体：先进封装独角兽年入65亿，跻身全球前十",
-    "published": "2026-04-24T18:00:00+08:00",
-    "addedAt": "2026-04-24T20:09:00+08:00"
-  },
-  {
-    "url": "https://wccftech.com/samsung-and-kingston-hike-ssd-prices-by-10-again-pushing-1tb-drives-past-330-as-nand-shortage-deepens/",
-    "title": "三星和金士顿再次涨价10%，1TB SSD突破330美元，NAND短缺加剧",
-    "published": "2026-04-23T18:35:35+08:00",
-    "addedAt": "2026-04-24T20:09:00+08:00"
-  },
-  {
-    "url": "https://headlinesbriefing.com/tech/techpowerup-news/intel-foundry-yields-surge-amid-18a-node-refinement-bdc5e7a5",
-    "title": "Intel Foundry 18A节点良率大幅提升，18A/Intel 4/Intel 3均获改善",
-    "published": "2026-04-24",
-    "addedAt": "2026-04-25T06:16:42+08:00"
-  },
-  {
     "url": "https://www.sina.cn/news/detail/5290829620970965.html",
     "title": "ARM发布首款自研芯片AGI CPU，股价大涨超16%",
     "published": "2026-04-24",
@@ -2998,5 +2968,35 @@
     "title": "ARK投资在高位出清台积电（TSM），重仓押注Cerebras IPO（ARK Invest Exits Taiwan Semiconductor (TSM) at Peak, Piles Into Cerebras IPO - Parameter）",
     "published": "",
     "addedAt": "2026-05-16T20:03:00+08:00"
+  },
+  {
+    "url": "https://finance.biggo.com/news/1KOaLp4B6tLPsnrZ5f6F",
+    "title": "中国本土AI芯片出货量首次突破40%，华为昇腾引领“自主可靠实用”新时代（China's Homegrown AI Chip Shipments Surpass 40% for the First Time, Huawei Ascend Leads New Era of 'Self-Reliant and Practical' — BigGo Finance）",
+    "published": "",
+    "addedAt": "2026-05-17T13:02:00+08:00"
+  },
+  {
+    "url": "https://www.indexbox.io/blog/cerebras-completes-record-55b-ipo-surpasses-66b-market-cap/",
+    "title": "Cerebras Systems IPO筹集55亿美元，成为最大规模半导体上市之一（Cerebras Systems IPO Raises $5.5 Billion in One of the Largest Semiconductor Offerings - News and Statistics - IndexBox）",
+    "published": "",
+    "addedAt": "2026-05-17T13:02:00+08:00"
+  },
+  {
+    "url": "https://www.morningstar.com/markets/smart-investor-these-ai-ipos-are-booming",
+    "title": "聪明投资者：火爆的AI IPO、顶级管理人的耐心买入与宽护盾困境（Smart Investor: Red-Hot AI IPOs, a Top Managers’ Patient Buy, and Wide-Moat Woes. | Morningstar）",
+    "published": "",
+    "addedAt": "2026-05-17T13:02:00+08:00"
+  },
+  {
+    "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-cbrs/cerebras-systems/news/cerebras-systems-ipo-sparks-interest-in-high-valuation-ai-ch",
+    "title": "Cerebras Systems IPO引发对高估值AI芯片挑战者的兴趣（Cerebras Systems IPO Sparks Interest In High Valuation AI Chip Challenger - Simply Wall St News）",
+    "published": "",
+    "addedAt": "2026-05-17T13:02:00+08:00"
+  },
+  {
+    "url": "https://finance.yahoo.com/markets/article/spacex-openai-and-anthropic-here-are-the-most-anticipated-ipos-in-2026-114439441.html",
+    "title": "SpaceX、OpenAI和Anthropic：以下是2026年最受期待的IPO（SpaceX, OpenAI, and Anthropic: Here are the most anticipated IPOs in 2026）",
+    "published": "",
+    "addedAt": "2026-05-17T13:02:00+08:00"
   }
 ]
