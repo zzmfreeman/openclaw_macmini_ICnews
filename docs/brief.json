@@ -1,7 +1,7 @@
 {
-  "version": "v20260517-1302",
-  "generatedAt": "2026-05-17T13:02:00+08:00",
-  "period": "midday",
+  "version": "v20260517-2004",
+  "generatedAt": "2026-05-17T20:04:00+08:00",
+  "period": "evening",
   "commit": "",
   "glossary_list": [
     {
@@ -20,29 +20,34 @@
       "category": "封装"
     },
     {
-      "term": "Ascend",
-      "desc": "华为推出的AI处理器系列品牌，主要用于数据中心和边缘计算的AI训练与推理",
-      "category": "芯片/IP"
+      "term": "AI加速卡",
+      "desc": "专门用于加速人工智能计算任务的硬件扩展卡，通常包含GPU或专用ASIC芯片。",
+      "category": "硬件"
     },
     {
-      "term": "Wafer-scale Engine",
-      "desc": "晶圆级引擎，Cerebras独创的将整块晶圆作为单一逻辑芯片运行的架构设计",
-      "category": "芯片架构"
-    },
-    {
-      "term": "Wide-Moat",
-      "desc": "宽护城河，指企业拥有难以被竞争对手复制的长期结构性竞争优势",
-      "category": "投资/商业"
+      "term": "华为昇腾",
+      "desc": "华为推出的基于达芬奇架构的AI计算芯片系列，涵盖训练与推理场景。",
+      "category": "芯片"
     },
     {
       "term": "IPO",
-      "desc": "首次公开募股，企业首次向公众投资者发行股票并在证券交易所挂牌上市的过程",
-      "category": "投资/商业"
+      "desc": "首次公开募股，企业首次向公众投资者发行股票并在证券交易所挂牌交易的过程。",
+      "category": "金融"
     },
     {
-      "term": "Anthropic",
-      "desc": "美国AI安全初创公司，开发了Claude大语言模型，是OpenAI的主要竞争对手之一",
-      "category": "AI/大模型"
+      "term": "Wide-Moat",
+      "desc": "宽护城河，指企业拥有的难以被竞争对手复制的长期结构性竞争优势。",
+      "category": "投资"
+    },
+    {
+      "term": "Wafer-scale Engine (WSE)",
+      "desc": "晶圆级引擎，Cerebras独创的将整片晶圆作为单一巨型芯片运行的处理器架构。",
+      "category": "架构"
+    },
+    {
+      "term": "AI Chip Challenger",
+      "desc": "AI芯片挑战者，指在AI算力市场中试图打破英伟达垄断地位的新兴或传统半导体厂商。",
+      "category": "产业"
     }
   ],
   "topic_pulse": [
@@ -51,61 +56,61 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "CoWoS/先进封装话题热度降温，社区近期缺乏热门讨论帖。市场对先进封装产能紧缺的焦虑有所缓解，短期关注度转移至其他领域。"
+      "summary": "社区对CoWoS及先进封装的讨论热度明显降温，近期缺乏重大产能或技术突破新闻。投资者情绪趋于观望，主要关注现有产能消化情况及下一代封装技术的研发进度。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM/AI存储话题热度下降，Reddit和Hacker News上无显著热议内容。随着HBM产能逐步释放预期增强，社区对该领域短期供需失衡的讨论趋于平淡。"
+      "summary": "HBM与AI存储话题热度回落，社区讨论焦点从产能紧缺转向价格走势与库存周期。随着供应端逐步放量，市场对HBM短期溢价的可持续性产生分歧。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中国Fab/先进制程话题降温，社区讨论暂入静默期。在缺乏重大技术突破或政策变动刺激下，短期内对该领域的关注度有所回落。"
+      "summary": "中国Fab与先进制程话题降温，缺乏新的国产突破性节点消息刺激。社区情绪较为平稳，主要探讨现有成熟制程的产能优化及国产设备在产线中的实际验证进展。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题热度下降，无新增热门讨论。社区对国产替代的短期情绪趋于观望，等待更多实质性产品落地或客户导入消息。"
+      "summary": "国产EDA/IP板块热度下降，社区讨论暂无重大政策或产品发布催化。从业者情绪偏向务实，关注重点集中在特定点工具的突破及与国产Foundry的协同适配上。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT话题降温，社区缺乏焦点讨论。随着先进封装热度回调，传统封测板块的短期市场关注度同步走低。"
+      "summary": "封测OSAT话题热度走低，缺乏驱动性的大单或扩产新闻。社区讨论相对平淡，主要关注先进封装产能向头部集中的趋势及传统封装业务的利润率压力。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制/制裁话题热度降温，近期无重大新规引发社区热议。制裁常态化使得市场逐渐消化预期，社区讨论情绪趋于平稳。"
+      "summary": "出口管制与制裁话题热度减退，近期无新增重磅禁令出台。社区情绪暂趋缓和，讨论转向现有管制规则下的合规路径探索及供应链的长期适应性调整。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片/NVIDIA话题热度下降，社区暂无爆款讨论。在NVIDIA新一代产品发布空窗期，市场对GPU算力供需的短期讨论热度回落。"
+      "summary": "AI芯片与英伟达话题热度降温，随着Cerebras等挑战者IPO吸引注意力，社区对英伟达的垄断地位开始出现更多反思。讨论焦点部分转移至算力多极化趋势及下一代Blackwell架构的实际交付进度。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备/材料国产化话题降温，社区讨论趋于冷清。在缺乏新订单或技术验证刺激下，短期内市场对国产设备材料进展的关注度减弱。"
+      "summary": "设备与材料国产化热度下降，暂无新的核心设备突破消息。社区讨论聚焦于现有国产设备在客户端的良率提升与规模化复用情况，情绪偏向谨慎乐观。"
     }
   ],
   "items": [
     {
-      "title": "中国本土AI芯片出货量首次突破40%，华为昇腾引领“自主可靠实用”新时代（China's Homegrown AI Chip Shipments Surpass 40% for the First Time, Huawei Ascend Leads New Era of 'Self-Reliant and Practical' — BigGo Finance）",
+      "title": "中国国产AI芯片出货量首次突破40%，华为昇腾引领“自主实用”新时代（China's Homegrown AI Chip Shipments Surpass 40% for the First Time, Huawei Ascend Leads New Era of 'Self-Reliant and Practical' — BigGo Finance）",
       "url": "https://finance.biggo.com/news/1KOaLp4B6tLPsnrZ5f6F",
       "description": "China's AI accelerator card market achieved a historic breakthrough in 2025, with domestic manufacturers shipping a combined 1.65 million units and capturing a",
       "published": "",
@@ -114,114 +119,32 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "华为昇腾等国产AI芯片正在从“可用”向“好用”过渡，在出口管制压力下市场份额获得了实质性提升。",
-        "国产AI芯片生态的逐步完善，将倒逼国内软件和算法厂商加速适配国产硬件，形成软硬协同的正向循环。"
+        "国产AI芯片市场份额突破40%标志着从“可用”向“好用”的实质性跨越，华为昇腾在生态构建上的持续投入正在转化为市场占有率。",
+        "在出口管制持续收紧的背景下，国内互联网与政企客户对国产算力的接纳度大幅提升，供应链本土化趋势已不可逆。"
       ],
       "actions": [
-        "供应链企业应重点关注国产AI芯片生态的软硬件适配机会，提前布局昇腾等架构的优化与集成服务。",
-        "投资者需关注国产算力基础设施的长期替代趋势，评估相关设计服务与系统集成商的成长潜力。"
+        "针对国产AI芯片生态加速崛起，软件与算法厂商应加快适配华为昇腾等国产平台，抢占原生应用生态位。",
+        "硬件系统集成商需提前规划基于国产加速卡的整机与集群方案，以应对未来大规模采购向国产倾斜的招标需求。"
       ],
       "glossary": [
         {
-          "term": "Ascend",
-          "desc": "华为推出的AI处理器系列品牌，主要用于数据中心和边缘计算的AI训练与推理",
-          "category": "芯片/IP"
+          "term": "AI加速卡",
+          "desc": "专门用于加速人工智能计算任务的硬件扩展卡，通常包含GPU或专用ASIC芯片。",
+          "category": "硬件"
+        },
+        {
+          "term": "华为昇腾",
+          "desc": "华为推出的基于达芬奇架构的AI计算芯片系列，涵盖训练与推理场景。",
+          "category": "芯片"
         }
       ],
       "region": "overseas",
-      "summary": "2025年中国AI加速卡市场实现历史性突破，国产厂商合计出货165万片，市场份额首次超过40%，华为昇腾成为主导力量。",
+      "summary": "2025年中国AI加速卡市场实现历史性突破，国产厂商合计出货165万片，市场份额首次超过40%，华为昇腾成为推动国产替代进入实用阶段的核心力量。",
       "tag_category": "EDA/IP",
       "title_en": "China's Homegrown AI Chip Shipments Surpass 40% for the First Time, Huawei Ascend Leads New Era of 'Self-Reliant and Practical' — BigGo Finance"
     },
     {
-      "title": "Cerebras Systems IPO筹集55亿美元，成为最大规模半导体上市之一（Cerebras Systems IPO Raises $5.5 Billion in One of the Largest Semiconductor Offerings - News and Statistics - IndexBox）",
-      "url": "https://www.indexbox.io/blog/cerebras-completes-record-55b-ipo-surpasses-66b-market-cap/",
-      "description": "Cerebras Systems raised $5.5 billion in one of the largest semiconductor IPOs, with shares closing at $311 on May 14, 2026. The AI chip maker now holds a $66 billion market cap, driven by its wafer-scale engine and key deals with OpenAI and G42, positioning itself as a major Nvidia alternative.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "晶圆级芯片（WSE）架构的商业模式获得资本市场高度认可，打破了传统GPU寡头格局的估值想象空间。",
-        "极大规模芯片的良率和封装成本仍是长期挑战，但巨额融资为其提供了充足的试错与迭代资金缓冲。"
-      ],
-      "actions": [
-        "封测及先进封装厂商应密切关注晶圆级芯片的封装与互联需求，探索针对超大尺寸芯片的新型封装合作机会。",
-        "AI大模型厂商可评估Cerebras的晶圆级计算方案在训练成本与集群效率上的潜在优势，作为算力补充选项。"
-      ],
-      "glossary": [
-        {
-          "term": "Wafer-scale Engine",
-          "desc": "晶圆级引擎，Cerebras独创的将整块晶圆作为单一逻辑芯片运行的架构设计",
-          "category": "芯片架构"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Cerebras Systems在此次最大规模半导体IPO之一中筹集了55亿美元，受其晶圆级芯片技术驱动，市值达到66亿美元。",
-      "tag_category": "EDA/IP",
-      "title_en": "Cerebras Systems IPO Raises $5.5 Billion in One of the Largest Semiconductor Offerings - News and Statistics - IndexBox"
-    },
-    {
-      "title": "聪明投资者：火爆的AI IPO、顶级管理人的耐心买入与宽护盾困境（Smart Investor: Red-Hot AI IPOs, a Top Managers’ Patient Buy, and Wide-Moat Woes. | Morningstar）",
-      "url": "https://www.morningstar.com/markets/smart-investor-these-ai-ipos-are-booming",
-      "description": "We wrap up our coverage of the markets and the week.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AI半导体IPO的火爆反映出市场对算力基础设施的狂热预期，但也可能透支了短期估值空间。",
-        "传统具备“宽护盾”的成熟半导体企业在AI新贵冲击下，面临资本分流与估值重估的阵痛压力。"
-      ],
-      "actions": [
-        "投资者需警惕AI概念IPO的短期过热风险，甄别真正具备技术护城河和持续盈利能力的标的。",
-        "传统芯片企业应加速AI相关业务转型与拆分，以稳固自身在资本市场的估值吸引力。"
-      ],
-      "glossary": [
-        {
-          "term": "Wide-Moat",
-          "desc": "宽护城河，指企业拥有难以被竞争对手复制的长期结构性竞争优势",
-          "category": "投资/商业"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Morningstar总结本周市场动态，重点关注了近期火爆的AI芯片IPO现象以及传统宽护盾企业面临的估值挑战。",
-      "tag_category": "EDA/IP",
-      "title_en": "Smart Investor: Red-Hot AI IPOs, a Top Managers’ Patient Buy, and Wide-Moat Woes. | Morningstar"
-    },
-    {
-      "title": "Cerebras Systems IPO引发对高估值AI芯片挑战者的兴趣（Cerebras Systems IPO Sparks Interest In High Valuation AI Chip Challenger - Simply Wall St News）",
-      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-cbrs/cerebras-systems/news/cerebras-systems-ipo-sparks-interest-in-high-valuation-ai-ch",
-      "description": "Cerebras Systems (NasdaqGS: CBRS) completed the largest U.S. tech IPO since 2020, listing on the Nasdaq with strong institutional demand. The company is partnering with OpenAI and Amazon Web Services to supply AI infrastructure built around its custom semiconductor technology.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "与OpenAI和AWS等头部大模型及云厂商的深度绑定，是Cerebras获得高估值和机构认购的核心驱动力。",
-        "AI芯片挑战者不再仅靠硬件参数竞争，顶级客户背书与生态联盟已成为IPO成功的关键要素。"
-      ],
-      "actions": [
-        "创业期芯片公司应将获取头部云厂商及大模型客户的战略合作作为融资与上市前的核心里程碑。",
-        "云服务提供商需持续评估引入非NVIDIA架构的AI算力，以降低供应链单一依赖风险并增强议价能力。"
-      ],
-      "glossary": [
-        {
-          "term": "IPO",
-          "desc": "首次公开募股，企业首次向公众投资者发行股票并在证券交易所挂牌上市的过程",
-          "category": "投资/商业"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Cerebras Systems完成了自2020年以来美国最大规模的科技IPO，获得机构强烈需求，并与OpenAI和AWS建立合作。",
-      "tag_category": "EDA/IP",
-      "title_en": "Cerebras Systems IPO Sparks Interest In High Valuation AI Chip Challenger - Simply Wall St News"
-    },
-    {
-      "title": "SpaceX、OpenAI和Anthropic：以下是2026年最受期待的IPO（SpaceX, OpenAI, and Anthropic: Here are the most anticipated IPOs in 2026）",
+      "title": "SpaceX、OpenAI与Anthropic：2026年最受期待的IPO（SpaceX, OpenAI, and Anthropic: Here are the most anticipated IPOs in 2026）",
       "url": "https://finance.yahoo.com/markets/article/spacex-openai-and-anthropic-here-are-the-most-anticipated-ipos-in-2026-114439441.html",
       "description": "Chipmaker Cerberus just debuted as 2026's biggest IPO, but it may soon be dwarfed by other tech giants.",
       "published": "",
@@ -230,32 +153,119 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "2026年科技IPO市场将呈现算力基础设施与大模型应用双轮驱动的格局，资金虹吸效应显著。",
-        "AI底层算力与模型公司的相继上市，将进一步推高半导体与服务器供应链的长期需求预期。"
+        "AI基础设施与大模型头部企业集中上市，将为半导体行业带来巨额资金注入，直接拉动高端算力芯片与先进封装的持续需求。",
+        "Cerberus等底层芯片公司的上市表现是衡量资本市场对AI硬件估值容忍度的重要风向标。"
       ],
       "actions": [
-        "供应链企业需提前评估OpenAI等大模型厂商上市后可能带来的算力扩产需求，储备相应的产能与物料。",
-        "投资者应平衡配置底层算力硬件与上层AI应用的标的，对冲单一赛道波动风险。"
+        "关注OpenAI、Anthropic等大模型厂商IPO招股书中的算力采购计划与自研芯片动向，预判下一代AI芯片规格需求。",
+        "评估Cerberus等新上市芯片公司的供应链格局，寻找切入其晶圆代工或封装测试环节的二级供应商机会。"
       ],
       "glossary": [
         {
-          "term": "Anthropic",
-          "desc": "美国AI安全初创公司，开发了Claude大语言模型，是OpenAI的主要竞争对手之一",
-          "category": "AI/大模型"
+          "term": "IPO",
+          "desc": "首次公开募股，企业首次向公众投资者发行股票并在证券交易所挂牌交易的过程。",
+          "category": "金融"
         }
       ],
       "region": "overseas",
-      "summary": "芯片制造商Cerebras刚刚完成2026年最大IPO，但可能很快会被SpaceX、OpenAI等其他科技巨头的上市规模超越。",
+      "summary": "芯片制造商Cerberus刚刚作为2026年最大IPO登场，但可能很快会被SpaceX、OpenAI和Anthropic等其他科技巨头的上市所超越。",
       "tag_category": "EDA/IP",
       "title_en": "SpaceX, OpenAI, and Anthropic: Here are the most anticipated IPOs in 2026"
+    },
+    {
+      "title": "聪明投资者：火爆的AI IPO、顶级基金经理的耐心买入与护城河困境（Smart Investor: Red-Hot AI IPOs, a Top Managers’ Patient Buy, and Wide-Moat Woes. | Morningstar）",
+      "url": "https://www.morningstar.com/markets/smart-investor-these-ai-ipos-are-booming",
+      "description": "We wrap up our coverage of the markets and the week.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI芯片IPO的火爆反映了市场对算力硬件的高预期，但顶级基金经理的“耐心买入”暗示当前估值可能存在短期透支，需警惕回调风险。",
+        "拥有宽护城河的传统半导体巨头面临创新瓶颈，AI新势力的崛起正在重塑行业竞争格局与估值逻辑。"
+      ],
+      "actions": [
+        "对高估值的AI芯片IPO标的保持审慎，避免追高，可参考顶级基金经理的建仓节奏在估值回调时介入。",
+        "重新评估传统宽护城河芯片公司的长期投资价值，关注其向AI领域转型的战略执行力与资源调配能力。"
+      ],
+      "glossary": [
+        {
+          "term": "Wide-Moat",
+          "desc": "宽护城河，指企业拥有的难以被竞争对手复制的长期结构性竞争优势。",
+          "category": "投资"
+        }
+      ],
+      "region": "overseas",
+      "summary": "晨星总结本周市场动态，重点关注火爆的AI概念IPO、顶级基金经理的逆势布局策略，以及部分具备宽护城河企业面临的增长困境。",
+      "tag_category": "EDA/IP",
+      "title_en": "Smart Investor: Red-Hot AI IPOs, a Top Managers’ Patient Buy, and Wide-Moat Woes. | Morningstar"
+    },
+    {
+      "title": "Cerebras Systems IPO募资55亿美元，创半导体行业最大规模上市之一（Cerebras Systems IPO Raises $5.5 Billion in One of the Largest Semiconductor Offerings - News and Statistics - IndexBox）",
+      "url": "https://www.indexbox.io/blog/cerebras-completes-record-55b-ipo-surpasses-66b-market-cap/",
+      "description": "Cerebras Systems raised $5.5 billion in one of the largest semiconductor IPOs, with shares closing at $311 on May 14, 2026. The AI chip maker now holds a $66 billion market cap, driven by its wafer-scale engine and key deals with OpenAI and G42, positioning itself as a major Nvidia alternative.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "Cerebras的高市值证明了资本市场对突破性架构（如晶圆级芯片WSE）的极高认可，异构计算与超大尺寸芯片在特定AI训练场景中具有不可替代性。",
+        "55亿美元的巨额募资将极大充实Cerebras的研发与产能扩张弹药，可能对台积电等代工巨头的先进制程产能分配产生新竞争压力。"
+      ],
+      "actions": [
+        "密切追踪Cerebras晶圆级芯片的代工与封装供应链合作伙伴，评估其产能爬坡对相关供应商订单的拉动效应。",
+        "针对Cerebras的算力架构特性，云服务商与AI模型团队应尽早开展适配测试，探索在超大参数模型训练上的成本与效率优势。"
+      ],
+      "glossary": [
+        {
+          "term": "Wafer-scale Engine (WSE)",
+          "desc": "晶圆级引擎，Cerebras独创的将整片晶圆作为单一巨型芯片运行的处理器架构。",
+          "category": "架构"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Cerebras Systems在史上最大规模的半导体IPO之一中募资55亿美元，5月14日收盘价达311美元，凭借晶圆级芯片技术，这家AI芯片制造商市值已达660亿美元。",
+      "tag_category": "EDA/IP",
+      "title_en": "Cerebras Systems IPO Raises $5.5 Billion in One of the Largest Semiconductor Offerings - News and Statistics - IndexBox"
+    },
+    {
+      "title": "Cerebras Systems IPO引发对高估值AI芯片挑战者的关注（Cerebras Systems IPO Sparks Interest In High Valuation AI Chip Challenger - Simply Wall St News）",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-cbrs/cerebras-systems/news/cerebras-systems-ipo-sparks-interest-in-high-valuation-ai-ch",
+      "description": "Cerebras Systems (NasdaqGS: CBRS) completed the largest U.S. tech IPO since 2020, listing on the Nasdaq with strong institutional demand. The company is partnering with OpenAI and Amazon Web Services to supply AI infrastructure built around its custom semiconductor technology.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "Cerebras与OpenAI及AWS的深度合作表明，头部大模型厂商与云巨头正在积极引入非英伟达的算力替代方案，以打破垄断并优化成本结构。",
+        "高估值AI芯片挑战者的涌现标志着算力市场从“一家独大”走向“多极化”，供应链格局将随之发生结构性重组。"
+      ],
+      "actions": [
+        "供应链企业应积极拓展除英伟达之外的AI芯片客户群（如Cerebras、Intel等），降低单一客户依赖带来的周期性风险。",
+        "投资机构需系统性梳理AI芯片挑战者阵营的技术壁垒与商业落地能力，甄别高估值背后的真实订单支撑与生态成熟度。"
+      ],
+      "glossary": [
+        {
+          "term": "AI Chip Challenger",
+          "desc": "AI芯片挑战者，指在AI算力市场中试图打破英伟达垄断地位的新兴或传统半导体厂商。",
+          "category": "产业"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Cerebras Systems完成自2020年以来美国最大科技IPO，在纳斯达克上市并获得机构强劲需求。该公司正与OpenAI和亚马逊云科技合作，其高估值引发市场对AI芯片挑战者阵营的广泛兴趣。",
+      "tag_category": "EDA/IP",
+      "title_en": "Cerebras Systems IPO Sparks Interest In High Valuation AI Chip Challenger - Simply Wall St News"
     }
   ],
   "stats": {
-    "total_raw": 77,
-    "after_dedup": 76,
+    "total_raw": 78,
+    "after_dedup": 78,
     "sources": {
       "RSS": 65,
-      "Brave": 11
+      "Brave": 13
     }
   },
   "code_version": "",

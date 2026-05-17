@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://www.sina.cn/news/detail/5290829620970965.html",
-    "title": "ARM发布首款自研芯片AGI CPU，股价大涨超16%",
-    "published": "2026-04-24",
-    "addedAt": "2026-04-25T06:16:42+08:00"
-  },
-  {
-    "url": "https://wccftech.com/qualcomm-datacenter-cpu-launch-in-june-as-agentic-ai-goes-in-hyperdrive-mode/",
-    "title": "Qualcomm数据中心CPU将于6月推出，Agentic AI需求驱动",
-    "published": "2026-04-24",
-    "addedAt": "2026-04-25T06:16:42+08:00"
-  },
-  {
-    "url": "https://www.eejournal.com/industry_news/synopsys-partners-with-tsmc-to-power-next-generation-ai-systems-with-silicon-proven-ip-and-certified-eda-flows/",
-    "title": "Synopsys与TSMC合作推出下一代AI系统硅验证IP和认证EDA流程",
-    "published": "2026-04-24",
-    "addedAt": "2026-04-25T06:16:42+08:00"
-  },
-  {
-    "url": "https://finance.sina.com.cn/roll/2026-04-24/doc-inhvrnzw3044467.shtml",
-    "title": "长川科技2025年净利润大增190%，2026年Q1再增217%",
-    "published": "2026-04-24",
-    "addedAt": "2026-04-25T06:16:42+08:00"
-  },
-  {
-    "url": "https://www.ico-optics.org/naphtha-crunch-hits-asia-semiconductor-photoresist-supply/",
-    "title": "石脑油紧缺冲击亚洲半导体光刻胶供应",
-    "published": "2026-04-24",
-    "addedAt": "2026-04-25T06:16:42+08:00"
-  },
-  {
     "url": "https://finance.sina.cn/tech/2026-04-24/detail-inhvqwcw4380891.d.html",
     "title": "莱普科技打破激光热处理技术垄断，半导体设备国产化新突破",
     "published": "2026-04-24",
@@ -2998,5 +2968,35 @@
     "title": "SpaceX、OpenAI和Anthropic：以下是2026年最受期待的IPO（SpaceX, OpenAI, and Anthropic: Here are the most anticipated IPOs in 2026）",
     "published": "",
     "addedAt": "2026-05-17T13:02:00+08:00"
+  },
+  {
+    "url": "https://finance.biggo.com/news/1KOaLp4B6tLPsnrZ5f6F",
+    "title": "中国国产AI芯片出货量首次突破40%，华为昇腾引领“自主实用”新时代（China's Homegrown AI Chip Shipments Surpass 40% for the First Time, Huawei Ascend Leads New Era of 'Self-Reliant and Practical' — BigGo Finance）",
+    "published": "",
+    "addedAt": "2026-05-17T20:04:00+08:00"
+  },
+  {
+    "url": "https://finance.yahoo.com/markets/article/spacex-openai-and-anthropic-here-are-the-most-anticipated-ipos-in-2026-114439441.html",
+    "title": "SpaceX、OpenAI与Anthropic：2026年最受期待的IPO（SpaceX, OpenAI, and Anthropic: Here are the most anticipated IPOs in 2026）",
+    "published": "",
+    "addedAt": "2026-05-17T20:04:00+08:00"
+  },
+  {
+    "url": "https://www.morningstar.com/markets/smart-investor-these-ai-ipos-are-booming",
+    "title": "聪明投资者：火爆的AI IPO、顶级基金经理的耐心买入与护城河困境（Smart Investor: Red-Hot AI IPOs, a Top Managers’ Patient Buy, and Wide-Moat Woes. | Morningstar）",
+    "published": "",
+    "addedAt": "2026-05-17T20:04:00+08:00"
+  },
+  {
+    "url": "https://www.indexbox.io/blog/cerebras-completes-record-55b-ipo-surpasses-66b-market-cap/",
+    "title": "Cerebras Systems IPO募资55亿美元，创半导体行业最大规模上市之一（Cerebras Systems IPO Raises $5.5 Billion in One of the Largest Semiconductor Offerings - News and Statistics - IndexBox）",
+    "published": "",
+    "addedAt": "2026-05-17T20:04:00+08:00"
+  },
+  {
+    "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-cbrs/cerebras-systems/news/cerebras-systems-ipo-sparks-interest-in-high-valuation-ai-ch",
+    "title": "Cerebras Systems IPO引发对高估值AI芯片挑战者的关注（Cerebras Systems IPO Sparks Interest In High Valuation AI Chip Challenger - Simply Wall St News）",
+    "published": "",
+    "addedAt": "2026-05-17T20:04:00+08:00"
   }
 ]
