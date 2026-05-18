@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://www.electronicsmedia.info/2026/04/23/marvell-polariton-acquisition/",
-    "title": "Marvell收购Polariton加强下一代光学互连技术",
-    "published": "2026-04-23",
-    "addedAt": "2026-04-25T06:16:42+08:00"
-  },
-  {
-    "url": "https://evertiq.com/design/2026-04-23-siemens-collaborates-with-tsmc-to-advance-ai-for-chip-design",
-    "title": "Siemens与TSMC合作推进AI驱动芯片设计自动化",
-    "published": "2026-04-23",
-    "addedAt": "2026-04-25T06:16:42+08:00"
-  },
-  {
-    "url": "https://finance.sina.com.cn/jjxw/2026-04-22/doc-inhvixkn4404121.shtml",
-    "title": "半导体设备自主可控加速：北方华创发布新一代刻蚀和混合键合设备",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-25T06:16:42+08:00"
-  },
-  {
-    "url": "https://siliconangle.com/2026/04/23/intel-crushes-wall-streets-expectations-stock-surges-20-revival-gains-pace/",
-    "title": "Intel Q1财报远超预期，股价飙升20%，AI驱动复苏信号明确",
-    "published": "2026-04-24T00:18:00Z",
-    "addedAt": "2026-04-25T13:00:00+08:00"
-  },
-  {
-    "url": "https://www.nownews.com/news/6810271",
-    "title": "台积电发布A12与A13先进逻辑制程，预告2029年量产，未采用ASML最新光刻机",
-    "published": "2026-04-23T00:00:00.000Z",
-    "addedAt": "2026-04-25T13:00:00+08:00"
-  },
-  {
     "url": "https://caifuhao.eastmoney.com/news/20260424165341581113160?from=guba&name=5Yip5bCU6L6%2B5ZCn&gubaurl=aHR0cHM6Ly9ndWJhLmVhc3Rtb25leS5jb20vbGlzdCw5MjAyNDkuaHRtbA%3D%3D",
     "title": "封测四大巨头年报出炉：通富微电、长电科技、华天科技、晶方科技后市预期对比",
     "published": "20小时前",
@@ -2998,5 +2968,35 @@
     "title": "台积电创纪录的设备订单暗示另一波资本支出冲击（TSMC’s Record Tool Orders Hint at Another CapEx Shockwave）",
     "published": "Fri, 15 May 2026 15:00:50 +0000",
     "addedAt": "2026-05-18T13:02:00+08:00"
+  },
+  {
+    "url": "https://drwealth.com/skyechip-ipo-can-this-ride-on-the-semiconductor-rally/",
+    "title": "SkyeChip IPO：能否乘上半导体反弹的东风？（SkyeChip IPO: Can this ride on the semiconductor rally? | Dr Wealth）",
+    "published": "",
+    "addedAt": "2026-05-18T20:02:00+08:00"
+  },
+  {
+    "url": "https://www.indexbox.io/blog/nvidia-vs-cerebras-the-new-ai-chip-stock-rivalry/",
+    "title": "英伟达 vs Cerebras：Cerebras创纪录IPO后的AI芯片股对决（Nvidia vs Cerebras: AI Chip Stock Battle After Cerebras' Record IPO - News and Statistics - IndexBox）",
+    "published": "",
+    "addedAt": "2026-05-18T20:02:00+08:00"
+  },
+  {
+    "url": "https://meyka.com/blog/cerebras-stock-may-18-ai-chip-ipo-soars-68-in-blockbuster-debut-1805/",
+    "title": "Cerebras 5月18日股价：AI芯片IPO首秀暴涨68%（Cerebras Stock May 18: AI Chip IPO Soars 68% in Blockbuster Debut | Meyka）",
+    "published": "",
+    "addedAt": "2026-05-18T20:02:00+08:00"
+  },
+  {
+    "url": "https://powerpeakdigest.com/waaree-energies-completes-acquisition-of-waaree-semicon/",
+    "title": "Waaree Energies完成对Waaree Semicon的收购（Waaree Energies completes acquisition of Waaree Semicon | Power Peak Digest）",
+    "published": "",
+    "addedAt": "2026-05-18T20:02:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/ceo-interviews/369172-ceo-interview-with-rp-singh/",
+    "title": "Seasia Infotech首席执行官RP Singh专访（CEO Interview with RP Singh of Seasia Infotech）",
+    "published": "Sun, 17 May 2026 21:00:12 +0000",
+    "addedAt": "2026-05-18T20:02:00+08:00"
   }
 ]
