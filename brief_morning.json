@@ -1,6 +1,6 @@
 {
-  "version": "v20260518-0607",
-  "generatedAt": "2026-05-18T06:07:00+08:00",
+  "version": "v20260519-0603",
+  "generatedAt": "2026-05-19T06:03:00+08:00",
   "period": "morning",
   "commit": "",
   "glossary_list": [
@@ -18,6 +18,111 @@
       "term": "OSAT",
       "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
       "category": "封装"
+    },
+    {
+      "term": "AI加速卡",
+      "desc": "专门用于加速人工智能计算任务的硬件扩展卡",
+      "category": "硬件"
+    },
+    {
+      "term": "Wafer Scale Chip",
+      "desc": "晶圆级芯片，在整块晶圆上制造单个超大芯片的技术",
+      "category": "制造"
+    },
+    {
+      "term": "IPO",
+      "desc": "首次公开募股，企业首次向公众发行股票",
+      "category": "金融"
+    },
+    {
+      "term": "Semiconductor Rally",
+      "desc": "半导体反弹，指半导体行业从周期性低谷中复苏并呈现增长趋势",
+      "category": "市场"
+    },
+    {
+      "term": "Acquisition",
+      "desc": "收购，一家公司购买另一家公司股权或资产以获得控制权",
+      "category": "金融"
+    },
+    {
+      "term": "*ST",
+      "desc": "退市风险警示，指连续两年亏损或财务异常的A股上市公司特殊标识",
+      "category": "金融"
+    },
+    {
+      "term": "Token工厂",
+      "desc": "大规模AI算力中心，专门用于生成和处理AI模型Token的算力基础设施",
+      "category": "AI"
+    },
+    {
+      "term": "SK海力士",
+      "desc": "韩国第二大半导体制造商，全球领先的存储芯片供应商",
+      "category": "企业"
+    },
+    {
+      "term": "舱驾一体",
+      "desc": "将智能座舱域和自动驾驶域融合为单一中央计算单元的汽车电子架构",
+      "category": "汽车电子"
+    },
+    {
+      "term": "三维集成化技术",
+      "desc": "通过垂直堆叠并互连多个芯片实现高密度、高性能集成的封装技术",
+      "category": "封装"
+    },
+    {
+      "term": "M.2 AI accelerator",
+      "desc": "采用M.2接口规格的AI加速模块，用于为边缘计算设备提供额外的AI推理算力",
+      "category": "硬件"
+    },
+    {
+      "term": "NXP i.MX 95",
+      "desc": "恩智浦推出的面向高端边缘计算和汽车应用的应用处理器",
+      "category": "芯片"
+    },
+    {
+      "term": "GST superlattice",
+      "desc": "由GeSbTe（锗锑碲）相变材料构成的超晶格结构，用于实现低损耗的非易失性光路切换",
+      "category": "材料"
+    },
+    {
+      "term": "Nonvolatile silicon photonic switching",
+      "desc": "无需持续供电即可保持光路连接状态的硅基光子开关技术",
+      "category": "硅光"
+    },
+    {
+      "term": "Ambient intelligence",
+      "desc": "情境智能/环境智能，指嵌入环境中无缝响应人类需求的AI技术",
+      "category": "AI"
+    },
+    {
+      "term": "Samantha",
+      "desc": "电影《她》中的AI虚拟伴侣角色，此处代指拟人化AI伴侣趋势",
+      "category": "综合"
+    },
+    {
+      "term": "Seasia Infotech",
+      "desc": "一家提供软件开发和数字化转型服务的IT技术公司",
+      "category": "企业"
+    },
+    {
+      "term": "CapEx",
+      "desc": "资本支出，企业用于购买、升级或维护物理资产（如厂房、设备）的资金",
+      "category": "财务"
+    },
+    {
+      "term": "Wildcat Lake",
+      "desc": "英特尔新一代处理器/平台代号，主打高性价比笔记本市场",
+      "category": "产品"
+    },
+    {
+      "term": "Project Firefly",
+      "desc": "英特尔推出的标准化笔记本设计参考项目，旨在联合供应链对抗竞品",
+      "category": "战略"
+    },
+    {
+      "term": "Core Series 3",
+      "desc": "英特尔Wildcat Lake平台下的处理器系列命名，定位主流轻薄本",
+      "category": "产品"
     }
   ],
   "topic_pulse": [
@@ -26,63 +131,538 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "社区对先进封装的讨论热度明显降温，近期缺乏重大技术突破或产能扩张的新消息刺激，市场情绪趋于观望。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "HBM话题热度回落，随着前期产能分配消息被消化，社区暂无新的供需动态，讨论情绪从亢奋转为平静。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "国内晶圆厂和先进制程话题降温，缺乏新的量产节点进展披露，社区关注点暂时转移至其他领域。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "国产EDA/IP板块热度下降，近期未见重磅替代突破或政策新规，社区讨论处于低频平稳期。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "封测板块热度走低，传统OSAT缺乏业绩超预期催化，社区讨论暂无显著焦点。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "出口管制话题热度消退，近期无新增制裁清单或政策收紧传闻，市场情绪暂时放松。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "英伟达及AI芯片讨论热度下降，在新一代架构发布前的空窗期，社区缺乏足够的话题增量，情绪趋于理性。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "国产设备与材料话题降温，近期未见关键环节的验证突破或大单落地，社区讨论进入阶段性沉寂。"
     }
   ],
-  "items": [],
+  "items": [
+    {
+      "title": "国产AI芯片崛起：三大门派、瓜分英伟达",
+      "url": "https://36kr.com/p/3767894822925058",
+      "description": "国产AI芯片崛起：三大门派、瓜分英伟达-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 国产AI芯片崛起：三大门派、瓜分英伟达\n\n国产崛起，英伟达不再无敌。\n\n2025年，国产AI芯片出货量和市占率又上了新高。\n\n根据IDC最新发布的年度数据，中国AI加速卡市场总出货量达到约400万张，本土厂商合计出货约165万张，市场份额首次突破四成，达到41%。\n\n这一数据的背后，是从英伟达一家独大的格局 ，正式进入华为领跑、多强并起的新阶段。\n\n回顾2024年，英伟达虽仍占据约70%的市场份额（出货量超190万张",
+      "published": "2026-05-18T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "国产AI芯片正形成三大门派格局，对英伟达的替代效应日益显著。",
+        "中国AI加速卡市场本土化趋势加速，供应链自主可控能力提升。"
+      ],
+      "actions": [
+        "关注国产AI芯片三大门派的核心供应商，提前布局相关产业链。",
+        "评估英伟达市场份额被瓜分对现有业务的影响，寻找国产替代的切入点。"
+      ],
+      "glossary": [
+        {
+          "term": "AI加速卡",
+          "desc": "专门用于加速人工智能计算任务的硬件扩展卡",
+          "category": "硬件"
+        }
+      ],
+      "region": "domestic",
+      "summary": "国产AI芯片出货量和市占率在2025年创下新高，中国AI加速卡市场本土厂商合计出货量显著增长，正逐步瓜分英伟达的市场份额。",
+      "tag_category": "综合",
+      "title_en": "国产AI芯片崛起：三大门派、瓜分英伟达-36氪"
+    },
+    {
+      "title": "Cerebras晶圆级AI芯片IPO上市（Cerebras ipo wafer scale ai chip）",
+      "url": "https://www.knightli.com/en/2026/05/18/cerebras-ipo-wafer-scale-ai-chip/",
+      "description": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0004\u0003�}[�\u001cǕ�;#�\u001fR--f\u0010��{� �C\u0001\u0003��\b\u00100g��W������.LwU���\u0007 \u0012\u0011�}Xo8���^;\u001c!{��}����eWZ\u0007���\u0010i��?��w2���2�\u0019b\u0000\u0011\\�DtwUV���s�sN�}��Ã���\u001a����w���\u001a�a�]�Ò�\u0006q�4L�\u0012�)�� |���7�SWy\u00037N���6I{��\u001a���;��k��?\u001dGq���(L�\u0010�N�n:hw�i�����PA\u0018��;t\u0012�\u001d��ښ�[���\u0013/\u000e�i\u0010�y7�\u0003?�;���\u0004\u0000����}���^��*H\u0013���t�OT��LҲ:\u001a\u0004�r�4���\u001aF� ~�*\u001d���=�!",
+      "published": "2026-05-18T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "晶圆级芯片技术打破了传统芯片尺寸限制，在AI训练算力上具有显著优势。",
+        "Cerebras的IPO反映出市场对非传统架构AI芯片的资本关注度正在上升。"
+      ],
+      "actions": [
+        "关注Cerebras晶圆级芯片的代工和封装供应链合作伙伴，寻找潜在业务机会。",
+        "评估晶圆级芯片技术对传统GPU算力架构的长期冲击，调整技术路线图。"
+      ],
+      "glossary": [
+        {
+          "term": "Wafer Scale Chip",
+          "desc": "晶圆级芯片，在整块晶圆上制造单个超大芯片的技术",
+          "category": "制造"
+        },
+        {
+          "term": "IPO",
+          "desc": "首次公开募股，企业首次向公众发行股票",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Cerebras Systems以其晶圆级AI芯片技术启动IPO，旨在通过颠覆性的芯片架构在AI算力市场占据一席之地。",
+      "tag_category": "EDA/IP",
+      "title_en": "Cerebras ipo wafer scale ai chip"
+    },
+    {
+      "title": "SkyeChip IPO：能否乘上半导体反弹的东风？（SkyeChip IPO: Can this ride on the semiconductor rally?）",
+      "url": "https://drwealth.com/skyechip-ipo-can-this-ride-on-the-semiconductor-rally/",
+      "description": "The Malaysian technology sector, once a fertile ground for spectacular multi-bagger returns, has admittedly lost some of its lustre over the past two years amid global cyclical downturns and geopolitical shifts. However, the impending Main Market listing of SkyeChip Berhad (KLSE: SKYECHIP) ...",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "东南亚半导体产业链正试图在全球周期性复苏中寻找资本扩张机会。",
+        "地缘政治重塑了全球半导体供应链，区域性半导体企业迎来了估值重塑的窗口期。"
+      ],
+      "actions": [
+        "评估东南亚半导体封装及测试产业链的投资与合作机会，特别是IPO标的。",
+        "关注全球半导体周期复苏进度，适时调整对区域性半导体企业的采购和供应链策略。"
+      ],
+      "glossary": [
+        {
+          "term": "IPO",
+          "desc": "首次公开募股，企业首次向公众发行股票",
+          "category": "金融"
+        },
+        {
+          "term": "Semiconductor Rally",
+          "desc": "半导体反弹，指半导体行业从周期性低谷中复苏并呈现增长趋势",
+          "category": "市场"
+        }
+      ],
+      "region": "overseas",
+      "summary": "马来西亚科技公司SkyeChip启动IPO，试图在全球半导体周期性复苏和地缘政治变化中抓住市场反弹的机遇。",
+      "tag_category": "EDA/IP",
+      "title_en": "SkyeChip IPO: Can this ride on the semiconductor rally? | Dr Wealth"
+    },
+    {
+      "title": "Waaree Energies完成对Waaree Semicon的收购（Waaree Energies completes acquisition of Waaree Semicon）",
+      "url": "https://powerpeakdigest.com/waaree-energies-completes-acquisition-of-waaree-semicon/",
+      "description": "Waaree Energies acquired Waaree Semicon through subsidiary WPPL for Rs 1 lakh. The move supports semiconductor expansion.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "新能源企业通过收购半导体子公司，加速向半导体领域跨界扩张。",
+        "印度本土企业正积极布局半导体产业链，以响应国家半导体战略和市场需求。"
+      ],
+      "actions": [
+        "关注印度半导体市场的本土化扩张动向，评估其供应链整合潜力。",
+        "新能源与半导体跨界融合趋势明显，可探索相关功率半导体器件的市场机会。"
+      ],
+      "glossary": [
+        {
+          "term": "Acquisition",
+          "desc": "收购，一家公司购买另一家公司股权或资产以获得控制权",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Waaree Energies通过子公司WPPL以10万卢比完成了对Waaree Semicon的收购，此举旨在支持其半导体业务的扩张。",
+      "tag_category": "综合",
+      "title_en": "Waaree Energies completes acquisition of Waaree Semicon | Power Peak Digest"
+    },
+    {
+      "title": "*ST中润控股股东协议转让股权暨控制权拟变更提示性公告",
+      "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=&id=10524651",
+      "description": "公司公告_*ST中润：关于控股股东协议转让股权暨控制权拟发生变更和权益变动的的提示性公告新浪财经_新浪网\n\n- 热点推荐\n- ·自选股-轻松管理您的千只股票\n- ·金融e路通-理财投资更轻松\n- ·行情中心-通往财富之门\n\n博客\n\n上证指数: 0000.00 0.00 00.00亿元 |深圳成指: 0000.00 0.00 00.00亿元 |沪深300: 0000.00 0.00 00.00亿元\n\n# 读取中,请稍候\n\n| 00-00 00:00:00 |\n| --- |\n\n##### --.--\n\n| 0.00 (0.000%) | 昨收盘:0.000 | 今开盘:0.000 | 最高价:0",
+      "published": "2026-05-18T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "上市公司控制权变更往往伴随业务重组或战略转型，可能引发供应链波动。",
+        "ST类公司的股权变动风险较高，需警惕其经营稳定性对上下游合作的影响。"
+      ],
+      "actions": [
+        "若与*ST中润存在业务往来，需紧急评估控制权变更带来的应收账款和交付风险。",
+        "密切关注该公司后续公告，防范因控制权变更导致的供应链断裂风险。"
+      ],
+      "glossary": [
+        {
+          "term": "*ST",
+          "desc": "退市风险警示，指连续两年亏损或财务异常的A股上市公司特殊标识",
+          "category": "金融"
+        }
+      ],
+      "region": "domestic",
+      "summary": "*ST中润发布提示性公告，称控股股东拟协议转让股权，公司控制权及权益将发生变更。",
+      "tag_category": "综合",
+      "title_en": "公司公告_*ST中润：关于控股股东协议转让股权暨控制权拟发生变更和权益变动的的提示性公告新浪财经_新浪网"
+    },
+    {
+      "title": "无锡大动作：建设大规模“Token工厂”并深化与SK海力士合作",
+      "url": "https://news.smm.cn/news/103904893",
+      "description": "无锡大动作！一边建大规模“Token工厂”、一边与SK海力士深化合作__上海有色网\n\n微信扫一扫\n\n手机有色\n\n掌上有色\n\n为有色金属行业量身打造的APP-SMM官方出品\n\n扫码下载查看详情\n\n今日有色\n\n热点资讯 深度解析 独家调研\n\n微信扫一扫关注\n\n021-31330333\n\n服务时间：工作日9:00-18:00\n\n资讯公告\n\n# 无锡大动作！一边建大规模“Token工厂”、一边与SK海力士深化合作\n\n无锡，将建立一座大规模“Token工厂”。\n\n据无锡日报报道，5月15日，国内AI算力龙头企业弘信电子联手无锡高新区打造的省内首个华为昇腾384超节点算力集群，签约落户无锡。\n\n与此同时，",
+      "published": "2026-05-18T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "地方政府通过建设“Token工厂”等算力基础设施，强力推动AI产业落地。",
+        "与SK海力士深化合作表明无锡在存储芯片及先进封装领域的战略布局正在加速。"
+      ],
+      "actions": [
+        "关注无锡“Token工厂”带来的算力租赁与AI应用生态机会，提前对接地方政策。",
+        "追踪SK海力士在无锡的扩产动向，寻找HBM及先进存储产业链的配套合作切入点。"
+      ],
+      "glossary": [
+        {
+          "term": "Token工厂",
+          "desc": "大规模AI算力中心，专门用于生成和处理AI模型Token的算力基础设施",
+          "category": "AI"
+        },
+        {
+          "term": "SK海力士",
+          "desc": "韩国第二大半导体制造商，全球领先的存储芯片供应商",
+          "category": "企业"
+        }
+      ],
+      "region": "domestic",
+      "summary": "无锡市正大力推进半导体与AI基础设施建设，一方面规划建设大规模“Token工厂”，另一方面深化与SK海力士的产业合作。",
+      "tag_category": "综合",
+      "title_en": "无锡大动作！一边建大规模“Token工厂”、一边与SK海力士深化合作__上海有色网"
+    },
+    {
+      "title": "舱驾一体量产：成本破局，生态定局",
+      "url": "https://k.sina.com.cn/article_7857141524_1d452771401902m6ec.html",
+      "description": "舱驾一体量产：成本破局，生态定局|北京车展|东风|零跑d19|智能体|智能汽车_新浪新闻\n\n移动客户端\n\n登录\n\n# 新浪看点\n\n正文\n\n新浪新闻客户端\n\n新浪新闻公众号\n\n新浪新闻视频号\n\n新浪新闻抖音\n\n新浪新闻快手\n\n新浪新闻小红书\n\n新浪新闻B站\n\n热搜时代小宇宙\n\n×\n\n点击任意位置关闭\n\n新闻 图片 视频\n\n# 舱驾一体量产：成本破局，生态定局\n\n舱驾一体量产：成本破局，生态定局\n\n2026北京车展以“领时代·智未来”为主题，精准捕捉到全球汽车产业变革发展的脉动。其中，在令人目不暇接的新车发布与产品展演之外，智能汽车的“大脑”正经历一场深刻的融合演进。记者发现，两三年前还停留在技术",
+      "published": "2026-05-17T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "舱驾一体通过整合座舱与驾驶域控制器，能显著降低硬件成本和系统复杂度，是车企降本增效的关键路径。",
+        "量产落地不仅依赖芯片厂商提供高集成度SoC，更需要软硬件生态的协同定义，生态定局将决定供应链话语权。"
+      ],
+      "actions": [
+        "车载芯片供应商应加快高集成度舱驾一体SoC的研发与适配，抢占下一代智能汽车架构定义权。",
+        "Tier 1厂商需提前布局跨域融合的软硬件中间件平台，以适应车企从分布式向集中式架构的演进需求。"
+      ],
+      "glossary": [
+        {
+          "term": "舱驾一体",
+          "desc": "将智能座舱域和自动驾驶域融合为单一中央计算单元的汽车电子架构",
+          "category": "汽车电子"
+        }
+      ],
+      "region": "domestic",
+      "summary": "北京车展期间，舱驾一体技术成为智能汽车焦点，东风和零跑等车企推进该技术量产，旨在降低硬件成本并重塑汽车生态格局。",
+      "tag_category": "综合",
+      "title_en": "舱驾一体量产：成本破局，生态定局|北京车展|东风|零跑d19|智能体|智能汽车_新浪新闻"
+    },
+    {
+      "title": "解读先进半导体封装最新动向的三维集成技术研讨会",
+      "url": "https://tech-seminar.jp/seminar/2026-05-18-%E5%85%88%E9%80%B2%E5%8D%8A%E5%B0%8E%E4%BD%93%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%81%AE%E6%9C%80%E6%96%B0%E5%8B%95%E5%90%91%E3%82%92%E8%AA%AD%E3%81%BF%E8%A7%A3%E3%81%8F%E3%81%9F%E3%82%81%E3%81%AE%E4%B8%89%E6%AC%A1%E5%85%83%E9%9B%86%E7%A9%8D%E5%8C%96%E6%8A%80%E8%A1%93",
+      "description": "先進半導体パッケージの最新動向を読み解くための三次元集積化技術 (2026年5月18日 開催) - セミナー・研修 | tech-seminar.jp\n\n技術セミナー・研修・出版・書籍・通信教育・eラーニング・講師派遣の テックセミナー ジェーピー\n\n# tech-seminar.jp\n\n## 先進半導体パッケージの最新動向を読み解くための三次元集積化技術\n\n# 先進半導体パッケージの最新動向を読み解くための三次元集積化技術\n\nオンライン 開催\n\n本セミナーは終了いたしました。\n\nアーカイブ配信で受講をご希望の場合、視聴期間は2026年5月27日〜6月6日を予定しております。 アーカイフ",
+      "published": "2026-05-18T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "三维集成技术（3D IC）是突破摩尔定律物理极限的核心路径，先进封装正成为半导体产业链价值重心。",
+        "日本在半导体材料和封装设备领域具备深厚积累，此类专业研讨会的动向往往预示着底层工艺的演进趋势。"
+      ],
+      "actions": [
+        "封装设备与材料供应商应密切关注日本学术界与产业界在3D集成上的工艺突破，提前规划技术引进或合作。",
+        "国内芯片设计企业需评估3D封装对芯片面积、功耗和性能的提升效益，在高端产品线中规划导入3D IC架构。"
+      ],
+      "glossary": [
+        {
+          "term": "三维集成化技术",
+          "desc": "通过垂直堆叠并互连多个芯片实现高密度、高性能集成的封装技术",
+          "category": "封装"
+        }
+      ],
+      "region": "domestic",
+      "summary": "日本tech-seminar将于2026年5月18日举办研讨会，深入解读先进半导体封装领域的最新动向及三维集成化技术。",
+      "tag_category": "综合",
+      "title_en": "先進半導体パッケージの最新動向を読み解くための三次元集積化技術 (2026年5月18日 開催) - セミナー・研修 | tech-seminar.jp"
+    },
+    {
+      "title": "基于NXP i.MX 95的Geniatech APC888边缘AI盒式PC支持Hailo、MemryX、NXP或DeepX的M.2 AI加速器（Geniatech APC888 NXP i.MX 95-powered Edge AI Box PC takes M.2 AI accelerator from Hailo, MemryX, NXP, or DeepX）",
+      "url": "https://www.cnx-software.com/2026/05/18/geniatech-apc888-nxp-i-mx-95-powered-edge-ai-box-pc-takes-m-2-ai-accelerator-from-hailo-memryx-nxp-or-deepx/",
+      "description": "Geniatech APC888 NXP i.MX 95-powered Edge AI Box PC takes M.2 AI accelerator from Hailo, MemryX, NXP, or DeepX - CNX Software\n\nGeniatech APC888 Edge AI Box PC is powered by an NXP i.MX 95 Cortex-A55/M7/M33 applications processor, and features an M.2 socket for AI accelerator from Hailo, MemryX, Deep",
+      "published": "2026-05-18T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "边缘AI计算正走向模块化和异构集成，通过M.2接口外挂独立AI加速器成为平衡主控成本与算力需求的灵活方案。",
+        "NXP i.MX 95结合多家第三方AI加速器，反映出边缘侧算力需求多样化，单一主控SoC难以满足所有场景的AI推理需求。"
+      ],
+      "actions": [
+        "边缘计算设备厂商可参考此模块化设计思路，通过M.2接口预留AI算力扩展槽，提升产品对不同客户场景的适配性。",
+        "AI加速芯片初创公司（如DeepX、MemryX）应积极与主流边缘计算平台建立M.2接口适配与生态互认，加速产品商用落地。"
+      ],
+      "glossary": [
+        {
+          "term": "M.2 AI accelerator",
+          "desc": "采用M.2接口规格的AI加速模块，用于为边缘计算设备提供额外的AI推理算力",
+          "category": "硬件"
+        },
+        {
+          "term": "NXP i.MX 95",
+          "desc": "恩智浦推出的面向高端边缘计算和汽车应用的应用处理器",
+          "category": "芯片"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Geniatech推出基于NXP i.MX 95处理器的APC888边缘AI盒式PC，该设备可通过M.2接口灵活搭载来自Hailo、MemryX、NXP或DeepX的AI加速模块。",
+      "tag_category": "综合",
+      "title_en": "Geniatech APC888 NXP i.MX 95-powered Edge AI Box PC takes M.2 AI accelerator from Hailo, MemryX, NXP, or DeepX - CNX Software"
+    },
+    {
+      "title": "基于GST超晶格实现的低损耗非易失性硅光子开关（Low-loss nonvolatile silicon photonic switching enabled by a GST superlattice）",
+      "url": "https://opg.optica.org/ao/abstract.cfm?uri=ao-65-15-4902",
+      "description": "Low-loss nonvolatile silicon photonic switching enabled by a GST superlattice clickable element to expand a topic\n\n- Applied Optics\n- Vol. 65,\n- Issue 15,\n- pp. 4902-4908\n- (2026)\n- • https://doi.org/10.1364/AO.593207\n\nNot Accessible\n\nYour library or personal account may give you access\n\n### Related",
+      "published": "2026-05-20T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "非易失性光子开关能在断电状态下保持光路配置，极大降低光通信网络的静态功耗，是硅光子技术走向实用化的关键突破。",
+        "GST超晶格相变材料的引入解决了传统硅光开关损耗高、需持续供电的问题，将加速光子计算与光路重构在数据中心的应用。"
+      ],
+      "actions": [
+        "硅光芯片研发团队应跟踪GST超晶格等相变材料在光开关上的工艺兼容性研究，评估其在下一代光互连产品中的应用潜力。",
+        "数据中心网络架构师需关注非易失性光开关技术，未来可能借此实现低功耗、可动态重构的片间/片上光网络拓扑。"
+      ],
+      "glossary": [
+        {
+          "term": "GST superlattice",
+          "desc": "由GeSbTe（锗锑碲）相变材料构成的超晶格结构，用于实现低损耗的非易失性光路切换",
+          "category": "材料"
+        },
+        {
+          "term": "Nonvolatile silicon photonic switching",
+          "desc": "无需持续供电即可保持光路连接状态的硅基光子开关技术",
+          "category": "硅光"
+        }
+      ],
+      "region": "overseas",
+      "summary": "研究人员利用GST（GeSbTe）超晶格材料成功实现了低损耗的非易失性硅光子开关，为光通信和光计算芯片的高效路由提供了新方案。",
+      "tag_category": "综合",
+      "title_en": "Low-loss nonvolatile silicon photonic switching enabled by a GST superlattice"
+    },
+    {
+      "title": "从自拍到萨曼莎：下一个万亿美元级行为（From the Selfie to Samantha: The Next Trillion-Dollar Behavior）",
+      "url": "https://semiwiki.com/events/369163-from-the-selfie-to-samantha-the-next-trillion-dollar-behavior/",
+      "description": "<p>At CES 2026, Samsung called it a “companion.” Lenovo called it “ambient intelligence.” OpenAI spent $6.4 billion on a screenless device designed to be a continuous presence in your pocket. Meta acquired Limitless, the AI pendant that had been tracking everything its wearers said and heard. Every ",
+      "published": "Mon, 18 May 2026 17:00:24 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI硬件形态正从功能型工具向“AI伴侣”演进，无屏、持续陪伴的交互方式可能成为下一代终端的杀手级应用。",
+        "巨头在AI端侧设备的重金投入表明，情境智能与拟人化交互有望重塑消费电子生态，催生全新的供应链需求。"
+      ],
+      "actions": [
+        "消费电子芯片供应商需关注低功耗、始终在线的语音/视觉交互SoC需求，提前布局适配AI伴侣设备的算力与连接方案。",
+        "传感器及模组厂商应瞄准“无屏化”AI终端的感知需求，开发小型化、低功耗的麦克风阵列和环境传感器组件。"
+      ],
+      "glossary": [
+        {
+          "term": "Ambient intelligence",
+          "desc": "情境智能/环境智能，指嵌入环境中无缝响应人类需求的AI技术",
+          "category": "AI"
+        },
+        {
+          "term": "Samantha",
+          "desc": "电影《她》中的AI虚拟伴侣角色，此处代指拟人化AI伴侣趋势",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "CES 2026上各大厂商推出AI伴侣和情境智能设备，OpenAI斥资64亿美元收购无屏设备，Meta等巨头也在布局，预示着AI交互正从自拍转向拟人化陪伴，孕育万亿级市场。",
+      "tag_category": "综合",
+      "title_en": "From the Selfie to Samantha: The Next Trillion-Dollar Behavior"
+    },
+    {
+      "title": "Seasia Infotech首席执行官RP Singh专访（CEO Interview with RP Singh of Seasia Infotech）",
+      "url": "https://semiwiki.com/ceo-interviews/369172-ceo-interview-with-rp-singh/",
+      "description": "<p>Rupinder Pal Singh is the co-founder and CEO of <a id=\"m_642737882949232392m_-3958501896992774582m_6619232790504261198m_7042965104535926824m_-8304495499678104764gmail-menurel9\" title=\"https://www.seasiainfotech.com/\" href=\"https://www.seasiainfotech.com/\" target=\"_blank\" rel=\"noreferrer noopener\"",
+      "published": "Sun, 17 May 2026 21:00:12 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "软件技术服务商在数字化转型浪潮中扮演关键使能者角色，其战略方向往往折射出企业级客户对新兴技术栈的采纳趋势。",
+        "CEO访谈透露的战略重心，有助于判断IT外包与软件开发市场在AI、云原生等领域的需求转移。"
+      ],
+      "actions": [
+        "半导体及硬件企业可关注此类软件服务商的生态合作动向，寻找软硬件协同的数字化解决方案切入点。",
+        "供应链管理者应评估软件外包伙伴在AI集成和云原生方面的能力，以支撑自身产品的软件定义转型。"
+      ],
+      "glossary": [
+        {
+          "term": "Seasia Infotech",
+          "desc": "一家提供软件开发和数字化转型服务的IT技术公司",
+          "category": "企业"
+        }
+      ],
+      "region": "overseas",
+      "summary": "本次专访深入探讨了Seasia Infotech首席执行官RP Singh对软件技术开发、数字化转型及行业未来趋势的见解与公司战略布局。",
+      "tag_category": "综合",
+      "title_en": "CEO Interview with RP Singh of Seasia Infotech"
+    },
+    {
+      "title": "台积电创纪录的设备订单暗示新一轮资本支出冲击波（TSMC’s Record Tool Orders Hint at Another CapEx Shockwave）",
+      "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/369288-tsmcs-record-tool-orders-hint-at-another-capex-shockwave/",
+      "description": "<p>TSMC’s latest Board of Directors capital appropriation announcement may appear mixed on the surface, but a closer look reveals one important conclusion: <strong>The company is quietly setting the stage for another potential upward revision to its already aggressive 2026 capital expenditure outloo",
+      "published": "Fri, 15 May 2026 15:00:50 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "台积电持续加码设备投资，反映出其对先进制程和AI相关产能需求的长期看好，资本支出强度可能超出市场预期。",
+        "创纪录的设备订单通常意味着产能扩张周期的提前或加速，将直接拉动上游半导体设备商的业绩预期。"
+      ],
+      "actions": [
+        "半导体设备供应商应提前备货并锁定长交期零部件，以应对台积电可能爆发的集中采购需求。",
+        "投资者需重新评估台积电及相关供应链的资本支出预期，关注后续财报中对CapEx的正式指引调整。"
+      ],
+      "glossary": [
+        {
+          "term": "CapEx",
+          "desc": "资本支出，企业用于购买、升级或维护物理资产（如厂房、设备）的资金",
+          "category": "财务"
+        }
+      ],
+      "region": "overseas",
+      "summary": "台积电最新的董事会资本支出核准表面上看似复杂，但深入分析表明公司正悄然创下设备采购纪录，预示着未来可能迎来新一轮大规模资本支出。",
+      "tag_category": "Fab/制造",
+      "title_en": "TSMC’s Record Tool Orders Hint at Another CapEx Shockwave"
+    },
+    {
+      "title": "英特尔拉拢合作伙伴加入统一的Wildcat Lake蓝图，“萤火虫项目”标准化笔记本设计以对抗MacBook Neo（Intel Drags Partners Into a Unified Wildcat Lake Blueprint, as ‘Project Firefly’ Standardizes Laptop Designs To Tackle MacBook Neo）",
+      "url": "https://wccftech.com/intel-drags-partners-into-a-unified-wildcat-lake-blueprint-as-project-firefly-standardizes-laptop-designs-to-tackle-macbook-neo/",
+      "description": "Intel today unveiled its \"Project Firefly\" initiative in China, which aims to bring the supply chain together to allow cost-effective &#38; standardized Wildcat Lake laptop designs. Intel Wants A Coherent Design &#38; Pricing Structure Across Its Wildcat Lake Laptops &#38; That's Exactly What \"Proje",
+      "published": "Mon, 18 May 2026 19:30:58 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "英特尔通过“萤火虫项目”深度介入ODM/OEM设计，试图以标准化方案降低供应链成本并缩短开发周期，这是应对苹果垂直整合优势的防守反击。",
+        "Wildcat Lake统一蓝图意味着PC供应链的差异化空间可能被压缩，但规模化交付能力和成本控制将得到显著提升。"
+      ],
+      "actions": [
+        "笔记本ODM及零部件供应商应尽快评估加入“萤火虫项目”的合规与设计要求，抢占首批标准化机型的订单份额。",
+        "供应链企业需平衡标准化量产订单与自有差异化产品线，避免过度依赖单一参考设计导致利润率下滑。"
+      ],
+      "glossary": [
+        {
+          "term": "Wildcat Lake",
+          "desc": "英特尔新一代处理器/平台代号，主打高性价比笔记本市场",
+          "category": "产品"
+        },
+        {
+          "term": "Project Firefly",
+          "desc": "英特尔推出的标准化笔记本设计参考项目，旨在联合供应链对抗竞品",
+          "category": "战略"
+        }
+      ],
+      "region": "overseas",
+      "summary": "英特尔在中国推出“萤火虫项目”，旨在联合供应链打造高性价比、标准化的Wildcat Lake笔记本设计，以形成统一蓝图对抗苹果MacBook Neo。",
+      "tag_category": "综合",
+      "title_en": "Intel Drags Partners Into a Unified Wildcat Lake Blueprint, as ‘Project Firefly’ Standardizes Laptop Designs To Tackle MacBook Neo"
+    },
+    {
+      "title": "英特尔Wildcat Lake在CHUWI Unibook笔记本中降至449美元，在接口、电池和屏幕尺寸上击败MacBook Neo（Intel’s Wildcat Lake Hits $449 In CHUWI Unibook Laptop, Beating MacBook Neo On Ports, Battery, And Screen Size）",
+      "url": "https://wccftech.com/intel-wildcat-lake-449-usd-chuwi-unibook-laptop-beating-macbook-neo-on-ports-battery-screen/",
+      "description": "Intel's Wildcat Lake \"Core Series 3\" laptops are now rolling out, and CHUWI has released its Unibook, featuring a $449 price that challenges the MacBook Neo. Intel Wildcat Lake-Powered Chuwi Unibook Laptop Hits Retail, Starting At An Incredible $449 Price Point Earlier today, we saw the first Intel ",
+      "published": "Mon, 18 May 2026 17:45:05 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "449美元的定价策略表明英特尔及其合作伙伴正通过极致性价比和实用规格（接口/电池/屏幕）来错位竞争，瞄准对价格敏感的入门级市场。",
+        "国产OEM品牌（如CHUWI）借助英特尔的标准化参考设计能快速推出竞品，说明“萤火虫项目”的供应链赋能效果已初步显现。"
+      ],
+      "actions": [
+        "关注入门级笔记本市场的渠道商和分销商，应重点评估449美元价位段Wildcat Lake机型的铺货潜力与利润空间。",
+        "外围配件（如扩展坞、大容量电池）供应商可针对此类主打“接口多、大屏幕”的性价比机型开发配套增值方案。"
+      ],
+      "glossary": [
+        {
+          "term": "Core Series 3",
+          "desc": "英特尔Wildcat Lake平台下的处理器系列命名，定位主流轻薄本",
+          "category": "产品"
+        }
+      ],
+      "region": "overseas",
+      "summary": "搭载英特尔Wildcat Lake“Core Series 3”的笔记本已开始上市，CHUWI推出的Unibook定价449美元，在接口丰富度、电池续航和屏幕尺寸上直接挑战MacBook Neo。",
+      "tag_category": "综合",
+      "title_en": "Intel’s Wildcat Lake Hits $449 In CHUWI Unibook Laptop, Beating MacBook Neo On Ports, Battery, And Screen Size"
+    }
+  ],
   "stats": {
-    "total_raw": 0,
-    "after_dedup": 0,
-    "sources": {}
+    "total_raw": 119,
+    "after_dedup": 100,
+    "sources": {
+      "Exa": 12,
+      "RSS": 65,
+      "Brave": 23
+    }
   },
   "code_version": "",
   "data_commit": ""
