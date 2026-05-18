@@ -1,7 +1,7 @@
 {
-  "version": "v20260518-0607",
-  "generatedAt": "2026-05-18T06:07:00+08:00",
-  "period": "morning",
+  "version": "v20260518-1302",
+  "generatedAt": "2026-05-18T13:02:00+08:00",
+  "period": "midday",
   "commit": "",
   "glossary_list": [
     {
@@ -18,6 +18,31 @@
       "term": "OSAT",
       "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
       "category": "封装"
+    },
+    {
+      "term": "IPO",
+      "desc": "首次公开募股，指企业第一次将股份向公众出售。",
+      "category": "金融"
+    },
+    {
+      "term": "WSE",
+      "desc": "晶圆级引擎，Cerebras特有的整颗晶圆作为单一芯片的架构。",
+      "category": "芯片架构"
+    },
+    {
+      "term": "Valuation",
+      "desc": "估值，指对公司或资产价值的评估。",
+      "category": "金融"
+    },
+    {
+      "term": "Speedata",
+      "desc": "一家专注于数据分析加速处理器（DPU）的半导体初创公司。",
+      "category": "公司"
+    },
+    {
+      "term": "CapEx",
+      "desc": "资本支出，企业用于购买、维护或改进固定资产的资金。",
+      "category": "财务"
     }
   ],
   "topic_pulse": [
@@ -26,63 +51,209 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "近期社区对CoWoS产能扩张的讨论热度有所下降，市场逐渐消化了前期扩产消息，情绪趋于理性观望。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "HBM相关话题降温，随着主流厂商产能规划逐步明朗，社区对HBM短缺的焦虑情绪暂时缓解。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "中国Fab制程讨论热度回落，缺乏重大突破性新闻刺激，社区关注点暂时转移至其他领域。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "国产EDA/IP话题降温，近期无重磅新品发布或政策刺激，社区讨论趋于平淡。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "封测OSAT板块热度下降，市场对传统封装产能过剩的担忧增加，讨论焦点暂未集中。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "出口管制话题热度减退，近期无新制裁落地，社区情绪从紧张转为常态化应对。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "AI芯片/NVIDIA话题降温，尽管Cerebras上市引发短暂关注，但英伟达霸主地位未受实质挑战，社区讨论缺乏新意。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": ""
+      "summary": "设备材料国产化讨论暂歇，市场等待下一个验证周期或政策节点，情绪偏谨慎。"
     }
   ],
-  "items": [],
+  "items": [
+    {
+      "title": "英伟达对阵Cerebras：Cerebras创纪录IPO后的AI芯片股之战（Nvidia vs Cerebras: AI Chip Stock Battle After Cerebras' Record IPO - News and Statistics - IndexBox）",
+      "url": "https://www.indexbox.io/blog/nvidia-vs-cerebras-the-new-ai-chip-stock-rivalry/",
+      "description": "Cerebras Systems went public on May 14, 2026, surging 68% in the largest IPO of the year, while Nvidia remains the AI chip leader with 1,500% five-year gains and $215B revenue.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "Cerebras的晶圆级芯片架构正在获得资本市场的高度认可，试图挑战英伟达的AI芯片霸主地位。",
+        "尽管面临新竞争者，英伟达凭借庞大的营收基数和生态壁垒，短期内市场主导地位仍难以被撼动。"
+      ],
+      "actions": [
+        "关注Cerebras晶圆级芯片（WSE）的供应链合作伙伴，寻找潜在的业务切入点。",
+        "评估英伟达与Cerebras在不同AI训练场景下的性价比，调整产品或投资策略。"
+      ],
+      "glossary": [
+        {
+          "term": "IPO",
+          "desc": "首次公开募股，指企业第一次将股份向公众出售。",
+          "category": "金融"
+        },
+        {
+          "term": "WSE",
+          "desc": "晶圆级引擎，Cerebras特有的整颗晶圆作为单一芯片的架构。",
+          "category": "芯片架构"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Cerebras Systems上市首日大涨68%，成为今年最大IPO；而英伟达依然是AI芯片领域的领导者，五年涨幅达1500%，营收2150亿美元。",
+      "tag_category": "EDA/IP",
+      "title_en": "Nvidia vs Cerebras: AI Chip Stock Battle After Cerebras' Record IPO - News and Statistics - IndexBox"
+    },
+    {
+      "title": "Cerebras股票5月18日：AI芯片IPO在重磅首秀中飙升68%（Cerebras Stock May 18: AI Chip IPO Soars 68% in Blockbuster Debut | Meyka）",
+      "url": "https://meyka.com/blog/cerebras-stock-may-18-ai-chip-ipo-soars-68-in-blockbuster-debut-1805/",
+      "description": "Cerebras stock soars 68% in largest tech IPO since Uber, raising $5.55B. AI chip maker valued at $95B as investors bet on semiconductor demand.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "高达950亿美元的估值反映出市场对非GPU架构AI算力的强烈渴求与投资狂热。",
+        "巨额融资将为Cerebras后续的研发和产能扩张提供充足弹药，加剧AI算力赛道竞争。"
+      ],
+      "actions": [
+        "密切追踪Cerebras的产能建设进度及代工合作方的产能分配情况。",
+        "警惕AI芯片赛道估值泡沫，合理评估初创企业长期商业化落地能力。"
+      ],
+      "glossary": [
+        {
+          "term": "Valuation",
+          "desc": "估值，指对公司或资产价值的评估。",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Cerebras股票在自Uber以来最大的科技IPO中飙升68%，融资55.5亿美元。这家AI芯片制造商估值达950亿美元，投资者押注半导体需求。",
+      "tag_category": "EDA/IP",
+      "title_en": "Cerebras Stock May 18: AI Chip IPO Soars 68% in Blockbuster Debut | Meyka"
+    },
+    {
+      "title": "Seasia Infotech首席执行官RP Singh访谈（CEO Interview with RP Singh of Seasia Infotech）",
+      "url": "https://semiwiki.com/ceo-interviews/369172-ceo-interview-with-rp-singh/",
+      "description": "<p>Rupinder Pal Singh is the co-founder and CEO of <a id=\"m_642737882949232392m_-3958501896992774582m_6619232790504261198m_7042965104535926824m_-8304495499678104764gmail-menurel9\" title=\"https://www.seasiainfotech.com/\" href=\"https://www.seasiainfotech.com/\" target=\"_blank\" rel=\"noreferrer noopener\"",
+      "published": "Sun, 17 May 2026 21:00:12 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "软件与数字化服务公司在半导体产业链中的协同作用日益重要，软硬件融合趋势明显。"
+      ],
+      "actions": [
+        "关注软件生态对特定芯片架构的依赖性，评估软硬件协同的商机。"
+      ],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "Seasia Infotech联合创始人兼首席执行官RP Singh的专访，探讨公司发展及行业见解。",
+      "tag_category": "综合",
+      "title_en": "CEO Interview with RP Singh of Seasia Infotech"
+    },
+    {
+      "title": "Speedata首席执行官Adi Gelvan访谈（CEO Interview with Adi Gelvan of Speedata）",
+      "url": "https://semiwiki.com/ceo-interviews/369224-ceo-interview-with-adi-gelvan-of-speedata/",
+      "description": "<p>Adi Gelvan<span style=\"font-size: 1rem;\"> is a veteran tech executive and serial entrepreneur, currently serving as the CEO of <a href=\"https://www.speedata.io/\">SPEEDATA</a>, a semiconductor startup redefining analytics infrastructure with its purpose-built Analytics Processing Unit (APU). Known",
+      "published": "Sun, 17 May 2026 19:00:32 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "专用架构芯片（DSA）初创公司正试图在特定细分市场（如数据分析加速）寻找突破口。",
+        "半导体初创公司需要精准定位痛点以避开巨头正面竞争，连续创业者的经验验证了这一路径。"
+      ],
+      "actions": [
+        "研究Speedata的数据处理加速器（DPU）技术路线，评估其在特定场景下的替代潜力。",
+        "关注初创半导体公司的融资与人才流动，作为行业风向标的参考。"
+      ],
+      "glossary": [
+        {
+          "term": "Speedata",
+          "desc": "一家专注于数据分析加速处理器（DPU）的半导体初创公司。",
+          "category": "公司"
+        }
+      ],
+      "region": "overseas",
+      "summary": "半导体初创公司Speedata的首席执行官Adi Gelvan访谈，分享其作为资深科技高管和连续创业者的行业经验。",
+      "tag_category": "EDA/IP",
+      "title_en": "CEO Interview with Adi Gelvan of Speedata"
+    },
+    {
+      "title": "台积电创纪录的设备订单暗示另一波资本支出冲击（TSMC’s Record Tool Orders Hint at Another CapEx Shockwave）",
+      "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/369288-tsmcs-record-tool-orders-hint-at-another-capex-shockwave/",
+      "description": "<p>TSMC’s latest Board of Directors capital appropriation announcement may appear mixed on the surface, but a closer look reveals one important conclusion: <strong>The company is quietly setting the stage for another potential upward revision to its already aggressive 2026 capital expenditure outloo",
+      "published": "Fri, 15 May 2026 15:00:50 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "台积电创纪录的设备采购预示着先进制程和封装产能的持续紧张与扩张需求。",
+        "半导体设备商将迎来新一轮订单超级周期，尤其是先进制程与先进封装设备供应商。"
+      ],
+      "actions": [
+        "设备供应商应提前备货并扩充产能，以应对台积电可能的大规模采购需求。",
+        "芯片设计公司需尽早与台积电锁定产能，避免因资本支出转换期导致的产能排期延误。"
+      ],
+      "glossary": [
+        {
+          "term": "CapEx",
+          "desc": "资本支出，企业用于购买、维护或改进固定资产的资金。",
+          "category": "财务"
+        }
+      ],
+      "region": "overseas",
+      "summary": "台积电最新的董事会资本拨付公告表面看似复杂，但深入分析揭示了一个重要结论：公司正悄然创下设备订单纪录，可能引发新一轮资本支出激增。",
+      "tag_category": "Fab/制造",
+      "title_en": "TSMC’s Record Tool Orders Hint at Another CapEx Shockwave"
+    }
+  ],
   "stats": {
-    "total_raw": 0,
-    "after_dedup": 0,
-    "sources": {}
+    "total_raw": 77,
+    "after_dedup": 73,
+    "sources": {
+      "RSS": 65,
+      "Brave": 8
+    }
   },
   "code_version": "",
   "data_commit": ""

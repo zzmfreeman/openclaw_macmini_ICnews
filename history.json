@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://finance.sina.cn/tech/2026-04-24/detail-inhvqwcw4380891.d.html",
-    "title": "莱普科技打破激光热处理技术垄断，半导体设备国产化新突破",
-    "published": "2026-04-24",
-    "addedAt": "2026-04-25T06:16:42+08:00"
-  },
-  {
-    "url": "https://m.36kr.com/p/3780651591048451",
-    "title": "2026北京车展：车企争夺芯片资源，内存价格持续上涨",
-    "published": "2026-04-24",
-    "addedAt": "2026-04-25T06:16:42+08:00"
-  },
-  {
-    "url": "https://caifuhao.eastmoney.com/news/20260424170747445885540",
-    "title": "封测四龙头年报出炉：通富微电、长电科技、华天科技、晶方科技业绩分化",
-    "published": "2026-04-24",
-    "addedAt": "2026-04-25T06:16:42+08:00"
-  },
-  {
-    "url": "https://www.asiae.co.kr/en/article/2026042215434452124",
-    "title": "SK海力士清州开工建设P&T7先进封装工厂",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-25T06:16:42+08:00"
-  },
-  {
-    "url": "https://en.sedaily.com/politics/2026/04/22/samsung-to-invest-160-trillion-won-in-p5-twin-fab-for",
-    "title": "Samsung投资160万亿韩元建设P5双子工厂加速HBM供应",
-    "published": "2026-04-22",
-    "addedAt": "2026-04-25T06:16:42+08:00"
-  },
-  {
     "url": "https://www.electronicsmedia.info/2026/04/23/marvell-polariton-acquisition/",
     "title": "Marvell收购Polariton加强下一代光学互连技术",
     "published": "2026-04-23",
@@ -2998,5 +2968,35 @@
     "title": "Cerebras Systems IPO引发对高估值AI芯片挑战者的关注（Cerebras Systems IPO Sparks Interest In High Valuation AI Chip Challenger - Simply Wall St News）",
     "published": "",
     "addedAt": "2026-05-17T20:04:00+08:00"
+  },
+  {
+    "url": "https://www.indexbox.io/blog/nvidia-vs-cerebras-the-new-ai-chip-stock-rivalry/",
+    "title": "英伟达对阵Cerebras：Cerebras创纪录IPO后的AI芯片股之战（Nvidia vs Cerebras: AI Chip Stock Battle After Cerebras' Record IPO - News and Statistics - IndexBox）",
+    "published": "",
+    "addedAt": "2026-05-18T13:02:00+08:00"
+  },
+  {
+    "url": "https://meyka.com/blog/cerebras-stock-may-18-ai-chip-ipo-soars-68-in-blockbuster-debut-1805/",
+    "title": "Cerebras股票5月18日：AI芯片IPO在重磅首秀中飙升68%（Cerebras Stock May 18: AI Chip IPO Soars 68% in Blockbuster Debut | Meyka）",
+    "published": "",
+    "addedAt": "2026-05-18T13:02:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/ceo-interviews/369172-ceo-interview-with-rp-singh/",
+    "title": "Seasia Infotech首席执行官RP Singh访谈（CEO Interview with RP Singh of Seasia Infotech）",
+    "published": "Sun, 17 May 2026 21:00:12 +0000",
+    "addedAt": "2026-05-18T13:02:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/ceo-interviews/369224-ceo-interview-with-adi-gelvan-of-speedata/",
+    "title": "Speedata首席执行官Adi Gelvan访谈（CEO Interview with Adi Gelvan of Speedata）",
+    "published": "Sun, 17 May 2026 19:00:32 +0000",
+    "addedAt": "2026-05-18T13:02:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/369288-tsmcs-record-tool-orders-hint-at-another-capex-shockwave/",
+    "title": "台积电创纪录的设备订单暗示另一波资本支出冲击（TSMC’s Record Tool Orders Hint at Another CapEx Shockwave）",
+    "published": "Fri, 15 May 2026 15:00:50 +0000",
+    "addedAt": "2026-05-18T13:02:00+08:00"
   }
 ]
