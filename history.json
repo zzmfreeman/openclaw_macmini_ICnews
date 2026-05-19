@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://cryptobriefing.com/intel-stock-all-time-high-since-2000/",
-    "title": "英特尔股价创2000年以来历史新高，AI数据中心业务推动强势复苏",
-    "published": "2026-04-25",
-    "addedAt": "2026-04-26T06:10:18+08:00"
-  },
-  {
-    "url": "https://wallstreetcn.com/articles/3770821",
-    "title": "三星大罢工升级：18天停工或延长至36天，DRAM产能已降58%，损失或达200亿美元",
-    "published": "2026-04-25T06:00:00+08:00",
-    "addedAt": "2026-04-27T06:16:19+08:00"
-  },
-  {
-    "url": "https://www.yicai.com/news/103152466.html",
-    "title": "英伟达市值时隔半年重返5万亿美元，AI芯片需求持续爆发",
-    "published": "2026-04-26T06:00:00+08:00",
-    "addedAt": "2026-04-27T06:16:19+08:00"
-  },
-  {
-    "url": "https://news.qq.com/rain/a/20260424A01TX300",
-    "title": "英特尔Q1净利暴涨156%，AI驱动数据中心增长22%，股价盘后飙升20%",
-    "published": "2026-04-25T06:00:00+08:00",
-    "addedAt": "2026-04-27T06:16:19+08:00"
-  },
-  {
-    "url": "https://www.theglobeandmail.com/investing/markets/stocks/TSM-N/pressreleases/14998150/",
-    "title": "台积电Q1毛利率达66%，先进制程需求持续推高盈利能力",
-    "published": "2026-04-25T06:00:00+08:00",
-    "addedAt": "2026-04-27T06:16:19+08:00"
-  },
-  {
     "url": "https://user.guancha.cn/main/content?id=1640620",
     "title": "ASML 2nm光刻机困局：中国大陆禁售、台积电需求放缓，谁来买单？",
     "published": "2026-04-26T06:00:00+08:00",
@@ -2998,5 +2968,35 @@
     "title": "AI芯片设计借助Alchip 3DIC超越单片硅时代",
     "published": "Mon, 18 May 2026 13:00:09 +0000",
     "addedAt": "2026-05-19T13:02:00+08:00"
+  },
+  {
+    "url": "https://www.proactiveinvestors.co.uk/companies/news/1092459/could-quantum-computing-advances-sink-bitcoin-1092459.html",
+    "title": "量子计算的进步是否会击溃比特币？",
+    "published": "",
+    "addedAt": "2026-05-19T20:02:00+08:00"
+  },
+  {
+    "url": "https://drwealth.com/skyechip-ipo-can-this-ride-on-the-semiconductor-rally/",
+    "title": "SkyeChip IPO：能否乘上半导体复苏的东风？",
+    "published": "",
+    "addedAt": "2026-05-19T20:02:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/lithography/369371-crossing-the-yield-cliff-idp-v6-and-the-future-of-manufacturing-forecasting/",
+    "title": "跨越良率悬崖：IDP V6与制造预测的未来",
+    "published": "Mon, 18 May 2026 17:00:43 +0000",
+    "addedAt": "2026-05-19T20:02:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/events/369163-from-the-selfie-to-samantha-the-next-trillion-dollar-behavior/",
+    "title": "从自拍到Samantha：下一个万亿级行为模式",
+    "published": "Mon, 18 May 2026 15:00:24 +0000",
+    "addedAt": "2026-05-19T20:02:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/semiconductor-services/369266-ai-chip-design-moves-beyond-monolithic-silicon-with-alchip-3dic/",
+    "title": "AI芯片设计借助Alchip 3DIC超越单片硅时代",
+    "published": "Mon, 18 May 2026 13:00:09 +0000",
+    "addedAt": "2026-05-19T20:02:00+08:00"
   }
 ]

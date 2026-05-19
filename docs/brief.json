@@ -1,7 +1,7 @@
 {
-  "version": "v20260519-1302",
-  "generatedAt": "2026-05-19T13:02:00+08:00",
-  "period": "midday",
+  "version": "v20260519-2002",
+  "generatedAt": "2026-05-19T20:02:00+08:00",
+  "period": "evening",
   "commit": "",
   "glossary_list": [
     {
@@ -21,53 +21,53 @@
     },
     {
       "term": "Quantum Computing",
-      "desc": "利用量子力学现象（如叠加和纠缠）对数据进行操作的计算方式",
+      "desc": "利用量子力学现象（如叠加和纠缠）对数据进行操作的计算技术",
       "category": "计算"
     },
     {
-      "term": "Cryptocurrency Security",
-      "desc": "保护数字货币交易和资产免受黑客攻击的加密技术机制",
-      "category": "安全"
-    },
-    {
       "term": "IPO",
-      "desc": "首次公开募股，企业首次向公众投资者发行股票",
+      "desc": "首次公开募股，公司首次向公众发售股票",
       "category": "金融"
     },
     {
-      "term": "Semiconductor Rally",
-      "desc": "半导体行业股价或市场景气度的上升周期",
-      "category": "市场"
+      "term": "SkyeChip",
+      "desc": "马来西亚的半导体芯片设计公司",
+      "category": "公司"
     },
     {
       "term": "Yield Cliff",
-      "desc": "良率悬崖，指制造过程中良率在特定阶段急剧下降的现象或临界点",
+      "desc": "良率悬崖，指制造过程中良率在某一点突然大幅下降的现象",
       "category": "制造"
     },
     {
       "term": "IDP",
-      "desc": "工业缺陷预测，利用数据和模型预测工业制造中的缺陷",
+      "desc": "工业缺陷预测，利用数据模型预测制造缺陷的技术",
       "category": "制造"
     },
     {
       "term": "Ambient Intelligence",
-      "desc": "环境智能，指嵌入环境中无缝响应人类需求的智能计算系统",
-      "category": "AI"
+      "desc": "环境智能，指嵌入环境中且对用户存在敏感、响应的电子环境",
+      "category": "概念"
     },
     {
-      "term": "Screenless Device",
-      "desc": "无屏设备，依赖语音、环境感知等非传统屏幕界面进行交互的硬件",
-      "category": "硬件"
+      "term": "NPU",
+      "desc": "神经网络处理器，专为加速AI推理和训练设计的专用芯片",
+      "category": "芯片"
     },
     {
       "term": "Monolithic Silicon",
-      "desc": "单片硅，指将所有功能集成在单一芯片上的传统设计方式",
+      "desc": "单片硅，指所有功能集成在同一块硅片上的传统芯片设计方式",
       "category": "设计"
     },
     {
       "term": "3DIC",
-      "desc": "三维集成电路，通过垂直堆叠并互联多个芯片来实现更高性能与集成度",
+      "desc": "3D集成电路，通过垂直堆叠多层芯片实现高密度互连的技术",
       "category": "封装"
+    },
+    {
+      "term": "Alchip",
+      "desc": "一家专注于高性能ASIC和3D IC设计服务的半导体公司",
+      "category": "公司"
     }
   ],
   "topic_pulse": [
@@ -76,61 +76,61 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区对CoWoS及先进封装的讨论热度有所下降，近期缺乏引爆关注的新事件。市场情绪趋于平稳，投资者和从业者正等待下一波产能扩张或技术突破的催化剂。"
+      "summary": "近期社区对CoWoS产能扩张的讨论热度有所降温，市场焦点从产能紧缺转向实际量产良率与成本控制。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储相关话题热度降温，社区暂无激烈讨论。随着短期供需矛盾趋于缓和，关注焦点正从产能紧缺转向长期技术迭代与价格走势。"
+      "summary": "HBM需求预期已阶段性消化，社区情绪趋于冷静，讨论重点转向下一代HBM4的技术规格与混合键合工艺。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "关于中国晶圆厂与先进制程的讨论热度回落，社区处于观望状态。在缺乏重大技术突破或政策变动的背景下，讨论情绪偏向谨慎与理性。"
+      "summary": "关于国内Fab突破的讨论暂无新热点，社区情绪平稳，关注点集中在成熟制程的产能利用率恢复上。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题热度下降，社区近期讨论相对平淡。产业界正从概念炒作进入务实落地阶段，关注点转向工具链的实际验证与客户导入情况。"
+      "summary": "国产EDA/IP话题热度下降，市场正等待具体的政策落地或新产品发布，社区讨论处于观望期。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT板块讨论热度走低，暂无热门话题引发广泛共鸣。行业处于传统周期调整期，社区情绪较为平淡，等待下游需求复苏的明确信号。"
+      "summary": "封测OSAT板块讨论降温，传统封装产能过剩担忧仍在，而先进封装的短期瓶颈效应减弱，情绪偏谨慎。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度降温，社区情绪暂趋缓和。由于近期无重大新增制裁清单出台，讨论焦点从短期冲击转向长期供应链重构与合规应对。"
+      "summary": "出口管制话题近期缺乏重大新规刺激，社区关注度回落，情绪趋于常态化应对与合规调整。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与英伟达（NVIDIA）相关讨论热度出现降温，社区缺乏爆款话题。市场对英伟达的预期已趋于稳定，讨论重心正从单家巨头转向整个AI算力生态的多元化竞争。"
+      "summary": "英伟达及AI芯片话题热度短暂回落，市场在等待下一代架构发布，讨论焦点转向AI推理端侧部署与定制化ASIC。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化话题热度下降，社区讨论暂入平静期。从业者正消化前期政策与订单落地情况，情绪从激进乐观转向关注实际量产良率与客户验证进度。"
+      "summary": "设备材料国产化讨论暂无新突破性进展，社区关注点转向国产设备在成熟制程的验证进展与重复订单情况。"
     }
   ],
   "items": [
     {
-      "title": "量子计算的进步会击垮比特币吗？",
+      "title": "量子计算的进步是否会击溃比特币？",
       "url": "https://www.proactiveinvestors.co.uk/companies/news/1092459/could-quantum-computing-advances-sink-bitcoin-1092459.html",
       "description": "Quantum computing breakthroughs are accelerating faster than previously expected and could pose a serious near-term threat to cryptocurrency security,...",
       "published": "",
@@ -139,32 +139,27 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "量子计算对传统加密算法的威胁正从理论走向现实，区块链和金融行业需提前布局抗量子密码学。",
-        "半导体供应链中，量子芯片的研发进展将直接影响网络安全架构的迭代周期。"
+        "量子计算对传统加密算法的威胁正从理论走向现实，后量子密码学（PQC）的部署需求将加速。",
+        "半导体行业需关注量子计算芯片的发展对现有安全芯片和硬件加密模块的颠覆性影响。"
       ],
       "actions": [
-        "关注抗量子密码学（PQC）芯片和硬件加速器的研发动态，评估潜在市场机会。",
-        "网络安全及加密硬件供应商需尽快启动抗量子加密算法的兼容性测试与产品升级规划。"
+        "安全芯片供应商应尽快评估并集成NIST推荐的后量子密码学（PQC）算法。",
+        "关注量子计算芯片的产业化进度，提前规划抗量子加密硬件的研发路线。"
       ],
       "glossary": [
         {
           "term": "Quantum Computing",
-          "desc": "利用量子力学现象（如叠加和纠缠）对数据进行操作的计算方式",
+          "desc": "利用量子力学现象（如叠加和纠缠）对数据进行操作的计算技术",
           "category": "计算"
-        },
-        {
-          "term": "Cryptocurrency Security",
-          "desc": "保护数字货币交易和资产免受黑客攻击的加密技术机制",
-          "category": "安全"
         }
       ],
       "region": "overseas",
-      "summary": "量子计算的突破速度超出预期，可能对加密货币的安全构成严重的近期威胁。",
+      "summary": "量子计算的突破速度超出预期，可能在短期内对加密货币的安全性构成严重威胁。",
       "tag_category": "综合",
       "title_en": "Could quantum computing advances sink Bitcoin?"
     },
     {
-      "title": "SkyeChip IPO：能否乘上半导体反弹的东风？（SkyeChip IPO: Can this ride on the semiconductor rally? | Dr Wealth）",
+      "title": "SkyeChip IPO：能否乘上半导体复苏的东风？",
       "url": "https://drwealth.com/skyechip-ipo-can-this-ride-on-the-semiconductor-rally/",
       "description": "The Malaysian technology sector, once a fertile ground for spectacular multi-bagger returns, has admittedly lost some of its lustre over the past two years amid global cyclical downturns and geopolitical shifts. However, the impending Main Market listing of SkyeChip Berhad (KLSE: SKYECHIP) ...",
       "published": "",
@@ -173,27 +168,27 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "东南亚（如马来西亚）在全球半导体封测和离散器件供应链中扮演重要角色，其本土企业的资本化运作反映了区域产业重构的动向。",
-        "半导体周期性复苏初期，中小型IP/设计公司的IPO表现往往受制于宏观地缘政治与外资流向。"
+        "东南亚在全球半导体封测和芯片设计版图中的地位正在重塑，区域化供应链带来新机遇。",
+        "半导体周期性复苏初期，中小型IP/设计公司的IPO往往面临估值波动，需具备核心差异化IP才能获得长期溢价。"
       ],
       "actions": [
-        "评估东南亚半导体供应链（特别是OSAT和特色设计公司）的投资与合作价值，关注区域多元化布局机会。",
-        "关注SkyeChip等区域性特色芯片企业的技术壁垒与客户结构，审慎判断其在周期反弹中的实际盈利能力。"
+        "关注东南亚半导体产业链的本土化及IPO机会，评估区域供应链替代潜力。",
+        "投资者及供应链伙伴需审查SkyeChip等区域设计公司的IP壁垒与客户依赖度，谨慎评估周期性风险。"
       ],
       "glossary": [
         {
           "term": "IPO",
-          "desc": "首次公开募股，企业首次向公众投资者发行股票",
+          "desc": "首次公开募股，公司首次向公众发售股票",
           "category": "金融"
         },
         {
-          "term": "Semiconductor Rally",
-          "desc": "半导体行业股价或市场景气度的上升周期",
-          "category": "市场"
+          "term": "SkyeChip",
+          "desc": "马来西亚的半导体芯片设计公司",
+          "category": "公司"
         }
       ],
       "region": "overseas",
-      "summary": "马来西亚科技板块在过去两年受全球周期性下行和地缘政治影响而失色，SkyeChip此时IPO能否借半导体复苏之势值得关注。",
+      "summary": "马来西亚科技板块受全球周期性下行影响而失色，SkyeChip试图通过IPO借助半导体行业的复苏势头重新崛起。",
       "tag_category": "EDA/IP",
       "title_en": "SkyeChip IPO: Can this ride on the semiconductor rally? | Dr Wealth"
     },
@@ -207,32 +202,32 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "从单点缺陷预测向跨行业量产良率悬崖框架演进，表明半导体制造对良率控制的精度和前瞻性要求正在大幅提升。",
-        "双层良率悬崖框架的提出，有助于晶圆厂在先进制程爬坡期更准确地预测量产时间与成本拐点。"
+        "“良率悬崖”是先进制程和复杂封装量产的核心痛点，基于AI/数据驱动的缺陷预测模型正成为提升良率的关键工具。",
+        "从设计到制造的良率预测前置化，能显著缩短新产品导入（NPI）周期并降低试产成本。"
       ],
       "actions": [
-        "晶圆制造与良率提升工程师应跟进IDP V6框架的理论模型，评估其在先进制程良率预测中的适用性。",
-        "EDA和智能制造软件供应商需关注此类新型良率预测算法，探索将其集成到良率管理系统(YMS)中的商业机会。"
+        "制造端和EDA厂商应引入类似IDP V6的预测框架，优化量产爬坡阶段的缺陷管理。",
+        "芯片设计公司需在NPI阶段加强与Fab的数据协同，利用良率预测模型提前规避设计缺陷。"
       ],
       "glossary": [
         {
           "term": "Yield Cliff",
-          "desc": "良率悬崖，指制造过程中良率在特定阶段急剧下降的现象或临界点",
+          "desc": "良率悬崖，指制造过程中良率在某一点突然大幅下降的现象",
           "category": "制造"
         },
         {
           "term": "IDP",
-          "desc": "工业缺陷预测，利用数据和模型预测工业制造中的缺陷",
+          "desc": "工业缺陷预测，利用数据模型预测制造缺陷的技术",
           "category": "制造"
         }
       ],
       "region": "overseas",
-      "summary": "论文《工业缺陷预测(IDP) V6：面向跨行业量产预测的双层良率悬崖框架》提出了一种新的量产良率预测框架。",
+      "summary": "一篇新论文提出了工业缺陷预测（IDP）V6框架，通过双层良率悬崖模型为跨行业大规模量产预测提供新方法。",
       "tag_category": "综合",
       "title_en": "Crossing the Yield Cliff: IDP V6 and the Future of Manufacturing Forecasting"
     },
     {
-      "title": "从自拍到Samantha：下一个万亿美金的行为",
+      "title": "从自拍到Samantha：下一个万亿级行为模式",
       "url": "https://semiwiki.com/events/369163-from-the-selfie-to-samantha-the-next-trillion-dollar-behavior/",
       "description": "<p>At CES 2026, Samsung called it a “companion.” Lenovo called it “ambient intelligence.” OpenAI spent $6.4 billion on a screenless device designed to be a continuous presence in your pocket. Meta acquired Limitless, the AI pendant that had been tracking everything its wearers said and heard. Every ",
       "published": "Mon, 18 May 2026 15:00:24 +0000",
@@ -241,27 +236,27 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "AI硬件正从功能型工具向“环境智能/全天候伴侣”演进，无屏化、随身化将成为下一代终端的核心形态。",
-        "巨头在AI终端形态上的巨额投入与并购，将直接拉动低功耗边缘AI芯片、语音/视觉交互IP及微型化封装的需求。"
+        "AI硬件形态正从传统GUI向“环境智能”和“无屏陪伴”演进，这将催生对超低功耗AI推理芯片及端侧NPU的巨大需求。",
+        "持续在线的AI伴侣设备要求极致的能效比和边缘计算能力，推动端侧SRAM和存算一体架构的发展。"
       ],
       "actions": [
-        "芯片设计公司应提前布局超低功耗边缘AI推理芯片及NPU IP，以适应无屏化、全天候在线的AI伴侣设备需求。",
-        "关注微型化、高集成度的先进封装与传感器技术，为下一代环境智能硬件提供底层支撑。"
+        "芯片设计公司应加速研发面向极低功耗、持续在线场景的端侧AI芯片及NPU IP。",
+        "硬件制造商需关注无屏AI设备对语音/视觉传感器及边缘存储的特定需求，提前布局相关组件供应链。"
       ],
       "glossary": [
         {
           "term": "Ambient Intelligence",
-          "desc": "环境智能，指嵌入环境中无缝响应人类需求的智能计算系统",
-          "category": "AI"
+          "desc": "环境智能，指嵌入环境中且对用户存在敏感、响应的电子环境",
+          "category": "概念"
         },
         {
-          "term": "Screenless Device",
-          "desc": "无屏设备，依赖语音、环境感知等非传统屏幕界面进行交互的硬件",
-          "category": "硬件"
+          "term": "NPU",
+          "desc": "神经网络处理器，专为加速AI推理和训练设计的专用芯片",
+          "category": "芯片"
         }
       ],
       "region": "overseas",
-      "summary": "CES 2026上三星提出“伴侣”概念，联想提出“环境智能”，OpenAI斥资64亿美元开发无屏随身设备，Meta收购相关团队，AI硬件形态正向全天候陪伴演进。",
+      "summary": "三星、联想和OpenAI等巨头纷纷推出AI伴侣或环境智能无屏设备，标志着人机交互正转向持续陪伴的万亿级市场。",
       "tag_category": "综合",
       "title_en": "From the Selfie to Samantha: The Next Trillion-Dollar Behavior"
     },
@@ -275,37 +270,42 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "单片硅缩微的边际效益递减，AI芯片算力增长正全面转向3DIC（三维集成）等先进封装与异构集成路线。",
-        "Alchip等专注于3DIC的设计服务公司，正在重塑高端AI芯片的代工生态，成为连接IP、封装与制造的关键枢纽。"
+        "单片硅缩微的边际收益递减，3D IC已成为AI芯片突破算力与内存瓶颈的必然路径。",
+        "Alchip等专注于ASIC及3D IC的设计服务厂商，在AI大模型芯片定制化浪潮中具有核心枢纽价值。"
       ],
       "actions": [
-        "高端AI芯片研发团队需将3DIC架构设计纳入核心路线图，尽早与Alchip等3DIC设计服务及先进封装厂建立联合开发机制。",
-        "供应链管理者应重点关注3DIC带来的异构集成供应链重构，包括CoWoS/SoIC产能分配及芯粒互联IP的授权获取。"
+        "供应链从业者应强化对3D IC设计流程及异构集成封装供应链的掌握与资源储备。",
+        "寻求AI芯片定制化的客户应评估与Alchip等具备3DIC全流程设计能力的代工及设计服务厂商的深度合作。"
       ],
       "glossary": [
         {
           "term": "Monolithic Silicon",
-          "desc": "单片硅，指将所有功能集成在单一芯片上的传统设计方式",
+          "desc": "单片硅，指所有功能集成在同一块硅片上的传统芯片设计方式",
           "category": "设计"
         },
         {
           "term": "3DIC",
-          "desc": "三维集成电路，通过垂直堆叠并互联多个芯片来实现更高性能与集成度",
+          "desc": "3D集成电路，通过垂直堆叠多层芯片实现高密度互连的技术",
           "category": "封装"
+        },
+        {
+          "term": "Alchip",
+          "desc": "一家专注于高性能ASIC和3D IC设计服务的半导体公司",
+          "category": "公司"
         }
       ],
       "region": "overseas",
-      "summary": "AI处理器正进入新时代，二十多年来由晶体管缩微和工艺节点缩减驱动的创新正在转变，AI芯片设计正借助Alchip的3DIC技术超越单片硅限制。",
+      "summary": "AI处理器正进入新时代，半导体创新不再仅靠晶体管缩微，而是转向如Alchip 3DIC这样的先进3D集成技术。",
       "tag_category": "EDA/IP",
       "title_en": "AI Chip Design Moves Beyond Monolithic Silicon with Alchip 3DIC"
     }
   ],
   "stats": {
-    "total_raw": 81,
-    "after_dedup": 77,
+    "total_raw": 83,
+    "after_dedup": 68,
     "sources": {
-      "RSS": 65,
-      "Brave": 12
+      "RSS": 59,
+      "Brave": 9
     }
   },
   "code_version": "",
