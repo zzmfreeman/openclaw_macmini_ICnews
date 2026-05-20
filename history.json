@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://finance.sina.com.cn/wm/2026-04-27/doc-inhvxpik7814202.shtml",
-    "title": "中芯国际市值冲击6000亿元，先进制程需求持续旺盛",
-    "published": "2026-04-27",
-    "addedAt": "2026-04-28T06:18:23+08:00"
-  },
-  {
-    "url": "https://finance.sina.com.cn/wm/2026-04-27/doc-inhvwwms7907483.shtml",
-    "title": "中微公司15.8亿收购案获受理，科创板首单简易重组",
-    "published": "2026-04-27",
-    "addedAt": "2026-04-28T06:18:23+08:00"
-  },
-  {
-    "url": "https://finance.sina.com.cn/jjxw/2026-04-27/doc-inhvxxxa9071801.shtml",
-    "title": "思瑞浦Q1营收净利均创历史新高，光模块带动模拟芯片需求增长",
-    "published": "2026-04-27",
-    "addedAt": "2026-04-28T06:18:23+08:00"
-  },
-  {
-    "url": "https://www.163.com/dy/article/KRHBG89B051987V2.html",
-    "title": "长川科技Q1利润大增217.60%，长鑫存储上市时点临近",
-    "published": "2026-04-27",
-    "addedAt": "2026-04-28T06:18:23+08:00"
-  },
-  {
-    "url": "https://hea.china.com/articles/20260427/202604271856231.html",
-    "title": "台进科技深耕晶圆级塑封技术，助力国产高端封装自主可控",
-    "published": "2026-04-27",
-    "addedAt": "2026-04-28T06:18:23+08:00"
-  },
-  {
     "url": "http://www.iccsz.com/site/cn/News/2026/04/27/20260427055409718291.htm",
     "title": "联讯仪器成功登陆科创板，九年磨剑铸硬核",
     "published": "2026-04-27",
@@ -2998,5 +2968,35 @@
     "title": "半导体封装测试暨玻璃基板生态展即将在无锡盛大开幕",
     "published": "2026-05-18T00:00:00.000Z",
     "addedAt": "2026-05-20T06:04:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/security/pqshield/367520-pqshield-unveils-ultra-small-pqc-embedded-security-breakthroughs-at-embedded-world-2026/",
+    "title": "PQShield在2026年嵌入式世界大会上发布超小型PQC嵌入式安全突破性技术（PQShield unveils ultra-small PQC embedded security breakthroughs at Embedded World 2026）",
+    "published": "Tue, 19 May 2026 17:00:29 +0000",
+    "addedAt": "2026-05-20T13:02:00+08:00"
+  },
+  {
+    "url": "https://www.eastbaytimes.com/2026/05/19/spacex-ipo-tesla-problem/",
+    "title": "SpaceX IPO将增加马斯克的第二只股票，这对特斯拉是个问题（SpaceX IPO will add second Musk stock. It’s a problem for Tesla.）",
+    "published": "",
+    "addedAt": "2026-05-20T13:02:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/3dic/369301-closing-the-silicon-realization-gap-from-static-dfm-to-governance-for-lifecycle-gfl/",
+    "title": "弥合硅片实现差距：从静态DFM到生命周期治理（GFL）（Closing the Silicon Realization Gap: From Static DFM to Governance for Lifecycle (GFL)）",
+    "published": "Tue, 19 May 2026 15:00:40 +0000",
+    "addedAt": "2026-05-20T13:02:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/369260-imec-ic-link-and-tsmc-3dfabric-alliance-expansion-signals-new-era-of-system-level-scaling/",
+    "title": "imec IC-Link与TSMC 3DFabric联盟扩张标志着系统级扩展新时代（imec IC-Link and TSMC 3DFabric Alliance Expansion Signals New Era of System-Level Scaling）",
+    "published": "Tue, 19 May 2026 13:00:35 +0000",
+    "addedAt": "2026-05-20T13:02:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/lithography/369371-crossing-the-yield-cliff-idp-v6-and-the-future-of-manufacturing-forecasting/",
+    "title": "跨越良率悬崖：IDP V6与制造预测的未来（Crossing the Yield Cliff: IDP V6 and the Future of Manufacturing Forecasting）",
+    "published": "Mon, 18 May 2026 17:00:43 +0000",
+    "addedAt": "2026-05-20T13:02:00+08:00"
   }
 ]
