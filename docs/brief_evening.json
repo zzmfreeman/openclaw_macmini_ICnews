@@ -1,6 +1,6 @@
 {
-  "version": "v20260519-2002",
-  "generatedAt": "2026-05-19T20:02:00+08:00",
+  "version": "v20260520-2004",
+  "generatedAt": "2026-05-20T20:04:00+08:00",
   "period": "evening",
   "commit": "",
   "glossary_list": [
@@ -20,54 +20,64 @@
       "category": "封装"
     },
     {
-      "term": "Quantum Computing",
-      "desc": "利用量子力学现象（如叠加和纠缠）对数据进行操作的计算技术",
-      "category": "计算"
+      "term": "PQC",
+      "desc": "后量子密码，能够抵抗量子计算机破解的密码算法",
+      "category": "安全"
     },
     {
-      "term": "IPO",
-      "desc": "首次公开募股，公司首次向公众发售股票",
+      "term": "Embedded World",
+      "desc": "全球领先的嵌入式系统行业展会",
+      "category": "展会"
+    },
+    {
+      "term": "CXMT",
+      "desc": "长鑫存储，中国领先的DRAM研发与制造企业",
+      "category": "企业"
+    },
+    {
+      "term": "STAR Market",
+      "desc": "科创板，中国设立的面向硬科技企业的证券板块",
       "category": "金融"
     },
     {
-      "term": "SkyeChip",
-      "desc": "马来西亚的半导体芯片设计公司",
-      "category": "公司"
+      "term": "DFM",
+      "desc": "可制造性设计，在设计阶段考虑制造工艺约束以提高良率",
+      "category": "EDA"
+    },
+    {
+      "term": "GFL",
+      "desc": "生命周期治理，覆盖芯片从设计、制造到全生命周期运行的闭环管控框架",
+      "category": "EDA"
+    },
+    {
+      "term": "Silicon Realization",
+      "desc": "硅片实现，将设计转化为成功制造的物理芯片的过程",
+      "category": "EDA"
+    },
+    {
+      "term": "imec IC-Link",
+      "desc": "比利时微电子研究中心imec的硅片服务项目，提供从设计到量产的桥梁服务",
+      "category": "组织"
+    },
+    {
+      "term": "TSMC 3DFabric",
+      "desc": "台积电的3D集成电路先进封装平台及生态联盟",
+      "category": "封装"
+    },
+    {
+      "term": "System-Level Scaling",
+      "desc": "系统级扩展，通过3D封装和异构集成提升整体系统性能，而非仅依赖单芯片制程微缩",
+      "category": "技术"
     },
     {
       "term": "Yield Cliff",
-      "desc": "良率悬崖，指制造过程中良率在某一点突然大幅下降的现象",
+      "desc": "良率悬崖，指制程节点或新工艺导入时良率突然大幅下降的现象",
       "category": "制造"
     },
     {
       "term": "IDP",
-      "desc": "工业缺陷预测，利用数据模型预测制造缺陷的技术",
+      "desc": "工业缺陷预测，利用数据和模型预测制造过程中缺陷分布与良率的方法",
       "category": "制造"
-    },
-    {
-      "term": "Ambient Intelligence",
-      "desc": "环境智能，指嵌入环境中且对用户存在敏感、响应的电子环境",
-      "category": "概念"
-    },
-    {
-      "term": "NPU",
-      "desc": "神经网络处理器，专为加速AI推理和训练设计的专用芯片",
-      "category": "芯片"
-    },
-    {
-      "term": "Monolithic Silicon",
-      "desc": "单片硅，指所有功能集成在同一块硅片上的传统芯片设计方式",
-      "category": "设计"
-    },
-    {
-      "term": "3DIC",
-      "desc": "3D集成电路，通过垂直堆叠多层芯片实现高密度互连的技术",
-      "category": "封装"
-    },
-    {
-      "term": "Alchip",
-      "desc": "一家专注于高性能ASIC和3D IC设计服务的半导体公司",
-      "category": "公司"
     }
   ],
   "topic_pulse": [
@@ -76,124 +86,212 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS产能扩张的讨论热度有所降温，市场焦点从产能紧缺转向实际量产良率与成本控制。"
+      "summary": "CoWoS/先进封装热度降温，社区讨论趋于平静。近期缺乏产能扩张的新催化剂，市场正消化前期台积电扩产消息，情绪转向观望。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM需求预期已阶段性消化，社区情绪趋于冷静，讨论重点转向下一代HBM4的技术规格与混合键合工艺。"
+      "summary": "HBM/AI存储话题热度回落，讨论焦点从产能紧缺转向实际交付与良率爬坡。社区情绪趋于理性，等待长鑫存储等新入局者的后续进展。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "关于国内Fab突破的讨论暂无新热点，社区情绪平稳，关注点集中在成熟制程的产能利用率恢复上。"
+      "summary": "中国Fab/先进制程讨论热度下降，社区暂无重大技术突破传闻。市场处于政策与制裁消息的消化期，情绪相对平稳。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题热度下降，市场正等待具体的政策落地或新产品发布，社区讨论处于观望期。"
+      "summary": "国产EDA/IP热度降温，缺乏重磅新品发布或融资事件刺激。社区讨论暂归平淡，从业者正专注于现有工具的打磨与客户导入。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT板块讨论降温，传统封装产能过剩担忧仍在，而先进封装的短期瓶颈效应减弱，情绪偏谨慎。"
+      "summary": "封测OSAT话题热度走低，社区缺乏新的大订单或并购传闻。讨论重心转向常规产能利用率与价格博弈，情绪偏谨慎。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制话题近期缺乏重大新规刺激，社区关注度回落，情绪趋于常态化应对与合规调整。"
+      "summary": "出口管制/制裁热度下降，近期无新增重大管制清单出台。社区情绪暂时放松，但仍在警惕潜在的长臂管辖与设备断供风险。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "英伟达及AI芯片话题热度短暂回落，市场在等待下一代架构发布，讨论焦点转向AI推理端侧部署与定制化ASIC。"
+      "summary": "AI芯片/NVIDIA热度回落，缺乏新一代架构或出货量超预期的刺激。社区讨论从狂热回归常态，关注点转向实际部署成本与推理端优化。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备材料国产化讨论暂无新突破性进展，社区关注点转向国产设备在成熟制程的验证进展与重复订单情况。"
+      "summary": "设备/材料国产化热度降温，暂无新的大规模验证突破或替代传闻。社区情绪趋于务实，聚焦于现有国产线体的良率提升与稳定性验证。"
     }
   ],
   "items": [
     {
-      "title": "量子计算的进步是否会击溃比特币？",
-      "url": "https://www.proactiveinvestors.co.uk/companies/news/1092459/could-quantum-computing-advances-sink-bitcoin-1092459.html",
-      "description": "Quantum computing breakthroughs are accelerating faster than previously expected and could pose a serious near-term threat to cryptocurrency security,...",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
+      "title": "PQShield在2026年嵌入式世界展上发布超小型PQC嵌入式安全突破（PQShield unveils ultra-small PQC embedded security breakthroughs at Embedded World 2026）",
+      "url": "https://semiwiki.com/security/pqshield/367520-pqshield-unveils-ultra-small-pqc-embedded-security-breakthroughs-at-embedded-world-2026/",
+      "description": "<p>As the threat of quantum computing to modern cybersecurity becomes increasingly real, the technology industry is accelerating efforts to develop cryptographic systems capable of resisting quantum attacks. One of the most significant developments in this field was presented at Embedded World 2026 ",
+      "published": "Tue, 19 May 2026 17:00:29 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
       "lang": "en",
       "tags": [],
       "insights": [
-        "量子计算对传统加密算法的威胁正从理论走向现实，后量子密码学（PQC）的部署需求将加速。",
-        "半导体行业需关注量子计算芯片的发展对现有安全芯片和硬件加密模块的颠覆性影响。"
+        "后量子密码（PQC）正从理论走向嵌入式实际应用，芯片安全架构需提前布局以应对量子破解风险。",
+        "超小型化PQC方案意味着物联网和边缘设备的抗量子安全升级门槛正在降低，硬件安全模块将迎来迭代。"
       ],
       "actions": [
-        "安全芯片供应商应尽快评估并集成NIST推荐的后量子密码学（PQC）算法。",
-        "关注量子计算芯片的产业化进度，提前规划抗量子加密硬件的研发路线。"
+        "安全芯片和物联网设备厂商应尽快评估PQC算法的集成路径与资源开销，启动原型验证。",
+        "关注NIST等机构的PQC标准落地进程，提前进行IP选型和供应链储备。"
       ],
       "glossary": [
         {
-          "term": "Quantum Computing",
-          "desc": "利用量子力学现象（如叠加和纠缠）对数据进行操作的计算技术",
-          "category": "计算"
+          "term": "PQC",
+          "desc": "后量子密码，能够抵抗量子计算机破解的密码算法",
+          "category": "安全"
+        },
+        {
+          "term": "Embedded World",
+          "desc": "全球领先的嵌入式系统行业展会",
+          "category": "展会"
         }
       ],
       "region": "overseas",
-      "summary": "量子计算的突破速度超出预期，可能在短期内对加密货币的安全性构成严重威胁。",
+      "summary": "PQShield在嵌入式世界展上展示了超小型后量子密码（PQC）嵌入式安全技术突破，以应对量子计算对现代网络安全日益真实的威胁。",
       "tag_category": "综合",
-      "title_en": "Could quantum computing advances sink Bitcoin?"
+      "title_en": "PQShield unveils ultra-small PQC embedded security breakthroughs at Embedded World 2026"
     },
     {
-      "title": "SkyeChip IPO：能否乘上半导体复苏的东风？",
-      "url": "https://drwealth.com/skyechip-ipo-can-this-ride-on-the-semiconductor-rally/",
-      "description": "The Malaysian technology sector, once a fertile ground for spectacular multi-bagger returns, has admittedly lost some of its lustre over the past two years amid global cyclical downturns and geopolitical shifts. However, the impending Main Market listing of SkyeChip Berhad (KLSE: SKYECHIP) ...",
+      "title": "CXMT重启科创板上市，携7万亿韩元资金储备（CXMT Restarts STAR Market Listing With 7 Trillion Won War Chest - Seoul Economic Daily）",
+      "url": "https://en.sedaily.com/international/2026/05/19/cxmt-restarts-star-market-listing-with-7-trillion-won-war",
+      "description": "ChangXin Memory Technologies (CXMT) plans to deploy over 7 trillion won from its STAR Market IPO into DRAM expansion and HBM mass production, challenging SK hynix and Samsung Electronics.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "东南亚在全球半导体封测和芯片设计版图中的地位正在重塑，区域化供应链带来新机遇。",
-        "半导体周期性复苏初期，中小型IP/设计公司的IPO往往面临估值波动，需具备核心差异化IP才能获得长期溢价。"
+        "CXMT重启IPO并重金押注HBM量产，标志着中国存储厂商正式加入高端AI存储竞争赛道。",
+        "7万亿韩元（约合370亿人民币）的庞大融资规模，将极大加速国内DRAM和HBM的产线建设与良率爬坡。"
       ],
       "actions": [
-        "关注东南亚半导体产业链的本土化及IPO机会，评估区域供应链替代潜力。",
-        "投资者及供应链伙伴需审查SkyeChip等区域设计公司的IP壁垒与客户依赖度，谨慎评估周期性风险。"
+        "国内设备与材料供应商应紧盯CXMT的扩产招标，抢占HBM制造前道与先进封装环节的国产替代窗口。",
+        "关注CXMT科创板IPO进展，评估其对国内半导体资金面及存储产业链估值的带动效应。"
       ],
       "glossary": [
         {
-          "term": "IPO",
-          "desc": "首次公开募股，公司首次向公众发售股票",
+          "term": "CXMT",
+          "desc": "长鑫存储，中国领先的DRAM研发与制造企业",
+          "category": "企业"
+        },
+        {
+          "term": "STAR Market",
+          "desc": "科创板，中国设立的面向硬科技企业的证券板块",
           "category": "金融"
         },
         {
-          "term": "SkyeChip",
-          "desc": "马来西亚的半导体芯片设计公司",
-          "category": "公司"
+          "term": "HBM",
+          "desc": "高带宽内存，通过先进封装实现的高性能DRAM，广泛用于AI芯片",
+          "category": "存储"
         }
       ],
       "region": "overseas",
-      "summary": "马来西亚科技板块受全球周期性下行影响而失色，SkyeChip试图通过IPO借助半导体行业的复苏势头重新崛起。",
+      "summary": "长鑫存储（CXMT）计划将科创板IPO募集的超过7万亿韩元资金投入DRAM产能扩张和HBM量产，以挑战SK海力士和三星电子。",
       "tag_category": "EDA/IP",
-      "title_en": "SkyeChip IPO: Can this ride on the semiconductor rally? | Dr Wealth"
+      "title_en": "CXMT Restarts STAR Market Listing With 7 Trillion Won War Chest - Seoul Economic Daily"
     },
     {
-      "title": "跨越良率悬崖：IDP V6与制造预测的未来",
+      "title": "弥合硅片实现差距：从静态DFM到生命周期治理（GFL）（Closing the Silicon Realization Gap: From Static DFM to Governance for Lifecycle (GFL))",
+      "url": "https://semiwiki.com/3dic/369301-closing-the-silicon-realization-gap-from-static-dfm-to-governance-for-lifecycle-gfl/",
+      "description": "<p>The semiconductor industry has achieved extraordinary mastery in silicon signoff. Modern EDA environments can now optimize timing closure, physical verification, IR/EM behavior, routing density, thermal interaction, and increasingly even design-space exploration through AI-assisted implementation",
+      "published": "Tue, 19 May 2026 15:00:40 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "随着制程节点微缩，仅靠静态DFM已无法覆盖制造变异和生命周期可靠性问题，GFL代表了EDA签核的新范式。",
+        "从设计到制造再到现场运行的闭环数据治理，将成为提升先进制程良率和芯片长期可靠性的关键。"
+      ],
+      "actions": [
+        "IC设计企业需在流程中引入生命周期治理理念，将制造数据和现场退化数据反馈至设计端优化。",
+        "EDA工具供应商应加速开发支持GFL的闭环分析平台，打通设计、制造与运维的数据壁垒。"
+      ],
+      "glossary": [
+        {
+          "term": "DFM",
+          "desc": "可制造性设计，在设计阶段考虑制造工艺约束以提高良率",
+          "category": "EDA"
+        },
+        {
+          "term": "GFL",
+          "desc": "生命周期治理，覆盖芯片从设计、制造到全生命周期运行的闭环管控框架",
+          "category": "EDA"
+        },
+        {
+          "term": "Silicon Realization",
+          "desc": "硅片实现，将设计转化为成功制造的物理芯片的过程",
+          "category": "EDA"
+        }
+      ],
+      "region": "overseas",
+      "summary": "半导体行业在硅片签核方面已达到极高水准，当前正从传统的静态可制造性设计（DFM）转向面向全生命周期的治理（GFL），以弥合硅片实现差距。",
+      "tag_category": "EDA/IP",
+      "title_en": "Closing the Silicon Realization Gap: From Static DFM to Governance for Lifecycle (GFL)"
+    },
+    {
+      "title": "imec IC-Link与TSMC 3DFabric联盟扩张标志着系统级扩展新时代（imec IC-Link and TSMC 3DFabric Alliance Expansion Signals New Era of System-Level Scaling）",
+      "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/369260-imec-ic-link-and-tsmc-3dfabric-alliance-expansion-signals-new-era-of-system-level-scaling/",
+      "description": "<p>imec announced that <a href=\"https://www.imeciclink.com/en\">IC-Link</a> by imec has joined the <a href=\"https://www.tsmc.com/english/dedicatedFoundry/oip/3dfabric_alliance\">TSMC 3DFabric Alliance</a>, a strategically important move that reflects the semiconductor industry’s transition from tradit",
+      "published": "Tue, 19 May 2026 13:00:35 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "imec加入TSMC 3DFabric联盟，将强化先进封装与异构集成技术的生态协同，降低中小型客户接入3D封装的门槛。",
+        "系统级扩展取代单纯制程微缩成为主流，3D Fabric生态的扩张意味着晶圆代工与封装的边界进一步融合。"
+      ],
+      "actions": [
+        "芯片设计公司应积极利用imec IC-Link与TSMC 3DFabric的协同资源，优化多芯片异构集成方案的设计与验证。",
+        "封装与测试厂商需关注TSMC 3DFabric生态的标准演进，提前布局兼容性产能与技术能力。"
+      ],
+      "glossary": [
+        {
+          "term": "imec IC-Link",
+          "desc": "比利时微电子研究中心imec的硅片服务项目，提供从设计到量产的桥梁服务",
+          "category": "组织"
+        },
+        {
+          "term": "TSMC 3DFabric",
+          "desc": "台积电的3D集成电路先进封装平台及生态联盟",
+          "category": "封装"
+        },
+        {
+          "term": "System-Level Scaling",
+          "desc": "系统级扩展，通过3D封装和异构集成提升整体系统性能，而非仅依赖单芯片制程微缩",
+          "category": "技术"
+        }
+      ],
+      "region": "overseas",
+      "summary": "imec宣布其IC-Link加入TSMC 3DFabric联盟，这一扩张标志着半导体行业正迈向系统级扩展的新时代。",
+      "tag_category": "EDA/IP",
+      "title_en": "imec IC-Link and TSMC 3DFabric Alliance Expansion Signals New Era of System-Level Scaling"
+    },
+    {
+      "title": "跨越良率悬崖：IDP V6与制造预测的未来（Crossing the Yield Cliff: IDP V6 and the Future of Manufacturing Forecasting）",
       "url": "https://semiwiki.com/lithography/369371-crossing-the-yield-cliff-idp-v6-and-the-future-of-manufacturing-forecasting/",
       "description": "<p>The paper, <a href=\"https://zenodo.org/records/20045860\">Industrial Defectivity Prediction (IDP) V6: A Two-Layer Yield Cliff Framework for Cross-Industry Mass-Production Forecasting</a>, presents a generalized industrial yield-modeling architecture that extends the classical Negative Binomial fra",
       "published": "Mon, 18 May 2026 17:00:43 +0000",
@@ -202,110 +300,37 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "“良率悬崖”是先进制程和复杂封装量产的核心痛点，基于AI/数据驱动的缺陷预测模型正成为提升良率的关键工具。",
-        "从设计到制造的良率预测前置化，能显著缩短新产品导入（NPI）周期并降低试产成本。"
+        "“良率悬崖”是先进制程量产初期的致命痛点，IDP V6的双层框架为预测和规避良率突变提供了量化模型。",
+        "制造预测正从经验驱动转向数据与模型驱动，精准的缺陷预测能力将直接决定新工艺导入的时间与成本。"
       ],
       "actions": [
-        "制造端和EDA厂商应引入类似IDP V6的预测框架，优化量产爬坡阶段的缺陷管理。",
-        "芯片设计公司需在NPI阶段加强与Fab的数据协同，利用良率预测模型提前规避设计缺陷。"
+        "Fab厂和IDM应引入IDP V6等先进良率预测框架，在量产前精准识别并消除潜在良率悬崖风险。",
+        "良率管理软件开发商需升级预测算法，结合缺陷物理机制与生产大数据，提供更陡峭制程的爬坡指引。"
       ],
       "glossary": [
         {
           "term": "Yield Cliff",
-          "desc": "良率悬崖，指制造过程中良率在某一点突然大幅下降的现象",
+          "desc": "良率悬崖，指制程节点或新工艺导入时良率突然大幅下降的现象",
           "category": "制造"
         },
         {
           "term": "IDP",
-          "desc": "工业缺陷预测，利用数据模型预测制造缺陷的技术",
+          "desc": "工业缺陷预测，利用数据和模型预测制造过程中缺陷分布与良率的方法",
           "category": "制造"
         }
       ],
       "region": "overseas",
-      "summary": "一篇新论文提出了工业缺陷预测（IDP）V6框架，通过双层良率悬崖模型为跨行业大规模量产预测提供新方法。",
+      "summary": "《工业缺陷预测（IDP）V6》论文提出了双层“良率悬崖”框架，用于跨行业量产预测，旨在帮助半导体制造跨越良率陡降的瓶颈期。",
       "tag_category": "综合",
       "title_en": "Crossing the Yield Cliff: IDP V6 and the Future of Manufacturing Forecasting"
-    },
-    {
-      "title": "从自拍到Samantha：下一个万亿级行为模式",
-      "url": "https://semiwiki.com/events/369163-from-the-selfie-to-samantha-the-next-trillion-dollar-behavior/",
-      "description": "<p>At CES 2026, Samsung called it a “companion.” Lenovo called it “ambient intelligence.” OpenAI spent $6.4 billion on a screenless device designed to be a continuous presence in your pocket. Meta acquired Limitless, the AI pendant that had been tracking everything its wearers said and heard. Every ",
-      "published": "Mon, 18 May 2026 15:00:24 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AI硬件形态正从传统GUI向“环境智能”和“无屏陪伴”演进，这将催生对超低功耗AI推理芯片及端侧NPU的巨大需求。",
-        "持续在线的AI伴侣设备要求极致的能效比和边缘计算能力，推动端侧SRAM和存算一体架构的发展。"
-      ],
-      "actions": [
-        "芯片设计公司应加速研发面向极低功耗、持续在线场景的端侧AI芯片及NPU IP。",
-        "硬件制造商需关注无屏AI设备对语音/视觉传感器及边缘存储的特定需求，提前布局相关组件供应链。"
-      ],
-      "glossary": [
-        {
-          "term": "Ambient Intelligence",
-          "desc": "环境智能，指嵌入环境中且对用户存在敏感、响应的电子环境",
-          "category": "概念"
-        },
-        {
-          "term": "NPU",
-          "desc": "神经网络处理器，专为加速AI推理和训练设计的专用芯片",
-          "category": "芯片"
-        }
-      ],
-      "region": "overseas",
-      "summary": "三星、联想和OpenAI等巨头纷纷推出AI伴侣或环境智能无屏设备，标志着人机交互正转向持续陪伴的万亿级市场。",
-      "tag_category": "综合",
-      "title_en": "From the Selfie to Samantha: The Next Trillion-Dollar Behavior"
-    },
-    {
-      "title": "AI芯片设计借助Alchip 3DIC超越单片硅时代",
-      "url": "https://semiwiki.com/semiconductor-services/369266-ai-chip-design-moves-beyond-monolithic-silicon-with-alchip-3dic/",
-      "description": "<p>Artificial intelligence processors are entering a new era. For more than two decades, semiconductor innovation was driven primarily by transistor scaling and process node shrinks. Today, however, AI infrastructure demands are growing faster than traditional Moore’s Law improvements can sustain. T",
-      "published": "Mon, 18 May 2026 13:00:09 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "单片硅缩微的边际收益递减，3D IC已成为AI芯片突破算力与内存瓶颈的必然路径。",
-        "Alchip等专注于ASIC及3D IC的设计服务厂商，在AI大模型芯片定制化浪潮中具有核心枢纽价值。"
-      ],
-      "actions": [
-        "供应链从业者应强化对3D IC设计流程及异构集成封装供应链的掌握与资源储备。",
-        "寻求AI芯片定制化的客户应评估与Alchip等具备3DIC全流程设计能力的代工及设计服务厂商的深度合作。"
-      ],
-      "glossary": [
-        {
-          "term": "Monolithic Silicon",
-          "desc": "单片硅，指所有功能集成在同一块硅片上的传统芯片设计方式",
-          "category": "设计"
-        },
-        {
-          "term": "3DIC",
-          "desc": "3D集成电路，通过垂直堆叠多层芯片实现高密度互连的技术",
-          "category": "封装"
-        },
-        {
-          "term": "Alchip",
-          "desc": "一家专注于高性能ASIC和3D IC设计服务的半导体公司",
-          "category": "公司"
-        }
-      ],
-      "region": "overseas",
-      "summary": "AI处理器正进入新时代，半导体创新不再仅靠晶体管缩微，而是转向如Alchip 3DIC这样的先进3D集成技术。",
-      "tag_category": "EDA/IP",
-      "title_en": "AI Chip Design Moves Beyond Monolithic Silicon with Alchip 3DIC"
     }
   ],
   "stats": {
-    "total_raw": 83,
+    "total_raw": 85,
     "after_dedup": 68,
     "sources": {
-      "RSS": 59,
-      "Brave": 9
+      "RSS": 65,
+      "Brave": 3
     }
   },
   "code_version": "",

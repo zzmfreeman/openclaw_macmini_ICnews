@@ -1,35 +1,5 @@
 [
   {
-    "url": "http://www.iccsz.com/site/cn/News/2026/04/27/20260427055409718291.htm",
-    "title": "联讯仪器成功登陆科创板，九年磨剑铸硬核",
-    "published": "2026-04-27",
-    "addedAt": "2026-04-28T06:18:23+08:00"
-  },
-  {
-    "url": "https://www.electronicsforyou.biz/industry-buzz/siemens-tsmc-expand-ai-driven-chip-design-partnership",
-    "title": "西门子与台积电扩大AI驱动芯片设计合作",
-    "published": "2026-04-27",
-    "addedAt": "2026-04-28T06:18:23+08:00"
-  },
-  {
-    "url": "https://www.digitaltoday.co.kr/en/view/51255/dutch-chip-equipment-maker-besi-sees-surge-in-hybrid-bonding-orders-on-ai-infrastructure-investment",
-    "title": "荷兰芯片设备商Besi混合键合订单激增，AI基础设施驱动",
-    "published": "2026-04-27",
-    "addedAt": "2026-04-28T06:18:23+08:00"
-  },
-  {
-    "url": "https://investorshub.advfn.com/market-news",
-    "title": "Tower半导体与Axiro推出美国本土制造国防雷达芯片",
-    "published": "2026-04-27",
-    "addedAt": "2026-04-28T06:18:23+08:00"
-  },
-  {
-    "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%93%B4cowos%E7%94%A2%E8%83%BD-%E9%AB%98%E6%95%88%E8%83%BD%E9%81%8B%E7%AE%97%E9%A9%85%E5%8B%95%E7%87%9F%E9%81%8B-020200689.html",
-    "title": "台积电CoWoS封装扩产，高效能运算驱动营运增长",
-    "published": "2026-04-27",
-    "addedAt": "2026-04-28T06:18:23+08:00"
-  },
-  {
     "url": "https://m.sohu.com/a/1014759462_121097259",
     "title": "中国最强芯片设备企业北方华创从全球第6降至第7，国产设备竞争格局面临挑战",
     "published": "2026-04-27T12:00:00+08:00",
@@ -2998,5 +2968,35 @@
     "title": "跨越良率悬崖：IDP V6与制造预测的未来（Crossing the Yield Cliff: IDP V6 and the Future of Manufacturing Forecasting）",
     "published": "Mon, 18 May 2026 17:00:43 +0000",
     "addedAt": "2026-05-20T13:02:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/security/pqshield/367520-pqshield-unveils-ultra-small-pqc-embedded-security-breakthroughs-at-embedded-world-2026/",
+    "title": "PQShield在2026年嵌入式世界展上发布超小型PQC嵌入式安全突破（PQShield unveils ultra-small PQC embedded security breakthroughs at Embedded World 2026）",
+    "published": "Tue, 19 May 2026 17:00:29 +0000",
+    "addedAt": "2026-05-20T20:04:00+08:00"
+  },
+  {
+    "url": "https://en.sedaily.com/international/2026/05/19/cxmt-restarts-star-market-listing-with-7-trillion-won-war",
+    "title": "CXMT重启科创板上市，携7万亿韩元资金储备（CXMT Restarts STAR Market Listing With 7 Trillion Won War Chest - Seoul Economic Daily）",
+    "published": "",
+    "addedAt": "2026-05-20T20:04:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/3dic/369301-closing-the-silicon-realization-gap-from-static-dfm-to-governance-for-lifecycle-gfl/",
+    "title": "弥合硅片实现差距：从静态DFM到生命周期治理（GFL）（Closing the Silicon Realization Gap: From Static DFM to Governance for Lifecycle (GFL))",
+    "published": "Tue, 19 May 2026 15:00:40 +0000",
+    "addedAt": "2026-05-20T20:04:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/369260-imec-ic-link-and-tsmc-3dfabric-alliance-expansion-signals-new-era-of-system-level-scaling/",
+    "title": "imec IC-Link与TSMC 3DFabric联盟扩张标志着系统级扩展新时代（imec IC-Link and TSMC 3DFabric Alliance Expansion Signals New Era of System-Level Scaling）",
+    "published": "Tue, 19 May 2026 13:00:35 +0000",
+    "addedAt": "2026-05-20T20:04:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/lithography/369371-crossing-the-yield-cliff-idp-v6-and-the-future-of-manufacturing-forecasting/",
+    "title": "跨越良率悬崖：IDP V6与制造预测的未来（Crossing the Yield Cliff: IDP V6 and the Future of Manufacturing Forecasting）",
+    "published": "Mon, 18 May 2026 17:00:43 +0000",
+    "addedAt": "2026-05-20T20:04:00+08:00"
   }
 ]

@@ -1,7 +1,7 @@
 {
-  "version": "v20260520-1302",
-  "generatedAt": "2026-05-20T13:02:00+08:00",
-  "period": "midday",
+  "version": "v20260520-2004",
+  "generatedAt": "2026-05-20T20:04:00+08:00",
+  "period": "evening",
   "commit": "",
   "glossary_list": [
     {
@@ -21,42 +21,62 @@
     },
     {
       "term": "PQC",
-      "desc": "后量子密码学，能够抵抗量子计算机攻击的新型加密算法",
+      "desc": "后量子密码，能够抵抗量子计算机破解的密码算法",
       "category": "安全"
     },
     {
-      "term": "IPO",
-      "desc": "首次公开募股，企业首次向公众投资者出售股票筹集资金的过程",
+      "term": "Embedded World",
+      "desc": "全球领先的嵌入式系统行业展会",
+      "category": "展会"
+    },
+    {
+      "term": "CXMT",
+      "desc": "长鑫存储，中国领先的DRAM研发与制造企业",
+      "category": "企业"
+    },
+    {
+      "term": "STAR Market",
+      "desc": "科创板，中国设立的面向硬科技企业的证券板块",
       "category": "金融"
     },
     {
       "term": "DFM",
-      "desc": "可制造性设计，优化设计以提高制造良率和降低成本的流程",
+      "desc": "可制造性设计，在设计阶段考虑制造工艺约束以提高良率",
       "category": "EDA"
     },
     {
       "term": "GFL",
-      "desc": "生命周期治理，涵盖芯片从设计到老化全过程的可靠性与性能管理框架",
+      "desc": "生命周期治理，覆盖芯片从设计、制造到全生命周期运行的闭环管控框架",
       "category": "EDA"
     },
     {
-      "term": "3DFabric Alliance",
-      "desc": "台积电3D Fabric联盟，旨在推动3D IC和先进封装技术的生态系统合作",
-      "category": "封装"
+      "term": "Silicon Realization",
+      "desc": "硅片实现，将设计转化为成功制造的物理芯片的过程",
+      "category": "EDA"
     },
     {
       "term": "imec IC-Link",
-      "desc": "微电子研究中心(imec)的IC-Link服务，提供芯片设计到量产的一站式支持",
-      "category": "研发"
+      "desc": "比利时微电子研究中心imec的硅片服务项目，提供从设计到量产的桥梁服务",
+      "category": "组织"
     },
     {
-      "term": "IDP",
-      "desc": "工业缺陷预测，用于预测和评估芯片制造过程中缺陷率的技术模型",
-      "category": "制造"
+      "term": "TSMC 3DFabric",
+      "desc": "台积电的3D集成电路先进封装平台及生态联盟",
+      "category": "封装"
+    },
+    {
+      "term": "System-Level Scaling",
+      "desc": "系统级扩展，通过3D封装和异构集成提升整体系统性能，而非仅依赖单芯片制程微缩",
+      "category": "技术"
     },
     {
       "term": "Yield Cliff",
-      "desc": "良率悬崖，指制程节点或新工艺导入初期良率急剧下降的现象",
+      "desc": "良率悬崖，指制程节点或新工艺导入时良率突然大幅下降的现象",
+      "category": "制造"
+    },
+    {
+      "term": "IDP",
+      "desc": "工业缺陷预测，利用数据和模型预测制造过程中缺陷分布与良率的方法",
       "category": "制造"
     }
   ],
@@ -66,61 +86,61 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS及先进封装的讨论热度有所降温，主要因产能扩张预期逐步落地，短期供需紧张情绪缓解。市场关注点正从产能紧缺转向良率提升与成本优化。"
+      "summary": "CoWoS/先进封装热度降温，社区讨论趋于平静。近期缺乏产能扩张的新催化剂，市场正消化前期台积电扩产消息，情绪转向观望。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度下降，随着HBM3e量产推进，前期狂热情绪趋于理性。社区讨论焦点暂从产能争夺转向下一代HBM4的技术规格与标准制定。"
+      "summary": "HBM/AI存储话题热度回落，讨论焦点从产能紧缺转向实际交付与良率爬坡。社区情绪趋于理性，等待长鑫存储等新入局者的后续进展。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中国Fab与先进制程话题降温，缺乏近期重大技术突破消息刺激，社区讨论趋于平淡。市场正等待国内代工厂在新制程节点上的实质性进展披露。"
+      "summary": "中国Fab/先进制程讨论热度下降，社区暂无重大技术突破传闻。市场处于政策与制裁消息的消化期，情绪相对平稳。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP热度回落，政策刺激效应减弱后，社区对国产替代的短期情绪趋于冷静。讨论重心转向国产工具在先进制程实际流片中的验证表现与生态兼容性。"
+      "summary": "国产EDA/IP热度降温，缺乏重磅新品发布或融资事件刺激。社区讨论暂归平淡，从业者正专注于现有工具的打磨与客户导入。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT板块关注度下降，先进封装产能紧缺缓解后，市场对OSAT短期业绩爆发的预期降低。社区暂无重大并购或技术发布事件引发热议。"
+      "summary": "封测OSAT话题热度走低，社区缺乏新的大订单或并购传闻。讨论重心转向常规产能利用率与价格博弈，情绪偏谨慎。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度降温，近期无新增重大制裁政策出台，社区情绪从焦虑转为观望。讨论重点转向现有规则下的合规应对与供应链重塑的长期适应。"
+      "summary": "出口管制/制裁热度下降，近期无新增重大管制清单出台。社区情绪暂时放松，但仍在警惕潜在的长臂管辖与设备断供风险。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与英伟达话题热度回落，随着新一代架构发布后的信息消化期，社区短期炒作情绪降温。讨论焦点正转向英伟达实际出货表现及竞争对手的动态。"
+      "summary": "AI芯片/NVIDIA热度回落，缺乏新一代架构或出货量超预期的刺激。社区讨论从狂热回归常态，关注点转向实际部署成本与推理端优化。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化热度下降，前期国产替代情绪高潮过后，市场进入平静的验证与导入期。社区关注点聚焦于国产设备在关键工艺环节的量产稳定性与客户反馈。"
+      "summary": "设备/材料国产化热度降温，暂无新的大规模验证突破或替代传闻。社区情绪趋于务实，聚焦于现有国产线体的良率提升与稳定性验证。"
     }
   ],
   "items": [
     {
-      "title": "PQShield在2026年嵌入式世界大会上发布超小型PQC嵌入式安全突破性技术（PQShield unveils ultra-small PQC embedded security breakthroughs at Embedded World 2026）",
+      "title": "PQShield在2026年嵌入式世界展上发布超小型PQC嵌入式安全突破（PQShield unveils ultra-small PQC embedded security breakthroughs at Embedded World 2026）",
       "url": "https://semiwiki.com/security/pqshield/367520-pqshield-unveils-ultra-small-pqc-embedded-security-breakthroughs-at-embedded-world-2026/",
       "description": "<p>As the threat of quantum computing to modern cybersecurity becomes increasingly real, the technology industry is accelerating efforts to develop cryptographic systems capable of resisting quantum attacks. One of the most significant developments in this field was presented at Embedded World 2026 ",
       "published": "Tue, 19 May 2026 17:00:29 +0000",
@@ -129,56 +149,71 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "量子计算威胁正推动半导体行业将PQC技术集成到边缘和嵌入式设备中，安全IP需求将激增。",
-        "超小型化突破意味着PQC方案正从理论算法走向资源受限的物联网芯片实际部署阶段。"
+        "后量子密码（PQC）正从理论走向嵌入式实际应用，芯片安全架构需提前布局以应对量子破解风险。",
+        "超小型化PQC方案意味着物联网和边缘设备的抗量子安全升级门槛正在降低，硬件安全模块将迎来迭代。"
       ],
       "actions": [
-        "嵌入式芯片设计公司应开始评估PQC IP模块的集成可行性，提前布局产品安全架构。",
-        "安全芯片供应商需密切关注PQC标准演进，加速抗量子加密硬件产品线的研发。"
+        "安全芯片和物联网设备厂商应尽快评估PQC算法的集成路径与资源开销，启动原型验证。",
+        "关注NIST等机构的PQC标准落地进程，提前进行IP选型和供应链储备。"
       ],
       "glossary": [
         {
           "term": "PQC",
-          "desc": "后量子密码学，能够抵抗量子计算机攻击的新型加密算法",
+          "desc": "后量子密码，能够抵抗量子计算机破解的密码算法",
           "category": "安全"
+        },
+        {
+          "term": "Embedded World",
+          "desc": "全球领先的嵌入式系统行业展会",
+          "category": "展会"
         }
       ],
       "region": "overseas",
-      "summary": "随着量子计算对现代网络安全威胁日益现实，PQShield发布了超小型后量子密码（PQC）嵌入式安全技术突破，加速抗量子加密系统的开发与落地。",
+      "summary": "PQShield在嵌入式世界展上展示了超小型后量子密码（PQC）嵌入式安全技术突破，以应对量子计算对现代网络安全日益真实的威胁。",
       "tag_category": "综合",
       "title_en": "PQShield unveils ultra-small PQC embedded security breakthroughs at Embedded World 2026"
     },
     {
-      "title": "SpaceX IPO将增加马斯克的第二只股票，这对特斯拉是个问题（SpaceX IPO will add second Musk stock. It’s a problem for Tesla.）",
-      "url": "https://www.eastbaytimes.com/2026/05/19/spacex-ipo-tesla-problem/",
-      "description": "Wall Street pros see investors’ attention and capital swinging toward Musk's shiny new toy.",
+      "title": "CXMT重启科创板上市，携7万亿韩元资金储备（CXMT Restarts STAR Market Listing With 7 Trillion Won War Chest - Seoul Economic Daily）",
+      "url": "https://en.sedaily.com/international/2026/05/19/cxmt-restarts-star-market-listing-with-7-trillion-won-war",
+      "description": "ChangXin Memory Technologies (CXMT) plans to deploy over 7 trillion won from its STAR Market IPO into DRAM expansion and HBM mass production, challenging SK hynix and Samsung Electronics.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "资本市场对明星科技巨头的注意力转移，可能影响特斯拉在自动驾驶和AI车载芯片领域的融资与估值预期。",
-        "核心科技企业的资本分流效应会波及整个电动汽车及车载芯片供应链的资金流向与项目推进节奏。"
+        "CXMT重启IPO并重金押注HBM量产，标志着中国存储厂商正式加入高端AI存储竞争赛道。",
+        "7万亿韩元（约合370亿人民币）的庞大融资规模，将极大加速国内DRAM和HBM的产线建设与良率爬坡。"
       ],
       "actions": [
-        "车载芯片供应商需警惕特斯拉资本吸引力下降可能带来的新项目延期或预算缩减风险。",
-        "投资者与供应链企业应重新评估新能源车与航天AI赛道间资金流向的动态平衡。"
+        "国内设备与材料供应商应紧盯CXMT的扩产招标，抢占HBM制造前道与先进封装环节的国产替代窗口。",
+        "关注CXMT科创板IPO进展，评估其对国内半导体资金面及存储产业链估值的带动效应。"
       ],
       "glossary": [
         {
-          "term": "IPO",
-          "desc": "首次公开募股，企业首次向公众投资者出售股票筹集资金的过程",
+          "term": "CXMT",
+          "desc": "长鑫存储，中国领先的DRAM研发与制造企业",
+          "category": "企业"
+        },
+        {
+          "term": "STAR Market",
+          "desc": "科创板，中国设立的面向硬科技企业的证券板块",
           "category": "金融"
+        },
+        {
+          "term": "HBM",
+          "desc": "高带宽内存，通过先进封装实现的高性能DRAM，广泛用于AI芯片",
+          "category": "存储"
         }
       ],
       "region": "overseas",
-      "summary": "华尔街专业人士认为，SpaceX的IPO将吸引投资者的注意力和资金转向马斯克的新项目，从而对特斯拉的资本吸引力与估值造成负面影响。",
+      "summary": "长鑫存储（CXMT）计划将科创板IPO募集的超过7万亿韩元资金投入DRAM产能扩张和HBM量产，以挑战SK海力士和三星电子。",
       "tag_category": "EDA/IP",
-      "title_en": "SpaceX IPO will add second Musk stock. It’s a problem for Tesla."
+      "title_en": "CXMT Restarts STAR Market Listing With 7 Trillion Won War Chest - Seoul Economic Daily"
     },
     {
-      "title": "弥合硅片实现差距：从静态DFM到生命周期治理（GFL）（Closing the Silicon Realization Gap: From Static DFM to Governance for Lifecycle (GFL)）",
+      "title": "弥合硅片实现差距：从静态DFM到生命周期治理（GFL）（Closing the Silicon Realization Gap: From Static DFM to Governance for Lifecycle (GFL))",
       "url": "https://semiwiki.com/3dic/369301-closing-the-silicon-realization-gap-from-static-dfm-to-governance-for-lifecycle-gfl/",
       "description": "<p>The semiconductor industry has achieved extraordinary mastery in silicon signoff. Modern EDA environments can now optimize timing closure, physical verification, IR/EM behavior, routing density, thermal interaction, and increasingly even design-space exploration through AI-assisted implementation",
       "published": "Tue, 19 May 2026 15:00:40 +0000",
@@ -187,27 +222,32 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "传统的静态DFM已不足以应对先进制程的复杂变异，生命周期治理（GFL）成为保障芯片长期可靠性的新趋势。",
-        "EDA工具正从单纯的制造前优化，延伸至覆盖芯片全生命周期的性能衰减预测与数据治理。"
+        "随着制程节点微缩，仅靠静态DFM已无法覆盖制造变异和生命周期可靠性问题，GFL代表了EDA签核的新范式。",
+        "从设计到制造再到现场运行的闭环数据治理，将成为提升先进制程良率和芯片长期可靠性的关键。"
       ],
       "actions": [
-        "芯片设计团队应将GFL理念引入设计流程，关注芯片在生命周期内的性能衰减与可靠性管理。",
-        "EDA软件采购需优先考虑支持全生命周期数据反馈与治理的平台化解决方案。"
+        "IC设计企业需在流程中引入生命周期治理理念，将制造数据和现场退化数据反馈至设计端优化。",
+        "EDA工具供应商应加速开发支持GFL的闭环分析平台，打通设计、制造与运维的数据壁垒。"
       ],
       "glossary": [
         {
           "term": "DFM",
-          "desc": "可制造性设计，优化设计以提高制造良率和降低成本的流程",
+          "desc": "可制造性设计，在设计阶段考虑制造工艺约束以提高良率",
           "category": "EDA"
         },
         {
           "term": "GFL",
-          "desc": "生命周期治理，涵盖芯片从设计到老化全过程的可靠性与性能管理框架",
+          "desc": "生命周期治理，覆盖芯片从设计、制造到全生命周期运行的闭环管控框架",
+          "category": "EDA"
+        },
+        {
+          "term": "Silicon Realization",
+          "desc": "硅片实现，将设计转化为成功制造的物理芯片的过程",
           "category": "EDA"
         }
       ],
       "region": "overseas",
-      "summary": "半导体行业在硅片签核方面已实现非凡掌控，现代EDA环境能优化时序收敛等环节，但正从静态可制造性设计（DFM）向生命周期治理（GFL）演进以弥合实现差距。",
+      "summary": "半导体行业在硅片签核方面已达到极高水准，当前正从传统的静态可制造性设计（DFM）转向面向全生命周期的治理（GFL），以弥合硅片实现差距。",
       "tag_category": "EDA/IP",
       "title_en": "Closing the Silicon Realization Gap: From Static DFM to Governance for Lifecycle (GFL)"
     },
@@ -221,27 +261,32 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "imec加入TSMC 3DFabric联盟将强化先进封装与异构集成的前沿研发与代工服务对接，降低3D IC设计门槛。",
-        "系统级扩展正取代单纯制程微缩，成为提升芯片整体性能和功能密度的核心商业路径。"
+        "imec加入TSMC 3DFabric联盟，将强化先进封装与异构集成技术的生态协同，降低中小型客户接入3D封装的门槛。",
+        "系统级扩展取代单纯制程微缩成为主流，3D Fabric生态的扩张意味着晶圆代工与封装的边界进一步融合。"
       ],
       "actions": [
-        "寻求先进封装方案的芯片开发商应密切关注imec与TSMC联合提供的3D IC设计流片与验证服务。",
-        "封测厂商需加速布局异构集成技术，以适应系统级扩展生态联盟对供应链的协同要求。"
+        "芯片设计公司应积极利用imec IC-Link与TSMC 3DFabric的协同资源，优化多芯片异构集成方案的设计与验证。",
+        "封装与测试厂商需关注TSMC 3DFabric生态的标准演进，提前布局兼容性产能与技术能力。"
       ],
       "glossary": [
         {
-          "term": "3DFabric Alliance",
-          "desc": "台积电3D Fabric联盟，旨在推动3D IC和先进封装技术的生态系统合作",
+          "term": "imec IC-Link",
+          "desc": "比利时微电子研究中心imec的硅片服务项目，提供从设计到量产的桥梁服务",
+          "category": "组织"
+        },
+        {
+          "term": "TSMC 3DFabric",
+          "desc": "台积电的3D集成电路先进封装平台及生态联盟",
           "category": "封装"
         },
         {
-          "term": "imec IC-Link",
-          "desc": "微电子研究中心(imec)的IC-Link服务，提供芯片设计到量产的一站式支持",
-          "category": "研发"
+          "term": "System-Level Scaling",
+          "desc": "系统级扩展，通过3D封装和异构集成提升整体系统性能，而非仅依赖单芯片制程微缩",
+          "category": "技术"
         }
       ],
       "region": "overseas",
-      "summary": "imec宣布其IC-Link加入TSMC 3DFabric联盟，这一扩张标志着半导体行业从单纯制程微缩转向系统级扩展与异构集成的新时代。",
+      "summary": "imec宣布其IC-Link加入TSMC 3DFabric联盟，这一扩张标志着半导体行业正迈向系统级扩展的新时代。",
       "tag_category": "EDA/IP",
       "title_en": "imec IC-Link and TSMC 3DFabric Alliance Expansion Signals New Era of System-Level Scaling"
     },
@@ -255,37 +300,37 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "“良率悬崖”是先进制程量产初期的致命瓶颈，IDP V6双层框架提供了更精准的跨行业良率爬坡预测模型。",
-        "制造预测正从经验驱动转向数据与模型驱动，以降低新工艺节点导入的高风险与试错成本。"
+        "“良率悬崖”是先进制程量产初期的致命痛点，IDP V6的双层框架为预测和规避良率突变提供了量化模型。",
+        "制造预测正从经验驱动转向数据与模型驱动，精准的缺陷预测能力将直接决定新工艺导入的时间与成本。"
       ],
       "actions": [
-        "Fab厂和制造管理层应研究IDP V6双层框架，优化自身新工艺量产良率爬坡的预测与风险管控机制。",
-        "良率管理软件开发商需引入更先进的缺陷预测算法与跨行业数据模型，提升产品竞争力。"
+        "Fab厂和IDM应引入IDP V6等先进良率预测框架，在量产前精准识别并消除潜在良率悬崖风险。",
+        "良率管理软件开发商需升级预测算法，结合缺陷物理机制与生产大数据，提供更陡峭制程的爬坡指引。"
       ],
       "glossary": [
         {
-          "term": "IDP",
-          "desc": "工业缺陷预测，用于预测和评估芯片制造过程中缺陷率的技术模型",
+          "term": "Yield Cliff",
+          "desc": "良率悬崖，指制程节点或新工艺导入时良率突然大幅下降的现象",
           "category": "制造"
         },
         {
-          "term": "Yield Cliff",
-          "desc": "良率悬崖，指制程节点或新工艺导入初期良率急剧下降的现象",
+          "term": "IDP",
+          "desc": "工业缺陷预测，利用数据和模型预测制造过程中缺陷分布与良率的方法",
           "category": "制造"
         }
       ],
       "region": "overseas",
-      "summary": "最新发布的工业缺陷预测（IDP）V6论文提出了双层良率悬崖框架，用于跨行业量产预测，旨在解决先进制程导入初期的制造预测挑战。",
+      "summary": "《工业缺陷预测（IDP）V6》论文提出了双层“良率悬崖”框架，用于跨行业量产预测，旨在帮助半导体制造跨越良率陡降的瓶颈期。",
       "tag_category": "综合",
       "title_en": "Crossing the Yield Cliff: IDP V6 and the Future of Manufacturing Forecasting"
     }
   ],
   "stats": {
-    "total_raw": 84,
-    "after_dedup": 76,
+    "total_raw": 85,
+    "after_dedup": 68,
     "sources": {
-      "RSS": 64,
-      "Brave": 12
+      "RSS": 65,
+      "Brave": 3
     }
   },
   "code_version": "",
