@@ -1,95 +1,5 @@
 [
   {
-    "url": "https://m.sohu.com/a/1014759462_121097259",
-    "title": "中国最强芯片设备企业北方华创从全球第6降至第7，国产设备竞争格局面临挑战",
-    "published": "2026-04-27T12:00:00+08:00",
-    "addedAt": "2026-04-28T06:18:23+08:00"
-  },
-  {
-    "url": "https://wccftech.com/tsmc-3nm-2nm-wafer-output-to-be-boosted-by-the-end-of-2026/",
-    "title": "台积电3nm与2nm产能将于2026年底增产20%，供给紧缺持续",
-    "published": "2026-04-27T06:45:07Z",
-    "addedAt": "2026-04-29T06:00:00+08:00"
-  },
-  {
-    "url": "https://money.udn.com/money/story/5612/9468550",
-    "title": "台积电5座2奈米厂同时放量，3年产能复合成长70%",
-    "published": "2026-04-28T00:00:00Z",
-    "addedAt": "2026-04-29T06:00:00+08:00"
-  },
-  {
-    "url": "https://www.36kr.com/p/3609446170543104",
-    "title": "中芯国际部分产能涨价10%，晶圆代工行业产能紧张",
-    "published": "2026-04-28T00:00:00Z",
-    "addedAt": "2026-04-29T06:00:00+08:00"
-  },
-  {
-    "url": "https://japantoday.com/category/crime/taiwan-court-sentences-ex-tokyo-electron-staff-to-10-years-in-tsmc-trade-secrets-case",
-    "title": "台湾法院判决前东京电子员工窃取台积电商业秘密案获刑10年",
-    "published": "2026-04-27T21:38:41Z",
-    "addedAt": "2026-04-29T06:00:00+08:00"
-  },
-  {
-    "url": "https://www.theglobeandmail.com/investing/markets/stocks/CDNS/pressreleases/1549186/cadence-cdns-q1-2026-earnings-transcript/",
-    "title": "Cadence 2026年Q1财报：AI驱动EDA需求持续强劲",
-    "published": "2026-04-28T00:00:00Z",
-    "addedAt": "2026-04-29T06:00:00+08:00"
-  },
-  {
-    "url": "https://caifuhao.eastmoney.com/news/20260428231453514952910",
-    "title": "芯片设计弹性会更大：高景气度下设计公司迎来加速期",
-    "published": "2026-04-28T22:00:00Z",
-    "addedAt": "2026-04-29T06:00:00+08:00"
-  },
-  {
-    "url": "https://wallstreetcn.com/articles/3771070",
-    "title": "大摩科技展望：存储之后，EUV光刻机和CPU将成为新的瓶颈",
-    "published": "2026-04-28T22:00:00Z",
-    "addedAt": "2026-04-29T06:00:00+08:00"
-  },
-  {
-    "url": "https://finance.sina.com.cn/jjxw/2026-04-28/doc-inhvzmye8585003.shtml",
-    "title": "中微公司2026年Q1净利同比增长197%，半导体设备迎来历史性扩产周期",
-    "published": "2026-04-28T00:00:00Z",
-    "addedAt": "2026-04-29T06:00:00+08:00"
-  },
-  {
-    "url": "https://finance.sina.com.cn/roll/2026-04-28/doc-inhvyzkk8634470.shtml",
-    "title": "半导体设备国产替代加速，产业迈入盈利兑现期",
-    "published": "2026-04-28T00:00:00Z",
-    "addedAt": "2026-04-29T06:00:00+08:00"
-  },
-  {
-    "url": "https://wap.eastmoney.com/a/202604293723217843.html",
-    "title": "盛合晶微市值登顶A股封测板块，能否坐稳龙头地位？",
-    "published": "2026-04-28T22:00:00Z",
-    "addedAt": "2026-04-29T06:00:00+08:00"
-  },
-  {
-    "url": "https://finance.sina.com.cn/roll/2026-04-28/doc-inhvzshf1710358.shtml",
-    "title": "长电科技玻璃基TGV射频IPD技术实现重大突破",
-    "published": "2026-04-28T22:00:00Z",
-    "addedAt": "2026-04-29T06:00:00+08:00"
-  },
-  {
-    "url": "https://www.cls.cn/detail/2358587",
-    "title": "伟测科技Q1净利润同比增长173%，测试服务需求旺盛",
-    "published": "2026-04-28T22:00:00Z",
-    "addedAt": "2026-04-29T06:00:00+08:00"
-  },
-  {
-    "url": "https://www.36kr.com/p/3784411331730697",
-    "title": "这些晶圆厂，重回C位：全球晶圆制造格局再洗牌",
-    "published": "2026-04-28T00:00:00Z",
-    "addedAt": "2026-04-29T06:00:00+08:00"
-  },
-  {
-    "url": "https://eu.36kr.com/en/p/3786167323254021",
-    "title": "跨国并购受阻：科技巨头收购的多元死亡场景",
-    "published": "2026-04-28T22:00:00Z",
-    "addedAt": "2026-04-29T06:00:00+08:00"
-  },
-  {
     "url": "https://www.thepaper.cn/newsDetail_forward_33057905",
     "title": "曦智科技上市，“AI硅光芯片第一股”为何选择上海？",
     "published": "2026-04-28T10:00:00+08:00",
@@ -2998,5 +2908,95 @@
     "title": "跨越良率悬崖：IDP V6与制造预测的未来（Crossing the Yield Cliff: IDP V6 and the Future of Manufacturing Forecasting）",
     "published": "Mon, 18 May 2026 17:00:43 +0000",
     "addedAt": "2026-05-20T20:04:00+08:00"
+  },
+  {
+    "url": "https://caifuhao.eastmoney.com/news/20260520223736962560470?from=guba&name=5a6B5b635pe25Luj5ZCn&gubaurl=aHR0cHM6Ly9ndWJhLmVhc3Rtb25leS5jb20vbGlzdCwzMDA3NTAsZi5odG1s",
+    "title": "创业板第四套标准首单IPO落地——A股重要资讯汇总与点评（2026年5月20日）",
+    "published": "7小时前",
+    "addedAt": "2026-05-21T06:04:00+08:00"
+  },
+  {
+    "url": "https://thenextweb.com/news/spacex-plans-to-buy-cursor-for-60-billion-once-its-record-ipo-wraps",
+    "title": "SpaceX计划在IPO后以600亿美元收购AI编程初创公司Cursor（SpaceX to acquire AI coding startup Cursor for $60B after IPO）",
+    "published": "2026-05-19T00:00:00.000Z",
+    "addedAt": "2026-05-21T06:04:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/security/pqshield/367520-pqshield-unveils-ultra-small-pqc-embedded-security-breakthroughs-at-embedded-world-2026/",
+    "title": "PQShield在2026年嵌入式世界展览会上发布超小型后量子密码（PQC）嵌入式安全突破性技术（PQShield unveils ultra-small PQC embedded security breakthroughs at Embedded World 2026）",
+    "published": "Tue, 19 May 2026 17:00:29 +0000",
+    "addedAt": "2026-05-21T06:04:00+08:00"
+  },
+  {
+    "url": "https://cj.sina.com.cn/articles/view/7517400647/1c0126e4705908jsmm",
+    "title": "AI虹吸成熟产能 国产晶圆代工开启提价扩产周期",
+    "published": "6小时前",
+    "addedAt": "2026-05-21T06:04:00+08:00"
+  },
+  {
+    "url": "https://finance.sina.com.cn/wm/2026-05-20/doc-inhypxkk9638117.shtml",
+    "title": "港股涨跌不一，芯片股强势，华虹半导体涨13.89%，中芯国际涨9.71%",
+    "published": "12小时前",
+    "addedAt": "2026-05-21T06:04:00+08:00"
+  },
+  {
+    "url": "https://news.futunn.com/post/73374153/soaring-demand-china-s-two-leading-domestic-memory-chipmakers-ignite",
+    "title": "夯爆了！国产存储双雄点燃市场，突围窗口来了？",
+    "published": "16小时前",
+    "addedAt": "2026-05-21T06:04:00+08:00"
+  },
+  {
+    "url": "https://cj.sina.com.cn/articles/view/5278967580/13aa6a71c00101ionc",
+    "title": "老登仪式感满满，小登半导体们疯狂撒钱，发生了什么？",
+    "published": "14小时前",
+    "addedAt": "2026-05-21T06:04:00+08:00"
+  },
+  {
+    "url": "https://finance.sina.com.cn/tech/roll/2026-05-20/doc-inhypaer1781875.shtml",
+    "title": "A股午后发力拉升，半导体板块强势，多股20%涨停",
+    "published": "20小时前",
+    "addedAt": "2026-05-21T06:04:00+08:00"
+  },
+  {
+    "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-05-19/doc-inhymqci2233267.shtml",
+    "title": "大摩：成熟制程上升周期即将到来 上调中芯国际及华虹半导体目标价",
+    "published": "2026-05-19T00:00:00.000Z",
+    "addedAt": "2026-05-21T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.163.com/dy/article/KTCFFL1D0519DDQ2.html",
+    "title": "阿里新一代训推一体AI芯片首次亮相，平头哥披露未来两代GPU规划",
+    "published": "2026-05-20T00:00:00.000Z",
+    "addedAt": "2026-05-21T06:04:00+08:00"
+  },
+  {
+    "url": "https://finance.sina.com.cn/wm/2026-05-20/doc-inhypnum1735290.shtml",
+    "title": "摩尔线程发布会背后：一颗“种在无锡”的芯片正在结果",
+    "published": "2026-05-20T00:00:00.000Z",
+    "addedAt": "2026-05-21T06:04:00+08:00"
+  },
+  {
+    "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-05-19/doc-inhymqcm7452364.shtml",
+    "title": "国产GPU企业摩尔线程赋能全场景AI应用",
+    "published": "2026-05-19T00:00:00.000Z",
+    "addedAt": "2026-05-21T06:04:00+08:00"
+  },
+  {
+    "url": "https://finance.sina.com.cn/roll/2026-05-20/doc-inhynvwv7078520.shtml",
+    "title": "摩尔线程首发MTT AICUBE：以全域智能体为核心，开创家庭AI计算新品类",
+    "published": "2026-05-20T00:00:00.000Z",
+    "addedAt": "2026-05-21T06:04:00+08:00"
+  },
+  {
+    "url": "https://36kr.com/p/3814125492461320",
+    "title": "CoWoS，变了",
+    "published": "2026-05-20T00:00:00.000Z",
+    "addedAt": "2026-05-21T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.ainvest.com/news/tsmc-hasn-run-valuation-bears-year-earnings-2605/",
+    "title": "台积电涨幅并未过高——看空者仍在使用去年的盈利数据进行估值（TSMC Hasn't Run Too Far - The Valuation Bears Are Using Last Year's Earnings）",
+    "published": "2026-05-19T00:00:00.000Z",
+    "addedAt": "2026-05-21T06:04:00+08:00"
   }
 ]

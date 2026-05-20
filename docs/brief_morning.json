@@ -1,6 +1,6 @@
 {
-  "version": "v20260520-0604",
-  "generatedAt": "2026-05-20T06:04:00+08:00",
+  "version": "v20260521-0604",
+  "generatedAt": "2026-05-21T06:04:00+08:00",
   "period": "morning",
   "commit": "",
   "glossary_list": [
@@ -20,99 +20,109 @@
       "category": "封装"
     },
     {
-      "term": "涨停",
-      "desc": "股票价格上涨达到交易所规定的每日最大涨幅限制，A股通常为10%或20%。",
+      "term": "创业板第四套标准",
+      "desc": "针对尚未盈利但具有研发潜力的企业设定的上市财务标准",
       "category": "金融"
     },
     {
-      "term": "3nm",
-      "desc": "半导体制造工艺节点，代表晶体管尺寸的极小化，是目前最先进的制程技术之一。",
-      "category": "Fab/制造"
-    },
-    {
-      "term": "PQC",
-      "desc": "后量子密码学，旨在研发能抵抗量子计算机破解攻击的加密算法。",
-      "category": "安全"
-    },
-    {
-      "term": "Quantum Computing",
-      "desc": "量子计算，利用量子力学原理进行计算的新型计算模式，在特定问题上具有远超传统计算机的算力。",
-      "category": "技术"
+      "term": "Cursor",
+      "desc": "一家专注于AI代码生成的初创公司",
+      "category": "EDA/IP"
     },
     {
       "term": "IPO",
-      "desc": "首次公开募股，企业第一次向公众投资者发行股票并在证券交易所挂牌交易的过程。",
+      "desc": "首次公开募股，企业首次向公众投资者发售股票",
       "category": "金融"
     },
     {
-      "term": "资本开支",
-      "desc": "Capital Expenditure (CapEx)，企业用于购买、升级或维护物理资产（如厂房、设备）的资金支出。",
+      "term": "PQC",
+      "desc": "后量子密码，能够抵抗量子计算机攻击的加密算法",
+      "category": "EDA/IP"
+    },
+    {
+      "term": "Embedded World",
+      "desc": "全球领先的嵌入式系统行业展览会",
+      "category": "展会"
+    },
+    {
+      "term": "成熟产能",
+      "desc": "通常指28nm及以上的成熟制程晶圆制造产能",
       "category": "Fab/制造"
     },
     {
+      "term": "产能利用率",
+      "desc": "晶圆厂实际产出占最大产能的比例，是衡量景气度的核心指标",
+      "category": "Fab/制造"
+    },
+    {
+      "term": "南向资金",
+      "desc": "内地投资者通过港股通买入香港股市的资金",
+      "category": "金融"
+    },
+    {
+      "term": "国产存储双雄",
+      "desc": "指国内领先的两大存储芯片制造商（通常指长鑫存储与长江存储相关体系）",
+      "category": "Fab/制造"
+    },
+    {
+      "term": "涨停",
+      "desc": "股票价格上涨达到交易所规定的当日最高涨幅限制，A股科创板通常为20%。",
+      "category": "金融"
+    },
+    {
       "term": "成熟制程",
-      "desc": "通常指28nm及以上的半导体制造工艺，主要用于MCU、电源管理、物联网等芯片",
-      "category": "制造"
+      "desc": "通常指28nm及以上的半导体制造工艺，主要应用于物联网、汽车、电源管理等领域。",
+      "category": "Fab/制造"
     },
     {
-      "term": "先进封装",
-      "desc": "如CoWoS等提升芯片集成度与性能的封装技术，是AI算力芯片的关键瓶颈",
-      "category": "封装"
+      "term": "溢出需求",
+      "desc": "当头部厂商产能不足或主动放弃某类订单时，转移给二线厂商的市场需求。",
+      "category": "市场"
     },
     {
-      "term": "全栈智算矩阵",
-      "desc": "覆盖云端训练、边缘推理到终端部署的完整AI计算基础设施与解决方案集合",
-      "category": "设计"
+      "term": "训推一体",
+      "desc": "芯片架构同时支持大模型的训练和推理过程，旨在提高资源利用率和开发部署效率。",
+      "category": "芯片设计"
     },
     {
       "term": "夸娥智算集群",
-      "desc": "摩尔线程推出的面向云端大模型训练的万卡级GPU计算集群系统",
-      "category": "基础设施"
+      "desc": "摩尔线程推出的万卡级云端智算集群解决方案，旨在提供大规模AI算力。",
+      "category": "算力基础设施"
+    },
+    {
+      "term": "SoC",
+      "desc": "System on Chip，系统级芯片，将CPU、GPU等关键部件集成在一块芯片上。",
+      "category": "芯片设计"
+    },
+    {
+      "term": "Dense大模型",
+      "desc": "稠密大模型，所有参数在每次推理或训练中都被激活的模型架构。",
+      "category": "AI"
     },
     {
       "term": "MoE大模型",
-      "desc": "混合专家架构大模型，通过稀疏激活机制降低计算量，提升模型参数规模",
-      "category": "算法"
+      "desc": "混合专家大模型，通过路由机制只激活部分参数，以降低计算成本的模型架构。",
+      "category": "AI"
     },
     {
-      "term": "具身智能",
-      "desc": "具有物理身体、能与物理世界交互并自主决策的智能系统，常用于机器人",
-      "category": "应用"
-    },
-    {
-      "term": "MUSA",
-      "desc": "摩尔线程自主研发的统一系统架构及软件生态平台",
-      "category": "生态"
-    },
-    {
-      "term": "FH-BSAP",
-      "desc": "甬矽电子推出的先进封装平台，针对高集成度与高算力芯片的封装需求",
-      "category": "封装"
-    },
-    {
-      "term": "AI NAS",
-      "desc": "集成AI计算能力的网络附加存储设备，能在本地完成数据推理与处理",
+      "term": "MTT AICUBE",
+      "desc": "摩尔线程推出的首款面向家庭场景的消费级AI计算产品",
       "category": "产品"
     },
     {
       "term": "长江SoC",
-      "desc": "摩尔线程自研的面向智能终端的系统级芯片",
-      "category": "设计"
+      "desc": "摩尔线程自研的智能系统级芯片，用于支撑端侧AI算力需求",
+      "category": "芯片"
     },
     {
-      "term": "AIDC",
-      "desc": "人工智能数据中心，专为AI训练和推理提供高密度算力与高能耗支撑的基础设施",
-      "category": "基础设施"
+      "term": "TSMC",
+      "desc": "台湾积体电路制造公司，全球最大的晶圆代工半导体制造厂",
+      "category": "Fab/制造"
     },
     {
-      "term": "源网荷储",
-      "desc": "电力系统综合运营理念，涵盖电源、电网、负荷和储能，在此引申为智算中心的能源全链路管理",
-      "category": "能源/基础设施"
-    },
-    {
-      "term": "玻璃基板",
-      "desc": "用于先进封装的玻璃材质载板，具有极低的热膨胀系数和优异的电气性能，是取代有机基板的下一代技术",
-      "category": "材料/封装"
+      "term": "Valuation Bears",
+      "desc": "看空估值者，认为公司当前股价已被高估且超出其内在价值的投资者",
+      "category": "金融"
     }
   ],
   "topic_pulse": [
@@ -121,119 +131,124 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "尽管台积电CoWoS产能依然紧缺，但社区对先进封装的炒作情绪有所降温，讨论焦点从单纯的产能争夺转向技术溢价与产业链格局重构。"
+      "summary": "尽管CoWoS产能仍是AI芯片交付的关键瓶颈，但社区对短期内产能爆发的预期有所降温。讨论焦点转向台积电的定价权与产业链利润分配重构，关注先进封装溢价对芯片设计成本的影响。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "随着HBM产能逐步释放，社区对AI存储的狂热情绪开始降温，讨论重心转向HBM3E的实际良率及下一代HBM4的规格演进。"
+      "summary": "随着HBM产能逐步释放，市场对存储短缺的恐慌情绪降温。社区热议重心转移至HBM4的技术演进及下一代AI芯片的存储架构适配，探讨长期供需平衡点。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国内Fab扩产节奏趋于平稳，社区关注度降温，讨论热点转向成熟制程的产能利用率及本土晶圆厂的盈利能力修复。"
+      "summary": "国内先进制程突破的讨论热度回落，社区情绪趋于理性。目前更多关注成熟制程的产能利用率及国内Fab在特色工艺上的差异化竞争，而非单纯的制程节点追赶。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题热度回落，社区讨论从政策驱动转向商业化落地，关注本土EDA工具在实际芯片设计流片中的验证情况。"
+      "summary": "国产EDA/IP替代话题短期降温，社区讨论从政策驱动转向商业落地。重点聚焦本土工具在实际流片中的验证情况、客户采用率及全流程解决方案的成熟度。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "传统封测话题降温，社区关注点转移至先进封装带来的价值转移，探讨OSAT如何在代工厂挤压下寻找玻璃基板等新增长点。"
+      "summary": "先进封装热度下降带动OSAT板块关注度降温，社区讨论聚焦于传统封测厂的订单能见度。探讨OSAT在先进封装领域与晶圆代工的竞合关系及差异化突围路径。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制话题热度下降，社区对新增制裁清单的敏感度降低，讨论重点转向企业如何建立长期合规与供应链韧性机制。"
+      "summary": "制裁话题的短期冲击效应减弱，社区关注度降温。讨论重点转向企业如何通过供应链调整、合规管理及技术迂回实现长期常态化运营，降低地缘政策不确定性影响。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "英伟达AI芯片话题降温，社区不再一味追捧算力神话，而是开始理性讨论集群网络瓶颈、推理成本优化及竞品挑战。"
+      "summary": "英伟达相关讨论热度有所回落，社区不再单纯追捧算力神话。开始理性审视AI芯片的边际收益递减问题，以及推理侧算力真实需求与下一代架构的性价比演进。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备材料国产化热度暂降，社区讨论从国产替代的宏观叙事转向微观验证，聚焦核心零部件的突破与整机稳定性提升。"
+      "summary": "设备材料国产化讨论热度暂退，社区关注点从国产替代率转向设备实际良率表现。重点评估核心零部件的自主可控进展及国产设备在产线上的真实竞争力与稳定性。"
     }
   ],
   "items": [
     {
-      "title": "A股午后发力拉升，半导体板块强势，多股20%涨停",
-      "url": "https://www.stcn.com/article/detail/3916149.html",
-      "description": "半导体板块强势，耐科装备、沪硅产业、光莆股份等尾盘20%涨停，市值超1500亿元的芯原股份盘中突破300元大关，再创新高。 点赞. 分享. 微信扫一扫：分享. Scan me!",
-      "published": "13小时前",
-      "source": "证券时报",
+      "title": "创业板第四套标准首单IPO落地——A股重要资讯汇总与点评（2026年5月20日）",
+      "url": "https://caifuhao.eastmoney.com/news/20260520223736962560470?from=guba&name=5a6B5b635pe25Luj5ZCn&gubaurl=aHR0cHM6Ly9ndWJhLmVhc3Rtb25leS5jb20vbGlzdCwzMDA3NTAsZi5odG1s",
+      "description": "东方财富网旗下财经自媒体平台“财富号”，于2017年3月1日上线，汇聚权威、全面、专业的财经自媒体，为中国广大投资者提供个性化、专业化的财经资讯和一站式金融理财服务。",
+      "published": "7小时前",
+      "source": "财富号",
       "source_type": "Serper",
       "lang": "zh",
       "tags": [],
       "insights": [
-        "国内半导体资本市场情绪高涨，大市值龙头股突破新高显示出资金对板块长期看好。",
-        "设备与材料类企业领涨，反映出国产替代与产能扩张预期正在兑现。"
+        "创业板第四套标准落地为尚未盈利但具有研发潜力的半导体/EDA企业提供了新的上市融资路径",
+        "A股上市通道的拓宽有望加速国产替代进程，吸引更多资金投入核心技术研发"
       ],
       "actions": [
-        "关注半导体设备与材料赛道的龙头及高弹性标的，适时调整仓位。",
-        "警惕短期情绪过热带来的波动风险，结合基本面估值进行布局。"
+        "相关EDA/IP初创企业应重新评估自身财务与研发指标，对照第四套标准规划上市路径",
+        "投资者可关注符合该标准且具备核心技术壁垒的拟上市半导体标的"
       ],
       "glossary": [
         {
-          "term": "涨停",
-          "desc": "股票价格上涨达到交易所规定的每日最大涨幅限制，A股通常为10%或20%。",
+          "term": "创业板第四套标准",
+          "desc": "针对尚未盈利但具有研发潜力的企业设定的上市财务标准",
           "category": "金融"
         }
       ],
       "region": "domestic",
-      "summary": "A股半导体板块午后强势拉升，耐科装备、沪硅产业等多股尾盘20%涨停，芯原股份盘中突破300元大关再创新高。",
-      "tag_category": "综合",
-      "title_en": "A股午后发力拉升，半导体板块强势，多股20%涨停"
+      "summary": "创业板第四套标准首单IPO正式落地，标志着A股对特定类型企业的上市通道进一步拓宽，资本市场对硬科技企业的包容度持续提升。",
+      "tag_category": "EDA/IP",
+      "title_en": "创业板第四套标准首单IPO落地——A股重要资讯汇总与点评（2026年5月20日）"
     },
     {
-      "title": "小米发布3nm芯片，雷军兑现承诺",
-      "url": "https://www.163.com/dy/article/KT7GOL0605567NW7.html",
-      "description": "小米发布3nm芯片，雷军兑现承诺|高通|联发科|台积电|新产品|知名企业_网易订阅\n\n快速导航\n\n### 新闻\n\n### 体育\n\n### 娱乐\n\n### 财经\n\n### 汽车\n\n### 科技\n\n### 时尚\n\n### 手机 / 数码\n\n### 房产 / 家居\n\n### 教育\n\n安全退出\n\n邮箱\n\n# 小米发布3nm芯片，雷军兑现承诺\n\n2026-05-18 14:29:08 来源:瑛派儿老黄四川举报\n\n0\n\n分享至\n\n用微信扫码二维码\n\n分享至好友和朋友圈\n\n雷军兑现十年前承诺，小米芯片的底牌不止玄戒O1\n\n今年4月底，在小米投资者日上，雷军宣布了一个数字：玄戒O1芯片出货量已突破100万颗。",
-      "published": "2026-05-18T00:00:00.000Z",
+      "title": "SpaceX计划在IPO后以600亿美元收购AI编程初创公司Cursor（SpaceX to acquire AI coding startup Cursor for $60B after IPO）",
+      "url": "https://thenextweb.com/news/spacex-plans-to-buy-cursor-for-60-billion-once-its-record-ipo-wraps",
+      "description": "SpaceX to acquire AI coding startup Cursor for $60B after IPO\n\nImage by: Shutterstock\n\n#### TL;DR\n\nSpaceX plans to acquire AI coding startup Cursor for $60 billion roughly 30 days after its IPO, which is expected to list on Nasdaq on 12 June at a $1.75 trillion valuation. The deal includes a $10 bil",
+      "published": "2026-05-19T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "小米3nm芯片的发布打破了高通和联发科在高端手机SoC的垄断格局，自研芯片成为终端厂商构建护城河的关键。",
-        "该芯片大概率由台积电代工，将进一步加剧台积电3nm产能的紧张局势。"
+        "AI编程工具正在成为巨头争夺的核心资产，其赋能软件开发的效率提升具有极高的战略价值",
+        "跨界并购（航天+AI软件）预示着未来复杂系统工程将高度依赖AI自动化生成代码"
       ],
       "actions": [
-        "供应链从业者需密切关注小米3nm芯片的量产进度及良率表现，评估对台积电先进制程产能的争夺影响。",
-        "高通、联发科需警惕国内终端厂商自研芯片带来的份额挤压，调整产品与定价策略。"
+        "芯片EDA及底层软件开发商需密切关注AI代码生成技术对传统开发流程的颠覆性影响",
+        "供应链企业应评估自身代码资产的安全性与合规性，防范被巨头收购整合带来的生态变动"
       ],
       "glossary": [
         {
-          "term": "3nm",
-          "desc": "半导体制造工艺节点，代表晶体管尺寸的极小化，是目前最先进的制程技术之一。",
-          "category": "Fab/制造"
+          "term": "Cursor",
+          "desc": "一家专注于AI代码生成的初创公司",
+          "category": "EDA/IP"
+        },
+        {
+          "term": "IPO",
+          "desc": "首次公开募股，企业首次向公众投资者发售股票",
+          "category": "金融"
         }
       ],
-      "region": "domestic",
-      "summary": "小米正式发布3nm制程芯片，雷军兑现了此前关于自研先进制程芯片的承诺，标志着国内终端厂商在核心芯片研发上取得重大突破。",
-      "tag_category": "综合",
-      "title_en": "小米发布3nm芯片，雷军兑现承诺|高通|联发科|台积电|新产品|知名企业_网易订阅"
+      "region": "overseas",
+      "summary": "SpaceX计划在AI编程初创公司Cursor上市约30天后，以600亿美元的价格对其进行收购，显示航天与AI代码生成领域的深度融合趋势。",
+      "tag_category": "EDA/IP",
+      "title_en": "SpaceX to acquire AI coding startup Cursor for $60B after IPO"
     },
     {
-      "title": "PQShield在2026年嵌入式世界展览会上发布超小型PQC嵌入式安全突破（PQShield unveils ultra-small PQC embedded security breakthroughs at Embedded World 2026）",
+      "title": "PQShield在2026年嵌入式世界展览会上发布超小型后量子密码（PQC）嵌入式安全突破性技术（PQShield unveils ultra-small PQC embedded security breakthroughs at Embedded World 2026）",
       "url": "https://semiwiki.com/security/pqshield/367520-pqshield-unveils-ultra-small-pqc-embedded-security-breakthroughs-at-embedded-world-2026/",
       "description": "<p>As the threat of quantum computing to modern cybersecurity becomes increasingly real, the technology industry is accelerating efforts to develop cryptographic systems capable of resisting quantum attacks. One of the most significant developments in this field was presented at Embedded World 2026 ",
       "published": "Tue, 19 May 2026 17:00:29 +0000",
@@ -242,111 +257,173 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "随着量子计算威胁逼近，后量子密码（PQC）标准落地和商用产品化正在加速，嵌入式安全成为首要落地场景。",
-        "超小型PQC方案意味着该技术已能适应资源受限的边缘和物联网设备，产业化门槛大幅降低。"
+        "后量子密码（PQC）技术正从理论标准走向超小型嵌入式落地，以应对量子计算破解风险",
+        "物联网及边缘设备的硬件安全模块需加速向PQC算法过渡，抢占下一代安全芯片市场"
       ],
       "actions": [
-        "物联网与嵌入式设备厂商应尽快启动PQC安全升级的评估与预研，避免未来面临合规与安全风险。",
-        "关注PQShield等PQC技术供应商的IP授权与芯片合作机会，抢占安全芯片升级红利。"
+        "芯片设计公司应立即在安全IP库中引入PQC算法，规划下一代安全MCU/SoC的架构升级",
+        "供应链需关注PQC算法对芯片面积和功耗的新增需求，提前调整存储与算力配置"
       ],
       "glossary": [
         {
           "term": "PQC",
-          "desc": "后量子密码学，旨在研发能抵抗量子计算机破解攻击的加密算法。",
-          "category": "安全"
+          "desc": "后量子密码，能够抵抗量子计算机攻击的加密算法",
+          "category": "EDA/IP"
+        },
+        {
+          "term": "Embedded World",
+          "desc": "全球领先的嵌入式系统行业展览会",
+          "category": "展会"
         }
       ],
       "region": "overseas",
-      "summary": "PQShield在Embedded World 2026上展示了超小型后量子密码（PQC）嵌入式安全技术突破，以应对量子计算对现代网络安全日益真实的威胁。",
+      "summary": "随着量子计算对现代网络安全威胁日益真实，PQShield在2026年嵌入式世界展览会上推出了超小型后量子密码（PQC）嵌入式安全突破性解决方案。",
       "tag_category": "综合",
       "title_en": "PQShield unveils ultra-small PQC embedded security breakthroughs at Embedded World 2026"
     },
     {
-      "title": "量子计算的进展是否会击垮比特币？（Could quantum computing advances sink Bitcoin?）",
-      "url": "https://www.proactiveinvestors.co.uk/companies/news/1092459/could-quantum-computing-advances-sink-bitcoin-1092459.html",
-      "description": "Quantum computing breakthroughs are accelerating faster than previously expected and could pose a serious near-term threat to cryptocurrency security,...",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
+      "title": "AI虹吸成熟产能 国产晶圆代工开启提价扩产周期",
+      "url": "https://cj.sina.com.cn/articles/view/7517400647/1c0126e4705908jsmm",
+      "description": "证券时报记者阮润生. “进入5月以来，我们产能利用率大幅提升，相比去年第三季度已接近翻倍。”一位国内头部晶圆代工厂人士向记者透露，当前公司工程师人手忙不过来，值班...",
+      "published": "6小时前",
+      "source": "新浪财经",
+      "source_type": "Serper",
+      "lang": "zh",
       "tags": [],
       "insights": [
-        "量子计算对传统公钥加密体系的潜在威胁正从理论走向现实，倒逼区块链与金融行业升级加密算法。",
-        "抗量子加密技术将成为高价值数据存储与交易网络的刚需，催生新的安全芯片与算法市场。"
+        "AI应用向边缘侧渗透正在虹吸成熟制程产能，扭转了此前8寸/12寸成熟节点的低迷预期",
+        "产能紧俏与提价周期将直接改善代工厂利润率，并为上游设备材料供应商带来订单增量"
       ],
       "actions": [
-        "加密货币及区块链相关企业需制定抗量子攻击的算法迁移路线图，评估现有系统的脆弱性。",
-        "半导体安全IP提供商应加速推出面向金融与区块链的PQC硬件加速解决方案。"
+        "芯片设计公司需重新评估成熟制程的流片排期与成本预算，尽早锁定产能以避免延期",
+        "半导体设备与材料厂商应抓住代工厂扩产提价带来的资本开支反弹机遇，加速产品导入"
       ],
       "glossary": [
         {
-          "term": "Quantum Computing",
-          "desc": "量子计算，利用量子力学原理进行计算的新型计算模式，在特定问题上具有远超传统计算机的算力。",
-          "category": "技术"
-        }
-      ],
-      "region": "overseas",
-      "summary": "量子计算的突破速度超出预期，可能对加密货币的安全构成严重的近期威胁，引发了对比特币等底层加密算法被破解的担忧。",
-      "tag_category": "综合",
-      "title_en": "Could quantum computing advances sink Bitcoin?"
-    },
-    {
-      "title": "SkyeChip IPO：能否乘上半导体反弹浪潮？（SkyeChip IPO: Can this ride on the semiconductor rally?）",
-      "url": "https://drwealth.com/skyechip-ipo-can-this-ride-on-the-semiconductor-rally/",
-      "description": "The Malaysian technology sector, once a fertile ground for spectacular multi-bagger returns, has admittedly lost some of its lustre over the past two years amid global cyclical downturns and geopolitical shifts. However, the impending Main Market listing of SkyeChip Berhad (KLSE: SKYECHIP) ...",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "东南亚半导体产业链正试图通过IPO和扩张抓住全球半导体复苏与供应链重构的机遇。",
-        "SkyeChip的IPO表现将测试市场对东南亚本土芯片设计公司在中低周期估值下的信心。"
-      ],
-      "actions": [
-        "关注东南亚半导体产业链的重组与IPO动态，评估其作为供应链多元化替代选项的潜力。",
-        "投资者需谨慎评估SkyeChip等区域性芯片企业在全球周期复苏中的实际竞争壁垒与增长可持续性。"
-      ],
-      "glossary": [
+          "term": "成熟产能",
+          "desc": "通常指28nm及以上的成熟制程晶圆制造产能",
+          "category": "Fab/制造"
+        },
         {
-          "term": "IPO",
-          "desc": "首次公开募股，企业第一次向公众投资者发行股票并在证券交易所挂牌交易的过程。",
-          "category": "金融"
-        }
-      ],
-      "region": "overseas",
-      "summary": "马来西亚半导体设计公司SkyeChip启动IPO，试图在全球半导体周期性复苏和地缘政治重塑中乘势而上，但马来西亚科技板块近年表现有所失色。",
-      "tag_category": "EDA/IP",
-      "title_en": "SkyeChip IPO: Can this ride on the semiconductor rally? | Dr Wealth"
-    },
-    {
-      "title": "“产能非常紧张”！台积电2026资本开支有望增长37% 半导体扩产潮开启",
-      "url": "https://news.smm.cn/news/103722466",
-      "description": "“产能非常紧张”！台积电2026资本开支有望增长37% 半导体扩产潮开启__上海有色网\n\n微信扫一扫\n\n手机有色\n\n掌上有色\n\n为有色金属行业量身打造的APP-SMM官方出品\n\n扫码下载查看详情\n\n今日有色\n\n热点资讯 深度解析 独家调研\n\n微信扫一扫关注\n\n021-31330333\n\n服务时间：工作日9:00-18:00\n\n资讯公告\n\n有色资讯> “产能非常紧张”！台积电2026资本开支有望增长37% 半导体扩产潮开启\n\n半导体、存储芯片板块午后拉升 紫光国微等逾4股涨停 佰维存储股价刷新高！【热股】台积电公布炸裂财报：利润大增35% 7nm及以下先进芯片贡献超七成营收\n\n# “产能非常紧张",
-      "published": "2026-05-18T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "台积电37%的资本开支增幅超市场预期，表明先进制程与AI相关需求强劲，产能瓶颈正倒逼巨头激进扩产。",
-        "扩产潮将直接拉动半导体设备、材料及大硅片供应链的订单爆发，上游环节将进入高景气周期。"
-      ],
-      "actions": [
-        "设备与材料供应商需提前锁定台积电等头部晶圆厂的扩产订单，扩充自身产能以满足交付需求。",
-        "关注大硅片、特种气体等耗材的供需缺口，提前布局相关供应链资源。"
-      ],
-      "glossary": [
-        {
-          "term": "资本开支",
-          "desc": "Capital Expenditure (CapEx)，企业用于购买、升级或维护物理资产（如厂房、设备）的资金支出。",
+          "term": "产能利用率",
+          "desc": "晶圆厂实际产出占最大产能的比例，是衡量景气度的核心指标",
           "category": "Fab/制造"
         }
       ],
       "region": "domestic",
-      "summary": "台积电表示产能非常紧张，预计2026年资本开支将大幅增长37%，标志着半导体行业新一轮扩产潮正式开启。",
+      "summary": "受AI需求强力拉动，国内头部晶圆代工厂产能利用率大幅提升甚至接近翻倍，国产晶圆代工行业正式开启提价与扩产的新周期。",
       "tag_category": "Fab/制造",
-      "title_en": "“产能非常紧张”！台积电2026资本开支有望增长37% 半导体扩产潮开启__上海有色网"
+      "title_en": "AI虹吸成熟产能 国产晶圆代工开启提价扩产周期"
+    },
+    {
+      "title": "港股涨跌不一，芯片股强势，华虹半导体涨13.89%，中芯国际涨9.71%",
+      "url": "https://finance.sina.com.cn/wm/2026-05-20/doc-inhypxkk9638117.shtml",
+      "description": "【导读】恒指收于25651.12点，南向资金净买入57.08亿港元，芯片股逆市大涨，中芯国际等业绩强劲. 中国基金报记者格林. 5月20日，恒生指数跌0.57%，报收于25651.12点；恒生...",
+      "published": "12小时前",
+      "source": "新浪财经",
+      "source_type": "Serper",
+      "lang": "zh",
+      "tags": [],
+      "insights": [
+        "中芯国际与华虹半导体的业绩超预期及股价大涨，印证了国产晶圆代工景气度的实质性反转",
+        "南向资金持续净买入显示资本市场对国产半导体周期复苏及国产替代逻辑的强烈看好"
+      ],
+      "actions": [
+        "投资者可重点关注国产代工厂的业绩兑现能力及后续提价弹性，把握周期复苏红利",
+        "产业链上下游企业应借势资本市场对半导体的热度，加速推进融资与业务扩张计划"
+      ],
+      "glossary": [
+        {
+          "term": "南向资金",
+          "desc": "内地投资者通过港股通买入香港股市的资金",
+          "category": "金融"
+        }
+      ],
+      "region": "domestic",
+      "summary": "港股大盘涨跌不一，但芯片股逆市大涨，华虹半导体与中芯国际分别大涨13.89%和9.71%，南向资金大幅净买入。",
+      "tag_category": "Fab/制造",
+      "title_en": "港股涨跌不一，芯片股强势，华虹半导体涨13.89%，中芯国际涨9.71%"
+    },
+    {
+      "title": "夯爆了！国产存储双雄点燃市场，突围窗口来了？",
+      "url": "https://news.futunn.com/post/73374153/soaring-demand-china-s-two-leading-domestic-memory-chipmakers-ignite",
+      "description": "国产存储双雄竞逐A股，市场情绪再度被引爆。 周四，港A存储芯片、半导体、通信设备等板块涨势凶猛。 截至发稿，港股华虹半导体、兆易创新涨超13%；中芯国际涨超10%，市值...",
+      "published": "16小时前",
+      "source": "富途牛牛",
+      "source_type": "Serper",
+      "lang": "zh",
+      "tags": [],
+      "insights": [
+        "国产存储厂商竞逐资本市场，叠加板块大涨，表明国产存储在价格周期底部具备强劲的反弹动能",
+        "存储芯片的突围窗口不仅依赖周期复苏，更取决于国产替代在车规级与工规级市场的渗透率"
+      ],
+      "actions": [
+        "存储芯片供应链企业应利用当前市场热度与价格回暖期，加速去库存并优化客户结构",
+        "关注国产存储双雄的资本运作动向，寻找产业链配套（如测试设备、封测服务）的协同机会"
+      ],
+      "glossary": [
+        {
+          "term": "国产存储双雄",
+          "desc": "指国内领先的两大存储芯片制造商（通常指长鑫存储与长江存储相关体系）",
+          "category": "Fab/制造"
+        }
+      ],
+      "region": "domestic",
+      "summary": "国产存储双雄竞逐A股引爆市场情绪，港股与A股的存储芯片、半导体板块涨势凶猛，华虹半导体与中芯国际等大涨，市场迎来突围窗口。",
+      "tag_category": "Fab/制造",
+      "title_en": "夯爆了！国产存储双雄点燃市场，突围窗口来了？"
+    },
+    {
+      "title": "老登仪式感满满，小登半导体们疯狂撒钱，发生了什么？",
+      "url": "https://cj.sina.com.cn/articles/view/5278967580/13aa6a71c00101ionc",
+      "description": "5月20日消息，在这个520的特殊节日，老登的贵州茅台给足了仪式感，今日最低报价1314元，意思是“爱你一生一世”，盘中1314的价格可谓稀碎平常，甚至在盘中还出现1314.52这种...",
+      "published": "14小时前",
+      "source": "新浪财经",
+      "source_type": "Serper",
+      "lang": "zh",
+      "tags": [],
+      "insights": [
+        "A股半导体板块受资金追捧，反映出市场对国产半导体产业复苏及政策预期的乐观情绪升温。",
+        "资本市场情绪与特定节日的“仪式感”炒作结合，短期波动性加剧，需警惕情绪退潮后的估值回调。"
+      ],
+      "actions": [
+        "关注半导体板块短期资金流向，警惕情绪炒作带来的估值泡沫风险。",
+        "把握板块强势期，评估持仓半导体股票的短期兑现时机与长期基本面匹配度。"
+      ],
+      "glossary": [],
+      "region": "domestic",
+      "summary": "5月20日A股半导体板块表现强势，资金疯狂涌入；同时贵州茅台盘中出现“1314”等具有仪式感的报价，引发市场对股市情绪与资金流向的关注。",
+      "tag_category": "综合",
+      "title_en": "老登仪式感满满，小登半导体们疯狂撒钱，发生了什么？"
+    },
+    {
+      "title": "A股午后发力拉升，半导体板块强势，多股20%涨停",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-05-20/doc-inhypaer1781875.shtml",
+      "description": "别错过A股“芯片牛”！立即开户跟进>>. 5月19日，A股午后发力拉升，沪指涨近1%，科创综指涨超2%；港股亦上扬，两大股指小幅走高。 具体来看，沪指早盘窄幅震荡，午后在金融、酿酒...",
+      "published": "20小时前",
+      "source": "新浪财经",
+      "source_type": "Serper",
+      "lang": "zh",
+      "tags": [],
+      "insights": [
+        "半导体板块领涨A股，表明资金正加速布局科技成长赛道，产业基本面改善预期得到市场共识。",
+        "多股20%涨停说明市场对半导体产业政策利好或周期反转有强烈的短期做多意愿。"
+      ],
+      "actions": [
+        "追踪涨停半导体个股的底层逻辑（如业绩反转、订单增长），寻找后续潜力标的。",
+        "关注科创综指走势，作为半导体板块整体情绪与资金动向的风向标。"
+      ],
+      "glossary": [
+        {
+          "term": "涨停",
+          "desc": "股票价格上涨达到交易所规定的当日最高涨幅限制，A股科创板通常为20%。",
+          "category": "金融"
+        }
+      ],
+      "region": "domestic",
+      "summary": "5月19日A股午后发力拉升，科创综指涨超2%，半导体板块表现尤为强势，多只个股实现20%涨停，市场呈现“芯片牛”特征。",
+      "tag_category": "综合",
+      "title_en": "A股午后发力拉升，半导体板块强势，多股20%涨停"
     },
     {
       "title": "大摩：成熟制程上升周期即将到来 上调中芯国际及华虹半导体目标价",
@@ -358,58 +435,92 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "头部代工厂产能向AI先进制程倾斜，导致成熟制程供给收缩，为二线代工厂创造结构性替代机会。",
-        "AI基础设施建设周期拉长，促使终端客户寻求替代制造伙伴以保障供应链稳定与成本控制。"
+        "头部代工厂产能向先进制程倾斜，必然导致成熟制程供需格局重塑，给二线厂商带来结构性红利。",
+        "AI基础设施建设带来的先进制程挤占效应，正间接催生成熟制程的周期性复苏与订单回流。"
       ],
       "actions": [
-        "二线晶圆代工厂及特殊制程厂商应抓住溢出需求窗口，积极拓展台积电与三星转移的客户订单。",
-        "供应链企业需提前规划成熟制程产能配置，以应对即将到来的上升周期和客户备货需求。"
+        "重点关注中芯国际、华虹半导体等二线代工厂的产能利用率和接单情况，把握周期拐点。",
+        "评估成熟制程（如28nm及以上）在电源管理、MCU、车规芯片等领域的订单回暖趋势，提前布局供应链。"
       ],
       "glossary": [
         {
           "term": "成熟制程",
-          "desc": "通常指28nm及以上的半导体制造工艺，主要用于MCU、电源管理、物联网等芯片",
-          "category": "制造"
+          "desc": "通常指28nm及以上的半导体制造工艺，主要应用于物联网、汽车、电源管理等领域。",
+          "category": "Fab/制造"
         },
         {
-          "term": "先进封装",
-          "desc": "如CoWoS等提升芯片集成度与性能的封装技术，是AI算力芯片的关键瓶颈",
-          "category": "封装"
+          "term": "溢出需求",
+          "desc": "当头部厂商产能不足或主动放弃某类订单时，转移给二线厂商的市场需求。",
+          "category": "市场"
         }
       ],
       "region": "domestic",
-      "summary": "大摩研报指出，台积电与三星正逐步合理化成熟制程产能以优先分配AI先进制程及封装，这将创造溢出需求，带动二线晶圆代工厂及特殊制程厂商迎来成熟制程上升周期。",
+      "summary": "大摩研报指出，台积电与三星正优化成熟制程产能以转向AI先进制程，这将为二线晶圆代工厂创造溢出需求，预示成熟制程上升周期即将到来，并上调中芯国际与华虹半导体目标价。",
       "tag_category": "Fab/制造",
       "title_en": "大摩：成熟制程上升周期即将到来 上调中芯国际(00981)及华虹半导体(01347)目标价|大摩_新浪财经_新浪网"
     },
     {
-      "title": "摩尔线程发布“云边端”全栈智算矩阵 赋能全场景AI应用",
-      "url": "http://www.news.cn/tech/20260519/a8f123344b404c74b09da22540725906/c.html",
-      "description": "摩尔线程发布“云边端”全栈智算矩阵 赋能全场景AI应用-新华网\n\n新华网> > 正文\n\n2026 05/19 14:27:01\n\n来源：新华网\n\n# 摩尔线程发布“云边端”全栈智算矩阵 赋能全场景AI应用\n\n字体： 小 中 大\n\n分享到：\n\n# 摩尔线程发布“云边端”全栈智算矩阵 赋能全场景AI应用\n\n2026-05-19 14:27:01 来源：新华网\n\n5月18日，国产GPU企业摩尔线程举办年度产品发布会，正式推出“云-边-端”全栈智算矩阵，涵盖云端集群、终端芯片、具身智能平台及软件生态等多款产品，打通从大模型训练到端侧部署的算力链路，赋能全场景AI应用。\n\n此次发布的夸娥智算集群是云端算",
-      "published": "2026-05-19T00:00:00.000Z",
+      "title": "阿里新一代训推一体AI芯片首次亮相，平头哥披露未来两代GPU规划",
+      "url": "https://www.163.com/dy/article/KTCFFL1D0519DDQ2.html",
+      "description": "阿里新一代训推一体AI芯片首次亮相，平头哥披露未来两代GPU规划|真武|gpu|阿里云|知名企业|阿里巴巴集团_网易订阅\n\n快速导航\n\n### 新闻\n\n### 体育\n\n### 娱乐\n\n### 财经\n\n### 汽车\n\n### 科技\n\n### 时尚\n\n### 手机 / 数码\n\n### 房产 / 家居\n\n### 教育\n\n安全退出\n\n邮箱\n\n# 阿里新一代训推一体AI芯片首次亮相，平头哥披露未来两代GPU规划\n\n2026-05-20 12:42:55 来源:第一财经资讯上海举报\n\n0\n\n分享至\n\n用微信扫码二维码\n\n分享至好友和朋友圈\n\n5月20日，2026阿里云峰会上，阿里云披露了平头哥AI芯片的系",
+      "published": "2026-05-20T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "国产GPU厂商正从单一芯片设计向“云边端”全栈算力解决方案转型，以构建自主生态壁垒。",
-        "打通大模型训练到端侧部署的算力链路，是国产AI芯片在英伟达垄断下寻求差异化突围的关键路径。"
+        "云厂商自研AI芯片已成趋势，训推一体架构旨在提升大模型部署效率并降低算力成本。",
+        "平头哥公布多代GPU路线图，表明国产GPU正从单点突破走向长期体系化竞争。"
       ],
       "actions": [
-        "AI应用开发商应评估摩尔线程全栈智算矩阵的兼容性与性价比，探索国产算力替代方案。",
-        "供应链伙伴需关注国产GPU生态（MUSA）的演进速度，适时适配软硬件接口以抢占本土市场。"
+        "关注平头哥新芯片的实测性能及与阿里云业务的协同效应，评估其商业化潜力。",
+        "对比国内外训推一体芯片方案，评估国产替代在推理侧的落地进度与成本优势。"
       ],
       "glossary": [
         {
-          "term": "全栈智算矩阵",
-          "desc": "覆盖云端训练、边缘推理到终端部署的完整AI计算基础设施与解决方案集合",
-          "category": "设计"
+          "term": "训推一体",
+          "desc": "芯片架构同时支持大模型的训练和推理过程，旨在提高资源利用率和开发部署效率。",
+          "category": "芯片设计"
         }
       ],
       "region": "domestic",
-      "summary": "国产GPU企业摩尔线程举办年度产品发布会，正式推出涵盖云端集群、终端芯片及软件生态的“云-边-端”全栈智算矩阵，打通从大模型训练到端侧部署的算力链路。",
+      "summary": "阿里平头哥首次亮相新一代训推一体AI芯片，并披露了未来两代GPU的架构规划，加速国产算力基础设施布局。",
       "tag_category": "设计公司",
-      "title_en": "摩尔线程发布“云边端”全栈智算矩阵 赋能全场景AI应用-新华网"
+      "title_en": "阿里新一代训推一体AI芯片首次亮相，平头哥披露未来两代GPU规划|真武|gpu|阿里云|知名企业|阿里巴巴集团_网易订阅"
+    },
+    {
+      "title": "摩尔线程发布会背后：一颗“种在无锡”的芯片正在结果",
+      "url": "https://finance.sina.com.cn/wm/2026-05-20/doc-inhypnum1735290.shtml",
+      "description": "在Agentic AI驱动词元（Token）需求呈指数级跃升的关键节点，万物智能正处爆发前夜，算力的基石作用愈发凸显。\n\n5月18日晚，摩尔线程在北京举办了以“词元时代，万物智能”为主题的年度产品发布会。作为国产GPU赛道的标志性企业，摩尔线程系统展示了覆盖“云、边、端”全栈智算矩阵。\n\n发布会上，万卡级夸娥智算集群、自研“长江”SoC驱动的AICUBE和AIBOOK、数字智能体“小麦”、国内首个全栈具身智能仿真平台MT Lambda，以及持续演进的MUSA生态，相继亮相。\n\n然而，对无锡而言，这场发布会的看点远不止于产品本身——它更像一个坐标，标出了无锡在国产算力版图中的位置。\n\n从一颗So",
+      "published": "2026-05-20T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "国产GPU企业正从单一芯片发布转向全栈智算解决方案交付，以应对Agentic AI时代的算力需求。",
+        "自研SoC与智算集群的结合，表明国产算力厂商正努力打通软硬件生态壁垒，寻求差异化突围。"
+      ],
+      "actions": [
+        "评估摩尔线程夸娥集群在实际大模型训练中的算力利用率及稳定性指标。",
+        "关注“长江”SoC在边缘侧和端侧AI应用的商业化落地进展及供应链合作机会。"
+      ],
+      "glossary": [
+        {
+          "term": "夸娥智算集群",
+          "desc": "摩尔线程推出的万卡级云端智算集群解决方案，旨在提供大规模AI算力。",
+          "category": "算力基础设施"
+        },
+        {
+          "term": "SoC",
+          "desc": "System on Chip，系统级芯片，将CPU、GPU等关键部件集成在一块芯片上。",
+          "category": "芯片设计"
+        }
+      ],
+      "region": "domestic",
+      "summary": "摩尔线程举办年度产品发布会，展示覆盖“云、边、端”的全栈智算矩阵，包括万卡级夸娥智算集群及自研“长江”SoC驱动的终端产品，国产GPU生态逐步成型。",
+      "tag_category": "设计公司",
+      "title_en": "摩尔线程发布会背后：一颗“种在无锡”的芯片正在结果|无锡市_新浪财经_新浪网"
     },
     {
       "title": "国产GPU企业摩尔线程赋能全场景AI应用",
@@ -421,233 +532,136 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "夸娥集群万卡级落地及较高算力利用率表明，国产智算集群在规模化训练场景下已具备初步实战能力。",
-        "MoE架构大模型算力利用率达40%，反映出国产GPU在应对新兴稀疏模型架构时的适配优化进展。"
+        "万卡级集群落地及40%-60%的算力利用率，标志着国产GPU在大规模集群训练可用性上取得实质性突破。",
+        "打通从大模型训练到端侧部署的算力链路，是国产GPU应对全场景AI竞争、构建生态护城河的核心策略。"
       ],
       "actions": [
-        "大模型研发团队可测试夸娥集群在MoE架构下的实际训练效率，作为算力备选池。",
-        "服务器集成商与数据中心应关注国产万卡集群的运维经验与能耗表现，评估引入成本。"
+        "验证摩尔线程集群在MoE架构模型上的实际训练成本优势与集群扩展能力。",
+        "针对“云-边-端”协同需求，探索基于国产GPU的模型蒸馏与端侧部署方案。"
       ],
       "glossary": [
         {
-          "term": "夸娥智算集群",
-          "desc": "摩尔线程推出的面向云端大模型训练的万卡级GPU计算集群系统",
-          "category": "基础设施"
+          "term": "Dense大模型",
+          "desc": "稠密大模型，所有参数在每次推理或训练中都被激活的模型架构。",
+          "category": "AI"
         },
         {
           "term": "MoE大模型",
-          "desc": "混合专家架构大模型，通过稀疏激活机制降低计算量，提升模型参数规模",
-          "category": "算法"
+          "desc": "混合专家大模型，通过路由机制只激活部分参数，以降低计算成本的模型架构。",
+          "category": "AI"
         }
       ],
       "region": "domestic",
-      "summary": "摩尔线程推出“云-边-端”全栈智算矩阵，其夸娥智算集群已实现万卡级规模落地，Dense大模型训练算力利用率达60%，MoE大模型达40%，有效训练时长90%。",
+      "summary": "摩尔线程推出“云-边-端”全栈智算矩阵，其核心夸娥智算集群已实现万卡级规模落地，在Dense和MoE大模型训练中算力利用率分别达到60%和40%。",
       "tag_category": "设计公司",
       "title_en": "国产GPU企业摩尔线程赋能全场景AI应用|摩尔_新浪财经_新浪网"
     },
     {
-      "title": "摩尔线程新品6月18日开启预售",
-      "url": "https://finance.sina.com.cn/roll/2026-05-19/doc-inhymivp7472186.shtml",
-      "description": "摩尔线程5月18日晚举行2026产品发布会，全面展示了“云—边—端”全栈智算矩阵：从万卡级规模的夸娥智算集群，到自研“长江”SoC驱动的智能终端MTT AICUBE和MTT AIBOOK；从数字世界智能体“小麦”，到加速物理AI落地的首个全栈具身智能仿真平台MT Lambda，再到持续进化的MUSA生态。\n\n会场内，现场人头涌动、座无虚席；会场外，身着“一切皆词元（Token）”字样的工作人员在展区热情介绍最新产品……算力需求持续火热、词元经济明显升温。此次大会是摩尔线程2026年首次重大公开活动，受到市场高度关注。\n\n“这不仅是摩尔线程核心技术和产品的集中亮相，更标志着公司全面打通了‘云—边",
-      "published": "2026-05-19T00:00:00.000Z",
+      "title": "摩尔线程首发MTT AICUBE：以全域智能体为核心，开创家庭AI计算新品类",
+      "url": "https://finance.sina.com.cn/roll/2026-05-20/doc-inhynvwv7078520.shtml",
+      "description": "（来源：电子创新网）\n\n2026年5月18日，北京——摩尔线程举办2026产品发布会，正式宣布全面深化端侧AI战略布局，并发布首款面向家庭场景的消费级产品——MTT AICUBE（以下简称：AICUBE）。为满足词元（Token）时代爆发的端侧算力需求，摩尔线程立足自研“长江”智能SoC，实现了算力从云端智算集群向边缘和终端的延伸，赋能更为普惠的家庭智能场景。\n\n作为该端侧战略的关键落子，AICUBE重新定义了家庭智能设备的形态与体验。它不仅是一台计算硬件，更是摩尔线程以全域智能体“小麦”为核心，以端侧本地算力为引擎，以全闪存私有云为数据底座，以全栈自研OS为系统支撑，将“端云一体”的能力首次",
+      "published": "2026-05-20T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "从云端集群延伸至具身智能仿真平台与端侧AI设备，国产算力正加速向物理AI和机器人领域渗透。",
-        "自研SoC与全域智能体结合，标志着国产GPU厂商开始尝试软硬件深度绑定的闭环商业模式。"
+        "国产GPU厂商正从纯算力竞争转向场景化落地，家庭AI算力需求成为端侧AI的新增长极",
+        "自研SoC是实现端侧算力延伸与软硬件协同的关键，有助于构建普惠的智能体生态"
       ],
       "actions": [
-        "具身智能与机器人研发企业应关注MT Lambda仿真平台，评估其降低物理AI开发门槛的潜力。",
-        "渠道分销商需提前准备6月18日MTT AICUBE及AIBOOK的预售营销与备货计划。"
+        "关注基于国产SoC的边缘/端侧AI硬件生态发展，评估家庭场景应用潜力及供应链机会",
+        "供应链企业应提前布局针对消费级AI计算设备的零部件、存储及散热解决方案"
       ],
       "glossary": [
         {
-          "term": "具身智能",
-          "desc": "具有物理身体、能与物理世界交互并自主决策的智能系统，常用于机器人",
-          "category": "应用"
-        },
-        {
-          "term": "MUSA",
-          "desc": "摩尔线程自主研发的统一系统架构及软件生态平台",
-          "category": "生态"
-        }
-      ],
-      "region": "domestic",
-      "summary": "摩尔线程展示“云—边—端”全栈智算矩阵，包括夸娥集群、自研“长江”SoC驱动的MTT AICUBE与AIBOOK、智能体“小麦”、具身智能仿真平台MT Lambda及MUSA生态。",
-      "tag_category": "综合",
-      "title_en": "6月18日开启预售！摩尔线程上新|摩尔_新浪财经_新浪网"
-    },
-    {
-      "title": "甬矽电子：FH-BSAP平台领航先进封装，AI算力驱动业绩高增",
-      "url": "https://www.163.com/dy/article/KT8C18SF05568W0A.html",
-      "description": "甬矽电子：FH-BSAP平台领航先进封装，AI算力驱动业绩高增|fh|hpc|集成度_网易订阅\n\n快速导航\n\n### 新闻\n\n### 体育\n\n### 娱乐\n\n### 财经\n\n### 汽车\n\n### 科技\n\n### 时尚\n\n### 手机 / 数码\n\n### 房产 / 家居\n\n### 教育\n\n安全退出\n\n邮箱\n\n# 甬矽电子：FH-BSAP平台领航先进封装，AI算力驱动业绩高增\n\n2026-05-18 22:25:40 来源:新浪财经北京举报\n\n0\n\n分享至\n\n用微信扫码二维码\n\n分享至好友和朋友圈\n\n来源：集微网\n\n在AI与高性能计算需求持续爆发的2026年，甬矽电子正以自主研发的FH-BSAP",
-      "published": "2026-05-18T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "先进封装已成为AI算力芯片提升集成度与突破内存带宽瓶颈的核心抓手，二线封测厂借此实现业绩跃升。",
-        "FH-BSAP等本土先进封装平台的崛起，为国产AI芯片提供了关键的制造配套支撑。"
-      ],
-      "actions": [
-        "国产AI芯片设计公司应积极对接甬矽电子等本土先进封装产能，缓解对台积电CoWoS等海外产能的依赖。",
-        "封测设备与材料供应商需加速适配FH-BSAP平台工艺要求，切入本土先进封装供应链。"
-      ],
-      "glossary": [
-        {
-          "term": "FH-BSAP",
-          "desc": "甬矽电子推出的先进封装平台，针对高集成度与高算力芯片的封装需求",
-          "category": "封装"
-        }
-      ],
-      "region": "domestic",
-      "summary": "甬矽电子凭借FH-BSAP平台在先进封装领域取得领先地位，受AI算力需求强劲驱动，公司业绩实现高速增长。",
-      "tag_category": "Fab/制造",
-      "title_en": "甬矽电子：FH-BSAP平台领航先进封装，AI算力驱动业绩高增|fh|hpc|集成度_网易订阅"
-    },
-    {
-      "title": "摩尔线程AICUBE正式发布：集AI PC、AI NAS、智能体于一体",
-      "url": "https://finance.sina.com.cn/roll/2026-05-19/doc-inhymivh3225030.shtml",
-      "description": "快科技5月19日消息，摩尔线程在日前的产品发布会上，正式推出首款面向家庭场景的消费级产品MTT AICUBE，将“端云一体”的能力首次完整带入家庭场景。\n\nAICUBE搭载自研长江智能SoC芯片，融合全域智能体小麦、桌面AI PC与AI NAS三大能力，将于6月18日开启预售。\n\nAICUBE的核心是内置的全域智能体小麦，与传统的被动式语音助手不同，小麦具备长时记忆、情绪识别和意图预测能力，用户可自定义其身份、形象与声音。\n\n它采用摩尔线程首创的“二维拓扑”记忆系统，将短时与长时记忆深度融合，能够精准关联角色与事件，做到越用越懂你。\n\n在执行层面，小麦基于摩尔线程自研的Agent开源框架MTC",
-      "published": "2026-05-19T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "将AI PC、AI NAS与主动式智能体融合为家庭端侧算力中心，是国产GPU厂商在消费级市场寻求破局的创新尝试。",
-        "内置具备长时记忆与情绪识别的智能体，表明端侧AI正从被动工具向主动陪伴与管家服务演进。"
-      ],
-      "actions": [
-        "消费电子渠道商应关注6月18日预售情况，评估家庭端侧AI中心产品的市场接受度与爆发潜力。",
-        "智能家居与NAS厂商可借鉴AICUBE的端云一体架构，探索将主动式智能体引入现有产品的路径。"
-      ],
-      "glossary": [
-        {
-          "term": "AI NAS",
-          "desc": "集成AI计算能力的网络附加存储设备，能在本地完成数据推理与处理",
+          "term": "MTT AICUBE",
+          "desc": "摩尔线程推出的首款面向家庭场景的消费级AI计算产品",
           "category": "产品"
         },
         {
           "term": "长江SoC",
-          "desc": "摩尔线程自研的面向智能终端的系统级芯片",
-          "category": "设计"
+          "desc": "摩尔线程自研的智能系统级芯片，用于支撑端侧AI算力需求",
+          "category": "芯片"
         }
       ],
       "region": "domestic",
-      "summary": "摩尔线程发布面向家庭场景的消费级产品MTT AICUBE，搭载自研长江SoC芯片，融合桌面AI PC、AI NAS与全域智能体“小麦”，将于6月18日预售。",
+      "summary": "摩尔线程发布首款面向家庭场景的消费级产品MTT AICUBE，基于自研“长江”智能SoC，将算力从云端延伸至边缘和终端，全面深化端侧AI战略布局。",
       "tag_category": "综合",
-      "title_en": "摩尔线程AICUBE正式发布：集AI PC、AI NAS、智能体于一体_新浪财经_新浪网"
+      "title_en": "摩尔线程首发MTT AICUBE：以全域智能体为核心，开创家庭AI计算新品类_新浪财经_新浪网"
     },
     {
-      "title": "华为发布源网荷储AIDC（智算中心）战略，引领产业未来",
-      "url": "https://www.prnewswire.com/apac/zh/news-releases/aidc-302774818.html",
-      "description": "華為發布源網荷儲AIDC戰略，引領產業未來 Accessibility Statement Skip Navigation\n\n中國東莞2026年5月18日 /美通社/ -- 2026年5月15日，以「讓AI世界堅定運行」為主題的2026全球AIDC產業論壇暨華為AIDC戰略&新品發布會在東莞隆重召開。本次論壇匯聚全球近千名來自能源企業、智算產業、運營商等領域領軍人物、技術專家以及核心生態伙伴，聚焦未來AIDC架構演進與前沿技術創新，碰撞思想，見證華為源網荷儲AIDC戰略發布，同期還舉辦AIDC供電、AIDC液冷、AI for DC營維和AIDC建設新模式四大專題分論壇，引領產業邁入AIDC新時",
-      "published": "2026-05-18T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "华为将电力能源概念（源网荷储）与智算中心结合，反映出AI算力基础设施的高能耗痛点已成为产业核心关注点。",
-        "智算中心的建设正从单一IT设备堆叠转向全系统能源与算力协同优化，能源企业成为智算生态的重要参与者。"
-      ],
-      "actions": [
-        "数据中心及算力基础设施供应商应关注能源侧的配套升级，探索“光储充”与智算融合的解决方案。",
-        "运营商及智算中心建设方需评估华为新战略对供应链的影响，适时调整采购和能效管理策略。"
-      ],
-      "glossary": [
-        {
-          "term": "AIDC",
-          "desc": "人工智能数据中心，专为AI训练和推理提供高密度算力与高能耗支撑的基础设施",
-          "category": "基础设施"
-        },
-        {
-          "term": "源网荷储",
-          "desc": "电力系统综合运营理念，涵盖电源、电网、负荷和储能，在此引申为智算中心的能源全链路管理",
-          "category": "能源/基础设施"
-        }
-      ],
-      "region": "domestic",
-      "summary": "华为在东莞召开全球AIDC产业论坛，正式发布“源网荷储”AIDC战略及新品，旨在推动智算中心产业的未来发展。",
-      "tag_category": "EDA/IP",
-      "title_en": "華為發布源網荷儲AIDC戰略，引領產業未來"
-    },
-    {
-      "title": "CoWoS（先进封装技术）变了-36氪",
+      "title": "CoWoS，变了",
       "url": "https://36kr.com/p/3814125492461320",
       "description": "CoWoS，变了-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# CoWoS，变了\n\nCoWoS高增值率凸显台积电优势，重构台湾半导体产业格局\n\n台积电的 CoWoS 之所以强大，不仅仅是因为产能紧张，也不仅仅是因为英伟达、AMD、博通、谷歌、亚马逊和其他人工智能芯片客户都在争夺分配份额。\n\n更重要的信号是：据传CoWoS的增值率接近50%。这个数字至关重要，因为传统电子制造业的增值率通常在15%到25%左右。换句话说，每生产一美元的产品，很大一部分成本都转嫁给了原材料、外包流程、劳动力、零部件、外部服",
-      "published": "2026-05-18T00:00:00.000Z",
+      "published": "2026-05-20T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "CoWoS已从单纯的产能瓶颈转变为台积电提升产业链话语权和利润率的核心护城河，重塑了半导体价值链分配。",
-        "先进封装的溢价能力使得晶圆代工厂在AI芯片产业链中的地位超越传统OSAT，封测环节的价值正在向前端代工转移。"
+        "CoWoS的高增值率正在重塑半导体产业链价值分布，封装环节的溢价能力与利润池显著提升",
+        "台积电通过CoWoS不仅锁定了顶级AI芯片客户，更强化了其在整体半导体生态中的话语权"
       ],
       "actions": [
-        "芯片设计公司需重新评估封装成本占比，提前与台积电等具备先进封装能力的代工厂建立深度绑定关系。",
-        "传统OSAT厂商应加速布局面板级封装或玻璃基板等差异化技术，寻找与代工厂错位竞争的生态位。"
+        "密切关注台积电CoWoS产能分配及价格变化，评估其对AI芯片设计公司成本结构与毛利率的影响",
+        "非台积电阵营的封测厂需加速寻找差异化先进封装路线（如面板级封装），避免在高端市场被彻底边缘化"
       ],
       "glossary": [
         {
           "term": "CoWoS",
-          "desc": "Chip on Wafer on Substrate，台积电独有的2.5D/3D先进封装技术，用于高算力AI芯片集成",
+          "desc": "台积电的2.5D/3D先进封装技术，全称为Chip-on-Wafer-on-Substrate",
           "category": "封装"
-        },
-        {
-          "term": "OSAT",
-          "desc": "外部半导体封装测试代工厂，提供独立的封测服务",
-          "category": "封测"
         }
       ],
       "region": "domestic",
-      "summary": "36氪分析指出，台积电CoWoS先进封装技术的高增值率正重构台湾半导体产业格局，其核心优势不仅在于产能紧缺，更在于技术壁垒与生态绑定。",
+      "summary": "台积电CoWoS先进封装技术的高增值率不仅体现在产能紧张，更在于其重构了台湾半导体产业格局，凸显了台积电在先进封装领域的绝对优势与核心控制力。",
       "tag_category": "设计公司",
       "title_en": "CoWoS，变了-36氪"
     },
     {
-      "title": "半导体封装测试暨玻璃基板生态展即将在无锡盛大开幕",
-      "url": "https://www.163.com/dy/article/KT7U024T05539ZF4.html",
-      "description": "半导体封装测试暨玻璃基板生态展即将在无锡盛大开幕|材料|微电子|无锡市_网易订阅\n\n快速导航\n\n### 新闻\n\n### 体育\n\n### 娱乐\n\n### 财经\n\n### 汽车\n\n### 科技\n\n### 时尚\n\n### 手机 / 数码\n\n### 房产 / 家居\n\n### 教育\n\n安全退出\n\n邮箱\n\n# 半导体封装测试暨玻璃基板生态展即将在无锡盛大开幕\n\n2026-05-18 19:37:28 来源:未来半导体北京举报\n\n0\n\n分享至\n\n用微信扫码二维码\n\n分享至好友和朋友圈\n\n5月28-29日，无锡国际会议中心，CSPT x ITGV 2026 半导体封装测试暨玻璃基板生态展即将盛大开幕。\n\n当人",
-      "published": "2026-05-18T00:00:00.000Z",
+      "title": "台积电涨幅并未过高——看空者仍在使用去年的盈利数据进行估值（TSMC Hasn't Run Too Far - The Valuation Bears Are Using Last Year's Earnings）",
+      "url": "https://www.ainvest.com/news/tsmc-hasn-run-valuation-bears-year-earnings-2605/",
+      "description": "TSMC Hasn't Run Too Far - The Valuation Bears Are Using Last Year's Earnings\n\nSymbols\n\nSymbols\n\n⚡ $300 Off\n\nUpgrade\n\nLog In\n\nAInvest★★★★★FASTEST PUSH\n\nDon't miss out. Get real-time alerts in App.\n\nOpen App\n\n# TSMC Hasn't Run Too Far - The Valuation Bears Are Using Last Year's Earnings\n\nGenerated by ",
+      "published": "2026-05-19T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "玻璃基板作为下一代先进封装的核心载板材料，正加速从研发走向产业化，国内产业链正积极构建本土生态。",
-        "封测与新材料生态展的结合，说明先进封装的竞争已延伸至上游基板材料环节，材料国产化是封测突围的关键。"
+        "台积电的估值争议源于评估基准的错位，传统周期性估值模型低估了AI带来的结构性增长溢价",
+        "AI算力需求的长期确定性正在重塑晶圆代工龙头的中长期盈利预期与资本开支回报率"
       ],
       "actions": [
-        "封测及基板材料厂商应积极参与此类生态展，对接玻璃基板等前沿材料的早期供应链机会。",
-        "投资者及供应链管理者需重点关注国内玻璃基板及封装材料的研发进度，提前储备本土替代供应商资源。"
+        "投资者与供应链企业应基于AI驱动的增量需求重新评估代工龙头的成长空间，而非仅看历史周期",
+        "关注台积电未来几个季度的产能利用率与先进制程营收占比，验证AI增长预期的兑现情况"
       ],
       "glossary": [
         {
-          "term": "玻璃基板",
-          "desc": "用于先进封装的玻璃材质载板，具有极低的热膨胀系数和优异的电气性能，是取代有机基板的下一代技术",
-          "category": "材料/封装"
+          "term": "TSMC",
+          "desc": "台湾积体电路制造公司，全球最大的晶圆代工半导体制造厂",
+          "category": "Fab/制造"
+        },
+        {
+          "term": "Valuation Bears",
+          "desc": "看空估值者，认为公司当前股价已被高估且超出其内在价值的投资者",
+          "category": "金融"
         }
       ],
-      "region": "domestic",
-      "summary": "半导体封装测试暨玻璃基板生态展将在无锡开幕，聚焦封装测试技术与玻璃基板等新型材料生态。",
+      "region": "overseas",
+      "summary": "针对台积电估值过高的担忧，有分析指出看空者仍在基于去年的盈利数据进行评估，未充分考虑未来AI驱动的结构性增长潜力，台积电实际涨幅并未脱离基本面。",
       "tag_category": "Fab/制造",
-      "title_en": "半导体封装测试暨玻璃基板生态展即将在无锡盛大开幕|材料|微电子|无锡市_网易订阅"
+      "title_en": "TSMC Hasn't Run Too Far - The Valuation Bears Are Using Last Year's Earnings"
     }
   ],
   "stats": {
-    "total_raw": 155,
-    "after_dedup": 129,
+    "total_raw": 161,
+    "after_dedup": 137,
     "sources": {
-      "Serper": 1,
+      "Serper": 6,
       "Exa": 35,
-      "RSS": 64,
-      "Brave": 29
+      "RSS": 65,
+      "Brave": 31
     }
   },
   "code_version": "",
