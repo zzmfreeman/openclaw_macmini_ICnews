@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://www.thepaper.cn/newsDetail_forward_33057905",
-    "title": "曦智科技上市，“AI硅光芯片第一股”为何选择上海？",
-    "published": "2026-04-28T10:00:00+08:00",
-    "addedAt": "2026-04-29T06:00:00+08:00"
-  },
-  {
-    "url": "https://www.trendforce.com/news/2026/04/29/news-intel-foundry-gains-momentum-apple-reportedly-eyes-18a-p-as-google-explores-advanced-packaging/",
-    "title": "Intel 18A-P 据报拿下苹果下一代M芯片订单，EMIB封装赢得谷歌TPUv8e客户",
-    "published": "2026-04-29T10:35:33+08:00",
-    "addedAt": "2026-04-29T20:13:48+08:00"
-  },
-  {
-    "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=268726",
-    "title": "三星代工4nm良率突破80%，直追台积电正面挑战",
-    "published": "2026-04-29T11:44:01+08:00",
-    "addedAt": "2026-04-29T20:13:48+08:00"
-  },
-  {
-    "url": "https://parameter.io/tsmc-tsm-exits-arm-holdings-arm-completely-pockets-231m-in-final-sale/",
-    "title": "台积电及关联公司完全退出Arm持股，套现2.31亿美元",
-    "published": "2026-04-29T16:07:25+08:00",
-    "addedAt": "2026-04-29T20:13:48+08:00"
-  },
-  {
-    "url": "https://asia.nikkei.com/business/tech/semiconductors/tokyo-electron-s-close-ties-with-tsmc-at-risk-after-chip-tech-leak/",
-    "title": "东京威力科创前员工泄露台积电机密被判刑，日企与台积电供应链信任面临考验",
-    "published": "2026-04-29T14:28:00+08:00",
-    "addedAt": "2026-04-29T20:13:48+08:00"
-  },
-  {
     "url": "https://www.pymnts.com/cpi-posts/ftc-targets-15-5b-ionq-skywater-chip-tie-up-with-new-request/",
     "title": "FTC对IonQ-SkyWater 155亿美元芯片合作提出新审查要求",
     "published": "2026-04-27T00:00:00.000Z",
@@ -2998,5 +2968,35 @@
     "title": "台积电涨幅并未过高——看空者仍在使用去年的盈利数据进行估值（TSMC Hasn't Run Too Far - The Valuation Bears Are Using Last Year's Earnings）",
     "published": "2026-05-19T00:00:00.000Z",
     "addedAt": "2026-05-21T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.ig.com/en/news-and-trade-ideas/spacex-openai-anthropic-2026-ipo-deals-260520",
+    "title": "SpaceX、OpenAI、Anthropic：2026年值得关注的即将IPO（SpaceX, OpenAI, Anthropic: upcoming IPOs to watch in 2026 | IG International）",
+    "published": "",
+    "addedAt": "2026-05-21T13:04:00+08:00"
+  },
+  {
+    "url": "https://ts2.tech/en/stock-market-today-20-05-2026/",
+    "title": "今日美股市场：2026年5月20日实时更新（US Stock Market Today: Live Updates 20.05.2026）",
+    "published": "",
+    "addedAt": "2026-05-21T13:04:00+08:00"
+  },
+  {
+    "url": "https://spectrum.ieee.org/robotics-ai-breakthrough",
+    "title": "机器人会迎来ChatGPT时刻吗？（Will Robotics Have a ChatGPT Moment?）",
+    "published": "Wed, 20 May 2026 11:00:01 +0000",
+    "addedAt": "2026-05-21T13:04:00+08:00"
+  },
+  {
+    "url": "https://spectrum.ieee.org/manchester-code-ieee-milestone",
+    "title": "曼彻斯特编码让比特位听话（Manchester Code Made Bits Behave）",
+    "published": "Mon, 18 May 2026 18:00:01 +0000",
+    "addedAt": "2026-05-21T13:04:00+08:00"
+  },
+  {
+    "url": "https://spectrum.ieee.org/dull-dirty-dangerous-robots",
+    "title": "什么让工作变得枯燥、肮脏或危险？（What Makes a Job Dull, Dirty, or Dangerous?）",
+    "published": "Mon, 18 May 2026 13:00:00 +0000",
+    "addedAt": "2026-05-21T13:04:00+08:00"
   }
 ]

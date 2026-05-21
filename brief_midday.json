@@ -1,6 +1,6 @@
 {
-  "version": "v20260520-1302",
-  "generatedAt": "2026-05-20T13:02:00+08:00",
+  "version": "v20260521-1304",
+  "generatedAt": "2026-05-21T13:04:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [
@@ -20,44 +20,39 @@
       "category": "封装"
     },
     {
-      "term": "PQC",
-      "desc": "后量子密码学，能够抵抗量子计算机攻击的新型加密算法",
-      "category": "安全"
-    },
-    {
       "term": "IPO",
-      "desc": "首次公开募股，企业首次向公众投资者出售股票筹集资金的过程",
+      "desc": "首次公开募股，企业首次向公众投资者发行股票的过程",
       "category": "金融"
     },
     {
-      "term": "DFM",
-      "desc": "可制造性设计，优化设计以提高制造良率和降低成本的流程",
-      "category": "EDA"
+      "term": "Kunlunxin",
+      "desc": "昆仑芯，原百度智能芯片事业部独立而成的AI芯片企业",
+      "category": "芯片"
     },
     {
-      "term": "GFL",
-      "desc": "生命周期治理，涵盖芯片从设计到老化全过程的可靠性与性能管理框架",
-      "category": "EDA"
+      "term": "Nvidia",
+      "desc": "英伟达，全球领先的GPU和AI芯片设计公司",
+      "category": "芯片"
     },
     {
-      "term": "3DFabric Alliance",
-      "desc": "台积电3D Fabric联盟，旨在推动3D IC和先进封装技术的生态系统合作",
-      "category": "封装"
+      "term": "ChatGPT Moment",
+      "desc": "指某项技术迎来爆发性普及、公众认知和产业拐点的转折时刻",
+      "category": "行业术语"
     },
     {
-      "term": "imec IC-Link",
-      "desc": "微电子研究中心(imec)的IC-Link服务，提供芯片设计到量产的一站式支持",
-      "category": "研发"
+      "term": "Embodied AI",
+      "desc": "具身智能，具有物理身体并能与物理世界交互的智能系统",
+      "category": "AI"
     },
     {
-      "term": "IDP",
-      "desc": "工业缺陷预测，用于预测和评估芯片制造过程中缺陷率的技术模型",
-      "category": "制造"
+      "term": "Manchester Code",
+      "desc": "曼彻斯特编码，一种自同步的线路编码方式，通过电平跳变来传输时钟和数据信号",
+      "category": "EDA/IP"
     },
     {
-      "term": "Yield Cliff",
-      "desc": "良率悬崖，指制程节点或新工艺导入初期良率急剧下降的现象",
-      "category": "制造"
+      "term": "3D Jobs",
+      "desc": "指枯燥、肮脏、危险的工作，是自动化和机器人替代的主要目标场景",
+      "category": "行业术语"
     }
   ],
   "topic_pulse": [
@@ -66,225 +61,220 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS及先进封装的讨论热度有所降温，主要因产能扩张预期逐步落地，短期供需紧张情绪缓解。市场关注点正从产能紧缺转向良率提升与成本优化。"
+      "summary": "近期社区对CoWoS及先进封装的讨论热度有所降温，缺乏引爆性新事件。市场情绪趋于平静，关注点从短期产能紧缺转向长期供需平衡与技术迭代。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度下降，随着HBM3e量产推进，前期狂热情绪趋于理性。社区讨论焦点暂从产能争夺转向下一代HBM4的技术规格与标准制定。"
+      "summary": "HBM与AI存储话题热度下降，社区暂无激烈讨论。随着产能逐步释放与供应链调整，业界对HBM短缺的焦虑情绪有所缓解，转向关注下一代HBM规格。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中国Fab与先进制程话题降温，缺乏近期重大技术突破消息刺激，社区讨论趋于平淡。市场正等待国内代工厂在新制程节点上的实质性进展披露。"
+      "summary": "中国Fab与先进制程话题降温，社区讨论趋于平淡。短期内缺乏重大技术突破或政策变动刺激，市场进入观望期，关注重点转向成熟制程的产能优化。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP热度回落，政策刺激效应减弱后，社区对国产替代的短期情绪趋于冷静。讨论重心转向国产工具在先进制程实际流片中的验证表现与生态兼容性。"
+      "summary": "国产EDA/IP讨论热度回落，暂无热门帖子引发广泛关注。业界正从概念炒作转向深耕实际工具链的打磨与客户导入，社区情绪务实且低调。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT板块关注度下降，先进封装产能紧缺缓解后，市场对OSAT短期业绩爆发的预期降低。社区暂无重大并购或技术发布事件引发热议。"
+      "summary": "封测OSAT话题降温，社区缺乏焦点讨论。传统封装需求平稳，先进封装热度随大厂产能扩充而边际递减，讨论空间收窄。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度降温，近期无新增重大制裁政策出台，社区情绪从焦虑转为观望。讨论重点转向现有规则下的合规应对与供应链重塑的长期适应。"
+      "summary": "出口管制与制裁话题热度下降，社区情绪相对平稳。近期无新增重大制裁清单，业界已逐步适应现有合规环境并常态化运作，讨论焦点淡化。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与英伟达话题热度回落，随着新一代架构发布后的信息消化期，社区短期炒作情绪降温。讨论焦点正转向英伟达实际出货表现及竞争对手的动态。"
+      "summary": "AI芯片与英伟达话题热度降温，尽管财报亮眼但社区讨论缺乏新意。市场焦点正从单一GPU算力转向系统级集群效能与互联架构，短期情绪趋于饱和。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化热度下降，前期国产替代情绪高潮过后，市场进入平静的验证与导入期。社区关注点聚焦于国产设备在关键工艺环节的量产稳定性与客户反馈。"
+      "summary": "设备与材料国产化话题热度下降，社区讨论趋于沉寂。在当前周期下，业界更关注具体产线的验证进度与良率提升，而非宏观叙事，情绪转为务实推进。"
     }
   ],
   "items": [
     {
-      "title": "PQShield在2026年嵌入式世界大会上发布超小型PQC嵌入式安全突破性技术（PQShield unveils ultra-small PQC embedded security breakthroughs at Embedded World 2026）",
-      "url": "https://semiwiki.com/security/pqshield/367520-pqshield-unveils-ultra-small-pqc-embedded-security-breakthroughs-at-embedded-world-2026/",
-      "description": "<p>As the threat of quantum computing to modern cybersecurity becomes increasingly real, the technology industry is accelerating efforts to develop cryptographic systems capable of resisting quantum attacks. One of the most significant developments in this field was presented at Embedded World 2026 ",
-      "published": "Tue, 19 May 2026 17:00:29 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "量子计算威胁正推动半导体行业将PQC技术集成到边缘和嵌入式设备中，安全IP需求将激增。",
-        "超小型化突破意味着PQC方案正从理论算法走向资源受限的物联网芯片实际部署阶段。"
-      ],
-      "actions": [
-        "嵌入式芯片设计公司应开始评估PQC IP模块的集成可行性，提前布局产品安全架构。",
-        "安全芯片供应商需密切关注PQC标准演进，加速抗量子加密硬件产品线的研发。"
-      ],
-      "glossary": [
-        {
-          "term": "PQC",
-          "desc": "后量子密码学，能够抵抗量子计算机攻击的新型加密算法",
-          "category": "安全"
-        }
-      ],
-      "region": "overseas",
-      "summary": "随着量子计算对现代网络安全威胁日益现实，PQShield发布了超小型后量子密码（PQC）嵌入式安全技术突破，加速抗量子加密系统的开发与落地。",
-      "tag_category": "综合",
-      "title_en": "PQShield unveils ultra-small PQC embedded security breakthroughs at Embedded World 2026"
-    },
-    {
-      "title": "SpaceX IPO将增加马斯克的第二只股票，这对特斯拉是个问题（SpaceX IPO will add second Musk stock. It’s a problem for Tesla.）",
-      "url": "https://www.eastbaytimes.com/2026/05/19/spacex-ipo-tesla-problem/",
-      "description": "Wall Street pros see investors’ attention and capital swinging toward Musk's shiny new toy.",
+      "title": "SpaceX、OpenAI、Anthropic：2026年值得关注的即将IPO（SpaceX, OpenAI, Anthropic: upcoming IPOs to watch in 2026 | IG International）",
+      "url": "https://www.ig.com/en/news-and-trade-ideas/spacex-openai-anthropic-2026-ipo-deals-260520",
+      "description": "SpaceX, OpenAI and Anthropic eye trillion-dollar valuations while Kunlunxin and Shein line up Hong Kong debuts. Who wins and loses from 2026's record IPO cycle?",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "资本市场对明星科技巨头的注意力转移，可能影响特斯拉在自动驾驶和AI车载芯片领域的融资与估值预期。",
-        "核心科技企业的资本分流效应会波及整个电动汽车及车载芯片供应链的资金流向与项目推进节奏。"
+        "AI巨头的高估值IPO将进一步吸引全球资本涌入AI算力基础设施和底层芯片领域。",
+        "昆仑芯等国内芯片企业赴港上市，有望为国产算力芯片的研发与生态扩张提供关键资金支持。"
       ],
       "actions": [
-        "车载芯片供应商需警惕特斯拉资本吸引力下降可能带来的新项目延期或预算缩减风险。",
-        "投资者与供应链企业应重新评估新能源车与航天AI赛道间资金流向的动态平衡。"
+        "关注AI巨头IPO带来的供应链溢出效应，提前评估并布局相关服务器和AI芯片产能。",
+        "密切跟踪昆仑芯等国产芯片企业的上市进展及募投方向，寻找产业链潜在的合作与配套机会。"
       ],
       "glossary": [
         {
           "term": "IPO",
-          "desc": "首次公开募股，企业首次向公众投资者出售股票筹集资金的过程",
+          "desc": "首次公开募股，企业首次向公众投资者发行股票的过程",
           "category": "金融"
+        },
+        {
+          "term": "Kunlunxin",
+          "desc": "昆仑芯，原百度智能芯片事业部独立而成的AI芯片企业",
+          "category": "芯片"
         }
       ],
       "region": "overseas",
-      "summary": "华尔街专业人士认为，SpaceX的IPO将吸引投资者的注意力和资金转向马斯克的新项目，从而对特斯拉的资本吸引力与估值造成负面影响。",
+      "summary": "SpaceX、OpenAI和Anthropic瞄准万亿级估值，而昆仑芯和Shein则计划在香港上市。2026年创纪录的IPO周期将决定资本市场上的赢家与输家。",
       "tag_category": "EDA/IP",
-      "title_en": "SpaceX IPO will add second Musk stock. It’s a problem for Tesla."
+      "title_en": "SpaceX, OpenAI, Anthropic: upcoming IPOs to watch in 2026 | IG International"
     },
     {
-      "title": "弥合硅片实现差距：从静态DFM到生命周期治理（GFL）（Closing the Silicon Realization Gap: From Static DFM to Governance for Lifecycle (GFL)）",
-      "url": "https://semiwiki.com/3dic/369301-closing-the-silicon-realization-gap-from-static-dfm-to-governance-for-lifecycle-gfl/",
-      "description": "<p>The semiconductor industry has achieved extraordinary mastery in silicon signoff. Modern EDA environments can now optimize timing closure, physical verification, IR/EM behavior, routing density, thermal interaction, and increasingly even design-space exploration through AI-assisted implementation",
-      "published": "Tue, 19 May 2026 15:00:40 +0000",
+      "title": "今日美股市场：2026年5月20日实时更新（US Stock Market Today: Live Updates 20.05.2026）",
+      "url": "https://ts2.tech/en/stock-market-today-20-05-2026/",
+      "description": "The conglomerate benefits from ... designs chips powering AI servers, and its investment in OpenAI, which is preparing for a potential IPO. Nvidia reported an 85% surge in quarterly revenue to $81.62 billion and announced an $80 billion share buyback, boosting investor confidence. Asian semiconductor stocks linked to Nvidia also rallied. SoftBank’s stock shows a bullish technical pattern, indicating positive market sentiment amid healthy consolidation. ... May 21, 2026, 12:39 ...",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "英伟达营收的惊人增长再次印证了AI服务器芯片需求的持续爆发与垄断性地位。",
+        "资本向AI芯片及底层算力基础设施的倾斜正在重塑科技巨头的投资版图与业务边界。"
+      ],
+      "actions": [
+        "评估英伟达财报对上游供应链（如晶圆代工、先进封装、HBM存储）的拉动效应，及时调整备货与产能策略。",
+        "关注科技巨头对AI初创企业的投资动向，预判未来算力需求增量与硬件架构演进趋势。"
+      ],
+      "glossary": [
+        {
+          "term": "Nvidia",
+          "desc": "英伟达，全球领先的GPU和AI芯片设计公司",
+          "category": "芯片"
+        }
+      ],
+      "region": "overseas",
+      "summary": "某大型集团受益于为AI服务器设计芯片的业务以及对OpenAI的投资，而OpenAI正准备潜在的IPO。英伟达季度营收飙升85%，达到816.2亿美元。",
+      "tag_category": "EDA/IP",
+      "title_en": "US Stock Market Today: Live Updates 20.05.2026"
+    },
+    {
+      "title": "机器人会迎来ChatGPT时刻吗？（Will Robotics Have a ChatGPT Moment?）",
+      "url": "https://spectrum.ieee.org/robotics-ai-breakthrough",
+      "description": "<img src=\"https://spectrum.ieee.org/media-library/a-collection-of-5-robots-against-colored-backgrounds.jpg?id=66734221&width=1245&height=700&coordinates=0%2C88%2C0%2C88\"/><br/><br/><p>Over the next few decades, billions of autonomous, AI-powered robots will work alongside people in factories, perfor",
+      "published": "Wed, 20 May 2026 11:00:01 +0000",
       "source": "RSS",
       "source_type": "RSS",
       "lang": "en",
       "tags": [],
       "insights": [
-        "传统的静态DFM已不足以应对先进制程的复杂变异，生命周期治理（GFL）成为保障芯片长期可靠性的新趋势。",
-        "EDA工具正从单纯的制造前优化，延伸至覆盖芯片全生命周期的性能衰减预测与数据治理。"
+        "机器人领域的“ChatGPT时刻”需要底层AI大模型算力与边缘端控制芯片能力的双重突破。",
+        "具身智能的发展将催生对端侧AI芯片、视觉传感器及高精度运动控制芯片的巨大增量需求。"
       ],
       "actions": [
-        "芯片设计团队应将GFL理念引入设计流程，关注芯片在生命周期内的性能衰减与可靠性管理。",
-        "EDA软件采购需优先考虑支持全生命周期数据反馈与治理的平台化解决方案。"
+        "研究具身智能对端侧芯片的算力与低功耗要求，提前布局相关芯片IP和SoC设计。",
+        "关注机器人产业链核心芯片（如视觉处理、电机驱动MCU）的国产替代与定制化机会。"
       ],
       "glossary": [
         {
-          "term": "DFM",
-          "desc": "可制造性设计，优化设计以提高制造良率和降低成本的流程",
-          "category": "EDA"
+          "term": "ChatGPT Moment",
+          "desc": "指某项技术迎来爆发性普及、公众认知和产业拐点的转折时刻",
+          "category": "行业术语"
         },
         {
-          "term": "GFL",
-          "desc": "生命周期治理，涵盖芯片从设计到老化全过程的可靠性与性能管理框架",
-          "category": "EDA"
+          "term": "Embodied AI",
+          "desc": "具身智能，具有物理身体并能与物理世界交互的智能系统",
+          "category": "AI"
         }
       ],
       "region": "overseas",
-      "summary": "半导体行业在硅片签核方面已实现非凡掌控，现代EDA环境能优化时序收敛等环节，但正从静态可制造性设计（DFM）向生命周期治理（GFL）演进以弥合实现差距。",
-      "tag_category": "EDA/IP",
-      "title_en": "Closing the Silicon Realization Gap: From Static DFM to Governance for Lifecycle (GFL)"
-    },
-    {
-      "title": "imec IC-Link与TSMC 3DFabric联盟扩张标志着系统级扩展新时代（imec IC-Link and TSMC 3DFabric Alliance Expansion Signals New Era of System-Level Scaling）",
-      "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/369260-imec-ic-link-and-tsmc-3dfabric-alliance-expansion-signals-new-era-of-system-level-scaling/",
-      "description": "<p>imec announced that <a href=\"https://www.imeciclink.com/en\">IC-Link</a> by imec has joined the <a href=\"https://www.tsmc.com/english/dedicatedFoundry/oip/3dfabric_alliance\">TSMC 3DFabric Alliance</a>, a strategically important move that reflects the semiconductor industry’s transition from tradit",
-      "published": "Tue, 19 May 2026 13:00:35 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "imec加入TSMC 3DFabric联盟将强化先进封装与异构集成的前沿研发与代工服务对接，降低3D IC设计门槛。",
-        "系统级扩展正取代单纯制程微缩，成为提升芯片整体性能和功能密度的核心商业路径。"
-      ],
-      "actions": [
-        "寻求先进封装方案的芯片开发商应密切关注imec与TSMC联合提供的3D IC设计流片与验证服务。",
-        "封测厂商需加速布局异构集成技术，以适应系统级扩展生态联盟对供应链的协同要求。"
-      ],
-      "glossary": [
-        {
-          "term": "3DFabric Alliance",
-          "desc": "台积电3D Fabric联盟，旨在推动3D IC和先进封装技术的生态系统合作",
-          "category": "封装"
-        },
-        {
-          "term": "imec IC-Link",
-          "desc": "微电子研究中心(imec)的IC-Link服务，提供芯片设计到量产的一站式支持",
-          "category": "研发"
-        }
-      ],
-      "region": "overseas",
-      "summary": "imec宣布其IC-Link加入TSMC 3DFabric联盟，这一扩张标志着半导体行业从单纯制程微缩转向系统级扩展与异构集成的新时代。",
-      "tag_category": "EDA/IP",
-      "title_en": "imec IC-Link and TSMC 3DFabric Alliance Expansion Signals New Era of System-Level Scaling"
-    },
-    {
-      "title": "跨越良率悬崖：IDP V6与制造预测的未来（Crossing the Yield Cliff: IDP V6 and the Future of Manufacturing Forecasting）",
-      "url": "https://semiwiki.com/lithography/369371-crossing-the-yield-cliff-idp-v6-and-the-future-of-manufacturing-forecasting/",
-      "description": "<p>The paper, <a href=\"https://zenodo.org/records/20045860\">Industrial Defectivity Prediction (IDP) V6: A Two-Layer Yield Cliff Framework for Cross-Industry Mass-Production Forecasting</a>, presents a generalized industrial yield-modeling architecture that extends the classical Negative Binomial fra",
-      "published": "Mon, 18 May 2026 17:00:43 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "“良率悬崖”是先进制程量产初期的致命瓶颈，IDP V6双层框架提供了更精准的跨行业良率爬坡预测模型。",
-        "制造预测正从经验驱动转向数据与模型驱动，以降低新工艺节点导入的高风险与试错成本。"
-      ],
-      "actions": [
-        "Fab厂和制造管理层应研究IDP V6双层框架，优化自身新工艺量产良率爬坡的预测与风险管控机制。",
-        "良率管理软件开发商需引入更先进的缺陷预测算法与跨行业数据模型，提升产品竞争力。"
-      ],
-      "glossary": [
-        {
-          "term": "IDP",
-          "desc": "工业缺陷预测，用于预测和评估芯片制造过程中缺陷率的技术模型",
-          "category": "制造"
-        },
-        {
-          "term": "Yield Cliff",
-          "desc": "良率悬崖，指制程节点或新工艺导入初期良率急剧下降的现象",
-          "category": "制造"
-        }
-      ],
-      "region": "overseas",
-      "summary": "最新发布的工业缺陷预测（IDP）V6论文提出了双层良率悬崖框架，用于跨行业量产预测，旨在解决先进制程导入初期的制造预测挑战。",
+      "summary": "探讨机器人领域是否即将迎来类似ChatGPT的爆发性突破时刻，具身智能成为技术与产业焦点。",
       "tag_category": "综合",
-      "title_en": "Crossing the Yield Cliff: IDP V6 and the Future of Manufacturing Forecasting"
+      "title_en": "Will Robotics Have a ChatGPT Moment?"
+    },
+    {
+      "title": "曼彻斯特编码让比特位听话（Manchester Code Made Bits Behave）",
+      "url": "https://spectrum.ieee.org/manchester-code-ieee-milestone",
+      "description": "<img src=\"https://spectrum.ieee.org/media-library/black-and-white-photograph-of-a-well-dressed-young-man-working-on-a-magnetic-drum-store-in-a-lab.jpg?id=66734376&width=1245&height=700&coordinates=0%2C120%2C0%2C121\"/><br/><br/><p>In the late 1940s—when computer engineers were grappling with unreliab",
+      "published": "Mon, 18 May 2026 18:00:01 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "曼彻斯特编码的自同步特性在早期磁存储和网络通信中至关重要，是数字通信底层基石之一。",
+        "了解底层经典编码机制有助于现代芯片设计师在高速串行接口设计中解决信号同步与抗干扰问题。"
+      ],
+      "actions": [
+        "在进行低速或长距离工业通信芯片设计时，可参考曼彻斯特编码的时钟恢复机制提升稳定性。",
+        "将经典编码理论与数字电路底层逻辑纳入新员工培训体系，夯实IC设计工程师的基础能力。"
+      ],
+      "glossary": [
+        {
+          "term": "Manchester Code",
+          "desc": "曼彻斯特编码，一种自同步的线路编码方式，通过电平跳变来传输时钟和数据信号",
+          "category": "EDA/IP"
+        }
+      ],
+      "region": "overseas",
+      "summary": "回顾曼彻斯特编码这一经典通信技术如何规范数据比特位的传输行为，探讨其在早期计算机磁存储中的应用价值。",
+      "tag_category": "综合",
+      "title_en": "Manchester Code Made Bits Behave"
+    },
+    {
+      "title": "什么让工作变得枯燥、肮脏或危险？（What Makes a Job Dull, Dirty, or Dangerous?）",
+      "url": "https://spectrum.ieee.org/dull-dirty-dangerous-robots",
+      "description": "<img src=\"https://spectrum.ieee.org/media-library/a-curbside-trash-can-being-lifted-by-a-mechanical-arm-attached-to-the-side-of-a-garbage-truck.jpg?id=66736070&width=1245&height=700&coordinates=0%2C178%2C0%2C178\"/><br/><br/><p>For years, the field of robotics has used the terms “dull, dirty, and dan",
+      "published": "Mon, 18 May 2026 13:00:00 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "3D（Dull, Dirty, Dangerous）场景是工业和服务机器人最明确的应用切入点，需求刚性极强且对成本敏感度低。",
+        "替代3D工作的机器人需要高可靠性的环境感知芯片和耐恶劣环境的功率半导体器件支撑。"
+      ],
+      "actions": [
+        "针对恶劣工业环境应用，开发或推广高可靠性、抗干扰的传感器及功率半导体产品线。",
+        "与机器人整机厂商深度合作，针对3D场景定制专用的端侧控制与感知芯片方案。"
+      ],
+      "glossary": [
+        {
+          "term": "3D Jobs",
+          "desc": "指枯燥、肮脏、危险的工作，是自动化和机器人替代的主要目标场景",
+          "category": "行业术语"
+        }
+      ],
+      "region": "overseas",
+      "summary": "探讨定义“枯燥、肮脏、危险”（3D）工作的标准，这些场景正是工业和服务机器人自动化替代的重点方向。",
+      "tag_category": "EDA/IP",
+      "title_en": "What Makes a Job Dull, Dirty, or Dangerous?"
     }
   ],
   "stats": {
-    "total_raw": 84,
-    "after_dedup": 76,
+    "total_raw": 60,
+    "after_dedup": 52,
     "sources": {
-      "RSS": 64,
+      "RSS": 40,
       "Brave": 12
     }
   },
