@@ -1,6 +1,6 @@
 {
-  "version": "v20260520-2004",
-  "generatedAt": "2026-05-20T20:04:00+08:00",
+  "version": "v20260521-2003",
+  "generatedAt": "2026-05-21T20:03:00+08:00",
   "period": "evening",
   "commit": "",
   "glossary_list": [
@@ -20,64 +20,34 @@
       "category": "封装"
     },
     {
+      "term": "创业板第四套标准",
+      "desc": "深圳证券交易所创业板上市规则中针对未盈利企业的特殊上市标准，强调研发投入和核心技术",
+      "category": "资本市场"
+    },
+    {
+      "term": "问界M9",
+      "desc": "华为与赛力斯联合打造的高端智能SUV车型",
+      "category": "终端产品"
+    },
+    {
+      "term": "华为乾崑智驾",
+      "desc": "华为推出的高阶智能驾驶解决方案品牌，涵盖芯片、算法和传感器",
+      "category": "汽车电子"
+    },
+    {
+      "term": "预售价",
+      "desc": "新车正式上市前公布的预期销售价格，通常作为市场接受度的测试",
+      "category": "市场"
+    },
+    {
       "term": "PQC",
-      "desc": "后量子密码，能够抵抗量子计算机破解的密码算法",
-      "category": "安全"
+      "desc": "后量子密码，能够抵抗量子计算机攻击的新型密码算法",
+      "category": "安全/IP"
     },
     {
       "term": "Embedded World",
-      "desc": "全球领先的嵌入式系统行业展会",
+      "desc": "全球领先的嵌入式系统行业展览会",
       "category": "展会"
-    },
-    {
-      "term": "CXMT",
-      "desc": "长鑫存储，中国领先的DRAM研发与制造企业",
-      "category": "企业"
-    },
-    {
-      "term": "STAR Market",
-      "desc": "科创板，中国设立的面向硬科技企业的证券板块",
-      "category": "金融"
-    },
-    {
-      "term": "DFM",
-      "desc": "可制造性设计，在设计阶段考虑制造工艺约束以提高良率",
-      "category": "EDA"
-    },
-    {
-      "term": "GFL",
-      "desc": "生命周期治理，覆盖芯片从设计、制造到全生命周期运行的闭环管控框架",
-      "category": "EDA"
-    },
-    {
-      "term": "Silicon Realization",
-      "desc": "硅片实现，将设计转化为成功制造的物理芯片的过程",
-      "category": "EDA"
-    },
-    {
-      "term": "imec IC-Link",
-      "desc": "比利时微电子研究中心imec的硅片服务项目，提供从设计到量产的桥梁服务",
-      "category": "组织"
-    },
-    {
-      "term": "TSMC 3DFabric",
-      "desc": "台积电的3D集成电路先进封装平台及生态联盟",
-      "category": "封装"
-    },
-    {
-      "term": "System-Level Scaling",
-      "desc": "系统级扩展，通过3D封装和异构集成提升整体系统性能，而非仅依赖单芯片制程微缩",
-      "category": "技术"
-    },
-    {
-      "term": "Yield Cliff",
-      "desc": "良率悬崖，指制程节点或新工艺导入时良率突然大幅下降的现象",
-      "category": "制造"
-    },
-    {
-      "term": "IDP",
-      "desc": "工业缺陷预测，利用数据和模型预测制造过程中缺陷分布与良率的方法",
-      "category": "制造"
     }
   ],
   "topic_pulse": [
@@ -86,61 +56,177 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "CoWoS/先进封装热度降温，社区讨论趋于平静。近期缺乏产能扩张的新催化剂，市场正消化前期台积电扩产消息，情绪转向观望。"
+      "summary": "近期社区对CoWoS及先进封装的讨论热度明显降温，主要因产能扩张预期逐步落地，短期供需紧张情绪缓解。投资者关注焦点从产能紧缺转向实际利用率与长周期订单健康度。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM/AI存储话题热度回落，讨论焦点从产能紧缺转向实际交付与良率爬坡。社区情绪趋于理性，等待长鑫存储等新入局者的后续进展。"
+      "summary": "HBM与AI存储话题热度回落，随着主要厂商产能规划明确，市场对HBM短缺的恐慌情绪消退。讨论重心转向下一代HBM4的技术规格与成本优化。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中国Fab/先进制程讨论热度下降，社区暂无重大技术突破传闻。市场处于政策与制裁消息的消化期，情绪相对平稳。"
+      "summary": "中国Fab与先进制程讨论降温，短期内缺乏重大技术突破或政策刺激事件。社区情绪趋于观望，重点评估现有产线良率提升与成熟制程的盈利能力。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP热度降温，缺乏重磅新品发布或融资事件刺激。社区讨论暂归平淡，从业者正专注于现有工具的打磨与客户导入。"
+      "summary": "国产EDA/IP热度下降，前期政策利好与订单预期已被充分消化。社区讨论趋于理性，开始关注国产工具在实际高端芯片流片中的验证情况与真实市占率。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT话题热度走低，社区缺乏新的大订单或并购传闻。讨论重心转向常规产能利用率与价格博弈，情绪偏谨慎。"
+      "summary": "封测OSAT板块关注度走低，随着先进封装产能紧张缓解，传统封测的议价能力受到挑战。社区讨论聚焦于OSAT向先进封装转型的资本开支回报周期。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制/制裁热度下降，近期无新增重大管制清单出台。社区情绪暂时放松，但仍在警惕潜在的长臂管辖与设备断供风险。"
+      "summary": "出口管制与制裁话题热度减退，近期无新增重大制裁清单出台，市场进入政策消化期。讨论重点转向企业合规应对的常态化及存量设备的维保替代方案。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片/NVIDIA热度回落，缺乏新一代架构或出货量超预期的刺激。社区讨论从狂热回归常态，关注点转向实际部署成本与推理端优化。"
+      "summary": "AI芯片与英伟达话题降温，市场对短期爆款产品的兴奋度减弱，进入业绩验证期。社区讨论转向英伟达下一代架构的落地节奏及AI推理侧芯片的竞争格局。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备/材料国产化热度降温，暂无新的大规模验证突破或替代传闻。社区情绪趋于务实，聚焦于现有国产线体的良率提升与稳定性验证。"
+      "summary": "设备与材料国产化热度下滑，核心赛道国产替代逻辑已成为市场共识，缺乏短期催化剂。讨论重心转移至国产设备在先进制程的验证进度及零部件的深层国产化。"
     }
   ],
   "items": [
     {
-      "title": "PQShield在2026年嵌入式世界展上发布超小型PQC嵌入式安全突破（PQShield unveils ultra-small PQC embedded security breakthroughs at Embedded World 2026）",
+      "title": "创业板第四套标准首单IPO落地——A股重要资讯汇总与点评（2026年5月20日）",
+      "url": "https://caifuhao.eastmoney.com/news/20260520223736962560470?from=guba&name=5Lit6Iqv5Zu96ZmF5ZCn&gubaurl=aHR0cDovL2d1YmFmMTAuZWFzdG1vbmV5LmNvbS9saXN0LDY4ODk4MS5odG1s",
+      "description": "东方财富网旗下财经自媒体平台“财富号”，于2017年3月1日上线，汇聚权威、全面、专业的财经自媒体，为中国广大投资者提供个性化、专业化的财经资讯和一站式金融理财服务。",
+      "published": "21小时前",
+      "source": "财富号",
+      "source_type": "Serper",
+      "lang": "zh",
+      "tags": [],
+      "insights": [
+        "创业板第四套标准落地，意味着A股对尚未盈利但具备核心技术的半导体/EDA/IP等硬科技企业敞开大门，融资渠道拓宽。",
+        "首单IPO具有标杆效应，将加速同类半导体初创企业的上市进程，提振一级市场投资信心。"
+      ],
+      "actions": [
+        "尚未盈利但拥有核心IP/技术的半导体初创企业应尽早评估是否符合创业板第四套标准，启动上市规划。",
+        "投资机构可重点关注符合该标准的EDA、芯片设计等赛道，把握上市红利期。"
+      ],
+      "glossary": [
+        {
+          "term": "创业板第四套标准",
+          "desc": "深圳证券交易所创业板上市规则中针对未盈利企业的特殊上市标准，强调研发投入和核心技术",
+          "category": "资本市场"
+        }
+      ],
+      "region": "domestic",
+      "summary": "创业板第四套标准（针对未盈利硬科技企业）的首单IPO正式落地，标志着A股对硬科技企业的融资支持进一步深化。",
+      "tag_category": "EDA/IP",
+      "title_en": "创业板第四套标准首单IPO落地——A股重要资讯汇总与点评（2026年5月20日）"
+    },
+    {
+      "title": "全新一代问界M9将于5月27日上市",
+      "url": "https://chejiahao.autohome.com.cn/info/25525010",
+      "description": "全新一代问界M9将于5月27日上市_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n全新一代问界M9将于5月27日上市\n\n盖世汽车\n\n车家号·0浏览·2026-05-20 09:50 · 上海\n\n盖世汽车获悉，全新一代问界M9(参数|询价)将于5月27日正式上市。\n\n在此之前，新款问界M9已于4月22日正式亮相并同步开启预售，其中问界M9预售价格49.98万元起，问界M9 Ultimate领世加长版预售价格66.98",
+      "published": "2026-05-27T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "问界M9的迭代上市反映出高端智能网联汽车对大算力芯片、智能驾驶SoC及车规级存储的需求持续升级。",
+        "华为深度赋能的车型持续推新，将进一步拉动华为智驾芯片及配套供应链的订单增长。"
+      ],
+      "actions": [
+        "汽车芯片供应商需提前备货，确保问界M9量产所需的智驾SoC、传感器及车规级MCU的稳定供应。",
+        "关注华为系车型的销量表现，以此作为评估国内智能座舱和自动驾驶芯片景气度的重要风向标。"
+      ],
+      "glossary": [
+        {
+          "term": "问界M9",
+          "desc": "华为与赛力斯联合打造的高端智能SUV车型",
+          "category": "终端产品"
+        }
+      ],
+      "region": "domestic",
+      "summary": "全新一代问界M9正式宣布将于5月27日上市，作为高端智能SUV，其智能化配置和芯片需求备受关注。",
+      "tag_category": "综合",
+      "title_en": "全新一代问界M9将于5月27日上市_车家号_发现车生活_汽车之家"
+    },
+    {
+      "title": "岚图泰山X8将于5月22日上市，预售价30.29万元起，搭载华为乾崑智驾",
+      "url": "https://www.autohome.com.cn/news/202605/1314402.html",
+      "description": "【图】岚图泰山X8将于5月22日上市 预售价30.29万元起 搭载华为乾崑智驾_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n问编辑\n\n当前位置：\n\n岚图泰山X8将于5月22日上市 预售价30.29万元起 搭载华为乾崑智驾\n\n之家原创车闻\n\n原创 · 0浏览·2026-05-21 00:00 · 北京\n\n关注\n\n外观方面，岚图泰山X8延续泰山的设计语言，前脸配备全新样式的主动开合式发光格栅，与车身同色，两侧提供分体式车灯，并引入DLP智能投影大灯，",
+      "published": "2026-05-22T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "华为乾崑智驾系统向更多车企（如岚图）渗透，标志着国产高阶自动驾驶解决方案正从单一品牌走向全行业生态。",
+        "智驾方案的普及将直接带动国产自动驾驶芯片、激光雷达及高速互联芯片的规模化出货。"
+      ],
+      "actions": [
+        "供应链企业应积极对接华为乾崑智驾生态圈，争取进入其核心零部件（如传感器、域控制器）的供应商名录。",
+        "关注30万级车型市场智驾配置的渗透率，评估中端车型对车规级芯片算力需求的变化。"
+      ],
+      "glossary": [
+        {
+          "term": "华为乾崑智驾",
+          "desc": "华为推出的高阶智能驾驶解决方案品牌，涵盖芯片、算法和传感器",
+          "category": "汽车电子"
+        }
+      ],
+      "region": "domestic",
+      "summary": "岚图泰山X8即将上市，预售价30.29万元起，核心亮点是搭载了华为乾崑智驾系统，凸显国产智驾方案的普及趋势。",
+      "tag_category": "综合",
+      "title_en": "【图】岚图泰山X8将于5月22日上市 预售价30.29万元起 搭载华为乾崑智驾_汽车之家"
+    },
+    {
+      "title": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起",
+      "url": "https://chejiahao.autohome.com.cn/info/25521469",
+      "description": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n全新一代问界M9系列将于5月27日上市，预售价49.98万元起\n\n油城车事\n\n车家号·0浏览·2026-05-19 16:42 · 黑龙江\n\n5月19日，鸿蒙智行对外透露了全新一代问界M9(参数|询价)系列的上市安排，这款备受关注的车型确定将于5月27日正式与消费者见面。作为鸿蒙智行旗下的旗舰SUV，全新一",
+      "published": "2026-05-27T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "50万级高端车型的迭代，对高算力域控制器、高端座舱芯片及先进封装需求拉动显著。",
+        "高端车型往往率先搭载最新一代芯片平台，其销量是检验新一代车规级芯片商业化落地的试金石。"
+      ],
+      "actions": [
+        "针对50万级高端车型的芯片供应链，需确保先进制程车规芯片的产能优先分配与良率稳定。",
+        "跟踪问界M9系列上市后的实际交付量，验证高端智能车芯片市场的真实需求弹性。"
+      ],
+      "glossary": [
+        {
+          "term": "预售价",
+          "desc": "新车正式上市前公布的预期销售价格，通常作为市场接受度的测试",
+          "category": "市场"
+        }
+      ],
+      "region": "domestic",
+      "summary": "全新一代问界M9系列确认5月27日上市，预售价49.98万元起，高端定位将带动高规格汽车芯片的消耗。",
+      "tag_category": "综合",
+      "title_en": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起_车家号_发现车生活_汽车之家"
+    },
+    {
+      "title": "PQShield在2026年嵌入式世界展览会上发布超小型后量子密码（PQC）嵌入式安全突破（PQShield unveils ultra-small PQC embedded security breakthroughs at Embedded World 2026）",
       "url": "https://semiwiki.com/security/pqshield/367520-pqshield-unveils-ultra-small-pqc-embedded-security-breakthroughs-at-embedded-world-2026/",
       "description": "<p>As the threat of quantum computing to modern cybersecurity becomes increasingly real, the technology industry is accelerating efforts to develop cryptographic systems capable of resisting quantum attacks. One of the most significant developments in this field was presented at Embedded World 2026 ",
       "published": "Tue, 19 May 2026 17:00:29 +0000",
@@ -149,188 +235,39 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "后量子密码（PQC）正从理论走向嵌入式实际应用，芯片安全架构需提前布局以应对量子破解风险。",
-        "超小型化PQC方案意味着物联网和边缘设备的抗量子安全升级门槛正在降低，硬件安全模块将迎来迭代。"
+        "随着量子计算威胁变得日益现实，后量子密码（PQC）在嵌入式系统中的商业化正在加速，芯片设计需提前整合PQC硬件加速。",
+        "超小型PQC方案的推出意味着PQC正从理论标准走向资源受限的边缘/IoT设备落地，对芯片面积和功耗提出了极高要求。"
       ],
       "actions": [
-        "安全芯片和物联网设备厂商应尽快评估PQC算法的集成路径与资源开销，启动原型验证。",
-        "关注NIST等机构的PQC标准落地进程，提前进行IP选型和供应链储备。"
+        "芯片设计公司应立即评估现有安全IP模块向PQC升级的路径，避免未来产品面临合规和安全性淘汰风险。",
+        "关注PQShield等PQC IP供应商的合作机会，在下一代IoT/边缘AI芯片规划中预留PQC算法的硬件加速接口。"
       ],
       "glossary": [
         {
           "term": "PQC",
-          "desc": "后量子密码，能够抵抗量子计算机破解的密码算法",
-          "category": "安全"
+          "desc": "后量子密码，能够抵抗量子计算机攻击的新型密码算法",
+          "category": "安全/IP"
         },
         {
           "term": "Embedded World",
-          "desc": "全球领先的嵌入式系统行业展会",
+          "desc": "全球领先的嵌入式系统行业展览会",
           "category": "展会"
         }
       ],
       "region": "overseas",
-      "summary": "PQShield在嵌入式世界展上展示了超小型后量子密码（PQC）嵌入式安全技术突破，以应对量子计算对现代网络安全日益真实的威胁。",
+      "summary": "PQShield在2026年嵌入式世界展览会上展示了超小型后量子密码（PQC）嵌入式安全技术突破，应对量子计算对现代网络安全日益真实的威胁。",
       "tag_category": "综合",
       "title_en": "PQShield unveils ultra-small PQC embedded security breakthroughs at Embedded World 2026"
-    },
-    {
-      "title": "CXMT重启科创板上市，携7万亿韩元资金储备（CXMT Restarts STAR Market Listing With 7 Trillion Won War Chest - Seoul Economic Daily）",
-      "url": "https://en.sedaily.com/international/2026/05/19/cxmt-restarts-star-market-listing-with-7-trillion-won-war",
-      "description": "ChangXin Memory Technologies (CXMT) plans to deploy over 7 trillion won from its STAR Market IPO into DRAM expansion and HBM mass production, challenging SK hynix and Samsung Electronics.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "CXMT重启IPO并重金押注HBM量产，标志着中国存储厂商正式加入高端AI存储竞争赛道。",
-        "7万亿韩元（约合370亿人民币）的庞大融资规模，将极大加速国内DRAM和HBM的产线建设与良率爬坡。"
-      ],
-      "actions": [
-        "国内设备与材料供应商应紧盯CXMT的扩产招标，抢占HBM制造前道与先进封装环节的国产替代窗口。",
-        "关注CXMT科创板IPO进展，评估其对国内半导体资金面及存储产业链估值的带动效应。"
-      ],
-      "glossary": [
-        {
-          "term": "CXMT",
-          "desc": "长鑫存储，中国领先的DRAM研发与制造企业",
-          "category": "企业"
-        },
-        {
-          "term": "STAR Market",
-          "desc": "科创板，中国设立的面向硬科技企业的证券板块",
-          "category": "金融"
-        },
-        {
-          "term": "HBM",
-          "desc": "高带宽内存，通过先进封装实现的高性能DRAM，广泛用于AI芯片",
-          "category": "存储"
-        }
-      ],
-      "region": "overseas",
-      "summary": "长鑫存储（CXMT）计划将科创板IPO募集的超过7万亿韩元资金投入DRAM产能扩张和HBM量产，以挑战SK海力士和三星电子。",
-      "tag_category": "EDA/IP",
-      "title_en": "CXMT Restarts STAR Market Listing With 7 Trillion Won War Chest - Seoul Economic Daily"
-    },
-    {
-      "title": "弥合硅片实现差距：从静态DFM到生命周期治理（GFL）（Closing the Silicon Realization Gap: From Static DFM to Governance for Lifecycle (GFL))",
-      "url": "https://semiwiki.com/3dic/369301-closing-the-silicon-realization-gap-from-static-dfm-to-governance-for-lifecycle-gfl/",
-      "description": "<p>The semiconductor industry has achieved extraordinary mastery in silicon signoff. Modern EDA environments can now optimize timing closure, physical verification, IR/EM behavior, routing density, thermal interaction, and increasingly even design-space exploration through AI-assisted implementation",
-      "published": "Tue, 19 May 2026 15:00:40 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "随着制程节点微缩，仅靠静态DFM已无法覆盖制造变异和生命周期可靠性问题，GFL代表了EDA签核的新范式。",
-        "从设计到制造再到现场运行的闭环数据治理，将成为提升先进制程良率和芯片长期可靠性的关键。"
-      ],
-      "actions": [
-        "IC设计企业需在流程中引入生命周期治理理念，将制造数据和现场退化数据反馈至设计端优化。",
-        "EDA工具供应商应加速开发支持GFL的闭环分析平台，打通设计、制造与运维的数据壁垒。"
-      ],
-      "glossary": [
-        {
-          "term": "DFM",
-          "desc": "可制造性设计，在设计阶段考虑制造工艺约束以提高良率",
-          "category": "EDA"
-        },
-        {
-          "term": "GFL",
-          "desc": "生命周期治理，覆盖芯片从设计、制造到全生命周期运行的闭环管控框架",
-          "category": "EDA"
-        },
-        {
-          "term": "Silicon Realization",
-          "desc": "硅片实现，将设计转化为成功制造的物理芯片的过程",
-          "category": "EDA"
-        }
-      ],
-      "region": "overseas",
-      "summary": "半导体行业在硅片签核方面已达到极高水准，当前正从传统的静态可制造性设计（DFM）转向面向全生命周期的治理（GFL），以弥合硅片实现差距。",
-      "tag_category": "EDA/IP",
-      "title_en": "Closing the Silicon Realization Gap: From Static DFM to Governance for Lifecycle (GFL)"
-    },
-    {
-      "title": "imec IC-Link与TSMC 3DFabric联盟扩张标志着系统级扩展新时代（imec IC-Link and TSMC 3DFabric Alliance Expansion Signals New Era of System-Level Scaling）",
-      "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/369260-imec-ic-link-and-tsmc-3dfabric-alliance-expansion-signals-new-era-of-system-level-scaling/",
-      "description": "<p>imec announced that <a href=\"https://www.imeciclink.com/en\">IC-Link</a> by imec has joined the <a href=\"https://www.tsmc.com/english/dedicatedFoundry/oip/3dfabric_alliance\">TSMC 3DFabric Alliance</a>, a strategically important move that reflects the semiconductor industry’s transition from tradit",
-      "published": "Tue, 19 May 2026 13:00:35 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "imec加入TSMC 3DFabric联盟，将强化先进封装与异构集成技术的生态协同，降低中小型客户接入3D封装的门槛。",
-        "系统级扩展取代单纯制程微缩成为主流，3D Fabric生态的扩张意味着晶圆代工与封装的边界进一步融合。"
-      ],
-      "actions": [
-        "芯片设计公司应积极利用imec IC-Link与TSMC 3DFabric的协同资源，优化多芯片异构集成方案的设计与验证。",
-        "封装与测试厂商需关注TSMC 3DFabric生态的标准演进，提前布局兼容性产能与技术能力。"
-      ],
-      "glossary": [
-        {
-          "term": "imec IC-Link",
-          "desc": "比利时微电子研究中心imec的硅片服务项目，提供从设计到量产的桥梁服务",
-          "category": "组织"
-        },
-        {
-          "term": "TSMC 3DFabric",
-          "desc": "台积电的3D集成电路先进封装平台及生态联盟",
-          "category": "封装"
-        },
-        {
-          "term": "System-Level Scaling",
-          "desc": "系统级扩展，通过3D封装和异构集成提升整体系统性能，而非仅依赖单芯片制程微缩",
-          "category": "技术"
-        }
-      ],
-      "region": "overseas",
-      "summary": "imec宣布其IC-Link加入TSMC 3DFabric联盟，这一扩张标志着半导体行业正迈向系统级扩展的新时代。",
-      "tag_category": "EDA/IP",
-      "title_en": "imec IC-Link and TSMC 3DFabric Alliance Expansion Signals New Era of System-Level Scaling"
-    },
-    {
-      "title": "跨越良率悬崖：IDP V6与制造预测的未来（Crossing the Yield Cliff: IDP V6 and the Future of Manufacturing Forecasting）",
-      "url": "https://semiwiki.com/lithography/369371-crossing-the-yield-cliff-idp-v6-and-the-future-of-manufacturing-forecasting/",
-      "description": "<p>The paper, <a href=\"https://zenodo.org/records/20045860\">Industrial Defectivity Prediction (IDP) V6: A Two-Layer Yield Cliff Framework for Cross-Industry Mass-Production Forecasting</a>, presents a generalized industrial yield-modeling architecture that extends the classical Negative Binomial fra",
-      "published": "Mon, 18 May 2026 17:00:43 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "“良率悬崖”是先进制程量产初期的致命痛点，IDP V6的双层框架为预测和规避良率突变提供了量化模型。",
-        "制造预测正从经验驱动转向数据与模型驱动，精准的缺陷预测能力将直接决定新工艺导入的时间与成本。"
-      ],
-      "actions": [
-        "Fab厂和IDM应引入IDP V6等先进良率预测框架，在量产前精准识别并消除潜在良率悬崖风险。",
-        "良率管理软件开发商需升级预测算法，结合缺陷物理机制与生产大数据，提供更陡峭制程的爬坡指引。"
-      ],
-      "glossary": [
-        {
-          "term": "Yield Cliff",
-          "desc": "良率悬崖，指制程节点或新工艺导入时良率突然大幅下降的现象",
-          "category": "制造"
-        },
-        {
-          "term": "IDP",
-          "desc": "工业缺陷预测，利用数据和模型预测制造过程中缺陷分布与良率的方法",
-          "category": "制造"
-        }
-      ],
-      "region": "overseas",
-      "summary": "《工业缺陷预测（IDP）V6》论文提出了双层“良率悬崖”框架，用于跨行业量产预测，旨在帮助半导体制造跨越良率陡降的瓶颈期。",
-      "tag_category": "综合",
-      "title_en": "Crossing the Yield Cliff: IDP V6 and the Future of Manufacturing Forecasting"
     }
   ],
   "stats": {
-    "total_raw": 85,
-    "after_dedup": 68,
+    "total_raw": 101,
+    "after_dedup": 85,
     "sources": {
-      "RSS": 65,
-      "Brave": 3
+      "Serper": 1,
+      "Exa": 10,
+      "RSS": 64,
+      "Brave": 10
     }
   },
   "code_version": "",
