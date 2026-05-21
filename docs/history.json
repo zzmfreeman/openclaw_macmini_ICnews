@@ -1,95 +1,5 @@
 [
   {
-    "url": "https://www.trendforce.com/news/2026/04/27/news-tsmc-3nm-monthly-capacity-may-hit-180k-wafers-by-2026-up-over-40-yoy-on-ai-demand/",
-    "title": "台积电3nm月产能2026年或将达18万片，同比增长超40%",
-    "published": "2026-04-27T00:00:00.000Z",
-    "addedAt": "2026-04-30T06:00:00+08:00"
-  },
-  {
-    "url": "https://finance.sina.com.cn/stock/zqgd/2026-04-27/doc-inhvxhzk9223668.shtml",
-    "title": "地平线发布中国首款舱驾融合智能体芯片及操作系统",
-    "published": "2026-04-27T00:00:00.000Z",
-    "addedAt": "2026-04-30T06:00:00+08:00"
-  },
-  {
-    "url": "https://finance.sina.com.cn/roll/2026-04-28/doc-inhwaicu8477282.shtml",
-    "title": "芯擎科技发布5nm车规级AI舱驾融合芯片\"龍鹰二号\"",
-    "published": "2026-04-28T00:00:00.000Z",
-    "addedAt": "2026-04-30T06:00:00+08:00"
-  },
-  {
-    "url": "https://en.antaranews.com/news/413899/robosense-unveiled-eocene-spad-soc-architecture-and-chipsets-phoenix-and-peacock",
-    "title": "速腾聚创发布EOCENE SPAD-SoC架构及Phoenix/Peacock芯片系列",
-    "published": "2026-04-28T00:00:00.000Z",
-    "addedAt": "2026-04-30T06:00:00+08:00"
-  },
-  {
-    "url": "https://finance.sina.com.cn/wm/2026-04-25/doc-inhvuaqt0347536.shtml",
-    "title": "云天励飞GPNPU架构完成DeepSeek-V4模型关键机制适配验证",
-    "published": "2026-04-25T00:00:00.000Z",
-    "addedAt": "2026-04-30T06:00:00+08:00"
-  },
-  {
-    "url": "https://www.tour028.com/t/143377.html",
-    "title": "华大九天：国产EDA的破冰者，估值焦虑与希望并存",
-    "published": "2026-04-28T00:00:00.000Z",
-    "addedAt": "2026-04-30T06:00:00+08:00"
-  },
-  {
-    "url": "https://www.benzinga.com/insights/news/26/04/52082160/cadence-design-systems-q1-2026-earnings-call-transcript",
-    "title": "Cadence Q1 2026财报：营收增长19%，AI驱动EDA需求加速",
-    "published": "2026-04-27T00:00:00.000Z",
-    "addedAt": "2026-04-30T06:00:00+08:00"
-  },
-  {
-    "url": "https://www.eenano.com/article/2343.html",
-    "title": "Cadence与Google合作推出ChipStack AI超级Agent",
-    "published": "2026-04-26T00:00:00.000Z",
-    "addedAt": "2026-04-30T06:00:00+08:00"
-  },
-  {
-    "url": "https://semiwiki.com/forum/threads/cowos-capacity-set-to-skyrocket-by-2026-massive-growth-in-advanced-packaging.21773/",
-    "title": "CoWoS产能2026年预计大幅飙升：先进封装进入爆发增长期",
-    "published": "2024-12-31T18:40:10",
-    "addedAt": "2026-04-30T06:00:00+08:00"
-  },
-  {
-    "url": "https://www.trendforce.com/news/2026/04/28/news-tsmc-cowos-wafer-asp-reportedly-nears-7nm-levels-advanced-packaging-poised-to-become-a-key-profit-driver/",
-    "title": "台积电CoWoS晶圆ASP接近7nm水平，先进封装成为新价值核心",
-    "published": "2026-04-28T00:00:00.000Z",
-    "addedAt": "2026-04-30T06:00:00+08:00"
-  },
-  {
-    "url": "https://www.electronicsweekly.com/news/business/hua-hong-blacklisted-for-equipment-shipments-2026-04/",
-    "title": "美国制裁华虹半导体：三大美系设备商被令断供",
-    "published": "2026-04-30T13:29:00+08:00",
-    "addedAt": "2026-04-30T20:11:00+08:00"
-  },
-  {
-    "url": "https://en.antaranews.com/news/413899/robosense-unveiled-eocene-spad-soc-architecture-and-chipsets-phoenix-and-peacock",
-    "title": "速腾聚创发布EOCENE SPAD-SoC架构及Phoenix/Peacock芯片",
-    "published": "2026-04-29T18:00:00+08:00",
-    "addedAt": "2026-05-01T06:15:42+08:00"
-  },
-  {
-    "url": "https://wccftech.com/lisuan-launches-7g100-china-gaming-graphics-card-on-20th-may-6nm-whql-certification/",
-    "title": "中国GPU厂商理算科技将于5月20日发布7G100游戏显卡",
-    "published": "2026-04-29T14:00:00+08:00",
-    "addedAt": "2026-05-01T06:15:42+08:00"
-  },
-  {
-    "url": "https://finance.sina.com.cn/roll/2026-04-28/doc-inhwaicu8477282.shtml",
-    "title": "芯擎科技发布5nm车规级AI舱驾融合芯片\"龍鹰二号\"",
-    "published": "2026-04-29T10:00:00+08:00",
-    "addedAt": "2026-05-01T06:15:42+08:00"
-  },
-  {
-    "url": "https://sqmagazine.co.uk/sensetime-sensenova-u1-multimodal-ai-model/",
-    "title": "商汤科技发布SenseNova U1多模态AI模型",
-    "published": "2026-04-29T16:00:00+08:00",
-    "addedAt": "2026-05-01T06:15:42+08:00"
-  },
-  {
     "url": "https://thetechrevolutionist.com/2026/04/cadence-and-nvidia-double-down-on-ai-driven-engineering-and-its-bigger-than-just-chips.html",
     "title": "Cadence与NVIDIA深化AI驱动工程设计合作",
     "published": "2026-04-29T12:00:00+08:00",
@@ -2998,5 +2908,95 @@
     "title": "PQShield在2026年嵌入式世界展览会上发布超小型后量子密码（PQC）嵌入式安全突破（PQShield unveils ultra-small PQC embedded security breakthroughs at Embedded World 2026）",
     "published": "Tue, 19 May 2026 17:00:29 +0000",
     "addedAt": "2026-05-21T20:03:00+08:00"
+  },
+  {
+    "url": "https://www.caproasia.com/2026/05/21/malaysia-integrated-circuit-design-company-skyechip-malaysia-ipo-share-price-increased-151-1-on-day-1-trading-20-5-26-ipo-price-myr-0-88-closing-myr-2-21-to-1-billion-market-value-raised-89/",
+    "title": "马来西亚集成电路设计公司SkyeChip马来西亚IPO首日股价上涨151.1%（20/5/26：IPO发行价0.88林吉特，收盘价2.21林吉特），市值达10亿美元，IPO募资8900万美元，由Swee Kiang (SK) Fong和Chee Hak Teh于2019年创立（Malaysia Integrated Circuit Design Company SkyeChip Malaysia IPO Share Price Increased +151.1% on Day 1 Trading (20/5/26: IPO Price: MYR 0.88, Closing MYR 2.21) to $1 Billion Market Value & Raised $89 Million in IPO, Founded in 2019 by Swee Kiang (SK) Fong & Chee Hak Teh | Caproasia）",
+    "published": "2026-05-21T00:00:00.000Z",
+    "addedAt": "2026-05-22T06:05:00+08:00"
+  },
+  {
+    "url": "https://www.blackstone.com/news/press/the-ai-native-enterprise-services-firm-backed-by-anthropic-blackstone-and-hellman-friedman-announces-acquisition-of-fractional-ai/",
+    "title": "由Anthropic、Blackstone和Hellman & Friedman支持的AI原生企业服务公司宣布收购Fractional AI（The AI-Native Enterprise Services Firm Backed by Anthropic, Blackstone, and Hellman & Friedman Announces Acquisition of Fractional AI - Blackstone）",
+    "published": "2026-05-21T00:00:00.000Z",
+    "addedAt": "2026-05-22T06:05:00+08:00"
+  },
+  {
+    "url": "https://www.einpresswire.com/article/914004481/insphero-accelerates-global-growth-and-us-expansion-with-acquisition-of-phenovista-biosciences",
+    "title": "InSphero通过收购PhenoVista Biosciences加速全球增长和美国市场扩张（InSphero Accelerates Global Growth and US Expansion with Acquisition of PhenoVista Biosciences）",
+    "published": "2026-05-21T00:00:00.000Z",
+    "addedAt": "2026-05-22T06:05:00+08:00"
+  },
+  {
+    "url": "https://www.caproasia.com/2026/05/21/china-industrial-robot-company-robotphoenix-intelligent-technology-hong-kong-ipo-share-price-increased-76-2-on-day-1-trading-18-5-26-ipo-price-hkd-30-50-closing-hkd-53-75-to-953-million-market/",
+    "title": "中国工业机器人公司Robotphoenix Intelligent Technology香港IPO首日股价上涨76.2%（18/5/26：IPO发行价30.50港元，收盘价53.75港元），市值达9.53亿美元，IPO募资9600万美元，由张赛于2012年创立（China Industrial Robot Company Robotphoenix Intelligent Technology Hong Kong IPO Share Price Increased +76.2% on Day 1 Trading (18/5/26: IPO Price: HKD 30.50, Closing HKD 53.75) to $953 Million Market Value & Raised $96 Million in IPO, Founded in 2012 by Zhang Sai | Caproasia）",
+    "published": "2026-05-21T00:00:00.000Z",
+    "addedAt": "2026-05-22T06:05:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/amd-posts-hdmi-2-1-frl-dsc-patches-to-linux-kernel-keeping-frl-will-disabled-by-default/",
+    "title": "AMD向Linux内核提交HDMI 2.1 FRL和DSC补丁，但默认保持FRL禁用（AMD Posts HDMI 2.1 FRL & DSC Patches To Linux Kernel, Keeping FRL Disabled By Default）",
+    "published": "Thu, 21 May 2026 12:37:51 +0000",
+    "addedAt": "2026-05-22T06:05:00+08:00"
+  },
+  {
+    "url": "https://www.21jingji.com/article/20260521/herald/eef537587f8992f571130ce9b7c683a9.html",
+    "title": "新动向！AI虹吸成熟产能，国产晶圆代工开启提价扩产周期",
+    "published": "19小时前",
+    "addedAt": "2026-05-22T06:05:00+08:00"
+  },
+  {
+    "url": "https://cj.sina.com.cn/articles/view/7651844612/1c815e20402001v9le",
+    "title": "全面超预期！英伟达数据中心业务持续高增，机构：创业板中期仍具备上行空间",
+    "published": "19小时前",
+    "addedAt": "2026-05-22T06:05:00+08:00"
+  },
+  {
+    "url": "https://www.163.com/dy/article/KTF3T16A05118HA4.html",
+    "title": "智象未来超两千亿参数图像大模型HiDream-O1-Image-Pro发布，融资持续提速",
+    "published": "2026-05-21T00:00:00.000Z",
+    "addedAt": "2026-05-22T06:05:00+08:00"
+  },
+  {
+    "url": "https://www.techtimes.com/articles/316921/20260520/tsmc-arizona-fab-posts-514m-year-one-profit-q1-2026-earnings-surpass-full-2025-figure.htm",
+    "title": "台积电亚利桑那晶圆厂首年利润达5.14亿美元：2026年第一季度收益超过2025年全年（TSMC Arizona Fab Posts $514M Year-One Profit: Q1 2026 Earnings Surpass Full 2025 Figure）",
+    "published": "2026-05-20T00:00:00.000Z",
+    "addedAt": "2026-05-22T06:05:00+08:00"
+  },
+  {
+    "url": "https://finance.biggo.com/news/dIukSZ4BYH_ypPqOi2lg",
+    "title": "AMD在台积电2纳米制程上加速Venice CPU量产，承诺向台湾AI封装投资100亿美元（AMD Ramps Venice CPU on TSMC 2nm, Pledges $10 Billion for Taiwan AI Packaging — BigGo Finance）",
+    "published": "2026-05-21T00:00:00.000Z",
+    "addedAt": "2026-05-22T06:05:00+08:00"
+  },
+  {
+    "url": "https://finance.biggo.com/news/fAkHRZ4BrAZSr0oSShap",
+    "title": "AMD苏姿丰切入台湾AI供应链：据报与台积电魏哲家密谈，在CPU+GPU双线攻势中寻求2nm产能（AMD's Su Elbows Into Taiwan AI Supply Chain: Secret Talks with TSMC's Wei Reportedly Seek 2nm Capacity in CPU+GPU Dual-Front Offensive — BigGo Finance）",
+    "published": "2026-05-20T00:00:00.000Z",
+    "addedAt": "2026-05-22T06:05:00+08:00"
+  },
+  {
+    "url": "https://finance.biggo.com/news/a2EuSp4BDXrLZJaAN9lt",
+    "title": "AMD向台湾投资超100亿美元，Anthropic首次实现季度盈利改写AI烧钱叙事（AMD Pours Over $10 Billion into Taiwan, Anthropic's First-Ever Quarterly Profit Rewrites the AI Cash-Burn Narrative — BigGo Finance）",
+    "published": "2026-05-21T00:00:00.000Z",
+    "addedAt": "2026-05-22T06:05:00+08:00"
+  },
+  {
+    "url": "https://www.gizchina.com/xiaomi-phones/xiaomi-17-max-is-official-8000mah-200mp-leica-starting-at-4299-yuan-594",
+    "title": "小米17 Max正式发布：8000mAh电池与200MP徕卡镜头，起售价4299元（约594美元）（Xiaomi 17 Max Is Official — 8,000mAh, 200MP Leica, Starting at 4,299 Yuan (~$594)）",
+    "published": "2026-05-21T00:00:00.000Z",
+    "addedAt": "2026-05-22T06:05:00+08:00"
+  },
+  {
+    "url": "https://mediabulletins.com/technology/caspia-technologies-significantly-expands-agentic-silicon-security-verification-with-new-release-of-codax/",
+    "title": "Caspia Technologies发布新版本CODAx，大幅扩展智能体硅芯片安全验证（Caspia Technologies Significantly Expands Agentic Silicon Security Verification with New Release of CODAx）",
+    "published": "2026-05-20T00:00:00.000Z",
+    "addedAt": "2026-05-22T06:05:00+08:00"
+  },
+  {
+    "url": "https://www.cnx-software.com/2026/05/20/coralboard-features-synaptics-astra-sl2619-edge-ai-soc-supports-google-gemma-3-inference/",
+    "title": "Coralboard搭载Synaptics Astra SL2619边缘AI SoC，支持Google Gemma 3推理（Coralboard features Synaptics Astra SL2619 Edge AI SoC, supports Google Gemma 3 inference - CNX Software）",
+    "published": "2026-05-20T00:00:00.000Z",
+    "addedAt": "2026-05-22T06:05:00+08:00"
   }
 ]
