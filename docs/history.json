@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://thetechrevolutionist.com/2026/04/cadence-and-nvidia-double-down-on-ai-driven-engineering-and-its-bigger-than-just-chips.html",
-    "title": "Cadence与NVIDIA深化AI驱动工程设计合作",
-    "published": "2026-04-29T12:00:00+08:00",
-    "addedAt": "2026-05-01T06:15:42+08:00"
-  },
-  {
-    "url": "https://www.jonpeddie.com/news/risc-v-becomes-ai-hardwares-open-foundation/",
-    "title": "RISC-V成为AI硬件的开放基础架构",
-    "published": "2026-04-29T14:00:00+08:00",
-    "addedAt": "2026-05-01T06:15:42+08:00"
-  },
-  {
-    "url": "https://www.newelectronics.co.uk/content/news/synopsys-and-tsmc-deepen-collaboration-on-advanced-ai-semiconductor-design",
-    "title": "Synopsys与台积电深化AI半导体设计合作",
-    "published": "2026-04-29T10:00:00+08:00",
-    "addedAt": "2026-05-01T06:15:42+08:00"
-  },
-  {
-    "url": "https://abit.ee/en/processors/tsmc-cowos-hbm5e-roadmap-2029-ai-chip-packaging-a13-semiconductors-en",
-    "title": "台积电公布CoWoS路线图至2029：48倍算力跃升与24层HBM5E堆叠",
-    "published": "2026-04-29T09:00:00+08:00",
-    "addedAt": "2026-05-01T06:15:42+08:00"
-  },
-  {
-    "url": "https://www.taipeitimes.com/News/biz/archives/2026/04/30/2003856469",
-    "title": "日月光集团今年预算上调20%",
-    "published": "2026-04-30T08:00:00+08:00",
-    "addedAt": "2026-05-01T06:15:42+08:00"
-  },
-  {
     "url": "https://wccftech.com/intel-backed-glass-substrates-tech-will-be-commercilization-ready-within-three-years/",
     "title": "英特尔支持的\"玻璃基板\"技术将在2年内实现商业化",
     "published": "2026-04-29T11:00:00+08:00",
@@ -2998,5 +2968,35 @@
     "title": "Coralboard搭载Synaptics Astra SL2619边缘AI SoC，支持Google Gemma 3推理（Coralboard features Synaptics Astra SL2619 Edge AI SoC, supports Google Gemma 3 inference - CNX Software）",
     "published": "2026-05-20T00:00:00.000Z",
     "addedAt": "2026-05-22T06:05:00+08:00"
+  },
+  {
+    "url": "https://www.investing.com/analysis/the-trilliondollar-ipo-test-spacex-and-openai-face-public-markets-200680688",
+    "title": "万亿美元IPO考验：SpaceX和OpenAI直面公开市场（The Trillion-Dollar IPO Test: SpaceX and OpenAI Face Public Markets | Investing.com）",
+    "published": "",
+    "addedAt": "2026-05-22T13:02:00+08:00"
+  },
+  {
+    "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261918087-spacex-ipo-sec-musk-ai-connectivity-interest-billion-nasdaq-tradingkey",
+    "title": "SpaceX正式向SEC提交文件：史上最大IPO招股书拆解，星链贡献70%营收，研发支出激增125%（SpaceX Officially Files With SEC. Breakdown of the Largest IPO Prospectus in History: Starlink Accounts for 70% of Revenue, R&D Expenses Surge 125%）",
+    "published": "",
+    "addedAt": "2026-05-22T13:02:00+08:00"
+  },
+  {
+    "url": "https://www.coindesk.com/markets/2026/05/21/binance-launches-spacex-pre-ipo-perps",
+    "title": "币安推出SpaceX Pre-IPO永续合约，押注2万亿估值（Binance launches SpaceX pre-IPO perps amid $2 trillion valuation bets）",
+    "published": "",
+    "addedAt": "2026-05-22T13:02:00+08:00"
+  },
+  {
+    "url": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-nvidia-stock-falls-after-earnings-spacex-files-ipo-details-111103242.html",
+    "title": "今日科技股：英伟达财报后股价下跌，SpaceX提交IPO细节（Tech stocks today: Nvidia stock falls after earnings, SpaceX files IPO details）",
+    "published": "",
+    "addedAt": "2026-05-22T13:02:00+08:00"
+  },
+  {
+    "url": "https://www.theweek.in/theweek/cover/2026/05/16/the-techade-begins-how-india-is-building-its-semiconductor-future.html",
+    "title": "“科技十年”开启：印度如何建设其半导体未来（The ‘Techade’ begins: How India is building its semiconductor future- The Week）",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-22T13:02:00+08:00"
   }
 ]
