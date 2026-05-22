@@ -1,6 +1,6 @@
 {
-  "version": "v20260521-2003",
-  "generatedAt": "2026-05-21T20:03:00+08:00",
+  "version": "v20260522-2003",
+  "generatedAt": "2026-05-22T20:03:00+08:00",
   "period": "evening",
   "commit": "",
   "glossary_list": [
@@ -20,34 +20,49 @@
       "category": "封装"
     },
     {
-      "term": "创业板第四套标准",
-      "desc": "深圳证券交易所创业板上市规则中针对未盈利企业的特殊上市标准，强调研发投入和核心技术",
-      "category": "资本市场"
-    },
-    {
       "term": "问界M9",
       "desc": "华为与赛力斯联合打造的高端智能SUV车型",
-      "category": "终端产品"
+      "category": "整车"
     },
     {
-      "term": "华为乾崑智驾",
-      "desc": "华为推出的高阶智能驾驶解决方案品牌，涵盖芯片、算法和传感器",
-      "category": "汽车电子"
+      "term": "车规级芯片",
+      "desc": "满足汽车电子严苛环境要求的半导体芯片",
+      "category": "芯片"
     },
     {
-      "term": "预售价",
-      "desc": "新车正式上市前公布的预期销售价格，通常作为市场接受度的测试",
-      "category": "市场"
+      "term": "BOM",
+      "desc": "物料清单，产品所有零部件及成本的清单",
+      "category": "制造"
     },
     {
-      "term": "PQC",
-      "desc": "后量子密码，能够抵抗量子计算机攻击的新型密码算法",
-      "category": "安全/IP"
+      "term": "SoC",
+      "desc": "系统级芯片，集成完整计算系统的微型芯片",
+      "category": "芯片"
     },
     {
-      "term": "Embedded World",
-      "desc": "全球领先的嵌入式系统行业展览会",
-      "category": "展会"
+      "term": "Tier 1",
+      "desc": "一级供应商，直接向整车厂供货的零部件企业",
+      "category": "供应链"
+    },
+    {
+      "term": "Chip Export Controls",
+      "desc": "芯片出口管制，限制特定半导体产品或技术向特定国家出口的政策",
+      "category": "政策"
+    },
+    {
+      "term": "AI Safety",
+      "desc": "人工智能安全，确保AI系统可靠、可控且不造成危害的领域",
+      "category": "技术"
+    },
+    {
+      "term": "IPO",
+      "desc": "首次公开募股，企业首次向公众投资者发行股票",
+      "category": "金融"
+    },
+    {
+      "term": "OpenAI",
+      "desc": "美国人工智能研究公司，ChatGPT的开发者",
+      "category": "企业"
     }
   ],
   "topic_pulse": [
@@ -56,88 +71,59 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS及先进封装的讨论热度明显降温，主要因产能扩张预期逐步落地，短期供需紧张情绪缓解。投资者关注焦点从产能紧缺转向实际利用率与长周期订单健康度。"
+      "summary": "近期社区对CoWoS及先进封装的讨论热度有所降温，主要因产能扩张预期逐步落地，短期供需紧张情绪缓解。业界关注点正从产能紧缺转向良率提升与成本优化。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度回落，随着主要厂商产能规划明确，市场对HBM短缺的恐慌情绪消退。讨论重心转向下一代HBM4的技术规格与成本优化。"
+      "summary": "HBM与AI存储话题热度下降，反映市场对短期HBM缺货恐慌的消退。社区讨论焦点暂无重大技术突破，情绪趋于平稳观望。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中国Fab与先进制程讨论降温，短期内缺乏重大技术突破或政策刺激事件。社区情绪趋于观望，重点评估现有产线良率提升与成熟制程的盈利能力。"
+      "summary": "国内晶圆厂与先进制程讨论热度回落，缺乏近期重大技术突破或政策刺激。社区情绪相对平稳，主要在等待下半年产能实际爬坡数据验证。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP热度下降，前期政策利好与订单预期已被充分消化。社区讨论趋于理性，开始关注国产工具在实际高端芯片流片中的验证情况与真实市占率。"
+      "summary": "国产EDA/IP话题降温，近期缺乏重磅产品发布或替代突破消息。社区讨论暂处空窗期，业界正消化前期政策利好，关注实际落地案例。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT板块关注度走低，随着先进封装产能紧张缓解，传统封测的议价能力受到挑战。社区讨论聚焦于OSAT向先进封装转型的资本开支回报周期。"
+      "summary": "封测OSAT板块热度下降，传统封装需求平稳，先进封装产能紧缺议题已被充分消化。社区讨论暂无新热点，情绪偏向周期性盘整。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度减退，近期无新增重大制裁清单出台，市场进入政策消化期。讨论重点转向企业合规应对的常态化及存量设备的维保替代方案。"
+      "summary": "出口管制话题热度降温，尽管中美AI对话提及芯片管制，但社区尚未形成大规模讨论。市场对新增制裁的敏感度边际递减，情绪趋于疲劳观望。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与英伟达话题降温，市场对短期爆款产品的兴奋度减弱，进入业绩验证期。社区讨论转向英伟达下一代架构的落地节奏及AI推理侧芯片的竞争格局。"
+      "summary": "英伟达与AI芯片讨论热度回落，缺乏新一代产品发布等短期催化剂。社区情绪从狂热逐渐回归理性，开始关注算力实际部署与投资回报率。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化热度下滑，核心赛道国产替代逻辑已成为市场共识，缺乏短期催化剂。讨论重心转移至国产设备在先进制程的验证进度及零部件的深层国产化。"
+      "summary": "设备与材料国产化讨论热度下降，近期无核心零部件突破性进展引发热议。社区处于政策与市场消息的平淡期，关注重点转向长周期验证进程。"
     }
   ],
   "items": [
-    {
-      "title": "创业板第四套标准首单IPO落地——A股重要资讯汇总与点评（2026年5月20日）",
-      "url": "https://caifuhao.eastmoney.com/news/20260520223736962560470?from=guba&name=5Lit6Iqv5Zu96ZmF5ZCn&gubaurl=aHR0cDovL2d1YmFmMTAuZWFzdG1vbmV5LmNvbS9saXN0LDY4ODk4MS5odG1s",
-      "description": "东方财富网旗下财经自媒体平台“财富号”，于2017年3月1日上线，汇聚权威、全面、专业的财经自媒体，为中国广大投资者提供个性化、专业化的财经资讯和一站式金融理财服务。",
-      "published": "21小时前",
-      "source": "财富号",
-      "source_type": "Serper",
-      "lang": "zh",
-      "tags": [],
-      "insights": [
-        "创业板第四套标准落地，意味着A股对尚未盈利但具备核心技术的半导体/EDA/IP等硬科技企业敞开大门，融资渠道拓宽。",
-        "首单IPO具有标杆效应，将加速同类半导体初创企业的上市进程，提振一级市场投资信心。"
-      ],
-      "actions": [
-        "尚未盈利但拥有核心IP/技术的半导体初创企业应尽早评估是否符合创业板第四套标准，启动上市规划。",
-        "投资机构可重点关注符合该标准的EDA、芯片设计等赛道，把握上市红利期。"
-      ],
-      "glossary": [
-        {
-          "term": "创业板第四套标准",
-          "desc": "深圳证券交易所创业板上市规则中针对未盈利企业的特殊上市标准，强调研发投入和核心技术",
-          "category": "资本市场"
-        }
-      ],
-      "region": "domestic",
-      "summary": "创业板第四套标准（针对未盈利硬科技企业）的首单IPO正式落地，标志着A股对硬科技企业的融资支持进一步深化。",
-      "tag_category": "EDA/IP",
-      "title_en": "创业板第四套标准首单IPO落地——A股重要资讯汇总与点评（2026年5月20日）"
-    },
     {
       "title": "全新一代问界M9将于5月27日上市",
       "url": "https://chejiahao.autohome.com.cn/info/25525010",
@@ -148,53 +134,29 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "问界M9的迭代上市反映出高端智能网联汽车对大算力芯片、智能驾驶SoC及车规级存储的需求持续升级。",
-        "华为深度赋能的车型持续推新，将进一步拉动华为智驾芯片及配套供应链的订单增长。"
+        "问界M9的持续迭代反映了国内高端智能电动车市场竞争加剧，车企通过快速更新维持热度。",
+        "搭载华为智驾与座舱系统，将进一步拉动国内车规级芯片及域控制器供应链的需求。"
       ],
       "actions": [
-        "汽车芯片供应商需提前备货，确保问界M9量产所需的智驾SoC、传感器及车规级MCU的稳定供应。",
-        "关注华为系车型的销量表现，以此作为评估国内智能座舱和自动驾驶芯片景气度的重要风向标。"
+        "车规级芯片供应商应关注问界M9的智能驾驶和座舱配置清单，提前备货相关SoC和传感器芯片。",
+        "Tier 1厂商需加强与华为智选车业务的对接，确保新车型量产阶段的零部件交付稳定。"
       ],
       "glossary": [
         {
           "term": "问界M9",
           "desc": "华为与赛力斯联合打造的高端智能SUV车型",
-          "category": "终端产品"
+          "category": "整车"
+        },
+        {
+          "term": "车规级芯片",
+          "desc": "满足汽车电子严苛环境要求的半导体芯片",
+          "category": "芯片"
         }
       ],
       "region": "domestic",
-      "summary": "全新一代问界M9正式宣布将于5月27日上市，作为高端智能SUV，其智能化配置和芯片需求备受关注。",
+      "summary": "全新一代问界M9宣布将于5月27日正式上市，标志着华为与赛力斯合作的高端智能SUV迎来新迭代。",
       "tag_category": "综合",
       "title_en": "全新一代问界M9将于5月27日上市_车家号_发现车生活_汽车之家"
-    },
-    {
-      "title": "岚图泰山X8将于5月22日上市，预售价30.29万元起，搭载华为乾崑智驾",
-      "url": "https://www.autohome.com.cn/news/202605/1314402.html",
-      "description": "【图】岚图泰山X8将于5月22日上市 预售价30.29万元起 搭载华为乾崑智驾_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n问编辑\n\n当前位置：\n\n岚图泰山X8将于5月22日上市 预售价30.29万元起 搭载华为乾崑智驾\n\n之家原创车闻\n\n原创 · 0浏览·2026-05-21 00:00 · 北京\n\n关注\n\n外观方面，岚图泰山X8延续泰山的设计语言，前脸配备全新样式的主动开合式发光格栅，与车身同色，两侧提供分体式车灯，并引入DLP智能投影大灯，",
-      "published": "2026-05-22T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "华为乾崑智驾系统向更多车企（如岚图）渗透，标志着国产高阶自动驾驶解决方案正从单一品牌走向全行业生态。",
-        "智驾方案的普及将直接带动国产自动驾驶芯片、激光雷达及高速互联芯片的规模化出货。"
-      ],
-      "actions": [
-        "供应链企业应积极对接华为乾崑智驾生态圈，争取进入其核心零部件（如传感器、域控制器）的供应商名录。",
-        "关注30万级车型市场智驾配置的渗透率，评估中端车型对车规级芯片算力需求的变化。"
-      ],
-      "glossary": [
-        {
-          "term": "华为乾崑智驾",
-          "desc": "华为推出的高阶智能驾驶解决方案品牌，涵盖芯片、算法和传感器",
-          "category": "汽车电子"
-        }
-      ],
-      "region": "domestic",
-      "summary": "岚图泰山X8即将上市，预售价30.29万元起，核心亮点是搭载了华为乾崑智驾系统，凸显国产智驾方案的普及趋势。",
-      "tag_category": "综合",
-      "title_en": "【图】岚图泰山X8将于5月22日上市 预售价30.29万元起 搭载华为乾崑智驾_汽车之家"
     },
     {
       "title": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起",
@@ -206,68 +168,135 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "50万级高端车型的迭代，对高算力域控制器、高端座舱芯片及先进封装需求拉动显著。",
-        "高端车型往往率先搭载最新一代芯片平台，其销量是检验新一代车规级芯片商业化落地的试金石。"
+        "50万级别的预售价表明高端新能源车市场仍有强劲的溢价能力，智能化配置是核心卖点。",
+        "高端车型的利润空间更大，有利于支撑其内部高算力芯片及先进传感器的成本摊销。"
       ],
       "actions": [
-        "针对50万级高端车型的芯片供应链，需确保先进制程车规芯片的产能优先分配与良率稳定。",
-        "跟踪问界M9系列上市后的实际交付量，验证高端智能车芯片市场的真实需求弹性。"
+        "供应链企业需评估该价位段车型的BOM成本结构，重点锁定高价值的车规芯片订单。",
+        "关注该车型上市后的实际销量表现，以此作为高端智能车规芯片需求预测的风向标。"
       ],
       "glossary": [
         {
-          "term": "预售价",
-          "desc": "新车正式上市前公布的预期销售价格，通常作为市场接受度的测试",
-          "category": "市场"
+          "term": "BOM",
+          "desc": "物料清单，产品所有零部件及成本的清单",
+          "category": "制造"
         }
       ],
       "region": "domestic",
-      "summary": "全新一代问界M9系列确认5月27日上市，预售价49.98万元起，高端定位将带动高规格汽车芯片的消耗。",
+      "summary": "全新一代问界M9系列定档5月27日上市，预售价定为49.98万元起，定位高端豪华市场。",
       "tag_category": "综合",
       "title_en": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起_车家号_发现车生活_汽车之家"
     },
     {
-      "title": "PQShield在2026年嵌入式世界展览会上发布超小型后量子密码（PQC）嵌入式安全突破（PQShield unveils ultra-small PQC embedded security breakthroughs at Embedded World 2026）",
-      "url": "https://semiwiki.com/security/pqshield/367520-pqshield-unveils-ultra-small-pqc-embedded-security-breakthroughs-at-embedded-world-2026/",
-      "description": "<p>As the threat of quantum computing to modern cybersecurity becomes increasingly real, the technology industry is accelerating efforts to develop cryptographic systems capable of resisting quantum attacks. One of the most significant developments in this field was presented at Embedded World 2026 ",
-      "published": "Tue, 19 May 2026 17:00:29 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市",
+      "url": "https://chejiahao.autohome.com.cn/info/25397889",
+      "description": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市\n\n酱酱侃车\n\n车家号·0浏览·2026-05-01 12:27 · 北京\n\n北京车展即将落下帷幕，不少新车已经进入倒计时阶段。想买车等不到年底？这个5月，一波重磅车型就要扎堆上市了。统计下来，光5月份就有10多款新车将陆续与消费者见面，涵盖了全",
+      "published": "2026-05-27T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "随着量子计算威胁变得日益现实，后量子密码（PQC）在嵌入式系统中的商业化正在加速，芯片设计需提前整合PQC硬件加速。",
-        "超小型PQC方案的推出意味着PQC正从理论标准走向资源受限的边缘/IoT设备落地，对芯片面积和功耗提出了极高要求。"
+        "头部新能源车企集中推新，意味着下半年国内智能电动车销量争夺战提前开启，整车产能将快速爬坡。",
+        "多款高端智能车型同步上市，将显著推高对大算力智驾芯片、智能座舱SoC及功率半导体的短期采购需求。"
       ],
       "actions": [
-        "芯片设计公司应立即评估现有安全IP模块向PQC升级的路径，避免未来产品面临合规和安全性淘汰风险。",
-        "关注PQShield等PQC IP供应商的合作机会，在下一代IoT/边缘AI芯片规划中预留PQC算法的硬件加速接口。"
+        "芯片分销商及原厂需立即核实这几款新车的芯片选型方案，锁定下半年产能分配。",
+        "功率器件和MCU供应商应提前与车企及Tier 1沟通备货计划，防范因新车扎堆上市导致的结构性缺货。"
       ],
       "glossary": [
         {
-          "term": "PQC",
-          "desc": "后量子密码，能够抵抗量子计算机攻击的新型密码算法",
-          "category": "安全/IP"
+          "term": "SoC",
+          "desc": "系统级芯片，集成完整计算系统的微型芯片",
+          "category": "芯片"
         },
         {
-          "term": "Embedded World",
-          "desc": "全球领先的嵌入式系统行业展览会",
-          "category": "展会"
+          "term": "Tier 1",
+          "desc": "一级供应商，直接向整车厂供货的零部件企业",
+          "category": "供应链"
+        }
+      ],
+      "region": "domestic",
+      "summary": "5月份国内新能源车市场迎来新车上市潮，理想L9、蔚来ES9及小米YU7 GT等重磅车型集中发布。",
+      "tag_category": "综合",
+      "title_en": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市_车家号_发现车生活_汽车之家"
+    },
+    {
+      "title": "芯片出口管制如何可能成为中美AI安全对话的考量因素（How Chip Export Controls Might Factor Into the U.S.-China AI Safety Dialogue - Domino Theory）",
+      "url": "https://dominotheory.com/how-chip-export-controls-might-factor-into-the-u-s-china-ai-safety-dialogue/",
+      "description": "China announced on Tuesday that President Donald Trump and China’s leader, Xi Jinping (習近平), will hold a dialogue on artificial intelligence, confirming Treasury Secretary Scott Bessent’s comment to CNBC on the sidelines of the Trump-Xi summit in Beijing last week.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI安全议题与芯片出口管制挂钩，表明半导体技术限制已从单纯的贸易战升级为涉及国家安全与科技伦理的博弈。",
+        "对话若涉及管制放松的探讨，可能为受限AI芯片及EDA软件的合规出口带来短期喘息空间，但长期遏制趋势难改。"
+      ],
+      "actions": [
+        "受制裁影响的国内芯片设计公司需密切关注此次对话释放的政策信号，评估是否出现合规采购窗口期。",
+        "出口合规团队应重新审视当前的供应链风险，提前制定应对管制政策微调的预案。"
+      ],
+      "glossary": [
+        {
+          "term": "Chip Export Controls",
+          "desc": "芯片出口管制，限制特定半导体产品或技术向特定国家出口的政策",
+          "category": "政策"
+        },
+        {
+          "term": "AI Safety",
+          "desc": "人工智能安全，确保AI系统可靠、可控且不造成危害的领域",
+          "category": "技术"
         }
       ],
       "region": "overseas",
-      "summary": "PQShield在2026年嵌入式世界展览会上展示了超小型后量子密码（PQC）嵌入式安全技术突破，应对量子计算对现代网络安全日益真实的威胁。",
-      "tag_category": "综合",
-      "title_en": "PQShield unveils ultra-small PQC embedded security breakthroughs at Embedded World 2026"
+      "summary": "中美确认将就人工智能安全展开对话，芯片出口管制问题预计将成为此次高层沟通的重要考量因素之一。",
+      "tag_category": "EDA/IP",
+      "title_en": "How Chip Export Controls Might Factor Into the U.S.-China AI Safety Dialogue - Domino Theory"
+    },
+    {
+      "title": "万亿美元IPO考验：SpaceX和OpenAI面临公开市场（The Trillion-Dollar IPO Test: SpaceX and OpenAI Face Public Markets | Investing.com）",
+      "url": "https://www.investing.com/analysis/the-trilliondollar-ipo-test-spacex-and-openai-face-public-markets-200680688",
+      "description": "Market Analysis by covering: . Read 's Market Analysis on Investing.com",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "OpenAI若启动超大规模IPO，将极大刺激全球AI算力基础设施投资，对GPU、HBM及先进封装的需求预期将再次重估。",
+        "巨型科技公司的上市将吸引更多资金流入AI及航天半导体细分赛道，加速相关芯片初创企业的融资与研发。"
+      ],
+      "actions": [
+        "AI芯片及HBM供应链企业应将OpenAI的IPO进程视为算力需求长周期的风向标，提前锁定长单产能。",
+        "投资机构与供应链厂商需关注SpaceX及OpenAI的供应链披露，挖掘潜在的半导体增量市场机会。"
+      ],
+      "glossary": [
+        {
+          "term": "IPO",
+          "desc": "首次公开募股，企业首次向公众投资者发行股票",
+          "category": "金融"
+        },
+        {
+          "term": "OpenAI",
+          "desc": "美国人工智能研究公司，ChatGPT的开发者",
+          "category": "企业"
+        }
+      ],
+      "region": "overseas",
+      "summary": "SpaceX和OpenAI正面临万亿美元级别的IPO考验，这两家科技巨头即将迎接公开资本市场的检验。",
+      "tag_category": "EDA/IP",
+      "title_en": "The Trillion-Dollar IPO Test: SpaceX and OpenAI Face Public Markets | Investing.com"
     }
   ],
   "stats": {
-    "total_raw": 101,
-    "after_dedup": 85,
+    "total_raw": 100,
+    "after_dedup": 89,
     "sources": {
-      "Serper": 1,
-      "Exa": 10,
-      "RSS": 64,
-      "Brave": 10
+      "Exa": 11,
+      "RSS": 63,
+      "Brave": 15
     }
   },
   "code_version": "",

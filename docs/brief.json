@@ -1,7 +1,7 @@
 {
-  "version": "v20260522-1302",
-  "generatedAt": "2026-05-22T13:02:00+08:00",
-  "period": "midday",
+  "version": "v20260522-2003",
+  "generatedAt": "2026-05-22T20:03:00+08:00",
+  "period": "evening",
   "commit": "",
   "glossary_list": [
     {
@@ -20,34 +20,49 @@
       "category": "封装"
     },
     {
-      "term": "IPO",
-      "desc": "首次公开募股，指企业首次向公众投资者出售股票筹集资金的过程",
-      "category": "金融"
+      "term": "问界M9",
+      "desc": "华为与赛力斯联合打造的高端智能SUV车型",
+      "category": "整车"
     },
     {
-      "term": "SEC",
-      "desc": "美国证券交易委员会，负责监管联邦证券法的执行并保护投资者利益",
-      "category": "金融"
+      "term": "车规级芯片",
+      "desc": "满足汽车电子严苛环境要求的半导体芯片",
+      "category": "芯片"
     },
     {
-      "term": "Prospectus",
-      "desc": "招股说明书，企业向投资者披露公司财务及运营信息的法定文件",
-      "category": "金融"
+      "term": "BOM",
+      "desc": "物料清单，产品所有零部件及成本的清单",
+      "category": "制造"
     },
     {
-      "term": "Pre-IPO perps",
-      "desc": "Pre-IPO永续合约，指在未上市公司正式IPO前交易的永续期货衍生品",
-      "category": "金融"
+      "term": "SoC",
+      "desc": "系统级芯片，集成完整计算系统的微型芯片",
+      "category": "芯片"
     },
     {
-      "term": "Earnings",
-      "desc": "财报，上市公司定期发布的财务业绩报告",
-      "category": "金融"
+      "term": "Tier 1",
+      "desc": "一级供应商，直接向整车厂供货的零部件企业",
+      "category": "供应链"
     },
     {
-      "term": "Techade",
-      "desc": "科技十年，指印度政府提出的聚焦科技与半导体发展的十年战略规划",
+      "term": "Chip Export Controls",
+      "desc": "芯片出口管制，限制特定半导体产品或技术向特定国家出口的政策",
       "category": "政策"
+    },
+    {
+      "term": "AI Safety",
+      "desc": "人工智能安全，确保AI系统可靠、可控且不造成危害的领域",
+      "category": "技术"
+    },
+    {
+      "term": "IPO",
+      "desc": "首次公开募股，企业首次向公众投资者发行股票",
+      "category": "金融"
+    },
+    {
+      "term": "OpenAI",
+      "desc": "美国人工智能研究公司，ChatGPT的开发者",
+      "category": "企业"
     }
   ],
   "topic_pulse": [
@@ -56,61 +71,192 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS及先进封装的讨论热度明显降温，主要因英伟达财报发布后市场进入观望期。投资者对短期产能瓶颈的担忧有所缓解，转向关注长期供需平衡。"
+      "summary": "近期社区对CoWoS及先进封装的讨论热度有所降温，主要因产能扩张预期逐步落地，短期供需紧张情绪缓解。业界关注点正从产能紧缺转向良率提升与成本优化。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "随着AI芯片板块整体降温，HBM及AI存储的社区讨论热度随之下降。市场焦点从HBM的紧缺传闻转向实际订单落地与价格走势的验证。"
+      "summary": "HBM与AI存储话题热度下降，反映市场对短期HBM缺货恐慌的消退。社区讨论焦点暂无重大技术突破，情绪趋于平稳观望。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国内晶圆厂与先进制程话题热度回落，社区缺乏新的重大突破性消息刺激。讨论重心从技术突破转向对成熟制程产能利用率及盈利能力的务实评估。"
+      "summary": "国内晶圆厂与先进制程讨论热度回落，缺乏近期重大技术突破或政策刺激。社区情绪相对平稳，主要在等待下半年产能实际爬坡数据验证。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP板块情绪降温，近期未见重磅政策或产品发布。社区讨论趋于平淡，主要聚焦于现有工具在特定细分领域的应用验证进展。"
+      "summary": "国产EDA/IP话题降温，近期缺乏重磅产品发布或替代突破消息。社区讨论暂处空窗期，业界正消化前期政策利好，关注实际落地案例。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT话题热度下降，市场对先进封装的狂热情绪有所退潮。社区讨论暂无新热点，主要围绕传统封测的产能复苏与价格竞争展开。"
+      "summary": "封测OSAT板块热度下降，传统封装需求平稳，先进封装产能紧缺议题已被充分消化。社区讨论暂无新热点，情绪偏向周期性盘整。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度降温，近期无新增重大禁令出台。社区情绪从焦虑转为常态化应对，重点讨论现有规则下的合规路径与供应链调整。"
+      "summary": "出口管制话题热度降温，尽管中美AI对话提及芯片管制，但社区尚未形成大规模讨论。市场对新增制裁的敏感度边际递减，情绪趋于疲劳观望。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "英伟达及AI芯片话题热度显著降温，财报发布后的股价下跌引发短期获利盘出逃。社区讨论从单边看涨转为审视AI算力需求的真实落地情况与估值合理性。"
+      "summary": "英伟达与AI芯片讨论热度回落，缺乏新一代产品发布等短期催化剂。社区情绪从狂热逐渐回归理性，开始关注算力实际部署与投资回报率。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "半导体设备与材料国产化讨论热度回落，缺乏新的大规模替代订单刺激。社区关注点转向国产设备在量产线上的实际良率表现与长期稳定性验证。"
+      "summary": "设备与材料国产化讨论热度下降，近期无核心零部件突破性进展引发热议。社区处于政策与市场消息的平淡期，关注重点转向长周期验证进程。"
     }
   ],
   "items": [
     {
-      "title": "万亿美元IPO考验：SpaceX和OpenAI直面公开市场（The Trillion-Dollar IPO Test: SpaceX and OpenAI Face Public Markets | Investing.com）",
+      "title": "全新一代问界M9将于5月27日上市",
+      "url": "https://chejiahao.autohome.com.cn/info/25525010",
+      "description": "全新一代问界M9将于5月27日上市_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n全新一代问界M9将于5月27日上市\n\n盖世汽车\n\n车家号·0浏览·2026-05-20 09:50 · 上海\n\n盖世汽车获悉，全新一代问界M9(参数|询价)将于5月27日正式上市。\n\n在此之前，新款问界M9已于4月22日正式亮相并同步开启预售，其中问界M9预售价格49.98万元起，问界M9 Ultimate领世加长版预售价格66.98",
+      "published": "2026-05-27T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "问界M9的持续迭代反映了国内高端智能电动车市场竞争加剧，车企通过快速更新维持热度。",
+        "搭载华为智驾与座舱系统，将进一步拉动国内车规级芯片及域控制器供应链的需求。"
+      ],
+      "actions": [
+        "车规级芯片供应商应关注问界M9的智能驾驶和座舱配置清单，提前备货相关SoC和传感器芯片。",
+        "Tier 1厂商需加强与华为智选车业务的对接，确保新车型量产阶段的零部件交付稳定。"
+      ],
+      "glossary": [
+        {
+          "term": "问界M9",
+          "desc": "华为与赛力斯联合打造的高端智能SUV车型",
+          "category": "整车"
+        },
+        {
+          "term": "车规级芯片",
+          "desc": "满足汽车电子严苛环境要求的半导体芯片",
+          "category": "芯片"
+        }
+      ],
+      "region": "domestic",
+      "summary": "全新一代问界M9宣布将于5月27日正式上市，标志着华为与赛力斯合作的高端智能SUV迎来新迭代。",
+      "tag_category": "综合",
+      "title_en": "全新一代问界M9将于5月27日上市_车家号_发现车生活_汽车之家"
+    },
+    {
+      "title": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起",
+      "url": "https://chejiahao.autohome.com.cn/info/25521469",
+      "description": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n全新一代问界M9系列将于5月27日上市，预售价49.98万元起\n\n油城车事\n\n车家号·0浏览·2026-05-19 16:42 · 黑龙江\n\n5月19日，鸿蒙智行对外透露了全新一代问界M9(参数|询价)系列的上市安排，这款备受关注的车型确定将于5月27日正式与消费者见面。作为鸿蒙智行旗下的旗舰SUV，全新一",
+      "published": "2026-05-27T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "50万级别的预售价表明高端新能源车市场仍有强劲的溢价能力，智能化配置是核心卖点。",
+        "高端车型的利润空间更大，有利于支撑其内部高算力芯片及先进传感器的成本摊销。"
+      ],
+      "actions": [
+        "供应链企业需评估该价位段车型的BOM成本结构，重点锁定高价值的车规芯片订单。",
+        "关注该车型上市后的实际销量表现，以此作为高端智能车规芯片需求预测的风向标。"
+      ],
+      "glossary": [
+        {
+          "term": "BOM",
+          "desc": "物料清单，产品所有零部件及成本的清单",
+          "category": "制造"
+        }
+      ],
+      "region": "domestic",
+      "summary": "全新一代问界M9系列定档5月27日上市，预售价定为49.98万元起，定位高端豪华市场。",
+      "tag_category": "综合",
+      "title_en": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起_车家号_发现车生活_汽车之家"
+    },
+    {
+      "title": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市",
+      "url": "https://chejiahao.autohome.com.cn/info/25397889",
+      "description": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市\n\n酱酱侃车\n\n车家号·0浏览·2026-05-01 12:27 · 北京\n\n北京车展即将落下帷幕，不少新车已经进入倒计时阶段。想买车等不到年底？这个5月，一波重磅车型就要扎堆上市了。统计下来，光5月份就有10多款新车将陆续与消费者见面，涵盖了全",
+      "published": "2026-05-27T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "头部新能源车企集中推新，意味着下半年国内智能电动车销量争夺战提前开启，整车产能将快速爬坡。",
+        "多款高端智能车型同步上市，将显著推高对大算力智驾芯片、智能座舱SoC及功率半导体的短期采购需求。"
+      ],
+      "actions": [
+        "芯片分销商及原厂需立即核实这几款新车的芯片选型方案，锁定下半年产能分配。",
+        "功率器件和MCU供应商应提前与车企及Tier 1沟通备货计划，防范因新车扎堆上市导致的结构性缺货。"
+      ],
+      "glossary": [
+        {
+          "term": "SoC",
+          "desc": "系统级芯片，集成完整计算系统的微型芯片",
+          "category": "芯片"
+        },
+        {
+          "term": "Tier 1",
+          "desc": "一级供应商，直接向整车厂供货的零部件企业",
+          "category": "供应链"
+        }
+      ],
+      "region": "domestic",
+      "summary": "5月份国内新能源车市场迎来新车上市潮，理想L9、蔚来ES9及小米YU7 GT等重磅车型集中发布。",
+      "tag_category": "综合",
+      "title_en": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市_车家号_发现车生活_汽车之家"
+    },
+    {
+      "title": "芯片出口管制如何可能成为中美AI安全对话的考量因素（How Chip Export Controls Might Factor Into the U.S.-China AI Safety Dialogue - Domino Theory）",
+      "url": "https://dominotheory.com/how-chip-export-controls-might-factor-into-the-u-s-china-ai-safety-dialogue/",
+      "description": "China announced on Tuesday that President Donald Trump and China’s leader, Xi Jinping (習近平), will hold a dialogue on artificial intelligence, confirming Treasury Secretary Scott Bessent’s comment to CNBC on the sidelines of the Trump-Xi summit in Beijing last week.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI安全议题与芯片出口管制挂钩，表明半导体技术限制已从单纯的贸易战升级为涉及国家安全与科技伦理的博弈。",
+        "对话若涉及管制放松的探讨，可能为受限AI芯片及EDA软件的合规出口带来短期喘息空间，但长期遏制趋势难改。"
+      ],
+      "actions": [
+        "受制裁影响的国内芯片设计公司需密切关注此次对话释放的政策信号，评估是否出现合规采购窗口期。",
+        "出口合规团队应重新审视当前的供应链风险，提前制定应对管制政策微调的预案。"
+      ],
+      "glossary": [
+        {
+          "term": "Chip Export Controls",
+          "desc": "芯片出口管制，限制特定半导体产品或技术向特定国家出口的政策",
+          "category": "政策"
+        },
+        {
+          "term": "AI Safety",
+          "desc": "人工智能安全，确保AI系统可靠、可控且不造成危害的领域",
+          "category": "技术"
+        }
+      ],
+      "region": "overseas",
+      "summary": "中美确认将就人工智能安全展开对话，芯片出口管制问题预计将成为此次高层沟通的重要考量因素之一。",
+      "tag_category": "EDA/IP",
+      "title_en": "How Chip Export Controls Might Factor Into the U.S.-China AI Safety Dialogue - Domino Theory"
+    },
+    {
+      "title": "万亿美元IPO考验：SpaceX和OpenAI面临公开市场（The Trillion-Dollar IPO Test: SpaceX and OpenAI Face Public Markets | Investing.com）",
       "url": "https://www.investing.com/analysis/the-trilliondollar-ipo-test-spacex-and-openai-face-public-markets-200680688",
       "description": "Market Analysis by covering: . Read 's Market Analysis on Investing.com",
       "published": "",
@@ -119,154 +265,38 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "超大型独角兽走向公开市场将重塑科技板块估值体系，SpaceX的星链业务和OpenAI的AI商业化是核心看点。",
-        "半导体供应链需关注此类巨头上市后对AI算力基础设施及卫星通信芯片的长期投资拉动效应。"
+        "OpenAI若启动超大规模IPO，将极大刺激全球AI算力基础设施投资，对GPU、HBM及先进封装的需求预期将再次重估。",
+        "巨型科技公司的上市将吸引更多资金流入AI及航天半导体细分赛道，加速相关芯片初创企业的融资与研发。"
       ],
       "actions": [
-        "关注SpaceX星链业务对卫星通信芯片及射频组件的需求拉动。",
-        "评估OpenAI上市后对AI芯片及存储采购规模的长期影响。"
+        "AI芯片及HBM供应链企业应将OpenAI的IPO进程视为算力需求长周期的风向标，提前锁定长单产能。",
+        "投资机构与供应链厂商需关注SpaceX及OpenAI的供应链披露，挖掘潜在的半导体增量市场机会。"
       ],
       "glossary": [
         {
           "term": "IPO",
-          "desc": "首次公开募股，指企业首次向公众投资者出售股票筹集资金的过程",
-          "category": "金融"
-        }
-      ],
-      "region": "overseas",
-      "summary": "SpaceX与OpenAI正面临万亿美元级别的IPO考验，公开市场的估值与流动性将成为焦点。",
-      "tag_category": "EDA/IP",
-      "title_en": "The Trillion-Dollar IPO Test: SpaceX and OpenAI Face Public Markets | Investing.com"
-    },
-    {
-      "title": "SpaceX正式向SEC提交文件：史上最大IPO招股书拆解，星链贡献70%营收，研发支出激增125%（SpaceX Officially Files With SEC. Breakdown of the Largest IPO Prospectus in History: Starlink Accounts for 70% of Revenue, R&D Expenses Surge 125%）",
-      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261918087-spacex-ipo-sec-musk-ai-connectivity-interest-billion-nasdaq-tradingkey",
-      "description": "Tradingkey - According to disclosures from the U.S. Securities and Exchange Commission (SEC) on May 20, SpaceX, Elon Musk’s largest-ever IPO project, has officially filed with the SEC. Reports indicate that SpaceX confidentially filed the document with the commission in April.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "星链作为核心营收来源，表明卫星互联网商业化已进入成熟期，将直接带动相控阵雷达、射频前端等半导体细分市场。",
-        "研发支出激增125%预示SpaceX在下一代航天及通信技术上持续加码，对高性能计算及抗辐射芯片需求将持续放大。"
-      ],
-      "actions": [
-        "射频芯片及卫星通信模块供应商应积极对接星链供应链，抢占量产先机。",
-        "抗辐射及高可靠性半导体器件厂商需提前扩产以应对SpaceX研发与量产带来的增量需求。"
-      ],
-      "glossary": [
-        {
-          "term": "SEC",
-          "desc": "美国证券交易委员会，负责监管联邦证券法的执行并保护投资者利益",
+          "desc": "首次公开募股，企业首次向公众投资者发行股票",
           "category": "金融"
         },
         {
-          "term": "Prospectus",
-          "desc": "招股说明书，企业向投资者披露公司财务及运营信息的法定文件",
-          "category": "金融"
+          "term": "OpenAI",
+          "desc": "美国人工智能研究公司，ChatGPT的开发者",
+          "category": "企业"
         }
       ],
       "region": "overseas",
-      "summary": "SpaceX已正式向美国SEC提交IPO申请，招股书显示星链业务占其总营收的70%，且研发支出大幅增长125%。",
+      "summary": "SpaceX和OpenAI正面临万亿美元级别的IPO考验，这两家科技巨头即将迎接公开资本市场的检验。",
       "tag_category": "EDA/IP",
-      "title_en": "SpaceX Officially Files With SEC. Breakdown of the Largest IPO Prospectus in History: Starlink Accounts for 70% of Revenue, R&D Expenses Surge 125%"
-    },
-    {
-      "title": "币安推出SpaceX Pre-IPO永续合约，押注2万亿估值（Binance launches SpaceX pre-IPO perps amid $2 trillion valuation bets）",
-      "url": "https://www.coindesk.com/markets/2026/05/21/binance-launches-spacex-pre-ipo-perps",
-      "description": "Binance looks to democratize pre-IPO markets, starting with SpaceX perpetual futures.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "加密货币交易所介入Pre-IPO市场，为未上市巨头提供了新的流动性渠道，但也增加了估值泡沫风险。",
-        "2万亿美元的估值预期反映出市场对航天与AI基础设施的高度狂热，可能引发相关半导体概念的提前炒作。"
-      ],
-      "actions": [
-        "半导体投资者需警惕Pre-IPO衍生品带来的估值泡沫对实体供应链投资决策的干扰。",
-        "关注二级市场及衍生品对SpaceX相关概念芯片股的情绪传导效应。"
-      ],
-      "glossary": [
-        {
-          "term": "Pre-IPO perps",
-          "desc": "Pre-IPO永续合约，指在未上市公司正式IPO前交易的永续期货衍生品",
-          "category": "金融"
-        }
-      ],
-      "region": "overseas",
-      "summary": "币安推出SpaceX Pre-IPO永续期货合约，允许投资者在上市前押注其高达2万亿美元的估值。",
-      "tag_category": "EDA/IP",
-      "title_en": "Binance launches SpaceX pre-IPO perps amid $2 trillion valuation bets"
-    },
-    {
-      "title": "今日科技股：英伟达财报后股价下跌，SpaceX提交IPO细节（Tech stocks today: Nvidia stock falls after earnings, SpaceX files IPO details）",
-      "url": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-nvidia-stock-falls-after-earnings-spacex-files-ipo-details-111103242.html",
-      "description": "Nvidia earnings report is expected to be the main event for tech investors this week.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "英伟达财报后的股价波动反映出市场对AI芯片短期业绩预期与长期估值之间的博弈，短期获利盘出逃明显。",
-        "SpaceX的IPO细节披露转移了部分市场注意力，资金可能在AI与航天板块间重新平衡。"
-      ],
-      "actions": [
-        "密切跟踪英伟达后续的订单指引及CoWoS产能释放情况，以判断AI芯片需求是否实质性放缓。",
-        "在英伟达股价回调期，评估AI算力供应链相关标的的逢低布局机会。"
-      ],
-      "glossary": [
-        {
-          "term": "Earnings",
-          "desc": "财报，上市公司定期发布的财务业绩报告",
-          "category": "金融"
-        }
-      ],
-      "region": "overseas",
-      "summary": "英伟达在发布财报后股价下跌，同时SpaceX正式提交了IPO细节，成为本周科技投资者的两大核心事件。",
-      "tag_category": "EDA/IP",
-      "title_en": "Tech stocks today: Nvidia stock falls after earnings, SpaceX files IPO details"
-    },
-    {
-      "title": "“科技十年”开启：印度如何建设其半导体未来（The ‘Techade’ begins: How India is building its semiconductor future- The Week）",
-      "url": "https://www.theweek.in/theweek/cover/2026/05/16/the-techade-begins-how-india-is-building-its-semiconductor-future.html",
-      "description": "The ‘Techade’ begins: How India is building its semiconductor future- The Week\n\n# The ‘Techade’ begins: How India is building its semiconductor future\n\nIndia’s semiconductor push is entering a new phase: creating a talent, research, and investment ecosystem that produces not just chips, but indigeno",
-      "published": "2026-05-24T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "印度试图通过政策补贴和招商引资复制半导体制造本土化路径，但基础设施和人才短板仍是长期挑战。",
-        "印度半导体战略的推进将为全球封测及成熟制程晶圆厂提供新的产能转移目的地选项。"
-      ],
-      "actions": [
-        "国内封测OSAT及成熟制程厂商需评估印度本土化政策对全球订单分流的风险。",
-        "设备与材料供应商可关注印度半导体补贴政策带来的增量出口商机。"
-      ],
-      "glossary": [
-        {
-          "term": "Techade",
-          "desc": "科技十年，指印度政府提出的聚焦科技与半导体发展的十年战略规划",
-          "category": "政策"
-        }
-      ],
-      "region": "overseas",
-      "summary": "印度的半导体产业推进正进入新阶段，旨在通过“科技十年”战略构建本土半导体生态。",
-      "tag_category": "EDA/IP",
-      "title_en": "The ‘Techade’ begins: How India is building its semiconductor future- The Week"
+      "title_en": "The Trillion-Dollar IPO Test: SpaceX and OpenAI Face Public Markets | Investing.com"
     }
   ],
   "stats": {
-    "total_raw": 84,
-    "after_dedup": 79,
+    "total_raw": 100,
+    "after_dedup": 89,
     "sources": {
-      "Exa": 1,
-      "RSS": 65,
-      "Brave": 13
+      "Exa": 11,
+      "RSS": 63,
+      "Brave": 15
     }
   },
   "code_version": "",

@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://wccftech.com/intel-backed-glass-substrates-tech-will-be-commercilization-ready-within-three-years/",
-    "title": "英特尔支持的\"玻璃基板\"技术将在2年内实现商业化",
-    "published": "2026-04-29T11:00:00+08:00",
-    "addedAt": "2026-05-01T06:15:42+08:00"
-  },
-  {
-    "url": "https://technode.com/2026/04/29/tsmc-accelerates-2nm-expansion-as-ai-demand-surges-targets-record-five-fab-ramp-in-2026/",
-    "title": "台积电加速2nm扩张，目标2026年创纪录五厂同时量产",
-    "published": "2026-04-29T12:00:00+08:00",
-    "addedAt": "2026-05-01T06:15:42+08:00"
-  },
-  {
-    "url": "https://www.taipeitimes.com/News/front/archives/2026/04/29/2003856422",
-    "title": "台积电预计2nm产能年增长70%",
-    "published": "2026-04-29T08:00:00+08:00",
-    "addedAt": "2026-05-01T06:15:42+08:00"
-  },
-  {
-    "url": "https://chiplet-marketplace.com/insights/news/openlight-series-a-1-funding-photonics",
-    "title": "OpenLight获5000万美元A-1轮融资加速硅光子技术全球部署",
-    "published": "2026-04-29T10:00:00+08:00",
-    "addedAt": "2026-05-01T06:15:42+08:00"
-  },
-  {
-    "url": "https://www.jinguxun.com/article/8214959",
-    "title": "科创板公司2025年年报业绩解码：营收同比增长10.3%",
-    "published": "2026-04-30T22:00:00+08:00",
-    "addedAt": "2026-05-01T06:15:42+08:00"
-  },
-  {
     "url": "https://www.newsbytesapp.com/news/science/tsmc-projects-70-annual-2nm-growth-after-hsinchu-kaohsiung-openings/tldr",
     "title": "台积电2nm产能年增70%：新竹与高雄新厂投产后快速爬坡",
     "published": "2026-04-29T08:00:00+08:00",
@@ -2998,5 +2968,35 @@
     "title": "“科技十年”开启：印度如何建设其半导体未来（The ‘Techade’ begins: How India is building its semiconductor future- The Week）",
     "published": "2026-05-24T00:00:00.000Z",
     "addedAt": "2026-05-22T13:02:00+08:00"
+  },
+  {
+    "url": "https://chejiahao.autohome.com.cn/info/25525010",
+    "title": "全新一代问界M9将于5月27日上市",
+    "published": "2026-05-27T00:00:00.000Z",
+    "addedAt": "2026-05-22T20:03:00+08:00"
+  },
+  {
+    "url": "https://chejiahao.autohome.com.cn/info/25521469",
+    "title": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起",
+    "published": "2026-05-27T00:00:00.000Z",
+    "addedAt": "2026-05-22T20:03:00+08:00"
+  },
+  {
+    "url": "https://chejiahao.autohome.com.cn/info/25397889",
+    "title": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市",
+    "published": "2026-05-27T00:00:00.000Z",
+    "addedAt": "2026-05-22T20:03:00+08:00"
+  },
+  {
+    "url": "https://dominotheory.com/how-chip-export-controls-might-factor-into-the-u-s-china-ai-safety-dialogue/",
+    "title": "芯片出口管制如何可能成为中美AI安全对话的考量因素（How Chip Export Controls Might Factor Into the U.S.-China AI Safety Dialogue - Domino Theory）",
+    "published": "",
+    "addedAt": "2026-05-22T20:03:00+08:00"
+  },
+  {
+    "url": "https://www.investing.com/analysis/the-trilliondollar-ipo-test-spacex-and-openai-face-public-markets-200680688",
+    "title": "万亿美元IPO考验：SpaceX和OpenAI面临公开市场（The Trillion-Dollar IPO Test: SpaceX and OpenAI Face Public Markets | Investing.com）",
+    "published": "",
+    "addedAt": "2026-05-22T20:03:00+08:00"
   }
 ]
