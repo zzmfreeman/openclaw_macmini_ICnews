@@ -1,95 +1,5 @@
 [
   {
-    "url": "https://amiko.consulting/en/semiconductor-news-20260502/",
-    "title": "Semiconductor News 20260502 | Amiko Consulting",
-    "published": "2026-05-01T00:00:00.000Z",
-    "addedAt": "2026-05-03T06:05:00+08:00"
-  },
-  {
-    "url": "https://www.loowp.com/52757.html",
-    "title": "Synopsys Spyglass vX-2025.06 - 云创源码",
-    "published": "2026-05-01T00:00:00.000Z",
-    "addedAt": "2026-05-03T06:05:00+08:00"
-  },
-  {
-    "url": "https://www.loowp.com/52755.html",
-    "title": "Synopsys Core Synthesis Tools vX-2025.6 SP3 - 云创源码",
-    "published": "2026-05-01T00:00:00.000Z",
-    "addedAt": "2026-05-03T06:05:00+08:00"
-  },
-  {
-    "url": "https://thenextweb.com/news/cerebras-ipo-4-billion-40-billion-valuation",
-    "title": "AI chipmaker Cerebras targets up to $4bn IPO at $40bn valuation",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-03T08:57:00+08:00"
-  },
-  {
-    "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
-    "title": "Designing Broadband LPDA-Fed Reflector Antennas With Full-Wave EM Simulation",
-    "published": "Fri, 17 Apr 2026 14:00:50 +0000",
-    "addedAt": "2026-05-03T08:57:00+08:00"
-  },
-  {
-    "url": "https://setntest.sanlih.com.tw/News.aspx?NewsID=1832073",
-    "title": "熱門股／台積秘寶CoPoS封裝　進補台股22強 | 財經 | 三立新聞網  SETN.COM",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-03T08:57:00+08:00"
-  },
-  {
-    "url": "https://timesofindia.indiatimes.com/india/west-bengal-elections-2026-repoll-15-booths-magrahat-diamond-harbour-ec-order-evm-tampering-cctv-irregularities/liveblog/130708252.cms",
-    "title": "West Bengal Election 2026 Repolling Live Updates: EC orders repolling in all 285 booths of Falta on May 21; counting on May 24 - The Times of India",
-    "published": "",
-    "addedAt": "2026-05-03T08:57:00+08:00"
-  },
-  {
-    "url": "https://wccftech.com/tsmc-a16-node-promises-speed-boost-power-cut-over-2nm-backside-power-production-q4-2026/",
-    "title": "TSMC's A16 '1.6nm' Node Promises 10% Speed Boost or 20% Power Cut Over 2nm, With Backside Power Hitting Production by Q4 2026",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-03T08:57:00+08:00"
-  },
-  {
-    "url": "https://fourweekmba.com/be-tsmc-the-chokepoint-of-the-ai-economy/",
-    "title": "TSMC: The Chokepoint of the AI Economy - FourWeekMBA",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-03T08:57:00+08:00"
-  },
-  {
-    "url": "https://www.ibtimes.com.au/samsung-electronics-vs-tsmc-stock-2026-which-buy-booming-ai-semiconductor-market-1868021",
-    "title": "Samsung Electronics vs TSMC Stock 2026: Which to Buy in Booming AI Semiconductor Market?",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-03T08:57:00+08:00"
-  },
-  {
-    "url": "https://leonliao.substack.com/p/tsmc-the-semiconductor-clock-behind",
-    "title": "TSMC: the Semiconductor Clock Behind the Taiwan Strait",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-03T08:57:00+08:00"
-  },
-  {
-    "url": "https://marklapedus.substack.com/p/q1-26-foundryosat-earnings-hit-or",
-    "title": "Q1 '26 Foundry/OSAT Earnings: Hit Or Miss?",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-03T08:57:00+08:00"
-  },
-  {
-    "url": "https://wccftech.com/review/uperfect-ufree-v-wireless-portable-monitor-review/",
-    "title": "Uperfect UFree V Review: A Wireless “True” Portable Monitor With Incredible Compatibility And Versatility",
-    "published": "Sat, 02 May 2026 20:31:00 +0000",
-    "addedAt": "2026-05-03T08:57:00+08:00"
-  },
-  {
-    "url": "https://wccftech.com/qnap-pairs-6-year-old-zen-2-epyc-with-nvidia-96gb-rtx-pro-6000-blackwell-in-new-edge-ai-nas/",
-    "title": "QNAP Pairs a 6-Year-Old Zen 2 EPYC With NVIDIA’s 96GB RTX PRO 6000 Blackwell in Its New Edge AI NAS",
-    "published": "Sat, 02 May 2026 18:00:06 +0000",
-    "addedAt": "2026-05-03T08:57:00+08:00"
-  },
-  {
-    "url": "https://wccftech.com/sub-1nm-process-node-technology-wont-arrive-till-2034-logic-roadmap-2dfets-sub-0-2nm-2046/",
-    "title": "Sub-1nm Process Technology Won’t Arrive Till 2034, Logic Roadmap Highlights 2D FETs For 0.2nm & Sub 0.2nm Nodes By 2043-2046",
-    "published": "Sat, 02 May 2026 17:00:12 +0000",
-    "addedAt": "2026-05-03T08:57:00+08:00"
-  },
-  {
     "url": "https://wccftech.com/amd-finally-cracks-hdmi-2-1-on-linux-after-years-of-forum-lockout/",
     "title": "AMD Finally Cracks HDMI 2.1 On Linux After Years Of Forum Lockout, Thanks To Valve’s Quiet Push",
     "published": "Sat, 02 May 2026 15:14:18 +0000",
@@ -2998,5 +2908,95 @@
     "title": "亚洲芯片制造商追逐上市，AI热潮推高估值（Asian chipmakers chase listings as AI boom fuels valuations | IFR）",
     "published": "",
     "addedAt": "2026-05-23T20:03:00+08:00"
+  },
+  {
+    "url": "https://bizextract.com/market-insight/mergers-acquisitions/analog-devices-empower-semiconductor-acquisition/",
+    "title": "为什么模拟器件公司（ADI）斥资15亿美元收购Empower Semiconductor（Why Analog Devices Is Buying Empower Semiconductor for $1.5 Billion）",
+    "published": "2026-05-23T00:00:00.000Z",
+    "addedAt": "2026-05-24T06:04:00+08:00"
+  },
+  {
+    "url": "https://capitalpulse.org/article/spacex-files-for-historic-ipo-eyes-2t-valuation-in-june",
+    "title": "SpaceX申请历史性IPO：目标6月估值达2万亿美元（SpaceX Files for Historic IPO: Eyes $2T Valuation in June）",
+    "published": "2026-05-23T00:00:00.000Z",
+    "addedAt": "2026-05-24T06:04:00+08:00"
+  },
+  {
+    "url": "https://finance.biggo.com/news/mzqVVJ4BpwxG186NZ3NX",
+    "title": "长鑫存储（CXMT）创始人朱一明在IPO前巨额赠股中让出一半股份，揭开中国史上最大个人股权激励计划（CXMT Founder Zhu Yiming Surrenders Half His Stake in Pre-IPO Megagrant, Unveiling China's Largest-Ever Personal Equity Incentive Plan）",
+    "published": "2026-05-23T00:00:00.000Z",
+    "addedAt": "2026-05-24T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.minichart.com.sg/2026/05/23/sitime-announces-1-1-billion-convertible-senior-notes-offering-to-fund-renesas-timing-business-acquisition/",
+    "title": "SiTime宣布发行11亿美元可转换优先票据，为收购瑞萨电子计时业务筹资（SiTime Announces $1.1 Billion Convertible Senior Notes Offering to Fund Renesas Timing Business Acquisition）",
+    "published": "2026-05-23T00:00:00.000Z",
+    "addedAt": "2026-05-24T06:04:00+08:00"
+  },
+  {
+    "url": "https://36kr.com/p/3821371042877575",
+    "title": "36氪首发 | 北大项目孵化，国内首家原生机器人“大脑芯片”企业获数亿元融资",
+    "published": "2026-05-23T00:00:00.000Z",
+    "addedAt": "2026-05-24T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.harianbasis.co/en/nvidia-taiwan-semiconductor-ai-revenue",
+    "title": "台积电对英伟达营收的限制防止了AI泡沫（Taiwan Semiconductor Cap on NVIDIA Revenue Prevents AI Bubble）",
+    "published": "2026-05-22T00:00:00.000Z",
+    "addedAt": "2026-05-24T06:04:00+08:00"
+  },
+  {
+    "url": "https://finance.biggo.com/news/HboeU54BmHHDnbgyTVOq",
+    "title": "SK海力士目标价首次突破400万韩元大关；韩国综合股价指数11000点在望（SK Hynix Target Price Breaks Into 4 Million Won Territory for First Time; Kospi 11,000 in Sight — BigGo Finance）",
+    "published": "2026-05-23T00:00:00.000Z",
+    "addedAt": "2026-05-24T06:04:00+08:00"
+  },
+  {
+    "url": "https://mindwiredai.com/2026/05/22/nvidia-computex-2026-ai-announcements-explained/",
+    "title": "面向开发者的英伟达COMPUTEX 2026 AI发布详解（NVIDIA COMPUTEX 2026 AI announcements explained for Developers）",
+    "published": "2026-05-22T00:00:00.000Z",
+    "addedAt": "2026-05-24T06:04:00+08:00"
+  },
+  {
+    "url": "https://01post.com/hifs-2026-upgrading-four-major-digital-finance-solutions-to-accelerate-financial-institutions-toward-agentic-banking/",
+    "title": "HiFS 2026：升级四大数字金融解决方案，加速金融机构迈向代理式银行（HiFS 2026: Upgrading Four Major Digital Finance Solutions to Accelerate Financial Institutions Toward Agentic Banking - 01post.com）",
+    "published": "2026-05-23T00:00:00.000Z",
+    "addedAt": "2026-05-24T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.storagereview.com/news/amd-epyc-venice-enters-2nm-production-at-tsmc-extends-cpu-roadmap-for-ai-infrastructure",
+    "title": "AMD EPYC“Venice”进入台积电2nm量产，扩展AI基础设施CPU路线图（AMD EPYC “Venice” Enters 2nm Production at TSMC, Extends CPU Roadmap for AI Infrastructure - StorageReview.com）",
+    "published": "2026-05-22T00:00:00.000Z",
+    "addedAt": "2026-05-24T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.thestockobserver.com/2026/05/22/amkor-technology-targets-11b-revenue-by-2030-on-ai-packaging-arizona-ramp.html",
+    "title": "安靠科技目标2030年营收达110亿美元，依托AI封装与亚利桑那产能扩张（Amkor Technology Targets $11B Revenue by 2030 on AI Packaging, Arizona Ramp - Stock Observer）",
+    "published": "2026-05-22T00:00:00.000Z",
+    "addedAt": "2026-05-24T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.trendforce.com/news/2026/05/22/news-psmc-joins-intel-saimemory-to-demo-9-layer-fusion-bonded-via-in-one-architecture-for-high-bandwidth-3d-memory/",
+    "title": "[新闻] 力积电联手英特尔与SAIMEMORY展示高带宽3D内存的9层孔合一架构（[News] PSMC Joins Intel, SAIMEMORY to Demo 9-Layer Via-in-One Architecture for High Bandwidth 3D Memory）",
+    "published": "2026-05-22T00:00:00.000Z",
+    "addedAt": "2026-05-24T06:04:00+08:00"
+  },
+  {
+    "url": "https://markets.businessinsider.com/news/stocks/major-announcement-us-4-0-billion-valuation-and-a-us-10-00-per-share-reference-price-agae-to-issue-shares-to-acquire-hyalroute-a-scarce-southeast-asian-fiber-optic-infrastructure-leader-1036187954",
+    "title": "重大公告：估值40亿美元及每股10.00美元参考价，AGAE将发行股份收购稀缺的东南亚光纤基础设施龙头HyalRoute...（Major Announcement: US$4.0 Billion Valuation and a US$10.00 Per Share Reference Price, AGAE to Issue Shares to Acquire HyalRoute, a Scarce Southeast Asian Fiber-Optic Infrastructure Leader,... | Markets Insider）",
+    "published": "2026-05-22T00:00:00.000Z",
+    "addedAt": "2026-05-24T06:04:00+08:00"
+  },
+  {
+    "url": "https://markets.businessinsider.com/news/stocks/micron-advances-made-in-america-memory-with-manufacturing-expansion-in-virginia-1036188004",
+    "title": "美光推进美国本土制造存储器，扩大弗吉尼亚州产能（Micron Advances Made-in-America Memory With Manufacturing Expansion in Virginia | Markets Insider）",
+    "published": "2026-05-22T00:00:00.000Z",
+    "addedAt": "2026-05-24T06:04:00+08:00"
+  },
+  {
+    "url": "https://stockwirex.com/news/spacex-s1-intel-terafab-compute-may-2026/",
+    "title": "SpaceX S-1文件与Intel Terafab：200亿美元计算交易解析（SpaceX S-1 & Intel Terafab: $20B Compute Deal Unpacked）",
+    "published": "2026-05-22T00:00:00.000Z",
+    "addedAt": "2026-05-24T06:04:00+08:00"
   }
 ]

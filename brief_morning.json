@@ -1,6 +1,6 @@
 {
-  "version": "v20260523-0604",
-  "generatedAt": "2026-05-23T06:04:00+08:00",
+  "version": "v20260524-0604",
+  "generatedAt": "2026-05-24T06:04:00+08:00",
   "period": "morning",
   "commit": "",
   "glossary_list": [
@@ -20,139 +20,129 @@
       "category": "封装"
     },
     {
-      "term": "IPO",
-      "desc": "首次公开募股，企业首次向公众出售股份筹集资本的过程",
-      "category": "金融"
-    },
-    {
-      "term": "合肥模式",
-      "desc": "指合肥地方政府通过国资平台战略性投资新兴产业（如半导体、新能源），带动地方经济转型的投资模式",
-      "category": "产业政策"
-    },
-    {
-      "term": "GE Vernova",
-      "desc": "通用电气（GE）分拆出的能源业务公司，专注于电力、风能和电气化业务",
-      "category": "企业"
-    },
-    {
-      "term": "Robotech Automation",
-      "desc": "一家专注于机器人与自动化技术的公司，提供自动化解决方案",
-      "category": "企业"
-    },
-    {
-      "term": "Venice CPU",
-      "desc": "AMD新一代CPU的代号，采用台积电2nm工艺制造",
-      "category": "产品"
-    },
-    {
-      "term": "TSMC 2nm",
-      "desc": "台积电的2纳米制程技术，属于下一代先进半导体制造工艺",
-      "category": "制造"
-    },
-    {
-      "term": "AI Packaging",
-      "desc": "专为AI芯片设计的高密度、高性能先进封装技术（如CoWoS等）",
-      "category": "封装"
-    },
-    {
-      "term": "Capacity",
-      "desc": "产能，指半导体制造或封装工厂在一定时间内的最大产出量",
-      "category": "制造"
-    },
-    {
-      "term": "Intel 18A",
-      "desc": "Intel的1.8纳米先进制程工艺，是Intel迈向代工战略的关键节点",
-      "category": "制造"
-    },
-    {
-      "term": "E-Core",
-      "desc": "能效核，Intel混合架构中专注于提高能效和处理后台负载的核心",
-      "category": "设计"
-    },
-    {
-      "term": "Clearwater Forest",
-      "desc": "Intel下一代服务器芯片的代号，主打高密度能效核架构",
-      "category": "产品"
-    },
-    {
-      "term": "AI Compute Stack",
-      "desc": "AI计算栈，指包含硬件、软件、框架等在内的完整人工智能计算架构",
-      "category": "架构"
-    },
-    {
-      "term": "Embodied AI",
-      "desc": "具身智能，指具有物理身体并能与物理世界交互的智能系统",
-      "category": "技术"
-    },
-    {
-      "term": "Moore Threads",
-      "desc": "摩尔线程，中国本土GPU设计公司",
+      "term": "Analog Devices (ADI)",
+      "desc": "美国知名模拟半导体公司",
       "category": "公司"
     },
     {
-      "term": "Mask",
-      "desc": "光掩模/掩模版，用于半导体光刻工艺中将电路图案转移到硅片上的模板",
-      "category": "制造"
+      "term": "Empower Semiconductor",
+      "desc": "专注于集成电容电源管理芯片的半导体公司",
+      "category": "公司"
     },
     {
-      "term": "OPC",
-      "desc": "光学邻近校正，一种用于修正光刻中光学衍射效应的计算光刻技术",
+      "term": "IPO",
+      "desc": "首次公开募股，企业首次向公众发行股票",
+      "category": "金融"
+    },
+    {
+      "term": "SpaceX",
+      "desc": "美国太空探索技术公司，由马斯克创立",
+      "category": "公司"
+    },
+    {
+      "term": "CXMT",
+      "desc": "长鑫存储，中国领先的DRAM存储芯片制造商",
+      "category": "公司"
+    },
+    {
+      "term": "Pre-IPO",
+      "desc": "首次公开募股前阶段",
+      "category": "金融"
+    },
+    {
+      "term": "Convertible Senior Notes",
+      "desc": "可转换优先票据，可转换为股票的债券融资工具",
+      "category": "金融"
+    },
+    {
+      "term": "SiTime",
+      "desc": "美国MEMS计时芯片领先供应商",
+      "category": "公司"
+    },
+    {
+      "term": "Renesas",
+      "desc": "瑞萨电子，日本知名半导体厂商",
+      "category": "公司"
+    },
+    {
+      "term": "具身智能",
+      "desc": "Embodied AI，具有物理身体并能与物理世界交互的智能系统",
+      "category": "技术"
+    },
+    {
+      "term": "类脑计算",
+      "desc": "Neuromorphic computing，模仿人脑神经网络结构和计算模式的芯片技术",
+      "category": "技术"
+    },
+    {
+      "term": "Taiwan Semiconductor (TSMC)",
+      "desc": "台积电，全球最大的晶圆代工半导体制造厂",
+      "category": "公司"
+    },
+    {
+      "term": "AI Bubble",
+      "desc": "AI泡沫，指人工智能领域投资与估值远超实际商业落地价值的过热现象",
+      "category": "市场"
+    },
+    {
+      "term": "Kospi",
+      "desc": "韩国综合股价指数，是韩国证券交易所的主要市场指数",
+      "category": "金融"
+    },
+    {
+      "term": "COMPUTEX",
+      "desc": "台北国际电脑展，全球重要的ICT产业专业展览",
+      "category": "展会"
+    },
+    {
+      "term": "Agentic Banking",
+      "desc": "代理式银行，指利用自主AI代理进行决策和执行任务的金融服务模式",
+      "category": "应用"
+    },
+    {
+      "term": "2nm",
+      "desc": "半导体先进制程节点，代表下一代晶体管微缩技术（如N2）",
       "category": "制造"
     },
     {
       "term": "EPYC",
-      "desc": "AMD的企业级服务器处理器品牌",
+      "desc": "AMD推出的企业级服务器处理器品牌",
       "category": "产品"
     },
     {
-      "term": "2nm Process",
-      "desc": "2纳米工艺，指半导体制造的先进节点技术",
-      "category": "制造"
+      "term": "Amkor",
+      "desc": "安靠科技，全球领先的半导体封装测试外包服务商",
+      "category": "企业"
     },
     {
-      "term": "Amkor Technology",
-      "desc": "安靠科技，全球领先的半导体外包封装与测试（OSAT）服务提供商",
-      "category": "公司"
+      "term": "PSMC",
+      "desc": "力积电（Powerchip Semiconductor Manufacturing Corporation），台湾的晶圆代工企业",
+      "category": "企业"
     },
     {
-      "term": "Photosensitive Polyimide",
-      "desc": "光敏聚酰亚胺，一种兼具感光性与高耐热性的先进电子封装材料",
-      "category": "材料"
-    },
-    {
-      "term": "Panel-Level Packaging",
-      "desc": "面板级封装，使用大尺寸面板基板代替传统晶圆进行封装以降低成本的技术",
+      "term": "Via-in-One",
+      "desc": "孔合一架构，一种3D IC中的垂直互连技术，将多个通孔整合以提升密度与带宽",
       "category": "封装"
     },
     {
-      "term": "Parker-Hannifin",
-      "desc": "派克汉尼汾，全球领先的运动和控制技术与系统制造商，业务涵盖航空航天等多个领域。",
-      "category": "公司"
+      "term": "Fiber-Optic Infrastructure",
+      "desc": "光纤基础设施，基于光纤传输的通信网络物理层设施",
+      "category": "通信"
     },
     {
-      "term": "CIRCOR",
-      "desc": "一家专注于流体控制和航空航天等高可靠性应用的工业产品公司。",
-      "category": "公司"
+      "term": "Made-in-America",
+      "desc": "美国本土制造，指在美国国内进行的制造业生产，常与政策补贴挂钩",
+      "category": "政策/产业"
     },
     {
-      "term": "Axion Semiconductor",
-      "desc": "一家半导体公司，通常涉及特定领域的芯片设计与开发。",
-      "category": "公司"
+      "term": "S-1",
+      "desc": "美国SEC上市招股说明书，企业IPO前必须提交的注册声明文件",
+      "category": "金融"
     },
     {
-      "term": "Moov Technologies",
-      "desc": "被收购的技术公司，可能涉及半导体制造、设计自动化或相关软件技术。",
-      "category": "公司"
-    },
-    {
-      "term": "AI-Driven Cybersecurity",
-      "desc": "AI驱动的网络安全，利用人工智能技术自动识别、预防和应对网络威胁。",
-      "category": "技术"
-    },
-    {
-      "term": "HavenX",
-      "desc": "Cycurion公司旗下的网络安全平台，提供综合性的威胁防御解决方案。",
-      "category": "产品"
+      "term": "Terafab",
+      "desc": "Intel的大型晶圆制造/代工集群计划，旨在大规模生产先进计算芯片",
+      "category": "Fab/制造"
     }
   ],
   "topic_pulse": [
@@ -161,567 +151,556 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS和先进封装的讨论热度有所降温，缺乏引爆话题的新消息。市场关注点暂时从产能紧缺转向平稳过渡期，情绪趋于理性。"
+      "summary": "近期社区对CoWoS及先进封装的讨论热度有所降温，产能紧缺的焦虑情绪缓解，关注点逐渐转向良率提升与成本优化。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储相关话题热度下降，社区暂无突出的技术突破或产能爆料。投资者和从业者正处于观望期，等待下一轮终端需求与价格指引。"
+      "summary": "HBM与AI存储话题热度下降，市场对短期供需失衡的担忧减弱，讨论焦点转向下一代HBM技术的规格演进。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中国Fab与先进制程讨论热度回落，近期无重大技术进展或政策变动引发热议。社区情绪趋于平静，关注焦点转向日常运营与产能爬坡。"
+      "summary": "中国Fab与先进制程话题降温，社区暂无重大技术突破传闻，情绪趋于平稳观望。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题降温，社区缺乏关于新工具发布或大客户突破的讨论。本土化替代的短期情绪趋于理性沉淀，等待更多实质验证。"
+      "summary": "国产EDA/IP讨论热度回落，前期对国产替代的乐观情绪有所平息，业界更关注实际落地验证与生态构建。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT板块热度下降，未出现新的订单或产能扩张热议。社区讨论回归日常业务基本面，关注传统封装的稳健需求。"
+      "summary": "封测OSAT板块关注度下降，传统封装需求平稳，社区缺乏新的刺激性话题。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度显著降温，近期无新增禁令或合规冲突引发社区恐慌。讨论焦点从政策冲击转向应对策略的常态化与合规体系的完善。"
+      "summary": "出口管制与制裁话题热度降低，近期无新增重磅政策，市场处于政策消化期。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与NVIDIA相关讨论热度回落，缺乏新一代产品发布或惊人财报的刺激。社区情绪从狂热逐渐回归对实际落地与投资回报的理性评估。"
+      "summary": "AI芯片及英伟达相关讨论降温，市场对短期算力军备竞赛的预期趋于理性，等待下一代芯片的发布。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化讨论热度下降，暂无核心零部件突破或新验证进展的爆料。社区正消化前期信息，等待更多实质性的量产导入数据。"
+      "summary": "设备与材料国产化讨论热度下降，社区情绪从急迫替代转向对设备验证周期和长期可靠性的理性探讨。"
     }
   ],
   "items": [
     {
-      "title": "长鑫长江携手冲刺IPO 国产存储“双子星”诞生记",
-      "url": "https://m.cnbeta.com.tw/view/1563290.htm",
-      "description": "2026年，全球半导体行业最令人振奋的故事，发生在存储芯片领域。隔壁的韩国，三星电子和SK海力士携手将KOSPI指数拽上了天。SK海力士员工因百万奖金成相亲界“顶流”，...",
-      "published": "17小时前",
-      "source": "cnBeta.COM",
-      "source_type": "Serper",
-      "lang": "zh",
+      "title": "为什么模拟器件公司（ADI）斥资15亿美元收购Empower Semiconductor（Why Analog Devices Is Buying Empower Semiconductor for $1.5 Billion）",
+      "url": "https://bizextract.com/market-insight/mergers-acquisitions/analog-devices-empower-semiconductor-acquisition/",
+      "description": "Why Analog Devices Is Buying Empower Semiconductor for $1.5 Billion - bizextract\n\n# Why Analog Devices Is Buying Empower Semiconductor for $1.5 Billion\n\nUS-based semiconductor company Analog Devices has announced the acquisition of Empower Semiconductor in an all-cash deal valued at approximately $1",
+      "published": "2026-05-23T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
       "tags": [],
       "insights": [
-        "国产存储厂商冲刺IPO将极大增强资本实力，有助于缩小与三星、SK海力士等国际巨头的差距。",
-        "存储芯片作为半导体核心领域，其国产化进程的加速对保障供应链安全具有战略意义。"
+        "ADI通过并购整合电源管理领域的技术，反映出模拟芯片市场通过收购实现快速扩张的趋势",
+        "Empower的集成电容技术有望提升ADI在高性能电源管理市场的竞争力"
       ],
       "actions": [
-        "密切关注长鑫与长江IPO进展及募资用途，评估其对国产存储产业链上下游的投资拉动效应。",
-        "适时调整采购策略，评估国产存储产品在成本与供应稳定性上的替代潜力。"
+        "电源管理芯片供应商需关注ADI并购后的产品线整合动向，评估潜在的市场份额变动",
+        "供应链企业应提前对接Empower现有客户，防范并购带来的订单转移风险"
+      ],
+      "glossary": [
+        {
+          "term": "Analog Devices (ADI)",
+          "desc": "美国知名模拟半导体公司",
+          "category": "公司"
+        },
+        {
+          "term": "Empower Semiconductor",
+          "desc": "专注于集成电容电源管理芯片的半导体公司",
+          "category": "公司"
+        }
+      ],
+      "region": "overseas",
+      "summary": "模拟器件公司（ADI）宣布以15亿美元收购Empower Semiconductor，旨在增强其电源管理芯片产品线和技术实力。",
+      "tag_category": "综合",
+      "title_en": "Why Analog Devices Is Buying Empower Semiconductor for $1.5 Billion - bizextract"
+    },
+    {
+      "title": "SpaceX申请历史性IPO：目标6月估值达2万亿美元（SpaceX Files for Historic IPO: Eyes $2T Valuation in June）",
+      "url": "https://capitalpulse.org/article/spacex-files-for-historic-ipo-eyes-2t-valuation-in-june",
+      "description": "SpaceX Files for Historic IPO: Eyes $2T Valuation in June - CapitalPulse\n\n## SpaceX Ends Years of Speculation, Files for Monumental June 2026 IPO\n\nNEW YORK, NY – The moment Wall Street and Silicon Valley have anticipated for over a decade is finally here. SpaceX, the revolutionary aerospace manufact",
+      "published": "2026-05-23T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "SpaceX若以2万亿美元估值上市，将成为史上最大规模IPO之一，极大提振航天及卫星通信产业链的资本市场信心",
+        "其星链业务的规模化盈利预期是支撑高估值的核心，将带动低轨卫星芯片的长期需求"
+      ],
+      "actions": [
+        "卫星通信及航天芯片供应商需加速产能储备，以应对SpaceX上市后可能带来的供应链扩张需求",
+        "投资者应密切关注SpaceX星链业务对低轨卫星芯片市场的拉动效应，提前布局相关概念股"
       ],
       "glossary": [
         {
           "term": "IPO",
-          "desc": "首次公开募股，企业首次向公众出售股份筹集资本的过程",
+          "desc": "首次公开募股，企业首次向公众发行股票",
+          "category": "金融"
+        },
+        {
+          "term": "SpaceX",
+          "desc": "美国太空探索技术公司，由马斯克创立",
+          "category": "公司"
+        }
+      ],
+      "region": "overseas",
+      "summary": "SpaceX正式申请进行历史性IPO，目标在6月达到2万亿美元的估值，结束多年来的市场猜测。",
+      "tag_category": "EDA/IP",
+      "title_en": "SpaceX Files for Historic IPO: Eyes $2T Valuation in June - CapitalPulse"
+    },
+    {
+      "title": "长鑫存储（CXMT）创始人朱一明在IPO前巨额赠股中让出一半股份，揭开中国史上最大个人股权激励计划（CXMT Founder Zhu Yiming Surrenders Half His Stake in Pre-IPO Megagrant, Unveiling China's Largest-Ever Personal Equity Incentive Plan）",
+      "url": "https://finance.biggo.com/news/mzqVVJ4BpwxG186NZ3NX",
+      "description": "CXMT Founder Zhu Yiming Surrenders Half His Stake in Pre-IPO Megagrant, Unveiling China's Largest-Ever Personal Equity Incentive Plan — BigGo Finance\n\n# CXMT Founder Zhu Yiming Surrenders Half His Stake in Pre-IPO Megagrant, Unveiling China's Largest-Ever Personal Equity Incentive Plan\n\nCXMT, China'",
+      "published": "2026-05-23T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "创始人大规模稀释个人股权激励团队，彰显了国产存储芯片巨头对核心人才的高度依赖与渴求",
+        "此举将极大稳定CXMT在冲刺IPO关键期的人才队伍，提升企业对抗国际巨头的竞争力"
+      ],
+      "actions": [
+        "半导体核心人才求职者应重点关注CXMT等即将IPO的国产芯片企业的股权激励机会",
+        "国内芯片设计/制造企业需反思自身人才激励机制，适时加大核心员工持股比例以留住人才"
+      ],
+      "glossary": [
+        {
+          "term": "CXMT",
+          "desc": "长鑫存储，中国领先的DRAM存储芯片制造商",
+          "category": "公司"
+        },
+        {
+          "term": "Pre-IPO",
+          "desc": "首次公开募股前阶段",
           "category": "金融"
         }
       ],
-      "region": "domestic",
-      "summary": "长鑫存储和长江存储正携手冲刺IPO，成为国产存储芯片领域的“双子星”，标志着国产存储产业进入新的资本化发展阶段。",
+      "region": "overseas",
+      "summary": "长鑫存储（CXMT）创始人朱一明在IPO前让出个人一半股份用于股权激励，推出中国半导体行业史上最大规模的个人股权激励计划。",
       "tag_category": "EDA/IP",
-      "title_en": "长鑫长江携手冲刺IPO 国产存储“双子星”诞生记"
+      "title_en": "CXMT Founder Zhu Yiming Surrenders Half His Stake in Pre-IPO Megagrant, Unveiling China's Largest-Ever Personal Equity Incentive Plan — BigGo Finance"
     },
     {
-      "title": "投资界24h | 拉勾网被曝主动申请破产；长鑫IPO：合肥赚了一个合肥；李寒穷，一位浙江女二代接班",
-      "url": "https://news.pedaily.cn/202605/564227.shtml",
-      "description": "雅戈尔时尚股份有限公司年度股东大会结果出炉，选举李寒穷为公司第十二届董事会非独立董事。",
-      "published": "21小时前",
-      "source": "投资界",
-      "source_type": "Serper",
-      "lang": "zh",
-      "tags": [],
-      "insights": [
-        "地方政府产业投资模式在半导体领域成效显著，合肥通过投资长鑫实现了资本与产业的双赢。",
-        "传统企业二代接班趋势显现，家族企业传承与现代化治理面临融合挑战。"
-      ],
-      "actions": [
-        "研究合肥模式在半导体产业投资中的成功经验，探索地方政府与芯片企业合作的新路径。",
-        "关注长鑫IPO带来的地方产业基金退出及再投资动向，寻找潜在跟投机会。"
-      ],
-      "glossary": [
-        {
-          "term": "合肥模式",
-          "desc": "指合肥地方政府通过国资平台战略性投资新兴产业（如半导体、新能源），带动地方经济转型的投资模式",
-          "category": "产业政策"
-        }
-      ],
-      "region": "domestic",
-      "summary": "长鑫IPO引发投资界热议，合肥地方政府通过投资长鑫获得了丰厚回报；同时雅戈尔女二代李寒穷正式接班进入董事会。",
-      "tag_category": "EDA/IP",
-      "title_en": "投资界24h | 拉勾网被曝主动申请破产；长鑫IPO：合肥赚了一个合肥；李寒穷，一位浙江女二代接班"
-    },
-    {
-      "title": "GE Vernova将收购Robotech Automation以加速机器人与自动化能力建设（GE Vernova to acquire Robotech Automation to accelerate robotics and automation capabilities | GE Vernova News）",
-      "url": "https://www.gevernova.com/news/press-releases/ge-vernova-to-acquire-robotech-automation",
-      "description": "GE Vernova to acquire Robotech Automation to accelerate robotics and automation capabilities | GE Vernova News\n\npress release\n\nGE Vernova\n\n# GE Vernova to acquire Robotech Automation to accelerate robotics and automation capabilities\n\n5 min read\n\nAcquisition accelerates GE Vernova's robotics and aut",
-      "published": "2026-05-21T00:00:00.000Z",
+      "title": "SiTime宣布发行11亿美元可转换优先票据，为收购瑞萨电子计时业务筹资（SiTime Announces $1.1 Billion Convertible Senior Notes Offering to Fund Renesas Timing Business Acquisition）",
+      "url": "https://www.minichart.com.sg/2026/05/23/sitime-announces-1-1-billion-convertible-senior-notes-offering-to-fund-renesas-timing-business-acquisition/",
+      "description": "SiTime Announces $1.1 Billion Convertible Senior Notes Offering to Fund Renesas Timing Business Acquisition – Minichart\n\nSign in to continue:\n\n×\n\nSaturday, May 23rd, 2026\n\n# SiTime Announces $1.1 Billion Convertible Senior Notes Offering to Fund Renesas Timing Business Acquisition\n\n55\n\nViews\n\nSiTime",
+      "published": "2026-05-23T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "能源巨头通过并购加速自动化转型，反映出工业领域对机器人技术提升运营效率的迫切需求。",
-        "半导体及高端制造业的自动化升级趋势正在向更广泛的工业领域蔓延，带动相关技术供应商估值提升。"
+        "SiTime通过可转债融资收购瑞萨计时业务，将进一步垄断高端MEMS计时芯片市场，强化其在时钟解决方案领域的绝对主导地位",
+        "瑞萨剥离计时业务表明其正聚焦核心赛道进行业务瘦身，半导体大厂的业务分拆与聚焦趋势明显"
       ],
       "actions": [
-        "关注工业自动化与机器人领域的并购整合趋势，评估其对半导体制造设备自动化的溢出效应。",
-        "梳理自动化技术供应链，寻找在工业与半导体交叉领域具备潜力的投资或合作标的。"
+        "时钟芯片采购方需评估SiTime垄断市场后的供应链安全及潜在涨价风险",
+        "瑞萨计时业务的现有客户应尽快确认产品线交接过渡期内的供货保障协议"
       ],
       "glossary": [
         {
-          "term": "GE Vernova",
-          "desc": "通用电气（GE）分拆出的能源业务公司，专注于电力、风能和电气化业务",
-          "category": "企业"
+          "term": "Convertible Senior Notes",
+          "desc": "可转换优先票据，可转换为股票的债券融资工具",
+          "category": "金融"
         },
         {
-          "term": "Robotech Automation",
-          "desc": "一家专注于机器人与自动化技术的公司，提供自动化解决方案",
-          "category": "企业"
+          "term": "SiTime",
+          "desc": "美国MEMS计时芯片领先供应商",
+          "category": "公司"
+        },
+        {
+          "term": "Renesas",
+          "desc": "瑞萨电子，日本知名半导体厂商",
+          "category": "公司"
         }
       ],
       "region": "overseas",
-      "summary": "GE Vernova宣布将收购Robotech Automation，旨在加速提升其在机器人与自动化领域的技术能力。",
+      "summary": "SiTime宣布发行11亿美元可转换优先票据，旨在筹集资金用于收购瑞萨电子的计时业务。",
       "tag_category": "综合",
-      "title_en": "GE Vernova to acquire Robotech Automation to accelerate robotics and automation capabilities | GE Vernova News"
+      "title_en": "SiTime Announces $1.1 Billion Convertible Senior Notes Offering to Fund Renesas Timing Business Acquisition – Minichart"
     },
     {
-      "title": "AMD在台积电2nm工艺上量产Venice CPU，并承诺向台湾AI封装投资100亿美元（AMD Ramps Venice CPU on TSMC 2nm, Pledges $10 Billion for Taiwan AI Packaging — BigGo Finance）",
-      "url": "https://finance.biggo.com/news/dIukSZ4BYH_ypPqOi2lg",
-      "description": "AMD Ramps Venice CPU on TSMC 2nm, Pledges $10 Billion for Taiwan AI Packaging — BigGo Finance\n\n# AMD Ramps Venice CPU on TSMC 2nm, Pledges $10 Billion for Taiwan AI Packaging\n\nAMD has begun volume production of its Venice EPYC processor on TSMC’s 2nm process in Taiwan, calling it the industry’s firs",
-      "published": "2026-05-21T00:00:00.000Z",
+      "title": "36氪首发 | 北大项目孵化，国内首家原生机器人“大脑芯片”企业获数亿元融资",
+      "url": "https://36kr.com/p/3821371042877575",
+      "description": "36氪首发 | 北大项目孵化，国内首家原生机器人“大脑芯片”企业获数亿元融资-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 36氪首发 | 北大项目孵化，国内首家原生机器人“大脑芯片”企业获数亿元融资\n\n融合类脑计算与通用GPU计算能力，为具身智能SOTA大模型原生设计。\n\n作者 | 乔钰杰\n\n编辑 | 袁斯来\n\n硬氪获悉，北京维泛智能科技有限公司（以下简称“维泛智能”）近日完成数亿元种子轮融资，由中关村资本及旗下启航投资联合领投，上海未来产业基金、石溪资本、佰维存储、燕创集团、海益投资、探元创投共同",
+      "published": "2026-05-23T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "AMD大举投资台湾AI封装，凸显先进封装已成为AI芯片性能突破的关键瓶颈与核心竞争力。",
-        "台积电2nm工艺量产结合大规模封装投资，表明头部设计公司正通过“先进制程+先进封装”双轨策略抢占AI市场。"
+        "具身智能与机器人赛道正催生对专用“大脑芯片”的强烈需求，通用GPU已无法满足端侧算力与功耗的平衡",
+        "类脑计算架构在机器人端侧推理中展现出高能效优势，成为国产芯片突围的新方向"
       ],
       "actions": [
-        "重新评估先进封装产能的供需格局，提前锁定CoWoS等关键封装资源以应对未来产能紧张。",
-        "关注台积电2nm工艺进展及AMD Venice架构特性，调整下一代AI硬件产品的技术路线图。"
+        "机器人整机厂商应积极对接此类原生大脑芯片企业，开展端侧算力适配与原型验证",
+        "投资者需重点关注类脑计算与具身智能交叉领域的芯片初创团队，把握早期布局机会"
       ],
       "glossary": [
         {
-          "term": "Venice CPU",
-          "desc": "AMD新一代CPU的代号，采用台积电2nm工艺制造",
-          "category": "产品"
+          "term": "具身智能",
+          "desc": "Embodied AI，具有物理身体并能与物理世界交互的智能系统",
+          "category": "技术"
         },
         {
-          "term": "TSMC 2nm",
-          "desc": "台积电的2纳米制程技术，属于下一代先进半导体制造工艺",
-          "category": "制造"
-        },
-        {
-          "term": "AI Packaging",
-          "desc": "专为AI芯片设计的高密度、高性能先进封装技术（如CoWoS等）",
-          "category": "封装"
+          "term": "类脑计算",
+          "desc": "Neuromorphic computing，模仿人脑神经网络结构和计算模式的芯片技术",
+          "category": "技术"
         }
       ],
-      "region": "overseas",
-      "summary": "AMD正基于台积电2nm工艺量产Venice CPU，同时承诺将在台湾AI封装领域投资100亿美元，以强化先进封装布局。",
+      "region": "domestic",
+      "summary": "由北京大学项目孵化的国内首家原生机器人“大脑芯片”企业近期获得数亿元融资，该芯片融合类脑计算与通用GPU计算能力，专为具身智能大模型原生设计。",
       "tag_category": "设计公司",
-      "title_en": "AMD Ramps Venice CPU on TSMC 2nm, Pledges $10 Billion for Taiwan AI Packaging — BigGo Finance"
+      "title_en": "36氪首发 | 北大项目孵化，国内首家原生机器人“大脑芯片”企业获数亿元融资-36氪"
     },
     {
-      "title": "随着全球CPU市场紧缩，AMD正扩大台湾产能（AMD ramping up Taiwan capacity as global CPU market tightens - The Business Times）",
-      "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/amd-ramping-taiwan-capacity-global-cpu-market-tightens",
-      "description": "AMD ramping up Taiwan capacity as global CPU market tightens - The Business Times\n\n# AMD ramping up Taiwan capacity as global CPU market tightens\n\nCPUs are taking centre stage as companies and businesses gravitate towards agentic AI\n\nShare\n\nAdd BT as a preferred source\n\nAdd BT as a preferred source\n",
+      "title": "台积电对英伟达营收的限制防止了AI泡沫（Taiwan Semiconductor Cap on NVIDIA Revenue Prevents AI Bubble）",
+      "url": "https://www.harianbasis.co/en/nvidia-taiwan-semiconductor-ai-revenue",
+      "description": "Taiwan Semiconductor Cap on NVIDIA Revenue Prevents AI Bubble\n\n# Taiwan Semiconductor Cap on NVIDIA Revenue Prevents AI Bubble\n\nMichael Anderson\n\nPublished May 22, 2026 - 14:19\n\nLast Update May 22, 2026 - 14:19\n\nShare\n\nSmallest Font\n\nLargest Font\n\n- NVIDIA(NVDA) generated $215.94B in fiscal 2026 rev",
       "published": "2026-05-22T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "全球CPU市场供需趋紧，头部厂商通过强化在地化产能来抵御供应链中断风险。",
-        "台湾在高端CPU制造与封装环节的集群效应进一步凸显，成为全球芯片设计公司产能扩张的首选地。"
+        "台积电主动限制单一客户（英伟达）的营收占比上限，体现了晶圆代工厂对产能过度集中于单一风口的风险管控",
+        "这种“物理限流”避免了AI算力需求无限扩张导致的供应链崩溃，为其他芯片领域保留了产能空间"
       ],
       "actions": [
-        "评估当前CPU供应紧张对自身服务器及终端产品交付的影响，制定备选采购方案。",
-        "加强与台湾代工及封装厂的沟通，确保在产能扩张期获取优先排产权。"
+        "英伟达之外的AI芯片初创公司应利用台积电限制大客户占比的政策窗口，争取更稳定的代工产能支持",
+        "供应链从业者需关注台积电产能分配策略，合理评估非AI类芯片的交期与产能保障"
       ],
       "glossary": [
         {
-          "term": "Capacity",
-          "desc": "产能，指半导体制造或封装工厂在一定时间内的最大产出量",
-          "category": "制造"
-        }
-      ],
-      "region": "overseas",
-      "summary": "在全球CPU市场供应趋紧的背景下，AMD正积极扩大其在台湾的生产产能，以确保供应链稳定。",
-      "tag_category": "设计公司",
-      "title_en": "AMD ramping up Taiwan capacity as global CPU market tightens - The Business Times"
-    },
-    {
-      "title": "Intel Xeon 6+ \"Clearwater Forest\"采用18A工艺进入量产，配备288个Darkmont E核与576 MB缓存（Intel Xeon 6+ \"Clearwater Forest\" Enters Mass Production on 18A With 288 Darkmont E-Cores, & 576 MB Cache）",
-      "url": "https://wccftech.com/intel-18a-full-production-clearwater-forest-288-darkmont-cores-576-mb-cache-xeon/",
-      "description": "Intel Xeon 6+ \"Clearwater Forest\" Enters Mass Production on 18A With 288 Darkmont E-Cores, & 576 MB Cache\n\n# Intel Xeon 6+ “Clearwater Forest” Enters Mass Production on 18A With 288 Darkmont E-Cores, & 576 MB Cache\n\nIntel has confirmed that its next-gen Clearwater Forest \"Xeon 6+\" CPUs are now in fu",
-      "published": "2026-05-21T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "Intel 18A工艺进入量产，标志着其先进制程追赶战略取得实质性进展，对台积电形成竞争压力。",
-        "高密度E-Core架构与超大缓存的组合，反映出服务器芯片在处理高并发AI与云计算负载时的设计演进方向。"
-      ],
-      "actions": [
-        "评估Intel 18A工艺的良率与产能爬坡情况，为下一代服务器芯片选型提供数据支撑。",
-        "对比Intel Clearwater Forest与AMD Venice在架构与制程上的优劣，优化数据中心硬件采购成本模型。"
-      ],
-      "glossary": [
-        {
-          "term": "Intel 18A",
-          "desc": "Intel的1.8纳米先进制程工艺，是Intel迈向代工战略的关键节点",
-          "category": "制造"
-        },
-        {
-          "term": "E-Core",
-          "desc": "能效核，Intel混合架构中专注于提高能效和处理后台负载的核心",
-          "category": "设计"
-        },
-        {
-          "term": "Clearwater Forest",
-          "desc": "Intel下一代服务器芯片的代号，主打高密度能效核架构",
-          "category": "产品"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Intel的Xeon 6+ \"Clearwater Forest\"服务器芯片已采用18A工艺进入量产阶段，该芯片拥有288个Darkmont能效核及576 MB缓存。",
-      "tag_category": "综合",
-      "title_en": "Intel Xeon 6+ \"Clearwater Forest\" Enters Mass Production on 18A With 288 Darkmont E-Cores, & 576 MB Cache"
-    },
-    {
-      "title": "美商海盗船发布CORSAIR PRO AI工作站和服务器，打造适用于各种规模的完整AI计算栈（CORSAIR PRO launches AI Workstations and Servers, Complete AI Compute Stack Built for Every Scale | CORSAIR Newsroom）",
-      "url": "https://www.corsair.com/jp/ja/_sec/cp_challenge/challenge?type=&provider=crypto&kix=challenge_192167&contenturl=&rt=&powstate=true&powduration=15&powcpu=false&ep=&bs=&rs=&ct=webclient&ou=/newsroom/press-release/corsair-pro-launches-ai-workstations-and-servers-complete-ai-compute-stack-built-for-every-scale&om=HEAD&mo=1&ml=1&chn=5cd0b862b3a1714e122c",
-      "description": "CORSAIR PRO launches AI Workstations and Servers, Complete AI Compute Stack Built for Every Scale | CORSAIR Newsroom\n\nShare\n\nMILPITAS, CA, May 21, 2026 – CORSAIR® (Nasdaq: CRSR) today introduced CORSAIR PRO, a new portfolio of AI systems built for organizations deploying and scaling modern AI worklo",
-      "published": "2026-05-21T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AI算力需求正从云端向边缘和本地工作站下沉，硬件厂商通过提供软硬件一体的全栈方案来降低企业部署门槛。",
-        "服务器与工作站市场的边界正在模糊，PC厂商凭借渠道与品牌优势切入企业级AI基础设施市场。"
-      ],
-      "actions": [
-        "关注CORSAIR等系统厂商的AI全栈方案对传统服务器市场的冲击，评估其供应链变化。",
-        "针对本地AI部署趋势，提前布局适配工作站级别的高性能存储与散热组件。"
-      ],
-      "glossary": [
-        {
-          "term": "AI Compute Stack",
-          "desc": "AI计算栈，指包含硬件、软件、框架等在内的完整人工智能计算架构",
-          "category": "架构"
-        }
-      ],
-      "region": "overseas",
-      "summary": "美商海盗船（CORSAIR）推出CORSAIR PRO系列AI工作站与服务器，提供覆盖各种计算规模的完整AI计算栈解决方案。",
-      "tag_category": "综合",
-      "title_en": "CORSAIR PRO launches AI Workstations and Servers, Complete AI Compute Stack Built for Every Scale | CORSAIR Newsroom"
-    },
-    {
-      "title": "摩尔线程贯通全具身智能链，将中国GPU从机房带入客厅（Moore Threads Bridges the Full Embodied AI Chain, Bringing Chinese GPUs from the Server Room to the Living Room — BigGo Finance）",
-      "url": "https://finance.biggo.com/news/0beJS54BrX5PFN7Bjyv8",
-      "description": "Moore Threads Bridges the Full Embodied AI Chain, Bringing Chinese GPUs from the Server Room to the Living Room — BigGo Finance\n\n# Moore Threads Bridges the Full Embodied AI Chain, Bringing Chinese GPUs from the Server Room to the Living Room\n\nMoore Threads has unveiled its \"cloud-edge-device\" full-",
-      "published": "2026-05-21T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "具身智能成为国产GPU突围的新赛道，要求芯片具备从云端训练到边缘端推理的完整适配能力。",
-        "国产GPU正加速从单一服务器场景向多元化消费级场景渗透，以扩大市场份额和生态影响力。"
-      ],
-      "actions": [
-        "评估摩尔线程等国产GPU在具身智能领域的生态成熟度，寻找软硬件协同的代工或合作机会。",
-        "关注具身智能机器人等新兴终端对边缘算力的需求，调整面向消费级市场的芯片设计规划。"
-      ],
-      "glossary": [
-        {
-          "term": "Embodied AI",
-          "desc": "具身智能，指具有物理身体并能与物理世界交互的智能系统",
-          "category": "技术"
-        },
-        {
-          "term": "Moore Threads",
-          "desc": "摩尔线程，中国本土GPU设计公司",
+          "term": "Taiwan Semiconductor (TSMC)",
+          "desc": "台积电，全球最大的晶圆代工半导体制造厂",
           "category": "公司"
-        }
-      ],
-      "region": "overseas",
-      "summary": "摩尔线程（Moore Threads）宣布其GPU产品已打通全具身智能产业链，推动国产GPU从数据中心向消费级客厅场景落地。",
-      "tag_category": "设计公司",
-      "title_en": "Moore Threads Bridges the Full Embodied AI Chain, Bringing Chinese GPUs from the Server Room to the Living Room — BigGo Finance"
-    },
-    {
-      "title": "光掩模技术面临一系列新挑战（Mask Technology Faces A New Set Of Challenges）",
-      "url": "https://semiengineering.com/mask-technology-faces-a-new-set-of-challenges/",
-      "description": "Mask Technology Faces A New Set Of Challenges\n\nMENU\n\nHome> Manufacturing, Packaging & Materials> Mask Technology Faces A New Set Of Challenges\n\nManufacturing, Packaging & Materials\n\n# Mask Technology Faces A New Set Of Challenges\n\nInspection limits, curvilinear adoption, data volumes, and high-NA EU",
-      "published": "2026-05-21T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "先进工艺节点下，掩模版复杂度与制造成本急剧上升，OPC（光学邻近校正）等计算光刻技术成为关键瓶颈。",
-        "极紫外（EUV）掩模缺陷检测与修复难度极高，直接影响晶圆厂良率与产能释放。"
-      ],
-      "actions": [
-        "优先投资或合作开发高精度掩模检测与修复设备，保障先进制程良率。",
-        "密切关注掩模版供应链的产能与交期风险，提前锁定关键掩模制造资源。"
-      ],
-      "glossary": [
-        {
-          "term": "Mask",
-          "desc": "光掩模/掩模版，用于半导体光刻工艺中将电路图案转移到硅片上的模板",
-          "category": "制造"
         },
         {
-          "term": "OPC",
-          "desc": "光学邻近校正，一种用于修正光刻中光学衍射效应的计算光刻技术",
-          "category": "制造"
+          "term": "AI Bubble",
+          "desc": "AI泡沫，指人工智能领域投资与估值远超实际商业落地价值的过热现象",
+          "category": "市场"
         }
       ],
       "region": "overseas",
-      "summary": "随着半导体制造工艺演进，光掩模（Mask）技术正面临来自精度、复杂度和成本等方面的新挑战。",
-      "tag_category": "Fab/制造",
-      "title_en": "Mask Technology Faces A New Set Of Challenges"
+      "summary": "台积电对英伟达营收占比的产能限制，客观上起到了防止AI产业过热和泡沫化的作用，确保了供应链的健康发展。",
+      "tag_category": "设计公司",
+      "title_en": "Taiwan Semiconductor Cap on NVIDIA Revenue Prevents AI Bubble"
     },
     {
-      "title": "AMD宣布基于台积电2nm工艺的下一代EPYC处理器“Venice”进入量产爬坡阶段（AMD Announces Production Ramp of Next-Generation AMD EPYC Processor “Venice” on TSMC 2nm Process Technology | Markets Insider）",
-      "url": "https://markets.businessinsider.com/news/stocks/amd-announces-production-ramp-of-next-generation-amd-epyc-processor-venice-on-tsmc-2nm-process-technology-1036182211",
-      "description": "AMD Announces Production Ramp of Next-Generation AMD EPYC Processor “Venice” on TSMC 2nm Process Technology | Markets Insider\n\n# AMD Announces Production Ramp of Next-Generation AMD EPYC Processor “Venice” on TSMC 2nm Process Technology\n\nMay. 21, 2026, 01:35 AM\n\nNews Summary:\n\n- AMD has begun produc",
-      "published": "2026-05-21T00:00:00.000Z",
+      "title": "SK海力士目标价首次突破400万韩元大关；韩国综合股价指数11000点在望（SK Hynix Target Price Breaks Into 4 Million Won Territory for First Time; Kospi 11,000 in Sight — BigGo Finance）",
+      "url": "https://finance.biggo.com/news/HboeU54BmHHDnbgyTVOq",
+      "description": "SK Hynix Target Price Breaks Into 4 Million Won Territory for First Time; Kospi 11,000 in Sight — BigGo Finance\n\n# SK Hynix Target Price Breaks Into 4 Million Won Territory for First Time; Kospi 11,000 in Sight\n\nNomura Securities has set a target price for SK Hynix at 4 million won (approximately $2",
+      "published": "2026-05-23T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "台积电2nm工艺获得大客户背书，标志着先进制程节点正式进入高性能计算（HPC）服务器市场商用阶段。",
-        "AMD与台积电的深度绑定策略持续巩固其在数据中心CPU市场的竞争力，对英特尔形成进一步压制。"
+        "HBM等AI内存需求持续强劲，是推升SK海力士估值的核心动力",
+        "半导体龙头股的强劲表现对整体股市指数具有显著的拉动效应"
       ],
       "actions": [
-        "跟踪台积电2nm产能分配与良率进展，评估其对服务器芯片供应链交付节奏的影响。",
-        "针对2nm工艺带来的功耗与性能跃升，提前规划新一代服务器平台的散热与供电升级方案。"
+        "关注SK海力士HBM产能释放进度及其对供应链的溢出效应",
+        "评估韩国股市半导体板块的投资机会与风险"
       ],
       "glossary": [
+        {
+          "term": "Kospi",
+          "desc": "韩国综合股价指数，是韩国证券交易所的主要市场指数",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "SK海力士目标股价首次突破400万韩元大关，反映出市场对其在AI内存领域前景的强烈看好，同时有望推动韩国综合股价指数达到11000点。",
+      "tag_category": "综合",
+      "title_en": "SK Hynix Target Price Breaks Into 4 Million Won Territory for First Time; Kospi 11,000 in Sight — BigGo Finance"
+    },
+    {
+      "title": "面向开发者的英伟达COMPUTEX 2026 AI发布详解（NVIDIA COMPUTEX 2026 AI announcements explained for Developers）",
+      "url": "https://mindwiredai.com/2026/05/22/nvidia-computex-2026-ai-announcements-explained/",
+      "description": "NVIDIA COMPUTEX 2026 AI announcements explained for Developers\n\nHome/ AI NEWS/ NVIDIA COMPUTEX 2026 AI announcements explained for Developers\n\n# NVIDIA COMPUTEX 2026 AI announcements explained for Developers\n\nMay 22, 2026\n\nHome/ AI News/ NVIDIA COMPUTEX 2026 AI announcements explained for Developers",
+      "published": "2026-05-22T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "英伟达持续强化AI开发者生态，通过软硬件协同巩固其CUDA护城河",
+        "开发者工具的迭代升级将加速AI应用从云端向边缘端的渗透"
+      ],
+      "actions": [
+        "开发团队应尽快评估英伟达新发布SDK的兼容性与性能提升潜力",
+        "关注基于新架构的AI模型优化与部署方案，抢占应用先机"
+      ],
+      "glossary": [
+        {
+          "term": "COMPUTEX",
+          "desc": "台北国际电脑展，全球重要的ICT产业专业展览",
+          "category": "展会"
+        }
+      ],
+      "region": "overseas",
+      "summary": "英伟达在COMPUTEX 2026上发布了多项AI相关公告，本文专门为开发者解析了这些新技术和工具的应用前景。",
+      "tag_category": "设计公司",
+      "title_en": "NVIDIA COMPUTEX 2026 AI announcements explained for Developers"
+    },
+    {
+      "title": "HiFS 2026：升级四大数字金融解决方案，加速金融机构迈向代理式银行（HiFS 2026: Upgrading Four Major Digital Finance Solutions to Accelerate Financial Institutions Toward Agentic Banking - 01post.com）",
+      "url": "https://01post.com/hifs-2026-upgrading-four-major-digital-finance-solutions-to-accelerate-financial-institutions-toward-agentic-banking/",
+      "description": "HiFS 2026: Upgrading Four Major Digital Finance Solutions to Accelerate Financial Institutions Toward Agentic Banking - 01post.com\n\nHome/ Press Release\n\n# HiFS 2026: Upgrading Four Major Digital Finance Solutions to Accelerate Financial Institutions Toward Agentic Banking\n\n01Post Team- Writer\n\nSabtu",
+      "published": "2026-05-23T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI Agent正在重塑金融服务业，从被动响应转向主动决策的Agentic架构成为趋势",
+        "金融行业对高可靠、低延迟的AI推理芯片需求将随之激增"
+      ],
+      "actions": [
+        "半导体供应商应关注金融行业Agentic AI转型带来的定制化硬件需求",
+        "评估现有安全芯片与加密方案在支持自主AI代理运行时的合规性"
+      ],
+      "glossary": [
+        {
+          "term": "Agentic Banking",
+          "desc": "代理式银行，指利用自主AI代理进行决策和执行任务的金融服务模式",
+          "category": "应用"
+        }
+      ],
+      "region": "overseas",
+      "summary": "HiFS 2026宣布升级其四大数字金融解决方案，旨在帮助金融机构加速转型为具备自主决策能力的“代理式银行”。",
+      "tag_category": "综合",
+      "title_en": "HiFS 2026: Upgrading Four Major Digital Finance Solutions to Accelerate Financial Institutions Toward Agentic Banking - 01post.com"
+    },
+    {
+      "title": "AMD EPYC“Venice”进入台积电2nm量产，扩展AI基础设施CPU路线图（AMD EPYC “Venice” Enters 2nm Production at TSMC, Extends CPU Roadmap for AI Infrastructure - StorageReview.com）",
+      "url": "https://www.storagereview.com/news/amd-epyc-venice-enters-2nm-production-at-tsmc-extends-cpu-roadmap-for-ai-infrastructure",
+      "description": "AMD EPYC “Venice” Enters 2nm Production at TSMC, Extends CPU Roadmap for AI Infrastructure - StorageReview.com\n\n≡ Menu\n\nby Harold Fritts on May 22, 2026\n\nAMD announced that its next-generation EPYC processor, codenamed “Venice,” has entered production on TSMC’s 2nm process in Taiwan. The company als",
+      "published": "2026-05-22T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "台积电2nm工艺顺利量产，AMD率先切入标志着先进制程竞争进入新阶段",
+        "AI基础设施对CPU的单核性能与多核扩展性要求提升，推动服务器CPU快速迭代"
+      ],
+      "actions": [
+        "服务器整机厂商需提前规划基于2nm EPYC Venice平台的主板与散热设计",
+        "评估2nm产能分配情况，确保自身AI服务器芯片的供应优先级"
+      ],
+      "glossary": [
+        {
+          "term": "2nm",
+          "desc": "半导体先进制程节点，代表下一代晶体管微缩技术（如N2）",
+          "category": "制造"
+        },
         {
           "term": "EPYC",
-          "desc": "AMD的企业级服务器处理器品牌",
+          "desc": "AMD推出的企业级服务器处理器品牌",
           "category": "产品"
-        },
-        {
-          "term": "2nm Process",
-          "desc": "2纳米工艺，指半导体制造的先进节点技术",
-          "category": "制造"
         }
       ],
       "region": "overseas",
-      "summary": "AMD宣布其下一代EPYC服务器处理器“Venice”将采用台积电2nm工艺技术，并已开始量产爬坡。",
+      "summary": "AMD宣布其下一代EPYC处理器“Venice”已在台积电进入2nm量产阶段，进一步扩展了面向AI基础设施的CPU路线图。",
       "tag_category": "设计公司",
-      "title_en": "AMD Announces Production Ramp of Next-Generation AMD EPYC Processor “Venice” on TSMC 2nm Process Technology | Markets Insider"
+      "title_en": "AMD EPYC “Venice” Enters 2nm Production at TSMC, Extends CPU Roadmap for AI Infrastructure - StorageReview.com"
     },
     {
-      "title": "安靠科技目标2030年营收达110亿美元，押注AI封装与亚利桑那产能扩张（Amkor Technology Targets $11B Revenue by 2030 on AI Packaging, Arizona Ramp - The Lincolnian Online）",
-      "url": "https://www.thelincolnianonline.com/2026/05/21/amkor-technology-targets-11b-revenue-by-2030-on-ai-packaging-arizona-ramp.html",
-      "description": "Amkor Technology Targets $11B Revenue by 2030 on AI Packaging, Arizona Ramp - The Lincolnian Online\n\n# Amkor Technology Targets $11B Revenue by 2030 on AI Packaging, Arizona Ramp\n\nPosted by Donald Scott on May 21st, 2026\n\nShare on Twitter Share on Facebook Share on LinkedIn Share on Stocktwits\n\nAmko",
-      "published": "2026-05-21T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AI驱动的高密度封装需求成为OSAT（外包封测）厂商未来增长的核心引擎，先进封装产能供不应求。",
-        "亚利桑那州正成为半导体封装重镇，安靠的本土化产能布局旨在贴近美国大客户并响应地缘政治诉求。"
-      ],
-      "actions": [
-        "评估安靠亚利桑那工厂的先进封装产能释放节奏，调整自身芯片封装外包的订单排期。",
-        "关注美国本土先进封装供应链的崛起，寻找在亚利桑那等地的配套材料或设备合作机会。"
-      ],
-      "glossary": [
-        {
-          "term": "Amkor Technology",
-          "desc": "安靠科技，全球领先的半导体外包封装与测试（OSAT）服务提供商",
-          "category": "公司"
-        },
-        {
-          "term": "OSAT",
-          "desc": "外包半导体封装和测试厂商",
-          "category": "封装"
-        }
-      ],
-      "region": "overseas",
-      "summary": "安靠科技（Amkor）设定2030年营收110亿美元的目标，重点依托AI芯片封装业务及亚利桑那州工厂的产能爬坡。",
-      "tag_category": "Fab/制造",
-      "title_en": "Amkor Technology Targets $11B Revenue by 2030 on AI Packaging, Arizona Ramp - The Lincolnian Online"
-    },
-    {
-      "title": "旭化成开发面向面板级半导体封装的光敏聚酰亚胺薄膜（Asahi Kasei Develops Photosensitive Polyimide Film for Panel-Level Semiconductor Packaging :: I-Connect007）",
-      "url": "https://iconnect007.com/article/150105/asahi-kasei-develops-photosensitive-polyimide-film-for-panellevel-semiconductor-packaging/150102/aep",
-      "description": "Asahi Kasei Develops Photosensitive Polyimide Film for Panel-Level Semiconductor Packaging :: I-Connect007\n\n## News Highlights\n\nNew Senate Bill Supports Reshoring and Restoring U.S. Printed Circuit Board Manufacturing\n\nAsahi Kasei Develops Photosensitive Polyimide Film for Panel-Level Semiconductor ",
-      "published": "2026-05-21T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "面板级封装因能大幅降低封装成本并提升面积利用率，正成为先进封装的新趋势。",
-        "光敏聚酰亚胺（PSPI）作为关键封装材料，其耐热性与光刻精度的提升是突破面板级封装工艺瓶颈的核心。"
-      ],
-      "actions": [
-        "密切关注面板级封装材料（如PSPI）的国产化替代进展，降低对日系材料的依赖风险。",
-        "与材料厂商协同开发适配大尺寸面板级封装的专用胶膜与基板材料，抢占下一代封装技术高地。"
-      ],
-      "glossary": [
-        {
-          "term": "Photosensitive Polyimide",
-          "desc": "光敏聚酰亚胺，一种兼具感光性与高耐热性的先进电子封装材料",
-          "category": "材料"
-        },
-        {
-          "term": "Panel-Level Packaging",
-          "desc": "面板级封装，使用大尺寸面板基板代替传统晶圆进行封装以降低成本的技术",
-          "category": "封装"
-        }
-      ],
-      "region": "overseas",
-      "summary": "旭化成成功开发出适用于面板级半导体封装（PLSP）的新型光敏聚酰亚胺薄膜，助力先进封装基板材料升级。",
-      "tag_category": "Fab/制造",
-      "title_en": "Asahi Kasei Develops Photosensitive Polyimide Film for Panel-Level Semiconductor Packaging :: I-Connect007"
-    },
-    {
-      "title": "派克汉尼汾将收购CIRCOR的商业与国防航空航天业务（Parker to Acquire CIRCOR’s Commercial and Defense Aerospace）",
-      "url": "https://www.globenewswire.com/news-release/2026/05/21/3299438/0/en/Parker-to-Acquire-CIRCOR-s-Commercial-and-Defense-Aerospace-Business.html",
-      "description": "Parker to Acquire CIRCOR’s Commercial and Defense Aerospace\n\n# Parker to Acquire CIRCOR’s Commercial and Defense Aerospace Business\n\nMay 21, 2026 09:20 ET | Source: Parker-Hannifin Corporation Follow Parker-Hannifin Corporation\n\n---\n\nShare\n\n---\n\n- Adds complementary flight-critical motion and flow c",
-      "published": "2026-05-21T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "航空航天领域的并购整合持续发生，大型工业集团通过收购细分领域专业公司来扩充产品线，提升高可靠性系统的整体交付能力。",
-        "随着航空航天系统供应商的集中化，上游针对航空航天级高可靠性芯片和元器件的采购需求也将更加集中，对供应商的资质和长期稳定性要求更高。"
-      ],
-      "actions": [
-        "高可靠性半导体供应商需密切关注派克汉尼汾收购后的供应链整合动向，提前评估并适应其可能调整的元器件采购策略与供应商名录。",
-        "相关芯片分销商应主动对接整合后的新需求体系，确保在供应链重组中不被边缘化。"
-      ],
-      "glossary": [
-        {
-          "term": "Parker-Hannifin",
-          "desc": "派克汉尼汾，全球领先的运动和控制技术与系统制造商，业务涵盖航空航天等多个领域。",
-          "category": "公司"
-        },
-        {
-          "term": "CIRCOR",
-          "desc": "一家专注于流体控制和航空航天等高可靠性应用的工业产品公司。",
-          "category": "公司"
-        }
-      ],
-      "region": "overseas",
-      "summary": "派克汉尼汾（Parker）宣布收购CIRCOR的商业与国防航空航天业务，旨在进一步强化其在航空航天领域的系统级解决方案能力和市场地位。",
-      "tag_category": "综合",
-      "title_en": "Parker to Acquire CIRCOR’s Commercial and Defense Aerospace"
-    },
-    {
-      "title": "Axion Semiconductor收购Moov Technologies（Axion Semiconductor Acquires Moov Technologies | Morningstar）",
-      "url": "https://www.morningstar.com/news/pr-newswire/20260521cl65467/axion-semiconductor-acquires-moov-technologies",
-      "description": "Axion Semiconductor Acquires Moov Technologies | Morningstar\n\nAxion Semiconductor Acquires Moov Technologies\n\n## Axion Semiconductor Acquires Moov Technologies\n\nPR Newswire\n\nGREENWOOD VILLAGE, Colo., May 21, 2026\n\nAxion Semiconductor, founded by semiconductor industry leaders Austin Gill, John Getch",
-      "published": "2026-05-21T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "半导体行业的并购不仅限于巨头，中小型芯片公司也在通过收购特定技术团队或软件/设备技术来补齐短板，加速产品迭代。",
-        "通过并购获取成熟的辅助技术（如Moov可能涉及的半导体设计或制造优化技术），已成为中小型半导体企业突破研发瓶颈的快捷路径。"
-      ],
-      "actions": [
-        "供应链伙伴需追踪Axion Semiconductor收购后的产品路线图变化，评估其对相关细分芯片市场竞争格局的影响。",
-        "相关客户与代工厂应确认Moov原有订单、技术授权与服务的连续性，防范并购过渡期带来的交付风险。"
-      ],
-      "glossary": [
-        {
-          "term": "Axion Semiconductor",
-          "desc": "一家半导体公司，通常涉及特定领域的芯片设计与开发。",
-          "category": "公司"
-        },
-        {
-          "term": "Moov Technologies",
-          "desc": "被收购的技术公司，可能涉及半导体制造、设计自动化或相关软件技术。",
-          "category": "公司"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Axion Semiconductor宣布收购Moov Technologies，此举旨在扩展其技术能力与市场版图，加速公司在半导体领域的业务整合。",
-      "tag_category": "综合",
-      "title_en": "Axion Semiconductor Acquires Moov Technologies | Morningstar"
-    },
-    {
-      "title": "Cycurion收购Secuvant，以自动化和可扩展的威胁防御强力推动AI驱动的网络安全，完美补充HavenX平台（Cycurion Acquires Secuvant, Supercharging AI-Driven Cybersecurity with Automated, Scalable Threat Defense – Perfectly Complements HavenX Platform | Markets Insider）",
-      "url": "https://markets.businessinsider.com/news/stocks/cycurion-acquires-secuvant-supercharging-ai-driven-cybersecurity-with-automated-scalable-threat-defense-perfectly-complements-havenx-platform-1036187848",
-      "description": "Cycurion Acquires Secuvant, Supercharging AI-Driven Cybersecurity with Automated, Scalable Threat Defense – Perfectly Complements HavenX Platform | Markets Insider\n\n# Cycurion Acquires Secuvant, Supercharging AI-Driven Cybersecurity with Automated, Scalable Threat Defense – Perfectly Complements Hav",
+      "title": "安靠科技目标2030年营收达110亿美元，依托AI封装与亚利桑那产能扩张（Amkor Technology Targets $11B Revenue by 2030 on AI Packaging, Arizona Ramp - Stock Observer）",
+      "url": "https://www.thestockobserver.com/2026/05/22/amkor-technology-targets-11b-revenue-by-2030-on-ai-packaging-arizona-ramp.html",
+      "description": "Amkor Technology Targets $11B Revenue by 2030 on AI Packaging, Arizona Ramp - Stock Observer\n\n# Amkor Technology Targets $11B Revenue by 2030 on AI Packaging, Arizona Ramp\n\nPosted by Stanley Muller on May 22nd, 2026\n\nShare on Twitter Share on Facebook Share on LinkedIn Share on Stocktwits\n\nAmkor Tec",
       "published": "2026-05-22T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "网络安全与AI的结合正在加速，针对芯片设计IP、制造数据和供应链的网络安全威胁日益复杂，AI驱动的自动化防御成为刚需。",
-        "并购是快速获取AI安全算法和规模化防御能力的有效途径，网络安全平台化趋势明显，单一功能的安全厂商正被整合进综合平台。"
+        "AI芯片对先进封装的需求正从晶圆代工厂溢出到专业OSAT厂商，带来巨大增量",
+        "美国本土封装产能（如亚利桑那）的崛起，顺应了地缘政治下的供应链本土化要求"
       ],
       "actions": [
-        "芯片供应链企业应审视自身设计数据和制造流程的网络安全防护等级，考虑引入AI驱动的自动化威胁防御方案以应对复杂攻击。",
-        "关注Cycurion HavenX等AI网络安全平台在半导体行业核心资产保护中的应用潜力，评估其作为供应链安全合规工具的可能性。"
+        "关注安靠亚利桑那工厂的客户导入进度，评估美国本土先进封装替代方案",
+        "国内OSAT厂商需加快2.5D/3D封装技术突破，应对国际竞争与地缘分流压力"
       ],
       "glossary": [
         {
-          "term": "AI-Driven Cybersecurity",
-          "desc": "AI驱动的网络安全，利用人工智能技术自动识别、预防和应对网络威胁。",
-          "category": "技术"
+          "term": "OSAT",
+          "desc": "外包半导体封装测试厂商",
+          "category": "封装"
         },
         {
-          "term": "HavenX",
-          "desc": "Cycurion公司旗下的网络安全平台，提供综合性的威胁防御解决方案。",
-          "category": "产品"
+          "term": "Amkor",
+          "desc": "安靠科技，全球领先的半导体封装测试外包服务商",
+          "category": "企业"
         }
       ],
       "region": "overseas",
-      "summary": "Cycurion收购Secuvant，将后者在自动化和可扩展威胁防御方面的能力整合进其AI驱动的网络安全体系，以增强其HavenX平台的功能。",
+      "summary": "安靠科技计划到2030年实现110亿美元营收，其主要增长动力来自AI相关封装业务及亚利桑那州工厂的产能爬坡。",
+      "tag_category": "Fab/制造",
+      "title_en": "Amkor Technology Targets $11B Revenue by 2030 on AI Packaging, Arizona Ramp - Stock Observer"
+    },
+    {
+      "title": "[新闻] 力积电联手英特尔与SAIMEMORY展示高带宽3D内存的9层孔合一架构（[News] PSMC Joins Intel, SAIMEMORY to Demo 9-Layer Via-in-One Architecture for High Bandwidth 3D Memory）",
+      "url": "https://www.trendforce.com/news/2026/05/22/news-psmc-joins-intel-saimemory-to-demo-9-layer-fusion-bonded-via-in-one-architecture-for-high-bandwidth-3d-memory/",
+      "description": "[News] PSMC Joins Intel, SAIMEMORY to Demo 9-Layer Via-in-One Architecture for High Bandwidth 3D Memory\n\n# [News] PSMC Joins Intel, SAIMEMORY to Demo 9-Layer Via-in-One Architecture for High Bandwidth 3D Memory\n\n---\n\n---\n\nAs Intel’s collaboration with SoftBank subsidiary SAIMEMORY on Z-Angle Memory ",
+      "published": "2026-05-22T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "9层堆叠的孔合一架构突破展示了3D内存互联技术的微缩潜力，有望提升带宽密度",
+        "非传统存储巨头（如力积电、SAIMEMORY）通过异业结盟切入高带宽内存市场，打破既有格局"
+      ],
+      "actions": [
+        "跟踪该9层架构的良率与量产可行性，评估其相较于HBM的性价比优势",
+        "封装与测试设备供应商应关注孔合一架构带来的新工艺与新设备需求"
+      ],
+      "glossary": [
+        {
+          "term": "PSMC",
+          "desc": "力积电（Powerchip Semiconductor Manufacturing Corporation），台湾的晶圆代工企业",
+          "category": "企业"
+        },
+        {
+          "term": "Via-in-One",
+          "desc": "孔合一架构，一种3D IC中的垂直互连技术，将多个通孔整合以提升密度与带宽",
+          "category": "封装"
+        }
+      ],
+      "region": "overseas",
+      "summary": "力积电与英特尔及SAIMEMORY合作，成功展示了面向高带宽3D内存的9层孔合一架构。",
       "tag_category": "综合",
-      "title_en": "Cycurion Acquires Secuvant, Supercharging AI-Driven Cybersecurity with Automated, Scalable Threat Defense – Perfectly Complements HavenX Platform | Markets Insider"
+      "title_en": "[News] PSMC Joins Intel, SAIMEMORY to Demo 9-Layer Via-in-One Architecture for High Bandwidth 3D Memory"
+    },
+    {
+      "title": "重大公告：估值40亿美元及每股10.00美元参考价，AGAE将发行股份收购稀缺的东南亚光纤基础设施龙头HyalRoute...（Major Announcement: US$4.0 Billion Valuation and a US$10.00 Per Share Reference Price, AGAE to Issue Shares to Acquire HyalRoute, a Scarce Southeast Asian Fiber-Optic Infrastructure Leader,... | Markets Insider）",
+      "url": "https://markets.businessinsider.com/news/stocks/major-announcement-us-4-0-billion-valuation-and-a-us-10-00-per-share-reference-price-agae-to-issue-shares-to-acquire-hyalroute-a-scarce-southeast-asian-fiber-optic-infrastructure-leader-1036187954",
+      "description": "Major Announcement: US$4.0 Billion Valuation and a US$10.00 Per Share Reference Price, AGAE to Issue Shares to Acquire HyalRoute, a Scarce Southeast Asian Fiber-Optic Infrastructure Leader,... | Markets Insider\n\n# Major Announcement: US$4.0 Billion Valuation and a US$10.00 Per Share Reference Price,",
+      "published": "2026-05-22T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "东南亚数字基础设施建设正成为资本关注焦点，光纤网络作为算力底座具备稀缺性溢价。",
+        "跨国并购重组显示出基础设施资产证券化的趋势，为半导体及通信产业链提供新的融资与退出渠道。"
+      ],
+      "actions": [
+        "关注东南亚光纤及通信基础设施市场的扩张机会，评估相关光通信芯片和器件的需求增量。",
+        "留意AGAE与HyalRoute合并后的资本动向，寻找供应链上下游的合作切入点。"
+      ],
+      "glossary": [
+        {
+          "term": "Fiber-Optic Infrastructure",
+          "desc": "光纤基础设施，基于光纤传输的通信网络物理层设施",
+          "category": "通信"
+        }
+      ],
+      "region": "overseas",
+      "summary": "AGAE宣布以40亿美元估值、每股10美元的参考价发行股份，收购东南亚稀缺的光纤基础设施龙头HyalRoute。此举标志着东南亚数字基础设施资产正加速证券化。",
+      "tag_category": "综合",
+      "title_en": "Major Announcement: US$4.0 Billion Valuation and a US$10.00 Per Share Reference Price, AGAE to Issue Shares to Acquire HyalRoute, a Scarce Southeast Asian Fiber-Optic Infrastructure Leader,... | Markets Insider"
+    },
+    {
+      "title": "美光推进美国本土制造存储器，扩大弗吉尼亚州产能（Micron Advances Made-in-America Memory With Manufacturing Expansion in Virginia | Markets Insider）",
+      "url": "https://markets.businessinsider.com/news/stocks/micron-advances-made-in-america-memory-with-manufacturing-expansion-in-virginia-1036188004",
+      "description": "Micron Advances Made-in-America Memory With Manufacturing Expansion in Virginia | Markets Insider\n\n# Micron Advances Made-in-America Memory With Manufacturing Expansion in Virginia\n\nMay. 22, 2026, 09:25 AM\n\nNews highlights :\n\n- Micron starts manufacturing of 1α (1-alpha) DRAM, the most advanced memo",
+      "published": "2026-05-22T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "美国本土半导体制造回流趋势明显，美光扩产顺应了《芯片与科学法案》的补贴导向与政策要求。",
+        "存储芯片制造的本土化将重塑全球供应链格局，可能增加美国本土下游客户的采购稳定性。"
+      ],
+      "actions": [
+        "美国本土存储器产能扩张将拉动当地半导体设备与材料需求，相关供应商应提前布局认证与切入。",
+        "下游系统厂商需评估美光本土产能的供应节奏，适时调整供应链采购策略以对冲地缘风险。"
+      ],
+      "glossary": [
+        {
+          "term": "Made-in-America",
+          "desc": "美国本土制造，指在美国国内进行的制造业生产，常与政策补贴挂钩",
+          "category": "政策/产业"
+        }
+      ],
+      "region": "overseas",
+      "summary": "美光科技正在扩大其弗吉尼亚州的制造业务，以推进美国本土存储芯片的生产。此举响应了美国本土半导体制造回流的趋势。",
+      "tag_category": "综合",
+      "title_en": "Micron Advances Made-in-America Memory With Manufacturing Expansion in Virginia | Markets Insider"
+    },
+    {
+      "title": "SpaceX S-1文件与Intel Terafab：200亿美元计算交易解析（SpaceX S-1 & Intel Terafab: $20B Compute Deal Unpacked）",
+      "url": "https://stockwirex.com/news/spacex-s1-intel-terafab-compute-may-2026/",
+      "description": "SpaceX S-1 & Intel Terafab: $20B Compute Deal Unpacked\n\n# SpaceX S-1 Names Intel as Partner in $20B Terafab Compute Plan\n\nSpaceX's S-1 filing names Intel as a foundry partner in the $20 billion Terafab project targeting 1 terawatt of annual compute output, while outlining plans for 100 gigawatts of ",
+      "published": "2026-05-22T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "Intel代工业务（IFS）拿下SpaceX巨额订单，证明其在先进制程和大规模计算芯片代工领域的竞争力正在提升。",
+        "航天与AI算力的融合催生了对高性能定制芯片的庞大需求，太空互联网基础设施正成为半导体新增长极。"
+      ],
+      "actions": [
+        "关注Intel代工产能的分配动态，评估其Terafab产线对其他客户交付周期的影响。",
+        "卫星通信及航天产业链企业应加速与先进制程代工厂的合作，锁定高性能计算芯片的产能。"
+      ],
+      "glossary": [
+        {
+          "term": "S-1",
+          "desc": "美国SEC上市招股说明书，企业IPO前必须提交的注册声明文件",
+          "category": "金融"
+        },
+        {
+          "term": "Terafab",
+          "desc": "Intel的大型晶圆制造/代工集群计划，旨在大规模生产先进计算芯片",
+          "category": "Fab/制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "SpaceX的S-1招股书文件披露，Intel作为晶圆代工合作伙伴，参与了其价值200亿美元的Terafab计算计划。这标志着Intel代工业务拿下超级大单。",
+      "tag_category": "Fab/制造",
+      "title_en": "SpaceX S-1 & Intel Terafab: $20B Compute Deal Unpacked"
     }
   ],
   "stats": {
-    "total_raw": 165,
-    "after_dedup": 134,
+    "total_raw": 163,
+    "after_dedup": 136,
     "sources": {
-      "Serper": 2,
-      "Exa": 37,
-      "RSS": 63,
+      "Exa": 40,
+      "RSS": 64,
       "Brave": 32
     }
   },
