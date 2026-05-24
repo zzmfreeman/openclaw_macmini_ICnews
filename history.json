@@ -1,95 +1,5 @@
 [
   {
-    "url": "https://leonliao.substack.com/p/tsmc-the-semiconductor-clock-behind",
-    "title": "TSMC: the Semiconductor Clock Behind the Taiwan Strait",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-03T09:08:00+08:00"
-  },
-  {
-    "url": "https://marklapedus.substack.com/p/q1-26-foundryosat-earnings-hit-or",
-    "title": "Q1 '26 Foundry/OSAT Earnings: Hit Or Miss?",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-03T09:08:00+08:00"
-  },
-  {
-    "url": "https://wccftech.com/review/uperfect-ufree-v-wireless-portable-monitor-review/",
-    "title": "Uperfect UFree V Review: A Wireless “True” Portable Monitor With Incredible Compatibility And Versatility",
-    "published": "Sat, 02 May 2026 20:31:00 +0000",
-    "addedAt": "2026-05-03T09:08:00+08:00"
-  },
-  {
-    "url": "https://wccftech.com/qnap-pairs-6-year-old-zen-2-epyc-with-nvidia-96gb-rtx-pro-6000-blackwell-in-new-edge-ai-nas/",
-    "title": "QNAP Pairs a 6-Year-Old Zen 2 EPYC With NVIDIA’s 96GB RTX PRO 6000 Blackwell in Its New Edge AI NAS",
-    "published": "Sat, 02 May 2026 18:00:06 +0000",
-    "addedAt": "2026-05-03T09:08:00+08:00"
-  },
-  {
-    "url": "https://wccftech.com/sub-1nm-process-node-technology-wont-arrive-till-2034-logic-roadmap-2dfets-sub-0-2nm-2046/",
-    "title": "Sub-1nm Process Technology Won’t Arrive Till 2034, Logic Roadmap Highlights 2D FETs For 0.2nm & Sub 0.2nm Nodes By 2043-2046",
-    "published": "Sat, 02 May 2026 17:00:12 +0000",
-    "addedAt": "2026-05-03T09:08:00+08:00"
-  },
-  {
-    "url": "https://wccftech.com/amd-finally-cracks-hdmi-2-1-on-linux-after-years-of-forum-lockout/",
-    "title": "AMD Finally Cracks HDMI 2.1 On Linux After Years Of Forum Lockout, Thanks To Valve’s Quiet Push",
-    "published": "Sat, 02 May 2026 15:14:18 +0000",
-    "addedAt": "2026-05-03T09:08:00+08:00"
-  },
-  {
-    "url": "https://wccftech.com/amd-ryzen-7-7800x3d-hits-its-lowest-2026-price-at-324/",
-    "title": "AMD’s Ryzen 7 7800X3D Hits Its Lowest 2026 Price At $324, Undercutting The 9800X3D By $126 For Gamers",
-    "published": "Sat, 02 May 2026 14:33:03 +0000",
-    "addedAt": "2026-05-03T09:08:00+08:00"
-  },
-  {
-    "url": "https://wccftech.com/user-walks-out-from-walmart-with-a-ryzen-7-7800x3d-and-7600x-for-just-220/",
-    "title": "User Walks Out From Walmart With A Ryzen 7 7800X3D And 7600X For Just $220",
-    "published": "Sat, 02 May 2026 14:13:27 +0000",
-    "addedAt": "2026-05-03T09:08:00+08:00"
-  },
-  {
-    "url": "https://www.theweek.in/news/biz-tech/2026/05/02/india-ipo-upcoming.html",
-    "title": "Jio、Zepto和塔塔也要上市？印度未来几个月或将迎来股市上市潮",
-    "published": "",
-    "addedAt": "2026-05-03T13:04:00+08:00"
-  },
-  {
-    "url": "https://economictimes.indiatimes.com/tech/technology/ai-chipmaker-cerebras-is-said-to-target-up-to-4-billion-in-ipo/articleshow/130719500.cms",
-    "title": "AI芯片制造商Cerebras据悉将寻求高达40亿美元的IPO",
-    "published": "",
-    "addedAt": "2026-05-03T13:04:00+08:00"
-  },
-  {
-    "url": "https://cryptorank.io/news/feed/ba06a-the-crypto-ipo-wave-has-one-big-problem-bitcoin-is-still-in-charge",
-    "title": "加密货币IPO浪潮有一个大问题：比特币仍在主导地位",
-    "published": "",
-    "addedAt": "2026-05-03T13:04:00+08:00"
-  },
-  {
-    "url": "https://en.globes.co.il/en/article-tower-is-priced-as-a-growth-company-1001539446",
-    "title": "“Tower被定价为一家成长型公司”",
-    "published": "2026-05-04T00:00:00.000Z",
-    "addedAt": "2026-05-03T13:04:00+08:00"
-  },
-  {
-    "url": "https://www.blog.baldengineering.com/2025/04/ibm-and-tokyo-electron-extend-strategic.html",
-    "title": "IBM与东京电子延长战略合作伙伴关系，推进生成式AI时代的芯粒架构与High NA EUV技术",
-    "published": "2026-05-03T00:00:00.000Z",
-    "addedAt": "2026-05-03T13:04:00+08:00"
-  },
-  {
-    "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
-    "title": "使用全波电磁仿真设计宽带LPDA馈源反射面天线",
-    "published": "Fri, 17 Apr 2026 14:00:50 +0000",
-    "addedAt": "2026-05-03T20:03:00+08:00"
-  },
-  {
-    "url": "https://economictimes.indiatimes.com/tech/technology/ai-chipmaker-cerebras-is-said-to-target-up-to-4-billion-in-ipo/articleshow/130719500.cms",
-    "title": "AI芯片制造商Cerebras据称将在IPO中寻求高达40亿美元融资",
-    "published": "",
-    "addedAt": "2026-05-03T20:03:00+08:00"
-  },
-  {
     "url": "https://www.newsbytesapp.com/news/business/ai-chipmaker-cerebras-systems-targets-4b-in-ipo/story",
     "title": "随着AI芯片需求激增，Cerebras计划进行40亿美元IPO",
     "published": "",
@@ -2998,5 +2908,95 @@
     "title": "长鑫存储（CXMT）提交IPO申请：中国DRAM走向成熟",
     "published": "",
     "addedAt": "2026-05-24T20:03:00+08:00"
+  },
+  {
+    "url": "https://finance.sina.com.cn/roll/2026-05-24/doc-inhyypep6014754.shtml",
+    "title": "紫光国微拟19亿收购瑞能半导",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-25T06:04:00+08:00"
+  },
+  {
+    "url": "https://cryptobriefing.com/huawei-122tb-ssd-dob-packaging/",
+    "title": "华为在美国出口管制下利用创新封装技术开发122TB SSD（Huawei develops 122TB SSD using innovative packaging amid US export controls）",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-25T06:04:00+08:00"
+  },
+  {
+    "url": "https://aitechtonic.com/spacex-ipo-reveals-ai-losses-and-anthropic-mega-deal/",
+    "title": "SpaceX IPO揭示AI亏损与Anthropic巨额交易（SpaceX IPO Reveals AI Losses and Anthropic Mega Deal）",
+    "published": "2026-05-23T00:00:00.000Z",
+    "addedAt": "2026-05-25T06:04:00+08:00"
+  },
+  {
+    "url": "https://news.qq.com/rain/a/20260523A06ELV00",
+    "title": "开源鸿蒙机器人操作系统M-Robots OS 2.0重磅发布",
+    "published": "2026-05-23T00:00:00.000Z",
+    "addedAt": "2026-05-25T06:04:00+08:00"
+  },
+  {
+    "url": "https://finance.biggo.com/news/cfoNV54B-PfaobXf-K8b",
+    "title": "三星与SK面临427亿美元奖金时代；美光与台积电斥资809亿美元押注厂房设施（Samsung, SK Face $42.7 Billion Bonus Era; Micron and TSMC Bet $80.9 Billion on Facilities）",
+    "published": "2026-05-23T00:00:00.000Z",
+    "addedAt": "2026-05-25T06:04:00+08:00"
+  },
+  {
+    "url": "https://blog.progressiverobot.com/first-samsung-now-tsmc-rumored-bonus-cuts-put-global-tech-supply-at-risk",
+    "title": "台积电奖金削减与全球供应链稳定性（TSMC Bonus Cuts and Global Supply Chain Stability）",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-25T06:04:00+08:00"
+  },
+  {
+    "url": "https://based.info/amds-10b-taiwan-bet-exposes-the-reshoring-illusion/",
+    "title": "AMD的100亿美元台湾投资暴露了回流的幻象（AMD’s $10B Taiwan Bet Exposes the Reshoring Illusion）",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-25T06:04:00+08:00"
+  },
+  {
+    "url": "https://finance.biggo.com/news/4aMFWJ4BmHHDnbgyAuUV",
+    "title": "黄仁勋提前一周抵达台湾巩固供应链，预告Vera Rubin为“史上最大量产浪潮”（Jensen Huang Arrives in Taiwan a Week Early to Shore Up Supply Chain, Teases Vera Rubin as \"Largest Mass Production Wave in History\"）",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-25T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.noobfeed.com/hardware/amd-epyc-venice-256-core-zen6-server-cpu",
+    "title": "AMD EPYC Venice 2nm 256核Zen 6服务器CPU投入量产，英特尔落后（AMD EPYC Venice 2nm 256-Core Zen 6 Server CPUs Enter Production as Intel Falls Behind）",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-25T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.finanzwire.com/press-release/huawei-etr-hifs-2026-upgrading-four-major-digital-finance-solutions-to-accelerate-financial-institutions-toward-agentic-banking-wfHJMM1Gg27",
+    "title": "华为 | HiFS 2026：升级四大数字金融解决方案，加速金融机构迈向Agentic Banking（Huawei | HiFS 2026: Upgrading Four Major Digital Finance Solutions to Accelerate Financial Institutions Toward Agentic Banking）",
+    "published": "2026-05-23T00:00:00.000Z",
+    "addedAt": "2026-05-25T06:04:00+08:00"
+  },
+  {
+    "url": "https://perplexityaimagazine.com/ai-news/what-comes-after-claude-opus-47-claude-5-karpathy-colossus-2026/",
+    "title": "Claude 5下一代模型2026：Karpathy、Colossus 2及未来展望（Claude 5 Next Model 2026: Karpathy, Colossus 2, What to Expect）",
+    "published": "2026-05-23T00:00:00.000Z",
+    "addedAt": "2026-05-25T06:04:00+08:00"
+  },
+  {
+    "url": "https://viralpique.com/z386-an-open-source-80386-built-around-original-microcode/",
+    "title": "z386：基于原始微代码的开源80386实现（z386: An Open-Source 80386 Built Around Original Microcode）",
+    "published": "2026-05-23T00:00:00.000Z",
+    "addedAt": "2026-05-25T06:04:00+08:00"
+  },
+  {
+    "url": "https://en.sedaily.com/markets/2026/05/24/samsung-electronics-adds-hbm-software-edge-targets-custom",
+    "title": "三星电子增加HBM软件优势，瞄准定制HBM市场（Samsung Electronics Adds HBM Software Edge, Targets Custom HBM Market - Seoul Economic Daily）",
+    "published": "2026-05-23T00:00:00.000Z",
+    "addedAt": "2026-05-25T06:04:00+08:00"
+  },
+  {
+    "url": "https://market-pulse.co/article/19986/agae-acquires-southeast-asia-fiber-giant-for-2-31b-pivots-to-ai-optical-networks",
+    "title": "AGAE以23.1亿美元收购东南亚光纤巨头，转型进军AI光网络（AGAE Acquires Southeast Asia Fiber Giant for $2.31B, Pivots to AI Optical Networks | MarketPulse）",
+    "published": "2026-05-23T00:00:00.000Z",
+    "addedAt": "2026-05-25T06:04:00+08:00"
+  },
+  {
+    "url": "https://pulse2.com/sonar-ai-code-verification-leader-acquires-gitar-to-expand-into-ai-code-review/",
+    "title": "Sonar：AI代码验证领导者收购Gitar，扩展至AI代码审查领域（Sonar: AI Code Verification Leader Acquires Gitar To Expand Into AI Code Review）",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-25T06:04:00+08:00"
   }
 ]
