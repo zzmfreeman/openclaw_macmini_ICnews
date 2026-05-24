@@ -1,7 +1,7 @@
 {
-  "version": "v20260524-0604",
-  "generatedAt": "2026-05-24T06:04:00+08:00",
-  "period": "morning",
+  "version": "v20260524-1302",
+  "generatedAt": "2026-05-24T13:02:00+08:00",
+  "period": "midday",
   "commit": "",
   "glossary_list": [
     {
@@ -20,129 +20,34 @@
       "category": "封装"
     },
     {
-      "term": "Analog Devices (ADI)",
-      "desc": "美国知名模拟半导体公司",
-      "category": "公司"
+      "term": "问界M9",
+      "desc": "华为与赛力斯联合打造的豪华智能SUV车型",
+      "category": "整车"
     },
     {
-      "term": "Empower Semiconductor",
-      "desc": "专注于集成电容电源管理芯片的半导体公司",
-      "category": "公司"
+      "term": "预售价",
+      "desc": "新车正式上市前公布的预期销售价格",
+      "category": "市场"
     },
     {
-      "term": "IPO",
-      "desc": "首次公开募股，企业首次向公众发行股票",
+      "term": "小米YU7 GT",
+      "desc": "小米汽车推出的SUV或GT车型，标志着其产品线扩展",
+      "category": "整车"
+    },
+    {
+      "term": "Pre-IPO",
+      "desc": "首次公开募股前阶段，公司准备上市的过程",
       "category": "金融"
     },
     {
       "term": "SpaceX",
-      "desc": "美国太空探索技术公司，由马斯克创立",
-      "category": "公司"
+      "desc": "美国太空探索技术公司，致力于火箭发射和卫星互联网业务",
+      "category": "终端"
     },
     {
-      "term": "CXMT",
-      "desc": "长鑫存储，中国领先的DRAM存储芯片制造商",
-      "category": "公司"
-    },
-    {
-      "term": "Pre-IPO",
-      "desc": "首次公开募股前阶段",
+      "term": "IPO bubble",
+      "desc": "首次公开募股泡沫，指市场过度炒作导致上市估值远超实际价值",
       "category": "金融"
-    },
-    {
-      "term": "Convertible Senior Notes",
-      "desc": "可转换优先票据，可转换为股票的债券融资工具",
-      "category": "金融"
-    },
-    {
-      "term": "SiTime",
-      "desc": "美国MEMS计时芯片领先供应商",
-      "category": "公司"
-    },
-    {
-      "term": "Renesas",
-      "desc": "瑞萨电子，日本知名半导体厂商",
-      "category": "公司"
-    },
-    {
-      "term": "具身智能",
-      "desc": "Embodied AI，具有物理身体并能与物理世界交互的智能系统",
-      "category": "技术"
-    },
-    {
-      "term": "类脑计算",
-      "desc": "Neuromorphic computing，模仿人脑神经网络结构和计算模式的芯片技术",
-      "category": "技术"
-    },
-    {
-      "term": "Taiwan Semiconductor (TSMC)",
-      "desc": "台积电，全球最大的晶圆代工半导体制造厂",
-      "category": "公司"
-    },
-    {
-      "term": "AI Bubble",
-      "desc": "AI泡沫，指人工智能领域投资与估值远超实际商业落地价值的过热现象",
-      "category": "市场"
-    },
-    {
-      "term": "Kospi",
-      "desc": "韩国综合股价指数，是韩国证券交易所的主要市场指数",
-      "category": "金融"
-    },
-    {
-      "term": "COMPUTEX",
-      "desc": "台北国际电脑展，全球重要的ICT产业专业展览",
-      "category": "展会"
-    },
-    {
-      "term": "Agentic Banking",
-      "desc": "代理式银行，指利用自主AI代理进行决策和执行任务的金融服务模式",
-      "category": "应用"
-    },
-    {
-      "term": "2nm",
-      "desc": "半导体先进制程节点，代表下一代晶体管微缩技术（如N2）",
-      "category": "制造"
-    },
-    {
-      "term": "EPYC",
-      "desc": "AMD推出的企业级服务器处理器品牌",
-      "category": "产品"
-    },
-    {
-      "term": "Amkor",
-      "desc": "安靠科技，全球领先的半导体封装测试外包服务商",
-      "category": "企业"
-    },
-    {
-      "term": "PSMC",
-      "desc": "力积电（Powerchip Semiconductor Manufacturing Corporation），台湾的晶圆代工企业",
-      "category": "企业"
-    },
-    {
-      "term": "Via-in-One",
-      "desc": "孔合一架构，一种3D IC中的垂直互连技术，将多个通孔整合以提升密度与带宽",
-      "category": "封装"
-    },
-    {
-      "term": "Fiber-Optic Infrastructure",
-      "desc": "光纤基础设施，基于光纤传输的通信网络物理层设施",
-      "category": "通信"
-    },
-    {
-      "term": "Made-in-America",
-      "desc": "美国本土制造，指在美国国内进行的制造业生产，常与政策补贴挂钩",
-      "category": "政策/产业"
-    },
-    {
-      "term": "S-1",
-      "desc": "美国SEC上市招股说明书，企业IPO前必须提交的注册声明文件",
-      "category": "金融"
-    },
-    {
-      "term": "Terafab",
-      "desc": "Intel的大型晶圆制造/代工集群计划，旨在大规模生产先进计算芯片",
-      "category": "Fab/制造"
     }
   ],
   "topic_pulse": [
@@ -151,557 +56,217 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS及先进封装的讨论热度有所降温，产能紧缺的焦虑情绪缓解，关注点逐渐转向良率提升与成本优化。"
+      "summary": "近期社区对CoWoS及先进封装的讨论热度明显降温，主要因产能扩张逐步落地，供需紧张情绪缓解。市场关注点正从产能紧缺转向良率提升与成本优化。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度下降，市场对短期供需失衡的担忧减弱，讨论焦点转向下一代HBM技术的规格演进。"
+      "summary": "HBM与AI存储话题热度下降，随着主流AI芯片配套HBM规格定型，短期缺乏新催化剂。社区情绪趋于平稳，讨论重心转向下一代HBM4的规格演进。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中国Fab与先进制程话题降温，社区暂无重大技术突破传闻，情绪趋于平稳观望。"
+      "summary": "中国Fab与先进制程讨论热度回落，近期无重大突破性消息刺激。社区情绪相对谨慎，主要关注成熟制程的产能利用率恢复及本土供应链的稳步渗透。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP讨论热度回落，前期对国产替代的乐观情绪有所平息，业界更关注实际落地验证与生态构建。"
+      "summary": "国产EDA/IP话题降温，短期缺乏重磅替代案例或政策刺激。社区讨论聚焦于特定点工具的突破及在成熟制程中的实际验证进度，情绪偏向务实。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT板块关注度下降，传统封装需求平稳，社区缺乏新的刺激性话题。"
+      "summary": "封测OSAT板块关注度下降，传统封装产能过剩担忧仍在，而先进封装产能则逐步释放。社区讨论热点转向汽车芯片封测需求及OSAT厂商的盈利能力修复。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度降低，近期无新增重磅政策，市场处于政策消化期。"
+      "summary": "出口管制与制裁话题热度降低，近期无新增极端限制政策出台，市场进入政策消化期。社区情绪暂趋平稳，重点讨论现有管制下的合规路径与供应链重组策略。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片及英伟达相关讨论降温，市场对短期算力军备竞赛的预期趋于理性，等待下一代芯片的发布。"
+      "summary": "AI芯片与英伟达相关讨论热度降温，新一代架构发布后的热度逐渐平息。社区焦点转移至英伟达在特定地区受限后的市场份额变动及国产AI芯片的替代窗口。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化讨论热度下降，社区情绪从急迫替代转向对设备验证周期和长期可靠性的理性探讨。"
+      "summary": "设备与材料国产化讨论热度下降，行业进入平稳替代期，缺乏突发性断供事件刺激。社区关注点集中在刻蚀、薄膜等核心前道设备的验证进展及材料本土化率的缓慢提升。"
     }
   ],
   "items": [
     {
-      "title": "为什么模拟器件公司（ADI）斥资15亿美元收购Empower Semiconductor（Why Analog Devices Is Buying Empower Semiconductor for $1.5 Billion）",
-      "url": "https://bizextract.com/market-insight/mergers-acquisitions/analog-devices-empower-semiconductor-acquisition/",
-      "description": "Why Analog Devices Is Buying Empower Semiconductor for $1.5 Billion - bizextract\n\n# Why Analog Devices Is Buying Empower Semiconductor for $1.5 Billion\n\nUS-based semiconductor company Analog Devices has announced the acquisition of Empower Semiconductor in an all-cash deal valued at approximately $1",
-      "published": "2026-05-23T00:00:00.000Z",
+      "title": "全新一代问界M9将于5月27日上市",
+      "url": "https://chejiahao.autohome.com.cn/info/25525010",
+      "description": "全新一代问界M9将于5月27日上市_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n全新一代问界M9将于5月27日上市\n\n盖世汽车\n\n车家号·0浏览·2026-05-20 09:50 · 上海\n\n盖世汽车获悉，全新一代问界M9(参数|询价)将于5月27日正式上市。\n\n在此之前，新款问界M9已于4月22日正式亮相并同步开启预售，其中问界M9预售价格49.98万元起，问界M9 Ultimate领世加长版预售价格66.98",
+      "published": "2026-05-27T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "ADI通过并购整合电源管理领域的技术，反映出模拟芯片市场通过收购实现快速扩张的趋势",
-        "Empower的集成电容技术有望提升ADI在高性能电源管理市场的竞争力"
+        "问界M9的上市将进一步加剧国内高端新能源SUV市场的竞争，推动智能驾驶和座舱芯片的需求增长。",
+        "国内车企扎堆发布新车型，反映出智能汽车供应链正在加速成熟，对车规级半导体的拉动效应明显。"
       ],
       "actions": [
-        "电源管理芯片供应商需关注ADI并购后的产品线整合动向，评估潜在的市场份额变动",
-        "供应链企业应提前对接Empower现有客户，防范并购带来的订单转移风险"
+        "关注问界M9及其他新车型（如理想L9、蔚来ES9）的核心芯片供应商，评估车规级芯片订单增量。",
+        "梳理智能座舱和自动驾驶芯片的国产化替代进度，寻找供应链切入机会。"
       ],
       "glossary": [
         {
-          "term": "Analog Devices (ADI)",
-          "desc": "美国知名模拟半导体公司",
-          "category": "公司"
-        },
-        {
-          "term": "Empower Semiconductor",
-          "desc": "专注于集成电容电源管理芯片的半导体公司",
-          "category": "公司"
+          "term": "问界M9",
+          "desc": "华为与赛力斯联合打造的豪华智能SUV车型",
+          "category": "整车"
         }
       ],
-      "region": "overseas",
-      "summary": "模拟器件公司（ADI）宣布以15亿美元收购Empower Semiconductor，旨在增强其电源管理芯片产品线和技术实力。",
+      "region": "domestic",
+      "summary": "全新一代问界M9确认将于5月27日正式上市，作为国内高端智能电动汽车的代表，其市场表现备受关注。",
       "tag_category": "综合",
-      "title_en": "Why Analog Devices Is Buying Empower Semiconductor for $1.5 Billion - bizextract"
+      "title_en": "全新一代问界M9将于5月27日上市_车家号_发现车生活_汽车之家"
     },
     {
-      "title": "SpaceX申请历史性IPO：目标6月估值达2万亿美元（SpaceX Files for Historic IPO: Eyes $2T Valuation in June）",
-      "url": "https://capitalpulse.org/article/spacex-files-for-historic-ipo-eyes-2t-valuation-in-june",
-      "description": "SpaceX Files for Historic IPO: Eyes $2T Valuation in June - CapitalPulse\n\n## SpaceX Ends Years of Speculation, Files for Monumental June 2026 IPO\n\nNEW YORK, NY – The moment Wall Street and Silicon Valley have anticipated for over a decade is finally here. SpaceX, the revolutionary aerospace manufact",
-      "published": "2026-05-23T00:00:00.000Z",
+      "title": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起",
+      "url": "https://chejiahao.autohome.com.cn/info/25521469",
+      "description": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n全新一代问界M9系列将于5月27日上市，预售价49.98万元起\n\n油城车事\n\n车家号·0浏览·2026-05-19 16:42 · 黑龙江\n\n5月19日，鸿蒙智行对外透露了全新一代问界M9(参数|询价)系列的上市安排，这款备受关注的车型确定将于5月27日正式与消费者见面。作为鸿蒙智行旗下的旗舰SUV，全新一",
+      "published": "2026-05-27T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "SpaceX若以2万亿美元估值上市，将成为史上最大规模IPO之一，极大提振航天及卫星通信产业链的资本市场信心",
-        "其星链业务的规模化盈利预期是支撑高估值的核心，将带动低轨卫星芯片的长期需求"
+        "预售价近50万元表明高端车型对高算力、高性能芯片的容忍度较高，有利于高阶智驾芯片的渗透。",
+        "系列车型的推出意味着产品矩阵细化，不同配置将带动不同层级的车规半导体需求。"
       ],
       "actions": [
-        "卫星通信及航天芯片供应商需加速产能储备，以应对SpaceX上市后可能带来的供应链扩张需求",
-        "投资者应密切关注SpaceX星链业务对低轨卫星芯片市场的拉动效应，提前布局相关概念股"
+        "分析不同配置版本M9的BOM成本，特别是智驾域控制器和座舱域控制器的芯片选型。",
+        "与Tier 1供应商确认M9系列量产节奏，提前锁定相关车规芯片产能。"
       ],
       "glossary": [
         {
-          "term": "IPO",
-          "desc": "首次公开募股，企业首次向公众发行股票",
+          "term": "预售价",
+          "desc": "新车正式上市前公布的预期销售价格",
+          "category": "市场"
+        }
+      ],
+      "region": "domestic",
+      "summary": "全新一代问界M9系列确认于5月27日上市，预售价起步49.98万元，定位高端豪华市场。",
+      "tag_category": "综合",
+      "title_en": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起_车家号_发现车生活_汽车之家"
+    },
+    {
+      "title": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市",
+      "url": "https://chejiahao.autohome.com.cn/info/25397889",
+      "description": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市\n\n酱酱侃车\n\n车家号·0浏览·2026-05-01 12:27 · 北京\n\n北京车展即将落下帷幕，不少新车已经进入倒计时阶段。想买车等不到年底？这个5月，一波重磅车型就要扎堆上市了。统计下来，光5月份就有10多款新车将陆续与消费者见面，涵盖了全",
+      "published": "2026-05-27T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "多款重磅车型扎堆上市，预示着下半年国内新能源车销量可能迎来高峰，车规级芯片库存需提前备足。",
+        "小米YU7 GT等新入局者的量产，将重塑国内汽车芯片供应链格局，可能引入新的芯片供应商体系。"
+      ],
+      "actions": [
+        "盘点理想、蔚来、小米新车型的核心半导体供应商名单，评估供应链切换风险与机遇。",
+        "提前规划功率器件、MCU及传感器等通用车规芯片的产能与备货，应对下半年整车厂拉货需求。"
+      ],
+      "glossary": [
+        {
+          "term": "小米YU7 GT",
+          "desc": "小米汽车推出的SUV或GT车型，标志着其产品线扩展",
+          "category": "整车"
+        }
+      ],
+      "region": "domestic",
+      "summary": "5月份国内新能源汽车市场迎来新车发布潮，理想L9、蔚来ES9及小米YU7 GT等多款重磅车型集中上市。",
+      "tag_category": "综合",
+      "title_en": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市_车家号_发现车生活_汽车之家"
+    },
+    {
+      "title": "SpaceX上市前披露的一个数据揭示了该业务的真实脆弱性",
+      "url": "https://finance.yahoo.com/economy/policy/articles/one-number-spacex-pre-ipo-112835397.html",
+      "description": "Buried inside SpaceX’s pre-IPO disclosures is a single percentage that should make every investor lining up for the $75 billion June 2026 Nasdaq debut pause. It’s a quieter number tucked into a concentration-of-risk footnote, well away from the headline revenue figure and the backlog, and ...",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "SpaceX的IPO虽然估值极高，但其盈利能力的脆弱性提示航天及卫星通信半导体市场仍存在较大不确定性。",
+        "高估值与低盈利能力的反差，可能导致太空科技领域的投资泡沫，进而影响低轨卫星芯片的长期研发资金投入。"
+      ],
+      "actions": [
+        "谨慎评估低轨卫星（LEO）通信芯片及抗辐照器件的市场需求，避免因IPO泡沫过度扩张产能。",
+        "关注SpaceX供应链中的核心半导体供应商，验证其订单的可持续性和实际付款能力。"
+      ],
+      "glossary": [
+        {
+          "term": "Pre-IPO",
+          "desc": "首次公开募股前阶段，公司准备上市的过程",
           "category": "金融"
         },
         {
           "term": "SpaceX",
-          "desc": "美国太空探索技术公司，由马斯克创立",
-          "category": "公司"
+          "desc": "美国太空探索技术公司，致力于火箭发射和卫星互联网业务",
+          "category": "终端"
         }
       ],
       "region": "overseas",
-      "summary": "SpaceX正式申请进行历史性IPO，目标在6月达到2万亿美元的估值，结束多年来的市场猜测。",
+      "summary": "SpaceX在上市前披露文件中的一个关键百分比数据，揭示了其业务模式潜在的脆弱性，可能影响其即将到来的纳斯达克上市估值。",
       "tag_category": "EDA/IP",
-      "title_en": "SpaceX Files for Historic IPO: Eyes $2T Valuation in June - CapitalPulse"
+      "title_en": "One Number From SpaceX’s Pre-IPO Disclosures Reveals Just How Fragile This Business Really Is"
     },
     {
-      "title": "长鑫存储（CXMT）创始人朱一明在IPO前巨额赠股中让出一半股份，揭开中国史上最大个人股权激励计划（CXMT Founder Zhu Yiming Surrenders Half His Stake in Pre-IPO Megagrant, Unveiling China's Largest-Ever Personal Equity Incentive Plan）",
-      "url": "https://finance.biggo.com/news/mzqVVJ4BpwxG186NZ3NX",
-      "description": "CXMT Founder Zhu Yiming Surrenders Half His Stake in Pre-IPO Megagrant, Unveiling China's Largest-Ever Personal Equity Incentive Plan — BigGo Finance\n\n# CXMT Founder Zhu Yiming Surrenders Half His Stake in Pre-IPO Megagrant, Unveiling China's Largest-Ever Personal Equity Incentive Plan\n\nCXMT, China'",
-      "published": "2026-05-23T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
+      "title": "SpaceX与宇宙大爆炸般的IPO泡沫",
+      "url": "https://www.thehindubusinessline.com/portfolio/spacex-ipo-and-the-big-bang-bubble/article71015048.ece",
+      "description": "Explore the hype and skepticism surrounding SpaceX's ambitious IPO, valuing the company at up to $2 trillion amidst unprofitability.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "创始人大规模稀释个人股权激励团队，彰显了国产存储芯片巨头对核心人才的高度依赖与渴求",
-        "此举将极大稳定CXMT在冲刺IPO关键期的人才队伍，提升企业对抗国际巨头的竞争力"
+        "高达2万亿美元的估值与未盈利状态形成巨大反差，反映出市场对太空基础设施和卫星互联网的过度乐观预期。",
+        "若IPO泡沫破裂，将直接影响卫星载荷、通信基带及太空级半导体的采购节奏，引发产业链震荡。"
       ],
       "actions": [
-        "半导体核心人才求职者应重点关注CXMT等即将IPO的国产芯片企业的股权激励机会",
-        "国内芯片设计/制造企业需反思自身人才激励机制，适时加大核心员工持股比例以留住人才"
+        "对卫星互联网相关的芯片项目进行压力测试，确保在SpaceX等大客户资本开支收缩时仍能维持现金流。",
+        "分散客户结构，不仅依赖SpaceX等头部企业，拓展其他卫星运营商或国防航天客户。"
       ],
       "glossary": [
         {
-          "term": "CXMT",
-          "desc": "长鑫存储，中国领先的DRAM存储芯片制造商",
-          "category": "公司"
-        },
-        {
-          "term": "Pre-IPO",
-          "desc": "首次公开募股前阶段",
+          "term": "IPO bubble",
+          "desc": "首次公开募股泡沫，指市场过度炒作导致上市估值远超实际价值",
           "category": "金融"
         }
       ],
       "region": "overseas",
-      "summary": "长鑫存储（CXMT）创始人朱一明在IPO前让出个人一半股份用于股权激励，推出中国半导体行业史上最大规模的个人股权激励计划。",
+      "summary": "探讨围绕SpaceX雄心勃勃的IPO的炒作与质疑，该公司估值高达2万亿美元，但目前尚未实现盈利。",
       "tag_category": "EDA/IP",
-      "title_en": "CXMT Founder Zhu Yiming Surrenders Half His Stake in Pre-IPO Megagrant, Unveiling China's Largest-Ever Personal Equity Incentive Plan — BigGo Finance"
-    },
-    {
-      "title": "SiTime宣布发行11亿美元可转换优先票据，为收购瑞萨电子计时业务筹资（SiTime Announces $1.1 Billion Convertible Senior Notes Offering to Fund Renesas Timing Business Acquisition）",
-      "url": "https://www.minichart.com.sg/2026/05/23/sitime-announces-1-1-billion-convertible-senior-notes-offering-to-fund-renesas-timing-business-acquisition/",
-      "description": "SiTime Announces $1.1 Billion Convertible Senior Notes Offering to Fund Renesas Timing Business Acquisition – Minichart\n\nSign in to continue:\n\n×\n\nSaturday, May 23rd, 2026\n\n# SiTime Announces $1.1 Billion Convertible Senior Notes Offering to Fund Renesas Timing Business Acquisition\n\n55\n\nViews\n\nSiTime",
-      "published": "2026-05-23T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "SiTime通过可转债融资收购瑞萨计时业务，将进一步垄断高端MEMS计时芯片市场，强化其在时钟解决方案领域的绝对主导地位",
-        "瑞萨剥离计时业务表明其正聚焦核心赛道进行业务瘦身，半导体大厂的业务分拆与聚焦趋势明显"
-      ],
-      "actions": [
-        "时钟芯片采购方需评估SiTime垄断市场后的供应链安全及潜在涨价风险",
-        "瑞萨计时业务的现有客户应尽快确认产品线交接过渡期内的供货保障协议"
-      ],
-      "glossary": [
-        {
-          "term": "Convertible Senior Notes",
-          "desc": "可转换优先票据，可转换为股票的债券融资工具",
-          "category": "金融"
-        },
-        {
-          "term": "SiTime",
-          "desc": "美国MEMS计时芯片领先供应商",
-          "category": "公司"
-        },
-        {
-          "term": "Renesas",
-          "desc": "瑞萨电子，日本知名半导体厂商",
-          "category": "公司"
-        }
-      ],
-      "region": "overseas",
-      "summary": "SiTime宣布发行11亿美元可转换优先票据，旨在筹集资金用于收购瑞萨电子的计时业务。",
-      "tag_category": "综合",
-      "title_en": "SiTime Announces $1.1 Billion Convertible Senior Notes Offering to Fund Renesas Timing Business Acquisition – Minichart"
-    },
-    {
-      "title": "36氪首发 | 北大项目孵化，国内首家原生机器人“大脑芯片”企业获数亿元融资",
-      "url": "https://36kr.com/p/3821371042877575",
-      "description": "36氪首发 | 北大项目孵化，国内首家原生机器人“大脑芯片”企业获数亿元融资-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 36氪首发 | 北大项目孵化，国内首家原生机器人“大脑芯片”企业获数亿元融资\n\n融合类脑计算与通用GPU计算能力，为具身智能SOTA大模型原生设计。\n\n作者 | 乔钰杰\n\n编辑 | 袁斯来\n\n硬氪获悉，北京维泛智能科技有限公司（以下简称“维泛智能”）近日完成数亿元种子轮融资，由中关村资本及旗下启航投资联合领投，上海未来产业基金、石溪资本、佰维存储、燕创集团、海益投资、探元创投共同",
-      "published": "2026-05-23T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "具身智能与机器人赛道正催生对专用“大脑芯片”的强烈需求，通用GPU已无法满足端侧算力与功耗的平衡",
-        "类脑计算架构在机器人端侧推理中展现出高能效优势，成为国产芯片突围的新方向"
-      ],
-      "actions": [
-        "机器人整机厂商应积极对接此类原生大脑芯片企业，开展端侧算力适配与原型验证",
-        "投资者需重点关注类脑计算与具身智能交叉领域的芯片初创团队，把握早期布局机会"
-      ],
-      "glossary": [
-        {
-          "term": "具身智能",
-          "desc": "Embodied AI，具有物理身体并能与物理世界交互的智能系统",
-          "category": "技术"
-        },
-        {
-          "term": "类脑计算",
-          "desc": "Neuromorphic computing，模仿人脑神经网络结构和计算模式的芯片技术",
-          "category": "技术"
-        }
-      ],
-      "region": "domestic",
-      "summary": "由北京大学项目孵化的国内首家原生机器人“大脑芯片”企业近期获得数亿元融资，该芯片融合类脑计算与通用GPU计算能力，专为具身智能大模型原生设计。",
-      "tag_category": "设计公司",
-      "title_en": "36氪首发 | 北大项目孵化，国内首家原生机器人“大脑芯片”企业获数亿元融资-36氪"
-    },
-    {
-      "title": "台积电对英伟达营收的限制防止了AI泡沫（Taiwan Semiconductor Cap on NVIDIA Revenue Prevents AI Bubble）",
-      "url": "https://www.harianbasis.co/en/nvidia-taiwan-semiconductor-ai-revenue",
-      "description": "Taiwan Semiconductor Cap on NVIDIA Revenue Prevents AI Bubble\n\n# Taiwan Semiconductor Cap on NVIDIA Revenue Prevents AI Bubble\n\nMichael Anderson\n\nPublished May 22, 2026 - 14:19\n\nLast Update May 22, 2026 - 14:19\n\nShare\n\nSmallest Font\n\nLargest Font\n\n- NVIDIA(NVDA) generated $215.94B in fiscal 2026 rev",
-      "published": "2026-05-22T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "台积电主动限制单一客户（英伟达）的营收占比上限，体现了晶圆代工厂对产能过度集中于单一风口的风险管控",
-        "这种“物理限流”避免了AI算力需求无限扩张导致的供应链崩溃，为其他芯片领域保留了产能空间"
-      ],
-      "actions": [
-        "英伟达之外的AI芯片初创公司应利用台积电限制大客户占比的政策窗口，争取更稳定的代工产能支持",
-        "供应链从业者需关注台积电产能分配策略，合理评估非AI类芯片的交期与产能保障"
-      ],
-      "glossary": [
-        {
-          "term": "Taiwan Semiconductor (TSMC)",
-          "desc": "台积电，全球最大的晶圆代工半导体制造厂",
-          "category": "公司"
-        },
-        {
-          "term": "AI Bubble",
-          "desc": "AI泡沫，指人工智能领域投资与估值远超实际商业落地价值的过热现象",
-          "category": "市场"
-        }
-      ],
-      "region": "overseas",
-      "summary": "台积电对英伟达营收占比的产能限制，客观上起到了防止AI产业过热和泡沫化的作用，确保了供应链的健康发展。",
-      "tag_category": "设计公司",
-      "title_en": "Taiwan Semiconductor Cap on NVIDIA Revenue Prevents AI Bubble"
-    },
-    {
-      "title": "SK海力士目标价首次突破400万韩元大关；韩国综合股价指数11000点在望（SK Hynix Target Price Breaks Into 4 Million Won Territory for First Time; Kospi 11,000 in Sight — BigGo Finance）",
-      "url": "https://finance.biggo.com/news/HboeU54BmHHDnbgyTVOq",
-      "description": "SK Hynix Target Price Breaks Into 4 Million Won Territory for First Time; Kospi 11,000 in Sight — BigGo Finance\n\n# SK Hynix Target Price Breaks Into 4 Million Won Territory for First Time; Kospi 11,000 in Sight\n\nNomura Securities has set a target price for SK Hynix at 4 million won (approximately $2",
-      "published": "2026-05-23T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "HBM等AI内存需求持续强劲，是推升SK海力士估值的核心动力",
-        "半导体龙头股的强劲表现对整体股市指数具有显著的拉动效应"
-      ],
-      "actions": [
-        "关注SK海力士HBM产能释放进度及其对供应链的溢出效应",
-        "评估韩国股市半导体板块的投资机会与风险"
-      ],
-      "glossary": [
-        {
-          "term": "Kospi",
-          "desc": "韩国综合股价指数，是韩国证券交易所的主要市场指数",
-          "category": "金融"
-        }
-      ],
-      "region": "overseas",
-      "summary": "SK海力士目标股价首次突破400万韩元大关，反映出市场对其在AI内存领域前景的强烈看好，同时有望推动韩国综合股价指数达到11000点。",
-      "tag_category": "综合",
-      "title_en": "SK Hynix Target Price Breaks Into 4 Million Won Territory for First Time; Kospi 11,000 in Sight — BigGo Finance"
-    },
-    {
-      "title": "面向开发者的英伟达COMPUTEX 2026 AI发布详解（NVIDIA COMPUTEX 2026 AI announcements explained for Developers）",
-      "url": "https://mindwiredai.com/2026/05/22/nvidia-computex-2026-ai-announcements-explained/",
-      "description": "NVIDIA COMPUTEX 2026 AI announcements explained for Developers\n\nHome/ AI NEWS/ NVIDIA COMPUTEX 2026 AI announcements explained for Developers\n\n# NVIDIA COMPUTEX 2026 AI announcements explained for Developers\n\nMay 22, 2026\n\nHome/ AI News/ NVIDIA COMPUTEX 2026 AI announcements explained for Developers",
-      "published": "2026-05-22T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "英伟达持续强化AI开发者生态，通过软硬件协同巩固其CUDA护城河",
-        "开发者工具的迭代升级将加速AI应用从云端向边缘端的渗透"
-      ],
-      "actions": [
-        "开发团队应尽快评估英伟达新发布SDK的兼容性与性能提升潜力",
-        "关注基于新架构的AI模型优化与部署方案，抢占应用先机"
-      ],
-      "glossary": [
-        {
-          "term": "COMPUTEX",
-          "desc": "台北国际电脑展，全球重要的ICT产业专业展览",
-          "category": "展会"
-        }
-      ],
-      "region": "overseas",
-      "summary": "英伟达在COMPUTEX 2026上发布了多项AI相关公告，本文专门为开发者解析了这些新技术和工具的应用前景。",
-      "tag_category": "设计公司",
-      "title_en": "NVIDIA COMPUTEX 2026 AI announcements explained for Developers"
-    },
-    {
-      "title": "HiFS 2026：升级四大数字金融解决方案，加速金融机构迈向代理式银行（HiFS 2026: Upgrading Four Major Digital Finance Solutions to Accelerate Financial Institutions Toward Agentic Banking - 01post.com）",
-      "url": "https://01post.com/hifs-2026-upgrading-four-major-digital-finance-solutions-to-accelerate-financial-institutions-toward-agentic-banking/",
-      "description": "HiFS 2026: Upgrading Four Major Digital Finance Solutions to Accelerate Financial Institutions Toward Agentic Banking - 01post.com\n\nHome/ Press Release\n\n# HiFS 2026: Upgrading Four Major Digital Finance Solutions to Accelerate Financial Institutions Toward Agentic Banking\n\n01Post Team- Writer\n\nSabtu",
-      "published": "2026-05-23T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AI Agent正在重塑金融服务业，从被动响应转向主动决策的Agentic架构成为趋势",
-        "金融行业对高可靠、低延迟的AI推理芯片需求将随之激增"
-      ],
-      "actions": [
-        "半导体供应商应关注金融行业Agentic AI转型带来的定制化硬件需求",
-        "评估现有安全芯片与加密方案在支持自主AI代理运行时的合规性"
-      ],
-      "glossary": [
-        {
-          "term": "Agentic Banking",
-          "desc": "代理式银行，指利用自主AI代理进行决策和执行任务的金融服务模式",
-          "category": "应用"
-        }
-      ],
-      "region": "overseas",
-      "summary": "HiFS 2026宣布升级其四大数字金融解决方案，旨在帮助金融机构加速转型为具备自主决策能力的“代理式银行”。",
-      "tag_category": "综合",
-      "title_en": "HiFS 2026: Upgrading Four Major Digital Finance Solutions to Accelerate Financial Institutions Toward Agentic Banking - 01post.com"
-    },
-    {
-      "title": "AMD EPYC“Venice”进入台积电2nm量产，扩展AI基础设施CPU路线图（AMD EPYC “Venice” Enters 2nm Production at TSMC, Extends CPU Roadmap for AI Infrastructure - StorageReview.com）",
-      "url": "https://www.storagereview.com/news/amd-epyc-venice-enters-2nm-production-at-tsmc-extends-cpu-roadmap-for-ai-infrastructure",
-      "description": "AMD EPYC “Venice” Enters 2nm Production at TSMC, Extends CPU Roadmap for AI Infrastructure - StorageReview.com\n\n≡ Menu\n\nby Harold Fritts on May 22, 2026\n\nAMD announced that its next-generation EPYC processor, codenamed “Venice,” has entered production on TSMC’s 2nm process in Taiwan. The company als",
-      "published": "2026-05-22T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "台积电2nm工艺顺利量产，AMD率先切入标志着先进制程竞争进入新阶段",
-        "AI基础设施对CPU的单核性能与多核扩展性要求提升，推动服务器CPU快速迭代"
-      ],
-      "actions": [
-        "服务器整机厂商需提前规划基于2nm EPYC Venice平台的主板与散热设计",
-        "评估2nm产能分配情况，确保自身AI服务器芯片的供应优先级"
-      ],
-      "glossary": [
-        {
-          "term": "2nm",
-          "desc": "半导体先进制程节点，代表下一代晶体管微缩技术（如N2）",
-          "category": "制造"
-        },
-        {
-          "term": "EPYC",
-          "desc": "AMD推出的企业级服务器处理器品牌",
-          "category": "产品"
-        }
-      ],
-      "region": "overseas",
-      "summary": "AMD宣布其下一代EPYC处理器“Venice”已在台积电进入2nm量产阶段，进一步扩展了面向AI基础设施的CPU路线图。",
-      "tag_category": "设计公司",
-      "title_en": "AMD EPYC “Venice” Enters 2nm Production at TSMC, Extends CPU Roadmap for AI Infrastructure - StorageReview.com"
-    },
-    {
-      "title": "安靠科技目标2030年营收达110亿美元，依托AI封装与亚利桑那产能扩张（Amkor Technology Targets $11B Revenue by 2030 on AI Packaging, Arizona Ramp - Stock Observer）",
-      "url": "https://www.thestockobserver.com/2026/05/22/amkor-technology-targets-11b-revenue-by-2030-on-ai-packaging-arizona-ramp.html",
-      "description": "Amkor Technology Targets $11B Revenue by 2030 on AI Packaging, Arizona Ramp - Stock Observer\n\n# Amkor Technology Targets $11B Revenue by 2030 on AI Packaging, Arizona Ramp\n\nPosted by Stanley Muller on May 22nd, 2026\n\nShare on Twitter Share on Facebook Share on LinkedIn Share on Stocktwits\n\nAmkor Tec",
-      "published": "2026-05-22T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AI芯片对先进封装的需求正从晶圆代工厂溢出到专业OSAT厂商，带来巨大增量",
-        "美国本土封装产能（如亚利桑那）的崛起，顺应了地缘政治下的供应链本土化要求"
-      ],
-      "actions": [
-        "关注安靠亚利桑那工厂的客户导入进度，评估美国本土先进封装替代方案",
-        "国内OSAT厂商需加快2.5D/3D封装技术突破，应对国际竞争与地缘分流压力"
-      ],
-      "glossary": [
-        {
-          "term": "OSAT",
-          "desc": "外包半导体封装测试厂商",
-          "category": "封装"
-        },
-        {
-          "term": "Amkor",
-          "desc": "安靠科技，全球领先的半导体封装测试外包服务商",
-          "category": "企业"
-        }
-      ],
-      "region": "overseas",
-      "summary": "安靠科技计划到2030年实现110亿美元营收，其主要增长动力来自AI相关封装业务及亚利桑那州工厂的产能爬坡。",
-      "tag_category": "Fab/制造",
-      "title_en": "Amkor Technology Targets $11B Revenue by 2030 on AI Packaging, Arizona Ramp - Stock Observer"
-    },
-    {
-      "title": "[新闻] 力积电联手英特尔与SAIMEMORY展示高带宽3D内存的9层孔合一架构（[News] PSMC Joins Intel, SAIMEMORY to Demo 9-Layer Via-in-One Architecture for High Bandwidth 3D Memory）",
-      "url": "https://www.trendforce.com/news/2026/05/22/news-psmc-joins-intel-saimemory-to-demo-9-layer-fusion-bonded-via-in-one-architecture-for-high-bandwidth-3d-memory/",
-      "description": "[News] PSMC Joins Intel, SAIMEMORY to Demo 9-Layer Via-in-One Architecture for High Bandwidth 3D Memory\n\n# [News] PSMC Joins Intel, SAIMEMORY to Demo 9-Layer Via-in-One Architecture for High Bandwidth 3D Memory\n\n---\n\n---\n\nAs Intel’s collaboration with SoftBank subsidiary SAIMEMORY on Z-Angle Memory ",
-      "published": "2026-05-22T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "9层堆叠的孔合一架构突破展示了3D内存互联技术的微缩潜力，有望提升带宽密度",
-        "非传统存储巨头（如力积电、SAIMEMORY）通过异业结盟切入高带宽内存市场，打破既有格局"
-      ],
-      "actions": [
-        "跟踪该9层架构的良率与量产可行性，评估其相较于HBM的性价比优势",
-        "封装与测试设备供应商应关注孔合一架构带来的新工艺与新设备需求"
-      ],
-      "glossary": [
-        {
-          "term": "PSMC",
-          "desc": "力积电（Powerchip Semiconductor Manufacturing Corporation），台湾的晶圆代工企业",
-          "category": "企业"
-        },
-        {
-          "term": "Via-in-One",
-          "desc": "孔合一架构，一种3D IC中的垂直互连技术，将多个通孔整合以提升密度与带宽",
-          "category": "封装"
-        }
-      ],
-      "region": "overseas",
-      "summary": "力积电与英特尔及SAIMEMORY合作，成功展示了面向高带宽3D内存的9层孔合一架构。",
-      "tag_category": "综合",
-      "title_en": "[News] PSMC Joins Intel, SAIMEMORY to Demo 9-Layer Via-in-One Architecture for High Bandwidth 3D Memory"
-    },
-    {
-      "title": "重大公告：估值40亿美元及每股10.00美元参考价，AGAE将发行股份收购稀缺的东南亚光纤基础设施龙头HyalRoute...（Major Announcement: US$4.0 Billion Valuation and a US$10.00 Per Share Reference Price, AGAE to Issue Shares to Acquire HyalRoute, a Scarce Southeast Asian Fiber-Optic Infrastructure Leader,... | Markets Insider）",
-      "url": "https://markets.businessinsider.com/news/stocks/major-announcement-us-4-0-billion-valuation-and-a-us-10-00-per-share-reference-price-agae-to-issue-shares-to-acquire-hyalroute-a-scarce-southeast-asian-fiber-optic-infrastructure-leader-1036187954",
-      "description": "Major Announcement: US$4.0 Billion Valuation and a US$10.00 Per Share Reference Price, AGAE to Issue Shares to Acquire HyalRoute, a Scarce Southeast Asian Fiber-Optic Infrastructure Leader,... | Markets Insider\n\n# Major Announcement: US$4.0 Billion Valuation and a US$10.00 Per Share Reference Price,",
-      "published": "2026-05-22T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "东南亚数字基础设施建设正成为资本关注焦点，光纤网络作为算力底座具备稀缺性溢价。",
-        "跨国并购重组显示出基础设施资产证券化的趋势，为半导体及通信产业链提供新的融资与退出渠道。"
-      ],
-      "actions": [
-        "关注东南亚光纤及通信基础设施市场的扩张机会，评估相关光通信芯片和器件的需求增量。",
-        "留意AGAE与HyalRoute合并后的资本动向，寻找供应链上下游的合作切入点。"
-      ],
-      "glossary": [
-        {
-          "term": "Fiber-Optic Infrastructure",
-          "desc": "光纤基础设施，基于光纤传输的通信网络物理层设施",
-          "category": "通信"
-        }
-      ],
-      "region": "overseas",
-      "summary": "AGAE宣布以40亿美元估值、每股10美元的参考价发行股份，收购东南亚稀缺的光纤基础设施龙头HyalRoute。此举标志着东南亚数字基础设施资产正加速证券化。",
-      "tag_category": "综合",
-      "title_en": "Major Announcement: US$4.0 Billion Valuation and a US$10.00 Per Share Reference Price, AGAE to Issue Shares to Acquire HyalRoute, a Scarce Southeast Asian Fiber-Optic Infrastructure Leader,... | Markets Insider"
-    },
-    {
-      "title": "美光推进美国本土制造存储器，扩大弗吉尼亚州产能（Micron Advances Made-in-America Memory With Manufacturing Expansion in Virginia | Markets Insider）",
-      "url": "https://markets.businessinsider.com/news/stocks/micron-advances-made-in-america-memory-with-manufacturing-expansion-in-virginia-1036188004",
-      "description": "Micron Advances Made-in-America Memory With Manufacturing Expansion in Virginia | Markets Insider\n\n# Micron Advances Made-in-America Memory With Manufacturing Expansion in Virginia\n\nMay. 22, 2026, 09:25 AM\n\nNews highlights :\n\n- Micron starts manufacturing of 1α (1-alpha) DRAM, the most advanced memo",
-      "published": "2026-05-22T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "美国本土半导体制造回流趋势明显，美光扩产顺应了《芯片与科学法案》的补贴导向与政策要求。",
-        "存储芯片制造的本土化将重塑全球供应链格局，可能增加美国本土下游客户的采购稳定性。"
-      ],
-      "actions": [
-        "美国本土存储器产能扩张将拉动当地半导体设备与材料需求，相关供应商应提前布局认证与切入。",
-        "下游系统厂商需评估美光本土产能的供应节奏，适时调整供应链采购策略以对冲地缘风险。"
-      ],
-      "glossary": [
-        {
-          "term": "Made-in-America",
-          "desc": "美国本土制造，指在美国国内进行的制造业生产，常与政策补贴挂钩",
-          "category": "政策/产业"
-        }
-      ],
-      "region": "overseas",
-      "summary": "美光科技正在扩大其弗吉尼亚州的制造业务，以推进美国本土存储芯片的生产。此举响应了美国本土半导体制造回流的趋势。",
-      "tag_category": "综合",
-      "title_en": "Micron Advances Made-in-America Memory With Manufacturing Expansion in Virginia | Markets Insider"
-    },
-    {
-      "title": "SpaceX S-1文件与Intel Terafab：200亿美元计算交易解析（SpaceX S-1 & Intel Terafab: $20B Compute Deal Unpacked）",
-      "url": "https://stockwirex.com/news/spacex-s1-intel-terafab-compute-may-2026/",
-      "description": "SpaceX S-1 & Intel Terafab: $20B Compute Deal Unpacked\n\n# SpaceX S-1 Names Intel as Partner in $20B Terafab Compute Plan\n\nSpaceX's S-1 filing names Intel as a foundry partner in the $20 billion Terafab project targeting 1 terawatt of annual compute output, while outlining plans for 100 gigawatts of ",
-      "published": "2026-05-22T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "Intel代工业务（IFS）拿下SpaceX巨额订单，证明其在先进制程和大规模计算芯片代工领域的竞争力正在提升。",
-        "航天与AI算力的融合催生了对高性能定制芯片的庞大需求，太空互联网基础设施正成为半导体新增长极。"
-      ],
-      "actions": [
-        "关注Intel代工产能的分配动态，评估其Terafab产线对其他客户交付周期的影响。",
-        "卫星通信及航天产业链企业应加速与先进制程代工厂的合作，锁定高性能计算芯片的产能。"
-      ],
-      "glossary": [
-        {
-          "term": "S-1",
-          "desc": "美国SEC上市招股说明书，企业IPO前必须提交的注册声明文件",
-          "category": "金融"
-        },
-        {
-          "term": "Terafab",
-          "desc": "Intel的大型晶圆制造/代工集群计划，旨在大规模生产先进计算芯片",
-          "category": "Fab/制造"
-        }
-      ],
-      "region": "overseas",
-      "summary": "SpaceX的S-1招股书文件披露，Intel作为晶圆代工合作伙伴，参与了其价值200亿美元的Terafab计算计划。这标志着Intel代工业务拿下超级大单。",
-      "tag_category": "Fab/制造",
-      "title_en": "SpaceX S-1 & Intel Terafab: $20B Compute Deal Unpacked"
+      "title_en": "SpaceX and the Big Bang IPO bubble - The HinduBusinessLine"
     }
   ],
   "stats": {
-    "total_raw": 163,
-    "after_dedup": 136,
+    "total_raw": 90,
+    "after_dedup": 86,
     "sources": {
-      "Exa": 40,
+      "Exa": 12,
       "RSS": 64,
-      "Brave": 32
+      "Brave": 10
     }
   },
   "code_version": "",

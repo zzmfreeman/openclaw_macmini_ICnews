@@ -1,6 +1,6 @@
 {
-  "version": "v20260523-1303",
-  "generatedAt": "2026-05-23T13:03:00+08:00",
+  "version": "v20260524-1302",
+  "generatedAt": "2026-05-24T13:02:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [
@@ -22,37 +22,32 @@
     {
       "term": "问界M9",
       "desc": "华为与赛力斯联合打造的豪华智能SUV车型",
-      "category": "终端产品"
+      "category": "整车"
     },
     {
-      "term": "BOM",
-      "desc": "物料清单，产品所有组件和零部件的成本与构成清单",
-      "category": "供应链"
+      "term": "预售价",
+      "desc": "新车正式上市前公布的预期销售价格",
+      "category": "市场"
     },
     {
-      "term": "车规级MCU",
-      "desc": "符合汽车电子AEC-Q100标准要求的微控制器单元",
-      "category": "芯片"
+      "term": "小米YU7 GT",
+      "desc": "小米汽车推出的SUV或GT车型，标志着其产品线扩展",
+      "category": "整车"
     },
     {
-      "term": "Export Controls",
-      "desc": "出口管制，政府限制特定关键技术或产品向特定国家境外输出的政策",
-      "category": "政策/合规"
+      "term": "Pre-IPO",
+      "desc": "首次公开募股前阶段，公司准备上市的过程",
+      "category": "金融"
     },
     {
-      "term": "YMTC",
-      "desc": "长江存储，中国本土3D NAND闪存芯片核心制造商",
-      "category": "公司"
+      "term": "SpaceX",
+      "desc": "美国太空探索技术公司，致力于火箭发射和卫星互联网业务",
+      "category": "终端"
     },
     {
-      "term": "CXMT",
-      "desc": "长鑫存储，中国本土DRAM内存芯片核心制造商",
-      "category": "公司"
-    },
-    {
-      "term": "Kioxia",
-      "desc": "铠侠，原东芝内存，全球NAND闪存主要供应商",
-      "category": "公司"
+      "term": "IPO bubble",
+      "desc": "首次公开募股泡沫，指市场过度炒作导致上市估值远超实际价值",
+      "category": "金融"
     }
   ],
   "topic_pulse": [
@@ -61,56 +56,56 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS产能扩张的关注度有所降温，主要因台积电扩产节奏逐步明朗，短期供需矛盾缓解。讨论焦点正转向先进封装的良率提升与成本优化问题。"
+      "summary": "近期社区对CoWoS及先进封装的讨论热度明显降温，主要因产能扩张逐步落地，供需紧张情绪缓解。市场关注点正从产能紧缺转向良率提升与成本优化。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "随着HBM产能逐步释放，市场对AI存储极度紧缺的焦虑情绪降温。社区讨论从抢产能转向关注HBM3e的验证进度及下一代HBM4的技术路线。"
+      "summary": "HBM与AI存储话题热度下降，随着主流AI芯片配套HBM规格定型，短期缺乏新催化剂。社区情绪趋于平稳，讨论重心转向下一代HBM4的规格演进。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产先进制程话题热度回落，可能处于技术突破的静默期。社区情绪趋于理性，关注点从情绪化的突破预期转向良率爬坡和实际量产能力的验证。"
+      "summary": "中国Fab与先进制程讨论热度回落，近期无重大突破性消息刺激。社区情绪相对谨慎，主要关注成熟制程的产能利用率恢复及本土供应链的稳步渗透。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP板块情绪降温，市场正消化前期的政策利好预期。讨论重点转向具体工具链在先进制程中的实际渗透率及客户反馈。"
+      "summary": "国产EDA/IP话题降温，短期缺乏重磅替代案例或政策刺激。社区讨论聚焦于特定点工具的突破及在成熟制程中的实际验证进度，情绪偏向务实。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT热度下降，传统封装需求进入平稳期。社区关注点聚焦于OSAT厂商在先进封装领域的资本开支回报率及与晶圆厂的合作模式。"
+      "summary": "封测OSAT板块关注度下降，传统封装产能过剩担忧仍在，而先进封装产能则逐步释放。社区讨论热点转向汽车芯片封测需求及OSAT厂商的盈利能力修复。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制话题热度降温，短期内无新增极端制裁政策出台，市场进入政策观察期。讨论热点转向现有管制框架下的合规实操及供应链绕道方案的稳定性。"
+      "summary": "出口管制与制裁话题热度降低，近期无新增极端限制政策出台，市场进入政策消化期。社区情绪暂趋平稳，重点讨论现有管制下的合规路径与供应链重组策略。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "NVIDIA及AI芯片板块热度回调，市场对短期算力需求的预期趋于理性。社区讨论重心转移至英伟达下一代架构的规格预测及推理侧芯片的市场格局变化。"
+      "summary": "AI芯片与英伟达相关讨论热度降温，新一代架构发布后的热度逐渐平息。社区焦点转移至英伟达在特定地区受限后的市场份额变动及国产AI芯片的替代窗口。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化热度降温，行业进入订单兑现与产品验证的务实阶段。社区讨论从概念炒作转向具体国产设备的工艺覆盖能力及在产线上的实际替代比例。"
+      "summary": "设备与材料国产化讨论热度下降，行业进入平稳替代期，缺乏突发性断供事件刺激。社区关注点集中在刻蚀、薄膜等核心前道设备的验证进展及材料本土化率的缓慢提升。"
     }
   ],
   "items": [
@@ -124,22 +119,22 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "高端智能汽车市场竞争持续加剧，问界M9的快速迭代反映出国内车企在智能化和高端化路线上的坚定投入。",
-        "华为智选车模式在终端市场的渗透力与品牌溢价进一步得到验证，带动相关智能座舱与智驾芯片供应链需求增长。"
+        "问界M9的上市将进一步加剧国内高端新能源SUV市场的竞争，推动智能驾驶和座舱芯片的需求增长。",
+        "国内车企扎堆发布新车型，反映出智能汽车供应链正在加速成熟，对车规级半导体的拉动效应明显。"
       ],
       "actions": [
-        "关注问界M9新车搭载的智能驾驶及座舱芯片供应链变化，评估相关国产半导体厂商的订单增量机会。",
-        "跟踪华为汽车业务带来的车载传感器、计算平台等半导体需求拉动效应，提前布局相关产能。"
+        "关注问界M9及其他新车型（如理想L9、蔚来ES9）的核心芯片供应商，评估车规级芯片订单增量。",
+        "梳理智能座舱和自动驾驶芯片的国产化替代进度，寻找供应链切入机会。"
       ],
       "glossary": [
         {
           "term": "问界M9",
           "desc": "华为与赛力斯联合打造的豪华智能SUV车型",
-          "category": "终端产品"
+          "category": "整车"
         }
       ],
       "region": "domestic",
-      "summary": "华为与赛力斯联合打造的全新一代问界M9正式宣布将于5月27日上市，标志着该高端智能SUV迎来重要产品迭代。",
+      "summary": "全新一代问界M9确认将于5月27日正式上市，作为国内高端智能电动汽车的代表，其市场表现备受关注。",
       "tag_category": "综合",
       "title_en": "全新一代问界M9将于5月27日上市_车家号_发现车生活_汽车之家"
     },
@@ -153,22 +148,22 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "50万级别的预售价表明国产高端新能源汽车已具备与传统豪华品牌抗衡的品牌溢价能力。",
-        "高单车售价意味着其半导体BOM成本占比也较高，对高算力车规级芯片及高端传感器供应商的利润空间形成利好。"
+        "预售价近50万元表明高端车型对高算力、高性能芯片的容忍度较高，有利于高阶智驾芯片的渗透。",
+        "系列车型的推出意味着产品矩阵细化，不同配置将带动不同层级的车规半导体需求。"
       ],
       "actions": [
-        "评估50万级别车型中高阶智驾域控制器、高端音响及显示芯片的BOM成本占比，挖掘供应链切入机会。",
-        "对比该价位段核心竞品（如理想L9）的芯片选型差异，寻找国产芯片替代的突破口。"
+        "分析不同配置版本M9的BOM成本，特别是智驾域控制器和座舱域控制器的芯片选型。",
+        "与Tier 1供应商确认M9系列量产节奏，提前锁定相关车规芯片产能。"
       ],
       "glossary": [
         {
-          "term": "BOM",
-          "desc": "物料清单，产品所有组件和零部件的成本与构成清单",
-          "category": "供应链"
+          "term": "预售价",
+          "desc": "新车正式上市前公布的预期销售价格",
+          "category": "市场"
         }
       ],
       "region": "domestic",
-      "summary": "全新一代问界M9系列定于5月27日上市，预售价起步为49.98万元，维持了其在高端新能源市场的定位。",
+      "summary": "全新一代问界M9系列确认于5月27日上市，预售价起步49.98万元，定位高端豪华市场。",
       "tag_category": "综合",
       "title_en": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起_车家号_发现车生活_汽车之家"
     },
@@ -182,18 +177,18 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "头部新能源车企的集中推新，将显著拉动下半年车规级芯片的出货量，尤其是智能座舱和自动驾驶芯片需求。",
-        "小米等跨界玩家的加入，正在重塑汽车供应链生态，可能引入新的消费级与车规级芯片供应商组合。"
+        "多款重磅车型扎堆上市，预示着下半年国内新能源车销量可能迎来高峰，车规级芯片库存需提前备足。",
+        "小米YU7 GT等新入局者的量产，将重塑国内汽车芯片供应链格局，可能引入新的芯片供应商体系。"
       ],
       "actions": [
-        "梳理理想、蔚来、小米新车型的主要芯片供应商名单，提前锁定相关供应链关键产能。",
-        "针对新车发布潮带来的需求波动，备货高频使用的车规级MCU、功率器件及传感器，防范短期结构性缺货。"
+        "盘点理想、蔚来、小米新车型的核心半导体供应商名单，评估供应链切换风险与机遇。",
+        "提前规划功率器件、MCU及传感器等通用车规芯片的产能与备货，应对下半年整车厂拉货需求。"
       ],
       "glossary": [
         {
-          "term": "车规级MCU",
-          "desc": "符合汽车电子AEC-Q100标准要求的微控制器单元",
-          "category": "芯片"
+          "term": "小米YU7 GT",
+          "desc": "小米汽车推出的SUV或GT车型，标志着其产品线扩展",
+          "category": "整车"
         }
       ],
       "region": "domestic",
@@ -202,81 +197,76 @@
       "title_en": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市_车家号_发现车生活_汽车之家"
     },
     {
-      "title": "芯片出口管制如何可能成为中美AI安全对话的考量因素（How Chip Export Controls Might Factor Into the U.S.-China AI Safety Dialogue）",
-      "url": "https://dominotheory.com/how-chip-export-controls-might-factor-into-the-u-s-china-ai-safety-dialogue/",
-      "description": "China announced on Tuesday that President Donald Trump and China’s leader, Xi Jinping (習近平), will hold a dialogue on artificial intelligence, confirming Treasury Secretary Scott Bessent’s comment to CNBC on the sidelines of the Trump-Xi summit in Beijing last week.",
+      "title": "SpaceX上市前披露的一个数据揭示了该业务的真实脆弱性",
+      "url": "https://finance.yahoo.com/economy/policy/articles/one-number-spacex-pre-ipo-112835397.html",
+      "description": "Buried inside SpaceX’s pre-IPO disclosures is a single percentage that should make every investor lining up for the $75 billion June 2026 Nasdaq debut pause. It’s a quieter number tucked into a concentration-of-risk footnote, well away from the headline revenue figure and the backlog, and ...",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "AI安全对话表面是技术伦理议题，实质上与算力霸权紧密相关，出口管制正成为美国限制中国AI发展的核心筹码。",
-        "将芯片管制纳入AI对话框架，意味着半导体供应链的合规风险将长期处于高压状态，政策不确定性依然极高。"
+        "SpaceX的IPO虽然估值极高，但其盈利能力的脆弱性提示航天及卫星通信半导体市场仍存在较大不确定性。",
+        "高估值与低盈利能力的反差，可能导致太空科技领域的投资泡沫，进而影响低轨卫星芯片的长期研发资金投入。"
       ],
       "actions": [
-        "密切关注中美AI对话的后续声明与共识，评估是否有针对特定AI芯片管制的松动或加严信号。",
-        "强化企业内部的出口合规审查机制，特别是针对AI训练集群和高算力芯片的跨境业务与采购流程。"
+        "谨慎评估低轨卫星（LEO）通信芯片及抗辐照器件的市场需求，避免因IPO泡沫过度扩张产能。",
+        "关注SpaceX供应链中的核心半导体供应商，验证其订单的可持续性和实际付款能力。"
       ],
       "glossary": [
         {
-          "term": "Export Controls",
-          "desc": "出口管制，政府限制特定关键技术或产品向特定国家境外输出的政策",
-          "category": "政策/合规"
+          "term": "Pre-IPO",
+          "desc": "首次公开募股前阶段，公司准备上市的过程",
+          "category": "金融"
+        },
+        {
+          "term": "SpaceX",
+          "desc": "美国太空探索技术公司，致力于火箭发射和卫星互联网业务",
+          "category": "终端"
         }
       ],
       "region": "overseas",
-      "summary": "中美即将开展人工智能安全对话，芯片出口管制问题预计将成为双方讨论与博弈的重要议题之一。",
+      "summary": "SpaceX在上市前披露文件中的一个关键百分比数据，揭示了其业务模式潜在的脆弱性，可能影响其即将到来的纳斯达克上市估值。",
       "tag_category": "EDA/IP",
-      "title_en": "How Chip Export Controls Might Factor Into the U.S.-China AI Safety Dialogue - Domino Theory"
+      "title_en": "One Number From SpaceX’s Pre-IPO Disclosures Reveals Just How Fragile This Business Really Is"
     },
     {
-      "title": "亚洲芯片制造商追逐上市，AI热潮推高估值（Asian chipmakers chase listings as AI boom fuels valuations）",
-      "url": "https://www.ifre.com:443/equities/2430712/asian-chipmakers-chase-listings-as-ai-boom-fuels-valuations",
-      "description": "Equities Kioxia plans US listing while YMTC and CXMT ready A-share IPOs",
+      "title": "SpaceX与宇宙大爆炸般的IPO泡沫",
+      "url": "https://www.thehindubusinessline.com/portfolio/spacex-ipo-and-the-big-bang-bubble/article71015048.ece",
+      "description": "Explore the hype and skepticism surrounding SpaceX's ambitious IPO, valuing the company at up to $2 trillion amidst unprofitability.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "存储芯片厂商借AI东风冲刺IPO，反映出行业正从周期底部复苏，且HBM等AI存储需求重塑了市场对存储厂商的估值预期。",
-        "YMTC和CXMT的A股上市进程，将极大增强中国本土存储芯片阵营的资本实力，加速产能扩张与先进技术研发。"
+        "高达2万亿美元的估值与未盈利状态形成巨大反差，反映出市场对太空基础设施和卫星互联网的过度乐观预期。",
+        "若IPO泡沫破裂，将直接影响卫星载荷、通信基带及太空级半导体的采购节奏，引发产业链震荡。"
       ],
       "actions": [
-        "跟踪YMTC和CXMT的IPO进度及募投项目方向，预判其对国产半导体设备与材料采购规模的拉动效应。",
-        "关注铠侠美股上市对全球NAND闪存市场供需格局及估值锚的影响，适时调整存储芯片库存策略。"
+        "对卫星互联网相关的芯片项目进行压力测试，确保在SpaceX等大客户资本开支收缩时仍能维持现金流。",
+        "分散客户结构，不仅依赖SpaceX等头部企业，拓展其他卫星运营商或国防航天客户。"
       ],
       "glossary": [
         {
-          "term": "YMTC",
-          "desc": "长江存储，中国本土3D NAND闪存芯片核心制造商",
-          "category": "公司"
-        },
-        {
-          "term": "CXMT",
-          "desc": "长鑫存储，中国本土DRAM内存芯片核心制造商",
-          "category": "公司"
-        },
-        {
-          "term": "Kioxia",
-          "desc": "铠侠，原东芝内存，全球NAND闪存主要供应商",
-          "category": "公司"
+          "term": "IPO bubble",
+          "desc": "首次公开募股泡沫，指市场过度炒作导致上市估值远超实际价值",
+          "category": "金融"
         }
       ],
       "region": "overseas",
-      "summary": "受AI热潮带来的估值提升驱动，铠侠计划赴美上市，而长江存储（YMTC）和长鑫存储（CXMT）正准备A股IPO。",
+      "summary": "探讨围绕SpaceX雄心勃勃的IPO的炒作与质疑，该公司估值高达2万亿美元，但目前尚未实现盈利。",
       "tag_category": "EDA/IP",
-      "title_en": "Asian chipmakers chase listings as AI boom fuels valuations | IFR"
+      "title_en": "SpaceX and the Big Bang IPO bubble - The HinduBusinessLine"
     }
   ],
   "stats": {
-    "total_raw": 100,
-    "after_dedup": 91,
+    "total_raw": 90,
+    "after_dedup": 86,
     "sources": {
-      "Exa": 13,
-      "RSS": 63,
-      "Brave": 15
+      "Exa": 12,
+      "RSS": 64,
+      "Brave": 10
     }
   },
   "code_version": "",
