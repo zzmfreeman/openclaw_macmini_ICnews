@@ -1,7 +1,7 @@
 {
-  "version": "v20260525-0604",
-  "generatedAt": "2026-05-25T06:04:00+08:00",
-  "period": "morning",
+  "version": "v20260525-1303",
+  "generatedAt": "2026-05-25T13:03:00+08:00",
+  "period": "midday",
   "commit": "",
   "glossary_list": [
     {
@@ -20,114 +20,34 @@
       "category": "封装"
     },
     {
-      "term": "功率半导体",
-      "desc": "用于电力转换与控制的半导体器件，如二极管、晶闸管、MOSFET等",
-      "category": "器件"
+      "term": "问界M9",
+      "desc": "华为与赛力斯联合打造的高端智能SUV车型",
+      "category": "终端产品"
     },
     {
-      "term": "SSD",
-      "desc": "固态硬盘，以闪存芯片为存储介质的存储设备",
-      "category": "存储"
+      "term": "预售价",
+      "desc": "产品正式上市前公布的参考销售价格",
+      "category": "市场"
     },
     {
-      "term": "创新封装",
-      "desc": "指通过先进的芯片封装工艺（如3D堆叠等）提升存储密度和性能的技术",
-      "category": "封装"
+      "term": "小米YU7 GT",
+      "desc": "小米汽车推出的新款SUV车型",
+      "category": "终端产品"
     },
     {
-      "term": "IPO",
-      "desc": "首次公开募股，企业首次向公众出售股份的过程",
-      "category": "金融"
+      "term": "CXMT",
+      "desc": "长鑫存储技术有限公司，中国本土核心DRAM研发与制造企业",
+      "category": "企业"
     },
     {
-      "term": "Anthropic",
-      "desc": "一家专注于AI安全和研究的美国初创公司，开发了Claude大语言模型",
-      "category": "AI"
-    },
-    {
-      "term": "开源鸿蒙",
-      "desc": "华为开源的分布式操作系统OpenHarmony，面向物联网终端设备",
-      "category": "操作系统"
-    },
-    {
-      "term": "群体智能协同",
-      "desc": "多个机器人通过通信与算法协作，共同完成复杂任务的技术",
-      "category": "AI/算法"
-    },
-    {
-      "term": "Facilities",
-      "desc": "半导体制造厂房及配套设施，包括晶圆厂和无尘室等",
-      "category": "Fab/制造"
-    },
-    {
-      "term": "Capital Expenditure",
-      "desc": "资本支出，企业用于购买或升级物理资产的资金",
-      "category": "金融"
-    },
-    {
-      "term": "TSMC",
-      "desc": "台湾积体电路制造公司，全球最大的晶圆代工半导体厂商",
-      "category": "Fab/制造"
-    },
-    {
-      "term": "Reshoring",
-      "desc": "回流/制造业回流，指将海外生产转移回本土的政策趋势",
-      "category": "供应链"
-    },
-    {
-      "term": "Vera Rubin",
-      "desc": "英伟达下一代GPU架构代号，预计接替Blackwell",
-      "category": "芯片架构"
-    },
-    {
-      "term": "Zen 6",
-      "desc": "AMD下一代CPU微架构代号",
-      "category": "芯片架构"
-    },
-    {
-      "term": "EPYC Venice",
-      "desc": "AMD基于Zen 6架构的下一代服务器CPU产品线代号",
+      "term": "DRAM",
+      "desc": "动态随机存取存储器，常见的主内存类型",
       "category": "产品"
     },
     {
-      "term": "Agentic Banking",
-      "desc": "代理式银行，指基于AI Agent自主执行任务和决策的银行业务模式",
-      "category": "应用"
-    },
-    {
-      "term": "HiFS",
-      "desc": "华为金融解决方案平台",
-      "category": "产品"
-    },
-    {
-      "term": "Colossus 2",
-      "desc": "Anthropic用于训练Claude 5的下一代超大规模GPU计算集群",
-      "category": "基础设施"
-    },
-    {
-      "term": "Karpathy",
-      "desc": "Andrej Karpathy，知名AI研究者，OpenAI创始成员之一",
-      "category": "人物"
-    },
-    {
-      "term": "80386",
-      "desc": "Intel推出的经典32位x86处理器，标志着x86架构的重大飞跃",
-      "category": "芯片架构"
-    },
-    {
-      "term": "Microcode",
-      "desc": "微代码，处理器内部用于实现复杂指令集的底层控制指令",
-      "category": "设计"
-    },
-    {
-      "term": "AI Optical Networks",
-      "desc": "AI光网络，专为满足AI计算集群海量数据传输需求而设计的高带宽、低延迟光通信网络架构",
-      "category": "通信"
-    },
-    {
-      "term": "AI Code Review",
-      "desc": "AI代码审查，利用人工智能技术自动检测、分析和评估代码质量、安全漏洞及合规性的过程",
-      "category": "软件"
+      "term": "EBook",
+      "desc": "电子书，数字化的出版物",
+      "category": "通用"
     }
   ],
   "topic_pulse": [
@@ -136,547 +56,217 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS及先进封装话题的关注度有所回落，讨论趋于平静。暂无引发广泛争议的新事件或产能突破消息，市场情绪进入观望期。"
+      "summary": "近期社区对CoWoS产能扩张的讨论热度有所下降，市场对先进封装供需紧张的担忧暂时缓解。投资者正观望台积电等厂商的后续产能释放节奏。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储相关讨论热度降温，社区缺乏新的技术发布或供应链重大变动刺激。参与者正等待下一代HBM规格的进一步明确及市场落地情况。"
+      "summary": "HBM相关话题热度降温，随着各大存储厂商产能逐步爬坡，AI存储缺货的预期减弱。社区焦点从HBM短缺转向下一代HBM4的技术规格演进。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "关于中国晶圆厂和先进制程的社区讨论暂时降温，没有新的国产突破传闻流出。情绪相对平稳，业界正聚焦于现有产能的消化与良率提升。"
+      "summary": "国内晶圆厂与先进制程话题热度回落，短期内缺乏重大突破性消息刺激。社区讨论趋于理性，关注点集中在成熟制程的产能利用率与盈利修复上。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题热度下降，近期缺乏重磅产品发布或融资事件。社区讨论重心从概念炒作转向实际工具链的可用性与客户导入情况。"
+      "summary": "国产EDA/IP板块讨论热度下降，市场进入平稳发展期。社区正等待国内头部EDA企业在特定点工具上的新突破及客户导入进展。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT板块关注度降低，社区讨论较少。传统封装产能充足，而先进封装的瓶颈议题已被CoWoS等大话题吸收，暂无独立热点。"
+      "summary": "封测OSAT话题降温，传统封装产能过剩的担忧使得社区讨论趋于平淡。大家更关注先进封装与传统封装之间的业务结构转型进程。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度减退，近期无新增严厉政策传闻。社区情绪暂时放松，企业正适应现有合规框架并寻求常态化运营。"
+      "summary": "出口管制与制裁话题热度下降，近期无新增重大禁令出台，市场情绪暂时平稳。社区正消化现有规则的影响，并评估潜在漏洞与合规策略。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片及英伟达相关讨论热度降温，缺乏新一代架构或出货量激增的刺激。社区关注点暂时转移至AI应用落地及算力租赁市场动态。"
+      "summary": "英伟达与AI芯片话题热度回落，在Blackwell架构全面铺开前，市场处于信息真空期。讨论焦点短暂转向AI推理侧的芯片需求与竞争格局。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化话题热度下降，近期无重大国产替代里程碑事件。社区讨论趋于务实，更关注具体零部件的验证进度和客户反馈。"
+      "summary": "半导体设备与材料国产化讨论降温，行业进入常规的订单交付与验证周期。社区关注点转向国产设备在先进制程验证中的实际良率表现。"
     }
   ],
   "items": [
     {
-      "title": "紫光国微拟19亿收购瑞能半导",
-      "url": "https://finance.sina.com.cn/roll/2026-05-24/doc-inhyypep6014754.shtml",
-      "description": "（来源：半导体前沿）\n\n瑞能半导将成为紫光国微全资子公司。\n\n紫光国微发布公告称将收购瑞能半导，收购价达到19亿元，而瑞能半导体2025年的总营收约为8.7亿元。交易完成后，瑞能半导将成为紫光国微全资子公司。\n\n公告显示，紫光国微拟向南昌建恩、北京广盟、天津瑞芯、建投华科、上海设臻、上海恩蓝、上海厚恩、恩蓝有限、烟台瑞臻、西南证券、邬睿、沈鑫、汤子鸣、张胜锋共14名交易对方以发行股份及支付现金的方式购买其合计持有的瑞能半导100%股权，并募集配套资金支付本次交易中的现金对价、中介机构费用、交易税费等并购整合费用。\n\n其中，紫光国微本次发行股票价格为61.75元/股，交易购买资产的股份发行数量为",
-      "published": "2026-05-24T00:00:00.000Z",
+      "title": "全新一代问界M9将于5月27日上市",
+      "url": "https://chejiahao.autohome.com.cn/info/25525010",
+      "description": "全新一代问界M9将于5月27日上市_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n全新一代问界M9将于5月27日上市\n\n盖世汽车\n\n车家号·0浏览·2026-05-20 09:50 · 上海\n\n盖世汽车获悉，全新一代问界M9(参数|询价)将于5月27日正式上市。\n\n在此之前，新款问界M9已于4月22日正式亮相并同步开启预售，其中问界M9预售价格49.98万元起，问界M9 Ultimate领世加长版预售价格66.98",
+      "published": "2026-05-27T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "功率半导体领域并购整合加速，国内厂商通过并购扩大规模与产品线以提升竞争力。",
-        "瑞能半导2025年营收约8.7亿元，19亿收购价体现了一定的估值溢价，反映市场对功率半导体国产替代前景的看好。"
+        "问界M9上市将拉动智能座舱、自动驾驶相关芯片的需求量。",
+        "高端新能源车型扎堆上市，反映出国内汽车电子市场持续景气。"
       ],
       "actions": [
-        "关注紫光国微与瑞能半导合并后的产品线协同效应及市场份额变化。",
-        "功率半导体供应链企业需评估此次并购对竞争格局的影响，适时调整客户与市场策略。"
+        "关注问界M9的智能驾驶及座舱芯片供应商，评估产能储备情况。",
+        "跟踪华为系车型的销量走势，预判车规级芯片的订单波动。"
       ],
       "glossary": [
         {
-          "term": "功率半导体",
-          "desc": "用于电力转换与控制的半导体器件，如二极管、晶闸管、MOSFET等",
-          "category": "器件"
+          "term": "问界M9",
+          "desc": "华为与赛力斯联合打造的高端智能SUV车型",
+          "category": "终端产品"
         }
       ],
       "region": "domestic",
-      "summary": "紫光国微拟以19亿元收购瑞能半导，交易完成后瑞能半导将成为其全资子公司，此举将进一步强化紫光在功率半导体领域的布局。",
+      "summary": "全新一代问界M9宣布将于5月27日正式上市，作为国内高端智能电动车市场的重要车型，其上市将带动相关汽车芯片供应链的需求。",
       "tag_category": "综合",
-      "title_en": "紫光国微拟19亿收购瑞能半导|紫光国微_新浪财经_新浪网"
+      "title_en": "全新一代问界M9将于5月27日上市_车家号_发现车生活_汽车之家"
     },
     {
-      "title": "华为在美国出口管制下利用创新封装技术开发122TB SSD（Huawei develops 122TB SSD using innovative packaging amid US export controls）",
-      "url": "https://cryptobriefing.com/huawei-122tb-ssd-dob-packaging/",
-      "description": "Huawei develops 122TB SSD using innovative packaging amid US export controls\n\nSEARCH\n\nSearching...\n\n# Huawei develops 122TB SSD using innovative packaging amid US export controls\n\nCut off from the world's most advanced memory chips, Huawei engineered around the problem with a packaging trick that bo",
-      "published": "2026-05-24T00:00:00.000Z",
+      "title": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起",
+      "url": "https://chejiahao.autohome.com.cn/info/25521469",
+      "description": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n全新一代问界M9系列将于5月27日上市，预售价49.98万元起\n\n油城车事\n\n车家号·0浏览·2026-05-19 16:42 · 黑龙江\n\n5月19日，鸿蒙智行对外透露了全新一代问界M9(参数|询价)系列的上市安排，这款备受关注的车型确定将于5月27日正式与消费者见面。作为鸿蒙智行旗下的旗舰SUV，全新一",
+      "published": "2026-05-27T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "出口管制倒逼国内存储厂商在先进封装和底层架构上寻求创新突破，以实现大容量存储的自主可控。",
-        "122TB SSD通常用于数据中心和企业级应用，华为的突破意味着国产企业级存储正在缩小与国际顶尖水平的差距。"
+        "预售价近50万的高端定位，意味着该车将大量搭载高算力智驾芯片及高性能域控制器。",
+        "高端车型的销量表现直接关系到高价值车规半导体的营收增长。"
       ],
       "actions": [
-        "密切关注华为此款122TB SSD的封装技术细节及后续量产进度，评估其在数据中心市场的替代潜力。",
-        "国内存储产业链上下游企业应加强与华为的协同，探索在先进封装材料及设备上的国产化配套机会。"
+        "梳理50万级别新能源车型的BOM成本，重点评估主控芯片的占比与供应商。",
+        "关注该车型量产后的实际交付量，及时调整车规芯片的排产计划。"
       ],
       "glossary": [
         {
-          "term": "SSD",
-          "desc": "固态硬盘，以闪存芯片为存储介质的存储设备",
-          "category": "存储"
-        },
-        {
-          "term": "创新封装",
-          "desc": "指通过先进的芯片封装工艺（如3D堆叠等）提升存储密度和性能的技术",
-          "category": "封装"
-        }
-      ],
-      "region": "overseas",
-      "summary": "在美国出口管制限制下，华为通过采用创新封装技术成功开发出122TB超大容量SSD，以突破技术封锁实现自主替代。",
-      "tag_category": "EDA/IP",
-      "title_en": "Huawei develops 122TB SSD using innovative packaging amid US export controls"
-    },
-    {
-      "title": "SpaceX IPO揭示AI亏损与Anthropic巨额交易（SpaceX IPO Reveals AI Losses and Anthropic Mega Deal）",
-      "url": "https://aitechtonic.com/spacex-ipo-reveals-ai-losses-and-anthropic-mega-deal/",
-      "description": "SpaceX IPO Reveals AI Losses and Anthropic Mega Deal - Aitechtonic\n\nThe long-awaited public debut of SpaceX has officially moved from speculation to reality. In one of the most significant corporate filings in recent history, Elon Musk’s aerospace giant formally submitted its Form S-1 registration s",
-      "published": "2026-05-23T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "航天科技巨头跨界重金投入AI大模型，反映出AI算力与卫星通信/太空探索结合的巨大商业潜力。",
-        "Anthropic作为大模型核心厂商，获得SpaceX巨额订单，进一步验证了高端AI算力需求正在向非传统互联网行业外溢。"
-      ],
-      "actions": [
-        "芯片供应商应关注航天、军工等非传统互联网行业对AI算力的定制化需求增长。",
-        "投资者和供应链企业需警惕跨界AI项目的高亏损风险，评估长期投入与短期回报的平衡。"
-      ],
-      "glossary": [
-        {
-          "term": "IPO",
-          "desc": "首次公开募股，企业首次向公众出售股份的过程",
-          "category": "金融"
-        },
-        {
-          "term": "Anthropic",
-          "desc": "一家专注于AI安全和研究的美国初创公司，开发了Claude大语言模型",
-          "category": "AI"
-        }
-      ],
-      "region": "overseas",
-      "summary": "SpaceX的IPO文件披露了其在AI领域的亏损情况，以及与AI公司Anthropic达成的一项巨额交易，显示出SpaceX在AI领域的深度布局与投入。",
-      "tag_category": "EDA/IP",
-      "title_en": "SpaceX IPO Reveals AI Losses and Anthropic Mega Deal - Aitechtonic"
-    },
-    {
-      "title": "开源鸿蒙机器人操作系统M-Robots OS 2.0重磅发布",
-      "url": "https://news.qq.com/rain/a/20260523A06ELV00",
-      "description": "开源鸿蒙机器人操作系统M-Robots OS 2.0重磅发布_腾讯新闻\n\n# 开源鸿蒙机器人操作系统M-Robots OS 2.0重磅发布\n\n问AI · M-Robots OS 2.0如何实现机器人群体智能协同？\n\n2026年5月22日，开源鸿蒙智能物联网生态大会在深圳龙岗举行。会上，深开鸿重磅发布全国首个基于开源鸿蒙打造的机器人操作系统——M-Robots OS 2.0开源新版本。此次迭代升级标志着我国开源鸿蒙技术在机器人领域迈入生态化发展新阶段，为机器人产业智能化、集群化升级注入强劲核心动力。\n\n开源共建稳步深耕 筑牢机器人产业创新底座\n\nM-Robots OS是以开源鸿蒙为核心底座的分布",
-      "published": "2026-05-23T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "国产操作系统正从物联网向机器人领域延伸，基于鸿蒙底座的软硬协同有望打破机器人底层系统的碎片化现状。",
-        "群体智能协同是多机器人协作的关键，M-Robots OS 2.0的发布标志着国产机器人操作系统在分布式架构上的成熟。"
-      ],
-      "actions": [
-        "机器人及智能硬件厂商应尽快评估M-Robots OS 2.0的适配性，探索基于鸿蒙生态的软硬件开发机会。",
-        "关注鸿蒙生态在工业、服务机器人领域的落地案例，提前布局相关的芯片及模组适配工作。"
-      ],
-      "glossary": [
-        {
-          "term": "开源鸿蒙",
-          "desc": "华为开源的分布式操作系统OpenHarmony，面向物联网终端设备",
-          "category": "操作系统"
-        },
-        {
-          "term": "群体智能协同",
-          "desc": "多个机器人通过通信与算法协作，共同完成复杂任务的技术",
-          "category": "AI/算法"
+          "term": "预售价",
+          "desc": "产品正式上市前公布的参考销售价格",
+          "category": "市场"
         }
       ],
       "region": "domestic",
-      "summary": "深开鸿重磅发布全国首个基于开源鸿蒙的机器人操作系统M-Robots OS 2.0，该系统重点实现了机器人群体智能协同能力。",
+      "summary": "全新一代问界M9系列定于5月27日上市，预售价49.98万元起，定位高端豪华市场，将进一步刺激高端车规级芯片的搭载量。",
       "tag_category": "综合",
-      "title_en": "开源鸿蒙机器人操作系统M-Robots OS 2.0重磅发布_腾讯新闻"
+      "title_en": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起_车家号_发现车生活_汽车之家"
     },
     {
-      "title": "三星与SK面临427亿美元奖金时代；美光与台积电斥资809亿美元押注厂房设施（Samsung, SK Face $42.7 Billion Bonus Era; Micron and TSMC Bet $80.9 Billion on Facilities）",
-      "url": "https://finance.biggo.com/news/cfoNV54B-PfaobXf-K8b",
-      "description": "Samsung, SK Face $42.7 Billion Bonus Era; Micron and TSMC Bet $80.9 Billion on Facilities — BigGo Finance\n\n# Samsung, SK Face $42.7 Billion Bonus Era; Micron and TSMC Bet $80.9 Billion on Facilities\n\nSamsung Electronics and SK Hynix are expected to pay out approximately 65 trillion won (approximatel",
-      "published": "2026-05-23T00:00:00.000Z",
+      "title": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市",
+      "url": "https://chejiahao.autohome.com.cn/info/25397889",
+      "description": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市\n\n酱酱侃车\n\n车家号·0浏览·2026-05-01 12:27 · 北京\n\n北京车展即将落下帷幕，不少新车已经进入倒计时阶段。想买车等不到年底？这个5月，一波重磅车型就要扎堆上市了。统计下来，光5月份就有10多款新车将陆续与消费者见面，涵盖了全",
+      "published": "2026-05-27T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "台积电与美光的重金扩产反映了先进逻辑与存储芯片对产能的迫切需求，尤其是AI驱动的HBM和先进制程产能。",
-        "三星与SK的高额奖金时代折射出韩国半导体企业在前期高利润周期后的财富分配挑战，同时也可能影响其后续的资本支出力度。"
+        "多家头部车企集中发布新车型，预示着下半年车规级芯片的交付压力将显著增加。",
+        "小米等跨界玩家的新车落地，将重塑国内汽车电子供应链的格局。"
       ],
       "actions": [
-        "设备与材料供应商应紧盯台积电与美光的809亿美元扩产计划，争取进入其新厂供应链。",
-        "关注韩国半导体巨头在巨额分红后的资本支出动向，评估其扩产节奏放缓对全球存储芯片供需平衡的影响。"
+        "盘点理想、蔚来、小米新车的核心芯片方案，锁定潜在增量客户。",
+        "提前与车企及Tier1沟通下半年排产计划，避免关键车规芯片出现缺货。"
       ],
       "glossary": [
         {
-          "term": "Facilities",
-          "desc": "半导体制造厂房及配套设施，包括晶圆厂和无尘室等",
-          "category": "Fab/制造"
+          "term": "小米YU7 GT",
+          "desc": "小米汽车推出的新款SUV车型",
+          "category": "终端产品"
+        }
+      ],
+      "region": "domestic",
+      "summary": "5月份国内新能源车市迎来新车上市潮，理想L9、蔚来ES9及小米YU7 GT等重磅车型集中发布，将显著拉动汽车半导体供应链需求。",
+      "tag_category": "综合",
+      "title_en": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市_车家号_发现车生活_汽车之家"
+    },
+    {
+      "title": "长鑫存储母公司提交IPO申请：中国DRAM走向成熟（CXMT’s IPO Filing. China’s DRAM Comes Of Age）",
+      "url": "https://semiconalpha.substack.com/p/cxmts-ipo-filing-chinas-dram-comes",
+      "description": "CXMT’s (ChangXin Memory Technologies) parent company, Changxin Technology Group Co., Ltd., submitted its latest revised preliminary prospectus and updated financial statements to the Shanghai Stock Exchange (SSE) earlier this month, details here. You can find the original source document",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "长鑫存储IPO进程加速，意味着中国本土DRAM产能扩张获得了强有力的资金支持保障。",
+        "中国DRAM的成熟将逐步改变全球存储芯片市场的供给格局，对三星、SK海力士等巨头形成长期竞争压力。"
+      ],
+      "actions": [
+        "密切跟踪长鑫存储IPO进展及募投项目方向，评估其对国产存储设备与材料采购的拉动效应。",
+        "国内存储芯片设计及封测企业应积极对接长鑫，争取在国产替代浪潮中占据供应链核心位置。"
+      ],
+      "glossary": [
+        {
+          "term": "CXMT",
+          "desc": "长鑫存储技术有限公司，中国本土核心DRAM研发与制造企业",
+          "category": "企业"
         },
         {
-          "term": "Capital Expenditure",
-          "desc": "资本支出，企业用于购买或升级物理资产的资金",
-          "category": "金融"
-        }
-      ],
-      "region": "overseas",
-      "summary": "三星与SK集团正面临高达427亿美元的巨额奖金支出时代，而美光与台积电则斥资809亿美元大力扩建厂房设施，显示出半导体巨头在资本开支上的两极分化。",
-      "tag_category": "Fab/制造",
-      "title_en": "Samsung, SK Face $42.7 Billion Bonus Era; Micron and TSMC Bet $80.9 Billion on Facilities — BigGo Finance"
-    },
-    {
-      "title": "台积电奖金削减与全球供应链稳定性（TSMC Bonus Cuts and Global Supply Chain Stability）",
-      "url": "https://blog.progressiverobot.com/first-samsung-now-tsmc-rumored-bonus-cuts-put-global-tech-supply-at-risk",
-      "description": "TSMC Bonus Cuts and Global Supply Chain Stability - Progressive Robot - News Magazine\n\nLog In / Sign Up\n\n### Welcome!\n\nUnlock your personalized experience.\n\nLog In Sign Up\n\nCPUs\n\nGPUs\n\nStorage\n\nMotherboards\n\nPC Cases\n\nRAM\n\nOverclocking\n\nDark Mode\n\n# TSMC Bonus Cuts and Global Supply Chain Stability\n",
-      "published": "2026-05-24T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "台积电削减奖金可能反映出先进制程产能利用率在短期内的波动，或是企业在面对全球地缘政治与建厂成本压力下的降本举措。",
-        "作为全球晶圆代工核心，台积电的薪酬调整可能影响工程师团队的稳定性，进而对全球芯片供应链的连续性产生潜在风险。"
-      ],
-      "actions": [
-        "依赖台积电先进制程的芯片设计公司需密切关注其产能利用率与人员稳定性，做好产能备份预案。",
-        "供应链企业应评估台积电降本增效措施对上下游服务与交期的影响，适时调整库存与物流策略。"
-      ],
-      "glossary": [
-        {
-          "term": "TSMC",
-          "desc": "台湾积体电路制造公司，全球最大的晶圆代工半导体厂商",
-          "category": "Fab/制造"
-        }
-      ],
-      "region": "overseas",
-      "summary": "台积电近期出现奖金削减情况，这引发了业界对其人力成本控制及全球半导体供应链稳定性的关注与讨论。",
-      "tag_category": "设计公司",
-      "title_en": "TSMC Bonus Cuts and Global Supply Chain Stability - Progressive Robot - News Magazine"
-    },
-    {
-      "title": "AMD的100亿美元台湾投资暴露了回流的幻象（AMD’s $10B Taiwan Bet Exposes the Reshoring Illusion）",
-      "url": "https://based.info/amds-10b-taiwan-bet-exposes-the-reshoring-illusion/",
-      "description": "AMD’s $10B Taiwan Bet Exposes the Reshoring Illusion | AI | based.info\n\nAMD announced over $10 billion in Taiwan ecosystem investments on May 21, 2026, explicitly deepening exposure to the world’s most concentrated semiconductor chokepoint rather than diversifying away—a strategic bet that allied su",
-      "published": "2026-05-24T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "地缘政治压力下的“回流”口号与实际资本开支存在巨大落差，台湾的集群效应难以替代。",
-        "AMD重金押注台湾，说明先进封装和制造的高度集中仍是AI芯片竞争的核心壁垒。"
-      ],
-      "actions": [
-        "重新评估供应链“去台化”的真实进度，不应盲目跟风回流叙事。",
-        "加强与台湾核心代工及封装厂的深度绑定，确保先进产能分配。"
-      ],
-      "glossary": [
-        {
-          "term": "Reshoring",
-          "desc": "回流/制造业回流，指将海外生产转移回本土的政策趋势",
-          "category": "供应链"
-        }
-      ],
-      "region": "overseas",
-      "summary": "AMD宣布在台湾生态系统投资超过100亿美元，这表明半导体回流的趋势可能只是幻象，企业仍在加深对台湾供应链的依赖。",
-      "tag_category": "设计公司",
-      "title_en": "AMD’s $10B Taiwan Bet Exposes the Reshoring Illusion | AI | based.info"
-    },
-    {
-      "title": "黄仁勋提前一周抵达台湾巩固供应链，预告Vera Rubin为“史上最大量产浪潮”（Jensen Huang Arrives in Taiwan a Week Early to Shore Up Supply Chain, Teases Vera Rubin as \"Largest Mass Production Wave in History\"）",
-      "url": "https://finance.biggo.com/news/4aMFWJ4BmHHDnbgyAuUV",
-      "description": "Jensen Huang Arrives in Taiwan a Week Early to Shore Up Supply Chain, Teases Vera Rubin as \"Largest Mass Production Wave in History\" — BigGo Finance\n\n# Jensen Huang Arrives in Taiwan a Week Early to Shore Up Supply Chain, Teases Vera Rubin as \"Largest Mass Production Wave in History\"\n\nNVIDIA CEO Jen",
-      "published": "2026-05-24T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "黄仁勋亲自赴台抢产能，凸显AI算力需求激增下先进封装（如CoWoS）的极度紧缺。",
-        "Vera Rubin的“史上最大量产”预示着AI基础设施的军备竞赛将再次推高供应链负荷。"
-      ],
-      "actions": [
-        "密切关注英伟达Vera Rubin架构的规格与时间表，提前规划配套散热与供电组件。",
-        "加速扩充先进封装产能布局，抢占英伟达新一代GPU的配套供应链份额。"
-      ],
-      "glossary": [
-        {
-          "term": "Vera Rubin",
-          "desc": "英伟达下一代GPU架构代号，预计接替Blackwell",
-          "category": "芯片架构"
-        },
-        {
-          "term": "CoWoS",
-          "desc": "Chip-on-Wafer-on-Substrate，台积电先进2.5D/3D封装技术",
-          "category": "封装"
-        }
-      ],
-      "region": "overseas",
-      "summary": "英伟达CEO黄仁勋提前赴台稳固供应链，并透露下一代架构Vera Rubin将迎来史无前例的量产规模。",
-      "tag_category": "设计公司",
-      "title_en": "Jensen Huang Arrives in Taiwan a Week Early to Shore Up Supply Chain, Teases Vera Rubin as \"Largest Mass Production Wave in History\" — BigGo Finance"
-    },
-    {
-      "title": "AMD EPYC Venice 2nm 256核Zen 6服务器CPU投入量产，英特尔落后（AMD EPYC Venice 2nm 256-Core Zen 6 Server CPUs Enter Production as Intel Falls Behind）",
-      "url": "https://www.noobfeed.com/hardware/amd-epyc-venice-256-core-zen6-server-cpu",
-      "description": "AMD EPYC Venice 2nm 256-Core Zen 6 Server CPUs Enter Production as Intel Falls Behind | NoobFeed\n\n# AMD EPYC Venice 2nm 256-Core Zen 6 Server CPUs Enter Production as Intel Falls Behind\n\n## AMD’s 2nm EPYC Venice processors establish a new benchmark for hyperscale computing performance and server eff",
-      "published": "2026-05-24T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AMD率先切入2nm节点并大幅提升核心数，在数据中心CPU市场正形成对Intel的代际压制。",
-        "256核的超多核架构对服务器内存带宽和互联架构提出极高要求，将重塑数据中心基础设施标准。"
-      ],
-      "actions": [
-        "评估现有数据中心基础设施对256核高密度计算的适配性，提前规划内存与网络升级。",
-        "供应链企业应加速2nm制程相关IP与EDA工具的验证，抢占新一代服务器芯片配套市场。"
-      ],
-      "glossary": [
-        {
-          "term": "Zen 6",
-          "desc": "AMD下一代CPU微架构代号",
-          "category": "芯片架构"
-        },
-        {
-          "term": "EPYC Venice",
-          "desc": "AMD基于Zen 6架构的下一代服务器CPU产品线代号",
+          "term": "DRAM",
+          "desc": "动态随机存取存储器，常见的主内存类型",
           "category": "产品"
         }
       ],
       "region": "overseas",
-      "summary": "AMD基于Zen 6架构的2nm 256核EPYC Venice处理器已进入量产阶段，进一步拉大与英特尔的领先差距。",
-      "tag_category": "设计公司",
-      "title_en": "AMD EPYC Venice 2nm 256-Core Zen 6 Server CPUs Enter Production as Intel Falls Behind | NoobFeed"
+      "summary": "长鑫存储（CXMT）母公司长鑫科技集团向上海证券交易所提交了最新修订的招股说明书及更新财务数据，标志着中国DRAM产业正走向成熟并寻求资本市场助力。",
+      "tag_category": "EDA/IP",
+      "title_en": "CXMT’s IPO Filing. China’s DRAM Comes Of Age"
     },
     {
-      "title": "华为 | HiFS 2026：升级四大数字金融解决方案，加速金融机构迈向Agentic Banking（Huawei | HiFS 2026: Upgrading Four Major Digital Finance Solutions to Accelerate Financial Institutions Toward Agentic Banking）",
-      "url": "https://www.finanzwire.com/press-release/huawei-etr-hifs-2026-upgrading-four-major-digital-finance-solutions-to-accelerate-financial-institutions-toward-agentic-banking-wfHJMM1Gg27",
-      "description": "Huawei | HiFS 2026: Upgrading Four Major Digital Finance Solutions to Accelerate Financial Institutions Toward Agentic Banking\n\npublished on 05/23/2026 at 16:30 from Huawei\n\n# HiFS 2026: Upgrading Four Major Digital Finance Solutions to Accelerate Financial Institutions Toward Agentic Banking\n\nEQS-N",
-      "published": "2026-05-23T00:00:00.000Z",
+      "title": "《非仙女：蟾蜍之死》作者Huw Aaron（电子书）- 企鹅图书澳大利亚（Unfairies: Death by Toad by Huw Aaron (EBook) - Penguin Books Australia）",
+      "url": "https://www.penguin.com.au/books/unfairies-death-by-toad-9780241683781",
+      "description": "Unfairies: Death by Toad by Huw Aaron (EBook) - Penguin Books Australia\n\n[]\n\n- Published: 28 May 2026\n- ISBN: 9780241683781\n- Imprint: Penguin eBooks\n- Format: EBook\n- Pages: 272\n\n# Unfairies: Death by Toad\n\n---\n\nFormats & editions\n\n---\n\nPre-order from…\n\n---\n\nThe second hilarious full-colour graphic",
+      "published": "2026-05-28T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "金融行业正从传统自动化向“代理式银行”转型，AI Agent深度嵌入业务流程成为新趋势。",
-        "华为通过底层基础设施升级支撑金融AI应用，意在抢占金融行业大模型落地的算力与生态高地。"
+        "该新闻与半导体产业无直接关联，属于数据噪音。",
+        "分析师在处理跨领域数据源时需建立更严格的过滤机制，剔除无关内容。"
       ],
       "actions": [
-        "金融科技供应商需将AI Agent能力整合入现有解决方案，提升产品的自主交互与决策水平。",
-        "关注华为金融级算力基础设施的国产化替代进展，评估其在核心业务系统中的适配潜力。"
+        "忽略此类非行业相关资讯，避免在半导体供应链决策中被噪音干扰。",
+        "建议优化数据抓取关键词过滤规则，提升行业简报的纯净度。"
       ],
       "glossary": [
         {
-          "term": "Agentic Banking",
-          "desc": "代理式银行，指基于AI Agent自主执行任务和决策的银行业务模式",
-          "category": "应用"
-        },
-        {
-          "term": "HiFS",
-          "desc": "华为金融解决方案平台",
-          "category": "产品"
+          "term": "EBook",
+          "desc": "电子书，数字化的出版物",
+          "category": "通用"
         }
       ],
       "region": "overseas",
-      "summary": "华为发布HiFS 2026，升级四大数字金融解决方案，推动金融机构向具备自主决策能力的“Agentic Banking”演进。",
+      "summary": "企鹅图书澳大利亚将于2026年5月28日出版Huw Aaron的电子书《非仙女：蟾蜍之死》，此为非半导体行业的文学类资讯。",
       "tag_category": "综合",
-      "title_en": "Huawei | HiFS 2026: Upgrading Four Major Digital Finance Solutions to Accelerate Financial Institutions Toward Agentic Banking"
-    },
-    {
-      "title": "Claude 5下一代模型2026：Karpathy、Colossus 2及未来展望（Claude 5 Next Model 2026: Karpathy, Colossus 2, What to Expect）",
-      "url": "https://perplexityaimagazine.com/ai-news/what-comes-after-claude-opus-47-claude-5-karpathy-colossus-2026/",
-      "description": "Claude 5 Next Model 2026: Karpathy, Colossus 2, What to Expect\n\n# What Comes After Claude Opus 4.7 — Karpathy’s Team, GB200 Compute and the Next Frontier Model From Anthropic\n\nMay 23, 2026\n\nClaude 5 — or whatever Anthropic chooses to call the next generation of its Claude model family — is being bui",
-      "published": "2026-05-23T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "前沿大模型竞争进入算力军备竞赛阶段，十万卡级集群（Colossus 2）成为训练下一代模型的标配。",
-        "顶级AI人才的流向直接决定了下一代模型的技术路线与工程效能。"
-      ],
-      "actions": [
-        "算力基础设施提供商需为十万卡级GPU集群的部署做好供电、散热与网络拓扑优化准备。",
-        "芯片设计公司应关注超大规模集群对高速互联（如NVLink、InfiniBand）的极端需求。"
-      ],
-      "glossary": [
-        {
-          "term": "Colossus 2",
-          "desc": "Anthropic用于训练Claude 5的下一代超大规模GPU计算集群",
-          "category": "基础设施"
-        },
-        {
-          "term": "Karpathy",
-          "desc": "Andrej Karpathy，知名AI研究者，OpenAI创始成员之一",
-          "category": "人物"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Anthropic正在开发Claude 5模型，由Karpathy团队主导，依托Colossus 2超算集群，预计将带来大模型能力的重大突破。",
-      "tag_category": "综合",
-      "title_en": "Claude 5 Next Model 2026: Karpathy, Colossus 2, What to Expect"
-    },
-    {
-      "title": "z386：基于原始微代码的开源80386实现（z386: An Open-Source 80386 Built Around Original Microcode）",
-      "url": "https://viralpique.com/z386-an-open-source-80386-built-around-original-microcode/",
-      "description": "z386: An Open-Source 80386 Built Around Original Microcode - viralpique.com\n\n# z386: An Open-Source 80386 Built Around Original Microcode\n\n0 Comments\n\n🚀 Read this awesome post from Hacker News 📖\n\n📂 **Category**:\n\n💡 **What You’ll Learn**:\n\nThis is the fifth installment of the 80386 series. The FP",
-      "published": "2026-05-23T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "开源硬件项目正深入到微代码级别的复古与重构，有助于挖掘经典架构的设计智慧。",
-        "此类项目对教育、安全验证及理解x86底层机制具有重要历史与工程价值。"
-      ],
-      "actions": [
-        "芯片设计教育机构可引入此类开源复古项目，作为微架构与微代码设计的实战案例。",
-        "关注开源硬件生态对传统封闭IP生态的长期解构潜力，评估其在特定边缘计算场景的可行性。"
-      ],
-      "glossary": [
-        {
-          "term": "80386",
-          "desc": "Intel推出的经典32位x86处理器，标志着x86架构的重大飞跃",
-          "category": "芯片架构"
-        },
-        {
-          "term": "Microcode",
-          "desc": "微代码，处理器内部用于实现复杂指令集的底层控制指令",
-          "category": "设计"
-        }
-      ],
-      "region": "overseas",
-      "summary": "开源项目z386成功利用原始微代码重构了经典的80386处理器，为芯片架构研究和复古计算提供了新资源。",
-      "tag_category": "综合",
-      "title_en": "z386: An Open-Source 80386 Built Around Original Microcode - viralpique.com"
-    },
-    {
-      "title": "三星电子增加HBM软件优势，瞄准定制HBM市场（Samsung Electronics Adds HBM Software Edge, Targets Custom HBM Market - Seoul Economic Daily）",
-      "url": "https://en.sedaily.com/markets/2026/05/24/samsung-electronics-adds-hbm-software-edge-targets-custom",
-      "description": "Samsung Electronics Adds HBM Software Edge, Targets Custom HBM Market - Seoul Economic Daily\n\nKST\n\nSeoul Economic DailyKorea's Leading Business News Since 1960\n\nMenu\n\nSaved ArticlesNewslettersAI KEYSettings\n\n|Summary|Save\n\nAAA\n\nSamsung Electronics is building a hardware-software integration system a",
-      "published": "2026-05-23T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "HBM竞争正从纯硬件规格比拼转向软硬件协同，配套软件栈正成为新的护城河。",
-        "定制化HBM需求崛起，头部云厂商对特定AI工作负载的内存优化需求日益强烈。"
-      ],
-      "actions": [
-        "关注三星定制HBM的软件接口和生态开放性，评估其对现有AI集群架构的适配潜力。",
-        "国内HBM研发团队需提前布局配套的软件工具链和调度算法，避免陷入纯硬件规格追赶。"
-      ],
-      "glossary": [
-        {
-          "term": "HBM",
-          "desc": "高带宽内存，一种通过垂直堆叠DRAM芯片并使用TSV互连实现极高带宽的3D存储技术",
-          "category": "存储"
-        }
-      ],
-      "region": "overseas",
-      "summary": "三星电子正通过强化软件能力来提升其在HBM市场的竞争力，并瞄准定制化HBM市场以寻求差异化突破。",
-      "tag_category": "综合",
-      "title_en": "Samsung Electronics Adds HBM Software Edge, Targets Custom HBM Market - Seoul Economic Daily"
-    },
-    {
-      "title": "AGAE以23.1亿美元收购东南亚光纤巨头，转型进军AI光网络（AGAE Acquires Southeast Asia Fiber Giant for $2.31B, Pivots to AI Optical Networks | MarketPulse）",
-      "url": "https://market-pulse.co/article/19986/agae-acquires-southeast-asia-fiber-giant-for-2-31b-pivots-to-ai-optical-networks",
-      "description": "AGAE Acquires Southeast Asia Fiber Giant for $2.31B, Pivots to AI Optical Networks | MarketPulse\n\n# AGAE Acquires Southeast Asia Fiber Giant for $2.31B, Pivots to AI Optical Networks\n\nGlobeNewswire Inc.\n\n|By Na|Saturday, May 23, 2026 at 04:50 PM UTC|4 min read\n\nKey Takeaway\n\nAGAE acquires 57.67% of ",
-      "published": "2026-05-23T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AI集群规模扩大使得数据中心内部和之间的光互联需求激增，传统光纤网络正加速升级为AI光网络。",
-        "东南亚作为全球数据中心扩张的新热土，其光纤基础设施正成为巨头并购的核心标的。"
-      ],
-      "actions": [
-        "光通信模块及设备厂商需加速开发面向AI训练集群的高带宽、低延迟光互联方案。",
-        "关注东南亚数据中心建设潮带来的光网络设备出海与市场渗透机会。"
-      ],
-      "glossary": [
-        {
-          "term": "AI Optical Networks",
-          "desc": "AI光网络，专为满足AI计算集群海量数据传输需求而设计的高带宽、低延迟光通信网络架构",
-          "category": "通信"
-        }
-      ],
-      "region": "overseas",
-      "summary": "AGAE斥资23.1亿美元收购东南亚光纤巨头，战略重心转向AI光网络领域，旨在把握AI数据中心互联带来的增长机遇。",
-      "tag_category": "综合",
-      "title_en": "AGAE Acquires Southeast Asia Fiber Giant for $2.31B, Pivots to AI Optical Networks | MarketPulse"
-    },
-    {
-      "title": "Sonar：AI代码验证领导者收购Gitar，扩展至AI代码审查领域（Sonar: AI Code Verification Leader Acquires Gitar To Expand Into AI Code Review）",
-      "url": "https://pulse2.com/sonar-ai-code-verification-leader-acquires-gitar-to-expand-into-ai-code-review/",
-      "description": "Sonar: AI Code Verification Leader Acquires Gitar To Expand Into AI Code Review\n\n# Sonar: AI Code Verification Leader Acquires Gitar To Expand Into AI Code Review\n\nBy Amit Chowdhry • Yesterday at 10:38 PM\n\nSonar: AI Code Verification Leader Acquires Gitar To Expand Into AI Code Review\n\nSonar announc",
-      "published": "2026-05-24T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "随着AI生成代码的比例急剧增加，针对AI代码的审查和验证工具已成为软件供应链安全的新刚需。",
-        "代码质量工具正通过并购快速整合，从传统的静态分析向AI辅助审查和自动化修复演进。"
-      ],
-      "actions": [
-        "芯片设计EDA软件和内部开发团队应引入AI代码审查工具，提升RTL及验证代码的生成质量与安全性。",
-        "关注Sonar等工具在AI生成代码漏洞检测上的能力边界，建立必要的人工复核机制。"
-      ],
-      "glossary": [
-        {
-          "term": "AI Code Review",
-          "desc": "AI代码审查，利用人工智能技术自动检测、分析和评估代码质量、安全漏洞及合规性的过程",
-          "category": "软件"
-        }
-      ],
-      "region": "overseas",
-      "summary": "AI代码验证领域领导者Sonar收购Gitar，将业务版图扩展至AI代码审查领域，进一步完善软件质量保障生态。",
-      "tag_category": "综合",
-      "title_en": "Sonar: AI Code Verification Leader Acquires Gitar To Expand Into AI Code Review"
+      "title_en": "Unfairies: Death by Toad by Huw Aaron (EBook) - Penguin Books Australia"
     }
   ],
   "stats": {
-    "total_raw": 143,
-    "after_dedup": 76,
+    "total_raw": 87,
+    "after_dedup": 79,
     "sources": {
-      "Exa": 31,
-      "RSS": 35,
-      "Brave": 10
+      "Exa": 12,
+      "RSS": 63,
+      "Brave": 4
     }
   },
   "code_version": "",
