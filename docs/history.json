@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://thenextweb.com/news/cerebras-ipo-4-billion-40-billion-valuation",
-    "title": "AI芯片制造商Cerebras寻求以400亿美元估值进行最高40亿美元的IPO",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-04T06:05:00+08:00"
-  },
-  {
-    "url": "https://www.aibusinessreview.org/2026/05/02/meta-acquires-assured-robot-intelligence-humanoid-ai/",
-    "title": "Meta收购Assured Robot Intelligence以发力人形机器人AI",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-04T06:05:00+08:00"
-  },
-  {
-    "url": "https://semiwiki.com/ceo-interviews/368833-ceo-interview-with-geoffrey-rodgers-of-chameleon-semiconductor/",
-    "title": "Chameleon Semiconductor首席执行官Geoffrey Rodgers专访",
-    "published": "Sun, 03 May 2026 21:00:04 +0000",
-    "addedAt": "2026-05-04T06:05:00+08:00"
-  },
-  {
-    "url": "https://www.36kr.com/p/3659934294991749",
-    "title": "阿里首次证实自研AI芯片PPU存在，大规模出货已有一年",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-04T06:05:00+08:00"
-  },
-  {
-    "url": "https://abmedia.io/mediatek-hires-tsmc-cowos-yu-chen-hua-advanced-packaging-may-2026",
-    "title": "联发科延揽前台积电CoWoS推手余振华：声明与英特尔EMIB无关，选边台积电",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-04T06:05:00+08:00"
-  },
-  {
     "url": "https://abmedia.io/tsmc-cowos-emib-intel-90-percent",
     "title": "台积电CoWoS外溢最大受惠者？英特尔EMIB良率传达90%，先进封装成翻身关键",
     "published": "2026-05-02T00:00:00.000Z",
@@ -2998,5 +2968,35 @@
     "title": "《非仙女：蟾蜍之死》作者Huw Aaron（电子书）- 企鹅图书澳大利亚（Unfairies: Death by Toad by Huw Aaron (EBook) - Penguin Books Australia）",
     "published": "2026-05-28T00:00:00.000Z",
     "addedAt": "2026-05-25T13:03:00+08:00"
+  },
+  {
+    "url": "https://chejiahao.autohome.com.cn/info/25525010",
+    "title": "全新一代问界M9将于5月27日上市",
+    "published": "2026-05-27T00:00:00.000Z",
+    "addedAt": "2026-05-25T20:03:00+08:00"
+  },
+  {
+    "url": "https://chejiahao.autohome.com.cn/info/25521469",
+    "title": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起",
+    "published": "2026-05-27T00:00:00.000Z",
+    "addedAt": "2026-05-25T20:03:00+08:00"
+  },
+  {
+    "url": "https://chejiahao.autohome.com.cn/info/25397889",
+    "title": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市",
+    "published": "2026-05-27T00:00:00.000Z",
+    "addedAt": "2026-05-25T20:03:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/huawei-planning-to-bring-1-4nm-chips-by-2031/",
+    "title": "华为计划于2031年推出相当于台积电1.4nm工艺的芯片光刻技术，表明美国制裁未能扼杀其进步",
+    "published": "Mon, 25 May 2026 11:11:13 +0000",
+    "addedAt": "2026-05-25T20:03:00+08:00"
+  },
+  {
+    "url": "https://semiconalpha.substack.com/p/cxmts-ipo-filing-chinas-dram-comes",
+    "title": "长鑫存储（CXMT）提交IPO申请：中国DRAM走向成熟",
+    "published": "",
+    "addedAt": "2026-05-25T20:03:00+08:00"
   }
 ]

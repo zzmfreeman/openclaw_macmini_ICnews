@@ -1,6 +1,6 @@
 {
-  "version": "v20260524-2003",
-  "generatedAt": "2026-05-24T20:03:00+08:00",
+  "version": "v20260525-2003",
+  "generatedAt": "2026-05-25T20:03:00+08:00",
   "period": "evening",
   "commit": "",
   "glossary_list": [
@@ -20,24 +20,39 @@
       "category": "封装"
     },
     {
-      "term": "BOM",
-      "desc": "物料清单，指产品制造所需的所有零部件和材料的清单",
-      "category": "供应链"
+      "term": "问界M9",
+      "desc": "华为与赛力斯联合打造的高端智能SUV车型",
+      "category": "终端产品"
     },
     {
-      "term": "IPO",
-      "desc": "首次公开募股，指企业首次向公众投资者发售股票",
-      "category": "资本"
+      "term": "预售价",
+      "desc": "产品正式上市前的初步定价，常用于市场测试和蓄水",
+      "category": "市场"
     },
     {
-      "term": "DRAM",
-      "desc": "动态随机存取存储器，一种常见的系统内存，需要周期性刷新以保持数据",
-      "category": "存储"
+      "term": "扎堆上市",
+      "desc": "多个同类产品在同一时间段内集中推向市场",
+      "category": "市场"
+    },
+    {
+      "term": "1.4nm工艺",
+      "desc": "半导体制造的先进节点，通常指超越2nm的下一代极微缩制程技术",
+      "category": "制程"
+    },
+    {
+      "term": "Lithography",
+      "desc": "光刻技术，半导体制造中将电路图案转移到硅片上的关键工艺",
+      "category": "设备/工艺"
     },
     {
       "term": "CXMT",
-      "desc": "长鑫存储，中国大陆领先的DRAM研发与制造企业",
+      "desc": "长鑫存储技术有限公司，中国领先的DRAM研发和制造企业",
       "category": "企业"
+    },
+    {
+      "term": "DRAM",
+      "desc": "动态随机存取存储器，常见的主内存类型，用于各类计算和终端设备",
+      "category": "存储"
     }
   ],
   "topic_pulse": [
@@ -46,56 +61,56 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS产能扩张的讨论热度有所下降，市场已逐渐消化台积电扩产消息，关注点转向实际良率与订单落地情况。"
+      "summary": "近期社区对CoWoS及先进封装的讨论热度明显降温。随着产能扩张信息的常态化，市场对封装短缺的焦虑有所缓解，讨论焦点从产能紧缺转向长期供需平衡及技术迭代。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "随着AI芯片热度短暂回调，社区对HBM的炒作情绪降温，讨论重心从产能紧缺转向长周期下的价格走势与库存健康度。"
+      "summary": "HBM与AI存储话题热度回落，社区情绪趋于理性。前期对HBM紧缺的炒作情绪减弱，当前讨论更多集中在HBM3e的实际量产进度及长期价格走势上。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国内晶圆厂扩产节奏趋于稳健，社区对先进制程突破的短期预期降温，讨论更聚焦于成熟制程的盈利能力与实际需求复苏。"
+      "summary": "中国Fab与先进制程话题热度下降，社区讨论暂入平台期。尽管华为1.4nm目标引发部分关注，但整体情绪偏观望，等待国产EUV等核心设备的实质性突破消息。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题热度回落，社区讨论从政策驱动转向商业化落地，关注企业能否在客户实际流片中证明工具的可靠性。"
+      "summary": "国产EDA/IP话题热度降温，社区讨论趋于平静。在缺乏重大新品发布或政策刺激的背景下，讨论重点转向现有国产EDA工具在实际流片中的验证反馈与生态建设。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测板块整体热度下降，社区对传统OSAT的周期性复苏预期趋于理性，讨论更多集中在先进封装与传统封装的产能结构性分化。"
+      "summary": "封测OSAT话题热度下降，社区关注度减弱。随着传统封测需求进入平稳期，缺乏短期催化剂，讨论重心偏向于OSAT厂商在先进封装领域的长期布局与盈利能力。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期无重大新增制裁落地，社区对出口管制的恐慌情绪降温，讨论转向企业如何通过供应链调整适应现有管制常态。"
+      "summary": "出口管制与制裁话题热度回落，社区情绪暂显缓和。近期无新增重大制裁清单出台，讨论从恐慌性应对转向对现有规则漏洞及长期合规策略的深度剖析。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "英伟达及AI芯片话题短期降温，社区对算力无限扩张的预期有所修正，开始关注AI推理侧需求及实际投资回报率。"
+      "summary": "AI芯片与NVIDIA话题热度降温，社区讨论趋于常态化。市场已逐步消化NVIDIA新一代芯片的发布信息，当前关注点转向实际出货量、禁令影响及竞争对手的追赶动态。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备材料国产化讨论热度微降，市场从情绪驱动转向业绩验证期，社区更关注国产设备在晶圆厂的实际验证进度与重复订单情况。"
+      "summary": "设备与材料国产化话题热度下降，社区进入冷静期。讨论焦点从前期的情绪化追捧回归理性，更关注国产设备在先进产线上的实际良率表现及重复订单情况。"
     }
   ],
   "items": [
@@ -109,22 +124,22 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "问界M9的上市将进一步加剧国内50万级高端SUV市场的竞争，华为智驾系统的加持是其核心差异化优势。",
-        "头部新能源车型的密集发布，正在加速汽车半导体供应链的国产化替代与增量需求释放。"
+        "问界M9的上市将进一步拉动国内高端智能汽车市场的竞争，其搭载的华为智能驾驶和座舱芯片方案是核心卖点。",
+        "高端新能源车型的密集发布，将持续推高对车规级大算力芯片和先进存储器的需求。"
       ],
       "actions": [
-        "车规级芯片供应商应密切关注问界M9的BOM变化及智能驾驶域控制器的增量需求。",
-        "相关传感器与座舱芯片供应链需提前备货，以应对新车上市后可能的销量爬坡带来的产能挤兑。"
+        "关注问界M9的BOM清单及核心芯片供应商变动，评估其销量对相关车规级芯片供应链的拉动效应。",
+        "提前储备智能座舱和自动驾驶相关的关键车规级芯片产能，应对高端车型上市带来的需求波动。"
       ],
       "glossary": [
         {
-          "term": "BOM",
-          "desc": "物料清单，指产品制造所需的所有零部件和材料的清单",
-          "category": "供应链"
+          "term": "问界M9",
+          "desc": "华为与赛力斯联合打造的高端智能SUV车型",
+          "category": "终端产品"
         }
       ],
       "region": "domestic",
-      "summary": "全新一代问界M9将于5月27日正式上市，作为高端智能电动SUV，其市场表现备受行业关注。",
+      "summary": "全新一代问界M9宣布将于5月27日正式上市，作为国内高端智能电动汽车的代表，其市场表现备受关注。",
       "tag_category": "综合",
       "title_en": "全新一代问界M9将于5月27日上市_车家号_发现车生活_汽车之家"
     },
@@ -138,16 +153,22 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "预售价49.98万元起表明该车型主打高端市场，高单车价值量对供应链上游的芯片与元器件规格要求更高。",
-        "系列化车型的推出意味着产品矩阵的完善，有助于摊薄研发成本并提升整体零部件采购规模。"
+        "近50万的预售价表明高端车型对成本容忍度较高，为高规格车规级芯片（如高性能SoC、激光雷达芯片）提供了利润空间。",
+        "系列化发布意味着多配置版本，将产生对不同规格芯片的阶梯式需求。"
       ],
       "actions": [
-        "高端车规芯片（如大算力SoC、高性能MCU）供应商应借此机会加速导入华为系车企供应链。",
-        "关注该车型量产后的实际交付数据，以此判断高端智能汽车消费市场的真实复苏力度。"
+        "梳理问界M9不同配置版本的芯片BOM差异，针对高配版本重点布局高算力自动驾驶芯片供应链。",
+        "关注该车型量产后的实际交付量，及时调整车规级芯片的备货策略。"
       ],
-      "glossary": [],
+      "glossary": [
+        {
+          "term": "预售价",
+          "desc": "产品正式上市前的初步定价，常用于市场测试和蓄水",
+          "category": "市场"
+        }
+      ],
       "region": "domestic",
-      "summary": "全新一代问界M9系列确认将于5月27日上市，预售价起步为49.98万元，定位高端智能汽车市场。",
+      "summary": "全新一代问界M9系列定于5月27日上市，预售价起步为49.98万元，定位国内高端豪华SUV市场。",
       "tag_category": "综合",
       "title_en": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起_车家号_发现车生活_汽车之家"
     },
@@ -161,47 +182,58 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "头部新能源车企密集发布新车型，反映出国内智能电动车市场竞争白热化，车企正通过产品迭代抢占份额。",
-        "多款重磅车型扎堆上市，将直接拉动汽车半导体在智能座舱、底盘及动力域的短期强劲需求。"
+        "头部新能源车企扎堆发布新车型，标志着国内智能汽车迭代速度加快，对车规级芯片的迭代和产能提出更高要求。",
+        "多品牌集中上市可能导致短期内车规级芯片供应链出现结构性缺货，尤其是智能驾驶和座舱芯片。"
       ],
       "actions": [
-        "汽车芯片供应链需警惕多款车型并发上市带来的产能挤兑风险，加强与主机厂的订单协同。",
-        "建议功率半导体及传感器供应商提前锁定产能，确保关键车规芯片在旺季的稳定交付。"
+        "评估理想、蔚来、小米三大品牌新车型对同类芯片（如高通座舱芯片、地平线/英伟达智驾芯片）的叠加需求，防范产能挤兑。",
+        "与整车厂及Tier1保持紧密沟通，锁定关键车规级芯片的长周期订单，确保交付节奏不受供应链波动影响。"
       ],
-      "glossary": [],
+      "glossary": [
+        {
+          "term": "扎堆上市",
+          "desc": "多个同类产品在同一时间段内集中推向市场",
+          "category": "市场"
+        }
+      ],
       "region": "domestic",
-      "summary": "5月国内新能源汽车市场迎来新车上市潮，理想L9、蔚来ES9及小米YU7 GT等重磅车型集中发布。",
+      "summary": "5月国内新能源汽车市场迎来新车发布潮，理想L9、蔚来ES9及小米YU7 GT等多款重磅车型集中上市。",
       "tag_category": "综合",
       "title_en": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市_车家号_发现车生活_汽车之家"
     },
     {
-      "title": "SpaceX Pre-IPO披露的一个数字揭示了该业务的真实脆弱性",
-      "url": "https://finance.yahoo.com/economy/policy/articles/one-number-spacex-pre-ipo-112835397.html",
-      "description": "Buried inside SpaceX’s pre-IPO disclosures is a single percentage that should make every investor lining up for the $75 billion June 2026 Nasdaq debut pause. It’s a quieter number tucked into a concentration-of-risk footnote, well away from the headline revenue figure and the backlog, and ...",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
+      "title": "华为计划于2031年推出相当于台积电1.4nm工艺的芯片光刻技术，表明美国制裁未能扼杀其进步",
+      "url": "https://wccftech.com/huawei-planning-to-bring-1-4nm-chips-by-2031/",
+      "description": "The U.S. sanctions may have closed Huawei’s trading capabilities with other countries to obtain access to the latest lithography and paraphernalia associated with mass producing next-generation chips, but what it also did was fuel the company’s desire to carve its mark without relying on overseas fi",
+      "published": "Mon, 25 May 2026 11:11:13 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
       "lang": "en",
       "tags": [],
       "insights": [
-        "商业航天虽然前景广阔，但财务数据的隐忧表明其盈利能力和业务稳定性仍面临挑战。",
-        "卫星互联网及航天供应链的高投入长周期特征，使得相关企业抗风险能力较弱，易受发射失败或订单波动影响。"
+        "华为设定2031年1.4nm目标，反映出国内先进制程攻坚的长期战略定力，但该目标的实现极度依赖国产EUV光刻机等核心设备的突破。",
+        "美国制裁倒逼华为及国内产业链加速底层技术自研，长期来看将重塑全球半导体先进制程的竞争格局。"
       ],
       "actions": [
-        "关注SpaceX上市后对航天级芯片及抗辐照元器件供应链的拉动效应与订单持续性。",
-        "投资商业航天相关半导体标的时，需谨慎评估其下游客户的财务健康度与业务抗风险能力。"
+        "密切关注国产EUV光刻机及先进制程EDA工具的研发进展，这将是决定1.4nm目标能否落地的关键前置条件。",
+        "国内半导体设备和材料厂商应提前布局与1.4nm工艺相匹配的前瞻性研发，抢占未来国产先进制程供应链的生态位。"
       ],
       "glossary": [
         {
-          "term": "IPO",
-          "desc": "首次公开募股，指企业首次向公众投资者发售股票",
-          "category": "资本"
+          "term": "1.4nm工艺",
+          "desc": "半导体制造的先进节点，通常指超越2nm的下一代极微缩制程技术",
+          "category": "制程"
+        },
+        {
+          "term": "Lithography",
+          "desc": "光刻技术，半导体制造中将电路图案转移到硅片上的关键工艺",
+          "category": "设备/工艺"
         }
       ],
       "region": "overseas",
-      "summary": "SpaceX在6月2026年纳斯达克上市前的IPO披露文件中，隐藏的一个关键百分比数据揭示了其业务模式的脆弱性，值得投资者警惕。",
+      "summary": "华为计划在2031年实现相当于台积电1.4nm工艺水平的芯片光刻技术，以此证明美国制裁并未阻止其在先进制程上的研发推进。",
       "tag_category": "EDA/IP",
-      "title_en": "One Number From SpaceX’s Pre-IPO Disclosures Reveals Just How Fragile This Business Really Is"
+      "title_en": "Huawei Planning To Launch Chip Lithography Equal To TSMC’s 1.4nm Process By 2031, Showing That U.S. Sanctions Won’t Stifle Its Progress"
     },
     {
       "title": "长鑫存储（CXMT）提交IPO申请：中国DRAM走向成熟",
@@ -213,36 +245,36 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "长鑫存储的IPO是中国半导体存储产业国产化的重要里程碑，意味着国内DRAM在技术和产能上已具备规模化商业基础。",
-        "此举将极大推动国内存储芯片产业链的资本聚集与生态完善，加速关键设备与材料的本土化配套。"
+        "长鑫存储IPO进程加速，意味着国产DRAM在产能规模和财务健康度上已达到资本市场准入门槛，国产替代进入新阶段。",
+        "中国DRAM的成熟将打破三星、SK海力士和美光的垄断格局，为国内消费电子和汽车芯片提供更安全的本地存储供应链。"
       ],
       "actions": [
-        "国内存储芯片设备及材料供应商应积极对接长鑫存储，把握其扩产带来的国产化替代订单红利。",
-        "关注其IPO募投方向与产能规划，提前布局相关先进制程DRAM的配套供应链产能。"
+        "关注长鑫存储IPO募资用途，重点评估其新增产能规划对上游DRAM制造设备和材料供应链的拉动机会。",
+        "下游系统厂商应加速导入长鑫存储的DRAM产品，优化供应链成本并提升存储芯片的国产化率。"
       ],
       "glossary": [
         {
-          "term": "DRAM",
-          "desc": "动态随机存取存储器，一种常见的系统内存，需要周期性刷新以保持数据",
-          "category": "存储"
+          "term": "CXMT",
+          "desc": "长鑫存储技术有限公司，中国领先的DRAM研发和制造企业",
+          "category": "企业"
         },
         {
-          "term": "CXMT",
-          "desc": "长鑫存储，中国大陆领先的DRAM研发与制造企业",
-          "category": "企业"
+          "term": "DRAM",
+          "desc": "动态随机存取存储器，常见的主内存类型，用于各类计算和终端设备",
+          "category": "存储"
         }
       ],
       "region": "overseas",
-      "summary": "长鑫存储母公司长鑫科技集团向上海证券交易所提交了最新修订的初步招股书及更新财务报表，标志着中国DRAM产业进入新阶段。",
+      "summary": "长鑫存储（CXMT）母公司向上海证券交易所提交了最新修订的招股书及财务数据，标志着中国国产DRAM产业正走向成熟。",
       "tag_category": "EDA/IP",
       "title_en": "CXMT’s IPO Filing. China’s DRAM Comes Of Age"
     }
   ],
   "stats": {
-    "total_raw": 90,
-    "after_dedup": 82,
+    "total_raw": 92,
+    "after_dedup": 87,
     "sources": {
-      "Exa": 8,
+      "Exa": 13,
       "RSS": 64,
       "Brave": 10
     }
