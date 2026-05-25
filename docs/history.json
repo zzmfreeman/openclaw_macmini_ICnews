@@ -1,95 +1,5 @@
 [
   {
-    "url": "https://abmedia.io/tsmc-cowos-emib-intel-90-percent",
-    "title": "台积电CoWoS外溢最大受惠者？英特尔EMIB良率传达90%，先进封装成翻身关键",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-04T06:05:00+08:00"
-  },
-  {
-    "url": "https://finance.biggo.com/news/ak5V6Z0BNl__-4_GdpqQ",
-    "title": "台积电“仁慈”的N3定价使其在产能争夺战中获评“全球最公平公司”",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-04T06:05:00+08:00"
-  },
-  {
-    "url": "https://wccftech.com/tsmc-a16-node-promises-speed-boost-power-cut-over-2nm-backside-power-production-q4-2026/",
-    "title": "台积电A16“1.6nm”节点承诺比2nm提速10%或降功耗20%，背面供电将于2026年Q4量产",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-04T06:05:00+08:00"
-  },
-  {
-    "url": "https://www.convergence-now.com/artificial-intelligence/nvidia-nemotron-3-nano-omni-multimodal-ai-launch/",
-    "title": "英伟达发布Nemotron-3 Nano Omni：紧凑且可扩展的多模态AI",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-04T06:05:00+08:00"
-  },
-  {
-    "url": "https://www.technotime.net/13893",
-    "title": "华为在开罗发布升级版星河智能网络，加速非洲AI驱动的连接",
-    "published": "2026-05-03T00:00:00.000Z",
-    "addedAt": "2026-05-04T06:05:00+08:00"
-  },
-  {
-    "url": "https://winbuzzer.com/2026/05/02/mistral-medium-3-5-unified-flagship-chat-reasoning-code-xcxwbn/",
-    "title": "Mistral Medium 3.5将聊天、推理和代码能力整合进单一128B AI模型",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-04T06:05:00+08:00"
-  },
-  {
-    "url": "https://toolsstackai.com/nvidia-ising-open-source-quantum-ai-models-error-correction-2026/",
-    "title": "英伟达开源Ising：首个专为量子计算构建的AI模型家族",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-04T06:05:00+08:00"
-  },
-  {
-    "url": "https://n24.com.tr/en/technology/nebius-to-acquire-eigen-ai-for-643m-to-boost-ai-capabilities-526",
-    "title": "Nebius将以6.43亿美元收购Eigen AI以增强AI能力",
-    "published": "2026-05-02T00:00:00.000Z",
-    "addedAt": "2026-05-04T06:05:00+08:00"
-  },
-  {
-    "url": "https://semiwiki.com/ceo-interviews/368833-ceo-interview-with-geoffrey-rodgers-of-chameleon-semiconductor/",
-    "title": "变色龙半导体CEO Geoffrey Rodgers专访",
-    "published": "Sun, 03 May 2026 21:00:04 +0000",
-    "addedAt": "2026-05-04T13:02:00+08:00"
-  },
-  {
-    "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
-    "title": "使用全波电磁仿真设计宽带LPDA馈电反射面天线",
-    "published": "Fri, 17 Apr 2026 14:00:50 +0000",
-    "addedAt": "2026-05-04T13:02:00+08:00"
-  },
-  {
-    "url": "https://enterpriseai.economictimes.indiatimes.com/news/industry/cerebras-aims-for-4-billion-ipo-as-ai-chip-demand-soars/130730481",
-    "title": "AI芯片需求飙升，Cerebras目标40亿美元IPO",
-    "published": "",
-    "addedAt": "2026-05-04T13:02:00+08:00"
-  },
-  {
-    "url": "https://phemex.com/news/article/cerebras-systems-eyes-4-billion-ipo-amid-rising-ai-chip-demand-78274",
-    "title": "Cerebras Systems计划在AI芯片需求热潮中进行40亿美元IPO",
-    "published": "",
-    "addedAt": "2026-05-04T13:02:00+08:00"
-  },
-  {
-    "url": "https://www.caproasia.com/2026/05/03/united-states-ai-research-startup-anthropic-in-talks-to-raise-new-funding-at-900-billion-valuation-received-investment-offers-at-800-billion-valuation-from-venture-capital-firms-plans-united-state/",
-    "title": "美国AI研究初创公司Anthropic寻求以900亿美元估值融资，计划2026年IPO",
-    "published": "",
-    "addedAt": "2026-05-04T13:02:00+08:00"
-  },
-  {
-    "url": "https://semiwiki.com/ceo-interviews/368833-ceo-interview-with-geoffrey-rodgers-of-chameleon-semiconductor/",
-    "title": "Chameleon Semiconductor首席执行官Geoffrey Rodgers专访",
-    "published": "Sun, 03 May 2026 21:00:04 +0000",
-    "addedAt": "2026-05-04T20:04:00+08:00"
-  },
-  {
-    "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
-    "title": "使用全波电磁仿真设计宽带LPDA馈源反射面天线",
-    "published": "Fri, 17 Apr 2026 14:00:50 +0000",
-    "addedAt": "2026-05-04T20:04:00+08:00"
-  },
-  {
     "url": "https://enterpriseai.economictimes.indiatimes.com/news/industry/cerebras-aims-for-4-billion-ipo-as-ai-chip-demand-soars/130730481",
     "title": "随着AI芯片需求激增，Cerebras目标通过IPO筹集40亿美元",
     "published": "",
@@ -2998,5 +2908,95 @@
     "title": "长鑫存储（CXMT）提交IPO申请：中国DRAM走向成熟",
     "published": "",
     "addedAt": "2026-05-25T20:03:00+08:00"
+  },
+  {
+    "url": "https://36kr.com/p/3328672021473540",
+    "title": "芯片“卖铲人”EDA封锁升级，国产半导体迎来危与机-36氪",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-26T06:04:00+08:00"
+  },
+  {
+    "url": "https://finance.sina.com.cn/roll/2026-05-24/doc-inhyypep6014754.shtml",
+    "title": "紫光国微拟19亿收购瑞能半导|紫光国微_新浪财经_新浪网",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-26T06:04:00+08:00"
+  },
+  {
+    "url": "https://news.lavx.hu/article/nvidia-ceo-calls-for-tighter-export-controls-after-2-5-b-supermicro-smuggling-case-taiwan-launches-first-ai-gpu-crackdown",
+    "title": "英伟达CEO呼吁加强出口管制，因25亿美元超微走私案；台湾地区发起首次AI GPU打击行动（Nvidia CEO Calls for Tighter Export Controls After $2.5 B Supermicro Smuggling Case; Taiwan Launches First AI GPU Crackdown）",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-26T06:04:00+08:00"
+  },
+  {
+    "url": "https://cryptobriefing.com/huawei-122tb-ssd-dob-packaging/",
+    "title": "华为在美国出口管制下利用创新封装技术开发122TB SSD（Huawei develops 122TB SSD using innovative packaging amid US export controls）",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-26T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.cls.cn/detail/2380429",
+    "title": "半导体扩产预期升温 设备板块集体井喷 机构看好国产化进程",
+    "published": "18小时前",
+    "addedAt": "2026-05-26T06:04:00+08:00"
+  },
+  {
+    "url": "https://winbuzzer.com/2026/05/24/micron-starts-us-1-alpha-dram-production-in-virginia-xcxwbn/",
+    "title": "美光在弗吉尼亚州启动美国1-alpha DRAM生产（Micron Starts US 1-Alpha DRAM Production in Virginia）",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-26T06:04:00+08:00"
+  },
+  {
+    "url": "https://gamerant.com/nvidia-rtx-3060-alternative-china-lisuan-lx/",
+    "title": "中国推出新游戏GPU，可能挑战英伟达（China Reveals New Gaming GPU, Could Challenge NVIDIA）",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-26T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.noobfeed.com/hardware/amd-epyc-venice-256-core-zen6-server-cpu",
+    "title": "AMD EPYC Venice 2nm 256核Zen 6服务器CPU投入生产，英特尔落后（AMD EPYC Venice 2nm 256-Core Zen 6 Server CPUs Enter Production as Intel Falls Behind）",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-26T06:04:00+08:00"
+  },
+  {
+    "url": "https://noah-news.com/south-koreas-etri-unveils-omnixtend-to-break-ais-memory-wall-with-networked-shar/",
+    "title": "韩国ETRI发布OmniXtend，以网络共享内存打破AI内存墙（South Korea's ETRI unveils OmniXtend to break AI's memory wall with networked shared memory）",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-26T06:04:00+08:00"
+  },
+  {
+    "url": "https://pasqualepillitteri.it/en/news/3276/anthropic-mythos-1-claude-code-claude-security-launch",
+    "title": "Claude Code与Claude Security中的Mythos-1：Anthropic准备推出2026年最强大的网络安全前沿模型（Mythos-1 in Claude Code and Claude Security: Anthropic Readies the Most Powerful Cyber Frontier Model of 2026）",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-26T06:04:00+08:00"
+  },
+  {
+    "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-amkr/amkor-technology/news/a-look-at-amkor-technology-amkr-valuation-after-2026-investo",
+    "title": "2026投资者日与亚利桑那封装扩张计划后，安靠科技（AMKR）估值展望（A Look At Amkor Technology (AMKR) Valuation After 2026 Investor Day And Arizona Packaging Expansion Plans）",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-26T06:04:00+08:00"
+  },
+  {
+    "url": "https://aiinasia.com/opinion/hynix-hbm4-handoff-samsung-hbm3e-asia-2026-05-24",
+    "title": "SK海力士在三星之前接手了HBM4的接力棒（SK Hynix Caught the HBM4 Handoff Before Samsung）",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-26T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.harianbasis.co/en/indie-semiconductor-acquire-ams-osram-sensor-group",
+    "title": "indie Semiconductor同意收购ams OSRAM CMOS传感器业务（indie Semiconductor Agrees to Acquire ams OSRAM CMOS Sensor Group）",
+    "published": "2026-05-24T00:00:00.000Z",
+    "addedAt": "2026-05-26T06:04:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/369345-tsmc-powers-up-408000-batteries-get-a-safety-intelligence-upgrade/",
+    "title": "台积电（TSMC）提升动力：408,000块电池获得安全智能升级（TSMC Powers Up: 408,000 Batteries Get a Safety Intelligence Upgrade）",
+    "published": "Mon, 25 May 2026 17:00:39 +0000",
+    "addedAt": "2026-05-26T06:04:00+08:00"
+  },
+  {
+    "url": "https://semiwiki.com/semiconductor-manufacturers/soitec/369424-power-soi-the-reliability-engine-behind-functional-safety-ics/",
+    "title": "Power-SOI技术：功能安全IC背后的可靠性引擎（Power-SOI: The Reliability Engine Behind Functional Safety ICs）",
+    "published": "Mon, 25 May 2026 13:00:38 +0000",
+    "addedAt": "2026-05-26T06:04:00+08:00"
   }
 ]
