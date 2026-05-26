@@ -1,95 +1,5 @@
 [
   {
-    "url": "https://money.udn.com/money/story/5612/9479520",
-    "title": "龙科三期大复活 台积电传将在龙潭建埃米厂",
-    "published": "2026-05-03T00:00:00.000Z",
-    "addedAt": "2026-05-05T06:05:00+08:00"
-  },
-  {
-    "url": "https://news.nextapple.com/finance/20260503/252C5830FB22195CA36E25942AF627C4",
-    "title": "台积电前研发大将助阵联发科！强化CoWoS合作",
-    "published": "2026-05-03T00:00:00.000Z",
-    "addedAt": "2026-05-05T06:05:00+08:00"
-  },
-  {
-    "url": "https://nextfinancial.substack.com/p/the-60-problem",
-    "title": "台积电的60%问题",
-    "published": "2026-05-04T00:00:00.000Z",
-    "addedAt": "2026-05-05T06:05:00+08:00"
-  },
-  {
-    "url": "https://finance.biggo.com/news/eszj8Z0BX0tZvRTv6p9y",
-    "title": "Longtan Phase III Expansion Revived: TSMC Files Factory Application, Hsinchu Science Park Administration Confirms Majority Landowner Support at Public Hearing — BigGo Finance",
-    "published": "2026-05-04T00:00:00.000Z",
-    "addedAt": "2026-05-05T06:05:00+08:00"
-  },
-  {
-    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidias-asian-supply-chain-hits-90-percent-of-production-costs",
-    "title": "英伟达亚洲供应链组件成本占比达90%",
-    "published": "2026-05-04T00:00:00.000Z",
-    "addedAt": "2026-05-05T06:05:00+08:00"
-  },
-  {
-    "url": "https://matrixbcg.com/blogs/growth-strategy/aseglobal",
-    "title": "日月光投控的增长战略与未来前景",
-    "published": "2026-05-04T00:00:00.000Z",
-    "addedAt": "2026-05-05T06:05:00+08:00"
-  },
-  {
-    "url": "https://pulse2.com/applied-materials-acquires-nexx-business-from-asmpt/",
-    "title": "Applied Materials Acquires NEXX Business From ASMPT",
-    "published": "2026-05-04T00:00:00.000Z",
-    "addedAt": "2026-05-05T06:05:00+08:00"
-  },
-  {
-    "url": "https://semiwiki.com/artificial-intelligence/368752-rethinking-ecad-it-infrastructure-from-fragmentation-to-an-engineering-platform/",
-    "title": "重新思考ECAD IT基础设施：从碎片化到工程平台",
-    "published": "Mon, 04 May 2026 13:00:52 +0000",
-    "addedAt": "2026-05-05T06:05:00+08:00"
-  },
-  {
-    "url": "https://wccftech.com/call-of-duty-no-longer-ps4-xbox-one/",
-    "title": "Call of Duty Leaves PS4/Xbox One Behind as Activision Confirms The Next COD is Being Made for Current-Gen Only",
-    "published": "Mon, 04 May 2026 20:35:55 +0000",
-    "addedAt": "2026-05-05T06:05:00+08:00"
-  },
-  {
-    "url": "https://semiwiki.com/ceo-interviews/368833-ceo-interview-with-geoffrey-rodgers-of-chameleon-semiconductor/",
-    "title": "Chameleon Semiconductor首席执行官Geoffrey Rodgers专访",
-    "published": "Sun, 03 May 2026 21:00:04 +0000",
-    "addedAt": "2026-05-05T13:02:00+08:00"
-  },
-  {
-    "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
-    "title": "使用全波电磁仿真设计宽带LPDA馈源反射面天线",
-    "published": "Fri, 17 Apr 2026 14:00:50 +0000",
-    "addedAt": "2026-05-05T13:02:00+08:00"
-  },
-  {
-    "url": "https://cio.economictimes.indiatimes.com/news/investments/ai-chipmaker-cerebras-targets-up-to-4-billion-in-ipo/130760041",
-    "title": "Cerebras IPO：随着AI芯片需求激增，Cerebras目标通过IPO筹集40亿美元",
-    "published": "",
-    "addedAt": "2026-05-05T13:02:00+08:00"
-  },
-  {
-    "url": "https://www.ico-optics.org/cerebras-files-3-5b-us-ipo-challenges-nvidia-in-ai-chips/",
-    "title": "Cerebras提交35亿美元美国IPO申请，在AI芯片领域挑战英伟达",
-    "published": "",
-    "addedAt": "2026-05-05T13:02:00+08:00"
-  },
-  {
-    "url": "https://www.proactiveinvestors.co.uk/companies/news/1091666/cerebras-systems-seeks-up-to-26-6b-valuation-in-us-ipo-1091666.html",
-    "title": "Cerebras Systems在美国IPO中寻求高达266亿美元的估值",
-    "published": "",
-    "addedAt": "2026-05-05T13:02:00+08:00"
-  },
-  {
-    "url": "https://semiwiki.com/ceo-interviews/368833-ceo-interview-with-geoffrey-rodgers-of-chameleon-semiconductor/",
-    "title": "Chameleon Semiconductor首席执行官Geoffrey Rodgers专访",
-    "published": "Sun, 03 May 2026 21:00:04 +0000",
-    "addedAt": "2026-05-05T20:03:00+08:00"
-  },
-  {
     "url": "https://wccftech.com/openai-picks-mediatek-over-qualcomm-for-its-first-smartphone-customizing-the-dimensity-9600-with-a-dual-npu-architecture-to-challenge-the-iphone/",
     "title": "OpenAI首款智能手机选择联发科而非高通，定制双NPU架构天玑9600以挑战iPhone",
     "published": "Tue, 05 May 2026 06:25:15 +0000",
@@ -2998,5 +2908,95 @@
     "title": "为什么SpaceX IPO成为华尔街及更广泛领域的热议话题（Why the SpaceX IPO is the talk of Wall Street and beyond）",
     "published": "",
     "addedAt": "2026-05-26T20:03:00+08:00"
+  },
+  {
+    "url": "https://cryptobriefing.com/chinese-semiconductor-stocks-huawei-chip-plans/",
+    "title": "受华为芯片计划乐观情绪提振，中国半导体股票上涨（Chinese semiconductor stocks rise on optimism over Huawei's chip plans）",
+    "published": "2026-05-26T00:00:00.000Z",
+    "addedAt": "2026-05-27T06:04:00+08:00"
+  },
+  {
+    "url": "https://whizbuddy.com/huawei-touts-chip-breakthrough-to-shorten-hole-with-tsmc/",
+    "title": "华为宣称芯片突破以缩短与台积电的差距（Huawei touts chip breakthrough to shorten hole with TSMC）",
+    "published": "2026-05-25T00:00:00.000Z",
+    "addedAt": "2026-05-27T06:04:00+08:00"
+  },
+  {
+    "url": "https://tesorb.com/tesla-2-billion-ai-hardware-acquisition-deal-structure/",
+    "title": "特斯拉在一句话中隐藏了20亿美元的AI硬件收购：交易结构揭示了什么（Tesla Buries a $2 Billion AI Hardware Acquisition in One Sentence: What the Deal Structure Reveals - Tesorb）",
+    "published": "2026-05-25T00:00:00.000Z",
+    "addedAt": "2026-05-27T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.tradingkey.com/news/market-movers/261928904-market-movers-adi-20260526",
+    "title": "ADI股价于5月26日上涨4.52%：背后的驱动因素（Analog Devices Inc Stock (ADI) Moved Up by 4.52% on May 26: Drivers Behind the Movement）",
+    "published": "",
+    "addedAt": "2026-05-27T06:04:00+08:00"
+  },
+  {
+    "url": "https://finance.biggo.com/news/mkYGXp4BDXrLZJaA-5CP",
+    "title": "美光将加倍提升HBM4产能，并与台积电合作于2027年生产HBM4E（Micron to Double HBM4 Capacity Ramp, Teams with TSMC for HBM4E Production in 2027 — BigGo Finance）",
+    "published": "2026-05-25T00:00:00.000Z",
+    "addedAt": "2026-05-27T06:04:00+08:00"
+  },
+  {
+    "url": "https://finance.biggo.com/news/WWeIXp4BtCxy99G5XOqp",
+    "title": "华为“陶氏定律”引发半导体涨停潮，中芯国际单日大涨19%（Huawei's \"Tao's Law\" Triggers Semiconductor Limit-Up Wave, SMIC Soars 19% in a Single Day — BigGo Finance）",
+    "published": "2026-05-25T00:00:00.000Z",
+    "addedAt": "2026-05-27T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261925924-mu-hbm-nvda-dram-tradingkey",
+    "title": "HBM4产能翻倍，HBM4E订单转向台积电（TSMC），美光（Micron）股价能否突破1000美元？（HBM4 Capacity Doubles, HBM4E Orders Shift to TSMC, Can Micron Shares Break $1,000?）",
+    "published": "2026-05-25T00:00:00.000Z",
+    "addedAt": "2026-05-27T06:04:00+08:00"
+  },
+  {
+    "url": "https://carnewschina.com/2026/05/26/huawei-unveils-tau-scaling-law-a-new-semiconductor-roadmap-to-succeed-moores-law/",
+    "title": "华为发布Tau缩放定律：接替摩尔定律的全新半导体路线图（Huawei unveils Tau Scaling Law: a new semiconductor roadmap to succeed Moore’s Law）",
+    "published": "2026-05-26T00:00:00.000Z",
+    "addedAt": "2026-05-27T06:04:00+08:00"
+  },
+  {
+    "url": "https://innogyan.in/2026/05/25/huawei-kirin-9050-brings-major-efficiency-and-density-boost-with-logic-folding/",
+    "title": "华为麒麟9050（Kirin 9050）通过逻辑折叠技术大幅提升能效与密度（Huawei Kirin 9050 Brings Major Efficiency and Density Boost With Logic Folding）",
+    "published": "2026-05-25T00:00:00.000Z",
+    "addedAt": "2026-05-27T06:04:00+08:00"
+  },
+  {
+    "url": "https://overcentral.com/en/huawei-14nm-equivalent-chip-design/",
+    "title": "华为无需EUV光刻机即可实现1.4nm等效制程（Huawei Achieves 1.4nm Equivalent Without EUV Lithography）",
+    "published": "2026-05-25T00:00:00.000Z",
+    "addedAt": "2026-05-27T06:04:00+08:00"
+  },
+  {
+    "url": "https://semiengineering.com/an-agent-driven-end-to-end-hw-sw-co-design-benchmark-for-heterogeneous-socs-columbia-ibm/",
+    "title": "针对异构SoC的智能体驱动端到端软硬件协同设计基准测试（哥伦比亚大学，IBM）（An Agent-Driven End-to-End HW-SW Co-Design Benchmark for Heterogeneous SoCs）",
+    "published": "2026-05-25T00:00:00.000Z",
+    "addedAt": "2026-05-27T06:04:00+08:00"
+  },
+  {
+    "url": "https://tspasemiconductor.substack.com/p/from-electrons-to-photons-cpo-test",
+    "title": "从电子到光子：CPO测试接口成为下一代AI基础设施争夺焦点（From Electrons to Photons: CPO Test Interfaces Become the Next AI Infrastructure Battleground）",
+    "published": "2026-05-25T00:00:00.000Z",
+    "addedAt": "2026-05-27T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.technetbooks.com/2026/05/psmc-tackles-ai-memory-bottlenecks-with.html",
+    "title": "力积电（PSMC）以3D晶圆对晶圆键合技术攻克AI内存瓶颈（PSMC Tackles AI Memory Bottlenecks with 3D Wafer on Wafer Bonding Technology | Technetbook）",
+    "published": "2026-05-25T00:00:00.000Z",
+    "addedAt": "2026-05-27T06:04:00+08:00"
+  },
+  {
+    "url": "https://finance.biggo.com/news/3X3sYZ4BDXrLZJaAchfH",
+    "title": "SK海力士在HBM内嵌入“冷却塔”，推出散热降低30%的“iHBM”（SK Hynix Embeds 'Cooling Tower' Inside HBM, Unveils 'iHBM' That Cuts Heat by 30% — BigGo Finance）",
+    "published": "2026-05-26T00:00:00.000Z",
+    "addedAt": "2026-05-27T06:04:00+08:00"
+  },
+  {
+    "url": "https://klse.i3investor.com/web/blog/detail/rhbinvest/2026-05-26-story-h501536817-Kelington_Group_Going_Great_Guns_Keep_BUY_nbsp",
+    "title": "Kelington Group业务迅猛发展；维持买入评级（Kelington Group - Going Great Guns; Keep BUY | I3investor）",
+    "published": "2026-05-26T00:00:00.000Z",
+    "addedAt": "2026-05-27T06:04:00+08:00"
   }
 ]

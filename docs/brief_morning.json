@@ -1,6 +1,6 @@
 {
-  "version": "v20260526-0604",
-  "generatedAt": "2026-05-26T06:04:00+08:00",
+  "version": "v20260527-0604",
+  "generatedAt": "2026-05-27T06:04:00+08:00",
   "period": "morning",
   "commit": "",
   "glossary_list": [
@@ -20,109 +20,109 @@
       "category": "封装"
     },
     {
-      "term": "EDA",
-      "desc": "电子设计自动化，指用于芯片设计的核心软件工具集合",
-      "category": "EDA/IP"
+      "term": "SMIC",
+      "desc": "中芯国际，中国大陆规模最大的晶圆代工企业",
+      "category": "Fab/制造"
     },
     {
-      "term": "功率半导体",
-      "desc": "用于电力电子装置中处理高电压、大电流的半导体器件，如MOSFET、IGBT等",
-      "category": "设计公司"
+      "term": "TSMC",
+      "desc": "台湾积体电路制造股份有限公司，全球最大的晶圆代工半导体制造厂",
+      "category": "Fab/制造"
     },
     {
-      "term": "Supermicro",
-      "desc": "超微电脑，一家提供高性能服务器和存储系统的美国公司",
-      "category": "设计公司"
-    },
-    {
-      "term": "Export Controls",
-      "desc": "出口管制，政府限制特定技术或产品向境外转移的政策",
+      "term": "Contingent Payment",
+      "desc": "或有支付，指收购交易中取决于未来特定业绩目标或里程碑达成后才支付的款项",
       "category": "综合"
     },
     {
-      "term": "SSD",
-      "desc": "固态硬盘，基于闪存芯片的永久性存储器",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "Packaging",
-      "desc": "封装，将裸芯片封装成具有电气和物理特性的独立组件的过程",
-      "category": "封装"
-    },
-    {
-      "term": "国产化进程",
-      "desc": "指国内半导体产业链逐步采用本土供应商设备、材料及技术的替代过程",
+      "term": "Empower Semiconductor",
+      "desc": "一家专注于开发超快电源管理IC的半导体公司，其CapFast技术专为AI处理器设计",
       "category": "综合"
     },
     {
-      "term": "1-Alpha DRAM",
-      "desc": "美光科技的一种DRAM制程节点名称，介于1z和1β之间，具有更高的密度和能效",
-      "category": "综合"
-    },
-    {
-      "term": "GPU",
-      "desc": "图形处理器，用于图像渲染与并行计算的芯片",
-      "category": "芯片架构"
-    },
-    {
-      "term": "2nm",
-      "desc": "半导体制造的先进工艺节点，代表极高的晶体管密度与能效比",
-      "category": "制造工艺"
-    },
-    {
-      "term": "Zen 6",
-      "desc": "AMD新一代CPU微架构代号，主打高核心数与能效提升",
-      "category": "芯片架构"
-    },
-    {
-      "term": "Memory Wall",
-      "desc": "内存墙，指计算速度增长远超内存带宽增长，导致算力受限的瓶颈现象",
-      "category": "系统架构"
-    },
-    {
-      "term": "CXL",
-      "desc": "Compute Express Link，一种高速互联标准，旨在提升服务器内存池化与共享效率",
-      "category": "互联协议"
-    },
-    {
-      "term": "Frontier Model",
-      "desc": "前沿模型，指处于技术最前沿、具备最先进能力的大规模AI模型",
-      "category": "AI模型"
-    },
-    {
-      "term": "HBM4",
-      "desc": "第四代高带宽内存，提供比HBM3更高的带宽与容量，专为下一代AI加速卡设计",
+      "term": "HBM4E",
+      "desc": "高带宽内存第4代增强版，预计于2027年量产，提供更高带宽与容量以支持下一代AI加速器",
       "category": "存储"
     },
     {
-      "term": "CMOS Sensor",
-      "desc": "互补金属氧化物半导体传感器，广泛用于图像捕捉和光检测。",
-      "category": "传感器"
+      "term": "Capacity Ramp",
+      "desc": "产能爬坡，指半导体制造中逐步提升新产品产量至大规模量产水平的过程",
+      "category": "Fab/制造"
     },
     {
-      "term": "ams OSRAM",
-      "desc": "全球领先的光学解决方案和传感器供应商。",
+      "term": "Tao's Law",
+      "desc": "华为提出的旨在超越或替代摩尔定律的半导体发展新定律，强调通过系统架构与封装创新提升整体算力",
+      "category": "EDA/IP"
+    },
+    {
+      "term": "Tau Scaling Law",
+      "desc": "华为提出的系统级缩放定律，旨在通过架构和系统优化延续半导体性能提升",
+      "category": "架构/设计"
+    },
+    {
+      "term": "Moore's Law",
+      "desc": "摩尔定律，指集成电路上可容纳的晶体管数目约每隔两年增加一倍",
+      "category": "综合"
+    },
+    {
+      "term": "Logic Folding",
+      "desc": "逻辑折叠技术，一种通过3D空间布局或架构重构提升晶体管密度和能效的设计方法",
+      "category": "架构/设计"
+    },
+    {
+      "term": "Kirin 9050",
+      "desc": "华为麒麟9050处理器，国产高端手机SoC芯片",
+      "category": "芯片"
+    },
+    {
+      "term": "1.4nm Equivalent",
+      "desc": "1.4nm等效制程，指通过架构或封装优化达到与1.4nm工艺相近的性能和密度，而非物理线宽达到1.4nm",
+      "category": "制程"
+    },
+    {
+      "term": "EUV Lithography",
+      "desc": "极紫外光刻技术，使用13.5nm波长光刻实现7nm及以下制程的关键设备",
+      "category": "设备"
+    },
+    {
+      "term": "HW-SW Co-Design",
+      "desc": "软硬件协同设计，在芯片设计早期同时考虑硬件架构和软件算法的优化",
+      "category": "架构/设计"
+    },
+    {
+      "term": "Agent-Driven",
+      "desc": "智能体驱动，指利用AI智能体自主执行和优化复杂任务流程",
+      "category": "AI/EDA"
+    },
+    {
+      "term": "CPO",
+      "desc": "共封装光学，将光学器件与交换芯片共同封装，实现高速低功耗互连",
+      "category": "封装/光通信"
+    },
+    {
+      "term": "Test Interfaces",
+      "desc": "测试接口，用于芯片制造和封装后进行电学或光学功能验证的连接标准",
+      "category": "测试"
+    },
+    {
+      "term": "PSMC",
+      "desc": "力积电，台湾的DRAM存储芯片制造商",
       "category": "公司"
     },
     {
-      "term": "Fab",
-      "desc": "晶圆制造厂，半导体芯片的生产基地。",
-      "category": "制造"
+      "term": "3D WoW",
+      "desc": "3D Wafer on Wafer，3D晶圆对晶圆键合技术，将两片晶圆直接垂直堆叠连接",
+      "category": "封装"
     },
     {
-      "term": "Safety Intelligence Upgrade",
-      "desc": "安全智能升级，指通过物联网和数据分析技术提升设备运行的安全预警能力。",
-      "category": "基础设施"
+      "term": "iHBM",
+      "desc": "SK海力士推出的内置散热通道的新型HBM技术，显著降低封装内部热阻",
+      "category": "存储"
     },
     {
-      "term": "Power-SOI",
-      "desc": "针对功率器件优化的硅晶绝缘体技术，提供高绝缘性和耐压能力。",
-      "category": "工艺/制程"
-    },
-    {
-      "term": "Functional Safety ICs",
-      "desc": "功能安全集成电路，确保在发生故障时系统仍能安全运行的芯片。",
-      "category": "设计"
+      "term": "Kelington Group",
+      "desc": "肯林顿集团，马来西亚上市公司，提供半导体及工业领域的高纯度气体与化学品输送系统",
+      "category": "公司"
     }
   ],
   "topic_pulse": [
@@ -131,543 +131,547 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区对CoWoS产能扩张的讨论热度有所下降，近期缺乏重大产能突破或新客户导入的消息，情绪趋于平稳观望。"
+      "summary": "社区对CoWoS产能扩张的讨论热度有所回落，近期关注点转向3D WoW等更前沿的键合技术路径。市场情绪趋于平稳，等待台积电等厂商的新产能落地数据。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM相关话题热度回落，随着主要供应商产能逐步稳定，社区对缺货恐慌的讨论减少，关注点暂时转向下一代规格演进。"
+      "summary": "HBM话题整体热度降温，但SK海力士iHBM内置散热的创新引发局部关注。讨论焦点从产能紧缺逐渐转向如何突破散热瓶颈，情绪对存储技术演进保持乐观。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "关于中国晶圆厂和先进制程的讨论热度降温，近期缺乏实质性技术突破传闻，社区情绪相对沉寂。"
+      "summary": "社区对中国Fab进展的关注度暂时降温，缺乏重大节点新闻刺激。讨论情绪趋于平稳观望，市场正在等待国内晶圆厂下一轮设备招标与量产进展的明确信号。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题热度下降，社区暂无新的政策刺激或重磅产品发布，讨论处于平淡期。"
+      "summary": "国产EDA/IP话题热度下降，近期缺乏突破性替代进展的讨论。社区情绪处于蓄力期，关注点集中在本土厂商在特定点工具上的渗透率与客户验证情况。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测板块热度走低，先进封装红利预期已被充分消化，社区近期缺乏新的增长催化剂。"
+      "summary": "封测OSAT讨论热度回落，市场对传统封装产能过剩的担忧增加。社区关注点向先进封装技术转移，传统OSAT厂商的转型进度成为讨论焦点。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制话题热度降温，近期无新增严厉制裁政策落地，社区紧张情绪有所缓解。"
+      "summary": "出口管制话题热度降温，近期无新制裁政策出台。社区讨论情绪暂趋缓和，但仍在警惕设备长臂管辖的潜在风险，关注国产替代的长期逻辑。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "英伟达及AI芯片话题热度回落，市场已消化前期财报及新品发布影响，讨论暂入平台期。"
+      "summary": "AI芯片/NVIDIA讨论热度下降，市场对英伟达下一代架构的预期已充分消化。社区情绪暂无新催化剂，正等待下一代Blackwell架构的量产交付与实际性能表现。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备材料国产化讨论热度下降，缺乏新的大规模验证订单传闻，社区关注焦点暂时转移。"
+      "summary": "设备/材料国产化讨论热度降温，供应链焦点暂时转向厂务基础设施与先进封装材料。情绪平稳，市场在等待更多本土设备进入核心产线验证的实质性订单落地。"
     }
   ],
   "items": [
     {
-      "title": "芯片“卖铲人”EDA封锁升级，国产半导体迎来危与机-36氪",
-      "url": "https://36kr.com/p/3328672021473540",
-      "description": "芯片“卖铲人”EDA封锁升级，国产半导体迎来危与机-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 芯片“卖铲人”EDA封锁升级，国产半导体迎来危与机\n\n美对华EDA出口管制升级，冲击先进制程，国产协同创新应对。\n\n5月下旬，美国对华EDA（电子设计自动化）出口管制，通过非公开信函的方式进入新阶段。\n\n一方面，普冉股份(688766.SH)等成熟制程芯片设计企业对以投资者身份致电的财联社记者表示，由于技术迭代频率不高，现有工具尚可满足需求，因此所受影响有限；但另一方面，多位产业链人士及分析师指出，此次管",
-      "published": "2026-05-24T00:00:00.000Z",
+      "title": "受华为芯片计划乐观情绪提振，中国半导体股票上涨（Chinese semiconductor stocks rise on optimism over Huawei's chip plans）",
+      "url": "https://cryptobriefing.com/chinese-semiconductor-stocks-huawei-chip-plans/",
+      "description": "Chinese semiconductor stocks rise on optimism over Huawei's chip plans\n\nSEARCH\n\nSearching...\n\n# Chinese semiconductor stocks rise on optimism over Huawei’s chip plans\n\nSMIC and Hua Hong shares surged after Huawei unveiled a novel chip architecture designed to sidestep US sanctions.\n\nShare\n\nthis.remo",
+      "published": "2026-05-26T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "EDA作为芯片设计核心工具，其封锁将直接阻碍国内先进制程研发进度，倒逼国产替代加速。",
-        "非公开信函形式的管制更具隐蔽性和突然性，增加了国内企业供应链合规与风险评估的难度。"
+        "华为的芯片进展正成为国产半导体板块的情绪风向标，其技术突破预期直接带动资本市场估值修复。",
+        "国产替代逻辑在资本市场持续强化，设备与制造环节最受资金青睐。"
       ],
       "actions": [
-        "芯片设计企业应立即盘点现有EDA工具授权期限与替代方案，优先在成熟制程上推进国产EDA试用与导入。",
-        "国产EDA厂商需抓住窗口期，加强与设计企业及晶圆厂的协同创新，突破先进制程关键工具的生态壁垒。"
+        "关注中芯国际等核心代工企业的产能利用率与资本开支动向，评估其后续业绩兑现能力。",
+        "警惕短期情绪驱动的估值泡沫，逢高适度控制仓位，寻找具备真实订单支撑的设备与材料标的。"
       ],
       "glossary": [
         {
-          "term": "EDA",
-          "desc": "电子设计自动化，指用于芯片设计的核心软件工具集合",
-          "category": "EDA/IP"
+          "term": "SMIC",
+          "desc": "中芯国际，中国大陆规模最大的晶圆代工企业",
+          "category": "Fab/制造"
         }
       ],
-      "region": "domestic",
-      "summary": "美国对华EDA出口管制通过非公开信函方式升级，主要冲击先进制程，国产半导体需通过协同创新应对挑战与机遇。",
+      "region": "overseas",
+      "summary": "受华为芯片计划提振，中芯国际和华虹半导体等中国半导体股票大涨。",
       "tag_category": "EDA/IP",
-      "title_en": "芯片“卖铲人”EDA封锁升级，国产半导体迎来危与机-36氪"
+      "title_en": "Chinese semiconductor stocks rise on optimism over Huawei's chip plans"
     },
     {
-      "title": "紫光国微拟19亿收购瑞能半导|紫光国微_新浪财经_新浪网",
-      "url": "https://finance.sina.com.cn/roll/2026-05-24/doc-inhyypep6014754.shtml",
-      "description": "（来源：半导体前沿）\n\n瑞能半导将成为紫光国微全资子公司。\n\n紫光国微发布公告称将收购瑞能半导，收购价达到19亿元，而瑞能半导体2025年的总营收约为8.7亿元。交易完成后，瑞能半导将成为紫光国微全资子公司。\n\n公告显示，紫光国微拟向南昌建恩、北京广盟、天津瑞芯、建投华科、上海设臻、上海恩蓝、上海厚恩、恩蓝有限、烟台瑞臻、西南证券、邬睿、沈鑫、汤子鸣、张胜锋共14名交易对方以发行股份及支付现金的方式购买其合计持有的瑞能半导100%股权，并募集配套资金支付本次交易中的现金对价、中介机构费用、交易税费等并购整合费用。\n\n其中，紫光国微本次发行股票价格为61.75元/股，交易购买资产的股份发行数量为",
-      "published": "2026-05-24T00:00:00.000Z",
+      "title": "华为宣称芯片突破以缩短与台积电的差距（Huawei touts chip breakthrough to shorten hole with TSMC）",
+      "url": "https://whizbuddy.com/huawei-touts-chip-breakthrough-to-shorten-hole-with-tsmc/",
+      "description": "Huawei touts chip breakthrough to shorten hole with TSMC\n\nSUBSCRIBE\n\n# Huawei touts chip breakthrough to shorten hole with TSMC\n\nBusiness May 25, 2026\n\n5\n\nMinute Read\n\nHuawei Technologies Co. said it has come up with a new pathway to shorten its gap with industry leader Taiwan Semiconductor Manufact",
+      "published": "2026-05-25T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "紫光国微通过并购整合功率半导体资产，意在扩大在汽车电子和工业控制等高增长市场的份额。",
-        "19亿估值对应约8.7亿营收，溢价较高，反映出功率半导体优质资产在国产替代背景下的稀缺性。"
+        "华为在先进制程上的突围表明国产半导体生态正在加速闭环，从设计到制造的自立能力逐步提升。",
+        "与台积电的差距缩短意味着在特定应用场景（如AI算力）中，国产芯片可能开始具备替代可行性。"
       ],
       "actions": [
-        "功率半导体供应链企业应关注紫光国微与瑞能半导整合后的产品线调整及渠道变化，及时调整合作策略。",
-        "投资者及同行可借此评估国内功率器件资产的当前估值水平，为后续的产业并购或融资提供参考。"
+        "供应链企业应积极对接华为系芯片的流片与量产需求，提前卡位国产先进制程生态。",
+        "关注华为芯片良率与实际量产时间表，评估其对台积电等外部代工依赖的真实降低程度。"
       ],
       "glossary": [
         {
-          "term": "功率半导体",
-          "desc": "用于电力电子装置中处理高电压、大电流的半导体器件，如MOSFET、IGBT等",
-          "category": "设计公司"
-        }
-      ],
-      "region": "domestic",
-      "summary": "紫光国微拟以19亿元收购瑞能半导，交易完成后瑞能半导将成为其全资子公司，此举有望进一步强化紫光在功率半导体领域的布局。",
-      "tag_category": "综合",
-      "title_en": "紫光国微拟19亿收购瑞能半导|紫光国微_新浪财经_新浪网"
-    },
-    {
-      "title": "英伟达CEO呼吁加强出口管制，因25亿美元超微走私案；台湾地区发起首次AI GPU打击行动（Nvidia CEO Calls for Tighter Export Controls After $2.5 B Supermicro Smuggling Case; Taiwan Launches First AI GPU Crackdown）",
-      "url": "https://news.lavx.hu/article/nvidia-ceo-calls-for-tighter-export-controls-after-2-5-b-supermicro-smuggling-case-taiwan-launches-first-ai-gpu-crackdown",
-      "description": "Nvidia CEO Calls for Tighter Export Controls After $2.5 B Supermicro Smuggling Case; Taiwan Launches First AI GPU Crackdown | LavX News | LavX News\n\n#Regulation\n\n# Nvidia CEO Calls for Tighter Export Controls After $2.5 B Supermicro Smuggling Case; Taiwan Launches First AI GPU Crackdown\n\nMay 24, 202",
-      "published": "2026-05-24T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "高端AI GPU的走私黑市规模庞大，反映出全球对算力的极端渴求与管制政策之间的巨大矛盾。",
-        "英伟达主动呼吁收紧管制，意在规避合规风险并维护与美国政策的关系，但这将进一步压缩合法获取算力的渠道。"
-      ],
-      "actions": [
-        "国内AI算力采购方需警惕走私渠道带来的法律与售后风险，加速转向国产算力或合规的云服务替代方案。",
-        "供应链合规部门应重新审查服务器及GPU采购来源，确保不涉及灰色市场交易，避免被列入制裁名单。"
-      ],
-      "glossary": [
-        {
-          "term": "Supermicro",
-          "desc": "超微电脑，一家提供高性能服务器和存储系统的美国公司",
-          "category": "设计公司"
-        },
-        {
-          "term": "Export Controls",
-          "desc": "出口管制，政府限制特定技术或产品向境外转移的政策",
-          "category": "综合"
+          "term": "TSMC",
+          "desc": "台湾积体电路制造股份有限公司，全球最大的晶圆代工半导体制造厂",
+          "category": "Fab/制造"
         }
       ],
       "region": "overseas",
-      "summary": "在发生涉及超微电脑的25亿美元走私案后，英伟达CEO呼吁加强出口管制，同时台湾地区也首次针对AI GPU走私展开了打击行动。",
-      "tag_category": "设计公司",
-      "title_en": "Nvidia CEO Calls for Tighter Export Controls After $2.5 B Supermicro Smuggling Case; Taiwan Launches First AI GPU Crackdown | LavX News | LavX News"
-    },
-    {
-      "title": "华为在美国出口管制下利用创新封装技术开发122TB SSD（Huawei develops 122TB SSD using innovative packaging amid US export controls）",
-      "url": "https://cryptobriefing.com/huawei-122tb-ssd-dob-packaging/",
-      "description": "Huawei develops 122TB SSD using innovative packaging amid US export controls\n\nSEARCH\n\nSearching...\n\n# Huawei develops 122TB SSD using innovative packaging amid US export controls\n\nCut off from the world's most advanced memory chips, Huawei engineered around the problem with a packaging trick that bo",
-      "published": "2026-05-24T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "在无法获取海外先进存储芯片的情况下，华为通过封装层面的创新实现大容量SSD突破，证明封装技术已成为突破封锁的关键路径。",
-        "122TB超大规模存储产品的推出，意味着华为正为国内数据中心和AI算力基础设施构建自主可控的底层存储底座。"
-      ],
-      "actions": [
-        "国内存储芯片及封装企业应加强与华为等系统厂商的联合研发，切入大容量存储模组的供应链。",
-        "数据中心运营商可关注国产大容量SSD的测试与导入进度，为未来构建高密度存储集群准备替代方案。"
-      ],
-      "glossary": [
-        {
-          "term": "SSD",
-          "desc": "固态硬盘，基于闪存芯片的永久性存储器",
-          "category": "EDA/IP"
-        },
-        {
-          "term": "Packaging",
-          "desc": "封装，将裸芯片封装成具有电气和物理特性的独立组件的过程",
-          "category": "封装"
-        }
-      ],
-      "region": "overseas",
-      "summary": "在美国出口管制切断外部供应链的情况下，华为通过创新的封装技术成功开发出122TB超大容量SSD，展现了在存储领域的自研突破。",
+      "summary": "华为宣称在芯片技术上取得突破，旨在缩短与台积电之间的技术差距。",
       "tag_category": "EDA/IP",
-      "title_en": "Huawei develops 122TB SSD using innovative packaging amid US export controls"
+      "title_en": "Huawei touts chip breakthrough to shorten hole with TSMC"
     },
     {
-      "title": "半导体扩产预期升温 设备板块集体井喷 机构看好国产化进程",
-      "url": "https://www.cls.cn/detail/2380429",
-      "description": "《科创板日报》5月25日讯今日上午，半导体设备板块震荡走强。截至发稿，华兴源创20CM涨停，盛美上海涨超15%，拓荆科技涨超12%，北方华创、中微公司等均上涨。",
-      "published": "18小时前",
-      "source": "财联社",
-      "source_type": "Serper",
-      "lang": "zh",
-      "tags": [],
-      "insights": [
-        "设备板块的井喷反映出资本市场对国内晶圆厂扩产及设备国产化率提升的强烈预期。",
-        "核心设备企业的业绩高增长，正逐步从预期兑现为实际订单，国产替代进入加速放量期。"
-      ],
-      "actions": [
-        "半导体设备厂商应抓住当前扩产窗口期，加速产品验证与客户导入，提升在主流晶圆厂的市占率。",
-        "投资者及产业观察者需密切关注国内晶圆厂的招标数据，以验证设备国产化进程的实际落地节奏。"
-      ],
-      "glossary": [
-        {
-          "term": "国产化进程",
-          "desc": "指国内半导体产业链逐步采用本土供应商设备、材料及技术的替代过程",
-          "category": "综合"
-        }
-      ],
-      "region": "domestic",
-      "summary": "受半导体扩产预期推动，国内半导体设备板块集体大涨，华兴源创涨停，盛美上海、拓荆科技、北方华创等大幅跟涨，机构持续看好设备国产化进程。",
-      "tag_category": "综合",
-      "title_en": "半导体扩产预期升温 设备板块集体井喷 机构看好国产化进程"
-    },
-    {
-      "title": "美光在弗吉尼亚州启动美国1-alpha DRAM生产（Micron Starts US 1-Alpha DRAM Production in Virginia）",
-      "url": "https://winbuzzer.com/2026/05/24/micron-starts-us-1-alpha-dram-production-in-virginia-xcxwbn/",
-      "description": "Micron Starts US 1-Alpha DRAM Production in Virginia\n\nSearch\n\nCompanies, AI Divisions, Projects, Labs\n\nChatbots, AI Assistants, AI Solutions\n\n- Windows 10\n- Windows 11\n\n- Microsoft Azure\n- Google Cloud\n- Amazon Web Services (AWS)\n- Salesforce\n\nSearch\n\n# Micron Starts US 1-Alpha DRAM Production in Vi",
-      "published": "2026-05-24T00:00:00.000Z",
+      "title": "特斯拉在一句话中隐藏了20亿美元的AI硬件收购：交易结构揭示了什么（Tesla Buries a $2 Billion AI Hardware Acquisition in One Sentence: What the Deal Structure Reveals - Tesorb）",
+      "url": "https://tesorb.com/tesla-2-billion-ai-hardware-acquisition-deal-structure/",
+      "description": "Tesla Buries a $2 Billion AI Hardware Acquisition in One Sentence: What the Deal Structure Reveals - Tesorb\n\nNinety percent contingent. That single ratio, buried in Note 14 of Tesla's Q1 2026 10-Q filing, tells you more about this acquisition than anything Tesla's communications team has said. Which",
+      "published": "2026-05-25T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "美光在美本土启动1-alpha DRAM生产，顺应了美国芯片法案对本土制造产能的补贴与回流要求。",
-        "1-alpha制程虽非最先进，但在成本与性能上具有优势，其本土量产有助于稳定美国本土汽车及工业等关键市场的供应链。"
+        "高达90%的或有支付比例表明特斯拉对此次AI硬件收购采取了极度谨慎的绩效对赌策略，反映出当前AI硬件资产估值的高波动性。",
+        "车企深度介入AI硬件底层研发，预示着自动驾驶算力供应链正从外采向垂直整合演变。"
       ],
       "actions": [
-        "国内DRAM采购方需评估美光本土产能释放后的供应策略变化，特别是针对汽车和工业级DRAM的备货计划。",
-        "国产存储厂商应关注美光1-alpha制程的良率与成本表现，以此为参照加速自身DRAM制程的迭代与商业化。"
+        "关注特斯拉该收购标的的具体技术方向（如NPU或AI加速器），评估其对传统AI芯片供应商的潜在替代威胁。",
+        "在评估AI硬件初创公司估值时，应参考特斯拉的或有支付逻辑，将技术兑现风险纳入定价模型。"
       ],
       "glossary": [
         {
-          "term": "1-Alpha DRAM",
-          "desc": "美光科技的一种DRAM制程节点名称，介于1z和1β之间，具有更高的密度和能效",
+          "term": "Contingent Payment",
+          "desc": "或有支付，指收购交易中取决于未来特定业绩目标或里程碑达成后才支付的款项",
           "category": "综合"
         }
       ],
       "region": "overseas",
-      "summary": "美光科技已在其位于弗吉尼亚州的工厂启动1-alpha制程DRAM的生产，这是其响应美国本土制造政策的重要举措。",
+      "summary": "特斯拉在财报中披露了一项20亿美元的AI硬件收购，且90%为或有支付，这一交易结构引发市场关注。",
       "tag_category": "综合",
-      "title_en": "Micron Starts US 1-Alpha DRAM Production in Virginia"
+      "title_en": "Tesla Buries a $2 Billion AI Hardware Acquisition in One Sentence: What the Deal Structure Reveals - Tesorb"
     },
     {
-      "title": "中国推出新游戏GPU，可能挑战英伟达（China Reveals New Gaming GPU, Could Challenge NVIDIA）",
-      "url": "https://gamerant.com/nvidia-rtx-3060-alternative-china-lisuan-lx/",
-      "description": "China Reveals New Gaming GPU, Could Challenge NVIDIA\n\nClose\n\nClose\n\nA brand-new desktop graphics processor from a Chinese manufacturer has officially hit retail shelves, aiming to shake up a hardware sector long dominated by NVIDIA. While it faces a massive uphill battle to truly dethrone NVIDIA, gl",
-      "published": "2026-05-24T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
+      "title": "ADI股价于5月26日上涨4.52%：背后的驱动因素（Analog Devices Inc Stock (ADI) Moved Up by 4.52% on May 26: Drivers Behind the Movement）",
+      "url": "https://www.tradingkey.com/news/market-movers/261928904-market-movers-adi-20260526",
+      "description": "Analog Devices reported strong Q2 2026 results, exceeding expectations.Acquisition of Empower Semiconductor aims to boost AI power management.Analysts raised price targets, citing growth and strategic acquisition benefits.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "国产GPU正从专用计算领域向消费级游戏市场渗透，试图在英伟达主导的生态中寻找突破口。",
-        "尽管硬件规格逐步提升，但游戏GPU的成功高度依赖驱动优化与软件生态，这仍是国产厂商的长期挑战。"
+        "模拟芯片巨头通过并购切入AI电源管理赛道，说明AI算力带来的高功耗挑战正使电源管理IC成为新的高增长细分市场。",
+        "ADI的业绩超预期表明工业与汽车等传统模拟芯片终端市场需求正在复苏，叠加AI增量形成双轮驱动。"
       ],
       "actions": [
-        "关注该国产GPU的实际出货量与游戏性能跑分，评估其是否能在中低端市场真正分食英伟达份额。",
-        "供应链厂商应警惕地缘政治对游戏显卡市场的潜在干预，评估国产替代带来的新订单机会。"
+        "重点关注AI服务器电源管理IC的国产替代机会，特别是在多相电源、稳压器等细分领域。",
+        "跟踪Empower Semiconductor的CapFast等技术路线，评估其在AI负载快速瞬变响应中的实际优势与整合进展。"
       ],
       "glossary": [
         {
-          "term": "GPU",
-          "desc": "图形处理器，用于图像渲染与并行计算的芯片",
-          "category": "芯片架构"
+          "term": "Empower Semiconductor",
+          "desc": "一家专注于开发超快电源管理IC的半导体公司，其CapFast技术专为AI处理器设计",
+          "category": "综合"
         }
       ],
       "region": "overseas",
-      "summary": "中国制造商推出全新桌面图形处理器并正式上架零售，旨在打破硬件格局并挑战英伟达的市场地位。",
-      "tag_category": "设计公司",
-      "title_en": "China Reveals New Gaming GPU, Could Challenge NVIDIA"
+      "summary": "ADI发布强劲的2026年Q2财报超预期，并收购Empower Semiconductor以强化AI电源管理，推动股价上涨4.52%。",
+      "tag_category": "综合",
+      "title_en": "Analog Devices Inc Stock (ADI) Moved Up by 4.52% on May 26: Drivers Behind the Movement"
     },
     {
-      "title": "AMD EPYC Venice 2nm 256核Zen 6服务器CPU投入生产，英特尔落后（AMD EPYC Venice 2nm 256-Core Zen 6 Server CPUs Enter Production as Intel Falls Behind）",
-      "url": "https://www.noobfeed.com/hardware/amd-epyc-venice-256-core-zen6-server-cpu",
-      "description": "AMD EPYC Venice 2nm 256-Core Zen 6 Server CPUs Enter Production as Intel Falls Behind | NoobFeed\n\n# AMD EPYC Venice 2nm 256-Core Zen 6 Server CPUs Enter Production as Intel Falls Behind\n\n## AMD’s 2nm EPYC Venice processors establish a new benchmark for hyperscale computing performance and server eff",
-      "published": "2026-05-24T00:00:00.000Z",
+      "title": "美光将加倍提升HBM4产能，并与台积电合作于2027年生产HBM4E（Micron to Double HBM4 Capacity Ramp, Teams with TSMC for HBM4E Production in 2027 — BigGo Finance）",
+      "url": "https://finance.biggo.com/news/mkYGXp4BDXrLZJaA-5CP",
+      "description": "Micron to Double HBM4 Capacity Ramp, Teams with TSMC for HBM4E Production in 2027 — BigGo Finance\n\n# Micron to Double HBM4 Capacity Ramp, Teams with TSMC for HBM4E Production in 2027\n\nMicron Technology announced at a JPMorgan conference that its sixth-generation HBM4 capacity ramp is progressing twi",
+      "published": "2026-05-25T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "AMD在数据中心CPU领域通过激进的核心数扩张与先进工艺（2nm）切换，正持续挤压英特尔的生存空间。",
-        "256核的超多核心架构对服务器平台的内存带宽、互联带宽与散热设计提出了前所未有的苛刻要求。"
+        "美光与台积电在HBM4E上的深度绑定，预示着未来先进存储与先进逻辑制程的联合开发模式将成为主流，存储厂与代工厂的边界进一步模糊。",
+        "HBM4产能翻倍反映出AI算力对高带宽存储的需求远未见顶，供应链正从产能焦虑转向激进扩张。"
       ],
       "actions": [
-        "服务器ODM与散热厂商需立即启动针对256核高功耗平台的热管理与供电验证，抢占新一代平台首发红利。",
-        "关注台积电2nm产能分配动向，AMD的大规模投产可能挤压其他客户在该节点的初期产能。"
+        "密切关注美光HBM4/4E的良率进展与台积电CoWoS配套产能，提前锁定2027年先进封装配额。",
+        "国内存储与封测企业需加速研发对应HBM4世代的技术储备，避免在下一代AI存储竞赛中彻底掉队。"
       ],
       "glossary": [
         {
-          "term": "2nm",
-          "desc": "半导体制造的先进工艺节点，代表极高的晶体管密度与能效比",
-          "category": "制造工艺"
+          "term": "HBM4E",
+          "desc": "高带宽内存第4代增强版，预计于2027年量产，提供更高带宽与容量以支持下一代AI加速器",
+          "category": "存储"
         },
         {
-          "term": "Zen 6",
-          "desc": "AMD新一代CPU微架构代号，主打高核心数与能效提升",
-          "category": "芯片架构"
+          "term": "Capacity Ramp",
+          "desc": "产能爬坡，指半导体制造中逐步提升新产品产量至大规模量产水平的过程",
+          "category": "Fab/制造"
         }
       ],
       "region": "overseas",
-      "summary": "AMD基于2nm工艺、拥有256核心的Zen 6架构EPYC Venice服务器CPU已投入生产，进一步扩大对英特尔的领先优势。",
-      "tag_category": "设计公司",
-      "title_en": "AMD EPYC Venice 2nm 256-Core Zen 6 Server CPUs Enter Production as Intel Falls Behind | NoobFeed"
-    },
-    {
-      "title": "韩国ETRI发布OmniXtend，以网络共享内存打破AI内存墙（South Korea's ETRI unveils OmniXtend to break AI's memory wall with networked shared memory）",
-      "url": "https://noah-news.com/south-koreas-etri-unveils-omnixtend-to-break-ais-memory-wall-with-networked-shar/",
-      "description": "South Korea's ETRI unveils OmniXtend to break AI's memory wall with networked shared memory | Noah News\n\nTech Intelligence·Sun 24 May 2026·2 min read\n\n# South Korea's ETRI unveils OmniXtend to break AI's memory wall with networked shared memory\n\nResearchers at South Korea's ETRI have developed OmniX",
-      "published": "2026-05-24T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AI算力增长受限于传统内存带宽，基于网络的共享内存架构是突破内存墙、提升集群算力利用率的关键路径。",
-        "ETRI的OmniXtend属于开放互联协议探索，未来若形成标准，将对CXL等现有互联生态产生竞争与互补效应。"
-      ],
-      "actions": [
-        "AI芯片设计公司应密切跟踪OmniXtend等新型内存互联协议，评估其在超大规模集群中的延迟与扩展性表现。",
-        "网络设备与光模块厂商需关注共享内存带来的高带宽互联需求，提前布局相关硬件迭代。"
-      ],
-      "glossary": [
-        {
-          "term": "Memory Wall",
-          "desc": "内存墙，指计算速度增长远超内存带宽增长，导致算力受限的瓶颈现象",
-          "category": "系统架构"
-        },
-        {
-          "term": "CXL",
-          "desc": "Compute Express Link，一种高速互联标准，旨在提升服务器内存池化与共享效率",
-          "category": "互联协议"
-        }
-      ],
-      "region": "overseas",
-      "summary": "韩国电子通信研究院（ETRI）推出OmniXtend技术，利用网络共享内存架构旨在突破AI计算面临的内存墙瓶颈。",
-      "tag_category": "综合",
-      "title_en": "South Korea's ETRI unveils OmniXtend to break AI's memory wall with networked shared memory | Noah News"
-    },
-    {
-      "title": "Claude Code与Claude Security中的Mythos-1：Anthropic准备推出2026年最强大的网络安全前沿模型（Mythos-1 in Claude Code and Claude Security: Anthropic Readies the Most Powerful Cyber Frontier Model of 2026）",
-      "url": "https://pasqualepillitteri.it/en/news/3276/anthropic-mythos-1-claude-code-claude-security-launch",
-      "description": "Mythos-1 in Claude Code and Claude Security: Anthropic Readies the Most Powerful Cyber Frontier Model of 2026\n\nnews\n\n# Mythos-1 in Claude Code and Claude Security: Anthropic Readies the Most Powerful Cyber Frontier Model of 2026\n\n##### Anthropic readies Mythos-1 for Claude Code and Claude Security: ",
-      "published": "2026-05-24T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "大模型正从通用对话向垂直专业领域（如代码生成与网络安全）深度演进，专用模型在特定任务上的表现将超越通用大模型。",
-        "网络安全与代码生成对模型推理的准确性要求极高，Mythos-1的推出可能重塑AI驱动的安全防御与开发工具市场。"
-      ],
-      "actions": [
-        "网络安全与软件开发企业应评估Claude Security与Claude Code的集成潜力，规划AI辅助开发与安全检测的落地流程。",
-        "AI芯片供应商需关注垂直推理场景的算力需求特征，优化硬件以适配代码生成与安全分析的高并发推理。"
-      ],
-      "glossary": [
-        {
-          "term": "Frontier Model",
-          "desc": "前沿模型，指处于技术最前沿、具备最先进能力的大规模AI模型",
-          "category": "AI模型"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Anthropic正准备推出名为Mythos-1的2026年最强网络安全前沿模型，并将其整合至Claude Code与Claude Security产品中。",
-      "tag_category": "综合",
-      "title_en": "Mythos-1 in Claude Code and Claude Security: Anthropic Readies the Most Powerful Cyber Frontier Model of 2026"
-    },
-    {
-      "title": "2026投资者日与亚利桑那封装扩张计划后，安靠科技（AMKR）估值展望（A Look At Amkor Technology (AMKR) Valuation After 2026 Investor Day And Arizona Packaging Expansion Plans）",
-      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-amkr/amkor-technology/news/a-look-at-amkor-technology-amkr-valuation-after-2026-investo",
-      "description": "A Look At Amkor Technology (AMKR) Valuation After 2026 Investor Day And Arizona Packaging Expansion Plans - Simply Wall St News\n\nAdvertisement\n\nAmkor Technology (AMKR) has moved into focus after its 2026 Investor Day, where management laid out long-term financial targets and detailed a multi phase A",
-      "published": "2026-05-24T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "安靠在亚利桑那的扩张紧贴台积电美国晶圆厂布局，旨在就近承接先进封装（如CoWoS）外溢订单，强化地缘封装供应链。",
-        "先进封装产能已成为AI芯片出货的核心瓶颈，OSAT巨头在美扩产将直接受益于美国本土AI算力建设的政策红利。"
-      ],
-      "actions": [
-        "关注安靠亚利桑那工厂的产能爬坡进度与客户认证情况，评估其对全球先进封装供需格局的缓解程度。",
-        "封装设备与材料供应商应加速推进与安靠美国工厂的商务对接，抢占本土化扩产带来的采购增量。"
-      ],
-      "glossary": [
-        {
-          "term": "OSAT",
-          "desc": "外包半导体封装和测试厂商，提供专业的芯片封装与测试服务",
-          "category": "封装"
-        },
-        {
-          "term": "CoWoS",
-          "desc": "Chip on Wafer on Substrate，台积电的2.5D/3D先进封装技术，广泛应用于AI芯片",
-          "category": "封装"
-        }
-      ],
-      "region": "overseas",
-      "summary": "安靠科技在2026投资者日披露亚利桑那州封装产能扩张计划后，其估值前景受到市场密切关注。",
+      "summary": "美光计划将HBM4产能爬坡速度翻倍，并宣布与台积电合作于2027年量产HBM4E。",
       "tag_category": "Fab/制造",
-      "title_en": "A Look At Amkor Technology (AMKR) Valuation After 2026 Investor Day And Arizona Packaging Expansion Plans - Simply Wall St News"
+      "title_en": "Micron to Double HBM4 Capacity Ramp, Teams with TSMC for HBM4E Production in 2027 — BigGo Finance"
     },
     {
-      "title": "SK海力士在三星之前接手了HBM4的接力棒（SK Hynix Caught the HBM4 Handoff Before Samsung）",
-      "url": "https://aiinasia.com/opinion/hynix-hbm4-handoff-samsung-hbm3e-asia-2026-05-24",
-      "description": "SK Hynix Caught the HBM4 Handoff Before Samsung… | AI in Asia\n\nOpinion Long read · 12 min\n\n# SK Hynix Caught the HBM4 Handoff Before Samsung Closed HBM3E\n\nSK Hynix's high-bandwidth memory lead is usually framed as a Samsung catch-up story. That framing has been wrong since at least the third quarter",
-      "published": "2026-05-24T00:00:00.000Z",
+      "title": "华为“陶氏定律”引发半导体涨停潮，中芯国际单日大涨19%（Huawei's \"Tao's Law\" Triggers Semiconductor Limit-Up Wave, SMIC Soars 19% in a Single Day — BigGo Finance）",
+      "url": "https://finance.biggo.com/news/WWeIXp4BtCxy99G5XOqp",
+      "description": "Huawei's \"Tao's Law\" Triggers Semiconductor Limit-Up Wave, SMIC Soars 19% in a Single Day — BigGo Finance\n\n# Huawei's \"Tao's Law\" Triggers Semiconductor Limit-Up Wave, SMIC Soars 19% in a Single Day\n\nOn May 25, China's A-share semiconductor sector erupted in a wave of limit-up moves, fueled by dual ",
+      "published": "2026-05-25T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "SK海力士在HBM3E时代的胜利正延续至HBM4，其与英伟达的深度绑定使其在下一代AI GPU内存选型中占据先发优势。",
-        "三星在HBM3E良率与验证上的滞后，导致其HBM4的起步节奏落后，韩国双雄在AI内存市场的差距正在拉大。"
+        "“陶氏定律”作为新的技术发展预期框架，极大地提振了市场对国产半导体突破摩尔定律瓶颈的信心，引发资金狂热追捧。",
+        "中芯国际单日19%的涨幅反映出资本市场对国产先进制程代工的极度渴求，但也需警惕情绪过热后的回调风险。"
       ],
       "actions": [
-        "跟踪SK海力士HBM4的样品送测与英伟达验证进度，预判2026-2027年高端AI算力卡的内存供应格局。",
-        "投资者与供应链伙伴需重新评估三星HBM业务的恢复周期，短期内应将SK海力士视为HBM产能的首要保障源。"
+        "深挖“陶氏定律”背后的具体技术路径（如先进封装、架构创新），寻找真正受益的底层设备与材料供应商。",
+        "对单日暴涨的代工与设计类股票保持审慎，优先布局具备基本面支撑且估值合理的环节，避免追高被套。"
       ],
       "glossary": [
         {
-          "term": "HBM4",
-          "desc": "第四代高带宽内存，提供比HBM3更高的带宽与容量，专为下一代AI加速卡设计",
+          "term": "Tao's Law",
+          "desc": "华为提出的旨在超越或替代摩尔定律的半导体发展新定律，强调通过系统架构与封装创新提升整体算力",
+          "category": "EDA/IP"
+        }
+      ],
+      "region": "overseas",
+      "summary": "华为提出的“陶氏定律”引发中国半导体板块涨停潮，中芯国际单日股价飙升19%。",
+      "tag_category": "综合",
+      "title_en": "Huawei's \"Tao's Law\" Triggers Semiconductor Limit-Up Wave, SMIC Soars 19% in a Single Day — BigGo Finance"
+    },
+    {
+      "title": "HBM4产能翻倍，HBM4E订单转向台积电（TSMC），美光（Micron）股价能否突破1000美元？（HBM4 Capacity Doubles, HBM4E Orders Shift to TSMC, Can Micron Shares Break $1,000?）",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261925924-mu-hbm-nvda-dram-tradingkey",
+      "description": "HBM4 Capacity Doubles, HBM4E Orders Shift to TSMC, Can Micron Shares Break $1,000?\n\n# HBM4 Capacity Doubles, HBM4E Orders Shift to TSMC, Can Micron Shares Break $1,000?\n\nMay 25, 2026 1:30 PM\n\nAI Podcast\n\n04:58\n\n\n\n\n\n\n\n\n\n\n\nView all comments（0）\n\n\n\nAI Summary\n\n\n\nOverviewKey Points\n\nMicron's HBM4",
+      "published": "2026-05-25T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "HBM4E订单向台积电转移，表明台积电在先进封装和代工领域的垄断地位进一步巩固，对三星和SK海力士构成竞争压力。",
+        "美光在HBM市场的份额提升预期正在反映在其股价表现上，HBM已成为存储厂商利润增长的核心驱动力。"
+      ],
+      "actions": [
+        "存储供应链从业者应密切关注台积电HBM4E产能释放节奏，提前规划产能争取与合作策略。",
+        "投资者和供应链厂商需评估美光HBM产能爬坡对其财报和股价的实质性影响，适时调整供应链布局。"
+      ],
+      "glossary": [
+        {
+          "term": "HBM4E",
+          "desc": "高带宽内存第四代扩展版，提供更高带宽和容量，专为AI和高性能计算设计",
+          "category": "存储"
+        },
+        {
+          "term": "TSMC",
+          "desc": "台湾积体电路制造公司，全球最大的半导体代工厂",
+          "category": "代工"
+        }
+      ],
+      "region": "overseas",
+      "summary": "HBM4产能预计将翻倍，而HBM4E的订单正转移至台积电，市场关注美光股价能否因此突破1000美元大关。",
+      "tag_category": "Fab/制造",
+      "title_en": "HBM4 Capacity Doubles, HBM4E Orders Shift to TSMC, Can Micron Shares Break $1,000?"
+    },
+    {
+      "title": "华为发布Tau缩放定律：接替摩尔定律的全新半导体路线图（Huawei unveils Tau Scaling Law: a new semiconductor roadmap to succeed Moore’s Law）",
+      "url": "https://carnewschina.com/2026/05/26/huawei-unveils-tau-scaling-law-a-new-semiconductor-roadmap-to-succeed-moores-law/",
+      "description": "Huawei unveils Tau Scaling Law: a new semiconductor roadmap to succeed Moore’s Law\n\nChina EVs & More Podcast\n\n# Huawei unveils Tau Scaling Law: a new semiconductor roadmap to succeed Moore’s Law\n\n3 min to read\n\nMay 26, 2026 6:51 AM CEST\n\n1\n\nHe Tingbo from Huawei delivered a keynote speech titled \"Ne",
+      "published": "2026-05-26T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "在EUV受限和物理极限逼近的背景下，中国厂商正试图通过体系结构和系统级缩放定律绕过传统制程演进瓶颈。",
+        "Tau缩放定律的提出不仅是技术路线的探索，更是中国半导体产业在标准制定和话语权上的主动出击。"
+      ],
+      "actions": [
+        "国产芯片设计团队需深入研究Tau缩放定律的具体指标，评估其在自家SoC设计中的适用性与优化潜力。",
+        "供应链企业应关注基于新缩放定律的系统级创新带来的封装和互联需求变化，提前布局相关产能。"
+      ],
+      "glossary": [
+        {
+          "term": "Tau Scaling Law",
+          "desc": "华为提出的系统级缩放定律，旨在通过架构和系统优化延续半导体性能提升",
+          "category": "架构/设计"
+        },
+        {
+          "term": "Moore's Law",
+          "desc": "摩尔定律，指集成电路上可容纳的晶体管数目约每隔两年增加一倍",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "华为提出了名为“Tau缩放定律”的新半导体发展路线图，旨在替代逐渐失效的摩尔定律，为芯片性能提升提供新方向。",
+      "tag_category": "综合",
+      "title_en": "Huawei unveils Tau Scaling Law: a new semiconductor roadmap to succeed Moore’s Law"
+    },
+    {
+      "title": "华为麒麟9050（Kirin 9050）通过逻辑折叠技术大幅提升能效与密度（Huawei Kirin 9050 Brings Major Efficiency and Density Boost With Logic Folding）",
+      "url": "https://innogyan.in/2026/05/25/huawei-kirin-9050-brings-major-efficiency-and-density-boost-with-logic-folding/",
+      "description": "Huawei Kirin 9050 Brings Major Efficiency and Density Boost With Logic Folding • innoGyan\n\nNo Result\n\nView All Result\n\nNo Result\n\nView All Result\n\nNo Result\n\nView All Result\n\n# Huawei Kirin 9050 Brings Major Efficiency and Density Boost With Logic Folding\n\nin Semiconductors, Technologies\n\nToday, Hua",
+      "published": "2026-05-25T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "“逻辑折叠”技术是3D晶体管布局或架构创新的体现，为缺乏先进光刻设备的国产芯片提供了提升密度的有效路径。",
+        "麒麟9050的能效和密度提升标志着国产芯片在受限环境下的架构创新已进入实质性产品落地阶段。"
+      ],
+      "actions": [
+        "国产EDA和IP厂商应加速研发支持逻辑折叠等3D架构的设计工具，抢占新架构生态位。",
+        "封测厂商需评估逻辑折叠带来的晶圆级堆叠和互联测试挑战，提前布局相关测试产能与方案。"
+      ],
+      "glossary": [
+        {
+          "term": "Logic Folding",
+          "desc": "逻辑折叠技术，一种通过3D空间布局或架构重构提升晶体管密度和能效的设计方法",
+          "category": "架构/设计"
+        },
+        {
+          "term": "Kirin 9050",
+          "desc": "华为麒麟9050处理器，国产高端手机SoC芯片",
+          "category": "芯片"
+        }
+      ],
+      "region": "overseas",
+      "summary": "华为麒麟9050芯片采用了“逻辑折叠”技术，在能效和晶体管密度上实现了重大突破，无需依赖最先进的EUV光刻机。",
+      "tag_category": "综合",
+      "title_en": "Huawei Kirin 9050 Brings Major Efficiency and Density Boost With Logic Folding • innoGyan"
+    },
+    {
+      "title": "华为无需EUV光刻机即可实现1.4nm等效制程（Huawei Achieves 1.4nm Equivalent Without EUV Lithography）",
+      "url": "https://overcentral.com/en/huawei-14nm-equivalent-chip-design/",
+      "description": "Huawei Achieves 1.4nm Equivalent Without EUV Lithography\n\nSHARE\n\nHuawei has unveiled a novel semiconductor design methodology that bypasses the need for extreme ultraviolet (EUV) lithography, targeting a 1.4nm equivalent transistor density by 2031. Announced by He Tingbo, the head of Huawei’s semico",
+      "published": "2026-05-25T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "“1.4nm等效”意味着通过先进封装（如3D堆叠）和架构优化弥补制程工艺的物理差距，这是后摩尔时代的重要趋势。",
+        "脱离EUV实现高密度，证明系统级协同设计和先进封装正成为比单纯缩小晶体管更关键的竞争力。"
+      ],
+      "actions": [
+        "国内代工厂和封装厂应加强与华为等设计公司的合作，共同开发基于多重曝光、3D封装的等效先进制程方案。",
+        "设备厂商需重点研发支持高精度对准和先进封装的DUV及非光刻类设备，填补EUV设备空白带来的工艺缺口。"
+      ],
+      "glossary": [
+        {
+          "term": "1.4nm Equivalent",
+          "desc": "1.4nm等效制程，指通过架构或封装优化达到与1.4nm工艺相近的性能和密度，而非物理线宽达到1.4nm",
+          "category": "制程"
+        },
+        {
+          "term": "EUV Lithography",
+          "desc": "极紫外光刻技术，使用13.5nm波长光刻实现7nm及以下制程的关键设备",
+          "category": "设备"
+        }
+      ],
+      "region": "overseas",
+      "summary": "华为展示了一种无需EUV光刻机即可达到1.4nm等效制程的新型半导体设计方法，通过架构和封装创新绕过光刻限制。",
+      "tag_category": "综合",
+      "title_en": "Huawei Achieves 1.4nm Equivalent Without EUV Lithography"
+    },
+    {
+      "title": "针对异构SoC的智能体驱动端到端软硬件协同设计基准测试（哥伦比亚大学，IBM）（An Agent-Driven End-to-End HW-SW Co-Design Benchmark for Heterogeneous SoCs）",
+      "url": "https://semiengineering.com/an-agent-driven-end-to-end-hw-sw-co-design-benchmark-for-heterogeneous-socs-columbia-ibm/",
+      "description": "An Agent-Driven End-to-End HW-SW Co-Design Benchmark for Heterogeneous SoCs (Columbia, IBM)\n\nMENU\n\nHome> Home> An Agent-Driven End-to-End HW-SW Co-Design Benchmark for Heterogeneous SoCs (...\n\nTECHNICAL PAPERS\n\n# An Agent-Driven End-to-End HW-SW Co-Design Benchmark for Heterogeneous SoCs (Columbia, ",
+      "published": "2026-05-25T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI智能体介入芯片设计流程，标志着EDA正向自动化、智能化演进，软硬件协同设计的效率将大幅提升。",
+        "异构SoC设计复杂度呈指数级增长，传统人工优化已遇瓶颈，Agent驱动的基准测试为行业提供了新的评估和优化标准。"
+      ],
+      "actions": [
+        "SoC设计团队应关注并引入AI Agent辅助的EDA工具，探索软硬件协同设计的自动化流程以缩短开发周期。",
+        "EDA软件开发商需参考该基准测试，加速将大模型和Agent技术集成到现有设计工具链中，提升工具智能化水平。"
+      ],
+      "glossary": [
+        {
+          "term": "HW-SW Co-Design",
+          "desc": "软硬件协同设计，在芯片设计早期同时考虑硬件架构和软件算法的优化",
+          "category": "架构/设计"
+        },
+        {
+          "term": "Agent-Driven",
+          "desc": "智能体驱动，指利用AI智能体自主执行和优化复杂任务流程",
+          "category": "AI/EDA"
+        }
+      ],
+      "region": "overseas",
+      "summary": "哥伦比亚大学与IBM联合发布了一个基于智能体驱动的端到端软硬件协同设计基准测试，旨在加速异构SoC的开发与优化。",
+      "tag_category": "综合",
+      "title_en": "An Agent-Driven End-to-End HW-SW Co-Design Benchmark for Heterogeneous SoCs (Columbia, IBM)"
+    },
+    {
+      "title": "从电子到光子：CPO测试接口成为下一代AI基础设施争夺焦点（From Electrons to Photons: CPO Test Interfaces Become the Next AI Infrastructure Battleground）",
+      "url": "https://tspasemiconductor.substack.com/p/from-electrons-to-photons-cpo-test",
+      "description": "From Electrons to Photons: CPO Test Interfaces Become the Next AI Infrastructure Battleground\n\nSubscribeSign in\n\n# From Electrons to Photons: CPO Test Interfaces Become the Next AI Infrastructure Battleground\n\n### Original Article By SemiVision Research [Reading time: 20 mins]\n\nMay 25, 2026\n\n∙ Paid\n",
+      "published": "2026-05-25T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "CPO技术将光互连直接集成在封装内，极大提升了带宽并降低功耗，但测试接口的标准化和可测性设计成为产业落地的最大瓶颈。",
+        "测试设备厂商在CPO接口测试上的突破，将决定其在下一代AI算力网络设备供应链中的核心地位。"
+      ],
+      "actions": [
+        "封测厂商和ATE设备商需立即投入CPO光电协同测试接口的研发，抢占标准制定的话语权。",
+        "AI芯片设计公司应在早期架构阶段引入CPO可测性设计（DFT），避免后期测试成本失控与良率风险。"
+      ],
+      "glossary": [
+        {
+          "term": "CPO",
+          "desc": "共封装光学，将光学器件与交换芯片共同封装，实现高速低功耗互连",
+          "category": "封装/光通信"
+        },
+        {
+          "term": "Test Interfaces",
+          "desc": "测试接口，用于芯片制造和封装后进行电学或光学功能验证的连接标准",
+          "category": "测试"
+        }
+      ],
+      "region": "overseas",
+      "summary": "随着数据传输从电子转向光子，共封装光学（CPO）的测试接口正成为AI基础设施的关键竞争领域。",
+      "tag_category": "综合",
+      "title_en": "From Electrons to Photons: CPO Test Interfaces Become the Next AI Infrastructure Battleground"
+    },
+    {
+      "title": "力积电（PSMC）以3D晶圆对晶圆键合技术攻克AI内存瓶颈（PSMC Tackles AI Memory Bottlenecks with 3D Wafer on Wafer Bonding Technology | Technetbook）",
+      "url": "https://www.technetbooks.com/2026/05/psmc-tackles-ai-memory-bottlenecks-with.html",
+      "description": "PSMC Tackles AI Memory Bottlenecks with 3D Wafer on Wafer Bonding Technology | Technetbook\n\n# PSMC Tackles AI Memory Bottlenecks with 3D Wafer on Wafer Bonding Technology\n\n## PSMC 3D WoW Wafer on Wafer Stacking Overcomes the Memory Wall Bottleneck to Support Massive AI Memory Density and Bandwidth\n\n",
+      "published": "2026-05-25T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "3D WoW技术通过垂直堆叠晶圆缩短数据传输路径，是突破AI内存墙的关键先进封装路径。",
+        "力积电在AI内存领域的布局显示传统DRAM厂商正积极向3D集成转型，以应对HBM的高带宽竞争。"
+      ],
+      "actions": [
+        "关注力积电3D WoW技术的量产进度及良率表现，评估其对HBM等高端存储市场的潜在冲击。",
+        "供应链企业应提前布局WoW键合所需的键合设备与材料（如临时键合胶、解键合液等）的市场机会。"
+      ],
+      "glossary": [
+        {
+          "term": "PSMC",
+          "desc": "力积电，台湾的DRAM存储芯片制造商",
+          "category": "公司"
+        },
+        {
+          "term": "3D WoW",
+          "desc": "3D Wafer on Wafer，3D晶圆对晶圆键合技术，将两片晶圆直接垂直堆叠连接",
+          "category": "封装"
+        }
+      ],
+      "region": "overseas",
+      "summary": "力积电（PSMC）推出3D WoW（晶圆对晶圆）键合技术，旨在解决AI计算中的内存瓶颈问题，提升存储带宽与性能。",
+      "tag_category": "综合",
+      "title_en": "PSMC Tackles AI Memory Bottlenecks with 3D Wafer on Wafer Bonding Technology | Technetbook"
+    },
+    {
+      "title": "SK海力士在HBM内嵌入“冷却塔”，推出散热降低30%的“iHBM”（SK Hynix Embeds 'Cooling Tower' Inside HBM, Unveils 'iHBM' That Cuts Heat by 30% — BigGo Finance）",
+      "url": "https://finance.biggo.com/news/3X3sYZ4BDXrLZJaAchfH",
+      "description": "SK Hynix Embeds 'Cooling Tower' Inside HBM, Unveils 'iHBM' That Cuts Heat by 30% — BigGo Finance\n\n# SK Hynix Embeds 'Cooling Tower' Inside HBM, Unveils 'iHBM' That Cuts Heat by 30%\n\nSK Hynix unveiled next-generation 'iHBM' technology on the 26th, embedding an integrated cooling element called 'ICE' ",
+      "published": "2026-05-26T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "HBM的散热问题已成为限制AI芯片性能提升的核心瓶颈，内置液冷或微通道散热是下一代HBM演进的必然趋势。",
+        "SK海力士通过封装内部结构创新（iHBM）巩固其在HBM市场的领导地位，拉开与竞争对手的技术差距。"
+      ],
+      "actions": [
+        "跟踪iHBM的散热结构设计细节，评估其对封装工艺流程及供应链（如热界面材料、微流控组件）的新要求。",
+        "AI芯片设计公司需尽早评估iHBM的集成兼容性，以在下一代架构中充分利用其散热优势提升算力密度。"
+      ],
+      "glossary": [
+        {
+          "term": "HBM",
+          "desc": "High Bandwidth Memory，高带宽内存，通过TSV垂直堆叠DRAM实现高带宽与低功耗",
+          "category": "存储"
+        },
+        {
+          "term": "iHBM",
+          "desc": "SK海力士推出的内置散热通道的新型HBM技术，显著降低封装内部热阻",
           "category": "存储"
         }
       ],
       "region": "overseas",
-      "summary": "SK海力士在HBM4的交接与研发进度上再次领先三星，巩固了其在高带宽内存市场的领导地位。",
+      "summary": "SK海力士发布内置散热结构（“冷却塔”）的新型HBM产品“iHBM”，成功将发热量降低30%，以解决高带宽内存的散热痛点。",
       "tag_category": "综合",
-      "title_en": "SK Hynix Caught the HBM4 Handoff Before Samsung… | AI in Asia"
+      "title_en": "SK Hynix Embeds 'Cooling Tower' Inside HBM, Unveils 'iHBM' That Cuts Heat by 30% — BigGo Finance"
     },
     {
-      "title": "indie Semiconductor同意收购ams OSRAM CMOS传感器业务（indie Semiconductor Agrees to Acquire ams OSRAM CMOS Sensor Group）",
-      "url": "https://www.harianbasis.co/en/indie-semiconductor-acquire-ams-osram-sensor-group",
-      "description": "indie Semiconductor Agrees to Acquire ams OSRAM CMOS Sensor Group\n\n# indie Semiconductor Agrees to Acquire ams OSRAM CMOS Sensor Group\n\nMichael Anderson\n\nPublished May 24, 2026 - 19:14\n\nLast Update May 24, 2026 - 19:14\n\nShare\n\nIndie Semiconductor Inc. (INDI): Among EV Penny Stock From $10 to Under $",
-      "published": "2026-05-24T00:00:00.000Z",
+      "title": "Kelington Group业务迅猛发展；维持买入评级（Kelington Group - Going Great Guns; Keep BUY | I3investor）",
+      "url": "https://klse.i3investor.com/web/blog/detail/rhbinvest/2026-05-26-story-h501536817-Kelington_Group_Going_Great_Guns_Keep_BUY_nbsp",
+      "description": "Kelington Group - Going Great Guns; Keep BUY | I3investor\n\nSign In Sign Up\n\nRHB Investment Research Reports\n\n### Kelington Group - Going Great Guns; Keep BUY\n\n###### rhbinvest\n\n###### Publish date: Tue, 26 May 2026, 10:33 AM\n\n###### rhbinvest\n\n0 6,567\n\nAn official blog in I3investor to publish resea",
+      "published": "2026-05-26T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "汽车与工业市场对智能视觉传感器的需求正在推动半导体企业通过并购整合上下游资源。",
-        "ams OSRAM剥离部分CMOS业务表明其正在调整战略重心，而indie Semiconductor则借此扩充产品线以提升市场话语权。"
+        "Kelington Group作为半导体及工业气体输送系统供应商，其业务强劲增长反映出晶圆厂扩产对高纯度流体/气体基础设施的持续需求。",
+        "在半导体设备与材料细分赛道中，厂务基础设施（如气体/化学品输送）是Fab产能扩张的先行指标。"
       ],
       "actions": [
-        "关注ams OSRAM业务剥离后的供应链调整，评估潜在的风险与替代方案。",
-        "汽车传感器相关厂商应审视自身产品组合，寻找与indie Semiconductor新整合平台合作的切入点。"
+        "投资者可关注Kelington Group等半导体厂务工程供应商的业绩表现，作为判断晶圆厂资本开支落地节奏的晴雨表。",
+        "晶圆厂建设与扩产项目应优先锁定如Kelington这类具备高纯度气体/化学品输送系统交付能力的厂务供应商，确保产能按时投产。"
       ],
       "glossary": [
         {
-          "term": "CMOS Sensor",
-          "desc": "互补金属氧化物半导体传感器，广泛用于图像捕捉和光检测。",
-          "category": "传感器"
-        },
-        {
-          "term": "ams OSRAM",
-          "desc": "全球领先的光学解决方案和传感器供应商。",
+          "term": "Kelington Group",
+          "desc": "肯林顿集团，马来西亚上市公司，提供半导体及工业领域的高纯度气体与化学品输送系统",
           "category": "公司"
         }
       ],
       "region": "overseas",
-      "summary": "indie Semiconductor宣布将收购ams OSRAM的CMOS传感器业务，此举旨在加强其在汽车和工业传感器领域的布局与竞争力。",
+      "summary": "RHB投资研究报告维持对Kelington Group的“买入”评级，指出该公司业务正迅猛发展，前景看好。",
       "tag_category": "综合",
-      "title_en": "indie Semiconductor Agrees to Acquire ams OSRAM CMOS Sensor Group"
-    },
-    {
-      "title": "台积电（TSMC）提升动力：408,000块电池获得安全智能升级（TSMC Powers Up: 408,000 Batteries Get a Safety Intelligence Upgrade）",
-      "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/369345-tsmc-powers-up-408000-batteries-get-a-safety-intelligence-upgrade/",
-      "description": "<p>As semiconductor manufacturing becomes increasingly dependent on uninterrupted power and energy efficiency, battery reliability has emerged as a critical operational issue for advanced fabs. Taiwan Semiconductor Manufacturing Company, better known as TSMC, is addressing this challenge through an ",
-      "published": "Mon, 25 May 2026 17:00:39 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "先进制程晶圆厂对电力供应的稳定性要求极高，任何断电都可能导致巨额损失，电池监控智能化是必然趋势。",
-        "晶圆厂基础设施的智能化升级正成为保障产能和良率的重要隐性竞争力。"
-      ],
-      "actions": [
-        "晶圆厂运营方应加快引入智能电池监控系统（BMS），预防突发性断电事故。",
-        "电池及电源管理供应商需针对半导体制造场景开发高可靠性和智能预警的定制化解决方案。"
-      ],
-      "glossary": [
-        {
-          "term": "Fab",
-          "desc": "晶圆制造厂，半导体芯片的生产基地。",
-          "category": "制造"
-        },
-        {
-          "term": "Safety Intelligence Upgrade",
-          "desc": "安全智能升级，指通过物联网和数据分析技术提升设备运行的安全预警能力。",
-          "category": "基础设施"
-        }
-      ],
-      "region": "overseas",
-      "summary": "随着半导体制造对不间断电源的依赖日益增加，台积电为其408,000块电池进行了安全智能升级，以提升先进晶圆厂的运营可靠性。",
-      "tag_category": "Fab/制造",
-      "title_en": "TSMC Powers Up: 408,000 Batteries Get a Safety Intelligence Upgrade"
-    },
-    {
-      "title": "Power-SOI技术：功能安全IC背后的可靠性引擎（Power-SOI: The Reliability Engine Behind Functional Safety ICs）",
-      "url": "https://semiwiki.com/semiconductor-manufacturers/soitec/369424-power-soi-the-reliability-engine-behind-functional-safety-ics/",
-      "description": "<p>Power-SOI technology is rapidly emerging as a foundational platform for next-generation functional safety integrated circuits used in autonomous vehicles, industrial automation, humanoid robotics, and other mission-critical systems. The growing convergence of high-voltage power management and low",
-      "published": "Mon, 25 May 2026 13:00:38 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "随着自动驾驶和机器人的发展，对芯片功能安全的要求急剧上升，Power-SOI凭借高可靠性成为关键工艺选择。",
-        "SOI（硅晶绝缘体）技术在高压、高可靠性场景的优势正在从传统汽车向新兴的AI机器人领域延伸。"
-      ],
-      "actions": [
-        "功能安全IC设计公司应评估Power-SOI工艺在提升产品鲁棒性和降低故障率方面的潜力。",
-        "关注SOI晶圆供应商的产能动态，提前锁定用于自动驾驶和机器人芯片的制造资源。"
-      ],
-      "glossary": [
-        {
-          "term": "Power-SOI",
-          "desc": "针对功率器件优化的硅晶绝缘体技术，提供高绝缘性和耐压能力。",
-          "category": "工艺/制程"
-        },
-        {
-          "term": "Functional Safety ICs",
-          "desc": "功能安全集成电路，确保在发生故障时系统仍能安全运行的芯片。",
-          "category": "设计"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Power-SOI技术正迅速成为下一代功能安全集成电路的基础平台，广泛应用于自动驾驶、工业自动化和人形机器人等领域。",
-      "tag_category": "综合",
-      "title_en": "Power-SOI: The Reliability Engine Behind Functional Safety ICs"
+      "title_en": "Kelington Group - Going Great Guns; Keep BUY | I3investor"
     }
   ],
   "stats": {
-    "total_raw": 156,
-    "after_dedup": 122,
+    "total_raw": 161,
+    "after_dedup": 131,
     "sources": {
-      "Serper": 1,
-      "Exa": 27,
+      "Exa": 34,
       "RSS": 65,
-      "Brave": 29
+      "Brave": 32
     }
   },
   "code_version": "",
