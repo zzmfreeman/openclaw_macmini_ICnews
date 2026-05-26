@@ -1,6 +1,6 @@
 {
-  "version": "v20260525-1303",
-  "generatedAt": "2026-05-25T13:03:00+08:00",
+  "version": "v20260526-1302",
+  "generatedAt": "2026-05-26T13:02:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [
@@ -20,34 +20,39 @@
       "category": "封装"
     },
     {
-      "term": "问界M9",
-      "desc": "华为与赛力斯联合打造的高端智能SUV车型",
-      "category": "终端产品"
+      "term": "SoC",
+      "desc": "系统级芯片，将完整电子系统集成在同一芯片上的集成电路",
+      "category": "芯片设计"
     },
     {
-      "term": "预售价",
-      "desc": "产品正式上市前公布的参考销售价格",
-      "category": "市场"
+      "term": "BOM",
+      "desc": "物料清单，产品所有组成部件及原材料的详细列表",
+      "category": "供应链"
     },
     {
-      "term": "小米YU7 GT",
-      "desc": "小米汽车推出的新款SUV车型",
-      "category": "终端产品"
+      "term": "MCU",
+      "desc": "微控制器，将处理器、存储器及外设集成于单一芯片的微型计算机",
+      "category": "芯片设计"
     },
     {
-      "term": "CXMT",
-      "desc": "长鑫存储技术有限公司，中国本土核心DRAM研发与制造企业",
-      "category": "企业"
+      "term": "IPO",
+      "desc": "首次公开募股，企业首次向公众投资者发售股票筹集资金的过程",
+      "category": "金融"
     },
     {
-      "term": "DRAM",
-      "desc": "动态随机存取存储器，常见的主内存类型",
-      "category": "产品"
+      "term": "ASIC",
+      "desc": "专用集成电路，为特定应用场景而非通用用途定制的芯片",
+      "category": "芯片设计"
     },
     {
-      "term": "EBook",
-      "desc": "电子书，数字化的出版物",
-      "category": "通用"
+      "term": "Radar SoC",
+      "desc": "雷达系统级芯片，将雷达射频收发与信号处理功能集成于单一芯片",
+      "category": "芯片设计"
+    },
+    {
+      "term": "Edge AI",
+      "desc": "边缘人工智能，在终端设备本地而非云端数据中心进行AI推理计算的技术",
+      "category": "AI"
     }
   ],
   "topic_pulse": [
@@ -56,56 +61,56 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS产能扩张的讨论热度有所下降，市场对先进封装供需紧张的担忧暂时缓解。投资者正观望台积电等厂商的后续产能释放节奏。"
+      "summary": "CoWoS及先进封装话题热度降温，社区讨论趋于平静。近期缺乏重大产能扩张或技术突破新闻，市场关注点暂时转移至终端应用。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM相关话题热度降温，随着各大存储厂商产能逐步爬坡，AI存储缺货的预期减弱。社区焦点从HBM短缺转向下一代HBM4的技术规格演进。"
+      "summary": "HBM与AI存储话题热度下降，社区情绪平稳。随着AI服务器短期需求脉冲缓解，关于HBM产能紧缺的讨论有所减少。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国内晶圆厂与先进制程话题热度回落，短期内缺乏重大突破性消息刺激。社区讨论趋于理性，关注点集中在成熟制程的产能利用率与盈利修复上。"
+      "summary": "中国Fab与先进制程话题热度回落，社区讨论暂无新热点。在缺乏新制裁或技术突破刺激下，本土晶圆厂进展讨论进入平淡期。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP板块讨论热度下降，市场进入平稳发展期。社区正等待国内头部EDA企业在特定点工具上的新突破及客户导入进展。"
+      "summary": "国产EDA/IP话题热度降温，社区关注度下降。近期未见重磅国产替代突破或政策利好，讨论焦点暂未聚焦于此。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT话题降温，传统封装产能过剩的担忧使得社区讨论趋于平淡。大家更关注先进封装与传统封装之间的业务结构转型进程。"
+      "summary": "封测OSAT话题热度下降，社区讨论较少。传统封装环节缺乏新驱动力，市场目光转向先进封装及终端需求。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度下降，近期无新增重大禁令出台，市场情绪暂时平稳。社区正消化现有规则的影响，并评估潜在漏洞与合规策略。"
+      "summary": "出口管制与制裁话题热度降温，社区情绪趋于缓和。近期无新增重大制裁措施，相关讨论暂告一段落。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "英伟达与AI芯片话题热度回落，在Blackwell架构全面铺开前，市场处于信息真空期。讨论焦点短暂转向AI推理侧的芯片需求与竞争格局。"
+      "summary": "AI芯片与NVIDIA话题热度回落，社区讨论暂缓。在NVIDIA新一代产品发布空窗期，关于GPU供需的讨论热度有所下降。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "半导体设备与材料国产化讨论降温，行业进入常规的订单交付与验证周期。社区关注点转向国产设备在先进制程验证中的实际良率表现。"
+      "summary": "设备与材料国产化话题热度降温，社区讨论暂无新进展。缺乏新的国产设备验证突破消息，讨论热度暂时走低。"
     }
   ],
   "items": [
@@ -119,22 +124,22 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "问界M9上市将拉动智能座舱、自动驾驶相关芯片的需求量。",
-        "高端新能源车型扎堆上市，反映出国内汽车电子市场持续景气。"
+        "高端智能网联汽车密集上市，将持续拉动车规级大算力芯片和智能座舱SoC的需求",
+        "问界M9等旗舰车型对传感器和算力要求极高，推动本土汽车半导体供应链升级"
       ],
       "actions": [
-        "关注问界M9的智能驾驶及座舱芯片供应商，评估产能储备情况。",
-        "跟踪华为系车型的销量走势，预判车规级芯片的订单波动。"
+        "关注问界M9的智能驾驶及座舱芯片供应商变动，评估潜在国产替代机会",
+        "提前储备车规级芯片产能，应对5月底旗舰车型集中交付带来的需求脉冲"
       ],
       "glossary": [
         {
-          "term": "问界M9",
-          "desc": "华为与赛力斯联合打造的高端智能SUV车型",
-          "category": "终端产品"
+          "term": "SoC",
+          "desc": "系统级芯片，将完整电子系统集成在同一芯片上的集成电路",
+          "category": "芯片设计"
         }
       ],
       "region": "domestic",
-      "summary": "全新一代问界M9宣布将于5月27日正式上市，作为国内高端智能电动车市场的重要车型，其上市将带动相关汽车芯片供应链的需求。",
+      "summary": "全新一代问界M9将于5月27日正式上市，作为高端智能SUV，其智能化配置和芯片需求值得关注。",
       "tag_category": "综合",
       "title_en": "全新一代问界M9将于5月27日上市_车家号_发现车生活_汽车之家"
     },
@@ -148,22 +153,22 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "预售价近50万的高端定位，意味着该车将大量搭载高算力智驾芯片及高性能域控制器。",
-        "高端车型的销量表现直接关系到高价值车规半导体的营收增长。"
+        "高端新能源车型预售价逼近50万，单车半导体价值量将大幅超越中低端车型",
+        "旗舰车型的规模化交付将加速国产车规级芯片从验证走向大规模量产"
       ],
       "actions": [
-        "梳理50万级别新能源车型的BOM成本，重点评估主控芯片的占比与供应商。",
-        "关注该车型量产后的实际交付量，及时调整车规芯片的排产计划。"
+        "梳理问界M9系列BOM中的核心半导体物料，锁定高价值增量环节",
+        "跟踪高端车型销量表现，及时调整车规级功率器件和MCU的备货策略"
       ],
       "glossary": [
         {
-          "term": "预售价",
-          "desc": "产品正式上市前公布的参考销售价格",
-          "category": "市场"
+          "term": "BOM",
+          "desc": "物料清单，产品所有组成部件及原材料的详细列表",
+          "category": "供应链"
         }
       ],
       "region": "domestic",
-      "summary": "全新一代问界M9系列定于5月27日上市，预售价49.98万元起，定位高端豪华市场，将进一步刺激高端车规级芯片的搭载量。",
+      "summary": "全新一代问界M9系列宣布将于5月27日上市，预售价49.98万元起，定位高端智能汽车市场。",
       "tag_category": "综合",
       "title_en": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起_车家号_发现车生活_汽车之家"
     },
@@ -177,96 +182,101 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "多家头部车企集中发布新车型，预示着下半年车规级芯片的交付压力将显著增加。",
-        "小米等跨界玩家的新车落地，将重塑国内汽车电子供应链的格局。"
+        "头部车企扎堆发布旗舰车型，智能驾驶和座舱芯片的算力军备竞赛进入白热化",
+        "新车密集上市将引发供应链抢产能，车规级芯片的交期和价格可能出现短期波动"
       ],
       "actions": [
-        "盘点理想、蔚来、小米新车的核心芯片方案，锁定潜在增量客户。",
-        "提前与车企及Tier1沟通下半年排产计划，避免关键车规芯片出现缺货。"
+        "评估理想、蔚来、小米等新车型对AI算力芯片和存储器的增量需求，做好产能分配",
+        "关注新车发布后的订单转化率，灵活调整车规级功率半导体和传感器的库存水位"
       ],
       "glossary": [
         {
-          "term": "小米YU7 GT",
-          "desc": "小米汽车推出的新款SUV车型",
-          "category": "终端产品"
+          "term": "MCU",
+          "desc": "微控制器，将处理器、存储器及外设集成于单一芯片的微型计算机",
+          "category": "芯片设计"
         }
       ],
       "region": "domestic",
-      "summary": "5月份国内新能源车市迎来新车上市潮，理想L9、蔚来ES9及小米YU7 GT等重磅车型集中发布，将显著拉动汽车半导体供应链需求。",
+      "summary": "5月迎来新车上市潮，理想L9、蔚来ES9、小米YU7 GT等多款重磅车型集中发布，新能源市场竞争加剧。",
       "tag_category": "综合",
       "title_en": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市_车家号_发现车生活_汽车之家"
     },
     {
-      "title": "长鑫存储母公司提交IPO申请：中国DRAM走向成熟（CXMT’s IPO Filing. China’s DRAM Comes Of Age）",
-      "url": "https://semiconalpha.substack.com/p/cxmts-ipo-filing-chinas-dram-comes",
-      "description": "CXMT’s (ChangXin Memory Technologies) parent company, Changxin Technology Group Co., Ltd., submitted its latest revised preliminary prospectus and updated financial statements to the Shanghai Stock Exchange (SSE) earlier this month, details here. You can find the original source document",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "长鑫存储IPO进程加速，意味着中国本土DRAM产能扩张获得了强有力的资金支持保障。",
-        "中国DRAM的成熟将逐步改变全球存储芯片市场的供给格局，对三星、SK海力士等巨头形成长期竞争压力。"
-      ],
-      "actions": [
-        "密切跟踪长鑫存储IPO进展及募投项目方向，评估其对国产存储设备与材料采购的拉动效应。",
-        "国内存储芯片设计及封测企业应积极对接长鑫，争取在国产替代浪潮中占据供应链核心位置。"
-      ],
-      "glossary": [
-        {
-          "term": "CXMT",
-          "desc": "长鑫存储技术有限公司，中国本土核心DRAM研发与制造企业",
-          "category": "企业"
-        },
-        {
-          "term": "DRAM",
-          "desc": "动态随机存取存储器，常见的主内存类型",
-          "category": "产品"
-        }
-      ],
-      "region": "overseas",
-      "summary": "长鑫存储（CXMT）母公司长鑫科技集团向上海证券交易所提交了最新修订的招股说明书及更新财务数据，标志着中国DRAM产业正走向成熟并寻求资本市场助力。",
-      "tag_category": "EDA/IP",
-      "title_en": "CXMT’s IPO Filing. China’s DRAM Comes Of Age"
-    },
-    {
-      "title": "《非仙女：蟾蜍之死》作者Huw Aaron（电子书）- 企鹅图书澳大利亚（Unfairies: Death by Toad by Huw Aaron (EBook) - Penguin Books Australia）",
-      "url": "https://www.penguin.com.au/books/unfairies-death-by-toad-9780241683781",
-      "description": "Unfairies: Death by Toad by Huw Aaron (EBook) - Penguin Books Australia\n\n[]\n\n- Published: 28 May 2026\n- ISBN: 9780241683781\n- Imprint: Penguin eBooks\n- Format: EBook\n- Pages: 272\n\n# Unfairies: Death by Toad\n\n---\n\nFormats & editions\n\n---\n\nPre-order from…\n\n---\n\nThe second hilarious full-colour graphic",
-      "published": "2026-05-28T00:00:00.000Z",
+      "title": "2026年5月26日AI新闻：Anthropic 900亿美元融资即将关闭，OpenAI提交IPO申请，Magnifica Humanitas引发反响（AI News May 26 2026 — Anthropic $900B Round Closing, OpenAI IPO Filed, Magnifica Humanitas Reaction）",
+      "url": "https://aitoolsrecap.com/Blog/ai-news-may-26-2026",
+      "description": "AI News May 26 2026 — Anthropic $900B Round Closing, OpenAI IPO Filed, Magnifica Humanitas Reaction\n\nTUE, MAY 26, 2026\n\nLog In| Join Us ★\n\nIndependent · In‑Depth · Unsponsored\n\nThe Journal of Artificial Intelligence Tools\n\nLog In Join Us ★\n\n✎ General\n\n# The AI Industry's Biggest Week Ends With Two I",
+      "published": "2026-05-26T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "该新闻与半导体产业无直接关联，属于数据噪音。",
-        "分析师在处理跨领域数据源时需建立更严格的过滤机制，剔除无关内容。"
+        "大模型厂商巨额融资与IPO将带来新一轮AI算力军备竞赛，GPU与HBM需求远未见顶",
+        "OpenAI上市将加速其自研芯片或定制ASIC的步伐，可能重塑AI芯片供应链格局"
       ],
       "actions": [
-        "忽略此类非行业相关资讯，避免在半导体供应链决策中被噪音干扰。",
-        "建议优化数据抓取关键词过滤规则，提升行业简报的纯净度。"
+        "密切关注OpenAI及Anthropic的资本动向及潜在自研芯片计划，提前布局相关供应链",
+        "评估巨额融资对AI服务器、光模块及先进封装产能的长尾拉动效应"
       ],
       "glossary": [
         {
-          "term": "EBook",
-          "desc": "电子书，数字化的出版物",
-          "category": "通用"
+          "term": "IPO",
+          "desc": "首次公开募股，企业首次向公众投资者发售股票筹集资金的过程",
+          "category": "金融"
+        },
+        {
+          "term": "ASIC",
+          "desc": "专用集成电路，为特定应用场景而非通用用途定制的芯片",
+          "category": "芯片设计"
         }
       ],
       "region": "overseas",
-      "summary": "企鹅图书澳大利亚将于2026年5月28日出版Huw Aaron的电子书《非仙女：蟾蜍之死》，此为非半导体行业的文学类资讯。",
+      "summary": "Anthropic即将完成900亿美元巨额融资，OpenAI正式提交IPO申请，AI领域资本运作活跃，持续推高算力基础设施需求。",
+      "tag_category": "EDA/IP",
+      "title_en": "AI News May 26 2026 — Anthropic $900B Round Closing, OpenAI IPO Filed, Magnifica Humanitas Reaction"
+    },
+    {
+      "title": "Keywave发布“空间智能”芯片——24GHz雷达SoC突破（Sponsored Content: Keywave Unveils “Spatial Intelligence” Silicon – A 24GHz Radar SoC Breakthrough）",
+      "url": "https://www.electronicsweekly.com/news/products/rf-microwave-optoelectronics/sponsored-content-keywave-unveils-spatial-intelligence-silicon-a-24ghz-radar-soc-breakthrough-2026-05/",
+      "description": "<p>As the tech industry pivots toward Edge AI — where intelligence is processed locally and instantly — the ability for machines to &#8220;sense&#8221; and &#8220;understand&#8221; the physical world has become ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/news/products/rf-microwave",
+      "published": "Mon, 25 May 2026 23:01:27 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "24GHz雷达SoC集成边缘AI能力，标志着智能感知从云端向边缘端迁移，将大幅降低自动驾驶和物联网的系统功耗与延迟",
+        "雷达SoC化趋势将挤压传统分立式雷达组件市场，推动毫米波雷达芯片的国产化整合"
+      ],
+      "actions": [
+        "评估Keywave 24GHz雷达SoC对现有毫米波雷达供应链的冲击，寻找差异化竞争切入点",
+        "关注边缘AI雷达芯片在智能家居、机器人及辅助驾驶等新兴场景的落地机会"
+      ],
+      "glossary": [
+        {
+          "term": "Radar SoC",
+          "desc": "雷达系统级芯片，将雷达射频收发与信号处理功能集成于单一芯片",
+          "category": "芯片设计"
+        },
+        {
+          "term": "Edge AI",
+          "desc": "边缘人工智能，在终端设备本地而非云端数据中心进行AI推理计算的技术",
+          "category": "AI"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Keywave推出24GHz雷达SoC突破性产品，主打边缘AI的“空间智能”，旨在提升机器对物理世界的感知与理解能力。",
       "tag_category": "综合",
-      "title_en": "Unfairies: Death by Toad by Huw Aaron (EBook) - Penguin Books Australia"
+      "title_en": "Sponsored Content: Keywave Unveils “Spatial Intelligence” Silicon – A 24GHz Radar SoC Breakthrough"
     }
   ],
   "stats": {
-    "total_raw": 87,
-    "after_dedup": 79,
+    "total_raw": 98,
+    "after_dedup": 95,
     "sources": {
-      "Exa": 12,
-      "RSS": 63,
-      "Brave": 4
+      "Exa": 13,
+      "RSS": 65,
+      "Brave": 17
     }
   },
   "code_version": "",
