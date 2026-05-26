@@ -1,7 +1,7 @@
 {
-  "version": "v20260526-1302",
-  "generatedAt": "2026-05-26T13:02:00+08:00",
-  "period": "midday",
+  "version": "v20260526-2003",
+  "generatedAt": "2026-05-26T20:03:00+08:00",
+  "period": "evening",
   "commit": "",
   "glossary_list": [
     {
@@ -20,39 +20,39 @@
       "category": "封装"
     },
     {
-      "term": "SoC",
-      "desc": "系统级芯片，将完整电子系统集成在同一芯片上的集成电路",
-      "category": "芯片设计"
+      "term": "问界M9",
+      "desc": "华为与赛力斯联合打造的全尺寸高端智能SUV车型",
+      "category": "终端产品"
     },
     {
-      "term": "BOM",
-      "desc": "物料清单，产品所有组成部件及原材料的详细列表",
-      "category": "供应链"
+      "term": "预售价",
+      "desc": "新车正式上市前公布的预期销售价格，通常作为最终定价的参考",
+      "category": "市场"
     },
     {
-      "term": "MCU",
-      "desc": "微控制器，将处理器、存储器及外设集成于单一芯片的微型计算机",
-      "category": "芯片设计"
-    },
-    {
-      "term": "IPO",
-      "desc": "首次公开募股，企业首次向公众投资者发售股票筹集资金的过程",
-      "category": "金融"
-    },
-    {
-      "term": "ASIC",
-      "desc": "专用集成电路，为特定应用场景而非通用用途定制的芯片",
-      "category": "芯片设计"
+      "term": "小米YU7 GT",
+      "desc": "小米汽车推出的第二款SUV车型的GT性能版本",
+      "category": "终端产品"
     },
     {
       "term": "Radar SoC",
-      "desc": "雷达系统级芯片，将雷达射频收发与信号处理功能集成于单一芯片",
+      "desc": "雷达系统级芯片，将雷达射频前端、基带处理和计算单元集成在单一芯片上",
       "category": "芯片设计"
     },
     {
-      "term": "Edge AI",
-      "desc": "边缘人工智能，在终端设备本地而非云端数据中心进行AI推理计算的技术",
-      "category": "AI"
+      "term": "Spatial Intelligence",
+      "desc": "空间智能，指机器对物理空间环境进行感知、理解和交互的能力",
+      "category": "AI技术"
+    },
+    {
+      "term": "SpaceX IPO",
+      "desc": "SpaceX公司首次公开募股，即其在股票市场向公众发行股份的过程",
+      "category": "资本市场"
+    },
+    {
+      "term": "Rad-hard chips",
+      "desc": "抗辐射芯片，专为抵御太空高辐射环境而设计的半导体器件",
+      "category": "芯片设计"
     }
   ],
   "topic_pulse": [
@@ -61,56 +61,56 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "CoWoS及先进封装话题热度降温，社区讨论趋于平静。近期缺乏重大产能扩张或技术突破新闻，市场关注点暂时转移至终端应用。"
+      "summary": "近期社区对CoWoS及先进封装的讨论热度有所降温，主要因产能扩张预期逐渐明朗，短期供需紧张情绪缓解。市场关注点正从产能紧缺转向良率提升与成本优化。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度下降，社区情绪平稳。随着AI服务器短期需求脉冲缓解，关于HBM产能紧缺的讨论有所减少。"
+      "summary": "HBM/AI存储话题热度下降，随着主流HBM3e产能逐步释放，前期对缺货的焦虑情绪减退。讨论焦点转向下一代HBM4的规格演进及混合键合技术的应用进展。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中国Fab与先进制程话题热度回落，社区讨论暂无新热点。在缺乏新制裁或技术突破刺激下，本土晶圆厂进展讨论进入平淡期。"
+      "summary": "中国Fab与先进制程讨论热度回落，短期内无重大技术突破或政策刺激消息。社区情绪趋于平稳，关注点集中在成熟制程的产能利用率恢复及特色工艺开发上。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题热度降温，社区关注度下降。近期未见重磅国产替代突破或政策利好，讨论焦点暂未聚焦于此。"
+      "summary": "国产EDA/IP话题降温，市场进入平稳替代期，缺乏爆发性新闻驱动。讨论重点转向特定点工具的深度验证及高端CPU/IP的自主化突破进度。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT话题热度下降，社区讨论较少。传统封装环节缺乏新驱动力，市场目光转向先进封装及终端需求。"
+      "summary": "封测OSAT热度下降，传统封装产能利用率回升缓慢，先进封装产能则已被大厂长协锁定。社区对OSAT短期业绩预期趋于保守，讨论偏向长期技术升级转型。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度降温，社区情绪趋于缓和。近期无新增重大制裁措施，相关讨论暂告一段落。"
+      "summary": "出口管制与制裁话题热度降温，近期无新增重大禁令出台，市场对现有规则已逐步消化并形成应对常态。讨论焦点转向合规审查的实操细节及供应链重组的隐性成本。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与NVIDIA话题热度回落，社区讨论暂缓。在NVIDIA新一代产品发布空窗期，关于GPU供需的讨论热度有所下降。"
+      "summary": "AI芯片/NVIDIA话题降温，主要因NVIDIA新一代产品发布周期处于平稳期，短期缺乏刺激性催化剂。社区讨论转向Blackwell架构的实际部署进度及推理侧算力需求变化。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化话题热度降温，社区讨论暂无新进展。缺乏新的国产设备验证突破消息，讨论热度暂时走低。"
+      "summary": "设备/材料国产化热度回落，随着部分关键设备验证通过并进入产线，情绪从亢奋转向务实。讨论重点聚焦于前道核心设备的量产良率表现及高端光刻胶等材料的突破瓶颈。"
     }
   ],
   "items": [
@@ -124,22 +124,22 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "高端智能网联汽车密集上市，将持续拉动车规级大算力芯片和智能座舱SoC的需求",
-        "问界M9等旗舰车型对传感器和算力要求极高，推动本土汽车半导体供应链升级"
+        "问界M9作为华为深度赋能的高端车型，其上市将带动相关车规级智能驾驶和座舱芯片的需求增长。",
+        "国内新能源车企密集发布新车，智能座舱和自动驾驶芯片供应链将迎来新一轮验证与拉货期。"
       ],
       "actions": [
-        "关注问界M9的智能驾驶及座舱芯片供应商变动，评估潜在国产替代机会",
-        "提前储备车规级芯片产能，应对5月底旗舰车型集中交付带来的需求脉冲"
+        "关注问界M9的智能驾驶和座舱芯片核心供应商，评估其产能准备与交付情况。",
+        "跟踪新车上市后的销量表现，预判后续车规芯片的拉货节奏与备货需求。"
       ],
       "glossary": [
         {
-          "term": "SoC",
-          "desc": "系统级芯片，将完整电子系统集成在同一芯片上的集成电路",
-          "category": "芯片设计"
+          "term": "问界M9",
+          "desc": "华为与赛力斯联合打造的全尺寸高端智能SUV车型",
+          "category": "终端产品"
         }
       ],
       "region": "domestic",
-      "summary": "全新一代问界M9将于5月27日正式上市，作为高端智能SUV，其智能化配置和芯片需求值得关注。",
+      "summary": "全新一代问界M9宣布将于5月27日正式上市，作为高端智能电动车型引发市场关注。",
       "tag_category": "综合",
       "title_en": "全新一代问界M9将于5月27日上市_车家号_发现车生活_汽车之家"
     },
@@ -153,22 +153,22 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "高端新能源车型预售价逼近50万，单车半导体价值量将大幅超越中低端车型",
-        "旗舰车型的规模化交付将加速国产车规级芯片从验证走向大规模量产"
+        "50万级别的高端新能源车型竞争加剧，对高算力自动驾驶芯片及高性能域控制器的需求与要求同步提升。",
+        "预售价的公布有助于锁定意向客户，供应链需提前备货以应对上市后可能出现的交付冲刺。"
       ],
       "actions": [
-        "梳理问界M9系列BOM中的核心半导体物料，锁定高价值增量环节",
-        "跟踪高端车型销量表现，及时调整车规级功率器件和MCU的备货策略"
+        "梳理问界M9系列的核心芯片BOM清单，确认关键物料如MDC计算平台的供应稳定性。",
+        "关注高端车型带来的域控制器集成化趋势，评估相关半导体方案的商业机会。"
       ],
       "glossary": [
         {
-          "term": "BOM",
-          "desc": "物料清单，产品所有组成部件及原材料的详细列表",
-          "category": "供应链"
+          "term": "预售价",
+          "desc": "新车正式上市前公布的预期销售价格，通常作为最终定价的参考",
+          "category": "市场"
         }
       ],
       "region": "domestic",
-      "summary": "全新一代问界M9系列宣布将于5月27日上市，预售价49.98万元起，定位高端智能汽车市场。",
+      "summary": "全新一代问界M9系列定档5月27日上市，预售价定为49.98万元起，定位高端豪华市场。",
       "tag_category": "综合",
       "title_en": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起_车家号_发现车生活_汽车之家"
     },
@@ -182,61 +182,27 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "头部车企扎堆发布旗舰车型，智能驾驶和座舱芯片的算力军备竞赛进入白热化",
-        "新车密集上市将引发供应链抢产能，车规级芯片的交期和价格可能出现短期波动"
+        "头部新能源车企集中推新，将显著拉动车规级功率半导体、MCU及SoC的短期拉货需求。",
+        "小米等跨界玩家入局加剧终端竞争，供应链对成本控制和交付速度的要求将更为严苛。"
       ],
       "actions": [
-        "评估理想、蔚来、小米等新车型对AI算力芯片和存储器的增量需求，做好产能分配",
-        "关注新车发布后的订单转化率，灵活调整车规级功率半导体和传感器的库存水位"
+        "评估主要新能源车企的芯片采购策略变化，寻找切入新车型供应链的定点机会。",
+        "重点关注小米YU7 GT的芯片国产化率，挖掘本土车规芯片厂商的替代与增量机遇。"
       ],
       "glossary": [
         {
-          "term": "MCU",
-          "desc": "微控制器，将处理器、存储器及外设集成于单一芯片的微型计算机",
-          "category": "芯片设计"
+          "term": "小米YU7 GT",
+          "desc": "小米汽车推出的第二款SUV车型的GT性能版本",
+          "category": "终端产品"
         }
       ],
       "region": "domestic",
-      "summary": "5月迎来新车上市潮，理想L9、蔚来ES9、小米YU7 GT等多款重磅车型集中发布，新能源市场竞争加剧。",
+      "summary": "5月份国内新能源车市场迎来新车发布潮，理想L9、蔚来ES9及小米YU7 GT等多款重磅车型集中上市。",
       "tag_category": "综合",
       "title_en": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市_车家号_发现车生活_汽车之家"
     },
     {
-      "title": "2026年5月26日AI新闻：Anthropic 900亿美元融资即将关闭，OpenAI提交IPO申请，Magnifica Humanitas引发反响（AI News May 26 2026 — Anthropic $900B Round Closing, OpenAI IPO Filed, Magnifica Humanitas Reaction）",
-      "url": "https://aitoolsrecap.com/Blog/ai-news-may-26-2026",
-      "description": "AI News May 26 2026 — Anthropic $900B Round Closing, OpenAI IPO Filed, Magnifica Humanitas Reaction\n\nTUE, MAY 26, 2026\n\nLog In| Join Us ★\n\nIndependent · In‑Depth · Unsponsored\n\nThe Journal of Artificial Intelligence Tools\n\nLog In Join Us ★\n\n✎ General\n\n# The AI Industry's Biggest Week Ends With Two I",
-      "published": "2026-05-26T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "大模型厂商巨额融资与IPO将带来新一轮AI算力军备竞赛，GPU与HBM需求远未见顶",
-        "OpenAI上市将加速其自研芯片或定制ASIC的步伐，可能重塑AI芯片供应链格局"
-      ],
-      "actions": [
-        "密切关注OpenAI及Anthropic的资本动向及潜在自研芯片计划，提前布局相关供应链",
-        "评估巨额融资对AI服务器、光模块及先进封装产能的长尾拉动效应"
-      ],
-      "glossary": [
-        {
-          "term": "IPO",
-          "desc": "首次公开募股，企业首次向公众投资者发售股票筹集资金的过程",
-          "category": "金融"
-        },
-        {
-          "term": "ASIC",
-          "desc": "专用集成电路，为特定应用场景而非通用用途定制的芯片",
-          "category": "芯片设计"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Anthropic即将完成900亿美元巨额融资，OpenAI正式提交IPO申请，AI领域资本运作活跃，持续推高算力基础设施需求。",
-      "tag_category": "EDA/IP",
-      "title_en": "AI News May 26 2026 — Anthropic $900B Round Closing, OpenAI IPO Filed, Magnifica Humanitas Reaction"
-    },
-    {
-      "title": "Keywave发布“空间智能”芯片——24GHz雷达SoC突破（Sponsored Content: Keywave Unveils “Spatial Intelligence” Silicon – A 24GHz Radar SoC Breakthrough）",
+      "title": "Keywave发布“空间智能”芯片——24GHz雷达SoC突破（Keywave Unveils “Spatial Intelligence” Silicon – A 24GHz Radar SoC Breakthrough）",
       "url": "https://www.electronicsweekly.com/news/products/rf-microwave-optoelectronics/sponsored-content-keywave-unveils-spatial-intelligence-silicon-a-24ghz-radar-soc-breakthrough-2026-05/",
       "description": "<p>As the tech industry pivots toward Edge AI — where intelligence is processed locally and instantly — the ability for machines to &#8220;sense&#8221; and &#8220;understand&#8221; the physical world has become ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/news/products/rf-microwave",
       "published": "Mon, 25 May 2026 23:01:27 +0000",
@@ -245,36 +211,70 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "24GHz雷达SoC集成边缘AI能力，标志着智能感知从云端向边缘端迁移，将大幅降低自动驾驶和物联网的系统功耗与延迟",
-        "雷达SoC化趋势将挤压传统分立式雷达组件市场，推动毫米波雷达芯片的国产化整合"
+        "24GHz雷达SoC集成空间智能处理能力，标志着边缘AI从纯视觉向多模态雷达感知演进。",
+        "雷达SoC的突破将降低智能感知系统的整体功耗与成本，推动室内人员检测及智能家居应用落地。"
       ],
       "actions": [
-        "评估Keywave 24GHz雷达SoC对现有毫米波雷达供应链的冲击，寻找差异化竞争切入点",
-        "关注边缘AI雷达芯片在智能家居、机器人及辅助驾驶等新兴场景的落地机会"
+        "关注24GHz雷达SoC在智能家居和工业物联网中的替代潜力，评估相关细分市场空间。",
+        "对比Keywave与传统毫米波雷达芯片厂商的技术路线，寻找差异化合作或投资机会。"
       ],
       "glossary": [
         {
           "term": "Radar SoC",
-          "desc": "雷达系统级芯片，将雷达射频收发与信号处理功能集成于单一芯片",
+          "desc": "雷达系统级芯片，将雷达射频前端、基带处理和计算单元集成在单一芯片上",
           "category": "芯片设计"
         },
         {
-          "term": "Edge AI",
-          "desc": "边缘人工智能，在终端设备本地而非云端数据中心进行AI推理计算的技术",
-          "category": "AI"
+          "term": "Spatial Intelligence",
+          "desc": "空间智能，指机器对物理空间环境进行感知、理解和交互的能力",
+          "category": "AI技术"
         }
       ],
       "region": "overseas",
-      "summary": "Keywave推出24GHz雷达SoC突破性产品，主打边缘AI的“空间智能”，旨在提升机器对物理世界的感知与理解能力。",
+      "summary": "Keywave公司推出具备“空间智能”的24GHz雷达SoC芯片，旨在提升边缘AI设备对物理世界的感知与理解能力。",
       "tag_category": "综合",
       "title_en": "Sponsored Content: Keywave Unveils “Spatial Intelligence” Silicon – A 24GHz Radar SoC Breakthrough"
+    },
+    {
+      "title": "为什么SpaceX IPO成为华尔街及更广泛领域的热议话题（Why the SpaceX IPO is the talk of Wall Street and beyond）",
+      "url": "https://www.aljazeera.com:443/news/2026/5/25/why-the-spacex-ipo-is-the-talk-of-wall-street-and-beyond",
+      "description": "Elon Musk's rocket company is expected to make the biggest public debut in history.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "SpaceX若成功上市，将为商业航天领域注入巨额资金，直接带动抗辐射芯片及航天级半导体供应链的扩张。",
+        "史上最大IPO的预期将吸引资本向太空基础设施及低轨卫星通信产业链倾斜，利好相关射频与基带芯片市场。"
+      ],
+      "actions": [
+        "梳理SpaceX供应链中的核心半导体供应商，提前布局相关航天级芯片及组件的投资标的。",
+        "关注低轨卫星星座建设加速带来的相控阵天线芯片和功率放大器需求增量。"
+      ],
+      "glossary": [
+        {
+          "term": "SpaceX IPO",
+          "desc": "SpaceX公司首次公开募股，即其在股票市场向公众发行股份的过程",
+          "category": "资本市场"
+        },
+        {
+          "term": "Rad-hard chips",
+          "desc": "抗辐射芯片，专为抵御太空高辐射环境而设计的半导体器件",
+          "category": "芯片设计"
+        }
+      ],
+      "region": "overseas",
+      "summary": "马斯克的火箭公司SpaceX预计将进行史上最大规模的公开上市（IPO），引发华尔街及全球广泛关注。",
+      "tag_category": "EDA/IP",
+      "title_en": "Why the SpaceX IPO is the talk of Wall Street and beyond | Space News | Al Jazeera"
     }
   ],
   "stats": {
-    "total_raw": 98,
-    "after_dedup": 95,
+    "total_raw": 100,
+    "after_dedup": 93,
     "sources": {
-      "Exa": 13,
+      "Exa": 11,
       "RSS": 65,
       "Brave": 17
     }
