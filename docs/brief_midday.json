@@ -1,6 +1,6 @@
 {
-  "version": "v20260526-1302",
-  "generatedAt": "2026-05-26T13:02:00+08:00",
+  "version": "v20260527-1303",
+  "generatedAt": "2026-05-27T13:03:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [
@@ -20,39 +20,54 @@
       "category": "封装"
     },
     {
-      "term": "SoC",
-      "desc": "系统级芯片，将完整电子系统集成在同一芯片上的集成电路",
-      "category": "芯片设计"
+      "term": "问界M9",
+      "desc": "华为与赛力斯联合推出的高端智能SUV车型，搭载华为全栈智能汽车解决方案",
+      "category": "终端产品"
     },
     {
-      "term": "BOM",
-      "desc": "物料清单，产品所有组成部件及原材料的详细列表",
-      "category": "供应链"
-    },
-    {
-      "term": "MCU",
-      "desc": "微控制器，将处理器、存储器及外设集成于单一芯片的微型计算机",
-      "category": "芯片设计"
-    },
-    {
-      "term": "IPO",
-      "desc": "首次公开募股，企业首次向公众投资者发售股票筹集资金的过程",
+      "term": "Pre-IPO",
+      "desc": "首次公开募股前的阶段，通常指公司上市前发行的内部或定向股份",
       "category": "金融"
     },
     {
-      "term": "ASIC",
-      "desc": "专用集成电路，为特定应用场景而非通用用途定制的芯片",
-      "category": "芯片设计"
+      "term": "SpaceX",
+      "desc": "美国太空探索技术公司，由马斯克创立的航天与卫星互联网企业",
+      "category": "航天"
     },
     {
-      "term": "Radar SoC",
-      "desc": "雷达系统级芯片，将雷达射频收发与信号处理功能集成于单一芯片",
-      "category": "芯片设计"
-    },
-    {
-      "term": "Edge AI",
-      "desc": "边缘人工智能，在终端设备本地而非云端数据中心进行AI推理计算的技术",
+      "term": "OpenAI",
+      "desc": "美国人工智能研究实验室及商业公司，ChatGPT的开发者",
       "category": "AI"
+    },
+    {
+      "term": "ADI",
+      "desc": "Analog Devices Inc., 亚德诺半导体，全球领先的模拟与混合信号芯片厂商",
+      "category": "公司"
+    },
+    {
+      "term": "Empower Semiconductor",
+      "desc": "一家专注于AI数据中心快速瞬态响应电源管理芯片的创新公司",
+      "category": "公司"
+    },
+    {
+      "term": "Quantinuum",
+      "desc": "霍尼韦尔控股的量子计算公司，专注于离子阱量子计算硬件与软件",
+      "category": "公司"
+    },
+    {
+      "term": "Ion Trap",
+      "desc": "离子阱，一种利用电磁场捕获离子实现量子比特操作的量子计算硬件架构",
+      "category": "量子计算"
+    },
+    {
+      "term": "Lockup Trap",
+      "desc": "锁定期陷阱，指IPO后禁售期结束大量股票解禁导致股价暴跌的现象",
+      "category": "金融"
+    },
+    {
+      "term": "Figma",
+      "desc": "一家知名的协作式设计软件公司，曾因估值泡沫及锁定期解禁导致股价大幅下跌",
+      "category": "软件"
     }
   ],
   "topic_pulse": [
@@ -61,88 +76,59 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "CoWoS及先进封装话题热度降温，社区讨论趋于平静。近期缺乏重大产能扩张或技术突破新闻，市场关注点暂时转移至终端应用。"
+      "summary": "近期社区对CoWoS产能扩张的讨论热度有所降温，主要因为产能紧缺预期已逐步被台积电等大厂的扩产计划缓解。市场关注点正从单纯的产能恐慌转向良率提升与成本优化。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度下降，社区情绪平稳。随着AI服务器短期需求脉冲缓解，关于HBM产能紧缺的讨论有所减少。"
+      "summary": "HBM话题热度下降，反映出市场对AI存储短期供需失衡的担忧暂告一段落。社区目前更关注HBM4等下一代规格的技术演进及混合键合工艺的落地挑战。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中国Fab与先进制程话题热度回落，社区讨论暂无新热点。在缺乏新制裁或技术突破刺激下，本土晶圆厂进展讨论进入平淡期。"
+      "summary": "随着国内晶圆厂阶段性扩产完成，相关讨论热度降温。社区焦点暂时从产能突破转向成熟制程的稼动率维持及特种工艺的开发盈利能力。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题热度降温，社区关注度下降。近期未见重磅国产替代突破或政策利好，讨论焦点暂未聚焦于此。"
+      "summary": "国产EDA/IP话题暂遇冷，市场进入验证与打磨的静默期。社区讨论从初期的政策期待转向对工具链全流程覆盖能力及大客户实际采购意愿的审视。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT话题热度下降，社区讨论较少。传统封装环节缺乏新驱动力，市场目光转向先进封装及终端需求。"
+      "summary": "封测OSAT热度回落，传统封装需求疲软叠加先进封装产能逐步释放，使得短期供需趋于平衡。社区讨论暂无重大催化剂，主要聚焦于库存去化进度。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度降温，社区情绪趋于缓和。近期无新增重大制裁措施，相关讨论暂告一段落。"
+      "summary": "出口管制话题降温，可能因近期无重大新规出台，市场进入政策消化期。社区情绪从焦虑转向务实，重点探讨合规框架下的供应链重组与替代方案。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与NVIDIA话题热度回落，社区讨论暂缓。在NVIDIA新一代产品发布空窗期，关于GPU供需的讨论热度有所下降。"
+      "summary": "NVIDIA话题热度降温，或因近期缺乏重磅新品发布，市场处于GTC后续效应的消化期。社区讨论重心从算力崇拜转向集群组网效率及推理成本优化。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化话题热度降温，社区讨论暂无新进展。缺乏新的国产设备验证突破消息，讨论热度暂时走低。"
+      "summary": "设备材料国产化热度下降，反映国产替代进入深水区后的短期瓶颈。社区关注点从数量替代转向质量验证，探讨核心零部件及高端材料的自给突破难点。"
     }
   ],
   "items": [
-    {
-      "title": "全新一代问界M9将于5月27日上市",
-      "url": "https://chejiahao.autohome.com.cn/info/25525010",
-      "description": "全新一代问界M9将于5月27日上市_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n全新一代问界M9将于5月27日上市\n\n盖世汽车\n\n车家号·0浏览·2026-05-20 09:50 · 上海\n\n盖世汽车获悉，全新一代问界M9(参数|询价)将于5月27日正式上市。\n\n在此之前，新款问界M9已于4月22日正式亮相并同步开启预售，其中问界M9预售价格49.98万元起，问界M9 Ultimate领世加长版预售价格66.98",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "高端智能网联汽车密集上市，将持续拉动车规级大算力芯片和智能座舱SoC的需求",
-        "问界M9等旗舰车型对传感器和算力要求极高，推动本土汽车半导体供应链升级"
-      ],
-      "actions": [
-        "关注问界M9的智能驾驶及座舱芯片供应商变动，评估潜在国产替代机会",
-        "提前储备车规级芯片产能，应对5月底旗舰车型集中交付带来的需求脉冲"
-      ],
-      "glossary": [
-        {
-          "term": "SoC",
-          "desc": "系统级芯片，将完整电子系统集成在同一芯片上的集成电路",
-          "category": "芯片设计"
-        }
-      ],
-      "region": "domestic",
-      "summary": "全新一代问界M9将于5月27日正式上市，作为高端智能SUV，其智能化配置和芯片需求值得关注。",
-      "tag_category": "综合",
-      "title_en": "全新一代问界M9将于5月27日上市_车家号_发现车生活_汽车之家"
-    },
     {
       "title": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起",
       "url": "https://chejiahao.autohome.com.cn/info/25521469",
@@ -153,130 +139,174 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "高端新能源车型预售价逼近50万，单车半导体价值量将大幅超越中低端车型",
-        "旗舰车型的规模化交付将加速国产车规级芯片从验证走向大规模量产"
+        "问界M9作为高端智能电动车，其上市将进一步拉动国内车规级芯片及智能驾驶SoC的需求。",
+        "高端车型预售价格的稳定，反映出国产智能汽车在供应链成本控制与高价值硬件搭载上的平衡能力正在提升。"
       ],
       "actions": [
-        "梳理问界M9系列BOM中的核心半导体物料，锁定高价值增量环节",
-        "跟踪高端车型销量表现，及时调整车规级功率器件和MCU的备货策略"
+        "关注问界M9的销量表现及其对国产车规芯片供应链的拉动效应，评估相关智能座舱和自动驾驶芯片的备货需求。",
+        "追踪华为智能汽车解决方案的渗透率，提前布局与之配套的传感器、连接器及功率半导体供应链。"
       ],
       "glossary": [
         {
-          "term": "BOM",
-          "desc": "物料清单，产品所有组成部件及原材料的详细列表",
-          "category": "供应链"
+          "term": "问界M9",
+          "desc": "华为与赛力斯联合推出的高端智能SUV车型，搭载华为全栈智能汽车解决方案",
+          "category": "终端产品"
         }
       ],
       "region": "domestic",
-      "summary": "全新一代问界M9系列宣布将于5月27日上市，预售价49.98万元起，定位高端智能汽车市场。",
+      "summary": "全新一代问界M9系列正式宣布将于5月27日上市，预售价起步为49.98万元，标志着该高端智能车型进入市场交付阶段。",
       "tag_category": "综合",
       "title_en": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起_车家号_发现车生活_汽车之家"
     },
     {
-      "title": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市",
-      "url": "https://chejiahao.autohome.com.cn/info/25397889",
-      "description": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市\n\n酱酱侃车\n\n车家号·0浏览·2026-05-01 12:27 · 北京\n\n北京车展即将落下帷幕，不少新车已经进入倒计时阶段。想买车等不到年底？这个5月，一波重磅车型就要扎堆上市了。统计下来，光5月份就有10多款新车将陆续与消费者见面，涵盖了全",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
+      "title": "探秘出售SpaceX和OpenAI Pre-IPO股份的灰色市场（Inside The Murky Market Selling Pre-IPO SpaceX And OpenAI Shares）",
+      "url": "https://www.forbes.com/sites/phoebeliu/2026/05/26/inside-the-murky-market-selling-pre-ipo-spacex-and-openai-shares/",
+      "description": "Want SpaceX And OpenAI Shares Before The IPO? Inside The Secretive Market Selling Them",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "头部车企扎堆发布旗舰车型，智能驾驶和座舱芯片的算力军备竞赛进入白热化",
-        "新车密集上市将引发供应链抢产能，车规级芯片的交期和价格可能出现短期波动"
+        "Pre-IPO股份的灰色交易反映了市场对AI和航天头部企业的狂热追捧，但也暗藏流动性差和估值泡沫的风险。",
+        "非公开市场的股份交易缺乏透明度，容易引发合规争议，凸显了科技独角兽在上市前估值管理的复杂性。"
       ],
       "actions": [
-        "评估理想、蔚来、小米等新车型对AI算力芯片和存储器的增量需求，做好产能分配",
-        "关注新车发布后的订单转化率，灵活调整车规级功率半导体和传感器的库存水位"
+        "芯片供应链从业者若通过员工持股计划或二级市场持有相关AI公司股份，需密切关注锁定期陷阱及估值回调风险。",
+        "警惕AI领域过度金融化带来的产业波动，核心硬件供应商应保持理性产能扩张，避免受非理性估值预期误导。"
       ],
       "glossary": [
         {
-          "term": "MCU",
-          "desc": "微控制器，将处理器、存储器及外设集成于单一芯片的微型计算机",
-          "category": "芯片设计"
-        }
-      ],
-      "region": "domestic",
-      "summary": "5月迎来新车上市潮，理想L9、蔚来ES9、小米YU7 GT等多款重磅车型集中发布，新能源市场竞争加剧。",
-      "tag_category": "综合",
-      "title_en": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市_车家号_发现车生活_汽车之家"
-    },
-    {
-      "title": "2026年5月26日AI新闻：Anthropic 900亿美元融资即将关闭，OpenAI提交IPO申请，Magnifica Humanitas引发反响（AI News May 26 2026 — Anthropic $900B Round Closing, OpenAI IPO Filed, Magnifica Humanitas Reaction）",
-      "url": "https://aitoolsrecap.com/Blog/ai-news-may-26-2026",
-      "description": "AI News May 26 2026 — Anthropic $900B Round Closing, OpenAI IPO Filed, Magnifica Humanitas Reaction\n\nTUE, MAY 26, 2026\n\nLog In| Join Us ★\n\nIndependent · In‑Depth · Unsponsored\n\nThe Journal of Artificial Intelligence Tools\n\nLog In Join Us ★\n\n✎ General\n\n# The AI Industry's Biggest Week Ends With Two I",
-      "published": "2026-05-26T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "大模型厂商巨额融资与IPO将带来新一轮AI算力军备竞赛，GPU与HBM需求远未见顶",
-        "OpenAI上市将加速其自研芯片或定制ASIC的步伐，可能重塑AI芯片供应链格局"
-      ],
-      "actions": [
-        "密切关注OpenAI及Anthropic的资本动向及潜在自研芯片计划，提前布局相关供应链",
-        "评估巨额融资对AI服务器、光模块及先进封装产能的长尾拉动效应"
-      ],
-      "glossary": [
-        {
-          "term": "IPO",
-          "desc": "首次公开募股，企业首次向公众投资者发售股票筹集资金的过程",
+          "term": "Pre-IPO",
+          "desc": "首次公开募股前的阶段，通常指公司上市前发行的内部或定向股份",
           "category": "金融"
         },
         {
-          "term": "ASIC",
-          "desc": "专用集成电路，为特定应用场景而非通用用途定制的芯片",
-          "category": "芯片设计"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Anthropic即将完成900亿美元巨额融资，OpenAI正式提交IPO申请，AI领域资本运作活跃，持续推高算力基础设施需求。",
-      "tag_category": "EDA/IP",
-      "title_en": "AI News May 26 2026 — Anthropic $900B Round Closing, OpenAI IPO Filed, Magnifica Humanitas Reaction"
-    },
-    {
-      "title": "Keywave发布“空间智能”芯片——24GHz雷达SoC突破（Sponsored Content: Keywave Unveils “Spatial Intelligence” Silicon – A 24GHz Radar SoC Breakthrough）",
-      "url": "https://www.electronicsweekly.com/news/products/rf-microwave-optoelectronics/sponsored-content-keywave-unveils-spatial-intelligence-silicon-a-24ghz-radar-soc-breakthrough-2026-05/",
-      "description": "<p>As the tech industry pivots toward Edge AI — where intelligence is processed locally and instantly — the ability for machines to &#8220;sense&#8221; and &#8220;understand&#8221; the physical world has become ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/news/products/rf-microwave",
-      "published": "Mon, 25 May 2026 23:01:27 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "24GHz雷达SoC集成边缘AI能力，标志着智能感知从云端向边缘端迁移，将大幅降低自动驾驶和物联网的系统功耗与延迟",
-        "雷达SoC化趋势将挤压传统分立式雷达组件市场，推动毫米波雷达芯片的国产化整合"
-      ],
-      "actions": [
-        "评估Keywave 24GHz雷达SoC对现有毫米波雷达供应链的冲击，寻找差异化竞争切入点",
-        "关注边缘AI雷达芯片在智能家居、机器人及辅助驾驶等新兴场景的落地机会"
-      ],
-      "glossary": [
-        {
-          "term": "Radar SoC",
-          "desc": "雷达系统级芯片，将雷达射频收发与信号处理功能集成于单一芯片",
-          "category": "芯片设计"
+          "term": "SpaceX",
+          "desc": "美国太空探索技术公司，由马斯克创立的航天与卫星互联网企业",
+          "category": "航天"
         },
         {
-          "term": "Edge AI",
-          "desc": "边缘人工智能，在终端设备本地而非云端数据中心进行AI推理计算的技术",
+          "term": "OpenAI",
+          "desc": "美国人工智能研究实验室及商业公司，ChatGPT的开发者",
           "category": "AI"
         }
       ],
       "region": "overseas",
-      "summary": "Keywave推出24GHz雷达SoC突破性产品，主打边缘AI的“空间智能”，旨在提升机器对物理世界的感知与理解能力。",
+      "summary": "随着SpaceX和OpenAI等明星公司IPO预期升温，出售其Pre-IPO股份的隐秘灰色市场引发关注，投资者需警惕其中的交易风险。",
+      "tag_category": "EDA/IP",
+      "title_en": "Inside The Murky Market Selling Pre-IPO SpaceX And OpenAI Shares"
+    },
+    {
+      "title": "亚德诺半导体（ADI）股价于5月26日上涨4.52%：背后的驱动因素（Analog Devices Inc Stock (ADI) Moved Up by 4.52% on May 26: Drivers Behind the Movement）",
+      "url": "https://www.tradingkey.com/news/market-movers/261928904-market-movers-adi-20260526",
+      "description": "Analog Devices reported strong Q2 2026 results, exceeding expectations.Acquisition of Empower Semiconductor aims to boost AI power management.Analysts raised price targets, citing growth and strategic acquisition benefits.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "ADI收购Empower Semiconductor凸显了模拟芯片厂商在AI电源管理领域的战略布局，AI算力需求正向电源管理等周边模拟芯片传导。",
+        "高性能电源管理成为AI服务器瓶颈之一，快速瞬态响应与高功率密度模拟芯片的市场价值正在被重估。"
+      ],
+      "actions": [
+        "关注ADI在AI电源管理芯片的技术整合与产品迭代，评估国产模拟芯片在高端电源管理领域的替代机会与差距。",
+        "针对AI服务器电源管理需求激增，模拟芯片供应商应加速开发高功率密度DC-DC转换器及多相控制器产品。"
+      ],
+      "glossary": [
+        {
+          "term": "ADI",
+          "desc": "Analog Devices Inc., 亚德诺半导体，全球领先的模拟与混合信号芯片厂商",
+          "category": "公司"
+        },
+        {
+          "term": "Empower Semiconductor",
+          "desc": "一家专注于AI数据中心快速瞬态响应电源管理芯片的创新公司",
+          "category": "公司"
+        }
+      ],
+      "region": "overseas",
+      "summary": "亚德诺半导体（ADI）公布强劲的2026财年Q2业绩超预期，并收购Empower Semiconductor以强化AI电源管理能力，推动股价上涨及分析师上调目标价。",
       "tag_category": "综合",
-      "title_en": "Sponsored Content: Keywave Unveils “Spatial Intelligence” Silicon – A 24GHz Radar SoC Breakthrough"
+      "title_en": "Analog Devices Inc Stock (ADI) Moved Up by 4.52% on May 26: Drivers Behind the Movement"
+    },
+    {
+      "title": "Quantinuum寻求高达10亿美元的IPO，标志着量子计算领域首次重大传统上市（Quantinuum seeks up to $1B in IPO, marking quantum computing’s first major traditional listing）",
+      "url": "https://cryptonews.net/news/finance/32922562/",
+      "description": "Quantinuum, the quantum computing company majority-owned by Honeywell, has filed to go public in what would be the sector’s first major traditional IPO. The company is looking to raise",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "Quantinuum的IPO标志着量子计算行业从概念探索走向资本市场的商业化新阶段，有望加速量子芯片及控制系统的研发投入。",
+        "量子计算头部企业选择传统IPO而非SPAC，表明其底层硬件（如离子阱）已具备一定的商业化成熟度与市场信心。"
+      ],
+      "actions": [
+        "跟踪Quantinuum的IPO进展及其技术路线，评估量子计算产业化对超导/离子阱等专用芯片及低温控制设备供应链的潜在需求。",
+        "量子计算专用芯片与传统半导体工艺差异巨大，设备与材料供应商需提前研判跨领域技术融合的潜在切入点。"
+      ],
+      "glossary": [
+        {
+          "term": "Quantinuum",
+          "desc": "霍尼韦尔控股的量子计算公司，专注于离子阱量子计算硬件与软件",
+          "category": "公司"
+        },
+        {
+          "term": "Ion Trap",
+          "desc": "离子阱，一种利用电磁场捕获离子实现量子比特操作的量子计算硬件架构",
+          "category": "量子计算"
+        }
+      ],
+      "region": "overseas",
+      "summary": "霍尼韦尔控股的量子计算公司Quantinuum申请IPO，计划募资高达10亿美元，这将是量子计算行业首次大规模的传统IPO。",
+      "tag_category": "EDA/IP",
+      "title_en": "Quantinuum seeks up to $1B in IPO, marking quantum computing’s first major traditional listing"
+    },
+    {
+      "title": "SpaceX 2026年IPO：曾让Figma暴跌81%的AI IPO陷阱又回来了（SpaceX IPO 2026: The AI IPO Trap That Already Crushed Figma Is Back - MarketWise）",
+      "url": "https://marketwise.com/investing/spacex-ipo-2026-anthropic-openai-figma-trap/",
+      "description": "The SpaceX IPO is weeks away. Anthropic and OpenAI are right behind it. The lockup trap that crashed Figma 81% is loaded in all three. Here's what investors should know.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI与航天头部企业的IPO热潮背后隐藏着锁定期解禁后的巨大抛压风险，二级市场估值极易在锁定期结束后出现剧烈回调。",
+        "高估值IPO往往伴随内部人员与早期投资者的套现预期，'锁定期陷阱'是科技独角兽上市后必须面对的流动性考验。"
+      ],
+      "actions": [
+        "持有Pre-IPO份额或计划参与这些明星公司IPO的从业者，需制定严格的退出策略，防范锁定期结束后的流动性踩踏风险。",
+        "半导体供应链企业应剥离短期金融投机思维，回归对AI基础设施长期硬件采购订单的实质性跟踪。"
+      ],
+      "glossary": [
+        {
+          "term": "Lockup Trap",
+          "desc": "锁定期陷阱，指IPO后禁售期结束大量股票解禁导致股价暴跌的现象",
+          "category": "金融"
+        },
+        {
+          "term": "Figma",
+          "desc": "一家知名的协作式设计软件公司，曾因估值泡沫及锁定期解禁导致股价大幅下跌",
+          "category": "软件"
+        }
+      ],
+      "region": "overseas",
+      "summary": "SpaceX即将IPO，Anthropic和OpenAI紧随其后，但投资者需警惕曾导致Figma暴跌81%的锁定期陷阱在此次AI相关IPO中重演。",
+      "tag_category": "EDA/IP",
+      "title_en": "SpaceX IPO 2026: The AI IPO Trap That Already Crushed Figma Is Back - MarketWise"
     }
   ],
   "stats": {
-    "total_raw": 98,
-    "after_dedup": 95,
+    "total_raw": 99,
+    "after_dedup": 91,
     "sources": {
-      "Exa": 13,
-      "RSS": 65,
-      "Brave": 17
+      "Exa": 12,
+      "RSS": 64,
+      "Brave": 15
     }
   },
   "code_version": "",
