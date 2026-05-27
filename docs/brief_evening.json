@@ -1,6 +1,6 @@
 {
-  "version": "v20260526-2003",
-  "generatedAt": "2026-05-26T20:03:00+08:00",
+  "version": "v20260527-2003",
+  "generatedAt": "2026-05-27T20:03:00+08:00",
   "period": "evening",
   "commit": "",
   "glossary_list": [
@@ -20,39 +20,24 @@
       "category": "封装"
     },
     {
-      "term": "问界M9",
-      "desc": "华为与赛力斯联合打造的全尺寸高端智能SUV车型",
-      "category": "终端产品"
+      "term": "IPO",
+      "desc": "首次公开募股，指企业首次向公众投资者发售股票",
+      "category": "金融"
     },
     {
-      "term": "预售价",
-      "desc": "新车正式上市前公布的预期销售价格，通常作为最终定价的参考",
-      "category": "市场"
+      "term": "Empower Semiconductor",
+      "desc": "一家专注于AI电源管理技术的半导体公司",
+      "category": "企业"
     },
     {
-      "term": "小米YU7 GT",
-      "desc": "小米汽车推出的第二款SUV车型的GT性能版本",
-      "category": "终端产品"
+      "term": "ADI",
+      "desc": "Analog Devices Inc.，亚德诺半导体，全球领先的模拟与混合信号芯片厂商",
+      "category": "企业"
     },
     {
-      "term": "Radar SoC",
-      "desc": "雷达系统级芯片，将雷达射频前端、基带处理和计算单元集成在单一芯片上",
-      "category": "芯片设计"
-    },
-    {
-      "term": "Spatial Intelligence",
-      "desc": "空间智能，指机器对物理空间环境进行感知、理解和交互的能力",
-      "category": "AI技术"
-    },
-    {
-      "term": "SpaceX IPO",
-      "desc": "SpaceX公司首次公开募股，即其在股票市场向公众发行股份的过程",
-      "category": "资本市场"
-    },
-    {
-      "term": "Rad-hard chips",
-      "desc": "抗辐射芯片，专为抵御太空高辐射环境而设计的半导体器件",
-      "category": "芯片设计"
+      "term": "YMTC",
+      "desc": "Yangtze Memory Technologies Corp.，长江存储，中国领先的3D NAND闪存芯片制造商",
+      "category": "企业"
     }
   ],
   "topic_pulse": [
@@ -61,222 +46,201 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS及先进封装的讨论热度有所降温，主要因产能扩张预期逐渐明朗，短期供需紧张情绪缓解。市场关注点正从产能紧缺转向良率提升与成本优化。"
+      "summary": "近期社区对CoWoS及先进封装的讨论热度明显降温，缺乏引爆话题的新技术突破或产能新闻，市场关注点暂时转移。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM/AI存储话题热度下降，随着主流HBM3e产能逐步释放，前期对缺货的焦虑情绪减退。讨论焦点转向下一代HBM4的规格演进及混合键合技术的应用进展。"
+      "summary": "HBM与AI存储话题热度下降，社区暂无大规模讨论，可能处于前期热点消化期，等待下一代产品或订单消息刺激。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中国Fab与先进制程讨论热度回落，短期内无重大技术突破或政策刺激消息。社区情绪趋于平稳，关注点集中在成熟制程的产能利用率恢复及特色工艺开发上。"
+      "summary": "关于中国晶圆厂与先进制程的讨论趋于平静，未见新的制裁传闻或技术突破引发热议，情绪较为观望。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题降温，市场进入平稳替代期，缺乏爆发性新闻驱动。讨论重点转向特定点工具的深度验证及高端CPU/IP的自主化突破进度。"
+      "summary": "国产EDA/IP板块热度回落，社区缺乏重大产品发布或融资动态，讨论情绪偏于平淡。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT热度下降，传统封装产能利用率回升缓慢，先进封装产能则已被大厂长协锁定。社区对OSAT短期业绩预期趋于保守，讨论偏向长期技术升级转型。"
+      "summary": "封测OSAT话题降温，近期无重大并购或产能扩张消息，社区讨论暂入沉寂期。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度降温，近期无新增重大禁令出台，市场对现有规则已逐步消化并形成应对常态。讨论焦点转向合规审查的实操细节及供应链重组的隐性成本。"
+      "summary": "出口管制与制裁相关讨论热度下降，暂无新增政策传闻，社区情绪从焦虑转为平稳观望。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片/NVIDIA话题降温，主要因NVIDIA新一代产品发布周期处于平稳期，短期缺乏刺激性催化剂。社区讨论转向Blackwell架构的实际部署进度及推理侧算力需求变化。"
+      "summary": "AI芯片与英伟达相关讨论热度走低，缺乏新卡发布或供应链重大变动的刺激，市场进入信息真空期。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备/材料国产化热度回落，随着部分关键设备验证通过并进入产线，情绪从亢奋转向务实。讨论重点聚焦于前道核心设备的量产良率表现及高端光刻胶等材料的突破瓶颈。"
+      "summary": "设备与材料国产化话题热度下滑，社区暂无核心技术突破或大单落地消息，讨论节奏放缓。"
     }
   ],
   "items": [
     {
-      "title": "全新一代问界M9将于5月27日上市",
-      "url": "https://chejiahao.autohome.com.cn/info/25525010",
-      "description": "全新一代问界M9将于5月27日上市_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n全新一代问界M9将于5月27日上市\n\n盖世汽车\n\n车家号·0浏览·2026-05-20 09:50 · 上海\n\n盖世汽车获悉，全新一代问界M9(参数|询价)将于5月27日正式上市。\n\n在此之前，新款问界M9已于4月22日正式亮相并同步开启预售，其中问界M9预售价格49.98万元起，问界M9 Ultimate领世加长版预售价格66.98",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "问界M9作为华为深度赋能的高端车型，其上市将带动相关车规级智能驾驶和座舱芯片的需求增长。",
-        "国内新能源车企密集发布新车，智能座舱和自动驾驶芯片供应链将迎来新一轮验证与拉货期。"
-      ],
-      "actions": [
-        "关注问界M9的智能驾驶和座舱芯片核心供应商，评估其产能准备与交付情况。",
-        "跟踪新车上市后的销量表现，预判后续车规芯片的拉货节奏与备货需求。"
-      ],
-      "glossary": [
-        {
-          "term": "问界M9",
-          "desc": "华为与赛力斯联合打造的全尺寸高端智能SUV车型",
-          "category": "终端产品"
-        }
-      ],
-      "region": "domestic",
-      "summary": "全新一代问界M9宣布将于5月27日正式上市，作为高端智能电动车型引发市场关注。",
-      "tag_category": "综合",
-      "title_en": "全新一代问界M9将于5月27日上市_车家号_发现车生活_汽车之家"
-    },
-    {
-      "title": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起",
-      "url": "https://chejiahao.autohome.com.cn/info/25521469",
-      "description": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n全新一代问界M9系列将于5月27日上市，预售价49.98万元起\n\n油城车事\n\n车家号·0浏览·2026-05-19 16:42 · 黑龙江\n\n5月19日，鸿蒙智行对外透露了全新一代问界M9(参数|询价)系列的上市安排，这款备受关注的车型确定将于5月27日正式与消费者见面。作为鸿蒙智行旗下的旗舰SUV，全新一",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "50万级别的高端新能源车型竞争加剧，对高算力自动驾驶芯片及高性能域控制器的需求与要求同步提升。",
-        "预售价的公布有助于锁定意向客户，供应链需提前备货以应对上市后可能出现的交付冲刺。"
-      ],
-      "actions": [
-        "梳理问界M9系列的核心芯片BOM清单，确认关键物料如MDC计算平台的供应稳定性。",
-        "关注高端车型带来的域控制器集成化趋势，评估相关半导体方案的商业机会。"
-      ],
-      "glossary": [
-        {
-          "term": "预售价",
-          "desc": "新车正式上市前公布的预期销售价格，通常作为最终定价的参考",
-          "category": "市场"
-        }
-      ],
-      "region": "domestic",
-      "summary": "全新一代问界M9系列定档5月27日上市，预售价定为49.98万元起，定位高端豪华市场。",
-      "tag_category": "综合",
-      "title_en": "全新一代问界M9系列将于5月27日上市，预售价49.98万元起_车家号_发现车生活_汽车之家"
-    },
-    {
-      "title": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市",
-      "url": "https://chejiahao.autohome.com.cn/info/25397889",
-      "description": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市\n\n酱酱侃车\n\n车家号·0浏览·2026-05-01 12:27 · 北京\n\n北京车展即将落下帷幕，不少新车已经进入倒计时阶段。想买车等不到年底？这个5月，一波重磅车型就要扎堆上市了。统计下来，光5月份就有10多款新车将陆续与消费者见面，涵盖了全",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "头部新能源车企集中推新，将显著拉动车规级功率半导体、MCU及SoC的短期拉货需求。",
-        "小米等跨界玩家入局加剧终端竞争，供应链对成本控制和交付速度的要求将更为严苛。"
-      ],
-      "actions": [
-        "评估主要新能源车企的芯片采购策略变化，寻找切入新车型供应链的定点机会。",
-        "重点关注小米YU7 GT的芯片国产化率，挖掘本土车规芯片厂商的替代与增量机遇。"
-      ],
-      "glossary": [
-        {
-          "term": "小米YU7 GT",
-          "desc": "小米汽车推出的第二款SUV车型的GT性能版本",
-          "category": "终端产品"
-        }
-      ],
-      "region": "domestic",
-      "summary": "5月份国内新能源车市场迎来新车发布潮，理想L9、蔚来ES9及小米YU7 GT等多款重磅车型集中上市。",
-      "tag_category": "综合",
-      "title_en": "5月新车大爆发！理想L9/蔚来ES9/小米YU7 GT扎堆上市_车家号_发现车生活_汽车之家"
-    },
-    {
-      "title": "Keywave发布“空间智能”芯片——24GHz雷达SoC突破（Keywave Unveils “Spatial Intelligence” Silicon – A 24GHz Radar SoC Breakthrough）",
-      "url": "https://www.electronicsweekly.com/news/products/rf-microwave-optoelectronics/sponsored-content-keywave-unveils-spatial-intelligence-silicon-a-24ghz-radar-soc-breakthrough-2026-05/",
-      "description": "<p>As the tech industry pivots toward Edge AI — where intelligence is processed locally and instantly — the ability for machines to &#8220;sense&#8221; and &#8220;understand&#8221; the physical world has become ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/news/products/rf-microwave",
-      "published": "Mon, 25 May 2026 23:01:27 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "24GHz雷达SoC集成空间智能处理能力，标志着边缘AI从纯视觉向多模态雷达感知演进。",
-        "雷达SoC的突破将降低智能感知系统的整体功耗与成本，推动室内人员检测及智能家居应用落地。"
-      ],
-      "actions": [
-        "关注24GHz雷达SoC在智能家居和工业物联网中的替代潜力，评估相关细分市场空间。",
-        "对比Keywave与传统毫米波雷达芯片厂商的技术路线，寻找差异化合作或投资机会。"
-      ],
-      "glossary": [
-        {
-          "term": "Radar SoC",
-          "desc": "雷达系统级芯片，将雷达射频前端、基带处理和计算单元集成在单一芯片上",
-          "category": "芯片设计"
-        },
-        {
-          "term": "Spatial Intelligence",
-          "desc": "空间智能，指机器对物理空间环境进行感知、理解和交互的能力",
-          "category": "AI技术"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Keywave公司推出具备“空间智能”的24GHz雷达SoC芯片，旨在提升边缘AI设备对物理世界的感知与理解能力。",
-      "tag_category": "综合",
-      "title_en": "Sponsored Content: Keywave Unveils “Spatial Intelligence” Silicon – A 24GHz Radar SoC Breakthrough"
-    },
-    {
-      "title": "为什么SpaceX IPO成为华尔街及更广泛领域的热议话题（Why the SpaceX IPO is the talk of Wall Street and beyond）",
-      "url": "https://www.aljazeera.com:443/news/2026/5/25/why-the-spacex-ipo-is-the-talk-of-wall-street-and-beyond",
-      "description": "Elon Musk's rocket company is expected to make the biggest public debut in history.",
+      "title": "揭秘出售SpaceX和OpenAI上市前股份的灰色市场（Inside The Murky Market Selling Pre-IPO SpaceX And OpenAI Shares）",
+      "url": "https://www.forbes.com/sites/phoebeliu/2026/05/26/inside-the-murky-market-selling-pre-ipo-spacex-and-openai-shares/",
+      "description": "Want SpaceX And OpenAI Shares Before The IPO? Inside The Secretive Market Selling Them",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "SpaceX若成功上市，将为商业航天领域注入巨额资金，直接带动抗辐射芯片及航天级半导体供应链的扩张。",
-        "史上最大IPO的预期将吸引资本向太空基础设施及低轨卫星通信产业链倾斜，利好相关射频与基带芯片市场。"
+        "未上市明星科技公司的股份灰色市场活跃，反映出资本对AI和航天前沿领域的极度渴求与套利冲动。",
+        "此类私下交易缺乏透明度与监管，投资者需警惕流动性风险与估值泡沫。"
       ],
       "actions": [
-        "梳理SpaceX供应链中的核心半导体供应商，提前布局相关航天级芯片及组件的投资标的。",
-        "关注低轨卫星星座建设加速带来的相控阵天线芯片和功率放大器需求增量。"
+        "关注AI领域头部未上市企业的股权流转动态，寻找潜在的战略投资或生态合作机会。",
+        "警惕非公开市场投资风险，严格评估合规性与估值合理性，避免盲目跟风。"
       ],
       "glossary": [
         {
-          "term": "SpaceX IPO",
-          "desc": "SpaceX公司首次公开募股，即其在股票市场向公众发行股份的过程",
-          "category": "资本市场"
-        },
-        {
-          "term": "Rad-hard chips",
-          "desc": "抗辐射芯片，专为抵御太空高辐射环境而设计的半导体器件",
-          "category": "芯片设计"
+          "term": "IPO",
+          "desc": "首次公开募股，指企业首次向公众投资者发售股票",
+          "category": "金融"
         }
       ],
       "region": "overseas",
-      "summary": "马斯克的火箭公司SpaceX预计将进行史上最大规模的公开上市（IPO），引发华尔街及全球广泛关注。",
+      "summary": "揭示了在SpaceX和OpenAI正式IPO前，私下交易其股份的隐秘市场运作情况，反映出资本对头部AI企业的提前套利与投资狂热。",
       "tag_category": "EDA/IP",
-      "title_en": "Why the SpaceX IPO is the talk of Wall Street and beyond | Space News | Al Jazeera"
+      "title_en": "Inside The Murky Market Selling Pre-IPO SpaceX And OpenAI Shares"
+    },
+    {
+      "title": "亚德诺半导体(ADI)股价5月26日上涨4.52%：背后的驱动因素（Analog Devices Inc Stock (ADI) Moved Up by 4.52% on May 26: Drivers Behind the Movement）",
+      "url": "https://www.tradingkey.com/news/market-movers/261928904-market-movers-adi-20260526",
+      "description": "Analog Devices reported strong Q2 2026 results, exceeding expectations.Acquisition of Empower Semiconductor aims to boost AI power management.Analysts raised price targets, citing growth and strategic acquisition benefits.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "ADI通过收购Empower Semiconductor布局AI电源管理，显示模拟芯片厂商正积极切入AI基础设施供电赛道。",
+        "强劲的Q2业绩表明工业与汽车等核心市场需求正在复苏，模拟芯片周期有望触底反弹。"
+      ],
+      "actions": [
+        "关注ADI在AI电源管理领域的技术整合与产品落地进度，评估其对相关供电模块供应链的影响。",
+        "追踪模拟芯片市场周期性复苏信号，适时调整库存与采购策略。"
+      ],
+      "glossary": [
+        {
+          "term": "Empower Semiconductor",
+          "desc": "一家专注于AI电源管理技术的半导体公司",
+          "category": "企业"
+        },
+        {
+          "term": "ADI",
+          "desc": "Analog Devices Inc.，亚德诺半导体，全球领先的模拟与混合信号芯片厂商",
+          "category": "企业"
+        }
+      ],
+      "region": "overseas",
+      "summary": "亚德诺半导体(ADI)公布强劲的2026财年Q2业绩超预期，并收购Empower Semiconductor以强化AI电源管理，分析师上调目标价。",
+      "tag_category": "综合",
+      "title_en": "Analog Devices Inc Stock (ADI) Moved Up by 4.52% on May 26: Drivers Behind the Movement"
+    },
+    {
+      "title": "美光科技：警惕长江存储(YMTC)的崛起（Micron. Beware The Wrath Of YMTC）",
+      "url": "https://semiconalpha.substack.com/p/micron-beware-the-wrath-of-ymtc",
+      "description": "I have a feeling that we are going to be hearing a lot about YMTC in the coming years and it’s not just about the fact that they may be on the path to launching their IPO as we discussed yesterday here.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "长江存储技术实力与产能的快速提升，正打破原有NAND闪存市场的寡头格局，对美光等国际巨头构成实质性威胁。",
+        "长江存储若成功IPO，将获得充足资金加速扩产与研发，全球存储芯片供应链可能面临重塑。"
+      ],
+      "actions": [
+        "密切监控长江存储的产能扩张节奏与IPO动向，评估其对全球NAND价格走势的冲击。",
+        "国内供应链企业应提前布局，寻求与长江存储在设备、材料等环节的深度合作机会。"
+      ],
+      "glossary": [
+        {
+          "term": "YMTC",
+          "desc": "Yangtze Memory Technologies Corp.，长江存储，中国领先的3D NAND闪存芯片制造商",
+          "category": "企业"
+        }
+      ],
+      "region": "overseas",
+      "summary": "文章指出长江存储(YMTC)未来几年将在存储市场发挥重大影响，其潜在的IPO进程将进一步改变行业竞争格局。",
+      "tag_category": "EDA/IP",
+      "title_en": "Micron. Beware The Wrath Of YMTC"
+    },
+    {
+      "title": "《不公仙灵：蛤蟆之死》电子书发布 - 澳大利亚企鹅图书（Unfairies: Death by Toad by Huw Aaron (EBook) - Penguin Books Australia）",
+      "url": "https://www.penguin.com.au/books/unfairies-death-by-toad-9780241683781",
+      "description": "Unfairies: Death by Toad by Huw Aaron (EBook) - Penguin Books Australia\n\n[]\n\n- Published: 28 May 2026\n- ISBN: 9780241683781\n- Imprint: Penguin eBooks\n- Format: EBook\n- Pages: 272\n\n# Unfairies: Death by Toad\n\n---\n\nFormats & editions\n\n---\n\nPre-order from…\n\n---\n\nThe second hilarious full-colour graphic",
+      "published": "2026-05-28T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "此条目为无关噪音数据，与半导体行业无直接关联，反映了信息源过滤的必要性。"
+      ],
+      "actions": [
+        "在数据抓取与分析流程中增加行业关键词过滤机制，剔除无关的文化娱乐类噪音信息。"
+      ],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "澳大利亚企鹅图书发布了Huw Aaron撰写的电子书《不公仙灵：蛤蟆之死》，属于文化娱乐类信息，与半导体行业无关。",
+      "tag_category": "综合",
+      "title_en": "Unfairies: Death by Toad by Huw Aaron (EBook) - Penguin Books Australia"
+    },
+    {
+      "title": "King Ayisoba发布单曲《没有传统，没有非洲》（King Ayisoba — No Tradition, No Africa | Mais Um）",
+      "url": "https://shop.kudosrecords.co.uk/release/mais065a/king-ayisoba-no-tradition-no-africa-feat-rocky-dawuni",
+      "description": "King Ayisoba — No Tradition, No Africa | Mais Um\n\nDigital (Released 29th May 2026) — £1.50 [FLAC]\n\n# No Tradition, No Africa (feat. Rocky Dawuni)\n\n## King Ayisoba\n\nA 1 track afro-pop single (3m 55s) — released May 29th 2026 on Mais Um\n\n- Tracklist\n- Description\n- Reviews\n- Available On\n- Share\n\n03:5",
+      "published": "2026-05-28T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "此条目同样为无关噪音数据，需在简报生成时予以识别和降权，确保分析聚焦于核心产业链。"
+      ],
+      "actions": [
+        "优化信息源筛选策略，确保聚焦于芯片、EDA、封装等核心半导体产业链动态。"
+      ],
+      "glossary": [],
+      "region": "overseas",
+      "summary": "音乐人King Ayisoba发布了非洲流行单曲，属于文化娱乐类信息，偏离半导体产业分析范畴。",
+      "tag_category": "EDA/IP",
+      "title_en": "King Ayisoba — No Tradition, No Africa | Mais Um"
     }
   ],
   "stats": {
     "total_raw": 100,
-    "after_dedup": 93,
+    "after_dedup": 89,
     "sources": {
-      "Exa": 11,
+      "Exa": 10,
       "RSS": 65,
-      "Brave": 17
+      "Brave": 14
     }
   },
   "code_version": "",
