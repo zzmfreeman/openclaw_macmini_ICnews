@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://semiwiki.com/ceo-interviews/368833-ceo-interview-with-geoffrey-rodgers-of-chameleon-semiconductor/",
-    "title": "Chameleon Semiconductor首席执行官Geoffrey Rodgers专访",
-    "published": "Sun, 03 May 2026 21:00:04 +0000",
-    "addedAt": "2026-05-06T20:03:00+08:00"
-  },
-  {
-    "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
-    "title": "使用全波电磁仿真设计宽带LPDA馈电反射面天线",
-    "published": "Fri, 17 Apr 2026 14:00:50 +0000",
-    "addedAt": "2026-05-06T20:03:00+08:00"
-  },
-  {
-    "url": "https://www.electronicsweekly.com/news/products/mediatek-genio-510-powers-vc-evocam-for-image-acquisition-and-processing-2026-05/",
-    "title": "联发科Genio 510驱动VC EvoCam用于图像采集与处理",
-    "published": "Wed, 06 May 2026 10:59:24 +0000",
-    "addedAt": "2026-05-06T20:03:00+08:00"
-  },
-  {
-    "url": "https://azamtaifor.substack.com/p/skyechip-berhad-ipo-rm088",
-    "title": "SkyeChip Berhad IPO（发行价0.88林吉特）",
-    "published": "",
-    "addedAt": "2026-05-06T20:03:00+08:00"
-  },
-  {
-    "url": "https://semiwiki.com/3dic/368839-synopsys-and-tsmc-deepen-ai-design-alliance-what-it-means/",
-    "title": "新思科技与台积电深化AI设计合作：这意味着什么",
-    "published": "Tue, 05 May 2026 17:00:23 +0000",
-    "addedAt": "2026-05-06T20:03:00+08:00"
-  },
-  {
     "url": "https://finance.ettoday.net/news/3161268",
     "title": "台積電CoPoS登板　從圓走向方的轉變3大紅利族群現身 | ETtoday財經雲 | ETtoday新聞雲",
     "published": "2026-05-06T00:00:00.000Z",
@@ -2998,5 +2968,35 @@
     "title": "EAGLE 3.1修复大语言模型推理漂移：今日速度提升2倍（EAGLE 3.1 Fixes LLM Inference Drift: 2× Faster Today | byteiota）",
     "published": "2026-05-26T00:00:00.000Z",
     "addedAt": "2026-05-28T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.techbriefs.com/component/content/article/55244-nasas-space-computing-breakthrough-powers-future-missions",
+    "title": "NASA（美国宇航局）太空计算突破为未来任务赋能 - 技术简报（NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs）",
+    "published": "2026-06-01T00:00:00.000Z",
+    "addedAt": "2026-05-28T13:03:00+08:00"
+  },
+  {
+    "url": "https://aitoolsrecap.com/Blog/ai-news-may-28-2026",
+    "title": "2026年5月28日AI新闻：ByteDance（字节跳动）计划700亿美元AI资本支出，OpenAI提交IPO S-1文件，Anthropic与盖茨基金会达成2亿美元协议（AI News May 28 2026 — ByteDance Plans $70B AI Capex, OpenAI Files IPO S-1, Anthropic Gates Foundation $200M Deal）",
+    "published": "2026-05-28T00:00:00.000Z",
+    "addedAt": "2026-05-28T13:03:00+08:00"
+  },
+  {
+    "url": "https://wccftech.com/cut-off-from-euv-by-us-sanctions-huawei-is-redefining-moores-law-itself-and-a-top-chip-analyst-isnt-buying-it/",
+    "title": "受美国制裁断供EUV，Huawei（华为）正重新定义摩尔定律——但顶级芯片分析师并不买账",
+    "published": "Wed, 27 May 2026 13:39:17 +0000",
+    "addedAt": "2026-05-28T13:03:00+08:00"
+  },
+  {
+    "url": "https://www.benzinga.com/markets/tech/26/05/52813754/ev-sales-skyrocket-tesla-stock-surges-on-67-european-boom-blockbuster-spacex-ipo-rumors",
+    "title": "Tesla（特斯拉）股价因欧洲67%销量暴涨及SpaceX重磅IPO传闻飙升 - Benzinga（Tesla Stock Surges On 67% European Boom, Blockbuster SpaceX IPO Rumors - Tesla (NASDAQ:TSLA) - Benzinga）",
+    "published": "",
+    "addedAt": "2026-05-28T13:03:00+08:00"
+  },
+  {
+    "url": "https://ts2.tech/en/stock-market-today-27-05-2026/",
+    "title": "今日美股市场：2026年5月27日实时更新",
+    "published": "",
+    "addedAt": "2026-05-28T13:03:00+08:00"
   }
 ]

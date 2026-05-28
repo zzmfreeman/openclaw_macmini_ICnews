@@ -1,7 +1,7 @@
 {
-  "version": "v20260528-0604",
-  "generatedAt": "2026-05-28T06:04:00+08:00",
-  "period": "morning",
+  "version": "v20260528-1303",
+  "generatedAt": "2026-05-28T13:03:00+08:00",
+  "period": "midday",
   "commit": "",
   "glossary_list": [
     {
@@ -20,129 +20,39 @@
       "category": "封装"
     },
     {
-      "term": "Rewrites chip physics",
-      "desc": "重写芯片物理定律，指突破传统摩尔定律的底层架构创新",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "Terra Quantum",
-      "desc": "一家专注于量子计算技术的瑞士公司",
-      "category": "综合"
-    },
-    {
-      "term": "Business Combination Agreement",
-      "desc": "业务合并协议，通常指SPAC并购上市",
-      "category": "综合"
-    },
-    {
-      "term": "Roze",
-      "desc": "软银旗下的AI业务部门",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "SB Energy",
-      "desc": "软银旗下的可再生能源业务部门",
-      "category": "综合"
-    },
-    {
-      "term": "DigiD",
-      "desc": "荷兰政府提供的数字身份认证系统",
-      "category": "综合"
-    },
-    {
-      "term": "Kyndryl",
-      "desc": "从IBM剥离出的IT基础设施服务提供商",
-      "category": "综合"
-    },
-    {
-      "term": "ADI",
-      "desc": "Analog Devices Inc，亚德诺半导体，全球领先模拟芯片公司",
-      "category": "综合"
-    },
-    {
-      "term": "Empower Semiconductor",
-      "desc": "一家专注于高效电源管理芯片的公司",
-      "category": "综合"
-    },
-    {
-      "term": "韬定律",
-      "desc": "华为提出的芯片底层架构创新理论，通过逻辑折叠与时间效率提升性能",
-      "category": "EDA/IP"
-    },
-    {
-      "term": "ASMPT",
-      "desc": "ASM太平洋科技，全球领先的半导体封装设备供应商",
-      "category": "Fab/制造"
-    },
-    {
-      "term": "UBS",
-      "desc": "瑞银集团，全球知名投资银行及金融机构",
-      "category": "金融"
-    },
-    {
-      "term": "CXL",
-      "desc": "Compute Express Link，一种高速互连标准，用于处理器和加速器之间的内存一致性扩展",
-      "category": "互连"
-    },
-    {
-      "term": "Tau Scaling Law",
-      "desc": "Tau缩放定律，华为提出的后摩尔时代半导体性能提升新理论框架",
-      "category": "架构"
-    },
-    {
-      "term": "Moore's Law",
-      "desc": "摩尔定律，指集成电路上可容纳的晶体管数目每约两年增加一倍",
-      "category": "架构"
-    },
-    {
-      "term": "LogicFolding",
-      "desc": "逻辑折叠，华为提出的一种3D芯片堆叠架构，通过垂直集成提升密度以绕过EUV限制",
-      "category": "架构"
-    },
-    {
-      "term": "EUV",
-      "desc": "极紫外光刻，使用13.5nm波长光源的先进光刻技术，目前用于7nm及以下节点",
-      "category": "光刻"
-    },
-    {
-      "term": "Post-Moore",
-      "desc": "后摩尔时代，指传统晶体管微缩面临物理极限后，通过架构创新、封装集成等方式提升性能的时期",
-      "category": "架构"
-    },
-    {
-      "term": "StepFun",
-      "desc": "阶跃星辰，一家中国本土的大模型研发初创公司",
-      "category": "AI模型"
-    },
-    {
-      "term": "Benchmark",
-      "desc": "基准测试，用于评估AI模型在特定任务上性能的标准化数据集和指标",
-      "category": "AI模型"
-    },
-    {
-      "term": "Vera CPU",
-      "desc": "英伟达推出的新一代数据中心中央处理器（CPU）架构",
+      "term": "SoC",
+      "desc": "片上系统，将完整计算系统集成在单一芯片上",
       "category": "芯片架构"
     },
     {
-      "term": "FOPLP",
-      "desc": "扇出型面板级封装，一种利用面板基板进行扇出型晶圆级封装的技术，可提高产能并降低成本",
-      "category": "封装"
+      "term": "Capex",
+      "desc": "资本支出，企业用于购买或升级物理资产（如厂房、设备）的资金",
+      "category": "财务"
     },
     {
-      "term": "1.4nm",
-      "desc": "台积电A14制程节点，代表下一代先进半导体制造工艺",
-      "category": "制程"
+      "term": "IPO S-1",
+      "desc": "美国SEC首次公开募股注册声明文件，包含公司财务及业务风险等详细信息",
+      "category": "财务"
     },
     {
-      "term": "EAGLE",
-      "desc": "一种用于大语言模型推测解码的算法框架，旨在加速LLM推理",
-      "category": "AI软件"
+      "term": "EUV",
+      "desc": "极紫外光刻，使用13.5nm波长光源，用于7nm及以下先进制程的关键设备技术",
+      "category": "半导体设备"
     },
     {
-      "term": "Inference Drift",
-      "desc": "推理漂移，指模型在推理过程中由于数值精度或算法机制导致的输出结果偏差",
-      "category": "AI软件"
+      "term": "14A",
+      "desc": "14埃米制程（约1.4nm），代表下一代先进制造工艺节点",
+      "category": "制程节点"
+    },
+    {
+      "term": "SiC",
+      "desc": "碳化硅，第三代半导体材料，广泛应用于新能源汽车的高压高频功率器件",
+      "category": "材料/器件"
+    },
+    {
+      "term": "IPO",
+      "desc": "首次公开募股，企业首次向公众投资者发售股票",
+      "category": "财务"
     }
   ],
   "topic_pulse": [
@@ -151,558 +61,222 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区对CoWoS产能扩张的讨论热度有所回落，近期缺乏重大扩产或技术突破新闻，情绪趋于平稳观望。"
+      "summary": "社区对CoWoS产能扩张的讨论热度有所降温，情绪从早期的产能紧缺焦虑转向关注实际扩产进度与良率爬坡情况。业界开始理性评估台积电之外的二线封装产能承接能力。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "随着HBM产能逐步释放，社区对HBM短缺的焦虑情绪降温，讨论焦点从供应紧缺转向价格走势与长期需求验证。"
+      "summary": "HBM相关话题热度下降，业界讨论焦点从单纯的缺货炒作转向HBM3e及后续版本的规格演进与实际部署成本。社区对SK海力士等厂商的产能释放节奏保持密切关注。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "关于国内晶圆厂先进制程突破的讨论热度下降，社区情绪回归理性，等待更多实质性的量产或良率数据公布。"
+      "summary": "关于中国Fab先进制程的讨论趋于冷静，社区对无EUV下的制程突破（如Huawei Tau技术）持审慎观望态度。讨论重点转向多重曝光的实际良率成本与长期可行性。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题热度降温，近期缺乏重磅新品发布或政策刺激，社区讨论暂处于停滞状态。"
+      "summary": "国产EDA/IP话题降温，市场情绪由前期的政策利好驱动转为关注产品在复杂IC设计中的实际流片验证与客户采用率。社区期待更多本土大厂公开验证案例。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "传统封测OSAT话题热度走低，市场关注点已明显转移至先进封装（如FOPLP/CoWoS），传统封装缺乏新看点。"
+      "summary": "封测OSAT板块讨论热度回落，社区关注点从产能满载转向传统封装价格战风险及先进封装的利润率分化现象。投资者对OSAT厂商的资本开支回报率提出更高要求。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度下降，近期无新增重大制裁清单更新，社区关注度暂时转移至技术演进本身。"
+      "summary": "出口管制话题热度下降，社区对新增制裁清单的反应趋于钝化。讨论重点转向如何通过供应链多元化与合规体系进行常态化应对，而非短期情绪化炒作。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "虽然英伟达仍是核心，但社区对AI芯片的狂热讨论有所降温，正从单纯的算力崇拜转向对推理成本和效率的务实探讨。"
+      "summary": "NVIDIA及AI芯片话题降温，市场对算力军备竞赛的讨论已常态化。焦点转向推理端芯片的性价比与下一代架构的落地时间表，社区对Blackwell的量产进度保持追踪。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化讨论热度回落，市场在等待下半年招标数据的验证，情绪从前期的高预期转向谨慎评估。"
+      "summary": "设备与材料国产化讨论热度回落，社区情绪由激进替代转向理性评估。重点关注国产设备在先进制程验证中的良率与稳定性表现，对短期全面替代的预期降低。"
     }
   ],
   "items": [
     {
-      "title": "华为重写芯片物理定律以绕过美国制裁（Huawei rewrites chip physics to bypass US sanctions - Startup Fortune）",
-      "url": "https://startupfortune.com/huawei-rewrites-chip-physics-to-bypass-us-sanctions/",
-      "description": "Huawei rewrites chip physics to bypass US sanctions - Startup Fortune\n\nSearch\n\nSF May 27, 2026 · 7:55 PM\n\nSubscribe✉\n\nMost Read\n\nShein's Everlane deal shows brand equity… Judy Shelton's gold bond proposal is… Printr's $2 million sale shows how… Palantir's SaaS is dead claim is… Shein's Everlane deal",
-      "published": "2026-05-27T00:00:00.000Z",
+      "title": "NASA（美国宇航局）太空计算突破为未来任务赋能 - 技术简报（NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs）",
+      "url": "https://www.techbriefs.com/component/content/article/55244-nasas-space-computing-breakthrough-powers-future-missions",
+      "description": "NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs\n\nElectronics & Sensors INSIDER\n\nNASA’s new processor fits in your hand, delivers full system-on-a-chip power, and is built to survive deep space with far greater speed than current spacecraft technology. Credit: NASA/JPL-Caltec",
+      "published": "2026-06-01T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "华为在制裁压力下探索超越摩尔定律的底层物理创新，显示出极强的技术韧性。",
-        "底层架构创新可能成为受制裁厂商突破先进制程限制的关键路径。"
+        "太空级抗辐射SoC芯片的微型化与算力提升，标志着航天半导体正从定制化走向商用级架构的强化演进。",
+        "高可靠性与低功耗的平衡设计将成为极端环境芯片的核心趋势，推动RISC-V等开源架构在航天领域的应用。"
       ],
       "actions": [
-        "关注华为'韬定律'等底层物理创新的具体技术路线及产业化进度。",
-        "评估国产非传统架构芯片对现有EDA和制造设备的适配需求。"
+        "关注抗辐射芯片及高可靠性SoC设计需求，评估特种工艺代工产能。",
+        "评估商用IP核在航天等极端环境下的加固与验证机会，提前布局太空计算供应链。"
       ],
       "glossary": [
         {
-          "term": "Rewrites chip physics",
-          "desc": "重写芯片物理定律，指突破传统摩尔定律的底层架构创新",
-          "category": "EDA/IP"
+          "term": "SoC",
+          "desc": "片上系统，将完整计算系统集成在单一芯片上",
+          "category": "芯片架构"
         }
       ],
       "region": "overseas",
-      "summary": "华为通过重写芯片物理定律开发新技术，旨在绕过美国制裁限制，寻求半导体底层突破。",
+      "summary": "NASA的新型处理器体积小巧可置于掌中，提供完整的片上系统算力，专为太空等极端环境任务打造。",
       "tag_category": "EDA/IP",
-      "title_en": "Huawei rewrites chip physics to bypass US sanctions - Startup Fortune"
+      "title_en": "NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs"
     },
     {
-      "title": "Terra Quantum与Axiom Intelligence Acquisition Corp 1宣布达成最终业务合并协议，股权估值达35亿美元（Terra Quantum and Axiom Intelligence Acquisition Corp 1 Announce Definitive Business Combination Agreement at a $3.5 Billion Equity Valuation - TNGlobal）",
-      "url": "https://technode.global/prnasia/terra-quantum-and-axiom-intelligence-acquisition-corp-1-announce-definitive-business-combination-agreement-at-a-3-5-billion-equity-valuation/",
-      "description": "Terra Quantum and Axiom Intelligence Acquisition Corp 1 Announce Definitive Business Combination Agreement at a $3.5 Billion Equity Valuation - TNGlobal\n\nTerra Quantum and Axiom Intelligence Acquisition Corp 1 Announce Definitive Business Combination Agreement at a $3.5 Billion Equity Valuation\n\n# T",
-      "published": "2026-05-26T00:00:00.000Z",
+      "title": "2026年5月28日AI新闻：ByteDance（字节跳动）计划700亿美元AI资本支出，OpenAI提交IPO S-1文件，Anthropic与盖茨基金会达成2亿美元协议（AI News May 28 2026 — ByteDance Plans $70B AI Capex, OpenAI Files IPO S-1, Anthropic Gates Foundation $200M Deal）",
+      "url": "https://aitoolsrecap.com/Blog/ai-news-may-28-2026",
+      "description": "AI News May 28 2026 — ByteDance Plans $70B AI Capex, OpenAI Files IPO S-1, Anthropic Gates Foundation $200M Deal\n\nTHU, MAY 28, 2026\n\nLog In| Join Us ★\n\nIndependent · In‑Depth · Unsponsored\n\nThe Journal of Artificial Intelligence Tools\n\nLog In Join Us ★\n\n✎ General\n\n# AI News: May 28, 2026 — ByteDance",
+      "published": "2026-05-28T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "量子计算技术正加速商业化进程，资本市场对量子领域的估值预期较高。",
-        "SPAC（特殊目的收购公司）仍是量子等前沿半导体技术企业实现快速上市的重要渠道。"
+        "大厂巨额AI资本支出预示算力基础设施需求仍处于高速扩张期，底层硬件供应链将持续受益。",
+        "OpenAI的IPO将重塑AI初创公司的资本估值体系，进一步推高对高端AI芯片及先进封装的采购预期。"
       ],
       "actions": [
-        "追踪Terra Quantum合并后的资金投向及量子芯片研发进展。",
-        "评估量子计算对传统半导体加密及高性能计算市场的潜在替代风险。"
+        "密切关注ByteDance等大厂的AI基建招标动态，提前锁定先进封装与HBM产能。",
+        "评估OpenAI上市对AI芯片供应链带来的中长期订单增量效应，调整备货策略。"
       ],
       "glossary": [
         {
-          "term": "Terra Quantum",
-          "desc": "一家专注于量子计算技术的瑞士公司",
-          "category": "综合"
+          "term": "Capex",
+          "desc": "资本支出，企业用于购买或升级物理资产（如厂房、设备）的资金",
+          "category": "财务"
         },
         {
-          "term": "Business Combination Agreement",
-          "desc": "业务合并协议，通常指SPAC并购上市",
-          "category": "综合"
+          "term": "IPO S-1",
+          "desc": "美国SEC首次公开募股注册声明文件，包含公司财务及业务风险等详细信息",
+          "category": "财务"
         }
       ],
       "region": "overseas",
-      "summary": "量子计算公司Terra Quantum与特殊目的收购公司Axiom Intelligence Acquisition Corp 1达成合并协议，估值达35亿美元。",
-      "tag_category": "综合",
-      "title_en": "Terra Quantum and Axiom Intelligence Acquisition Corp 1 Announce Definitive Business Combination Agreement at a $3.5 Billion Equity Valuation - TNGlobal"
-    },
-    {
-      "title": "软银孙正义同时推进SB Energy和AI部门Roze的美国IPO；承销商已选定（SoftBank's Son Simultaneously Pursues U.S. IPOs for SB Energy and AI Unit Roze; Underwriters Selected — BigGo Finance）",
-      "url": "https://finance.biggo.com/news/o6_JZp4B-PfaobXfnBw0",
-      "description": "SoftBank's Son Simultaneously Pursues U.S. IPOs for SB Energy and AI Unit Roze; Underwriters Selected — BigGo Finance\n\n# SoftBank's Son Simultaneously Pursues U.S. IPOs for SB Energy and AI Unit Roze; Underwriters Selected\n\nSoftBank Group is simultaneously pursuing U.S. IPOs for renewable energy and",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "软银将AI与能源业务拆分上市，反映出算力基础设施与能源供给的深度绑定趋势。",
-        "AI芯片及系统级应用的资本化运作正在加速，行业独角兽迎来集中上市期。"
-      ],
-      "actions": [
-        "关注Roze的AI芯片及系统架构技术细节，评估其对供应链的拉动效应。",
-        "警惕AI概念IPO带来的估值泡沫对下游芯片采购节奏的扰动。"
-      ],
-      "glossary": [
-        {
-          "term": "Roze",
-          "desc": "软银旗下的AI业务部门",
-          "category": "EDA/IP"
-        },
-        {
-          "term": "SB Energy",
-          "desc": "软银旗下的可再生能源业务部门",
-          "category": "综合"
-        }
-      ],
-      "region": "overseas",
-      "summary": "软银集团创始人孙正义正同时推动其可再生能源部门SB Energy和AI部门Roze在美国进行IPO，并已选定承销商。",
+      "summary": "ByteDance计划投入700亿美元AI资本支出，OpenAI正式提交IPO申请文件，Anthropic与盖茨基金会达成2亿美元合作。",
       "tag_category": "EDA/IP",
-      "title_en": "SoftBank's Son Simultaneously Pursues U.S. IPOs for SB Energy and AI Unit Roze; Underwriters Selected — BigGo Finance"
+      "title_en": "AI News May 28 2026 — ByteDance Plans $70B AI Capex, OpenAI Files IPO S-1, Anthropic Gates Foundation $200M Deal"
     },
     {
-      "title": "荷兰阻止美国公司收购DigiD云托管服务商（Netherlands blocks US firm from buying DigiD cloud host）",
-      "url": "https://thenextweb.com/news/the-netherlands-just-blocked-a-us-company-from-buying-the-cloud-provider-that-runs-dutch-digital-identity",
-      "description": "Netherlands blocks US firm from buying DigiD cloud host\n\n#### TL;DR\n\nThe Netherlands blocked IBM spinoff Kyndryl from acquiring Solvinity, the cloud provider that hosts the Dutch digital identity system DigiD. It is the first US acquisition the Dutch Investment Screening Bureau has ever prohibited.\n",
-      "published": "2026-05-26T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
+      "title": "受美国制裁断供EUV，Huawei（华为）正重新定义摩尔定律——但顶级芯片分析师并不买账",
+      "url": "https://wccftech.com/cut-off-from-euv-by-us-sanctions-huawei-is-redefining-moores-law-itself-and-a-top-chip-analyst-isnt-buying-it/",
+      "description": "After Huawei made a big announcement earlier this week about its Tau scaling technology, through which it aims to achieve a transistor density similar to the 14 Angstrom (14A) manufacturing process technologies from leading chip manufacturers such as TSMC and Intel, semiconductor analyst Dr. Ian Cut",
+      "published": "Wed, 27 May 2026 13:39:17 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
       "lang": "en",
       "tags": [],
       "insights": [
-        "欧洲国家对关键数字基础设施和主权数据的保护意识持续加强，跨国并购审查趋严。",
-        "云基础设施的控股权直接关联国家数字主权，半导体与云服务并购将面临更多地缘政治阻力。"
+        "在缺乏EUV光刻机的情况下，通过架构创新或3D堆叠等替代路线突破制程限制，是国产先进制程的必经之路。",
+        "业界对无EUV下的密度宣称通常持审慎态度，实际良率、性能表现及商业可用性才是打破质疑的关键考验。"
       ],
       "actions": [
-        "出海欧洲的半导体及云服务企业需前置评估数据安全与主权审查风险。",
-        "寻找本地合资或非控股模式替代全资收购，以规避政策红线。"
+        "持续追踪Huawei Tau技术的底层实现路径（如是否依赖先进封装或DSA优化），评估其对国产EDA/IP的拉动效应。",
+        "对国产先进制程的突破声明保持理性，重点验证其量产良率与客户导入情况，避免盲目追加供应链风险敞口。"
       ],
       "glossary": [
         {
-          "term": "DigiD",
-          "desc": "荷兰政府提供的数字身份认证系统",
-          "category": "综合"
+          "term": "EUV",
+          "desc": "极紫外光刻，使用13.5nm波长光源，用于7nm及以下先进制程的关键设备技术",
+          "category": "半导体设备"
         },
         {
-          "term": "Kyndryl",
-          "desc": "从IBM剥离出的IT基础设施服务提供商",
-          "category": "综合"
+          "term": "14A",
+          "desc": "14埃米制程（约1.4nm），代表下一代先进制造工艺节点",
+          "category": "制程节点"
         }
       ],
       "region": "overseas",
-      "summary": "荷兰政府阻止了IBM剥离出的Kyndryl公司收购托管荷兰数字身份系统DigiD的云服务商Solvinity，以保护关键数字基础设施。",
-      "tag_category": "综合",
-      "title_en": "Netherlands blocks US firm from buying DigiD cloud host"
+      "summary": "Huawei本周宣布其Tau缩放技术，旨在实现类似14A（14埃米）工艺的晶体管密度，但顶级芯片分析师对此声明表示质疑。",
+      "tag_category": "EDA/IP",
+      "title_en": "Cut Off From EUV By US Sanctions, Huawei Is Redefining Moore’s Law Itself — And A Top Chip Analyst Isn’t Buying It"
     },
     {
-      "title": "亚德诺半导体（ADI）股价于5月26日上涨4.52%：背后的驱动因素（Analog Devices Inc Stock (ADI) Moved Up by 4.52% on May 26: Drivers Behind the Movement）",
-      "url": "https://www.tradingkey.com/news/market-movers/261928904-market-movers-adi-20260526",
-      "description": "Analog Devices reported strong Q2 2026 results, exceeding expectations.Acquisition of Empower Semiconductor aims to boost AI power management.Analysts raised price targets, citing growth and strategic acquisition benefits.",
+      "title": "Tesla（特斯拉）股价因欧洲67%销量暴涨及SpaceX重磅IPO传闻飙升 - Benzinga（Tesla Stock Surges On 67% European Boom, Blockbuster SpaceX IPO Rumors - Tesla (NASDAQ:TSLA) - Benzinga）",
+      "url": "https://www.benzinga.com/markets/tech/26/05/52813754/ev-sales-skyrocket-tesla-stock-surges-on-67-european-boom-blockbuster-spacex-ipo-rumors",
+      "description": "Tesla (TSLA) stock rises as a 67% European EV sales explosion collides with rumors of an historic merger with a $1.25T SpaceX. See why RBC Capital targets a bullish $475 target in 2026.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "模拟芯片巨头通过并购切入AI电源管理赛道，显示AI功耗优化已成为模拟芯片的新增长极。",
-        "ADI的业绩超预期表明工业与汽车市场的模拟芯片需求正在复苏。"
+        "欧洲EV销量的激增将直接拉动车规级功率半导体（如SiC、IGBT）和MCU的订单需求，缓解部分库存压力。",
+        "电动车与航天科技的跨界融合传闻，反映出市场对硅谷硬科技巨头整合的极高预期，可能催生特种芯片新需求。"
       ],
       "actions": [
-        "关注Empower Semiconductor的AI电源管理IP及技术整合进度。",
-        "评估AI服务器电源管理芯片市场的竞争格局及国产替代切入点。"
+        "关注欧洲新能源汽车销量数据对车规级芯片库存去化和补单的拉动效应，适时调整产能分配。",
+        "警惕跨界并购传闻带来的市场情绪波动，避免基于短期炒作进行投机性扩产。"
       ],
       "glossary": [
         {
-          "term": "ADI",
-          "desc": "Analog Devices Inc，亚德诺半导体，全球领先模拟芯片公司",
-          "category": "综合"
-        },
-        {
-          "term": "Empower Semiconductor",
-          "desc": "一家专注于高效电源管理芯片的公司",
-          "category": "综合"
+          "term": "SiC",
+          "desc": "碳化硅，第三代半导体材料，广泛应用于新能源汽车的高压高频功率器件",
+          "category": "材料/器件"
         }
       ],
       "region": "overseas",
-      "summary": "亚德诺半导体（ADI）公布强劲的2026年第二季度财报超预期，并收购Empower Semiconductor以强化AI电源管理，推动股价上涨。",
-      "tag_category": "综合",
-      "title_en": "Analog Devices Inc Stock (ADI) Moved Up by 4.52% on May 26: Drivers Behind the Movement"
+      "summary": "Tesla欧洲电动车销量暴涨67%，同时市场传闻其将与估值1.25万亿美元的SpaceX进行历史性合并，RBC资本给出475美元的目标价。",
+      "tag_category": "EDA/IP",
+      "title_en": "Tesla Stock Surges On 67% European Boom, Blockbuster SpaceX IPO Rumors - Tesla (NASDAQ:TSLA) - Benzinga"
     },
     {
-      "title": "华为\"韬定律\"引爆国产替代狂潮！港股半导体一夜变天，ASMPT、中芯国际遭资金疯抢",
-      "url": "https://finance.sina.com.cn/wm/2026-05-27/doc-inhzieis8442618.shtml",
-      "description": "来源：XiaoTianStudio）. 华为发布“韬定律”芯片技术，通过逻辑折叠与时间效率提升性能，被视为摩尔定律外的“第二曲线”，提振国产替代信心。政策鼓励国产大模型适配国产算力...",
-      "published": "21小时前",
-      "source": "新浪财经",
-      "source_type": "Serper",
-      "lang": "zh",
-      "tags": [],
-      "insights": [
-        "'韬定律'的逻辑折叠架构为受制程限制的国产芯片提供了性能跃升的理论基础，重塑国产替代信心。",
-        "底层架构创新直接拉动对先进封装及制造产能的需求，中芯国际与ASMPT成为资本首选。"
-      ],
-      "actions": [
-        "紧密跟踪'韬定律'相关逻辑折叠架构对先进封装（如2.5D/3D封装）的增量需求。",
-        "提前布局与该架构适配的国产EDA工具及封测设备供应链。"
-      ],
-      "glossary": [
-        {
-          "term": "韬定律",
-          "desc": "华为提出的芯片底层架构创新理论，通过逻辑折叠与时间效率提升性能",
-          "category": "EDA/IP"
-        },
-        {
-          "term": "ASMPT",
-          "desc": "ASM太平洋科技，全球领先的半导体封装设备供应商",
-          "category": "Fab/制造"
-        }
-      ],
-      "region": "domestic",
-      "summary": "华为发布\"韬定律\"芯片技术，通过逻辑折叠与时间效率提升性能，被视为摩尔定律外的\"第二曲线\"，极大提振了国产替代信心，引发港股半导体资金热潮。",
-      "tag_category": "Fab/制造",
-      "title_en": "华为\"韬定律\"引爆国产替代狂潮！港股半导体一夜变天，ASMPT、中芯国际遭资金疯抢"
-    },
-    {
-      "title": "美光MU股票2026：瑞银1625美元目标价推动其市值达到1万亿美元（Micron MU Stock 2026: UBS $1,625 Target Sends It to $1 Trillion）",
-      "url": "https://thetechmarketer.com/micron-mu-stock-2026-ubs-1625-target-trillion-hbm/",
-      "description": "Micron MU Stock 2026: UBS $1,625 Target Sends It to $1 Trillion\n\nMicron Technology crossed $1 trillion in market capitalization for the first time on May 26, 2026, after UBS analyst Timothy Arcuri raised his price target 204% to $1,625 — the most aggressive single price target revision in recent sem",
-      "published": "2026-05-26T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
+      "title": "今日美股市场：2026年5月27日实时更新",
+      "url": "https://ts2.tech/en/stock-market-today-27-05-2026/",
+      "description": "The chipmaker’s IPO is sparking excitement but also caution among Chinese investors. Past mega-deals in China’s equities absorbed large liquidity sums and often signaled market peaks. The upcoming IPO is thus viewed with a blend of anticipation and concern about potential market impacts. CXMT’s listing highlights ongoing interest in China’s semiconductor sector, even as investors remain wary of historical precedents. ... May 27, 2026...",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "美光市值突破万亿标志着存储芯片在AI时代核心地位的资本市场重估。",
-        "瑞银的高目标价反映出对AI内存（如HBM）需求爆发式增长的强烈预期。"
+        "超大型芯片IPO在吸走市场巨额流动性之余，往往成为二级市场阶段性见顶的信号，需警惕资金虹吸效应。",
+        "一级市场的过度火热可能掩盖了二级市场对半导体周期性回调的担忧，估值泡沫风险正在积聚。"
       ],
       "actions": [
-        "供应链企业应加速与美光在HBM及先进存储产能上的绑定与合作。",
-        "投资者需关注美光后续财报中AI相关营收占比的实际兑现情况。"
+        "对国内即将到来的大型芯片IPO保持谨慎，防范流动性虹吸效应带来的板块估值回调。",
+        "合理调整二级市场半导体持仓结构，规避周期性高点风险，锁定已有盈利。"
       ],
       "glossary": [
         {
-          "term": "HBM",
-          "desc": "高带宽内存，专为高性能计算和AI加速器设计的3D堆叠存储技术",
-          "category": "存储"
-        },
-        {
-          "term": "UBS",
-          "desc": "瑞银集团，全球知名投资银行及金融机构",
-          "category": "金融"
+          "term": "IPO",
+          "desc": "首次公开募股，企业首次向公众投资者发售股票",
+          "category": "财务"
         }
       ],
       "region": "overseas",
-      "summary": "瑞银分析师将美光科技的目标价上调至1625美元，推动其市值在2026年5月26日首次突破1万亿美元大关。",
-      "tag_category": "综合",
-      "title_en": "Micron MU Stock 2026: UBS $1,625 Target Sends It to $1 Trillion"
-    },
-    {
-      "title": "瑞银预测美光将凭借突破性AI内存转型成为1.8万亿美元巨头（UBS Predicts Micron Will Become A $1.8 Trillion Giant On Groundbreaking AI Memory Shifts）",
-      "url": "https://techgolly.com/ubs-predicts-micron-will-become-a-1-8-trillion-giant-on-groundbreaking-ai-memory-shifts/",
-      "description": "UBS Predicts Micron Will Become A $1.8 Trillion Giant On Groundbreaking AI Memory Shifts\n\n# UBS Predicts Micron Will Become a $1.8 Trillion Giant on Groundbreaking AI Memory Shifts\n\n- EDITORIAL TEAM\n- 13 hours ago\n\nMicron Technology enables faster data processing and storage innovation. [TechGolly]\n",
-      "published": "2026-05-26T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AI内存架构的范式转移（如HBM、CXL内存等）正重塑存储厂商的长期天花板。",
-        "瑞银1.8万亿美元的终极预测表明，存储芯片在AI算力成本中的权重将持续攀升。"
-      ],
-      "actions": [
-        "设备厂商需提前布局下一代AI存储（如HBM4）所需的封装和测试设备产能。",
-        "芯片设计公司应尽早规划基于新型AI内存架构的SoC产品路线图。"
-      ],
-      "glossary": [
-        {
-          "term": "CXL",
-          "desc": "Compute Express Link，一种高速互连标准，用于处理器和加速器之间的内存一致性扩展",
-          "category": "互连"
-        }
-      ],
-      "region": "overseas",
-      "summary": "瑞银预测美光科技将凭借AI内存领域的突破性变革，成长为市值达1.8万亿美元的半导体巨头。",
-      "tag_category": "综合",
-      "title_en": "UBS Predicts Micron Will Become A $1.8 Trillion Giant On Groundbreaking AI Memory Shifts"
-    },
-    {
-      "title": "华为在半导体路线图中引入Tau缩放定律作为摩尔定律的继承者（Huawei Introduces Tau Scaling Law as Successor to Moore’s Law in Semiconductor Roadmap - The Electric Viking）",
-      "url": "https://theelectricviking.com/huawei-introduces-tau-scaling-law-successor-moores-law-semiconductor/",
-      "description": "Huawei Introduces Tau Scaling Law as Successor to Moore’s Law in Semiconductor Roadmap - The Electric Viking\n\n## Support The Electric Viking on Patreon\n\nKeep it independent and get exclusive content.\n\n# Huawei Introduces Tau Scaling Law as Successor to Moore’s Law in Semiconductor Roadmap\n\nMay 26, 2",
-      "published": "2026-05-26T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "摩尔定律物理极限逼近，华为提出Tau定律，标志着中国半导体正寻求从底层理论重构技术话语权。",
-        "Tau缩放定律可能更侧重于系统级架构、互连和3D集成的整体性能提升，而非单纯晶体管微缩。"
-      ],
-      "actions": [
-        "国内半导体产业链需密切关注华为Tau定律的具体技术指标和演进路径。",
-        "封装与先进互连企业应以此为契机，加大3D集成和系统级缩放技术的研发投入。"
-      ],
-      "glossary": [
-        {
-          "term": "Tau Scaling Law",
-          "desc": "Tau缩放定律，华为提出的后摩尔时代半导体性能提升新理论框架",
-          "category": "架构"
-        },
-        {
-          "term": "Moore's Law",
-          "desc": "摩尔定律，指集成电路上可容纳的晶体管数目每约两年增加一倍",
-          "category": "架构"
-        }
-      ],
-      "region": "overseas",
-      "summary": "华为提出了名为“Tau缩放定律”的新概念，旨在取代摩尔定律，作为后摩尔时代半导体发展的新路线图指引。",
-      "tag_category": "综合",
-      "title_en": "Huawei Introduces Tau Scaling Law as Successor to Moore’s Law in Semiconductor Roadmap - The Electric Viking"
-    },
-    {
-      "title": "华为发布LogicFolding技术：无需EUV光刻机实现3D密度，目标2031年达到1.4nm（Huawei Announces LogicFolding: 3D Density Without EUV Machines, Targeting 1.4 nm by 2031）",
-      "url": "https://www.actuia.com/en/news/huawei-announces-logicfolding-3d-density-without-euv-machines-targeting-14-nm-by-2031/",
-      "description": "Huawei Announces LogicFolding: 3D Density Without EUV Machines, Targeting 1.4 nm by 2031\n\n# Huawei Announces LogicFolding: 3D Density Without EUV Machines, Targeting 1.4 nm by 2031\n\nStephane Nachez May 26, 2026\n\n## Table of contents\n\nOn May 25, 2026, He Tingbo, president of Huawei's semiconductor de",
-      "published": "2026-05-26T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "LogicFolding是典型的“先进封装替代先进制程”路线，为受限EUV的中国半导体提供了可行的突围路径。",
-        "明确2031年1.4nm目标，说明华为已建立不依赖EUV的长期工艺演进战略时间表。"
-      ],
-      "actions": [
-        "国产设备与材料商应重点适配LogicFolding所需的3D集成工艺（如键合、TSV等）。",
-        "芯片设计公司可探索基于3D折叠架构的芯片设计方法学，提前储备相关EDA工具。"
-      ],
-      "glossary": [
-        {
-          "term": "LogicFolding",
-          "desc": "逻辑折叠，华为提出的一种3D芯片堆叠架构，通过垂直集成提升密度以绕过EUV限制",
-          "category": "架构"
-        },
-        {
-          "term": "EUV",
-          "desc": "极紫外光刻，使用13.5nm波长光源的先进光刻技术，目前用于7nm及以下节点",
-          "category": "光刻"
-        }
-      ],
-      "region": "overseas",
-      "summary": "华为宣布推出LogicFolding技术，通过3D堆叠绕过EUV光刻机限制，计划在2031年实现等效1.4nm的工艺节点。",
-      "tag_category": "综合",
-      "title_en": "Huawei Announces LogicFolding: 3D Density Without EUV Machines, Targeting 1.4 nm by 2031"
-    },
-    {
-      "title": "华为的Tau缩放雄心测试后摩尔半导体现实的极限（Huawei’s Tau Scaling ambition tests the limits of post-Moore semiconductor reality - SUPERCOMPUTING NEWS）",
-      "url": "https://www.supercomputingonline.com/latest/63147-huaweis-tau-scaling-ambition-tests-the-limits-of-post-moore-semiconductor-reality",
-      "description": "Huawei’s Tau Scaling ambition tests the limits of post-Moore semiconductor reality - SUPERCOMPUTING NEWS\n\nHow to resolve AdBlock issue?\n\nRefresh this page\n\nHe Tingbo from HUAWEI delivered a keynote speech titled \"New Semiconductor Path in Practice\"\n\nFeatured\n\nFor more than half a century, the semico",
-      "published": "2026-05-26T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "理论框架的提出与工程量产之间存在巨大鸿沟，Tau定律的兑现需要全产业链在材料、封装和设计上的协同突破。",
-        "华为的探索反映出在制裁压力下，中国半导体正从被动应对转向主动定义后摩尔技术标准。"
-      ],
-      "actions": [
-        "产业链需理性评估Tau缩放与LogicFolding的量产可行性与时间表，避免盲目跟风。",
-        "关注华为在超算等实际应用场景中对Tau架构的验证结果，以此作为供应链技术投资的依据。"
-      ],
-      "glossary": [
-        {
-          "term": "Post-Moore",
-          "desc": "后摩尔时代，指传统晶体管微缩面临物理极限后，通过架构创新、封装集成等方式提升性能的时期",
-          "category": "架构"
-        }
-      ],
-      "region": "overseas",
-      "summary": "华为提出的Tau缩放定律雄心勃勃，但其实际落地正考验着后摩尔时代半导体产业在物理与工程上的现实极限。",
-      "tag_category": "综合",
-      "title_en": "Huawei’s Tau Scaling ambition tests the limits of post-Moore semiconductor reality - SUPERCOMPUTING NEWS"
-    },
-    {
-      "title": "阶跃星辰语音AI登顶所有基准测试，还能听懂你的叹息（StepFun's Voice AI Topped Every Benchmark. It Also Hears Your Sighs - Decrypt）",
-      "url": "https://decrypt.co/369013/stepfun-stepaudio-voice-ai-tops-benchmarks?amp=1",
-      "description": "StepFun's Voice AI Topped Every Benchmark. It Also Hears Your Sighs - Decrypt\n\n# StepFun's Voice AI Topped Every Benchmark. It Also Hears Your Sighs\n\n## The Shanghai lab that builds LLMs that punch above their weight just turned that same energy on voice—and the results are hard to ignore.\n\nBy Jose ",
-      "published": "2026-05-26T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "语音AI从单纯的语音识别向情感与意图理解演进，标志着端侧/边缘AI对多模态感知芯片的需求将大幅增加。",
-        "基准测试全胜表明中国大模型在细分模态上已具备全球竞争力，将拉动相关推理算力硬件的本土化需求。"
-      ],
-      "actions": [
-        "边缘AI芯片厂商需在下一代NPU中强化对音频及多模态情感特征的低功耗实时处理能力。",
-        "关注阶跃星辰模型后续的端侧部署计划，提前适配其模型量化与推理引擎。"
-      ],
-      "glossary": [
-        {
-          "term": "StepFun",
-          "desc": "阶跃星辰，一家中国本土的大模型研发初创公司",
-          "category": "AI模型"
-        },
-        {
-          "term": "Benchmark",
-          "desc": "基准测试，用于评估AI模型在特定任务上性能的标准化数据集和指标",
-          "category": "AI模型"
-        }
-      ],
-      "region": "overseas",
-      "summary": "阶跃星辰发布的语音AI模型在各项基准测试中夺冠，具备捕捉细微情感（如叹息）的超强感知能力。",
-      "tag_category": "综合",
-      "title_en": "StepFun's Voice AI Topped Every Benchmark. It Also Hears Your Sighs - Decrypt"
-    },
-    {
-      "title": "英伟达Vera CPU：数据中心性能的新基准",
-      "url": "https://www.techolam.com/news/nvidia-vera-cpu-a-new-benchmark-in-data-center-performance",
-      "description": "NVIDIA Vera CPU: A New Benchmark in Data Center Performance\n\nBreaking\n\nPersona 6: A Glimpse into the Future of the Series Framer F1: A Keyboard Tailored for Web Developers with Unique Productivity Features The 8BitDo Ultimate 3E: A Smaller, More Powerful Step Forward Rambus Introduces DDR5 Speed Rec",
-      "published": "2026-05-26T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "英伟达推出自研Vera CPU，意在加强数据中心CPU+GPU的全栈协同能力，打破对传统x86架构的依赖。",
-        "数据中心算力需求正从单一GPU加速转向异构计算，自研CPU能更好匹配自家GPU的带宽与延迟需求。"
-      ],
-      "actions": [
-        "服务器厂商需关注英伟达Vera CPU的架构特性及生态适配情况，提前规划基于Grace/Vera架构的产品线。",
-        "Intel和AMD需警惕英伟达在数据中心CPU市场的渗透，评估自身在异构计算全栈方案上的竞争力。"
-      ],
-      "glossary": [
-        {
-          "term": "Vera CPU",
-          "desc": "英伟达推出的新一代数据中心中央处理器（CPU）架构",
-          "category": "芯片架构"
-        }
-      ],
-      "region": "overseas",
-      "summary": "英伟达推出Vera CPU，旨在树立数据中心性能的新标杆，这标志着英伟达在数据中心CPU领域的进一步发力与架构演进。",
-      "tag_category": "设计公司",
-      "title_en": "NVIDIA Vera CPU: A New Benchmark in Data Center Performance"
-    },
-    {
-      "title": "AMD Zen 7 Grimlock泄露信息揭示台积电1.4nm CPU、FOPLP封装及32核Ryzen的未来（AMD Zen 7 Grimlock Leaks Reveal TSMC 1.4nm CPUs, FOPLP Packaging, and 32-Core Ryzen Future | NoobFeed）",
-      "url": "https://www.noobfeed.com/hardware/amd-zen-7-grimlock-tsmc-1-4nm-32-core-future",
-      "description": "AMD Zen 7 Grimlock Leaks Reveal TSMC 1.4nm CPUs, FOPLP Packaging, and 32-Core Ryzen Future | NoobFeed\n\n# AMD Zen 7 Grimlock Leaks Reveal TSMC 1.4nm CPUs, FOPLP Packaging, and 32-Core Ryzen Future\n\n## AMD’s Zen 7 roadmap signals a massive architectural leap through advanced packaging and ultra-dense ",
-      "published": "2026-05-26T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AMD采用台积电1.4nm制程和FOPLP封装，表明先进制程与先进封装的深度绑定是未来高性能CPU的必然趋势。",
-        "FOPLP（扇出型面板级封装）的引入有望大幅降低封装成本并提升产能，是对传统CoWoS等昂贵封装的有力补充。"
-      ],
-      "actions": [
-        "封装供应链企业应加速布局FOPLP技术和产能，以迎接未来高性能计算芯片对低成本大尺寸封装的需求。",
-        "芯片设计公司需尽早与台积电对接1.4nm（A14）节点的设计规则和IP准备，抢占下一代制程先机。"
-      ],
-      "glossary": [
-        {
-          "term": "FOPLP",
-          "desc": "扇出型面板级封装，一种利用面板基板进行扇出型晶圆级封装的技术，可提高产能并降低成本",
-          "category": "封装"
-        },
-        {
-          "term": "1.4nm",
-          "desc": "台积电A14制程节点，代表下一代先进半导体制造工艺",
-          "category": "制程"
-        }
-      ],
-      "region": "overseas",
-      "summary": "AMD下一代Zen 7架构代号Grimlock的泄露信息显示，该系列处理器将采用台积电1.4nm制程及FOPLP封装技术，并规划了32核的Ryzen产品线。",
-      "tag_category": "设计公司",
-      "title_en": "AMD Zen 7 Grimlock Leaks Reveal TSMC 1.4nm CPUs, FOPLP Packaging, and 32-Core Ryzen Future | NoobFeed"
-    },
-    {
-      "title": "EAGLE 3.1修复大语言模型推理漂移：今日速度提升2倍（EAGLE 3.1 Fixes LLM Inference Drift: 2× Faster Today | byteiota）",
-      "url": "https://byteiota.com/eagle-3-1-fixes-llm-inference-drift-2x-faster-today/",
-      "description": "EAGLE 3.1 Fixes LLM Inference Drift: 2× Faster Today | byteiota\n\nToday, the EAGLE Team, vLLM Team, and TorchSpec Team jointly released EAGLE 3.1 — the most significant upgrade to the leading speculative decoding algorithm in production LLM inference. The headline result: 2.03× throughput improvement",
-      "published": "2026-05-26T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "推测解码技术正成为突破LLM推理内存带宽瓶颈的关键，EAGLE 3.1解决推理漂移问题标志着该技术从实验走向实用化。",
-        "vLLM等开源推理框架与推测解码技术的深度融合，将大幅降低AI集群的推理算力成本，加速LLM在端侧和边缘的部署。"
-      ],
-      "actions": [
-        "AI基础设施团队应尽快在推理框架中集成EAGLE 3.1等推测解码方案，以降低推理延迟和GPU使用成本。",
-        "AI芯片设计公司需在硬件架构层面优化对推测解码等并行推理机制的加速支持，提升产品在推理市场的竞争力。"
-      ],
-      "glossary": [
-        {
-          "term": "EAGLE",
-          "desc": "一种用于大语言模型推测解码的算法框架，旨在加速LLM推理",
-          "category": "AI软件"
-        },
-        {
-          "term": "Inference Drift",
-          "desc": "推理漂移，指模型在推理过程中由于数值精度或算法机制导致的输出结果偏差",
-          "category": "AI软件"
-        }
-      ],
-      "region": "overseas",
-      "summary": "EAGLE团队联合vLLM和TorchSpec团队发布EAGLE 3.1版本，修复了大语言模型（LLM）的推理漂移问题，并将推理速度提升至2倍。",
-      "tag_category": "综合",
-      "title_en": "EAGLE 3.1 Fixes LLM Inference Drift: 2× Faster Today | byteiota"
+      "summary": "某芯片制造商的IPO引发了中国投资者的兴奋与谨慎，过去中国股市的超大型交易往往吸收大量流动性并标志着市场顶峰。",
+      "tag_category": "EDA/IP",
+      "title_en": "US Stock Market Today: Live Updates 27.05.2026"
     }
   ],
   "stats": {
-    "total_raw": 164,
-    "after_dedup": 134,
+    "total_raw": 100,
+    "after_dedup": 92,
     "sources": {
-      "Serper": 1,
-      "Exa": 31,
-      "RSS": 65,
-      "Brave": 37
+      "Exa": 14,
+      "RSS": 63,
+      "Brave": 15
     }
   },
   "code_version": "",
