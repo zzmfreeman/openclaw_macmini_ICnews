@@ -1,7 +1,7 @@
 {
-  "version": "v20260528-1303",
-  "generatedAt": "2026-05-28T13:03:00+08:00",
-  "period": "midday",
+  "version": "v20260528-2003",
+  "generatedAt": "2026-05-28T20:03:00+08:00",
+  "period": "evening",
   "commit": "",
   "glossary_list": [
     {
@@ -20,39 +20,44 @@
       "category": "封装"
     },
     {
-      "term": "SoC",
-      "desc": "片上系统，将完整计算系统集成在单一芯片上",
-      "category": "芯片架构"
-    },
-    {
-      "term": "Capex",
-      "desc": "资本支出，企业用于购买或升级物理资产（如厂房、设备）的资金",
-      "category": "财务"
-    },
-    {
-      "term": "IPO S-1",
-      "desc": "美国SEC首次公开募股注册声明文件，包含公司财务及业务风险等详细信息",
-      "category": "财务"
-    },
-    {
       "term": "EUV",
-      "desc": "极紫外光刻，使用13.5nm波长光源，用于7nm及以下先进制程的关键设备技术",
-      "category": "半导体设备"
+      "desc": "极紫外光刻技术，用于7nm及以下先进制程芯片制造的关键设备技术",
+      "category": "设备"
     },
     {
       "term": "14A",
-      "desc": "14埃米制程（约1.4nm），代表下一代先进制造工艺节点",
-      "category": "制程节点"
+      "desc": "14埃米（1.4nm）制程节点，代表下一代先进半导体制造工艺",
+      "category": "制程"
     },
     {
-      "term": "SiC",
-      "desc": "碳化硅，第三代半导体材料，广泛应用于新能源汽车的高压高频功率器件",
-      "category": "材料/器件"
+      "term": "Tau scaling technology",
+      "desc": "华为提出的晶体管缩放技术，旨在不依赖EUV的情况下提升晶体管密度",
+      "category": "EDA/IP"
     },
     {
-      "term": "IPO",
-      "desc": "首次公开募股，企业首次向公众投资者发售股票",
-      "category": "财务"
+      "term": "NASDAQ:TSLA",
+      "desc": "纳斯达克交易所特斯拉股票代码",
+      "category": "综合"
+    },
+    {
+      "term": "STM32 MP235",
+      "desc": "意法半导体推出的一款微处理器（MPU），适用于高性能嵌入式和边缘AI应用",
+      "category": "芯片/IP"
+    },
+    {
+      "term": "QS module",
+      "desc": "一种标准化的嵌入式计算模块规格，旨在提供高集成度和快速部署能力",
+      "category": "综合"
+    },
+    {
+      "term": "Digital CODE",
+      "desc": "数字代码，通常指包含数字内容访问权限的实体媒介或验证码",
+      "category": "综合"
+    },
+    {
+      "term": "Israeli",
+      "desc": "以色列人/以色列的，涉及中东地缘政治身份认同",
+      "category": "综合"
     }
   ],
   "topic_pulse": [
@@ -61,124 +66,61 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区对CoWoS产能扩张的讨论热度有所降温，情绪从早期的产能紧缺焦虑转向关注实际扩产进度与良率爬坡情况。业界开始理性评估台积电之外的二线封装产能承接能力。"
+      "summary": "近期社区对CoWoS产能扩张的讨论热度有所回落，市场正从前期的狂热预期转向关注实际产能释放与订单消化节奏。情绪趋于理性观望。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM相关话题热度下降，业界讨论焦点从单纯的缺货炒作转向HBM3e及后续版本的规格演进与实际部署成本。社区对SK海力士等厂商的产能释放节奏保持密切关注。"
+      "summary": "HBM话题热度下降，随着主流厂商产能规划逐步明朗，社区焦点转向下一代HBM4的技术细节与量产时间表。短期供需焦虑情绪缓解。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "关于中国Fab先进制程的讨论趋于冷静，社区对无EUV下的制程突破（如Huawei Tau技术）持审慎观望态度。讨论重点转向多重曝光的实际良率成本与长期可行性。"
+      "summary": "尽管华为宣布Tau缩放技术引发短暂关注，但整体关于中国Fab先进制程的讨论热度仍在降温，业界对非EUV路线实现14A级别密度普遍持谨慎观望态度。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题降温，市场情绪由前期的政策利好驱动转为关注产品在复杂IC设计中的实际流片验证与客户采用率。社区期待更多本土大厂公开验证案例。"
+      "summary": "国产EDA/IP板块讨论热度下降，社区正等待更多实质性的技术突破和商业落地案例，而非单纯的政策预期。情绪偏于耐心等待。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT板块讨论热度回落，社区关注点从产能满载转向传统封装价格战风险及先进封装的利润率分化现象。投资者对OSAT厂商的资本开支回报率提出更高要求。"
+      "summary": "封测OSAT话题热度走低，先进封装产能紧缺的焦虑情绪缓解，社区讨论转向传统封装的周期性复苏与价格竞争。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制话题热度下降，社区对新增制裁清单的反应趋于钝化。讨论重点转向如何通过供应链多元化与合规体系进行常态化应对，而非短期情绪化炒作。"
+      "summary": "出口管制话题热度回落，虽然华为EUV断供事件仍是背景噪音，但社区已对常态化制裁产生适应性，讨论重心转向合规应对与供应链重塑。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "NVIDIA及AI芯片话题降温，市场对算力军备竞赛的讨论已常态化。焦点转向推理端芯片的性价比与下一代架构的落地时间表，社区对Blackwell的量产进度保持追踪。"
+      "summary": "NVIDIA及AI芯片讨论热度降温，市场对短期算力需求的爆发已有充分预期，当前缺乏新的催化剂，社区情绪趋于平稳。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化讨论热度回落，社区情绪由激进替代转向理性评估。重点关注国产设备在先进制程验证中的良率与稳定性表现，对短期全面替代的预期降低。"
+      "summary": "设备与材料国产化讨论热度下降，随着部分国产替代产品完成验证进入产线，社区关注点从“能否替代”转向“良率与稳定性表现”。"
     }
   ],
   "items": [
     {
-      "title": "NASA（美国宇航局）太空计算突破为未来任务赋能 - 技术简报（NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs）",
-      "url": "https://www.techbriefs.com/component/content/article/55244-nasas-space-computing-breakthrough-powers-future-missions",
-      "description": "NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs\n\nElectronics & Sensors INSIDER\n\nNASA’s new processor fits in your hand, delivers full system-on-a-chip power, and is built to survive deep space with far greater speed than current spacecraft technology. Credit: NASA/JPL-Caltec",
-      "published": "2026-06-01T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "太空级抗辐射SoC芯片的微型化与算力提升，标志着航天半导体正从定制化走向商用级架构的强化演进。",
-        "高可靠性与低功耗的平衡设计将成为极端环境芯片的核心趋势，推动RISC-V等开源架构在航天领域的应用。"
-      ],
-      "actions": [
-        "关注抗辐射芯片及高可靠性SoC设计需求，评估特种工艺代工产能。",
-        "评估商用IP核在航天等极端环境下的加固与验证机会，提前布局太空计算供应链。"
-      ],
-      "glossary": [
-        {
-          "term": "SoC",
-          "desc": "片上系统，将完整计算系统集成在单一芯片上",
-          "category": "芯片架构"
-        }
-      ],
-      "region": "overseas",
-      "summary": "NASA的新型处理器体积小巧可置于掌中，提供完整的片上系统算力，专为太空等极端环境任务打造。",
-      "tag_category": "EDA/IP",
-      "title_en": "NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs"
-    },
-    {
-      "title": "2026年5月28日AI新闻：ByteDance（字节跳动）计划700亿美元AI资本支出，OpenAI提交IPO S-1文件，Anthropic与盖茨基金会达成2亿美元协议（AI News May 28 2026 — ByteDance Plans $70B AI Capex, OpenAI Files IPO S-1, Anthropic Gates Foundation $200M Deal）",
-      "url": "https://aitoolsrecap.com/Blog/ai-news-may-28-2026",
-      "description": "AI News May 28 2026 — ByteDance Plans $70B AI Capex, OpenAI Files IPO S-1, Anthropic Gates Foundation $200M Deal\n\nTHU, MAY 28, 2026\n\nLog In| Join Us ★\n\nIndependent · In‑Depth · Unsponsored\n\nThe Journal of Artificial Intelligence Tools\n\nLog In Join Us ★\n\n✎ General\n\n# AI News: May 28, 2026 — ByteDance",
-      "published": "2026-05-28T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "大厂巨额AI资本支出预示算力基础设施需求仍处于高速扩张期，底层硬件供应链将持续受益。",
-        "OpenAI的IPO将重塑AI初创公司的资本估值体系，进一步推高对高端AI芯片及先进封装的采购预期。"
-      ],
-      "actions": [
-        "密切关注ByteDance等大厂的AI基建招标动态，提前锁定先进封装与HBM产能。",
-        "评估OpenAI上市对AI芯片供应链带来的中长期订单增量效应，调整备货策略。"
-      ],
-      "glossary": [
-        {
-          "term": "Capex",
-          "desc": "资本支出，企业用于购买或升级物理资产（如厂房、设备）的资金",
-          "category": "财务"
-        },
-        {
-          "term": "IPO S-1",
-          "desc": "美国SEC首次公开募股注册声明文件，包含公司财务及业务风险等详细信息",
-          "category": "财务"
-        }
-      ],
-      "region": "overseas",
-      "summary": "ByteDance计划投入700亿美元AI资本支出，OpenAI正式提交IPO申请文件，Anthropic与盖茨基金会达成2亿美元合作。",
-      "tag_category": "EDA/IP",
-      "title_en": "AI News May 28 2026 — ByteDance Plans $70B AI Capex, OpenAI Files IPO S-1, Anthropic Gates Foundation $200M Deal"
-    },
-    {
-      "title": "受美国制裁断供EUV，Huawei（华为）正重新定义摩尔定律——但顶级芯片分析师并不买账",
+      "title": "受美国制裁无法使用EUV，华为正重新定义摩尔定律——但顶级芯片分析师并不买账（Cut Off From EUV By US Sanctions, Huawei Is Redefining Moore’s Law Itself — And A Top Chip Analyst Isn’t Buying It）",
       "url": "https://wccftech.com/cut-off-from-euv-by-us-sanctions-huawei-is-redefining-moores-law-itself-and-a-top-chip-analyst-isnt-buying-it/",
       "description": "After Huawei made a big announcement earlier this week about its Tau scaling technology, through which it aims to achieve a transistor density similar to the 14 Angstrom (14A) manufacturing process technologies from leading chip manufacturers such as TSMC and Intel, semiconductor analyst Dr. Ian Cut",
       "published": "Wed, 27 May 2026 13:39:17 +0000",
@@ -187,32 +129,37 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "在缺乏EUV光刻机的情况下，通过架构创新或3D堆叠等替代路线突破制程限制，是国产先进制程的必经之路。",
-        "业界对无EUV下的密度宣称通常持审慎态度，实际良率、性能表现及商业可用性才是打破质疑的关键考验。"
+        "在缺乏EUV光刻机的情况下，华为试图通过架构或技术创新来绕过物理限制，这反映了国内先进制程发展的另类突围路径。",
+        "顶级分析师的质疑表明，业界对非EUV路线实现14A级别密度的可行性和量产能力仍持保守态度，技术突破需经市场与良率验证。"
       ],
       "actions": [
-        "持续追踪Huawei Tau技术的底层实现路径（如是否依赖先进封装或DSA优化），评估其对国产EDA/IP的拉动效应。",
-        "对国产先进制程的突破声明保持理性，重点验证其量产良率与客户导入情况，避免盲目追加供应链风险敞口。"
+        "密切关注华为Tau缩放技术的后续技术细节披露，评估其对国内代工厂和EDA/IP生态的实际拉动效应。",
+        "警惕非EUV先进制程量产的不确定性，在供应链规划中保持多源验证，避免过度依赖单一技术路线。"
       ],
       "glossary": [
         {
           "term": "EUV",
-          "desc": "极紫外光刻，使用13.5nm波长光源，用于7nm及以下先进制程的关键设备技术",
-          "category": "半导体设备"
+          "desc": "极紫外光刻技术，用于7nm及以下先进制程芯片制造的关键设备技术",
+          "category": "设备"
         },
         {
           "term": "14A",
-          "desc": "14埃米制程（约1.4nm），代表下一代先进制造工艺节点",
-          "category": "制程节点"
+          "desc": "14埃米（1.4nm）制程节点，代表下一代先进半导体制造工艺",
+          "category": "制程"
+        },
+        {
+          "term": "Tau scaling technology",
+          "desc": "华为提出的晶体管缩放技术，旨在不依赖EUV的情况下提升晶体管密度",
+          "category": "EDA/IP"
         }
       ],
       "region": "overseas",
-      "summary": "Huawei本周宣布其Tau缩放技术，旨在实现类似14A（14埃米）工艺的晶体管密度，但顶级芯片分析师对此声明表示质疑。",
+      "summary": "华为本周宣布了其Tau缩放技术，旨在不依赖EUV的情况下实现类似于14A（14埃米）工艺的晶体管密度，但顶级芯片分析师对该路线的可行性表示质疑。",
       "tag_category": "EDA/IP",
       "title_en": "Cut Off From EUV By US Sanctions, Huawei Is Redefining Moore’s Law Itself — And A Top Chip Analyst Isn’t Buying It"
     },
     {
-      "title": "Tesla（特斯拉）股价因欧洲67%销量暴涨及SpaceX重磅IPO传闻飙升 - Benzinga（Tesla Stock Surges On 67% European Boom, Blockbuster SpaceX IPO Rumors - Tesla (NASDAQ:TSLA) - Benzinga）",
+      "title": "特斯拉股票因欧洲67%销量大增及SpaceX重磅IPO传闻而飙升（Tesla Stock Surges On 67% European Boom, Blockbuster SpaceX IPO Rumors - Tesla (NASDAQ:TSLA) - Benzinga）",
       "url": "https://www.benzinga.com/markets/tech/26/05/52813754/ev-sales-skyrocket-tesla-stock-surges-on-67-european-boom-blockbuster-spacex-ipo-rumors",
       "description": "Tesla (TSLA) stock rises as a 67% European EV sales explosion collides with rumors of an historic merger with a $1.25T SpaceX. See why RBC Capital targets a bullish $475 target in 2026.",
       "published": "",
@@ -221,62 +168,125 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "欧洲EV销量的激增将直接拉动车规级功率半导体（如SiC、IGBT）和MCU的订单需求，缓解部分库存压力。",
-        "电动车与航天科技的跨界融合传闻，反映出市场对硅谷硬科技巨头整合的极高预期，可能催生特种芯片新需求。"
+        "欧洲电动车市场的爆发性增长将进一步拉动车规级芯片的需求，尤其是自动驾驶处理器和功率半导体。",
+        "SpaceX与特斯拉的传闻虽属资本市场炒作，但航天与汽车的跨界融合暗示了高端传感器和通信芯片的新应用场景。"
       ],
       "actions": [
-        "关注欧洲新能源汽车销量数据对车规级芯片库存去化和补单的拉动效应，适时调整产能分配。",
-        "警惕跨界并购传闻带来的市场情绪波动，避免基于短期炒作进行投机性扩产。"
+        "关注欧洲新能源车销量数据，提前锁定车规级MCU和功率器件的产能配额。",
+        "跟踪航天级半导体器件的商业化降维应用趋势，评估其在特种汽车芯片市场的潜力。"
       ],
       "glossary": [
         {
-          "term": "SiC",
-          "desc": "碳化硅，第三代半导体材料，广泛应用于新能源汽车的高压高频功率器件",
-          "category": "材料/器件"
+          "term": "NASDAQ:TSLA",
+          "desc": "纳斯达克交易所特斯拉股票代码",
+          "category": "综合"
         }
       ],
       "region": "overseas",
-      "summary": "Tesla欧洲电动车销量暴涨67%，同时市场传闻其将与估值1.25万亿美元的SpaceX进行历史性合并，RBC资本给出475美元的目标价。",
+      "summary": "特斯拉欧洲电动车销量暴增67%，同时伴随SpaceX历史性合并传闻，RBC Capital给出2026年475美元的看涨目标价。",
       "tag_category": "EDA/IP",
       "title_en": "Tesla Stock Surges On 67% European Boom, Blockbuster SpaceX IPO Rumors - Tesla (NASDAQ:TSLA) - Benzinga"
     },
     {
-      "title": "今日美股市场：2026年5月27日实时更新",
-      "url": "https://ts2.tech/en/stock-market-today-27-05-2026/",
-      "description": "The chipmaker’s IPO is sparking excitement but also caution among Chinese investors. Past mega-deals in China’s equities absorbed large liquidity sums and often signaled market peaks. The upcoming IPO is thus viewed with a blend of anticipation and concern about potential market impacts. CXMT’s listing highlights ongoing interest in China’s semiconductor sector, even as investors remain wary of historical precedents. ... May 27, 2026...",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
+      "title": "Strategic Embedded推出QSMP-2030——基于STM32 MP235的QS模块（Strategic Embedded launches QSMP-2030 — STM32 MP235-based QS module – Strategic Embedded）",
+      "url": "https://strategic-embedded.com/blogs/news/strategic-embedded-qsmp-2030-stm32mp235",
+      "description": "Strategic Embedded launches QSMP-2030 — STM32 MP235-based QS module – Strategic Embedded\n\n# Strategic Embedded launches QSMP-2030 — STM32 MP235-based QS module\n\nRobert Giblett | May 10, 2026\n\nPress release · Stockholm · 1 June 2026\n\n29 mm solder-down module with dual Cortex-A35, integrated NPU and H",
+      "published": "2026-06-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "超大型芯片IPO在吸走市场巨额流动性之余，往往成为二级市场阶段性见顶的信号，需警惕资金虹吸效应。",
-        "一级市场的过度火热可能掩盖了二级市场对半导体周期性回调的担忧，估值泡沫风险正在积聚。"
+        "基于STM32 MP235的模块化产品推出，表明主流微处理器生态正在向更高性能的边缘AI和工业控制场景渗透。",
+        "模块化设计（QS模块）能显著缩短客户开发周期，加速嵌入式系统的迭代更新与落地。"
       ],
       "actions": [
-        "对国内即将到来的大型芯片IPO保持谨慎，防范流动性虹吸效应带来的板块估值回调。",
-        "合理调整二级市场半导体持仓结构，规避周期性高点风险，锁定已有盈利。"
+        "评估STM32 MP235模块在工业控制和边缘计算项目中的适用性，考虑引入以加快产品上市时间。",
+        "关注意法半导体MPU路线图的演进，提前规划基于新架构的软硬件兼容设计。"
       ],
       "glossary": [
         {
-          "term": "IPO",
-          "desc": "首次公开募股，企业首次向公众投资者发售股票",
-          "category": "财务"
+          "term": "STM32 MP235",
+          "desc": "意法半导体推出的一款微处理器（MPU），适用于高性能嵌入式和边缘AI应用",
+          "category": "芯片/IP"
+        },
+        {
+          "term": "QS module",
+          "desc": "一种标准化的嵌入式计算模块规格，旨在提供高集成度和快速部署能力",
+          "category": "综合"
         }
       ],
       "region": "overseas",
-      "summary": "某芯片制造商的IPO引发了中国投资者的兴奋与谨慎，过去中国股市的超大型交易往往吸收大量流动性并标志着市场顶峰。",
-      "tag_category": "EDA/IP",
-      "title_en": "US Stock Market Today: Live Updates 27.05.2026"
+      "summary": "Strategic Embedded发布了基于意法半导体STM32 MP235微处理器的QSMP-2030 QS模块，面向嵌入式计算应用。",
+      "tag_category": "综合",
+      "title_en": "Strategic Embedded launches QSMP-2030 — STM32 MP235-based QS module – Strategic Embedded"
+    },
+    {
+      "title": "LE SSERAFIM · Pureflow pt. I (数字代码+周边) [迷你相机黑色版] (2026)（LE SSERAFIM · Pureflow pt. I (Digital CODE + Merch) [Mini Camera Black edition] (2026)）",
+      "url": "https://imusic.com.cn/music/8800365019714/le-sserafim-2026-pureflow-pt-i-digital-code-merch",
+      "description": "LE SSERAFIM · Pureflow pt. I (Digital Code + Merch) [Mini Camera Black edition] (2026)\n\n如封面与标题不符，以标题为准\n\n分享给好友:\n\n# LE SSERAFIM Pureflow pt. I LE SSERAFIM Mini Camera Black edition\n\n缺货商品\n\n---\n\n商品到货时接收邮件提醒\n\n到货通知\n\nDo you have a profile?登录\n\n顾客评价：\n\n---\n\n添加至iMusic心愿单\n\n新建心愿单...\n\n添加\n\n#### 其他版本：\n\n- Digital Co",
+      "published": "2026-05-30T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "娱乐周边产品中嵌入“数字代码”和“迷你相机”硬件，反映了消费电子微型化与IP跨界融合的新商业模式。",
+        "热门IP周边的缺货现象提示了微型传感器和定制化小批量电子制造的供应链响应挑战。"
+      ],
+      "actions": [
+        "关注微型摄像头模组及定制化存储/解码芯片在泛娱乐消费市场的增量需求。",
+        "评估小批量、快返工的柔性制造能力，以应对跨界IP周边产品的突发性订单。"
+      ],
+      "glossary": [
+        {
+          "term": "Digital CODE",
+          "desc": "数字代码，通常指包含数字内容访问权限的实体媒介或验证码",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "韩国流行音乐组合LE SSERAFIM推出包含数字代码和迷你相机黑色版周边的专辑商品，目前处于缺货状态。",
+      "tag_category": "综合",
+      "title_en": "LE SSERAFIM · Pureflow pt. I (Digital CODE + Merch) [Mini Camera Black edition] (2026)"
+    },
+    {
+      "title": "畅销书作家将一个小角色认定为以色列人，部分粉丝正在取消订单（A best-selling novelist identified a minor character as Israeli. Some fans are canceling their orders. | The Pittsburgh Jewish Chronicle）",
+      "url": "https://jewishchronicle.timesofisrael.com/a-best-selling-novelist-identified-a-minor-character-as-israeli-some-fans-are-canceling-their-orders/",
+      "description": "A best-selling novelist identified a minor character as Israeli. Some fans are canceling their orders. | The Pittsburgh Jewish Chronicle\n\nhome page\n\nR.F. Kuang attends the Girls Write Now Awards 2024 at DVF Studio on Oct. 10, 2024, in New York City. (JP Yim/Getty Images for Girls Write Now)\n\n(JTA) —",
+      "published": "2026-05-31T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "文化产品中的地缘政治敏感元素会直接影响消费者行为和订单履约，这种情绪外溢也可能影响跨国科技企业的品牌声誉。",
+        "订单取消现象表明，在全球化背景下，供应链和销售端需对地缘政治和文化冲突的潜在风险保持高度敏感。"
+      ],
+      "actions": [
+        "在涉及跨国销售和供应链布局时，加强地缘政治和文化敏感度的风险评估，避免触碰争议性议题。",
+        "建立订单波动预警机制，对因社会事件引发的突发性退单做好库存和物流的弹性调整准备。"
+      ],
+      "glossary": [
+        {
+          "term": "Israeli",
+          "desc": "以色列人/以色列的，涉及中东地缘政治身份认同",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "畅销书作家R.F. Kuang将书中一个小角色设定为以色列人，引发部分粉丝不满并取消购书订单。",
+      "tag_category": "综合",
+      "title_en": "A best-selling novelist identified a minor character as Israeli. Some fans are canceling their orders. | The Pittsburgh Jewish Chronicle"
     }
   ],
   "stats": {
-    "total_raw": 100,
-    "after_dedup": 92,
+    "total_raw": 99,
+    "after_dedup": 91,
     "sources": {
-      "Exa": 14,
-      "RSS": 63,
-      "Brave": 15
+      "Exa": 12,
+      "RSS": 65,
+      "Brave": 14
     }
   },
   "code_version": "",

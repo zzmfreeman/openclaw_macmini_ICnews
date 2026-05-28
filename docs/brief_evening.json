@@ -1,6 +1,6 @@
 {
-  "version": "v20260527-2003",
-  "generatedAt": "2026-05-27T20:03:00+08:00",
+  "version": "v20260528-2003",
+  "generatedAt": "2026-05-28T20:03:00+08:00",
   "period": "evening",
   "commit": "",
   "glossary_list": [
@@ -20,24 +20,44 @@
       "category": "封装"
     },
     {
-      "term": "IPO",
-      "desc": "首次公开募股，指企业首次向公众投资者发售股票",
-      "category": "金融"
+      "term": "EUV",
+      "desc": "极紫外光刻技术，用于7nm及以下先进制程芯片制造的关键设备技术",
+      "category": "设备"
     },
     {
-      "term": "Empower Semiconductor",
-      "desc": "一家专注于AI电源管理技术的半导体公司",
-      "category": "企业"
+      "term": "14A",
+      "desc": "14埃米（1.4nm）制程节点，代表下一代先进半导体制造工艺",
+      "category": "制程"
     },
     {
-      "term": "ADI",
-      "desc": "Analog Devices Inc.，亚德诺半导体，全球领先的模拟与混合信号芯片厂商",
-      "category": "企业"
+      "term": "Tau scaling technology",
+      "desc": "华为提出的晶体管缩放技术，旨在不依赖EUV的情况下提升晶体管密度",
+      "category": "EDA/IP"
     },
     {
-      "term": "YMTC",
-      "desc": "Yangtze Memory Technologies Corp.，长江存储，中国领先的3D NAND闪存芯片制造商",
-      "category": "企业"
+      "term": "NASDAQ:TSLA",
+      "desc": "纳斯达克交易所特斯拉股票代码",
+      "category": "综合"
+    },
+    {
+      "term": "STM32 MP235",
+      "desc": "意法半导体推出的一款微处理器（MPU），适用于高性能嵌入式和边缘AI应用",
+      "category": "芯片/IP"
+    },
+    {
+      "term": "QS module",
+      "desc": "一种标准化的嵌入式计算模块规格，旨在提供高集成度和快速部署能力",
+      "category": "综合"
+    },
+    {
+      "term": "Digital CODE",
+      "desc": "数字代码，通常指包含数字内容访问权限的实体媒介或验证码",
+      "category": "综合"
+    },
+    {
+      "term": "Israeli",
+      "desc": "以色列人/以色列的，涉及中东地缘政治身份认同",
+      "category": "综合"
     }
   ],
   "topic_pulse": [
@@ -46,199 +66,225 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS及先进封装的讨论热度明显降温，缺乏引爆话题的新技术突破或产能新闻，市场关注点暂时转移。"
+      "summary": "近期社区对CoWoS产能扩张的讨论热度有所回落，市场正从前期的狂热预期转向关注实际产能释放与订单消化节奏。情绪趋于理性观望。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度下降，社区暂无大规模讨论，可能处于前期热点消化期，等待下一代产品或订单消息刺激。"
+      "summary": "HBM话题热度下降，随着主流厂商产能规划逐步明朗，社区焦点转向下一代HBM4的技术细节与量产时间表。短期供需焦虑情绪缓解。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "关于中国晶圆厂与先进制程的讨论趋于平静，未见新的制裁传闻或技术突破引发热议，情绪较为观望。"
+      "summary": "尽管华为宣布Tau缩放技术引发短暂关注，但整体关于中国Fab先进制程的讨论热度仍在降温，业界对非EUV路线实现14A级别密度普遍持谨慎观望态度。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP板块热度回落，社区缺乏重大产品发布或融资动态，讨论情绪偏于平淡。"
+      "summary": "国产EDA/IP板块讨论热度下降，社区正等待更多实质性的技术突破和商业落地案例，而非单纯的政策预期。情绪偏于耐心等待。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT话题降温，近期无重大并购或产能扩张消息，社区讨论暂入沉寂期。"
+      "summary": "封测OSAT话题热度走低，先进封装产能紧缺的焦虑情绪缓解，社区讨论转向传统封装的周期性复苏与价格竞争。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁相关讨论热度下降，暂无新增政策传闻，社区情绪从焦虑转为平稳观望。"
+      "summary": "出口管制话题热度回落，虽然华为EUV断供事件仍是背景噪音，但社区已对常态化制裁产生适应性，讨论重心转向合规应对与供应链重塑。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与英伟达相关讨论热度走低，缺乏新卡发布或供应链重大变动的刺激，市场进入信息真空期。"
+      "summary": "NVIDIA及AI芯片讨论热度降温，市场对短期算力需求的爆发已有充分预期，当前缺乏新的催化剂，社区情绪趋于平稳。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化话题热度下滑，社区暂无核心技术突破或大单落地消息，讨论节奏放缓。"
+      "summary": "设备与材料国产化讨论热度下降，随着部分国产替代产品完成验证进入产线，社区关注点从“能否替代”转向“良率与稳定性表现”。"
     }
   ],
   "items": [
     {
-      "title": "揭秘出售SpaceX和OpenAI上市前股份的灰色市场（Inside The Murky Market Selling Pre-IPO SpaceX And OpenAI Shares）",
-      "url": "https://www.forbes.com/sites/phoebeliu/2026/05/26/inside-the-murky-market-selling-pre-ipo-spacex-and-openai-shares/",
-      "description": "Want SpaceX And OpenAI Shares Before The IPO? Inside The Secretive Market Selling Them",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
+      "title": "受美国制裁无法使用EUV，华为正重新定义摩尔定律——但顶级芯片分析师并不买账（Cut Off From EUV By US Sanctions, Huawei Is Redefining Moore’s Law Itself — And A Top Chip Analyst Isn’t Buying It）",
+      "url": "https://wccftech.com/cut-off-from-euv-by-us-sanctions-huawei-is-redefining-moores-law-itself-and-a-top-chip-analyst-isnt-buying-it/",
+      "description": "After Huawei made a big announcement earlier this week about its Tau scaling technology, through which it aims to achieve a transistor density similar to the 14 Angstrom (14A) manufacturing process technologies from leading chip manufacturers such as TSMC and Intel, semiconductor analyst Dr. Ian Cut",
+      "published": "Wed, 27 May 2026 13:39:17 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
       "lang": "en",
       "tags": [],
       "insights": [
-        "未上市明星科技公司的股份灰色市场活跃，反映出资本对AI和航天前沿领域的极度渴求与套利冲动。",
-        "此类私下交易缺乏透明度与监管，投资者需警惕流动性风险与估值泡沫。"
+        "在缺乏EUV光刻机的情况下，华为试图通过架构或技术创新来绕过物理限制，这反映了国内先进制程发展的另类突围路径。",
+        "顶级分析师的质疑表明，业界对非EUV路线实现14A级别密度的可行性和量产能力仍持保守态度，技术突破需经市场与良率验证。"
       ],
       "actions": [
-        "关注AI领域头部未上市企业的股权流转动态，寻找潜在的战略投资或生态合作机会。",
-        "警惕非公开市场投资风险，严格评估合规性与估值合理性，避免盲目跟风。"
+        "密切关注华为Tau缩放技术的后续技术细节披露，评估其对国内代工厂和EDA/IP生态的实际拉动效应。",
+        "警惕非EUV先进制程量产的不确定性，在供应链规划中保持多源验证，避免过度依赖单一技术路线。"
       ],
       "glossary": [
         {
-          "term": "IPO",
-          "desc": "首次公开募股，指企业首次向公众投资者发售股票",
-          "category": "金融"
-        }
-      ],
-      "region": "overseas",
-      "summary": "揭示了在SpaceX和OpenAI正式IPO前，私下交易其股份的隐秘市场运作情况，反映出资本对头部AI企业的提前套利与投资狂热。",
-      "tag_category": "EDA/IP",
-      "title_en": "Inside The Murky Market Selling Pre-IPO SpaceX And OpenAI Shares"
-    },
-    {
-      "title": "亚德诺半导体(ADI)股价5月26日上涨4.52%：背后的驱动因素（Analog Devices Inc Stock (ADI) Moved Up by 4.52% on May 26: Drivers Behind the Movement）",
-      "url": "https://www.tradingkey.com/news/market-movers/261928904-market-movers-adi-20260526",
-      "description": "Analog Devices reported strong Q2 2026 results, exceeding expectations.Acquisition of Empower Semiconductor aims to boost AI power management.Analysts raised price targets, citing growth and strategic acquisition benefits.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "ADI通过收购Empower Semiconductor布局AI电源管理，显示模拟芯片厂商正积极切入AI基础设施供电赛道。",
-        "强劲的Q2业绩表明工业与汽车等核心市场需求正在复苏，模拟芯片周期有望触底反弹。"
-      ],
-      "actions": [
-        "关注ADI在AI电源管理领域的技术整合与产品落地进度，评估其对相关供电模块供应链的影响。",
-        "追踪模拟芯片市场周期性复苏信号，适时调整库存与采购策略。"
-      ],
-      "glossary": [
-        {
-          "term": "Empower Semiconductor",
-          "desc": "一家专注于AI电源管理技术的半导体公司",
-          "category": "企业"
+          "term": "EUV",
+          "desc": "极紫外光刻技术，用于7nm及以下先进制程芯片制造的关键设备技术",
+          "category": "设备"
         },
         {
-          "term": "ADI",
-          "desc": "Analog Devices Inc.，亚德诺半导体，全球领先的模拟与混合信号芯片厂商",
-          "category": "企业"
+          "term": "14A",
+          "desc": "14埃米（1.4nm）制程节点，代表下一代先进半导体制造工艺",
+          "category": "制程"
+        },
+        {
+          "term": "Tau scaling technology",
+          "desc": "华为提出的晶体管缩放技术，旨在不依赖EUV的情况下提升晶体管密度",
+          "category": "EDA/IP"
         }
       ],
       "region": "overseas",
-      "summary": "亚德诺半导体(ADI)公布强劲的2026财年Q2业绩超预期，并收购Empower Semiconductor以强化AI电源管理，分析师上调目标价。",
-      "tag_category": "综合",
-      "title_en": "Analog Devices Inc Stock (ADI) Moved Up by 4.52% on May 26: Drivers Behind the Movement"
+      "summary": "华为本周宣布了其Tau缩放技术，旨在不依赖EUV的情况下实现类似于14A（14埃米）工艺的晶体管密度，但顶级芯片分析师对该路线的可行性表示质疑。",
+      "tag_category": "EDA/IP",
+      "title_en": "Cut Off From EUV By US Sanctions, Huawei Is Redefining Moore’s Law Itself — And A Top Chip Analyst Isn’t Buying It"
     },
     {
-      "title": "美光科技：警惕长江存储(YMTC)的崛起（Micron. Beware The Wrath Of YMTC）",
-      "url": "https://semiconalpha.substack.com/p/micron-beware-the-wrath-of-ymtc",
-      "description": "I have a feeling that we are going to be hearing a lot about YMTC in the coming years and it’s not just about the fact that they may be on the path to launching their IPO as we discussed yesterday here.",
+      "title": "特斯拉股票因欧洲67%销量大增及SpaceX重磅IPO传闻而飙升（Tesla Stock Surges On 67% European Boom, Blockbuster SpaceX IPO Rumors - Tesla (NASDAQ:TSLA) - Benzinga）",
+      "url": "https://www.benzinga.com/markets/tech/26/05/52813754/ev-sales-skyrocket-tesla-stock-surges-on-67-european-boom-blockbuster-spacex-ipo-rumors",
+      "description": "Tesla (TSLA) stock rises as a 67% European EV sales explosion collides with rumors of an historic merger with a $1.25T SpaceX. See why RBC Capital targets a bullish $475 target in 2026.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "长江存储技术实力与产能的快速提升，正打破原有NAND闪存市场的寡头格局，对美光等国际巨头构成实质性威胁。",
-        "长江存储若成功IPO，将获得充足资金加速扩产与研发，全球存储芯片供应链可能面临重塑。"
+        "欧洲电动车市场的爆发性增长将进一步拉动车规级芯片的需求，尤其是自动驾驶处理器和功率半导体。",
+        "SpaceX与特斯拉的传闻虽属资本市场炒作，但航天与汽车的跨界融合暗示了高端传感器和通信芯片的新应用场景。"
       ],
       "actions": [
-        "密切监控长江存储的产能扩张节奏与IPO动向，评估其对全球NAND价格走势的冲击。",
-        "国内供应链企业应提前布局，寻求与长江存储在设备、材料等环节的深度合作机会。"
+        "关注欧洲新能源车销量数据，提前锁定车规级MCU和功率器件的产能配额。",
+        "跟踪航天级半导体器件的商业化降维应用趋势，评估其在特种汽车芯片市场的潜力。"
       ],
       "glossary": [
         {
-          "term": "YMTC",
-          "desc": "Yangtze Memory Technologies Corp.，长江存储，中国领先的3D NAND闪存芯片制造商",
-          "category": "企业"
+          "term": "NASDAQ:TSLA",
+          "desc": "纳斯达克交易所特斯拉股票代码",
+          "category": "综合"
         }
       ],
       "region": "overseas",
-      "summary": "文章指出长江存储(YMTC)未来几年将在存储市场发挥重大影响，其潜在的IPO进程将进一步改变行业竞争格局。",
+      "summary": "特斯拉欧洲电动车销量暴增67%，同时伴随SpaceX历史性合并传闻，RBC Capital给出2026年475美元的看涨目标价。",
       "tag_category": "EDA/IP",
-      "title_en": "Micron. Beware The Wrath Of YMTC"
+      "title_en": "Tesla Stock Surges On 67% European Boom, Blockbuster SpaceX IPO Rumors - Tesla (NASDAQ:TSLA) - Benzinga"
     },
     {
-      "title": "《不公仙灵：蛤蟆之死》电子书发布 - 澳大利亚企鹅图书（Unfairies: Death by Toad by Huw Aaron (EBook) - Penguin Books Australia）",
-      "url": "https://www.penguin.com.au/books/unfairies-death-by-toad-9780241683781",
-      "description": "Unfairies: Death by Toad by Huw Aaron (EBook) - Penguin Books Australia\n\n[]\n\n- Published: 28 May 2026\n- ISBN: 9780241683781\n- Imprint: Penguin eBooks\n- Format: EBook\n- Pages: 272\n\n# Unfairies: Death by Toad\n\n---\n\nFormats & editions\n\n---\n\nPre-order from…\n\n---\n\nThe second hilarious full-colour graphic",
-      "published": "2026-05-28T00:00:00.000Z",
+      "title": "Strategic Embedded推出QSMP-2030——基于STM32 MP235的QS模块（Strategic Embedded launches QSMP-2030 — STM32 MP235-based QS module – Strategic Embedded）",
+      "url": "https://strategic-embedded.com/blogs/news/strategic-embedded-qsmp-2030-stm32mp235",
+      "description": "Strategic Embedded launches QSMP-2030 — STM32 MP235-based QS module – Strategic Embedded\n\n# Strategic Embedded launches QSMP-2030 — STM32 MP235-based QS module\n\nRobert Giblett | May 10, 2026\n\nPress release · Stockholm · 1 June 2026\n\n29 mm solder-down module with dual Cortex-A35, integrated NPU and H",
+      "published": "2026-06-01T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "此条目为无关噪音数据，与半导体行业无直接关联，反映了信息源过滤的必要性。"
+        "基于STM32 MP235的模块化产品推出，表明主流微处理器生态正在向更高性能的边缘AI和工业控制场景渗透。",
+        "模块化设计（QS模块）能显著缩短客户开发周期，加速嵌入式系统的迭代更新与落地。"
       ],
       "actions": [
-        "在数据抓取与分析流程中增加行业关键词过滤机制，剔除无关的文化娱乐类噪音信息。"
+        "评估STM32 MP235模块在工业控制和边缘计算项目中的适用性，考虑引入以加快产品上市时间。",
+        "关注意法半导体MPU路线图的演进，提前规划基于新架构的软硬件兼容设计。"
       ],
-      "glossary": [],
+      "glossary": [
+        {
+          "term": "STM32 MP235",
+          "desc": "意法半导体推出的一款微处理器（MPU），适用于高性能嵌入式和边缘AI应用",
+          "category": "芯片/IP"
+        },
+        {
+          "term": "QS module",
+          "desc": "一种标准化的嵌入式计算模块规格，旨在提供高集成度和快速部署能力",
+          "category": "综合"
+        }
+      ],
       "region": "overseas",
-      "summary": "澳大利亚企鹅图书发布了Huw Aaron撰写的电子书《不公仙灵：蛤蟆之死》，属于文化娱乐类信息，与半导体行业无关。",
+      "summary": "Strategic Embedded发布了基于意法半导体STM32 MP235微处理器的QSMP-2030 QS模块，面向嵌入式计算应用。",
       "tag_category": "综合",
-      "title_en": "Unfairies: Death by Toad by Huw Aaron (EBook) - Penguin Books Australia"
+      "title_en": "Strategic Embedded launches QSMP-2030 — STM32 MP235-based QS module – Strategic Embedded"
     },
     {
-      "title": "King Ayisoba发布单曲《没有传统，没有非洲》（King Ayisoba — No Tradition, No Africa | Mais Um）",
-      "url": "https://shop.kudosrecords.co.uk/release/mais065a/king-ayisoba-no-tradition-no-africa-feat-rocky-dawuni",
-      "description": "King Ayisoba — No Tradition, No Africa | Mais Um\n\nDigital (Released 29th May 2026) — £1.50 [FLAC]\n\n# No Tradition, No Africa (feat. Rocky Dawuni)\n\n## King Ayisoba\n\nA 1 track afro-pop single (3m 55s) — released May 29th 2026 on Mais Um\n\n- Tracklist\n- Description\n- Reviews\n- Available On\n- Share\n\n03:5",
-      "published": "2026-05-28T00:00:00.000Z",
+      "title": "LE SSERAFIM · Pureflow pt. I (数字代码+周边) [迷你相机黑色版] (2026)（LE SSERAFIM · Pureflow pt. I (Digital CODE + Merch) [Mini Camera Black edition] (2026)）",
+      "url": "https://imusic.com.cn/music/8800365019714/le-sserafim-2026-pureflow-pt-i-digital-code-merch",
+      "description": "LE SSERAFIM · Pureflow pt. I (Digital Code + Merch) [Mini Camera Black edition] (2026)\n\n如封面与标题不符，以标题为准\n\n分享给好友:\n\n# LE SSERAFIM Pureflow pt. I LE SSERAFIM Mini Camera Black edition\n\n缺货商品\n\n---\n\n商品到货时接收邮件提醒\n\n到货通知\n\nDo you have a profile?登录\n\n顾客评价：\n\n---\n\n添加至iMusic心愿单\n\n新建心愿单...\n\n添加\n\n#### 其他版本：\n\n- Digital Co",
+      "published": "2026-05-30T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "此条目同样为无关噪音数据，需在简报生成时予以识别和降权，确保分析聚焦于核心产业链。"
+        "娱乐周边产品中嵌入“数字代码”和“迷你相机”硬件，反映了消费电子微型化与IP跨界融合的新商业模式。",
+        "热门IP周边的缺货现象提示了微型传感器和定制化小批量电子制造的供应链响应挑战。"
       ],
       "actions": [
-        "优化信息源筛选策略，确保聚焦于芯片、EDA、封装等核心半导体产业链动态。"
+        "关注微型摄像头模组及定制化存储/解码芯片在泛娱乐消费市场的增量需求。",
+        "评估小批量、快返工的柔性制造能力，以应对跨界IP周边产品的突发性订单。"
       ],
-      "glossary": [],
+      "glossary": [
+        {
+          "term": "Digital CODE",
+          "desc": "数字代码，通常指包含数字内容访问权限的实体媒介或验证码",
+          "category": "综合"
+        }
+      ],
       "region": "overseas",
-      "summary": "音乐人King Ayisoba发布了非洲流行单曲，属于文化娱乐类信息，偏离半导体产业分析范畴。",
-      "tag_category": "EDA/IP",
-      "title_en": "King Ayisoba — No Tradition, No Africa | Mais Um"
+      "summary": "韩国流行音乐组合LE SSERAFIM推出包含数字代码和迷你相机黑色版周边的专辑商品，目前处于缺货状态。",
+      "tag_category": "综合",
+      "title_en": "LE SSERAFIM · Pureflow pt. I (Digital CODE + Merch) [Mini Camera Black edition] (2026)"
+    },
+    {
+      "title": "畅销书作家将一个小角色认定为以色列人，部分粉丝正在取消订单（A best-selling novelist identified a minor character as Israeli. Some fans are canceling their orders. | The Pittsburgh Jewish Chronicle）",
+      "url": "https://jewishchronicle.timesofisrael.com/a-best-selling-novelist-identified-a-minor-character-as-israeli-some-fans-are-canceling-their-orders/",
+      "description": "A best-selling novelist identified a minor character as Israeli. Some fans are canceling their orders. | The Pittsburgh Jewish Chronicle\n\nhome page\n\nR.F. Kuang attends the Girls Write Now Awards 2024 at DVF Studio on Oct. 10, 2024, in New York City. (JP Yim/Getty Images for Girls Write Now)\n\n(JTA) —",
+      "published": "2026-05-31T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "文化产品中的地缘政治敏感元素会直接影响消费者行为和订单履约，这种情绪外溢也可能影响跨国科技企业的品牌声誉。",
+        "订单取消现象表明，在全球化背景下，供应链和销售端需对地缘政治和文化冲突的潜在风险保持高度敏感。"
+      ],
+      "actions": [
+        "在涉及跨国销售和供应链布局时，加强地缘政治和文化敏感度的风险评估，避免触碰争议性议题。",
+        "建立订单波动预警机制，对因社会事件引发的突发性退单做好库存和物流的弹性调整准备。"
+      ],
+      "glossary": [
+        {
+          "term": "Israeli",
+          "desc": "以色列人/以色列的，涉及中东地缘政治身份认同",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "畅销书作家R.F. Kuang将书中一个小角色设定为以色列人，引发部分粉丝不满并取消购书订单。",
+      "tag_category": "综合",
+      "title_en": "A best-selling novelist identified a minor character as Israeli. Some fans are canceling their orders. | The Pittsburgh Jewish Chronicle"
     }
   ],
   "stats": {
-    "total_raw": 100,
-    "after_dedup": 89,
+    "total_raw": 99,
+    "after_dedup": 91,
     "sources": {
-      "Exa": 10,
+      "Exa": 12,
       "RSS": 65,
       "Brave": 14
     }
