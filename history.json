@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://www.newelectronics.co.uk/content/news/rambus-unveils-pcie-70-switch-ip-aimed-at-scaling-ai-and-data-centre-performance",
-    "title": "Rambus推出PCIe 7.0交换IP",
-    "published": "2026-05-07T00:00:00.000Z",
-    "addedAt": "2026-05-07T13:03:00+08:00"
-  },
-  {
-    "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
-    "title": "使用全波电磁仿真设计宽带LPDA馈电反射面天线",
-    "published": "Fri, 17 Apr 2026 14:00:50 +0000",
-    "addedAt": "2026-05-07T20:05:00+08:00"
-  },
-  {
-    "url": "https://semiwiki.com/eda/368418-a-different-angle-on-co-simulation-for-systems/",
-    "title": "系统协同仿真的不同视角",
-    "published": "Wed, 06 May 2026 13:00:36 +0000",
-    "addedAt": "2026-05-07T20:05:00+08:00"
-  },
-  {
-    "url": "https://semiwiki.com/3dic/368839-synopsys-and-tsmc-deepen-ai-design-alliance-what-it-means/",
-    "title": "新思科技与台积电深化AI设计合作：这意味着什么",
-    "published": "Tue, 05 May 2026 17:00:23 +0000",
-    "addedAt": "2026-05-07T20:05:00+08:00"
-  },
-  {
-    "url": "https://semiwiki.com/artificial-intelligence/368842-connecting-the-dots-why-risc-v-system-design-is-entering-a-new-era/",
-    "title": "串联线索：为何RISC-V系统设计正迈入新时代",
-    "published": "Mon, 04 May 2026 17:00:00 +0000",
-    "addedAt": "2026-05-07T20:05:00+08:00"
-  },
-  {
     "url": "https://wccftech.com/gothic-1-remake-preserves-the-originals-soul-in-unreal-engine-5-but-the-first-hours-will-divide-players/",
     "title": "《哥特王朝1》重制版在虚幻引擎5中保留了原版灵魂，但初期体验可能引发玩家分歧",
     "published": "Thu, 07 May 2026 12:00:00 +0000",
@@ -2998,5 +2968,35 @@
     "title": "面向先进2.5D HBM封装的制造级分辨率确定性求解器精度热与翘曲分析（Deterministic, Solver-Accurate Thermal and Warpage Analysis at Manufacturing Resolution for Advanced 2.5D HBM Packages）",
     "published": "2026-05-27T00:00:00.000Z",
     "addedAt": "2026-05-29T06:04:00+08:00"
+  },
+  {
+    "url": "https://www.techbriefs.com/component/content/article/55244-nasas-space-computing-breakthrough-powers-future-missions",
+    "title": "NASA太空计算突破为未来任务提供动力（《NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs》）",
+    "published": "2026-06-01T00:00:00.000Z",
+    "addedAt": "2026-05-29T13:03:00+08:00"
+  },
+  {
+    "url": "https://www.digitimes.com/newsshow/article.asp?datePublish=2026/05/28&pages=pd&seq=221",
+    "title": "出口管制给AI光通信供应链蒙上阴影（《Export controls cast a shadow over AI's optical communications supply chain》）",
+    "published": "",
+    "addedAt": "2026-05-29T13:03:00+08:00"
+  },
+  {
+    "url": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-anthropic-overtakes-openai-as-worlds-most-valuable-ai-startup-100000319.html",
+    "title": "今日科技股：Anthropic超越OpenAI成为全球最具价值AI初创企业（《Tech stocks today: Anthropic overtakes OpenAI as world's most valuable AI startup》）",
+    "published": "",
+    "addedAt": "2026-05-29T13:03:00+08:00"
+  },
+  {
+    "url": "https://fintech.tv/ai-chip-boom-drives-historic-market-rally-as-semiconductor-index-surges-nearly-80-in-2026/",
+    "title": "AI芯片繁荣推动2026年历史性市场反弹（《AI Chip Boom Drives Historic Market Rally in 2026 Ahead》）",
+    "published": "",
+    "addedAt": "2026-05-29T13:03:00+08:00"
+  },
+  {
+    "url": "https://cryptonews.net/news/mining/32934030/",
+    "title": "长鑫存储（CXMT）获IPO批准，将筹集超40亿美元成中国最大芯片上市项目（《ChangXin Memory Technologies secures IPO approval to raise over $4B in China’s biggest chip listing》）",
+    "published": "",
+    "addedAt": "2026-05-29T13:03:00+08:00"
   }
 ]

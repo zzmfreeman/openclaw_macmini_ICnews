@@ -1,6 +1,6 @@
 {
-  "version": "v20260528-1303",
-  "generatedAt": "2026-05-28T13:03:00+08:00",
+  "version": "v20260529-1303",
+  "generatedAt": "2026-05-29T13:03:00+08:00",
   "period": "midday",
   "commit": "",
   "glossary_list": [
@@ -21,38 +21,38 @@
     },
     {
       "term": "SoC",
-      "desc": "片上系统，将完整计算系统集成在单一芯片上",
+      "desc": "系统级芯片，将完整计算系统集成在单一芯片上",
       "category": "芯片架构"
     },
     {
-      "term": "Capex",
-      "desc": "资本支出，企业用于购买或升级物理资产（如厂房、设备）的资金",
-      "category": "财务"
+      "term": "Compound Semiconductor",
+      "desc": "化合物半导体，由两种或以上元素组成的半导体材料，常用于光通信和高频器件",
+      "category": "材料"
     },
     {
-      "term": "IPO S-1",
-      "desc": "美国SEC首次公开募股注册声明文件，包含公司财务及业务风险等详细信息",
-      "category": "财务"
+      "term": "Visual Photonics Epitaxy",
+      "desc": "联亚光电，台湾化合物半导体晶圆外延生长供应商",
+      "category": "公司"
     },
     {
-      "term": "EUV",
-      "desc": "极紫外光刻，使用13.5nm波长光源，用于7nm及以下先进制程的关键设备技术",
-      "category": "半导体设备"
+      "term": "Anthropic",
+      "desc": "一家专注于AI安全和研究的美国AI初创公司",
+      "category": "公司"
     },
     {
-      "term": "14A",
-      "desc": "14埃米制程（约1.4nm），代表下一代先进制造工艺节点",
-      "category": "制程节点"
+      "term": "Semis",
+      "desc": "半导体板块/公司（Semiconductors的简写）",
+      "category": "市场"
     },
     {
-      "term": "SiC",
-      "desc": "碳化硅，第三代半导体材料，广泛应用于新能源汽车的高压高频功率器件",
-      "category": "材料/器件"
+      "term": "CXMT",
+      "desc": "长鑫存储，中国最大的本土DRAM芯片制造商",
+      "category": "公司"
     },
     {
-      "term": "IPO",
-      "desc": "首次公开募股，企业首次向公众投资者发售股票",
-      "category": "财务"
+      "term": "DRAM",
+      "desc": "动态随机存取存储器，常见的主内存类型",
+      "category": "存储"
     }
   ],
   "topic_pulse": [
@@ -61,61 +61,61 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区对CoWoS产能扩张的讨论热度有所降温，情绪从早期的产能紧缺焦虑转向关注实际扩产进度与良率爬坡情况。业界开始理性评估台积电之外的二线封装产能承接能力。"
+      "summary": "社区对CoWoS/先进封装的讨论热度降温，近期缺乏引爆话题的新动态，投资者与从业者多处于观望状态。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM相关话题热度下降，业界讨论焦点从单纯的缺货炒作转向HBM3e及后续版本的规格演进与实际部署成本。社区对SK海力士等厂商的产能释放节奏保持密切关注。"
+      "summary": "HBM与AI存储话题热度回落，随着前期产能扩张预期已被消化，社区暂无新的技术突破或订单传闻刺激讨论。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "关于中国Fab先进制程的讨论趋于冷静，社区对无EUV下的制程突破（如Huawei Tau技术）持审慎观望态度。讨论重点转向多重曝光的实际良率成本与长期可行性。"
+      "summary": "中国Fab与先进制程讨论暂遇冷，缺乏近期重大制程突破或建厂消息，社区情绪趋于平静。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题降温，市场情绪由前期的政策利好驱动转为关注产品在复杂IC设计中的实际流片验证与客户采用率。社区期待更多本土大厂公开验证案例。"
+      "summary": "国产EDA/IP板块降温，在无新政策刺激或重磅产品发布的情况下，社区关注度短期转移。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT板块讨论热度回落，社区关注点从产能满载转向传统封装价格战风险及先进封装的利润率分化现象。投资者对OSAT厂商的资本开支回报率提出更高要求。"
+      "summary": "封测OSAT话题热度下降，行业进入平稳期，社区缺乏关于先进封装产能紧缺或价格波动的新讨论。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制话题热度下降，社区对新增制裁清单的反应趋于钝化。讨论重点转向如何通过供应链多元化与合规体系进行常态化应对，而非短期情绪化炒作。"
+      "summary": "出口管制与制裁讨论热度降温，近期无新增重大制裁清单或政策传闻，社区紧张情绪有所缓解。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "NVIDIA及AI芯片话题降温，市场对算力军备竞赛的讨论已常态化。焦点转向推理端芯片的性价比与下一代架构的落地时间表，社区对Blackwell的量产进度保持追踪。"
+      "summary": "AI芯片与英伟达话题热度回落，财报季后的情绪消化完毕，社区暂无新的算力需求爆发点引发热议。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化讨论热度回落，社区情绪由激进替代转向理性评估。重点关注国产设备在先进制程验证中的良率与稳定性表现，对短期全面替代的预期降低。"
+      "summary": "设备与材料国产化讨论降温，在缺乏新验证订单或国产替代重大进展的刺激下，社区讨论趋于沉寂。"
     }
   ],
   "items": [
     {
-      "title": "NASA（美国宇航局）太空计算突破为未来任务赋能 - 技术简报（NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs）",
+      "title": "NASA太空计算突破为未来任务提供动力（《NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs》）",
       "url": "https://www.techbriefs.com/component/content/article/55244-nasas-space-computing-breakthrough-powers-future-missions",
       "description": "NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs\n\nElectronics & Sensors INSIDER\n\nNASA’s new processor fits in your hand, delivers full system-on-a-chip power, and is built to survive deep space with far greater speed than current spacecraft technology. Credit: NASA/JPL-Caltec",
       "published": "2026-06-01T00:00:00.000Z",
@@ -124,159 +124,159 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "太空级抗辐射SoC芯片的微型化与算力提升，标志着航天半导体正从定制化走向商用级架构的强化演进。",
-        "高可靠性与低功耗的平衡设计将成为极端环境芯片的核心趋势，推动RISC-V等开源架构在航天领域的应用。"
+        "太空级抗辐射SoC的需求正在增长，航天计算正向高集成度、低功耗方向演进。",
+        "商业航天和卫星互联网的爆发将带动特种处理器及抗辐射EDA/IP的市场需求。"
       ],
       "actions": [
-        "关注抗辐射芯片及高可靠性SoC设计需求，评估特种工艺代工产能。",
-        "评估商用IP核在航天等极端环境下的加固与验证机会，提前布局太空计算供应链。"
+        "关注抗辐射芯片及特种SoC设计领域的IP授权与EDA工具机会。",
+        "评估商业航天客户对高可靠性半导体供应链的潜在需求。"
       ],
       "glossary": [
         {
           "term": "SoC",
-          "desc": "片上系统，将完整计算系统集成在单一芯片上",
+          "desc": "系统级芯片，将完整计算系统集成在单一芯片上",
           "category": "芯片架构"
         }
       ],
       "region": "overseas",
-      "summary": "NASA的新型处理器体积小巧可置于掌中，提供完整的片上系统算力，专为太空等极端环境任务打造。",
+      "summary": "NASA推出新型掌上尺寸处理器，具备完整的系统级芯片（SoC）能力，专为未来太空任务设计。",
       "tag_category": "EDA/IP",
       "title_en": "NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs"
     },
     {
-      "title": "2026年5月28日AI新闻：ByteDance（字节跳动）计划700亿美元AI资本支出，OpenAI提交IPO S-1文件，Anthropic与盖茨基金会达成2亿美元协议（AI News May 28 2026 — ByteDance Plans $70B AI Capex, OpenAI Files IPO S-1, Anthropic Gates Foundation $200M Deal）",
-      "url": "https://aitoolsrecap.com/Blog/ai-news-may-28-2026",
-      "description": "AI News May 28 2026 — ByteDance Plans $70B AI Capex, OpenAI Files IPO S-1, Anthropic Gates Foundation $200M Deal\n\nTHU, MAY 28, 2026\n\nLog In| Join Us ★\n\nIndependent · In‑Depth · Unsponsored\n\nThe Journal of Artificial Intelligence Tools\n\nLog In Join Us ★\n\n✎ General\n\n# AI News: May 28, 2026 — ByteDance",
-      "published": "2026-05-28T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "大厂巨额AI资本支出预示算力基础设施需求仍处于高速扩张期，底层硬件供应链将持续受益。",
-        "OpenAI的IPO将重塑AI初创公司的资本估值体系，进一步推高对高端AI芯片及先进封装的采购预期。"
-      ],
-      "actions": [
-        "密切关注ByteDance等大厂的AI基建招标动态，提前锁定先进封装与HBM产能。",
-        "评估OpenAI上市对AI芯片供应链带来的中长期订单增量效应，调整备货策略。"
-      ],
-      "glossary": [
-        {
-          "term": "Capex",
-          "desc": "资本支出，企业用于购买或升级物理资产（如厂房、设备）的资金",
-          "category": "财务"
-        },
-        {
-          "term": "IPO S-1",
-          "desc": "美国SEC首次公开募股注册声明文件，包含公司财务及业务风险等详细信息",
-          "category": "财务"
-        }
-      ],
-      "region": "overseas",
-      "summary": "ByteDance计划投入700亿美元AI资本支出，OpenAI正式提交IPO申请文件，Anthropic与盖茨基金会达成2亿美元合作。",
-      "tag_category": "EDA/IP",
-      "title_en": "AI News May 28 2026 — ByteDance Plans $70B AI Capex, OpenAI Files IPO S-1, Anthropic Gates Foundation $200M Deal"
-    },
-    {
-      "title": "受美国制裁断供EUV，Huawei（华为）正重新定义摩尔定律——但顶级芯片分析师并不买账",
-      "url": "https://wccftech.com/cut-off-from-euv-by-us-sanctions-huawei-is-redefining-moores-law-itself-and-a-top-chip-analyst-isnt-buying-it/",
-      "description": "After Huawei made a big announcement earlier this week about its Tau scaling technology, through which it aims to achieve a transistor density similar to the 14 Angstrom (14A) manufacturing process technologies from leading chip manufacturers such as TSMC and Intel, semiconductor analyst Dr. Ian Cut",
-      "published": "Wed, 27 May 2026 13:39:17 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "在缺乏EUV光刻机的情况下，通过架构创新或3D堆叠等替代路线突破制程限制，是国产先进制程的必经之路。",
-        "业界对无EUV下的密度宣称通常持审慎态度，实际良率、性能表现及商业可用性才是打破质疑的关键考验。"
-      ],
-      "actions": [
-        "持续追踪Huawei Tau技术的底层实现路径（如是否依赖先进封装或DSA优化），评估其对国产EDA/IP的拉动效应。",
-        "对国产先进制程的突破声明保持理性，重点验证其量产良率与客户导入情况，避免盲目追加供应链风险敞口。"
-      ],
-      "glossary": [
-        {
-          "term": "EUV",
-          "desc": "极紫外光刻，使用13.5nm波长光源，用于7nm及以下先进制程的关键设备技术",
-          "category": "半导体设备"
-        },
-        {
-          "term": "14A",
-          "desc": "14埃米制程（约1.4nm），代表下一代先进制造工艺节点",
-          "category": "制程节点"
-        }
-      ],
-      "region": "overseas",
-      "summary": "Huawei本周宣布其Tau缩放技术，旨在实现类似14A（14埃米）工艺的晶体管密度，但顶级芯片分析师对此声明表示质疑。",
-      "tag_category": "EDA/IP",
-      "title_en": "Cut Off From EUV By US Sanctions, Huawei Is Redefining Moore’s Law Itself — And A Top Chip Analyst Isn’t Buying It"
-    },
-    {
-      "title": "Tesla（特斯拉）股价因欧洲67%销量暴涨及SpaceX重磅IPO传闻飙升 - Benzinga（Tesla Stock Surges On 67% European Boom, Blockbuster SpaceX IPO Rumors - Tesla (NASDAQ:TSLA) - Benzinga）",
-      "url": "https://www.benzinga.com/markets/tech/26/05/52813754/ev-sales-skyrocket-tesla-stock-surges-on-67-european-boom-blockbuster-spacex-ipo-rumors",
-      "description": "Tesla (TSLA) stock rises as a 67% European EV sales explosion collides with rumors of an historic merger with a $1.25T SpaceX. See why RBC Capital targets a bullish $475 target in 2026.",
+      "title": "出口管制给AI光通信供应链蒙上阴影（《Export controls cast a shadow over AI's optical communications supply chain》）",
+      "url": "https://www.digitimes.com/newsshow/article.asp?datePublish=2026/05/28&pages=pd&seq=221",
+      "description": "The Taiwanese semiconductor materials company Visual Photonics Epitaxy, a supplier of compound semiconductor wafers used in optical communications, said demand tied to artificial intelligence data centers was accelerating rapidly as the industry prepares for the transition from 800-gigabit ...",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "欧洲EV销量的激增将直接拉动车规级功率半导体（如SiC、IGBT）和MCU的订单需求，缓解部分库存压力。",
-        "电动车与航天科技的跨界融合传闻，反映出市场对硅谷硬科技巨头整合的极高预期，可能催生特种芯片新需求。"
+        "AI数据中心对高速光通信的需求激增，推动了化合物半导体晶圆的增长。",
+        "地缘政治和出口管制正成为光通信及化合物半导体供应链的最大风险，可能重塑产能布局。"
       ],
       "actions": [
-        "关注欧洲新能源汽车销量数据对车规级芯片库存去化和补单的拉动效应，适时调整产能分配。",
-        "警惕跨界并购传闻带来的市场情绪波动，避免基于短期炒作进行投机性扩产。"
+        "评估光通信芯片及化合物半导体材料的出口合规风险，寻找替代供应商。",
+        "关注台湾化合物半导体供应商的产能动向及合规调整。"
       ],
       "glossary": [
         {
-          "term": "SiC",
-          "desc": "碳化硅，第三代半导体材料，广泛应用于新能源汽车的高压高频功率器件",
-          "category": "材料/器件"
+          "term": "Compound Semiconductor",
+          "desc": "化合物半导体，由两种或以上元素组成的半导体材料，常用于光通信和高频器件",
+          "category": "材料"
+        },
+        {
+          "term": "Visual Photonics Epitaxy",
+          "desc": "联亚光电，台湾化合物半导体晶圆外延生长供应商",
+          "category": "公司"
         }
       ],
       "region": "overseas",
-      "summary": "Tesla欧洲电动车销量暴涨67%，同时市场传闻其将与估值1.25万亿美元的SpaceX进行历史性合并，RBC资本给出475美元的目标价。",
-      "tag_category": "EDA/IP",
-      "title_en": "Tesla Stock Surges On 67% European Boom, Blockbuster SpaceX IPO Rumors - Tesla (NASDAQ:TSLA) - Benzinga"
+      "summary": "台湾半导体材料公司联亚光电表示，AI数据中心相关的化合物半导体晶圆需求强劲，但出口管制政策给光通信供应链带来了不确定性。",
+      "tag_category": "综合",
+      "title_en": "Export controls cast a shadow over AI's optical communications supply chain"
     },
     {
-      "title": "今日美股市场：2026年5月27日实时更新",
-      "url": "https://ts2.tech/en/stock-market-today-27-05-2026/",
-      "description": "The chipmaker’s IPO is sparking excitement but also caution among Chinese investors. Past mega-deals in China’s equities absorbed large liquidity sums and often signaled market peaks. The upcoming IPO is thus viewed with a blend of anticipation and concern about potential market impacts. CXMT’s listing highlights ongoing interest in China’s semiconductor sector, even as investors remain wary of historical precedents. ... May 27, 2026...",
+      "title": "今日科技股：Anthropic超越OpenAI成为全球最具价值AI初创企业（《Tech stocks today: Anthropic overtakes OpenAI as world's most valuable AI startup》）",
+      "url": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-anthropic-overtakes-openai-as-worlds-most-valuable-ai-startup-100000319.html",
+      "description": "Tech stocks rose to start the holiday-shortened week as investors looked to the latest mega IPOs and continued to assess what Nvidia's latest earnings mean for the artificial intelligence trade.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "超大型芯片IPO在吸走市场巨额流动性之余，往往成为二级市场阶段性见顶的信号，需警惕资金虹吸效应。",
-        "一级市场的过度火热可能掩盖了二级市场对半导体周期性回调的担忧，估值泡沫风险正在积聚。"
+        "AI大模型领域的资本竞争白热化，底层算力（如英伟达）的财报表现直接左右上层应用公司的估值逻辑。",
+        "Anthropic估值反超表明市场对AI安全与底层模型架构的差异化路线给予更高溢价。"
       ],
       "actions": [
-        "对国内即将到来的大型芯片IPO保持谨慎，防范流动性虹吸效应带来的板块估值回调。",
-        "合理调整二级市场半导体持仓结构，规避周期性高点风险，锁定已有盈利。"
+        "密切关注英伟达等算力龙头财报释放的AI资本开支信号，以判断下游初创企业的融资热度。",
+        "评估Anthropic等新晋AI巨头对定制AI芯片（如TPU/自研ASIC）的潜在采购需求。"
       ],
       "glossary": [
         {
-          "term": "IPO",
-          "desc": "首次公开募股，企业首次向公众投资者发售股票",
-          "category": "财务"
+          "term": "Anthropic",
+          "desc": "一家专注于AI安全和研究的美国AI初创公司",
+          "category": "公司"
         }
       ],
       "region": "overseas",
-      "summary": "某芯片制造商的IPO引发了中国投资者的兴奋与谨慎，过去中国股市的超大型交易往往吸收大量流动性并标志着市场顶峰。",
+      "summary": "随着投资者关注最新大型IPO并持续评估英伟达财报对AI交易的影响，科技股上涨，Anthropic的估值已超越OpenAI。",
       "tag_category": "EDA/IP",
-      "title_en": "US Stock Market Today: Live Updates 27.05.2026"
+      "title_en": "Tech stocks today: Anthropic overtakes OpenAI as world's most valuable AI startup"
+    },
+    {
+      "title": "AI芯片繁荣推动2026年历史性市场反弹（《AI Chip Boom Drives Historic Market Rally in 2026 Ahead》）",
+      "url": "https://fintech.tv/ai-chip-boom-drives-historic-market-rally-as-semiconductor-index-surges-nearly-80-in-2026/",
+      "description": "AI Chip Boom lifts markets as semis surge nearly 80% in 2026. Read Steven Schoenfeld’s take on risks, IPOs, and investor caution today.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI芯片的强劲需求正重塑半导体行业的周期性，预计2026年将迎来超常规的增长峰值。",
+        "在历史性反弹预期下，市场隐含的产能过剩与地缘风险依然需要高度警惕。"
+      ],
+      "actions": [
+        "提前布局2026年AI芯片产能扩张相关的设备与材料供应链。",
+        "在乐观预期中保持风险对冲，关注半导体板块IPO带来的估值波动与流动性变化。"
+      ],
+      "glossary": [
+        {
+          "term": "Semis",
+          "desc": "半导体板块/公司（Semiconductors的简写）",
+          "category": "市场"
+        }
+      ],
+      "region": "overseas",
+      "summary": "AI芯片繁荣带动市场上涨，预计2026年半导体板块将飙升近80%，但投资者仍需警惕当前的风险与IPO动态。",
+      "tag_category": "EDA/IP",
+      "title_en": "AI Chip Boom Drives Historic Market Rally in 2026 Ahead"
+    },
+    {
+      "title": "长鑫存储（CXMT）获IPO批准，将筹集超40亿美元成中国最大芯片上市项目（《ChangXin Memory Technologies secures IPO approval to raise over $4B in China’s biggest chip listing》）",
+      "url": "https://cryptonews.net/news/mining/32934030/",
+      "description": "China’s largest homegrown DRAM chipmaker just got the green light for what could be one of the country’s most consequential tech IPOs in years. ChangXin Memory Technologies, or CXMT,",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "长鑫存储的巨额IPO标志着中国国产DRAM在资本支持下进入规模化扩产与技术攻坚的新阶段。",
+        "在HBM/AI存储需求全球爆发的背景下，国产DRAM的上市将加速本土存储产业链的生态闭环。"
+      ],
+      "actions": [
+        "关注长鑫存储IPO募资投向的先进DRAM及HBM研发进度，评估其对国产设备与材料的拉动效应。",
+        "梳理长鑫存储供应链中的国产化率，寻找设备、材料与EDA环节的切入与替代机会。"
+      ],
+      "glossary": [
+        {
+          "term": "CXMT",
+          "desc": "长鑫存储，中国最大的本土DRAM芯片制造商",
+          "category": "公司"
+        },
+        {
+          "term": "DRAM",
+          "desc": "动态随机存取存储器，常见的主内存类型",
+          "category": "存储"
+        }
+      ],
+      "region": "overseas",
+      "summary": "中国最大的本土DRAM芯片制造商长鑫存储（CXMT）已获得IPO绿灯，这将是该国近年来最重要的科技IPO之一，募资超40亿美元。",
+      "tag_category": "EDA/IP",
+      "title_en": "ChangXin Memory Technologies secures IPO approval to raise over $4B in China’s biggest chip listing"
     }
   ],
   "stats": {
-    "total_raw": 100,
-    "after_dedup": 92,
+    "total_raw": 105,
+    "after_dedup": 97,
     "sources": {
-      "Exa": 14,
-      "RSS": 63,
-      "Brave": 15
+      "Exa": 15,
+      "RSS": 65,
+      "Brave": 17
     }
   },
   "code_version": "",
