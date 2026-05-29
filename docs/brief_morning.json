@@ -1,6 +1,6 @@
 {
-  "version": "v20260529-0604",
-  "generatedAt": "2026-05-29T06:04:00+08:00",
+  "version": "v20260530-0617",
+  "generatedAt": "2026-05-30T06:17:00+08:00",
   "period": "morning",
   "commit": "",
   "glossary_list": [
@@ -20,134 +20,49 @@
       "category": "封装"
     },
     {
-      "term": "Tau Scaling Law",
-      "desc": "华为提出的一种新型半导体缩放定律，旨在提升晶体管密度和系统性能",
+      "term": "日月光",
+      "desc": "全球最大的半导体封装测试服务提供商",
+      "category": "封装"
+    },
+    {
+      "term": "GTA 6",
+      "desc": "知名开放世界动作冒险游戏《侠盗猎车手6》",
+      "category": "终端应用"
+    },
+    {
+      "term": "Fable",
+      "desc": "微软Xbox旗下的经典RPG游戏《神鬼寓言》",
+      "category": "终端应用"
+    },
+    {
+      "term": "DRAM",
+      "desc": "动态随机存取存储器，常见用于系统主内存",
+      "category": "存储"
+    },
+    {
+      "term": "BOM",
+      "desc": "物料清单，指产品制造所需的零部件及成本清单",
+      "category": "设计/制造"
+    },
+    {
+      "term": "DDR5",
+      "desc": "第五代双倍速率同步动态随机存储器",
+      "category": "存储"
+    },
+    {
+      "term": "MasterDIMM AC",
+      "desc": "酷冷至尊与芝奇联合推出的带主动风扇散热的DDR5内存产品系列",
+      "category": "存储"
+    },
+    {
+      "term": "NVIDIA DLSS",
+      "desc": "英伟达深度学习超级采样技术，利用AI提升游戏画质与帧率",
       "category": "EDA/IP"
     },
     {
-      "term": "Transistor Density",
-      "desc": "晶体管密度，指单位芯片面积上集成的晶体管数量",
-      "category": "制造"
-    },
-    {
-      "term": "He Tingbo",
-      "desc": "何庭波，华为海思半导体总裁，被称为华为“芯片女王”",
-      "category": "人物"
-    },
-    {
-      "term": "US sanctions",
-      "desc": "美国制裁，指美国对华为等中国科技企业实施的半导体技术与设备出口限制",
-      "category": "政策"
-    },
-    {
-      "term": "ProLogium",
-      "desc": "辉能科技，一家专注于下一代固态电池开发的台湾企业",
-      "category": "企业"
-    },
-    {
-      "term": "SPAC",
-      "desc": "特殊目的收购公司，一种使私人公司无需传统IPO即可上市的金融工具",
-      "category": "金融"
-    },
-    {
-      "term": "Affinius Capital",
-      "desc": "一家全球性房地产投资管理公司",
-      "category": "金融"
-    },
-    {
-      "term": "Veris Residential",
-      "desc": "一家专注于住宅和商业地产的房地产投资信托公司",
-      "category": "企业"
-    },
-    {
-      "term": "Alpha Compute Corp.",
-      "desc": "一家专注于计算基础设施的公司",
-      "category": "企业"
-    },
-    {
-      "term": "GAMEE",
-      "desc": "一家提供游戏和娱乐服务的平台",
-      "category": "企业"
-    },
-    {
-      "term": "盛合晶微",
-      "desc": "国内领先的半导体中段硅片制造及代工服务企业",
-      "category": "企业"
-    },
-    {
-      "term": "中段制造",
-      "desc": "半导体制造流程中连接前段晶圆制造和后段封装的中间工艺环节",
-      "category": "制造"
-    },
-    {
-      "term": "3nm",
-      "desc": "3纳米半导体制造工艺，代表当前最先进的制程节点之一",
-      "category": "制造"
-    },
-    {
-      "term": "ASIC",
-      "desc": "专用集成电路，为特定应用而非通用目的设计的定制芯片",
-      "category": "设计"
-    },
-    {
-      "term": "Price Hike",
-      "desc": "代工服务涨价，通常反映产能紧张或技术垄断带来的溢价",
-      "category": "市场"
-    },
-    {
-      "term": "Margins",
-      "desc": "利润率，衡量企业盈利能力的关键财务指标",
-      "category": "财务"
-    },
-    {
-      "term": "Market Cap",
-      "desc": "市值，公司股票的总市场价值",
-      "category": "财务"
-    },
-    {
-      "term": "Fab",
-      "desc": "晶圆制造厂，半导体芯片制造的核心设施",
-      "category": "制造"
-    },
-    {
-      "term": "TSM",
-      "desc": "台积电在纽约证券交易所的股票交易代码",
-      "category": "市场"
-    },
-    {
-      "term": "Agentic Era",
-      "desc": "智能体时代，指AI系统能自主感知、决策和执行复杂多步任务的阶段",
-      "category": "应用"
-    },
-    {
-      "term": "Inference Platform",
-      "desc": "推理平台，用于运行已训练好的AI模型进行预测和生成的硬件/软件系统",
-      "category": "计算"
-    },
-    {
-      "term": "SemiWiki",
-      "desc": "知名的半导体行业专业社区和资讯网站",
-      "category": "媒体"
-    },
-    {
-      "term": "ECTC",
-      "desc": "电子组件与技术会议，IEEE旗下的顶级封装技术学术会议",
-      "category": "会议"
-    },
-    {
-      "term": "Substrate",
-      "desc": "基板，封装中用于承载和连接芯片的关键底层组件",
-      "category": "封装"
-    },
-    {
-      "term": "2.5D HBM",
-      "desc": "2.5D高带宽内存封装，通过硅中介层将GPU与HBM紧密连接",
-      "category": "封装"
-    },
-    {
-      "term": "Warpage",
-      "desc": "翘曲，封装体在热应力作用下发生的弯曲变形，严重影响良率",
-      "category": "封装/可靠性"
+      "term": "AMD FSR",
+      "desc": "AMD超分辨率技术，开源的画质提升与帧率优化方案",
+      "category": "EDA/IP"
     }
   ],
   "topic_pulse": [
@@ -156,558 +71,236 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS及先进封装的讨论热度有所下降，主要因为产能扩张消息已进入平稳期，缺乏新的刺激点。市场关注点正从产能紧缺转向良率提升与成本优化。"
+      "summary": "近期社区对CoWoS及先进封装的讨论热度明显降温。随着产能逐步释放与扩产预期落地，市场对先进封装紧缺的焦虑有所缓解，短期关注度转向实际产能消化与良率爬坡情况。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度降温，社区情绪趋于理性。随着HBM3E量产落地，短期供需矛盾缓解，讨论焦点转向下一代HBM4的规格演进与定制化趋势。"
+      "summary": "HBM与AI存储话题热度出现回落，社区情绪趋于理性。前期对HBM缺货与涨价的极度关注已转向对长期供需平衡的审视，讨论焦点逐渐向下一代HBM4的技术演进转移。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中国Fab与先进制程讨论热度回落，缺乏重大突破性消息。社区目前处于观望期，等待国内晶圆厂在成熟制程扩产及特定先进节点上的新进展。"
+      "summary": "国内Fab与先进制程的讨论热度下降，社区暂无重大技术突破或政策刺激的新话题。投资者正等待国内晶圆厂在下半年旺季的实际产能利用率与营收验证数据。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题降温，近期缺乏重磅产品发布或融资事件。社区讨论暂归平淡，业界正消化前期政策利好，关注实际工具落地与头部客户导入情况。"
+      "summary": "国产EDA/IP板块热度降温，近期缺乏重磅新品发布或融资事件。社区讨论暂处于观望期，重点关注现有国产工具在实际芯片项目中的验证进度与客户反馈。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT讨论热度下降，先进封装产能紧缺缓解后，市场对OSAT业绩增长的预期趋于保守。社区关注点转向OSAT在高端封装领域的盈利能力与技术差异化。"
+      "summary": "封测OSAT话题热度走低，市场对传统封装的周期性复苏已有充分预期。随着盛合晶微等先进封装标的招股引发估值争议，社区对OSAT整体成长上限的讨论增加。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度降温，近期无新增重大禁令出台。社区情绪暂时平稳，业界正适应现有合规框架，并评估长期供应链重构的深层影响。"
+      "summary": "出口管制与制裁话题热度显著降温，近期无新增重大禁令出台。社区情绪暂获喘息，讨论重心从恐慌性应对转向合规常态化运营及存量设备的维保替代方案。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与英伟达话题热度回落，随着新一代产品发布周期过渡，社区讨论暂缺爆点。市场正消化Blackwell架构的影响，关注实际部署进度与算力供需格局。"
+      "summary": "NVIDIA与AI芯片讨论热度回落，缺乏新卡发布等短期催化剂。社区焦点正从算力硬件的狂热追逐，转向AI大模型商业变现进展对上游芯片需求的实质性拉动。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化讨论热度下降，近期缺乏标志性国产替代突破消息。社区关注重心从情绪驱动转向务实评估，聚焦国产设备的量产验证与客户渗透率。"
+      "summary": "设备与材料国产化话题热度下降，处于政策与订单真空期。社区讨论趋于平淡，等待下半年国内晶圆厂招标数据以验证国产化率的实际提升幅度。"
     }
   ],
   "items": [
     {
-      "title": "华为提出Tau缩放定律，实现晶体管密度和系统性能突破（HUAWEI Presents the Tau Scaling Law, Enabling Breakthroughs in Transistor Density and System Performance | Morningstar）",
-      "url": "https://www.morningstar.com/news/pr-newswire/20260527cn68782/huawei-presents-the-tau-scaling-law-enabling-breakthroughs-in-transistor-density-and-system-performance",
-      "description": "HUAWEI Presents the Tau Scaling Law, Enabling Breakthroughs in Transistor Density and System Performance | Morningstar\n\nHUAWEI Presents the Tau Scaling Law, Enabling Breakthroughs in Transistor Density and System Performance\n\n## HUAWEI Presents the Tau Scaling Law, Enabling Breakthroughs in Transist",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "Tau缩放定律的提出表明华为在EDA/IP和底层半导体物理规律上正寻求自主创新，以绕开外部制裁带来的先进制程工艺限制。",
-        "从晶体管密度和系统性能双维度突破，暗示该定律可能不仅涉及物理尺寸微缩，还包含3D封装或架构级创新。"
-      ],
-      "actions": [
-        "国内芯片设计公司应密切关注华为Tau定律的具体技术细节，评估其在现有设计流程中的兼容性与应用潜力。",
-        "EDA工具供应商需警惕底层缩放定律变化对现有设计规则的影响，提前布局相关工具链的适配更新。"
-      ],
-      "glossary": [
-        {
-          "term": "Tau Scaling Law",
-          "desc": "华为提出的一种新型半导体缩放定律，旨在提升晶体管密度和系统性能",
-          "category": "EDA/IP"
-        },
-        {
-          "term": "Transistor Density",
-          "desc": "晶体管密度，指单位芯片面积上集成的晶体管数量",
-          "category": "制造"
-        }
-      ],
-      "region": "overseas",
-      "summary": "华为提出名为“Tau缩放定律”的新技术规律，旨在突破晶体管密度与系统性能的限制，以应对先进制程发展的挑战。",
-      "tag_category": "综合",
-      "title_en": "HUAWEI Presents the Tau Scaling Law, Enabling Breakthroughs in Transistor Density and System Performance | Morningstar"
-    },
-    {
-      "title": "华为“芯片女王”何庭波公布Tau定律以规避美国制裁（Huawei chip queen He Tingbo unveils Tau law to sidestep US sanctions - Startup Fortune）",
-      "url": "https://startupfortune.com/huawei-chip-queen-unveils-tau-law-to-sidestep-us-sanctions/",
-      "description": "Huawei chip queen He Tingbo unveils Tau law to sidestep US sanctions - Startup Fortune\n\nSearch\n\nSF May 28, 2026 · 2:39 PM\n\nSubscribe✉\n\nMost Read\n\nPrintr's $2 million sale shows how… Palantir's SaaS is dead claim is… Shein's Everlane deal shows brand equity… Judy Shelton's gold bond proposal is… Prin",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "何庭波亲自发布该定律，凸显了该技术对华为生存与突围的战略级重要性。",
-        "明确提及规避制裁，说明Tau定律很可能是针对无法获取EUV等先进设备而提出的替代性架构或封装缩放路线。"
-      ],
-      "actions": [
-        "供应链从业者需重新评估华为在先进计算芯片上的自研进度，可能带来国内晶圆代工订单的新流向。",
-        "关注基于Tau定律设计的新芯片流片动向，提前准备相应的封测产能对接。"
-      ],
-      "glossary": [
-        {
-          "term": "He Tingbo",
-          "desc": "何庭波，华为海思半导体总裁，被称为华为“芯片女王”",
-          "category": "人物"
-        },
-        {
-          "term": "US sanctions",
-          "desc": "美国制裁，指美国对华为等中国科技企业实施的半导体技术与设备出口限制",
-          "category": "政策"
-        }
-      ],
-      "region": "overseas",
-      "summary": "华为海思总裁何庭波正式公布Tau定律，此举被视为华为在芯片研发上绕开美国制裁、寻求技术突围的重要战略。",
-      "tag_category": "EDA/IP",
-      "title_en": "Huawei chip queen He Tingbo unveils Tau law to sidestep US sanctions - Startup Fortune"
-    },
-    {
-      "title": "拥有10年以上商业化经验的下一代固态电池开发商辉能科技将通过与Translational Development Acquisition Corp.合并登陆纳斯达克（ProLogium, a Next Generation Solid-State Battery Developer with 10+ Years of Proven Commercialization, to List on the Nasdaq through a Merger with Translational Development Acquisition Corp. | Markets Insider）",
-      "url": "https://markets.businessinsider.com/news/stocks/prologium-a-next-generation-solid-state-battery-developer-with-10-years-of-proven-commercialization-to-list-on-the-nasdaq-through-a-merger-with-translational-development-acquisition-corp-1036197658",
-      "description": "ProLogium, a Next Generation Solid-State Battery Developer with 10+ Years of Proven Commercialization, to List on the Nasdaq through a Merger with Translational Development Acquisition Corp. | Markets Insider\n\n# ProLogium, a Next Generation Solid-State Battery Developer with 10+ Years of Proven Comm",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "固态电池技术走向纳斯达克资本市场，意味着新能源底层核心器件的产业化正获得全球资金认可。",
-        "半导体与电池技术存在交叉点（如电源管理IC、先进封装电池），固态电池的成熟将推动高功耗芯片的封装与供电设计革新。"
-      ],
-      "actions": [
-        "芯片封装与电源管理IC设计公司应关注固态电池的量产进度，开发适配高能量密度电池的新型电源管理方案。",
-        "投资者可追踪辉能科技上市后的产能扩张计划，评估其对上游半导体制造设备的需求拉动。"
-      ],
-      "glossary": [
-        {
-          "term": "ProLogium",
-          "desc": "辉能科技，一家专注于下一代固态电池开发的台湾企业",
-          "category": "企业"
-        },
-        {
-          "term": "SPAC",
-          "desc": "特殊目的收购公司，一种使私人公司无需传统IPO即可上市的金融工具",
-          "category": "金融"
-        }
-      ],
-      "region": "overseas",
-      "summary": "下一代固态电池开发商辉能科技宣布将通过与特殊目的收购公司（SPAC）合并的方式在纳斯达克上市，该公司拥有超过10年的商业化经验。",
-      "tag_category": "综合",
-      "title_en": "ProLogium, a Next Generation Solid-State Battery Developer with 10+ Years of Proven Commercialization, to List on the Nasdaq through a Merger with Translational Development Acquisition Corp. | Markets Insider"
-    },
-    {
-      "title": "Affinius Capital牵头的投资者财团完成对Veris Residential的35亿美元收购（Affinius Capital-Led Investor Consortium Completes $3.5 Billion Acquisition of Veris Residential）",
-      "url": "https://www.prnewswire.com/news-releases/affinius-capital-led-investor-consortium-completes-3-5-billion-acquisition-of-veris-residential-302782465.html",
-      "description": "Affinius Capital-Led Investor Consortium Completes $3.5 Billion Acquisition of Veris Residential Accessibility Statement Skip Navigation\n\nJERSEY CITY, N.J., May 27, 2026 /PRNewswire/ -- Veris Residential, Inc. (NYSE: VRE, \"Veris\" or the \"Company\"), a Northeast-focused, Class A multifamily real estat",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "此类大规模房地产并购反映了资本在不动产领域的重新配置，半导体厂房等工业地产可能间接受益于资金流向变化。",
-        "Veris Residential被收购后可能进行资产重组，其持有的物业若涉及数据中心或科技园区，将影响相关基础设施供应。"
-      ],
-      "actions": [
-        "半导体厂房建设与设施管理公司需留意大型财团的地产投资动向，寻找新建或改造晶圆厂的合作机会。",
-        "数据中心相关芯片供应商应关注被收购地产中数据中心的扩建计划，提前储备算力芯片产能。"
-      ],
-      "glossary": [
-        {
-          "term": "Affinius Capital",
-          "desc": "一家全球性房地产投资管理公司",
-          "category": "金融"
-        },
-        {
-          "term": "Veris Residential",
-          "desc": "一家专注于住宅和商业地产的房地产投资信托公司",
-          "category": "企业"
-        }
-      ],
-      "region": "overseas",
-      "summary": "由Affinius Capital牵头的投资者财团已完成对房地产投资信托公司Veris Residential的35亿美元收购。",
-      "tag_category": "EDA/IP",
-      "title_en": "Affinius Capital-Led Investor Consortium Completes $3.5 Billion Acquisition of Veris Residential"
-    },
-    {
-      "title": "Alpha Compute Corp.完成对GAMEE的多数股权收购（Alpha Compute Corp. Completes Majority Acquisition of GAMEE | Markets Insider）",
-      "url": "https://markets.businessinsider.com/news/stocks/alpha-compute-corp-completes-majority-acquisition-of-gamee-1036198756",
-      "description": "Alpha Compute Corp. Completes Majority Acquisition of GAMEE | Markets Insider\n\n# Alpha Compute Corp. Completes Majority Acquisition of GAMEE\n\nMay. 27, 2026, 11:06 AM\n\nRoad Town, British Virgin Islands, May 27, 2026 (GLOBE NEWSWIRE) -- Alpha Compute, Inc. (NASDAQ: ALP), a leading provider of high-per",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "计算基础设施公司收购游戏平台，显示出算力提供商正向下游应用生态延伸，意图构建“算力+应用”的垂直闭环。",
-        "Web3及游戏场景对高性能计算和边缘计算需求巨大，此次并购可能加速专用计算芯片在娱乐领域的定制化落地。"
-      ],
-      "actions": [
-        "专注于游戏和边缘计算的芯片设计公司应评估此类算力与应用整合带来的定制化芯片需求。",
-        "游戏及Web3开发者需关注Alpha Compute的算力基础设施变化，优化应用以适配其底层硬件架构。"
-      ],
-      "glossary": [
-        {
-          "term": "Alpha Compute Corp.",
-          "desc": "一家专注于计算基础设施的公司",
-          "category": "企业"
-        },
-        {
-          "term": "GAMEE",
-          "desc": "一家提供游戏和娱乐服务的平台",
-          "category": "企业"
-        }
-      ],
-      "region": "overseas",
-      "summary": "计算基础设施公司Alpha Compute Corp.宣布已完成对游戏平台GAMEE的多数股权收购。",
-      "tag_category": "综合",
-      "title_en": "Alpha Compute Corp. Completes Majority Acquisition of GAMEE | Markets Insider"
-    },
-    {
-      "title": "盛合晶微(SH688820)股票股价、行情、讨论、资讯、财报与数据报告",
-      "url": "https://xueqiu.com/S/SH688820",
-      "description": "雪球为您提供盛合晶微(SH688820)股票股价,实时行情,热门讨论,最新资讯,最新公告,公司资料,财务数据,财务指标分析等与盛合晶微(SH688820)股票相关的信息与服务.",
-      "published": "14小时前",
+      "title": "盛合晶微(SH688820)怎么样 - 热门讨论",
+      "url": "https://xueqiu.com/S/SH688820/hots",
+      "description": "盛合晶微(SH688820)$ 求教一下，看了盛合晶微的招股书以及官网，还是没搞懂这个公司的爆发力和想象力在哪里招股书对标日月光，日月光总市值也才5300亿人民币左右日月光一...",
+      "published": "20小时前",
       "source": "雪球",
       "source_type": "Serper",
       "lang": "zh",
       "tags": [],
       "insights": [
-        "盛合晶微作为国内半导体中段制造及硅片代工的重要企业，其股价与财报数据是观察国内特色工艺产线景气度的关键窗口。",
-        "投资者在雪球上的讨论热度，往往反映了市场对半导体材料与中段制造国产替代进程的关注与情绪波动。"
+        "盛合晶微作为国内先进封装厂商，市场对其估值逻辑和成长上限存在分歧，反映出国内封测厂在追赶日月光等巨头时面临的商业模式挑战。",
+        "招股书对标日月光引发市场对国内半导体企业估值泡沫的警惕，需关注其核心技术壁垒与实际产能消化能力。"
       ],
       "actions": [
-        "半导体设备与材料供应商应定期追踪盛合晶微的财报数据，判断其产能利用率及资本开支趋势，以调整自身交付计划。",
-        "投资者可通过雪球社区讨论情绪，辅助判断国内特色工艺代工板块的短期资金流向与预期差。"
+        "关注盛合晶微后续的招股书更新及路演信息，重点评估其先进封装产能利用率及客户结构。",
+        "对比日月光等OSAT巨头的财务指标，重新审视国内先进封装标的的估值合理性。"
       ],
       "glossary": [
         {
-          "term": "盛合晶微",
-          "desc": "国内领先的半导体中段硅片制造及代工服务企业",
-          "category": "企业"
+          "term": "OSAT",
+          "desc": "外包半导体封装和测试厂商",
+          "category": "封装"
         },
         {
-          "term": "中段制造",
-          "desc": "半导体制造流程中连接前段晶圆制造和后段封装的中间工艺环节",
-          "category": "制造"
+          "term": "日月光",
+          "desc": "全球最大的半导体封装测试服务提供商",
+          "category": "封装"
         }
       ],
       "region": "domestic",
-      "summary": "雪球平台提供盛合晶微(SH688820)的股票实时行情、热门讨论、公司资讯、财务数据及指标分析等综合信息。",
+      "summary": "投资者对盛合晶微的成长空间和爆发力提出质疑，认为其对标日月光但市值天花板似乎有限，难以看清其核心想象力。",
       "tag_category": "综合",
-      "title_en": "盛合晶微(SH688820)股票股价_股价行情_讨论_资讯_财报_数据报告"
+      "title_en": "盛合晶微(SH688820)_盛合晶微怎么样 - 热门讨论"
     },
     {
-      "title": "[新闻] 受AI与ASIC需求驱动，台积电据报计划在2026下半年将3nm工艺涨价最高15%，2027年预计进一步涨价5%-10%（[News] TSMC Reportedly Eyes Up to 15% 3nm Price Hike in 2H26, Further 5%–10% Seen in 2027 Amid AI, ASIC Demand）",
-      "url": "https://www.trendforce.com/news/2026/05/27/news-tsmc-reportedly-eyes-up-to-15-3nm-price-hike-in-2h26-further-5-10-seen-in-2027-amid-ai-asic-demand/",
-      "description": "[News] TSMC Reportedly Eyes Up to 15% 3nm Price Hike in 2H26, Further 5%–10% Seen in 2027 Amid AI, ASIC Demand\n\n# [News] TSMC Reportedly Eyes Up to 15% 3nm Price Hike in 2H26, Further 5%–10% Seen in 2027 Amid AI, ASIC Demand\n\n---\n\n---\n\nAI continues to drive tightness in advanced process capacity at ",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
+      "title": "Xbox决定避开GTA 6发售期，将《神鬼寓言》延期至2027年2月（Xbox Decides to Get Out of the Way of GTA 6, Delays Fable to February 2027）",
+      "url": "https://wccftech.com/fable-delayed-to-2027-get-out-of-gta-6-way/",
+      "description": "Fable has been delayed into February 2027, it was announced today by Xbox ahead of its Xbox Games Showcase as part of Summer Game Fest 2026 on June 7, 2026. After just getting done with bringing Forza Horizon 6 to market, developer Playground Games is getting a little more time to polish up the rebo",
+      "published": "Fri, 29 May 2026 16:59:57 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
       "lang": "en",
       "tags": [],
       "insights": [
-        "台积电在先进节点上的定价权无可挑战，AI和定制化芯片（ASIC）的爆发式需求是核心驱动力。",
-        "连续两年的涨价预期将直接推高下游AI芯片和高端消费电子的BOM成本，成本压力将向终端传导。"
+        "头部游戏延期往往影响主机平台及相关游戏芯片的短期出货节奏与需求预测。",
+        "避开GTA 6反映出顶级游戏对硬件资源的挤占效应，可能连带影响高性能GPU和存储的短期需求波动。"
       ],
       "actions": [
-        "依赖3nm工艺的芯片设计公司需立即重新评估2026-2027年的产品BOM成本和终端定价策略。",
-        "ASIC开发者应尽早与台积电锁定长期产能与价格协议，以规避连续涨价带来的成本失控风险。"
+        "游戏延期可能导致相关硬件（如主机、高性能显卡）的配套需求延后，供应链需及时调整短期排产计划。",
+        "关注GTA 6发售前后的硬件升级潮，提前布局高带宽存储和算力芯片的产能。"
       ],
       "glossary": [
         {
-          "term": "3nm",
-          "desc": "3纳米半导体制造工艺，代表当前最先进的制程节点之一",
-          "category": "制造"
+          "term": "GTA 6",
+          "desc": "知名开放世界动作冒险游戏《侠盗猎车手6》",
+          "category": "终端应用"
         },
         {
-          "term": "ASIC",
-          "desc": "专用集成电路，为特定应用而非通用目的设计的定制芯片",
-          "category": "设计"
+          "term": "Fable",
+          "desc": "微软Xbox旗下的经典RPG游戏《神鬼寓言》",
+          "category": "终端应用"
         }
       ],
       "region": "overseas",
-      "summary": "台积电因AI和ASIC芯片需求强劲，计划在2026下半年对3nm工艺提价最高15%，并在2027年继续提价5%-10%，显示其在先进制程上的定价权持续增强。",
+      "summary": "Xbox宣布将《神鬼寓言》游戏延期至2027年2月发售，以避开GTA 6的巨大市场冲击。",
       "tag_category": "Fab/制造",
-      "title_en": "[News] TSMC Reportedly Eyes Up to 15% 3nm Price Hike in 2H26, Further 5%–10% Seen in 2027 Amid AI, ASIC Demand"
+      "title_en": "Xbox Decides to Get Out of the Way of GTA 6, Delays Fable to February 2027"
     },
     {
-      "title": "台积电3nm工艺再次面临涨价，能否推高股价？（TSMC 3nm Process Faces Price Hikes Again, Can It Drive Stock Price Up?）",
-      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261930703-tsmc-tsm-3nm-pricing-power-ai-demand-capacity-shortage-gross-margin-nvidia-analyst-upgrades-risk-tradingkey",
-      "description": "TSMC 3nm Process Faces Price Hikes Again, Can It Drive Stock Price Up?\n\n# TSMC 3nm Process Faces Price Hikes Again, Can It Drive Stock Price Up?\n\nMay 27, 2026 9:06 AM\n\n\n\n\n\n\n\n\n\n\n\nView all comments（0）\n\n\n\nAI Summary\n\n\n\nOverviewKey Points\n\nTSMC plans to increase 3nm process quotes by up to 15% i",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
+      "title": "iPhone 18 Pro涨价原因不仅是DRAM成本飙升，还可能因为这项摄像头升级（iPhone 18 Pro Price Hike May Not Just Be Fueled By Soaring DRAM Costs, But Also Because Of This Camera Upgrade）",
+      "url": "https://wccftech.com/iphone-18-pro-camera-upgrade-result-in-potential-price-hike/",
+      "description": "Apple is getting close to using up its existing DRAM supply, which only means that from that point on, it’ll be forced to cough up hefty premiums for future shipments, drastically nullifying its ability to keep a price hike at bay when launching the iPhone 18 Pro and iPhone 18 Pro Max. However, the ",
+      "published": "Fri, 29 May 2026 13:16:00 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
       "lang": "en",
       "tags": [],
       "insights": [
-        "涨价不仅反映供需紧张，更是台积电利润率扩张的直接手段，对股价有实质性的基本面支撑。",
-        "市场对涨价传导至终端需求的承受力存在分歧，客户订单是否会因此转移是影响股价涨幅的关键变量。"
+        "苹果面临DRAM库存耗尽及溢价压力，表明高端智能手机对高带宽存储的依赖正在推高整机BOM成本。",
+        "摄像头升级与DRAM成本叠加，预示着旗舰手机毛利率将承压，供应链需平衡性能提升与成本控制。"
       ],
       "actions": [
-        "投资者应关注台积电后续财报中3nm工艺的毛利率变化，以验证涨价对盈利的实际贡献度。",
-        "供应链需评估大客户对涨价的接受度，若出现订单转移至三星或英特尔代工厂的迹象需及时预警。"
+        "密切关注苹果对DRAM的采购策略及长约价格变动，评估存储涨价对手机代工利润的侵蚀风险。",
+        "针对手机摄像头升级趋势，提前布局相关CIS图像传感器及光学镜头的产能与成本优化方案。"
       ],
       "glossary": [
         {
-          "term": "Price Hike",
-          "desc": "代工服务涨价，通常反映产能紧张或技术垄断带来的溢价",
-          "category": "市场"
-        }
-      ],
-      "region": "overseas",
-      "summary": "台积电3nm工艺再次涨价引发市场关注，投资者探讨这一提价举措是否能成为推动台积电股价进一步上涨的催化剂。",
-      "tag_category": "Fab/制造",
-      "title_en": "TSMC 3nm Process Faces Price Hikes Again, Can It Drive Stock Price Up?"
-    },
-    {
-      "title": "台积电CEO呼吁员工购买公司股票，同时苹果MacBook Neo面临亏损，因代工厂3nm工艺涨价15%威胁将利润率推向负值（TSMC's CEO Urges Employees To Buy Its Shares While Apple Bleeds On MacBook Neo, As The Foundry's 15% 3nm Price Hike Threatens To Push Margins Into Negative Territory）",
-      "url": "https://wccftech.com/tsmcs-ceo-urges-employees-to-buy-its-shares-while-apple-bleeds-on-macbook-neo-as-the-foundrys-15-3nm-price-hike-threatens-to-push-margins-into-negative-territory/",
-      "description": "TSMC's CEO Urges Employees To Buy Its Shares While Apple Bleeds On MacBook Neo, As The Foundry's 15% 3nm Price Hike Threatens To Push Margins Into Negative Territory\n\n# TSMC’s CEO Urges Employees To Buy Its Shares While Apple Bleeds On MacBook Neo, As The Foundry’s 15% 3nm Price Hike Threatens To Pu",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "代工端的大幅涨价正在严重侵蚀终端品牌商的利润空间，即便是苹果等巨头也难以消化如此剧烈的成本冲击。",
-        "台积电CEO呼吁员工买股显示其对公司长期价值的信心，但短期大客户流失或订单砍单风险不容忽视。"
-      ],
-      "actions": [
-        "终端硬件厂商必须重新审视高端产品线的定价模型，考虑通过规格降级或混合制程策略来控制成本。",
-        "密切关注苹果等巨头是否开始将部分非核心订单转向三星或英特尔代工，以分散供应链风险。"
-      ],
-      "glossary": [
-        {
-          "term": "Margins",
-          "desc": "利润率，衡量企业盈利能力的关键财务指标",
-          "category": "财务"
-        }
-      ],
-      "region": "overseas",
-      "summary": "台积电CEO鼓励员工增持股票，但台积电3nm工艺15%的涨价可能导致苹果等大客户在MacBook Neo等产品上的利润率转负，引发上下游利益博弈。",
-      "tag_category": "Fab/制造",
-      "title_en": "TSMC's CEO Urges Employees To Buy Its Shares While Apple Bleeds On MacBook Neo, As The Foundry's 15% 3nm Price Hike Threatens To Push Margins Into Negative Territory"
-    },
-    {
-      "title": "[新闻] 深度解析美光市值跃升至1万亿美元：横跨美国与亚洲的全球晶圆厂扩张概览（[News] Inside Micron’s $1 Trillion Market Cap Leap: A Global Fab Expansion Overview Across the U.S. and Asia）",
-      "url": "https://www.trendforce.com/news/2026/05/27/news-inside-microns-1-trillion-market-cap-leap-a-global-fab-expansion-overview-across-the-u-s-and-asia/",
-      "description": "[News] Inside Micron’s $1 Trillion Market Cap Leap: A Global Fab Expansion Overview Across the U.S. and Asia\n\n# [News] Inside Micron’s $1 Trillion Market Cap Leap: A Global Fab Expansion Overview Across the U.S. and Asia\n\n---\n\n---\n\nAmid the AI-driven memory boom, Micron has emerged as one of the sta",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "存储厂商在AI服务器高带宽内存（HBM）需求的推动下正迎来价值重估，产能扩张是抢占市场份额的关键。",
-        "美光的跨区域扩产（美国与亚洲）策略兼顾了地缘政治安全与成本效率，符合当前全球供应链重构趋势。"
-      ],
-      "actions": [
-        "存储供应链伙伴应积极对接美光新厂的建设需求，争取设备与材料入场份额。",
-        "投资者需跟踪美光HBM产能的释放进度，评估其在SK海力士主导的市场中的实际渗透率。"
-      ],
-      "glossary": [
-        {
-          "term": "Market Cap",
-          "desc": "市值，公司股票的总市场价值",
-          "category": "财务"
+          "term": "DRAM",
+          "desc": "动态随机存取存储器，常见用于系统主内存",
+          "category": "存储"
         },
         {
-          "term": "Fab",
-          "desc": "晶圆制造厂，半导体芯片制造的核心设施",
-          "category": "制造"
+          "term": "BOM",
+          "desc": "物料清单，指产品制造所需的零部件及成本清单",
+          "category": "设计/制造"
         }
       ],
       "region": "overseas",
-      "summary": "美光科技市值突破1万亿美元，其在美国和亚洲的大规模晶圆厂扩张计划成为支撑其估值增长的核心动力。",
-      "tag_category": "Fab/制造",
-      "title_en": "[News] Inside Micron’s $1 Trillion Market Cap Leap: A Global Fab Expansion Overview Across the U.S. and Asia"
+      "summary": "iPhone 18 Pro的潜在涨价不仅源于DRAM供应紧缺导致的成本飙升，还与新一代摄像头模组的升级成本有关。",
+      "tag_category": "EDA/IP",
+      "title_en": "iPhone 18 Pro Price Hike May Not Just Be Fueled By Soaring DRAM Costs, But Also Because Of This Camera Upgrade"
     },
     {
-      "title": "台积电股票（TSM）5月27日上涨3.59%：背后的驱动因素（Taiwan Semiconductor Manufacturing Co Ltd Stock (TSM) Moved Up by 3.59% on May 27: Drivers Behind the Movement）",
-      "url": "https://www.tradingkey.com/news/market-movers/261931371-market-movers-tsm-20260527",
-      "description": "Taiwan Semiconductor Manufacturing Co Ltd Stock (TSM) Moved Up by 3.59% on May 27: Drivers Behind the Movement\n\n# Taiwan Semiconductor Manufacturing Co Ltd Stock (TSM) Moved Up by 3.59% on May 27: Drivers Behind the Movement\n\nTradingKey May 27, 2026 2:15 PM\n\n\n\n\n\n\n\n\n\n\n\nView all comments（0）\n\n\n\n",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
+      "title": "酷冷至尊与芝奇联手推出MasterDIMM AC主动散热DDR5内存（Cooler Master And G.Skill Team Up To Launch MasterDIMM AC Actively Cooled DDR5 Memory）",
+      "url": "https://wccftech.com/cooler-master-and-g-skill-team-up-to-launch-masterdimm-ac-actively-cooled-ddr5-memory/",
+      "description": "The new DDR5 memory modules will be actively cooled by a dedicated fan, ensuring lower temperatures under heavy workloads. Cooler Master and G.Skill Announce Actively Cooled DDR5 Memory Module, Bringing Integrated Fan for Next-Generation Systems If regular heatsinks weren't sufficient for you, then ",
+      "published": "Fri, 29 May 2026 11:59:16 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
       "lang": "en",
       "tags": [],
       "insights": [
-        "资本市场已将台积电的涨价权视为核心利好，定价能力的提升直接转化为估值溢价。",
-        "股价短期波动与先进制程的产能利用率和定价策略高度相关，基本面预期持续向好。"
+        "DDR5内存频率提升导致发热量剧增，主动散热方案的引入标志着高性能PC存储进入散热架构重构期。",
+        "内存厂商与散热厂商跨界合作，反映出高功耗高带宽存储对系统级热管理的依赖日益加深。"
       ],
       "actions": [
-        "芯片供应链企业可将台积电股价走势作为行业景气度的先行指标，辅助自身的产能采购与备货决策。",
-        "关注台积电法说会中对未来定价和产能利用率的指引，适时调整供应链合作节奏。"
+        "关注主动散热DDR5在高端PC及服务器市场的渗透率，评估其对传统散热配件市场的替代效应。",
+        "内存模组厂商应提前评估主动散热设计带来的结构复杂度与BOM成本增加，优化供应链协同。"
       ],
       "glossary": [
         {
-          "term": "TSM",
-          "desc": "台积电在纽约证券交易所的股票交易代码",
-          "category": "市场"
+          "term": "DDR5",
+          "desc": "第五代双倍速率同步动态随机存储器",
+          "category": "存储"
+        },
+        {
+          "term": "MasterDIMM AC",
+          "desc": "酷冷至尊与芝奇联合推出的带主动风扇散热的DDR5内存产品系列",
+          "category": "存储"
         }
       ],
       "region": "overseas",
-      "summary": "台积电股价在5月27日显著上涨3.59%，市场分析指出近期3nm涨价预期及AI需求强劲是推动股价上扬的主要因素。",
+      "summary": "酷冷至尊与芝奇合作推出带专用风扇主动散热的MasterDIMM AC DDR5内存，以解决高负载下的过热问题。",
       "tag_category": "综合",
-      "title_en": "Taiwan Semiconductor Manufacturing Co Ltd Stock (TSM) Moved Up by 3.59% on May 27: Drivers Behind the Movement"
+      "title_en": "Cooler Master And G.Skill Team Up To Launch MasterDIMM AC Actively Cooled DDR5 Memory"
     },
     {
-      "title": "FuriosaAI与博通合作构建面向智能体时代的下一代推理平台（FuriosaAI Partners with Broadcom to Build Next-generation Inference Platform for the Agentic Era）",
-      "url": "https://chiplet-marketplace.com/insights/news/furiosaai-broadcom-inference-platform-agentic-era",
-      "description": "FuriosaAI Partners with Broadcom to Build Next-generation Inference Platform for the Agentic Era\n\n# FuriosaAI Partners with Broadcom to Build Next-generation Inference Platform for the Agentic Era\n\nMOUNTAIN VIEW, Calif.-- May 27, 2026 --FuriosaAI, a builder of high-performance inference silicon, tod",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
+      "title": "《绝地潜兵2》在数月呼声后终于加入NVIDIA DLSS和AMD FSR支持，但糟糕的实现引发社区新一轮强烈反弹（Helldivers 2 Finally Deploys NVIDIA DLSS and AMD FSR After Months of Demand, But Broken Implementation Sparks Fresh Community Backlash）",
+      "url": "https://wccftech.com/helldivers-2-adds-dlss-and-fsr-broken-backlash/",
+      "description": "As promised last week, Arrowhead Games launched a new Helldivers 2 update, finally introducing support for upscalers such as NVIDIA DLSS and AMD FSR. However, the community is not happy with this update, as the implementation of all upscalers currently seems broken. The 6.2.5 update release was acco",
+      "published": "Fri, 29 May 2026 11:10:33 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
       "lang": "en",
       "tags": [],
       "insights": [
-        "AI推理市场正从单一模型响应转向多智能体协同推理，对芯片间互联和低延迟提出更高要求。",
-        "初创AI芯片公司与博通等网络互联巨头合作，是弥补封装及高速互联技术短板、提升系统级竞争力的有效路径。"
+        "游戏对AI超分辨率技术（DLSS/FSR）的集成正成为标配，但粗糙的优化不仅无法提升体验，反而会损害硬件厂商的技术口碑。",
+        "玩家对画质技术的严苛要求，倒逼游戏开发商必须与GPU厂商更深度协同，确保底层API调用的稳定性。"
       ],
       "actions": [
-        "AI推理芯片开发者应重点关注“Agentic”场景下的多芯片互联与低延迟优化设计，抢占新应用生态。",
-        "服务器厂商需提前评估FuriosaAI与博通新平台的系统兼容性与网络架构，为下一代AI服务器部署做准备。"
+        "GPU及IP厂商需加强对游戏开发商的技术支持与QA验证，防止劣质集成损害自身AI加速特性的市场声誉。",
+        "游戏开发商在引入DLSS/FSR时应进行充分的兼容性测试，避免仓促上线导致负面舆情影响销量。"
       ],
       "glossary": [
         {
-          "term": "Agentic Era",
-          "desc": "智能体时代，指AI系统能自主感知、决策和执行复杂多步任务的阶段",
-          "category": "应用"
+          "term": "NVIDIA DLSS",
+          "desc": "英伟达深度学习超级采样技术，利用AI提升游戏画质与帧率",
+          "category": "EDA/IP"
         },
         {
-          "term": "Inference Platform",
-          "desc": "推理平台，用于运行已训练好的AI模型进行预测和生成的硬件/软件系统",
-          "category": "计算"
+          "term": "AMD FSR",
+          "desc": "AMD超分辨率技术，开源的画质提升与帧率优化方案",
+          "category": "EDA/IP"
         }
       ],
       "region": "overseas",
-      "summary": "韩国AI芯片初创公司FuriosaAI宣布与博通合作，共同开发针对AI智能体（Agentic）时代的新一代推理计算平台。",
+      "summary": "《绝地潜兵2》更新终于加入了NVIDIA DLSS和AMD FSR超分辨率技术，但因技术实现存在缺陷而遭到玩家社区的强烈批评。",
       "tag_category": "设计公司",
-      "title_en": "FuriosaAI Partners with Broadcom to Build Next-generation Inference Platform for the Agentic Era"
-    },
-    {
-      "title": "塑造半导体创新的下一个时代 - SemiWiki（Engineering the Next Era of Semiconductor Innovation - SemiWiki）",
-      "url": "https://semiwiki.com/3dic/369460-engineering-the-next-era-of-semiconductor-innovation/",
-      "description": "Engineering the Next Era of Semiconductor Innovation - SemiWiki\n\nRegister/ Log In\n\nRegister/ Log In\n\nGuests have limited access. Join our community today!\n\nYou are currently viewing SemiWiki as a guest which gives you limited access to the site. To view blog comments and experience other SemiWiki fe",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "半导体创新正从单纯追求制程微缩转向系统级架构和先进封装协同优化。",
-        "面对复杂度和成本的双重攀升，行业亟需引入新的工程方法论和EDA工具来提升设计效率。"
-      ],
-      "actions": [
-        "密切关注系统级协同设计（DTCO/STCO）的最新发展动态及工具链演进。",
-        "评估现有工程流程与设计方法学，确保其能适应下一代复杂芯片的研发需求。"
-      ],
-      "glossary": [
-        {
-          "term": "SemiWiki",
-          "desc": "知名的半导体行业专业社区和资讯网站",
-          "category": "媒体"
-        }
-      ],
-      "region": "overseas",
-      "summary": "SemiWiki探讨了塑造半导体创新下一个时代的关键趋势和技术方向，强调行业需应对日益复杂的系统设计挑战。",
-      "tag_category": "综合",
-      "title_en": "Engineering the Next Era of Semiconductor Innovation - SemiWiki"
-    },
-    {
-      "title": "LG Innotek在ECTC上向全球科技巨头展示下一代半导体基板技术 - 亚洲商业新闻社（LG Innotek Showcases Next‑Generation Semiconductor Substrate Technologies to Global Big Tech Companies at ECTC - Asia Business Newswire）",
-      "url": "https://www.siamnews.net/pr-news/lg-innotek-showcases-next-generation-semiconductor-substrate-technologies-to-global-big-tech-companies-at-ectc/",
-      "description": "LG Innotek Showcases Next‑Generation Semiconductor Substrate Technologies to Global Big Tech Companies at ECTC - Asia Business Newswire\n\nSign in\n\n- Media OutReach\n- PR Newswire\n\nSign in\n\nWelcome!Log into your account\n\nyour username\n\nyour password\n\nForgot your password?\n\nPassword recovery\n\nRecover yo",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "基板技术已成为先进封装性能和可靠性的关键瓶颈，LG Innotek的发力表明消费电子巨头正向上游核心材料领域深度延伸。",
-        "全球大厂对高密度、低翘曲基板的需求激增，正在加速该领域的技术迭代与供应链重塑。"
-      ],
-      "actions": [
-        "密切关注LG Innotek在FC-BGA等高端基板上的技术突破及产能规划动向。",
-        "国内基板厂商需加快高阶产品研发与客户导入，以应对国际巨头在先进基板领域日益加剧的竞争压力。"
-      ],
-      "glossary": [
-        {
-          "term": "ECTC",
-          "desc": "电子组件与技术会议，IEEE旗下的顶级封装技术学术会议",
-          "category": "会议"
-        },
-        {
-          "term": "Substrate",
-          "desc": "基板，封装中用于承载和连接芯片的关键底层组件",
-          "category": "封装"
-        }
-      ],
-      "region": "overseas",
-      "summary": "LG Innotek在ECTC会议上向全球大型科技公司展示了其下一代半导体基板技术，旨在抢占先进封装基板市场高地。",
-      "tag_category": "综合",
-      "title_en": "LG Innotek Showcases Next‑Generation Semiconductor Substrate Technologies to Global Big Tech Companies at ECTC - Asia Business Newswire"
-    },
-    {
-      "title": "面向先进2.5D HBM封装的制造级分辨率确定性求解器精度热与翘曲分析（Deterministic, Solver-Accurate Thermal and Warpage Analysis at Manufacturing Resolution for Advanced 2.5D HBM Packages）",
-      "url": "https://semiengineering.com/deterministic-solver-accurate-thermal-and-warpage-analysis-at-manufacturing-resolution-for-advanced-2-5d-hbm-packages/",
-      "description": "Deterministic, Solver-Accurate Thermal and Warpage Analysis at Manufacturing Resolution for Advanced 2.5D HBM Packages\n\nMENU\n\nHome> Systems & Design> Deterministic, Solver-Accurate Thermal and Warpage Analysis at Manufacturing ...\n\nWHITEPAPERS\n\n# Deterministic, Solver-Accurate Thermal and Warpage An",
-      "published": "2026-05-27T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "2.5D HBM封装的热管理和翘曲控制是决定量产良率的核心痛点，传统仿真方法在制造级精度与计算速度上难以兼顾。",
-        "具备确定性且达到求解器精度的快速分析工具，将成为先进封装可制造性设计（DFM）的标配，助力良率提升。"
-      ],
-      "actions": [
-        "评估并引入具备制造级分辨率的高精度热/翘曲分析EDA工具，提升仿真效率与准确性。",
-        "在2.5D/3D封装设计早期阶段强制引入热-力协同仿真，降低后期修改成本和量产失效风险。"
-      ],
-      "glossary": [
-        {
-          "term": "2.5D HBM",
-          "desc": "2.5D高带宽内存封装，通过硅中介层将GPU与HBM紧密连接",
-          "category": "封装"
-        },
-        {
-          "term": "Warpage",
-          "desc": "翘曲，封装体在热应力作用下发生的弯曲变形，严重影响良率",
-          "category": "封装/可靠性"
-        }
-      ],
-      "region": "overseas",
-      "summary": "该文章探讨了针对先进2.5D HBM封装，在制造级分辨率下进行确定性、求解器精度的热变形和翘曲分析方法，以解决良率痛点。",
-      "tag_category": "综合",
-      "title_en": "Deterministic, Solver-Accurate Thermal and Warpage Analysis at Manufacturing Resolution for Advanced 2.5D HBM Packages"
+      "title_en": "Helldivers 2 Finally Deploys NVIDIA DLSS and AMD FSR After Months of Demand, But Broken Implementation Sparks Fresh Community Backlash"
     }
   ],
   "stats": {
-    "total_raw": 166,
-    "after_dedup": 140,
+    "total_raw": 26,
+    "after_dedup": 5,
     "sources": {
       "Serper": 1,
-      "Exa": 41,
-      "RSS": 64,
-      "Brave": 34
+      "RSS": 4
     }
   },
   "code_version": "",
