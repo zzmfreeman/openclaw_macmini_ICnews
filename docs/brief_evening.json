@@ -1,6 +1,6 @@
 {
-  "version": "v20260528-2003",
-  "generatedAt": "2026-05-28T20:03:00+08:00",
+  "version": "v20260529-2003",
+  "generatedAt": "2026-05-29T20:03:00+08:00",
   "period": "evening",
   "commit": "",
   "glossary_list": [
@@ -20,44 +20,39 @@
       "category": "封装"
     },
     {
-      "term": "EUV",
-      "desc": "极紫外光刻技术，用于7nm及以下先进制程芯片制造的关键设备技术",
-      "category": "设备"
+      "term": "IPO",
+      "desc": "首次公开募股，指企业首次向公众投资者发行股票。",
+      "category": "金融"
     },
     {
-      "term": "14A",
-      "desc": "14埃米（1.4nm）制程节点，代表下一代先进半导体制造工艺",
-      "category": "制程"
+      "term": "Anthropic",
+      "desc": "知名AI初创公司，开发了Claude大模型，强调AI安全与对齐。",
+      "category": "AI"
     },
     {
-      "term": "Tau scaling technology",
-      "desc": "华为提出的晶体管缩放技术，旨在不依赖EUV的情况下提升晶体管密度",
+      "term": "S-1",
+      "desc": "美国SEC要求的IPO注册声明文件，包含公司业务、财务及风险等详细信息。",
+      "category": "金融"
+    },
+    {
+      "term": "IP data",
+      "desc": "知识产权数据，通常指专利申请与授权相关统计，反映技术创新活跃度。",
       "category": "EDA/IP"
     },
     {
-      "term": "NASDAQ:TSLA",
-      "desc": "纳斯达克交易所特斯拉股票代码",
-      "category": "综合"
-    },
-    {
       "term": "STM32 MP235",
-      "desc": "意法半导体推出的一款微处理器（MPU），适用于高性能嵌入式和边缘AI应用",
-      "category": "芯片/IP"
+      "desc": "意法半导体推出的微处理器（MPU），具备多核架构，面向高性能嵌入式应用。",
+      "category": "芯片产品"
     },
     {
       "term": "QS module",
-      "desc": "一种标准化的嵌入式计算模块规格，旨在提供高集成度和快速部署能力",
-      "category": "综合"
+      "desc": "四核系统模块，将处理器、内存等核心组件集成于单一小尺寸模块，便于快速系统设计。",
+      "category": "硬件"
     },
     {
-      "term": "Digital CODE",
-      "desc": "数字代码，通常指包含数字内容访问权限的实体媒介或验证码",
-      "category": "综合"
-    },
-    {
-      "term": "Israeli",
-      "desc": "以色列人/以色列的，涉及中东地缘政治身份认同",
-      "category": "综合"
+      "term": "Model Releases",
+      "desc": "模型发布，指AI基础大模型或行业微调模型的正式上线与开源/闭源推出。",
+      "category": "AI"
     }
   ],
   "topic_pulse": [
@@ -66,126 +61,150 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS产能扩张的讨论热度有所回落，市场正从前期的狂热预期转向关注实际产能释放与订单消化节奏。情绪趋于理性观望。"
+      "summary": "社区对该话题的关注度有所降温，近期缺乏重大产能扩张或技术突破消息。讨论焦点从早期的产能紧缺焦虑转向对良率提升及长期供需平衡的理性评估。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM话题热度下降，随着主流厂商产能规划逐步明朗，社区焦点转向下一代HBM4的技术细节与量产时间表。短期供需焦虑情绪缓解。"
+      "summary": "热度出现降温迹象，随着英伟达财报落地，短期HBM抢货情绪有所缓解。社区讨论逐渐从规格竞争转向关注下一代HBM4的成本控制与实际部署进度。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "尽管华为宣布Tau缩放技术引发短暂关注，但整体关于中国Fab先进制程的讨论热度仍在降温，业界对非EUV路线实现14A级别密度普遍持谨慎观望态度。"
+      "summary": "话题热度下降，近期无重大制程突破或新Fab投产消息刺激。社区情绪趋于观望，讨论主要围绕现有产能利用率及成熟制程的盈利能力展开。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP板块讨论热度下降，社区正等待更多实质性的技术突破和商业落地案例，而非单纯的政策预期。情绪偏于耐心等待。"
+      "summary": "关注度降温，缺乏新的本土替代突破性进展或政策强刺激。讨论热点集中在特定点工具的局部补短板以及现有国产工具在实际项目中的验证反馈。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT话题热度走低，先进封装产能紧缺的焦虑情绪缓解，社区讨论转向传统封装的周期性复苏与价格竞争。"
+      "summary": "热度降温，传统封测板块缺乏事件驱动。社区讨论重心偏向先进封装与传统OSAT的业务协同，以及OSAT在价格战下的利润承压现状。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制话题热度回落，虽然华为EUV断供事件仍是背景噪音，但社区已对常态化制裁产生适应性，讨论重心转向合规应对与供应链重塑。"
+      "summary": "话题热度回落，近期无新增重磅制裁清单或规则调整。社区情绪暂趋平稳，讨论多聚焦于现有管制规则下的合规应对及灰色供应链的长期演变。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "NVIDIA及AI芯片讨论热度降温，市场对短期算力需求的爆发已有充分预期，当前缺乏新的催化剂，社区情绪趋于平稳。"
+      "summary": "热度降温，英伟达财报发布后的信息消化期导致讨论暂歇。社区焦点正从短期业绩转向其下一代架构路线图及非英伟达阵营AI芯片的竞争潜力。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化讨论热度下降，随着部分国产替代产品完成验证进入产线，社区关注点从“能否替代”转向“良率与稳定性表现”。"
+      "summary": "关注度降温，板块进入常态化推进期，缺乏标志性国产替代里程碑事件。讨论重点转向特定前道工艺设备的客户验证进度及国产材料的良率爬坡情况。"
     }
   ],
   "items": [
     {
-      "title": "受美国制裁无法使用EUV，华为正重新定义摩尔定律——但顶级芯片分析师并不买账（Cut Off From EUV By US Sanctions, Huawei Is Redefining Moore’s Law Itself — And A Top Chip Analyst Isn’t Buying It）",
-      "url": "https://wccftech.com/cut-off-from-euv-by-us-sanctions-huawei-is-redefining-moores-law-itself-and-a-top-chip-analyst-isnt-buying-it/",
-      "description": "After Huawei made a big announcement earlier this week about its Tau scaling technology, through which it aims to achieve a transistor density similar to the 14 Angstrom (14A) manufacturing process technologies from leading chip manufacturers such as TSMC and Intel, semiconductor analyst Dr. Ian Cut",
-      "published": "Wed, 27 May 2026 13:39:17 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "在缺乏EUV光刻机的情况下，华为试图通过架构或技术创新来绕过物理限制，这反映了国内先进制程发展的另类突围路径。",
-        "顶级分析师的质疑表明，业界对非EUV路线实现14A级别密度的可行性和量产能力仍持保守态度，技术突破需经市场与良率验证。"
-      ],
-      "actions": [
-        "密切关注华为Tau缩放技术的后续技术细节披露，评估其对国内代工厂和EDA/IP生态的实际拉动效应。",
-        "警惕非EUV先进制程量产的不确定性，在供应链规划中保持多源验证，避免过度依赖单一技术路线。"
-      ],
-      "glossary": [
-        {
-          "term": "EUV",
-          "desc": "极紫外光刻技术，用于7nm及以下先进制程芯片制造的关键设备技术",
-          "category": "设备"
-        },
-        {
-          "term": "14A",
-          "desc": "14埃米（1.4nm）制程节点，代表下一代先进半导体制造工艺",
-          "category": "制程"
-        },
-        {
-          "term": "Tau scaling technology",
-          "desc": "华为提出的晶体管缩放技术，旨在不依赖EUV的情况下提升晶体管密度",
-          "category": "EDA/IP"
-        }
-      ],
-      "region": "overseas",
-      "summary": "华为本周宣布了其Tau缩放技术，旨在不依赖EUV的情况下实现类似于14A（14埃米）工艺的晶体管密度，但顶级芯片分析师对该路线的可行性表示质疑。",
-      "tag_category": "EDA/IP",
-      "title_en": "Cut Off From EUV By US Sanctions, Huawei Is Redefining Moore’s Law Itself — And A Top Chip Analyst Isn’t Buying It"
-    },
-    {
-      "title": "特斯拉股票因欧洲67%销量大增及SpaceX重磅IPO传闻而飙升（Tesla Stock Surges On 67% European Boom, Blockbuster SpaceX IPO Rumors - Tesla (NASDAQ:TSLA) - Benzinga）",
-      "url": "https://www.benzinga.com/markets/tech/26/05/52813754/ev-sales-skyrocket-tesla-stock-surges-on-67-european-boom-blockbuster-spacex-ipo-rumors",
-      "description": "Tesla (TSLA) stock rises as a 67% European EV sales explosion collides with rumors of an historic merger with a $1.25T SpaceX. See why RBC Capital targets a bullish $475 target in 2026.",
+      "title": "这起AI IPO可能成为2026年最令人期待的芯片股（This AI IPO Could Be the Most Exciting Chip Stock of 2026 | The Motley Fool）",
+      "url": "https://www.fool.com/investing/2026/05/28/this-ai-ipo-could-be-the-most-exciting-chip-stock/",
+      "description": "This AI chip stock has the IPO hype, the OpenAI deal, and is challenging Nvidia, but one key risk could decide whether the company becomes a breakout AI stock or a brutal lesson.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "欧洲电动车市场的爆发性增长将进一步拉动车规级芯片的需求，尤其是自动驾驶处理器和功率半导体。",
-        "SpaceX与特斯拉的传闻虽属资本市场炒作，但航天与汽车的跨界融合暗示了高端传感器和通信芯片的新应用场景。"
+        "AI芯片初创公司通过绑定头部大模型厂商（如OpenAI）来建立市场壁垒，是对抗英伟达霸权的新策略。",
+        "IPO热度与基本面风险并存，资本市场对AI芯片的估值正从盲目狂热转向审视核心商业落地能力。"
       ],
       "actions": [
-        "关注欧洲新能源车销量数据，提前锁定车规级MCU和功率器件的产能配额。",
-        "跟踪航天级半导体器件的商业化降维应用趋势，评估其在特种汽车芯片市场的潜力。"
+        "关注该IPO公司的招股书细节，特别是其与OpenAI合作的排他性条款及订单依赖度风险。",
+        "评估该新入局者对英伟达细分市场份额的潜在侵蚀，提前调整供应链备选方案。"
       ],
       "glossary": [
         {
-          "term": "NASDAQ:TSLA",
-          "desc": "纳斯达克交易所特斯拉股票代码",
-          "category": "综合"
+          "term": "IPO",
+          "desc": "首次公开募股，指企业首次向公众投资者发行股票。",
+          "category": "金融"
         }
       ],
       "region": "overseas",
-      "summary": "特斯拉欧洲电动车销量暴增67%，同时伴随SpaceX历史性合并传闻，RBC Capital给出2026年475美元的看涨目标价。",
+      "summary": "一家挑战英伟达的AI芯片公司凭借OpenAI合作和IPO热度备受关注，但一个关键风险将决定其能否成为爆款股或惨痛教训。",
       "tag_category": "EDA/IP",
-      "title_en": "Tesla Stock Surges On 67% European Boom, Blockbuster SpaceX IPO Rumors - Tesla (NASDAQ:TSLA) - Benzinga"
+      "title_en": "This AI IPO Could Be the Most Exciting Chip Stock of 2026 | The Motley Fool"
+    },
+    {
+      "title": "今日科技股：Anthropic超越OpenAI成为全球最具价值AI初创公司（Tech stocks today: Anthropic overtakes OpenAI as world's most valuable AI startup）",
+      "url": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-anthropic-overtakes-openai-as-worlds-most-valuable-ai-startup-100000319.html",
+      "description": "Tech stocks rose to start the holiday-shortened week as investors looked to the latest mega IPOs and continued to assess what Nvidia's latest earnings mean for the artificial intelligence trade.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "大模型厂商的估值排位更迭（Anthropic超越OpenAI）反映出资本对AI底层模型安全性与商业化路径的偏好正在发生微妙变化。",
+        "英伟达财报的后续影响仍在发酵，其算力需求指引直接决定了上游半导体供应链的短期景气度。"
+      ],
+      "actions": [
+        "密切追踪Anthropic的算力采购倾向（如是否采用非英伟达架构芯片），以捕捉潜在的供应链切换红利。",
+        "结合英伟达财报指引，重新审视当前AI算力相关芯片与存储的库存水位及备货周期。"
+      ],
+      "glossary": [
+        {
+          "term": "Anthropic",
+          "desc": "知名AI初创公司，开发了Claude大模型，强调AI安全与对齐。",
+          "category": "AI"
+        }
+      ],
+      "region": "overseas",
+      "summary": "科技股在假期缩短的一周初上涨，投资者关注最新大型IPO，并持续评估英伟达最新财报对AI交易的影响，同时Anthropic估值反超OpenAI。",
+      "tag_category": "EDA/IP",
+      "title_en": "Tech stocks today: Anthropic overtakes OpenAI as world's most valuable AI startup"
+    },
+    {
+      "title": "日本与韩国IP数据出现分化，SpaceX IPO在S-1文件后遭遇电动汽车问题，竞争对手蓝色起源火箭爆炸（Divergence in JP/KR IP data, SpaceX IPO runs into EV issues post S-1, while competitor Blue origin's | FXStreet）",
+      "url": "https://www.fxstreet.com/analysis/divergence-in-jp-kr-ip-data-spacex-ipo-runs-into-ev-issues-post-s-1-while-competitor-blue-origins-202605290551",
+      "description": "Asia Market Update: Divergence in JP/KR IP data; SpaceX IPO runs into EV issues post S-1, while competitor Blue Origin’s rocket explodes.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "日韩IP数据的分化暗示两国在半导体等高附加值产业的创新动能与专利布局策略正在拉开差距，可能影响后续的区域产能分配。",
+        "跨界科技巨头（如SpaceX涉足EV）的复杂业务结构在IPO审查中易暴露短板，多元化扩张的风险正在显现。"
+      ],
+      "actions": [
+        "深入分析日韩IP数据分化的具体领域（如半导体工艺、材料专利），评估对东亚供应链格局的长期影响。",
+        "对跨界科技公司的IPO保持审慎，关注其非核心业务（如SpaceX的EV业务）对核心研发资源的挤占风险。"
+      ],
+      "glossary": [
+        {
+          "term": "S-1",
+          "desc": "美国SEC要求的IPO注册声明文件，包含公司业务、财务及风险等详细信息。",
+          "category": "金融"
+        },
+        {
+          "term": "IP data",
+          "desc": "知识产权数据，通常指专利申请与授权相关统计，反映技术创新活跃度。",
+          "category": "EDA/IP"
+        }
+      ],
+      "region": "overseas",
+      "summary": "亚洲市场动态：日本与韩国的知识产权数据出现分化；SpaceX提交S-1文件后的IPO进程遇到电动汽车相关问题，同时竞争对手蓝色起源的火箭发生爆炸。",
+      "tag_category": "EDA/IP",
+      "title_en": "Divergence in JP/KR IP data, SpaceX IPO runs into EV issues post S-1, while competitor Blue origin's | FXStreet"
     },
     {
       "title": "Strategic Embedded推出QSMP-2030——基于STM32 MP235的QS模块（Strategic Embedded launches QSMP-2030 — STM32 MP235-based QS module – Strategic Embedded）",
@@ -197,96 +216,67 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "基于STM32 MP235的模块化产品推出，表明主流微处理器生态正在向更高性能的边缘AI和工业控制场景渗透。",
-        "模块化设计（QS模块）能显著缩短客户开发周期，加速嵌入式系统的迭代更新与落地。"
+        "基于STM32 MP235的模块化产品发布，标志着微处理器（MPU）在工业与嵌入式边缘计算领域的性能需求正在持续攀升。",
+        "模块化（QS module）设计能显著缩短客户开发周期，是当前嵌入式芯片供应商提升粘性的重要产品策略。"
       ],
       "actions": [
-        "评估STM32 MP235模块在工业控制和边缘计算项目中的适用性，考虑引入以加快产品上市时间。",
-        "关注意法半导体MPU路线图的演进，提前规划基于新架构的软硬件兼容设计。"
+        "评估STM32 MP235平台在边缘AI推理及工业控制场景的适用性，考虑引入该模块加速原型开发。",
+        "关注嵌入式模块化市场的竞争动态，对比同类MPU模块的性价比与生态支持，优化选型库。"
       ],
       "glossary": [
         {
           "term": "STM32 MP235",
-          "desc": "意法半导体推出的一款微处理器（MPU），适用于高性能嵌入式和边缘AI应用",
-          "category": "芯片/IP"
+          "desc": "意法半导体推出的微处理器（MPU），具备多核架构，面向高性能嵌入式应用。",
+          "category": "芯片产品"
         },
         {
           "term": "QS module",
-          "desc": "一种标准化的嵌入式计算模块规格，旨在提供高集成度和快速部署能力",
-          "category": "综合"
+          "desc": "四核系统模块，将处理器、内存等核心组件集成于单一小尺寸模块，便于快速系统设计。",
+          "category": "硬件"
         }
       ],
       "region": "overseas",
-      "summary": "Strategic Embedded发布了基于意法半导体STM32 MP235微处理器的QSMP-2030 QS模块，面向嵌入式计算应用。",
+      "summary": "Strategic Embedded发布了基于意法半导体STM32 MP235微处理器的QSMP-2030四核系统模块，旨在为嵌入式应用提供更高性能的处理能力。",
       "tag_category": "综合",
       "title_en": "Strategic Embedded launches QSMP-2030 — STM32 MP235-based QS module – Strategic Embedded"
     },
     {
-      "title": "LE SSERAFIM · Pureflow pt. I (数字代码+周边) [迷你相机黑色版] (2026)（LE SSERAFIM · Pureflow pt. I (Digital CODE + Merch) [Mini Camera Black edition] (2026)）",
-      "url": "https://imusic.com.cn/music/8800365019714/le-sserafim-2026-pureflow-pt-i-digital-code-merch",
-      "description": "LE SSERAFIM · Pureflow pt. I (Digital Code + Merch) [Mini Camera Black edition] (2026)\n\n如封面与标题不符，以标题为准\n\n分享给好友:\n\n# LE SSERAFIM Pureflow pt. I LE SSERAFIM Mini Camera Black edition\n\n缺货商品\n\n---\n\n商品到货时接收邮件提醒\n\n到货通知\n\nDo you have a profile?登录\n\n顾客评价：\n\n---\n\n添加至iMusic心愿单\n\n新建心愿单...\n\n添加\n\n#### 其他版本：\n\n- Digital Co",
+      "title": "2026年5月30日AI新闻——模型发布、公告与AI动态更新（AI News May 30 2026 — Model Releases, Announcements and AI Updates）",
+      "url": "https://aitoolsrecap.com/Blog/ai-news-may-30-2026",
+      "description": "AI News May 30 2026 — Model Releases, Announcements and AI Updates\n\nFRI, MAY 29, 2026\n\nLog In| Join Us ★\n\nIndependent · In‑Depth · Unsponsored\n\nThe Journal of Artificial Intelligence Tools\n\nLog In Join Us ★\n\n✎ General\n\n# AI News: May 30, 2026 — Latest Model Releases and AI Announcements\n\nYour daily ",
       "published": "2026-05-30T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "娱乐周边产品中嵌入“数字代码”和“迷你相机”硬件，反映了消费电子微型化与IP跨界融合的新商业模式。",
-        "热门IP周边的缺货现象提示了微型传感器和定制化小批量电子制造的供应链响应挑战。"
+        "大模型密集发布期通常伴随算力需求的脉冲式上升，底层芯片与存储供应链需警惕短期供需失衡。",
+        "AI应用生态的快速迭代要求硬件架构具备更高的灵活性与适配性，定制化AI芯片迎来窗口期。"
       ],
       "actions": [
-        "关注微型摄像头模组及定制化存储/解码芯片在泛娱乐消费市场的增量需求。",
-        "评估小批量、快返工的柔性制造能力，以应对跨界IP周边产品的突发性订单。"
+        "梳理近期发布的大模型参数规模与推理需求，预判对HBM及先进封装产能的边际拉动效应。",
+        "跟踪AI模型演进对硬件特性的新要求（如长上下文窗口对内存容量的依赖），提前规划芯片产品定义。"
       ],
       "glossary": [
         {
-          "term": "Digital CODE",
-          "desc": "数字代码，通常指包含数字内容访问权限的实体媒介或验证码",
-          "category": "综合"
+          "term": "Model Releases",
+          "desc": "模型发布，指AI基础大模型或行业微调模型的正式上线与开源/闭源推出。",
+          "category": "AI"
         }
       ],
       "region": "overseas",
-      "summary": "韩国流行音乐组合LE SSERAFIM推出包含数字代码和迷你相机黑色版周边的专辑商品，目前处于缺货状态。",
+      "summary": "该新闻汇总了2026年5月30日前后AI领域的最新大模型发布、官方公告及行业动态更新，为从业者提供全局视角。",
       "tag_category": "综合",
-      "title_en": "LE SSERAFIM · Pureflow pt. I (Digital CODE + Merch) [Mini Camera Black edition] (2026)"
-    },
-    {
-      "title": "畅销书作家将一个小角色认定为以色列人，部分粉丝正在取消订单（A best-selling novelist identified a minor character as Israeli. Some fans are canceling their orders. | The Pittsburgh Jewish Chronicle）",
-      "url": "https://jewishchronicle.timesofisrael.com/a-best-selling-novelist-identified-a-minor-character-as-israeli-some-fans-are-canceling-their-orders/",
-      "description": "A best-selling novelist identified a minor character as Israeli. Some fans are canceling their orders. | The Pittsburgh Jewish Chronicle\n\nhome page\n\nR.F. Kuang attends the Girls Write Now Awards 2024 at DVF Studio on Oct. 10, 2024, in New York City. (JP Yim/Getty Images for Girls Write Now)\n\n(JTA) —",
-      "published": "2026-05-31T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "文化产品中的地缘政治敏感元素会直接影响消费者行为和订单履约，这种情绪外溢也可能影响跨国科技企业的品牌声誉。",
-        "订单取消现象表明，在全球化背景下，供应链和销售端需对地缘政治和文化冲突的潜在风险保持高度敏感。"
-      ],
-      "actions": [
-        "在涉及跨国销售和供应链布局时，加强地缘政治和文化敏感度的风险评估，避免触碰争议性议题。",
-        "建立订单波动预警机制，对因社会事件引发的突发性退单做好库存和物流的弹性调整准备。"
-      ],
-      "glossary": [
-        {
-          "term": "Israeli",
-          "desc": "以色列人/以色列的，涉及中东地缘政治身份认同",
-          "category": "综合"
-        }
-      ],
-      "region": "overseas",
-      "summary": "畅销书作家R.F. Kuang将书中一个小角色设定为以色列人，引发部分粉丝不满并取消购书订单。",
-      "tag_category": "综合",
-      "title_en": "A best-selling novelist identified a minor character as Israeli. Some fans are canceling their orders. | The Pittsburgh Jewish Chronicle"
+      "title_en": "AI News May 30 2026 — Model Releases, Announcements and AI Updates"
     }
   ],
   "stats": {
-    "total_raw": 99,
-    "after_dedup": 91,
+    "total_raw": 105,
+    "after_dedup": 95,
     "sources": {
-      "Exa": 12,
+      "Exa": 13,
       "RSS": 65,
-      "Brave": 14
+      "Brave": 17
     }
   },
   "code_version": "",

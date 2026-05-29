@@ -1,7 +1,7 @@
 {
-  "version": "v20260529-1303",
-  "generatedAt": "2026-05-29T13:03:00+08:00",
-  "period": "midday",
+  "version": "v20260529-2003",
+  "generatedAt": "2026-05-29T20:03:00+08:00",
+  "period": "evening",
   "commit": "",
   "glossary_list": [
     {
@@ -20,39 +20,39 @@
       "category": "封装"
     },
     {
-      "term": "SoC",
-      "desc": "系统级芯片，将完整计算系统集成在单一芯片上",
-      "category": "芯片架构"
-    },
-    {
-      "term": "Compound Semiconductor",
-      "desc": "化合物半导体，由两种或以上元素组成的半导体材料，常用于光通信和高频器件",
-      "category": "材料"
-    },
-    {
-      "term": "Visual Photonics Epitaxy",
-      "desc": "联亚光电，台湾化合物半导体晶圆外延生长供应商",
-      "category": "公司"
+      "term": "IPO",
+      "desc": "首次公开募股，指企业首次向公众投资者发行股票。",
+      "category": "金融"
     },
     {
       "term": "Anthropic",
-      "desc": "一家专注于AI安全和研究的美国AI初创公司",
-      "category": "公司"
+      "desc": "知名AI初创公司，开发了Claude大模型，强调AI安全与对齐。",
+      "category": "AI"
     },
     {
-      "term": "Semis",
-      "desc": "半导体板块/公司（Semiconductors的简写）",
-      "category": "市场"
+      "term": "S-1",
+      "desc": "美国SEC要求的IPO注册声明文件，包含公司业务、财务及风险等详细信息。",
+      "category": "金融"
     },
     {
-      "term": "CXMT",
-      "desc": "长鑫存储，中国最大的本土DRAM芯片制造商",
-      "category": "公司"
+      "term": "IP data",
+      "desc": "知识产权数据，通常指专利申请与授权相关统计，反映技术创新活跃度。",
+      "category": "EDA/IP"
     },
     {
-      "term": "DRAM",
-      "desc": "动态随机存取存储器，常见的主内存类型",
-      "category": "存储"
+      "term": "STM32 MP235",
+      "desc": "意法半导体推出的微处理器（MPU），具备多核架构，面向高性能嵌入式应用。",
+      "category": "芯片产品"
+    },
+    {
+      "term": "QS module",
+      "desc": "四核系统模块，将处理器、内存等核心组件集成于单一小尺寸模块，便于快速系统设计。",
+      "category": "硬件"
+    },
+    {
+      "term": "Model Releases",
+      "desc": "模型发布，指AI基础大模型或行业微调模型的正式上线与开源/闭源推出。",
+      "category": "AI"
     }
   ],
   "topic_pulse": [
@@ -61,124 +61,90 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "社区对CoWoS/先进封装的讨论热度降温，近期缺乏引爆话题的新动态，投资者与从业者多处于观望状态。"
+      "summary": "社区对该话题的关注度有所降温，近期缺乏重大产能扩张或技术突破消息。讨论焦点从早期的产能紧缺焦虑转向对良率提升及长期供需平衡的理性评估。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度回落，随着前期产能扩张预期已被消化，社区暂无新的技术突破或订单传闻刺激讨论。"
+      "summary": "热度出现降温迹象，随着英伟达财报落地，短期HBM抢货情绪有所缓解。社区讨论逐渐从规格竞争转向关注下一代HBM4的成本控制与实际部署进度。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "中国Fab与先进制程讨论暂遇冷，缺乏近期重大制程突破或建厂消息，社区情绪趋于平静。"
+      "summary": "话题热度下降，近期无重大制程突破或新Fab投产消息刺激。社区情绪趋于观望，讨论主要围绕现有产能利用率及成熟制程的盈利能力展开。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP板块降温，在无新政策刺激或重磅产品发布的情况下，社区关注度短期转移。"
+      "summary": "关注度降温，缺乏新的本土替代突破性进展或政策强刺激。讨论热点集中在特定点工具的局部补短板以及现有国产工具在实际项目中的验证反馈。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT话题热度下降，行业进入平稳期，社区缺乏关于先进封装产能紧缺或价格波动的新讨论。"
+      "summary": "热度降温，传统封测板块缺乏事件驱动。社区讨论重心偏向先进封装与传统OSAT的业务协同，以及OSAT在价格战下的利润承压现状。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁讨论热度降温，近期无新增重大制裁清单或政策传闻，社区紧张情绪有所缓解。"
+      "summary": "话题热度回落，近期无新增重磅制裁清单或规则调整。社区情绪暂趋平稳，讨论多聚焦于现有管制规则下的合规应对及灰色供应链的长期演变。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片与英伟达话题热度回落，财报季后的情绪消化完毕，社区暂无新的算力需求爆发点引发热议。"
+      "summary": "热度降温，英伟达财报发布后的信息消化期导致讨论暂歇。社区焦点正从短期业绩转向其下一代架构路线图及非英伟达阵营AI芯片的竞争潜力。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化讨论降温，在缺乏新验证订单或国产替代重大进展的刺激下，社区讨论趋于沉寂。"
+      "summary": "关注度降温，板块进入常态化推进期，缺乏标志性国产替代里程碑事件。讨论重点转向特定前道工艺设备的客户验证进度及国产材料的良率爬坡情况。"
     }
   ],
   "items": [
     {
-      "title": "NASA太空计算突破为未来任务提供动力（《NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs》）",
-      "url": "https://www.techbriefs.com/component/content/article/55244-nasas-space-computing-breakthrough-powers-future-missions",
-      "description": "NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs\n\nElectronics & Sensors INSIDER\n\nNASA’s new processor fits in your hand, delivers full system-on-a-chip power, and is built to survive deep space with far greater speed than current spacecraft technology. Credit: NASA/JPL-Caltec",
-      "published": "2026-06-01T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "太空级抗辐射SoC的需求正在增长，航天计算正向高集成度、低功耗方向演进。",
-        "商业航天和卫星互联网的爆发将带动特种处理器及抗辐射EDA/IP的市场需求。"
-      ],
-      "actions": [
-        "关注抗辐射芯片及特种SoC设计领域的IP授权与EDA工具机会。",
-        "评估商业航天客户对高可靠性半导体供应链的潜在需求。"
-      ],
-      "glossary": [
-        {
-          "term": "SoC",
-          "desc": "系统级芯片，将完整计算系统集成在单一芯片上",
-          "category": "芯片架构"
-        }
-      ],
-      "region": "overseas",
-      "summary": "NASA推出新型掌上尺寸处理器，具备完整的系统级芯片（SoC）能力，专为未来太空任务设计。",
-      "tag_category": "EDA/IP",
-      "title_en": "NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs"
-    },
-    {
-      "title": "出口管制给AI光通信供应链蒙上阴影（《Export controls cast a shadow over AI's optical communications supply chain》）",
-      "url": "https://www.digitimes.com/newsshow/article.asp?datePublish=2026/05/28&pages=pd&seq=221",
-      "description": "The Taiwanese semiconductor materials company Visual Photonics Epitaxy, a supplier of compound semiconductor wafers used in optical communications, said demand tied to artificial intelligence data centers was accelerating rapidly as the industry prepares for the transition from 800-gigabit ...",
+      "title": "这起AI IPO可能成为2026年最令人期待的芯片股（This AI IPO Could Be the Most Exciting Chip Stock of 2026 | The Motley Fool）",
+      "url": "https://www.fool.com/investing/2026/05/28/this-ai-ipo-could-be-the-most-exciting-chip-stock/",
+      "description": "This AI chip stock has the IPO hype, the OpenAI deal, and is challenging Nvidia, but one key risk could decide whether the company becomes a breakout AI stock or a brutal lesson.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "AI数据中心对高速光通信的需求激增，推动了化合物半导体晶圆的增长。",
-        "地缘政治和出口管制正成为光通信及化合物半导体供应链的最大风险，可能重塑产能布局。"
+        "AI芯片初创公司通过绑定头部大模型厂商（如OpenAI）来建立市场壁垒，是对抗英伟达霸权的新策略。",
+        "IPO热度与基本面风险并存，资本市场对AI芯片的估值正从盲目狂热转向审视核心商业落地能力。"
       ],
       "actions": [
-        "评估光通信芯片及化合物半导体材料的出口合规风险，寻找替代供应商。",
-        "关注台湾化合物半导体供应商的产能动向及合规调整。"
+        "关注该IPO公司的招股书细节，特别是其与OpenAI合作的排他性条款及订单依赖度风险。",
+        "评估该新入局者对英伟达细分市场份额的潜在侵蚀，提前调整供应链备选方案。"
       ],
       "glossary": [
         {
-          "term": "Compound Semiconductor",
-          "desc": "化合物半导体，由两种或以上元素组成的半导体材料，常用于光通信和高频器件",
-          "category": "材料"
-        },
-        {
-          "term": "Visual Photonics Epitaxy",
-          "desc": "联亚光电，台湾化合物半导体晶圆外延生长供应商",
-          "category": "公司"
+          "term": "IPO",
+          "desc": "首次公开募股，指企业首次向公众投资者发行股票。",
+          "category": "金融"
         }
       ],
       "region": "overseas",
-      "summary": "台湾半导体材料公司联亚光电表示，AI数据中心相关的化合物半导体晶圆需求强劲，但出口管制政策给光通信供应链带来了不确定性。",
-      "tag_category": "综合",
-      "title_en": "Export controls cast a shadow over AI's optical communications supply chain"
+      "summary": "一家挑战英伟达的AI芯片公司凭借OpenAI合作和IPO热度备受关注，但一个关键风险将决定其能否成为爆款股或惨痛教训。",
+      "tag_category": "EDA/IP",
+      "title_en": "This AI IPO Could Be the Most Exciting Chip Stock of 2026 | The Motley Fool"
     },
     {
-      "title": "今日科技股：Anthropic超越OpenAI成为全球最具价值AI初创企业（《Tech stocks today: Anthropic overtakes OpenAI as world's most valuable AI startup》）",
+      "title": "今日科技股：Anthropic超越OpenAI成为全球最具价值AI初创公司（Tech stocks today: Anthropic overtakes OpenAI as world's most valuable AI startup）",
       "url": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-anthropic-overtakes-openai-as-worlds-most-valuable-ai-startup-100000319.html",
       "description": "Tech stocks rose to start the holiday-shortened week as investors looked to the latest mega IPOs and continued to assess what Nvidia's latest earnings mean for the artificial intelligence trade.",
       "published": "",
@@ -187,94 +153,128 @@
       "lang": "en",
       "tags": [],
       "insights": [
-        "AI大模型领域的资本竞争白热化，底层算力（如英伟达）的财报表现直接左右上层应用公司的估值逻辑。",
-        "Anthropic估值反超表明市场对AI安全与底层模型架构的差异化路线给予更高溢价。"
+        "大模型厂商的估值排位更迭（Anthropic超越OpenAI）反映出资本对AI底层模型安全性与商业化路径的偏好正在发生微妙变化。",
+        "英伟达财报的后续影响仍在发酵，其算力需求指引直接决定了上游半导体供应链的短期景气度。"
       ],
       "actions": [
-        "密切关注英伟达等算力龙头财报释放的AI资本开支信号，以判断下游初创企业的融资热度。",
-        "评估Anthropic等新晋AI巨头对定制AI芯片（如TPU/自研ASIC）的潜在采购需求。"
+        "密切追踪Anthropic的算力采购倾向（如是否采用非英伟达架构芯片），以捕捉潜在的供应链切换红利。",
+        "结合英伟达财报指引，重新审视当前AI算力相关芯片与存储的库存水位及备货周期。"
       ],
       "glossary": [
         {
           "term": "Anthropic",
-          "desc": "一家专注于AI安全和研究的美国AI初创公司",
-          "category": "公司"
+          "desc": "知名AI初创公司，开发了Claude大模型，强调AI安全与对齐。",
+          "category": "AI"
         }
       ],
       "region": "overseas",
-      "summary": "随着投资者关注最新大型IPO并持续评估英伟达财报对AI交易的影响，科技股上涨，Anthropic的估值已超越OpenAI。",
+      "summary": "科技股在假期缩短的一周初上涨，投资者关注最新大型IPO，并持续评估英伟达最新财报对AI交易的影响，同时Anthropic估值反超OpenAI。",
       "tag_category": "EDA/IP",
       "title_en": "Tech stocks today: Anthropic overtakes OpenAI as world's most valuable AI startup"
     },
     {
-      "title": "AI芯片繁荣推动2026年历史性市场反弹（《AI Chip Boom Drives Historic Market Rally in 2026 Ahead》）",
-      "url": "https://fintech.tv/ai-chip-boom-drives-historic-market-rally-as-semiconductor-index-surges-nearly-80-in-2026/",
-      "description": "AI Chip Boom lifts markets as semis surge nearly 80% in 2026. Read Steven Schoenfeld’s take on risks, IPOs, and investor caution today.",
+      "title": "日本与韩国IP数据出现分化，SpaceX IPO在S-1文件后遭遇电动汽车问题，竞争对手蓝色起源火箭爆炸（Divergence in JP/KR IP data, SpaceX IPO runs into EV issues post S-1, while competitor Blue origin's | FXStreet）",
+      "url": "https://www.fxstreet.com/analysis/divergence-in-jp-kr-ip-data-spacex-ipo-runs-into-ev-issues-post-s-1-while-competitor-blue-origins-202605290551",
+      "description": "Asia Market Update: Divergence in JP/KR IP data; SpaceX IPO runs into EV issues post S-1, while competitor Blue Origin’s rocket explodes.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "AI芯片的强劲需求正重塑半导体行业的周期性，预计2026年将迎来超常规的增长峰值。",
-        "在历史性反弹预期下，市场隐含的产能过剩与地缘风险依然需要高度警惕。"
+        "日韩IP数据的分化暗示两国在半导体等高附加值产业的创新动能与专利布局策略正在拉开差距，可能影响后续的区域产能分配。",
+        "跨界科技巨头（如SpaceX涉足EV）的复杂业务结构在IPO审查中易暴露短板，多元化扩张的风险正在显现。"
       ],
       "actions": [
-        "提前布局2026年AI芯片产能扩张相关的设备与材料供应链。",
-        "在乐观预期中保持风险对冲，关注半导体板块IPO带来的估值波动与流动性变化。"
+        "深入分析日韩IP数据分化的具体领域（如半导体工艺、材料专利），评估对东亚供应链格局的长期影响。",
+        "对跨界科技公司的IPO保持审慎，关注其非核心业务（如SpaceX的EV业务）对核心研发资源的挤占风险。"
       ],
       "glossary": [
         {
-          "term": "Semis",
-          "desc": "半导体板块/公司（Semiconductors的简写）",
-          "category": "市场"
-        }
-      ],
-      "region": "overseas",
-      "summary": "AI芯片繁荣带动市场上涨，预计2026年半导体板块将飙升近80%，但投资者仍需警惕当前的风险与IPO动态。",
-      "tag_category": "EDA/IP",
-      "title_en": "AI Chip Boom Drives Historic Market Rally in 2026 Ahead"
-    },
-    {
-      "title": "长鑫存储（CXMT）获IPO批准，将筹集超40亿美元成中国最大芯片上市项目（《ChangXin Memory Technologies secures IPO approval to raise over $4B in China’s biggest chip listing》）",
-      "url": "https://cryptonews.net/news/mining/32934030/",
-      "description": "China’s largest homegrown DRAM chipmaker just got the green light for what could be one of the country’s most consequential tech IPOs in years. ChangXin Memory Technologies, or CXMT,",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "长鑫存储的巨额IPO标志着中国国产DRAM在资本支持下进入规模化扩产与技术攻坚的新阶段。",
-        "在HBM/AI存储需求全球爆发的背景下，国产DRAM的上市将加速本土存储产业链的生态闭环。"
-      ],
-      "actions": [
-        "关注长鑫存储IPO募资投向的先进DRAM及HBM研发进度，评估其对国产设备与材料的拉动效应。",
-        "梳理长鑫存储供应链中的国产化率，寻找设备、材料与EDA环节的切入与替代机会。"
-      ],
-      "glossary": [
-        {
-          "term": "CXMT",
-          "desc": "长鑫存储，中国最大的本土DRAM芯片制造商",
-          "category": "公司"
+          "term": "S-1",
+          "desc": "美国SEC要求的IPO注册声明文件，包含公司业务、财务及风险等详细信息。",
+          "category": "金融"
         },
         {
-          "term": "DRAM",
-          "desc": "动态随机存取存储器，常见的主内存类型",
-          "category": "存储"
+          "term": "IP data",
+          "desc": "知识产权数据，通常指专利申请与授权相关统计，反映技术创新活跃度。",
+          "category": "EDA/IP"
         }
       ],
       "region": "overseas",
-      "summary": "中国最大的本土DRAM芯片制造商长鑫存储（CXMT）已获得IPO绿灯，这将是该国近年来最重要的科技IPO之一，募资超40亿美元。",
+      "summary": "亚洲市场动态：日本与韩国的知识产权数据出现分化；SpaceX提交S-1文件后的IPO进程遇到电动汽车相关问题，同时竞争对手蓝色起源的火箭发生爆炸。",
       "tag_category": "EDA/IP",
-      "title_en": "ChangXin Memory Technologies secures IPO approval to raise over $4B in China’s biggest chip listing"
+      "title_en": "Divergence in JP/KR IP data, SpaceX IPO runs into EV issues post S-1, while competitor Blue origin's | FXStreet"
+    },
+    {
+      "title": "Strategic Embedded推出QSMP-2030——基于STM32 MP235的QS模块（Strategic Embedded launches QSMP-2030 — STM32 MP235-based QS module – Strategic Embedded）",
+      "url": "https://strategic-embedded.com/blogs/news/strategic-embedded-qsmp-2030-stm32mp235",
+      "description": "Strategic Embedded launches QSMP-2030 — STM32 MP235-based QS module – Strategic Embedded\n\n# Strategic Embedded launches QSMP-2030 — STM32 MP235-based QS module\n\nRobert Giblett | May 10, 2026\n\nPress release · Stockholm · 1 June 2026\n\n29 mm solder-down module with dual Cortex-A35, integrated NPU and H",
+      "published": "2026-06-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "基于STM32 MP235的模块化产品发布，标志着微处理器（MPU）在工业与嵌入式边缘计算领域的性能需求正在持续攀升。",
+        "模块化（QS module）设计能显著缩短客户开发周期，是当前嵌入式芯片供应商提升粘性的重要产品策略。"
+      ],
+      "actions": [
+        "评估STM32 MP235平台在边缘AI推理及工业控制场景的适用性，考虑引入该模块加速原型开发。",
+        "关注嵌入式模块化市场的竞争动态，对比同类MPU模块的性价比与生态支持，优化选型库。"
+      ],
+      "glossary": [
+        {
+          "term": "STM32 MP235",
+          "desc": "意法半导体推出的微处理器（MPU），具备多核架构，面向高性能嵌入式应用。",
+          "category": "芯片产品"
+        },
+        {
+          "term": "QS module",
+          "desc": "四核系统模块，将处理器、内存等核心组件集成于单一小尺寸模块，便于快速系统设计。",
+          "category": "硬件"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Strategic Embedded发布了基于意法半导体STM32 MP235微处理器的QSMP-2030四核系统模块，旨在为嵌入式应用提供更高性能的处理能力。",
+      "tag_category": "综合",
+      "title_en": "Strategic Embedded launches QSMP-2030 — STM32 MP235-based QS module – Strategic Embedded"
+    },
+    {
+      "title": "2026年5月30日AI新闻——模型发布、公告与AI动态更新（AI News May 30 2026 — Model Releases, Announcements and AI Updates）",
+      "url": "https://aitoolsrecap.com/Blog/ai-news-may-30-2026",
+      "description": "AI News May 30 2026 — Model Releases, Announcements and AI Updates\n\nFRI, MAY 29, 2026\n\nLog In| Join Us ★\n\nIndependent · In‑Depth · Unsponsored\n\nThe Journal of Artificial Intelligence Tools\n\nLog In Join Us ★\n\n✎ General\n\n# AI News: May 30, 2026 — Latest Model Releases and AI Announcements\n\nYour daily ",
+      "published": "2026-05-30T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "大模型密集发布期通常伴随算力需求的脉冲式上升，底层芯片与存储供应链需警惕短期供需失衡。",
+        "AI应用生态的快速迭代要求硬件架构具备更高的灵活性与适配性，定制化AI芯片迎来窗口期。"
+      ],
+      "actions": [
+        "梳理近期发布的大模型参数规模与推理需求，预判对HBM及先进封装产能的边际拉动效应。",
+        "跟踪AI模型演进对硬件特性的新要求（如长上下文窗口对内存容量的依赖），提前规划芯片产品定义。"
+      ],
+      "glossary": [
+        {
+          "term": "Model Releases",
+          "desc": "模型发布，指AI基础大模型或行业微调模型的正式上线与开源/闭源推出。",
+          "category": "AI"
+        }
+      ],
+      "region": "overseas",
+      "summary": "该新闻汇总了2026年5月30日前后AI领域的最新大模型发布、官方公告及行业动态更新，为从业者提供全局视角。",
+      "tag_category": "综合",
+      "title_en": "AI News May 30 2026 — Model Releases, Announcements and AI Updates"
     }
   ],
   "stats": {
     "total_raw": 105,
-    "after_dedup": 97,
+    "after_dedup": 95,
     "sources": {
-      "Exa": 15,
+      "Exa": 13,
       "RSS": 65,
       "Brave": 17
     }
