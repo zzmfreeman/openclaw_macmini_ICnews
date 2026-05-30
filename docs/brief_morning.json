@@ -1,6 +1,6 @@
 {
-  "version": "v20260530-0617",
-  "generatedAt": "2026-05-30T06:17:00+08:00",
+  "version": "v20260531-0613",
+  "generatedAt": "2026-05-31T06:13:00+08:00",
   "period": "morning",
   "commit": "",
   "glossary_list": [
@@ -20,49 +20,49 @@
       "category": "封装"
     },
     {
-      "term": "日月光",
-      "desc": "全球最大的半导体封装测试服务提供商",
-      "category": "封装"
+      "term": "Cyient",
+      "desc": "一家全球性的工程、制造和网络技术服务公司，专注于半导体和航空航天等领域。",
+      "category": "公司"
     },
     {
-      "term": "GTA 6",
-      "desc": "知名开放世界动作冒险游戏《侠盗猎车手6》",
-      "category": "终端应用"
+      "term": "TAO Digital",
+      "desc": "一家专注于数据分析和数字化转型的技术公司。",
+      "category": "公司"
     },
     {
-      "term": "Fable",
-      "desc": "微软Xbox旗下的经典RPG游戏《神鬼寓言》",
-      "category": "终端应用"
+      "term": "Xuanji A3",
+      "desc": "比亚迪自研的4nm智能驾驶芯片，名为璇玑A3。",
+      "category": "芯片/IP"
     },
     {
-      "term": "DRAM",
-      "desc": "动态随机存取存储器，常见用于系统主内存",
-      "category": "存储"
+      "term": "4nm",
+      "desc": "半导体制造工艺节点，代表晶体管尺寸级别，属于先进制程。",
+      "category": "制程"
     },
     {
-      "term": "BOM",
-      "desc": "物料清单，指产品制造所需的零部件及成本清单",
-      "category": "设计/制造"
+      "term": "Urban NOA",
+      "desc": "城市领航辅助驾驶，在城区复杂路况下实现自动导航辅助的智驾功能。",
+      "category": "汽车电子"
     },
     {
-      "term": "DDR5",
-      "desc": "第五代双倍速率同步动态随机存储器",
-      "category": "存储"
+      "term": "Full Damage Coverage",
+      "desc": "全损包赔/全损保障，智驾系统引发事故时车企承担赔偿的商业承诺。",
+      "category": "汽车电子"
     },
     {
-      "term": "MasterDIMM AC",
-      "desc": "酷冷至尊与芝奇联合推出的带主动风扇散热的DDR5内存产品系列",
-      "category": "存储"
+      "term": "ProLogium",
+      "desc": "辉能科技，一家专注于固态电池研发与制造的台湾企业。",
+      "category": "公司"
     },
     {
-      "term": "NVIDIA DLSS",
-      "desc": "英伟达深度学习超级采样技术，利用AI提升游戏画质与帧率",
-      "category": "EDA/IP"
+      "term": "SPAC",
+      "desc": "特殊目的收购公司，一种使私人公司无需传统IPO即可公开上市的金融工具。",
+      "category": "金融"
     },
     {
-      "term": "AMD FSR",
-      "desc": "AMD超分辨率技术，开源的画质提升与帧率优化方案",
-      "category": "EDA/IP"
+      "term": "Solid-State Battery",
+      "desc": "固态电池，使用固态电解质而非液态电解质的电池，具有更高安全性和能量密度。",
+      "category": "电池/材料"
     }
   ],
   "topic_pulse": [
@@ -71,236 +71,206 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS及先进封装的讨论热度明显降温。随着产能逐步释放与扩产预期落地，市场对先进封装紧缺的焦虑有所缓解，短期关注度转向实际产能消化与良率爬坡情况。"
+      "summary": "近期社区对CoWoS及先进封装的讨论热度有所降温，主要因产能扩张预期逐步落地，市场关注点从产能紧缺转向实际需求消化与长期产能利用率。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度出现回落，社区情绪趋于理性。前期对HBM缺货与涨价的极度关注已转向对长期供需平衡的审视，讨论焦点逐渐向下一代HBM4的技术演进转移。"
+      "summary": "HBM与AI存储话题热度下降，随着主要供应商产能规划明确，社区情绪由前期的狂热转为对长期价格走势与供需平衡的理性观望。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国内Fab与先进制程的讨论热度下降，社区暂无重大技术突破或政策刺激的新话题。投资者正等待国内晶圆厂在下半年旺季的实际产能利用率与营收验证数据。"
+      "summary": "关于中国晶圆厂与先进制程的讨论热度回落，短期内缺乏重大突破性新闻，社区进入技术沉淀期，更关注现有产能的实际良率提升。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP板块热度降温，近期缺乏重磅新品发布或融资事件。社区讨论暂处于观望期，重点关注现有国产工具在实际芯片项目中的验证进度与客户反馈。"
+      "summary": "国产EDA/IP话题降温，前期政策刺激效应减弱，社区当前讨论焦点从概念炒作转向实际工具流片验证与头部客户的真实导入进度。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT话题热度走低，市场对传统封装的周期性复苏已有充分预期。随着盛合晶微等先进封装标的招股引发估值争议，社区对OSAT整体成长上限的讨论增加。"
+      "summary": "封测OSAT板块热度下降，传统封装需求平稳，先进封装红利已被充分预期，短期内缺乏新的业绩催化剂，社区讨论趋于平淡。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度显著降温，近期无新增重大禁令出台。社区情绪暂获喘息，讨论重心从恐慌性应对转向合规常态化运营及存量设备的维保替代方案。"
+      "summary": "出口管制与制裁话题热度降低，近期无新增严厉政策，社区讨论从恐慌性应对转向常态化合规运营与供应链重构的务实探讨。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "NVIDIA与AI芯片讨论热度回落，缺乏新卡发布等短期催化剂。社区焦点正从算力硬件的狂热追逐，转向AI大模型商业变现进展对上游芯片需求的实质性拉动。"
+      "summary": "AI芯片及英伟达相关讨论降温，市场对新一代架构的预期已充分消化，当前焦点转向下游大模型应用的实质性落地与算力投资回报率。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化话题热度下降，处于政策与订单真空期。社区讨论趋于平淡，等待下半年国内晶圆厂招标数据以验证国产化率的实际提升幅度。"
+      "summary": "设备与材料国产化热度回落，随着部分国产设备顺利进厂验证，社区关注点从“能否替代”转向“量产良率与长期稳定性表现”。"
     }
   ],
   "items": [
     {
-      "title": "盛合晶微(SH688820)怎么样 - 热门讨论",
-      "url": "https://xueqiu.com/S/SH688820/hots",
-      "description": "盛合晶微(SH688820)$ 求教一下，看了盛合晶微的招股书以及官网，还是没搞懂这个公司的爆发力和想象力在哪里招股书对标日月光，日月光总市值也才5300亿人民币左右日月光一...",
-      "published": "20小时前",
-      "source": "雪球",
-      "source_type": "Serper",
-      "lang": "zh",
+      "title": "Cyient达成收购TAO Digital协议（Cyient Enters Agreement to Acquire TAO Digital）",
+      "url": "https://www.cyient.com/news/cyient-enters-agreement-to-acquire-tao-digital?hs_amp=true",
+      "description": "Cyient Enters Agreement to Acquire TAO Digital\n\nCyient | PR Listing\n\n# Cyient Enters Agreement to Acquire TAO Digital\n\nWritten by Cyient| May 30, 2026 8:10:04 AM\n\nAcquisition enhances Cyient’s offering portfolio with AI-native data and lifecycle engineering capabilities to drive data-readiness & dig",
+      "published": "2026-05-30T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
       "tags": [],
       "insights": [
-        "盛合晶微作为国内先进封装厂商，市场对其估值逻辑和成长上限存在分歧，反映出国内封测厂在追赶日月光等巨头时面临的商业模式挑战。",
-        "招股书对标日月光引发市场对国内半导体企业估值泡沫的警惕，需关注其核心技术壁垒与实际产能消化能力。"
+        "半导体及工程服务公司正通过并购加速数字化转型，以提供从芯片设计到系统数据的端到端解决方案。",
+        "TAO Digital的加入将为Cyient在嵌入式系统和数据智能领域带来技术协同效应，提升其在全球市场的竞争力。"
       ],
       "actions": [
-        "关注盛合晶微后续的招股书更新及路演信息，重点评估其先进封装产能利用率及客户结构。",
-        "对比日月光等OSAT巨头的财务指标，重新审视国内先进封装标的的估值合理性。"
+        "关注Cyient后续的整合进度及TAO Digital核心技术团队的留存情况。",
+        "评估此次并购对相关供应链软件及数字化服务市场格局的潜在影响，调整自身合作策略。"
       ],
       "glossary": [
         {
-          "term": "OSAT",
-          "desc": "外包半导体封装和测试厂商",
-          "category": "封装"
+          "term": "Cyient",
+          "desc": "一家全球性的工程、制造和网络技术服务公司，专注于半导体和航空航天等领域。",
+          "category": "公司"
         },
         {
-          "term": "日月光",
-          "desc": "全球最大的半导体封装测试服务提供商",
-          "category": "封装"
+          "term": "TAO Digital",
+          "desc": "一家专注于数据分析和数字化转型的技术公司。",
+          "category": "公司"
         }
       ],
-      "region": "domestic",
-      "summary": "投资者对盛合晶微的成长空间和爆发力提出质疑，认为其对标日月光但市值天花板似乎有限，难以看清其核心想象力。",
+      "region": "overseas",
+      "summary": "Cyient宣布已达成协议收购TAO Digital，此次收购将显著增强Cyient在数据分析和数字化转型领域的服务能力与业务组合。",
       "tag_category": "综合",
-      "title_en": "盛合晶微(SH688820)_盛合晶微怎么样 - 热门讨论"
+      "title_en": "Cyient Enters Agreement to Acquire TAO Digital"
     },
     {
-      "title": "Xbox决定避开GTA 6发售期，将《神鬼寓言》延期至2027年2月（Xbox Decides to Get Out of the Way of GTA 6, Delays Fable to February 2027）",
-      "url": "https://wccftech.com/fable-delayed-to-2027-get-out-of-gta-6-way/",
-      "description": "Fable has been delayed into February 2027, it was announced today by Xbox ahead of its Xbox Games Showcase as part of Summer Game Fest 2026 on June 7, 2026. After just getting done with bringing Forza Horizon 6 to market, developer Playground Games is getting a little more time to polish up the rebo",
-      "published": "Fri, 29 May 2026 16:59:57 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "比亚迪发布璇玑A3芯片，称其为中国首款4nm智能驾驶芯片（BYD launches Xuanji A3, calls it China’s first 4nm smart driving chip · TechNode）",
+      "url": "https://technode.com/2026/05/29/byd-launches-xuanji-a3-calls-it-chinas-first-4nm-smart-driving-chip/",
+      "description": "BYD launches Xuanji A3, calls it China’s first 4nm smart driving chip · TechNode\n\n## Subscribe to the TechNode Briefing Newsletter\n\nEvery Wednesday and Friday, TechNode’s Briefing newsletter delivers a roundup of the most important news in China tech, straight to your inbox.\n\nSign up\n\n### Subscribe ",
+      "published": "2026-05-29T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "头部游戏延期往往影响主机平台及相关游戏芯片的短期出货节奏与需求预测。",
-        "避开GTA 6反映出顶级游戏对硬件资源的挤占效应，可能连带影响高性能GPU和存储的短期需求波动。"
+        "头部车企自研4nm智驾芯片打破了对外部供应商的绝对依赖，大幅提升了整车智能化的核心竞争力与BOM成本控制力。",
+        "4nm车规级芯片的落地表明国内先进制程代工能力在特定应用场景下已具备量产可行性，对本土半导体生态是重大利好。"
       ],
       "actions": [
-        "游戏延期可能导致相关硬件（如主机、高性能显卡）的配套需求延后，供应链需及时调整短期排产计划。",
-        "关注GTA 6发售前后的硬件升级潮，提前布局高带宽存储和算力芯片的产能。"
+        "追踪比亚迪璇玑A3芯片的代工厂商及量产进度，评估其对现有智驾芯片供应商（如地平线、英伟达）的市场冲击。",
+        "关注国内4nm制程在车规级芯片上的良率和长期可靠性表现，适时调整自身产品路线图。"
       ],
       "glossary": [
         {
-          "term": "GTA 6",
-          "desc": "知名开放世界动作冒险游戏《侠盗猎车手6》",
-          "category": "终端应用"
+          "term": "Xuanji A3",
+          "desc": "比亚迪自研的4nm智能驾驶芯片，名为璇玑A3。",
+          "category": "芯片/IP"
         },
         {
-          "term": "Fable",
-          "desc": "微软Xbox旗下的经典RPG游戏《神鬼寓言》",
-          "category": "终端应用"
+          "term": "4nm",
+          "desc": "半导体制造工艺节点，代表晶体管尺寸级别，属于先进制程。",
+          "category": "制程"
         }
       ],
       "region": "overseas",
-      "summary": "Xbox宣布将《神鬼寓言》游戏延期至2027年2月发售，以避开GTA 6的巨大市场冲击。",
-      "tag_category": "Fab/制造",
-      "title_en": "Xbox Decides to Get Out of the Way of GTA 6, Delays Fable to February 2027"
-    },
-    {
-      "title": "iPhone 18 Pro涨价原因不仅是DRAM成本飙升，还可能因为这项摄像头升级（iPhone 18 Pro Price Hike May Not Just Be Fueled By Soaring DRAM Costs, But Also Because Of This Camera Upgrade）",
-      "url": "https://wccftech.com/iphone-18-pro-camera-upgrade-result-in-potential-price-hike/",
-      "description": "Apple is getting close to using up its existing DRAM supply, which only means that from that point on, it’ll be forced to cough up hefty premiums for future shipments, drastically nullifying its ability to keep a price hike at bay when launching the iPhone 18 Pro and iPhone 18 Pro Max. However, the ",
-      "published": "Fri, 29 May 2026 13:16:00 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "苹果面临DRAM库存耗尽及溢价压力，表明高端智能手机对高带宽存储的依赖正在推高整机BOM成本。",
-        "摄像头升级与DRAM成本叠加，预示着旗舰手机毛利率将承压，供应链需平衡性能提升与成本控制。"
-      ],
-      "actions": [
-        "密切关注苹果对DRAM的采购策略及长约价格变动，评估存储涨价对手机代工利润的侵蚀风险。",
-        "针对手机摄像头升级趋势，提前布局相关CIS图像传感器及光学镜头的产能与成本优化方案。"
-      ],
-      "glossary": [
-        {
-          "term": "DRAM",
-          "desc": "动态随机存取存储器，常见用于系统主内存",
-          "category": "存储"
-        },
-        {
-          "term": "BOM",
-          "desc": "物料清单，指产品制造所需的零部件及成本清单",
-          "category": "设计/制造"
-        }
-      ],
-      "region": "overseas",
-      "summary": "iPhone 18 Pro的潜在涨价不仅源于DRAM供应紧缺导致的成本飙升，还与新一代摄像头模组的升级成本有关。",
+      "summary": "比亚迪正式发布璇玑A3芯片，并宣称这是中国首款4nm制程的智能驾驶芯片，标志着本土车企在自研高阶智驾芯片领域的重大突破。",
       "tag_category": "EDA/IP",
-      "title_en": "iPhone 18 Pro Price Hike May Not Just Be Fueled By Soaring DRAM Costs, But Also Because Of This Camera Upgrade"
+      "title_en": "BYD launches Xuanji A3, calls it China’s first 4nm smart driving chip · TechNode"
     },
     {
-      "title": "酷冷至尊与芝奇联手推出MasterDIMM AC主动散热DDR5内存（Cooler Master And G.Skill Team Up To Launch MasterDIMM AC Actively Cooled DDR5 Memory）",
-      "url": "https://wccftech.com/cooler-master-and-g-skill-team-up-to-launch-masterdimm-ac-actively-cooled-ddr5-memory/",
-      "description": "The new DDR5 memory modules will be actively cooled by a dedicated fan, ensuring lower temperatures under heavy workloads. Cooler Master and G.Skill Announce Actively Cooled DDR5 Memory Module, Bringing Integrated Fan for Next-Generation Systems If regular heatsinks weren't sufficient for you, then ",
-      "published": "Fri, 29 May 2026 11:59:16 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
+      "title": "比亚迪发布4nm智驾芯片，将“全损包赔”扩展至城市NOA（BYD Unveils 4nm Driving Chip, Expands “Full Damage Coverage” to Urban NOA - AutoTech News）",
+      "url": "https://autotech.news/byd-unveils-4nm-driving-chip-expands-full-damage-coverage-to-urban-noa/",
+      "description": "BYD Unveils 4nm Driving Chip, Expands “Full Damage Coverage” to Urban NOA - AutoTech News\n\nSearch\n\nSaturday, May 30, 2026\n\nAutoTech NewsAUTOMOTIVE TECHNOLOGY NEWS\n\nMore\n\nSearch\n\nMore\n\nSearch\n\nSelf-Driving BYD Unveils 4nm Driving Chip, Expands “Full Damage Coverage” to Urban NOA\n\n# BYD Unveils 4nm Dr",
+      "published": "2026-05-30T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "DDR5内存频率提升导致发热量剧增，主动散热方案的引入标志着高性能PC存储进入散热架构重构期。",
-        "内存厂商与散热厂商跨界合作，反映出高功耗高带宽存储对系统级热管理的依赖日益加深。"
+        "车企通过硬件自研与软件兜底（全损包赔）的双重策略，加速城市NOA的普及并建立消费者信任，重塑智驾商业模式。",
+        "智驾芯片自研使得车企能更灵活地定义软硬件架构，降低系统整体成本，从而为保险兜底提供利润空间。"
       ],
       "actions": [
-        "关注主动散热DDR5在高端PC及服务器市场的渗透率，评估其对传统散热配件市场的替代效应。",
-        "内存模组厂商应提前评估主动散热设计带来的结构复杂度与BOM成本增加，优化供应链协同。"
+        "评估比亚迪城市NOA功能落地后的实际表现与理赔风险，关注其保险合作模式对行业的影响。",
+        "供应链企业需重新评估与比亚迪的智驾合作模式，从单纯的硬件供应商向技术协同与风险共担方转变。"
       ],
       "glossary": [
         {
-          "term": "DDR5",
-          "desc": "第五代双倍速率同步动态随机存储器",
-          "category": "存储"
+          "term": "Urban NOA",
+          "desc": "城市领航辅助驾驶，在城区复杂路况下实现自动导航辅助的智驾功能。",
+          "category": "汽车电子"
         },
         {
-          "term": "MasterDIMM AC",
-          "desc": "酷冷至尊与芝奇联合推出的带主动风扇散热的DDR5内存产品系列",
-          "category": "存储"
+          "term": "Full Damage Coverage",
+          "desc": "全损包赔/全损保障，智驾系统引发事故时车企承担赔偿的商业承诺。",
+          "category": "汽车电子"
         }
       ],
       "region": "overseas",
-      "summary": "酷冷至尊与芝奇合作推出带专用风扇主动散热的MasterDIMM AC DDR5内存，以解决高负载下的过热问题。",
+      "summary": "比亚迪不仅发布了4nm智驾芯片，还将其智驾系统的“全损包赔”承诺扩展至城市NOA场景，显示出对自研硬件与算法的高度自信。",
+      "tag_category": "EDA/IP",
+      "title_en": "BYD Unveils 4nm Driving Chip, Expands “Full Damage Coverage” to Urban NOA - AutoTech News"
+    },
+    {
+      "title": "辉能科技：38亿美元SPAC交易将固态电池开发商推向纳斯达克上市（ProLogium: $3.8 Billion SPAC Deal To Take Solid-State Battery Developer Public On Nasdaq）",
+      "url": "https://pulse2.com/prologium-3-8-billion-spac-deal-to-take-solid-state-battery-developer-public-on-nasdaq/",
+      "description": "ProLogium: $3.8 Billion SPAC Deal To Take Solid-State Battery Developer Public On Nasdaq\n\n# ProLogium: $3.8 Billion SPAC Deal To Take Solid-State Battery Developer Public On Nasdaq\n\nBy Amit Chowdhry • Today at 11:03 AM\n\nProLogium: $3.8 Billion SPAC Deal To Take Solid-State Battery Developer Public O",
+      "published": "2026-05-30T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "固态电池企业通过SPAC上市融资，反映出资本市场对下一代电池技术的迫切需求与高预期，产业进入资本加速期。",
+        "巨额融资将加速固态电池从实验室走向车规级量产，未来可能重塑新能源汽车动力电池及半导体BMS芯片供应链。"
+      ],
+      "actions": [
+        "关注辉能科技上市后的资金使用方向及量产产线建设进度，评估固态电池商业化时间表。",
+        "评估固态电池高能量密度与高安全性特性对现有液态锂电池供应链及半导体BMS芯片设计的潜在替代与升级需求。"
+      ],
+      "glossary": [
+        {
+          "term": "ProLogium",
+          "desc": "辉能科技，一家专注于固态电池研发与制造的台湾企业。",
+          "category": "公司"
+        },
+        {
+          "term": "SPAC",
+          "desc": "特殊目的收购公司，一种使私人公司无需传统IPO即可公开上市的金融工具。",
+          "category": "金融"
+        },
+        {
+          "term": "Solid-State Battery",
+          "desc": "固态电池，使用固态电解质而非液态电解质的电池，具有更高安全性和能量密度。",
+          "category": "电池/材料"
+        }
+      ],
+      "region": "overseas",
+      "summary": "固态电池开发商辉能科技（ProLogium）将通过38亿美元的SPAC交易在纳斯达克上市，这将为固态电池技术的商业化量产提供巨额资金支持。",
       "tag_category": "综合",
-      "title_en": "Cooler Master And G.Skill Team Up To Launch MasterDIMM AC Actively Cooled DDR5 Memory"
-    },
-    {
-      "title": "《绝地潜兵2》在数月呼声后终于加入NVIDIA DLSS和AMD FSR支持，但糟糕的实现引发社区新一轮强烈反弹（Helldivers 2 Finally Deploys NVIDIA DLSS and AMD FSR After Months of Demand, But Broken Implementation Sparks Fresh Community Backlash）",
-      "url": "https://wccftech.com/helldivers-2-adds-dlss-and-fsr-broken-backlash/",
-      "description": "As promised last week, Arrowhead Games launched a new Helldivers 2 update, finally introducing support for upscalers such as NVIDIA DLSS and AMD FSR. However, the community is not happy with this update, as the implementation of all upscalers currently seems broken. The 6.2.5 update release was acco",
-      "published": "Fri, 29 May 2026 11:10:33 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "游戏对AI超分辨率技术（DLSS/FSR）的集成正成为标配，但粗糙的优化不仅无法提升体验，反而会损害硬件厂商的技术口碑。",
-        "玩家对画质技术的严苛要求，倒逼游戏开发商必须与GPU厂商更深度协同，确保底层API调用的稳定性。"
-      ],
-      "actions": [
-        "GPU及IP厂商需加强对游戏开发商的技术支持与QA验证，防止劣质集成损害自身AI加速特性的市场声誉。",
-        "游戏开发商在引入DLSS/FSR时应进行充分的兼容性测试，避免仓促上线导致负面舆情影响销量。"
-      ],
-      "glossary": [
-        {
-          "term": "NVIDIA DLSS",
-          "desc": "英伟达深度学习超级采样技术，利用AI提升游戏画质与帧率",
-          "category": "EDA/IP"
-        },
-        {
-          "term": "AMD FSR",
-          "desc": "AMD超分辨率技术，开源的画质提升与帧率优化方案",
-          "category": "EDA/IP"
-        }
-      ],
-      "region": "overseas",
-      "summary": "《绝地潜兵2》更新终于加入了NVIDIA DLSS和AMD FSR超分辨率技术，但因技术实现存在缺陷而遭到玩家社区的强烈批评。",
-      "tag_category": "设计公司",
-      "title_en": "Helldivers 2 Finally Deploys NVIDIA DLSS and AMD FSR After Months of Demand, But Broken Implementation Sparks Fresh Community Backlash"
+      "title_en": "ProLogium: $3.8 Billion SPAC Deal To Take Solid-State Battery Developer Public On Nasdaq"
     }
   ],
   "stats": {
-    "total_raw": 26,
+    "total_raw": 40,
     "after_dedup": 5,
     "sources": {
-      "Serper": 1,
-      "RSS": 4
+      "Exa": 5
     }
   },
   "code_version": "",

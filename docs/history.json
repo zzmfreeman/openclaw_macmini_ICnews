@@ -1,29 +1,5 @@
 [
   {
-    "url": "https://www.trendforce.com/news/2026/05/07/news-tsmc-hints-at-potential-further-u-s-expansion-industry-sources-reportedly-see-up-to-us250b-investment/",
-    "title": "[News] TSMC Hints at Potential Further U.S. Expansion; Industry Sources Reportedly See Up to US$250B Investment",
-    "published": "2026-05-07T00:00:00.000Z",
-    "addedAt": "2026-05-08T06:07:00+08:00"
-  },
-  {
-    "url": "https://www.techdigest.tv/2026/05/honor-debuts-600-series-in-uk-with-focus-on-gen-ai.html",
-    "title": "HONOR debuts 600 series in UK with focus on Gen AI - Tech Digest",
-    "published": "2026-05-06T00:00:00.000Z",
-    "addedAt": "2026-05-08T06:07:00+08:00"
-  },
-  {
-    "url": "https://semiwiki.com/eda/synopsys/368861-the-great-divide-a-tale-of-three-hardware-emulation-architectures/",
-    "title": "The Great Divide: A Tale of Three Hardware Emulation... - SemiWiki",
-    "published": "2026-05-06T00:00:00.000Z",
-    "addedAt": "2026-05-08T06:07:00+08:00"
-  },
-  {
-    "url": "https://technode.global/2026/05/06/amkor-technology-to-double-vietnam-annual-output-to-1-2m-semiconductor-items/",
-    "title": "Amkor Technology to double Vietnam annual output to 1.2M semiconductor items - TNGlobal",
-    "published": "2026-05-06T00:00:00.000Z",
-    "addedAt": "2026-05-08T06:07:00+08:00"
-  },
-  {
     "url": "https://pulse2.com/lattice-semiconductor-to-acquire-ami-in-1-65-billion-deal-to-expand-ai-infrastructure-platform/",
     "title": "Lattice Semiconductor To Acquire AMI In $1.65 Billion Deal To Expand AI Infrastructure Platform",
     "published": "2026-05-06T00:00:00.000Z",
@@ -2998,5 +2974,29 @@
     "title": "Anthropic估值达到9650亿美元，超越OpenAI（Anthropic reaches US$965B valuation, placing it ahead of OpenAI）",
     "published": "",
     "addedAt": "2026-05-30T13:14:00+08:00"
+  },
+  {
+    "url": "https://www.cyient.com/news/cyient-enters-agreement-to-acquire-tao-digital?hs_amp=true",
+    "title": "Cyient达成收购TAO Digital协议（Cyient Enters Agreement to Acquire TAO Digital）",
+    "published": "2026-05-30T00:00:00.000Z",
+    "addedAt": "2026-05-31T06:13:00+08:00"
+  },
+  {
+    "url": "https://technode.com/2026/05/29/byd-launches-xuanji-a3-calls-it-chinas-first-4nm-smart-driving-chip/",
+    "title": "比亚迪发布璇玑A3芯片，称其为中国首款4nm智能驾驶芯片（BYD launches Xuanji A3, calls it China’s first 4nm smart driving chip · TechNode）",
+    "published": "2026-05-29T00:00:00.000Z",
+    "addedAt": "2026-05-31T06:13:00+08:00"
+  },
+  {
+    "url": "https://autotech.news/byd-unveils-4nm-driving-chip-expands-full-damage-coverage-to-urban-noa/",
+    "title": "比亚迪发布4nm智驾芯片，将“全损包赔”扩展至城市NOA（BYD Unveils 4nm Driving Chip, Expands “Full Damage Coverage” to Urban NOA - AutoTech News）",
+    "published": "2026-05-30T00:00:00.000Z",
+    "addedAt": "2026-05-31T06:13:00+08:00"
+  },
+  {
+    "url": "https://pulse2.com/prologium-3-8-billion-spac-deal-to-take-solid-state-battery-developer-public-on-nasdaq/",
+    "title": "辉能科技：38亿美元SPAC交易将固态电池开发商推向纳斯达克上市（ProLogium: $3.8 Billion SPAC Deal To Take Solid-State Battery Developer Public On Nasdaq）",
+    "published": "2026-05-30T00:00:00.000Z",
+    "addedAt": "2026-05-31T06:13:00+08:00"
   }
 ]
