@@ -1,7 +1,7 @@
 {
-  "version": "v20260531-0613",
-  "generatedAt": "2026-05-31T06:13:00+08:00",
-  "period": "morning",
+  "version": "v20260531-2013",
+  "generatedAt": "2026-05-31T20:13:00+08:00",
+  "period": "evening",
   "commit": "",
   "glossary_list": [
     {
@@ -20,49 +20,29 @@
       "category": "封装"
     },
     {
-      "term": "Cyient",
-      "desc": "一家全球性的工程、制造和网络技术服务公司，专注于半导体和航空航天等领域。",
-      "category": "公司"
+      "term": "SoC",
+      "desc": "System on Chip，片上系统，将完整计算机系统集成在一个芯片上",
+      "category": "芯片架构"
     },
     {
-      "term": "TAO Digital",
-      "desc": "一家专注于数据分析和数字化转型的技术公司。",
-      "category": "公司"
+      "term": "Mamba",
+      "desc": "一种状态空间模型（SSM）架构，以线性时间复杂度处理长序列，被视为Transformer的潜在替代方案",
+      "category": "AI算法"
     },
     {
-      "term": "Xuanji A3",
-      "desc": "比亚迪自研的4nm智能驾驶芯片，名为璇玑A3。",
-      "category": "芯片/IP"
+      "term": "Visual Encoder",
+      "desc": "视觉编码器，用于将图像数据转换为特征表示的神经网络模块",
+      "category": "AI算法"
     },
     {
-      "term": "4nm",
-      "desc": "半导体制造工艺节点，代表晶体管尺寸级别，属于先进制程。",
-      "category": "制程"
+      "term": "Mistral",
+      "desc": "法国人工智能初创公司，专注于开发开源和商用大语言模型",
+      "category": "AI企业"
     },
     {
-      "term": "Urban NOA",
-      "desc": "城市领航辅助驾驶，在城区复杂路况下实现自动导航辅助的智驾功能。",
-      "category": "汽车电子"
-    },
-    {
-      "term": "Full Damage Coverage",
-      "desc": "全损包赔/全损保障，智驾系统引发事故时车企承担赔偿的商业承诺。",
-      "category": "汽车电子"
-    },
-    {
-      "term": "ProLogium",
-      "desc": "辉能科技，一家专注于固态电池研发与制造的台湾企业。",
-      "category": "公司"
-    },
-    {
-      "term": "SPAC",
-      "desc": "特殊目的收购公司，一种使私人公司无需传统IPO即可公开上市的金融工具。",
-      "category": "金融"
-    },
-    {
-      "term": "Solid-State Battery",
-      "desc": "固态电池，使用固态电解质而非液态电解质的电池，具有更高安全性和能量密度。",
-      "category": "电池/材料"
+      "term": "GDPR",
+      "desc": "通用数据保护条例，欧盟制定的关于数据隐私和安全保护的法规",
+      "category": "法规"
     }
   ],
   "topic_pulse": [
@@ -71,206 +51,163 @@
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "近期社区对CoWoS及先进封装的讨论热度有所降温，主要因产能扩张预期逐步落地，市场关注点从产能紧缺转向实际需求消化与长期产能利用率。"
+      "summary": "近期CoWoS及先进封装话题讨论热度降温，社区缺乏新的产能或订单爆料。市场情绪从前期的高预期转向冷静观望，等待台积电等厂商的下一步扩产指引。"
     },
     {
       "topic": "HBM/AI存储",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "HBM与AI存储话题热度下降，随着主要供应商产能规划明确，社区情绪由前期的狂热转为对长期价格走势与供需平衡的理性观望。"
+      "summary": "HBM与AI存储相关讨论热度下降，社区对SK海力士等巨头产能爆表的兴奋感减弱。从业者正密切关注后续HBM3e的量产进度及实际出货数据。"
     },
     {
       "topic": "中国Fab/先进制程",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "关于中国晶圆厂与先进制程的讨论热度回落，短期内缺乏重大突破性新闻，社区进入技术沉淀期，更关注现有产能的实际良率提升。"
+      "summary": "中国Fab与先进制程话题热度回落，社区暂无重大技术突破或制裁升级的讨论。情绪趋于理性，业界聚焦于现有成熟制程的产能优化与客户拓展。"
     },
     {
       "topic": "国产EDA/IP",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "国产EDA/IP话题降温，前期政策刺激效应减弱，社区当前讨论焦点从概念炒作转向实际工具流片验证与头部客户的真实导入进度。"
+      "summary": "国产EDA/IP讨论热度降温，缺乏新融资或产品发布等刺激因素。社区关注点转向国产工具在实际芯片项目中的验证进度和客户反馈。"
     },
     {
       "topic": "封测OSAT",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "封测OSAT板块热度下降，传统封装需求平稳，先进封装红利已被充分预期，短期内缺乏新的业绩催化剂，社区讨论趋于平淡。"
+      "summary": "封测OSAT话题热度下降，社区讨论趋于平淡。市场暂无大规模资本开支或并购消息，从业者主要关注传统封装产能的利用率恢复情况。"
     },
     {
       "topic": "出口管制/制裁",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "出口管制与制裁话题热度降低，近期无新增严厉政策，社区讨论从恐慌性应对转向常态化合规运营与供应链重构的务实探讨。"
+      "summary": "出口管制与制裁话题热度降温，近期无新增禁令或重大合规事件引发社区热议。情绪相对平稳，企业正消化现有规则并调整供应链策略。"
     },
     {
       "topic": "AI芯片/NVIDIA",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "AI芯片及英伟达相关讨论降温，市场对新一代架构的预期已充分消化，当前焦点转向下游大模型应用的实质性落地与算力投资回报率。"
+      "summary": "AI芯片与英伟达话题热度降温，社区对新一代GPU的炒作暂告一段落。讨论焦点从硬件规格转向实际部署中的集群算力利用率与功耗挑战。"
     },
     {
       "topic": "设备/材料国产化",
       "heat": "↓降温",
       "reddit_top": null,
       "hn_top": null,
-      "summary": "设备与材料国产化热度回落，随着部分国产设备顺利进厂验证，社区关注点从“能否替代”转向“量产良率与长期稳定性表现”。"
+      "summary": "设备与材料国产化讨论热度下降，缺乏新的国产替代突破案例。社区情绪进入蓄力期，等待下游Fab验证结果及后续政策扶持动向。"
     }
   ],
   "items": [
     {
-      "title": "Cyient达成收购TAO Digital协议（Cyient Enters Agreement to Acquire TAO Digital）",
-      "url": "https://www.cyient.com/news/cyient-enters-agreement-to-acquire-tao-digital?hs_amp=true",
-      "description": "Cyient Enters Agreement to Acquire TAO Digital\n\nCyient | PR Listing\n\n# Cyient Enters Agreement to Acquire TAO Digital\n\nWritten by Cyient| May 30, 2026 8:10:04 AM\n\nAcquisition enhances Cyient’s offering portfolio with AI-native data and lifecycle engineering capabilities to drive data-readiness & dig",
-      "published": "2026-05-30T00:00:00.000Z",
+      "title": "NASA的计算突破为未来太空任务提供动力（NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs）",
+      "url": "https://www.techbriefs.com/component/content/article/55244-nasas-space-computing-breakthrough-powers-future-missions",
+      "description": "NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs\n\nElectronics & Sensors INSIDER\n\nNASA’s new processor fits in your hand, delivers full system-on-a-chip power, and is built to survive deep space with far greater speed than current spacecraft technology. Credit: NASA/JPL-Caltec",
+      "published": "2026-06-01T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "半导体及工程服务公司正通过并购加速数字化转型，以提供从芯片设计到系统数据的端到端解决方案。",
-        "TAO Digital的加入将为Cyient在嵌入式系统和数据智能领域带来技术协同效应，提升其在全球市场的竞争力。"
+        "航空航天领域对高可靠性、低功耗及小型化的SoC需求日益增长，抗辐射和极端环境适应能力是核心壁垒。",
+        "太空计算架构的演进将带动特种工艺芯片和抗辐射EDA/IP的发展，为半导体行业开辟高附加值细分市场。"
       ],
       "actions": [
-        "关注Cyient后续的整合进度及TAO Digital核心技术团队的留存情况。",
-        "评估此次并购对相关供应链软件及数字化服务市场格局的潜在影响，调整自身合作策略。"
+        "关注特种工艺和抗辐射IP的授权机会，评估航空航天客户定制化SoC的开发潜力。",
+        "针对极端环境应用，提前布局高可靠性封装和测试验证能力。"
       ],
       "glossary": [
         {
-          "term": "Cyient",
-          "desc": "一家全球性的工程、制造和网络技术服务公司，专注于半导体和航空航天等领域。",
-          "category": "公司"
-        },
-        {
-          "term": "TAO Digital",
-          "desc": "一家专注于数据分析和数字化转型的技术公司。",
-          "category": "公司"
+          "term": "SoC",
+          "desc": "System on Chip，片上系统，将完整计算机系统集成在一个芯片上",
+          "category": "芯片架构"
         }
       ],
       "region": "overseas",
-      "summary": "Cyient宣布已达成协议收购TAO Digital，此次收购将显著增强Cyient在数据分析和数字化转型领域的服务能力与业务组合。",
-      "tag_category": "综合",
-      "title_en": "Cyient Enters Agreement to Acquire TAO Digital"
-    },
-    {
-      "title": "比亚迪发布璇玑A3芯片，称其为中国首款4nm智能驾驶芯片（BYD launches Xuanji A3, calls it China’s first 4nm smart driving chip · TechNode）",
-      "url": "https://technode.com/2026/05/29/byd-launches-xuanji-a3-calls-it-chinas-first-4nm-smart-driving-chip/",
-      "description": "BYD launches Xuanji A3, calls it China’s first 4nm smart driving chip · TechNode\n\n## Subscribe to the TechNode Briefing Newsletter\n\nEvery Wednesday and Friday, TechNode’s Briefing newsletter delivers a roundup of the most important news in China tech, straight to your inbox.\n\nSign up\n\n### Subscribe ",
-      "published": "2026-05-29T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "头部车企自研4nm智驾芯片打破了对外部供应商的绝对依赖，大幅提升了整车智能化的核心竞争力与BOM成本控制力。",
-        "4nm车规级芯片的落地表明国内先进制程代工能力在特定应用场景下已具备量产可行性，对本土半导体生态是重大利好。"
-      ],
-      "actions": [
-        "追踪比亚迪璇玑A3芯片的代工厂商及量产进度，评估其对现有智驾芯片供应商（如地平线、英伟达）的市场冲击。",
-        "关注国内4nm制程在车规级芯片上的良率和长期可靠性表现，适时调整自身产品路线图。"
-      ],
-      "glossary": [
-        {
-          "term": "Xuanji A3",
-          "desc": "比亚迪自研的4nm智能驾驶芯片，名为璇玑A3。",
-          "category": "芯片/IP"
-        },
-        {
-          "term": "4nm",
-          "desc": "半导体制造工艺节点，代表晶体管尺寸级别，属于先进制程。",
-          "category": "制程"
-        }
-      ],
-      "region": "overseas",
-      "summary": "比亚迪正式发布璇玑A3芯片，并宣称这是中国首款4nm制程的智能驾驶芯片，标志着本土车企在自研高阶智驾芯片领域的重大突破。",
+      "summary": "NASA开发出新型掌上处理器，具备完整的片上系统（SoC）能力，专为未来太空任务设计，标志着太空计算技术的重大突破。",
       "tag_category": "EDA/IP",
-      "title_en": "BYD launches Xuanji A3, calls it China’s first 4nm smart driving chip · TechNode"
+      "title_en": "NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs"
     },
     {
-      "title": "比亚迪发布4nm智驾芯片，将“全损包赔”扩展至城市NOA（BYD Unveils 4nm Driving Chip, Expands “Full Damage Coverage” to Urban NOA - AutoTech News）",
-      "url": "https://autotech.news/byd-unveils-4nm-driving-chip-expands-full-damage-coverage-to-urban-noa/",
-      "description": "BYD Unveils 4nm Driving Chip, Expands “Full Damage Coverage” to Urban NOA - AutoTech News\n\nSearch\n\nSaturday, May 30, 2026\n\nAutoTech NewsAUTOMOTIVE TECHNOLOGY NEWS\n\nMore\n\nSearch\n\nMore\n\nSearch\n\nSelf-Driving BYD Unveils 4nm Driving Chip, Expands “Full Damage Coverage” to Urban NOA\n\n# BYD Unveils 4nm Dr",
-      "published": "2026-05-30T00:00:00.000Z",
+      "title": "MambaEye：具备因果序列处理的大小无关视觉编码器（MambaEye: A Size-Agnostic Visual Encoder with Causal Sequential Processing | CVPR 2026 Findings）",
+      "url": "https://usingcolor.github.io/MambaEye/",
+      "description": "MambaEye: A Size-Agnostic Visual Encoder with Causal Sequential Processing | CVPR 2026 Findings\n\n# MambaEye: A Size-Agnostic Visual Encoder with Causal Sequential Processing\n\nChangho Choi 1, Minho Kim 2, Jinkyu Kim 1†\n\n1Korea University, 2MITCVPR 2026 Findings †Corresponding author\n\n## TL;DR We rede",
+      "published": "2026-06-01T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "车企通过硬件自研与软件兜底（全损包赔）的双重策略，加速城市NOA的普及并建立消费者信任，重塑智驾商业模式。",
-        "智驾芯片自研使得车企能更灵活地定义软硬件架构，降低系统整体成本，从而为保险兜底提供利润空间。"
+        "基于Mamba架构的状态空间模型（SSM）正在视觉领域挑战Transformer的统治地位，其线性复杂度特性在处理高分辨率图像时具备显著算力优势。",
+        "大小无关的视觉编码器有望降低边缘端AI芯片的内存带宽压力，为端侧视觉大模型的部署提供新路径。"
       ],
       "actions": [
-        "评估比亚迪城市NOA功能落地后的实际表现与理赔风险，关注其保险合作模式对行业的影响。",
-        "供应链企业需重新评估与比亚迪的智驾合作模式，从单纯的硬件供应商向技术协同与风险共担方转变。"
+        "芯片设计团队应评估SSM架构在NPU中的加速潜力，优化针对线性序列处理的硬件算子。",
+        "关注视觉SSM模型的演进，探索在自动驾驶、机器人等端侧场景的专用AI芯片落地机会。"
       ],
       "glossary": [
         {
-          "term": "Urban NOA",
-          "desc": "城市领航辅助驾驶，在城区复杂路况下实现自动导航辅助的智驾功能。",
-          "category": "汽车电子"
+          "term": "Mamba",
+          "desc": "一种状态空间模型（SSM）架构，以线性时间复杂度处理长序列，被视为Transformer的潜在替代方案",
+          "category": "AI算法"
         },
         {
-          "term": "Full Damage Coverage",
-          "desc": "全损包赔/全损保障，智驾系统引发事故时车企承担赔偿的商业承诺。",
-          "category": "汽车电子"
+          "term": "Visual Encoder",
+          "desc": "视觉编码器，用于将图像数据转换为特征表示的神经网络模块",
+          "category": "AI算法"
         }
       ],
       "region": "overseas",
-      "summary": "比亚迪不仅发布了4nm智驾芯片，还将其智驾系统的“全损包赔”承诺扩展至城市NOA场景，显示出对自研硬件与算法的高度自信。",
-      "tag_category": "EDA/IP",
-      "title_en": "BYD Unveils 4nm Driving Chip, Expands “Full Damage Coverage” to Urban NOA - AutoTech News"
-    },
-    {
-      "title": "辉能科技：38亿美元SPAC交易将固态电池开发商推向纳斯达克上市（ProLogium: $3.8 Billion SPAC Deal To Take Solid-State Battery Developer Public On Nasdaq）",
-      "url": "https://pulse2.com/prologium-3-8-billion-spac-deal-to-take-solid-state-battery-developer-public-on-nasdaq/",
-      "description": "ProLogium: $3.8 Billion SPAC Deal To Take Solid-State Battery Developer Public On Nasdaq\n\n# ProLogium: $3.8 Billion SPAC Deal To Take Solid-State Battery Developer Public On Nasdaq\n\nBy Amit Chowdhry • Today at 11:03 AM\n\nProLogium: $3.8 Billion SPAC Deal To Take Solid-State Battery Developer Public O",
-      "published": "2026-05-30T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "固态电池企业通过SPAC上市融资，反映出资本市场对下一代电池技术的迫切需求与高预期，产业进入资本加速期。",
-        "巨额融资将加速固态电池从实验室走向车规级量产，未来可能重塑新能源汽车动力电池及半导体BMS芯片供应链。"
-      ],
-      "actions": [
-        "关注辉能科技上市后的资金使用方向及量产产线建设进度，评估固态电池商业化时间表。",
-        "评估固态电池高能量密度与高安全性特性对现有液态锂电池供应链及半导体BMS芯片设计的潜在替代与升级需求。"
-      ],
-      "glossary": [
-        {
-          "term": "ProLogium",
-          "desc": "辉能科技，一家专注于固态电池研发与制造的台湾企业。",
-          "category": "公司"
-        },
-        {
-          "term": "SPAC",
-          "desc": "特殊目的收购公司，一种使私人公司无需传统IPO即可公开上市的金融工具。",
-          "category": "金融"
-        },
-        {
-          "term": "Solid-State Battery",
-          "desc": "固态电池，使用固态电解质而非液态电解质的电池，具有更高安全性和能量密度。",
-          "category": "电池/材料"
-        }
-      ],
-      "region": "overseas",
-      "summary": "固态电池开发商辉能科技（ProLogium）将通过38亿美元的SPAC交易在纳斯达克上市，这将为固态电池技术的商业化量产提供巨额资金支持。",
+      "summary": "CVPR 2026收录了MambaEye视觉编码器研究，该架构采用因果序列处理机制，实现了不受输入尺寸限制的视觉特征提取。",
       "tag_category": "综合",
-      "title_en": "ProLogium: $3.8 Billion SPAC Deal To Take Solid-State Battery Developer Public On Nasdaq"
+      "title_en": "MambaEye: A Size-Agnostic Visual Encoder with Causal Sequential Processing | CVPR 2026 Findings"
+    },
+    {
+      "title": "“欧洲正在觉醒”：我参加了Mistral在巴黎的峰会，听到了关于AI的明确信息（'Europe is kind of waking up': I went to Mistral's summit in Paris and heard a clear message about AI）",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/europe-kind-waking-went-mistrals-103101540.html",
+      "description": "I attended Mistral's first AI summit in Paris. Here's what executives and attendees said about Europe's AI moment.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "欧洲本土AI大模型企业（如Mistral）的崛起，正推动欧洲建立独立的AI生态，以减少对美国技术的依赖。",
+        "欧洲对数据隐私和合规性的严苛要求，将催生对定制化、符合GDPR标准的AI推理芯片及私有化部署方案的需求。"
+      ],
+      "actions": [
+        "评估欧洲AI市场潜力，寻找与本土大模型厂商在算力基础设施和端侧推理芯片上的合作机会。",
+        "针对欧洲市场的高合规性要求，开发强调数据安全与隐私保护的AI芯片解决方案。"
+      ],
+      "glossary": [
+        {
+          "term": "Mistral",
+          "desc": "法国人工智能初创公司，专注于开发开源和商用大语言模型",
+          "category": "AI企业"
+        },
+        {
+          "term": "GDPR",
+          "desc": "通用数据保护条例，欧盟制定的关于数据隐私和安全保护的法规",
+          "category": "法规"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Mistral在巴黎举办的首届AI峰会传递出欧洲AI产业正在觉醒的明确信号，参会高管与嘉宾对欧洲的AI发展机遇表达了积极预期。",
+      "tag_category": "综合",
+      "title_en": "'Europe is kind of waking up': I went to Mistral's summit in Paris and heard a clear message about AI"
     }
   ],
   "stats": {
-    "total_raw": 40,
-    "after_dedup": 5,
+    "total_raw": 19,
+    "after_dedup": 3,
     "sources": {
-      "Exa": 5
+      "Exa": 2,
+      "Brave": 1
     }
   },
   "code_version": "",

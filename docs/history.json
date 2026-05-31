@@ -1,23 +1,5 @@
 [
   {
-    "url": "https://pulse2.com/lattice-semiconductor-to-acquire-ami-in-1-65-billion-deal-to-expand-ai-infrastructure-platform/",
-    "title": "Lattice Semiconductor To Acquire AMI In $1.65 Billion Deal To Expand AI Infrastructure Platform",
-    "published": "2026-05-06T00:00:00.000Z",
-    "addedAt": "2026-05-08T06:07:00+08:00"
-  },
-  {
-    "url": "https://www.36kr.com/p/3639229542780294",
-    "title": "RISC-V架构AI芯片公司进迭时空再获数亿元融资，新一代RISC-V AI芯片即将发布｜硬氪首发-36氪",
-    "published": "2026-05-07T00:00:00.000Z",
-    "addedAt": "2026-05-08T06:07:00+08:00"
-  },
-  {
-    "url": "https://www.newelectronics.co.uk/content/news/renesas-completes-irida-labs-acquisition-to-strengthen-vision-ai-capabilities",
-    "title": "瑞萨电子完成对Irida Labs的收购",
-    "published": "2026-05-08T00:00:00.000Z",
-    "addedAt": "2026-05-08T13:03:00+08:00"
-  },
-  {
     "url": "https://content.knowledgehub.wiley.com/efficient-design-and-simulation-of-lpda-fed-parabolic-reflector-antennas/",
     "title": "使用全波电磁仿真设计宽带LPDA馈电反射面天线",
     "published": "Fri, 17 Apr 2026 14:00:50 +0000",
@@ -2998,5 +2980,23 @@
     "title": "辉能科技：38亿美元SPAC交易将固态电池开发商推向纳斯达克上市（ProLogium: $3.8 Billion SPAC Deal To Take Solid-State Battery Developer Public On Nasdaq）",
     "published": "2026-05-30T00:00:00.000Z",
     "addedAt": "2026-05-31T06:13:00+08:00"
+  },
+  {
+    "url": "https://www.techbriefs.com/component/content/article/55244-nasas-space-computing-breakthrough-powers-future-missions",
+    "title": "NASA的计算突破为未来太空任务提供动力（NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs）",
+    "published": "2026-06-01T00:00:00.000Z",
+    "addedAt": "2026-05-31T20:13:00+08:00"
+  },
+  {
+    "url": "https://usingcolor.github.io/MambaEye/",
+    "title": "MambaEye：具备因果序列处理的大小无关视觉编码器（MambaEye: A Size-Agnostic Visual Encoder with Causal Sequential Processing | CVPR 2026 Findings）",
+    "published": "2026-06-01T00:00:00.000Z",
+    "addedAt": "2026-05-31T20:13:00+08:00"
+  },
+  {
+    "url": "https://finance.yahoo.com/sectors/technology/articles/europe-kind-waking-went-mistrals-103101540.html",
+    "title": "“欧洲正在觉醒”：我参加了Mistral在巴黎的峰会，听到了关于AI的明确信息（'Europe is kind of waking up': I went to Mistral's summit in Paris and heard a clear message about AI）",
+    "published": "",
+    "addedAt": "2026-05-31T20:13:00+08:00"
   }
 ]
