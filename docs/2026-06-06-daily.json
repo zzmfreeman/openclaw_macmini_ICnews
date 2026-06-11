@@ -1,0 +1,646 @@
+{
+  "version": "v20260606-0703",
+  "generatedAt": "2026-06-06T07:03:00+08:00",
+  "period": "daily",
+  "commit": "",
+  "glossary_list": [
+    {
+      "term": "CoWoS",
+      "desc": "Chip-on-Wafer-on-Substrate，台积电2.5D/3D先进封装平台",
+      "category": "封装"
+    },
+    {
+      "term": "HBM",
+      "desc": "High Bandwidth Memory，高带宽内存，AI芯片关键配套",
+      "category": "存储"
+    },
+    {
+      "term": "OSAT",
+      "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
+      "category": "封装"
+    },
+    {
+      "term": "SkyOS·天枢",
+      "desc": "蔚来自研的整车全域操作系统，旨在实现车辆各域（智驾、座舱、底盘等）的底层打通与统一管理。",
+      "category": "软件/OS"
+    },
+    {
+      "term": "智能满配",
+      "desc": "指车辆在智能驾驶和智能座舱等方面配备最高规格的硬件与软件功能，不再区分高低配版本。",
+      "category": "汽车配置"
+    },
+    {
+      "term": "IPO",
+      "desc": "Initial Public Offering，首次公开募股，指企业首次将股份向公众投资者出售。",
+      "category": "金融"
+    },
+    {
+      "term": "WinCommerce",
+      "desc": "越南Masan集团旗下的零售连锁业务品牌。",
+      "category": "零售"
+    },
+    {
+      "term": "Barco",
+      "desc": "巴可，全球知名的专业可视化与显示解决方案提供商，常用于影院、控制室等场景。",
+      "category": "终端品牌"
+    },
+    {
+      "term": "Focal",
+      "desc": "法国高端音响及耳机制造商，以高保真音质闻名。",
+      "category": "终端品牌"
+    },
+    {
+      "term": "Quantinuum",
+      "desc": "由霍尼韦尔与剑桥量子计算合并成立的量子计算公司，专注于量子硬件与软件解决方案。",
+      "category": "量子计算"
+    },
+    {
+      "term": "Market Cap",
+      "desc": "市值，即公司在股票市场上的总价值，通常由股价乘以总股本计算得出。",
+      "category": "金融"
+    },
+    {
+      "term": "大湾区车展",
+      "desc": "指在深圳等地举办的粤港澳大湾区国际汽车博览会，是华南地区重要的汽车行业展会。",
+      "category": "展会"
+    },
+    {
+      "term": "Johor",
+      "desc": "柔佛州，马来西亚州属，与新加坡相邻，近年积极发展半导体及电子制造产业",
+      "category": "地理"
+    },
+    {
+      "term": "RM",
+      "desc": "林吉特，马来西亚的法定货币",
+      "category": "经济"
+    },
+    {
+      "term": "Aluminium Complex",
+      "desc": "铝业联合体，包含铝土矿开采、氧化铝精炼及铝冶炼的综合性工业设施",
+      "category": "材料"
+    },
+    {
+      "term": "SDV",
+      "desc": "软件定义汽车，通过软件更新来增加车辆功能和提升性能的新型汽车架构",
+      "category": "汽车电子"
+    },
+    {
+      "term": "Virtualization",
+      "desc": "虚拟化技术，在汽车计算平台中允许多个操作系统共享同一硬件资源并实现安全隔离",
+      "category": "技术"
+    },
+    {
+      "term": "Sonnet 4.5",
+      "desc": "Anthropic推出的大语言模型，擅长复杂推理与代码生成",
+      "category": "AI模型"
+    },
+    {
+      "term": "Gemini 2.5 Flash",
+      "desc": "谷歌推出的轻量级高速大语言模型，侧重于低延迟和低成本推理",
+      "category": "AI模型"
+    },
+    {
+      "term": "Selector-only memory (SOM)",
+      "desc": "纯选通管存储器，一种将选通器件同时作为存储单元的新型存储架构，可极大提高集成度",
+      "category": "存储技术"
+    },
+    {
+      "term": "Homopolar bond",
+      "desc": "同极键，由同种元素原子形成的共价键，在硫系玻璃中常影响材料的稳定性",
+      "category": "材料科学"
+    },
+    {
+      "term": "Sierra",
+      "desc": "一家专注于企业级AI智能体的初创公司，由前Salesforce联合CEO Bret Taylor创立",
+      "category": "企业"
+    },
+    {
+      "term": "AI Agent",
+      "desc": "AI智能体，能够感知环境、进行自主决策并执行任务以实现特定目标的AI系统",
+      "category": "AI技术"
+    },
+    {
+      "term": "Kyndryl",
+      "desc": "勤达，从IBM剥离出来的独立IT基础设施服务提供商",
+      "category": "企业"
+    },
+    {
+      "term": "Engineering Documentation",
+      "desc": "工程文档，记录产品设计、规格和开发流程的技术文件",
+      "category": "设计"
+    },
+    {
+      "term": "Embedded Systems",
+      "desc": "嵌入式系统，专为特定控制功能设计的专用计算机系统",
+      "category": "系统"
+    },
+    {
+      "term": "IEEE",
+      "desc": "电气电子工程师学会，全球最大的非营利性专业技术组织",
+      "category": "组织"
+    },
+    {
+      "term": "The Institute",
+      "desc": "IEEE旗下的新闻出版物，专注于报道IEEE及全球技术社群动态",
+      "category": "媒体"
+    }
+  ],
+  "items": [
+    {
+      "title": "新乐道L60 6月11日上市 搭载整车全域操作系统SkyOS·天枢",
+      "url": "https://chejiahao.autohome.com.cn/info/25605510",
+      "description": "新乐道L60 6月11日上市 搭载整车全域操作系统SkyOS·天枢_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n新乐道L60 6月11日上市 搭载整车全域操作系统SkyOS·天枢\n\nCNMO科技\n\n车家号·0浏览·2026-06-02 11:56 · 北京\n\n【CNMO科技消息】6月2日，乐道汽车发文称，新乐道L60(参数|询价)是同级唯一搭载整车全域操作系统的车型。其所配备的SkyOS·天枢打通了六域，让车更省",
+      "published": "2026-06-11T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "车企自研整车全域操作系统成为趋势，旨在打通底层硬件与上层应用，提升智能座舱与自动驾驶的协同效率。",
+        "SkyOS·天枢的落地标志着蔚来在软件定义汽车（SDV）领域的核心布局进一步深化，有助于提升品牌差异化竞争力。"
+      ],
+      "actions": [
+        "芯片供应商需关注车企自研OS对底层芯片架构的定制化需求，提前适配SkyOS等本土操作系统。",
+        "Tier 1厂商应加速开发兼容全域操作系统的中间件与应用，抢占新车型上市的首发生态位。"
+      ],
+      "glossary": [
+        {
+          "term": "SkyOS·天枢",
+          "desc": "蔚来自研的整车全域操作系统，旨在实现车辆各域（智驾、座舱、底盘等）的底层打通与统一管理。",
+          "category": "软件/OS"
+        }
+      ],
+      "region": "domestic",
+      "summary": "蔚来旗下新品牌乐道的新款L60车型将于6月11日上市，该车型将搭载蔚来自研的整车全域操作系统SkyOS·天枢。",
+      "tag_category": "综合",
+      "title_en": "新乐道L60 6月11日上市 搭载整车全域操作系统SkyOS·天枢_车家号_发现车生活_汽车之家"
+    },
+    {
+      "title": "乐道新款L60即将上市，智能满配进阶",
+      "url": "https://chejiahao.autohome.com.cn/info/25471869",
+      "description": "乐道新款L60即将上市，智能满配进阶_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n乐道新款L60即将上市，智能满配进阶\n\n驾仕派\n\n车家号·0浏览·2026-05-12 19:15 · 四川\n\n5月10日，蔚来创始人、董事长、CEO李斌在官方直播活动中透露，新款 乐道L60将在外观设计、智能技术方面进行产品升级，预计于5月底正式开启预售，6月将正式上市。 新款乐道L60将搭载蔚来自研全球首颗5nm车规级智驾芯片“",
+      "published": "2026-06-11T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "乐道L60的智能满配策略反映出中端新能源市场正从价格战转向智能化配置战，高阶智驾与智能座舱逐渐下放至20万级别车型。",
+        "智能配置的满配进阶将直接拉动对大算力SoC、高线束激光雷达等核心半导体元器件的需求量。"
+      ],
+      "actions": [
+        "供应链需针对乐道L60的智能化配置清单，提前备足相关传感器与计算芯片的产能。",
+        "关注蔚来/乐道车型的智驾域控架构演进，评估下一代平台对芯片选型的潜在影响。"
+      ],
+      "glossary": [
+        {
+          "term": "智能满配",
+          "desc": "指车辆在智能驾驶和智能座舱等方面配备最高规格的硬件与软件功能，不再区分高低配版本。",
+          "category": "汽车配置"
+        }
+      ],
+      "region": "domestic",
+      "summary": "蔚来旗下乐道品牌新款L60即将上市，在智能化配置上进行了全面进阶与升级。",
+      "tag_category": "综合",
+      "title_en": "乐道新款L60即将上市，智能满配进阶_车家号_发现车生活_汽车之家"
+    },
+    {
+      "title": "CEO Danny Le：利润增速快于营收，Masan计划将WinCommerce进行IPO（CEO Danny Le: Lợi nhuận tăng nhanh hơn doanh thu, Masan lên kế hoạch IPO WinCommerce）",
+      "url": "https://www.phs.vn/tin-tuc/ceo-danny-le-loi-nhuan-tang-nhanh-hon-doanh-thu-masan-len-ke-hoach-ipo-wincommerce/6397279",
+      "description": "CEO Danny Le: Lợi nhuận tăng nhanh hơn doanh thu, Masan lên kế hoạch IPO WinCommerce\n\n|\n\nvi\n\nTin tức CEO Danny Le: Lợi nhuận tăng nhanh hơn doanh thu, Masan lên kế hoạch IPO WinCommerce\n\n# CEO Danny Le: Lợi nhuận tăng nhanh hơn doanh thu, Masan lên kế hoạch IPO WinCommerce\n\n06/05/2026\n\nCEO Danny Le:",
+      "published": "2026-06-05T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "该新闻属于零售消费领域，与半导体EDA/IP核心产业链无直接关联，但在当前宏观环境下，各行业分拆核心业务独立IPO以释放价值的趋势值得关注。",
+        "非科技类企业的IPO与资本市场活跃度，间接反映了整体经济投资环境，可能影响半导体初创企业的融资与退出节奏。"
+      ],
+      "actions": [
+        "半导体从业者可参考此类分拆IPO的资本运作逻辑，思考EDA/IP等核心资产独立上市或剥离的价值最大化路径。",
+        "关注全球多行业IPO动态，评估宏观资本市场对半导体一级市场投融资的溢出效应。"
+      ],
+      "glossary": [
+        {
+          "term": "IPO",
+          "desc": "Initial Public Offering，首次公开募股，指企业首次将股份向公众投资者出售。",
+          "category": "金融"
+        },
+        {
+          "term": "WinCommerce",
+          "desc": "越南Masan集团旗下的零售连锁业务品牌。",
+          "category": "零售"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Masan集团CEO Danny Le表示，公司利润增长快于营收增长，并正计划将其零售业务WinCommerce进行IPO。",
+      "tag_category": "EDA/IP",
+      "title_en": "CEO Danny Le: Lợi nhuận tăng nhanh hơn doanh thu, Masan lên kế hoạch IPO WinCommerce"
+    },
+    {
+      "title": "Barco（巴可）完成对Focal和Naim的收购，强化其娱乐业务版图（Barco completes acquisition of Focal and Naim, strengthening its entertainment offering）",
+      "url": "https://www.inavateapac.com/news/article/barco-completes-acquisition-of-focal-and-naim-strengthening-its-entertainment-offering",
+      "description": "Barco completes acquisition of Focal and Naim, strengthening its entertainment offering | Inavate APAC\n\n# Barco completes acquisition of Focal and Naim, strengthening its entertainment offering\n\nBarco announced the successful completion of its acquisition of VerVent Audio Group, bringing the premium",
+      "published": "2026-06-05T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "Barco通过横向并购整合视听产业链，从专业显示延伸至高端音频领域，体现了硬件生态闭环的商业价值。",
+        "音视频融合趋势下，具备高保真音频处理与显示芯片整合能力的平台将更具竞争优势，推动相关专用芯片的需求。"
+      ],
+      "actions": [
+        "芯片供应商应关注视听融合设备对多模态信号处理（音视频同步、低延迟传输）芯片的增量需求。",
+        "评估并购带来的供应链整合效应，适时调整对Barco及其新子品牌的芯片直供或代理策略。"
+      ],
+      "glossary": [
+        {
+          "term": "Barco",
+          "desc": "巴可，全球知名的专业可视化与显示解决方案提供商，常用于影院、控制室等场景。",
+          "category": "终端品牌"
+        },
+        {
+          "term": "Focal",
+          "desc": "法国高端音响及耳机制造商，以高保真音质闻名。",
+          "category": "终端品牌"
+        }
+      ],
+      "region": "overseas",
+      "summary": "专业视听解决方案提供商Barco（巴可）宣布完成对高端音响品牌Focal和Naim的收购，旨在进一步强化其在娱乐和消费级视听市场的产品与服务组合。",
+      "tag_category": "综合",
+      "title_en": "Barco completes acquisition of Focal and Naim, strengthening its entertainment offering | Inavate APAC"
+    },
+    {
+      "title": "Quantinuum在IPO中达到160亿美元市值（Quantinuum gets $16bn market cap in IPO）",
+      "url": "https://www.electronicsweekly.com/news/business/quantinuum-gets-16bn-market-cap-in-ipo-2026-06/",
+      "description": "<p>Quantinuum, the joint Honeywell-Cambridge Quantum startup, has raised $1.68 billion on the Nasdaq. By the market close, Quantinuum’s market cap was $15.7 billion. The company was formed in 2021 to ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/news/business/quantinuum-gets-16bn-ma",
+      "published": "Fri, 05 Jun 2026 05:24:12 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "Quantinuum的高估值IPO标志着量子计算产业正加速从实验室走向资本市场，量子软硬件的商业化进程获得重要认可。",
+        "霍尼韦尔通过分拆量子业务独立上市，实现了核心前沿技术的价值释放，为其他大型科技公司的前沿技术剥离提供了范本。"
+      ],
+      "actions": [
+        "EDA与IP供应商需密切关注量子计算架构演进，提前布局针对量子芯片设计的专用EDA工具链。",
+        "半导体设备与材料厂商应评估量子计算芯片（如离子阱等非传统半导体工艺）对特种制造材料与设备的潜在需求。"
+      ],
+      "glossary": [
+        {
+          "term": "Quantinuum",
+          "desc": "由霍尼韦尔与剑桥量子计算合并成立的量子计算公司，专注于量子硬件与软件解决方案。",
+          "category": "量子计算"
+        },
+        {
+          "term": "Market Cap",
+          "desc": "市值，即公司在股票市场上的总价值，通常由股价乘以总股本计算得出。",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "霍尼韦尔与剑桥量子计算合资成立的量子计算公司Quantinuum在纳斯达克上市，募资16.8亿美元，上市首日市值达到约157亿美元。",
+      "tag_category": "EDA/IP",
+      "title_en": "Quantinuum gets $16bn market cap in IPO"
+    },
+    {
+      "title": "乐道L60开启预售，蔚来全系亮相大湾区车展，展台面积翻倍",
+      "url": "https://chejiahao.autohome.com.cn/info/25579819",
+      "description": "乐道L60预售 蔚来全系亮相大湾区车展，展台面积是上一届两倍_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n乐道L60预售 蔚来全系亮相大湾区车展，展台面积是上一届两倍\n\n道哥说车\n\n车家号·0浏览·2026-05-29 16:35 · 北京\n\n【文/财圈社&道哥说车 麻建宇】连续两个季度实现盈利的蔚来，阔起来了。\n\n5月29日，第三十届粤港澳大湾区车展正式开幕。蔚来公司携旗下蔚来、乐道、萤火虫三大品牌参展，以11",
+      "published": "2026-06-11T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "展台面积翻倍与多品牌同台亮相，反映出蔚来-乐道双品牌战略进入实质性市场冲刺阶段，对供应链的交付保障提出了更高要求。",
+        "新品牌预售及大规模车展营销，将加速终端消费者对新车型的认知转化，短期内可能引发供应链订单的脉冲式增长。"
+      ],
+      "actions": [
+        "供应链企业需与蔚来/乐道紧密协同，确保L60预售到量产交付期间的芯片与零部件产能平滑过渡。",
+        "关注大湾区车展带来的区域市场反馈，及时调整后续车型的备货与排产计划。"
+      ],
+      "glossary": [
+        {
+          "term": "大湾区车展",
+          "desc": "指在深圳等地举办的粤港澳大湾区国际汽车博览会，是华南地区重要的汽车行业展会。",
+          "category": "展会"
+        }
+      ],
+      "region": "domestic",
+      "summary": "乐道L60正式开启预售，蔚来全系车型集中亮相大湾区车展，且展台面积扩大至上一届的两倍，显示出品牌扩张的强烈意图。",
+      "tag_category": "综合",
+      "title_en": "乐道L60预售 蔚来全系亮相大湾区车展，展台面积是上一届两倍_车家号_发现车生活_汽车之家"
+    },
+    {
+      "title": "马新社 - 上海投资路演：柔佛州吸引36家全球投资者，获得100亿林吉特初步承诺投资（BERNAMA - Shanghai Investment Mission: Johor Attracts 36 Global Investors, RM10 Bln In Initial Commitments）",
+      "url": "https://www.bernama.com/misc/rss/news.php?id=2553436",
+      "description": "BERNAMA - Shanghai Investment Mission: Johor Attracts 36 Global Investors, RM10 Bln In Initial Commitments\n\nLee Ting Han\n\nBUSINESS\n\n# Shanghai Investment Mission: Johor Attracts 36 Global Investors, RM10 Bln In Initial Commitments\n\n06/05/2026 01:42 PM\n\nPlease email to digitalsales@bernama.com for fu",
+      "published": "2026-06-05T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "柔佛州正成为半导体和制造业的东南亚新兴投资热点，受益于地缘政治下的供应链多元化需求。",
+        "马来西亚积极通过海外路演吸引外资，旨在强化其在全球芯片封测及制造供应链中的地位。"
+      ],
+      "actions": [
+        "关注柔佛州的土地、水电及政策配套情况，评估在当地设厂或扩产的成本效益。",
+        "与马来西亚投资发展局（MIDA）建立联系，了解针对半导体及电子行业的最新激励政策。"
+      ],
+      "glossary": [
+        {
+          "term": "Johor",
+          "desc": "柔佛州，马来西亚州属，与新加坡相邻，近年积极发展半导体及电子制造产业",
+          "category": "地理"
+        },
+        {
+          "term": "RM",
+          "desc": "林吉特，马来西亚的法定货币",
+          "category": "经济"
+        }
+      ],
+      "region": "overseas",
+      "summary": "马来西亚柔佛州在上海举办的投资路演中成功吸引36家全球投资者，获得了100亿林吉特的初步投资承诺，显示该地区在半导体等领域的投资吸引力。",
+      "tag_category": "综合",
+      "title_en": "BERNAMA - Shanghai Investment Mission: Johor Attracts 36 Global Investors, RM10 Bln In Initial Commitments"
+    },
+    {
+      "title": "中东经济文摘 | 埃及将扩建纳格哈马迪铝业联合体（MEED | Egypt to expand Nag Hammadi aluminium complex）",
+      "url": "https://www.meed.com/egypt-to-expand-nag-hammadi-aluminium-complex",
+      "description": "MEED | Egypt to expand Nag Hammadi aluminium complex MEED | Egypt to expand Nag Hammadi aluminium complex\n\n# Egypt to expand Nag Hammadi aluminium complex\n\n06 May 2026 By Yasir Iqbal\n\nEgyptalum and Singapore-based Trafigura will form a joint venture to double the complex capacity under a $900m expan",
+      "published": "2026-06-05T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "铝是半导体引线框架、散热器及封装的关键上游材料，原铝产能的扩张有助于稳定下游电子供应链成本。",
+        "中东和北非地区正试图通过扩大基础金属产能，在全球电子供应链中占据更上游的位置。"
+      ],
+      "actions": [
+        "跟踪全球铝产能扩张对引线框架及封装材料价格的中长期影响。",
+        "评估埃及等北非国家作为基础金属采购新来源的可行性与地缘风险。"
+      ],
+      "glossary": [
+        {
+          "term": "Aluminium Complex",
+          "desc": "铝业联合体，包含铝土矿开采、氧化铝精炼及铝冶炼的综合性工业设施",
+          "category": "材料"
+        }
+      ],
+      "region": "overseas",
+      "summary": "埃及计划扩建其位于纳格哈马迪的铝业联合体，此举将提升该国的原铝产能，而铝是半导体封装和电子制造的关键基础材料。",
+      "tag_category": "Fab/制造",
+      "title_en": "MEED | Egypt to expand Nag Hammadi aluminium complex"
+    },
+    {
+      "title": "利用虚拟化扩展软件定义汽车（SDV）开发 - 出行工程技术（Scaling SDV Development with Virtualization - Mobility Engineering Technology）",
+      "url": "https://www.mobilityengineeringtech.com/component/content/article/55148-scaling-sdv-development-with-virtualization",
+      "description": "Scaling SDV Development with Virtualization - Mobility Engineering Technology\n\n###### UPCOMING WebinarsAutomotive\n\n# Scaling SDV Development with Virtualization\n\n###### SPONSORED BY:\n\n---\n\n### Coming on: Monday, June 8, 2026 at 10:00 am U.S. EDT\n\n---\n\nAs the automotive industry transitions to softwa",
+      "published": "2026-06-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "虚拟化技术允许车规芯片和软件在硅前阶段进行并行开发和验证，大幅缩短SDV上市时间。",
+        "汽车电子架构向集中式演进，对虚拟化底层芯片算力和安全隔离提出了更高要求。"
+      ],
+      "actions": [
+        "车规芯片厂商应加强与虚拟化平台提供商的合作，提前优化芯片的Hypervisor支持能力。",
+        "汽车电子研发团队需引入云端虚拟化验证环境，降低对实体ECU样机的依赖并加速软件开发。"
+      ],
+      "glossary": [
+        {
+          "term": "SDV",
+          "desc": "软件定义汽车，通过软件更新来增加车辆功能和提升性能的新型汽车架构",
+          "category": "汽车电子"
+        },
+        {
+          "term": "Virtualization",
+          "desc": "虚拟化技术，在汽车计算平台中允许多个操作系统共享同一硬件资源并实现安全隔离",
+          "category": "技术"
+        }
+      ],
+      "region": "overseas",
+      "summary": "文章探讨了如何通过虚拟化技术来规模化推进软件定义汽车（SDV）的开发，以加速汽车电子架构的迭代与验证。",
+      "tag_category": "综合",
+      "title_en": "Scaling SDV Development with Virtualization - Mobility Engineering Technology"
+    },
+    {
+      "title": "Sonnet 4.5 对比 Gemini 2.5 Flash：生产部署决策指南 | PADISO博客（Sonnet 4.5 vs Gemini 2.5 Flash: A Production Decision Guide | PADISO Blog）",
+      "url": "https://www.padiso.co/blog/sonnet-4-5-vs-gemini-2-5-flash-production-decision-guide/",
+      "description": "Sonnet 4.5 vs Gemini 2.5 Flash: A Production Decision Guide | PADISO Blog\n\nPADISO.ai: AI Agent Orchestration Platform - Launching May 2026\n\nGuide 18 mins\n\n# Sonnet 4.5 vs Gemini 2.5 Flash: A Production Decision Guide\n\nCompare Claude Sonnet 4.5 and Gemini 2.5 Flash: latency, accuracy, cost, and tool-",
+      "published": "2026-06-11T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "大模型在生产环境中的选择正从单纯追求参数规模转向推理成本与响应速度的综合考量。",
+        "AI Agent（智能体）编排将成为多模型协同生产部署的主流趋势，不同模型将承担不同子任务。"
+      ],
+      "actions": [
+        "半导体设计或制造企业引入AI时，应根据具体任务（如代码生成、文档解析或实时监控）建立模型评估矩阵，而非盲目选用单一模型。",
+        "关注AI推理算力需求的变化，提前规划边缘或云端GPU/NPU资源分配以适应多模型部署。"
+      ],
+      "glossary": [
+        {
+          "term": "Sonnet 4.5",
+          "desc": "Anthropic推出的大语言模型，擅长复杂推理与代码生成",
+          "category": "AI模型"
+        },
+        {
+          "term": "Gemini 2.5 Flash",
+          "desc": "谷歌推出的轻量级高速大语言模型，侧重于低延迟和低成本推理",
+          "category": "AI模型"
+        }
+      ],
+      "region": "overseas",
+      "summary": "该指南对比了Anthropic的Sonnet 4.5和谷歌的Gemini 2.5 Flash两款大模型在生产环境中的性能与成本，为企业AI应用的模型选择提供参考。",
+      "tag_category": "综合",
+      "title_en": "Sonnet 4.5 vs Gemini 2.5 Flash: A Production Decision Guide | PADISO Blog"
+    },
+    {
+      "title": "通过抑制同极键和增强存储窗口提高硅掺杂GeS基纯选通管存储器的可靠性 - 韩国大学（Improved reliability of Si-doped GeS-based selector-only memory via homopolar bond suppression and enhanced memory window      -  Korea University Pure）",
+      "url": "https://pure.korea.ac.kr/en/publications/improved-reliability-of-si-doped-ges-based-selector-only-memory-v/",
+      "description": "Improved reliability of Si-doped GeS-based selector-only memory via homopolar bond suppression and enhanced memory window - Korea University Pure\n\n# Improved reliability of Si-doped GeS-based selector-only memory via homopolar bond suppression and enhanced memory window\n\n*Corresponding author for th",
+      "published": "2026-06-10T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "纯选通管存储器（SOM）架构是突破3D NAND微缩极限的潜在方案，其可靠性的提升对商业化至关重要。",
+        "通过材料掺杂（如Si掺杂GeS）和化学键调控来改善器件性能，是新型存储研发的重要路径。"
+      ],
+      "actions": [
+        "存储芯片研发人员应密切关注SOM架构的进展，评估其作为3D NAND替代或补充技术的时机。",
+        "材料供应商需关注硫系化合物（如GeS）在半导体存储领域的增量需求及高纯度制备工艺。"
+      ],
+      "glossary": [
+        {
+          "term": "Selector-only memory (SOM)",
+          "desc": "纯选通管存储器，一种将选通器件同时作为存储单元的新型存储架构，可极大提高集成度",
+          "category": "存储技术"
+        },
+        {
+          "term": "Homopolar bond",
+          "desc": "同极键，由同种元素原子形成的共价键，在硫系玻璃中常影响材料的稳定性",
+          "category": "材料科学"
+        }
+      ],
+      "region": "overseas",
+      "summary": "韩国大学的研究人员通过抑制同极键和扩大存储窗口，显著提升了硅掺杂GeS基纯选通管存储器的可靠性，为下一代高密度存储架构提供了技术支持。",
+      "tag_category": "综合",
+      "title_en": "Improved reliability of Si-doped GeS-based selector-only memory via homopolar bond suppression and enhanced memory window      -  Korea University Pure"
+    },
+    {
+      "title": "Sierra最新一轮融资的金额和估值是多少？ - AI融资脉搏 | NBot | nbot.ai（What is the funding amount and valuation for Sierra's latest round? - AI Funding Pulse | NBot | nbot.ai）",
+      "url": "https://nbot.ai/curator/xrbsvxq2/highlights/H-sierra-20260608",
+      "description": "Get the App\n\nApp Store Google Play\n\nLoading...\n\n# Bret Taylor's Sierra $950M Series E at $15.8B val for enterprise AI agents\n\n## Key Questions\n\n### What is the funding amount and valuation for Sierra's latest round?\n\nSierra raised $950 million in a Series E round led by Tiger Global and GV, at a $15",
+      "published": "2026-06-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "企业级AI Agent正成为大模型落地的高价值场景，资本愿意为其支付高溢价。",
+        "高额融资将推动AI Agent在底层算力、模型微调及行业定制化方面的投入，间接拉动对AI芯片的需求。"
+      ],
+      "actions": [
+        "芯片厂商应关注企业级AI Agent的算力消耗特征，优化云端及边缘推理芯片对Agent工作负载的支持。",
+        "半导体企业内部可探索引入AI Agent来优化供应链管理、良率分析等核心业务流程。"
+      ],
+      "glossary": [
+        {
+          "term": "Sierra",
+          "desc": "一家专注于企业级AI智能体的初创公司，由前Salesforce联合CEO Bret Taylor创立",
+          "category": "企业"
+        },
+        {
+          "term": "AI Agent",
+          "desc": "AI智能体，能够感知环境、进行自主决策并执行任务以实现特定目标的AI系统",
+          "category": "AI技术"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Bret Taylor创办的企业级AI智能体公司Sierra在E轮融资中筹集了9.5亿美元，估值达到158亿美元，显示企业级AI Agent赛道持续受到资本热捧。",
+      "tag_category": "综合",
+      "title_en": "What is the funding amount and valuation for Sierra's latest round? - AI Funding Pulse | NBot | nbot.ai"
+    },
+    {
+      "title": "勤达发布2026财年第四季度及全年业绩（Kyndryl reports fourth quarter and full-year 2026 results）",
+      "url": "https://www.kyndryl.com/in/en/about-us/news/2026/05/annual-and-fourth-quarter-2026-earnings-results",
+      "description": "Kyndryl reports fourth quarter and full-year 2026 results\n\n# Kyndryl reports fourth quarter and full-year 2026 results\n\nPress release 06-May-2026\n\n\\r\\n Revenues for the quarter ended March 31, 2026 total $3.8 billion, pretax income is $132 million, net income is $17 million, adjusted EBITDA is $688 ",
+      "published": "2026-06-05T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "勤达作为从IBM剥离出的全球最大IT基础设施服务商，其财报表现能反映企业级IT服务与数据中心运维市场的需求景气度。",
+        "半导体供应链企业可通过观察此类IT基础设施巨头的资本支出与营收趋势，间接评估服务器及数据中心芯片的需求动向。"
+      ],
+      "actions": [
+        "关注勤达财报中关于数据中心和企业基础设施投资的具体数据，评估其对服务器芯片和存储芯片需求的潜在拉动效应。",
+        "追踪勤达在AI基础设施和云服务方面的业务布局，寻找与其合作的半导体硬件供应机会。"
+      ],
+      "glossary": [
+        {
+          "term": "Kyndryl",
+          "desc": "勤达，从IBM剥离出来的独立IT基础设施服务提供商",
+          "category": "企业"
+        }
+      ],
+      "region": "overseas",
+      "summary": "勤达发布了截至2026年3月31日的第四季度及2026财年全年业绩报告，披露了其最新营收情况。",
+      "tag_category": "综合",
+      "title_en": "Kyndryl reports fourth quarter and full-year 2026 results"
+    },
+    {
+      "title": "工程文档是关键的真相来源——你知道它是否准确吗？（Engineering Documentation is a Critical Source of Truth – Do You Know if it’s Accurate?）",
+      "url": "https://semiwiki.com/events/369693-engineering-documentation-is-a-critical-source-of-truth-do-you-know-if-its-accurate/",
+      "description": "<p><a href=\"https://register.gotowebinar.com/register/6420816308439723102?source=SemiWiki+llmda.ai\"></a></p>\n<p style=\"font-weight: 400;\">Embedded systems programs rarely fail because of a lack of execution capability. They fail because critical engineering documentation drifts out of alignment over",
+      "published": "Thu, 04 Jun 2026 17:00:10 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "在芯片设计和嵌入式系统开发中，准确的工程文档是确保跨团队协作、IP复用和产品良率的基础，文档不一致会导致设计迭代增加和验证周期延长。",
+        "随着芯片复杂度提升，将工程文档视为'单一真相来源'（SSOT）已成为行业最佳实践，缺乏文档管控将严重威胁供应链的协同效率。"
+      ],
+      "actions": [
+        "芯片设计团队应建立严格的文档审查和版本控制流程，确保规格书、设计文档与RTL代码的高度一致性。",
+        "引入自动化文档生成与验证工具，减少人工编写带来的误差，提升上下游供应链的技术沟通效率。"
+      ],
+      "glossary": [
+        {
+          "term": "Engineering Documentation",
+          "desc": "工程文档，记录产品设计、规格和开发流程的技术文件",
+          "category": "设计"
+        },
+        {
+          "term": "Embedded Systems",
+          "desc": "嵌入式系统，专为特定控制功能设计的专用计算机系统",
+          "category": "系统"
+        }
+      ],
+      "region": "overseas",
+      "summary": "文章强调工程文档在嵌入式系统项目中的关键作用，指出项目失败往往不是因为执行能力不足，而是因为文档不准确或缺乏一致性。",
+      "tag_category": "综合",
+      "title_en": "Engineering Documentation is a Critical Source of Truth – Do You Know if it’s Accurate?"
+    },
+    {
+      "title": "《The Institute》成立50周年（50 Years of The Institute）",
+      "url": "https://spectrum.ieee.org/50-years-ieee-the-institute",
+      "description": "<img src=\"https://spectrum.ieee.org/media-library/portrait-of-a-smiling-white-woman-with-curly-hair.jpg?id=66860120&width=1245&height=700&coordinates=0%2C187%2C0%2C188\"/><br/><br/><p><a href=\"https://spectrum.ieee.org/the-institute/\" target=\"_self\"><em><em>The Institute</em></em></a> is celebrating ",
+      "published": "Fri, 05 Jun 2026 18:00:01 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "作为IEEE的官方出版物，《The Institute》的50年历程反映了全球电气与半导体技术社群的演变与持续影响力，是追踪行业标准与技术共识的重要窗口。",
+        "权威学术与行业组织的长期发声平台，往往能提前揭示半导体基础技术演进和产业政策风向。"
+      ],
+      "actions": [
+        "建议半导体从业者定期关注IEEE及《The Institute》发布的行业标准和前沿技术动态，以把握底层技术演进方向。",
+        "积极参与IEEE等权威组织的技术委员会活动，提升自身企业在标准制定中的话语权与影响力。"
+      ],
+      "glossary": [
+        {
+          "term": "IEEE",
+          "desc": "电气电子工程师学会，全球最大的非营利性专业技术组织",
+          "category": "组织"
+        },
+        {
+          "term": "The Institute",
+          "desc": "IEEE旗下的新闻出版物，专注于报道IEEE及全球技术社群动态",
+          "category": "媒体"
+        }
+      ],
+      "region": "overseas",
+      "summary": "IEEE旗下的新闻出版物《The Institute》庆祝其成立50周年，回顾了其长期以来对电气电子工程师群体的服务与影响。",
+      "tag_category": "综合",
+      "title_en": "50 Years of The Institute"
+    }
+  ],
+  "stats": {
+    "total_raw": 124,
+    "after_dedup": 90,
+    "sources": {
+      "Exa": 13,
+      "RSS": 45,
+      "Brave": 32
+    }
+  },
+  "code_version": "",
+  "data_commit": ""
+}

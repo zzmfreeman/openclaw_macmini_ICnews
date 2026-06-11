@@ -1,7 +1,7 @@
 {
-  "version": "v20260531-2013",
-  "generatedAt": "2026-05-31T20:13:00+08:00",
-  "period": "evening",
+  "version": "v20260611-0704",
+  "generatedAt": "2026-06-11T07:04:00+08:00",
+  "period": "daily",
   "commit": "",
   "glossary_list": [
     {
@@ -20,194 +20,591 @@
       "category": "封装"
     },
     {
-      "term": "SoC",
-      "desc": "System on Chip，片上系统，将完整计算机系统集成在一个芯片上",
-      "category": "芯片架构"
+      "term": "Capacity crunch",
+      "desc": "产能紧缺，指半导体制造能力无法满足市场爆发性需求的状况",
+      "category": "制造"
     },
     {
-      "term": "Mamba",
-      "desc": "一种状态空间模型（SSM）架构，以线性时间复杂度处理长序列，被视为Transformer的潜在替代方案",
-      "category": "AI算法"
+      "term": "Applied Materials",
+      "desc": "应用材料，全球最大的半导体制造设备供应商之一",
+      "category": "设备"
     },
     {
-      "term": "Visual Encoder",
-      "desc": "视觉编码器，用于将图像数据转换为特征表示的神经网络模块",
-      "category": "AI算法"
+      "term": "N2",
+      "desc": "台积电2纳米制程技术节点",
+      "category": "制程"
     },
     {
-      "term": "Mistral",
-      "desc": "法国人工智能初创公司，专注于开发开源和商用大语言模型",
-      "category": "AI企业"
+      "term": "SoIC",
+      "desc": "系统级集成芯片，台积电的3D堆叠封装技术",
+      "category": "封装"
     },
     {
-      "term": "GDPR",
-      "desc": "通用数据保护条例，欧盟制定的关于数据隐私和安全保护的法规",
-      "category": "法规"
-    }
-  ],
-  "topic_pulse": [
-    {
-      "topic": "CoWoS/先进封装",
-      "heat": "↓降温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "近期CoWoS及先进封装话题讨论热度降温，社区缺乏新的产能或订单爆料。市场情绪从前期的高预期转向冷静观望，等待台积电等厂商的下一步扩产指引。"
+      "term": "光刻胶",
+      "desc": "半导体制造中用于图形转移的关键光敏感材料",
+      "category": "材料"
     },
     {
-      "topic": "HBM/AI存储",
-      "heat": "↓降温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "HBM与AI存储相关讨论热度下降，社区对SK海力士等巨头产能爆表的兴奋感减弱。从业者正密切关注后续HBM3e的量产进度及实际出货数据。"
+      "term": "车规级芯片",
+      "desc": "满足汽车电子严苛可靠性、安全性和长寿命要求的半导体芯片",
+      "category": "应用"
     },
     {
-      "topic": "中国Fab/先进制程",
-      "heat": "↓降温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "中国Fab与先进制程话题热度回落，社区暂无重大技术突破或制裁升级的讨论。情绪趋于理性，业界聚焦于现有成熟制程的产能优化与客户拓展。"
+      "term": "All-time high",
+      "desc": "历史最高水平，指特定指标达到有记录以来的最高点",
+      "category": "财务"
     },
     {
-      "topic": "国产EDA/IP",
-      "heat": "↓降温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "国产EDA/IP讨论热度降温，缺乏新融资或产品发布等刺激因素。社区关注点转向国产工具在实际芯片项目中的验证进度和客户反馈。"
+      "term": "State-Led Technology Competition",
+      "desc": "国家主导的技术竞争，指由政府政策、资金和资源调配为核心驱动的科技产业博弈模式",
+      "category": "产业政策"
     },
     {
-      "topic": "封测OSAT",
-      "heat": "↓降温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "封测OSAT话题热度下降，社区讨论趋于平淡。市场暂无大规模资本开支或并购消息，从业者主要关注传统封装产能的利用率恢复情况。"
+      "term": "DLDO",
+      "desc": "数字低压差线性稳压器，使用数字控制技术实现电压调节",
+      "category": "芯片设计"
     },
     {
-      "topic": "出口管制/制裁",
-      "heat": "↓降温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "出口管制与制裁话题热度降温，近期无新增禁令或重大合规事件引发社区热议。情绪相对平稳，企业正消化现有规则并调整供应链策略。"
+      "term": "DVS",
+      "desc": "动态电压调节，根据工作负载动态调整供电电压以降低功耗的技术",
+      "category": "芯片设计"
     },
     {
-      "topic": "AI芯片/NVIDIA",
-      "heat": "↓降温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "AI芯片与英伟达话题热度降温，社区对新一代GPU的炒作暂告一段落。讨论焦点从硬件规格转向实际部署中的集群算力利用率与功耗挑战。"
+      "term": "FoM",
+      "desc": "品质因数，衡量LDO稳压器综合性能（如响应速度与功耗）的指标",
+      "category": "芯片设计"
     },
     {
-      "topic": "设备/材料国产化",
-      "heat": "↓降温",
-      "reddit_top": null,
-      "hn_top": null,
-      "summary": "设备与材料国产化讨论热度下降，缺乏新的国产替代突破案例。社区情绪进入蓄力期，等待下游Fab验证结果及后续政策扶持动向。"
+      "term": "Fiber Optics",
+      "desc": "光纤，利用光在玻璃或塑料纤维中的全反射原理达成光传导的介质",
+      "category": "光通信"
+    },
+    {
+      "term": "Pure Photonic Network",
+      "desc": "纯光子网络，指数据传输与交换完全基于光子技术实现的网络架构，无需光电转换",
+      "category": "光通信"
+    },
+    {
+      "term": "Electrochemical Additive Manufacturing",
+      "desc": "电化学增材制造，利用电化学沉积原理逐层生长金属结构的3D打印技术，可实现微米级精度",
+      "category": "制造工艺"
+    },
+    {
+      "term": "Fabric8Labs",
+      "desc": "一家专注于电化学增材制造技术的美国初创公司，能打印复杂三维微结构金属电子元件",
+      "category": "企业"
+    },
+    {
+      "term": "TDK Corporation",
+      "desc": "日本知名电子元器件制造商，产品涵盖电容、传感器、磁头等，正积极拓展数据中心业务",
+      "category": "企业"
+    },
+    {
+      "term": "AI models",
+      "desc": "人工智能模型，通过数据训练以执行特定任务的算法系统",
+      "category": "人工智能"
+    },
+    {
+      "term": "Series B",
+      "desc": "B轮融资，指初创企业发展的第二阶段重大融资",
+      "category": "金融"
+    },
+    {
+      "term": "AI Infrastructure",
+      "desc": "人工智能基础设施，包括算力、网络和存储等支撑AI运行的硬件和软件资源",
+      "category": "人工智能"
+    },
+    {
+      "term": "SK Hynix",
+      "desc": "SK海力士，韩国第二大半导体厂商，全球主要的存储芯片制造商之一",
+      "category": "公司"
+    },
+    {
+      "term": "Listing",
+      "desc": "上市，指企业在证券交易所公开发行股票并挂牌交易",
+      "category": "金融"
     }
   ],
   "items": [
     {
-      "title": "NASA的计算突破为未来太空任务提供动力（NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs）",
-      "url": "https://www.techbriefs.com/component/content/article/55244-nasas-space-computing-breakthrough-powers-future-missions",
-      "description": "NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs\n\nElectronics & Sensors INSIDER\n\nNASA’s new processor fits in your hand, delivers full system-on-a-chip power, and is built to survive deep space with far greater speed than current spacecraft technology. Credit: NASA/JPL-Caltec",
-      "published": "2026-06-01T00:00:00.000Z",
+      "title": "英特尔、台积电与华尔街无法忽视的AI产能紧缺",
+      "url": "https://gomarkets.com/en-eu/articles/intel-google-tpu-ai-chip-tsmc-capacity-crunch",
+      "description": "Intel, TSMC and the AI capacity crunch Wall Street can’t ignore\n\nFor most of the artificial intelligence (AI) boom, the market has treated Taiwan Semiconductor Manufacturing Company (TSMC) as the toll road everyone had to use. Nvidia, Apple, AMD, Broadcom and many major AI chip players relied on its",
+      "published": "2026-06-10T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "航空航天领域对高可靠性、低功耗及小型化的SoC需求日益增长，抗辐射和极端环境适应能力是核心壁垒。",
-        "太空计算架构的演进将带动特种工艺芯片和抗辐射EDA/IP的发展，为半导体行业开辟高附加值细分市场。"
+        "AI算力需求激增导致先进制程产能严重紧缺，华尔街资本开始将其视为影响半导体巨头估值的核心风险。",
+        "台积电作为AI芯片代工的绝对核心，其产能瓶颈正迫使市场重新评估英特尔的代工潜力与竞争格局。"
       ],
       "actions": [
-        "关注特种工艺和抗辐射IP的授权机会，评估航空航天客户定制化SoC的开发潜力。",
-        "针对极端环境应用，提前布局高可靠性封装和测试验证能力。"
+        "供应链企业需密切关注台积电与英特尔的产能分配动向，提前锁定长单产能以规避断供风险。",
+        "投资者与产业分析师应将晶圆厂产能扩张进度纳入核心估值模型，而非仅关注终端需求。"
       ],
       "glossary": [
         {
-          "term": "SoC",
-          "desc": "System on Chip，片上系统，将完整计算机系统集成在一个芯片上",
-          "category": "芯片架构"
+          "term": "Capacity crunch",
+          "desc": "产能紧缺，指半导体制造能力无法满足市场爆发性需求的状况",
+          "category": "制造"
         }
       ],
       "region": "overseas",
-      "summary": "NASA开发出新型掌上处理器，具备完整的片上系统（SoC）能力，专为未来太空任务设计，标志着太空计算技术的重大突破。",
+      "summary": "华尔街开始关注AI热潮背后的产能紧缺问题，台积电和英特尔在应对这一挑战中扮演关键角色。",
       "tag_category": "EDA/IP",
-      "title_en": "NASA's Space Computing Breakthrough Powers Future Missions - Tech Briefs"
+      "title_en": "Intel, TSMC and the AI capacity crunch Wall Street can’t ignore"
     },
     {
-      "title": "MambaEye：具备因果序列处理的大小无关视觉编码器（MambaEye: A Size-Agnostic Visual Encoder with Causal Sequential Processing | CVPR 2026 Findings）",
-      "url": "https://usingcolor.github.io/MambaEye/",
-      "description": "MambaEye: A Size-Agnostic Visual Encoder with Causal Sequential Processing | CVPR 2026 Findings\n\n# MambaEye: A Size-Agnostic Visual Encoder with Causal Sequential Processing\n\nChangho Choi 1, Minho Kim 2, Jinkyu Kim 1†\n\n1Korea University, 2MITCVPR 2026 Findings †Corresponding author\n\n## TL;DR We rede",
-      "published": "2026-06-01T00:00:00.000Z",
+      "title": "应用材料投资5亿美元开设新加坡园区以将AI芯片产能翻倍",
+      "url": "https://tokyotribune.com/applied-materials-opens-500-million-singapore-campus-to-double-ai-chip-production-capacity/",
+      "description": "Applied Materials opens $500 million Singapore campus to double AI chip production capacity – tokyotribune.com\n\nSearch\n\nSearch\n\nThursday, June 11, 2026\n\nSearch\n\nSearch\n\nCopyright 2021 - All Right Reserved\n\nHome Business Applied Materials opens $500 million Singapore campus to double AI chip producti",
+      "published": "2026-06-10T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "基于Mamba架构的状态空间模型（SSM）正在视觉领域挑战Transformer的统治地位，其线性复杂度特性在处理高分辨率图像时具备显著算力优势。",
-        "大小无关的视觉编码器有望降低边缘端AI芯片的内存带宽压力，为端侧视觉大模型的部署提供新路径。"
+        "设备厂商正通过区域化产能布局（如新加坡）直接响应AI芯片制造的爆发性需求，设备端产能扩张是晶圆厂扩产的前提。",
+        "AI芯片产能瓶颈不仅存在于前端晶圆代工，也延伸至后道封装与测试设备，设备商的扩产将有效缓解整体供应链压力。"
       ],
       "actions": [
-        "芯片设计团队应评估SSM架构在NPU中的加速潜力，优化针对线性序列处理的硬件算子。",
-        "关注视觉SSM模型的演进，探索在自动驾驶、机器人等端侧场景的专用AI芯片落地机会。"
+        "芯片制造商应与应用材料等设备供应商建立更紧密的战略合作，确保扩产所需的设备优先交付权。",
+        "关注新加坡等新兴半导体制造枢纽的产能建设进度，评估区域供应链配套与政策支持能力。"
       ],
       "glossary": [
         {
-          "term": "Mamba",
-          "desc": "一种状态空间模型（SSM）架构，以线性时间复杂度处理长序列，被视为Transformer的潜在替代方案",
-          "category": "AI算法"
-        },
-        {
-          "term": "Visual Encoder",
-          "desc": "视觉编码器，用于将图像数据转换为特征表示的神经网络模块",
-          "category": "AI算法"
+          "term": "Applied Materials",
+          "desc": "应用材料，全球最大的半导体制造设备供应商之一",
+          "category": "设备"
         }
       ],
       "region": "overseas",
-      "summary": "CVPR 2026收录了MambaEye视觉编码器研究，该架构采用因果序列处理机制，实现了不受输入尺寸限制的视觉特征提取。",
-      "tag_category": "综合",
-      "title_en": "MambaEye: A Size-Agnostic Visual Encoder with Causal Sequential Processing | CVPR 2026 Findings"
+      "summary": "半导体设备巨头应用材料在新加坡开设5亿美元的新园区，旨在将AI芯片的生产能力提升一倍。",
+      "tag_category": "EDA/IP",
+      "title_en": "Applied Materials opens $500 million Singapore campus to double AI chip production capacity – tokyotribune.com"
     },
     {
-      "title": "“欧洲正在觉醒”：我参加了Mistral在巴黎的峰会，听到了关于AI的明确信息（'Europe is kind of waking up': I went to Mistral's summit in Paris and heard a clear message about AI）",
-      "url": "https://finance.yahoo.com/sectors/technology/articles/europe-kind-waking-went-mistrals-103101540.html",
-      "description": "I attended Mistral's first AI summit in Paris. Here's what executives and attendees said about Europe's AI moment.",
+      "title": "分析台积电的晶圆厂扩张路线图——多厂N2量产、CoWoS、SoIC及解除瓶颈",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/analyzing-tsmcs-fab-expansion-roadmap-multi-fab-n2-ramp-cowos-soic-and-uncorking-bottlenecks",
+      "description": "TSMC kicks off unprecedented capacity expansion plan.",
       "published": "",
       "source": "Brave",
       "source_type": "Brave",
       "lang": "en",
       "tags": [],
       "insights": [
-        "欧洲本土AI大模型企业（如Mistral）的崛起，正推动欧洲建立独立的AI生态，以减少对美国技术的依赖。",
-        "欧洲对数据隐私和合规性的严苛要求，将催生对定制化、符合GDPR标准的AI推理芯片及私有化部署方案的需求。"
+        "台积电的扩张重心已从单纯的前端制程转向'制程+先进封装'双轨驱动，CoWoS和SoIC成为解除AI芯片产能瓶颈的关键。",
+        "N2（2纳米）多厂同时量产标志着台积电在尖端制程上的产能投入规模达到新高，旨在应对未来高性能计算需求。"
       ],
       "actions": [
-        "评估欧洲AI市场潜力，寻找与本土大模型厂商在算力基础设施和端侧推理芯片上的合作机会。",
-        "针对欧洲市场的高合规性要求，开发强调数据安全与隐私保护的AI芯片解决方案。"
+        "设计公司需尽早与台积电对接N2及先进封装的产能规划，避免因排队时间过长错失产品上市窗口。",
+        "封装材料与设备供应商应针对CoWoS/SoIC的扩产需求，提前储备产能与技术支持能力。"
       ],
       "glossary": [
         {
-          "term": "Mistral",
-          "desc": "法国人工智能初创公司，专注于开发开源和商用大语言模型",
-          "category": "AI企业"
+          "term": "N2",
+          "desc": "台积电2纳米制程技术节点",
+          "category": "制程"
         },
         {
-          "term": "GDPR",
-          "desc": "通用数据保护条例，欧盟制定的关于数据隐私和安全保护的法规",
-          "category": "法规"
+          "term": "CoWoS",
+          "desc": "晶圆上芯片封装，台积电的2.5D/3D先进封装技术",
+          "category": "封装"
+        },
+        {
+          "term": "SoIC",
+          "desc": "系统级集成芯片，台积电的3D堆叠封装技术",
+          "category": "封装"
         }
       ],
       "region": "overseas",
-      "summary": "Mistral在巴黎举办的首届AI峰会传递出欧洲AI产业正在觉醒的明确信号，参会高管与嘉宾对欧洲的AI发展机遇表达了积极预期。",
+      "summary": "台积电启动史无前例的产能扩张计划，重点推进N2制程量产，并大幅扩充CoWoS与SoIC先进封装产能以解决供应链瓶颈。",
+      "tag_category": "Fab/制造",
+      "title_en": "Analyzing TSMC's fab expansion roadmap — multi-fab N2 ramp, CoWoS, SoIC, and uncorking bottlenecks | Tom's Hardware"
+    },
+    {
+      "title": "大厂表态释放温和涨价信号，光刻胶板块闻声走强",
+      "url": "http://sc.stock.cnfol.com/ggzixun/20260610/32275764.shtml",
+      "description": "6月10日A股光刻胶概念走强怡达股份300721 SZ 20CM涨停莱伯泰科688056 SH 涨超17 新亚强603155 SH 百合花603823 SH 雅克科技002409 SZ 圣泉集团605589 SH 实现10CM涨停.",
+      "published": "14小时前",
+      "source": "中金在线",
+      "source_type": "Serper",
+      "lang": "zh",
+      "tags": [],
+      "insights": [
+        "上游材料大厂的涨价信号表明半导体供应链的供需关系正在发生微妙变化，光刻胶等关键材料的国产替代进入量价齐升阶段。",
+        "资本市场对半导体材料板块的敏感度极高，涨价预期往往能迅速转化为股价表现，反映出市场对周期复苏的确认。"
+      ],
+      "actions": [
+        "光刻胶国产厂商应抓住涨价与需求回暖的窗口，加速导入晶圆厂客户供应链并扩大市场份额。",
+        "下游晶圆厂需评估光刻胶等关键材料的成本上升风险，适时调整采购策略或与供应商锁定长期价格协议。"
+      ],
+      "glossary": [
+        {
+          "term": "光刻胶",
+          "desc": "半导体制造中用于图形转移的关键光敏感材料",
+          "category": "材料"
+        }
+      ],
+      "region": "domestic",
+      "summary": "半导体大厂释放温和涨价预期，带动A股光刻胶概念股全线走强，怡达股份等多只个股涨停。",
       "tag_category": "综合",
-      "title_en": "'Europe is kind of waking up': I went to Mistral's summit in Paris and heard a clear message about AI"
+      "title_en": "大厂表态释放温和涨价信号，光刻胶板块闻声走强"
+    },
+    {
+      "title": "首款！余承东宣布全新车型！",
+      "url": "https://www.163.com/dy/article/KV3AAI320527DRNR.html",
+      "description": "首款！余承东宣布全新车型！|汽车|法拉利|成都车展|阿斯顿马丁|首席执行官_网易订阅\n\n快速导航\n\n### 新闻\n\n### 体育\n\n### 娱乐\n\n### 财经\n\n### 汽车\n\n### 科技\n\n### 时尚\n\n### 手机 / 数码\n\n### 房产 / 家居\n\n### 教育\n\n安全退出\n\n邮箱\n\n# 首款！余承东宣布全新车型！\n\n2026-06-10 19:50:59 来源:电动知家安徽举报\n\n0\n\n分享至\n\n用微信扫码二维码\n\n分享至好友和朋友圈\n\n电 动 知 家消 息，6月10日，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东宣布了一款全新车型，他表示这是鸿蒙智行首款跳出",
+      "published": "2026-06-10T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "华为持续推出新车型将直接拉动车规级芯片与智能驾驶算力芯片的内部需求，对国内汽车半导体供应链产生显著带动效应。",
+        "智能汽车已成为半导体增长最快的终端市场，新车型的发布意味着对传感器、MCU和SoC的需求量将持续攀升。"
+      ],
+      "actions": [
+        "国内车规级芯片供应商应积极对接华为汽车生态，争取进入其新车型的供应链清单。",
+        "关注华为新车型搭载的智能座舱与自动驾驶方案，评估相关芯片的国产化率与替代机会。"
+      ],
+      "glossary": [
+        {
+          "term": "车规级芯片",
+          "desc": "满足汽车电子严苛可靠性、安全性和长寿命要求的半导体芯片",
+          "category": "应用"
+        }
+      ],
+      "region": "domestic",
+      "summary": "华为余承东宣布推出首款全新车型，标志着华为在智能汽车领域的进一步深入布局。",
+      "tag_category": "综合",
+      "title_en": "首款！余承东宣布全新车型！|汽车|法拉利|成都车展|阿斯顿马丁|首席执行官_网易订阅"
+    },
+    {
+      "title": "台积电5月营收因AI扩张创历史新高",
+      "url": "https://www.mojotrick.com/2026/06/10/tsmc-may-2026-revenue-hits-all-time-high-amid-ai-expansion/",
+      "description": "TSMC's May 2026 revenue hits all-time high amid AI expansion - MOJO Trick\n\n### Semiconductors, AI, and the Electronics Ecosystem\n\n# TSMC’s May 2026 revenue hits all-time high amid AI expansion\n\nHimanshi Krishnan June 10, 2026\n\nposted on\n\n19Views\n\nTSMC reported record revenue for May 2026, showing st",
+      "published": "2026-06-10T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "台积电营收创历史新高证实了AI算力需求正加速转化为晶圆代工的实际收入，AI芯片已成为驱动半导体周期向上的核心引擎。",
+        "单月营收突破极值表明台积电的产能扩张正在有效兑现，先进制程的产能利用率保持在极高水平。"
+      ],
+      "actions": [
+        "供应链企业可依据台积电的月度营收趋势，预判未来几个月的出货量与库存周期变化。",
+        "投资者应持续追踪台积电下半年营收结构，评估AI业务占比及对整体利润率的提升作用。"
+      ],
+      "glossary": [
+        {
+          "term": "All-time high",
+          "desc": "历史最高水平，指特定指标达到有记录以来的最高点",
+          "category": "财务"
+        }
+      ],
+      "region": "overseas",
+      "summary": "受益于AI相关需求的强劲扩张，台积电2026年5月营收达到历史最高水平。",
+      "tag_category": "Fab/制造",
+      "title_en": "TSMC's May 2026 revenue hits all-time high amid AI expansion - MOJO Trick"
+    },
+    {
+      "title": "中国新产业剧本：李乐成预示国家主导的技术竞争下一阶段（China's New Industrial Playbook: Li Lecheng Signals the Next Phase of State-Led Technology Competition）",
+      "url": "https://rareearthexchanges.com/news/chinas-new-industrial-playbook-li-lecheng-signals-the-next-phase-of-state-led-technology-competition/",
+      "description": "China's New Industrial Playbook: Li Lecheng Signals the Next Phase of State-Led Technology Competition\n\nChina's New Industrial Playbook: Li Lecheng Signals the Next Phase of State-Led Technology Competition\n* [Follow](https://www.linkedin.com/company/rare-earth-exchanges/)\n* [Follow](https://x.com/R",
+      "published": "2026-06-10T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "国家主导的产业政策将继续作为中国半导体突围的核心驱动力，新领导层的表态意味着资源将进一步向核心技术攻关集中。",
+        "面对外部制裁，中国科技竞争的下一阶段可能更侧重于全产业链的自主可控与国产替代的深化。"
+      ],
+      "actions": [
+        "密切关注工信部新任领导的政策动向及后续可能出台的半导体扶持基金或专项政策。",
+        "国内供应链企业应提前评估自身在国产替代深化阶段的技术卡位优势，争取政策红利。"
+      ],
+      "glossary": [
+        {
+          "term": "State-Led Technology Competition",
+          "desc": "国家主导的技术竞争，指由政府政策、资金和资源调配为核心驱动的科技产业博弈模式",
+          "category": "产业政策"
+        }
+      ],
+      "region": "overseas",
+      "summary": "中国工信部新任部长李乐成释放信号，表明中国将进入由国家主导的科技竞争新阶段，这预示着国内半导体及科技产业政策将有新的调整与发力点。",
+      "tag_category": "综合",
+      "title_en": "China's New Industrial Playbook: Li Lecheng Signals the Next Phase of State-Led Technology Competition"
+    },
+    {
+      "title": "IBM Research发布面向2026 VLSI技术的1至1050毫安DLDO，采用上升沿计算控制与负载依赖反馈，实现46毫伏/纳秒DVS速率与0.15皮秒FoM（A 1-to-1050-mA DLDO with Rising-Edge Computational Control and Load-Dependent Feedback Achieving 46-mV/ns DVS Rate and 0.15-ps FoM for VLSI Technology and Circuits 2026 - IBM Research）",
+      "url": "https://research.ibm.com/publications/a-1-to-1050-ma-dldo-with-rising-edge-computational-control-and-load-dependent-feedback-achieving-46-mvns-dvs-rate-and-015-ps-fom",
+      "description": "A 1-to-1050-mA DLDO with Rising-Edge Computational Control and Load-Dependent Feedback Achieving 46-mV/ns DVS Rate and 0.15-ps FoM for VLSI Technology and Circuits 2026 - IBM Research\n\n## Abstract\n\nThis brief presents a 1 mA–1050 mA computational DLDO for modern SoCs that achieves fast load transien",
+      "published": "2026-06-14T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "先进VLSI工艺节点对电源管理的瞬态响应和能效要求极高，传统LDO已难以满足，数字控制DLDO成为关键演进方向。",
+        "0.15-ps的FoM和46-mV/ns的DVS速率标志着电源管理IC在响应速度和能效上取得突破性进展，对高性能计算芯片至关重要。"
+      ],
+      "actions": [
+        "高性能计算与AI芯片设计团队应关注数字LDO架构的演进，评估其在下一代SoC电源域中的应用潜力。",
+        "电源管理IC厂商需加快在计算控制型DLDO领域的研发投入，以应对先进工艺节点带来的功耗与电压波动挑战。"
+      ],
+      "glossary": [
+        {
+          "term": "DLDO",
+          "desc": "数字低压差线性稳压器，使用数字控制技术实现电压调节",
+          "category": "芯片设计"
+        },
+        {
+          "term": "DVS",
+          "desc": "动态电压调节，根据工作负载动态调整供电电压以降低功耗的技术",
+          "category": "芯片设计"
+        },
+        {
+          "term": "FoM",
+          "desc": "品质因数，衡量LDO稳压器综合性能（如响应速度与功耗）的指标",
+          "category": "芯片设计"
+        }
+      ],
+      "region": "overseas",
+      "summary": "IBM Research提出一种新型数字低压差线性稳压器（DLDO），通过上升沿计算控制和负载依赖反馈技术，实现了极快的动态电压调节（DVS）速率和极小的品质因数（FoM），为2026年VLSI技术提供高效电源管理方案。",
+      "tag_category": "综合",
+      "title_en": "A 1-to-1050-mA DLDO with Rising-Edge Computational Control and Load-Dependent Feedback Achieving 46-mV/ns DVS Rate and 0.15-ps FoM for VLSI Technology and Circuits 2026 - IBM Research"
+    },
+    {
+      "title": "[新闻] 亚马逊与康宁签署数十亿美元光纤供应协议（[News] Amazon Signed Multibillion-Dollar Fiber Optics Supply Agreement With Corning）",
+      "url": "https://www.trendforce.com/news/2026/06/10/news-amazon-signed-multibillion-dollar-fiber-optics-supply-agreement-with-corning/",
+      "description": "[News] Amazon Signed Multibillion-Dollar Fiber Optics Supply Agreement With Corning\n\n# [News] Amazon Signed Multibillion-Dollar Fiber Optics Supply Agreement With Corning\n\n---\n\n2026-06-10 Emerging Technologies editor\n\n---\n\nAs investment in AI computing infrastructure continues to accelerate, demand ",
+      "published": "2026-06-10T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "超大规模云厂商开始直接介入底层光通信材料供应链，通过巨额长协锁定产能，反映出AI算力爆发带来的网络互联带宽需求急剧增长。",
+        "康宁等光纤巨头获得大厂直接注资与订单，预示着数据中心光互联基础设施的扩张正在从设备层向上游材料层传导。"
+      ],
+      "actions": [
+        "光通信模块及设备供应商需警惕上游光纤产能被大厂锁定带来的供应链挤压风险，提前建立多元化供应渠道。",
+        "数据中心互联方案提供商应顺应云厂商底层基础设施扩张趋势，加大在高速光互联模块及AOC产品的备货与研发。"
+      ],
+      "glossary": [
+        {
+          "term": "Fiber Optics",
+          "desc": "光纤，利用光在玻璃或塑料纤维中的全反射原理达成光传导的介质",
+          "category": "光通信"
+        }
+      ],
+      "region": "overseas",
+      "summary": "亚马逊与康宁签署了一项价值数十亿美元的光纤供应协议，旨在保障其数据中心和网络基础设施的关键光通信原材料供应。",
+      "tag_category": "综合",
+      "title_en": "[News] Amazon Signed Multibillion-Dollar Fiber Optics Supply Agreement With Corning"
+    },
+    {
+      "title": "Oriole与AMD在英国部署纯光子AI网络（Oriole & AMD deploy pure photonic AI network in UK）",
+      "url": "https://itbrief.co.uk/story/oriole-amd-deploy-pure-photonic-ai-network-in-uk",
+      "description": "Oriole & AMD deploy pure photonic AI network in UK\n\nIT Brief UK - Technology news for CIOs & IT decision-makers\n\nUnited Kingdom Powered By\n\n# Oriole & AMD deploy pure photonic AI network in UK\n\nWed, 10th Jun 2026 (Today)\n\nSOFIAH NICHOLE SALIVIO News Editor\n\nOriole Networks is deploying a large-scale",
+      "published": "2026-06-10T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "纯光子网络在AI集群中的部署标志着光互联技术从概念验证走向实际商用，有望突破传统铜缆和电交换网络的功耗与延迟瓶颈。",
+        "AMD积极拥抱光子网络生态，表明头部芯片厂商正在将竞争维度从单芯片算力扩展到集群级互联架构。"
+      ],
+      "actions": [
+        "AI集群架构工程师应密切跟踪纯光子网络在延迟、功耗及扩展性上的实测数据，评估其在下一代智算中心的应用前景。",
+        "硅光芯片及光互联器件厂商需加速与GPU/CPU厂商的生态对接，抢占光子计算网络标准与接口的制高点。"
+      ],
+      "glossary": [
+        {
+          "term": "Pure Photonic Network",
+          "desc": "纯光子网络，指数据传输与交换完全基于光子技术实现的网络架构，无需光电转换",
+          "category": "光通信"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Oriole Networks与AMD合作，在英国成功部署了纯光子AI网络，利用光子技术替代传统电子网络，以提升AI计算集群的互联性能和能效。",
+      "tag_category": "设计公司",
+      "title_en": "Oriole & AMD deploy pure photonic AI network in UK"
+    },
+    {
+      "title": "TDK将收购Fabric8Labs以加速数据中心业务布局（TDK to acquire Fabric8Labs, Inc. to accelerate data center initiatives | Morningstar）",
+      "url": "https://www.morningstar.com/news/pr-newswire/20260610ln75757/tdk-to-acquire-fabric8labs-inc-to-accelerate-data-center-initiatives",
+      "description": "TDK to acquire Fabric8Labs, Inc. to accelerate data center initiatives | Morningstar\n\nTDK to acquire Fabric8Labs, Inc. to accelerate data center initiatives\n\n## TDK to acquire Fabric8Labs, Inc. to accelerate data center initiatives\n\nPR Newswire\n\nSAN JOSE, Calif., June 10, 2026\n\n- A strategic acquisi",
+      "published": "2026-06-10T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "被动元件巨头TDK通过并购切入电化学3D打印领域，意在突破传统PCB制造限制，为数据中心高密度互连提供新型解决方案。",
+        "电化学增材制造技术能够实现复杂三维微结构的低成本高精度制造，这可能是下一代先进封装与高频电子元件的关键工艺。"
+      ],
+      "actions": [
+        "先进封装及基板制造商应关注电化学增材制造技术对传统PCB/基板工艺的潜在颠覆性，评估技术替代风险。",
+        "数据中心硬件设计团队可探索利用增材制造技术实现更紧凑的三维布线与元件集成，以提升系统功率密度。"
+      ],
+      "glossary": [
+        {
+          "term": "Electrochemical Additive Manufacturing",
+          "desc": "电化学增材制造，利用电化学沉积原理逐层生长金属结构的3D打印技术，可实现微米级精度",
+          "category": "制造工艺"
+        }
+      ],
+      "region": "overseas",
+      "summary": "TDK宣布将收购Fabric8Labs公司，旨在通过整合后者的电化学增材制造技术，加速其在数据中心及高增长电子市场领域的战略布局。",
+      "tag_category": "Fab/制造",
+      "title_en": "TDK to acquire Fabric8Labs, Inc. to accelerate data center initiatives | Morningstar"
+    },
+    {
+      "title": "Fabric8Labs将被TDK收购，加速面向数据中心与高增长电子市场的电化学增材制造（Fabric8Labs to be Acquired by TDK Corporation, Accelerating Electrochemical Additive Manufacturing for Data Center and High-Growth Electronics Markets — TradingView News）",
+      "url": "https://www.tradingview.com/news/prnewswire:9539add89571b:0-fabric8labs-to-be-acquired-by-tdk-corporation-accelerating-electrochemical-additive-manufacturing-for-data-center-and-high-growth-electronics-markets/",
+      "description": "Fabric8Labs to be Acquired by TDK Corporation, Accelerating Electrochemical Additive Manufacturing for Data Center and High-Growth Electronics Markets — TradingView News\n\nSearch\n\nEN\n\n# Fabric8Labs to be Acquired by TDK Corporation, Accelerating Electrochemical Additive Manufacturing for Data Center ",
+      "published": "2026-06-10T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "此收购与上一条新闻为同一事件的不同视角报道，进一步印证了数据中心硬件对高密度、复杂结构电路板的需求正推动制造工艺创新。",
+        "电化学增材制造不再仅停留在研发阶段，在头部电子厂商的资本加持下，正向数据中心等高附加值商业市场快速渗透。"
+      ],
+      "actions": [
+        "供应链从业者需将此并购视为上游制造工艺变革的信号，重新评估高频/高密度电子元件的供应格局。",
+        "投资机构与战略规划部门应关注增材制造在半导体封装及互连领域的并购整合趋势，挖掘相关技术初创标的。"
+      ],
+      "glossary": [
+        {
+          "term": "Fabric8Labs",
+          "desc": "一家专注于电化学增材制造技术的美国初创公司，能打印复杂三维微结构金属电子元件",
+          "category": "企业"
+        },
+        {
+          "term": "TDK Corporation",
+          "desc": "日本知名电子元器件制造商，产品涵盖电容、传感器、磁头等，正积极拓展数据中心业务",
+          "category": "企业"
+        }
+      ],
+      "region": "overseas",
+      "summary": "TDK Corporation即将收购Fabric8Labs，此举将加速电化学增材制造技术在数据中心及高增长电子市场的商业化应用，强化TDK在先进制造领域的竞争力。",
+      "tag_category": "Fab/制造",
+      "title_en": "Fabric8Labs to be Acquired by TDK Corporation, Accelerating Electrochemical Additive Manufacturing for Data Center and High-Growth Electronics Markets — TradingView News"
+    },
+    {
+      "title": "Lium融资550万美元以为AI模型解锁复杂科学数据（Lium raises $5.5M to unlock complex scientific data for AI models - SiliconANGLE）",
+      "url": "https://siliconangle.com/2026/06/10/lium-raises-5-5m-unlock-complex-scientific-data-ai-models/",
+      "description": "Lium raises $5.5M to unlock complex scientific data for AI models - SiliconANGLE\n\nSHARE\n\nUPDATED 10:00 EDT / JUNE 10 2026\n\nBIG DATA\n\n### Lium raises $5.5M to unlock complex scientific data for AI models\n\nSHARE\n\nLium, a startup formerly known as Astromind, today announced the launch of an “agentic ha",
+      "published": "2026-06-10T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI模型对高质量、复杂科学数据的需求日益增长，数据获取与处理已成为AI发展的关键瓶颈。",
+        "专注于垂直领域（如科学数据）的数据服务初创公司正受到资本关注，数据价值被重新定义。"
+      ],
+      "actions": [
+        "芯片设计公司应关注科研AI计算负载的特点，优化硬件架构以适应大规模科学数据处理。",
+        "供应链企业可探索与数据服务商的合作，提供软硬一体的AI科研解决方案。"
+      ],
+      "glossary": [
+        {
+          "term": "AI models",
+          "desc": "人工智能模型，通过数据训练以执行特定任务的算法系统",
+          "category": "人工智能"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Lium筹集550万美元资金，旨在为AI模型解锁复杂的科学数据，推动AI在科研领域的深度应用。",
+      "tag_category": "综合",
+      "title_en": "Lium raises $5.5M to unlock complex scientific data for AI models - SiliconANGLE"
+    },
+    {
+      "title": "TensorWave以15.5亿美元估值筹集3.5亿美元B轮融资，以扩展全球由AMD驱动的AI基础设施（TensorWave Raises $350 Million Series B at $1.55B Valuation to Expand Global AMD-Powered AI Infrastructure | Morningstar）",
+      "url": "https://www.morningstar.com/news/business-wire/20260610650010/tensorwave-raises-350-million-series-b-at-155b-valuation-to-expand-global-amd-powered-ai-infrastructure",
+      "description": "TensorWave Raises $350 Million Series B at $1.55B Valuation to Expand Global AMD-Powered AI Infrastructure | Morningstar\n\nTensorWave Raises $350 Million Series B at $1.55B Valuation to Expand Global AMD-Powered AI Infrastructure\n\nInvestment meets surging enterprise demand for scalable, high-performa",
+      "published": "2026-06-10T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "非NVIDIA生态的AI算力基础设施（如基于AMD）正获得巨额资本支持，算力市场多元化趋势明显。",
+        "AI基础设施的扩张直接拉动对高性能GPU和网络设备的需求，AMD在数据中心市场的份额有望提升。"
+      ],
+      "actions": [
+        "供应链企业应积极切入AMD的AI服务器供应链，寻找除NVIDIA之外的第二增长曲线。",
+        "关注基于AMD架构的AI集群对HBM、先进封装及高速互联芯片的特定需求，提前布局产能。"
+      ],
+      "glossary": [
+        {
+          "term": "Series B",
+          "desc": "B轮融资，指初创企业发展的第二阶段重大融资",
+          "category": "金融"
+        },
+        {
+          "term": "AI Infrastructure",
+          "desc": "人工智能基础设施，包括算力、网络和存储等支撑AI运行的硬件和软件资源",
+          "category": "人工智能"
+        }
+      ],
+      "region": "overseas",
+      "summary": "TensorWave完成3.5亿美元B轮融资，估值达15.5亿美元，资金将用于扩展基于AMD芯片的全球AI基础设施。",
+      "tag_category": "设计公司",
+      "title_en": "TensorWave Raises $350 Million Series B at $1.55B Valuation to Expand Global AMD-Powered AI Infrastructure | Morningstar"
+    },
+    {
+      "title": "消息称韩国SK海力士最早将于8月赴美上市（South Korea's SK Hynix eyes US listing as soon as August, sources say | The Star）",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/06/10/south-korea039s-sk-hynix-eyes-us-listing-as-soon-as-august-sources-say",
+      "description": "South Korea's SK Hynix eyes US listing as soon as August, sources say | The Star\n\n×\n\nView\n\n# South Korea's SK Hynix eyes US listing as soon as August, sources say\n\n---\n\nBy Heekyong Yang and Yantoultra Ngui\n\nWednesday, 10 Jun 2026 | 3:34 PM MYT\n\nshare\n\nFILE PHOTO: The SK hynix logo appears in this il",
+      "published": "2026-06-10T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "SK海力士赴美上市旨在提升其在全球资本市场的知名度，并借HBM/AI红利获取更多资金支持产能扩张。",
+        "半导体巨头赴美上市反映出地缘政治背景下，企业需要更贴近核心客户（如北美云厂商）和资本市场的战略考量。"
+      ],
+      "actions": [
+        "投资者应关注SK海力士上市后对HBM及先进存储产能扩张的规划，这将对存储市场供需格局产生重大影响。",
+        "供应链伙伴需评估其美股上市后可能加速的海外（尤其是美国本土）建厂计划，提前调整供货与物流策略。"
+      ],
+      "glossary": [
+        {
+          "term": "SK Hynix",
+          "desc": "SK海力士，韩国第二大半导体厂商，全球主要的存储芯片制造商之一",
+          "category": "公司"
+        },
+        {
+          "term": "Listing",
+          "desc": "上市，指企业在证券交易所公开发行股票并挂牌交易",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "据消息人士透露，韩国存储芯片巨头SK海力士正考虑最早于今年8月在美股上市。",
+      "tag_category": "综合",
+      "title_en": "South Korea's SK Hynix eyes US listing as soon as August, sources say | The Star"
     }
   ],
   "stats": {
-    "total_raw": 19,
-    "after_dedup": 3,
+    "total_raw": 139,
+    "after_dedup": 103,
     "sources": {
-      "Exa": 2,
-      "Brave": 1
+      "Serper": 1,
+      "Exa": 24,
+      "RSS": 45,
+      "Brave": 33
     }
   },
   "code_version": "",

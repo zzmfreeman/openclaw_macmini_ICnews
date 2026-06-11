@@ -1,0 +1,627 @@
+{
+  "version": "v20260610-0703",
+  "generatedAt": "2026-06-10T07:03:00+08:00",
+  "period": "daily",
+  "commit": "",
+  "glossary_list": [
+    {
+      "term": "CoWoS",
+      "desc": "Chip-on-Wafer-on-Substrate，台积电2.5D/3D先进封装平台",
+      "category": "封装"
+    },
+    {
+      "term": "HBM",
+      "desc": "High Bandwidth Memory，高带宽内存，AI芯片关键配套",
+      "category": "存储"
+    },
+    {
+      "term": "OSAT",
+      "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
+      "category": "封装"
+    },
+    {
+      "term": "逻辑折叠技术",
+      "desc": "一种3D芯片架构技术，通过将逻辑芯片折叠堆叠，大幅提升晶体管密度和互联效率。",
+      "category": "制造/架构"
+    },
+    {
+      "term": "MTr/mm²",
+      "desc": "每平方毫米百万晶体管数，衡量芯片工艺节点晶体管密度的关键指标。",
+      "category": "制造"
+    },
+    {
+      "term": "SkyOS·天枢",
+      "desc": "蔚来自研的整车全域操作系统，旨在打通底层硬件与上层应用，实现车辆集中式控制。",
+      "category": "软件/OS"
+    },
+    {
+      "term": "BOM",
+      "desc": "物料清单，详细列出产品制造所需的所有零部件、材料及其成本。",
+      "category": "供应链"
+    },
+    {
+      "term": "IPO",
+      "desc": "首次公开募股，企业首次向公众投资者发售股票并在证券交易所挂牌交易的过程。",
+      "category": "金融"
+    },
+    {
+      "term": "Oversubscribed",
+      "desc": "超额认购，指投资者申购股票的数量超过公司发行的股票数量，反映市场需求旺盛。",
+      "category": "金融"
+    },
+    {
+      "term": "Intel Foundry",
+      "desc": "英特尔晶圆代工服务，英特尔将自身制造能力开放给外部无晶圆厂设计公司的业务。",
+      "category": "Fab/制造"
+    },
+    {
+      "term": "TPU",
+      "desc": "张量处理单元，谷歌专为加速AI神经网络运算而自研的定制芯片。",
+      "category": "芯片设计"
+    },
+    {
+      "term": "18A",
+      "desc": "英特尔先进的1.8纳米级制程节点，采用RibbonFET和PowerVia等创新晶体管技术。",
+      "category": "Fab/制造"
+    },
+    {
+      "term": "乐道L60",
+      "desc": "蔚来汽车推出的面向主流家庭市场的全新智能电动中型轿跑SUV。",
+      "category": "汽车电子"
+    },
+    {
+      "term": "TSMC",
+      "desc": "台湾积体电路制造公司，全球最大的半导体晶圆代工企业。",
+      "category": "Fab/制造"
+    },
+    {
+      "term": "BlueBird Satellite",
+      "desc": "蓝鸟卫星，由AST SpaceMobile公司研发，旨在直接与标准智能手机进行宽带通信的低轨卫星星座。",
+      "category": "通信/卫星"
+    },
+    {
+      "term": "中国国际半导体展览会",
+      "desc": "涵盖半导体设备、材料、制造、封装测试等全产业链的专业性行业展会。",
+      "category": "综合"
+    },
+    {
+      "term": "SMH",
+      "desc": "VanEck Vectors Semiconductor ETF，追踪全球主要半导体公司股价表现的交易所交易基金。",
+      "category": "金融"
+    },
+    {
+      "term": "Yield Shock",
+      "desc": "收益率冲击，指市场利率（通常指国债收益率）在短时间内发生剧烈波动，从而冲击股市估值体系。",
+      "category": "金融"
+    },
+    {
+      "term": "AGI",
+      "desc": "通用人工智能，指具备与人类同等或超越人类智能的AI系统",
+      "category": "综合"
+    },
+    {
+      "term": "Open-Source Humanoid Robots",
+      "desc": "开源人形机器人，指设计图纸和软件代码公开的人形机器人",
+      "category": "综合"
+    },
+    {
+      "term": "DLDO",
+      "desc": "数字低压差线性稳压器，用数字电路控制功率管导通的稳压器",
+      "category": "设计"
+    },
+    {
+      "term": "DVS",
+      "desc": "动态电压调节，根据工作负载动态调整电压以降低功耗的技术",
+      "category": "设计"
+    },
+    {
+      "term": "FoM",
+      "desc": "品质因数，衡量电路性能的综合指标，数值越小通常性能越优",
+      "category": "设计"
+    },
+    {
+      "term": "Sonnet 4.5",
+      "desc": "Anthropic推出的Claude系列高性能大语言模型",
+      "category": "综合"
+    },
+    {
+      "term": "Gemini 2.5 Flash",
+      "desc": "Google推出的Gemini系列轻量级、高推理速度大模型",
+      "category": "综合"
+    }
+  ],
+  "items": [
+    {
+      "title": "半导体行业2026制造篇：新路径，新征程！华为韬定律带领行业走出新路，半导体板块总市值突破11万亿",
+      "url": "https://m.sohu.com/a/1034337735_116681?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+      "description": "其中，华为今年秋季要发布的麒麟2026 芯片，和同工艺传统2D芯片比，采用逻辑折叠技术的麒麟2026 芯片晶体管密度大幅提升了53.5%，达到了的238MTr/平方毫米这意味着每平方...",
+      "published": "13小时前",
+      "source": "搜狐网",
+      "source_type": "Serper",
+      "lang": "zh",
+      "tags": [],
+      "insights": [
+        "逻辑折叠等3D先进封装技术正成为突破摩尔定律物理极限的关键路径，为国产芯片制造提供新思路。",
+        "华为的底层架构创新与自研突破正在重塑国内半导体产业链的价值预期与市场信心。"
+      ],
+      "actions": [
+        "关注3D逻辑折叠等先进封装技术的供应链机会，提前布局相关键合设备与中介层材料。",
+        "跟踪华为麒麟芯片的工艺演进节奏，评估其对国产代工与封测产能的增量需求拉动。"
+      ],
+      "glossary": [
+        {
+          "term": "逻辑折叠技术",
+          "desc": "一种3D芯片架构技术，通过将逻辑芯片折叠堆叠，大幅提升晶体管密度和互联效率。",
+          "category": "制造/架构"
+        },
+        {
+          "term": "MTr/mm²",
+          "desc": "每平方毫米百万晶体管数，衡量芯片工艺节点晶体管密度的关键指标。",
+          "category": "制造"
+        }
+      ],
+      "region": "domestic",
+      "summary": "华为即将发布的麒麟2026芯片采用逻辑折叠技术，使晶体管密度较同工艺传统2D芯片提升53.5%，达到238MTr/平方毫米，推动半导体板块总市值突破11万亿。",
+      "tag_category": "综合",
+      "title_en": "半导体行业2026制造篇：新路径，新征程！华为韬定律带领行业走出新路，半导体板块总市值突破11万亿"
+    },
+    {
+      "title": "一文看懂芯片产业链：谁在撑起AI时代的算力帝国",
+      "url": "https://www.c114.net.cn/industry/88860.html",
+      "description": "芯片是现代经济核心，AI正改变芯片产业，从设计、制造到封装测试，产业链各环节面临新挑战与机遇。英伟达、台积电等企业引领变革，HBM等新技术成关键。",
+      "published": "20小时前",
+      "source": "光通信Pro",
+      "source_type": "Serper",
+      "lang": "zh",
+      "tags": [],
+      "insights": [
+        "AI算力需求正驱动半导体产业链向高密度、高带宽方向演进，HBM等先进存储技术成为核心瓶颈与突破口。",
+        "产业链主导权正向台积电、英伟达等具备先进制程与整合能力的头部企业集中，马太效应加剧。"
+      ],
+      "actions": [
+        "评估自身在AI芯片供应链中的定位，重点切入HBM、CoWoS等先进封装配套环节。",
+        "关注台积电与英伟达的产能扩张动向，及时调整供应链产能规划与客户绑定策略。"
+      ],
+      "glossary": [
+        {
+          "term": "HBM",
+          "desc": "高带宽内存，通过3D堆叠技术将DRAM与逻辑层结合，专为AI高算力需求设计。",
+          "category": "存储/封装"
+        }
+      ],
+      "region": "domestic",
+      "summary": "AI时代正在重塑芯片产业链，从设计、制造到封测各环节均面临新挑战与机遇，英伟达与台积电等巨头引领变革，HBM等新技术成为支撑算力帝国的关键。",
+      "tag_category": "Fab/制造",
+      "title_en": "一文看懂芯片产业链：谁在撑起AI时代的算力帝国"
+    },
+    {
+      "title": "新乐道L60 6月11日上市 携载整车全域操作系统SkyOS·天枢",
+      "url": "https://chejiahao.autohome.com.cn/info/25605510",
+      "description": "新乐道L60 6月11日上市 搭载整车全域操作系统SkyOS·天枢_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n新乐道L60 6月11日上市 搭载整车全域操作系统SkyOS·天枢\n\nCNMO科技\n\n车家号·0浏览·2026-06-02 11:56 · 北京\n\n【CNMO科技消息】6月2日，乐道汽车发文称，新乐道L60(参数|询价)是同级唯一搭载整车全域操作系统的车型。其所配备的SkyOS·天枢打通了六域，让车更省",
+      "published": "2026-06-11T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "整车全域操作系统的推出，意味着智能汽车正从分布式ECU向集中式中央计算架构演进，对高算力车规级芯片的需求将大幅增加。",
+        "国产新能源汽车品牌正通过自研底层OS构建软硬件生态壁垒，提升供应链自主权与系统效率。"
+      ],
+      "actions": [
+        "关注集中式整车操作系统对高性能SoC、MCU及车规级存储芯片的增量需求与规格变化。",
+        "加强与蔚来/乐道等自研OS车企的技术对接，确保芯片产品对其新架构的兼容与优化。"
+      ],
+      "glossary": [
+        {
+          "term": "SkyOS·天枢",
+          "desc": "蔚来自研的整车全域操作系统，旨在打通底层硬件与上层应用，实现车辆集中式控制。",
+          "category": "软件/OS"
+        }
+      ],
+      "region": "domestic",
+      "summary": "蔚来旗下新品牌乐道的L60车型将于6月11日上市，该车型搭载了整车全域操作系统SkyOS·天枢，标志着智能汽车底层软件架构的进阶。",
+      "tag_category": "综合",
+      "title_en": "新乐道L60 6月11日上市 携载整车全域操作系统SkyOS·天枢_车家号_发现车生活_汽车之家"
+    },
+    {
+      "title": "乐道新款L60即将上市，智能满配进阶",
+      "url": "https://chejiahao.autohome.com.cn/info/25471869",
+      "description": "乐道新款L60即将上市，智能满配进阶_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n乐道新款L60即将上市，智能满配进阶\n\n驾仕派\n\n车家号·0浏览·2026-05-12 19:15 · 四川\n\n5月10日，蔚来创始人、董事长、CEO李斌在官方直播活动中透露，新款 乐道L60将在外观设计、智能技术方面进行产品升级，预计于5月底正式开启预售，6月将正式上市。 新款乐道L60将搭载蔚来自研全球首颗5nm车规级智驾芯片“",
+      "published": "2026-06-11T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "中高端新能源汽车的智能化配置正成为标配，智能驾驶芯片与传感器供应链迎来放量期。",
+        "子品牌的推出有助于车企覆盖更广市场，同时摊薄自研芯片与底层软件的研发成本。"
+      ],
+      "actions": [
+        "评估乐道L60的智能驾驶硬件BOM成本，寻找国产替代芯片的切入机会。",
+        "关注蔚来及乐道车型的销量爬坡情况，提前储备相关车规级芯片产能。"
+      ],
+      "glossary": [
+        {
+          "term": "BOM",
+          "desc": "物料清单，详细列出产品制造所需的所有零部件、材料及其成本。",
+          "category": "供应链"
+        }
+      ],
+      "region": "domestic",
+      "summary": "乐道新款L60即将上市，定位智能满配进阶，进一步丰富了蔚来的产品矩阵与智能驾驶硬件配置。",
+      "tag_category": "综合",
+      "title_en": "乐道新款L60即将上市，智能满配进阶_车家号_发现车生活_汽车之家"
+    },
+    {
+      "title": "马斯克的盛宴（Roll up for the Elon Show）",
+      "url": "https://www.electronicsweekly.com/news/business/roll-up-for-the-elon-show-2026-06/",
+      "description": "<p>The SpaceX IPO on Friday is already 2x oversubscribed, reports Reuter’s, with $150 billion offered for shares costing $75 billion in an enterprise valued at $1.8 trillion.. It is seen ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/news/business/roll-up-for-the-elon-show-2026-06/\">",
+      "published": "Tue, 09 Jun 2026 05:28:14 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "SpaceX的超额认购反映出资本市场对航天科技与卫星互联网（星链）商业潜力的极高预期。",
+        "巨型独角兽的IPO正在抽吸市场资金，可能对半导体等科技板块的短期流动性产生虹吸效应。"
+      ],
+      "actions": [
+        "关注SpaceX星链等卫星互联网业务对低轨卫星通信芯片、射频器件的增量需求。",
+        "警惕巨型IPO带来的短期资金分流效应，合理规划半导体上市公司的融资与投资节奏。"
+      ],
+      "glossary": [
+        {
+          "term": "IPO",
+          "desc": "首次公开募股，企业首次向公众投资者发售股票并在证券交易所挂牌交易的过程。",
+          "category": "金融"
+        },
+        {
+          "term": "Oversubscribed",
+          "desc": "超额认购，指投资者申购股票的数量超过公司发行的股票数量，反映市场需求旺盛。",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "SpaceX周五的IPO已获2倍超额认购，投资者报价1500亿美元购买估值1.8万亿美元企业中价值750亿美元的股份，马斯克的影响力正吸引巨额资本涌入。",
+      "tag_category": "EDA/IP",
+      "title_en": "Roll up for the Elon Show"
+    },
+    {
+      "title": "英特尔股票新闻：INTC股价飙升：英特尔晶圆代工复苏！未来会有更大的涨幅吗？谷歌300万TPU订单和英伟达测试助推英特尔AI复兴 - 经济时报（Intel Stock News: INTC Shares Surge: Intel Foundry comeback! Is a bigger Intel stock surge ahead? INTC shares surge 9.16% today as Google’s 3 million TPU order and Nvidia testing fuel Intel’s AI revival - The Economic Times）",
+      "url": "https://economictimes.indiatimes.com/news/international/us/intel-foundry-comeback-is-a-bigger-intel-stock-surge-ahead-intc-shares-surge-9-16-today-as-googles-3-million-tpu-order-and-nvidia-testing-fuel-intels-ai-revival/articleshow/131590544.cms",
+      "description": "Intel stock is back in focus. INTC shares surged 9.16% after reports that Google ordered more than 3 million TPU AI chips from Intel for 2028. Nvidia is also testing Intels advanced 18A process. As TSMC faces capacity pressure, Intel Foundry is emerging as a serious AI manufacturing contender.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "谷歌的大规模TPU代工订单和英伟达的18A工艺测试，是对英特尔先进制程能力的重大背书，有望打破台积电在AI芯片代工的绝对垄断。",
+        "英特尔18A工艺若能顺利通过大客户验证，将重塑全球先进制程代工格局，为芯片设计公司提供第二选择。"
+      ],
+      "actions": [
+        "密切跟踪英特尔18A工艺的良率进展与英伟达/谷歌的验证结果，评估其作为备用代工厂的风险与机遇。",
+        "针对谷歌TPU等AI芯片的放量需求，提前布局英特尔代工生态下的IP、EDA及先进封装供应链。"
+      ],
+      "glossary": [
+        {
+          "term": "Intel Foundry",
+          "desc": "英特尔晶圆代工服务，英特尔将自身制造能力开放给外部无晶圆厂设计公司的业务。",
+          "category": "Fab/制造"
+        },
+        {
+          "term": "TPU",
+          "desc": "张量处理单元，谷歌专为加速AI神经网络运算而自研的定制芯片。",
+          "category": "芯片设计"
+        },
+        {
+          "term": "18A",
+          "desc": "英特尔先进的1.8纳米级制程节点，采用RibbonFET和PowerVia等创新晶体管技术。",
+          "category": "Fab/制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "英特尔股价大涨9.16%，因报道称谷歌向其订购了超300万颗2028年交付的TPU AI芯片，且英伟达正在测试英特尔先进的18A工艺，这标志着英特尔晶圆代工业务的AI复兴。",
+      "tag_category": "EDA/IP",
+      "title_en": "Intel Stock News: INTC Shares Surge: Intel Foundry comeback! Is a bigger Intel stock surge ahead? INTC shares surge 9.16% today as Google’s 3 million TPU order and Nvidia testing fuel Intel’s AI revival - The Economic Times"
+    },
+    {
+      "title": "下一个AI瓶颈：推动540亿美元HBM扩张的三大硬件子行业",
+      "url": "https://www.livemint.com/focus/the-next-ai-bottleneck-3-hardware-sub-sectors-driving-the-54-billion-hbm-expansion-11753375063749.html",
+      "description": "As AI demand surges, the biggest opportunity may not lie in software, but in the memory, packaging and testing infrastructure powering the HBM boom.",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "HBM正逐渐成为限制AI算力提升的关键瓶颈，围绕HBM的硬件产业链价值正在加速重塑。",
+        "存储芯片制造、先进封装与测试三大半导体细分领域将直接受益于这波高达540亿美元的庞大扩张周期。"
+      ],
+      "actions": [
+        "供应链企业应积极评估并提前布局与HBM紧密相关的先进封装（如TSV、CoWoS）及高频带宽测试产能。",
+        "关注并跟踪国内外存储大厂在HBM扩产上的设备采购动向，及时调整自身市场策略与备货计划。"
+      ],
+      "glossary": [
+        {
+          "term": "HBM",
+          "desc": "High Bandwidth Memory，高带宽存储器，一种通过3D堆叠技术实现高带宽、低功耗的DRAM芯片。",
+          "category": "存储"
+        }
+      ],
+      "region": "overseas",
+      "summary": "随着AI需求的激增，最大的市场机遇可能并不在软件端，而在于支撑高带宽存储器（HBM）爆发的存储、封装和测试硬件基础设施。",
+      "tag_category": "Fab/制造",
+      "title_en": "The Next AI Bottleneck: 3 Hardware Sub-Sectors Driving the $54 Billion HBM Expansion | Mint"
+    },
+    {
+      "title": "乐道L60预售 蔚来全系亮相大湾区车展，展台面积是上一届两倍",
+      "url": "https://chejiahao.autohome.com.cn/info/25579819",
+      "description": "乐道L60预售 蔚来全系亮相大湾区车展，展台面积是上一届两倍_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n乐道L60预售 蔚来全系亮相大湾区车展，展台面积是上一届两倍\n\n道哥说车\n\n车家号·0浏览·2026-05-29 16:35 · 北京\n\n【文/财圈社&道哥说车 麻建宇】连续两个季度实现盈利的蔚来，阔起来了。\n\n5月29日，第三十届粤港澳大湾区车展正式开幕。蔚来公司携旗下蔚来、乐道、萤火虫三大品牌参展，以11",
+      "published": "2026-06-11T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "乐道L60的预售标志着蔚来正式进军大众化走量市场，将带动国内智能电动汽车的性价比之争。",
+        "车企参展面积的倍增反映出国内汽车市场竞争加剧，品牌曝光与线下体验需求大幅提升。"
+      ],
+      "actions": [
+        "汽车芯片供应商需密切关注蔚来及乐道品牌的新车型销量走势，提前做好车规级MCU、SoC及传感器芯片的产能规划。",
+        "智能座舱与自动驾驶相关方案商应借此车展了解主机厂最新智能化配置趋势，调整产品研发与市场切入方向。"
+      ],
+      "glossary": [
+        {
+          "term": "乐道L60",
+          "desc": "蔚来汽车推出的面向主流家庭市场的全新智能电动中型轿跑SUV。",
+          "category": "汽车电子"
+        }
+      ],
+      "region": "domestic",
+      "summary": "蔚来汽车全系车型亮相大湾区车展，并开启乐道L60预售，其展台面积较上一届扩大了一倍，显示出其在终端市场发力的决心。",
+      "tag_category": "综合",
+      "title_en": "乐道L60预售 蔚来全系亮相大湾区车展，展台面积是上一届两倍_车家号_发现车生活_汽车之家"
+    },
+    {
+      "title": "台积电（TSMC）2026年5月月度营收报告发布日期及股市催化剂详情",
+      "url": "https://www.catacal.com/catalyst/tsmc-monthly-sales-report-for-may-2026",
+      "description": "TSMC Monthly Sales Report For May 2026 2026 Date & Stock Catalyst Details | Catacal\n\nBack to calendar\n\n## TSMC Monthly Sales Report For May 2026\n\nConference·\n\nJun 10, 2026 · 9:00 AM\n\n·\n\nAddedJun 9, 2026\n\n# TSMC Monthly Sales Report For May 2026\n\nConference·\n\nWed, Jun 10, 2026 · 9:00 AM EDT\n\n·\n\nAdded",
+      "published": "2026-06-10T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "台积电作为全球半导体代工龙头，其月度营收是反映全球芯片需求（尤其是AI和高性能计算）景气度的风向标。",
+        "超预期的营收数据通常会直接提振费城半导体指数及相关供应链上市公司的短期股价表现。"
+      ],
+      "actions": [
+        "密切监控台积电5月营收数据，以此判断先进制程产能利用率的趋势并推演下游终端市场的复苏力度。",
+        "供应链企业应基于台积电的业绩指引及库存去化情况，动态调整自身第三季度的晶圆投片与拉货计划。"
+      ],
+      "glossary": [
+        {
+          "term": "TSMC",
+          "desc": "台湾积体电路制造公司，全球最大的半导体晶圆代工企业。",
+          "category": "Fab/制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "台积电（TSMC）计划于2026年6月10日发布其5月份的月度营收报告，该核心财务数据将成为影响半导体股市走势的重要催化剂。",
+      "tag_category": "Fab/制造",
+      "title_en": "TSMC Monthly Sales Report For May 2026 2026 Date & Stock Catalyst Details | Catacal"
+    },
+    {
+      "title": "AST SpaceMobile蓝鸟8-10号（BlueBird 8-10）卫星发射计划日期、时间及对股市的影响",
+      "url": "https://www.catacal.com/catalyst/bluebird-8-10-satellite-launch",
+      "description": "BlueBird 8-10 Satellite Launch 2026 Date, Time & Stock Market Impact | Catacal\n\nBack to calendar\n\n## BlueBird 8-10 Satellite Launch\n\nProduct Release·\n\nJun 15, 2026 · 12:00 PM\n\n·\n\nAddedMay 29, 2026\n\n# BlueBird 8-10 Satellite Launch\n\nProduct Release·\n\nMon, Jun 15, 2026 · 12:00 PM EDT\n\n·\n\nAddedMay 29, ",
+      "published": "2026-06-15T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "低轨卫星星座的密集组网和发射正处于加速期，将显著拉动射频前端、功率放大器及太空级抗辐射芯片的需求。",
+        "重大商业航天发射事件往往会成为卫星通信及相关半导体概念股的短期股价催化节点。"
+      ],
+      "actions": [
+        "关注低轨卫星载荷供应链，重点评估国产抗辐射FPGA、射频芯片等半导体器件的导入机会。",
+        "提前布局卫星通信地面终端所需的基带芯片及相控阵天线芯片的产能与市场推广。"
+      ],
+      "glossary": [
+        {
+          "term": "BlueBird Satellite",
+          "desc": "蓝鸟卫星，由AST SpaceMobile公司研发，旨在直接与标准智能手机进行宽带通信的低轨卫星星座。",
+          "category": "通信/卫星"
+        }
+      ],
+      "region": "overseas",
+      "summary": "AST SpaceMobile的蓝鸟8-10号（BlueBird 8-10）通信卫星计划于2026年6月15日发射，此事件将直接催化商业航天板块的股市表现。",
+      "tag_category": "综合",
+      "title_en": "BlueBird 8-10 Satellite Launch 2026 Date, Time & Stock Market Impact | Catacal"
+    },
+    {
+      "title": "2026年6月中国国际半导体展览会（深圳）",
+      "url": "https://www.webmobi.com/discovery/events/china-international-semiconductor-exhibition-20260610",
+      "description": "Loading events...\n\nChina International Semiconductor Exhibition | Jun 2026 | Shenzhen Shi | WebMobi\n\nLoading events...\nChina International Semiconductor Exhibition | Jun 2026 | Shenzhen Shi | WebMobi\n[Discovery](https://www.webmobi.com/discovery)/[Other B2B Events](https://www.webmobi.com/discovery/",
+      "published": "2026-06-10T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "深圳作为全球硬件和电子元器件的集散地，该展会是观察国内半导体“国产替代”进程与最新技术迭代的重要窗口。",
+        "展会将汇聚芯片设计、制造、设备及材料等全产业链资源，直观反映当前国内晶圆代工和先进封测的生态现状。"
+      ],
+      "actions": [
+        "行业从业者应积极报名参展或观展，借此机会接触国内半导体供应链的最新技术产品，并挖掘潜在客户。",
+        "借展会契机与上游设备、材料供应商进行深度洽谈，评估未来产能扩张所需的关键零部件交期与采购成本。"
+      ],
+      "glossary": [
+        {
+          "term": "中国国际半导体展览会",
+          "desc": "涵盖半导体设备、材料、制造、封装测试等全产业链的专业性行业展会。",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "2026年6月的中国国际半导体展览会将在深圳举办，此次展会将为半导体全产业链提供重要的展示与商业交流平台。",
+      "tag_category": "综合",
+      "title_en": "China International Semiconductor Exhibition | Jun 2026 | Shenzhen Shi | WebMobi"
+    },
+    {
+      "title": "收益率冲击应对策略：利率变动时的纳斯达克ETF（QQQ）、英伟达（NVDA）与半导体ETF（SMH）走势分析",
+      "url": "https://www.vortexcapitalgroup.com/post/yield-shock-playbook-how-qqq-nvda-and-smh-behave-when-rates-move",
+      "description": "Yield Shock Playbook: QQQ, NVDA & SMH When Rates Move | Vortex\n\ntop of page\n\nSearch\n\nTL;DR — Across 1,092 trading days from 2022 through 2026, the headline rule \"yields up = tech down\" is wrong about NVDA. On days when the 10-year Treasury yield climbed more than 10 bp (n=75), QQQ's median same-day ",
+      "published": "2026-06-16T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "传统的“收益率上升等同于科技股下跌”的简单逻辑在复杂宏观环境中并不总是成立，半导体板块对利率变动的反应更为微妙和滞后。",
+        "宏观利率环境的变化仍是引发英伟达（NVDA）等高估值半导体龙头股短期剧烈波动的重要系统性风险因素之一。"
+      ],
+      "actions": [
+        "半导体供应链管理层及投资者需建立包含宏观利率及国债收益率等指标的多元化风险对冲模型。",
+        "在美联储利率决议及关键宏观数据发布节点前后，合理调整对半导体核心资产的投资头寸或供应链账期策略。"
+      ],
+      "glossary": [
+        {
+          "term": "SMH",
+          "desc": "VanEck Vectors Semiconductor ETF，追踪全球主要半导体公司股价表现的交易所交易基金。",
+          "category": "金融"
+        },
+        {
+          "term": "Yield Shock",
+          "desc": "收益率冲击，指市场利率（通常指国债收益率）在短时间内发生剧烈波动，从而冲击股市估值体系。",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "基于2022年至2026年间超过1092个交易日的分析，揭示了债券收益率变动对科技股和半导体核心标的（如QQQ、NVDA、SMH）的真实市场影响。",
+      "tag_category": "综合",
+      "title_en": "Yield Shock Playbook: QQQ, NVDA & SMH When Rates Move | Vortex"
+    },
+    {
+      "title": "OpenClaw Robotics：开源人形机器人如何加速AGI研究 - Deepseek指南（OpenClaw Robotics: How Open-Source Humanoid Robots Are Accelerating AGI Research - Deepseeks Guide）",
+      "url": "https://deepseeksguides.com/articles/openclaw-robotics-2026.html",
+      "description": "OpenClaw Robotics: How Open-Source Humanoid Robots Are Accelerating AGI Research - Deepseeks Guide\n\nThe pursuit of artificial general intelligence has long been hindered by a fundamental limitation: most AI research exists purely in the digital realm, divorced from the physical world where true inte",
+      "published": "2026-06-15T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "开源人形机器人降低了具身智能研究的硬件门槛，促进算法与物理验证的快速迭代。",
+        "AGI的发展越来越依赖于物理世界的交互数据，软硬件协同演进成为AI发展的重要趋势。"
+      ],
+      "actions": [
+        "关注开源机器人生态对传感器、边缘计算芯片及低功耗驱动芯片的新增需求。",
+        "布局适用于具身智能的端侧AI推理芯片，抢占人形机器人市场先机。"
+      ],
+      "glossary": [
+        {
+          "term": "AGI",
+          "desc": "通用人工智能，指具备与人类同等或超越人类智能的AI系统",
+          "category": "综合"
+        },
+        {
+          "term": "Open-Source Humanoid Robots",
+          "desc": "开源人形机器人，指设计图纸和软件代码公开的人形机器人",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "OpenClaw Robotics的开源人形机器人正通过提供具身物理交互平台，解决数据获取瓶颈，从而加速通用人工智能（AGI）的研究进程。",
+      "tag_category": "综合",
+      "title_en": "OpenClaw Robotics: How Open-Source Humanoid Robots Are Accelerating AGI Research - Deepseeks Guide"
+    },
+    {
+      "title": "IBM Research发布面向2026 VLSI的1至1050mA DLDO，采用上升沿计算控制与负载依赖反馈实现46-mV/ns DVS速率与0.15-ps FoM（A 1-to-1050-mA DLDO with Rising-Edge Computational Control and Load-Dependent Feedback Achieving 46-mV/ns DVS Rate and 0.15-ps FoM for VLSI Technology and Circuits 2026 - IBM Research）",
+      "url": "https://research.ibm.com/publications/a-1-to-1050-ma-dldo-with-rising-edge-computational-control-and-load-dependent-feedback-achieving-46-mvns-dvs-rate-and-015-ps-fom",
+      "description": "A 1-to-1050-mA DLDO with Rising-Edge Computational Control and Load-Dependent Feedback Achieving 46-mV/ns DVS Rate and 0.15-ps FoM for VLSI Technology and Circuits 2026 - IBM Research\n\n## Abstract\n\nThis brief presents a 1 mA–1050 mA computational DLDO for modern SoCs that achieves fast load transien",
+      "published": "2026-06-14T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "随着先进VLSI工艺节点电压持续降低，高性能DLDO成为解决快速动态电压调节（DVS）和能效问题的关键IP。",
+        "计算型控制与负载自适应反馈的引入，标志着电源管理IP正从纯模拟或传统数字控制向智能化、算法化演进。"
+      ],
+      "actions": [
+        "先进工艺SoC设计团队应评估此类高性能DLDO IP，以满足高频计算核心对极速DVS的需求。",
+        "电源管理芯片（PMIC）厂商需加速在数字控制算法和混合信号架构上的研发投入，应对AI芯片严苛的功耗管理挑战。"
+      ],
+      "glossary": [
+        {
+          "term": "DLDO",
+          "desc": "数字低压差线性稳压器，用数字电路控制功率管导通的稳压器",
+          "category": "设计"
+        },
+        {
+          "term": "DVS",
+          "desc": "动态电压调节，根据工作负载动态调整电压以降低功耗的技术",
+          "category": "设计"
+        },
+        {
+          "term": "FoM",
+          "desc": "品质因数，衡量电路性能的综合指标，数值越小通常性能越优",
+          "category": "设计"
+        }
+      ],
+      "region": "overseas",
+      "summary": "IBM Research提出了一种新型数字低压差线性稳压器（DLDO），通过上升沿计算控制和负载依赖反馈机制，实现了极宽的负载电流范围和优异的瞬态响应性能。",
+      "tag_category": "综合",
+      "title_en": "A 1-to-1050-mA DLDO with Rising-Edge Computational Control and Load-Dependent Feedback Achieving 46-mV/ns DVS Rate and 0.15-ps FoM for VLSI Technology and Circuits 2026 - IBM Research"
+    },
+    {
+      "title": "Sonnet 4.5 对决 Gemini 2.5 Flash：生产环境决策指南 | PADISO博客（Sonnet 4.5 vs Gemini 2.5 Flash: A Production Decision Guide | PADISO Blog）",
+      "url": "https://www.padiso.co/blog/sonnet-4-5-vs-gemini-2-5-flash-production-decision-guide/",
+      "description": "Sonnet 4.5 vs Gemini 2.5 Flash: A Production Decision Guide | PADISO Blog\n\nPADISO.ai: AI Agent Orchestration Platform - Launching May 2026\n\nGuide 18 mins\n\n# Sonnet 4.5 vs Gemini 2.5 Flash: A Production Decision Guide\n\nCompare Claude Sonnet 4.5 and Gemini 2.5 Flash: latency, accuracy, cost, and tool-",
+      "published": "2026-06-11T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "大模型在生产环境中的选型正从单纯追求参数规模转向综合考量推理延迟、成本与特定任务表现。",
+        "高性能模型（如Sonnet 4.5）与高性价比快速模型（如Gemini 2.5 Flash）的差异化竞争，推动AI算力需求向多元化发展。"
+      ],
+      "actions": [
+        "AI芯片厂商需优化硬件对不同计算密度模型的支持，确保在推理高并发和低延迟场景下的灵活性。",
+        "云服务及MaaS提供商应建立多模型路由机制，根据任务复杂度动态分配算力资源以优化总体拥有成本（TCO）。"
+      ],
+      "glossary": [
+        {
+          "term": "Sonnet 4.5",
+          "desc": "Anthropic推出的Claude系列高性能大语言模型",
+          "category": "综合"
+        },
+        {
+          "term": "Gemini 2.5 Flash",
+          "desc": "Google推出的Gemini系列轻量级、高推理速度大模型",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "该文提供了一份关于Claude Sonnet 4.5与Gemini 2.5 Flash大模型在生产环境中部署的决策指南，对比了两者在不同应用场景下的性能与成本效益。",
+      "tag_category": "综合",
+      "title_en": "Sonnet 4.5 vs Gemini 2.5 Flash: A Production Decision Guide | PADISO Blog"
+    }
+  ],
+  "stats": {
+    "total_raw": 132,
+    "after_dedup": 99,
+    "sources": {
+      "Serper": 2,
+      "Exa": 14,
+      "RSS": 45,
+      "Brave": 38
+    }
+  },
+  "code_version": "",
+  "data_commit": ""
+}

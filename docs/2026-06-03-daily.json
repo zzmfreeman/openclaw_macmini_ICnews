@@ -1,0 +1,642 @@
+{
+  "version": "v20260603-0703",
+  "generatedAt": "2026-06-03T07:03:00+08:00",
+  "period": "daily",
+  "commit": "",
+  "glossary_list": [
+    {
+      "term": "CoWoS",
+      "desc": "Chip-on-Wafer-on-Substrate，台积电2.5D/3D先进封装平台",
+      "category": "封装"
+    },
+    {
+      "term": "HBM",
+      "desc": "High Bandwidth Memory，高带宽内存，AI芯片关键配套",
+      "category": "存储"
+    },
+    {
+      "term": "OSAT",
+      "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
+      "category": "封装"
+    },
+    {
+      "term": "长鑫科技",
+      "desc": "国产DRAM存储芯片制造商，合肥模式代表性企业",
+      "category": "设计公司"
+    },
+    {
+      "term": "IPO",
+      "desc": "首次公开募股",
+      "category": "金融"
+    },
+    {
+      "term": "Xe3P",
+      "desc": "英特尔新一代GPU架构，主打推理市场",
+      "category": "设计公司"
+    },
+    {
+      "term": "Crescent Island",
+      "desc": "英特尔新发布的GPU产品名称",
+      "category": "设计公司"
+    },
+    {
+      "term": "HBM5",
+      "desc": "第五代高带宽内存，下一代DRAM堆叠标准",
+      "category": "存储"
+    },
+    {
+      "term": "Computex",
+      "desc": "台北国际电脑展，全球重要科技展会",
+      "category": "综合"
+    },
+    {
+      "term": "SK hynix",
+      "desc": "SK海力士，韩国第二大存储芯片制造商，当前HBM市场领导者",
+      "category": "存储"
+    },
+    {
+      "term": "super-gap",
+      "desc": "超级差距，指在技术上建立竞争对手无法轻易追赶的绝对代差",
+      "category": "综合"
+    },
+    {
+      "term": "physical mock-up",
+      "desc": "实体模型，用于展示芯片物理外观与初步结构的样品",
+      "category": "设计公司"
+    },
+    {
+      "term": "TSMC",
+      "desc": "台湾积体电路制造，全球最大晶圆代工厂",
+      "category": "Fab/制造"
+    },
+    {
+      "term": "mature-node",
+      "desc": "成熟制程，通常指28nm及以上的半导体制造工艺",
+      "category": "Fab/制造"
+    },
+    {
+      "term": "Wafer Capacity",
+      "desc": "晶圆产能，指半导体工厂每月能生产的晶圆数量（以千片为单位）",
+      "category": "制造"
+    },
+    {
+      "term": "EUV",
+      "desc": "极紫外光刻，用于先进DRAM制造的关键光刻技术",
+      "category": "制造"
+    },
+    {
+      "term": "Valuation",
+      "desc": "估值，指资本市场对公司或资产价值的评估",
+      "category": "金融"
+    },
+    {
+      "term": "Intel 18A",
+      "desc": "英特尔18埃米（1.8nm）先进半导体制造工艺节点",
+      "category": "制造"
+    },
+    {
+      "term": "E-Core",
+      "desc": "能效核，Intel处理器中专注于能效比的计算核心",
+      "category": "设计"
+    },
+    {
+      "term": "Agentic AI",
+      "desc": "代理式AI，指具备自主感知、决策和执行能力的AI系统",
+      "category": "应用"
+    },
+    {
+      "term": "Physical AI",
+      "desc": "物理AI，指能够理解物理世界规律并在真实环境中交互的智能系统。",
+      "category": "人工智能"
+    },
+    {
+      "term": "COMPUTEX",
+      "desc": "台北国际电脑展，全球重要的半导体与ICT产业展会。",
+      "category": "展会"
+    },
+    {
+      "term": "localized thick-contact design",
+      "desc": "局部厚接触设计，一种在超薄半导体特定区域增加接触层厚度以降低电阻和改善散热的技术。",
+      "category": "半导体设计"
+    },
+    {
+      "term": "QOSC",
+      "desc": "量子轨道空间云，一种部署在太空轨道上的量子计算与通信云基础设施。",
+      "category": "量子计算"
+    },
+    {
+      "term": "Quantum Sovereign Vertical Stack",
+      "desc": "量子主权垂直堆栈，指从量子芯片硬件到软件算法全栈自主可控的量子技术体系。",
+      "category": "量子计算"
+    }
+  ],
+  "items": [
+    {
+      "title": "合肥这家半导体巨头，要去IPO了",
+      "url": "https://www.chinaventure.com.cn/news/114-20260602-391671.html",
+      "description": "AI浪潮下，安徽合肥凭借其超前的投资眼光，成为了为数不多能够与长三角掰手腕的内地城市。从“砸屏救市”到“豪赌芯片”，合肥被称为“中国最牛风投”绝非偶然。 在长鑫科技即将...",
+      "published": "16小时前",
+      "source": "投中",
+      "source_type": "Serper",
+      "lang": "zh",
+      "tags": [],
+      "insights": [
+        "合肥的“政府风投”模式在半导体领域取得显著成效，长鑫存储的IPO将进一步巩固合肥在国内存储芯片领域的地位。",
+        "长鑫科技作为DRAM国产化主力，其上市将极大补充研发与扩产资金，加速国产替代进程。"
+      ],
+      "actions": [
+        "关注长鑫科技IPO进展及募资用途，评估其对国产存储产业链上下游的拉动效应。",
+        "国内半导体设备与材料供应商应积极对接长鑫科技，抢占其产能扩张带来的国产替代窗口期。"
+      ],
+      "glossary": [
+        {
+          "term": "长鑫科技",
+          "desc": "国产DRAM存储芯片制造商，合肥模式代表性企业",
+          "category": "设计公司"
+        },
+        {
+          "term": "IPO",
+          "desc": "首次公开募股",
+          "category": "金融"
+        }
+      ],
+      "region": "domestic",
+      "summary": "长鑫科技即将启动IPO，合肥模式在AI浪潮下再次验证了其政府风投与产业培育的成功路径。",
+      "tag_category": "EDA/IP",
+      "title_en": "合肥这家半导体巨头，要去IPO了"
+    },
+    {
+      "title": "英特尔Crescent Island GPU无HBM封装下容量达480GB：Xe3P瞄准推理市场缺口（Intel Crescent Island GPU Packs 480GB Without HBM: Xe3P Targets Inference Gap）",
+      "url": "https://www.techtimes.com/articles/317612/20260602/intel-crescent-island-gpu-packs-480gb-without-hbm-xe3p-targets-inference-gap.htm",
+      "description": "Intel Crescent Island GPU Packs 480GB Without HBM: Xe3P Targets Inference Gap\n\nIntel CEO Lip-Bu Tan delivers the Intel keynote at Computex 2026 in Taipei, Taiwan Intel Corporation\n\nIntel CEO Lip-Bu Tan used Tuesday's Computex 2026 keynote in Taipei to deliver the most detailed public accounting yet ",
+      "published": "2026-06-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "英特尔避开当前HBM产能紧缺的限制，采用非HBM方案实现大容量，为AI推理市场提供了差异化选择。",
+        "AI推理侧对大容量内存的需求正在凸显，无需堆叠HBM的方案可能在中低算力推理场景中具备成本与产能优势。"
+      ],
+      "actions": [
+        "评估英特尔Xe3P推理GPU在边缘计算及中小规模推理场景中的性价比，考虑引入非HBM方案的推理集群。",
+        "关注非HBM大容量封装技术（如GDDR7或DDR5集成）的演进，为推理芯片设计提供备选路径。"
+      ],
+      "glossary": [
+        {
+          "term": "HBM",
+          "desc": "高带宽内存，常用于高端AI训练GPU",
+          "category": "存储"
+        },
+        {
+          "term": "Xe3P",
+          "desc": "英特尔新一代GPU架构，主打推理市场",
+          "category": "设计公司"
+        },
+        {
+          "term": "Crescent Island",
+          "desc": "英特尔新发布的GPU产品名称",
+          "category": "设计公司"
+        }
+      ],
+      "region": "overseas",
+      "summary": "英特尔在Computex 2026上发布Crescent Island GPU，该芯片无需HBM即可实现480GB容量，其Xe3P架构主要针对AI推理市场的需求缺口。",
+      "tag_category": "EDA/IP",
+      "title_en": "Intel Crescent Island GPU Packs 480GB Without HBM: Xe3P Targets Inference Gap"
+    },
+    {
+      "title": "三星电子在Computex上公布HBM5路线图及新冷却技术（Samsung Electronics unveils HBM5 roadmap, new cooling tech at Computex | AJU PRESS）",
+      "url": "https://www.ajupress.com/view/20260602163803716",
+      "description": "Samsung Electronics unveils HBM5 roadmap, new cooling tech at Computex | AJU PRESS\n\n# Samsung Electronics unveils HBM5 roadmap, new cooling tech at Computex\n\nby Candice Kim Posted : June 2, 2026, 16:52Updated : June 2, 2026, 16:52\n\nShare\n\nShare\n\n- facebookfacebook\n- twittertwitter\n- URLURL\n\nclose\n\nT",
+      "published": "2026-06-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "三星提前公布HBM5路线图，意在争夺下一代高带宽内存的技术主导权，与SK海力士形成超前竞争。",
+        "伴随HBM迭代，散热已成为核心瓶颈，三星同步推出新冷却技术，表明HBM配套的热管理方案将成为未来竞争关键。"
+      ],
+      "actions": [
+        "跟踪三星HBM5的时间表与规格参数，预判其对现有HBM3E市场价格的冲击。",
+        "提前布局针对高功耗HBM5的先进散热材料与解决方案，抢占下一代存储配套市场。"
+      ],
+      "glossary": [
+        {
+          "term": "HBM5",
+          "desc": "第五代高带宽内存，下一代DRAM堆叠标准",
+          "category": "存储"
+        },
+        {
+          "term": "Computex",
+          "desc": "台北国际电脑展，全球重要科技展会",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "三星电子在Computex展会上首次公布了下一代HBM5的路线图，并展示了针对高算力芯片的新型冷却技术。",
+      "tag_category": "综合",
+      "title_en": "Samsung Electronics unveils HBM5 roadmap, new cooling tech at Computex | AJU PRESS"
+    },
+    {
+      "title": "三星首次向世界展示HBM5...SK海力士称将全力扩大产能（Samsung Unveils HBM5 to the World for the First Time ... SK hynix Says It Will Expand Production Capacity at Full Speed - MK）",
+      "url": "https://www.mk.co.kr/en/business/12064300",
+      "description": "Samsung Unveils HBM5 to the World for the First Time ... SK hynix Says It Will Expand Production Capacity at Full Speed - MK\n\ngo to news\n\n# detail\n\n* It has been translated using AI\n\n## Samsung Unveils HBM5 to the World for the First Time ... SK hynix Says It Will Expand Production Capacity at Full ",
+      "published": "2026-06-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "三星展示HBM5实体模型意在夺回HBM技术话语权，而SK海力士聚焦产能扩张，两者竞争策略出现分化：三星拼技术领先，海力士保市场份额。",
+        "SK海力士的产能全速扩张表明当前HBM需求依然强劲，且未来几年HBM3E及HBM4的供应仍是产业链痛点。"
+      ],
+      "actions": [
+        "评估三星与SK海力士在HBM领域的不同策略对GPU客户供应链稳定性的影响。",
+        "针对SK海力士的扩产计划，相关封装及测试设备供应商应提前锁定订单与产能。"
+      ],
+      "glossary": [
+        {
+          "term": "SK hynix",
+          "desc": "SK海力士，韩国第二大存储芯片制造商，当前HBM市场领导者",
+          "category": "存储"
+        }
+      ],
+      "region": "overseas",
+      "summary": "三星首次公开展示HBM5实物，而SK海力士则宣布将全速扩张产能以应对市场需求，HBM市场竞争进入白热化阶段。",
+      "tag_category": "Fab/制造",
+      "title_en": "Samsung Unveils HBM5 to the World for the First Time ... SK hynix Says It Will Expand Production Capacity at Full Speed - MK"
+    },
+    {
+      "title": "三星电子首次展示HBM5实体模型…谋求技术“超级差距”（Samsung Electronics unveils first physical mock-up of HBM5… makes a bid for a technological ‘super-gap’ - 경향신문）",
+      "url": "https://www.khan.co.kr/en/article/202606021703007",
+      "description": "Samsung Electronics unveils first physical mock-up of HBM5… makes a bid for a technological ‘super-gap’ - 경향신문\n\n공유하기\n\n닫기\n\n카카오톡\n\n카카오톡\n\n페이스북\n\n페이스북\n\nX\n\nX\n\nURL 복사\n\nURL 복사\n\n이메일\n\n이메일\n\n보기 설정\n\n닫기\n\n글자 크기\n\n보통\n\n보통\n\n크게\n\n크게\n\n아주 크게\n\n아주 크게\n\n컬러 모드\n\n라이트\n\n라이트\n\n다크\n\n다크\n\n베이지\n\n베이지\n\n그린\n\n그린\n\n컬러 모드\n\n닫기\n\n라이트\n\n라이트\n\n다크\n\n다크\n\n베이",
+      "published": "2026-06-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "三星推出HBM5实体模型，标志着HBM5研发已进入物理验证阶段，技术成熟度超出市场预期。",
+        "三星强调建立技术‘超级差距’，反映出存储巨头在HBM领域已从单纯的价格与产能竞争转向底层架构与专利壁垒的竞争。"
+      ],
+      "actions": [
+        "重新评估HBM技术迭代周期，HBM5的提前亮相可能缩短HBM4的市场红利期，设计公司需提前规划兼容性。",
+        "关注三星HBM5的底层架构创新（如定制逻辑层接口），预判其对台积电CoWoS封装协同方案的影响。"
+      ],
+      "glossary": [
+        {
+          "term": "super-gap",
+          "desc": "超级差距，指在技术上建立竞争对手无法轻易追赶的绝对代差",
+          "category": "综合"
+        },
+        {
+          "term": "physical mock-up",
+          "desc": "实体模型，用于展示芯片物理外观与初步结构的样品",
+          "category": "设计公司"
+        }
+      ],
+      "region": "overseas",
+      "summary": "三星电子首次公开HBM5的实体模型，旨在通过技术代差拉开与竞争对手的距离，建立绝对的技术领先优势。",
+      "tag_category": "综合",
+      "title_en": "Samsung Electronics unveils first physical mock-up of HBM5… makes a bid for a technological ‘super-gap’ - 경향신문"
+    },
+    {
+      "title": "台积电的AI主导地位正在为中国晶圆代工厂创造新机遇（TSMC’s AI dominance is creating new opportunities for China’s foundries）",
+      "url": "https://www.dqindia.com/esdm/tsmcs-ai-dominance-is-creating-new-opportunities-for-chinas-foundries-11875791",
+      "description": "Ironically, TSMC’s dominance in advanced AI manufacturing may be helping China’s foundries grow faster in mature-node markets. ... As TSMC prioritizes advanced AI GPUs, CoWoS packaging, HBM integration, and 3nm and 2nm wafer capacity, customers requiring mature-node production increasingly ...",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "台积电产能向高利润的AI先进制程与CoWoS封装倾斜，导致成熟制程产能出现缺口，中国大陆代工厂因此承接了大量外溢订单。",
+        "中国大陆代工厂在成熟制程的快速扩张，虽短期内提升了营收，但也加剧了未来成熟制程产能过剩的风险。"
+      ],
+      "actions": [
+        "国内代工厂应利用当前成熟制程订单红利，加速特种工艺（如BCD、CIS、MCU）的研发，避免陷入纯价格战。",
+        "设计公司可重新评估大陆代工厂的成熟制程产能与交期，将非AI核心芯片订单转移至国内以优化供应链成本。"
+      ],
+      "glossary": [
+        {
+          "term": "TSMC",
+          "desc": "台湾积体电路制造，全球最大晶圆代工厂",
+          "category": "Fab/制造"
+        },
+        {
+          "term": "mature-node",
+          "desc": "成熟制程，通常指28nm及以上的半导体制造工艺",
+          "category": "Fab/制造"
+        },
+        {
+          "term": "CoWoS",
+          "desc": "台积电的先进封装技术，广泛应用于AI GPU",
+          "category": "封装"
+        }
+      ],
+      "region": "overseas",
+      "summary": "台积电在先进AI芯片制造上的主导地位，反而促使成熟制程订单外溢，为中国大陆晶圆代工厂在成熟节点市场创造了加速增长的机遇。",
+      "tag_category": "设计公司",
+      "title_en": "TSMC’s AI dominance is creating new opportunities for China’s foundries"
+    },
+    {
+      "title": "盛合晶微(SH688820)怎么样 - 热门讨论",
+      "url": "https://xueqiu.com/S/SH688820/hots",
+      "description": "盛合晶微(SH688820)$ 求教一下，看了盛合晶微的招股书以及官网，还是没搞懂这个公司的爆发力和想象力在哪里招股书对标日月光，日月光总市值也才5300亿人民币左右日月光一...",
+      "published": "18小时前",
+      "source": "雪球",
+      "source_type": "Serper",
+      "lang": "zh",
+      "tags": [],
+      "insights": [
+        "盛合晶微作为本土先进封装及中段制造厂商，虽对标日月光，但在规模与技术生态上仍有差距，市场对其估值天花板存在分歧。",
+        "先进封装是当前半导体核心瓶颈，本土厂商有国产替代机遇，但需明确自身在产业链中的独特定位而非单纯对标传统OSAT巨头。"
+      ],
+      "actions": [
+        "供应链企业应关注盛合晶微的实际技术节点与产能落地情况，而非仅看市值对标逻辑。",
+        "投资者需深入评估其与国内设计/Fab厂的绑定深度，以判断其长期爆发力与护城河。"
+      ],
+      "glossary": [
+        {
+          "term": "OSAT",
+          "desc": "外包半导体封装测试厂商，如日月光等",
+          "category": "封装"
+        }
+      ],
+      "region": "domestic",
+      "summary": "投资者对盛合晶微的成长爆发力与想象力提出疑问，指出其招股书对标日月光，但日月光总市值仅约5300亿人民币，对盛合晶微的估值上限与成长空间存疑。",
+      "tag_category": "综合",
+      "title_en": "盛合晶微(SH688820)_盛合晶微怎么样 - 热门讨论"
+    },
+    {
+      "title": "SK hynix晶圆产能翻倍：黄仁勋在Computex上写下“请多生产”（SK hynix Doubles Wafer Capacity: Huang Writes 'Please Make More' at Computex）",
+      "url": "https://www.techtimes.com/articles/317606/20260602/sk-hynix-doubles-wafer-capacity-huang-writes-please-make-more-computex.htm",
+      "description": "SK hynix Doubles Wafer Capacity: Huang Writes 'Please Make More' at Computex\n\nSK Group Chairman Chey Tae-won speaks during a meeting with South Korean President Lee Jae Myung and Nvidia founder and CEO Jensen Huang on the sidelines of the Asia-Pacific Economic Cooperation (APEC) summit in Gyeongju o",
+      "published": "2026-06-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "英伟达CEO亲自呼吁增产，表明HBM及AI内存的产能瓶颈已成为制约GPU出货与AI算力部署的关键因素。",
+        "SK hynix作为HBM核心供应商，其产能扩张节奏直接决定全球AI算力基础设施的落地速度。"
+      ],
+      "actions": [
+        "AI服务器整机厂商需密切关注SK hynix的产能释放进度，提前锁定HBM及高带宽内存供应长协。",
+        "国内存储厂商应加速HBM技术研发与客户验证，以承接溢出需求并抢占国产替代窗口期。"
+      ],
+      "glossary": [
+        {
+          "term": "HBM",
+          "desc": "高带宽内存，主要用于高性能AI计算与GPU搭配",
+          "category": "存储"
+        },
+        {
+          "term": "Computex",
+          "desc": "台北国际电脑展，全球重要的科技与半导体展会",
+          "category": "展会"
+        }
+      ],
+      "region": "overseas",
+      "summary": "SK hynix宣布将晶圆产能翻倍，英伟达CEO黄仁勋在Computex展会上向其表达“请多生产”的强烈需求，凸显AI内存供应的极度紧缺。",
+      "tag_category": "设计公司",
+      "title_en": "SK hynix Doubles Wafer Capacity: Huang Writes 'Please Make More' at Computex"
+    },
+    {
+      "title": "SK Hynix承诺五年内将晶圆产能翻倍，AI内存短缺将持续至2030年（SK Hynix pledges to double wafer capacity within five years as AI memory shortage deepens toward 2030 - Startup Fortune）",
+      "url": "https://startupfortune.com/sk-hynix-pledges-to-double-wafer-capacity-within-five-years-as-ai-memory-shortage-deepens-toward-2030/",
+      "description": "SK Hynix pledges to double wafer capacity within five years as AI memory shortage deepens toward 2030 - Startup Fortune\n\nSearch\n\nSF Jun 2, 2026 · 7:45 PM\n\nSubscribe✉\n\nMost Read\n\nPeter Thiel moves his family to… Kirkland Ellis is betting 500M that… Autodesk buys MaintainX for 3.6B in… Trash bags are ",
+      "published": "2026-06-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI驱动的内存短缺并非短期现象，而是将贯穿至2030年的长周期结构性问题，存储厂商需进行长周期的资本开支规划。",
+        "五年翻倍产能的承诺意味着SK Hynix将进行大规模设备采购与产线扩建，将为半导体设备供应商带来长期订单红利。"
+      ],
+      "actions": [
+        "半导体设备厂商应积极对接SK Hynix等头部存储厂商的扩产计划，争取长周期设备采购订单。",
+        "芯片设计公司需将内存短缺视为长期约束条件，在架构设计上考虑内存带宽优化与替代方案。"
+      ],
+      "glossary": [
+        {
+          "term": "Wafer Capacity",
+          "desc": "晶圆产能，指半导体工厂每月能生产的晶圆数量（以千片为单位）",
+          "category": "制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "随着AI内存短缺预计将持续至2030年，SK Hynix承诺在五年内将晶圆产能翻倍，以应对长期增长的AI算力需求。",
+      "tag_category": "Fab/制造",
+      "title_en": "SK Hynix pledges to double wafer capacity within five years as AI memory shortage deepens toward 2030 - Startup Fortune"
+    },
+    {
+      "title": "SK hynix董事长称五年内将内存晶圆产能翻倍——AI驱动的短缺将至少持续至2030年（SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030 | Tom's Hardware）",
+      "url": "https://www.tomshardware.com/pc-components/dram/sk-hynix-to-double-memory-wafer-capacity-over-five-years",
+      "description": "SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030 | Tom's Hardware\n\n> Just in time for all that money and capacity to go to waste as the bubble bursts and they end up with twice as much production as demand.",
+      "published": "2026-06-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "头部存储厂商高管明确短缺时间表至2030年，为产业链上下游提供了明确的中长期供需预期锚点。",
+        "产能翻倍目标对资金、土地、设备及人才提出极高要求，SK hynix的执行进度将成为行业风向标。"
+      ],
+      "actions": [
+        "供应链企业应根据“短缺持续至2030年”的预期，调整自身的库存策略与长协合同周期。",
+        "关注SK hynix扩产过程中的潜在瓶颈（如EUV设备获取、电力供应等），寻找合作或配套服务机会。"
+      ],
+      "glossary": [
+        {
+          "term": "EUV",
+          "desc": "极紫外光刻，用于先进DRAM制造的关键光刻技术",
+          "category": "制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "SK hynix董事长表示，公司计划在五年内将内存晶圆产能翻倍，并预计AI驱动的内存短缺将至少持续到2030年。",
+      "tag_category": "Fab/制造",
+      "title_en": "SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030 | Tom's Hardware"
+    },
+    {
+      "title": "SK Hynix市值达到1万亿估值，CEO公布激进扩张计划（SK Hynix Reaches $1 Trillion Valuation as CEO Unveils Aggressive Expansion Plans）",
+      "url": "https://blockonomi.com/sk-hynix-reaches-1-trillion-valuation-as-ceo-unveils-aggressive-expansion-plans/",
+      "description": "Facebook X (Twitter) LinkedIn Telegram \n\n Facebook X (Twitter) LinkedIn Telegram \n\n \n\n \n\nHome / Contact / Advertise / Submit Press Release\n\n \n\n \n\nStocks\n\n# SK Hynix Reaches $1 Trillion Valuation as CEO Unveils Aggressive Expansion Plans\n\nBy Trader Edge June 2, 2026 No Comments 4 Mins Read\n\n Telegram",
+      "published": "2026-06-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "资本市场对AI内存龙头给予极高估值溢价，反映出HBM等高带宽存储在AI时代的核心资产属性。",
+        "激进扩张计划与高估值相辅相成，SK Hynix正通过资本优势进一步巩固其在AI存储领域的垄断地位。"
+      ],
+      "actions": [
+        "投资者应关注SK Hynix扩张计划的资本回报率，警惕激进扩产可能带来的后期产能过剩风险。",
+        "竞争对手需评估自身在资金与规模上的差距，考虑通过联盟或差异化技术路线应对SK Hynix的规模压制。"
+      ],
+      "glossary": [
+        {
+          "term": "Valuation",
+          "desc": "估值，指资本市场对公司或资产价值的评估",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "SK Hynix市值达到1万亿估值，其CEO公布了激进的扩张计划，显示出公司在AI内存市场的强劲信心与野心。",
+      "tag_category": "综合",
+      "title_en": "SK Hynix Reaches $1 Trillion Valuation as CEO Unveils Aggressive Expansion Plans"
+    },
+    {
+      "title": "Intel Xeon 6+采用Intel 18A工艺配备288个E-Core，瞄准代理式AI密度（Intel Xeon 6+ Targets Agentic AI Density With 288 E-Cores on Intel 18A - Futurum）",
+      "url": "https://futurumgroup.com/insights/intel-xeon-6-targets-agentic-ai-density-with-288-e-cores-on-intel-18a/",
+      "description": "Intel Xeon 6+ Targets Agentic AI Density With 288 E-Cores on Intel 18A - Futurum\n\n# Intel Xeon 6+ Targets Agentic AI Density With 288 E-Cores on Intel 18A\n\n- Semiconductors, Supply Chain, & Emerging Tech\n\nAnalyst(s): Brendan Burke Publication Date: June 2, 2026\n\nIntel has launched the Xeon 6+ proces",
+      "published": "2026-06-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "Intel通过大幅增加E-Core数量至288个并采用18A先进工艺，试图在AI推理与代理式AI密度上建立差异化竞争优势。",
+        "Agentic AI（代理式AI）强调自主决策与高并发任务处理，对CPU的能效核数量与核间通信提出新要求，这为Intel的架构演进提供了方向。"
+      ],
+      "actions": [
+        "服务器整机厂商需评估Xeon 6+在Agentic AI场景下的实际吞吐量与功耗比，规划新一代AI服务器产品线。",
+        "软件与AI算法开发者应针对288 E-Core架构优化代理式AI的并发调度逻辑，以充分利用硬件密度优势。"
+      ],
+      "glossary": [
+        {
+          "term": "Intel 18A",
+          "desc": "英特尔18埃米（1.8nm）先进半导体制造工艺节点",
+          "category": "制造"
+        },
+        {
+          "term": "E-Core",
+          "desc": "能效核，Intel处理器中专注于能效比的计算核心",
+          "category": "设计"
+        },
+        {
+          "term": "Agentic AI",
+          "desc": "代理式AI，指具备自主感知、决策和执行能力的AI系统",
+          "category": "应用"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Intel发布Xeon 6+处理器，基于Intel 18A工艺节点，集成288个E-Core（能效核），旨在提升代理式AI的计算密度。",
+      "tag_category": "综合",
+      "title_en": "Intel Xeon 6+ Targets Agentic AI Density With 288 E-Cores on Intel 18A - Futurum"
+    },
+    {
+      "title": "英伟达在COMPUTEX发布Cosmos 3与RTX Spark N1X：为物理AI提供20T Tokens（Nvidia Cosmos 3 + RTX Spark N1X: 20T Tokens for Physical AI at COMPUTEX | Abhishek Gautam）",
+      "url": "https://www.abhs.in/blog/nvidia-cosmos-3-rtx-spark-n1x-physical-ai-computex-june-2026",
+      "description": "Nvidia Cosmos 3 + RTX Spark N1X: 20T Tokens for Physical AI at COMPUTEX | Abhishek Gautam\n\n# Nvidia Cosmos 3 + RTX Spark N1X: 20T Tokens for Physical AI at COMPUTEX\n\nAbhishek Gautam June 2, 202610 min read\n\nQuick summary\n\nAt COMPUTEX June 2026, Nvidia launched open Cosmos 3 world models (20T tokens,",
+      "published": "2026-06-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "物理AI（Physical AI）正成为英伟达等巨头的新战略焦点，需要海量真实物理世界数据支撑。",
+        "专用硬件（如RTX Spark N1X）与基础模型（Cosmos 3）的协同发布，表明英伟达正构建从训练到推理的物理AI全栈闭环。"
+      ],
+      "actions": [
+        "关注物理AI在机器人、自动驾驶等垂直领域的落地机会，评估相关算力与硬件需求。",
+        "探索基于Cosmos平台开发物理世界仿真与训练数据的商业潜力。"
+      ],
+      "glossary": [
+        {
+          "term": "Physical AI",
+          "desc": "物理AI，指能够理解物理世界规律并在真实环境中交互的智能系统。",
+          "category": "人工智能"
+        },
+        {
+          "term": "COMPUTEX",
+          "desc": "台北国际电脑展，全球重要的半导体与ICT产业展会。",
+          "category": "展会"
+        }
+      ],
+      "region": "overseas",
+      "summary": "英伟达在COMPUTEX展会上发布了Cosmos 3平台和RTX Spark N1X，旨在通过20万亿Tokens的训练数据推动物理AI的发展。",
+      "tag_category": "设计公司",
+      "title_en": "Nvidia Cosmos 3 + RTX Spark N1X: 20T Tokens for Physical AI at COMPUTEX | Abhishek Gautam"
+    },
+    {
+      "title": "超薄半导体通过局部厚接触设计克服性能限制（Ultra-thin semiconductors overcome performance limits with localized thick-contact design）",
+      "url": "https://techxplore.com/news/2026-06-ultra-thin-semiconductors-limits-localized.html",
+      "description": "Ultra-thin semiconductors overcome performance limits with localized thick-contact design\n\nshare this!\n\nTweet\n\nShare\n\n---\n\nJune 2, 2026\n\n# Ultra-thin semiconductors overcome performance limits with localized thick-contact design\n\nby Pohang University of Science and Technology\n\nedited by Sadie Harley",
+      "published": "2026-06-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "超薄半导体是延续摩尔定律的关键路径，但接触电阻和散热一直是其性能瓶颈。",
+        "局部厚接触设计巧妙平衡了器件微型化与电气/热学性能的矛盾，为3D IC和先进封装提供了新思路。"
+      ],
+      "actions": [
+        "跟踪该局部厚接触设计的工艺实现路径，评估其在下一代先进制程中的量产可行性。",
+        "评估该技术对现有接触层材料和沉积设备的潜在影响，提前布局相关供应链。"
+      ],
+      "glossary": [
+        {
+          "term": "localized thick-contact design",
+          "desc": "局部厚接触设计，一种在超薄半导体特定区域增加接触层厚度以降低电阻和改善散热的技术。",
+          "category": "半导体设计"
+        }
+      ],
+      "region": "overseas",
+      "summary": "研究人员提出了一种局部厚接触设计，使超薄半导体能够突破传统性能瓶颈，实现更优的导电与散热表现。",
+      "tag_category": "综合",
+      "title_en": "Ultra-thin semiconductors overcome performance limits with localized thick-contact design"
+    },
+    {
+      "title": "SEALSQ收购Miraex SA，巩固其量子主权垂直堆栈与量子轨道空间云（QOSC）（SEALSQ Acquires Miraex SA, Cementing Its Quantum Sovereign Vertical Stack and Quantum Orbital Space Cloud (QOSC)）",
+      "url": "https://www.sealsq.com/investors/news-releases/sealsq-acquires-miraex-sa-cementing-its-quantum-sovereign-vertical-stack-and-quantum-orbital-space-cloud-qosc",
+      "description": "SEALSQ Acquires Miraex SA, Cementing Its Quantum Sovereign Vertical Stack and Quantum Orbital Space Cloud (QOSC)\n\nInvestors News Releases >\n\n# SEALSQ Acquires Miraex SA, Cementing Its Quantum Sovereign Vertical Stack and Quantum Orbital Space Cloud (QOSC)\n\nGeneva, Switzerland, June 02, 2026 (GLOBE N",
+      "published": "2026-06-02T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "量子计算与太空云的结合（QOSC）代表了极端环境高安全计算的新趋势，具有战略级应用前景。",
+        "通过并购整合量子软硬件（垂直堆栈），企业正加速构建自主可控的量子主权生态，应对地缘政治下的数据安全需求。"
+      ],
+      "actions": [
+        "关注量子通信与太空基础设施融合的供应链机会，特别是抗辐射量子芯片及加密技术。",
+        "评估量子主权概念对政府及国防客户采购需求的影响，调整相关市场策略。"
+      ],
+      "glossary": [
+        {
+          "term": "QOSC",
+          "desc": "量子轨道空间云，一种部署在太空轨道上的量子计算与通信云基础设施。",
+          "category": "量子计算"
+        },
+        {
+          "term": "Quantum Sovereign Vertical Stack",
+          "desc": "量子主权垂直堆栈，指从量子芯片硬件到软件算法全栈自主可控的量子技术体系。",
+          "category": "量子计算"
+        }
+      ],
+      "region": "overseas",
+      "summary": "SEALSQ宣布收购Miraex SA，此举旨在强化其量子主权垂直堆栈技术，并推进量子轨道空间云（QOSC）的建设。",
+      "tag_category": "综合",
+      "title_en": "SEALSQ Acquires Miraex SA, Cementing Its Quantum Sovereign Vertical Stack and Quantum Orbital Space Cloud (QOSC)"
+    }
+  ],
+  "stats": {
+    "total_raw": 146,
+    "after_dedup": 103,
+    "sources": {
+      "Serper": 2,
+      "Exa": 25,
+      "RSS": 45,
+      "Brave": 31
+    }
+  },
+  "code_version": "",
+  "data_commit": ""
+}

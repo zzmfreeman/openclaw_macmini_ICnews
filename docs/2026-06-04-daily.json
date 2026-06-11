@@ -1,0 +1,667 @@
+{
+  "version": "v20260604-0704",
+  "generatedAt": "2026-06-04T07:04:00+08:00",
+  "period": "daily",
+  "commit": "",
+  "glossary_list": [
+    {
+      "term": "CoWoS",
+      "desc": "Chip-on-Wafer-on-Substrate，台积电2.5D/3D先进封装平台",
+      "category": "封装"
+    },
+    {
+      "term": "HBM",
+      "desc": "High Bandwidth Memory，高带宽内存，AI芯片关键配套",
+      "category": "存储"
+    },
+    {
+      "term": "OSAT",
+      "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
+      "category": "封装"
+    },
+    {
+      "term": "Die Size",
+      "desc": "裸片尺寸，指半导体芯片在晶圆上单个芯片的物理面积大小",
+      "category": "设计"
+    },
+    {
+      "term": "2nm",
+      "desc": "2纳米制程工艺，目前最先进的半导体制造节点之一",
+      "category": "制造"
+    },
+    {
+      "term": "ARC",
+      "desc": "一种可配置的嵌入式处理器IP核",
+      "category": "IP"
+    },
+    {
+      "term": "MIPS",
+      "desc": "一种经典的微处理器架构及IP授权",
+      "category": "IP"
+    },
+    {
+      "term": "RISC-V",
+      "desc": "一种基于精简指令集原则的开源指令集架构",
+      "category": "IP"
+    },
+    {
+      "term": "BESS",
+      "desc": "电池储能系统，用于存储电能并在需要时释放的规模化系统",
+      "category": "综合"
+    },
+    {
+      "term": "Delisting Tender Offer",
+      "desc": "退市要约，公司为使目标公司从证券交易所退市而向其股东发出的收购股份要约",
+      "category": "综合"
+    },
+    {
+      "term": "8-K Filing",
+      "desc": "8-K文件，美国SEC要求公司发生重大事件时必须提交的现行报告",
+      "category": "综合"
+    },
+    {
+      "term": "00981",
+      "desc": "中芯国际在港交所的股票代码",
+      "category": "综合"
+    },
+    {
+      "term": "盛合晶微",
+      "desc": "国内半导体先进封装与中介层制造核心企业，原中芯长电",
+      "category": "制造/封装"
+    },
+    {
+      "term": "Wafer production",
+      "desc": "晶圆产量，指半导体制造中晶圆的产出规模",
+      "category": "制造"
+    },
+    {
+      "term": "SK hynix",
+      "desc": "韩国第二大半导体厂商，全球HBM高带宽内存主要供应商",
+      "category": "企业"
+    },
+    {
+      "term": "Wafer capacity",
+      "desc": "晶圆产能，指晶圆厂每月可生产的晶圆数量（以千片计）",
+      "category": "制造"
+    },
+    {
+      "term": "AI memory",
+      "desc": "AI内存，主要指用于AI加速器的高带宽内存(HBM)",
+      "category": "存储"
+    },
+    {
+      "term": "Agentic AI",
+      "desc": "代理式AI，指能够自主规划、决策并执行复杂多步任务的AI系统",
+      "category": "AI"
+    },
+    {
+      "term": "Xeon 6",
+      "desc": "英特尔第六代服务器处理器，针对数据中心及AI工作负载优化",
+      "category": "产品"
+    },
+    {
+      "term": "Semiconductor capabilities",
+      "desc": "半导体能力，涵盖芯片设计、制造、封装及设备材料等综合产业实力",
+      "category": "产业"
+    },
+    {
+      "term": "AI Factory",
+      "desc": "AI工厂，指专门为大规模AI计算设计的数据中心，强调算力生产与能源效率",
+      "category": "AI/基础设施"
+    },
+    {
+      "term": "Jensen Huang",
+      "desc": "黄仁勋，NVIDIA创始人兼首席执行官",
+      "category": "人物"
+    },
+    {
+      "term": "Choi Tae-won",
+      "desc": "崔泰源，SK集团董事长",
+      "category": "人物"
+    },
+    {
+      "term": "OQC",
+      "desc": "牛津量子电路公司，英国领先的量子计算硬件初创企业",
+      "category": "量子计算"
+    },
+    {
+      "term": "Quantum round",
+      "desc": "量子计算领域的融资轮次",
+      "category": "投资"
+    },
+    {
+      "term": "Wellington Management",
+      "desc": "威灵顿管理公司，全球领先的独立资产管理机构",
+      "category": "金融"
+    },
+    {
+      "term": "Hartford Funds",
+      "desc": "哈特福德基金，由The Hartford运营的基金业务",
+      "category": "金融"
+    },
+    {
+      "term": "Convergence Evidence",
+      "desc": "汇聚证据，指从多源工程数据中提取并验证的权威性结论",
+      "category": "数据分析"
+    },
+    {
+      "term": "GFL",
+      "desc": "全球功能库或生命周期治理基础框架，用于半导体数据生命周期管理",
+      "category": "半导体标准"
+    },
+    {
+      "term": "TCG",
+      "desc": "技术协调组或相关技术治理基础框架，用于半导体工程数据治理",
+      "category": "半导体标准"
+    }
+  ],
+  "items": [
+    {
+      "title": "Cadence Design通过与主要芯片制造商合作解决裸片尺寸限制，巩固其在2nm AI芯片竞赛中的地位",
+      "url": "https://www.barchart.com/story/news/2283174/cadence-design-is-cementing-its-place-in-the-2nm-ai-chip-race-by-solving-the-die-size-limit-in-partnership-with-a-major-chipmaker",
+      "description": "Cadence Design Is Cementing Its Place in the 2nm AI Chip Race By Solving the Die Size Limit in Partnership With a Major Chipmaker\n\n[[ type === 'moc' ? 'MARKET ON CLOSE' : 'FREE WEBINAR' ]]\n\n[[ timeLabel ]] WATCH LIVE:\n\nYour browser of choice has not been tested for use with Barchart.com. If you have",
+      "published": "2026-06-03T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "2nm节点下AI芯片的裸片尺寸限制是核心挑战，突破该限制对提升算力至关重要。",
+        "EDA巨头与头部芯片制造商深度绑定，通过定制化协同优化抢占先进制程高地。"
+      ],
+      "actions": [
+        "芯片设计公司应关注EDA厂商在2nm节点的新特性及合作动态，评估其对自身设计流程的影响。",
+        "供应链企业需提前布局2nm相关的设计与制造协同环节，以应对AI芯片对大尺寸Die的需求。"
+      ],
+      "glossary": [
+        {
+          "term": "Die Size",
+          "desc": "裸片尺寸，指半导体芯片在晶圆上单个芯片的物理面积大小",
+          "category": "设计"
+        },
+        {
+          "term": "2nm",
+          "desc": "2纳米制程工艺，目前最先进的半导体制造节点之一",
+          "category": "制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Cadence Design通过与某主要芯片制造商合作，解决了Die Size（裸片尺寸）限制问题，从而在2nm AI芯片竞赛中确立了更稳固的地位。",
+      "tag_category": "EDA/IP",
+      "title_en": "Cadence Design Is Cementing Its Place in the 2nm AI Chip Race By Solving the Die Size Limit in Partnership With a Major Chipmaker"
+    },
+    {
+      "title": "GlobalFoundries将ARC加入MIPS，加强对RISC-V技术栈的控制",
+      "url": "https://www.jonpeddie.com/techwatch/globalfoundries-adds-arc-to-mips-and-tightens-its-grip-on-the-risc-v-stack/",
+      "description": "GlobalFoundries adds ARC to MIPS and tightens its grip on the RISC-V stack – Jon Peddie Research\n\n# GlobalFoundries adds ARC to MIPS and tightens its grip on the RISC-V stack\n\nGF completes ARC acquisition and folds it into MIPS.\n\nJune 3, 2026\n\nDavid Harold\n\nGlobalFoundries has completed its acquisit",
+      "published": "2026-06-03T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "代工厂通过整合IP（如ARC和MIPS），正在从单纯的制造向提供完整RISC-V生态栈延伸。",
+        "RISC-V架构的灵活性与开源特性正吸引晶圆厂构建垂直整合的IP生态，以降低客户设计门槛。"
+      ],
+      "actions": [
+        "采用RISC-V架构的芯片开发商可评估GlobalFoundries提供的整合IP栈，以缩短开发周期。",
+        "IP供应商需关注代工厂自建IP生态的趋势，寻找差异化合作或竞争策略。"
+      ],
+      "glossary": [
+        {
+          "term": "ARC",
+          "desc": "一种可配置的嵌入式处理器IP核",
+          "category": "IP"
+        },
+        {
+          "term": "MIPS",
+          "desc": "一种经典的微处理器架构及IP授权",
+          "category": "IP"
+        },
+        {
+          "term": "RISC-V",
+          "desc": "一种基于精简指令集原则的开源指令集架构",
+          "category": "IP"
+        }
+      ],
+      "region": "overseas",
+      "summary": "GlobalFoundries完成对ARC的收购并将其加入MIPS，进一步强化了其在RISC-V技术栈中的掌控力。",
+      "tag_category": "EDA/IP",
+      "title_en": "GlobalFoundries adds ARC to MIPS and tightens its grip on the RISC-V stack – Jon Peddie Research"
+    },
+    {
+      "title": "T1 Energy通过收购KORE Power进入电池储能系统（BESS）和数据中心基础设施市场",
+      "url": "https://markets.businessinsider.com/news/stocks/t1-energy-to-enter-bess-and-data-center-infrastructure-markets-with-acquisition-of-kore-power-1036220917",
+      "description": "T1 Energy to Enter BESS and Data Center Infrastructure Markets with Acquisition of KORE Power | Markets Insider\n\n# T1 Energy to Enter BESS and Data Center Infrastructure Markets with Acquisition of KORE Power\n\nJun. 3, 2026, 06:00 AM\n\nAUSTIN, Texas and NEW YORK, June 03, 2026 (GLOBE NEWSWIRE) -- T1 E",
+      "published": "2026-06-03T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "数据中心的高耗能属性正推动储能系统（BESS）成为基础设施的关键组成部分。",
+        "能源与储能企业通过并购快速获取技术与产能，加速向高增长的算力基础设施领域渗透。"
+      ],
+      "actions": [
+        "数据中心运营商应关注储能系统供应商的整合动态，评估BESS在降低PUE和电力成本上的潜力。",
+        "电池与储能供应链需准备应对数据中心市场带来的新增需求及规格标准。"
+      ],
+      "glossary": [
+        {
+          "term": "BESS",
+          "desc": "电池储能系统，用于存储电能并在需要时释放的规模化系统",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "T1 Energy宣布收购KORE Power，借此切入电池储能系统（BESS）和数据中心基础设施市场。",
+      "tag_category": "综合",
+      "title_en": "T1 Energy to Enter BESS and Data Center Infrastructure Markets with Acquisition of KORE Power | Markets Insider"
+    },
+    {
+      "title": "Worthington Steel完成对Kloeckner & Co的收购，并宣布启动退市要约意向",
+      "url": "https://www.morningstar.com/news/business-wire/20260602742967/worthington-steel-completes-acquisition-of-kloeckner-co-and-announces-intention-to-launch-delisting-tender-offer",
+      "description": "Worthington Steel Completes Acquisition of Kloeckner & Co and Announces Intention to Launch Delisting Tender Offer | Morningstar\n\nWorthington Steel Completes Acquisition of Kloeckner & Co and Announces Intention to Launch Delisting Tender Offer\n\nWorthington Steel, Inc. (NYSE: WS) today completed its",
+      "published": "2026-06-03T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "传统钢铁金属分销行业的并购整合正在加速，旨在扩大规模效应和优化供应链。",
+        "收购后的退市要约表明企业倾向于通过私有化降低公众市场合规成本，聚焦长期战略重组。"
+      ],
+      "actions": [
+        "半导体设备与材料供应商需关注基础金属材料市场的整合，评估其对原材料采购成本及渠道的影响。",
+        "投资者及相关供应链伙伴应留意退市要约的时间节点与条款，及时调整股权及商业合作安排。"
+      ],
+      "glossary": [
+        {
+          "term": "Delisting Tender Offer",
+          "desc": "退市要约，公司为使目标公司从证券交易所退市而向其股东发出的收购股份要约",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Worthington Steel已完成对Kloeckner & Co的收购，同时宣布计划发起退市要约。",
+      "tag_category": "综合",
+      "title_en": "Worthington Steel Completes Acquisition of Kloeckner & Co and Announces Intention to Launch Delisting Tender Offer | Morningstar"
+    },
+    {
+      "title": "Worthington Steel完成对Klöckner的收购，计划退市",
+      "url": "https://www.stocktitan.net/sec-filings/WS/8-k-worthington-steel-inc-reports-material-event-b7efb730dc91.html",
+      "description": "Worthington Steel completes Klöckner acquisition, eyes delisting | WS 8-K Filing\n\n# Worthington Steel (NYSE: WS) closes Klöckner deal and plans delisting offer\n\nFiling Impact\n\n(High)\n\nFiling Sentiment\n\n(Neutral)\n\nForm Type\n\n8-K\n\n## Rhea-AI Filing Summary\n\n- English\n- Italian\n- Spanish\n- German\n- Kor",
+      "published": "2026-06-03T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "8-K文件披露确认了并购及私有化退市的正式意图，属于重大公司行为。",
+        "金属分销巨头的私有化退市可能带来更灵活的资本运作，以支撑半导体等高增长下游市场的定制化材料服务。"
+      ],
+      "actions": [
+        "依赖Klöckner或Worthington钢材供应的半导体设备制造商，应确认并购后供应链合同与服务的连续性。",
+        "关注8-K文件中的具体退市执行细节，以规避潜在的商业信用及财务结算风险。"
+      ],
+      "glossary": [
+        {
+          "term": "8-K Filing",
+          "desc": "8-K文件，美国SEC要求公司发生重大事件时必须提交的现行报告",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Worthington Steel完成对Klöckner的收购，并计划通过要约收购实现退市。",
+      "tag_category": "综合",
+      "title_en": "Worthington Steel completes Klöckner acquisition, eyes delisting | WS 8-K Filing"
+    },
+    {
+      "title": "中芯国际(00981)股票股价_股价行情_讨论_资讯_财报_数据报告",
+      "url": "https://xueqiu.com/S/00981",
+      "description": "雪球为您提供中芯国际(00981)股票股价,实时行情,热门讨论,最新资讯,最新公告,公司资料,财务数据,财务指标分析等与中芯国际(00981)股票相关的信息与服务.",
+      "published": "13小时前",
+      "source": "雪球",
+      "source_type": "Serper",
+      "lang": "zh",
+      "tags": [],
+      "insights": [
+        "中芯国际作为国内头部晶圆代工厂，其股价与财报数据是观测国内半导体制造景气度的核心风向标。",
+        "市场对中芯国际的讨论热度反映了资本对国产替代及成熟制程产能扩张的关注。"
+      ],
+      "actions": [
+        "半导体供应链从业者应定期关注中芯国际财报中的产能利用率与资本支出指引，以预判国内制造端供需趋势。",
+        "芯片设计公司需结合中芯国际的股价波动与公开资讯，评估代工价格的走势及产能分配策略。"
+      ],
+      "glossary": [
+        {
+          "term": "00981",
+          "desc": "中芯国际在港交所的股票代码",
+          "category": "综合"
+        }
+      ],
+      "region": "domestic",
+      "summary": "雪球平台提供中芯国际(00981)的实时股价、行情、讨论、资讯及财务数据等信息服务。",
+      "tag_category": "Fab/制造",
+      "title_en": "中芯国际(00981)股票股价_股价行情_讨论_资讯_财报_数据报告"
+    },
+    {
+      "title": "盛合晶微(SH688820)股票股价_股价行情_讨论_资讯_财报_数据报告",
+      "url": "https://xueqiu.com/S/SH688820?from=status_stock_match",
+      "description": "雪球为您提供盛合晶微(SH688820)股票股价,实时行情,热门讨论,最新资讯,最新公告,公司资料,财务数据,财务指标分析等与盛合晶微(SH688820)股票相关的信息与服务.",
+      "published": "19小时前",
+      "source": "雪球",
+      "source_type": "Serper",
+      "lang": "zh",
+      "tags": [],
+      "insights": [
+        "盛合晶微作为国内半导体先进封装及中介层制造的重要厂商，其资本市场表现直接反映了投资者对国产AI芯片供应链瓶颈缓解的预期。",
+        "中介层和先进封装产能是当前高端算力芯片的核心制约点，盛合晶微的产能扩张进度将深刻影响国内AI芯片的量产节奏。"
+      ],
+      "actions": [
+        "密切关注盛合晶微的财报与产能扩张公告，评估其先进封装产能释放对国产AI算力芯片供应链的支撑作用。",
+        "通过雪球等平台跟踪盛合晶微的市场情绪与机构观点，辅助判断国内半导体制造与先进封装板块的合作与投资时机。"
+      ],
+      "glossary": [
+        {
+          "term": "盛合晶微",
+          "desc": "国内半导体先进封装与中介层制造核心企业，原中芯长电",
+          "category": "制造/封装"
+        }
+      ],
+      "region": "domestic",
+      "summary": "雪球平台提供盛合晶微(SH688820)的股票实时行情、财务数据及资讯讨论等综合服务，反映了市场对该公司的关注。",
+      "tag_category": "综合",
+      "title_en": "盛合晶微(SH688820)股票股价_股价行情_讨论_资讯_财报_数据报告"
+    },
+    {
+      "title": "SK hynix首席执行官表示将在五年内将晶圆产量翻倍（SK hynix to double wafer production within five years, chief says）",
+      "url": "https://koreajoongangdaily.joins.com/news/2026-06-03/business/industry/SK-hynix-to-double-wafer-production-within-five-years-chief-says/2607675",
+      "description": "SK hynix to double wafer production within five years, chief says\n\n## korea joongAng daily\n\nBusiness\n\nGO\n\n## Home > Business > Industry\n\n# SK hynix to double wafer production within five years, chief says\n\nPublished: 03 Jun. 2026, 19:30\n\nSK Group Chairman Chey Tae-won, left, poses for a photo with N",
+      "published": "2026-06-03T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "SK hynix的大幅扩产计划直接反映了AI驱动的HBM内存需求激增，且预计该高需求周期将持续至少五年以上。",
+        "作为HBM市场领导者，SK hynix的产能翻倍将重塑全球存储芯片供应链格局，可能加剧与三星和美光在先进存储产能上的竞争。"
+      ],
+      "actions": [
+        "半导体设备供应商应积极对接SK hynix的扩产需求，提前锁定前道工艺及先进封装设备的采购订单。",
+        "芯片设计公司需重新评估长期存储芯片供应策略，利用SK hynix扩产窗口期争取更稳定的HBM采购配额。"
+      ],
+      "glossary": [
+        {
+          "term": "Wafer production",
+          "desc": "晶圆产量，指半导体制造中晶圆的产出规模",
+          "category": "制造"
+        },
+        {
+          "term": "SK hynix",
+          "desc": "韩国第二大半导体厂商，全球HBM高带宽内存主要供应商",
+          "category": "企业"
+        }
+      ],
+      "region": "overseas",
+      "summary": "SK hynix首席执行官宣布，计划在未来五年内将晶圆产量翻倍，以应对不断增长的市场需求。",
+      "tag_category": "综合",
+      "title_en": "SK hynix to double wafer production within five years, chief says"
+    },
+    {
+      "title": "因AI内存需求持续紧张，SK hynix计划将晶圆产能翻倍（SK hynix aims to double wafer capacity as AI memory demand stays tight - SemiMedia）",
+      "url": "https://www.semimedia.cc/sk-hynix-aims-to-double-wafer-capacity-as-ai-memory-demand-stays-tight/",
+      "description": "SK hynix aims to double wafer capacity as AI memory demand stays tight - SemiMedia\n\n- 0\n\n# SK hynix aims to double wafer capacity as AI memory demand stays tight\n\nJune 3, 2026 / SemiMedia/ — SK hynix plans to double its wafer production capacity over the next five years as artificial intelligence de",
+      "published": "2026-06-03T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI内存（特别是HBM）的供需失衡仍是当前AI芯片产业链的核心痛点，扩产是缓解瓶颈的唯一途径。",
+        "产能翻倍不仅涉及前道晶圆制造，更依赖后道TSV封装及CoWoS等先进封装产能的协同扩张，否则前道产能无法转化为有效出货。"
+      ],
+      "actions": [
+        "供应链管理者应密切关注SK hynix的产能爬坡进度，特别是HBM3E等新一代产品的良率与实际出货预期。",
+        "封装材料及设备供应商需针对SK hynix的扩产计划，提前布局12层堆叠HBM所需的键合与填充材料产能。"
+      ],
+      "glossary": [
+        {
+          "term": "Wafer capacity",
+          "desc": "晶圆产能，指晶圆厂每月可生产的晶圆数量（以千片计）",
+          "category": "制造"
+        },
+        {
+          "term": "AI memory",
+          "desc": "AI内存，主要指用于AI加速器的高带宽内存(HBM)",
+          "category": "存储"
+        }
+      ],
+      "region": "overseas",
+      "summary": "随着AI内存需求持续紧张，SK hynix计划将晶圆产能翻倍，以确保HBM等关键产品的供应能力。",
+      "tag_category": "Fab/制造",
+      "title_en": "SK hynix aims to double wafer capacity as AI memory demand stays tight - SemiMedia"
+    },
+    {
+      "title": "英特尔以Xeon 6+和以太网升级瞄准代理式AI（Intel targets agentic AI with Xeon 6+ and Ethernet upgrades ...）",
+      "url": "https://www.eenewseurope.com/en/intel-targets-agentic-ai-with-xeon-6-and-ethernet-upgrades/",
+      "description": "Intel targets agentic AI with Xeon 6+ and Ethernet upgrades ...\n\nMENU\n\n# Intel targets agentic AI with Xeon 6+ and Ethernet upgrades\n\nNew Products | June 3, 2026\n\nBy Asma Adhimi\n\n---\n\nIntel has unveiled a new wave of data center hardware aimed at supporting the rise of agentic AI, with updates spann",
+      "published": "2026-06-03T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "从生成式AI向代理式AI演进，对数据中心的CPU处理能力及网络延迟提出了更高要求，高性能以太网升级是关键配套。",
+        "英特尔通过强化CPU与网络协同，试图在AI基础设施中找回主导权，与GPU主导的加速计算形成差异化竞争。"
+      ],
+      "actions": [
+        "数据中心架构师应评估Xeon 6+在代理式AI推理任务中的性价比，优化CPU与GPU的算力分配比例。",
+        "网络设备供应商需跟进英特尔的以太网升级方案，开发适配低延迟代理式AI交互的高性能交换机与网卡。"
+      ],
+      "glossary": [
+        {
+          "term": "Agentic AI",
+          "desc": "代理式AI，指能够自主规划、决策并执行复杂多步任务的AI系统",
+          "category": "AI"
+        },
+        {
+          "term": "Xeon 6",
+          "desc": "英特尔第六代服务器处理器，针对数据中心及AI工作负载优化",
+          "category": "产品"
+        }
+      ],
+      "region": "overseas",
+      "summary": "英特尔发布Xeon 6处理器及以太网升级方案，旨在为代理式AI应用提供更强的计算与网络基础设施支持。",
+      "tag_category": "综合",
+      "title_en": "Intel targets agentic AI with Xeon 6+ and Ethernet upgrades ..."
+    },
+    {
+      "title": "强化欧洲的半导体能力（Strengthening Europe’s semiconductor capabilities - New Electronics）",
+      "url": "https://www.newelectronics.co.uk/content/features/fames-pilot-line-aims-to-strengthen-europe-s-semiconductor-capabilities",
+      "description": "Strengthening Europe’s semiconductor capabilities - New Electronics\n\n03 Jun 2026\n\nMore in\n\n###### Electronics\n\n###### Manufacturing\n\n###### Policy & Business\n\n###### Technology\n\n###### Semiconductors\n\n###### Research Design\n\n# FAMES pilot line aims to strengthen Europe’s semiconductor capabilities\n\n",
+      "published": "2026-06-03T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "欧洲半导体强化战略侧重于车规级芯片、功率半导体及先进制造本土化，旨在降低对亚洲供应链的过度依赖。",
+        "政策补贴虽能推动晶圆厂建设，但欧洲面临人才短缺与生态薄弱的挑战，产能实际落地与盈利仍需较长周期验证。"
+      ],
+      "actions": [
+        "半导体设备与材料厂商应积极切入欧洲新建晶圆厂（如台积电德国厂、英特尔马格德堡厂）的供应链认证窗口。",
+        "国内芯片企业需关注欧洲半导体法案带来的贸易壁垒与本地化要求，提前调整出海与合规策略。"
+      ],
+      "glossary": [
+        {
+          "term": "Semiconductor capabilities",
+          "desc": "半导体能力，涵盖芯片设计、制造、封装及设备材料等综合产业实力",
+          "category": "产业"
+        }
+      ],
+      "region": "overseas",
+      "summary": "欧洲正致力于加强本土半导体能力，以提升在全球芯片供应链中的自主性与竞争力。",
+      "tag_category": "综合",
+      "title_en": "Strengthening Europe’s semiconductor capabilities - New Electronics"
+    },
+    {
+      "title": "黄仁勋与崔泰源强化全球AI工厂联盟（Jensen Huang and Choi Tae-won Strengthen Global AI Factory Alliance | AJU PRESS）",
+      "url": "https://www.ajupress.com/view/20260603160370544",
+      "description": "Jensen Huang and Choi Tae-won Strengthen Global AI Factory Alliance | AJU PRESS\n\n# Jensen Huang and Choi Tae-won Strengthen Global AI Factory Alliance\n\nby KIM NA YOON Posted : June 3, 2026, 16:03Updated : June 3, 2026, 16:03\n\nShare\n\nShare\n\n- facebookfacebook\n- twittertwitter\n- URLURL\n\nclose\n\nText si",
+      "published": "2026-06-03T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "NVIDIA与SK集团的深度绑定，标志着AI基础设施正从单一芯片供应向涵盖能源、数据中心运营的'AI工厂'生态演进。",
+        "SK集团作为韩国第二大财阀，在能源、数据中心建设上具备优势，能为NVIDIA的AI工厂愿景提供关键的电力与地产资源支撑。"
+      ],
+      "actions": [
+        "AI数据中心运营商应关注NVIDIA与SK联盟带来的'AI工厂'一体化解决方案，评估其在降低PUE与总运营成本上的潜力。",
+        "电力与温控设备供应商需主动对接SK集团等AI工厂建设方，抢占大规模GPU集群供电与散热基础设施的市场份额。"
+      ],
+      "glossary": [
+        {
+          "term": "AI Factory",
+          "desc": "AI工厂，指专门为大规模AI计算设计的数据中心，强调算力生产与能源效率",
+          "category": "AI/基础设施"
+        },
+        {
+          "term": "Jensen Huang",
+          "desc": "黄仁勋，NVIDIA创始人兼首席执行官",
+          "category": "人物"
+        },
+        {
+          "term": "Choi Tae-won",
+          "desc": "崔泰源，SK集团董事长",
+          "category": "人物"
+        }
+      ],
+      "region": "overseas",
+      "summary": "NVIDIA首席执行官黄仁勋与SK集团董事长崔泰源会晤，旨在强化全球AI工厂联盟，深化AI基础设施合作。",
+      "tag_category": "综合",
+      "title_en": "Jensen Huang and Choi Tae-won Strengthen Global AI Factory Alliance | AJU PRESS"
+    },
+    {
+      "title": "OQC融资2.6亿英镑：英国承诺投入20亿英镑以赢得全球量子竞赛，创下欧洲史上最大量子轮融资纪录（OQC raises £260M: Europe's biggest quantum round ever as Britain commits £2B to win the global quantum race — TFN）",
+      "url": "https://techfundingnews.com/oqc-raises-260m-europes-biggest-quantum-round-ever-as-britain-commits-2b-to-win-the-global-quantum-race/",
+      "description": "OQC raises £260M: Europe's biggest quantum round ever as Britain commits £2B to win the global quantum race — TFN\n\nJune 3, 2026\n\n### Ex-Isar Aerospace and Volocopter leaders raise €5.7M to fix the enterprise AI execution problem\n\nJune 3, 2026\n\n### They met at the intersection of science and finance.",
+      "published": "2026-06-03T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "欧洲各国正通过国家资金与私人资本结合的方式，加速量子计算产业发展，以应对美亚在量子领域的竞争。",
+        "量子计算领域虽然尚未完全商业化，但资本已提前重仓押注底层硬件与量子比特技术路线。"
+      ],
+      "actions": [
+        "半导体设备与材料供应商应关注量子计算硬件的制造需求，提前布局极低温器件和超导材料等特种供应链。",
+        "投资者可关注量子计算产业链上下游的并购与整合机会，特别是量子纠错与控制芯片相关的初创企业。"
+      ],
+      "glossary": [
+        {
+          "term": "OQC",
+          "desc": "牛津量子电路公司，英国领先的量子计算硬件初创企业",
+          "category": "量子计算"
+        },
+        {
+          "term": "Quantum round",
+          "desc": "量子计算领域的融资轮次",
+          "category": "投资"
+        }
+      ],
+      "region": "overseas",
+      "summary": "英国量子计算公司OQC完成2.6亿英镑融资，创下欧洲史上最大量子轮融资纪录，此举正值英国承诺投入20亿英镑以争夺全球量子竞赛主导权之际。",
+      "tag_category": "综合",
+      "title_en": "OQC raises £260M: Europe's biggest quantum round ever as Britain commits £2B to win the global quantum race — TFN"
+    },
+    {
+      "title": "Wellington Management将从The Hartford收购Hartford Funds（Wellington Management to Acquire Hartford Funds from The Hartford | Wellington Management）",
+      "url": "https://www.wellington.com/en/wellington-news/wellington-hartford-funds",
+      "description": "Wellington Management to Acquire Hartford Funds from The Hartford | Wellington Management Wellington Management to Acquire Hartford Funds from The Hartford \"/>\n\nWellington Homepage\n\nChangechevron_right\n\nSubscribe mail_outline\n\n## Wellington Alternative Investments\n\n...\n\n### Contact us\n\n...\n\n## Explo",
+      "published": "2026-06-03T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "金融与资产管理行业的整合趋势持续，大型机构通过并购扩大规模效应和产品线。",
+        "资本市场的整合可能影响半导体等科技领域的融资渠道，大型基金更倾向于投资成熟期或硬科技核心资产。"
+      ],
+      "actions": [
+        "半导体企业在寻求融资或IPO时，应关注此类大型资产管理机构的风险偏好与投资策略变化。",
+        "供应链企业需留意金融行业并购带来的基金持仓变动，这可能间接影响科技股的机构资金流向。"
+      ],
+      "glossary": [
+        {
+          "term": "Wellington Management",
+          "desc": "威灵顿管理公司，全球领先的独立资产管理机构",
+          "category": "金融"
+        },
+        {
+          "term": "Hartford Funds",
+          "desc": "哈特福德基金，由The Hartford运营的基金业务",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "资产管理公司Wellington Management宣布将从The Hartford收购其基金业务Hartford Funds，以扩大其资产管理版图。",
+      "tag_category": "综合",
+      "title_en": "Wellington Management to Acquire Hartford Funds from The Hartford | Wellington Management"
+    },
+    {
+      "title": "汇聚证据成熟度层级：从原始数据到汇聚权威证据（Convergence Evidence Maturity Hierarchy: From Raw Data to Convergence-Authoritative Evidence）",
+      "url": "https://semiwiki.com/eda/369932-convergence-evidence-maturity-hierarchy-from-raw-data-to-convergence-authoritative-evidence/",
+      "description": "<p>The semiconductor industry is generating more engineering data than ever before.</p>\n<p>This article follows the previously published GFL and TCG foundation pieces. GFL introduced the lifecycle-governance problem. TCG clarified why observable or interoperable data is not automatically trustworthy",
+      "published": "Wed, 03 Jun 2026 15:00:52 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "随着半导体制造工艺迈向埃米级，数据量呈指数级增长，数据治理与证据链的成熟度成为良率提升的关键。",
+        "从原始数据到“权威证据”的转化，需要行业建立统一的数据标准（如GFL和TCG），以打破信息孤岛。"
+      ],
+      "actions": [
+        "晶圆厂和IDM应建立完善的数据生命周期治理体系，提升工程数据向决策证据转化的效率。",
+        "EDA和良率管理软件供应商需开发符合行业新标准的数据汇聚工具，帮助客户实现数据价值的最大化。"
+      ],
+      "glossary": [
+        {
+          "term": "Convergence Evidence",
+          "desc": "汇聚证据，指从多源工程数据中提取并验证的权威性结论",
+          "category": "数据分析"
+        },
+        {
+          "term": "GFL",
+          "desc": "全球功能库或生命周期治理基础框架，用于半导体数据生命周期管理",
+          "category": "半导体标准"
+        },
+        {
+          "term": "TCG",
+          "desc": "技术协调组或相关技术治理基础框架，用于半导体工程数据治理",
+          "category": "半导体标准"
+        }
+      ],
+      "region": "overseas",
+      "summary": "半导体行业正产生前所未有的工程数据，本文提出“汇聚证据成熟度层级”框架，探讨如何将原始数据转化为具有权威性的汇聚证据，以支持生命周期治理。",
+      "tag_category": "综合",
+      "title_en": "Convergence Evidence Maturity Hierarchy: From Raw Data to Convergence-Authoritative Evidence"
+    }
+  ],
+  "stats": {
+    "total_raw": 147,
+    "after_dedup": 108,
+    "sources": {
+      "Serper": 2,
+      "Exa": 25,
+      "RSS": 45,
+      "Brave": 36
+    }
+  },
+  "code_version": "",
+  "data_commit": ""
+}

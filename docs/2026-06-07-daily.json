@@ -1,0 +1,665 @@
+{
+  "version": "v20260607-0703",
+  "generatedAt": "2026-06-07T07:03:00+08:00",
+  "period": "daily",
+  "commit": "",
+  "glossary_list": [
+    {
+      "term": "CoWoS",
+      "desc": "Chip-on-Wafer-on-Substrate，台积电2.5D/3D先进封装平台",
+      "category": "封装"
+    },
+    {
+      "term": "HBM",
+      "desc": "High Bandwidth Memory，高带宽内存，AI芯片关键配套",
+      "category": "存储"
+    },
+    {
+      "term": "OSAT",
+      "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
+      "category": "封装"
+    },
+    {
+      "term": "SkyOS·天枢",
+      "desc": "蔚来自研的整车全域操作系统，旨在打通底层硬件与上层应用，实现车辆各域控的高效协同",
+      "category": "软件/OS"
+    },
+    {
+      "term": "智能满配",
+      "desc": "指车辆在智能驾驶和智能座舱等方面配备最高级别的硬件与软件功能",
+      "category": "汽车电子"
+    },
+    {
+      "term": "Quantinuum",
+      "desc": "由霍尼韦尔和剑桥量子计算合并成立的量子计算公司，专注于离子阱量子计算硬件与软件",
+      "category": "量子计算"
+    },
+    {
+      "term": "IPO",
+      "desc": "首次公开募股，指企业首次向公众出售股份并在证券交易所上市",
+      "category": "金融"
+    },
+    {
+      "term": "AI Chip Shortage",
+      "desc": "AI芯片短缺，主要指用于人工智能训练和推理的高性能GPU及专用加速器供不应求",
+      "category": "市场/供需"
+    },
+    {
+      "term": "TSMC",
+      "desc": "台湾积体电路制造公司，全球最大的半导体纯代工厂",
+      "category": "代工"
+    },
+    {
+      "term": "先进制程",
+      "desc": "通常指7nm及以下的半导体制造工艺，目前主要用于高性能计算和AI芯片",
+      "category": "制造"
+    },
+    {
+      "term": "成熟制程",
+      "desc": "通常指28nm及以上的半导体制造工艺，广泛应用于模拟、射频、MCU及车规芯片",
+      "category": "制造"
+    },
+    {
+      "term": "结构性修复",
+      "desc": "指行业整体虽未全面复苏，但部分细分领域因需求回暖而呈现局部改善",
+      "category": "市场/供需"
+    },
+    {
+      "term": "噪音数据",
+      "desc": "在数据采集过程中混入的与目标分析领域无关的干扰信息",
+      "category": "数据处理"
+    },
+    {
+      "term": "乐道L60",
+      "desc": "蔚来旗下第二品牌乐道（ONVO）的首款中型SUV车型，面向主流家庭市场。",
+      "category": "汽车"
+    },
+    {
+      "term": "HPC",
+      "desc": "高性能计算，在汽车领域指集中处理大量车载数据的域控制器或中央计算平台。",
+      "category": "汽车电子"
+    },
+    {
+      "term": "USI",
+      "desc": "环旭电子，全球领先的电子设计制造服务（EMS）提供商。",
+      "category": "代工/封装"
+    },
+    {
+      "term": "ISTA",
+      "desc": "奥地利科学技术研究所，进行前沿基础科学研究的机构。",
+      "category": "机构"
+    },
+    {
+      "term": "ESD",
+      "desc": "静电放电，可能对半导体芯片造成损害的物理现象。",
+      "category": "半导体制造"
+    },
+    {
+      "term": "PPA",
+      "desc": "电力采购协议，企业为锁定长期电价与可再生能源供应商签订的合同。",
+      "category": "能源/供应链"
+    },
+    {
+      "term": "SDV",
+      "desc": "软件定义汽车，通过软件升级而非硬件更改来实现车辆功能更新的汽车设计理念。",
+      "category": "汽车电子"
+    },
+    {
+      "term": "Virtualization",
+      "desc": "虚拟化技术，在车载计算平台中允许多个操作系统共享硬件资源并安全隔离的技术。",
+      "category": "软件/架构"
+    },
+    {
+      "term": "LVS",
+      "desc": "版图与原理图一致性验证，确保芯片物理版图与逻辑电路图匹配的EDA验证步骤。",
+      "category": "EDA/设计"
+    },
+    {
+      "term": "130nm",
+      "desc": "130纳米半导体制造工艺节点，属于成熟节点，常用于模拟、射频及功率器件。",
+      "category": "工艺节点"
+    },
+    {
+      "term": "Selector-only memory",
+      "desc": "纯选通管存储器，一种无需额外存储单元即可通过选通管自身电阻变化实现数据存储的新型器件架构。",
+      "category": "存储"
+    },
+    {
+      "term": "Homopolar bond",
+      "desc": "同极键，由同种元素原子之间形成的化学键，在硫系玻璃中常导致器件性能退化。",
+      "category": "材料"
+    },
+    {
+      "term": "GeS",
+      "desc": "硫化锗，一种硫系玻璃材料，常用于制造存储器的选通管器件。",
+      "category": "材料"
+    },
+    {
+      "term": "Series E",
+      "desc": "E轮融资，初创企业在发展后期进行的第五轮主要股权融资。",
+      "category": "金融"
+    },
+    {
+      "term": "Sierra",
+      "desc": "一家由Bret Taylor创立的企业级AI公司，专注于提供对话式AI代理服务。",
+      "category": "公司"
+    },
+    {
+      "term": "Bullish",
+      "desc": "一家受监管的加密货币交易所，旨在结合数字资产与传统金融的优势。",
+      "category": "公司"
+    },
+    {
+      "term": "Equiniti",
+      "desc": "一家提供股东管理、养老金及金融技术服务的英国公司。",
+      "category": "公司"
+    }
+  ],
+  "items": [
+    {
+      "title": "新乐道L60将于6月11日上市，搭载整车全域操作系统SkyOS·天枢",
+      "url": "https://chejiahao.autohome.com.cn/info/25605510",
+      "description": "新乐道L60 6月11日上市 搭载整车全域操作系统SkyOS·天枢_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n新乐道L60 6月11日上市 搭载整车全域操作系统SkyOS·天枢\n\nCNMO科技\n\n车家号·0浏览·2026-06-02 11:56 · 北京\n\n【CNMO科技消息】6月2日，乐道汽车发文称，新乐道L60(参数|询价)是同级唯一搭载整车全域操作系统的车型。其所配备的SkyOS·天枢打通了六域，让车更省",
+      "published": "2026-06-11T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "整车全域操作系统SkyOS·天枢的搭载标志着国内车企在底层软件架构自研上的突破，有助于打破对第三方黑盒方案的依赖，提升软硬件协同效率。",
+        "智能电动汽车的竞争核心正从硬件转向软硬件全栈能力，域控架构及自研OS将成为车企构建护城河的关键。"
+      ],
+      "actions": [
+        "车载SoC及域控制器供应商需关注SkyOS·天枢的软硬件适配需求，提前规划底层驱动及中间件的兼容性验证。",
+        "芯片供应链应重视车企自研OS趋势，加强与头部车企的联合定义，以在下一代智能座舱和智驾芯片市场中抢占先机。"
+      ],
+      "glossary": [
+        {
+          "term": "SkyOS·天枢",
+          "desc": "蔚来自研的整车全域操作系统，旨在打通底层硬件与上层应用，实现车辆各域控的高效协同",
+          "category": "软件/OS"
+        }
+      ],
+      "region": "domestic",
+      "summary": "蔚来旗下乐道汽车新款L60将于6月11日上市，该车型将搭载蔚来自研的整车全域操作系统SkyOS·天枢，实现智能化进阶。",
+      "tag_category": "综合",
+      "title_en": "新乐道L60 6月11日上市 搭载整车全域操作系统SkyOS·天枢_车家号_发现车生活_汽车之家"
+    },
+    {
+      "title": "乐道新款L60即将上市，实现智能满配进阶",
+      "url": "https://chejiahao.autohome.com.cn/info/25471869",
+      "description": "乐道新款L60即将上市，智能满配进阶_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n乐道新款L60即将上市，智能满配进阶\n\n驾仕派\n\n车家号·0浏览·2026-05-12 19:15 · 四川\n\n5月10日，蔚来创始人、董事长、CEO李斌在官方直播活动中透露，新款 乐道L60将在外观设计、智能技术方面进行产品升级，预计于5月底正式开启预售，6月将正式上市。 新款乐道L60将搭载蔚来自研全球首颗5nm车规级智驾芯片“",
+      "published": "2026-06-11T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "乐道L60的智能满配进阶反映出主流新能源车型正在加速普及高阶智驾和智能座舱功能，对相关车规级芯片的需求量将大幅增加。",
+        "车企通过子品牌推出高性价比智能车型，正在挤压传统车企的生存空间，加速汽车半导体供应链的洗牌。"
+      ],
+      "actions": [
+        "车规级芯片供应商需评估乐道L60的智能配置BOM变化，针对智驾和座舱芯片需求增加做好产能与备货准备。",
+        "Tier1厂商应关注蔚来/乐道平台的软硬件架构演进，及时调整产品线以适配其域控融合方案。"
+      ],
+      "glossary": [
+        {
+          "term": "智能满配",
+          "desc": "指车辆在智能驾驶和智能座舱等方面配备最高级别的硬件与软件功能",
+          "category": "汽车电子"
+        }
+      ],
+      "region": "domestic",
+      "summary": "乐道新款L60即将上市，在智能化配置上实现全面进阶，进一步强化市场竞争力。",
+      "tag_category": "综合",
+      "title_en": "乐道新款L60即将上市，智能满配进阶_车家号_发现车生活_汽车之家"
+    },
+    {
+      "title": "Quantinuum在IPO中达到160亿美元市值（Quantinuum gets $16bn market cap in IPO）",
+      "url": "https://www.electronicsweekly.com/news/business/quantinuum-gets-16bn-market-cap-in-ipo-2026-06/",
+      "description": "<p>Quantinuum, the joint Honeywell-Cambridge Quantum startup, has raised $1.68 billion on the Nasdaq. By the market close, Quantinuum’s market cap was $15.7 billion. The company was formed in 2021 to ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/news/business/quantinuum-gets-16bn-ma",
+      "published": "Fri, 05 Jun 2026 05:24:12 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "Quantinuum的高估值IPO反映了资本市场对量子计算商业化潜力的强烈看好，量子计算正从实验室走向产业落地阶段。",
+        "量子计算硬件与软件的整合（如霍尼韦尔硬件与剑桥软件的结合）被视为构建量子生态壁垒的核心路径。"
+      ],
+      "actions": [
+        "半导体设备与材料厂商应关注量子计算芯片（如离子阱、超导等）的特殊制造需求，提前布局相关工艺研发。",
+        "EDA及IP供应商需评估量子计算对传统芯片设计流程的潜在颠覆，探索量子-经典混合计算架构的IP开发机会。"
+      ],
+      "glossary": [
+        {
+          "term": "Quantinuum",
+          "desc": "由霍尼韦尔和剑桥量子计算合并成立的量子计算公司，专注于离子阱量子计算硬件与软件",
+          "category": "量子计算"
+        },
+        {
+          "term": "IPO",
+          "desc": "首次公开募股，指企业首次向公众出售股份并在证券交易所上市",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "霍尼韦尔与剑桥量子计算合资成立的Quantinuum在纳斯达克上市，融资16.8亿美元，收盘时市值达到157亿美元。",
+      "tag_category": "EDA/IP",
+      "title_en": "Quantinuum gets $16bn market cap in IPO"
+    },
+    {
+      "title": "台积电警告AI芯片短缺将持续数年：为何稳定定价仍意味着2026年涨价（AI Chip Shortage Will Last Years, TSMC Warns: Why Stable Pricing Still Means 2026 Increases）",
+      "url": "https://www.techtimes.com/articles/317876/20260605/ai-chip-shortage-will-last-years-tsmc-warns-why-stable-pricing-still-means-2026-increases.htm",
+      "description": "Taiwan Semiconductor Manufacturing Co. Chairman and CEO C.C. Wei told shareholders at the company’s June 4 annual meeting in Hsinchu that the AI chip shortage will persist for years and that TSMC will not impose sudden, memory-style price spikes — a pledge that, read closely, does not mean ...",
+      "published": "",
+      "source": "Brave",
+      "source_type": "Brave",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "台积电对AI芯片长期短缺的预警确认了先进封装（如CoWoS）及先进制程产能扩张的速度仍跟不上爆发式的算力需求，结构性缺货已成常态。",
+        "台积电暗示2026年涨价，表明在供需极度不平衡下，代工厂的定价权正在增强，成本压力将最终传导至终端AI服务器及消费电子市场。"
+      ],
+      "actions": [
+        "AI芯片设计公司需尽早与台积电锁定2026年及以后的先进制程与封装产能，避免因缺货导致产品交付延期。",
+        "供应链管理者应将台积电潜在的涨价因素纳入长期成本模型，评估对毛利率的影响，并探索替代封装或制程方案以分散风险。"
+      ],
+      "glossary": [
+        {
+          "term": "AI Chip Shortage",
+          "desc": "AI芯片短缺，主要指用于人工智能训练和推理的高性能GPU及专用加速器供不应求",
+          "category": "市场/供需"
+        },
+        {
+          "term": "TSMC",
+          "desc": "台湾积体电路制造公司，全球最大的半导体纯代工厂",
+          "category": "代工"
+        }
+      ],
+      "region": "overseas",
+      "summary": "台积电董事长兼CEO魏哲家在股东会上表示，AI芯片短缺将持续数年，并暗示尽管目前定价稳定，但2026年仍可能面临价格上涨。",
+      "tag_category": "EDA/IP",
+      "title_en": "AI Chip Shortage Will Last Years, TSMC Warns: Why Stable Pricing Still Means 2026 Increases"
+    },
+    {
+      "title": "全球与中国晶圆制造产业周报",
+      "url": "https://hao.cnyes.com/post/251416",
+      "description": "周期：2026-05-29—2026-06-05（GMT+8）. 主題：AI需求拉動先進製程，成熟製程進入結構性修復周期. 一、本周核心結論. 本周晶圓製造市場繼續圍繞“AI算力需求、先進製程產能、...",
+      "published": "19小时前",
+      "source": "鉅亨號",
+      "source_type": "Serper",
+      "lang": "zh",
+      "tags": [],
+      "insights": [
+        "先进制程受AI算力需求强劲拉动，产能持续满载且面临扩产压力；而成熟制程虽整体复苏缓慢，但在特定应用（如车规、工控）驱动下呈现结构性修复特征。",
+        "晶圆代工行业呈现两极分化态势，先进制程投资回报率高但门槛极高，成熟制程则需通过差异化工艺和特色服务寻找盈利突破口。"
+      ],
+      "actions": [
+        "专注成熟制程的代工厂及IDM应聚焦车规、IoT等结构性增量市场，优化产品组合以提升产能利用率。",
+        "投资机构与供应链企业需区分先进与成熟制程的周期节奏，在先进制程领域紧抓AI红利，在成熟制程领域防范盲目扩产风险。"
+      ],
+      "glossary": [
+        {
+          "term": "先进制程",
+          "desc": "通常指7nm及以下的半导体制造工艺，目前主要用于高性能计算和AI芯片",
+          "category": "制造"
+        },
+        {
+          "term": "成熟制程",
+          "desc": "通常指28nm及以上的半导体制造工艺，广泛应用于模拟、射频、MCU及车规芯片",
+          "category": "制造"
+        },
+        {
+          "term": "结构性修复",
+          "desc": "指行业整体虽未全面复苏，但部分细分领域因需求回暖而呈现局部改善",
+          "category": "市场/供需"
+        }
+      ],
+      "region": "domestic",
+      "summary": "最新晶圆制造产业周报指出，当前市场核心围绕AI算力需求拉动先进制程，而成熟制程正进入结构性修复周期。",
+      "tag_category": "综合",
+      "title_en": "全球與中國晶圓製造產業周報"
+    },
+    {
+      "title": "2026年6月宇都宫STARDOM赛事门票信息（STARDOM in UTSUNOMIYA 2026 Jun. チケット情報 | スターダ姆✪STARDOM）",
+      "url": "https://wwr-stardom.com/en/schedule/20260607_utsunomiya/",
+      "description": "STARDOM in UTSUNOMIYA 2026 Jun. チケット情報 | スターダム✪STARDOM\n\nMENU\n\n- TOP\n- Ticket information\n- STARDOM in UTSUNOMIYA 2026 Jun.\n\n# TICKETSチケット詳細\n\n## STARDOM in UTSUNOMIYA 2026 Jun.\n\nDate and time\n\nvenue\n\nFC有料会員先行入場\n\n12:00 ※入場時に会員証を提示\n\nお渡し会開始\n\n12:05 姫ゆりあ選手 ※列が途切れ次第終了予定 ※お渡し会専用ポートレートは、グッズ売店ではなく、お渡し会参加列の先で販",
+      "published": "2026-06-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "此类非半导体领域的噪音数据在信息抓取中常见，分析师需具备快速甄别和过滤无关信息的能力，避免干扰产业判断。"
+      ],
+      "actions": [
+        "建议优化信息源抓取规则，剔除体育娱乐等无关类目，提升产业简报的数据纯度与分析效率。"
+      ],
+      "glossary": [
+        {
+          "term": "噪音数据",
+          "desc": "在数据采集过程中混入的与目标分析领域无关的干扰信息",
+          "category": "数据处理"
+        }
+      ],
+      "region": "domestic",
+      "summary": "该新闻为日本女子摔角联盟STARDOM在宇都宫举办的2026年6月赛事门票信息，与半导体产业无直接关联。",
+      "tag_category": "综合",
+      "title_en": "STARDOM in UTSUNOMIYA 2026 Jun. チケット情報 | スターダム✪STARDOM"
+    },
+    {
+      "title": "乐道L60预售 蔚来全系亮相大湾区车展，展台面积是上一届两倍",
+      "url": "https://chejiahao.autohome.com.cn/info/25579819",
+      "description": "乐道L60预售 蔚来全系亮相大湾区车展，展台面积是上一届两倍_车家号_发现车生活_汽车之家\n\n选择城市\n\n综合\n\n- 综合\n- 找论坛\n\n搜索\n\n更多\n\n登录\n\n下载App\n\n扫码下载汽车之家App\n\n小程序\n\n扫码打开汽车之家小程序\n\n>\n\n点赞\n\n评论\n\n收藏\n\n分享\n\n当前位置：\n\n乐道L60预售 蔚来全系亮相大湾区车展，展台面积是上一届两倍\n\n道哥说车\n\n车家号·0浏览·2026-05-29 16:35 · 北京\n\n【文/财圈社&道哥说车 麻建宇】连续两个季度实现盈利的蔚来，阔起来了。\n\n5月29日，第三十届粤港澳大湾区车展正式开幕。蔚来公司携旗下蔚来、乐道、萤火虫三大品牌参展，以11",
+      "published": "2026-06-11T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "蔚来通过推出子品牌乐道（ONVO）扩大市场覆盖面，L60预售标志着其下沉大众市场的战略落地。",
+        "展台面积翻倍反映出车企在关键区域车展上的营销投入增加，以争夺市场关注度和订单。"
+      ],
+      "actions": [
+        "关注乐道L60的供应链变化，特别是针对大众市场车型的芯片及零部件降本需求。",
+        "评估蔚来双品牌战略对车规级芯片采购量的拉动效应及规格差异。"
+      ],
+      "glossary": [
+        {
+          "term": "乐道L60",
+          "desc": "蔚来旗下第二品牌乐道（ONVO）的首款中型SUV车型，面向主流家庭市场。",
+          "category": "汽车"
+        }
+      ],
+      "region": "domestic",
+      "summary": "蔚来携全系车型亮相大湾区车展，子品牌乐道L60开启预售，且展台面积扩大至上一届的两倍，显示出品牌扩张与市场推广的力度。",
+      "tag_category": "综合",
+      "title_en": "乐道L60预售 蔚来全系亮相大湾区车展，展台面积是上一届两倍_车家号_发现车生活_汽车之家"
+    },
+    {
+      "title": "今日要闻-权威资讯发布中心",
+      "url": "https://sywysm.com/en/blog/mastering-automotive-hpc-by-somog-technology",
+      "description": "今日要闻-权威资讯发布中心\n\n## USI Blog\n\nTop trending topic for the latest innovation technology, application and industry insight.\n\n### Search\n\n- 12/15/2025\n\n### Mastering Automotive HPC: Defining the \"Sweet Spot\" of SoMoG Technology\n\nSpeaker: Dr. Li-Cheng Shen, AVP, Miniaturization Competence Center (MCC) of U",
+      "published": "2026-06-06T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "汽车HPC（高性能计算）是软件定义汽车的核心，寻找算力、功耗与成本的'Sweet Spot'是当前车规芯片设计的关键挑战。",
+        "EMS厂商如USI开始从硬件制造向提供技术洞察与解决方案延伸，增强在汽车电子供应链中的话语权。"
+      ],
+      "actions": [
+        "关注USI等EMS厂商在汽车HPC领域的布局，评估其系统级封装对车载算力平台的整合能力。",
+        "芯片供应商需与系统集成商紧密合作，确保HPC芯片在功耗和散热上符合整车厂的'Sweet Spot'需求。"
+      ],
+      "glossary": [
+        {
+          "term": "HPC",
+          "desc": "高性能计算，在汽车领域指集中处理大量车载数据的域控制器或中央计算平台。",
+          "category": "汽车电子"
+        },
+        {
+          "term": "USI",
+          "desc": "环旭电子，全球领先的电子设计制造服务（EMS）提供商。",
+          "category": "代工/封装"
+        }
+      ],
+      "region": "domestic",
+      "summary": "USI（环旭电子）发布博客文章，探讨汽车高性能计算（HPC）的最佳平衡点定义，聚焦汽车电子架构的创新技术与应用。",
+      "tag_category": "综合",
+      "title_en": "今日要闻-权威资讯发布中心"
+    },
+    {
+      "title": "ISTA团队追溯2600年静电之谜至空气中的碳尘（ISTA team traces 2,600-year static-electricity mystery to airborne carbon dust）",
+      "url": "https://www.dongascience.com/en/news/78254",
+      "description": "ISTA team traces 2,600-year static-electricity mystery to airborne carbon dust - DongA Science\n\nArticle SummaryAI highlights the key points.\n\nShare\n\nFont -\n\nFont +\n\nPrint\n\nNature paper identifies ultrathin organic carbon films on surfaces as the key factor controlling triboelectric charging and reve",
+      "published": "2026-06-06T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "基础科学对静电机制的深入理解，可能为半导体制造中的静电放电（ESD）防护和微尘控制带来新的理论依据。",
+        "空气中碳尘与静电关系的明确，对晶圆厂无尘室的微粒过滤和静电控制标准具有潜在指导意义。"
+      ],
+      "actions": [
+        "晶圆厂和封装厂应关注此基础研究进展，评估现有空气过滤与ESD防护措施是否需要针对碳尘进行升级。",
+        "ESD防护芯片设计人员可参考新材料机理，优化半导体器件的静电保护电路设计。"
+      ],
+      "glossary": [
+        {
+          "term": "ISTA",
+          "desc": "奥地利科学技术研究所，进行前沿基础科学研究的机构。",
+          "category": "机构"
+        },
+        {
+          "term": "ESD",
+          "desc": "静电放电，可能对半导体芯片造成损害的物理现象。",
+          "category": "半导体制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "ISTA（奥地利科学技术研究所）团队在《自然》杂志发表论文，揭示了长达2600年的静电现象之谜，指出其根源在于空气中的碳尘。",
+      "tag_category": "综合",
+      "title_en": "ISTA team traces 2,600-year static-electricity mystery to airborne carbon dust  - DongA Science"
+    },
+    {
+      "title": "2026年6月6日电价将在特定时段暴跌（Le prix de l'électricité va chuter à une heure précise ce 6 juin 2026）",
+      "url": "https://selectra.info/energie/actualites/marche/prix-electricite/2026-06-06",
+      "description": "Le prix de l'électricité va chuter à une heure précise ce 6 juin 2026\n\nSauf indication contraire, tous les prix présentés sur cette page sont TTC.\n\n# Le prix de l'électricité va chuter à une heure précise ce 6 juin 2026\n\nTrouvez un fournisseur moins cher !\n\nObtenez votre comparatif par téléphone ave",
+      "published": "2026-06-06T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "欧洲电力价格的剧烈波动为高耗能的半导体制造带来了能源成本管理的挑战与机遇。",
+        "特定时段的低电价可能促使晶圆厂调整非紧急生产排程，以利用低价电力降低运营成本。"
+      ],
+      "actions": [
+        "在欧洲设有晶圆厂的企业应建立动态能源采购策略，利用电价低谷时段安排高耗能工艺。",
+        "关注欧洲能源政策与市场波动，评估长期电力采购协议（PPA）对冲价格剧烈波动风险的有效性。"
+      ],
+      "glossary": [
+        {
+          "term": "PPA",
+          "desc": "电力采购协议，企业为锁定长期电价与可再生能源供应商签订的合同。",
+          "category": "能源/供应链"
+        }
+      ],
+      "region": "overseas",
+      "summary": "法国电价将在2026年6月6日的特定时段出现大幅下跌，这反映了电力市场供需波动对能源成本的直接影响。",
+      "tag_category": "综合",
+      "title_en": "Le prix de l'électricité va chuter à une heure précise ce 6 juin 2026"
+    },
+    {
+      "title": "利用虚拟化扩展SDV（软件定义汽车）开发（Scaling SDV Development with Virtualization）",
+      "url": "https://www.mobilityengineeringtech.com/component/content/article/55148-scaling-sdv-development-with-virtualization",
+      "description": "Scaling SDV Development with Virtualization - Mobility Engineering Technology\n\n###### UPCOMING WebinarsAutomotive\n\n# Scaling SDV Development with Virtualization\n\n###### SPONSORED BY:\n\n---\n\n### Coming on: Monday, June 8, 2026 at 10:00 am U.S. EDT\n\n---\n\nAs the automotive industry transitions to softwa",
+      "published": "2026-06-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "虚拟化技术是实现SDV软硬件解耦的关键，允许车载应用在不同算力平台上灵活迁移，加速开发迭代。",
+        "SDV开发模式的扩展对车载SoC的架构提出新要求，需支持多操作系统并行与硬件抽象层的高效运行。"
+      ],
+      "actions": [
+        "车载芯片架构师需在SoC设计中强化对虚拟化的硬件支持，确保多域安全隔离与算力动态分配。",
+        "汽车OEM和Tier 1应引入虚拟化开发环境，缩短软件验证周期，提前适配下一代车载计算平台。"
+      ],
+      "glossary": [
+        {
+          "term": "SDV",
+          "desc": "软件定义汽车，通过软件升级而非硬件更改来实现车辆功能更新的汽车设计理念。",
+          "category": "汽车电子"
+        },
+        {
+          "term": "Virtualization",
+          "desc": "虚拟化技术，在车载计算平台中允许多个操作系统共享硬件资源并安全隔离的技术。",
+          "category": "软件/架构"
+        }
+      ],
+      "region": "overseas",
+      "summary": "汽车工程技术研讨会探讨如何通过虚拟化技术来扩展和加速软件定义汽车（SDV）的开发进程。",
+      "tag_category": "综合",
+      "title_en": "Scaling SDV Development with Virtualization - Mobility Engineering Technology"
+    },
+    {
+      "title": "几近遗忘：关于IBM 130nm LVS的笔记（Otherwise forgotten.: IBM 130nm notes on LVS.）",
+      "url": "http://degnan68k.blogspot.com/2024/01/ibm-130nm-notes-on-lvs.html",
+      "description": "Otherwise forgotten.: IBM 130nm notes on LVS.\n\nBack in 2007-ish, I helped teach a VLSI class at Georgia Tech that used IBM, now Global Foundaries, 130nm design kit. My academic webpages are long gone, but there are still scans of printouts of this old webpage and I get more questions about it from p",
+      "published": "2026-06-06T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "IBM 130nm工艺虽属成熟节点，但在特定模拟/射频及汽车芯片领域仍有生命力，其设计套件的历史经验对当前成熟节点设计有参考价值。",
+        "LVS作为IC设计验证的基础环节，在成熟节点上的规则和陷阱对新手和维持老旧产品线稳定性的工程师依然重要。"
+      ],
+      "actions": [
+        "仍在使用格芯130nm或类似成熟工艺的芯片设计团队，应梳理并归档历史LVS验证规则，避免重复踩坑。",
+        "高校及培训机构在进行VLSI教学时，可借鉴此类实战笔记，强化学生对成熟节点DRC/LVS底层规则的理解。"
+      ],
+      "glossary": [
+        {
+          "term": "LVS",
+          "desc": "版图与原理图一致性验证，确保芯片物理版图与逻辑电路图匹配的EDA验证步骤。",
+          "category": "EDA/设计"
+        },
+        {
+          "term": "130nm",
+          "desc": "130纳米半导体制造工艺节点，属于成熟节点，常用于模拟、射频及功率器件。",
+          "category": "工艺节点"
+        }
+      ],
+      "region": "overseas",
+      "summary": "作者回顾了2007年在佐治亚理工学院教授VLSI课程时，使用IBM（现为格芯GlobalFoundries）130nm设计套件进行LVS（版图与原理图一致性验证）的经验与笔记。",
+      "tag_category": "综合",
+      "title_en": "Otherwise forgotten.: IBM 130nm notes on LVS."
+    },
+    {
+      "title": "通过抑制同极键和增强存储窗口提升掺硅GeS基纯选通管存储器的可靠性 - 韩国大学Pure（Improved reliability of Si-doped GeS-based selector-only memory via homopolar bond suppression and enhanced memory window - Korea University Pure）",
+      "url": "https://pure.korea.ac.kr/en/publications/improved-reliability-of-si-doped-ges-based-selector-only-memory-v/",
+      "description": "Improved reliability of Si-doped GeS-based selector-only memory via homopolar bond suppression and enhanced memory window - Korea University Pure\n\n# Improved reliability of Si-doped GeS-based selector-only memory via homopolar bond suppression and enhanced memory window\n\n*Corresponding author for th",
+      "published": "2026-06-10T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "纯选通管存储器架构是高密度3D交叉阵列存储的关键技术，提升其可靠性对下一代新型存储器商业化至关重要。",
+        "掺硅与同极键抑制的材料工程方法，为解决硫系玻璃选通管器件的耐久性和阈值电压漂移问题提供了新思路。"
+      ],
+      "actions": [
+        "关注新型硫系玻璃选通管材料的研发进展，评估其在3D XPoint或新兴存算一体架构中的替代潜力。",
+        "存储器制造商应与材料研究机构保持合作，探索元素掺杂对器件电学特性的优化路径。"
+      ],
+      "glossary": [
+        {
+          "term": "Selector-only memory",
+          "desc": "纯选通管存储器，一种无需额外存储单元即可通过选通管自身电阻变化实现数据存储的新型器件架构。",
+          "category": "存储"
+        },
+        {
+          "term": "Homopolar bond",
+          "desc": "同极键，由同种元素原子之间形成的化学键，在硫系玻璃中常导致器件性能退化。",
+          "category": "材料"
+        },
+        {
+          "term": "GeS",
+          "desc": "硫化锗，一种硫系玻璃材料，常用于制造存储器的选通管器件。",
+          "category": "材料"
+        }
+      ],
+      "region": "overseas",
+      "summary": "韩国大学的研究表明，通过抑制同极键并扩大存储窗口，掺硅GeS基纯选通管存储器的可靠性得到了显著提升。",
+      "tag_category": "综合",
+      "title_en": "Improved reliability of Si-doped GeS-based selector-only memory via homopolar bond suppression and enhanced memory window - Korea University Pure"
+    },
+    {
+      "title": "Sierra最新一轮的融资金额和估值是多少？ - AI融资脉搏 | NBot | nbot.ai（What is the funding amount and valuation for Sierra's latest round? - AI Funding Pulse | NBot | nbot.ai）",
+      "url": "https://nbot.ai/curator/xrbsvxq2/highlights/H-sierra-20260608",
+      "description": "What is the funding amount and valuation for Sierra's latest round? - AI Funding Pulse | NBot | nbot.ai\n\nGet the App\n\nApp Store Google Play\n\nLoading...\n\n# Bret Taylor's Sierra $950M Series E at $15.8B val for enterprise AI agents\n\n## Key Questions\n\n### What is the funding amount and valuation for Si",
+      "published": "2026-06-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI初创企业依然能获得巨额融资，表明资本市场对生成式AI及企业级AI应用的长期商业价值保持高度看好。",
+        "高估值也意味着市场对AI芯片算力及基础设施的需求将持续增长，进一步推高对高端GPU和定制化AI芯片的依赖。"
+      ],
+      "actions": [
+        "芯片供应链企业应密切关注企业级AI应用的发展，提前规划针对AI推理侧的芯片产能与网络基础设施配套。",
+        "投资与战略部门需警惕AI泡沫风险，同时把握AI软件层高估值带来的硬件层溢出效应与采购需求。"
+      ],
+      "glossary": [
+        {
+          "term": "Series E",
+          "desc": "E轮融资，初创企业在发展后期进行的第五轮主要股权融资。",
+          "category": "金融"
+        },
+        {
+          "term": "Sierra",
+          "desc": "一家由Bret Taylor创立的企业级AI公司，专注于提供对话式AI代理服务。",
+          "category": "公司"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Bret Taylor创立的AI公司Sierra在最新一轮（E轮）融资中筹集了9.5亿美元，公司估值达到158亿美元。",
+      "tag_category": "综合",
+      "title_en": "What is the funding amount and valuation for Sierra's latest round? - AI Funding Pulse | NBot | nbot.ai"
+    },
+    {
+      "title": "Bullish加密货币交易所以42亿美元收购Equiniti（Bullish Cryptocurrency Exchange Acquires Equiniti for $4.2 Billion | AKM EN）",
+      "url": "https://www.akm.ru/eng/news/bullish-cryptocurrency-exchange-acquires-equiniti-for-4-2-billion/",
+      "description": "\"> Bullish Cryptocurrency Exchange Acquires Equiniti for $4.2 Billion | AKM EN\n\nMain\n\n- Russia and Republika Srpska have agreed to extend the contract for the supply of Russian gas\n- Rolf will pay dividends for the first quarter of 1.135 billion rubles to the sole shareholder\n- First nuclear power p",
+      "published": "2026-06-06T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "加密货币交易所向传统金融服务领域扩张，表明数字资产与传统金融的融合正在加速，对底层安全芯片和加密硬件的需求将增加。",
+        "大规模并购活动反映出金融科技领域的资本活跃度，相关金融支付芯片及安全认证模块的市场空间有望随之扩大。"
+      ],
+      "actions": [
+        "安全芯片供应商应关注加密货币与传统金融融合带来的硬件安全模块（HSM）和加密芯片需求增量。",
+        "支付与金融终端芯片厂商需评估区块链及加密资产合规化趋势，开发支持新一代混合金融架构的半导体解决方案。"
+      ],
+      "glossary": [
+        {
+          "term": "Bullish",
+          "desc": "一家受监管的加密货币交易所，旨在结合数字资产与传统金融的优势。",
+          "category": "公司"
+        },
+        {
+          "term": "Equiniti",
+          "desc": "一家提供股东管理、养老金及金融技术服务的英国公司。",
+          "category": "公司"
+        }
+      ],
+      "region": "overseas",
+      "summary": "加密货币交易所Bullish以42亿美元的价格收购了金融服务公司Equiniti，进一步扩展其在传统金融和数字资产领域的业务版图。",
+      "tag_category": "综合",
+      "title_en": "Bullish Cryptocurrency Exchange Acquires Equiniti for $4.2 Billion | AKM EN"
+    }
+  ],
+  "stats": {
+    "total_raw": 115,
+    "after_dedup": 94,
+    "sources": {
+      "Serper": 1,
+      "Exa": 17,
+      "RSS": 45,
+      "Brave": 31
+    }
+  },
+  "code_version": "",
+  "data_commit": ""
+}

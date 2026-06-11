@@ -1,0 +1,641 @@
+{
+  "version": "v20260609-0704",
+  "generatedAt": "2026-06-09T07:04:00+08:00",
+  "period": "daily",
+  "commit": "",
+  "glossary_list": [
+    {
+      "term": "CoWoS",
+      "desc": "Chip-on-Wafer-on-Substrate，台积电2.5D/3D先进封装平台",
+      "category": "封装"
+    },
+    {
+      "term": "HBM",
+      "desc": "High Bandwidth Memory，高带宽内存，AI芯片关键配套",
+      "category": "存储"
+    },
+    {
+      "term": "OSAT",
+      "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
+      "category": "封装"
+    },
+    {
+      "term": "Guidance Miss",
+      "desc": "业绩指引不及预期，指公司对未来财务状况的预测低于华尔街分析师的预期",
+      "category": "财务"
+    },
+    {
+      "term": "HBM4E/HBM5",
+      "desc": "高带宽内存的第四代增强版及第五代，提供更高的存储带宽和容量，专为AI计算设计",
+      "category": "存储"
+    },
+    {
+      "term": "Foundry",
+      "desc": "晶圆代工，指专门为其他半导体设计公司制造芯片的商业模式",
+      "category": "制造"
+    },
+    {
+      "term": "SPAC",
+      "desc": "特殊目的收购公司，一种空白支票公司，旨在通过并购帮助目标公司快速上市",
+      "category": "金融"
+    },
+    {
+      "term": "Orbital Mobility",
+      "desc": "轨道机动，指航天器在太空中改变运行轨道的能力，对空间防御和在轨服务至关重要",
+      "category": "航天"
+    },
+    {
+      "term": "AI-Driven Platform",
+      "desc": "AI驱动平台，以人工智能技术为核心提供自动化和智能决策的软件系统",
+      "category": "软件"
+    },
+    {
+      "term": "DeepSeek时刻",
+      "desc": "指因DeepSeek等模型以极低成本实现高性能，引发行业大模型价格战和重估的现象",
+      "category": "AI"
+    },
+    {
+      "term": "TrendForce",
+      "desc": "集邦咨询，全球知名的科技产业研究与市场调查机构",
+      "category": "研究机构"
+    },
+    {
+      "term": "TSMC",
+      "desc": "台湾积体电路制造公司，全球最大的晶圆代工半导体制造厂",
+      "category": "Fab/制造"
+    },
+    {
+      "term": "Physical AI",
+      "desc": "物理人工智能，指能理解物理世界规律并在真实环境中交互的AI系统（如机器人、自动驾驶）",
+      "category": "设计公司"
+    },
+    {
+      "term": "Open Model",
+      "desc": "开放模型，指权重和架构对外公开供开发者使用和微调的AI模型",
+      "category": "设计公司"
+    },
+    {
+      "term": "Ascend 950DT",
+      "desc": "华为昇腾系列AI训练/推理芯片",
+      "category": "设计公司"
+    },
+    {
+      "term": "DeepSeek",
+      "desc": "深度求索，国内知名的大语言模型研发公司",
+      "category": "设计公司"
+    },
+    {
+      "term": "Computex",
+      "desc": "台北国际电脑展，全球重要的电脑与半导体产业展会",
+      "category": "综合"
+    },
+    {
+      "term": "Silicon Realignment",
+      "desc": "硅产业重组，指半导体产业链在技术、地缘、市场驱动下的结构性重塑",
+      "category": "综合"
+    },
+    {
+      "term": "AI inference",
+      "desc": "AI推理，指将训练好的模型应用于实际数据以生成预测或决策的过程",
+      "category": "综合"
+    },
+    {
+      "term": "Vector Core Compute",
+      "desc": "向量核心计算架构，专为处理向量运算及AI推理优化的计算单元",
+      "category": "综合"
+    },
+    {
+      "term": "NPU",
+      "desc": "神经网络处理单元，专为加速人工智能运算设计的专用处理器",
+      "category": "综合"
+    },
+    {
+      "term": "SoM",
+      "desc": "系统级模块，将核心芯片、内存等集成在一个小模块上，便于二次开发",
+      "category": "综合"
+    },
+    {
+      "term": "TOPS",
+      "desc": "每秒万亿次操作，衡量AI算力性能的常用单位",
+      "category": "综合"
+    },
+    {
+      "term": "Unitree",
+      "desc": "宇树科技，一家专注于四足机器人及人形机器人研发的中国公司",
+      "category": "公司"
+    },
+    {
+      "term": "SoC FPGA",
+      "desc": "系统级芯片现场可编程门阵列，集成了处理器和可编程逻辑",
+      "category": "芯片架构"
+    },
+    {
+      "term": "Direct RF",
+      "desc": "直接射频技术，无需外部混频器即可直接采样射频信号",
+      "category": "技术"
+    },
+    {
+      "term": "Verification",
+      "desc": "芯片设计验证，确保设计符合规格要求的过程",
+      "category": "EDA/设计"
+    }
+  ],
+  "items": [
+    {
+      "title": "博通业绩指引不及预期令芯片股市值蒸发1.3万亿美元",
+      "url": "https://easternherald.com/2026/06/08/broadcom-ai-chip-guidance-miss-semiconductor-selloff-trillion-nvidia-micron/",
+      "description": "Today Tuesday, June 09, 2026\n\n \n\nReporting the World\n\nDark\n\nLight\n\nContact us\n\n \n\nDark\n\nLight\n\n# Broadcom’s $1.2 Billion Guidance Miss Just Erased $1.3 Trillion From the Chip Market\n\nBroadcom's Q3 AI chip guidance fell $1.2B short of expectations — and the entire semiconductor sector paid the price ",
+      "published": "2026-06-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI芯片驱动的增长预期可能正在触顶，市场对半导体巨头业绩指引的敏感度极高，任何增速放缓都会引发估值重估。",
+        "核心大厂的增长放缓会迅速传导至整个半导体供应链，表明当前芯片市场估值高度依赖少数AI龙头的表现。"
+      ],
+      "actions": [
+        "重新评估AI相关芯片供应链的库存和订单风险，避免在估值高位盲目扩张产能。",
+        "密切关注博通等核心大厂的后续财报电话会议，寻找需求放缓的具体细分领域，及时调整投资组合。"
+      ],
+      "glossary": [
+        {
+          "term": "Guidance Miss",
+          "desc": "业绩指引不及预期，指公司对未来财务状况的预测低于华尔街分析师的预期",
+          "category": "财务"
+        }
+      ],
+      "region": "overseas",
+      "summary": "博通Q3业绩指引不及预期，导致整个芯片市场市值大幅缩水1.3万亿美元，引发市场对AI芯片增长持续性的恐慌。",
+      "tag_category": "EDA/IP",
+      "title_en": "Broadcom's Guidance Miss Erased $1.3 Trillion From Chip Stocks"
+    },
+    {
+      "title": "三星与英伟达合作升级：HBM4E、HBM5及自动驾驶芯片代工进入实质性讨论",
+      "url": "https://www.tradingkey.com/analysis/stocks/more/261952720-samsung-skhynix-dram-nvda-mu-hbm5-tradingkey",
+      "description": "Samsung and Nvidia Partnership Upgrade: HBM4E, HBM5 and Autonomous Driving Chip Foundry Enter Substantial Discussions\n\n# Samsung and Nvidia Partnership Upgrade: HBM4E, HBM5 and Autonomous Driving Chip Foundry Enter Substantial Discussions\n\nJun 8, 2026 10:54 AM\n\nAI Podcast\n\n04:13\n\n\n\n\n\n\n\n\n\n\n\nVie",
+      "published": "2026-06-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "HBM技术的迭代速度加快，HBM4E和HBM5的提前布局表明AI算力对高带宽内存的需求持续旺盛且要求更高性能。",
+        "英伟达将自动驾驶芯片代工交予三星讨论，意在分散供应链风险并增加对台积电等代工厂的议价筹码。"
+      ],
+      "actions": [
+        "关注三星先进封装产能的释放情况，评估其对HBM供应格局及SK海力士市场份额的潜在冲击。",
+        "国内代工和封测企业应加速在HBM替代技术及车规级先进制程上的研发投入，寻找差异化竞争机会。"
+      ],
+      "glossary": [
+        {
+          "term": "HBM4E/HBM5",
+          "desc": "高带宽内存的第四代增强版及第五代，提供更高的存储带宽和容量，专为AI计算设计",
+          "category": "存储"
+        },
+        {
+          "term": "Foundry",
+          "desc": "晶圆代工，指专门为其他半导体设计公司制造芯片的商业模式",
+          "category": "制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "三星与英伟达的合作关系升级，双方就下一代HBM4E、HBM5内存及自动驾驶芯片代工业务展开了实质性讨论。",
+      "tag_category": "EDA/IP",
+      "title_en": "Samsung and Nvidia Partnership Upgrade: HBM4E, HBM5 and Autonomous Driving Chip Foundry Enter Substantial Discussions"
+    },
+    {
+      "title": "领先的空间防御与轨道机动公司Quantum Space将通过与Inflection Point Acquisition Corp. VI合并实现上市",
+      "url": "https://pr.oregoncapitalinsider.com/article/QUANTUM-SPACE-A-LEADING-SPACE-DEFENSE-AND-ORBITAL-MOBILITY-COMPANY-TO-GO-PUBLIC-VIA-MERGER-WITH-INFLECTION-POINT-ACQUISITION-CORP-VI/6a269a82e80eb70d15dfa989",
+      "description": "QUANTUM SPACE, A LEADING SPACE DEFENSE AND ORBITAL MOBILITY COMPANY, TO GO PUBLIC VIA MERGER WITH INFLECTION POINT ACQUISITION CORP. VI PR Newswire\n\n# QUANTUM SPACE, A LEADING SPACE DEFENSE AND ORBITAL MOBILITY COMPANY, TO GO PUBLIC VIA MERGER WITH INFLECTION POINT ACQUISITION CORP. VI\n\nPR Newswire\n",
+      "published": "2026-06-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "商业航天与空间防御领域正受到资本市场的持续关注，SPAC上市成为航天科技企业快速融资的重要途径。",
+        "轨道机动技术对于未来的太空资产保护和在轨服务至关重要，具有极高的国防与商业战略价值。"
+      ],
+      "actions": [
+        "关注航天级半导体及抗辐射芯片的市场需求增长，提前布局相关特种工艺供应链。",
+        "评估SPAC上市带来的航天企业估值波动，寻找潜在的产业链上下游并购或投资机会。"
+      ],
+      "glossary": [
+        {
+          "term": "SPAC",
+          "desc": "特殊目的收购公司，一种空白支票公司，旨在通过并购帮助目标公司快速上市",
+          "category": "金融"
+        },
+        {
+          "term": "Orbital Mobility",
+          "desc": "轨道机动，指航天器在太空中改变运行轨道的能力，对空间防御和在轨服务至关重要",
+          "category": "航天"
+        }
+      ],
+      "region": "overseas",
+      "summary": "空间防御与轨道机动领域的领先企业Quantum Space宣布将通过与特殊目的收购公司合并的方式借壳上市。",
+      "tag_category": "综合",
+      "title_en": "QUANTUM SPACE, A LEADING SPACE DEFENSE AND ORBITAL MOBILITY COMPANY, TO GO PUBLIC VIA MERGER WITH INFLECTION POINT ACQUISITION CORP. VI PR Newswire"
+    },
+    {
+      "title": "Cegid完成对Shine的收购，打造欧洲首个面向中小企业和会计师的完整AI驱动平台",
+      "url": "https://www.morningstar.com/news/business-wire/20260607209706/cegid-closes-acquisition-of-shine-to-create-europes-first-complete-ai-driven-platform-for-smbs-and-accountants",
+      "description": "Cegid Closes Acquisition of Shine to Create Europe's First Complete AI-Driven Platform for SMBs and Accountants | Morningstar\n\nCegid Closes Acquisition of Shine to Create Europe's First Complete AI-Driven Platform for SMBs and Accountants\n\nAccelerates Cegid’s trajectory to become the leading Europea",
+      "published": "2026-06-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI正在加速向垂直行业（如财务、会计）渗透，SaaS平台通过并购整合AI能力成为行业趋势。",
+        "面向中小企业的AI工具市场潜力巨大，一站式解决方案更受青睐，数据闭环是核心壁垒。"
+      ],
+      "actions": [
+        "芯片及算力供应商应关注垂直行业AI应用的算力需求特征，优化边缘计算和云端推理芯片的配置。",
+        "关注欧洲SaaS市场的并购整合趋势，寻找AI软件生态对定制化硬件及智能终端的新需求。"
+      ],
+      "glossary": [
+        {
+          "term": "AI-Driven Platform",
+          "desc": "AI驱动平台，以人工智能技术为核心提供自动化和智能决策的软件系统",
+          "category": "软件"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Cegid完成了对Shine的收购，旨在为欧洲的中小企业和会计师构建首个端到端的AI驱动平台。",
+      "tag_category": "综合",
+      "title_en": "Cegid Closes Acquisition of Shine to Create Europe's First Complete AI-Driven Platform for SMBs and Accountants | Morningstar"
+    },
+    {
+      "title": "当AI大模型被重新定价：云知声发布U2，迎来「DeepSeek时刻」",
+      "url": "https://36kr.com/p/3844393508047108",
+      "description": "当AI大模型被重新定价：云知声发布U2，迎来「DeepSeek时刻」-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 当AI大模型被重新定价：云知声发布U2，迎来「DeepSeek时刻」\n\n原生智能体时代，大模型是干净利落的生产力。\n\n大模型行业长期沉浸在一种近乎默认正确的共识。\n\n要大参数，模型才强；要足够长的上下文，能力才会全面；要有足够复杂的推理链条，才能显示其智能水平。\n\n所以过去几年，从千亿参数到万亿参数，从几十万token上下文到百万token，从单次回答到越来越长的reasoning，大模",
+      "published": "2026-06-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "大模型市场正经历价格战，参数规模不再是唯一竞争点，高性价比和落地能力成为关键。",
+        "“DeepSeek时刻”表明端侧或轻量化大模型正在打破算力垄断，推动AI普惠化与端云协同发展。"
+      ],
+      "actions": [
+        "芯片厂商需调整产品线策略，增加对高性价比、低功耗推理芯片的研发投入，以适应大模型降价带来的算力下沉需求。",
+        "评估大模型降价对算力租赁和云服务市场的冲击，寻找边缘计算和端侧AI部署的新增长点。"
+      ],
+      "glossary": [
+        {
+          "term": "DeepSeek时刻",
+          "desc": "指因DeepSeek等模型以极低成本实现高性能，引发行业大模型价格战和重估的现象",
+          "category": "AI"
+        }
+      ],
+      "region": "domestic",
+      "summary": "云知声发布U2大模型，以极具竞争力的定价策略重新定义AI大模型市场，标志着行业迎来类似DeepSeek的高性价比时刻。",
+      "tag_category": "综合",
+      "title_en": "当AI大模型被重新定价：云知声发布U2，迎来「DeepSeek时刻」-36氪"
+    },
+    {
+      "title": "晶圆代工市场简报 - 2026年6月8日",
+      "url": "https://www.trendforce.com/research/download/RP260608SX3",
+      "description": "Foundry Market Bulletin - Jun. 8, 2026 | TrendForce\n\n# Research Reports\n\nUSD\n\n### 75,000\n\n---\n\n# Foundry Market Bulletin - Jun. 8, 2026\n\nLast Modified\n\n2026-06-08\n\nUpdate Frequency\n\nBiweekly\n\nFormat\n\nPDF\n\n---\n\n---\n\nTaiwan foundries including TSMC, UMC, Vanguard, and PSMC are raising prices amid tigh",
+      "published": "2026-06-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "晶圆代工市场的双周频次追踪反映了行业产能利用率和需求变化的节奏加快，周期波动更频繁。",
+        "2026年中期的代工数据是判断下半年半导体周期走向的关键风向标，尤其需关注成熟制程的复苏情况。"
+      ],
+      "actions": [
+        "采购与供应链管理者应订阅并深入分析该简报，及时调整下单和备货策略以应对产能波动。",
+        "结合TrendForce的产能数据，评估不同制程节点的供需关系，优化代工合作谈判与长协订单比例。"
+      ],
+      "glossary": [
+        {
+          "term": "Foundry",
+          "desc": "晶圆代工，指专门为其他半导体设计公司制造芯片的商业模式",
+          "category": "制造"
+        },
+        {
+          "term": "TrendForce",
+          "desc": "集邦咨询，全球知名的科技产业研究与市场调查机构",
+          "category": "研究机构"
+        }
+      ],
+      "region": "overseas",
+      "summary": "TrendForce发布了2026年6月8日的晶圆代工市场双周简报，提供最新的代工行业动态与趋势分析。",
+      "tag_category": "Fab/制造",
+      "title_en": "Foundry Market Bulletin - Jun. 8, 2026 | TrendForce"
+    },
+    {
+      "title": "台积电创盘中历史新低：台湾股市暴跌2600点（TSMC Record Low: Taiwan Stocks Plunge 2,600 Points）",
+      "url": "https://www.newkerala.com/news/a/tsmc-stocks-hit-record-intraday-low-as-taiex-912.htm",
+      "description": "TSMC Record Low: Taiwan Stocks Plunge 2,600 Points\n\nTue, 9 Jun 2026 · LIVE\n\nUpdated Jun 8, 2026 · 09:41\n\nBusiness World News Updated Jun 8, 2026\n\n# TSMC Hits Record Intraday Low as Taiwan Stocks Plunge 2,600 Points\n\nTaiwan's Taiex index plunged over 2,600 points on Monday, driven by a severe Wall St",
+      "published": "2026-06-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "台积电作为半导体产业链核心，其股价暴跌往往预示着整个科技板块或宏观需求的重大调整。",
+        "股市的大幅波动可能影响半导体企业的资本支出计划与融资环境。"
+      ],
+      "actions": [
+        "供应链企业需重新评估与台积电的长期产能协议风险，关注其资本开支是否可能缩减。",
+        "投资与财务部门应密切关注台湾及全球宏观市场动向，做好汇率与资金流动性风险对冲。"
+      ],
+      "glossary": [
+        {
+          "term": "TSMC",
+          "desc": "台湾积体电路制造公司，全球最大的晶圆代工半导体制造厂",
+          "category": "Fab/制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "台积电股价创下盘中历史新低，导致台湾股市大盘暴跌2600点，反映出市场对半导体龙头及整体宏观经济的严重担忧。",
+      "tag_category": "Fab/制造",
+      "title_en": "TSMC Record Low: Taiwan Stocks Plunge 2,600 Points"
+    },
+    {
+      "title": "英伟达发布面向物理AI的Cosmos 3开放模型（NVIDIA Launches Cosmos 3 Open Model for Physical AI）",
+      "url": "https://engtechnica.com/nvidia-launches-cosmos-3-open-model-for-physical-ai/",
+      "description": "NVIDIA Launches Cosmos 3 Open Model for Physical AI - ENGtechnica\n\nSearch\n\nHome 9 Computing 9 NVIDIA Launches Cosmos 3 Open Model for Physical AI\n\n# NVIDIA Launches Cosmos 3 Open Model for Physical AI\n\nby\n\n| Jun 8, 2026\n\nOpen world model combines vision reasoning, generation and action prediction fo",
+      "published": "2026-06-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "物理AI是下一个爆发点，英伟达通过提供基础开放模型，意图垄断从云端训练到边缘部署的物理AI生态。",
+        "开放模型的推出将加速机器人与自动驾驶行业的算法迭代，降低研发门槛。"
+      ],
+      "actions": [
+        "机器人与自动驾驶芯片设计公司应尽快评估Cosmos 3模型的硬件需求，优化自身AI加速芯片架构。",
+        "系统集成商可利用该开放模型快速构建原型，抢占物理AI应用落地先机。"
+      ],
+      "glossary": [
+        {
+          "term": "Physical AI",
+          "desc": "物理人工智能，指能理解物理世界规律并在真实环境中交互的AI系统（如机器人、自动驾驶）",
+          "category": "设计公司"
+        },
+        {
+          "term": "Open Model",
+          "desc": "开放模型，指权重和架构对外公开供开发者使用和微调的AI模型",
+          "category": "设计公司"
+        }
+      ],
+      "region": "overseas",
+      "summary": "英伟达发布了专为物理AI（如机器人、自动驾驶）设计的Cosmos 3开放模型，进一步扩展其在AI基础设施领域的布局。",
+      "tag_category": "设计公司",
+      "title_en": "NVIDIA Launches Cosmos 3 Open Model for Physical AI - ENGtechnica"
+    },
+    {
+      "title": "华为将昇腾950DT部署时间提前至8月，DeepSeek V4.2被视为潜在早期采用者（[News] Huawei Brings Forward Ascend 950DT Deployment to August, DeepSeek V4.2 Seen as Potential Early Adopter）",
+      "url": "https://www.trendforce.com/news/2026/06/08/news-huawei-brings-forward-ascend-950dt-deployment-to-august-deepseek-v4-2-seen-as-potential-early-adopter/",
+      "description": "[News] Huawei Brings Forward Ascend 950DT Deployment to August, DeepSeek V4.2 Seen as Potential Early Adopter\n\n# [News] Huawei Brings Forward Ascend 950DT Deployment to August, DeepSeek V4.2 Seen as Potential Early Adopter\n\n---\n\n---\n\nDeepSeek V4 is already running on Huawei’s Ascend 950 AI computing",
+      "published": "2026-06-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "昇腾950DT的提前部署表明华为在国产先进AI算力替代上取得关键进展，正加速填补市场空缺。",
+        "DeepSeek等国产大模型与昇腾硬件的软硬协同，将构建起脱离英伟达生态的独立闭环体系。"
+      ],
+      "actions": [
+        "国产芯片供应链企业需加紧备货与产能调配，以应对昇腾950DT提前量产带来的交付压力。",
+        "AI软件开发商应尽早开展基于昇腾架构的模型适配与迁移测试，抢占国产算力生态位。"
+      ],
+      "glossary": [
+        {
+          "term": "Ascend 950DT",
+          "desc": "华为昇腾系列AI训练/推理芯片",
+          "category": "设计公司"
+        },
+        {
+          "term": "DeepSeek",
+          "desc": "深度求索，国内知名的大语言模型研发公司",
+          "category": "设计公司"
+        }
+      ],
+      "region": "overseas",
+      "summary": "华为将昇腾950DT AI芯片的部署时间提前至8月，国内大模型DeepSeek V4.2有望成为该芯片的早期使用者，显示国产AI算力生态正在加速闭环。",
+      "tag_category": "综合",
+      "title_en": "[News] Huawei Brings Forward Ascend 950DT Deployment to August, DeepSeek V4.2 Seen as Potential Early Adopter"
+    },
+    {
+      "title": "Computex 2026：硅产业大重组开始（Computex 2026: The Great Silicon Realignment Begins）",
+      "url": "https://t.media/3225039",
+      "description": "Computex 2026: The Great Silicon Realignment Begins │ TVBS World Taiwan\n\n廣告\n\n# Computex 2026: The Quiet Silicon Realignment\n\nS\n\nM\n\nL\n\nImage courtesy of Richard Brown.\n\nAt Computex 2026, the silicon industry did more than simply attend the show. It realigned. While crowds focused on server racks, dex",
+      "published": "2026-06-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "地缘政治与AI算力需求的双重驱动，正迫使全球半导体供应链从全球化分工转向区域化与阵营化重组。",
+        "“大重组”意味着芯片设计、制造与封装的利润分配和话语权将重新洗牌，传统代工模式面临挑战。"
+      ],
+      "actions": [
+        "供应链高管需重新审视客户结构，避免过度依赖单一地区或面临地缘断链风险。",
+        "企业应积极参与Computex等产业风向标展会，捕捉供应链重组中的新合作机会与潜在客户转移趋势。"
+      ],
+      "glossary": [
+        {
+          "term": "Computex",
+          "desc": "台北国际电脑展，全球重要的电脑与半导体产业展会",
+          "category": "综合"
+        },
+        {
+          "term": "Silicon Realignment",
+          "desc": "硅产业重组，指半导体产业链在技术、地缘、市场驱动下的结构性重塑",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "在2026年Computex展会上，半导体产业正经历一场深刻的“硅产业大重组”，产业链格局与供应链结构面临重塑。",
+      "tag_category": "综合",
+      "title_en": "Computex 2026: The Great Silicon Realignment Begins │ TVBS World Taiwan"
+    },
+    {
+      "title": "Vista推出面向AI推理的Vector Core Compute（Vista launches Vector Core Compute for AI inference）",
+      "url": "https://itbrief.asia/story/vista-launches-vector-core-compute-for-ai-inference",
+      "description": "Vista launches Vector Core Compute for AI inference\n\nIT Brief Asia - Technology news for CIOs & IT decision-makers\n\n# Vista launches Vector Core Compute for AI inference\n\nMon, 8th Jun 2026 (Yesterday)\n\nJOSEPH GABRIEL LAGONSIN News Editor\n\nVista Equity Partners and Cambium Capital have launched Vecto",
+      "published": "2026-06-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI推理算力需求正快速超越训练需求，专用推理计算架构成为芯片厂商的新竞争焦点。",
+        "Vector Core Compute等专用推理硬件的推出，将推动AI应用从云端向边缘侧大规模下沉。"
+      ],
+      "actions": [
+        "服务器与边缘设备制造商应评估Vector Core Compute的功耗与性能指标，探索将其集成至下一代推理平台的可行性。",
+        "关注推理专用芯片市场动态，适时调整自身产品线中通用GPU与专用推理芯片的配比。"
+      ],
+      "glossary": [
+        {
+          "term": "AI inference",
+          "desc": "AI推理，指将训练好的模型应用于实际数据以生成预测或决策的过程",
+          "category": "综合"
+        },
+        {
+          "term": "Vector Core Compute",
+          "desc": "向量核心计算架构，专为处理向量运算及AI推理优化的计算单元",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Vista公司发布了专为AI推理计算设计的Vector Core Compute产品，旨在提升边缘或云端AI推理的效率与性能。",
+      "tag_category": "综合",
+      "title_en": "Vista launches Vector Core Compute for AI inference"
+    },
+    {
+      "title": "4TOPS NPU + 八核异构 | 飞凌嵌入式FET3572-C SoM：边缘AI算力全能选手（4TOPS NPU + Octa-core Heterogeneous | Forlinx Embedded FET3572-C SoM: The All-Rounder for Edge AI Computing Power）",
+      "url": "https://www.electronicsmedia.info/2026/06/08/forlinx-embedded-fet3572-c-som/",
+      "description": "4TOPS NPU + Octa-core Heterogeneous | Forlinx Embedded FET3572-C SoM: The All-Rounder for Edge AI Computing Power\n\n- Products News\n- Business News\n\nTech Focus\n\nApplications\n\nTrending Technology\n\nEditorial\n\nMore\n\nSearch\n\nMonday, June 8, 2026\n\nSign in\n\nWelcome! Log into your account\n\nyour username\n\nyo",
+      "published": "2026-06-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "边缘AI设备对“小算力+多核异构”的需求激增，4TOPS级别NPU正成为工业与物联网边缘侧的黄金配置。",
+        "SoM（系统级模块）模式能大幅缩短边缘AI硬件的开发周期，加速AI在垂直行业的落地。"
+      ],
+      "actions": [
+        "边缘AI设备开发商可优先评估FET3572-C等SoM方案，以降低底层硬件开发难度并加快产品上市时间。",
+        "芯片原厂与方案商应重点优化4TOPS级NPU的软件工具链，降低边缘端模型部署门槛。"
+      ],
+      "glossary": [
+        {
+          "term": "NPU",
+          "desc": "神经网络处理单元，专为加速人工智能运算设计的专用处理器",
+          "category": "综合"
+        },
+        {
+          "term": "SoM",
+          "desc": "系统级模块，将核心芯片、内存等集成在一个小模块上，便于二次开发",
+          "category": "综合"
+        },
+        {
+          "term": "TOPS",
+          "desc": "每秒万亿次操作，衡量AI算力性能的常用单位",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "飞凌嵌入式推出FET3572-C系统级模块，搭载4TOPS算力NPU与八核异构处理器，定位为边缘AI计算的全能型解决方案。",
+      "tag_category": "综合",
+      "title_en": "4TOPS NPU + Octa-core Heterogeneous | Forlinx Embedded FET3572-C SoM: The All-Rounder for Edge AI Computing Power"
+    },
+    {
+      "title": "中国宇树科技(Unitree)将如何主导全球机器人领域",
+      "url": "https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global",
+      "description": "How China's Unitree Will Dominate Global Robotics\n\nSubscribeSign in\n\n# China's Unitree Will Dominate Global Robotics\n\n### The Fastest Iteration Cycle In Next-Gen Robotics Should See Unprecedented Acceleration\n\nReyk Knuhtsen, Niko Ciminelli, Jacob Rintamaki, and 4 others\n\nJun 08, 2026\n\n∙ Paid\n\n87\n\n1\n",
+      "published": "2026-06-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "中国机器人企业通过快速迭代和成本优势，正在加速抢占全球市场份额。",
+        "机器人产业链的快速演进将对底层芯片（如电机驱动、视觉处理）提出更高需求。"
+      ],
+      "actions": [
+        "关注宇树科技等国产机器人厂商的供应链变化，寻找国产芯片替代与切入机会。",
+        "评估机器人快速迭代对半导体器件寿命和性能稳定性的新要求。"
+      ],
+      "glossary": [
+        {
+          "term": "Unitree",
+          "desc": "宇树科技，一家专注于四足机器人及人形机器人研发的中国公司",
+          "category": "公司"
+        }
+      ],
+      "region": "overseas",
+      "summary": "中国宇树科技凭借下一代机器人领域最快的迭代周期，有望在全球机器人市场取得前所未有的普及与主导地位。",
+      "tag_category": "综合",
+      "title_en": "How China's Unitree Will Dominate Global Robotics"
+    },
+    {
+      "title": "Altera发布下一代Agilex 9 Direct RF系列SoC FPGA，驱动高性能射频系统的未来",
+      "url": "https://www.morningstar.com/news/business-wire/20260608517153/altera-introduces-next-generation-agilex-9-direct-rf-series-soc-fpga-to-power-the-future-of-high-performance-rf-systems",
+      "description": "Altera Introduces Next-Generation Agilex 9 Direct RF-Series SoC FPGA to Power the Future of High-Performance RF Systems | Morningstar\n\nAltera Introduces Next-Generation Agilex 9 Direct RF-Series SoC FPGA to Power the Future of High-Performance RF Systems\n\nNew solution addresses growing demands for b",
+      "published": "2026-06-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "SoC FPGA集成直接射频采样功能，正成为高性能通信和雷达系统的关键架构。",
+        "Altera独立运营后持续强化高端FPGA产品线，以应对AMD/Xilinx在射频FPGA领域的竞争。"
+      ],
+      "actions": [
+        "射频与通信系统工程师应评估Agilex 9 Direct RF在宽带收发器中的替代潜力。",
+        "跟踪Altera独立后的供应链及产能分配情况，确保高端FPGA的稳定交付。"
+      ],
+      "glossary": [
+        {
+          "term": "SoC FPGA",
+          "desc": "系统级芯片现场可编程门阵列，集成了处理器和可编程逻辑",
+          "category": "芯片架构"
+        },
+        {
+          "term": "Direct RF",
+          "desc": "直接射频技术，无需外部混频器即可直接采样射频信号",
+          "category": "技术"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Altera推出了新一代Agilex 9 Direct RF系列SoC FPGA，旨在为未来高性能射频（RF）系统提供核心驱动力。",
+      "tag_category": "综合",
+      "title_en": "Altera Introduces Next-Generation Agilex 9 Direct RF-Series SoC FPGA to Power the Future of High-Performance RF Systems | Morningstar"
+    },
+    {
+      "title": "验证领域的扰动",
+      "url": "https://semiengineering.com/disturbance-in-verification/",
+      "description": "Disturbance In Verification\n\nMENU\n\nHome> Systems & Design> Disturbance In Verification\n\nOPINION\n\n# Disturbance In Verification\n\nWe have started to see what may be the largest disturbance in the role of a verification engineer since the founding of the industry. Should you be worried?\n\nJune 8th, 2026",
+      "published": "2026-06-08T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "随着芯片复杂度激增，传统验证方法效率瓶颈凸显，AI驱动和智能验证工具正在重塑验证流程。",
+        "验证成本在整体芯片开发中的占比持续上升，推动行业寻求自动化与形式化验证的新范式。"
+      ],
+      "actions": [
+        "芯片设计团队应加速引入AI辅助验证工具，缩短验证周期并降低人力成本。",
+        "重新评估现有验证流程，增加形式化验证和高层次综合验证的比重。"
+      ],
+      "glossary": [
+        {
+          "term": "Verification",
+          "desc": "芯片设计验证，确保设计符合规格要求的过程",
+          "category": "EDA/设计"
+        }
+      ],
+      "region": "overseas",
+      "summary": "芯片设计中的验证角色正经历可能是该领域最大的变动与扰动，传统验证方法面临重大挑战。",
+      "tag_category": "综合",
+      "title_en": "Disturbance In Verification"
+    }
+  ],
+  "stats": {
+    "total_raw": 141,
+    "after_dedup": 110,
+    "sources": {
+      "Exa": 34,
+      "RSS": 45,
+      "Brave": 31
+    }
+  },
+  "code_version": "",
+  "data_commit": ""
+}

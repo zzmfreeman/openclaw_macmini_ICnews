@@ -1,0 +1,677 @@
+{
+  "version": "v20260602-0704",
+  "generatedAt": "2026-06-02T07:04:00+08:00",
+  "period": "daily",
+  "commit": "",
+  "glossary_list": [
+    {
+      "term": "CoWoS",
+      "desc": "Chip-on-Wafer-on-Substrate，台积电2.5D/3D先进封装平台",
+      "category": "封装"
+    },
+    {
+      "term": "HBM",
+      "desc": "High Bandwidth Memory，高带宽内存，AI芯片关键配套",
+      "category": "存储"
+    },
+    {
+      "term": "OSAT",
+      "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
+      "category": "封装"
+    },
+    {
+      "term": "长鑫科技",
+      "desc": "合肥本土存储芯片制造企业，专注于DRAM研发与生产",
+      "category": "企业"
+    },
+    {
+      "term": "美光",
+      "desc": "Micron，美国三大存储芯片巨头之一，提供DRAM、NAND及HBM等产品",
+      "category": "企业"
+    },
+    {
+      "term": "DRAM",
+      "desc": "动态随机存取存储器，常见于主内存，具有高读写速度但需定期刷新",
+      "category": "存储"
+    },
+    {
+      "term": "QoQ",
+      "desc": "环比增长率，即与上一季度相比的增长幅度",
+      "category": "财务"
+    },
+    {
+      "term": "SK海力士",
+      "desc": "SK Hynix，韩国第二大存储芯片制造商，目前是HBM市场的领先供应商",
+      "category": "企业"
+    },
+    {
+      "term": "HBM芯片",
+      "desc": "高带宽存储芯片，专为高性能计算和AI加速器设计",
+      "category": "存储"
+    },
+    {
+      "term": "Crescent Island",
+      "desc": "英特尔推出的新一代AI芯片，主打高性价比与低功耗散热",
+      "category": "芯片"
+    },
+    {
+      "term": "英伟达",
+      "desc": "NVIDIA，全球AI加速器市场绝对主导者，提供GPU及完整CUDA生态",
+      "category": "企业"
+    },
+    {
+      "term": "三星电子",
+      "desc": "Samsung Electronics，韩国最大半导体与电子产品制造商，涵盖存储、代工及系统LSI",
+      "category": "企业"
+    },
+    {
+      "term": "市值",
+      "desc": "Market Cap，公司在公开市场上的总价值，即股价乘以总股本",
+      "category": "财务"
+    },
+    {
+      "term": "Memory Wall",
+      "desc": "内存墙，指内存性能增长速度远不及处理器，导致系统整体性能受限的现象",
+      "category": "架构"
+    },
+    {
+      "term": "MLCC",
+      "desc": "多层陶瓷电容器，电子电路中广泛使用的被动元件，起滤波、去耦等作用",
+      "category": "被动元件"
+    },
+    {
+      "term": "Rack",
+      "desc": "机柜，数据中心中容纳多台服务器及相关设备的标准框架",
+      "category": "硬件"
+    },
+    {
+      "term": "NAND",
+      "desc": "闪存存储技术的一种，具有非易失性，广泛用于SSD和移动设备",
+      "category": "存储"
+    },
+    {
+      "term": "Capex",
+      "desc": "资本支出，企业用于购买、升级或维护物理资产的资金",
+      "category": "财务"
+    },
+    {
+      "term": "Humanoid Robot",
+      "desc": "人形机器人，具有类似人类身体结构的机器人，旨在适应人类设计的环境",
+      "category": "机器人"
+    },
+    {
+      "term": "Embodied AI",
+      "desc": "具身智能，将AI算法与物理实体结合，使机器能够感知和操作物理世界",
+      "category": "AI"
+    },
+    {
+      "term": "Physical AI",
+      "desc": "物理AI，指能够理解物理定律并在现实物理世界中交互的AI系统",
+      "category": "AI"
+    },
+    {
+      "term": "Omnimodel",
+      "desc": "全能模型，指能够处理多种模态（如视觉、语言、物理传感数据）的统一大模型",
+      "category": "AI"
+    },
+    {
+      "term": "Sub-2nm",
+      "desc": "2纳米以下制程，指半导体制造工艺节点在2nm及以下的技术阶段",
+      "category": "制造"
+    },
+    {
+      "term": "Process Variation",
+      "desc": "工艺变异性，指在半导体制造过程中，由于物理或化学因素导致的器件参数偏离设计值的现象",
+      "category": "制造"
+    },
+    {
+      "term": "RF Design",
+      "desc": "射频设计，指对射频电路及系统进行设计与仿真的过程",
+      "category": "半导体设计"
+    },
+    {
+      "term": "Whiteboard",
+      "desc": "白板，此处指电子设计自动化软件中直观的图形化设计与仿真交互界面",
+      "category": "EDA"
+    },
+    {
+      "term": "Unicorn Valuation",
+      "desc": "独角兽估值，指公司上市前估值超过10亿美元",
+      "category": "金融投资"
+    },
+    {
+      "term": "Embedded Finance",
+      "desc": "嵌入式金融，指将金融服务集成到非金融平台业务流程中的模式",
+      "category": "金融科技"
+    },
+    {
+      "term": "OT",
+      "desc": "操作技术，指监控和控制物理设备、流程和事件的硬件和软件",
+      "category": "网络安全"
+    },
+    {
+      "term": "xOT",
+      "desc": "扩展操作技术，泛指IT、OT和IoT等融合的广泛操作环境",
+      "category": "网络安全"
+    }
+  ],
+  "items": [
+    {
+      "title": "全球排名第九！合肥半导体巨头企业即将赴港上市",
+      "url": "https://eu.36kr.com/zh/p/3834380350924681",
+      "description": "AI浪潮下，安徽合肥凭借其超前的投资眼光，成为了为数不多能够与长三角掰手腕的内地城市。从“砸屏救市”到“豪赌芯片”，合肥被称为“中国最牛风投”绝非偶然。 在长鑫科技即将...",
+      "published": "13小时前",
+      "source": "36氪",
+      "source_type": "Serper",
+      "lang": "zh",
+      "tags": [],
+      "insights": [
+        "合肥模式的成功验证了地方政府在半导体产业早期重资产投资中的关键引导作用",
+        "长鑫科技赴港上市将进一步拓宽融资渠道，加速DRAM等存储芯片的产能扩张与技术迭代"
+      ],
+      "actions": [
+        "关注长鑫科技上市进程及募资用途，评估其对国内DRAM供应链格局的影响",
+        "梳理合肥半导体产业集群的上下游配套机会，寻找潜在的合作与切入节点"
+      ],
+      "glossary": [
+        {
+          "term": "长鑫科技",
+          "desc": "合肥本土存储芯片制造企业，专注于DRAM研发与生产",
+          "category": "企业"
+        }
+      ],
+      "region": "domestic",
+      "summary": "长鑫科技等合肥半导体巨头即将赴港上市，合肥凭借超前投资眼光在半导体领域崛起，成为内地重要芯片产业基地。",
+      "tag_category": "综合",
+      "title_en": "全球排名第九！合肥半导体巨头企业即将赴港上市"
+    },
+    {
+      "title": "美光锁定AI存储红利：HBM售罄并豪掷250亿美元建厂（Micron Locks in the AI Memory Boom: Sold-Out HBM and a $25 Billion Factory Splurge | NewsCase）",
+      "url": "https://www.newscase.com/micron-locks-in-the-ai-memory-boom-sold-out-hbm-and-a-25-billion-factory-splurge/",
+      "description": "Micron Locks in the AI Memory Boom: Sold-Out HBM and a $25 Billion Factory Splurge | NewsCase\n\nHome AI & Quantum Computing Micron Locks in the AI Memory Boom: Sold-Out HBM and a $25...\n\n# Micron Locks in the AI Memory Boom: Sold-Out HBM and a $25 Billion Factory Splurge\n\nJune 1, 2026\n\n9\n\nThe semicon",
+      "published": "2026-06-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "HBM产能售罄表明AI算力对高带宽存储的需求远超当前供给，存储厂商进入超级景气周期",
+        "美光250亿美元的巨额资本支出预示着存储行业正从周期性波动转向由AI驱动的结构性扩张"
+      ],
+      "actions": [
+        "重新评估与美光等HBM供应商的长期采购协议，锁定未来产能分配",
+        "关注美光新厂建设带来的设备与材料采购需求，提前布局供应链切入机会"
+      ],
+      "glossary": [
+        {
+          "term": "HBM",
+          "desc": "高带宽存储器，通过垂直堆叠DRAM芯片实现高带宽与低功耗，主要应用于AI加速卡",
+          "category": "存储"
+        },
+        {
+          "term": "美光",
+          "desc": "Micron，美国三大存储芯片巨头之一，提供DRAM、NAND及HBM等产品",
+          "category": "企业"
+        }
+      ],
+      "region": "overseas",
+      "summary": "美光科技受益于AI存储需求爆发，其HBM产能已被完全预订，并计划投资250亿美元扩张晶圆厂产能。",
+      "tag_category": "综合",
+      "title_en": "Micron Locks in the AI Memory Boom: Sold-Out HBM and a $25 Billion Factory Splurge | NewsCase"
+    },
+    {
+      "title": "合约价格急涨推动2026年第一季度DRAM行业营收环比增长81%（Rapid Contract Price Surge Drives 1Q26 DRAM Industry Up 81% QoQ :: I-Connect007）",
+      "url": "https://iconnect007.com/article/150222/rapid-contract-price-surge-drives-1q26-dram-industry-up-81-qoq/150219/ein",
+      "description": "Rapid Contract Price Surge Drives 1Q26 DRAM Industry Up 81% QoQ :: I-Connect007\n\n## News Highlights\n\nJA Solar Leads Post-Cycle PV Market with Dual-Technology Breakthroughs\n\nSOLAI Announces Agreement to Acquire 51% Stake in NEURALAND\n\nReport: Semiconductors Make Up 95% of AI Data Server Rack Value\n\n#",
+      "published": "2026-06-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "DRAM合约价格的急速飙升反映出市场供需结构的根本性扭转，AI及终端需求正重塑存储定价权",
+        "1Q26高达81%的环比增幅预示着存储厂商将迎来历史级别的利润释放期"
+      ],
+      "actions": [
+        "动态调整DRAM库存策略，在价格上涨周期前建立合理的安全库存",
+        "评估DRAM价格暴涨对终端产品BOM成本的压力，提前与客户进行价格机制协商"
+      ],
+      "glossary": [
+        {
+          "term": "DRAM",
+          "desc": "动态随机存取存储器，常见于主内存，具有高读写速度但需定期刷新",
+          "category": "存储"
+        },
+        {
+          "term": "QoQ",
+          "desc": "环比增长率，即与上一季度相比的增长幅度",
+          "category": "财务"
+        }
+      ],
+      "region": "overseas",
+      "summary": "受合约价格快速上涨驱动，预计2026年第一季度DRAM行业营收将实现81%的环比大幅增长。",
+      "tag_category": "综合",
+      "title_en": "Rapid Contract Price Surge Drives 1Q26 DRAM Industry Up 81% QoQ :: I-Connect007"
+    },
+    {
+      "title": "SK海力士年涨幅达1000%仍不够？华尔街顶级基金增持，HBM芯片供应短缺是否会进一步加剧？（SK Hynix 1,000% Annual Gain Not Enough? Top Wall Street Funds Increase Stakes, Will HBM Chip Supply Shortage Escalate Further?）",
+      "url": "https://www.tradingkey.com/analysis/stocks/more/261939086-sk-hynix-wall-street-accumulation-hbm-supply-tradingkey",
+      "description": "SK Hynix 1,000% Annual Gain Not Enough? Top Wall Street Funds Increase Stakes, Will HBM Chip Supply Shortage Escalate Further?\n\n# SK Hynix 1,000% Annual Gain Not Enough? Top Wall Street Funds Increase Stakes, Will HBM Chip Supply Shortage Escalate Further?\n\nJun 1, 2026 12:31 PM\n\nAI Podcast\n\n05:38\n\n",
+      "published": "2026-06-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "华尔街资本对SK海力士的持续增持，表明金融界对HBM在AI算力中不可替代地位的长期看好",
+        "HBM供应短缺的加剧将导致AI芯片交付周期延长，可能制约数据中心扩张速度"
+      ],
+      "actions": [
+        "密切关注SK海力士HBM产能爬坡进度及客户分配名单，评估自身获取HBM资源的风险",
+        "寻找HBM短缺下的替代性存储架构方案或缓冲策略，降低对单一供应商的依赖"
+      ],
+      "glossary": [
+        {
+          "term": "SK海力士",
+          "desc": "SK Hynix，韩国第二大存储芯片制造商，目前是HBM市场的领先供应商",
+          "category": "企业"
+        },
+        {
+          "term": "HBM芯片",
+          "desc": "高带宽存储芯片，专为高性能计算和AI加速器设计",
+          "category": "存储"
+        }
+      ],
+      "region": "overseas",
+      "summary": "SK海力士股价年涨幅达1000%，华尔街顶级基金仍在增持，市场担忧HBM芯片供应短缺可能进一步加剧。",
+      "tag_category": "EDA/IP",
+      "title_en": "SK Hynix 1,000% Annual Gain Not Enough? Top Wall Street Funds Increase Stakes, Will HBM Chip Supply Shortage Escalate Further?"
+    },
+    {
+      "title": "英特尔Crescent Island AI芯片今年出货，在成本和散热上低于英伟达（Intel's Crescent Island AI chip ships this year, undercutting Nvidia on cost and cooling — AI Chat Daily）",
+      "url": "https://www.aichatdaily.com/ai-models/intel-s-crescent-island-ai-chip-ships-year",
+      "description": "Intel's Crescent Island AI chip ships this year, undercutting Nvidia on cost and cooling — AI Chat Daily\n\nLive--:--:-- PT\n\nGrammys CEO says AI is now 'omnipresent' in music as 50,000 AI songs hit streaming daily Microsoft to unveil MAI-Thinking-1 reasoning model and Copilot super app at Build DuckDu",
+      "published": "2026-06-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "英特尔以成本和散热为差异化切入点，试图在英伟达主导的AI芯片市场撕开突破口",
+        "散热与成本优势若能兑现，将使英特尔在推理侧及边缘AI计算市场获得显著竞争力"
+      ],
+      "actions": [
+        "跟踪Crescent Island芯片的实测性能与生态适配进度，评估其替代英伟达方案的可行性",
+        "针对该芯片的散热特性，提前开发适配的冷却系统与服务器架构设计方案"
+      ],
+      "glossary": [
+        {
+          "term": "Crescent Island",
+          "desc": "英特尔推出的新一代AI芯片，主打高性价比与低功耗散热",
+          "category": "芯片"
+        },
+        {
+          "term": "英伟达",
+          "desc": "NVIDIA，全球AI加速器市场绝对主导者，提供GPU及完整CUDA生态",
+          "category": "企业"
+        }
+      ],
+      "region": "overseas",
+      "summary": "英特尔宣布其Crescent Island AI芯片将于今年出货，主打比英伟达更低的成本与更好的散热表现。",
+      "tag_category": "EDA/IP",
+      "title_en": "Intel's Crescent Island AI chip ships this year, undercutting Nvidia on cost and cooling — AI Chat Daily"
+    },
+    {
+      "title": "三星电子股价大涨10%，普通股市值突破1.5万亿美元；SK证券看涨股价至61万韩元（Samsung Electronics Jumps 10%, Common-Share Market Cap Tops $1.5 Trillion; SK Securities Sees Shares at 610,000 Won）",
+      "url": "https://en.bloomingbit.io/feed/news/113312",
+      "description": "Samsung Electronics Jumps 10%, Common-Share Market Cap Tops $1.5 Trillion; SK Securities Sees Shares at 610,000 Won\n\n# Samsung Electronics Jumps 10%, Common-Share Market Cap Tops $1.5 Trillion; SK Securities Sees Shares at 610,000 Won\n\nPublished 9:10 AM Jun 1, 2026\n\nKorea Economic Daily\n\nSummary\n\nAb",
+      "published": "2026-06-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "三星电子市值飙升反映出资本市场对存储及半导体行业复苏的强烈预期",
+        "SK证券的高目标价暗示HBM及先进逻辑代工产能的释放将为三星带来超额利润"
+      ],
+      "actions": [
+        "关注三星在HBM及先进制程上的产能释放节奏，作为行业景气度的先行指标",
+        "审视三星股价大涨背后的基本面支撑，调整对半导体周期复苏时间节点的预判"
+      ],
+      "glossary": [
+        {
+          "term": "三星电子",
+          "desc": "Samsung Electronics，韩国最大半导体与电子产品制造商，涵盖存储、代工及系统LSI",
+          "category": "企业"
+        },
+        {
+          "term": "市值",
+          "desc": "Market Cap，公司在公开市场上的总价值，即股价乘以总股本",
+          "category": "财务"
+        }
+      ],
+      "region": "overseas",
+      "summary": "三星电子股价大涨10%，总市值突破1.5万亿美元，SK证券给出61万韩元的目标价。",
+      "tag_category": "综合",
+      "title_en": "Samsung Electronics Jumps 10%, Common-Share Market Cap Tops $1.5 Trillion; SK Securities Sees Shares at 610,000 Won"
+    },
+    {
+      "title": "AI的瓶颈不再是GPU，而是内存，且一家公司掌控着水龙头",
+      "url": "https://www.ainvest.com/news/ai-bottleneck-isn-gpu-anymore-memory-company-owns-tap-2606/",
+      "description": "The AI bottleneck isn't the GPU anymore - it's the memory, and one company owns the tap\n\nWe use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience and analyze website traffic. By clicking “Accept,” you agree to our website's c",
+      "published": "2026-06-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI大模型对高带宽内存（HBM）的需求呈指数级增长，内存墙问题日益凸显，成为算力扩张的核心阻碍。",
+        "SK海力士等少数厂商在HBM领域的垄断地位，使得AI硬件供应链的脆弱性增加，下游客户议价能力受限。"
+      ],
+      "actions": [
+        "供应链企业应积极寻找内存供应的多元化方案，或通过长单协议锁定产能，避免单一供应商断供风险。",
+        "关注新一代内存技术（如CXL、存算一体）的发展，提前布局替代性方案以突破内存墙限制。"
+      ],
+      "glossary": [
+        {
+          "term": "HBM",
+          "desc": "高带宽内存，一种基于3D堆叠技术的DRAM，适用于高吞吐量AI应用",
+          "category": "存储"
+        },
+        {
+          "term": "Memory Wall",
+          "desc": "内存墙，指内存性能增长速度远不及处理器，导致系统整体性能受限的现象",
+          "category": "架构"
+        }
+      ],
+      "region": "overseas",
+      "summary": "AI算力的主要瓶颈已从GPU转移至内存，且目前高端内存市场被单一巨头高度垄断，制约了整体系统性能的发挥。",
+      "tag_category": "设计公司",
+      "title_en": "The AI bottleneck isn't the GPU anymore - it's the memory, and one company owns the tap"
+    },
+    {
+      "title": "MLCC价值激增182%：英伟达新机柜揭示AI下一个“短缺之王”",
+      "url": "https://www.odaily.news/en/post/5211103",
+      "description": "MLCC Value Surges 182%: Nvidia's New Rack Unearths AI's Next \"Shortage King\" - Odaily\n\nBTC\n\nETH\n\nHTX\n\nSOL\n\nBNB\n\n简中\n\n繁中\n\nEnglish\n\n日本語\n\n한국어\n\nภาษาไทย\n\nTiếng Việt\n\n# MLCC Value Surges 182%: Nvidia's New Rack Unearths AI's Next \"Shortage King\"\n\n特邀专栏作者\n\n2026-06-01 11:00\n\nThis article is about 3802 words, ",
+      "published": "2026-06-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI服务器的高功耗和高性能需求，对被动元件（如MLCC）的用量和规格（如耐压、温度特性）提出了极高要求。",
+        "核心算力芯片的迭代正在向上游材料及被动元件供应链传导，引发结构性缺货和产品价值重估。"
+      ],
+      "actions": [
+        "被动元件厂商应加速研发并量产适用于AI服务器的高容高压MLCC产品，抢占高端市场红利。",
+        "服务器整机制造商需提前锁定MLCC等关键被动元件的长期供应合同，防范结构性短缺风险。"
+      ],
+      "glossary": [
+        {
+          "term": "MLCC",
+          "desc": "多层陶瓷电容器，电子电路中广泛使用的被动元件，起滤波、去耦等作用",
+          "category": "被动元件"
+        },
+        {
+          "term": "Rack",
+          "desc": "机柜，数据中心中容纳多台服务器及相关设备的标准框架",
+          "category": "硬件"
+        }
+      ],
+      "region": "overseas",
+      "summary": "英伟达新型AI服务器机柜设计导致多层陶瓷电容器（MLCC）用量和价值大幅飙升182%，MLCC或成AI供应链下一个紧缺物料。",
+      "tag_category": "设计公司",
+      "title_en": "MLCC Value Surges 182%: Nvidia's New Rack Unearths AI's Next \"Shortage King\" - Odaily"
+    },
+    {
+      "title": "[新闻] 日美NAND联盟加大投资，铠侠-闪迪资本支出据报同比增长40% ([News] Japan–U.S. NAND Alliance Steps Up Investment as Kioxia–SanDisk Capex Reportedly Rises 40% YoY)",
+      "url": "https://www.trendforce.com/news/2026/06/01/news-japan-u-s-nand-alliance-steps-up-investment-as-kioxia-sandisk-capex-reportedly-rises-40-yoy/",
+      "description": "[News] Japan–U.S. NAND Alliance Steps Up Investment as Kioxia–SanDisk Capex Reportedly Rises 40% YoY\n\n# [News] Japan–U.S. NAND Alliance Steps Up Investment as Kioxia–SanDisk Capex Reportedly Rises 40% YoY\n\n---\n\n---\n\nAs South Korea’s memory giants shift focus toward 1c DRAM capacity expansion amid su",
+      "published": "2026-06-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "存储市场正走出周期低谷，头部厂商的逆周期投资或产能扩张预示着对中长期需求的看好。",
+        "日美联盟在NAND领域的深度绑定与资本加码，意在强化对存储产业链的掌控力，应对地缘政治风险。"
+      ],
+      "actions": [
+        "存储产业链上下游设备与材料企业应关注铠侠等大厂扩产带来的订单外溢机会。",
+        "终端客户需警惕NAND闪存价格随资本支出增加和产能调整而出现的周期性波动，适时调整采购策略。"
+      ],
+      "glossary": [
+        {
+          "term": "NAND",
+          "desc": "闪存存储技术的一种，具有非易失性，广泛用于SSD和移动设备",
+          "category": "存储"
+        },
+        {
+          "term": "Capex",
+          "desc": "资本支出，企业用于购买、升级或维护物理资产的资金",
+          "category": "财务"
+        }
+      ],
+      "region": "overseas",
+      "summary": "日美NAND闪存联盟正加大投资力度，铠侠与闪迪的资本支出据传同比大增40%，以应对市场复苏和未来AI及终端需求。",
+      "tag_category": "Fab/制造",
+      "title_en": "[News] Japan–U.S. NAND Alliance Steps Up Investment as Kioxia–SanDisk Capex Reportedly Rises 40% YoY"
+    },
+    {
+      "title": "英伟达在日益加剧的地缘政治审查中发布安全人形机器人平台",
+      "url": "https://digitalcxo.com/article/nvidia-unveils-secure-humanoid-robot-platform-amid-rising-geopolitical-scrutiny/",
+      "description": "NVIDIA Unveils Secure Humanoid Robot Platform Amid Rising Geopolitical Scrutiny - Digital CxO\n\n|\n\n# NVIDIA Unveils Secure Humanoid Robot Platform Amid Rising Geopolitical Scrutiny\n\nPublished On: June 1, 2026By Jon Swartz\n\nNVIDIA Corp. announced a major push into the humanoid robotics sector on Monda",
+      "published": "2026-06-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "具身智能和人形机器人是AI的下一个重要落地场景，英伟达正将其生态从云端向边缘侧和物理世界延伸。",
+        "在技术管制加剧的环境下，强调平台的安全性和合规性成为跨国科技巨头拓展市场的必要策略。"
+      ],
+      "actions": [
+        "机器人整机厂商应积极接入英伟达的机器人平台，利用其算力和生态优势加速产品研发与商业化。",
+        "关注地缘政治对AI及机器人核心软硬件出口的影响，建立国产替代与自主可控预案。"
+      ],
+      "glossary": [
+        {
+          "term": "Humanoid Robot",
+          "desc": "人形机器人，具有类似人类身体结构的机器人，旨在适应人类设计的环境",
+          "category": "机器人"
+        },
+        {
+          "term": "Embodied AI",
+          "desc": "具身智能，将AI算法与物理实体结合，使机器能够感知和操作物理世界",
+          "category": "AI"
+        }
+      ],
+      "region": "overseas",
+      "summary": "在地缘政治审查趋严的背景下，英伟达发布了针对人形机器人的安全平台，旨在抢占具身智能赛道并保障供应链与系统安全。",
+      "tag_category": "设计公司",
+      "title_en": "NVIDIA Unveils Secure Humanoid Robot Platform Amid Rising Geopolitical Scrutiny - Digital CxO"
+    },
+    {
+      "title": "英伟达Cosmos 3：面向物理AI的开放模型（2026） (NVIDIA Cosmos 3: The Open Model for Physical AI (2026))",
+      "url": "https://pasqualepillitteri.it/en/news/3945/nvidia-cosmos-3-physical-ai",
+      "description": "NVIDIA Cosmos 3: The Open Model for Physical AI (2026)\n\nnews\n\n# NVIDIA Cosmos 3: The Open Model for Physical AI (2026)\n\n##### NVIDIA launches Cosmos 3, the first fully open omnimodel for Physical AI: Super 32B and Nano 8B variants with native vision reasoning, world and action generation.\n\n01/06/202",
+      "published": "2026-06-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "物理AI需要处理多模态数据，开放全能模型将大幅降低自动驾驶和机器人等领域的研发门槛。",
+        "英伟达通过提供底层基础模型，意图在物理AI时代继续巩固其算力与生态的统治地位。"
+      ],
+      "actions": [
+        "自动驾驶与机器人研发企业应密切关注Cosmos 3的开放进度，评估其替代现有专有模型的潜力。",
+        "AI开发者可提前学习物理AI相关的多模态开发范式，以适应新一代基础模型的技术要求。"
+      ],
+      "glossary": [
+        {
+          "term": "Physical AI",
+          "desc": "物理AI，指能够理解物理定律并在现实物理世界中交互的AI系统",
+          "category": "AI"
+        },
+        {
+          "term": "Omnimodel",
+          "desc": "全能模型，指能够处理多种模态（如视觉、语言、物理传感数据）的统一大模型",
+          "category": "AI"
+        }
+      ],
+      "region": "overseas",
+      "summary": "英伟达计划于2026年推出Cosmos 3，这是首个面向物理AI的完全开放全能模型，旨在加速物理AI系统的开发与部署。",
+      "tag_category": "设计公司",
+      "title_en": "NVIDIA Cosmos 3: The Open Model for Physical AI (2026)"
+    },
+    {
+      "title": "2纳米以下的悖论",
+      "url": "https://semiengineering.com/the-sub-2nm-paradox/",
+      "description": "The Sub-2nm Paradox\n\nMENU\n\nHome> Manufacturing, Packaging & Materials> The Sub-2nm Paradox\n\nManufacturing, Packaging & Materials\n\n# The Sub-2nm Paradox\n\nReducing variation in manufacturing, monitoring behavior over time, and targeting specific workloads can have a big impact on power, performance, a",
+      "published": "2026-06-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "先进制程的微缩不再能带来等比例的性能与成本优势，制程变异已成为限制良率提升的核心痛点。",
+        "制造监控和良率管理的重要性在2nm以下节点急剧上升，需要全新的量测和工艺控制技术。"
+      ],
+      "actions": [
+        "半导体设备厂商应加大对量测、缺陷检测和工艺控制设备的研发投入，迎合晶圆厂的痛点需求。",
+        "晶圆代工厂需引入AI驱动的制程优化和良率预测系统，以应对极微缩节点下的变异性挑战。"
+      ],
+      "glossary": [
+        {
+          "term": "Sub-2nm",
+          "desc": "2纳米以下制程，指半导体制造工艺节点在2nm及以下的技术阶段",
+          "category": "制造"
+        },
+        {
+          "term": "Process Variation",
+          "desc": "工艺变异性，指在半导体制造过程中，由于物理或化学因素导致的器件参数偏离设计值的现象",
+          "category": "制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "随着半导体制造进入2纳米以下节点，工艺变异性的控制变得极其困难，形成了缩小尺寸却难以保证良率和性能一致性的悖论。",
+      "tag_category": "Fab/制造",
+      "title_en": "The Sub-2nm Paradox"
+    },
+    {
+      "title": "是德科技推出可执行RF设计白板以应对半导体人才缺口",
+      "url": "https://technuter.com/electronics/keysight-tackles-semiconductor-talent-gap-with-executable-rf-design-whiteboard.html",
+      "description": "Keysight Tackles Semiconductor Talent Gap with Executable RF Design Whiteboard - Technuter\n\nJune 1, 2026 technuter 1 min read\n\nKeysight Technologies announced a new capability within its RF Circuit Simulation Professional software which enables engineers to capture their design process on an executa",
+      "published": "2026-06-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "EDA及测试测量厂商正通过降低工具使用门槛、提升直观性来应对半导体行业资深工程师短缺的挑战。",
+        "将设计与仿真集成在同一可执行环境中，有助于缩短新手工程师的学习曲线，加速产品上市时间。"
+      ],
+      "actions": [
+        "RF及微波芯片设计团队应评估此类集成化设计工具，以降低新员工的培训成本并缓解人力瓶颈。",
+        "企业人力资源与培训部门可与工具供应商合作，引入更直观的培训平台以加速人才梯队建设。"
+      ],
+      "glossary": [
+        {
+          "term": "RF Design",
+          "desc": "射频设计，指对射频电路及系统进行设计与仿真的过程",
+          "category": "半导体设计"
+        },
+        {
+          "term": "Whiteboard",
+          "desc": "白板，此处指电子设计自动化软件中直观的图形化设计与仿真交互界面",
+          "category": "EDA"
+        }
+      ],
+      "region": "overseas",
+      "summary": "是德科技在其RF Circuit软件中推出了一项名为可执行RF设计白板的新功能，旨在通过提供直观的设计和仿真工具来缓解半导体行业的人才短缺问题。",
+      "tag_category": "综合",
+      "title_en": "Keysight Tackles Semiconductor Talent Gap with Executable RF Design Whiteboard - Technuter"
+    },
+    {
+      "title": "OpenPayd瞄准独角兽估值在纳斯达克上市",
+      "url": "https://coincu.com/openpayd-targets-nasdaq-listing-at-unicorn-valuation/",
+      "description": "OpenPayd Targets Nasdaq Listing at Unicorn Valuation\n\nBTCETH BNB ADA SOL AVAX DOGE LINK TRX\n\nUSDEUR GBP JPY AUD CAD CHF CNY\n\n##### Convert\n\n• OpenPayd Targets Nasdaq Listing at Unicorn Valuation• Reality Partners With U.S. Compliance Broker Alpaca to Expand RWA Access• Binance Adds U.S. Stock Tradin",
+      "published": "2026-06-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "支付和嵌入式金融基础设施依然是资本市场看好的高增长赛道，具备较强的抗周期能力。",
+        "独角兽估值上市表明市场对B2B金融科技服务模式的盈利潜力和规模化扩张有较高预期。"
+      ],
+      "actions": [
+        "半导体及硬件支付终端供应商应关注此类上市公司的业务扩张动向，寻找安全芯片及支付硬件的潜在合作机会。",
+        "投资者可评估金融科技基础设施扩张对安全加密芯片及支付处理硬件需求增长的拉动效应。"
+      ],
+      "glossary": [
+        {
+          "term": "Unicorn Valuation",
+          "desc": "独角兽估值，指公司上市前估值超过10亿美元",
+          "category": "金融投资"
+        },
+        {
+          "term": "Embedded Finance",
+          "desc": "嵌入式金融，指将金融服务集成到非金融平台业务流程中的模式",
+          "category": "金融科技"
+        }
+      ],
+      "region": "overseas",
+      "summary": "金融科技公司OpenPayd正计划以独角兽估值在纳斯达克上市，这反映了嵌入式金融和支付基础设施领域持续受到资本市场青睐。",
+      "tag_category": "综合",
+      "title_en": "OpenPayd Targets Nasdaq Listing at Unicorn Valuation"
+    },
+    {
+      "title": "Dragos收购Phosphorus，将原生OT网络安全引入全xOT环境",
+      "url": "https://www.intelligence360.news/dragos-acquires-phosphorus-to-bring-ot-native-cybersecurity-to-the-full-xot-environment/",
+      "description": "Dragos Acquires Phosphorus to Bring OT-Native Cybersecurity to the Full xOT Environment - intelligence360\n\nDragos expands to protect the full xOT environment including OT systems and the billions of connected devices that have reshaped how critical infrastructure operates\n\nHANOVER, Maryland — June 1",
+      "published": "2026-06-01T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "随着IT与OT的深度融合，网络安全防护正从单一的IT或OT向覆盖IT、OT和IoT的xOT一体化方向演进。",
+        "针对物联网设备的原生OT安全收购，表明工业物联网边缘节点的安全漏洞正成为核心痛点，亟需统一管理。"
+      ],
+      "actions": [
+        "工业芯片供应商需在产品设计中强化硬件级安全特性（如安全启动、硬件加密引擎），以适应xOT安全合规需求。",
+        "工控系统开发商应评估并集成此类一体化xOT安全方案，提升整体系统从边缘到云端的防护能力。"
+      ],
+      "glossary": [
+        {
+          "term": "OT",
+          "desc": "操作技术，指监控和控制物理设备、流程和事件的硬件和软件",
+          "category": "网络安全"
+        },
+        {
+          "term": "xOT",
+          "desc": "扩展操作技术，泛指IT、OT和IoT等融合的广泛操作环境",
+          "category": "网络安全"
+        }
+      ],
+      "region": "overseas",
+      "summary": "工控安全公司Dragos收购了Phosphorus，旨在将原生OT网络安全防护能力扩展至包括OT系统及数十亿物联网设备在内的全xOT环境。",
+      "tag_category": "综合",
+      "title_en": "Dragos Acquires Phosphorus to Bring OT-Native Cybersecurity to the Full xOT Environment - intelligence360"
+    }
+  ],
+  "stats": {
+    "total_raw": 143,
+    "after_dedup": 104,
+    "sources": {
+      "Serper": 1,
+      "Exa": 33,
+      "RSS": 45,
+      "Brave": 25
+    }
+  },
+  "code_version": "",
+  "data_commit": ""
+}

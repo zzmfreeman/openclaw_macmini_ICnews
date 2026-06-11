@@ -1,0 +1,626 @@
+{
+  "version": "v20260601-0703",
+  "generatedAt": "2026-06-01T07:03:00+08:00",
+  "period": "daily",
+  "commit": "",
+  "glossary_list": [
+    {
+      "term": "CoWoS",
+      "desc": "Chip-on-Wafer-on-Substrate，台积电2.5D/3D先进封装平台",
+      "category": "封装"
+    },
+    {
+      "term": "HBM",
+      "desc": "High Bandwidth Memory，高带宽内存，AI芯片关键配套",
+      "category": "存储"
+    },
+    {
+      "term": "OSAT",
+      "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
+      "category": "封装"
+    },
+    {
+      "term": "$1tn club",
+      "desc": "万亿美元市值俱乐部，指市值达到或超过1万亿美元的公司集合",
+      "category": "综合"
+    },
+    {
+      "term": "HBM4E",
+      "desc": "高带宽内存第四代增强版，是下一代AI GPU的关键存储技术",
+      "category": "存储"
+    },
+    {
+      "term": "EUV",
+      "desc": "极紫外光刻技术，使用13.5nm波长光进行芯片图案化，是先进制程关键",
+      "category": "制造"
+    },
+    {
+      "term": "Tau Scaling Law",
+      "desc": "华为提出的半导体缩放定律，旨在无EUV光刻机条件下延续芯片性能提升",
+      "category": "制造"
+    },
+    {
+      "term": "iHuman Inc.",
+      "desc": "一家领先的儿童教育数字内容和服务提供商",
+      "category": "综合"
+    },
+    {
+      "term": "High NA EUV",
+      "desc": "高数值孔径极紫外光刻机，NA达到0.55，用于2nm及以下制程",
+      "category": "制造"
+    },
+    {
+      "term": "光算力",
+      "desc": "基于光子学原理进行计算的技术，具有高带宽低延迟特点，适用于AI加速",
+      "category": "综合"
+    },
+    {
+      "term": "N1X",
+      "desc": "辉达（NVIDIA）有望亮相的新型秘密武器芯片",
+      "category": "芯片"
+    },
+    {
+      "term": "COMPUTEX",
+      "desc": "台北国际电脑展，全球重要的科技与半导体产业展会",
+      "category": "展会"
+    },
+    {
+      "term": "Semicaps",
+      "desc": "半导体设备资本/厂商",
+      "category": "半导体"
+    },
+    {
+      "term": "WFE",
+      "desc": "晶圆厂设备（Wafer Fabrication Equipment）",
+      "category": "半导体设备"
+    },
+    {
+      "term": "Supercycle",
+      "desc": "超级周期，指持续时间长、幅度大的产业上升周期",
+      "category": "产业趋势"
+    },
+    {
+      "term": "TSMC",
+      "desc": "台湾积体电路制造公司，全球最大晶圆代工厂",
+      "category": "Fab/制造"
+    },
+    {
+      "term": "Revenue Breakdown",
+      "desc": "营收拆解，按业务或技术分类的收入结构分析",
+      "category": "财务"
+    },
+    {
+      "term": "Assam",
+      "desc": "阿萨姆邦，印度东北部的一个邦",
+      "category": "地理"
+    },
+    {
+      "term": "Fiscal Year",
+      "desc": "财年，财政年度",
+      "category": "财务"
+    },
+    {
+      "term": "Exxon",
+      "desc": "埃克森美孚，全球大型石油天然气公司",
+      "category": "能源"
+    },
+    {
+      "term": "Chevron",
+      "desc": "雪佛龙，全球大型石油天然气公司",
+      "category": "能源"
+    },
+    {
+      "term": "POL module",
+      "desc": "负载点电源模块，将电压转换至负载所需特定值的微型电源组件",
+      "category": "电源/封装"
+    },
+    {
+      "term": "Financial Year",
+      "desc": "财年，指企业或政府用于财务报告和预算的年度周期",
+      "category": "财务"
+    },
+    {
+      "term": "Data Center Initiative",
+      "desc": "数据中心项目，指大规模计算基础设施的建设计划",
+      "category": "基础设施"
+    },
+    {
+      "term": "Autonomous AI Agents",
+      "desc": "自主AI代理，指能够独立执行任务、做出决策的AI程序或系统",
+      "category": "人工智能"
+    },
+    {
+      "term": "Series A",
+      "desc": "A轮融资，初创企业早期的重要风险投资轮次",
+      "category": "金融"
+    }
+  ],
+  "items": [
+    {
+      "title": "美光科技($MU)加入万亿美元俱乐部，分析师对其是否可持续存在分歧（Micron Technology ($MU) joins the $1tn club as analysts split over whether）",
+      "url": "https://business-news-today.com/micron-technology-mu-joins-the-1tn-club-as-analysts-split-over-whether-memory-has-changed-forever/",
+      "description": "Micron Technology ($MU) joins the $1tn club as analysts split over whether\n\n###### Flexential deepens Hillsboro data center control with acquisition of two Oregon properties\n\n###### Genesys International (NSE: GENESYS) Q4 revenue rises 24% QoQ as digital twin and HD mapping bets scale\n\n###### Can Sa",
+      "published": "2026-05-31T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "美光科技受益于AI内存需求激增，市值达到里程碑，但市场对其高估值的可持续性仍有担忧",
+        "存储芯片周期性特征明显，万亿美元市值标志着行业处于高景气周期，但也面临回调风险"
+      ],
+      "actions": [
+        "关注美光科技后续财报及HBM产能释放情况，评估其估值支撑逻辑",
+        "警惕存储芯片周期拐点，合理规划供应链备货节奏，避免高位囤货"
+      ],
+      "glossary": [
+        {
+          "term": "$1tn club",
+          "desc": "万亿美元市值俱乐部，指市值达到或超过1万亿美元的公司集合",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "美光科技市值突破万亿美元，但分析师对其能否维持这一估值水平存在分歧。",
+      "tag_category": "综合",
+      "title_en": "Micron Technology ($MU) joins the $1tn club as analysts split over whether"
+    },
+    {
+      "title": "三星在AI内存领域持续推进，开始出货HBM4E样品（Samsung pushes ahead in AI memory — Arabian Post）",
+      "url": "https://thearabianpost.com/samsung-pushes-ahead-in-ai-memory/",
+      "description": "Samsung pushes ahead in AI memory — Arabian Post\n\n0 likes\n\n# Samsung pushes ahead in AI memory\n\n### 🕚 Sun 31 May 2026 | AP News\n\nSamsung Electronics has begun shipping samples of its HBM4E memory chips to global customers, moving faster than rivals in the race to supply the next generation of high-",
+      "published": "2026-05-31T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "三星推出HBM4E样品标志着AI内存迭代速度加快，下一代HBM标准竞争提前打响",
+        "HBM4E的推出将进一步满足未来更高级AI GPU的内存带宽需求，巩固三星在高带宽存储市场的地位"
+      ],
+      "actions": [
+        "密切关注HBM4E的测试反馈与量产时间表，提前评估其对现有HBM3E产能的替代影响",
+        "加速自身高带宽存储产品的研发与客户验证，避免在下一代内存竞争中落后"
+      ],
+      "glossary": [
+        {
+          "term": "HBM4E",
+          "desc": "高带宽内存第四代增强版，是下一代AI GPU的关键存储技术",
+          "category": "存储"
+        }
+      ],
+      "region": "overseas",
+      "summary": "三星电子已开始出货其HBM4E内存芯片样品，在AI存储领域加速推进。",
+      "tag_category": "EDA/IP",
+      "title_en": "Samsung pushes ahead in AI memory — Arabian Post"
+    },
+    {
+      "title": "华为Tau缩放定律：中国无需EUV的摩尔定律替代方案（Huawei Tau Scaling Law: China's Moore's Law Alternative Without EUV | Abhishek Gautam）",
+      "url": "https://www.abhs.in/blog/huawei-tau-scaling-law-logicfolding-55-percent-density-kirin-ascend-2026",
+      "description": "Huawei Tau Scaling Law: China's Moore's Law Alternative Without EUV | Abhishek Gautam\n\n# Huawei Tau Scaling Law: China's Moore's Law Alternative Without EUV\n\nAbhishek Gautam May 31, 202610 min read\n\nQuick summary\n\nHuawei unveiled the Tau Scaling Law and LogicFolding architecture at IEEE ISCAS 2026, ",
+      "published": "2026-05-31T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "Tau缩放定律反映了中国在受限EUV设备下，通过架构创新和系统级优化来提升芯片性能的突围思路",
+        "无EUV的缩放路径可能依赖先进封装、3D集成和新材料，这将重塑国产芯片的演进路线"
+      ],
+      "actions": [
+        "深入研究华为Tau缩放定律的技术细节，评估其对国产EDA和先进封装产业链的拉动效应",
+        "调整国产芯片研发策略，从单纯追求制程微缩转向系统级协同优化与先进封装集成"
+      ],
+      "glossary": [
+        {
+          "term": "EUV",
+          "desc": "极紫外光刻技术，使用13.5nm波长光进行芯片图案化，是先进制程关键",
+          "category": "制造"
+        },
+        {
+          "term": "Tau Scaling Law",
+          "desc": "华为提出的半导体缩放定律，旨在无EUV光刻机条件下延续芯片性能提升",
+          "category": "制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "华为提出Tau缩放定律，作为在缺乏EUV光刻机的情况下中国半导体产业延续摩尔定律的替代路径。",
+      "tag_category": "综合",
+      "title_en": "Huawei Tau Scaling Law: China's Moore's Law Alternative Without EUV | Abhishek Gautam"
+    },
+    {
+      "title": "iHuman公司宣布收购与全知识（All Knowledge）和完美灵格（Perfect Lingo）相关的业务和资产（iHuman Inc. Announces Acquisition of Businesses and Assets Related to All Knowledge and Perfect Lingo）",
+      "url": "https://www.prnewswire.com/news-releases/ihuman-inc-announces-acquisition-of-businesses-and-assets-related-to-all-knowledge-and-perfect-lingo-302786467.html",
+      "description": "iHuman Inc. Announces Acquisition of Businesses and Assets Related to All Knowledge and Perfect Lingo Accessibility Statement Skip Navigation\n\nBEIJING, May 31, 2026 /PRNewswire/ -- iHuman Inc. (NYSE: IH) (\"iHuman\" or the \"Company\"), a leading provider of tech-powered, intellectual development produc",
+      "published": "2026-05-31T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "教育科技领域的并购整合正在加速，头部企业通过收购扩充内容与产品矩阵",
+        "数字教育资产并购反映出AI驱动下，个性化学习与语言培训赛道的商业价值正在被重估"
+      ],
+      "actions": [
+        "关注教育科技领域并购动向，评估相关芯片及硬件终端（如学习机）的需求变化",
+        "挖掘AI教育应用对边缘计算芯片和交互感知芯片的新增需求"
+      ],
+      "glossary": [
+        {
+          "term": "iHuman Inc.",
+          "desc": "一家领先的儿童教育数字内容和服务提供商",
+          "category": "综合"
+        }
+      ],
+      "region": "overseas",
+      "summary": "iHuman公司宣布收购全知识和完美灵格相关的业务与资产，进一步扩展其数字教育版图。",
+      "tag_category": "EDA/IP",
+      "title_en": "iHuman Inc. Announces Acquisition of Businesses and Assets Related to All Knowledge and Perfect Lingo"
+    },
+    {
+      "title": "最受关注新闻：英国皇家铸币厂电子垃圾回收、英特尔重组、华为1.4nm（Most Read – Royal Mint e-waste, Intel Re-Spins, Huawei 1.4nm）",
+      "url": "https://www.electronicsweekly.com/blogs/electro-ramblings/latest-news/most-read-royal-mint-e-waste-intel-re-spins-huawei-1-4nm-2026-05/",
+      "description": "<p>The most read stories cover the Royal Mint partnering with Recycling Lives Services, Intel's CEO criticising the company’s engineering culture, and Imec making a quantum dot qubit using High NA EUV lithography...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/blogs/electro-ramblings/l",
+      "published": "Fri, 29 May 2026 09:05:18 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "英特尔工程文化的重塑与重组表明其正试图摆脱内部官僚主义，回归工程主导以挽救制程劣势",
+        "Imec利用High NA EUV制造量子点量子比特，展示了高NA EUV在量子计算前沿领域的应用潜力"
+      ],
+      "actions": [
+        "跟踪英特尔重组进展及代工业务调整，评估其对供应链订单与产能分配的影响",
+        "关注High NA EUV设备的最新研发与试产进展，提前布局量子计算芯片制造的前沿技术"
+      ],
+      "glossary": [
+        {
+          "term": "High NA EUV",
+          "desc": "高数值孔径极紫外光刻机，NA达到0.55，用于2nm及以下制程",
+          "category": "制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "近期最受关注的新闻包括英国皇家铸币厂开展电子垃圾回收、英特尔CEO批评公司工程文化并推动重组，以及Imec使用高数值孔径EUV制造量子点量子比特。",
+      "tag_category": "综合",
+      "title_en": "Most Read – Royal Mint e-waste, Intel Re-Spins, Huawei 1.4nm"
+    },
+    {
+      "title": "“全球AI光算力第一股”来了",
+      "url": "https://36kr.com/p/3785808248609799",
+      "description": "“全球AI光算力第一股”来了-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# “全球AI光算力第一股”来了\n\n今日，曦智科技正式登陆港交所。\n\n今日，曦智科技（01879.HK）正式登陆港交所，成为全球“AI光算力第一股”。在上午9时起的盘前交易时段，截至发稿，曦智科技报价超830港元/股，相较183.2港元/股的发行价，涨幅超350%。\n\n在大模型推动算力需求持续增长的背景下，传统电计算和电互连正在面临功耗、带宽、延迟等多重约束，光电混合算力正是在这一背景下受到关注。作为一家聚焦光电混合算力的企业，曦",
+      "published": "2026-05-31T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "光计算芯片公司上市标志着硅光与光计算技术在AI算力市场的商业化落地获得资本市场认可",
+        "AI算力瓶颈催生了对光计算等新架构的强烈需求，光算力第一股的诞生将吸引更多资本涌入该赛道"
+      ],
+      "actions": [
+        "关注曦智科技光计算芯片的量产与客户导入情况，评估光计算对传统电子算力芯片的补充与替代潜力",
+        "硅光与光计算产业链从业者应加速产品验证，借势资本市场热度拓展融资与业务合作"
+      ],
+      "glossary": [
+        {
+          "term": "光算力",
+          "desc": "基于光子学原理进行计算的技术，具有高带宽低延迟特点，适用于AI加速",
+          "category": "综合"
+        }
+      ],
+      "region": "domestic",
+      "summary": "曦智科技正式登陆港交所，成为全球“AI光算力第一股”，盘前交易股价大幅上涨。",
+      "tag_category": "综合",
+      "title_en": "“全球AI光算力第一股”来了-36氪"
+    },
+    {
+      "title": "COMPUTEX／黄仁勋明开讲 辉达秘密武器N1X芯片有望亮相",
+      "url": "https://news.tvbs.com.tw/tech/3218149",
+      "description": "COMPUTEX／黃仁勳明開講 輝達秘密武器「N1X晶片」有望亮相│TVBS新聞網\n\n廣告\n\n點擊關閉或任一空白處，繼續閱讀新聞。\n\n追蹤我們掌握最新動態\n\n訂閱電子報\n\n人氣點閱榜\n\n今日頭條\n\n0\n\n新聞\n\n精選\n\n專題\n\n大家都在搜尋\n\n搜尋\n\n訂閱電子報快速掌握一週精華\n\n立即訂閱\n\n您即將進入之新聞內容需滿18歲才可瀏覽\n\n好康\n\n快訊\n\n快訊\n\n快訊\n\n快訊\n\n6/1 黃仁勳主題演講 請鎖定TVBS新聞YT 1100 直播\n\n快訊\n\n6/1黃仁勳主題演講 請鎖定TVBS 56台 1100轉播\n\n# COMPUTEX／黃仁勳明開講 輝達秘密武器「N1X晶片」有望亮相\n\n小\n\n中\n\n大",
+      "published": "2026-05-31T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "辉达持续推出新型芯片（如N1X），显示其在AI算力领域的迭代速度和护城河构建意图。",
+        "COMPUTEX已成为全球AI与半导体产业发布核心战略和重磅产品的重要舞台。"
+      ],
+      "actions": [
+        "密切关注黄仁勋COMPUTEX演讲内容，捕捉N1X芯片的技术细节与潜在应用场景。",
+        "评估N1X芯片对现有供应链（如先进封装、测试、高频内存）带来的新需求与规格变化。"
+      ],
+      "glossary": [
+        {
+          "term": "N1X",
+          "desc": "辉达（NVIDIA）有望亮相的新型秘密武器芯片",
+          "category": "芯片"
+        },
+        {
+          "term": "COMPUTEX",
+          "desc": "台北国际电脑展，全球重要的科技与半导体产业展会",
+          "category": "展会"
+        }
+      ],
+      "region": "domestic",
+      "summary": "黄仁勋将在COMPUTEX发表主题演讲，辉达（NVIDIA）的秘密武器N1X芯片有望在此次演讲中正式亮相。",
+      "tag_category": "综合",
+      "title_en": "COMPUTEX／黃仁勳明開講　輝達秘密武器「N1X晶片」有望亮相│TVBS新聞網"
+    },
+    {
+      "title": "六大垄断，一个超级周期：欧洲半导体设备厂商（Six Monopolies, One Supercycle: EU Semicaps - by Ozeco）",
+      "url": "https://crackthemarket.substack.com/p/six-monopolies-one-supercycle-eu",
+      "description": "Six Monopolies, One Supercycle: EU Semicaps - by Ozeco\n\n# Crack The Market\n\nSubscribeSign in\n\n# Six Monopolies, One Supercycle: EU Semicaps\n\n### The EU semicaps riding the most powerful WFE upcycle in 25 years, why ASML is still the most undervalued, and Technoprobe the most underestimated\n\nMay 31, ",
+      "published": "2026-05-31T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "半导体设备领域存在高度垄断，欧洲厂商（如ASML等）在关键制程节点上掌握不可替代的话语权。",
+        "WFE超级周期意味着晶圆厂扩产带来的设备需求将持续强劲，长期利好上游核心设备供应商。"
+      ],
+      "actions": [
+        "重点关注欧洲半导体设备巨头的订单与出货动态，研判设备超级周期的持续性。",
+        "寻找与这些垄断设备厂商深度绑定的国内零部件供应链或耗材替代机会。"
+      ],
+      "glossary": [
+        {
+          "term": "Semicaps",
+          "desc": "半导体设备资本/厂商",
+          "category": "半导体"
+        },
+        {
+          "term": "WFE",
+          "desc": "晶圆厂设备（Wafer Fabrication Equipment）",
+          "category": "半导体设备"
+        },
+        {
+          "term": "Supercycle",
+          "desc": "超级周期，指持续时间长、幅度大的产业上升周期",
+          "category": "产业趋势"
+        }
+      ],
+      "region": "overseas",
+      "summary": "欧洲六大半导体设备厂商正乘着史上最强劲的晶圆厂设备（WFE）超级周期，展现出垄断优势与强劲的增长潜力。",
+      "tag_category": "综合",
+      "title_en": "Six Monopolies, One Supercycle: EU Semicaps - by Ozeco"
+    },
+    {
+      "title": "台积电2025年收入拆解：按技术划分的1220亿美元营收（TSMC Revenue Breakdown 2025: $122B Split by Technology - FourWeekMBA）",
+      "url": "https://fourweekmba.com/tsmc-revenue-breakdown/",
+      "description": "TSMC Revenue Breakdown 2025: $122B Split by Technology - FourWeekMBA\n\n\\n\\n**TSMC Revenue Breakdown (2025): $122B Split by Technology**\\n\\nTaiwan Semiconductor Manufacturing Company (TSM) generated $122.4 billion in consolidated revenue during 2025, a 35.9% increase over the prior year’s $90.1 billio",
+      "published": "2026-05-31T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "台积电营收规模突破千亿美金，表明先进制程和AI驱动的HPC需求是核心增长引擎。",
+        "按技术划分的收入占比能直观反映各制程节点的商业化成熟度与市场接受度。"
+      ],
+      "actions": [
+        "分析台积电各技术节点的营收占比变化，预判下一代先进制程的产能释放节奏与定价策略。",
+        "根据台积电的技术营收重心，调整芯片设计公司的代工成本预期及产品迭代规划。"
+      ],
+      "glossary": [
+        {
+          "term": "TSMC",
+          "desc": "台湾积体电路制造公司，全球最大晶圆代工厂",
+          "category": "Fab/制造"
+        },
+        {
+          "term": "Revenue Breakdown",
+          "desc": "营收拆解，按业务或技术分类的收入结构分析",
+          "category": "财务"
+        }
+      ],
+      "region": "overseas",
+      "summary": "台积电（TSMC）2025年营收预计达到1220亿美元，其收入结构按不同技术节点进行了详细拆解分析。",
+      "tag_category": "Fab/制造",
+      "title_en": "TSMC Revenue Breakdown 2025: $122B Split by Technology - FourWeekMBA"
+    },
+    {
+      "title": "印度联邦部长表示：阿萨姆邦半导体工厂可能在本财年开始投产（Semiconductor plant in Assam likely to start production this fiscal, Union Minister Ashwini Vaishnaw says - The Economic Times）",
+      "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/semiconductor-plant-in-assam-likely-to-start-production-this-fiscal-union-minister-ashwini-vaishnaw-says/articleshow/131421750.cms",
+      "description": "Semiconductor plant in Assam likely to start production this fiscal, Union Minister Ashwini Vaishnaw says - The Economic Times\n\nFEATURED FUNDS★★★★★Motilal Oswal Midcap Fund Direct-Growth5Y Return23.23 % Invest Now\n\nBusiness News› Industry› Cons. Products› Electronics›Semiconductor plant in Assam lik",
+      "published": "2026-05-31T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "印度正加速推进本土半导体制造落地，阿萨姆邦工厂的投产标志着其半导体自主化战略取得实质性进展。",
+        "全球半导体供应链多元化趋势下，印度作为新兴制造基地正试图分食地缘政治带来的产能转移红利。"
+      ],
+      "actions": [
+        "评估印度半导体工厂投产对全球成熟制程产能供需格局的边际影响。",
+        "关注印度半导体生态的配套建设（如封装、测试、人才），谨慎评估其长期良率与交付稳定性。"
+      ],
+      "glossary": [
+        {
+          "term": "Assam",
+          "desc": "阿萨姆邦，印度东北部的一个邦",
+          "category": "地理"
+        },
+        {
+          "term": "Fiscal Year",
+          "desc": "财年，财政年度",
+          "category": "财务"
+        }
+      ],
+      "region": "overseas",
+      "summary": "印度联邦部长Ashwini Vaishnaw宣布，位于阿萨姆邦的半导体工厂预计将在本财年内正式开始投产。",
+      "tag_category": "综合",
+      "title_en": "Semiconductor plant in Assam likely to start production this fiscal, Union Minister Ashwini Vaishnaw says - The Economic Times"
+    },
+    {
+      "title": "埃克森美孚和雪佛龙警告油价可能在未来几周飙升：这对投资者意味着什么（Exxon and Chevron Are Warning That Oil Prices Could Skyrocket in the Coming Weeks. Here's What That Could Mean for Investors. - AOL）",
+      "url": "https://www.aol.com/finance/exxon-chevron-warning-oil-prices-110500085.html",
+      "description": "Exxon and Chevron Are Warning That Oil Prices Could Skyrocket in the Coming Weeks. Here's What That Could Mean for Investors. - AOL\n\nSun, May 31, 2026 at 11:05 AM UTC\n\n0\n\n## Key Points\n\nGlobal oil inventories are draining fast.\n\nOil prices could spike in the coming weeks if oil doesn't start flowing",
+      "published": "2026-05-31T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "油价飙升将直接推高半导体制造过程中的能源成本，对高耗能的晶圆代工厂利润率造成压力。",
+        "宏观能源价格波动可能引发通胀预期，进而影响半导体终端市场的消费需求与资本开支。"
+      ],
+      "actions": [
+        "晶圆厂及封测厂需重新评估年度能源采购合约，锁定成本以应对潜在的油价飙升风险。",
+        "投资者应关注半导体产业链中的能源敏感型环节，适时调整对制造板块的盈利预测。"
+      ],
+      "glossary": [
+        {
+          "term": "Exxon",
+          "desc": "埃克森美孚，全球大型石油天然气公司",
+          "category": "能源"
+        },
+        {
+          "term": "Chevron",
+          "desc": "雪佛龙，全球大型石油天然气公司",
+          "category": "能源"
+        }
+      ],
+      "region": "overseas",
+      "summary": "埃克森美孚和雪佛龙警告全球油价可能在近期飙升，并分析了这一趋势对投资者可能产生的影响。",
+      "tag_category": "综合",
+      "title_en": "Exxon and Chevron Are Warning That Oil Prices Could Skyrocket in the Coming Weeks. Here's What That Could Mean for Investors. - AOL"
+    },
+    {
+      "title": "微型POL模块在2.5毫米尺寸下提供3A电流（Micro POL module delivers 3 A in 2.5 mm - Electrical Engineering News and Products）",
+      "url": "https://www.eeworldonline.com/micro-pol-module-delivers-3-a-in-2-5-mm/",
+      "description": "Micro POL module delivers 3 A in 2.5 mm - Electrical Engineering News and Products\n\n# Micro POL module delivers 3 A in 2.5 mm\n\n- Puja Mitra\n- May 31, 2026\n\n## //\n\n## Share\n\nBookmark\n\nLog in to bookmark articles!\n\nTDK Corporation has announced the FS3303 micro POL non-isolated DC-DC power module for ",
+      "published": "2026-05-31T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "电源模块的微型化与高电流输出能力，是适应AI芯片和先进封装中空间受限与高功耗挑战的关键趋势。",
+        "POL模块的技术演进直接反映了半导体系统级设计对高效率、小尺寸电源管理的迫切需求。"
+      ],
+      "actions": [
+        "硬件工程师在下一代高算力芯片板卡设计中，可评估引入此类高密度微型POL模块以优化PCB空间。",
+        "电源管理IC厂商应加速研发更小尺寸、更高功率密度的POL产品，抢占AI服务器与边缘计算电源市场。"
+      ],
+      "glossary": [
+        {
+          "term": "POL module",
+          "desc": "负载点电源模块，将电压转换至负载所需特定值的微型电源组件",
+          "category": "电源/封装"
+        }
+      ],
+      "region": "overseas",
+      "summary": "一款新型微型POL（负载点）模块问世，能够在仅2.5毫米的极小封装尺寸内输出3A电流，满足高密度电源需求。",
+      "tag_category": "综合",
+      "title_en": "Micro POL module delivers 3 A in 2.5 mm - Electrical Engineering News and Products"
+    },
+    {
+      "title": "阿萨姆邦贾吉罗德半导体工厂将于本财年开始投产（Assam's Jagiroad semiconductor plant set to begin production this financial year）",
+      "url": "https://www.indiatodayne.in/assam/story/assam-jagiroad-semiconductor-plant-begin-production-this-financial-year-1400448-2026-05-31",
+      "description": "Assam's Jagiroad semiconductor plant set to begin production this financial year - assam jagiroad semiconductor plant begin production this financial year -\n\nAssam's Jagiroad semiconductor plant set to begin production this financial year\n\n# Assam's Jagiroad semiconductor plant set to begin producti",
+      "published": "2026-05-31T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "印度政府正大力推动本土半导体制造，阿萨姆邦工厂的投产是“印度半导体使命”计划落地的关键进展。",
+        "新工厂的投产将初步缓解当地封装测试产能的短缺，但上游晶圆制造仍高度依赖外部供应链。"
+      ],
+      "actions": [
+        "关注印度半导体政策补贴及该工厂的产能爬坡进度，评估其对亚太区封测代工市场竞争格局的潜在影响。",
+        "供应链企业可探索与该工厂在原材料供应或后端服务上的合作机会，抢占印度本土市场先机。"
+      ],
+      "glossary": [
+        {
+          "term": "Financial Year",
+          "desc": "财年，指企业或政府用于财务报告和预算的年度周期",
+          "category": "财务"
+        }
+      ],
+      "region": "overseas",
+      "summary": "印度阿萨姆邦的贾吉罗德半导体工厂计划在本财年内正式开始生产，标志着印度本土半导体制造能力迈出重要一步。",
+      "tag_category": "综合",
+      "title_en": "Assam's Jagiroad semiconductor plant set to begin production this financial year - assam jagiroad semiconductor plant begin production this financial year -"
+    },
+    {
+      "title": "软银AI投资法国：750亿欧元数据中心项目（SoftBank AI Investment France: €75 Billion Data Center Initiative）",
+      "url": "https://newsvot.com/softbank-ai-investment-france-75-billion-data-center-initiative",
+      "description": "SoftBank AI Investment France: €75 Billion Data Center Initiative | Newsvot\n\nType above and press Enter to search. Press Esc to cancel.\n\nTheme\n\nLive Markets\n\nLoading markets...\n\n# SoftBank AI Investment France: €75 Billion Data Center Initiative\n\nBy Brennan Forrest May 31, 2026 · 5 min read\n\nImage g",
+      "published": "2026-05-31T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "软银巨额投资欧洲数据中心，反映出全球资本正加速向AI算力基础设施倾斜，欧洲正成为AI基建的新热点。",
+        "750亿欧元的超大规模投资将极大拉动服务器GPU、定制AI芯片及高速网络互联设备的需求。"
+      ],
+      "actions": [
+        "AI芯片及服务器供应链企业应密切关注软银该项目的采购招标动向，提前布局欧洲客户渠道。",
+        "数据中心散热、供电及光模块供应商需评估自身产能，以应对未来可能出现的超大规模订单需求。"
+      ],
+      "glossary": [
+        {
+          "term": "Data Center Initiative",
+          "desc": "数据中心项目，指大规模计算基础设施的建设计划",
+          "category": "基础设施"
+        }
+      ],
+      "region": "overseas",
+      "summary": "软银集团宣布在法国投资750亿欧元建设大型AI数据中心项目，旨在满足欧洲市场对人工智能算力基础设施的激增需求。",
+      "tag_category": "综合",
+      "title_en": "SoftBank AI Investment France: €75 Billion Data Center Initiative | Newsvot"
+    },
+    {
+      "title": "Geordie AI筹集3000万美元A轮融资，助力企业治理自主AI代理（Geordie AI: $30 Million Series A Raised To Help Enterprises Govern Autonomous AI Agents）",
+      "url": "https://pulse2.com/geordie-ai-30-million-series-a-raised-to-help-enterprises-govern-autonomous-ai-agents/",
+      "description": "Geordie AI: $30 Million Series A Raised To Help Enterprises Govern Autonomous AI Agents\n\n# Geordie AI: $30 Million Series A Raised To Help Enterprises Govern Autonomous AI Agents\n\nBy Amit Chowdhry • Today at 9:33 AM\n\nGeordie AI: $30 Million Series A Raised To Help Enterprises Govern Autonomous AI Ag",
+      "published": "2026-05-31T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "随着AI Agent在企业内部的部署增加，AI行为的合规性、安全性及可追溯性成为刚需，AI治理工具市场正在快速崛起。",
+        "资本向AI治理领域倾斜，预示着半导体及底层算力在提供高性能之外，还需配合软件层实现更精细的权限与安全控制。"
+      ],
+      "actions": [
+        "芯片设计企业可在硬件层级增加支持AI安全隔离和可追溯性的功能模块，以迎合未来企业对AI治理的底层需求。",
+        "投资者及供应链从业者应关注AI安全与治理赛道，寻找相关的软件及硬件加密技术合作机会。"
+      ],
+      "glossary": [
+        {
+          "term": "Autonomous AI Agents",
+          "desc": "自主AI代理，指能够独立执行任务、做出决策的AI程序或系统",
+          "category": "人工智能"
+        },
+        {
+          "term": "Series A",
+          "desc": "A轮融资，初创企业早期的重要风险投资轮次",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "初创公司Geordie AI成功完成3000万美元的A轮融资，其核心业务是为企业提供自主AI代理的治理与管控解决方案。",
+      "tag_category": "综合",
+      "title_en": "Geordie AI: $30 Million Series A Raised To Help Enterprises Govern Autonomous AI Agents"
+    }
+  ],
+  "stats": {
+    "total_raw": 132,
+    "after_dedup": 99,
+    "sources": {
+      "Exa": 27,
+      "RSS": 45,
+      "Brave": 27
+    }
+  },
+  "code_version": "",
+  "data_commit": ""
+}

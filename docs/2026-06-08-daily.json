@@ -1,0 +1,635 @@
+{
+  "version": "v20260608-0703",
+  "generatedAt": "2026-06-08T07:03:00+08:00",
+  "period": "daily",
+  "commit": "",
+  "glossary_list": [
+    {
+      "term": "CoWoS",
+      "desc": "Chip-on-Wafer-on-Substrate，台积电2.5D/3D先进封装平台",
+      "category": "封装"
+    },
+    {
+      "term": "HBM",
+      "desc": "High Bandwidth Memory，高带宽内存，AI芯片关键配套",
+      "category": "存储"
+    },
+    {
+      "term": "OSAT",
+      "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
+      "category": "封装"
+    },
+    {
+      "term": "A+H上市",
+      "desc": "指公司同时在中国大陆A股和香港H股进行首次公开发行并上市",
+      "category": "金融"
+    },
+    {
+      "term": "GPU",
+      "desc": "图形处理器，在AI领域主要用于大规模并行计算",
+      "category": "芯片"
+    },
+    {
+      "term": "Kumo AI",
+      "desc": "一家专注于利用图神经网络进行企业预测的人工智能公司",
+      "category": "企业/AI"
+    },
+    {
+      "term": "FGR",
+      "desc": "First Graphene Limited，全球领先的石墨烯生产商",
+      "category": "材料"
+    },
+    {
+      "term": "MITO® Material Solutions",
+      "desc": "一家提供先进材料解决方案的公司，被FGR收购以拓展国防业务",
+      "category": "材料"
+    },
+    {
+      "term": "RAM",
+      "desc": "随机存取存储器，此处主要指DRAM等易失性存储芯片",
+      "category": "存储"
+    },
+    {
+      "term": "TSM",
+      "desc": "台湾积体电路制造（台积电）在纽约证券交易所的股票代码",
+      "category": "金融"
+    },
+    {
+      "term": "Circuit Board Resin",
+      "desc": "电路板树脂，用于制造印制电路板（PCB）的基础绝缘材料",
+      "category": "材料"
+    },
+    {
+      "term": "Nuclear-Powered Data Center",
+      "desc": "核能供电数据中心，利用核反应堆提供电力的数据中心，旨在满足AI高算力带来的巨大能耗",
+      "category": "基础设施"
+    },
+    {
+      "term": "Selloff",
+      "desc": "抛售，指投资者大量卖出股票导致价格急剧下跌的市场行为",
+      "category": "金融"
+    },
+    {
+      "term": "Computing Capacity",
+      "desc": "计算能力/算力，数据处理和计算的资源",
+      "category": "基础设施"
+    },
+    {
+      "term": "18A",
+      "desc": "Intel的先进半导体制造工艺节点，1.8埃米级别，采用RibbonFET和PowerVia技术",
+      "category": "制造工艺"
+    },
+    {
+      "term": "Clearwater Forest",
+      "desc": "Intel下一代基于E-core（能效核）的服务器处理器代号",
+      "category": "产品"
+    },
+    {
+      "term": "DLDO",
+      "desc": "数字低压差线性稳压器，一种通过数字电路控制输出电压的稳压器件",
+      "category": "芯片设计"
+    },
+    {
+      "term": "DVS",
+      "desc": "动态电压调节，根据系统负载动态调整电压以降低功耗的技术",
+      "category": "芯片设计"
+    },
+    {
+      "term": "FoM",
+      "desc": "品质因数，用于衡量稳压器综合性能的标准化指标，数值越小性能越好",
+      "category": "芯片设计"
+    },
+    {
+      "term": "Glass Substrate",
+      "desc": "玻璃基板，用于先进封装中替代有机基板的新一代材料，具有极低损耗和优异平整度",
+      "category": "封装"
+    },
+    {
+      "term": "DRAM",
+      "desc": "动态随机存取存储器，系统主存的主流技术",
+      "category": "存储"
+    },
+    {
+      "term": "Vera Processor",
+      "desc": "英伟达即将推出的一款处理器，可能结合了新一代CPU与GPU架构",
+      "category": "芯片设计"
+    },
+    {
+      "term": "RISC-V",
+      "desc": "基于精简指令集（RISC）原则的开源指令集架构",
+      "category": "芯片设计"
+    },
+    {
+      "term": "BMC",
+      "desc": "基板管理控制器，独立于服务器主系统运行，用于监控和管理服务器硬件状态",
+      "category": "芯片设计"
+    }
+  ],
+  "items": [
+    {
+      "title": "昆仑芯冲刺“A+H”上市",
+      "url": "https://36kr.com/p/3800326838918404",
+      "description": "昆仑芯，冲刺“A+H”上市-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 昆仑芯，冲刺“A+H”上市\n\n昆仑芯于2026年5月7日完成科创板IPO辅导备案，并仍在正常推动港股上市进程。这标志着昆仑芯将同时推进其 \"A+H\" 两地上市计划。\n\n百度旗下AI芯片企业昆仑芯于2026年5月7日完成科创板IPO辅导备案，辅导机构为中国国际金融股份有限公司，律师事务所为北京市汉坤律师事务所，会计师事务所为安永华明会计师事务所（特殊普通合伙）。\n\n此前，百度在港交所公告称，1月1日，昆仑芯已透过其联席保荐人以保密",
+      "published": "2026-06-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "国产GPU企业正迎来上市潮，通过资本市场融资以支撑高昂的研发投入成为行业共识。",
+        "A+H股同步上市有助于企业同时触达境内外资本，提升国际知名度与资金流动性。"
+      ],
+      "actions": [
+        "关注昆仑芯上市后的募资用途及新一代AI芯片研发进展，评估其供应链合作机会。",
+        "国产GPU赛道竞争加剧，相关供应链企业应尽早与头部玩家建立战略合作，锁定未来产能需求。"
+      ],
+      "glossary": [
+        {
+          "term": "A+H上市",
+          "desc": "指公司同时在中国大陆A股和香港H股进行首次公开发行并上市",
+          "category": "金融"
+        }
+      ],
+      "region": "domestic",
+      "summary": "百度旗下AI芯片企业昆仑芯已完成科创板IPO辅导备案，并同步推进港股上市进程，正式启动“A+H”两地上市计划。",
+      "tag_category": "EDA/IP",
+      "title_en": "昆仑芯，冲刺“A+H”上市-36氪"
+    },
+    {
+      "title": "估值210亿，李彦宏又将收获一个IPO",
+      "url": "https://36kr.com/p/3800464318979333",
+      "description": "估值210亿，李彦宏又将收获一个IPO-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\nAI测评网\n\n搜索\n\n我要入驻\n\n# 估值210亿，李彦宏又将收获一个IPO\n\n有望连续在A股敲钟、港股敲锣。\n\n国产GPU上市潮仍然汹涌，继两家登陆A股、两家登陆H股后，这家公司正推进A+H同步IPO。\n\n5月7日，人工智能芯片供应商昆仑芯（北京）科技股份有限公司（下称：昆仑芯），在北京证监局进行辅导备案（签署日为4月30日），拟科创板上市，辅导机构为中金公司。\n\n需要注意的是，2026年1月，昆仑芯已通过保密形式向港交所提交主板上市申请（A1表格）。",
+      "published": "2026-06-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "国产GPU企业估值普遍偏高，反映出资本市场对算力基础设施国产替代的强烈预期。",
+        "继多家GPU企业登陆资本市场后，行业将从拼融资转向拼落地与生态构建。"
+      ],
+      "actions": [
+        "投资者需理性看待国产GPU高估值，重点关注其产品在数据中心和边缘侧的实际出货量与市占率。",
+        "竞争对手应加快自身融资与产品迭代步伐，避免在资本与市场双重挤压下掉队。"
+      ],
+      "glossary": [
+        {
+          "term": "GPU",
+          "desc": "图形处理器，在AI领域主要用于大规模并行计算",
+          "category": "芯片"
+        }
+      ],
+      "region": "domestic",
+      "summary": "估值达210亿元的百度系AI芯片企业昆仑芯正推进A+H同步IPO，标志着国产GPU上市潮持续汹涌。",
+      "tag_category": "EDA/IP",
+      "title_en": "估值210亿，李彦宏又将收获一个IPO-36氪"
+    },
+    {
+      "title": "黄仁勋将于6月8日会见三星副会长全永贤，聚焦HBM与机器人合作（Jensen Huang to Meet Samsung Vice Chairman Jeon Younghyun on June 8... Focus on HBM and Robotics Collaboration - The Asia Business Daily）",
+      "url": "https://www.asiae.co.kr/en/article/2026060721023139181",
+      "description": "Jensen Huang to Meet Samsung Vice Chairman Jeon Younghyun on June 8... Focus on HBM and Robotics Collaboration - The Asia Business Daily\n\ncontainer\n\nLanguage\n\nDim\n\n## Jensen Huang: \"Meeting Jeon Younghyun of Samsung Tomorrow\"Meeting with Vice Chairman Jeon Younghyun Instead of Chairman Lee Jae-yongC",
+      "published": "2026-06-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "英伟达对HBM需求巨大，积极与三星等存储巨头会面，意在保障AI芯片关键物料供应并寻求更优定价。",
+        "机器人被视为AI的下一个重要落地场景，英伟达正通过合作加速该领域的生态布局。"
+      ],
+      "actions": [
+        "密切关注会晤后三星HBM产能分配及良率进展，这可能影响英伟达AI芯片的出货量。",
+        "机器人及具身智能供应链企业应关注英伟达在该领域的合作动向，提前适配其底层计算平台。"
+      ],
+      "glossary": [
+        {
+          "term": "HBM",
+          "desc": "高带宽内存，一种基于3D堆叠工艺的DRAM，适用于高性能计算和AI",
+          "category": "存储"
+        }
+      ],
+      "region": "overseas",
+      "summary": "英伟达CEO黄仁勋计划于6月8日与三星副会长全永贤会面，双方将重点讨论高带宽内存（HBM）及机器人领域的合作事宜。",
+      "tag_category": "综合",
+      "title_en": "Jensen Huang to Meet Samsung Vice Chairman Jeon Younghyun on June 8... Focus on HBM and Robotics Collaboration - The Asia Business Daily"
+    },
+    {
+      "title": "英伟达4亿美元收购Kumo AI，瞄准企业预测市场（Nvidia's $400 Million Kumo AI Acquisition Targets Enterprise Predictions）",
+      "url": "https://winbuzzer.com/2026/06/07/nvidia-kumo-ai-deal-targets-enterprise-predictions-xcxwbn/",
+      "description": "Nvidia's $400 Million Kumo AI Acquisition Targets Enterprise Predictions\n\nSearch\n\nCompanies, AI Divisions, Projects, Labs\n\nChatbots, AI Assistants, AI Solutions\n\n- Windows 10\n- Windows 11\n\n- Microsoft Azure\n- Google Cloud\n- Amazon Web Services (AWS)\n- Salesforce\n\nSearch\n\n# Nvidia’s $400 Million Kumo",
+      "published": "2026-06-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "英伟达正从底层算力提供商向AI应用层延伸，通过并购补齐垂直行业解决方案能力。",
+        "企业预测是AI大模型的重要B端落地场景，图神经网络等技术的融合将提升预测精度。"
+      ],
+      "actions": [
+        "企业级软件服务商需警惕英伟达向应用层的渗透，重新评估自身的竞争壁垒与合作空间。",
+        "关注Kumo AI的图神经网络技术如何与英伟达GPU生态结合，寻找新的软硬件协同优化机会。"
+      ],
+      "glossary": [
+        {
+          "term": "Kumo AI",
+          "desc": "一家专注于利用图神经网络进行企业预测的人工智能公司",
+          "category": "企业/AI"
+        }
+      ],
+      "region": "overseas",
+      "summary": "英伟达以4亿美元收购Kumo AI，旨在加强其在企业级预测分析领域的技术与市场布局。",
+      "tag_category": "设计公司",
+      "title_en": "Nvidia's $400 Million Kumo AI Acquisition Targets Enterprise Predictions"
+    },
+    {
+      "title": "FGR加速美国扩张及国防领域布局",
+      "url": "https://www.plastics-technology.com/pressreleases/fgr-accelerates-usa-expansion-defence-sector",
+      "description": "## Press releases\n\nPublish Your PressRelease\n\n## FGR accelerates USA expansion & defence sector exposure with strategic acquisition of MITO® Material Solutions\n\n4 June 2026\n\nFirst Graphene Limited (ASX: FGR; \"First Graphene\" or \"the Company\") (FRA:M11) (OTCQB:FGPHF) is pleased to announce that it ha",
+      "published": "2026-06-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "石墨烯等先进材料在国防军工领域的应用价值日益凸显，成为材料企业的新增长极。",
+        "通过收购具有特定资质或技术的本土企业，是跨国材料公司快速切入美国国防供应链的有效路径。"
+      ],
+      "actions": [
+        "半导体材料供应商应关注先进二维材料在特种芯片散热及防护中的潜在应用。",
+        "有意拓展海外市场的企业可借鉴此并购策略，通过收购当地企业规避贸易壁垒并获取准入资质。"
+      ],
+      "glossary": [
+        {
+          "term": "FGR",
+          "desc": "First Graphene Limited，全球领先的石墨烯生产商",
+          "category": "材料"
+        },
+        {
+          "term": "MITO® Material Solutions",
+          "desc": "一家提供先进材料解决方案的公司，被FGR收购以拓展国防业务",
+          "category": "材料"
+        }
+      ],
+      "region": "overseas",
+      "summary": "First Graphene Limited (FGR)通过战略收购MITO® Material Solutions，加速其在美国市场的扩张及在国防领域的业务布局。",
+      "tag_category": "综合",
+      "title_en": "Fgr accelerates usa expansion defence sector"
+    },
+    {
+      "title": "台积电CEO批评存储厂商涨价：羡慕他们的……（TSMC CEO criticises RAM makers for raising price, says ‘I envy their …’ - The Times of India）",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/tsmc-ceo-criticises-ram-makers-for-raising-price-says-i-envy-their-/articleshow/131565436.cms",
+      "description": "TSMC CEO criticises RAM makers for raising price, says ‘I envy their …’ - The Times of India\n\nEdition\n\nIN\n\nEnglish\n\nSign In\n\n- TOI Games\n- News\n- TSMC CEO criticises RAM makers for raising price, says ‘I envy their …’\n\n# TSMC CEO criticises RAM makers for raising price, says ‘I envy their …’\n\nCommen",
+      "published": "2026-06-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "存储芯片具有极强的周期性和寡头定价权，而代工价格受制于长期合约与客户关系，导致两者在AI红利下的利润表现分化。",
+        "台积电的表态暗示代工端可能面临上游成本压力，未来或通过调整代工价格来维持毛利率。"
+      ],
+      "actions": [
+        "芯片设计公司需警惕代工与存储双重涨价带来的成本上升风险，提前锁定产能与价格。",
+        "投资者应关注存储厂商的涨价持续性，以及台积电是否会将成本压力向下游传导。"
+      ],
+      "glossary": [
+        {
+          "term": "RAM",
+          "desc": "随机存取存储器，此处主要指DRAM等易失性存储芯片",
+          "category": "存储"
+        }
+      ],
+      "region": "overseas",
+      "summary": "台积电CEO公开批评存储器厂商涨价行为，并表达了对存储芯片厂商定价能力的羡慕，反映出晶圆代工与存储行业定价机制的差异。",
+      "tag_category": "Fab/制造",
+      "title_en": "TSMC CEO criticises RAM makers for raising price, says ‘I envy their …’ - The Times of India"
+    },
+    {
+      "title": "台积电(NYSE:TSM)股价下跌6.6%——是时候抛售了吗？",
+      "url": "https://www.thestockobserver.com/2026/06/07/taiwan-semiconductor-manufacturing-nysetsm-stock-price-down-6-6-time-to-sell.html",
+      "description": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Stock Price Down 6.6% – Time to Sell? - Stock Observer\n\n# Taiwan Semiconductor Manufacturing (NYSE:TSM) Stock Price Down 6.6% – Time to Sell?\n\nPosted by Geri Gentry on Jun 7th, 2026\n\nShare on Twitter Share on Facebook Share on LinkedIn Share on Stocktwit",
+      "published": "2026-06-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "半导体巨头股价的短期波动往往受宏观情绪和资金面影响，不一定反映基本面恶化。",
+        "市场对AI半导体估值存在分歧，高位回调容易引发恐慌性抛售讨论。"
+      ],
+      "actions": [
+        "投资者和供应链企业应关注台积电的长期产能利用率及先进制程需求，而非短期股价波动。",
+        "评估自身供应链合作条款，确保在市场波动期有足够的产能保障。"
+      ],
+      "glossary": [
+        {
+          "term": "TSM",
+          "desc": "台湾积体电路制造（台积电）在纽约证券交易所的股票代码",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "台积电(TSM)股价近期下跌6.6%，市场正在评估这是否为抛售信号。",
+      "tag_category": "综合",
+      "title_en": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Stock Price Down 6.6%  – Time to Sell? - Stock Observer"
+    },
+    {
+      "title": "电路板树脂价格将于今秋冲击下游消费者",
+      "url": "https://bimcmedia.com/circuit-board-resin-prices-set-to-hit-consumers-this-fall/",
+      "description": "Circuit Board Resin Prices Set to Hit Consumers This Fall - BIMC Media\n\n# Circuit Board Resin Prices Set to Hit Consumers This Fall\n\nJune 7, 2026\n\nCircuit board resin prices are climbing fast, and by autumn consumers buying smartphones, laptops, and AI-linked devices may start absorbing the shock at",
+      "published": "2026-06-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "上游原物料（如树脂）价格上涨将直接推高PCB制造成本，进而压缩中游代工厂利润。",
+        "成本转嫁至终端需要时间，秋季可能是集中体现期，表明供应链正在重新协商价格。"
+      ],
+      "actions": [
+        "PCB制造商应提前锁定树脂等关键原材料的长期供应合同，对冲价格波动风险。",
+        "终端设备厂商需重新评估下半年的BOM成本，准备应对供应商的涨价要求。"
+      ],
+      "glossary": [
+        {
+          "term": "Circuit Board Resin",
+          "desc": "电路板树脂，用于制造印制电路板（PCB）的基础绝缘材料",
+          "category": "材料"
+        }
+      ],
+      "region": "overseas",
+      "summary": "电路板树脂价格正在快速上涨，预计今年秋季将把成本压力转嫁给消费者。",
+      "tag_category": "综合",
+      "title_en": "Circuit Board Resin Prices Set to Hit Consumers This Fall - BIMC Media"
+    },
+    {
+      "title": "软银豪掷高达750亿欧元投资法国核能供电AI数据中心",
+      "url": "https://www.techtimes.com/articles/317948/20260607/softbank-bets-75-billion-nuclear-powered-ai-data-centers-france.htm",
+      "description": "SoftBank Bets Up to €75 Billion on Nuclear-Powered AI Data Centers in France\n\nSoftBank group Chairman and CEO Japanese businessman Masayoshi Son and France's President Emmanuel Macron (R) make a joint statement as part of a signing ceremony and a meeting at The Elysee Presidential Palace in Paris on",
+      "published": "2026-06-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI算力需求的爆发使得数据中心电力消耗剧增，核能正成为科技巨头解决能源瓶颈的关键选项。",
+        "欧洲特别是法国凭借成熟的核电基础设施，正在成为AI基础设施投资的新高地。"
+      ],
+      "actions": [
+        "半导体散热和电源管理芯片供应商应关注核能数据中心的特定需求，开发高能效解决方案。",
+        "供应链企业可加强与欧洲本土能源及基础设施公司的合作，以切入此类超大型项目。"
+      ],
+      "glossary": [
+        {
+          "term": "Nuclear-Powered Data Center",
+          "desc": "核能供电数据中心，利用核反应堆提供电力的数据中心，旨在满足AI高算力带来的巨大能耗",
+          "category": "基础设施"
+        }
+      ],
+      "region": "overseas",
+      "summary": "软银集团计划在法国投资高达750亿欧元，建设由核能供电的AI数据中心，法国总统马克龙参与了联合声明。",
+      "tag_category": "综合",
+      "title_en": "SoftBank Bets Up to €75 Billion on Nuclear-Powered AI Data Centers in France"
+    },
+    {
+      "title": "万亿美元AI半导体抛售：当好消息变成坏消息",
+      "url": "https://khancapitals.com/ai-semiconductor-selloff-june-2026/",
+      "description": "The $1 Trillion AI Semiconductor Selloff: When Good News Became Bad News - Khan Capital\n\n# The $1 Trillion AI Semiconductor Selloff: When Good News Became Bad News\n\n—\n\nby\n\n—\n\nEstimated Reading Time:\n\n12 minutes\n\nKhan Capitals | June 2026\n\n---\n\n## Key Takeaways\n\n- The AI semiconductor selloff erased ",
+      "published": "2026-06-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "“利好出尽是利空”，AI半导体板块估值过高时，任何不及超预期的高增长都会引发资本获利了结。",
+        "宏观流动性收紧或市场对AI变现能力的担忧，是导致大规模抛售的潜在诱因。"
+      ],
+      "actions": [
+        "芯片设计公司需向市场展示清晰的AI落地盈利路径，以稳定投资者信心。",
+        "供应链企业应警惕资本开支周期见顶的风险，避免在行业高景气顶点盲目扩张产能。"
+      ],
+      "glossary": [
+        {
+          "term": "Selloff",
+          "desc": "抛售，指投资者大量卖出股票导致价格急剧下跌的市场行为",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "AI半导体板块遭遇了高达万亿美元的抛售，市场情绪发生逆转，原本的利好消息反而引发了下跌。",
+      "tag_category": "综合",
+      "title_en": "The $1 Trillion AI Semiconductor Selloff: When Good News Became Bad News - Khan Capital"
+    },
+    {
+      "title": "SpaceX签署300亿美元协议向Google租赁计算能力",
+      "url": "https://cryptobriefing.com/spacex-30b-google-compute-deal/",
+      "description": "SpaceX signs $30B deal to lease computing capacity to Google\n\nSEARCH\n\nSearching...\n\n# SpaceX signs $30B deal to lease computing capacity to Google\n\nThe rocket company turned AI infrastructure giant will supply roughly 110,000 Nvidia GPUs to power Google's Gemini services, just days before its planne",
+      "published": "2026-06-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "商业航天公司正在将太空计算能力商业化，卫星网络与云端算力的结合开辟了新的商业模式。",
+        "Google等超大规模云厂商对分布式算力的需求已延伸至太空领域，算力基础设施的边界正在大幅拓宽。"
+      ],
+      "actions": [
+        "芯片设计公司应关注抗辐射和高可靠性计算芯片的需求，以适应太空等极端环境。",
+        "云计算和通信服务商需评估低轨卫星计算网络对现有地面数据中心业务的潜在补充或冲击。"
+      ],
+      "glossary": [
+        {
+          "term": "Computing Capacity",
+          "desc": "计算能力/算力，数据处理和计算的资源",
+          "category": "基础设施"
+        }
+      ],
+      "region": "overseas",
+      "summary": "SpaceX与Google签署了一项价值300亿美元的协议，将向Google租赁计算能力，标志着SpaceX正转型为AI基础设施巨头。",
+      "tag_category": "设计公司",
+      "title_en": "SpaceX signs $30B deal to lease computing capacity to Google"
+    },
+    {
+      "title": "Intel在2026年COMPUTEX上发布18A工艺Xeon 6+ \"Clearwater Forest\"处理器（Intel Releases 18A Xeon 6+ \"Clearwater Forest\" Processors at COMPUTEX 2026）",
+      "url": "https://techiexpert.com/intel-releases-18a-xeon-6-clearwater-forest-processors-at-computex-2026/",
+      "description": "Intel Releases 18A Xeon 6+ \"Clearwater Forest\" Processors at COMPUTEX 2026 - Techiexpert.com\n\n# Intel Releases 18A Xeon 6+ “Clearwater Forest” Processors at COMPUTEX 2026\n\nReading Time: 3 minutes\n\nKey Takeaways:\n\n- Clearwater Forest is Intel’s first data center processor manufactured on the Intel 18",
+      "published": "2026-06-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "Intel 18A工艺的正式发布标志着其先进制程追赶战略进入关键落地期，将直接影响数据中心CPU竞争格局。",
+        "Xeon 6+的推出旨在应对AMD在服务器市场的持续侵蚀，E-core（能效核）架构在云原生工作负载中优势明显。"
+      ],
+      "actions": [
+        "服务器ODM厂商需尽快完成基于新处理器的平台验证，抢占首批市场出货窗口。",
+        "竞争对手应重新评估产品路线图，特别是在能效核和先进封装集成方面的规划。"
+      ],
+      "glossary": [
+        {
+          "term": "18A",
+          "desc": "Intel的先进半导体制造工艺节点，1.8埃米级别，采用RibbonFET和PowerVia技术",
+          "category": "制造工艺"
+        },
+        {
+          "term": "Clearwater Forest",
+          "desc": "Intel下一代基于E-core（能效核）的服务器处理器代号",
+          "category": "产品"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Intel在2026年COMPUTEX展会上发布了基于18A工艺的Xeon 6+ \"Clearwater Forest\"处理器。",
+      "tag_category": "综合",
+      "title_en": "Intel Releases 18A Xeon 6+ \"Clearwater Forest\" Processors at COMPUTEX 2026 - Techiexpert.com"
+    },
+    {
+      "title": "IBM Research为2026年VLSI推出具备上升沿计算控制和负载相关反馈的1-1050mA DLDO，实现46mV/ns DVS速率和0.15ps FoM（A 1-to-1050-mA DLDO with Rising-Edge Computational Control and Load-Dependent Feedback Achieving 46-mV/ns DVS Rate and 0.15-ps FoM for VLSI Technology and Circuits 2026 - IBM Research）",
+      "url": "https://research.ibm.com/publications/a-1-to-1050-ma-dldo-with-rising-edge-computational-control-and-load-dependent-feedback-achieving-46-mvns-dvs-rate-and-015-ps-fom",
+      "description": "A 1-to-1050-mA DLDO with Rising-Edge Computational Control and Load-Dependent Feedback Achieving 46-mV/ns DVS Rate and 0.15-ps FoM for VLSI Technology and Circuits 2026 - IBM Research\n\n## Abstract\n\nThis brief presents a 1 mA–1050 mA computational DLDO for modern SoCs that achieves fast load transien",
+      "published": "2026-06-14T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "在高性能计算和AI芯片中，快速瞬态响应和高电源转换效率变得至关重要，推动了先进电源管理IC的发展。",
+        "引入计算控制和负载相关反馈机制，是突破传统模拟LDO性能瓶颈、适应下一代复杂计算负载的关键技术路径。"
+      ],
+      "actions": [
+        "电源管理IC（PMIC）设计公司应关注并尽早布局基于计算控制架构的数字LDO技术。",
+        "高性能计算系统架构师需评估此类具有超低品质因数的高性能DLDO，以优化下一代系统的功耗表现。"
+      ],
+      "glossary": [
+        {
+          "term": "DLDO",
+          "desc": "数字低压差线性稳压器，一种通过数字电路控制输出电压的稳压器件",
+          "category": "芯片设计"
+        },
+        {
+          "term": "DVS",
+          "desc": "动态电压调节，根据系统负载动态调整电压以降低功耗的技术",
+          "category": "芯片设计"
+        },
+        {
+          "term": "FoM",
+          "desc": "品质因数，用于衡量稳压器综合性能的标准化指标，数值越小性能越好",
+          "category": "芯片设计"
+        }
+      ],
+      "region": "overseas",
+      "summary": "IBM Research提出了一种新型数字低压差线性稳压器（DLDO），支持1至1050毫安的宽电流范围，并实现了卓越的电压转换速率和能效指标，旨在应用于2026年的VLSI技术。",
+      "tag_category": "综合",
+      "title_en": "A 1-to-1050-mA DLDO with Rising-Edge Computational Control and Load-Dependent Feedback Achieving 46-mV/ns DVS Rate and 0.15-ps FoM for VLSI Technology and Circuits 2026 - IBM Research"
+    },
+    {
+      "title": "Serenity预测AI封装将迎来新周期，玻璃基板增长（Serenity Foresees New AI Packaging Cycle, Glass Substrate Gr | Phemex News）",
+      "url": "https://phemex.com/news/article/serenity-predicts-new-cycle-for-advanced-ai-packaging-and-glass-substrate-industry-88495",
+      "description": "Serenity Foresees New AI Packaging Cycle, Glass Substrate Gr | Phemex News\n\nSign Up to 15,000 USDT in Rewards\n\nLimited-time offer is waiting for you!\n\nSign Up\n\nSerenity, known as the \"new stock market guru,\" announced on the X platform that a new cycle for advanced AI packaging is imminent. Key play",
+      "published": "2026-06-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "随着AI算力芯片对高密度互连的需求激增，传统有机基板已逐渐逼近物理极限，玻璃基板因其优异的电学和热学性能成为先进封装的必然趋势。",
+        "玻璃基板的引入将带动整个封装产业链的升级换代，产生新一轮的半导体设备投资周期。"
+      ],
+      "actions": [
+        "封装基板制造商应尽早评估并投资玻璃基板生产线，抢占未来AI算力封装的市场先机。",
+        "半导体设备供应商需重点布局玻璃基板所需的成型、通孔加工及精密键合设备。"
+      ],
+      "glossary": [
+        {
+          "term": "Glass Substrate",
+          "desc": "玻璃基板，用于先进封装中替代有机基板的新一代材料，具有极低损耗和优异平整度",
+          "category": "封装"
+        }
+      ],
+      "region": "overseas",
+      "summary": "市场分析机构Serenity预测，人工智能领域的芯片封装即将开启新一轮技术周期，其中玻璃基板技术将迎来显著增长。",
+      "tag_category": "Fab/制造",
+      "title_en": "Serenity Foresees New AI Packaging Cycle, Glass Substrate Gr | Phemex News"
+    },
+    {
+      "title": "英伟达选择SK海力士DRAM用于Vera处理器，推动其股价飙升（SK Hynix (000660.KS) Shares Surge After Nvidia Selects Its DRAM for Vera Processor - MoneyCheck）",
+      "url": "https://moneycheck.com/sk-hynix-000660-ks-shares-surge-after-nvidia-selects-its-dram-for-vera-processor/",
+      "description": "Close Menu \n\n Facebook X (Twitter) Instagram \n\n Facebook X (Twitter) Pinterest BlogLovin RSS \n\n \n\n \n\nHome / About / Advertise / Contact\n\n \n\n \n\nStocks\n\n# SK Hynix (000660.KS) Shares Surge After Nvidia Selects Its DRAM for Vera Processor\n\nBy Trader Edge June 7, 2026 No Comments 3 Mins Read\n\nShare\n\n Fa",
+      "published": "2026-06-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "英伟达Vera处理器的供应商选择进一步巩固了SK海力士在高端AI存储市场的绝对领先地位。",
+        "AI加速卡对高带宽内存的极度依赖，使得算力芯片巨头与顶尖存储厂商之间的供应链绑定日益深度的化。"
+      ],
+      "actions": [
+        "存储供应链从业者需密切关注Vera处理器的上市时间表，提前规划相关高带宽DRAM的产能和测试分配。",
+        "竞争对手应加速自身下一代高带宽存储技术的研发与验证，以突破SK海力士在AI存储市场建立的技术壁垒。"
+      ],
+      "glossary": [
+        {
+          "term": "DRAM",
+          "desc": "动态随机存取存储器，系统主存的主流技术",
+          "category": "存储"
+        },
+        {
+          "term": "Vera Processor",
+          "desc": "英伟达即将推出的一款处理器，可能结合了新一代CPU与GPU架构",
+          "category": "芯片设计"
+        }
+      ],
+      "region": "overseas",
+      "summary": "英伟达选定SK海力士的DRAM产品用于其下一代Vera处理器，消息传出后SK海力士股价大幅上涨。",
+      "tag_category": "设计公司",
+      "title_en": "SK Hynix (000660.KS) Shares Surge After Nvidia Selects Its DRAM for Vera Processor - MoneyCheck"
+    },
+    {
+      "title": "赛昉全球首款RISC-V BMC芯片昉·惊鸿-B100亮相",
+      "url": "https://www.cn486.com/news/4152956/",
+      "description": "赛昉全球首款RISC-V BMC芯片昉·惊鸿-B100亮相-菜鸟下载\n\n首页>资讯> 赛昉全球首款RISC-V BMC芯片昉·惊鸿-B100亮相\n\n其他资讯 综合资讯\n\n# 赛昉全球首款RISC-V BMC芯片昉·惊鸿-B100亮相\n\n2026-06-07\n\n阅读 0\n\n热度 0\n\n作者 菜鸟AI编辑部\n\n## 摘要\n\n赛昉科技在2026年台北国际电脑展展示全球首款RISC-V指令集BMC芯片昉·惊鸿-B100，采用自研内\n\nCOMPUTEX 2026现场，赛昉科技（StarFive）正式推出全球首款基于RISC-V指令集的BMC芯片——昉·惊鸿-B100（JH-B100）。这标志着RISC-",
+      "published": "2026-06-07T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "RISC-V架构正在从物联网和边缘计算领域向数据中心和企业级基础设施应用拓展，打破x86和Arm在服务器管理芯片中的传统垄断。",
+        "开源架构在BMC上的成功应用，为数据中心供应链的自主可控和功能定制提供了全新的解决思路。"
+      ],
+      "actions": [
+        "服务器制造商和数据中心运营商可启动基于RISC-V架构BMC芯片的系统级验证，评估其在定制化管理与安全方面的潜力。",
+        "BMC固件及软件开发商应尽早建立针对RISC-V架构的BSP（板级支持包）和系统管理软件生态。"
+      ],
+      "glossary": [
+        {
+          "term": "RISC-V",
+          "desc": "基于精简指令集（RISC）原则的开源指令集架构",
+          "category": "芯片设计"
+        },
+        {
+          "term": "BMC",
+          "desc": "基板管理控制器，独立于服务器主系统运行，用于监控和管理服务器硬件状态",
+          "category": "芯片设计"
+        }
+      ],
+      "region": "domestic",
+      "summary": "赛昉科技在2026年台北国际电脑展上展示了全球首款基于RISC-V指令集架构的BMC（基板管理控制器）芯片昉·惊鸿-B100。",
+      "tag_category": "EDA/IP",
+      "title_en": "赛昉全球首款RISC-V BMC芯片昉·惊鸿-B100亮相-菜鸟下载"
+    }
+  ],
+  "stats": {
+    "total_raw": 123,
+    "after_dedup": 103,
+    "sources": {
+      "Exa": 31,
+      "RSS": 45,
+      "Brave": 27
+    }
+  },
+  "code_version": "",
+  "data_commit": ""
+}

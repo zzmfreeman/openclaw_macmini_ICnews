@@ -1,0 +1,656 @@
+{
+  "version": "v20260605-0703",
+  "generatedAt": "2026-06-05T07:03:00+08:00",
+  "period": "daily",
+  "commit": "",
+  "glossary_list": [
+    {
+      "term": "CoWoS",
+      "desc": "Chip-on-Wafer-on-Substrate，台积电2.5D/3D先进封装平台",
+      "category": "封装"
+    },
+    {
+      "term": "HBM",
+      "desc": "High Bandwidth Memory，高带宽内存，AI芯片关键配套",
+      "category": "存储"
+    },
+    {
+      "term": "OSAT",
+      "desc": "Outsourced Semiconductor Assembly and Test，外包封测",
+      "category": "封装"
+    },
+    {
+      "term": "High-NA EUV",
+      "desc": "高数值孔径极紫外光刻技术，用于2nm以下先进制程",
+      "category": "光刻"
+    },
+    {
+      "term": "LSTC",
+      "desc": "Leading-edge Semiconductor Technology Center，日本先进半导体技术中心",
+      "category": "制造"
+    },
+    {
+      "term": "Process Variations",
+      "desc": "工艺变异，指芯片制造中由于物理或化学因素导致的参数偏差",
+      "category": "制造"
+    },
+    {
+      "term": "SK",
+      "desc": "SK集团，韩国第二大财阀，旗下拥有半导体巨头SK海力士",
+      "category": "企业"
+    },
+    {
+      "term": "AI chip",
+      "desc": "人工智能芯片，专为加速AI计算任务设计的处理器",
+      "category": "芯片"
+    },
+    {
+      "term": "Quantinuum",
+      "desc": "霍尼韦尔旗下的量子计算公司",
+      "category": "量子计算"
+    },
+    {
+      "term": "IPO",
+      "desc": "首次公开募股，企业首次向公众出售股票",
+      "category": "金融"
+    },
+    {
+      "term": "Acquisition",
+      "desc": "收购，一家公司购买另一家公司股权或资产的商业行为",
+      "category": "商业"
+    },
+    {
+      "term": "Fable",
+      "desc": "寓言，带有劝喻或讽刺意味的故事",
+      "category": "文学"
+    },
+    {
+      "term": "存储芯片",
+      "desc": "用于存储数据和程序的集成电路，主要包括DRAM、NAND Flash等",
+      "category": "存储"
+    },
+    {
+      "term": "次世代AI内存",
+      "desc": "指满足下一代AI计算高带宽、低延迟需求的存储器，如HBM",
+      "category": "存储"
+    },
+    {
+      "term": "机柜整合",
+      "desc": "将服务器、网络设备、散热及电源等组件集成在机柜中的解决方案",
+      "category": "服务器"
+    },
+    {
+      "term": "TSMC",
+      "desc": "台湾积体电路制造公司，全球最大的半导体代工厂",
+      "category": "Fab/制造"
+    },
+    {
+      "term": "Fab",
+      "desc": "晶圆制造厂，用于半导体芯片的制造",
+      "category": "Fab/制造"
+    },
+    {
+      "term": "Growth Outlook",
+      "desc": "增长前景，指企业或行业对未来业绩增长的预期",
+      "category": "市场/财务"
+    },
+    {
+      "term": "WebAssembly",
+      "desc": "一种可在现代浏览器中运行的低级类汇编语言，具有高效、轻量和安全的特性",
+      "category": "软件/架构"
+    },
+    {
+      "term": "X402 Payments",
+      "desc": "一种基于HTTP 402状态码的支付协议，用于实现机器间的自动化微支付",
+      "category": "区块链/支付"
+    },
+    {
+      "term": "SOI",
+      "desc": "Silicon-On-Insulator，绝缘体上硅，一种半导体工艺技术，可减少寄生电容，提高性能和抗辐射能力",
+      "category": "Fab/制造"
+    },
+    {
+      "term": "RF Switch",
+      "desc": "射频开关，用于控制射频信号路径的器件",
+      "category": "射频"
+    },
+    {
+      "term": "Digital Step Attenuator",
+      "desc": "数字步进衰减器，通过数字控制信号来步进调节射频信号功率的器件",
+      "category": "射频"
+    },
+    {
+      "term": "Semiconductor Printing",
+      "desc": "半导体打印，一种利用打印技术制造半导体器件的增材制造方法",
+      "category": "制造"
+    },
+    {
+      "term": "3D Printing",
+      "desc": "3D打印，又称增材制造，通过逐层打印来构造物体的技术",
+      "category": "制造"
+    },
+    {
+      "term": "AI Data Center",
+      "desc": "AI数据中心，专门为人工智能训练和推理工作负载设计的数据中心设施",
+      "category": "基础设施"
+    },
+    {
+      "term": "Foxconn",
+      "desc": "富士康，全球最大的电子代工制造服务商",
+      "category": "企业"
+    },
+    {
+      "term": "Physical AI",
+      "desc": "物理AI，指能够理解物理世界规律并在物理环境中执行任务的AI系统，如机器人和自动驾驶",
+      "category": "技术"
+    },
+    {
+      "term": "NVIDIA",
+      "desc": "英伟达，全球领先的GPU和AI计算平台提供商",
+      "category": "企业"
+    }
+  ],
+  "items": [
+    {
+      "title": "台积电已购入High-NA EUV但尚未量产，资本支出上修至560亿美元，魏哲家：社会责任仍须加大",
+      "url": "https://www.inside.com.tw/article/41467-tsmc-shareholders-meeting-2026-cc-wei-capex-high-na-euv-dividends",
+      "description": "台積電 High-NA EUV 已購入尚未量產、資本支出上修 560 億美元，魏哲家：社會責任仍須加大 - INSIDE\n\nPhoto Credit: 中央社\n\n# 台積電 High-NA EUV 已購入尚未量產、資本支出上修 560 億美元，魏哲家：社會責任仍須加大\n\n台積電股東會重點：因成本高昂，High-NA EUV 暫緩量產；資本支出上修至 560 億美元；股利與員工分紅承諾年增逾三成，並將加大社會回饋。\n\n股價一年漲逾 1.5 倍、資本支出上修至 560 億美元，台積電（TSMC）2026 年股東常會今（4）日在新竹登場，董事長暨總裁魏哲家就高數值孔徑極紫外光（High-NA EUV",
+      "published": "2026-06-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "High-NA EUV设备成本极高，台积电暂缓量产表明行业在2nm以下节点面临巨大的成本效益挑战。",
+        "资本支出上修至560亿美元，显示先进制程和AI芯片需求带来的产能扩张压力依然巨大。"
+      ],
+      "actions": [
+        "设备供应商需关注High-NA EUV量产延后带来的订单交付节奏调整风险。",
+        "供应链企业应提前准备应对台积电资本支出扩张带来的产能释放与配套材料需求。"
+      ],
+      "glossary": [
+        {
+          "term": "High-NA EUV",
+          "desc": "高数值孔径极紫外光刻技术，用于2nm以下先进制程",
+          "category": "光刻"
+        }
+      ],
+      "region": "domestic",
+      "summary": "台积电在股东会上宣布已购入High-NA EUV设备，但因成本高昂暂缓量产；同时将资本支出上修至560亿美元，并承诺股利与员工分红年增逾三成。",
+      "tag_category": "Fab/制造",
+      "title_en": "台積電 High-NA EUV 已購入尚未量產、資本支出上修 560 億美元，魏哲家：社會責任仍須加大 - INSIDE"
+    },
+    {
+      "title": "LSTC的研究突破阐明了2nm以下工艺的变异问题，支持Rapidus的1.4nm雄心（[News] LSTC’s Research Breakthrough Clarifies Sub-2nm Process Variations, Supporting Rapidus’s 1.4nm Ambitions）",
+      "url": "https://www.trendforce.com/news/2026/06/04/news-lstcs-research-breakthrough-clarifies-sub-2nm-process-variations-supporting-rapiduss-1-4nm-ambitions/",
+      "description": "[News] LSTC’s Research Breakthrough Clarifies Sub-2nm Process Variations, Supporting Rapidus’s 1.4nm Ambitions\n\n# [News] LSTC’s Research Breakthrough Clarifies Sub-2nm Process Variations, Supporting Rapidus’s 1.4nm Ambitions\n\n---\n\n---\n\nAs Rapidus advances toward its roadmap of 2nm mass production in",
+      "published": "2026-06-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "2nm以下节点的工艺变异是量产的主要障碍，LSTC的突破为GAA等先进架构的良率提升铺平道路。",
+        "Rapidus获得LSTC技术支持，有望加速日本在先进制程领域的追赶步伐，但量产能力仍是考验。"
+      ],
+      "actions": [
+        "关注LSTC在亚2nm工艺变异控制上的技术细节，评估其在GAA晶体管设计中的应用潜力。",
+        "芯片设计公司可重新评估与Rapidus合作的可行性及1.4nm节点的流片时间表。"
+      ],
+      "glossary": [
+        {
+          "term": "LSTC",
+          "desc": "Leading-edge Semiconductor Technology Center，日本先进半导体技术中心",
+          "category": "制造"
+        },
+        {
+          "term": "Process Variations",
+          "desc": "工艺变异，指芯片制造中由于物理或化学因素导致的参数偏差",
+          "category": "制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "LSTC的研究突破成功解释了2nm以下制程的工艺变异问题，为Rapidus实现1.4nm制程目标提供了技术支持。",
+      "tag_category": "综合",
+      "title_en": "[News] LSTC’s Research Breakthrough Clarifies Sub-2nm Process Variations, Supporting Rapidus’s 1.4nm Ambitions"
+    },
+    {
+      "title": "SK会长崔泰源会见TSMC与Nvidia高管以加强AI芯片合作（SK's Chey Tae-won meets TSMC, Nvidia chiefs to boost AI chip ties | Asianet Newsable）",
+      "url": "https://newsable.asianetnews.com/business/sks-chey-taewon-meets-tsmc-nvidia-chiefs-to-boost-ai-chip-ties-articleshow-dcgavzk",
+      "description": "SK's Chey Tae-won meets TSMC, Nvidia chiefs to boost AI chip ties | Asianet Newsable\n\n- Home\n- Business\n- SK's Chey Tae-won meets TSMC, Nvidia chiefs to boost AI chip ties\n\n# SK's Chey Tae-won meets TSMC, Nvidia chiefs to boost AI chip ties\n\n3 Min read\n\nAuthor : Asianet News Central| ANI\n\nPublished ",
+      "published": "2026-06-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "SK集团积极与TSMC和Nvidia建立联系，反映出韩国半导体巨头在AI芯片供应链中寻求更紧密的代工与生态绑定。",
+        "HBM作为AI芯片关键内存，SK海力士（SK集团旗下）与TSMC和Nvidia的协同至关重要。"
+      ],
+      "actions": [
+        "HBM及相关先进封装供应链应密切关注SK与TSMC/Nvidia的合作动向，调整产能与客户策略。",
+        "竞争对手需警惕韩国在AI芯片联盟中的合纵连横，评估自身供应链安全性。"
+      ],
+      "glossary": [
+        {
+          "term": "SK",
+          "desc": "SK集团，韩国第二大财阀，旗下拥有半导体巨头SK海力士",
+          "category": "企业"
+        },
+        {
+          "term": "AI chip",
+          "desc": "人工智能芯片，专为加速AI计算任务设计的处理器",
+          "category": "芯片"
+        }
+      ],
+      "region": "overseas",
+      "summary": "SK集团会长崔泰源会见了TSMC和Nvidia的高管，旨在加强在AI芯片领域的合作关系。",
+      "tag_category": "EDA/IP",
+      "title_en": "SK's Chey Tae-won meets TSMC, Nvidia chiefs to boost AI chip ties | Asianet Newsable"
+    },
+    {
+      "title": "Honeywell旗下量子计算部门Quantinuum在美国IPO中筹集16.8亿美元（Quantinuum, Honeywell's quantum arm raises $1.68B in US IPO）",
+      "url": "https://www.newsbytesapp.com/news/business/quantinuum-honeywells-quantum-arm-raises-168b-in-us-ipo/tldr",
+      "description": "Quantinuum, Honeywell's quantum arm raises $1.68B in US IPO {ced(ce('ie-0'))});}\"/>\n\nLOADING...\n\nQuantinuum sold 28 million shares at $60 each\n\n# Quantinuum, Honeywell's quantum arm raises $1.68B in US IPO\n\nBusiness Jun 04, 2026\n\nQuantinuum, Honeywell's quantum computing business formed through a me",
+      "published": "2026-06-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "量子计算企业成功获得巨额融资，表明资本市场对量子计算商业化前景的信心正在恢复。",
+        "传统工业巨头（如霍尼韦尔）分拆量子业务上市，成为量子技术走向市场的重要路径。"
+      ],
+      "actions": [
+        "关注Quantinuum的募资用途与技术路线进展，评估其对半导体EDA和仿真领域的潜在影响。",
+        "投资者及半导体企业可探索与量子计算公司在特定算法和材料模拟上的合作机会。"
+      ],
+      "glossary": [
+        {
+          "term": "Quantinuum",
+          "desc": "霍尼韦尔旗下的量子计算公司",
+          "category": "量子计算"
+        },
+        {
+          "term": "IPO",
+          "desc": "首次公开募股，企业首次向公众出售股票",
+          "category": "金融"
+        }
+      ],
+      "region": "overseas",
+      "summary": "霍尼韦尔旗下的量子计算公司Quantinuum在美国首次公开募股（IPO）中筹集了16.8亿美元。",
+      "tag_category": "EDA/IP",
+      "title_en": "Quantinuum, Honeywell's quantum arm raises $1.68B in US IPO"
+    },
+    {
+      "title": "Functional Brands Inc.凭借不断增强的财务实力收购BullionFX及Alchemy（Functional Brands Inc. Enters BullionFX | Alchemy Acquisition From a Position of Improving Financial Strength — TradingView News）",
+      "url": "https://www.tradingview.com/news/tmx_newsfile:8c4cf44d6094b:0-functional-brands-inc-enters-bullionfx-alchemy-acquisition-from-a-position-of-improving-financial-strength/",
+      "description": "Functional Brands Inc. Enters BullionFX | Alchemy Acquisition From a Position of Improving Financial Strength — TradingView News\n\nSearch\n\nEN\n\n# Functional Brands Inc. Enters BullionFX | Alchemy Acquisition From a Position of Improving Financial Strength\n\n8 min read\n\nHighlights 51% Reduction in Curre",
+      "published": "2026-06-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "金融科技与交易平台领域的并购活动仍在继续，企业通过收购扩展业务版图。",
+        "此类跨界收购与半导体核心产业关联度低，但反映了资本市场在特定细分领域的活跃度。"
+      ],
+      "actions": [
+        "半导体供应链从业者可忽略此条非行业相关新闻，聚焦核心技术与制造动态。"
+      ],
+      "glossary": [
+        {
+          "term": "Acquisition",
+          "desc": "收购，一家公司购买另一家公司股权或资产的商业行为",
+          "category": "商业"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Functional Brands Inc.凭借其改善的财务实力，完成了对BullionFX和Alchemy的收购。",
+      "tag_category": "综合",
+      "title_en": "Functional Brands Inc. Enters BullionFX | Alchemy Acquisition From a Position of Improving Financial Strength — TradingView News"
+    },
+    {
+      "title": "寓言：那个得了忧郁症的工程师（Fable: The Engineer Who Got The Blues）",
+      "url": "https://www.electronicsweekly.com/blogs/mannerisms/fable/fable-the-engineer-who-got-the-blues-2026-06/",
+      "description": "<p>This engineer is famous for his wise sayings as well as for the scientific breakthrough which won him a Nobel Prize. &#160; &#160; Among his most famous insights are: ‘Strength ...</p>\n<p>The post <a href=\"https://www.electronicsweekly.com/blogs/mannerisms/fable/fable-the-engineer-who-got-the-blu",
+      "published": "Thu, 04 Jun 2026 13:30:15 +0000",
+      "source": "RSS",
+      "source_type": "RSS",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "工程师文化中不仅关注技术突破，心理健康与职业压力也是行业内不可忽视的隐性议题。",
+        "诺贝尔奖级科学家的名言与哲学思考，往往能为当前高压的半导体研发环境提供启示。"
+      ],
+      "actions": [
+        "半导体企业管理者应关注研发工程师的心理健康，建立有效的压力疏导机制。",
+        "从业者可阅读此类行业故事，汲取前辈的工程哲学与抗压智慧。"
+      ],
+      "glossary": [
+        {
+          "term": "Fable",
+          "desc": "寓言，带有劝喻或讽刺意味的故事",
+          "category": "文学"
+        }
+      ],
+      "region": "overseas",
+      "summary": "这是一篇关于一位工程师的寓言故事，该工程师以智慧名言和荣获诺贝尔奖的科学突破而闻名。",
+      "tag_category": "Fab/制造",
+      "title_en": "Fable: The Engineer Who Got The Blues"
+    },
+    {
+      "title": "AI引爆存储狂潮！港A半导体股又涨疯了",
+      "url": "https://www.hstong.com/news/detail/26060415071934304",
+      "description": "势头正盛的AI硬科技，持续飙涨。 周四，受美芯片股的提振，港A股半导体、存储芯片概念走强。 港股市场上，兆易创新涨超7%，英诺赛科、华虹半导体等多股跟涨。 ...",
+      "published": "16小时前",
+      "source": "www.hstong.com",
+      "source_type": "Serper",
+      "lang": "zh",
+      "tags": [],
+      "insights": [
+        "AI对存储芯片的强劲需求正直接反映在资本市场对半导体板块的追捧上，存储成为AI算力核心受益板块。",
+        "国内半导体及代工板块的景气度正由海外龙头向国内市场传导，资金开始挖掘具备国产替代逻辑的标的。"
+      ],
+      "actions": [
+        "关注国内存储芯片及代工龙头企业（如兆易创新、华虹半导体）的产能利用率和订单恢复情况，寻找基本面支撑。",
+        "警惕短期市场情绪过热带来的估值回调风险，避免盲目追高。"
+      ],
+      "glossary": [
+        {
+          "term": "存储芯片",
+          "desc": "用于存储数据和程序的集成电路，主要包括DRAM、NAND Flash等",
+          "category": "存储"
+        }
+      ],
+      "region": "domestic",
+      "summary": "受美芯片股提振，AI硬科技需求强劲，港股与A股半导体及存储芯片概念全线走强，兆易创新涨超7%，英诺赛科、华虹半导体等跟涨。",
+      "tag_category": "Fab/制造",
+      "title_en": "AI引爆存储狂潮！港A半导体股又涨疯了 港美股资讯"
+    },
+    {
+      "title": "冲冲冲！韩国“大咖”攀上鸿海 布局亚洲数据中心",
+      "url": "https://tw.news.yahoo.com/%E8%A1%9D%E8%A1%9D%E8%A1%9D-%E9%9F%93%E5%9C%8B-%E5%A4%A7%E5%92%96-%E6%94%80%E4%B8%8A%E9%B4%BB%E6%B5%B7-%E4%BD%88%E5%B1%80%E4%BA%9E%E6%B4%B2%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-084700631.html",
+      "description": "衝衝衝！韓國「大咖」攀上鴻海 佈局亞洲資料中心\n\n廣告\n\n財經中心／師瑞德報導\n\n鴻海董事長劉揚偉與 SK 集團會長崔泰源於台北會晤，雙方決議深化 AI基礎設施合作。整合鴻海在 AI 伺服器、散熱與機櫃整合的實力，結合 SK 集團的次世代 AI 記憶體與能源技術，攜手布局亞洲大型資料中心，強強聯手共創產業新局。（圖／記者王文承攝影）\n\n鴻海科技集團於今日宣布，董事長劉揚偉近日與韓國 SK 集團會長崔泰源在台北會面，雙方聚焦全球 AI 產業趨勢，將在 AI 伺服器、AI 資料中心及能源解決方案等領域深化策略合作，共同強化新世代 AI 基礎設施的競爭力。\n\n聚焦大型 AI 資料中心與垂直整合優勢\n",
+      "published": "2026-06-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI服务器的高功耗特性使得散热与能源管理成为数据中心建设的关键瓶颈，鸿海与SK的合作正是为了补齐各自短板。",
+        "亚洲大型数据中心市场正迎来巨头结盟时代，硬件垂直整合能力（服务器+内存+散热）成为核心竞争优势。"
+      ],
+      "actions": [
+        "AI服务器供应商应加强与存储巨头及能源管理厂商的战略合作，提供一体化解决方案以提升大客户中标率。",
+        "密切关注次世代AI内存（如HBM）与液冷散热技术在数据中心的应用渗透率，提前布局相关供应链。"
+      ],
+      "glossary": [
+        {
+          "term": "次世代AI内存",
+          "desc": "指满足下一代AI计算高带宽、低延迟需求的存储器，如HBM",
+          "category": "存储"
+        },
+        {
+          "term": "机柜整合",
+          "desc": "将服务器、网络设备、散热及电源等组件集成在机柜中的解决方案",
+          "category": "服务器"
+        }
+      ],
+      "region": "domestic",
+      "summary": "鸿海董事长刘扬伟与韩国SK集团会长崔泰源会晤，双方决定深化AI基础设施合作，结合鸿海的AI服务器与散热整合能力及SK集团的次世代AI内存与能源技术，携手布局亚洲大型数据中心。",
+      "tag_category": "综合",
+      "title_en": "衝衝衝！韓國「大咖」攀上鴻海 佈局亞洲資料中心"
+    },
+    {
+      "title": "台积电CEO表示：AI需求极高，‘我们只能生产这么多’",
+      "url": "https://www.thenews.com.pk/latest/1404744-tsmc-ceo-says-ai-demand-is-so-high-we-can-only-produce-so-much",
+      "description": "AI demand is so high 'we can only produce so much': TSMC CEO says\n\n# AI demand is so high 'we can only produce so much': TSMC CEO says\n\nWei added that TSMC is investing $165 billion in Arizona fabs\n\nBy The News Digital\n\nPublished June 04, 2026\n\nTSMC CEO says AI demand is so high 'we can only produce",
+      "published": "2026-06-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "台积电的产能瓶颈凸显了先进制程在AI浪潮下的供不应求现状，产能分配成为代工龙头的核心战略问题。",
+        "台积电在亚利桑那州高达1650亿美元的重金投资，表明其将长期产能扩张重心向海外转移以应对地缘政治风险和客户本土化需求。"
+      ],
+      "actions": [
+        "芯片设计公司需提前与台积电等代工厂锁定长期产能，避免因缺货错失市场窗口。",
+        "关注台积电海外建厂进度及其对供应链本地化的要求，设备与材料商应适时调整全球布局策略。"
+      ],
+      "glossary": [
+        {
+          "term": "TSMC",
+          "desc": "台湾积体电路制造公司，全球最大的半导体代工厂",
+          "category": "Fab/制造"
+        },
+        {
+          "term": "Fab",
+          "desc": "晶圆制造厂，用于半导体芯片的制造",
+          "category": "Fab/制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "台积电CEO魏哲家表示，目前AI需求极高，但产能有限只能生产这么多。他还补充道，台积电正在亚利桑那州投资1650亿美元建设晶圆厂。",
+      "tag_category": "Fab/制造",
+      "title_en": "AI demand is so high 'we can only produce so much': TSMC CEO says"
+    },
+    {
+      "title": "台积电董事长看好增长前景，股价飙升超150%（TSMC chairman upbeat on growth outlook as stock surges over 150%）",
+      "url": "https://focustaiwan.tw/business/202606040010",
+      "description": "TSMC chairman upbeat on growth outlook as stock surges over 150% - Focus Taiwan\n\nFocus Taiwan App\n\nDownload\n\n# TSMC chairman upbeat on growth outlook as stock surges over 150%\n\n06/04/2026 03:24 PM\n\nTo activate the text-to-speech service, please first agree to the privacy policy below.\n\nTaiwan Semico",
+      "published": "2026-06-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "台积电超150%的股价涨幅直接反映了资本市场对AI驱动下半导体代工龙头增长的强烈预期。",
+        "董事长的乐观表态预示着台积电在未来几个季度的营收和产能利用率将持续保持高位。"
+      ],
+      "actions": [
+        "投资者和供应链伙伴应密切关注台积电即将发布的财报及法说会指引，以确认增长预期的可持续性。",
+        "设备与材料供应商应借势台积电的扩产预期，加大先进制程相关产品的市场推广与备货。"
+      ],
+      "glossary": [
+        {
+          "term": "Growth Outlook",
+          "desc": "增长前景，指企业或行业对未来业绩增长的预期",
+          "category": "市场/财务"
+        }
+      ],
+      "region": "overseas",
+      "summary": "随着台积电股价飙升超过150%，台积电董事长对公司的增长前景表示乐观。",
+      "tag_category": "Fab/制造",
+      "title_en": "TSMC chairman upbeat on growth outlook as stock surges over 150% - Focus Taiwan"
+    },
+    {
+      "title": "Casper Network发布AI工具包，成为首个支持X402支付的WebAssembly原生区块链（Casper Network Launches AI Toolkit, Becoming First WebAssembly-Native Blockchain with Live X402 Payments）",
+      "url": "https://markets.businessinsider.com/news/currencies/casper-network-launches-ai-toolkit-becoming-first-webassembly-native-blockchain-with-live-x402-payments-1036225552",
+      "description": "Casper Network Launches AI Toolkit, Becoming First WebAssembly-Native Blockchain with Live X402 Payments | Currency News | Financial and Business News | Markets Insider\n\n# Casper Network Launches AI Toolkit, Becoming First WebAssembly-Native Blockchain with Live X402 Payments\n\nChainwire\n\nJun. 4, 202",
+      "published": "2026-06-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "WebAssembly（Wasm）因其轻量级和高性能特性，正成为区块链与AI结合场景下的重要底层技术架构。",
+        "X402支付协议的引入表明去中心化AI计算资源的微支付和自动化结算需求正在上升。"
+      ],
+      "actions": [
+        "关注WebAssembly在边缘AI和区块链融合应用中的技术演进，评估其在半导体安全执行环境中的潜力。",
+        "探索去中心化算力网络中的支付与结算机制，寻找AI算力共享经济的新商业模式。"
+      ],
+      "glossary": [
+        {
+          "term": "WebAssembly",
+          "desc": "一种可在现代浏览器中运行的低级类汇编语言，具有高效、轻量和安全的特性",
+          "category": "软件/架构"
+        },
+        {
+          "term": "X402 Payments",
+          "desc": "一种基于HTTP 402状态码的支付协议，用于实现机器间的自动化微支付",
+          "category": "区块链/支付"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Casper Network推出AI工具包，成为首个支持X402实时支付的WebAssembly原生区块链，旨在结合AI与区块链技术实现自动化微支付。",
+      "tag_category": "综合",
+      "title_en": "Casper Network Launches AI Toolkit, Becoming First WebAssembly-Native Blockchain with Live X402 Payments | Currency News |  Financial and Business News | Markets Insider"
+    },
+    {
+      "title": "Qorvo发布面向国防和航天应用的新产品组合：SOI射频开关与数字步进衰减器（SOI RF Switches and Digital Step Attenuators: Qorvo Launches New Portfolio for Defense and Aerospace Applications）",
+      "url": "https://www.electronicsmedia.info/2026/06/04/soi-rf-switches-and-digital-step-attenuators/",
+      "description": "SOI RF Switches and Digital Step Attenuators: Qorvo Launches New Portfolio for Defense and Aerospace Applications\n\n- Products News\n- Business News\n\nTech Focus\n\nApplications\n\nTrending Technology\n\nEditorial\n\nMore\n\nSearch\n\nThursday, June 4, 2026\n\nSign in\n\nWelcome! Log into your account\n\nyour username\n\n",
+      "published": "2026-06-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "SOI（绝缘体上硅）技术因其抗辐射和高线性度特性，在国防和航天等极端环境射频应用中具有不可替代的优势。",
+        "Qorvo推出该产品组合，反映了地缘政治紧张局势下国防和航天领域对高性能射频前端器件的强劲需求。"
+      ],
+      "actions": [
+        "射频芯片设计公司应加大对SOI工艺的投入，以切入高壁垒、高毛利的国防航天供应链。",
+        "关注国防航天市场对射频开关和衰减器的国产替代需求，提前布局相关测试与认证资质。"
+      ],
+      "glossary": [
+        {
+          "term": "SOI",
+          "desc": "Silicon-On-Insulator，绝缘体上硅，一种半导体工艺技术，可减少寄生电容，提高性能和抗辐射能力",
+          "category": "Fab/制造"
+        },
+        {
+          "term": "RF Switch",
+          "desc": "射频开关，用于控制射频信号路径的器件",
+          "category": "射频"
+        },
+        {
+          "term": "Digital Step Attenuator",
+          "desc": "数字步进衰减器，通过数字控制信号来步进调节射频信号功率的器件",
+          "category": "射频"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Qorvo针对国防和航天应用发布了新产品组合，包括SOI射频开关和数字步进衰减器，以满足高可靠性场景需求。",
+      "tag_category": "综合",
+      "title_en": "SOI RF Switches and Digital Step Attenuators: Qorvo Launches New Portfolio for Defense and Aerospace Applications"
+    },
+    {
+      "title": "德州大学奥斯汀分校将半导体打印技术缩小至研究级规模（UT Austin Shrinks Semiconductor Printing to Research Scale - 3D Printing Industry）",
+      "url": "https://3dprintingindustry.com/news/ut-austin-shrinks-semiconductor-printing-to-research-scale-252084/",
+      "description": "UT Austin Shrinks Semiconductor Printing to Research Scale - 3D Printing Industry\n\nUT Austin Shrinks Semiconductor Printing to Research Scale\n\nSemiconductor manufacturing sits at the foundation of modern electronics, yet the barrier to entry is so extreme that meaningful research remains out of reac",
+      "published": "2026-06-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "半导体3D打印技术向研究级规模缩小，有助于降低半导体制造的原型设计门槛和研发成本。",
+        "非传统半导体制造技术（如3D打印）的进步，可能为未来柔性电子和定制化芯片提供新路径。"
+      ],
+      "actions": [
+        "材料与设备供应商应关注3D打印半导体技术的进展，提前布局适用于该工艺的专用墨水和打印设备。",
+        "芯片设计公司可探索利用3D打印技术进行快速原型验证，以加速新型芯片架构的迭代。"
+      ],
+      "glossary": [
+        {
+          "term": "Semiconductor Printing",
+          "desc": "半导体打印，一种利用打印技术制造半导体器件的增材制造方法",
+          "category": "制造"
+        },
+        {
+          "term": "3D Printing",
+          "desc": "3D打印，又称增材制造，通过逐层打印来构造物体的技术",
+          "category": "制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "德州大学奥斯汀分校成功将半导体打印技术缩小至研究级规模，这为半导体制造的微型化和3D打印在芯片领域的应用奠定了基础。",
+      "tag_category": "综合",
+      "title_en": "UT Austin Shrinks Semiconductor Printing to Research Scale - 3D Printing Industry"
+    },
+    {
+      "title": "英特尔(INTC)与富士康(Foxconn)联手打造先进AI数据中心解决方案（Intel (INTC) and Foxconn Join Forces on Advanced AI Data Center Solutions - MoneyCheck）",
+      "url": "https://moneycheck.com/intel-intc-and-foxconn-join-forces-on-advanced-ai-data-center-solutions/",
+      "description": "Close Menu \n\n Facebook X (Twitter) Instagram \n\n Facebook X (Twitter) Pinterest BlogLovin RSS \n\n \n\n \n\nHome / About / Advertise / Contact\n\n \n\n \n\nStocks\n\n# Intel (INTC) and Foxconn Join Forces on Advanced AI Data Center Solutions\n\nBy Trader Edge June 4, 2026 No Comments 3 Mins Read\n\nShare\n\n Facebook Tw",
+      "published": "2026-06-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "英特尔与富士康的合作反映了AI数据中心对高度集成、定制化硬件解决方案的迫切需求。",
+        "代工巨头与芯片巨头的深度绑定，有助于加速AI服务器从芯片到系统的交付周期，提升市场竞争力。"
+      ],
+      "actions": [
+        "AI服务器供应链厂商应积极对接英特尔与富士康的生态，争取进入其联合推出的数据中心解决方案配套体系。",
+        "竞争对手需警惕该联盟在AI基础设施市场的份额扩张，并寻求自身的代工或系统级合作伙伴。"
+      ],
+      "glossary": [
+        {
+          "term": "AI Data Center",
+          "desc": "AI数据中心，专门为人工智能训练和推理工作负载设计的数据中心设施",
+          "category": "基础设施"
+        },
+        {
+          "term": "Foxconn",
+          "desc": "富士康，全球最大的电子代工制造服务商",
+          "category": "企业"
+        }
+      ],
+      "region": "overseas",
+      "summary": "英特尔与富士康宣布合作，共同开发面向先进AI数据中心的解决方案，旨在整合双方在芯片与代工制造方面的优势。",
+      "tag_category": "综合",
+      "title_en": "Intel (INTC) and Foxconn Join Forces on Advanced AI Data Center Solutions - MoneyCheck"
+    },
+    {
+      "title": "[独家] LG加速推进物理AI，全面扩大与NVIDIA（英伟达）的合作（[Exclusive] LG Accelerates Physical AI Push, Expands Cooperation With NVIDIA Across the Board - MK）",
+      "url": "https://www.mk.co.kr/en/business/12066090",
+      "description": "[Exclusive] LG Accelerates Physical AI Push, Expands Cooperation With NVIDIA Across the Board - MK\n\ngo to news\n\n# detail\n\n* It has been translated using AI\n\n## [Exclusive] LG Accelerates Physical AI Push, Expands Cooperation With NVIDIA Across the Board\n\n사진 확대\n\nLG Group's move to bring in 10,000 Nvi",
+      "published": "2026-06-04T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "物理AI（如机器人、智能汽车）正成为科技巨头竞相布局的新战场，NVIDIA的底层算力生态是关键推手。",
+        "传统家电与消费电子厂商通过与NVIDIA深度绑定，能够加速产品智能化转型，提升硬件附加值。"
+      ],
+      "actions": [
+        "消费电子及机器人供应链企业应密切关注物理AI的发展趋势，开发兼容NVIDIA平台的边缘侧硬件模块。",
+        "国内芯片厂商需在物理AI领域寻找差异化竞争点，避免在NVIDIA生态扩张下被边缘化。"
+      ],
+      "glossary": [
+        {
+          "term": "Physical AI",
+          "desc": "物理AI，指能够理解物理世界规律并在物理环境中执行任务的AI系统，如机器人和自动驾驶",
+          "category": "技术"
+        },
+        {
+          "term": "NVIDIA",
+          "desc": "英伟达，全球领先的GPU和AI计算平台提供商",
+          "category": "企业"
+        }
+      ],
+      "region": "overseas",
+      "summary": "LG正加速布局物理AI领域，并全面扩大与NVIDIA（英伟达）的合作范围，旨在将AI技术更深地融入其硬件与消费电子产品中。",
+      "tag_category": "设计公司",
+      "title_en": "[Exclusive] LG Accelerates Physical AI Push, Expands Cooperation With NVIDIA Across the Board - MK"
+    }
+  ],
+  "stats": {
+    "total_raw": 144,
+    "after_dedup": 114,
+    "sources": {
+      "Serper": 1,
+      "Exa": 36,
+      "RSS": 45,
+      "Brave": 32
+    }
+  },
+  "code_version": "",
+  "data_commit": ""
+}
