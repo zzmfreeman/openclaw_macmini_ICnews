@@ -1,6 +1,6 @@
 {
-  "version": "v20260612-0704",
-  "generatedAt": "2026-06-12T07:04:00+08:00",
+  "version": "v20260613-0704",
+  "generatedAt": "2026-06-13T07:04:00+08:00",
   "period": "daily",
   "commit": "",
   "glossary_list": [
@@ -20,626 +20,606 @@
       "category": "封装"
     },
     {
-      "term": "Foundry",
-      "desc": "晶圆代工，指专门为其他半导体公司制造芯片的工厂模式",
-      "category": "制造"
-    },
-    {
-      "term": "AI chip",
-      "desc": "人工智能芯片，专门用于加速AI计算与推理任务的处理器",
+      "term": "TPU",
+      "desc": "张量处理单元，谷歌为加速AI计算自主研发的专用芯片",
       "category": "芯片"
     },
     {
-      "term": "N2",
-      "desc": "台积电2纳米制程技术节点",
-      "category": "制造"
-    },
-    {
-      "term": "SoIC",
-      "desc": "系统整合芯片，台积电的3D堆叠先进封装技术",
+      "term": "EMIB",
+      "desc": "嵌入式多芯片互连桥接，Intel主导的先进2.5D封装技术",
       "category": "封装"
-    },
-    {
-      "term": "光刻胶",
-      "desc": "光刻工艺中使用的抗蚀剂材料，是半导体制造的核心耗材",
-      "category": "材料"
-    },
-    {
-      "term": "Inflation",
-      "desc": "通货膨胀，导致整体物价水平上涨、货币购买力下降的经济现象",
-      "category": "宏观"
-    },
-    {
-      "term": "Infinix",
-      "desc": "传音控股旗下的智能手机品牌，主要面向非洲、南亚等新兴市场",
-      "category": "终端"
     },
     {
       "term": "RISC-V",
-      "desc": "一种基于精简指令集（RISC）原则的开源指令集架构",
+      "desc": "开源指令集架构，广泛应用于定制化与低功耗芯片设计",
       "category": "架构"
     },
     {
-      "term": "SBC",
-      "desc": "单板计算机，将完整计算机系统集成在单一电路板上的微型计算机",
-      "category": "硬件"
+      "term": "Chiplet",
+      "desc": "芯粒/小芯片，将复杂芯片功能拆分为多个独立小芯片再封装的设计模式",
+      "category": "设计/封装"
     },
     {
-      "term": "Missing Models",
-      "desc": "缺失模型，通常指在芯片设计或仿真过程中缺失的组件、IP或行为模型",
-      "category": "EDA/设计"
-    },
-    {
-      "term": "ASE",
-      "desc": "日月光半导体，全球领先的半导体封装与测试服务提供商",
-      "category": "封测"
-    },
-    {
-      "term": "SPIL",
-      "desc": "矽品精密工业，日月光集团旗下的封测子公司",
-      "category": "封测"
-    },
-    {
-      "term": "Advanced Packaging",
-      "desc": "先进封装，如CoWoS、2.5D/3D封装等，用于提升芯片互联密度和性能",
-      "category": "封装"
-    },
-    {
-      "term": "Amkor",
-      "desc": "安靠科技，全球领先的半导体封装与测试外包服务提供商",
-      "category": "封测"
-    },
-    {
-      "term": "KRW",
-      "desc": "韩元，韩国法定货币",
-      "category": "金融"
-    },
-    {
-      "term": "Polymatech",
-      "desc": "一家专注于半导体芯片制造与封装的跨国企业",
+      "term": "TeraFab",
+      "desc": "特斯拉提出的超级制造工厂概念，旨在实现极高吞吐量的先进制造",
       "category": "制造"
     },
     {
-      "term": "Advanced Manufacturing Hub",
-      "desc": "先进制造中心，集成了高端制造技术与供应链管理功能的产业基地",
+      "term": "EUV",
+      "desc": "极紫外光刻，使用13.5nm波长光进行芯片图案化的最先进光刻技术",
+      "category": "设备/制造"
+    },
+    {
+      "term": "Computex",
+      "desc": "台北国际电脑展，全球重要的IT和半导体产业展会之一",
+      "category": "行业展会"
+    },
+    {
+      "term": "TWSE",
+      "desc": "台湾证券交易所，推动台湾半导体及科技企业上市融资的核心资本市场",
+      "category": "资本/综合"
+    },
+    {
+      "term": "Bitcoin",
+      "desc": "比特币，全球最主流的去中心化加密货币，其网络运行与挖矿依赖高性能ASIC算力",
+      "category": "加密货币/综合"
+    },
+    {
+      "term": "ETF",
+      "desc": "交易型开放式指数基金，跟踪特定股票指数并在交易所上市交易的基金产品",
+      "category": "资本/金融"
+    },
+    {
+      "term": "3nm制程",
+      "desc": "晶体管栅极长度为3纳米级别的半导体制造工艺，目前最先进的制程节点之一，主要用于高性能计算和AI芯片。",
       "category": "制造"
     },
     {
-      "term": "Applied Materials",
-      "desc": "应用材料公司，全球最大的半导体制造设备供应商之一",
-      "category": "设备"
+      "term": "太空算力盒",
+      "desc": "部署于太空环境中，具备数据处理和计算能力的航天级硬件设备，需具备极强的抗辐射和耐温差性能。",
+      "category": "应用"
     },
     {
-      "term": "Global Capacity",
-      "desc": "全球产能，指企业在全球范围内的总生产制造能力",
+      "term": "水资源短缺",
+      "desc": "半导体制造过程中需要大量超纯水清洗晶圆，水资源不足将直接影响晶圆厂的产能利用率和扩产计划。",
       "category": "制造"
     },
     {
-      "term": "SMT",
-      "desc": "表面贴装技术（Surface Mount Technology），将电子元器件贴装到PCB板上的电路组装技术。",
+      "term": "半导体周期",
+      "desc": "半导体行业受宏观经济和供需关系影响，呈现出的繁荣与衰退交替出现的周期性特征，通常持续3-4年。",
+      "category": "市场"
+    },
+    {
+      "term": "Dimensity 9500",
+      "desc": "联发科（MediaTek）推出的天玑系列高端智能手机处理器芯片，采用先进制程，主打高算力与AI性能。",
+      "category": "芯片"
+    },
+    {
+      "term": "参数量",
+      "desc": "衡量神经网络模型规模和大小的指标，通常参数量越大的模型表达能力越强，但训练和推理所需的算力与内存也越高。",
+      "category": "AI"
+    },
+    {
+      "term": "FPGA",
+      "desc": "现场可编程门阵列，一种半定制电路，可灵活配置硬件逻辑",
+      "category": "芯片架构"
+    },
+    {
+      "term": "Agilex 5",
+      "desc": "Intel/Altera推出的FPGA产品系列，主打中端性能与低功耗",
+      "category": "产品"
+    },
+    {
+      "term": "Amkor Technology",
+      "desc": "安靠科技，全球最大的外包半导体封装和测试服务提供商之一",
+      "category": "企业"
+    },
+    {
+      "term": "Peoria",
+      "desc": "安靠科技在美国亚利桑那州Peoria的先进封装制造基地",
       "category": "制造"
     },
     {
       "term": "ASMPT",
-      "desc": "ASM太平洋科技，全球领先的半导体封装及SMT设备供应商。",
-      "category": "公司"
+      "desc": "ASM太平洋科技，全球领先的半导体封装及SMT设备供应商",
+      "category": "企业"
     },
     {
-      "term": "SPAC",
-      "desc": "特殊目的收购公司（Special Purpose Acquisition Company），一种旨在通过IPO筹集资金以收购现有公司的空壳公司，又称“空白支票公司”。",
-      "category": "金融"
-    },
-    {
-      "term": "8-K Filing",
-      "desc": "8-K文件，美国证券交易委员会（SEC）要求上市公司提交的重大事件报告文件，用于通知投资者重要事项。",
-      "category": "合规"
-    },
-    {
-      "term": "Memory Sector",
-      "desc": "存储行业，涵盖DRAM、NAND Flash及HBM等存储芯片的设计与制造领域。",
-      "category": "产业"
+      "term": "SMT",
+      "desc": "表面贴装技术，将电子元器件贴装在PCB表面的工艺技术",
+      "category": "制造"
     }
   ],
   "items": [
     {
-      "title": "台积电产能爆满英伟达敲门，三星晶圆代工嗅到复苏气息（TSMC’s Packed, Nvidia’s Knocking, and Samsung Foundry Smells a Comeback）",
-      "url": "https://www.republicworld.com/tech/tsmcs-packed-nvidias-knocking-and-samsung-foundry-smells-a-comeback-2026-06-11-127785",
-      "description": "TSMC’s Packed, Nvidia’s Knocking, and Samsung Foundry Smells a Comeback | Republic World\n\nUpdated 11 June 2026 at 13:45 IST\n\n## Samsung Foundry is rebounding after five quarters of losses, with AI chip deals from Nvidia, Tesla, and Apple, improved 2nm yields, and rising utilization boosting prospect",
-      "published": "2026-06-11T00:00:00.000Z",
+      "title": "谷歌下一代TPU是否会重新转向台积电(TSMC)？深入解析EMIB与CoWoS之争",
+      "url": "https://cwnewsroom.substack.com/p/could-google-next-tpu-shift-back-to-tsmc-inside-the-emib-cowos-battle",
+      "description": "Could Google's Next TPU Shift Back to TSMC? Inside the EMIB vs. CoWoS Battle\n\nSubscribeSign in\n\n# Could Google's Next TPU Shift Back to TSMC? Inside the EMIB vs. CoWoS Battle\n\n### Liang-rong Chen\n\nJun 12, 2026\n\n∙ Paid\n\n5\n\n2\n\nShare\n\nAmid the flood of headline-grabbing announcements at Computex last w",
+      "published": "2026-06-12T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "AI芯片需求正在重塑晶圆代工格局，三星借此扭转亏损局面，显示其先进制程竞争力有所回升。",
-        "台积电产能满载且英伟达等头部客户持续敲门，表明高端AI算力需求依然强劲且高度集中于头部代工厂。"
+        "封装技术已成为AI芯片性能与产能的关键瓶颈，CoWoS与EMIB的竞争实质是台积电与Intel在先进封装代工领域的争夺。",
+        "超大算力AI芯片（如TPU）对高密度互联与散热要求极高，CoWoS在当前产能扩充下可能更具吸引力。"
       ],
       "actions": [
-        "关注三星代工复苏带来的供应链转移机会，评估其AI芯片代工的良率与交付能力。",
-        "针对台积电产能爆满的现状，需提前规划产能预订或寻找替代代工资源以规避交付风险。"
+        "密切关注台积电CoWoS产能释放进度，评估其对大客户订单分配的影响。",
+        "芯片设计公司需在架构早期进行EMIB与CoWoS的Die间互联评估，以备封装代工切换的灵活性。"
       ],
       "glossary": [
         {
-          "term": "Foundry",
-          "desc": "晶圆代工，指专门为其他半导体公司制造芯片的工厂模式",
-          "category": "制造"
-        }
-      ],
-      "region": "overseas",
-      "summary": "三星晶圆代工在经历五个季度的亏损后，凭借AI芯片订单开始复苏；而台积电产能则因英伟达等大客户的需求持续爆满。",
-      "tag_category": "EDA/IP",
-      "title_en": "TSMC’s Packed, Nvidia’s Knocking, and Samsung Foundry Smells a Comeback | Republic World"
-    },
-    {
-      "title": "三星晶圆代工凭借AI芯片订单加速复苏（Samsung foundry rebound gathers pace on AI chip wins）",
-      "url": "https://www.tribuneindia.com/news/business/samsung-foundry-rebound-gathers-pace-on-ai-chip-wins/",
-      "description": "Samsung foundry rebound gathers pace on AI chip wins - The Tribune\n\nGenZ Speak Up !\n\nRegister now for Tribune AI Summer CampA comprehensive AI Certification CourseEnroll Now\n\nAdvertisement\n\n# Samsung foundry rebound gathers pace on AI chip wins\n\nFollow us Connect with us\n\nAdvertisement\n\nSeoul [South",
-      "published": "2026-06-11T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AI芯片已成为晶圆代工厂竞争的关键增长引擎，拿下AI订单是三星代工扭亏的核心动力。",
-        "三星在AI领域的订单突破表明其先进制程或特殊工艺（如GAA）开始获得市场认可。"
-      ],
-      "actions": [
-        "评估三星代工AI芯片的产能释放节奏，适时切入其供应链生态。",
-        "对比台积电与三星在AI代工领域的报价与交期，优化自身的代工策略与成本结构。"
-      ],
-      "glossary": [
-        {
-          "term": "AI chip",
-          "desc": "人工智能芯片，专门用于加速AI计算与推理任务的处理器",
+          "term": "TPU",
+          "desc": "张量处理单元，谷歌为加速AI计算自主研发的专用芯片",
           "category": "芯片"
-        }
-      ],
-      "region": "overseas",
-      "summary": "三星晶圆代工业务复苏步伐加快，主要得益于近期在AI芯片代工订单上的斩获。",
-      "tag_category": "EDA/IP",
-      "title_en": "Samsung foundry rebound gathers pace on AI chip wins - The Tribune"
-    },
-    {
-      "title": "解析台积电晶圆厂扩张路线图：多厂N2量产、CoWoS、SoIC及瓶颈突破（Analyzing TSMC's fab expansion roadmap — multi-fab N2 ramp, CoWoS, SoIC, and uncorking bottlenecks）",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/analyzing-tsmcs-fab-expansion-roadmap-multi-fab-n2-ramp-cowos-soic-and-uncorking-bottlenecks",
-      "description": "TSMC kicks off unprecedented capacity expansion plan.",
-      "published": "",
-      "source": "Brave",
-      "source_type": "Brave",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "台积电N2制程的多厂同步量产标志着2nm时代加速到来，意图巩固其先进制程霸主地位。",
-        "CoWoS与SoIC产能的扩张直接回应了当前AI芯片先进封装的严重瓶颈问题，封装产能正成为决定AI算力交付的关键。"
-      ],
-      "actions": [
-        "密切跟踪台积电N2制程的量产进度与设计规则，提前布局2nm产品开发与流片计划。",
-        "针对先进封装瓶颈，尽早与台积电锁定CoWoS/SoIC产能配额，确保高端AI芯片顺利出货。"
-      ],
-      "glossary": [
+        },
         {
-          "term": "N2",
-          "desc": "台积电2纳米制程技术节点",
-          "category": "制造"
+          "term": "EMIB",
+          "desc": "嵌入式多芯片互连桥接，Intel主导的先进2.5D封装技术",
+          "category": "封装"
         },
         {
           "term": "CoWoS",
-          "desc": "晶圆上芯片封装，台积电的2.5D/3D先进封装技术，广泛应用于AI芯片",
-          "category": "封装"
-        },
-        {
-          "term": "SoIC",
-          "desc": "系统整合芯片，台积电的3D堆叠先进封装技术",
+          "desc": "晶圆基板封装，台积电主导的2.5D/3D先进封装技术，广泛应用于AI大算力芯片",
           "category": "封装"
         }
       ],
       "region": "overseas",
-      "summary": "台积电启动史无前例的产能扩张计划，重点推进多座晶圆厂的N2制程量产，并扩大CoWoS和SoIC先进封装产能以解决当前瓶颈。",
+      "summary": "探讨谷歌下一代TPU在封装技术选择上，可能从Intel的EMIB重新转向台积电CoWoS封装的趋势及背后的产业博弈。",
       "tag_category": "Fab/制造",
-      "title_en": "Analyzing TSMC's fab expansion roadmap — multi-fab N2 ramp, CoWoS, SoIC, and uncorking bottlenecks | Tom's Hardware"
+      "title_en": "Could Google's Next TPU Shift Back to TSMC? Inside the EMIB vs. CoWoS Battle"
     },
     {
-      "title": "大厂表态释放温和涨价信号，光刻胶板块闻声走强",
-      "url": "https://www.wenxuan.news/qiyezixun/22409.html",
-      "description": "台积电温和涨价信号落地，直接重构了半导体上下游盈利传导顺序，这也是今日光刻胶板块逆势拉升的底层逻辑。",
-      "published": "21小时前",
-      "source": "文轩新闻",
-      "source_type": "Serper",
-      "lang": "zh",
-      "tags": [],
-      "insights": [
-        "晶圆代工的涨价预期会迅速向上游材料端传导，改善材料厂商的盈利空间与议价能力。",
-        "光刻胶作为核心耗材，其板块表现直接反映了下游制造端的景气度回升与成本转嫁能力。"
-      ],
-      "actions": [
-        "关注光刻胶及上游半导体材料企业的业绩弹性与涨价承接能力，挖掘投资或合作机会。",
-        "芯片设计公司需重新评估供应链成本结构，应对代工涨价带来的BOM成本上升压力。"
-      ],
-      "glossary": [
-        {
-          "term": "光刻胶",
-          "desc": "光刻工艺中使用的抗蚀剂材料，是半导体制造的核心耗材",
-          "category": "材料"
-        }
-      ],
-      "region": "domestic",
-      "summary": "台积电释放的温和涨价信号落地，重构了半导体上下游的盈利传导顺序，直接带动了今日光刻胶板块逆势拉升。",
-      "tag_category": "综合",
-      "title_en": "大厂表态释放温和涨价信号，光刻胶板块闻声走强"
-    },
-    {
-      "title": "台积电表示因通胀推高运营成本，涨价仍有可能（TSMC says price increases remain possible as inflation raises operating costs）",
-      "url": "https://www.semimedia.cc/tsmc-says-price-increases-remain-possible-as-inflation-raises-operating-costs/",
-      "description": "TSMC says price increases remain possible as inflation raises operating costs - SemiMedia\n\n- 0\n\n# TSMC says price increases remain possible as inflation raises operating costs\n\nJune 11, 2026 / SemiMedia/ — TSMC said price increases remain possible as inflation continues to raise operating costs, tho",
-      "published": "2026-06-11T00:00:00.000Z",
+      "title": "Baya Systems与Openchip合作开发RISC-V AI芯粒设计",
+      "url": "https://engtechnica.com/baya-systems-openchip-partner-on-risc-v-ai-chiplet-designs/",
+      "description": "Baya Systems, Openchip Partner on RISC-V AI Chiplet Designs - ENGtechnica\n\nSearch\n\nHome 9 Computing 9 Baya Systems, Openchip Partner on RISC-V AI Chiplet Designs\n\n# Baya Systems, Openchip Partner on RISC-V AI Chiplet Designs\n\nby\n\n| Jun 12, 2026\n\nWeaveIP and WeaverPro will support data-movement model",
+      "published": "2026-06-12T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "通胀带来的设备、材料和人力成本上升是代工厂涨价的核心驱动力，成本转嫁是维持利润率的必然选择。",
-        "台积电的涨价预期一旦落地，将引发全行业代工价格的连锁反应，重塑芯片供应链成本基线。"
+        "RISC-V开源架构在AI芯粒领域的应用正在加速，为芯片设计提供了更低成本和更高灵活度的替代方案。",
+        "芯粒设计依赖EDA工具与IP的深度协同，Baya的EDA/IP工具与Openchip的RISC-V IP结合将缩短AI芯片开发周期。"
       ],
       "actions": [
-        "芯片设计公司需在产品定价与BOM预算中预留代工涨价空间，避免利润被侵蚀。",
-        "供应链企业应审视自身运营成本，合理制定价格策略以应对通胀与下游涨价的双重影响。"
-      ],
-      "glossary": [
-        {
-          "term": "Inflation",
-          "desc": "通货膨胀，导致整体物价水平上涨、货币购买力下降的经济现象",
-          "category": "宏观"
-        }
-      ],
-      "region": "overseas",
-      "summary": "台积电指出，由于通货膨胀导致运营成本上升，未来仍有可能提高代工价格。",
-      "tag_category": "Fab/制造",
-      "title_en": "TSMC says price increases remain possible as inflation raises operating costs - SemiMedia"
-    },
-    {
-      "title": "传音发布HOT 70系列，采用业界首创的12色动态闪耀设计（Infinix launches HOT 70 Series with industry-first 12-colorway dynamic shine design）",
-      "url": "https://techcabal.com/2026/06/11/infinix-hot-70/",
-      "description": "Infinix launches HOT 70 Series with industry-first 12-colorway dynamic shine design | TechCabal\n\nHappily Authenticated! ×\n\nPartner, Press Room\n\n# Infinix launches HOT 70 Series with industry-first 12-colorway dynamic shine design\n\nBy\n\n11th Jun, 2026\n\nGet TC updates in your Newsfeed\n\nSource: TechCaba",
-      "published": "2026-06-11T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "智能手机在中低端市场正通过外观创新和差异化设计来吸引消费者，硬件规格竞争转向外观与体验竞争。",
-        "12色动态设计可能涉及新型表面处理工艺或光学膜材料，对相关结构件供应链提出新要求。"
-      ],
-      "actions": [
-        "关注手机外观创新带来的表面处理、涂层或光学膜材料的新需求与增量市场。",
-        "评估新兴市场（如传音主攻的非洲/南亚市场）对差异化外观手机的接受度与销量转化潜力。"
-      ],
-      "glossary": [
-        {
-          "term": "Infinix",
-          "desc": "传音控股旗下的智能手机品牌，主要面向非洲、南亚等新兴市场",
-          "category": "终端"
-        }
-      ],
-      "region": "overseas",
-      "summary": "传音旗下品牌Infinix发布HOT 70系列手机，主打业界首创的12色动态闪耀外观设计。",
-      "tag_category": "综合",
-      "title_en": "Infinix launches HOT 70 Series with industry-first 12-colorway dynamic shine design | TechCabal"
-    },
-    {
-      "title": "MilkV Jupiter 2与SpacemiT K3评测（The MilkV Jupiter 2/SpacemiT K3 - Tao of Mac）",
-      "url": "https://taoofmac.com/space/reviews/2026/06/11/1830",
-      "description": "The MilkV Jupiter 2/SpacemiT K3 - Tao of Mac\n\n### Tao of Mac\n\nJun 11th 2026· 22 min read · #ai #hardware #homelab #linux #reviews #riscv #sbc #spacemit\n\n# The MilkV Jupiter 2/SpacemiT K3\n\nThis is a fascinating box–so much so that after almost three weeks playing with it, I amassed so much material t",
-      "published": "2026-06-11T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "RISC-V架构在单板计算机（SBC）和边缘计算领域持续渗透，国产芯片厂商SpacemiT正通过K1/K3等产品扩大影响力。",
-        "AI与硬件结合的趋势正在推动开源架构在家庭实验室及开发者社区中的普及，为RISC-V生态带来新机遇。"
-      ],
-      "actions": [
-        "关注RISC-V生态在边缘AI和SBC市场的进展，评估SpacemiT K3等芯片在工业控制及物联网场景的替代潜力。",
-        "开发者及供应链企业可跟进开源硬件社区反馈，优化相关配套组件与开发板的供应策略。"
+        "国产芯片设计团队应积极评估RISC-V+Chiplet架构在边缘AI计算场景的落地可行性。",
+        "EDA/IP供应商需加快适配芯粒互联标准（如UCIe），抢占模块化设计生态先机。"
       ],
       "glossary": [
         {
           "term": "RISC-V",
-          "desc": "一种基于精简指令集（RISC）原则的开源指令集架构",
+          "desc": "开源指令集架构，广泛应用于定制化与低功耗芯片设计",
           "category": "架构"
         },
         {
-          "term": "SBC",
-          "desc": "单板计算机，将完整计算机系统集成在单一电路板上的微型计算机",
-          "category": "硬件"
+          "term": "Chiplet",
+          "desc": "芯粒/小芯片，将复杂芯片功能拆分为多个独立小芯片再封装的设计模式",
+          "category": "设计/封装"
         }
       ],
       "region": "overseas",
-      "summary": "Tao of Mac博客发布了关于MilkV Jupiter 2和SpacemiT K3（基于RISC-V架构的单板计算机）的详细评测文章。",
-      "tag_category": "综合",
-      "title_en": "The MilkV Jupiter 2/SpacemiT K3 - Tao of Mac"
+      "summary": "Baya Systems与Openchip宣布合作，共同致力于基于RISC-V架构的AI芯粒设计，推动模块化芯片生态发展。",
+      "tag_category": "EDA/IP",
+      "title_en": "Baya Systems, Openchip Partner on RISC-V AI Chiplet Designs - ENGtechnica"
     },
     {
-      "title": "AI能否创建缺失的模型？（Can AI Create Missing Models?）",
-      "url": "https://semiengineering.com/can-ai-create-missing-models/",
-      "description": "Can AI Create Missing Models?\n\nMENU\n\nHome> Low Power-High Performance> Can AI Create Missing Models?\n\n# Can AI Create Missing Models?\n\nIt depends on what those models are used, which also can have a big impact on the cost.\n\nJune 11th, 2026 - By: Brian Bailey\n\nKey takeaways\n\n- Models are an essential",
-      "published": "2026-06-11T00:00:00.000Z",
+      "title": "[新闻] 特斯拉埃隆·马斯克在ASML大会上讨论TeraFab项目；该项目预计将刺激EUV光刻机订单",
+      "url": "https://www.trendforce.com/news/2026/06/12/news-tesla-elon-musk-discusses-terafab-at-asml-conference-project-expected-to-spur-euv-tool-orders/",
+      "description": "[News] Tesla Elon Musk Discusses TeraFab at ASML Conference; Project Expected to Spur EUV Tool Orders\n\n# [News] Tesla Elon Musk Discusses TeraFab at ASML Conference; Project Expected to Spur EUV Tool Orders\n\n---\n\n---\n\nElon Musk is expanding his ambitions beyond EVs, AI, and space technology with Ter",
+      "published": "2026-06-12T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "在EDA和芯片设计领域，AI生成模型（如缺失的IP或仿真模型）正成为提升设计效率的关键，但其准确性和适用性仍需根据具体应用场景验证。",
-        "AI辅助建模有望缩短芯片开发周期，但完全替代人工建模仍面临可靠性与合规性挑战。"
+        "科技巨头跨界介入先进制造概念（如TeraFab），反映出未来超级计算与制造对极紫外光刻等尖端设备的依赖将超越传统半导体范畴。",
+        "EUV光刻机订单的潜在增长信号，表明高密度互联与先进制程需求正在向更广泛的算力基础设施领域渗透。"
       ],
       "actions": [
-        "芯片设计团队应评估AI生成模型工具在特定EDA流程中的可用性，建立严格的验证机制以确保生成模型的精度。",
-        "供应链从业者需关注AI EDA工具的演进，提前储备相关技术人才以应对设计流程的智能化转型。"
+        "半导体设备供应链应关注非传统芯片巨头（如特斯拉）对先进制程及EUV产能的潜在需求，提前规划产能分配。",
+        "投资者及产业链上下游需评估ASML及EUV生态相关耗材、检测设备的长期增长动能。"
       ],
       "glossary": [
         {
-          "term": "Missing Models",
-          "desc": "缺失模型，通常指在芯片设计或仿真过程中缺失的组件、IP或行为模型",
-          "category": "EDA/设计"
+          "term": "TeraFab",
+          "desc": "特斯拉提出的超级制造工厂概念，旨在实现极高吞吐量的先进制造",
+          "category": "制造"
+        },
+        {
+          "term": "EUV",
+          "desc": "极紫外光刻，使用13.5nm波长光进行芯片图案化的最先进光刻技术",
+          "category": "设备/制造"
         }
       ],
       "region": "overseas",
-      "summary": "文章探讨了AI在生成缺失模型方面的能力，指出其可行性取决于模型的具体应用场景和用途。",
-      "tag_category": "综合",
-      "title_en": "Can AI Create Missing Models?"
-    },
-    {
-      "title": "[新闻] 日月光矽品收购28亿新台币厂房，承接台积电先进封装产能紧缺带来的溢出需求（[News] ASE’s SPIL Acquires NT$2.8B Plant Amid Spillover Demand from TSMC Advanced Packaging Capacity Crunch）",
-      "url": "https://www.trendforce.com/news/2026/06/11/news-ases-spil-acquires-nt2-8b-plant-amid-spillover-demand-from-tsmc-advanced-packaging-capacity-crunch/",
-      "description": "[News] ASE’s SPIL Acquires NT$2.8B Plant Amid Spillover Demand from TSMC Advanced Packaging Capacity Crunch\n\n# [News] ASE’s SPIL Acquires NT$2.8B Plant Amid Spillover Demand from TSMC Advanced Packaging Capacity Crunch\n\n---\n\n---\n\nAs AI-driven demand continues to strain advanced packaging and testing",
-      "published": "2026-06-11T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "台积电先进封装（如CoWoS）产能持续紧缺，导致大量溢出订单流向日月光等二线封测厂商，封测行业正迎来先进封装的结构性红利。",
-        "矽品此举表明封测厂正通过扩产或收购快速抢占高端封装市场份额，先进封装已成为封测巨头业绩增长的核心引擎。"
-      ],
-      "actions": [
-        "封测供应链企业应加速先进封装（如2.5D/3D封装）产能布局，积极对接台积电溢出的AI芯片封测需求。",
-        "设备供应商需关注日月光等封测巨头的扩产动向，提前锁定关键封装设备订单与物料供应。"
-      ],
-      "glossary": [
-        {
-          "term": "ASE",
-          "desc": "日月光半导体，全球领先的半导体封装与测试服务提供商",
-          "category": "封测"
-        },
-        {
-          "term": "SPIL",
-          "desc": "矽品精密工业，日月光集团旗下的封测子公司",
-          "category": "封测"
-        },
-        {
-          "term": "Advanced Packaging",
-          "desc": "先进封装，如CoWoS、2.5D/3D封装等，用于提升芯片互联密度和性能",
-          "category": "封装"
-        }
-      ],
-      "region": "overseas",
-      "summary": "日月光旗下的矽品精密以28亿新台币收购厂房，以应对台积电先进封装产能严重不足而产生的溢出订单需求。",
+      "summary": "特斯拉CEO马斯克在ASML会议上探讨TeraFab超级制造概念，市场预期该项目的推进将带动ASML极紫外(EUV)光刻设备的订单增长。",
       "tag_category": "Fab/制造",
-      "title_en": "[News] ASE’s SPIL Acquires NT$2.8B Plant Amid Spillover Demand from TSMC Advanced Packaging Capacity Crunch"
+      "title_en": "[News] Tesla Elon Musk Discusses TeraFab at ASML Conference; Project Expected to Spur EUV Tool Orders"
     },
     {
-      "title": "安靠韩国考虑投资1万亿韩元扩建光州工厂，据报道台积电订单量增长（Amkor Korea weighs KRW1 trillion Gwangju expansion amid reported TSMC order growth）",
-      "url": "https://lcdproduct.com/amkor-korea-weighs-krw1-trillion-gwangju-expansion-amid-reported-tsmc-order-growth/",
-      "description": "Amkor Korea weighs KRW1 trillion Gwangju expansion amid reported TSMC order growth | China LCD Display Manufacturer and Supplier for Alphanumeric,Character,Graphic LCD Panel and Module\n\n### Blog\n\nHome» Blog» Amkor Korea weighs KRW1 trillion Gwangju expansion amid reported TSMC order growth\n\nLatest N",
-      "published": "2026-06-11T00:00:00.000Z",
+      "title": "2026年台北国际电脑展：台湾证券交易所(TWSE)及产业合作伙伴强调台湾在全球AI与半导体竞赛中的核心地位",
+      "url": "https://www.storagenewsletter.com/2026/06/12/computex-2026-twse-and-industry-partners-highlight-taiwans-central-role-in-the-global-ai-and-semiconductor-race/",
+      "description": "Computex 2026: TWSE and Industry Partners Highlight Taiwan's Central Role in the Global AI and Semiconductor Race - StorageNewsletter\n\nCategories -- Navigate -- M&As Start-Ups Systems (RAID, NAS, SAN, Appliance) Financial Results, Investments and IPOs Market Reports/Research & Certifications Solid S",
+      "published": "2026-06-12T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "台积电先进封装订单的外溢效应不仅惠及台湾封测厂，也正推动韩国安靠等国际封测巨头加大本土投资。",
-        "AI芯片对高密度封装的需求正在重塑全球封测产能分布，韩国光州有望成为先进封装的重要生产基地。"
+        "台湾在全球AI硬件供应链中的枢纽地位正从制造端向资本与生态端延伸，证券交易所的介入意在强化半导体产业的资本聚集效应。",
+        "面对地缘政治压力，台湾半导体生态圈正通过国际展会与资本联动，持续巩固其全球客户对供应链韧性的信任。"
       ],
       "actions": [
-        "关注安靠光州工厂的扩产进度及产能释放时间，评估其对全球先进封装供需格局的影响。",
-        "供应链企业应积极拓展与安靠的合作，争取在AI芯片封装产能分配中占据先机。"
+        "关注台湾半导体资本市场的政策导向与上市规则变动，寻找产业链上下游的投融资合作机会。",
+        "供应链企业应借力Computex等国际平台，深化与台湾ODM/OEM及芯片代工的绑定，保障AI服务器等核心产品的交付。"
       ],
       "glossary": [
         {
-          "term": "Amkor",
-          "desc": "安靠科技，全球领先的半导体封装与测试外包服务提供商",
-          "category": "封测"
+          "term": "Computex",
+          "desc": "台北国际电脑展，全球重要的IT和半导体产业展会之一",
+          "category": "行业展会"
         },
         {
-          "term": "KRW",
-          "desc": "韩元，韩国法定货币",
-          "category": "金融"
+          "term": "TWSE",
+          "desc": "台湾证券交易所，推动台湾半导体及科技企业上市融资的核心资本市场",
+          "category": "资本/综合"
         }
       ],
       "region": "overseas",
-      "summary": "据报道，随着台积电订单量的增长，安靠韩国正考虑投资1万亿韩元扩建其光州工厂，以满足先进封装需求。",
-      "tag_category": "Fab/制造",
-      "title_en": "Amkor Korea weighs KRW1 trillion Gwangju expansion amid reported TSMC order growth | China LCD Display Manufacturer and Supplier for Alphanumeric,Character,Graphic LCD Panel and Module"
+      "summary": "在2026年Computex展会上，TWSE与产业伙伴共同发声，强调台湾供应链在全球AI及半导体竞争格局中不可替代的核心作用。",
+      "tag_category": "EDA/IP",
+      "title_en": "Computex 2026: TWSE and Industry Partners Highlight Taiwan's Central Role in the Global AI and Semiconductor Race - StorageNewsletter"
     },
     {
-      "title": "Polymatech在新加坡设立亚太先进制造中心（Polymatech Establishes Asia-Pacific Advanced Manufacturing Hub In Singapore）",
-      "url": "https://businessnewsforprofit.com/news/polymatech-establishes-asia-pacific-advanced-manufacturing-hub-in-singapore/",
-      "description": "Polymatech Establishes Asia-Pacific Advanced Manufacturing Hub In Singapore |\n\n# Polymatech Establishes Asia-Pacific Advanced Manufacturing Hub In Singapore\n\n#### Byteam\n\nJun 11, 2026\n\nSINGAPORE , June 11 : AEIM Pte Ltd, a wholly owned subsidiary of Polymatech Electronics Limited, announced the open",
-      "published": "2026-06-11T00:00:00.000Z",
+      "title": "Metaplanet以1310万美元收购Siiibo Securities，以推进比特币战略",
+      "url": "https://www.coindesk.com/markets/2026/06/12/metaplanet-buys-siiibo-securities-to-accelerate-bitcoin-financial-ecosystem-plans",
+      "description": "Metaplanet acquires Siiibo Securities in $13.1m deal to advance Bitcoin strategy\n\n# Metaplanet buys Siiibo Securities to accelerate bitcoin financial ecosystem plans\n\n## The approximately $13.1 million acquisition gives Metaplanet a regulated securities platform to develop Bitcoin-linked investment ",
+      "published": "2026-06-12T00:00:00.000Z",
       "source": "Exa",
       "source_type": "Exa",
       "lang": "en",
       "tags": [],
       "insights": [
-        "新加坡凭借稳定的营商环境和地缘优势，正成为半导体企业建立亚太先进制造与供应链枢纽的首选地。",
-        "Polymatech此举反映了亚太半导体制造网络正在向多元化、区域化中心演进，以增强供应链韧性。"
+        "传统企业通过收购金融机构来构建加密资产生态，反映出比特币等数字资产正在向主流金融基础设施渗透。",
+        "半导体及算力硬件供应商需注意，加密货币金融生态的扩张可能带来对底层算力（如ASIC矿机芯片）的周期性需求波动。"
       ],
       "actions": [
-        "跨国半导体企业可评估在新加坡设立区域制造或物流枢纽的可行性，利用其政策与税收优势。",
-        "供应链从业者需关注新加坡半导体生态的扩张，寻找与新建制造中心的配套合作机会。"
+        "矿机芯片及服务器供应链需警惕加密货币市场战略升级带来的算力需求反弹，适度预留产能弹性。",
+        "关注加密金融合规化进程，评估其对高性能计算芯片长期订单的影响，避免盲目扩产。"
       ],
       "glossary": [
         {
-          "term": "Polymatech",
-          "desc": "一家专注于半导体芯片制造与封装的跨国企业",
-          "category": "制造"
-        },
-        {
-          "term": "Advanced Manufacturing Hub",
-          "desc": "先进制造中心，集成了高端制造技术与供应链管理功能的产业基地",
-          "category": "制造"
+          "term": "Bitcoin",
+          "desc": "比特币，全球最主流的去中心化加密货币，其网络运行与挖矿依赖高性能ASIC算力",
+          "category": "加密货币/综合"
         }
       ],
       "region": "overseas",
-      "summary": "半导体制造商Polymatech宣布在新加坡设立亚太地区先进制造中心，以扩大其区域生产与供应能力。",
+      "summary": "日本上市公司Metaplanet斥资1310万美元收购券商Siiibo Securities，旨在构建比特币金融生态系统并加速其加密资产战略。",
       "tag_category": "综合",
-      "title_en": "Polymatech Establishes Asia-Pacific Advanced Manufacturing Hub In Singapore |"
+      "title_en": "Metaplanet acquires Siiibo Securities in $13.1m deal to advance Bitcoin strategy"
     },
     {
-      "title": "[新闻] 应用材料斥资5亿美元启用新加坡新厂区，旨在借AI需求将全球产能翻倍（[News] Applied Materials Opens $500M Singapore Site, Aims to Double Global Capacity on AI Demand）",
-      "url": "https://www.trendforce.com/news/2026/06/11/news-applied-materials-opens-500m-singapore-site-aims-to-double-global-capacity-on-ai-demand/",
-      "description": "[News] Applied Materials Opens $500M Singapore Site, Aims to Double Global Capacity on AI Demand\n\n# [News] Applied Materials Opens $500M Singapore Site, Aims to Double Global Capacity on AI Demand\n\n---\n\n---\n\nApplied Materials is expanding its footprint in Singapore as AI fuels semiconductor demand. ",
-      "published": "2026-06-11T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
+      "title": "半导体产业链早盘活跃，存储行业景气度持续攀升，科创芯片ETF嘉实(588200)聚焦国产芯片投资机遇",
+      "url": "https://cj.sina.com.cn/articles/view/5182171545/134e1a99902002frmg",
+      "description": "2026年6月12日早盘，元件、高宽带内存表现活跃，截至2026年6月12日 10:36，上证科创板芯片指数强势上涨1.79%，成分股晶合集成上涨13.77%，富创精密上涨10.14%，思瑞浦...",
+      "published": "20小时前",
+      "source": "新浪财经",
+      "source_type": "Serper",
+      "lang": "zh",
       "tags": [],
       "insights": [
-        "AI芯片制造的爆发性需求正迫使上游半导体设备巨头大规模扩产，应用材料将全球产能翻倍的目标凸显了设备供应链的紧迫性。",
-        "新加坡正成为半导体设备制造与研发的战略高地，与周边晶圆厂形成紧密的协同效应。"
+        "存储行业景气度攀升与高带宽内存(HBM)需求爆发密切相关，国产存储及配套产业链正进入业绩兑现期。",
+        "科创板芯片指数的强势表现，反映出资本市场对国产半导体在先进制程与设备环节突破的预期正在升温。"
       ],
       "actions": [
-        "晶圆厂及设备采购方应尽早与应用材料锁定长期设备供应合同，避免因产能爬坡期出现交付延迟。",
-        "关注新加坡半导体设备生态的完善，评估本地化设备维护与支持的效率提升。"
+        "投资者可借道科创芯片ETF等指数工具，分散配置国产半导体设备、代工及设计龙头，把握景气周期反转红利。",
+        "存储及HBM相关产业链企业应加速产能爬坡与客户验证，趁景气上行周期锁定长期订单。"
       ],
       "glossary": [
-        {
-          "term": "Applied Materials",
-          "desc": "应用材料公司，全球最大的半导体制造设备供应商之一",
-          "category": "设备"
-        },
-        {
-          "term": "Global Capacity",
-          "desc": "全球产能，指企业在全球范围内的总生产制造能力",
-          "category": "制造"
-        }
-      ],
-      "region": "overseas",
-      "summary": "应用材料投资5亿美元在新加坡启用新厂区，计划在AI需求的驱动下将其全球产能扩大一倍。",
-      "tag_category": "Fab/制造",
-      "title_en": "[News] Applied Materials Opens $500M Singapore Site, Aims to Double Global Capacity on AI Demand"
-    },
-    {
-      "title": "ASMPT SMT解决方案受AI服务器主板业务提振（AI server Boards are Boosting at ASMPT SMT Solutions - ELE Times）",
-      "url": "https://www.eletimes.ai/ai-server-boards-are-boosting-at-asmpt-smt-solutions",
-      "description": "AI server Boards are Boosting at ASMPT SMT Solutions - ELE Times\n\nSign in\n\n- India News\n- World News\n\n- Data Sheets\n- New Products\n\nSign in\n\nWelcome!Log into your account\n\nyour username\n\nyour password\n\nForgot your password?\n\nPassword recovery\n\nRecover your password\n\nyour email\n\nSearch\n\nSearch ELE Ti",
-      "published": "2026-06-11T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AI服务器对高密度、复杂PCB主板的需求增加，直接带动了SMT贴装设备供应商的订单增长。",
-        "ASMPT作为半导体和SMT设备龙头，正受益于AI基础设施扩张向下游制造设备的溢出效应。"
-      ],
-      "actions": [
-        "关注ASMPT及其他SMT设备供应商的产能利用率与交期变化，评估AI服务器供应链的扩张节奏。",
-        "PCB及SMT相关厂商应加速针对AI服务器高多层板、HDI板的工艺能力升级与设备投资。"
-      ],
-      "glossary": [
-        {
-          "term": "SMT",
-          "desc": "表面贴装技术（Surface Mount Technology），将电子元器件贴装到PCB板上的电路组装技术。",
-          "category": "制造"
-        },
-        {
-          "term": "ASMPT",
-          "desc": "ASM太平洋科技，全球领先的半导体封装及SMT设备供应商。",
-          "category": "公司"
-        }
-      ],
-      "region": "overseas",
-      "summary": "ASMPT的SMT（表面贴装技术）解决方案业务因AI服务器主板需求的强劲增长而获得显著提振。",
-      "tag_category": "综合",
-      "title_en": "AI server Boards are Boosting at ASMPT SMT Solutions - ELE Times"
-    },
-    {
-      "title": "Spark I将通过6亿美元SPAC（特殊目的收购公司）交易与ZincFive合并（Spark I to merge with ZincFive in $600M SPAC deal | SPKL 8-K Filing）",
-      "url": "https://www.stocktitan.net/sec-filings/SPKL/8-k-spark-i-acquisition-corp-reports-material-event-ebcf820dc0c2.html",
-      "description": "Spark I to merge with ZincFive in $600M SPAC deal | SPKL 8-K Filing\n\n# ZincFive to go public via Spark I (NASDAQ: SPKL) merger and $106.5M preferred raise\n\nFiling Impact\n\n(High)\n\nFiling Sentiment\n\n(Neutral)\n\nForm Type\n\n8-K\n\n## Rhea-AI Filing Summary\n\n- English\n- Italian\n- Spanish\n- German\n- Korean\n-",
-      "published": "2026-06-11T00:00:00.000Z",
-      "source": "Exa",
-      "source_type": "Exa",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "ZincFive作为镍锌电池技术供应商，其上市反映了储能和备用电源市场在数据中心及AI基础设施驱动下的资本吸引力。",
-        "SPAC上市路径虽整体降温，但在特定具备ESG和高增长属性的硬科技领域（如新型电池）仍有运作空间。"
-      ],
-      "actions": [
-        "数据中心及服务器电源供应链从业者应关注ZincFive镍锌电池在UPS及备用电源领域的替代潜力与供应动态。",
-        "投资者需审视SPAC合并后的锁定期与财务稳健性，评估新型电池技术商业化落地的实际风险。"
-      ],
-      "glossary": [
-        {
-          "term": "SPAC",
-          "desc": "特殊目的收购公司（Special Purpose Acquisition Company），一种旨在通过IPO筹集资金以收购现有公司的空壳公司，又称“空白支票公司”。",
-          "category": "金融"
-        },
-        {
-          "term": "8-K Filing",
-          "desc": "8-K文件，美国证券交易委员会（SEC）要求上市公司提交的重大事件报告文件，用于通知投资者重要事项。",
-          "category": "合规"
-        }
-      ],
-      "region": "overseas",
-      "summary": "特殊目的收购公司Spark I将与镍锌电池制造商ZincFive合并，交易估值达6亿美元，ZincFive将通过此SPAC交易登陆资本市场。",
-      "tag_category": "综合",
-      "title_en": "Spark I to merge with ZincFive in $600M SPAC deal | SPKL 8-K Filing"
-    },
-    {
-      "title": "存储行业正成为AI热潮的主要受益者之一（The Memory Sector Is Becoming One of the Main Beneficiaries of the AI Boom）",
-      "url": "https://semiwiki.com/semiconductor-manufacturers/369676-the-memory-sector-is-becoming-one-of-the-main-beneficiaries-of-the-ai-boom/",
-      "description": "<p class=\"isSelectedEnd\">The explosive growth of artificial intelligence is transforming the semiconductor industry, and nowhere is this more evident than in the memory sector. AI training and inference workloads are fundamentally memory-intensive, driving unprecedented demand for advanced DRAM arch",
-      "published": "Thu, 11 Jun 2026 17:00:52 +0000",
-      "source": "RSS",
-      "source_type": "RSS",
-      "lang": "en",
-      "tags": [],
-      "insights": [
-        "AI大模型训练和推理对HBM（高带宽内存）及大容量DRAM的需求呈指数级增长，存储芯片正从价格周期驱动转向AI需求驱动。",
-        "存储厂商与逻辑芯片厂商的协同（如HBM与GPU的绑定封装）日益紧密，存储在半导体价值链中的地位上升。"
-      ],
-      "actions": [
-        "供应链应提前规划HBM及先进DRAM的产能与采购策略，应对未来AI服务器持续放量带来的供应紧张。",
-        "关注存储原厂（如三星、SK海力士、美光）的资本开支动向及先进封装产能扩张进度，把握存储市场供需拐点。"
-      ],
-      "glossary": [
-        {
-          "term": "Memory Sector",
-          "desc": "存储行业，涵盖DRAM、NAND Flash及HBM等存储芯片的设计与制造领域。",
-          "category": "产业"
-        },
         {
           "term": "HBM",
-          "desc": "高带宽内存（High Bandwidth Memory），专为高性能计算和AI加速器设计的3D堆叠存储技术。",
-          "category": "存储"
+          "desc": "高带宽内存，通过3D堆叠技术实现极高数据传输速率的存储芯片，是AI算力核心配套",
+          "category": "存储/封装"
+        },
+        {
+          "term": "ETF",
+          "desc": "交易型开放式指数基金，跟踪特定股票指数并在交易所上市交易的基金产品",
+          "category": "资本/金融"
+        }
+      ],
+      "region": "domestic",
+      "summary": "A股半导体产业链早盘表现强势，存储及高带宽内存板块领涨，科创芯片ETF凸显国产替代投资价值，成分股如晶合集成、富创精密等大幅上涨。",
+      "tag_category": "综合",
+      "title_en": "半导体产业链早盘活跃，存储行业景气度持续攀升，科创芯片ETF嘉实(588200)聚焦国产芯片投资机遇"
+    },
+    {
+      "title": "AI需求远超预期，台积电3nm制程拟涨价15%，科创半导体ETF华夏(588170)全天成交近30亿元",
+      "url": "https://finance.sina.com.cn/jjxw/2026-06-12/doc-iniccwvr0212487.shtml",
+      "description": "截至2026年6月12日 15:00，上证科创板半导体材料设备主题指数(950125)下跌2.94%。成分股方面涨跌互现，盛美上海领涨7.27%，中科飞测上涨6.43%，耐科装备上涨4.94%；中巨芯领跌17.30%，欧莱新材下跌15.48%，金宏气体下跌14.89%。科创半导体ETF华夏(588170)下跌2.84%。\n\n流动性方面，科创半导体ETF华夏盘中换手28.6%，成交29.69亿元，市场交投活跃。拉长时间看，截至6月12日，科创半导体ETF华夏近1周日均成交27.56亿元。\n\n消息面上，据了解，下半年台积电先进制程为因应上游价格调涨，将适度调涨代工价，预期最为紧俏的3纳米制程将有1",
+      "published": "2026-06-12T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "台积电3nm涨价反映出先进制程产能持续紧张，AI芯片需求是核心驱动力，代工成本将向下游传导。",
+        "半导体设备材料板块出现分化，资金在高位震荡中重新评估估值与业绩兑现能力，国产替代逻辑依然坚挺。"
+      ],
+      "actions": [
+        "芯片设计公司需重新评估流片成本，提前锁定先进制程产能以应对代工涨价风险。",
+        "投资者应关注半导体产业链中具备国产替代逻辑且业绩确定性高的设备材料标的，警惕短期估值回调风险。"
+      ],
+      "glossary": [
+        {
+          "term": "3nm制程",
+          "desc": "晶体管栅极长度为3纳米级别的半导体制造工艺，目前最先进的制程节点之一，主要用于高性能计算和AI芯片。",
+          "category": "制造"
+        }
+      ],
+      "region": "domestic",
+      "summary": "受AI需求远超预期影响，台积电计划将3nm制程价格上调15%；同时科创半导体ETF华夏(588170)全天成交近30亿元，成分股涨跌互现，半导体设备材料板块出现分化。",
+      "tag_category": "Fab/制造",
+      "title_en": "AI需求远超预期，台积电3nm制程拟涨价15%，科创半导体ETF华夏(588170)全天成交近30亿元_新浪财经_新浪网"
+    },
+    {
+      "title": "追觅芯际穿越“天穹”系列芯片正式量产，首个太空算力盒将发射升空",
+      "url": "https://36kr.com/p/3718486572037507",
+      "description": "追觅芯际穿越“天穹”系列芯片正式量产，首个太空算力盒将发射升空｜最前线-36氪\n\n登录\n\n搜索\n\n媒体品牌\n\n企业服务\n\n政府服务\n\n投资人服务\n\n创业者服务\n\n创投平台\n\n搜索\n\n我要入驻\n\n# 追觅芯际穿越“天穹”系列芯片正式量产，首个太空算力盒将发射升空｜最前线\n\n黄 楠·2026年03月11日 20:00\n\n覆盖智能化终端到太空算力的全场景算力产品矩阵。\n\n作者｜黄楠\n\n编辑｜袁斯来\n\n3月11日，追觅生态企业芯际穿越正式发布“天穹”系列芯片，并宣布已实现规模化量产，即将搭载于追觅泛机器人系列产品中。\n\n当前，AI算力需求正以超越摩尔定律的速度指数级增长。OpenAI的研究显示，自20",
+      "published": "2026-06-12T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "消费电子企业向上游芯片设计延伸，并拓展至航天级算力领域，显示算力需求正向极端环境应用场景渗透。",
+        "太空算力盒的发射标志着商业航天与半导体算力的深度融合，抗辐射和高可靠性芯片成为新增长点。"
+      ],
+      "actions": [
+        "芯片供应商应关注航天级高可靠性芯片的定制化需求，提前布局抗辐射工艺与封装技术。",
+        "智能家居及终端厂商可借鉴追觅的“自研芯片+极端场景算力”模式，突破传统家电赛道的技术天花板。"
+      ],
+      "glossary": [
+        {
+          "term": "太空算力盒",
+          "desc": "部署于太空环境中，具备数据处理和计算能力的航天级硬件设备，需具备极强的抗辐射和耐温差性能。",
+          "category": "应用"
+        }
+      ],
+      "region": "domestic",
+      "summary": "追觅科技旗下“天穹”系列芯片正式量产，并计划发射首个太空算力盒，构建从智能终端到太空算力的全场景算力产品矩阵。",
+      "tag_category": "综合",
+      "title_en": "追觅芯际穿越“天穹”系列芯片正式量产，首个太空算力盒将发射升空｜最前线-36氪"
+    },
+    {
+      "title": "台积电高管担忧台湾地区人才与水资源短缺（TSMC boss frets about shortages of talent, water in Taiwan）",
+      "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/tsmc-boss-frets-about-shortages-talent-water-taiwan",
+      "description": "TSMC boss frets about shortages of talent, water in Taiwan - The Business Times\n\n# TSMC boss frets about shortages of talent, water in Taiwan\n\nChief executive CC Wei calls for increasing efforts to train more workers\n\nShare\n\nAdd BT as a preferred source\n\nAdd BT as a preferred source\n\nPublished Fri, ",
+      "published": "2026-06-12T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "先进制程的扩张不仅受限于设备，水资源和核心人才的短缺正成为晶圆厂面临的关键物理与软性瓶颈。",
+        "资源与人才约束可能加速台积电等代工厂向海外（如日本、美国）分散产能的步伐，全球半导体制造格局将进一步重塑。"
+      ],
+      "actions": [
+        "半导体企业需优化水资源回收利用系统，并制定长期的人才培养与留任战略，以应对资源瓶颈。",
+        "供应链企业应关注台积电海外建厂进度，提前布局当地配套服务与人才网络，降低地缘集中带来的供应风险。"
+      ],
+      "glossary": [
+        {
+          "term": "水资源短缺",
+          "desc": "半导体制造过程中需要大量超纯水清洗晶圆，水资源不足将直接影响晶圆厂的产能利用率和扩产计划。",
+          "category": "制造"
         }
       ],
       "region": "overseas",
-      "summary": "AI的爆发式增长正在重塑半导体产业，存储行业成为最显著的受益者之一，AI训练和推理对高带宽存储的需求激增。",
+      "summary": "台积电CEO魏哲家表达了对台湾地区人才和水资源短缺的担忧，并呼吁加大力度培养人才和保障资源供应。",
+      "tag_category": "Fab/制造",
+      "title_en": "TSMC boss frets about shortages of talent, water in Taiwan - The Business Times"
+    },
+    {
+      "title": "真实的半导体行业，而非传闻中的样子（The semiconductor industry as it is, not as it is told）",
+      "url": "https://evertiq.com/news/2026-06-12-the-semiconductor-industry-as-it-is-not-as-it-is-told",
+      "description": "The semiconductor industry as it is, not as it is told\n\nAd\n\nAd\n\nAd\n\nAd\n\nAd\n\n# The semiconductor industry as it is, not as it is told\n\n## At Evertiq Expo Zürich, Claus Aasholm of Semiconductor Business Intelligence delivered a data-driven examination of a semiconductor industry in structural transiti",
+      "published": "2026-06-12T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "市场对半导体行业的认知往往受周期性波动和媒体夸大影响，而忽视了其底层稳健的长期增长逻辑。",
+        "行业真实情况是结构性分化加剧，并非所有细分领域都同步繁荣或衰退，汽车与AI依然坚挺，消费电子缓慢复苏。"
+      ],
+      "actions": [
+        "从业者应基于实际出货数据和产能利用率做决策，避免被市场情绪误导而盲目扩产或砍单。",
+        "分析师和投资者需深入细分赛道（如汽车、工控、AI）进行差异化评估，而非笼统看待半导体周期。"
+      ],
+      "glossary": [
+        {
+          "term": "半导体周期",
+          "desc": "半导体行业受宏观经济和供需关系影响，呈现出的繁荣与衰退交替出现的周期性特征，通常持续3-4年。",
+          "category": "市场"
+        }
+      ],
+      "region": "overseas",
+      "summary": "在Evertiq Expo Zürich展会上，半导体商业分析师探讨了半导体行业的真实状况，打破了外界对该行业的一些常见误解。",
       "tag_category": "综合",
-      "title_en": "The Memory Sector Is Becoming One of the Main Beneficiaries of the AI Boom"
+      "title_en": "The semiconductor industry as it is, not as it is told"
+    },
+    {
+      "title": "vivo X Fold6：搭载联发科天玑9500超级版、AI文件管理器、原生PC模式等更多细节曝光（vivo X Fold6: Dimensity 9500 Super Edition, AI File Manager, Native PC Mode and more teased）",
+      "url": "https://www.fonearena.com/blog/484970/vivo-x-fold-6-dimensity-9500-super-edition-ai-file-manager-native-pc-mode.html",
+      "description": "vivo X Fold6: Dimensity 9500 Super Edition, AI File Manager, Native PC Mode and more teased\n\nvivo recently started teasing the launch of the upcoming X Fold6 in China with serveral details about the phone.\n\n##### From “One App per Screen” to the Atomic Workbench\n\nBuilding on the foundation laid by i",
+      "published": "2026-06-12T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "联发科天玑9500超级版芯片进入高端折叠屏市场，标志着联发科在旗舰芯片领域的竞争力持续增强，正蚕食高通份额。",
+        "折叠屏手机引入原生PC模式和AI管理功能，表明手机厂商正试图通过端侧AI和跨端协同提升高端产品的生产力属性。"
+      ],
+      "actions": [
+        "手机ODM及配件厂商需针对折叠屏+PC模式的新交互形态，开发适配的软硬件生态产品。",
+        "芯片设计公司应关注端侧大模型对NPU算力的需求，优化芯片的AI推理能力与功耗表现。"
+      ],
+      "glossary": [
+        {
+          "term": "Dimensity 9500",
+          "desc": "联发科（MediaTek）推出的天玑系列高端智能手机处理器芯片，采用先进制程，主打高算力与AI性能。",
+          "category": "芯片"
+        }
+      ],
+      "region": "overseas",
+      "summary": "vivo开始预热即将在中国发布的X Fold6折叠屏手机，透露其将搭载联发科天玑9500超级版芯片，并配备AI文件管理器和原生PC模式等功能。",
+      "tag_category": "综合",
+      "title_en": "vivo X Fold6: Dimensity 9500 Super Edition, AI File Manager, Native PC Mode and more teased"
+    },
+    {
+      "title": "华为发布5万亿参数的盘古2.0大模型（Huawei Launches Pangu 2.0 with 5 Trillion Parameters）",
+      "url": "https://phemex.com/news/article/huawei-unveils-opensource-model-pangu-20-with-5-trillion-parameters-89172",
+      "description": "Huawei Launches Pangu 2.0 with 5 Trillion Parameters | Phemex News\n\nSign Up to 15,000 USDT in Rewards\n\nLimited-time offer is waiting for you!\n\nSign Up\n\nHuawei has launched its open-source large model, openPangu 2.0, at HDC 2026, featuring Pro and Flash versions with 512K context support. The 2.0 Pro",
+      "published": "2026-06-12T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "5万亿参数的盘古2.0发布，标志着国产大模型在参数规模上迈入新阶段，将大幅提升工业和科学计算的AI能力。",
+        "开源策略有助于华为构建以昇腾算力为核心的AI生态，打破英伟达CUDA生态的垄断，推动国产算力链发展。"
+      ],
+      "actions": [
+        "AI应用开发商应积极适配盘古2.0开源生态，利用昇腾算力降低训练和推理成本。",
+        "算力基础设施提供商需关注国产万卡集群的组网与调度需求，优化液冷及网络设备方案以适配超大模型训练。"
+      ],
+      "glossary": [
+        {
+          "term": "参数量",
+          "desc": "衡量神经网络模型规模和大小的指标，通常参数量越大的模型表达能力越强，但训练和推理所需的算力与内存也越高。",
+          "category": "AI"
+        }
+      ],
+      "region": "overseas",
+      "summary": "华为发布了其开源大模型盘古2.0，该模型的参数量达到5万亿，进一步提升了AI计算能力。",
+      "tag_category": "综合",
+      "title_en": "Huawei Launches Pangu 2.0 with 5 Trillion Parameters | Phemex News"
+    },
+    {
+      "title": "Altera发布Agilex 5 FPGA开发套件：高性能AI与边缘计算解决方案（Agilex 5 FPGA Development Kit: High-Performance AI and Edge Computing Solution from Altera）",
+      "url": "https://www.electronicsmedia.info/2026/06/12/agilex-5-fpga-development-kit/",
+      "description": "Agilex 5 FPGA Development Kit: High-Performance AI and Edge Computing Solution from Altera\n\n- Products News\n- Business News\n\nTech Focus\n\nApplications\n\nTrending Technology\n\nEditorial\n\nMore\n\nSearch\n\nFriday, June 12, 2026\n\nSign in\n\nWelcome! Log into your account\n\nyour username\n\nyour password\n\nForgot yo",
+      "published": "2026-06-12T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "FPGA在AI和边缘计算领域的应用正在深化，Agilex 5系列填补了中端性能与低功耗之间的市场空白。",
+        "Altera作为独立运营品牌后，正加速推出差异化产品以巩固其在FPGA市场的竞争地位。"
+      ],
+      "actions": [
+        "关注Agilex 5开发套件的供货情况及生态支持，评估其在边缘AI项目中的适用性。",
+        "对比Xilinx等竞争对手的同类产品，优化自身边缘计算硬件选型策略。"
+      ],
+      "glossary": [
+        {
+          "term": "FPGA",
+          "desc": "现场可编程门阵列，一种半定制电路，可灵活配置硬件逻辑",
+          "category": "芯片架构"
+        },
+        {
+          "term": "Agilex 5",
+          "desc": "Intel/Altera推出的FPGA产品系列，主打中端性能与低功耗",
+          "category": "产品"
+        }
+      ],
+      "region": "overseas",
+      "summary": "Altera推出Agilex 5 FPGA开发套件，旨在为高性能AI和边缘计算应用提供解决方案。",
+      "tag_category": "综合",
+      "title_en": "Agilex 5 FPGA Development Kit: High-Performance AI and Edge Computing Solution from Altera"
+    },
+    {
+      "title": "安靠科技完成Peoria扩产且2028年展望偏软后，其估值是否仍具吸引力（Amkor Technology (AMKR) Stock After Peoria Expansion And Softer 2028 Outlook Is The Valuation Still Attractive - Simply Wall St News）",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-amkr/amkor-technology/news/amkor-technology-amkr-stock-after-peoria-expansion-and-softe",
+      "description": "Amkor Technology (AMKR) Stock After Peoria Expansion And Softer 2028 Outlook Is The Valuation Still Attractive - Simply Wall St News\n\nAdvertisement\n\nAmkor Technology (AMKR) is back in focus after expanding its Peoria, Arizona campus to build what it calls the first high volume advanced packaging OSA",
+      "published": "2026-06-12T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "封装巨头安靠的扩产动作表明其对先进封装长期需求的看好，但短期宏观或需求波动导致2028展望偏软。",
+        "估值重估反映了资本市场对半导体封装行业周期性波动的担忧，短期盈利能力可能承压。"
+      ],
+      "actions": [
+        "密切关注安靠Peoria工厂的产能爬坡进度及客户导入情况，评估先进封装供给格局变化。",
+        "针对封装厂可能出现的产能调整或价格策略变化，提前调整供应链采购与成本预算。"
+      ],
+      "glossary": [
+        {
+          "term": "Amkor Technology",
+          "desc": "安靠科技，全球最大的外包半导体封装和测试服务提供商之一",
+          "category": "企业"
+        },
+        {
+          "term": "Peoria",
+          "desc": "安靠科技在美国亚利桑那州Peoria的先进封装制造基地",
+          "category": "制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "安靠科技在完成Peoria工厂扩产后，由于2028年业绩展望偏软，市场正在重新评估其股票估值吸引力。",
+      "tag_category": "Fab/制造",
+      "title_en": "Amkor Technology (AMKR) Stock After Peoria Expansion And Softer 2028 Outlook Is The Valuation Still Attractive - Simply Wall St News"
+    },
+    {
+      "title": "AI服务器主板正在驱动ASMPT SMT解决方案的需求（AI Server Boards are Driving Demand at ASMPT SMT Solutions）",
+      "url": "https://smttoday.com/2026/06/12/ai-server-boards-are-driving-demand-at-asmpt-smt-solutions/",
+      "description": "AI Server Boards are Driving Demand at ASMPT SMT Solutions\n\nFacebook Instagram Twitter Vimeo Youtube\n\nElectronics\n\nEvents\n\nTrade Associations\n\nWorld\n\nSearch\n\nSearch\n\nHome Electronics News AI Server Boards are Driving Demand at ASMPT SMT Solutions\n\nAI server boards are driving demand at ASMPT SMT Sol",
+      "published": "2026-06-12T00:00:00.000Z",
+      "source": "Exa",
+      "source_type": "Exa",
+      "lang": "en",
+      "tags": [],
+      "insights": [
+        "AI服务器由于高功耗和高密度设计，对PCB主板及SMT贴装设备提出了更高精度和更复杂工艺的要求。",
+        "ASMPT作为半导体及SMT设备龙头，正受益于AI基础设施扩张带来的设备端资本开支红利。"
+      ],
+      "actions": [
+        "评估ASMPT等SMT设备供应商的交期变化，提前锁定AI服务器主板产线设备资源。",
+        "针对AI服务器主板的高密度贴装需求，升级现有SMT产线工艺能力与检测标准。"
+      ],
+      "glossary": [
+        {
+          "term": "ASMPT",
+          "desc": "ASM太平洋科技，全球领先的半导体封装及SMT设备供应商",
+          "category": "企业"
+        },
+        {
+          "term": "SMT",
+          "desc": "表面贴装技术，将电子元器件贴装在PCB表面的工艺技术",
+          "category": "制造"
+        }
+      ],
+      "region": "overseas",
+      "summary": "AI服务器主板的快速增长正在显著拉动ASMPT的SMT（表面贴装技术）解决方案需求。",
+      "tag_category": "综合",
+      "title_en": "AI Server Boards are Driving Demand at ASMPT SMT Solutions"
     }
   ],
   "stats": {
     "total_raw": 140,
-    "after_dedup": 107,
+    "after_dedup": 101,
     "sources": {
       "Serper": 1,
-      "Exa": 32,
+      "Exa": 28,
       "RSS": 45,
-      "Brave": 29
+      "Brave": 27
     }
   },
   "code_version": "",
